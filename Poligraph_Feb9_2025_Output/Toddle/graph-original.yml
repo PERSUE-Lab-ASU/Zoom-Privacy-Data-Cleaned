@@ -1,0 +1,268 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - After receiving your request, we may still retain information for up to 365 days
+    to provide customer support and prevent accidental deletion.
+  - For our users in Australia, we store the data in servers in Sydney to ensure compliance
+    with APA.
+  - For our users in China, we store the data in servers in Beijing to ensure compliance
+    with PIPL.
+  - For our users in Europe, we store the data in servers in Ireland to ensure compliance
+    with GDPR.
+  - For users in the USA, please note that to comply with FERPA, we may need to retain
+    certain student education records once a valid request to inspect those records
+    has been made and we may retain your data to comply to the FERPA requirements.
+  - In case of the sale, merger, bankruptcy, sale of assets or reorganisation of our
+    company, we may disclose or transfer your data.
+  - Our Privacy Policy outlines what data we collect and how we use it.
+  - This section explains how we collect, use, disclose, and protect your information
+    when using Toddle AI's services.
+  - We collect information from all individuals creating an account on Toddle.
+  - Your data is securely stored using industry-standard methods and we are open about
+    how we collect, use, and disclose it as outlined in our Privacy Policy.
+  purposes:
+    legal:
+    - to comply to the FERPA requirements
+    - to comply with FERPA
+    - to ensure compliance with APA
+    - to ensure compliance with GDPR
+    - to ensure compliance with PIPL
+    security:
+    - to provide customer support and prevent accidental deletion
+    services:
+    - to provide customer support and prevent accidental deletion
+    - to retain certain student education records
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - In order to improve your experience with Toddle, we collect and use aggregate
+    data about usage patterns of how you use Toddle - for example, how you interact
+    with various features on a page, the buttons that you click, the time that you
+    spend on a page, etc.
+  purposes:
+    services:
+    - In order to improve your experience with Toddle
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - We use the collected data only to provide services to you as laid out in the Privacy
+    Policy and as authorised by your school.
+  purposes:
+    services:
+    - only to provide services to you as laid out in the Privacy Policy and as authorised
+      by your school
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Additionally we also use cookies to keep you logged into your system to improve
+    your user experience.
+  purposes:
+    services:
+    - to keep you logged into your system to improve your user experience
+- source: we
+  target: cookies
+  key: COLLECT
+  text:
+  - We use Cookies and other similar services (such as Local Storage) to keep you
+    logged in to Toddle, customize your Toddle experience, understand how you use
+    Toddle, and promote Toddle to relevant teachers and schools.
+  purposes:
+    services:
+    - to keep you logged in to Toddle, customize your Toddle experience, understand
+      how you use Toddle, and promote Toddle to relevant teachers and schools
+- source: we
+  target: datum we need for
+  key: COLLECT
+  text:
+  - We only collect the data that we need for providing Toddle services.
+  purposes: {}
+- source: we
+  target: log datum
+  key: COLLECT
+  text:
+  - '"Log Data" : We collect log data such as your IP address, browser type, device
+    type, operating system, and your mobile carrier.'
+  - 'Data collected by Toddle
+
+
+    We also collect log data from all the visitors to our website and teachers and
+    school administrators willingly leaving data for our marketing campaigns.'
+  purposes: {}
+- source: we
+  target: minimal datum necessary
+  key: COLLECT
+  text:
+  - We only collect minimal data necessary for our services and store it securely
+    using industry-standard measures.
+  purposes: {}
+- source: we
+  target: minimal personal information require
+  key: COLLECT
+  text:
+  - We collect only the minimal personal information required to deliver our services,
+    and we secure all collected data using best-in-class encryption and storage practices.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We only gather and handle personal information when necessary for delivering our
+    services, subject to your explicit consent.
+  purposes: {}
+- source: we
+  target: small number
+  key: COLLECT
+  text:
+  - We use a small number of third-party services to collect and analyze this data
+    (such as Google Analytics, Sentry).
+  purposes: {}
+- source: we
+  target: student education record
+  key: COLLECT
+  text:
+  - For users in the USA, please note that to comply with FERPA, we may need to retain
+    certain student education records once a valid request to inspect those records
+    has been made and we may retain your data to comply to the FERPA requirements.
+  purposes:
+    legal:
+    - to comply with FERPA
+- source: Facebook
+  target: information collect through facebook pixel
+  key: COLLECT
+  text:
+  - Information collected through the Facebook pixel may be shared with Facebook.
+  purposes: {}
+- source: toddle
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Toddle stores and manages information according to the instructions given by the
+    Data Controller/Data Fiduciary.
+  - Toddle will retain your information for 7 years or as long as necessary to fulfill
+    the purposes outlined in its Privacy Policy.
+  purposes:
+    legal:
+    - to fulfill the purposes outlined in its Privacy Policy
+- source: toddle
+  target: accelerometer
+  key: COLLECT
+  text:
+  - When using our mobile application, Toddle may access features such as the camera,
+    music, album/gallery and accelerometer on your device to provide the desired services.
+  purposes:
+    services:
+    - to provide the desired services
+- source: toddle
+  target: datum about report card with toddle ai
+  key: COLLECT
+  text:
+  - Toddle shares data about report cards, unit plans, learning experiences and interactions
+    of teachers with Toddle AI.
+  purposes: {}
+- source: toddle
+  target: minimal information
+  key: COLLECT
+  text:
+  - Toddle collects minimal information from you and only uses it for the purposes
+    explicitly called out in the Privacy Policy.
+  purposes: {}
+- source: toddle
+  target: music
+  key: COLLECT
+  text:
+  - When using our mobile application, Toddle may access features such as the camera,
+    music, album/gallery and accelerometer on your device to provide the desired services.
+  purposes:
+    services:
+    - to provide the desired services
+- source: toddle ai
+  target: pseudonymize datum collect from school
+  key: COLLECT
+  text:
+  - Toddle AI uses pseudonymized data collected from schools as context for prompts
+    to LLMs.
+  purposes: {}
+- source: we
+  target: assessment
+  key: SUBSUM
+  text:
+  - 'Products : Assessments & Gradebook All your assessment needs in one place'
+- source: log datum
+  target: browser type
+  key: SUBSUM
+  text:
+  - '"Log Data" : We collect log data such as your IP address, browser type, device
+    type, operating system, and your mobile carrier.'
+- source: log datum
+  target: device type
+  key: SUBSUM
+  text:
+  - '"Log Data" : We collect log data such as your IP address, browser type, device
+    type, operating system, and your mobile carrier.'
+- source: log datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - '"Log Data" : We collect log data such as your IP address, browser type, device
+    type, operating system, and your mobile carrier.'
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: assessment
+- type: ACTOR
+  id: toddle
+- type: ACTOR
+  id: toddle ai
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: accelerometer
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: cookies
+- type: DATA
+  id: datum about report card with toddle ai
+- type: DATA
+  id: datum we need for
+- type: DATA
+  id: device type
+- type: DATA
+  id: information collect through facebook pixel
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log datum
+- type: DATA
+  id: minimal datum necessary
+- type: DATA
+  id: minimal information
+- type: DATA
+  id: minimal personal information require
+- type: DATA
+  id: music
+- type: DATA
+  id: personal information
+- type: DATA
+  id: pseudonymize datum collect from school
+- type: DATA
+  id: small number
+- type: DATA
+  id: student education record

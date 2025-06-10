@@ -1,0 +1,281 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: central office
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our school and/or the Department's central or regional offices will use and disclose
+    information as considered appropriate to respond to these complaints (including
+    responding to complaints made to external organisations or agencies).
+  purposes: {}
+- source: school
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our school and/or the Department's central or regional offices will use and disclose
+    information as considered appropriate to respond to these complaints (including
+    responding to complaints made to external organisations or agencies).
+  - 'Our school collects information in a number of ways, including:'
+  - 'Our school uses or discloses information, as follows:'
+  purposes:
+    analytics:
+    - for research, development or school statistics purposes
+    legal:
+    - for example, to enable the school council to fulfil its objectives, functions
+      and powers
+    security:
+    - a person's life, health, safety or welfare
+    - the public's health, safety or welfare
+    services:
+    - for example, to enable the school council to fulfil its objectives, functions
+      and powers
+- source: school
+  target: identifier
+  key: COLLECT
+  text:
+  - 'Our school uses or discloses information, as follows: when necessary to lessen
+    or prevent a serious threat to: A unique identifier is assigned to each student
+    to enable the school to carry out its functions effectively.'
+  purposes:
+    services:
+    - to enable the school to carry out its functions effectively
+- source: school
+  target: information about staff
+  key: COLLECT
+  text:
+  - 'Our school collects information about staff, volunteers and job applicants:'
+  purposes:
+    advertising:
+    - to assess applicants' suitability for employment or volunteering
+    analytics:
+    - to assess applicants' suitability for employment or volunteering
+    legal:
+    - to respond to legal claims against our school/the Department
+    security:
+    - for insurance purposes
+    services:
+    - to administer employment or volunteer placement
+    - to assess applicants' suitability for employment or volunteering
+- source: school
+  target: information about student
+  key: COLLECT
+  text:
+  - 'Our school collects information about students and when necessary to:'
+  - 'Our school collects the following type of information: information about students,
+    provided by students and others.'
+  purposes:
+    legal:
+    - 'to: fulfil statutory functions and duties'
+- source: school
+  target: information about you we take active step collect
+  key: COLLECT
+  text:
+  - Our school may receive information about you that we have taken no active steps
+    to collect.
+  purposes: {}
+- source: school
+  target: ordinary school communication
+  key: COLLECT
+  text:
+  - Our school only provides school reports and ordinary school communications to
+    students who have a legal right to that information.
+  purposes: {}
+- source: school
+  target: paper
+  key: COLLECT
+  text:
+  - Our school stores all paper and electronic records securely, consistent with the
+    Department's records management policy and information security standards.
+  purposes: {}
+- source: school
+  target: record of information
+  key: COLLECT
+  text:
+  - If permitted or required by law, our school may keep records of this information.
+  purposes: {}
+- source: school
+  target: school report
+  key: COLLECT
+  text:
+  - Our school only provides school reports and ordinary school communications to
+    students who have a legal right to that information.
+  purposes: {}
+- source: agency
+  target: Department of Health and Human Services
+  key: SUBSUM
+  text:
+  - 'Our school uses or discloses information, as follows: when necessary to lessen
+    or prevent a serious threat to: when required or authorised by law - including
+    as a result of our duty of care, anti-discrimination law, occupational health
+    and safety law, reporting obligations to agencies such as Department of Health
+    and Human Services and complying with tribunal or court orders, subpoenas or Police
+    warrants'
+- source: electronic documentation
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Our school collects information in a number of ways, including: from electronic
+    and paper documentation: including job applications, emails, invoices, enrollment
+    forms, exams, excercises, letters to our school, consent forms (for example: enrolment,
+    excursion, Student Support Services consent forms), our school''s website or school-controlled
+    social media'
+- source: electronic documentation
+  target: enrollment form
+  key: SUBSUM
+  text:
+  - 'Our school collects information in a number of ways, including: from electronic
+    and paper documentation: including job applications, emails, invoices, enrollment
+    forms, exams, excercises, letters to our school, consent forms (for example: enrolment,
+    excursion, Student Support Services consent forms), our school''s website or school-controlled
+    social media'
+- source: electronic documentation
+  target: excercise
+  key: SUBSUM
+  text:
+  - 'Our school collects information in a number of ways, including: from electronic
+    and paper documentation: including job applications, emails, invoices, enrollment
+    forms, exams, excercises, letters to our school, consent forms (for example: enrolment,
+    excursion, Student Support Services consent forms), our school''s website or school-controlled
+    social media'
+- source: electronic documentation
+  target: invoice
+  key: SUBSUM
+  text:
+  - 'Our school collects information in a number of ways, including: from electronic
+    and paper documentation: including job applications, emails, invoices, enrollment
+    forms, exams, excercises, letters to our school, consent forms (for example: enrolment,
+    excursion, Student Support Services consent forms), our school''s website or school-controlled
+    social media'
+- source: electronic documentation
+  target: job application
+  key: SUBSUM
+  text:
+  - 'Our school collects information in a number of ways, including: from electronic
+    and paper documentation: including job applications, emails, invoices, enrollment
+    forms, exams, excercises, letters to our school, consent forms (for example: enrolment,
+    excursion, Student Support Services consent forms), our school''s website or school-controlled
+    social media'
+- source: electronic documentation
+  target: letter to school
+  key: SUBSUM
+  text:
+  - 'Our school collects information in a number of ways, including: from electronic
+    and paper documentation: including job applications, emails, invoices, enrollment
+    forms, exams, excercises, letters to our school, consent forms (for example: enrolment,
+    excursion, Student Support Services consent forms), our school''s website or school-controlled
+    social media'
+- source: specific characteristic
+  target: affiliation
+  key: SUBSUM
+  text:
+  - Sensitive information is information or opinion about a set of specific characteristics,
+    including a person's racial or ethnic origin, political opinions or affiliations,
+    religious beliefs or affiliations, philosophical beliefs, sexual orientation or
+    practices; or criminal record.
+- source: specific characteristic
+  target: criminal record
+  key: SUBSUM
+  text:
+  - Sensitive information is information or opinion about a set of specific characteristics,
+    including a person's racial or ethnic origin, political opinions or affiliations,
+    religious beliefs or affiliations, philosophical beliefs, sexual orientation or
+    practices; or criminal record.
+- source: specific characteristic
+  target: philosophical belief
+  key: SUBSUM
+  text:
+  - Sensitive information is information or opinion about a set of specific characteristics,
+    including a person's racial or ethnic origin, political opinions or affiliations,
+    religious beliefs or affiliations, philosophical beliefs, sexual orientation or
+    practices; or criminal record.
+- source: specific characteristic
+  target: political opinion
+  key: SUBSUM
+  text:
+  - Sensitive information is information or opinion about a set of specific characteristics,
+    including a person's racial or ethnic origin, political opinions or affiliations,
+    religious beliefs or affiliations, philosophical beliefs, sexual orientation or
+    practices; or criminal record.
+- source: specific characteristic
+  target: racial origin
+  key: SUBSUM
+  text:
+  - Sensitive information is information or opinion about a set of specific characteristics,
+    including a person's racial or ethnic origin, political opinions or affiliations,
+    religious beliefs or affiliations, philosophical beliefs, sexual orientation or
+    practices; or criminal record.
+- source: specific characteristic
+  target: religious belief
+  key: SUBSUM
+  text:
+  - Sensitive information is information or opinion about a set of specific characteristics,
+    including a person's racial or ethnic origin, political opinions or affiliations,
+    religious beliefs or affiliations, philosophical beliefs, sexual orientation or
+    practices; or criminal record.
+- source: specific characteristic
+  target: sexual orientation
+  key: SUBSUM
+  text:
+  - Sensitive information is information or opinion about a set of specific characteristics,
+    including a person's racial or ethnic origin, political opinions or affiliations,
+    religious beliefs or affiliations, philosophical beliefs, sexual orientation or
+    practices; or criminal record.
+nodes:
+- type: ACTOR
+  id: Department of Health and Human Services
+- type: ACTOR
+  id: agency
+- type: ACTOR
+  id: central office
+- type: ACTOR
+  id: school
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: affiliation
+- type: DATA
+  id: criminal record
+- type: DATA
+  id: electronic documentation
+- type: DATA
+  id: email address
+- type: DATA
+  id: enrollment form
+- type: DATA
+  id: excercise
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about staff
+- type: DATA
+  id: information about student
+- type: DATA
+  id: information about you we take active step collect
+- type: DATA
+  id: invoice
+- type: DATA
+  id: job application
+- type: DATA
+  id: letter to school
+- type: DATA
+  id: ordinary school communication
+- type: DATA
+  id: paper
+- type: DATA
+  id: philosophical belief
+- type: DATA
+  id: political opinion
+- type: DATA
+  id: racial origin
+- type: DATA
+  id: record of information
+- type: DATA
+  id: religious belief
+- type: DATA
+  id: school report
+- type: DATA
+  id: sexual orientation
+- type: DATA
+  id: specific characteristic

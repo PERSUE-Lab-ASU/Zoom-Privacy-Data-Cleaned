@@ -1,0 +1,631 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we may disclose information in response to subpoenas, court order,
+    and other lawful requests by regulators and law enforcement, including responding
+    to national security or law enforcement disclosure requirements.
+  - In order to provide our services, we collect various types of data from integrated
+    applications.
+  - We may disclose information to another entity in connection with, including during
+    negotiations of, an acquisition or merger, sale or transfer of our assets, a,
+    bankruptcy proceeding or as part of any other similar business transfer, including
+    during negotiations related to such transactions.
+  - We may retain certain data as necessary to prevent fraud or future abuse, or for
+    legitimate business purposes, such as analysis of aggregated data, account recovery,
+    or if required by law.
+  purposes:
+    services:
+    - In order to provide our services
+- source: we
+  target: account information
+  key: COLLECT
+  text:
+  - We may also ask or allow you to submit additional account information, such as
+    your phone number, company name, location etc.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We also create and use aggregate, anonymous and de-identified data to assess,
+    improve and develop our business, products and services, and for similar research
+    and analytics purposes.
+  - We may share aggregate or otherwise de-identified information about users with
+    third parties for marketing, advertising, research or similar purposes.
+  purposes:
+    advertising:
+    - for marketing, advertising, research or similar purposes
+    analytics:
+    - for marketing, advertising, research or similar purposes
+    - to assess, improve and develop our business, products and services, and for
+      similar research and analytics purposes
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We and our third party service providers may also use clear GIFs in HTML email
+    to you, to help us track email response rates, identify when our email are viewed,
+    and track whether our email are forwarded.
+  - We and our third-party service providers may use cookies, log files, Web beacons
+    and other tracking mechanisms to track information about your use of our Services.
+  - We and our third-party service providers use cookies and other tracking mechanisms
+    to track information about your use of our Services.
+  - We may use clear GIFs (a.k.a. web beacons, web bugs or pixel tags), in connection
+    with our Services to, among other things, track the activities of Site visitors,
+    help us manage content, and compile statistics about Site usage.
+  purposes:
+    analytics:
+    - to help us track email response rates, identify when our email are viewed, and
+      track whether our email are forwarded
+    - to track information about your use of our Services
+    - to, among other things, track the activities of Site visitors, help us manage
+      content, and compile statistics about Site usage
+- source: we
+  target: copy of record
+  key: COLLECT
+  text:
+  - We keep a copy of such records in our customer files.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We may use geolocation information for the purpose of administering our Services
+    to you.
+  purposes:
+    services:
+    - for the purpose of administering our Services to you
+- source: we
+  target: information about device
+  key: COLLECT
+  text:
+  - We also collect information about your device & operating system to ensure compliance
+    with the company IT & Security policy.
+  purposes:
+    legal:
+    - to ensure compliance with the company IT & Security policy
+    security:
+    - to ensure compliance with the company IT & Security policy
+- source: we
+  target: information about employee
+  key: COLLECT
+  text:
+  - We may use information about employees and other company personnel to communicate
+    with you about your account and use of our Services; to send you product or service,
+    updates; to respond to your inquiries; to provide you with news, special offers,
+    promotions, and other information we think may interest you; and for other informational,
+    marketing, or promotional purposes.
+  purposes:
+    advertising:
+    - to communicate with you about your account and use of our Services; to send
+      you product or service, updates; to respond to your inquiries; to provide you
+      with news, special offers, promotions, and other information we think may interest
+      you; and for other informational, marketing, or promotional purposes
+    analytics:
+    - to communicate with you about your account and use of our Services; to send
+      you product or service, updates; to respond to your inquiries; to provide you
+      with news, special offers, promotions, and other information we think may interest
+      you; and for other informational, marketing, or promotional purposes
+    services:
+    - to communicate with you about your account and use of our Services; to send
+      you product or service, updates; to respond to your inquiries; to provide you
+      with news, special offers, promotions, and other information we think may interest
+      you; and for other informational, marketing, or promotional purposes
+- source: we
+  target: information about visit to site
+  key: COLLECT
+  text:
+  - We may use information about your visit to our Site for these purposes; however,
+    we do not use personal information collected from the Services for these purposes.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - Please note that we may retain certain information about you as required by law
+    or as permitted by law for legitimate business purposes (e.g., in accordance with
+    our record retention policies or to enforce our Terms of Service).
+  - We automatically collect information about you through your use of our Services,
+    including log files, IP address, app identifier, advertising ID, location info,
+    browser type, device type, domain name, the website that led you to our Services,
+    the website to which you go after leaving our Services, the dates and times you
+    access our Services, and the links you click and your other activities within
+    the Services ("Usage Data").
+  - We may also collect information about you from third parties, which we append
+    to the information we have collected.
+  purposes: {}
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - We may use the information we collect about you to personalize the information
+    and content we display to you, including to tailor the content and information
+    that we may send or display to you, and to otherwise personalize your experiences
+    while using Services, including providing you with more relevant ads.
+  purposes:
+    advertising:
+    - to personalize the information and content we display to you, including to tailor
+      the content and information that we may send or display to you, and to otherwise
+      personalize your experiences while using Services, including providing you with
+      more relevant ads
+    analytics:
+    - to personalize the information and content we display to you, including to tailor
+      the content and information that we may send or display to you, and to otherwise
+      personalize your experiences while using Services, including providing you with
+      more relevant ads
+    services:
+    - to personalize the information and content we display to you, including to tailor
+      the content and information that we may send or display to you, and to otherwise
+      personalize your experiences while using Services, including providing you with
+      more relevant ads
+- source: we
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - We also may disclose the information we collect from you in order to comply with
+    the law, a judicial proceeding, court order, or other legal process, such as in
+    response to a court order or a subpoena.
+  - We may disclose the information we collect from you to our third-party vendors,
+    service providers, marketing partners, third parties, contractors or agents who
+    perform functions on our behalf so we can provide you with the Services.
+  purposes:
+    legal:
+    - in order to comply with the law, a judicial proceeding, court order, or other
+      legal process, such as in response to a court order or a subpoena
+- source: we
+  target: information we collect from you we believe
+  key: COLLECT
+  text:
+  - We also may disclose the information we collect from you where we believe it is
+    necessary to investigate, prevent, or take action regarding illegal activities,
+    suspected fraud, situations involving potential threats to the safety of any person,
+    violations of our Terms of Use or this Policy, or as evidence in litigation in
+    which we are involved.
+  purposes: {}
+- source: we
+  target: log file
+  key: COLLECT
+  text:
+  - We and our third-party service providers may use cookies, log files, Web beacons
+    and other tracking mechanisms to track information about your use of our Services.
+  purposes:
+    analytics:
+    - to track information about your use of our Services
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As such, we and our service providers may transfer your personal information to,
+    or access it in, jurisdictions (including the United States, India, and Mexico)
+    that may not provide levels of data protection equivalent to your home jurisdiction.
+  - In addition, in rare cases we may process your personal information where necessary
+    to protect the vital interests of any individual.
+  - 'In general, we disclose the personal information we collect as follows:'
+  - 'Pursuant to the GDPR (and other similar laws), we process personal information
+    for the following legal bases:'
+  - 'Right to (data) portability: You can ask us to provide your personal information
+    to you in a structured, commonly used, machine-readable format, or you can ask
+    to have it ''ported'' directly to another Data Controller, but only where our
+    processing is based on your consent and the processing is carried out by automated
+    means.'
+  - This Privacy Policy describes how we collect, store, use and disclose, or otherwise
+    process (collectively "process") information, including personal information,
+    that we obtain about visitors and users of our website www.ayraa.io (with an alias
+    of www.ayraa.com ) (the "Site") as well as users of our software and related services
+    and mobile applications (collectively, the "Services").
+  - We collect information (including personal information) from you directly as set
+    out below.
+  - We collect personal information from you when you sign up for an account with
+    us, including your name and email address.
+  - We collect personal information you provide, when you submit a request through
+    our Site, such as your email address, or if you otherwise contact our customer
+    support services via email, phone, or chat, related to your enquiry or complaint.
+  - We may collect information, including personal information (as defined by applicable
+    privacy law), directly from you, or automatically through your use of the Services.
+  - We may share your personal information with our affiliates, whose handling of
+    personal information is subject to this Policy.
+  - We process your personal information as set forth in this Policy or otherwise
+    with your consent or as permitted or required by law.
+  - We will generally keep personal information only for as long as it remains necessary
+    for the identified purposes for which it was collected or as authorized or required
+    by law.
+  - 'You can ask us to restrict (i.e., keep but not use) your personal information,
+    but only where: its accuracy is contested, to allow us to verify its accuracy;
+    the processing is unlawful, but you do not want it erased; it is no longer needed
+    for the purposes for which it was collected, but we still need it to establish,
+    exercise or defend legal claims; you have exercised the right to object, and verification
+    of overriding grounds is pending. We can continue to use your personal information
+    following a request for restriction, where: we have your consent; to establish,
+    exercise or defend legal claims; or to protect the rights of another natural or
+    legal person.'
+  - 'You can ask us to: confirm whether we are processing your personal information;
+    give you a copy of that information; provide you with other information about
+    your personal information such as what data we have, what we use it for, who we
+    disclose it to, whether we transfer it abroad and how we protect it, how long
+    we keep it for, what rights you have, how you can make a complaint, where we got
+    your information from and whether we have carried out any profiling, to the extent
+    that such information has not already been provided to you in this Policy.'
+  purposes:
+    security:
+    - to protect the vital interests of any individual
+    - 'to restrict (i.e., keep but not use) your personal information, but only where:
+      its accuracy is contested, to allow us to verify its accuracy; the processing
+      is unlawful, but you do not want it erased; it is no longer needed for the purposes
+      for which it was collected, but we still need it to establish, exercise or defend
+      legal claims; you have exercised the right to object, and verification of overriding
+      grounds is pending.'
+- source: we
+  target: personal information about use of service
+  key: COLLECT
+  text:
+  - We collect personal information about your use of our Services, such as your purchase
+    history, internal messages posted on our platform, engagement activities like
+    Likes, Comments, etc.
+  purposes: {}
+- source: we
+  target: relate datum
+  key: COLLECT
+  text:
+  - To do this, we share your search-related data with OpenAI.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may disclose information to another entity in connection with, including during
+    negotiations of, an acquisition or merger, sale or transfer of our assets, a,
+    bankruptcy proceeding or as part of any other similar business transfer, including
+    during negotiations related to such transactions.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share aggregate or otherwise de-identified information about users with
+    third parties for marketing, advertising, research or similar purposes.
+  purposes:
+    advertising:
+    - for marketing, advertising, research or similar purposes
+    analytics:
+    - for marketing, advertising, research or similar purposes
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These entities may use cookies and other tracking technologies to perform their
+    services.
+  - We and our third party service providers may also use clear GIFs in HTML email
+    to you, to help us track email response rates, identify when our email are viewed,
+    and track whether our email are forwarded.
+  - We and our third-party service providers may use cookies, log files, Web beacons
+    and other tracking mechanisms to track information about your use of our Services.
+  - We and our third-party service providers use cookies and other tracking mechanisms
+    to track information about your use of our Services.
+  purposes:
+    analytics:
+    - to help us track email response rates, identify when our email are viewed, and
+      track whether our email are forwarded
+    - to track information about your use of our Services
+    services:
+    - to perform their services
+- source: UNSPECIFIED_ACTOR
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - We may disclose the information we collect from you to our third-party vendors,
+    service providers, marketing partners, third parties, contractors or agents who
+    perform functions on our behalf so we can provide you with the Services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: log file
+  key: COLLECT
+  text:
+  - We and our third-party service providers may use cookies, log files, Web beacons
+    and other tracking mechanisms to track information about your use of our Services.
+  purposes:
+    analytics:
+    - to track information about your use of our Services
+- source: agent who perform function on behalf
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - We may disclose the information we collect from you to our third-party vendors,
+    service providers, marketing partners, third parties, contractors or agents who
+    perform functions on our behalf so we can provide you with the Services.
+  purposes: {}
+- source: ayraa
+  target: google user datum
+  key: COLLECT
+  text:
+  - This section details how Ayraa accesses, uses, & stores Google user data.
+  purposes: {}
+- source: contractor
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - We may disclose the information we collect from you to our third-party vendors,
+    service providers, marketing partners, third parties, contractors or agents who
+    perform functions on our behalf so we can provide you with the Services.
+  purposes: {}
+- source: marketing partner
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - We may disclose the information we collect from you to our third-party vendors,
+    service providers, marketing partners, third parties, contractors or agents who
+    perform functions on our behalf so we can provide you with the Services.
+  purposes: {}
+- source: openai
+  target: relate datum
+  key: COLLECT
+  text:
+  - To do this, we share your search-related data with OpenAI.
+  purposes: {}
+- source: service provider
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - We may disclose the information we collect from you to our third-party vendors,
+    service providers, marketing partners, third parties, contractors or agents who
+    perform functions on our behalf so we can provide you with the Services.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - As such, we and our service providers may transfer your personal information to,
+    or access it in, jurisdictions (including the United States, India, and Mexico)
+    that may not provide levels of data protection equivalent to your home jurisdiction.
+  purposes: {}
+- source: we
+  target: mobile application
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how we collect, store, use and disclose, or otherwise
+    process (collectively "process") information, including personal information,
+    that we obtain about visitors and users of our website www.ayraa.io (with an alias
+    of www.ayraa.com ) (the "Site") as well as users of our software and related services
+    and mobile applications (collectively, the "Services").
+- source: we
+  target: related service
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how we collect, store, use and disclose, or otherwise
+    process (collectively "process") information, including personal information,
+    that we obtain about visitors and users of our website www.ayraa.io (with an alias
+    of www.ayraa.com ) (the "Site") as well as users of our software and related services
+    and mobile applications (collectively, the "Services").
+- source: account information
+  target: company name
+  key: SUBSUM
+  text:
+  - We may also ask or allow you to submit additional account information, such as
+    your phone number, company name, location etc.
+- source: account information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We may also ask or allow you to submit additional account information, such as
+    your phone number, company name, location etc.
+- source: account information
+  target: phone number
+  key: SUBSUM
+  text:
+  - We may also ask or allow you to submit additional account information, such as
+    your phone number, company name, location etc.
+- source: information about you
+  target: advertising id
+  key: SUBSUM
+  text:
+  - We automatically collect information about you through your use of our Services,
+    including log files, IP address, app identifier, advertising ID, location info,
+    browser type, device type, domain name, the website that led you to our Services,
+    the website to which you go after leaving our Services, the dates and times you
+    access our Services, and the links you click and your other activities within
+    the Services ("Usage Data").
+- source: information about you
+  target: app identifier
+  key: SUBSUM
+  text:
+  - We automatically collect information about you through your use of our Services,
+    including log files, IP address, app identifier, advertising ID, location info,
+    browser type, device type, domain name, the website that led you to our Services,
+    the website to which you go after leaving our Services, the dates and times you
+    access our Services, and the links you click and your other activities within
+    the Services ("Usage Data").
+- source: information about you
+  target: browser type
+  key: SUBSUM
+  text:
+  - We automatically collect information about you through your use of our Services,
+    including log files, IP address, app identifier, advertising ID, location info,
+    browser type, device type, domain name, the website that led you to our Services,
+    the website to which you go after leaving our Services, the dates and times you
+    access our Services, and the links you click and your other activities within
+    the Services ("Usage Data").
+- source: information about you
+  target: date
+  key: SUBSUM
+  text:
+  - We automatically collect information about you through your use of our Services,
+    including log files, IP address, app identifier, advertising ID, location info,
+    browser type, device type, domain name, the website that led you to our Services,
+    the website to which you go after leaving our Services, the dates and times you
+    access our Services, and the links you click and your other activities within
+    the Services ("Usage Data").
+- source: information about you
+  target: device type
+  key: SUBSUM
+  text:
+  - We automatically collect information about you through your use of our Services,
+    including log files, IP address, app identifier, advertising ID, location info,
+    browser type, device type, domain name, the website that led you to our Services,
+    the website to which you go after leaving our Services, the dates and times you
+    access our Services, and the links you click and your other activities within
+    the Services ("Usage Data").
+- source: information about you
+  target: domain name
+  key: SUBSUM
+  text:
+  - We automatically collect information about you through your use of our Services,
+    including log files, IP address, app identifier, advertising ID, location info,
+    browser type, device type, domain name, the website that led you to our Services,
+    the website to which you go after leaving our Services, the dates and times you
+    access our Services, and the links you click and your other activities within
+    the Services ("Usage Data").
+- source: information about you
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We automatically collect information about you through your use of our Services,
+    including log files, IP address, app identifier, advertising ID, location info,
+    browser type, device type, domain name, the website that led you to our Services,
+    the website to which you go after leaving our Services, the dates and times you
+    access our Services, and the links you click and your other activities within
+    the Services ("Usage Data").
+- source: information about you
+  target: internet activity
+  key: SUBSUM
+  text:
+  - We automatically collect information about you through your use of our Services,
+    including log files, IP address, app identifier, advertising ID, location info,
+    browser type, device type, domain name, the website that led you to our Services,
+    the website to which you go after leaving our Services, the dates and times you
+    access our Services, and the links you click and your other activities within
+    the Services ("Usage Data").
+- source: information about you
+  target: ip address
+  key: SUBSUM
+  text:
+  - We automatically collect information about you through your use of our Services,
+    including log files, IP address, app identifier, advertising ID, location info,
+    browser type, device type, domain name, the website that led you to our Services,
+    the website to which you go after leaving our Services, the dates and times you
+    access our Services, and the links you click and your other activities within
+    the Services ("Usage Data").
+- source: information about you
+  target: log file
+  key: SUBSUM
+  text:
+  - We automatically collect information about you through your use of our Services,
+    including log files, IP address, app identifier, advertising ID, location info,
+    browser type, device type, domain name, the website that led you to our Services,
+    the website to which you go after leaving our Services, the dates and times you
+    access our Services, and the links you click and your other activities within
+    the Services ("Usage Data").
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - We collect personal information from you when you sign up for an account with
+    us, including your name and email address.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - We collect personal information from you when you sign up for an account with
+    us, including your name and email address.
+- source: personal information about use of service
+  target: internal message post on platform
+  key: SUBSUM
+  text:
+  - We collect personal information about your use of our Services, such as your purchase
+    history, internal messages posted on our platform, engagement activities like
+    Likes, Comments, etc.
+- source: personal information about use of service
+  target: purchase history
+  key: SUBSUM
+  text:
+  - We collect personal information about your use of our Services, such as your purchase
+    history, internal messages posted on our platform, engagement activities like
+    Likes, Comments, etc.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: agent who perform function on behalf
+- type: ACTOR
+  id: ayraa
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: marketing partner
+- type: ACTOR
+  id: mobile application
+- type: ACTOR
+  id: openai
+- type: ACTOR
+  id: related service
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information
+- type: DATA
+  id: advertising id
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: app identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: company name
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: copy of record
+- type: DATA
+  id: date
+- type: DATA
+  id: device type
+- type: DATA
+  id: domain name
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: google user datum
+- type: DATA
+  id: information about device
+- type: DATA
+  id: information about employee
+- type: DATA
+  id: information about visit to site
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: information we collect from you
+- type: DATA
+  id: information we collect from you we believe
+- type: DATA
+  id: internal message post on platform
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log file
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information about use of service
+- type: DATA
+  id: phone number
+- type: DATA
+  id: purchase history
+- type: DATA
+  id: relate datum

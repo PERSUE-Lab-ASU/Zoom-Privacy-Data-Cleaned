@@ -1,0 +1,84 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal datum relate to user
+  key: COLLECT
+  text:
+  - 'The Owner may process Personal Data relating to Users if one of the following
+    applies:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: file
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, incident.io and any third-party services
+    may collect files that record interaction with incident.io (System logs) use other
+    Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: mobile information
+  key: COLLECT
+  text:
+  - No mobile information will be shared by incident.io with third parties/affiliates
+    for marketing/promotional purposes.
+  purposes:
+    advertising:
+    - for marketing/promotional purposes
+- source: UNSPECIFIED_ACTOR
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, incident.io and any third-party services
+    may collect files that record interaction with incident.io (System logs) use other
+    Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: incident.io
+  target: file
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, incident.io and any third-party services
+    may collect files that record interaction with incident.io (System logs) use other
+    Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: incident.io
+  target: mobile information
+  key: COLLECT
+  text:
+  - No mobile information will be shared by incident.io with third parties/affiliates
+    for marketing/promotional purposes.
+  purposes:
+    advertising:
+    - for marketing/promotional purposes
+- source: incident.io
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, incident.io and any third-party services
+    may collect files that record interaction with incident.io (System logs) use other
+    Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: incident.io
+- type: ACTOR
+  id: we
+- type: DATA
+  id: file
+- type: DATA
+  id: mobile information
+- type: DATA
+  id: personal datum relate to user
+- type: DATA
+  id: system log

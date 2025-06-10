@@ -1,0 +1,358 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may also share your information in the following circumstances:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Gutenberg Certs works with a variety of third parties and service providers to
+    help provide you with our Services and we may share personal information with
+    them to support these efforts.
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  - We work with a variety of third parties and service providers to help provide
+    you with our Services and we may share personal information with them to support
+    these efforts.
+  purposes:
+    services:
+    - only for the purposes of providing the Services to you and only on documented
+      instructions from you
+    - to help provide you with our Services
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Gutenberg Certs works with a variety of third parties and service providers to
+    help provide you with our Services and we may share personal information with
+    them to support these efforts.
+  - We work with a variety of third parties and service providers to help provide
+    you with our Services and we may share personal information with them to support
+    these efforts.
+  purposes:
+    services:
+    - to help provide you with our Services
+- source: company acquire business
+  target: personal information
+  key: COLLECT
+  text:
+  - 8. Personal information may also be shared with a company that acquires our business,
+    whether through merger, acquisition, bankruptcy, dissolution, reorganization,
+    or other similar transaction or proceeding.
+  purposes: {}
+- source: gutenberg certs
+  target: email address
+  key: COLLECT
+  text:
+  - You acknowledge that Gutenberg Certs will use the email address you provide on
+    opening an Account or as updated by you from time to time as the primary method
+    for communication with you.
+  purposes: {}
+- source: confidential information
+  target: information you receive relate to we not know to general public
+  key: SUBSUM
+  text:
+  - Gutenberg Certs' Confidential Information includes all information that you receive
+    relating to us, or to the Services, that is not known to the general public including
+    information related to our security program and practices.
+- source: detail for template
+  target: image
+  key: SUBSUM
+  text:
+  - You can submit details for a template, such as logos, images, signatures, or any
+    other Materials.
+- source: detail for template
+  target: logo
+  key: SUBSUM
+  text:
+  - You can submit details for a template, such as logos, images, signatures, or any
+    other Materials.
+- source: detail for template
+  target: signature
+  key: SUBSUM
+  text:
+  - You can submit details for a template, such as logos, images, signatures, or any
+    other Materials.
+- source: information associate with business
+  target: business plan
+  key: SUBSUM
+  text:
+  - '"Confidential Information" shall include, but shall not be limited to, any and
+    all information associated with a party''s business and not publicly known, including
+    specific business information, technical processes and formulas, software, issuers
+    or receivers lists, prospective issuers or receivers lists, names, addresses and
+    other information regarding customers and prospective customers, certs designs,
+    sales, costs (including any relevant processing fees), price lists, and other
+    unpublished financial information, business plans and marketing data, and any
+    other confidential and proprietary information, whether or not marked as confidential
+    or proprietary.'
+- source: information associate with business
+  target: cert design
+  key: SUBSUM
+  text:
+  - '"Confidential Information" shall include, but shall not be limited to, any and
+    all information associated with a party''s business and not publicly known, including
+    specific business information, technical processes and formulas, software, issuers
+    or receivers lists, prospective issuers or receivers lists, names, addresses and
+    other information regarding customers and prospective customers, certs designs,
+    sales, costs (including any relevant processing fees), price lists, and other
+    unpublished financial information, business plans and marketing data, and any
+    other confidential and proprietary information, whether or not marked as confidential
+    or proprietary.'
+- source: information associate with business
+  target: confidential information
+  key: SUBSUM
+  text:
+  - '"Confidential Information" shall include, but shall not be limited to, any and
+    all information associated with a party''s business and not publicly known, including
+    specific business information, technical processes and formulas, software, issuers
+    or receivers lists, prospective issuers or receivers lists, names, addresses and
+    other information regarding customers and prospective customers, certs designs,
+    sales, costs (including any relevant processing fees), price lists, and other
+    unpublished financial information, business plans and marketing data, and any
+    other confidential and proprietary information, whether or not marked as confidential
+    or proprietary.'
+- source: information associate with business
+  target: marketing datum
+  key: SUBSUM
+  text:
+  - '"Confidential Information" shall include, but shall not be limited to, any and
+    all information associated with a party''s business and not publicly known, including
+    specific business information, technical processes and formulas, software, issuers
+    or receivers lists, prospective issuers or receivers lists, names, addresses and
+    other information regarding customers and prospective customers, certs designs,
+    sales, costs (including any relevant processing fees), price lists, and other
+    unpublished financial information, business plans and marketing data, and any
+    other confidential and proprietary information, whether or not marked as confidential
+    or proprietary.'
+- source: information associate with business
+  target: person name
+  key: SUBSUM
+  text:
+  - '"Confidential Information" shall include, but shall not be limited to, any and
+    all information associated with a party''s business and not publicly known, including
+    specific business information, technical processes and formulas, software, issuers
+    or receivers lists, prospective issuers or receivers lists, names, addresses and
+    other information regarding customers and prospective customers, certs designs,
+    sales, costs (including any relevant processing fees), price lists, and other
+    unpublished financial information, business plans and marketing data, and any
+    other confidential and proprietary information, whether or not marked as confidential
+    or proprietary.'
+- source: information associate with business
+  target: postal address
+  key: SUBSUM
+  text:
+  - '"Confidential Information" shall include, but shall not be limited to, any and
+    all information associated with a party''s business and not publicly known, including
+    specific business information, technical processes and formulas, software, issuers
+    or receivers lists, prospective issuers or receivers lists, names, addresses and
+    other information regarding customers and prospective customers, certs designs,
+    sales, costs (including any relevant processing fees), price lists, and other
+    unpublished financial information, business plans and marketing data, and any
+    other confidential and proprietary information, whether or not marked as confidential
+    or proprietary.'
+- source: information associate with business
+  target: price list
+  key: SUBSUM
+  text:
+  - '"Confidential Information" shall include, but shall not be limited to, any and
+    all information associated with a party''s business and not publicly known, including
+    specific business information, technical processes and formulas, software, issuers
+    or receivers lists, prospective issuers or receivers lists, names, addresses and
+    other information regarding customers and prospective customers, certs designs,
+    sales, costs (including any relevant processing fees), price lists, and other
+    unpublished financial information, business plans and marketing data, and any
+    other confidential and proprietary information, whether or not marked as confidential
+    or proprietary.'
+- source: information associate with business
+  target: specific business information
+  key: SUBSUM
+  text:
+  - '"Confidential Information" shall include, but shall not be limited to, any and
+    all information associated with a party''s business and not publicly known, including
+    specific business information, technical processes and formulas, software, issuers
+    or receivers lists, prospective issuers or receivers lists, names, addresses and
+    other information regarding customers and prospective customers, certs designs,
+    sales, costs (including any relevant processing fees), price lists, and other
+    unpublished financial information, business plans and marketing data, and any
+    other confidential and proprietary information, whether or not marked as confidential
+    or proprietary.'
+- source: information associate with business
+  target: unpublished financial information
+  key: SUBSUM
+  text:
+  - '"Confidential Information" shall include, but shall not be limited to, any and
+    all information associated with a party''s business and not publicly known, including
+    specific business information, technical processes and formulas, software, issuers
+    or receivers lists, prospective issuers or receivers lists, names, addresses and
+    other information regarding customers and prospective customers, certs designs,
+    sales, costs (including any relevant processing fees), price lists, and other
+    unpublished financial information, business plans and marketing data, and any
+    other confidential and proprietary information, whether or not marked as confidential
+    or proprietary.'
+- source: information you receive relate to we not know to general public
+  target: information relate to security program
+  key: SUBSUM
+  text:
+  - Gutenberg Certs' Confidential Information includes all information that you receive
+    relating to us, or to the Services, that is not known to the general public including
+    information related to our security program and practices.
+- source: pay per click keyword
+  target: google adwords
+  key: SUBSUM
+  text:
+  - You shall not purchase search engine or other pay per click keywords (such as
+    Google AdWords), or domain names that use Gutenberg Certs or Gutenberg Certs trademarks
+    and/or variations and misspellings thereof.
+- source: personal information
+  target: current address
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+- source: personal information
+  target: personal datum contain in content upload
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+- source: personal information
+  target: registration datum
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+- source: service old
+  target: for subscription do in past month
+  key: SUBSUM
+  text:
+  - The claimed amounts cannot be made for payments operated more than 10 days from
+    the date of the payment, and they cannot cover services older than 10 days - for
+    example subscriptions done in past months.
+- source: valid payment method
+  target: credit card
+  key: SUBSUM
+  text:
+  - A valid payment method (like a credit card) is required for all purchases.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: company acquire business
+- type: ACTOR
+  id: for subscription do in past month
+- type: ACTOR
+  id: gutenberg certs
+- type: ACTOR
+  id: service old
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: business plan
+- type: DATA
+  id: cert design
+- type: DATA
+  id: confidential information
+- type: DATA
+  id: credit card
+- type: DATA
+  id: current address
+- type: DATA
+  id: detail for template
+- type: DATA
+  id: email address
+- type: DATA
+  id: google adwords
+- type: DATA
+  id: image
+- type: DATA
+  id: information associate with business
+- type: DATA
+  id: information relate to security program
+- type: DATA
+  id: information you receive relate to we not know to general public
+- type: DATA
+  id: logo
+- type: DATA
+  id: marketing datum
+- type: DATA
+  id: pay per click keyword
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum contain in content upload
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: price list
+- type: DATA
+  id: registration datum
+- type: DATA
+  id: signature
+- type: DATA
+  id: specific business information
+- type: DATA
+  id: unpublished financial information
+- type: DATA
+  id: valid payment method

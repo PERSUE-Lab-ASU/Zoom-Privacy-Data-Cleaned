@@ -1,0 +1,110 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'We use the collected data to:'
+  purposes:
+    advertising:
+    - 'to: Conduct marketing and analytics'
+    analytics:
+    - 'to: Conduct marketing and analytics'
+    legal:
+    - 'to: Comply with legal obligations and protect our legal rights'
+    services:
+    - 'to: Communicate with you regarding your account or services'
+    - 'to: Provide and improve our services'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to enhance site functionality and user experience.
+  - We use cookies to ensure our website works properly, personalize your browsing
+    experience, and analyze how you use our website.
+  purposes:
+    analytics:
+    - to ensure our website works properly, personalize your browsing experience,
+      and analyze how you use our website
+    services:
+    - to enhance site functionality and user experience
+    - to ensure our website works properly, personalize your browsing experience,
+      and analyze how you use our website
+- source: identifier
+  target: account information
+  key: SUBSUM
+  text:
+  - 'Identifiers: Such as name, email address, IP address, and account information.'
+- source: identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Identifiers: Such as name, email address, IP address, and account information.'
+- source: identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Identifiers: Such as name, email address, IP address, and account information.'
+- source: identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Identifiers: Such as name, email address, IP address, and account information.'
+- source: information on
+  target: interaction datum
+  key: SUBSUM
+  text:
+  - 'Usage Data: Information on how services are used, including interaction data.'
+- source: service delivery
+  target: cloud hosting
+  key: SUBSUM
+  text:
+  - '4. Data Sharing and Disclosure
+
+
+    Third Parties
+
+
+    Service Providers: To support our service delivery (e.g., payment processors,
+    cloud hosting).'
+- source: service delivery
+  target: payment processor
+  key: SUBSUM
+  text:
+  - '4. Data Sharing and Disclosure
+
+
+    Third Parties
+
+
+    Service Providers: To support our service delivery (e.g., payment processors,
+    cloud hosting).'
+nodes:
+- type: ACTOR
+  id: cloud hosting
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: service delivery
+- type: ACTOR
+  id: we
+- type: DATA
+  id: account information
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information on
+- type: DATA
+  id: interaction datum
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name

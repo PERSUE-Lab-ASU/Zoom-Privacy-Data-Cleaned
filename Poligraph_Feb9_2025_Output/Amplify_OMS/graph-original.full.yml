@@ -1,0 +1,125 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies on our website to give you the most relevant experience by remembering
+    your preferences and repeat visits.
+  purposes:
+    services:
+    - to give you the most relevant experience by remembering your preferences and
+      repeat visits
+- source: we
+  target: information about website visitor
+  key: COLLECT
+  text:
+  - We use identity resolution software from third-party data providers to gather
+    information about our website visitors.
+  purposes: {}
+- source: we
+  target: information you provide
+  key: COLLECT
+  text:
+  - We will use the information you provide to respond to your inquiries and fulfill
+    your requests.
+  purposes:
+    services:
+    - to respond to your inquiries and fulfill your requests
+- source: we
+  target: information you provide to we as
+  key: COLLECT
+  text:
+  - We only have access to and collect information that you voluntarily provide to
+    us, such as through email or other direct contact.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We collect personally identifiable information from you through this website,
+    and we want you to know how this information is used and shared.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: datum collect
+  target: personal information
+  key: SUBSUM
+  text:
+  - The data collected may include personal information, such as your name, phone
+    number, email address, state, and zip code.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - The data collected may include personal information, such as your name, phone
+    number, email address, state, and zip code.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - The data collected may include personal information, such as your name, phone
+    number, email address, state, and zip code.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - The data collected may include personal information, such as your name, phone
+    number, email address, state, and zip code.
+- source: personal information
+  target: state
+  key: SUBSUM
+  text:
+  - The data collected may include personal information, such as your name, phone
+    number, email address, state, and zip code.
+- source: personal information
+  target: zip code
+  key: SUBSUM
+  text:
+  - The data collected may include personal information, such as your name, phone
+    number, email address, state, and zip code.
+- source: sensitive information
+  target: credit card datum
+  key: SUBSUM
+  text:
+  - We encrypt and secure sensitive information, including credit card data, during
+    transmission and storage.
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit card datum
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about website visitor
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: information you provide to we as
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: sensitive information
+- type: DATA
+  id: state
+- type: DATA
+  id: zip code

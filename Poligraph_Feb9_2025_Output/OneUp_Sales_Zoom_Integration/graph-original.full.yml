@@ -1,0 +1,165 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These cookies are used to collect information about how you interact with our
+    website and allow us to remember you.
+  - We use this information in order to improve and customize your browsing experience
+    and for analytics and metrics about our visitors both on this website and other
+    media.
+  purposes:
+    analytics:
+    - in order to improve and customize your browsing experience and for analytics
+      and metrics about our visitors both on this website and other media
+    services:
+    - in order to improve and customize your browsing experience and for analytics
+      and metrics about our visitors both on this website and other media
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may also provide such aggregate information to third parties.
+  - We may also use aggregate information and statistics for the purposes of monitoring
+    website usage in order to help us to develop our website and our services.
+  purposes:
+    analytics:
+    - for the purposes of monitoring website usage
+    services:
+    - in order to help us to develop our website and our services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - '5. Cookies and other information-gathering technologies
+
+
+    5.1 Our website uses cookies.'
+  - This website stores cookies on your computer.
+  purposes: {}
+- source: we
+  target: identifier
+  key: COLLECT
+  text:
+  - Finally, in order to integrate fully with remote third party software (such as
+    CRMs, dialing systems, and external databases) we may store a unique identifier
+    that links your OneUp account to that external system.
+  purposes:
+    services:
+    - in order to integrate fully with remote third party software (such as CRMs,
+      dialing systems, and external databases)
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 3. How we'll use the information about you
+  - 3.1 We gather this information to allow us to provide the services requested.
+  purposes:
+    services:
+    - to allow us to provide the services requested
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - '2. The information we collect about you
+
+
+    2.1 When you do business with us or register for our service we may collect the
+    following personal information from you:'
+  purposes: {}
+- source: we
+  target: relevant information
+  key: COLLECT
+  text:
+  - The relevant information is then used by us to communicate with you on any matter
+    relating to the conduct of your instructions in general.
+  purposes:
+    services:
+    - to communicate with you on any matter relating to the conduct of your instructions
+      in general
+- source: we
+  target: statistic
+  key: COLLECT
+  text:
+  - We may also use aggregate information and statistics for the purposes of monitoring
+    website usage in order to help us to develop our website and our services.
+  purposes:
+    analytics:
+    - for the purposes of monitoring website usage
+    services:
+    - in order to help us to develop our website and our services
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may also provide such aggregate information to third parties.
+  - We may also use aggregate information and statistics for the purposes of monitoring
+    website usage in order to help us to develop our website and our services.
+  purposes: {}
+- source: country outside european economic area
+  target: information you provide
+  key: COLLECT
+  text:
+  - The information you provide may be transferred to countries outside the European
+    Economic Area (EEA) that do not have similar protections in place regarding your
+    data and restrictions on its use as set out in this policy.
+  purposes: {}
+- source: we
+  target: BBC
+  key: SUBSUM
+  text:
+  - Stormburst Studios Limited ("us" or "we") takes your privacy very seriously.
+- source: personal information
+  target: company name
+  key: SUBSUM
+  text:
+  - '2. The information we collect about you
+
+
+    2.1 When you do business with us or register for our service we may collect the
+    following personal information from you: Company Name'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - '2. The information we collect about you
+
+
+    2.1 When you do business with us or register for our service we may collect the
+    following personal information from you:'
+  - '2.1 When you do business with us or register for our service we may collect the
+    following personal information from you: Email Address'
+nodes:
+- type: ACTOR
+  id: BBC
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: country outside european economic area
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: company name
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: personal information
+- type: DATA
+  id: relevant information
+- type: DATA
+  id: statistic

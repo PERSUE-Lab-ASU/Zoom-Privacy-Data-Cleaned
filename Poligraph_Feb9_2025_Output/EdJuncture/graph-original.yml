@@ -1,0 +1,277 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We also use it to study Internet traffic trends, administer the site, and gather
+    information.
+  - We use this information to monitor and improve our site.
+  purposes:
+    analytics:
+    - to monitor and improve our site
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use cookies from other companies to provide relevant information to you.
+  - We use cookies to follow how you use the Sites to adapt Web content to your interests.
+  purposes:
+    analytics:
+    - to follow how you use the Sites to adapt Web content to your interests
+    - to provide relevant information to you
+    services:
+    - to provide relevant information to you
+- source: we
+  target: information we obtain from you
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how we collect, use and protect information that
+    we obtain from you.
+  purposes: {}
+- source: we
+  target: non
+  key: COLLECT
+  text:
+  - We automatically receive Non-PI from your web browser or device connected to the
+    Internet.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We automatically receive Non-PI from your web browser or device connected to the
+    Internet.
+  purposes: {}
+- source: Google
+  target: google account detail
+  key: COLLECT
+  text:
+  - Google Meet will store your Google account details to schedule sessions among
+    Principals, Teachers & Students.
+  purposes:
+    services:
+    - to schedule sessions among Principals, Teachers & Students
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If permitted by state and federal law, Edjuncture may share your information with
+    other companies to improve the education performance of Edjuncture School Programs
+    or so that Edjuncture can offer services to you or give you information about
+    services of third parties.
+  purposes:
+    advertising:
+    - to improve the education performance of Edjuncture School Programs or so that
+      Edjuncture can offer services to you or give you information about services
+      of third parties
+    analytics:
+    - to improve the education performance of Edjuncture School Programs or so that
+      Edjuncture can offer services to you or give you information about services
+      of third parties
+    services:
+    - to improve the education performance of Edjuncture School Programs or so that
+      Edjuncture can offer services to you or give you information about services
+      of third parties
+- source: company not connect to edjuncture
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If allowed by law, Edjuncture may share your information with companies that are
+    not connected to Edjuncture but want to send you information about their products
+    or services.
+  purposes: {}
+- source: edjuncture
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If allowed by law, Edjuncture may share your information with companies that are
+    not connected to Edjuncture but want to send you information about their products
+    or services.
+  - If permitted by law, Edjuncture may use your information to provide you with information
+    about new products or services available through Edjuncture and may combine PI
+    to improve the educational experience or to determine how Edjuncture's educational
+    products and services may interest other people.
+  - If permitted by state and federal law, Edjuncture may share your information with
+    other companies to improve the education performance of Edjuncture School Programs
+    or so that Edjuncture can offer services to you or give you information about
+    services of third parties.
+  purposes:
+    advertising:
+    - to improve the education performance of Edjuncture School Programs or so that
+      Edjuncture can offer services to you or give you information about services
+      of third parties
+    - to provide you with information about new products or services available through
+      Edjuncture
+    analytics:
+    - to improve the education performance of Edjuncture School Programs or so that
+      Edjuncture can offer services to you or give you information about services
+      of third parties
+    - to provide you with information about new products or services available through
+      Edjuncture
+    services:
+    - to improve the education performance of Edjuncture School Programs or so that
+      Edjuncture can offer services to you or give you information about services
+      of third parties
+    - to provide you with information about new products or services available through
+      Edjuncture
+- source: edjuncture
+  target: personal information
+  key: COLLECT
+  text:
+  - Edjuncture will use or share PI if required to do so by law, such as a court order,
+    or permitted to do so for law enforcement, health or safety purposes or to protect
+    Edjuncture's legal rights.
+  purposes: {}
+- source: edjuncture
+  target: personal information about child be
+  key: COLLECT
+  text:
+  - Edjuncture receives personal information about children who are under the age
+    of 13 strictly from their Schools when those children are enrolled into a Edjuncture
+    Virtual School Program.
+  purposes: {}
+- source: edjuncture
+  target: pre - recorded message
+  key: COLLECT
+  text:
+  - Edjuncture may use pre-recorded messages when allowed by law to make sure that
+    customers receive the information they requested.
+  purposes: {}
+- source: online service
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If others help Edjuncture provide online services, they are given the least information
+    needed to do their work for Edjuncture, as required by law.
+  - They have no other rights to the information and have agreed to keep the data
+    private, to use it only to perform the work they provide for Edjuncture and to
+    keep the data safe.
+  purposes:
+    security:
+    - only to perform the work they provide for Edjuncture and to keep the data safe
+    services:
+    - only to perform the work they provide for Edjuncture and to keep the data safe
+- source: state agency
+  target: information you provide
+  key: COLLECT
+  text:
+  - Information you or the child provide may be given to state and federal agencies,
+    including law enforcement if required or permitted by law.
+  purposes: {}
+- source: zoom meeting
+  target: account detail
+  key: COLLECT
+  text:
+  - Zoom Meeting will store your account details to schedule sessions among Principals,
+    Teachers & Students.
+  purposes:
+    services:
+    - to schedule sessions among Principals, Teachers & Students
+- source: information you provide
+  target: age
+  key: SUBSUM
+  text:
+  - The information you provide may include first and last name; postal address; telephone
+    number; the names and ages of your children; the services you request; registration
+    and enrollment information about your children; an email address where We can
+    contact you; and other information.
+- source: information you provide
+  target: email address
+  key: SUBSUM
+  text:
+  - The information you provide may include first and last name; postal address; telephone
+    number; the names and ages of your children; the services you request; registration
+    and enrollment information about your children; an email address where We can
+    contact you; and other information.
+- source: information you provide
+  target: person name
+  key: SUBSUM
+  text:
+  - The information you provide may include first and last name; postal address; telephone
+    number; the names and ages of your children; the services you request; registration
+    and enrollment information about your children; an email address where We can
+    contact you; and other information.
+- source: information you provide
+  target: phone number
+  key: SUBSUM
+  text:
+  - The information you provide may include first and last name; postal address; telephone
+    number; the names and ages of your children; the services you request; registration
+    and enrollment information about your children; an email address where We can
+    contact you; and other information.
+- source: information you provide
+  target: postal address
+  key: SUBSUM
+  text:
+  - The information you provide may include first and last name; postal address; telephone
+    number; the names and ages of your children; the services you request; registration
+    and enrollment information about your children; an email address where We can
+    contact you; and other information.
+- source: information you provide
+  target: registration information about child
+  key: SUBSUM
+  text:
+  - The information you provide may include first and last name; postal address; telephone
+    number; the names and ages of your children; the services you request; registration
+    and enrollment information about your children; an email address where We can
+    contact you; and other information.
+- source: state agency
+  target: law enforcement
+  key: SUBSUM
+  text:
+  - Information you or the child provide may be given to state and federal agencies,
+    including law enforcement if required or permitted by law.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: company not connect to edjuncture
+- type: ACTOR
+  id: edjuncture
+- type: ACTOR
+  id: law enforcement
+- type: ACTOR
+  id: online service
+- type: ACTOR
+  id: state agency
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom meeting
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account detail
+- type: DATA
+  id: age
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: google account detail
+- type: DATA
+  id: information we obtain from you
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: non
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information about child be
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: pre - recorded message
+- type: DATA
+  id: registration information about child

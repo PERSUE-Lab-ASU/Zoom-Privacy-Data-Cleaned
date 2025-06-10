@@ -1,0 +1,204 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '"Google Calendar" integration privacy policy
+
+
+    We use this information to
+
+
+    We will only use this information for the specific reason for which it was provided
+    to us.'
+  - 'Specifically, we use your information to:'
+  - This Privacy Policy outlines how we collect, use, and safeguard your information
+    when you use our scheduling software and services (the "Service").
+  - 'We disclose information only in the following cases:'
+  - We retain your information for as long as necessary to provide you with the Service
+    and comply with our legal obligations.
+  purposes:
+    advertising:
+    - 'to
+
+
+      Send booking confirmation emails, booking cancellation emails, booking update
+      emails or booking reminder emails to the contacts imported from Google Calendar
+      & Google Contacts -'
+    legal:
+    - to provide you with the Service and comply with our legal obligations
+    services:
+    - 'to
+
+
+      Create bookings from Nzmly''s calendar for your contacts'
+    - 'to
+
+
+      Keep your Google Calendar in sync with your Nzmly customers and vice versa'
+    - 'to
+
+
+      Populate your Google Calendar data in your Nzmly schedule management tool'
+    - 'to
+
+
+      Populate your Nzmly customer data in your Google Calendar events'
+    - 'to
+
+
+      Send booking confirmation emails, booking cancellation emails, booking update
+      emails or booking reminder emails to the contacts imported from Google Calendar
+      & Google Contacts -'
+    - to provide you with the Service and comply with our legal obligations
+- source: we
+  target: import information
+  key: COLLECT
+  text:
+  - We will retain the synced/imported information for as long as your account is
+    active or as needed to provide you with our services.
+  purposes: {}
+- source: we
+  target: information about device you use
+  key: COLLECT
+  text:
+  - We collect information about the devices you use to access the Service, including
+    IP address, browser type, operating system, and other technical information.
+  purposes: {}
+- source: we
+  target: information relate to schedule event
+  key: COLLECT
+  text:
+  - We collect information related to your scheduled events and meetings, including
+    the date, time, location, and attendee information.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We use the information we collect to provide you with the Service and improve
+    our offerings.
+  purposes:
+    services:
+    - to provide you with the Service and improve our offerings
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may share aggregated, non-personally identifiable information with third parties
+    for research and analytics purposes.
+  purposes:
+    analytics:
+    - for research and analytics purposes
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We disclose information only in the following cases: to any other third party
+    with your prior consent to do so.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may share aggregated, non-personally identifiable information with third parties
+    for research and analytics purposes.
+  purposes:
+    analytics:
+    - for research and analytics purposes
+- source: nzmly
+  target: information you provide in google calendar account
+  key: COLLECT
+  text:
+  - This privacy statement describes how Nzmly collects and uses the information you
+    provide in your Google Calendar account when connecting your "Google Calendar"
+    account.
+  purposes: {}
+- source: information about device you use
+  target: browser type
+  key: SUBSUM
+  text:
+  - We collect information about the devices you use to access the Service, including
+    IP address, browser type, operating system, and other technical information.
+- source: information about device you use
+  target: ip address
+  key: SUBSUM
+  text:
+  - We collect information about the devices you use to access the Service, including
+    IP address, browser type, operating system, and other technical information.
+- source: information about device you use
+  target: operating system
+  key: SUBSUM
+  text:
+  - We collect information about the devices you use to access the Service, including
+    IP address, browser type, operating system, and other technical information.
+- source: information about device you use
+  target: technical information
+  key: SUBSUM
+  text:
+  - We collect information about the devices you use to access the Service, including
+    IP address, browser type, operating system, and other technical information.
+- source: information relate to schedule event
+  target: attendee information
+  key: SUBSUM
+  text:
+  - We collect information related to your scheduled events and meetings, including
+    the date, time, location, and attendee information.
+- source: information relate to schedule event
+  target: date
+  key: SUBSUM
+  text:
+  - We collect information related to your scheduled events and meetings, including
+    the date, time, location, and attendee information.
+- source: information relate to schedule event
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We collect information related to your scheduled events and meetings, including
+    the date, time, location, and attendee information.
+- source: information relate to schedule event
+  target: time
+  key: SUBSUM
+  text:
+  - We collect information related to your scheduled events and meetings, including
+    the date, time, location, and attendee information.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: nzmly
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: attendee information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: date
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: import information
+- type: DATA
+  id: information about device you use
+- type: DATA
+  id: information relate to schedule event
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you provide in google calendar account
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: operating system
+- type: DATA
+  id: technical information
+- type: DATA
+  id: time

@@ -1,0 +1,182 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    We may use your information to personalize your experience on our website, including
+    providing tailored recommendations and suggestions.'
+  purposes:
+    advertising:
+    - to personalize your experience on our website, including providing tailored
+      recommendations and suggestions
+    services:
+    - to personalize your experience on our website, including providing tailored
+      recommendations and suggestions
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    We may use aggregated and anonymized data for research and development purposes
+    to improve our services and develop new features.'
+  purposes:
+    analytics:
+    - for research and development purposes
+    services:
+    - to improve our services and develop new features
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    We may use your contact information to respond to your inquiries, provide customer
+    support, and send you relevant information about our services.'
+  purposes:
+    services:
+    - to respond to your inquiries, provide customer support, and send you relevant
+      information about our services
+- source: we
+  target: information you provide
+  key: COLLECT
+  text:
+  - We use the information you provide to generate custom supplement protocols based
+    on your specific needs and preferences.
+  purposes:
+    services:
+    - to generate custom supplement protocols based on your specific needs and preferences
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may collect non-personal information about your use of our website, including
+    your IP address, browser type, device information, pages visited, and other analytical
+    data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy outlines how we collect, use, disclose, and protect your personal
+    information when you interact with our website and services.
+  - We may disclose your personal information if required to do so by law or if we
+    believe such action is necessary to comply with legal obligations, protect our
+    rights, or enforce our terms of service.
+  - When you use our website, we may collect personal information that you voluntarily
+    provide, such as your name, email address, and other contact information.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These providers have access to your personal information only to perform specific
+    tasks on our behalf and are obligated to maintain its confidentiality.
+  - We may engage third-party service providers who assist us in operating our website
+    and delivering our services.
+  purposes:
+    services:
+    - only to perform specific tasks on our behalf
+- source: amazon
+  target: personal information
+  key: COLLECT
+  text:
+  - By clicking on these links and making a purchase, you may provide personal information
+    directly to Amazon.
+  purposes: {}
+- source: zoom integration
+  target: meeting transcript
+  key: COLLECT
+  text:
+  - Our Zoom integration only collects meeting transcripts, which are saved anonymously
+    in our S3 bucket to ensure user privacy and data security.
+  purposes: {}
+- source: non-personal information
+  target: analytical datum
+  key: SUBSUM
+  text:
+  - We may collect non-personal information about your use of our website, including
+    your IP address, browser type, device information, pages visited, and other analytical
+    data.
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - We may collect non-personal information about your use of our website, including
+    your IP address, browser type, device information, pages visited, and other analytical
+    data.
+- source: non-personal information
+  target: device information
+  key: SUBSUM
+  text:
+  - We may collect non-personal information about your use of our website, including
+    your IP address, browser type, device information, pages visited, and other analytical
+    data.
+- source: non-personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may collect non-personal information about your use of our website, including
+    your IP address, browser type, device information, pages visited, and other analytical
+    data.
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - When you use our website, we may collect personal information that you voluntarily
+    provide, such as your name, email address, and other contact information.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you use our website, we may collect personal information that you voluntarily
+    provide, such as your name, email address, and other contact information.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you use our website, we may collect personal information that you voluntarily
+    provide, such as your name, email address, and other contact information.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: amazon
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom integration
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: analytical datum
+- type: DATA
+  id: browser type
+- type: DATA
+  id: contact information
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: ip address
+- type: DATA
+  id: meeting transcript
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information

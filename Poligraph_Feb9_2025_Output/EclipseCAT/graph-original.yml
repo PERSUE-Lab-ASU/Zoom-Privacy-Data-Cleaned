@@ -1,0 +1,184 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies for various reasons.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'However, most areas of this Site require registration to access, which requires
+    you to provide certain personally identifiable information, including: your name,
+    mailing address, email address and voice and/or fax telephone numbers.'
+  - We collect this information to better understand your needs and provide you with
+    services that are valuable to you.
+  purposes:
+    analytics:
+    - to better understand your needs and provide you with services that are valuable
+      to you
+    services:
+    - to better understand your needs and provide you with services that are valuable
+      to you
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Advantage provides a number of ways for you to "opt-out" of receiving certain
+    additional information from us or having us provide your personal information
+    to our partners.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Advantage provides a number of ways for you to "opt-out" of receiving certain
+    additional information from us or having us provide your personal information
+    to our partners.
+  purposes: {}
+- source: advantage
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Advantage may use cookies from time to time.
+  purposes: {}
+- source: advantage
+  target: number
+  key: COLLECT
+  text:
+  - Advantage provides a number of ways for you to "opt-out" of receiving certain
+    additional information from us or having us provide your personal information
+    to our partners.
+  purposes: {}
+- source: we
+  target: Box
+  key: SUBSUM
+  text:
+  - 'Software : Boost Flow : Boost Box w/Speechmatics'
+- source: we
+  target: Catalina Marketing
+  key: SUBSUM
+  text:
+  - 'Software : Student : NCRA A to Z(r) Graduate Offer'
+- source: we
+  target: accucap
+  key: SUBSUM
+  text:
+  - 'Software : AccuCap'
+- source: we
+  target: accucap steno
+  key: SUBSUM
+  text:
+  - 'Software : AccuCap : Steno'
+- source: we
+  target: boost flow
+  key: SUBSUM
+  text:
+  - 'Software : Boost Flow'
+- source: we
+  target: bridge mobile
+  key: SUBSUM
+  text:
+  - 'Software : Bridge Mobile'
+- source: we
+  target: eclipse
+  key: SUBSUM
+  text:
+  - 'Software : Eclipse'
+- source: we
+  target: eclipse rsr
+  key: SUBSUM
+  text:
+  - 'Software : Eclipse : Eclipse RSR'
+- source: we
+  target: eclipse steno
+  key: SUBSUM
+  text:
+  - 'Software : Eclipse : Steno'
+- source: we
+  target: eclipse student software
+  key: SUBSUM
+  text:
+  - 'Software : Student : Eclipse Student Software'
+- source: we
+  target: searchmaster
+  key: SUBSUM
+  text:
+  - 'Software : SearchMaster'
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'However, most areas of this Site require registration to access, which requires
+    you to provide certain personally identifiable information, including: your name,
+    mailing address, email address and voice and/or fax telephone numbers.'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'However, most areas of this Site require registration to access, which requires
+    you to provide certain personally identifiable information, including: your name,
+    mailing address, email address and voice and/or fax telephone numbers.'
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'However, most areas of this Site require registration to access, which requires
+    you to provide certain personally identifiable information, including: your name,
+    mailing address, email address and voice and/or fax telephone numbers.'
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'However, most areas of this Site require registration to access, which requires
+    you to provide certain personally identifiable information, including: your name,
+    mailing address, email address and voice and/or fax telephone numbers.'
+nodes:
+- type: ACTOR
+  id: Box
+- type: ACTOR
+  id: Catalina Marketing
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: accucap
+- type: ACTOR
+  id: accucap steno
+- type: ACTOR
+  id: advantage
+- type: ACTOR
+  id: boost flow
+- type: ACTOR
+  id: bridge mobile
+- type: ACTOR
+  id: eclipse
+- type: ACTOR
+  id: eclipse rsr
+- type: ACTOR
+  id: eclipse steno
+- type: ACTOR
+  id: eclipse student software
+- type: ACTOR
+  id: searchmaster
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: number
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

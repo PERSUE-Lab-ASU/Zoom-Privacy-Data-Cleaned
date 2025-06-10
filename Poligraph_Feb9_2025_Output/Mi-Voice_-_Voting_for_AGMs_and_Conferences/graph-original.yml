@@ -1,0 +1,95 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These cookies are used to collect information about how you interact with our
+    website and allow us to remember you.
+  - 'We may use your information to:'
+  - We use this information in order to improve and customize your browsing experience
+    and for analytics and metrics about our visitors both on this website and other
+    media.
+  purposes:
+    analytics:
+    - in order to improve and customize your browsing experience and for analytics
+      and metrics about our visitors both on this website and other media
+    services:
+    - in order to improve and customize your browsing experience and for analytics
+      and metrics about our visitors both on this website and other media
+    - 'to: Contact you regarding the event you have been registered with'
+    - 'to: Process your details on behalf of the client'
+    - 'to: Process your voting preference'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website stores cookies on your computer.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - The personal information we collect may include (but not limited to) your name,
+    address, age, email and address.
+  purposes: {}
+- source: we
+  target: personal information on system
+  key: COLLECT
+  text:
+  - We will hold your personal information on our systems for as long as is necessary
+    for the relevant activity, or as long as is set out in any relevant contract between
+    Mi-Voice and our clients.
+  purposes: {}
+- source: Google
+  target: personal information
+  key: COLLECT
+  text:
+  - Please note that all information is anonymised and no personal data is shared
+    with Google.
+  purposes: {}
+- source: democracy technology ltd
+  target: information you give mi voice
+  key: COLLECT
+  text:
+  - This privacy policy sets out how Democracy Technology Ltd (Mi-Voice) uses and
+    protects any information that you give Mi-Voice when you use www.mi-vote.com.
+  purposes: {}
+- source: mi voice
+  target: information you give mi voice
+  key: COLLECT
+  text:
+  - This privacy policy sets out how Democracy Technology Ltd (Mi-Voice) uses and
+    protects any information that you give Mi-Voice when you use www.mi-vote.com.
+  purposes: {}
+- source: organisation run election you participate in use platform
+  target: personal information
+  key: COLLECT
+  text:
+  - Mi-Voice's customers (the organisations running the election, referendum or survey
+    you are participating in using our platform) may collect personal information
+    through our voting website (www.mi-vote.com).
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: democracy technology ltd
+- type: ACTOR
+  id: mi voice
+- type: ACTOR
+  id: organisation run election you participate in use platform
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information you give mi voice
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information on system

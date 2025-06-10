@@ -1,0 +1,682 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When you update your user account, we collect information about your work and
+    your (i) image, (ii) date of birth, (iii) biography, (iv) other email address(es),
+    (v) phone number, (vi) address(es), (vii) company name, (viii) links, (ix) tax
+    numbers, (x) logos, (xi) email information (e.g., email address and sender name),
+    and other information that you decide to provide about yourself or your business.  We
+    use such data to (i) register and maintain your user account, (ii) enable your
+    access to the Services, (iii) provide you with the requested services, (iv) customise
+    our services for your needs, (v) contact you, if necessary, (vi) send you commercial
+    communication, and (vii) maintain our business records.
+  purposes:
+    services:
+    - to (i) register and maintain your user account, (ii) enable your access to the
+      Services, (iii) provide you with the requested services, (iv) customise our
+      services for your needs, (v) contact you, if necessary, (vi) send you commercial
+      communication, and (vii) maintain our business records
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may use any aggregated data derived from or incorporating your personal data
+    after you update or delete it, but not in a manner that would identify you personally.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Website uses "cookies" to help personalize your online experience.
+  - We use cookies to personalise and enhance your experience.
+  - When you browse the Website, we collect your cookie-related data.
+  purposes:
+    services:
+    - to help personalize your online experience
+    - to personalise and enhance your experience
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - Please note that your payment data is processed by our third-party payment processor
+    Stripe and, therefore, we do not store your credit card details.
+  - We use such data to (i) process your payments, (ii) issue invoices, and (iii)
+    maintain our business records.
+  - When you make a payment, you will be asked to provide (i) cardholder name (ii)
+    credit card details (number, expiration date, CVC), and (iii) billing address.
+  purposes:
+    services:
+    - to (i) process your payments, (ii) issue invoices, and (iii) maintain our business
+      records
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We use such data to (i) schedule your demo, (ii) contact you, if necessary, and
+    (iii) analyse and improve the Services.
+  - We use such data to respond to your enquiries and provide you with the requested
+    information.
+  - When you book a demo, we collect your (i) name, (ii) email address, and (iii)
+    any other information that you decide to provide us.
+  - When you contact us, we collect your (i) name, (ii) email address, and (iii) any
+    information that you decide to include in your message.
+  - When you create your user account or request a free trial, we collect your (i)
+    first name, (ii) last name, (iii) workspace name, (iv) workspace domain, (v) email
+    address, and (vi) password.
+  purposes:
+    analytics:
+    - to respond to your enquiries and provide you with the requested information
+    services:
+    - to (i) schedule your demo, (ii) contact you, if necessary, and (iii) analyse
+      and improve the Services
+    - to respond to your enquiries and provide you with the requested information
+- source: we
+  target: i name
+  key: COLLECT
+  text:
+  - We use such data to respond to your enquiries and provide you with the requested
+    information.
+  - When you contact us, we collect your (i) name, (ii) email address, and (iii) any
+    information that you decide to include in your message.
+  purposes:
+    analytics:
+    - to respond to your enquiries and provide you with the requested information
+    services:
+    - to respond to your enquiries and provide you with the requested information
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - If we are contacted by a public authority, we may need to disclose information
+    about you to the extent necessary for pursuing a public interest objective, such
+    as national security or law enforcement.
+  - We may receive information about you from third parties to whom you have previously
+    provided your personal data, if those third parties have a lawful basis for disclosing
+    your personal data to us.
+  purposes: {}
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - When you visit the Website our servers automatically record information that your
+    browser sends.
+  purposes: {}
+- source: we
+  target: information find in content
+  key: COLLECT
+  text:
+  - When you upload the Content or generate the Content, we process all information
+    that can be found in the Content, including any personal data the Content contains
+    (for example, your clients' names, contact details, and business information).
+  purposes: {}
+- source: we
+  target: information you decide
+  key: COLLECT
+  text:
+  - We use such data to (i) schedule your demo, (ii) contact you, if necessary, and
+    (iii) analyse and improve the Services.
+  - We use such data to respond to your enquiries and provide you with the requested
+    information.
+  - When you book a demo, we collect your (i) name, (ii) email address, and (iii)
+    any other information that you decide to provide us.
+  - When you contact us, we collect your (i) name, (ii) email address, and (iii) any
+    information that you decide to include in your message.
+  - When you use the live chat functionality, we collect any information that you
+    decide to provide us.
+  purposes:
+    analytics:
+    - to respond to your enquiries and provide you with the requested information
+    services:
+    - to (i) schedule your demo, (ii) contact you, if necessary, and (iii) analyse
+      and improve the Services
+    - to respond to your enquiries and provide you with the requested information
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - The legal basis on which we rely when processing your IP address is 'pursuing
+    our legitimate business interests' (i.e., to operate, analyse and protect our
+    Website).
+  - We store such data as long as it is necessary for analysing and protecting our
+    Website but no longer than 1 year.
+  - We store your IP address for no longer than 1 year.
+  - We use your IP address to analyse the technical aspects of your use of the Website,
+    prevent fraud and abuse, and ensure the security of the Website.
+  - When you browse the Website, we or our third-party analytics service providers
+    (as explained in below) collect your IP address.
+  purposes:
+    analytics:
+    - to analyse the technical aspects of your use of the Website, prevent fraud and
+      abuse, and ensure the security of the Website
+    security:
+    - to analyse the technical aspects of your use of the Website, prevent fraud and
+      abuse, and ensure the security of the Website
+- source: we
+  target: iv workspace domain
+  key: COLLECT
+  text:
+  - When you create your user account or request a free trial, we collect your (i)
+    first name, (ii) last name, (iii) workspace name, (iv) workspace domain, (v) email
+    address, and (vi) password.
+  purposes: {}
+- source: we
+  target: minimal amount of personal datum use for purpose mention in policy
+  key: COLLECT
+  text:
+  - When you use the Website, we collect only a minimal amount of personal data that
+    is used for limited, specified and legitimate purposes explicitly mentioned in
+    this Policy.
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - For example, we share your personal and non-personal data with entities that provide
+    certain technical support services to us, such as database, analytics, and email
+    distribution services.
+  purposes: {}
+- source: we
+  target: number of datum processor
+  key: COLLECT
+  text:
+  - We use a limited number of data processors.
+  purposes: {}
+- source: we
+  target: password
+  key: COLLECT
+  text:
+  - When you create your user account or request a free trial, we collect your (i)
+    first name, (ii) last name, (iii) workspace name, (iv) workspace domain, (v) email
+    address, and (vi) password.
+  purposes: {}
+- source: we
+  target: payment data
+  key: COLLECT
+  text:
+  - Please note that your payment data is processed by our third-party payment processor
+    Stripe and, therefore, we do not store your credit card details.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We use such data to (i) schedule your demo, (ii) contact you, if necessary, and
+    (iii) analyse and improve the Services.
+  - When you book a demo, we collect your (i) name, (ii) email address, and (iii)
+    any other information that you decide to provide us.
+  - When you create your user account or request a free trial, we collect your (i)
+    first name, (ii) last name, (iii) workspace name, (iv) workspace domain, (v) email
+    address, and (vi) password.
+  purposes:
+    services:
+    - to (i) schedule your demo, (ii) contact you, if necessary, and (iii) analyse
+      and improve the Services
+- source: we
+  target: personal datum social media provider disclose to we
+  key: COLLECT
+  text:
+  - For example, if social media login is enabled, we will collect the personal data
+    that your social media provider discloses to us (e.g., your name, email address,
+    and photo).
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - In order to verify the legitimacy of your request, we may ask you to provide us
+    with an identifying piece of information that allows us to correctly identify
+    you in our system.
+  purposes:
+    security:
+    - In order to verify the legitimacy of your request
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In case the Website is sold partly or fully, we will provide your personal data
+    to a purchaser or successor entity and request the successor to handle your personal
+    data in line with this Policy.
+  - Please note that you can control what personal data is submitted to us by adjusting
+    the privacy settings of your social media service provider.
+  - This privacy policy ("Policy") describes how Plutio ("Plutio", "we", "us" or "our")
+    collects, protects and uses the personal data that individual users and business
+    entities ("User", "you" or "your") provide through the plutio.com website, the
+    related domain names, software, and any of its products or services (collectively,
+    "Website" or "Services").
+  - We store such personal data until you stop using the Services.
+  - We store your personal data until we deliver your demo; if you decide to start
+    using the Services, we will use your personal data to register your user account.
+  - We will retain and use your personal data for the period necessary to perform
+    our contractual obligations to you, comply with our legal obligations, resolve
+    disputes, and enforce our agreements, unless a longer retention period is required
+    or permitted by law.
+  - We will store your personal data for the time period required by the applicable
+    law (in the UK, we are required to store accounting records for 6 years).
+  - We will store your personal data until your user account is deleted or terminated.
+  - We will use such data as described in the section "User account" above.
+  purposes:
+    legal:
+    - to perform our contractual obligations to you, comply with our legal obligations,
+      resolve disputes, and enforce our agreements
+    services:
+    - to register your user account
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - We use such data to (i) process your payments, (ii) issue invoices, and (iii)
+    maintain our business records.
+  - When you make a payment, you will be asked to provide (i) cardholder name (ii)
+    credit card details (number, expiration date, CVC), and (iii) billing address.
+  purposes:
+    services:
+    - to (i) process your payments, (ii) issue invoices, and (iii) maintain our business
+      records
+- source: we
+  target: request information
+  key: COLLECT
+  text:
+  - We use such data to respond to your enquiries and provide you with the requested
+    information.
+  purposes:
+    analytics:
+    - to respond to your enquiries and provide you with the requested information
+    services:
+    - to respond to your enquiries and provide you with the requested information
+- source: we
+  target: user account
+  key: COLLECT
+  text:
+  - When you update your user account, we collect information about your work and
+    your (i) image, (ii) date of birth, (iii) biography, (iv) other email address(es),
+    (v) phone number, (vi) address(es), (vii) company name, (viii) links, (ix) tax
+    numbers, (x) logos, (xi) email information (e.g., email address and sender name),
+    and other information that you decide to provide about yourself or your business.  We
+    use such data to (i) register and maintain your user account, (ii) enable your
+    access to the Services, (iii) provide you with the requested services, (iv) customise
+    our services for your needs, (v) contact you, if necessary, (vi) send you commercial
+    communication, and (vii) maintain our business records.
+  purposes:
+    services:
+    - to (i) register and maintain your user account, (ii) enable your access to the
+      Services, (iii) provide you with the requested services, (iv) customise our
+      services for your needs, (v) contact you, if necessary, (vi) send you commercial
+      communication, and (vii) maintain our business records
+- source: we
+  target: workspace name
+  key: COLLECT
+  text:
+  - When you create your user account or request a free trial, we collect your (i)
+    first name, (ii) last name, (iii) workspace name, (iv) workspace domain, (v) email
+    address, and (vi) password.
+  purposes: {}
+- source: Stripe
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - Please note that your payment data is processed by our third-party payment processor
+    Stripe and, therefore, we do not store your credit card details.
+  purposes: {}
+- source: Stripe
+  target: payment data
+  key: COLLECT
+  text:
+  - Please note that your payment data is processed by our third-party payment processor
+    Stripe and, therefore, we do not store your credit card details.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: internet activity
+  key: COLLECT
+  text:
+  - In addition to using cookies and related technologies as described above, we also
+    may permit certain third-party companies to help us tailor advertising that we
+    think may be of interest to users and to collect and use other data about user
+    activities on the Website.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Your non-personal data may be disclosed to third parties for any purpose.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - This privacy policy ("Policy") describes how Plutio ("Plutio", "we", "us" or "our")
+    collects, protects and uses the personal data that individual users and business
+    entities ("User", "you" or "your") provide through the plutio.com website, the
+    related domain names, software, and any of its products or services (collectively,
+    "Website" or "Services").
+  purposes: {}
+- source: analytic provider
+  target: ip address
+  key: COLLECT
+  text:
+  - When you browse the Website, we or our third-party analytics service providers
+    (as explained in below) collect your IP address.
+  purposes: {}
+- source: analytic provider
+  target: non-personal information
+  key: COLLECT
+  text:
+  - For example, we share your personal and non-personal data with entities that provide
+    certain technical support services to us, such as database, analytics, and email
+    distribution services.
+  purposes: {}
+- source: datum processor
+  target: personal information
+  key: COLLECT
+  text:
+  - From time to time, your personal data is disclosed to our service providers with
+    whom we cooperate (our data processors).
+  purposes: {}
+- source: email service provider
+  target: non-personal information
+  key: COLLECT
+  text:
+  - For example, we share your personal and non-personal data with entities that provide
+    certain technical support services to us, such as database, analytics, and email
+    distribution services.
+  purposes: {}
+- source: service provider with whom we cooperate
+  target: personal information
+  key: COLLECT
+  text:
+  - From time to time, your personal data is disclosed to our service providers with
+    whom we cooperate (our data processors).
+  purposes: {}
+- source: successor entity
+  target: personal information
+  key: COLLECT
+  text:
+  - In case the Website is sold partly or fully, we will provide your personal data
+    to a purchaser or successor entity and request the successor to handle your personal
+    data in line with this Policy.
+  purposes: {}
+- source: third party payment processor
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - Please note that your payment data is processed by our third-party payment processor
+    Stripe and, therefore, we do not store your credit card details.
+  purposes: {}
+- source: third party payment processor
+  target: payment data
+  key: COLLECT
+  text:
+  - Please note that your payment data is processed by our third-party payment processor
+    Stripe and, therefore, we do not store your credit card details.
+  purposes: {}
+- source: we
+  target: plutio
+  key: SUBSUM
+  text:
+  - This privacy policy ("Policy") describes how Plutio ("Plutio", "we", "us" or "our")
+    collects, protects and uses the personal data that individual users and business
+    entities ("User", "you" or "your") provide through the plutio.com website, the
+    related domain names, software, and any of its products or services (collectively,
+    "Website" or "Services").
+- source: we
+  target: plutio.com website
+  key: SUBSUM
+  text:
+  - This privacy policy ("Policy") describes how Plutio ("Plutio", "we", "us" or "our")
+    collects, protects and uses the personal data that individual users and business
+    entities ("User", "you" or "your") provide through the plutio.com website, the
+    related domain names, software, and any of its products or services (collectively,
+    "Website" or "Services").
+- source: information browser send
+  target: access time
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address, browser type
+    and version, operating system type and version, language preferences or the webpage
+    you were visiting before you came to our Website, pages of our Website that you
+    visit, the time spent on those pages, information you search for on our Website,
+    access times and dates, and other statistics.
+  - When you visit the Website our servers automatically record information that your
+    browser sends.
+- source: information browser send
+  target: browser type
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address, browser type
+    and version, operating system type and version, language preferences or the webpage
+    you were visiting before you came to our Website, pages of our Website that you
+    visit, the time spent on those pages, information you search for on our Website,
+    access times and dates, and other statistics.
+  - When you visit the Website our servers automatically record information that your
+    browser sends.
+- source: information browser send
+  target: date
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address, browser type
+    and version, operating system type and version, language preferences or the webpage
+    you were visiting before you came to our Website, pages of our Website that you
+    visit, the time spent on those pages, information you search for on our Website,
+    access times and dates, and other statistics.
+  - When you visit the Website our servers automatically record information that your
+    browser sends.
+- source: information browser send
+  target: information you search for on website
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address, browser type
+    and version, operating system type and version, language preferences or the webpage
+    you were visiting before you came to our Website, pages of our Website that you
+    visit, the time spent on those pages, information you search for on our Website,
+    access times and dates, and other statistics.
+  - When you visit the Website our servers automatically record information that your
+    browser sends.
+- source: information browser send
+  target: ip address
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address, browser type
+    and version, operating system type and version, language preferences or the webpage
+    you were visiting before you came to our Website, pages of our Website that you
+    visit, the time spent on those pages, information you search for on our Website,
+    access times and dates, and other statistics.
+  - When you visit the Website our servers automatically record information that your
+    browser sends.
+- source: information browser send
+  target: language preference
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address, browser type
+    and version, operating system type and version, language preferences or the webpage
+    you were visiting before you came to our Website, pages of our Website that you
+    visit, the time spent on those pages, information you search for on our Website,
+    access times and dates, and other statistics.
+  - When you visit the Website our servers automatically record information that your
+    browser sends.
+- source: information browser send
+  target: operating system type
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address, browser type
+    and version, operating system type and version, language preferences or the webpage
+    you were visiting before you came to our Website, pages of our Website that you
+    visit, the time spent on those pages, information you search for on our Website,
+    access times and dates, and other statistics.
+  - When you visit the Website our servers automatically record information that your
+    browser sends.
+- source: information browser send
+  target: statistic
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address, browser type
+    and version, operating system type and version, language preferences or the webpage
+    you were visiting before you came to our Website, pages of our Website that you
+    visit, the time spent on those pages, information you search for on our Website,
+    access times and dates, and other statistics.
+  - When you visit the Website our servers automatically record information that your
+    browser sends.
+- source: information browser send
+  target: version
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address, browser type
+    and version, operating system type and version, language preferences or the webpage
+    you were visiting before you came to our Website, pages of our Website that you
+    visit, the time spent on those pages, information you search for on our Website,
+    access times and dates, and other statistics.
+  - When you visit the Website our servers automatically record information that your
+    browser sends.
+- source: information find in content
+  target: personal data content contain
+  key: SUBSUM
+  text:
+  - When you upload the Content or generate the Content, we process all information
+    that can be found in the Content, including any personal data the Content contains
+    (for example, your clients' names, contact details, and business information).
+- source: personal data content contain
+  target: business information
+  key: SUBSUM
+  text:
+  - When you upload the Content or generate the Content, we process all information
+    that can be found in the Content, including any personal data the Content contains
+    (for example, your clients' names, contact details, and business information).
+- source: personal data content contain
+  target: contact information
+  key: SUBSUM
+  text:
+  - When you upload the Content or generate the Content, we process all information
+    that can be found in the Content, including any personal data the Content contains
+    (for example, your clients' names, contact details, and business information).
+- source: personal data content contain
+  target: for name
+  key: SUBSUM
+  text:
+  - When you upload the Content or generate the Content, we process all information
+    that can be found in the Content, including any personal data the Content contains
+    (for example, your clients' names, contact details, and business information).
+- source: personal datum social media provider disclose to we
+  target: email address
+  key: SUBSUM
+  text:
+  - For example, if social media login is enabled, we will collect the personal data
+    that your social media provider discloses to us (e.g., your name, email address,
+    and photo).
+- source: personal datum social media provider disclose to we
+  target: person name
+  key: SUBSUM
+  text:
+  - For example, if social media login is enabled, we will collect the personal data
+    that your social media provider discloses to us (e.g., your name, email address,
+    and photo).
+- source: personal datum social media provider disclose to we
+  target: photo
+  key: SUBSUM
+  text:
+  - For example, if social media login is enabled, we will collect the personal data
+    that your social media provider discloses to us (e.g., your name, email address,
+    and photo).
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: datum processor
+- type: ACTOR
+  id: email service provider
+- type: ACTOR
+  id: plutio
+- type: ACTOR
+  id: plutio.com website
+- type: ACTOR
+  id: service provider with whom we cooperate
+- type: ACTOR
+  id: successor entity
+- type: ACTOR
+  id: third party payment processor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: business information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: email address
+- type: DATA
+  id: for name
+- type: DATA
+  id: i name
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: information find in content
+- type: DATA
+  id: information you decide
+- type: DATA
+  id: information you search for on website
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: iv workspace domain
+- type: DATA
+  id: language preference
+- type: DATA
+  id: minimal amount of personal datum use for purpose mention in policy
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: number of datum processor
+- type: DATA
+  id: operating system type
+- type: DATA
+  id: password
+- type: DATA
+  id: payment data
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal data content contain
+- type: DATA
+  id: personal datum social media provider disclose to we
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: photo
+- type: DATA
+  id: postal address
+- type: DATA
+  id: request information
+- type: DATA
+  id: statistic
+- type: DATA
+  id: user account
+- type: DATA
+  id: version
+- type: DATA
+  id: workspace name

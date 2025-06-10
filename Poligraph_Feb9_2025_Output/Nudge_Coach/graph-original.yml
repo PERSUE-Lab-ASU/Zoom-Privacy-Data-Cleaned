@@ -1,0 +1,268 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When you visit our Website, our servers automatically record information ("Log
+    Data") created by your visit to, and use of the Nudge Sites and the Services.
+  purposes: {}
+- source: we
+  target: collect information
+  key: COLLECT
+  text:
+  - 'We use collected information for the following general purposes: products and
+    services provision, billing, identification and authentication, services improvement,
+    contact and research.'
+  purposes:
+    analytics:
+    - 'for the following general purposes: products and services provision, billing,
+      identification and authentication, services improvement, contact and research'
+    services:
+    - 'for the following general purposes: products and services provision, billing,
+      identification and authentication, services improvement, contact and research'
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - If you email us with a request or question or have provided us with your email
+    address, we may keep your message, email address and contact information to respond
+    to your request or otherwise follow up with you.
+  purposes:
+    services:
+    - to respond to your request or otherwise follow up with you
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies in accordance with this Cookie Policy .
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - If you email us with a request or question or have provided us with your email
+    address, we may keep your message, email address and contact information to respond
+    to your request or otherwise follow up with you.
+  - We may use your email address to send you information about our Services or to
+    market to you.
+  purposes:
+    advertising:
+    - to send you information about our Services or to market to you
+    services:
+    - to respond to your request or otherwise follow up with you
+    - to send you information about our Services or to market to you
+- source: we
+  target: individual opt choice
+  key: COLLECT
+  text:
+  - We will provide an individual opt-out choice, or opt-in for sensitive data, before
+    we share your data with third parties other than our agents, or before we use
+    it for a purpose other than which it was originally collected or subsequently
+    authorized.
+  purposes: {}
+- source: we
+  target: information about device you use
+  key: COLLECT
+  text:
+  - In addition to Log Data, we may also collect information about the device you
+    are using when accessing the Products, including what type of device it is, what
+    operating system you are using, device settings, unique device identifiers, and
+    crash data.
+  purposes: {}
+- source: we
+  target: log data
+  key: COLLECT
+  text:
+  - When you visit our Website, our servers automatically record information ("Log
+    Data") created by your visit to, and use of the Nudge Sites and the Services.
+  purposes: {}
+- source: we
+  target: message
+  key: COLLECT
+  text:
+  - If you email us with a request or question or have provided us with your email
+    address, we may keep your message, email address and contact information to respond
+    to your request or otherwise follow up with you.
+  purposes:
+    services:
+    - to respond to your request or otherwise follow up with you
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may share the Log Data in the form of aggregate click statistics, such as how
+    many times a particular link was clicked on, without any personally identifiable
+    information, with third parties.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Keep in mind, however, that even if you request to cancel your account, we may
+    retain your personal information in conformance with our data retention policy,
+    under which we may retain such information to comply with laws such as HIPAA,
+    prevent fraud, resolve disputes, troubleshoot problems, assist with any investigations,
+    enforce our Terms of Service, perform research, and take other actions otherwise
+    permitted by law.
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  - 'we will share your personal information if we have a good faith belief that:'
+  purposes: {}
+- source: Nudge
+  target: clipboard datum
+  key: COLLECT
+  text:
+  - The Nudge Apps will collect Clipboard Data to extract an invite ID.
+  purposes:
+    services:
+    - to extract an invite ID
+- source: Nudge
+  target: up to date information
+  key: COLLECT
+  text:
+  - Your data provides Nudge Coaches the up-to-date information they require in order
+    to deliver their services effectively.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information send as part of web page request
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Third Party Services (Subprocessors)'
+  - These services may store both personally identifiable information about you which
+    we collect and the information sent by your browser as part of a web page request,
+    such as cookies or your IP address.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Third Party Services (Subprocessors)'
+  - These services may store both personally identifiable information about you which
+    we collect and the information sent by your browser as part of a web page request,
+    such as cookies or your IP address.
+  - We may share the Log Data in the form of aggregate click statistics, such as how
+    many times a particular link was clicked on, without any personally identifiable
+    information, with third parties.
+  purposes: {}
+- source: list of sub - processor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By using the Nudge Sites or Services you authorize this list of Sub-Processors
+    to process your data .
+  purposes: {}
+- source: nudge coach
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Sharing Your Data With A Nudge Coach'
+  purposes: {}
+- source: payment processor
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - We will not collect your credit card information (but our payment processor will
+    collect your credit card information and that information is subject to our payment
+    processor's terms, conditions and privacy policies).
+  purposes: {}
+- source: we
+  target: Nudge
+  key: SUBSUM
+  text:
+  - This Privacy Policy governs the use of information collected by Nudge Coach, Inc
+    ("Nudge," the "Company," "we," "us," and "our" which terms shall include affiliates
+    of Nudge Coach, Inc.) through the use of the Nudge Coach websites (the "Nudge
+    Sites"), software applications (the "Nudge Apps"), and all Nudge products and
+    services (collectively the "Services") that direct you to this Privacy Policy.
+- source: we
+  target: software application
+  key: SUBSUM
+  text:
+  - This Privacy Policy governs the use of information collected by Nudge Coach, Inc
+    ("Nudge," the "Company," "we," "us," and "our" which terms shall include affiliates
+    of Nudge Coach, Inc.) through the use of the Nudge Coach websites (the "Nudge
+    Sites"), software applications (the "Nudge Apps"), and all Nudge products and
+    services (collectively the "Services") that direct you to this Privacy Policy.
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - A cookie is a small amount of data, which often includes an anonymous unique identifier
+    that is sent to your browser from a web site's computers and stored on your computer's
+    hard drive.
+- source: information send as part of web page request
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - These services may store both personally identifiable information about you which
+    we collect and the information sent by your browser as part of a web page request,
+    such as cookies or your IP address.
+- source: information send as part of web page request
+  target: ip address
+  key: SUBSUM
+  text:
+  - These services may store both personally identifiable information about you which
+    we collect and the information sent by your browser as part of a web page request,
+    such as cookies or your IP address.
+nodes:
+- type: ACTOR
+  id: Nudge
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: list of sub - processor
+- type: ACTOR
+  id: nudge coach
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: software application
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: clipboard datum
+- type: DATA
+  id: collect information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: email address
+- type: DATA
+  id: individual opt choice
+- type: DATA
+  id: information about device you use
+- type: DATA
+  id: information send as part of web page request
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log data
+- type: DATA
+  id: message
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: up to date information

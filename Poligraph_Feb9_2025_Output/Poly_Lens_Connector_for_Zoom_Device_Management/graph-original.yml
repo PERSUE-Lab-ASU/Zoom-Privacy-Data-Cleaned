@@ -1,0 +1,16 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: privacy information supplement statement
+  key: COLLECT
+  text:
+  - For certain HP Services we may provide you with additional privacy information
+    that supplements this Statement.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: privacy information supplement statement

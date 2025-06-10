@@ -1,0 +1,43 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: splain
+  target: access token
+  key: COLLECT
+  text:
+  - Splain stores only the access & refresh tokens and folder ID (for Google Drive
+    upload) of the user/customer.
+  purposes: {}
+- source: splain
+  target: folder id
+  key: COLLECT
+  text:
+  - Splain stores only the access & refresh tokens and folder ID (for Google Drive
+    upload) of the user/customer.
+  purposes: {}
+- source: splain
+  target: title
+  key: COLLECT
+  text:
+  - In case of YouTube, Splain gets the video, title from Zoom cloud and privacy setting
+    from user configuration and uploads it to the user/customer's channel.
+  purposes: {}
+- source: splain
+  target: video
+  key: COLLECT
+  text:
+  - In case of YouTube, Splain gets the video, title from Zoom cloud and privacy setting
+    from user configuration and uploads it to the user/customer's channel.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: splain
+- type: DATA
+  id: access token
+- type: DATA
+  id: folder id
+- type: DATA
+  id: title
+- type: DATA
+  id: video

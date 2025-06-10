@@ -1,0 +1,124 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: country outside european economic area
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Data is transferred to countries outside the European Economic Area (EEA) in
+    the following cases: Commercial relations data, invoicing and newsletters Supervision
+    and quality review (access to emails sent to the service and user calendar events)'
+  purposes: {}
+- source: external service provider
+  target: billing datum
+  key: COLLECT
+  text:
+  - Contact data, business relationship management and billing data are processed
+    by external service providers.
+  purposes: {}
+- source: external service provider
+  target: business relationship management
+  key: COLLECT
+  text:
+  - Contact data, business relationship management and billing data are processed
+    by external service providers.
+  purposes: {}
+- source: external service provider
+  target: contact information
+  key: COLLECT
+  text:
+  - Contact data, business relationship management and billing data are processed
+    by external service providers.
+  purposes: {}
+- source: julie desk
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Within the framework of the execution of the Service and based on customers instructions
+    in its service solicitation requests, Julie Desk shares the customer's information
+    with the customer's contacts explicitly designated by the latter during a meeting
+    organization.
+  purposes: {}
+- source: julie desk
+  target: contact information
+  key: COLLECT
+  text:
+  - Julie Desk collects contact information from its users through its Websites and
+    when using the Service.
+  purposes: {}
+- source: julie desk
+  target: geolocation
+  key: COLLECT
+  text:
+  - Julie Desk collects location data related to calendar events.
+  purposes: {}
+- source: julie desk
+  target: information about user
+  key: COLLECT
+  text:
+  - 'Julie Desk collects information about its users in the following ways:'
+  purposes: {}
+- source: julie desk
+  target: personalization information
+  key: COLLECT
+  text:
+  - Julie Desk collects personalization information through its personalization application
+    (for users of the service) or by communication with the support.
+  purposes: {}
+- source: julie desk
+  target: track metadata
+  key: COLLECT
+  text:
+  - Julie Desk automatically collects tracking metadata on its Websites.
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - Julie Desk collects contact information from its users through its Websites and
+    when using the Service.
+  - 'This data includes the following information: Email'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - Julie Desk collects contact information from its users through its Websites and
+    when using the Service.
+  - 'This data includes the following information: First name'
+  - 'This data includes the following information: Name'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Shared information in this case are: Customer contact information such as phone
+    numbers'
+nodes:
+- type: ACTOR
+  id: country outside european economic area
+- type: ACTOR
+  id: external service provider
+- type: ACTOR
+  id: julie desk
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: billing datum
+- type: DATA
+  id: business relationship management
+- type: DATA
+  id: contact information
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about user
+- type: DATA
+  id: person name
+- type: DATA
+  id: personalization information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: track metadata

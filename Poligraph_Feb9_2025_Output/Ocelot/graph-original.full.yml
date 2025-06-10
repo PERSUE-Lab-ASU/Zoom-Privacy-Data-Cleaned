@@ -1,0 +1,69 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: ocelot
+  target: email address
+  key: COLLECT
+  text:
+  - 'If you provide OCELOT information (for example: you complete a webform seeking
+    more information about our services), OCELOT will use this information you provide
+    (for example: a phone number or email) to contact you.'
+  purposes:
+    services:
+    - to contact you
+- source: ocelot
+  target: ocelot information
+  key: COLLECT
+  text:
+  - 'If you provide OCELOT information (for example: you complete a webform seeking
+    more information about our services), OCELOT will use this information you provide
+    (for example: a phone number or email) to contact you.'
+  purposes:
+    services:
+    - to contact you
+- source: ocelot
+  target: phone number
+  key: COLLECT
+  text:
+  - 'If you provide OCELOT information (for example: you complete a webform seeking
+    more information about our services), OCELOT will use this information you provide
+    (for example: a phone number or email) to contact you.'
+  purposes:
+    services:
+    - to contact you
+- source: page on website
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Some pages on our Website may use "cookies" to enhance your online experience.
+  purposes:
+    services:
+    - to enhance your online experience
+- source: ocelot information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'If you provide OCELOT information (for example: you complete a webform seeking
+    more information about our services), OCELOT will use this information you provide
+    (for example: a phone number or email) to contact you.'
+- source: ocelot information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'If you provide OCELOT information (for example: you complete a webform seeking
+    more information about our services), OCELOT will use this information you provide
+    (for example: a phone number or email) to contact you.'
+nodes:
+- type: ACTOR
+  id: ocelot
+- type: ACTOR
+  id: page on website
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: ocelot information
+- type: DATA
+  id: phone number

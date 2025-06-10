@@ -1,0 +1,28 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Regarding our activities as a data processor, we retain our customers' end users
+    personal information as long as required by our terms and conditions and the pursuing
+    of the service our customers' subscribed to.
+  - We collect your personal information on various occasions.
+  - 'We only collect and process personal information for specified, explicit and
+    legitimate purposes, like:'
+  purposes: {}
+- source: we
+  target: personal information be
+  key: COLLECT
+  text:
+  - We only collect and process personal information that is relevant and adequate.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information be

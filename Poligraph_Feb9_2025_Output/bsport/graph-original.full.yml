@@ -1,0 +1,70 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website uses cookies
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The data collected by means of the cookies deposited by this website are collected
+    by Google Analytics.
+  purposes: {}
+- source: bsport.io website
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The bsport.io website uses analytical cookies.
+  purposes: {}
+- source: element accessible
+  target: audio
+  key: SUBSUM
+  text:
+  - BSPORT is the owner of the intellectual property and usage rights pertaining to
+    all elements accessible on the website, including texts, images, graphics, logos,
+    icons, audio and software.
+- source: element accessible
+  target: graphic
+  key: SUBSUM
+  text:
+  - BSPORT is the owner of the intellectual property and usage rights pertaining to
+    all elements accessible on the website, including texts, images, graphics, logos,
+    icons, audio and software.
+- source: element accessible
+  target: icon
+  key: SUBSUM
+  text:
+  - BSPORT is the owner of the intellectual property and usage rights pertaining to
+    all elements accessible on the website, including texts, images, graphics, logos,
+    icons, audio and software.
+- source: element accessible
+  target: logo
+  key: SUBSUM
+  text:
+  - BSPORT is the owner of the intellectual property and usage rights pertaining to
+    all elements accessible on the website, including texts, images, graphics, logos,
+    icons, audio and software.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: audio
+- type: ACTOR
+  id: bsport.io website
+- type: ACTOR
+  id: element accessible
+- type: ACTOR
+  id: graphic
+- type: ACTOR
+  id: icon
+- type: ACTOR
+  id: logo
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag

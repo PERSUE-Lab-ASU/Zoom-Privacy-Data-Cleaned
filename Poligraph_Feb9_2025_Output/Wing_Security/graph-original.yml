@@ -1,0 +1,594 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Company automatically collects data, directly or indirectly (e.g., via advertising
+    and analytics partners of Wing) when User visits, interacts with, or uses the
+    Services, including but not limited to:'
+  purposes: {}
+- source: we
+  target: communication send
+  key: COLLECT
+  text:
+  - '5.1. In the following cases Company may disclose, without notification, personal
+    data, any communications sent or received by each User, and any other information
+    that Company has collected and/or was provided with:'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 3.3. To facilitate and customize the User's experience of the Services and to
+    track User's use of the Services, Company may utilize cookies and other industry
+    standard technologies.
+  - We use both types of cookies to facilitate the use of the Services' features and
+    tools.
+  purposes:
+    analytics:
+    - To facilitate and customize the User's experience of the Services and to track
+      User's use of the Services
+    services:
+    - To facilitate and customize the User's experience of the Services and to track
+      User's use of the Services
+    - to facilitate the use of the Services' features and tools
+- source: we
+  target: data user provide company with via service
+  key: COLLECT
+  text:
+  - 'Company collects any data User provides Company with via the Services, including
+    but not limited to:'
+  purposes: {}
+- source: we
+  target: information company collect
+  key: COLLECT
+  text:
+  - '5.1. In the following cases Company may disclose, without notification, personal
+    data, any communications sent or received by each User, and any other information
+    that Company has collected and/or was provided with:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - '5.1. In the following cases Company may disclose, without notification, personal
+    data, any communications sent or received by each User, and any other information
+    that Company has collected and/or was provided with:'
+  - '9.1. Company will retain Users personal data for a period of time consistent
+    with the purpose of collection (see Section Error: Reference source not found4,
+    "The Company''s Use of Collected Information").'
+  - 'Company will only process User''s Personal Data if it has one or more of the
+    following legal bases for doing so:'
+  - In addition, Company may be required to disclose personal data to relevant national,
+    state and local law enforcement authorities, whom may further disclose the Personal
+    Data;
+  - In some cases, Company may need User to provide Company with additional information,
+    which may include Personal Data, if necessary to verify User's identity and the
+    nature of User's request.
+  - 'The Company processes User''s personal data to facilitate, operate, provide,
+    and improve the Services, including but not limited to:'
+  - User may ask whether Company holds Personal Data about User and request copies
+    of such Personal Data and information about how it is processed; 10.3.2. User
+    may request that inaccurate Personal Data is corrected; 10.3.3. User may request
+    the deletion of certain Personal Data; 10.3.4. User may request Company to cease
+    or restrict the processing of Personal Data where the processing is inappropriate;
+    10.3.5. When User consents to processing User's Personal Data for a specified
+    purpose by Company, User may withdraw User's consent at any time, and Company
+    will stop any further processing of User's data for that purpose.
+  purposes:
+    security:
+    - to cease or restrict the processing of Personal Data where the processing is
+      inappropriate
+    - to verify User's identity and the nature of User's request
+- source: we
+  target: user datum
+  key: COLLECT
+  text:
+  - 10.4.2. Company currently stores Users data in Company's data centers located
+    in EEA and the USA, and may be accessed from Israel.
+  purposes: {}
+- source: Auth0
+  target: personal datum submit in connection with
+  key: COLLECT
+  text:
+  - Due to the nature of such services Auth0 has access to all personal data submitted
+    by the Customer in connection with setting up Customer's user account such as,
+    Customers' names and email addresses.
+  purposes: {}
+- source: Hotjar
+  target: browser information
+  key: COLLECT
+  text:
+  - Hotjar stores this information on Company's behalf in a pseudonymized user profile.
+  - This includes a device's IP address (processed during User session and stored
+    in a de-identified form), device screen size, device type (unique device identifiers),
+    browser information, geographic location (country only), and the preferred language
+    used to display the Company's Services.
+  purposes: {}
+- source: Hotjar
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Hotjar uses cookies and other technologies to collect data on Company's Users'
+    behavior and their devices.
+  purposes: {}
+- source: Hotjar
+  target: datum on behavior
+  key: COLLECT
+  text:
+  - Hotjar uses cookies and other technologies to collect data on Company's Users'
+    behavior and their devices.
+  purposes: {}
+- source: HubSpot
+  target: beacon
+  key: COLLECT
+  text:
+  - The Company may use, on the Sites, HubSpot Analytics uses cookies and beacons
+    to track how long Users and visitors are, what marketing pages they visit, what
+    marketing offers they respond to, and a visitor's identity which enables the Company
+    to improve and provide such Sites.
+  purposes:
+    advertising:
+    - to track how long Users and visitors are, what marketing pages they visit, what
+      marketing offers they respond to, and a visitor's identity which enables the
+      Company to improve and provide such Sites
+    analytics:
+    - to track how long Users and visitors are, what marketing pages they visit, what
+      marketing offers they respond to, and a visitor's identity which enables the
+      Company to improve and provide such Sites
+- source: HubSpot
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Company may use, on the Sites, HubSpot Analytics uses cookies and beacons
+    to track how long Users and visitors are, what marketing pages they visit, what
+    marketing offers they respond to, and a visitor's identity which enables the Company
+    to improve and provide such Sites.
+  purposes:
+    advertising:
+    - to track how long Users and visitors are, what marketing pages they visit, what
+      marketing offers they respond to, and a visitor's identity which enables the
+      Company to improve and provide such Sites
+    analytics:
+    - to track how long Users and visitors are, what marketing pages they visit, what
+      marketing offers they respond to, and a visitor's identity which enables the
+      Company to improve and provide such Sites
+- source: Intercom
+  target: amount
+  key: COLLECT
+  text:
+  - Further, Wing may provide a limited amount of data (such as sign-up date and some
+    personal data such as Customers' email address) to Intercom which acts as a data
+    processor on Wing's behalf.
+  purposes: {}
+- source: Intercom
+  target: contact information
+  key: COLLECT
+  text:
+  - Intercom collects publicly available contact and social information related to
+    Customers, such as email address, gender, company, job title, photos, website
+    URLs, social network handles and physical addresses, to enhance your Customers'
+    experience.
+  purposes:
+    services:
+    - to enhance your Customers' experience
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Such service providers may have access to personal data, depending on each of
+    their specific roles and purposes in the provision of the Services or other activities,
+    and may only use the data as determined in the Company's agreements with them);
+    5.1.8.
+  - To engage with third-party service providers and/or sub-contractors which provide
+    services for Company's business operations (e.g., hosting and server location
+    services, data and cyber security services, internet service providers, operating
+    systems and platforms, text analyzing services, marketing and advertising services,
+    data and cyber security services, fraud detection, web analytics, session or activity
+    recording services, remote access services, performance measurement, data optimization
+    services, social and advertising networks, customer relation management systems
+    and Company's business, legal, tax, financial and compliance advisors.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - By clicking on a link to a third-party website or service, a third party may transmit
+    cookies to User.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about user
+  key: COLLECT
+  text:
+  - However, Wing does allow certain third-party providers to collect information
+    about Users directly through the Site, for purposes of analyzing and optimizing
+    Wing's Site, providing content that is more relevant to User, measuring statistics
+    and the success of ad campaigns, and for other purposes, as further set out under
+    Section 5 above.
+  purposes:
+    advertising:
+    - for purposes of analyzing and optimizing Wing's Site, providing content that
+      is more relevant to User, measuring statistics and the success of ad campaigns,
+      and for other purposes, as further set out under Section 5 above
+    analytics:
+    - for purposes of analyzing and optimizing Wing's Site, providing content that
+      is more relevant to User, measuring statistics and the success of ad campaigns,
+      and for other purposes, as further set out under Section 5 above
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Such service providers may have access to personal data, depending on each of
+    their specific roles and purposes in the provision of the Services or other activities,
+    and may only use the data as determined in the Company's agreements with them);
+    5.1.8.
+  - To engage with third-party service providers and/or sub-contractors which provide
+    services for Company's business operations (e.g., hosting and server location
+    services, data and cyber security services, internet service providers, operating
+    systems and platforms, text analyzing services, marketing and advertising services,
+    data and cyber security services, fraud detection, web analytics, session or activity
+    recording services, remote access services, performance measurement, data optimization
+    services, social and advertising networks, customer relation management systems
+    and Company's business, legal, tax, financial and compliance advisors.
+  purposes: {}
+- source: calendly
+  target: contact information
+  key: COLLECT
+  text:
+  - Calendly may process usage data (e.g. web pages visited, interest in content,
+    access times), contact data (e.g. email addresses, telephone numbers), and master
+    data (e.g. names, addresses) in the USA (subject to a proper mechanism such as
+    standard contractual clauses).
+  purposes: {}
+- source: calendly
+  target: internet activity
+  key: COLLECT
+  text:
+  - Calendly may process usage data (e.g. web pages visited, interest in content,
+    access times), contact data (e.g. email addresses, telephone numbers), and master
+    data (e.g. names, addresses) in the USA (subject to a proper mechanism such as
+    standard contractual clauses).
+  purposes: {}
+- source: calendly
+  target: master datum
+  key: COLLECT
+  text:
+  - Calendly may process usage data (e.g. web pages visited, interest in content,
+    access times), contact data (e.g. email addresses, telephone numbers), and master
+    data (e.g. names, addresses) in the USA (subject to a proper mechanism such as
+    standard contractual clauses).
+  purposes: {}
+- source: propensity
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Then User's data will no longer be transferred to Propensity.
+  purposes: {}
+- source: propensity
+  target: internet activity
+  key: COLLECT
+  text:
+  - When Users opt-in through the Wing cookie consent banner on the Site, Wing may
+    transfer User's data (e.g., web data and site activity data etc.) to Propensity
+    for the above-mentioned purpose.
+  purposes: {}
+- source: propensity
+  target: web datum
+  key: COLLECT
+  text:
+  - When Users opt-in through the Wing cookie consent banner on the Site, Wing may
+    transfer User's data (e.g., web data and site activity data etc.) to Propensity
+    for the above-mentioned purpose.
+  purposes: {}
+- source: relevant national law enforcement authority
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition, Company may be required to disclose personal data to relevant national,
+    state and local law enforcement authorities, whom may further disclose the Personal
+    Data;
+  purposes: {}
+- source: user
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - By clicking on a link to a third-party website or service, a third party may transmit
+    cookies to User.
+  purposes: {}
+- source: user
+  target: personal information
+  key: COLLECT
+  text:
+  - In some cases, Company may need User to provide Company with additional information,
+    which may include Personal Data, if necessary to verify User's identity and the
+    nature of User's request.
+  purposes:
+    security:
+    - to verify User's identity and the nature of User's request
+- source: wing
+  target: amount
+  key: COLLECT
+  text:
+  - Further, Wing may provide a limited amount of data (such as sign-up date and some
+    personal data such as Customers' email address) to Intercom which acts as a data
+    processor on Wing's behalf.
+  purposes: {}
+- source: wing
+  target: information about use of service
+  key: COLLECT
+  text:
+  - Wing uses Google Analytics to collect information about the use of the Services,
+    in order to analyze and achieve marketing and other legitimate business goals,
+    and improve user experience, including by examining Users' behavior on the Services
+    and integrating different data as received from other sources.
+  purposes:
+    advertising:
+    - in order to analyze and achieve marketing and other legitimate business goals,
+      and improve user experience, including by examining Users' behavior on the Services
+      and integrating different data as received from other sources
+    analytics:
+    - in order to analyze and achieve marketing and other legitimate business goals,
+      and improve user experience, including by examining Users' behavior on the Services
+      and integrating different data as received from other sources
+- source: wing
+  target: information about user
+  key: COLLECT
+  text:
+  - Wing may receive information about Users through partners, resellers, related
+    companies and other third-party service providers.
+  purposes: {}
+- source: wing
+  target: internet activity
+  key: COLLECT
+  text:
+  - When Users opt-in through the Wing cookie consent banner on the Site, Wing may
+    transfer User's data (e.g., web data and site activity data etc.) to Propensity
+    for the above-mentioned purpose.
+  purposes: {}
+- source: wing
+  target: personal information
+  key: COLLECT
+  text:
+  - Wing uses, on the Platform and Freemium Platform, services provided by LogRocket
+    inc., via which Wing may collect personal data regarding Customers' behavior on
+    the Services such as, Customers' email address and activity on the Services, for
+    analytics and marketing purposes including by tracking page content, and click
+    movements, scrolls and keystroke activities.
+  purposes:
+    advertising:
+    - for analytics and marketing purposes including by tracking page content, and
+      click movements, scrolls and keystroke activities
+    analytics:
+    - for analytics and marketing purposes including by tracking page content, and
+      click movements, scrolls and keystroke activities
+- source: wing
+  target: web datum
+  key: COLLECT
+  text:
+  - When Users opt-in through the Wing cookie consent banner on the Site, Wing may
+    transfer User's data (e.g., web data and site activity data etc.) to Propensity
+    for the above-mentioned purpose.
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - Calendly may process usage data (e.g. web pages visited, interest in content,
+    access times), contact data (e.g. email addresses, telephone numbers), and master
+    data (e.g. names, addresses) in the USA (subject to a proper mechanism such as
+    standard contractual clauses).
+  - Intercom collects publicly available contact and social information related to
+    Customers, such as email address, gender, company, job title, photos, website
+    URLs, social network handles and physical addresses, to enhance your Customers'
+    experience.
+- source: contact information
+  target: gender
+  key: SUBSUM
+  text:
+  - Intercom collects publicly available contact and social information related to
+    Customers, such as email address, gender, company, job title, photos, website
+    URLs, social network handles and physical addresses, to enhance your Customers'
+    experience.
+- source: contact information
+  target: job title
+  key: SUBSUM
+  text:
+  - Intercom collects publicly available contact and social information related to
+    Customers, such as email address, gender, company, job title, photos, website
+    URLs, social network handles and physical addresses, to enhance your Customers'
+    experience.
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Calendly may process usage data (e.g. web pages visited, interest in content,
+    access times), contact data (e.g. email addresses, telephone numbers), and master
+    data (e.g. names, addresses) in the USA (subject to a proper mechanism such as
+    standard contractual clauses).
+- source: contact information
+  target: photo
+  key: SUBSUM
+  text:
+  - Intercom collects publicly available contact and social information related to
+    Customers, such as email address, gender, company, job title, photos, website
+    URLs, social network handles and physical addresses, to enhance your Customers'
+    experience.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Intercom collects publicly available contact and social information related to
+    Customers, such as email address, gender, company, job title, photos, website
+    URLs, social network handles and physical addresses, to enhance your Customers'
+    experience.
+- source: contact information
+  target: social network handle
+  key: SUBSUM
+  text:
+  - Intercom collects publicly available contact and social information related to
+    Customers, such as email address, gender, company, job title, photos, website
+    URLs, social network handles and physical addresses, to enhance your Customers'
+    experience.
+- source: contact information
+  target: website url
+  key: SUBSUM
+  text:
+  - Intercom collects publicly available contact and social information related to
+    Customers, such as email address, gender, company, job title, photos, website
+    URLs, social network handles and physical addresses, to enhance your Customers'
+    experience.
+- source: internet activity
+  target: access time
+  key: SUBSUM
+  text:
+  - Calendly may process usage data (e.g. web pages visited, interest in content,
+    access times), contact data (e.g. email addresses, telephone numbers), and master
+    data (e.g. names, addresses) in the USA (subject to a proper mechanism such as
+    standard contractual clauses).
+- source: internet activity
+  target: web page visit
+  key: SUBSUM
+  text:
+  - Calendly may process usage data (e.g. web pages visited, interest in content,
+    access times), contact data (e.g. email addresses, telephone numbers), and master
+    data (e.g. names, addresses) in the USA (subject to a proper mechanism such as
+    standard contractual clauses).
+- source: master datum
+  target: name address
+  key: SUBSUM
+  text:
+  - Calendly may process usage data (e.g. web pages visited, interest in content,
+    access times), contact data (e.g. email addresses, telephone numbers), and master
+    data (e.g. names, addresses) in the USA (subject to a proper mechanism such as
+    standard contractual clauses).
+- source: personal datum submit in connection with
+  target: email address
+  key: SUBSUM
+  text:
+  - Due to the nature of such services Auth0 has access to all personal data submitted
+    by the Customer in connection with setting up Customer's user account such as,
+    Customers' names and email addresses.
+- source: personal datum submit in connection with
+  target: person name
+  key: SUBSUM
+  text:
+  - Due to the nature of such services Auth0 has access to all personal data submitted
+    by the Customer in connection with setting up Customer's user account such as,
+    Customers' names and email addresses.
+- source: personal information
+  target: activity on services
+  key: SUBSUM
+  text:
+  - Wing uses, on the Platform and Freemium Platform, services provided by LogRocket
+    inc., via which Wing may collect personal data regarding Customers' behavior on
+    the Services such as, Customers' email address and activity on the Services, for
+    analytics and marketing purposes including by tracking page content, and click
+    movements, scrolls and keystroke activities.
+  - Wing uses, on the Platform and Freemium Platform, services provided by Mixpanel,
+    via which Wing may collect personal data, such as, Customers' email address and
+    activity on the Services, for analytics and marketing purposes including by tracking
+    page content, and click movements, scrolls and keystroke activities.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Further, Wing may provide a limited amount of data (such as sign-up date and some
+    personal data such as Customers' email address) to Intercom which acts as a data
+    processor on Wing's behalf.
+  - Wing uses, on the Platform and Freemium Platform, services provided by LogRocket
+    inc., via which Wing may collect personal data regarding Customers' behavior on
+    the Services such as, Customers' email address and activity on the Services, for
+    analytics and marketing purposes including by tracking page content, and click
+    movements, scrolls and keystroke activities.
+  - Wing uses, on the Platform and Freemium Platform, services provided by Mixpanel,
+    via which Wing may collect personal data, such as, Customers' email address and
+    activity on the Services, for analytics and marketing purposes including by tracking
+    page content, and click movements, scrolls and keystroke activities.
+nodes:
+- type: ACTOR
+  id: Auth0
+- type: ACTOR
+  id: Hotjar
+- type: ACTOR
+  id: HubSpot
+- type: ACTOR
+  id: Intercom
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: calendly
+- type: ACTOR
+  id: propensity
+- type: ACTOR
+  id: relevant national law enforcement authority
+- type: ACTOR
+  id: user
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: wing
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: activity on services
+- type: DATA
+  id: amount
+- type: DATA
+  id: beacon
+- type: DATA
+  id: browser information
+- type: DATA
+  id: communication send
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: data user provide company with via service
+- type: DATA
+  id: datum on behavior
+- type: DATA
+  id: email address
+- type: DATA
+  id: gender
+- type: DATA
+  id: information about use of service
+- type: DATA
+  id: information about user
+- type: DATA
+  id: information company collect
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: job title
+- type: DATA
+  id: master datum
+- type: DATA
+  id: name address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum submit in connection with
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: photo
+- type: DATA
+  id: postal address
+- type: DATA
+  id: social network handle
+- type: DATA
+  id: user datum
+- type: DATA
+  id: web datum
+- type: DATA
+  id: web page visit
+- type: DATA
+  id: website url

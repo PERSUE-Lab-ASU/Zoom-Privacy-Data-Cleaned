@@ -1,0 +1,187 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Additionally, if you are a European resident we note that we are processing your
+    information in order to fulfill contracts we might have with you (for example
+    if you make an order through the Site), or otherwise to pursue our legitimate
+    business interests listed above.
+  purposes:
+    legal:
+    - in order to fulfill contracts we might have with you (for example if you make
+      an order through the Site), or otherwise to pursue our legitimate business interests
+      listed above
+    services:
+    - in order to fulfill contracts we might have with you (for example if you make
+      an order through the Site), or otherwise to pursue our legitimate business interests
+      listed above
+- source: we
+  target: information about individual who visit store
+  key: COLLECT
+  text:
+  - 'Additionally, we collect the following types of personal information from you
+    and/or your customers once you have installed the App: Information about you and
+    others who may access the App on behalf of your store, such as your name, address,
+    email address, phone number, and billing information; Information about individuals
+    who visit your store, such as their IP address, web browser details, time zone,
+    and information about the cookies installed on the particular device.'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'Additionally, we collect the following types of personal information from you
+    and/or your customers once you have installed the App: Information about you and
+    others who may access the App on behalf of your store, such as your name, address,
+    email address, phone number, and billing information; Information about individuals
+    who visit your store, such as their IP address, web browser details, time zone,
+    and information about the cookies installed on the particular device.'
+  purposes: {}
+- source: we
+  target: order information
+  key: COLLECT
+  text:
+  - When you place an order through the Site, we will maintain your Order Information
+    for our records, unless and until you ask us to delete this information.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Finally, we may also share your Personal Information to comply with applicable
+    laws and regulations, to respond to a subpoena, search warrant or other lawful
+    request for information we receive, or to otherwise protect our rights.
+  - We use the personal information we collect from you and your customers in order
+    to provide the Service and to operate the App.
+  purposes:
+    legal:
+    - to comply with applicable laws and regulations, to respond to a subpoena, search
+      warrant or other lawful request for information we receive, or to otherwise
+      protect our rights
+    services:
+    - in order to provide the Service and to operate the App
+- source: information about individual who visit store
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Additionally, we collect the following types of personal information from you
+    and/or your customers once you have installed the App: Information about you and
+    others who may access the App on behalf of your store, such as your name, address,
+    email address, phone number, and billing information; Information about individuals
+    who visit your store, such as their IP address, web browser details, time zone,
+    and information about the cookies installed on the particular device.'
+- source: information about individual who visit store
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Additionally, we collect the following types of personal information from you
+    and/or your customers once you have installed the App: Information about you and
+    others who may access the App on behalf of your store, such as your name, address,
+    email address, phone number, and billing information; Information about individuals
+    who visit your store, such as their IP address, web browser details, time zone,
+    and information about the cookies installed on the particular device.'
+- source: information about individual who visit store
+  target: time zone
+  key: SUBSUM
+  text:
+  - 'Additionally, we collect the following types of personal information from you
+    and/or your customers once you have installed the App: Information about you and
+    others who may access the App on behalf of your store, such as your name, address,
+    email address, phone number, and billing information; Information about individuals
+    who visit your store, such as their IP address, web browser details, time zone,
+    and information about the cookies installed on the particular device.'
+- source: information about individual who visit store
+  target: web browser detail
+  key: SUBSUM
+  text:
+  - 'Additionally, we collect the following types of personal information from you
+    and/or your customers once you have installed the App: Information about you and
+    others who may access the App on behalf of your store, such as your name, address,
+    email address, phone number, and billing information; Information about individuals
+    who visit your store, such as their IP address, web browser details, time zone,
+    and information about the cookies installed on the particular device.'
+- source: information about you
+  target: billing information
+  key: SUBSUM
+  text:
+  - 'Additionally, we collect the following types of personal information from you
+    and/or your customers once you have installed the App: Information about you and
+    others who may access the App on behalf of your store, such as your name, address,
+    email address, phone number, and billing information; Information about individuals
+    who visit your store, such as their IP address, web browser details, time zone,
+    and information about the cookies installed on the particular device.'
+- source: information about you
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Additionally, we collect the following types of personal information from you
+    and/or your customers once you have installed the App: Information about you and
+    others who may access the App on behalf of your store, such as your name, address,
+    email address, phone number, and billing information; Information about individuals
+    who visit your store, such as their IP address, web browser details, time zone,
+    and information about the cookies installed on the particular device.'
+- source: information about you
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Additionally, we collect the following types of personal information from you
+    and/or your customers once you have installed the App: Information about you and
+    others who may access the App on behalf of your store, such as your name, address,
+    email address, phone number, and billing information; Information about individuals
+    who visit your store, such as their IP address, web browser details, time zone,
+    and information about the cookies installed on the particular device.'
+- source: information about you
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Additionally, we collect the following types of personal information from you
+    and/or your customers once you have installed the App: Information about you and
+    others who may access the App on behalf of your store, such as your name, address,
+    email address, phone number, and billing information; Information about individuals
+    who visit your store, such as their IP address, web browser details, time zone,
+    and information about the cookies installed on the particular device.'
+- source: information about you
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Additionally, we collect the following types of personal information from you
+    and/or your customers once you have installed the App: Information about you and
+    others who may access the App on behalf of your store, such as your name, address,
+    email address, phone number, and billing information; Information about individuals
+    who visit your store, such as their IP address, web browser details, time zone,
+    and information about the cookies installed on the particular device.'
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: billing information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about individual who visit store
+- type: DATA
+  id: information about you
+- type: DATA
+  id: ip address
+- type: DATA
+  id: order information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: time zone
+- type: DATA
+  id: web browser detail

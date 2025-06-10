@@ -1,0 +1,106 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '3. Data Sharing and Disclosure
+
+
+    3.2 Legal Requirements
+
+
+    We may disclose information if required by law or in response to valid requests
+    by public authorities.'
+  - This Privacy Policy and Terms of Service outline how we collect, use, and safeguard
+    your information.
+  - We may share information with trusted third-party service providers who assist
+    us in operating our platform and conducting our business.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We retain personal information only as long as necessary to fulfill the purposes
+    outlined in this policy.
+  purposes:
+    legal:
+    - to fulfill the purposes outlined in this policy
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share information with trusted third-party service providers who assist
+    us in operating our platform and conducting our business.
+  purposes: {}
+- source: information we collect
+  target: billing
+  key: SUBSUM
+  text:
+  - 1. Information We Collect
+  - Billing and financial details for transactions
+- source: information we collect
+  target: log file
+  key: SUBSUM
+  text:
+  - '1. Information We Collect
+
+
+    1.2 Usage Data (Non-Personal Information)
+
+
+    Log files, IP addresses, browser type, operating system, device type'
+- source: information we collect
+  target: parent guardian information
+  key: SUBSUM
+  text:
+  - 1. Information We Collect
+  - Parent/guardian information
+- source: information we collect
+  target: person name
+  key: SUBSUM
+  text:
+  - 1. Information We Collect
+  - Name, address, phone number, email address
+- source: information we collect
+  target: student information
+  key: SUBSUM
+  text:
+  - '1. Information We Collect
+
+
+    1.1 Personal Information
+
+
+    Student information: academic records, attendance, bus routes'
+- source: information we collect
+  target: usage pattern
+  key: SUBSUM
+  text:
+  - 1. Information We Collect
+  - Usage patterns and preferences
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: billing
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: log file
+- type: DATA
+  id: parent guardian information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: student information
+- type: DATA
+  id: usage pattern

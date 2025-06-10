@@ -1,0 +1,187 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: account information
+  key: COLLECT
+  text:
+  - If you would like to make a request, cancel or request your account we delete
+    or no longer use your account information to deliver to you.
+  purposes:
+    services:
+    - to deliver to you
+- source: we
+  target: clear datum
+  key: COLLECT
+  text:
+  - EasyMeets users give us clear data such as name, email, and phone number; email
+    of other people; the issue of the meeting; and other data delivered to us or as
+    instructed by the EasyMeets user upon schedule, according to the EasyMeets Representations
+    of Use.
+  purposes: {}
+- source: we
+  target: cookies
+  key: COLLECT
+  text:
+  - When the user gets access to our services we can use "Cookies" (a little text
+    file sent by your device each time you visit EasyMeets, unique to your EasyMeets
+    account) or similar technologies.
+  purposes: {}
+- source: we
+  target: little text file send
+  key: COLLECT
+  text:
+  - When the user gets access to our services we can use "Cookies" (a little text
+    file sent by your device each time you visit EasyMeets, unique to your EasyMeets
+    account) or similar technologies.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information we receive from google api
+  key: COLLECT
+  text:
+  - This means that any information we receive from Google APIs will only be used
+    and transferred to other apps in accordance with this policy.
+  purposes: {}
+- source: east meets
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - East Meets will also use your data to reply to your questions or remind you about
+    appointments to take, and canceled meetings.
+  purposes: {}
+- source: easymeets
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - EasyMeets use your data to comply with relevant lawful or regulatory responsibilities,
+    including complying with recommendations from law enforcement or other governmental
+    authorities, or in legal proceedings.
+  purposes:
+    legal:
+    - to comply with relevant lawful or regulatory responsibilities, including complying
+      with recommendations from law enforcement or other governmental authorities,
+      or in legal proceedings
+- source: easymeets
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - EasyMeets uses cookies and may use "session" cookies or "persistent" cookies.
+  - EasyMeets uses cookies, web beacons, and other technologies to obtain and keep
+    specific kinds of data when you enter with us to your computer.
+  purposes:
+    analytics:
+    - to obtain and keep specific kinds of data when you enter with us to your computer
+    services:
+    - to obtain and keep specific kinds of data when you enter with us to your computer
+- source: easymeets
+  target: datum provide
+  key: COLLECT
+  text:
+  - EasyMeets will use your data provided; including facilitating scheduling; handling
+    the account; replying to questions and other customer service and support goals.
+  purposes: {}
+- source: easymeets
+  target: personal information
+  key: COLLECT
+  text:
+  - EasyMeets keep the personal data, and we gather it for as long as is reasonably
+    necessary to achieve the goals for which the data was gathered and to complete
+    our contractual and legal duties.
+  purposes: {}
+- source: easymeets
+  target: specific kind of datum
+  key: COLLECT
+  text:
+  - EasyMeets uses cookies, web beacons, and other technologies to obtain and keep
+    specific kinds of data when you enter with us to your computer.
+  purposes: {}
+- source: account detail
+  target: contact via account setting page
+  key: SUBSUM
+  text:
+  - EasyMeets keep your data correct and complete, you can log in to check and edit
+    your account details, including contact via your account settings page.
+- source: clear datum
+  target: datum deliver to we
+  key: SUBSUM
+  text:
+  - EasyMeets users give us clear data such as name, email, and phone number; email
+    of other people; the issue of the meeting; and other data delivered to us or as
+    instructed by the EasyMeets user upon schedule, according to the EasyMeets Representations
+    of Use.
+- source: clear datum
+  target: email address
+  key: SUBSUM
+  text:
+  - EasyMeets users give us clear data such as name, email, and phone number; email
+    of other people; the issue of the meeting; and other data delivered to us or as
+    instructed by the EasyMeets user upon schedule, according to the EasyMeets Representations
+    of Use.
+- source: clear datum
+  target: email of people
+  key: SUBSUM
+  text:
+  - EasyMeets users give us clear data such as name, email, and phone number; email
+    of other people; the issue of the meeting; and other data delivered to us or as
+    instructed by the EasyMeets user upon schedule, according to the EasyMeets Representations
+    of Use.
+- source: clear datum
+  target: person name
+  key: SUBSUM
+  text:
+  - EasyMeets users give us clear data such as name, email, and phone number; email
+    of other people; the issue of the meeting; and other data delivered to us or as
+    instructed by the EasyMeets user upon schedule, according to the EasyMeets Representations
+    of Use.
+- source: clear datum
+  target: phone number
+  key: SUBSUM
+  text:
+  - EasyMeets users give us clear data such as name, email, and phone number; email
+    of other people; the issue of the meeting; and other data delivered to us or as
+    instructed by the EasyMeets user upon schedule, according to the EasyMeets Representations
+    of Use.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: east meets
+- type: ACTOR
+  id: easymeets
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account detail
+- type: DATA
+  id: account information
+- type: DATA
+  id: clear datum
+- type: DATA
+  id: contact via account setting page
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: cookies
+- type: DATA
+  id: datum deliver to we
+- type: DATA
+  id: datum provide
+- type: DATA
+  id: email address
+- type: DATA
+  id: email of people
+- type: DATA
+  id: information we receive from google api
+- type: DATA
+  id: little text file send
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: specific kind of datum

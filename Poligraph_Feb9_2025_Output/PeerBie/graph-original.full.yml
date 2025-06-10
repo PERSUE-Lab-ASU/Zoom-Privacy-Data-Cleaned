@@ -1,0 +1,225 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you pay for our Services, we may receive information and confirmations, such
+    as payment receipts, including from app stores or other third parties processing
+    your payment.
+  - 'To ensure the personal information we collect is accurate, up-to-date and complete
+    we: record information in a consistent format; where necessary, confirm the accuracy
+    of information we collect from a third party or public source; promptly add updated
+    or new personal information to existing records; and verify our contact lists
+    to check their accuracy.'
+  - We may hold your information in either electronic or hard copy form.
+  purposes:
+    analytics:
+    - To ensure the personal information we collect is accurate, up-to-date and complete
+    services:
+    - To ensure the personal information we collect is accurate, up-to-date and complete
+- source: we
+  target: confirmation
+  key: COLLECT
+  text:
+  - If you pay for our Services, we may receive information and confirmations, such
+    as payment receipts, including from app stores or other third parties processing
+    your payment.
+  purposes: {}
+- source: we
+  target: device specific information
+  key: COLLECT
+  text:
+  - "Device and Connection Information\n\t   We collect device-specific information
+    when you install, access, or use our Services."
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We collect device location information if you use our location features, such
+    as when you choose to share your location with your contacts, view locations nearby
+    or those others have shared with you, and the like, and for diagnostics and troubleshooting
+    purposes such as if you are having trouble with our app's location features.
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Regularly, we may collect general, non-personal, statistical information about
+    the use of PeerBies's such as tallying page views by users, the length of time
+    they spend on each page and tracking user traffic patterns generally.
+  - We collect this information through the use of "cookies" and other tracking technologies.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - "In order to verify your identity, we may need to gather more personal data from
+    you than we currently have.\n\nChanges to the Policy\n\n  We retain the right,
+    based on our sole discretion, to modify, change, add or remove sections of this
+    privacy policy at any time."
+  - 'We may also collect personal information indirectly from third parties including:
+    publicly available sources; third-party companies such as law enforcement agencies
+    and other Government entities; our network of partners, and affiliates; or your
+    authorized representative, if you have one.'
+  - We may also disclose your personal information to our contracted service providers
+    for the purposes of operating our website or PeerBie's business (including marketing),
+    fulfilling your requests or otherwise providing our services to you.
+  - We may disclose your personal information to any person or organization for any
+    authorized purpose with your express consent.
+  - We may share your personal information with associated bodies corporate and our
+    employees who have a "need to know" that information.
+  - We usually collect your personal information directly from you.
+  - We will retain your Personal Information only for so long as it is required for
+    the purposes it was collected or to comply with applicable laws.
+  purposes:
+    advertising:
+    - for the purposes of operating our website or PeerBie's business (including marketing),
+      fulfilling your requests or otherwise providing our services to you
+    security:
+    - In order to verify your identity
+    services:
+    - for the purposes of operating our website or PeerBie's business (including marketing),
+      fulfilling your requests or otherwise providing our services to you
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - You provide us the phone numbers in your mobile address book on a regular basis,
+    including those of both the users of our Services and your other contacts.
+  purposes: {}
+- source: we
+  target: relate information
+  key: COLLECT
+  text:
+  - We collect service-related, diagnostic, and performance information.
+  purposes: {}
+- source: we
+  target: tracking information
+  key: COLLECT
+  text:
+  - We use tracking information to determine which parts of our app users like and
+    don't like based on traffic to those parts.
+  purposes:
+    analytics:
+    - to determine which parts of our app users like and don't like
+- source: UNSPECIFIED_ACTOR
+  target: datum about you
+  key: COLLECT
+  text:
+  - Furthermore, when you connect a third party service to your PeerBie account, those
+    connections may allow the third party to collect or share data about you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Third party websites and services may collect, use and disclose Personal Information
+    differently than us, so we encourage you to carefully read and review the privacy
+    policy for each third party website and service that you access or use.
+  - We may disclose your personal information to any person or organization for any
+    authorized purpose with your express consent.
+  purposes: {}
+- source: associated body corporate
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal information with associated bodies corporate and our
+    employees who have a "need to know" that information.
+  purposes: {}
+- source: contract service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also disclose your personal information to our contracted service providers
+    for the purposes of operating our website or PeerBie's business (including marketing),
+    fulfilling your requests or otherwise providing our services to you.
+  purposes:
+    advertising:
+    - for the purposes of operating our website or PeerBie's business (including marketing),
+      fulfilling your requests or otherwise providing our services to you
+    services:
+    - for the purposes of operating our website or PeerBie's business (including marketing),
+      fulfilling your requests or otherwise providing our services to you
+- source: track technology
+  target: browser type
+  key: COLLECT
+  text:
+  - 'Tracking technologies may record information such as: internet domain and host
+    names; internet protocol (IP) addresses; browser types; and the time and date
+    pages on our Services are accessed.'
+  purposes: {}
+- source: track technology
+  target: internet domain name
+  key: COLLECT
+  text:
+  - 'Tracking technologies may record information such as: internet domain and host
+    names; internet protocol (IP) addresses; browser types; and the time and date
+    pages on our Services are accessed.'
+  purposes: {}
+- source: track technology
+  target: ip address
+  key: COLLECT
+  text:
+  - 'Tracking technologies may record information such as: internet domain and host
+    names; internet protocol (IP) addresses; browser types; and the time and date
+    pages on our Services are accessed.'
+  purposes: {}
+- source: confirmation
+  target: payment receipt
+  key: SUBSUM
+  text:
+  - If you pay for our Services, we may receive information and confirmations, such
+    as payment receipts, including from app stores or other third parties processing
+    your payment.
+- source: user information
+  target: personal information
+  key: SUBSUM
+  text:
+  - In the event PeerBie or its assets are sold, it's likely our customer, and user
+    information (including personal information) will be one of the assets transferred,
+    and by using our Services, you consent to this.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: associated body corporate
+- type: ACTOR
+  id: contract service provider
+- type: ACTOR
+  id: track technology
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: confirmation
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: device specific information
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: internet domain name
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: payment receipt
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: relate information
+- type: DATA
+  id: tracking information
+- type: DATA
+  id: user information

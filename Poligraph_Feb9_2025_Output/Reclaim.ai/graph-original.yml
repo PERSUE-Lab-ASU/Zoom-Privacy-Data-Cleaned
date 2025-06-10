@@ -1,0 +1,679 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We only transfer data to others if necessary to provide or improve user-facing
+    features.
+  purposes:
+    services:
+    - to provide or improve user-facing features
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - In addition, from time to time, we may analyze the general behavior and characteristics
+    of users of our Services and share aggregated information like general user statistics.
+  - We may aggregate and de-identify Personal Data as well as behavioral data and
+    use the aggregated information to analyze the effectiveness of our Service, to
+    improve and add features to our Service, and for other similar purposes.
+  - We may collect aggregated information through the Service, through cookies, and
+    through other means described in this Privacy Policy.
+  purposes:
+    analytics:
+    - to analyze the effectiveness of our Service, to improve and add features to
+      our Service, and for other similar purposes
+    services:
+    - to analyze the effectiveness of our Service, to improve and add features to
+      our Service, and for other similar purposes
+- source: we
+  target: app datum
+  key: COLLECT
+  text:
+  - For these integrations, we collect Personal Data and App Data required to authenticate
+    to and enable the integration, and metadata specific to the integration.
+  purposes: {}
+- source: we
+  target: calendar
+  key: COLLECT
+  text:
+  - Through this integration, we will have access to your calendar and any information
+    available there ("Google Calendar Data").
+  purposes: {}
+- source: we
+  target: characteristic
+  key: COLLECT
+  text:
+  - In addition, from time to time, we may analyze the general behavior and characteristics
+    of users of our Services and share aggregated information like general user statistics.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies for a variety of reasons including to operate and administer our
+    Site, gather usage data on our Site and improve your experience on it.
+  purposes:
+    analytics:
+    - for a variety of reasons including to operate and administer our Site, gather
+      usage data on our Site and improve your experience on it
+    services:
+    - for a variety of reasons including to operate and administer our Site, gather
+      usage data on our Site and improve your experience on it
+- source: we
+  target: date
+  key: COLLECT
+  text:
+  - We use pixels in our email campaigns that allow us to collect your email and IP
+    address as well as the date and time you open an email or click on any links in
+    the email.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We collect your name and email when you create an account to use the Services
+    or otherwise interact with us through our Site.
+  - We may use your Personal Data -- your email and name -- in order to respond to
+    your inquiries, feedback, and support requests, as well as to send you occasional
+    updates and marketing emails from the Reclaim service;
+  - We may use your email address to contact you to tell you about updates to the
+    Reclaim service, promote new releases, or support you with your existing account.
+  - We use pixels in our email campaigns that allow us to collect your email and IP
+    address as well as the date and time you open an email or click on any links in
+    the email.
+  purposes:
+    advertising:
+    - in order to respond to your inquiries, feedback, and support requests, as well
+      as to send you occasional updates and marketing emails from the Reclaim service
+    - to contact you to tell you about updates to the Reclaim service, promote new
+      releases, or support you with your existing account
+    services:
+    - in order to respond to your inquiries, feedback, and support requests, as well
+      as to send you occasional updates and marketing emails from the Reclaim service
+    - to contact you to tell you about updates to the Reclaim service, promote new
+      releases, or support you with your existing account
+- source: we
+  target: general behavior
+  key: COLLECT
+  text:
+  - In addition, from time to time, we may analyze the general behavior and characteristics
+    of users of our Services and share aggregated information like general user statistics.
+  purposes: {}
+- source: we
+  target: generate content
+  key: COLLECT
+  text:
+  - We use user-generated content (e.g., Habits and Tasks) to block time on your calendars,
+    provide analytics to you on where your time is being spent, and to integrate with
+    services like project management platforms, chat platforms, and video conferencing
+    platforms;
+  purposes:
+    analytics:
+    - to block time on your calendars, provide analytics to you on where your time
+      is being spent, and to integrate with services like project management platforms,
+      chat platforms, and video conferencing platforms
+    services:
+    - to block time on your calendars, provide analytics to you on where your time
+      is being spent, and to integrate with services like project management platforms,
+      chat platforms, and video conferencing platforms
+- source: we
+  target: google calendar datum
+  key: COLLECT
+  text:
+  - We collect and store your Google calendar data for calendars you authorize to
+    connect to the Services including event titles and descriptions, emails of invitees
+    on those events, locations of events, and other calendar metadata.
+  - We use your Google Calendar data to help troubleshoot support issues, provide
+    analytics back to you on where your time is being spent, and to keep your calendars
+    in sync as part of your usage of the Reclaim App;
+  purposes:
+    analytics:
+    - to help troubleshoot support issues, provide analytics back to you on where
+      your time is being spent, and to keep your calendars in sync as part of your
+      usage of the Reclaim App
+    services:
+    - for calendars you authorize to connect to the Services
+    - to help troubleshoot support issues, provide analytics back to you on where
+      your time is being spent, and to keep your calendars in sync as part of your
+      usage of the Reclaim App
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We collect information about how you use our Service, such as the types of content
+    that you view or engage with, the features you use, the actions you take, and
+    the time, frequency and duration of your activities.
+  purposes: {}
+- source: we
+  target: information about visit
+  key: COLLECT
+  text:
+  - When you visit, use and interact with the Service, we may receive certain information
+    about your visit, use or interactions.
+  purposes: {}
+- source: we
+  target: information available
+  key: COLLECT
+  text:
+  - Through this integration, we will have access to your calendar and any information
+    available there ("Google Calendar Data").
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We use pixels in our email campaigns that allow us to collect your email and IP
+    address as well as the date and time you open an email or click on any links in
+    the email.
+  purposes: {}
+- source: we
+  target: metadata specific
+  key: COLLECT
+  text:
+  - For these integrations, we collect Personal Data and App Data required to authenticate
+    to and enable the integration, and metadata specific to the integration.
+  purposes: {}
+- source: we
+  target: necessary google calendar data
+  key: COLLECT
+  text:
+  - Notwithstanding anything else in this Privacy Policy, we (1) only use the necessary
+    Google Calendar Data to provide the Services; (2) do not transfer Google Calendar
+    Data to third parties except as necessary to provide the Services, as required
+    by law, or in connection with a merger, acquisition, or sale of assets where we
+    provide notice to users; (3) do not use the Google Calendar Data for serving advertisements;
+    and (4) do not permit humans to read Google Calendar Data, except (a) if we obtain
+    your affirmative consent, (b) as necessary for security purposes or to comply
+    with applicable law or (c) our use is limited to internal operations, such as
+    resolving support issues or analyzing data to improve the Service.
+  purposes:
+    services:
+    - to provide the Services
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We collect your name and email when you create an account to use the Services
+    or otherwise interact with us through our Site.
+  - We may use your Personal Data -- your email and name -- in order to respond to
+    your inquiries, feedback, and support requests, as well as to send you occasional
+    updates and marketing emails from the Reclaim service;
+  purposes:
+    advertising:
+    - in order to respond to your inquiries, feedback, and support requests, as well
+      as to send you occasional updates and marketing emails from the Reclaim service
+    services:
+    - in order to respond to your inquiries, feedback, and support requests, as well
+      as to send you occasional updates and marketing emails from the Reclaim service
+- source: we
+  target: personal data we share
+  key: COLLECT
+  text:
+  - Our affiliates may use the Personal Data we share in a manner consistent with
+    this Privacy Policy.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We collect information that alone or in combination with other information in
+    our possession could be used to identify you ("Personal Data") as follows:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For these integrations, we collect Personal Data and App Data required to authenticate
+    to and enable the integration, and metadata specific to the integration.
+  - 'In certain circumstances we may share your Personal Data with third parties without
+    further notice to you, unless required by the law, as set forth below:'
+  - 'Personal Data We Collect
+
+
+    We collect the following Personal Data when you use our Services:'
+  - This Privacy Policy explains what Personal Data we collect, how we use and share
+    that data, and your choices concerning our data practices.
+  - To assist us in meeting business operations needs and to perform certain services
+    and functions, we may share Personal Data with vendors and service providers we
+    engage to perform tasks on our behalf, for example to help deliver our services,
+    bill our customers and respond to support tickets.
+  - To provide the Service, we gather Personal Data from you, including your email
+    and name (via your Google Account), your user-generated content (via features
+    in Reclaim like Habits and Tasks), as well as your Google Calendar Data calendar
+    data including event details and metadata from the main calendar that you connect
+    to Reclaim;
+  - 'We collect information that alone or in combination with other information in
+    our possession could be used to identify you ("Personal Data") as follows:'
+  - We keep Personal Data for as long as reasonably necessary for the purposes described
+    in this Privacy Policy, while we have a business need to do so, or as required
+    by law (e.g. for tax, legal, accounting or other purposes), whichever is the longer.
+  - We may collect other Personal Data from you, to the extent you submit any to us
+    in connection with your use of the Service (e.g. when you create Tasks, Habits,
+    Smart 1:1s and/or Scheduling Links).
+  - We may share Personal Data with our affiliates, meaning an entity that controls,
+    is controlled by, or is under common control with Reclaim.
+  - 'We may use Personal Data for the following purposes:'
+  - We may use your Personal Data -- your email and name -- in order to respond to
+    your inquiries, feedback, and support requests, as well as to send you occasional
+    updates and marketing emails from the Reclaim service;
+  purposes:
+    advertising:
+    - in order to respond to your inquiries, feedback, and support requests, as well
+      as to send you occasional updates and marketing emails from the Reclaim service
+    services:
+    - To assist us in meeting business operations needs and to perform certain services
+      and functions
+    - To provide the Service
+    - in order to respond to your inquiries, feedback, and support requests, as well
+      as to send you occasional updates and marketing emails from the Reclaim service
+    - to perform tasks on our behalf, for example to help deliver our services, bill
+      our customers and respond to support tickets
+- source: we
+  target: pixel
+  key: COLLECT
+  text:
+  - We use pixels in our email campaigns that allow us to collect your email and IP
+    address as well as the date and time you open an email or click on any links in
+    the email.
+  purposes: {}
+- source: we
+  target: work calendar information
+  key: COLLECT
+  text:
+  - If your employer pays for your access to the Service, we will process your work
+    calendar information as a "data processor" on behalf of your employer pursuant
+    to our agreements with your employer, rather than this Privacy Policy.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If we are involved in a merger, acquisition, financing due diligence, reorganization,
+    bankruptcy, receivership, sale of all or a portion of our assets, or transition
+    of service to another provider, your Personal Data and other information may be
+    shared in the diligence process with counterparties and others assisting with
+    the transaction and transferred to a successor or affiliate as part of that transaction
+    along with other assets.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - If we are involved in a merger, acquisition, financing due diligence, reorganization,
+    bankruptcy, receivership, sale of all or a portion of our assets, or transition
+    of service to another provider, your Personal Data and other information may be
+    shared in the diligence process with counterparties and others assisting with
+    the transaction and transferred to a successor or affiliate as part of that transaction
+    along with other assets.
+  - 'In certain circumstances we may share your Personal Data with third parties without
+    further notice to you, unless required by the law, as set forth below:'
+  - Pursuant to our instructions, these parties will access, process or store Personal
+    Data in the course of performing their duties to us.
+  - To assist us in meeting business operations needs and to perform certain services
+    and functions, we may share Personal Data with vendors and service providers we
+    engage to perform tasks on our behalf, for example to help deliver our services,
+    bill our customers and respond to support tickets.
+  purposes:
+    services:
+    - To assist us in meeting business operations needs and to perform certain services
+      and functions
+    - to perform tasks on our behalf, for example to help deliver our services, bill
+      our customers and respond to support tickets
+- source: counterpartie
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If we are involved in a merger, acquisition, financing due diligence, reorganization,
+    bankruptcy, receivership, sale of all or a portion of our assets, or transition
+    of service to another provider, your Personal Data and other information may be
+    shared in the diligence process with counterparties and others assisting with
+    the transaction and transferred to a successor or affiliate as part of that transaction
+    along with other assets.
+  purposes: {}
+- source: counterpartie
+  target: personal information
+  key: COLLECT
+  text:
+  - If we are involved in a merger, acquisition, financing due diligence, reorganization,
+    bankruptcy, receivership, sale of all or a portion of our assets, or transition
+    of service to another provider, your Personal Data and other information may be
+    shared in the diligence process with counterparties and others assisting with
+    the transaction and transferred to a successor or affiliate as part of that transaction
+    along with other assets.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - To assist us in meeting business operations needs and to perform certain services
+    and functions, we may share Personal Data with vendors and service providers we
+    engage to perform tasks on our behalf, for example to help deliver our services,
+    bill our customers and respond to support tickets.
+  purposes:
+    services:
+    - To assist us in meeting business operations needs and to perform certain services
+      and functions
+    - to perform tasks on our behalf, for example to help deliver our services, bill
+      our customers and respond to support tickets
+- source: successor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If we are involved in a merger, acquisition, financing due diligence, reorganization,
+    bankruptcy, receivership, sale of all or a portion of our assets, or transition
+    of service to another provider, your Personal Data and other information may be
+    shared in the diligence process with counterparties and others assisting with
+    the transaction and transferred to a successor or affiliate as part of that transaction
+    along with other assets.
+  purposes: {}
+- source: successor
+  target: personal information
+  key: COLLECT
+  text:
+  - If we are involved in a merger, acquisition, financing due diligence, reorganization,
+    bankruptcy, receivership, sale of all or a portion of our assets, or transition
+    of service to another provider, your Personal Data and other information may be
+    shared in the diligence process with counterparties and others assisting with
+    the transaction and transferred to a successor or affiliate as part of that transaction
+    along with other assets.
+  purposes: {}
+- source: we
+  target: reclaim
+  key: SUBSUM
+  text:
+  - You also have the right to lodge a complaint with the relevant authority (as applicable)
+    or a supervisory authority in the UK or EU member state of your usual residence
+    or place of work or of the place of the alleged breach, if you consider that the
+    processing of your Personal Data carried out by Reclaim or any of our affiliates
+    or third-party service providers, has breached data protection laws.
+- source: calendar datum
+  target: calendar metadata
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we will authenticate your Google Calendar account
+    to gather your calendar data, including event titles and descriptions, emails
+    of invitees on those events, locations of events, and other calendar metadata.
+- source: calendar datum
+  target: description
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we will authenticate your Google Calendar account
+    to gather your calendar data, including event titles and descriptions, emails
+    of invitees on those events, locations of events, and other calendar metadata.
+- source: calendar datum
+  target: email of invitee on event
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we will authenticate your Google Calendar account
+    to gather your calendar data, including event titles and descriptions, emails
+    of invitees on those events, locations of events, and other calendar metadata.
+- source: calendar datum
+  target: event title
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we will authenticate your Google Calendar account
+    to gather your calendar data, including event titles and descriptions, emails
+    of invitees on those events, locations of events, and other calendar metadata.
+- source: calendar datum
+  target: geolocation
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we will authenticate your Google Calendar account
+    to gather your calendar data, including event titles and descriptions, emails
+    of invitees on those events, locations of events, and other calendar metadata.
+- source: generate content
+  target: habit
+  key: SUBSUM
+  text:
+  - We use user-generated content (e.g., Habits and Tasks) to block time on your calendars,
+    provide analytics to you on where your time is being spent, and to integrate with
+    services like project management platforms, chat platforms, and video conferencing
+    platforms;
+- source: generate content
+  target: task
+  key: SUBSUM
+  text:
+  - We use user-generated content (e.g., Habits and Tasks) to block time on your calendars,
+    provide analytics to you on where your time is being spent, and to integrate with
+    services like project management platforms, chat platforms, and video conferencing
+    platforms;
+- source: google calendar data calendar datum
+  target: event detail
+  key: SUBSUM
+  text:
+  - To provide the Service, we gather Personal Data from you, including your email
+    and name (via your Google Account), your user-generated content (via features
+    in Reclaim like Habits and Tasks), as well as your Google Calendar Data calendar
+    data including event details and metadata from the main calendar that you connect
+    to Reclaim;
+- source: google calendar data calendar datum
+  target: metadata
+  key: SUBSUM
+  text:
+  - To provide the Service, we gather Personal Data from you, including your email
+    and name (via your Google Account), your user-generated content (via features
+    in Reclaim like Habits and Tasks), as well as your Google Calendar Data calendar
+    data including event details and metadata from the main calendar that you connect
+    to Reclaim;
+- source: google calendar datum
+  target: calendar metadata
+  key: SUBSUM
+  text:
+  - We collect and store your Google calendar data for calendars you authorize to
+    connect to the Services including event titles and descriptions, emails of invitees
+    on those events, locations of events, and other calendar metadata.
+- source: google calendar datum
+  target: description
+  key: SUBSUM
+  text:
+  - We collect and store your Google calendar data for calendars you authorize to
+    connect to the Services including event titles and descriptions, emails of invitees
+    on those events, locations of events, and other calendar metadata.
+- source: google calendar datum
+  target: email of invitee on event
+  key: SUBSUM
+  text:
+  - We collect and store your Google calendar data for calendars you authorize to
+    connect to the Services including event titles and descriptions, emails of invitees
+    on those events, locations of events, and other calendar metadata.
+- source: google calendar datum
+  target: event title
+  key: SUBSUM
+  text:
+  - We collect and store your Google calendar data for calendars you authorize to
+    connect to the Services including event titles and descriptions, emails of invitees
+    on those events, locations of events, and other calendar metadata.
+- source: google calendar datum
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We collect and store your Google calendar data for calendars you authorize to
+    connect to the Services including event titles and descriptions, emails of invitees
+    on those events, locations of events, and other calendar metadata.
+- source: information about
+  target: type of content
+  key: SUBSUM
+  text:
+  - We collect information about how you use our Service, such as the types of content
+    that you view or engage with, the features you use, the actions you take, and
+    the time, frequency and duration of your activities.
+- source: personal information
+  target: app data
+  key: SUBSUM
+  text:
+  - We will not use and will not authorize any of our third-party service providers
+    to use your Personal Data (including your Calendar Data or App Data) to train
+    any large language or other AI models unless we have separately and explicitly
+    obtained your prior consent or you have expressly opted into our use of your Personal
+    Data for such purposes through the Services.
+- source: personal information
+  target: app datum
+  key: SUBSUM
+  text:
+  - App Data.
+  - Personal Data We Collect
+- source: personal information
+  target: calendar data
+  key: SUBSUM
+  text:
+  - Calendar Data or App Data would only be shared with other users if you specifically
+    direct us to share such Personal Data through the Service.
+  - We will not use and will not authorize any of our third-party service providers
+    to use your Personal Data (including your Calendar Data or App Data) to train
+    any large language or other AI models unless we have separately and explicitly
+    obtained your prior consent or you have expressly opted into our use of your Personal
+    Data for such purposes through the Services.
+- source: personal information
+  target: calendar datum
+  key: SUBSUM
+  text:
+  - 'Personal Data We Collect
+
+
+    Calendar Data.'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - Contact Data.
+  - Personal Data We Collect
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - To provide the Service, we gather Personal Data from you, including your email
+    and name (via your Google Account), your user-generated content (via features
+    in Reclaim like Habits and Tasks), as well as your Google Calendar Data calendar
+    data including event details and metadata from the main calendar that you connect
+    to Reclaim;
+- source: personal information
+  target: generate content
+  key: SUBSUM
+  text:
+  - To provide the Service, we gather Personal Data from you, including your email
+    and name (via your Google Account), your user-generated content (via features
+    in Reclaim like Habits and Tasks), as well as your Google Calendar Data calendar
+    data including event details and metadata from the main calendar that you connect
+    to Reclaim;
+- source: personal information
+  target: google account
+  key: SUBSUM
+  text:
+  - To provide the Service, we gather Personal Data from you, including your email
+    and name (via your Google Account), your user-generated content (via features
+    in Reclaim like Habits and Tasks), as well as your Google Calendar Data calendar
+    data including event details and metadata from the main calendar that you connect
+    to Reclaim;
+- source: personal information
+  target: google calendar data calendar datum
+  key: SUBSUM
+  text:
+  - To provide the Service, we gather Personal Data from you, including your email
+    and name (via your Google Account), your user-generated content (via features
+    in Reclaim like Habits and Tasks), as well as your Google Calendar Data calendar
+    data including event details and metadata from the main calendar that you connect
+    to Reclaim;
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - To provide the Service, we gather Personal Data from you, including your email
+    and name (via your Google Account), your user-generated content (via features
+    in Reclaim like Habits and Tasks), as well as your Google Calendar Data calendar
+    data including event details and metadata from the main calendar that you connect
+    to Reclaim;
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: counterpartie
+- type: ACTOR
+  id: reclaim
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: successor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: app data
+- type: DATA
+  id: app datum
+- type: DATA
+  id: calendar
+- type: DATA
+  id: calendar data
+- type: DATA
+  id: calendar datum
+- type: DATA
+  id: calendar metadata
+- type: DATA
+  id: characteristic
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: description
+- type: DATA
+  id: email address
+- type: DATA
+  id: email of invitee on event
+- type: DATA
+  id: event detail
+- type: DATA
+  id: event title
+- type: DATA
+  id: general behavior
+- type: DATA
+  id: generate content
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: google account
+- type: DATA
+  id: google calendar data calendar datum
+- type: DATA
+  id: google calendar datum
+- type: DATA
+  id: habit
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about visit
+- type: DATA
+  id: information available
+- type: DATA
+  id: ip address
+- type: DATA
+  id: metadata
+- type: DATA
+  id: metadata specific
+- type: DATA
+  id: necessary google calendar data
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal data we share
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: pixel
+- type: DATA
+  id: task
+- type: DATA
+  id: type of content
+- type: DATA
+  id: work calendar information

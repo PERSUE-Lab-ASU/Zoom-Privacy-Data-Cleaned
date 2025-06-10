@@ -1,0 +1,253 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how we collect, use, store, and protect your information
+    across our services, including the Meeting Recorder and AI Notetaker and Analytics
+    and AI Roleplays for SDRs .
+  purposes: {}
+- source: we
+  target: audio recording
+  key: COLLECT
+  text:
+  - 'For users participating in AI roleplay sessions, we collect: Audio Recordings
+    : Recordings of roleplay sessions for analysis and improvement.'
+  purposes:
+    services:
+    - For users participating in AI roleplay sessions
+- source: we
+  target: base log of conversation with ai bot
+  key: COLLECT
+  text:
+  - 'For users participating in AI roleplay sessions, we collect: Transcripts : Text-based
+    logs of conversations with the AI bot.'
+  purposes:
+    services:
+    - For users participating in AI roleplay sessions
+- source: we
+  target: calendar
+  key: COLLECT
+  text:
+  - 'To deliver seamless meeting recording, transcription, and summarization, we collect:
+    Integration Data : Calendar and platform information accessed via secure OAuth
+    integrations with platforms like Zoom and Google Calendar (managed through Paragon).'
+  purposes:
+    services:
+    - To deliver seamless meeting recording, transcription, and summarization
+- source: we
+  target: chat datum
+  key: COLLECT
+  text:
+  - 'To deliver seamless meeting recording, transcription, and summarization, we collect:
+    Chat Data : In-meeting messages, including shared links and notes, to provide
+    comprehensive meeting insights.'
+  purposes:
+    analytics:
+    - to provide comprehensive meeting insights
+    services:
+    - To deliver seamless meeting recording, transcription, and summarization
+    - to provide comprehensive meeting insights
+- source: we
+  target: in meeting message
+  key: COLLECT
+  text:
+  - 'To deliver seamless meeting recording, transcription, and summarization, we collect:
+    Chat Data : In-meeting messages, including shared links and notes, to provide
+    comprehensive meeting insights.'
+  purposes:
+    analytics:
+    - to provide comprehensive meeting insights
+    services:
+    - To deliver seamless meeting recording, transcription, and summarization
+    - to provide comprehensive meeting insights
+- source: we
+  target: integration data
+  key: COLLECT
+  text:
+  - 'To deliver seamless meeting recording, transcription, and summarization, we collect:
+    Integration Data : Calendar and platform information accessed via secure OAuth
+    integrations with platforms like Zoom and Google Calendar (managed through Paragon).'
+  purposes:
+    services:
+    - To deliver seamless meeting recording, transcription, and summarization
+- source: we
+  target: meeting data
+  key: COLLECT
+  text:
+  - 'To deliver seamless meeting recording, transcription, and summarization, we collect:
+    Meeting Data : Audio, video, and metadata such as meeting start/end times and
+    participant details.'
+  purposes:
+    services:
+    - To deliver seamless meeting recording, transcription, and summarization
+- source: we
+  target: metadata
+  key: COLLECT
+  text:
+  - 'To deliver seamless meeting recording, transcription, and summarization, we collect:
+    Meeting Data : Audio, video, and metadata such as meeting start/end times and
+    participant details.'
+  purposes:
+    services:
+    - To deliver seamless meeting recording, transcription, and summarization
+- source: we
+  target: profile
+  key: COLLECT
+  text:
+  - 'For users participating in AI roleplay sessions, we collect: User Data : Profile
+    and session activity details to generate personalized analytics and insights.'
+  purposes:
+    analytics:
+    - to generate personalized analytics and insights
+    services:
+    - For users participating in AI roleplay sessions
+- source: we
+  target: recording of roleplay session for analysis
+  key: COLLECT
+  text:
+  - 'For users participating in AI roleplay sessions, we collect: Audio Recordings
+    : Recordings of roleplay sessions for analysis and improvement.'
+  purposes:
+    services:
+    - For users participating in AI roleplay sessions
+- source: we
+  target: transcript
+  key: COLLECT
+  text:
+  - 'For users participating in AI roleplay sessions, we collect: Transcripts : Text-based
+    logs of conversations with the AI bot.'
+  purposes:
+    services:
+    - For users participating in AI roleplay sessions
+- source: we
+  target: user data
+  key: COLLECT
+  text:
+  - 'For users participating in AI roleplay sessions, we collect: User Data : Profile
+    and session activity details to generate personalized analytics and insights.'
+  purposes:
+    analytics:
+    - to generate personalized analytics and insights
+    services:
+    - For users participating in AI roleplay sessions
+- source: trusted service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Data is shared only with trusted service providers (e.g., Deepgram for transcription,
+    Paragon for integrations) under strict confidentiality agreements.
+  purposes: {}
+- source: we
+  target: ai roleplay for sdr
+  key: SUBSUM
+  text:
+  - This Privacy Policy explains how we collect, use, store, and protect your information
+    across our services, including the Meeting Recorder and AI Notetaker and Analytics
+    and AI Roleplays for SDRs .
+- source: we
+  target: analytic provider
+  key: SUBSUM
+  text:
+  - This Privacy Policy explains how we collect, use, store, and protect your information
+    across our services, including the Meeting Recorder and AI Notetaker and Analytics
+    and AI Roleplays for SDRs .
+- source: we
+  target: meeting recorder
+  key: SUBSUM
+  text:
+  - This Privacy Policy explains how we collect, use, store, and protect your information
+    across our services, including the Meeting Recorder and AI Notetaker and Analytics
+    and AI Roleplays for SDRs .
+- source: in meeting message
+  target: note
+  key: SUBSUM
+  text:
+  - 'To deliver seamless meeting recording, transcription, and summarization, we collect:
+    Chat Data : In-meeting messages, including shared links and notes, to provide
+    comprehensive meeting insights.'
+- source: in meeting message
+  target: share link
+  key: SUBSUM
+  text:
+  - 'To deliver seamless meeting recording, transcription, and summarization, we collect:
+    Chat Data : In-meeting messages, including shared links and notes, to provide
+    comprehensive meeting insights.'
+- source: metadata
+  target: meeting start end time
+  key: SUBSUM
+  text:
+  - 'To deliver seamless meeting recording, transcription, and summarization, we collect:
+    Meeting Data : Audio, video, and metadata such as meeting start/end times and
+    participant details.'
+- source: metadata
+  target: participant detail
+  key: SUBSUM
+  text:
+  - 'To deliver seamless meeting recording, transcription, and summarization, we collect:
+    Meeting Data : Audio, video, and metadata such as meeting start/end times and
+    participant details.'
+- source: trusted service provider
+  target: deepgram for transcription
+  key: SUBSUM
+  text:
+  - Data is shared only with trusted service providers (e.g., Deepgram for transcription,
+    Paragon for integrations) under strict confidentiality agreements.
+- source: trusted service provider
+  target: paragon for integration
+  key: SUBSUM
+  text:
+  - Data is shared only with trusted service providers (e.g., Deepgram for transcription,
+    Paragon for integrations) under strict confidentiality agreements.
+nodes:
+- type: ACTOR
+  id: ai roleplay for sdr
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: deepgram for transcription
+- type: ACTOR
+  id: meeting recorder
+- type: ACTOR
+  id: paragon for integration
+- type: ACTOR
+  id: trusted service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: audio recording
+- type: DATA
+  id: base log of conversation with ai bot
+- type: DATA
+  id: calendar
+- type: DATA
+  id: chat datum
+- type: DATA
+  id: in meeting message
+- type: DATA
+  id: integration data
+- type: DATA
+  id: meeting data
+- type: DATA
+  id: meeting start end time
+- type: DATA
+  id: metadata
+- type: DATA
+  id: note
+- type: DATA
+  id: participant detail
+- type: DATA
+  id: profile
+- type: DATA
+  id: recording of roleplay session for analysis
+- type: DATA
+  id: share link
+- type: DATA
+  id: transcript
+- type: DATA
+  id: user data

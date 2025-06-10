@@ -1,0 +1,206 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Specifically: Backup and Logs : We may retain backup copies of your data for
+    a limited time, but they will be deleted according to our regular backup policy
+    cycles.'
+  - 'We will not sell or share your Google user data with third parties, except in
+    the following cases: Service Providers : We may share data with trusted third-party
+    vendors, contractors, or affiliates who assist in operating our website, conducting
+    our business, or providing services to you, as long as they agree to process your
+    data under confidentiality and security obligations.'
+  purposes: {}
+- source: we
+  target: backup copy of datum
+  key: COLLECT
+  text:
+  - 'Specifically: Backup and Logs : We may retain backup copies of your data for
+    a limited time, but they will be deleted according to our regular backup policy
+    cycles.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website uses cookies to ensure you get the best experience on our website.
+  purposes:
+    services:
+    - to ensure you get the best experience on our website
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, we ask visitors who sign up for an account at Apptivio websites to
+    provide an email address.
+  purposes: {}
+- source: we
+  target: google user datum
+  key: COLLECT
+  text:
+  - We retain your Google user data only for as long as is necessary to provide the
+    services you have requested, comply with our legal obligations, resolve disputes,
+    and enforce our agreements.
+  - We will only access, use, and process Google user data for the specific purposes
+    authorized by you and as permitted by Google's API services policies.
+  purposes: {}
+- source: we
+  target: specific datum provide
+  key: COLLECT
+  text:
+  - When interacting with Google services through Apptivio's websites or applications,
+    we may collect specific data provided by Google.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We will not sell or share your Google user data with third parties, except in
+    the following cases: Service Providers : We may share data with trusted third-party
+    vendors, contractors, or affiliates who assist in operating our website, conducting
+    our business, or providing services to you, as long as they agree to process your
+    data under confidentiality and security obligations.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: google datum
+  key: COLLECT
+  text:
+  - We do not allow unauthorized third parties to access your Google data unless expressly
+    authorized by you through Google's OAuth process.
+  purposes: {}
+- source: apptivio
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Apptivio uses cookies to help Apptivio identify and track visitors, their usage
+    of Apptivio websites, and their website access preferences.
+  purposes:
+    analytics:
+    - to help Apptivio identify and track visitors, their usage of Apptivio websites,
+      and their website access preferences
+- source: apptivio
+  target: non-personal information
+  key: COLLECT
+  text:
+  - From time to time, Apptivio may release non-personally-identifying information
+    in the aggregate, e.g., by publishing a report on trends in the usage of its website.
+  - Like most website operators, Apptivio collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+  purposes: {}
+- source: apptivio
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Apptivio discloses potentially personally-identifying and personally-identifying
+    information only to those of its employees, contractors and affiliated organizations
+    that
+  - Other than to its employees, contractors and affiliated organizations, as described
+    above, Apptivio discloses potentially personally-identifying and personally-identifying
+    information in response to a subpoena, court order or other governmental request,
+    or when Apptivio believes in good faith that disclosure is reasonably necessary
+    to protect the property or rights of Apptivio, third parties or the public at
+    large.
+  purposes: {}
+- source: apptivio
+  target: personal information require
+  key: COLLECT
+  text:
+  - In each case, Apptivio collects such information only insofar as is necessary
+    or appropriate to fulfill the purpose of the visitor's interaction with Apptivio.
+  - Those who engage in transactions with Apptivio - by purchasing access to the premium
+    services, for example - are asked to provide additional information, including
+    as necessary the personal and financial information required to process those
+    transactions.
+  purposes: {}
+- source: apptivio
+  target: statistic about behavior of visitor to website
+  key: COLLECT
+  text:
+  - Apptivio may also collect statistics about the behavior of visitors to its websites.
+  purposes: {}
+- source: contractor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We will not sell or share your Google user data with third parties, except in
+    the following cases: Service Providers : We may share data with trusted third-party
+    vendors, contractors, or affiliates who assist in operating our website, conducting
+    our business, or providing services to you, as long as they agree to process your
+    data under confidentiality and security obligations.'
+  purposes: {}
+- source: google account profile information
+  target: email address
+  key: SUBSUM
+  text:
+  - This includes, but is not limited to, your Google account profile information,
+    such as your email address, and other Google-provided data relevant to the service
+    you are using.
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - Like most website operators, Apptivio collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+- source: non-personal information
+  target: date
+  key: SUBSUM
+  text:
+  - Like most website operators, Apptivio collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+- source: non-personal information
+  target: language preference
+  key: SUBSUM
+  text:
+  - Like most website operators, Apptivio collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: apptivio
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: backup copy of datum
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: email address
+- type: DATA
+  id: google account profile information
+- type: DATA
+  id: google datum
+- type: DATA
+  id: google user datum
+- type: DATA
+  id: language preference
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information require
+- type: DATA
+  id: specific datum provide
+- type: DATA
+  id: statistic about behavior of visitor to website

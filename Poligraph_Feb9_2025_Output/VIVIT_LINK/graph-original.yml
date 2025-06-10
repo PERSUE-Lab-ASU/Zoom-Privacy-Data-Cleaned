@@ -1,0 +1,16 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will acquire, use, and provide personal information in an appropriate manner
+    that takes into account the content and scale of our business.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal information

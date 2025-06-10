@@ -1,0 +1,260 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We use the contact information you provide to communicate with you.
+  purposes:
+    services:
+    - to communicate with you
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may use your email address to contact you regarding your postings or to inquire
+    about your community experience.
+  purposes:
+    services:
+    - to contact you regarding your postings or to inquire about your community experience
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may obtain additional information about you, such as address change information,
+    from commercially available sources, in order to keep our records current.
+  purposes:
+    analytics:
+    - in order to keep our records current
+    services:
+    - in order to keep our records current
+- source: we
+  target: information provide to we in accordance with irs regulation
+  key: COLLECT
+  text:
+  - We may retain information provided to us in accordance with IRS and state regulations.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Should a child whom we know to be under 13 send personal information to us, we
+    will use that information only to respond directly to that child to inform him
+    or her that we must have parental consent before receiving his or her personal
+    information.
+  - We may use your personal information to charge you for the products and services
+    you purchase.
+  - We may use your personal information to provide you with information and services
+    you request, if appropriate, to tell you about NTL products and services, and
+    to give you a customized, interactive experience as you use our products.
+  purposes:
+    services:
+    - only to respond directly to that child to inform him or her that we must have
+      parental consent before receiving his or her personal information
+    - to charge you for the products and services you purchase
+    - to provide you with information and services you request, if appropriate, to
+      tell you about NTL products and services, and to give you a customized, interactive
+      experience as you use our products
+- source: we
+  target: tax resolution information
+  key: COLLECT
+  text:
+  - We may use your clients' tax resolution information to aid in the preparation
+    of documents for the IRS and provide related assistance and services.
+  purposes:
+    legal:
+    - to aid in the preparation of documents for the IRS
+    services:
+    - to aid in the preparation of documents for the IRS
+- source: ntl
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - NTL may use your personal or your clients' information to manage your account,
+    to contact you and to operate, improve, and deliver our products and services,
+    including the Website.
+  purposes:
+    services:
+    - to manage your account, to contact you and to operate, improve, and deliver
+      our products and services, including the Website
+- source: ntl
+  target: file on google drive
+  key: COLLECT
+  text:
+  - 'This integration allows NTL to: Access and manage your files on Google Drive,
+    including the ability to download or delete files in sync with our applications.'
+  purposes: {}
+- source: ntl
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Non-personal information may be collected by NTL and used to compile general website
+    usage statistics or facilitate access to restricted website services.
+  purposes: {}
+- source: ntl
+  target: person name
+  key: COLLECT
+  text:
+  - When you ("User") access the Website, or purchase or license products and services
+    for this Website, NTL may collect information such as name, address, tax ID numbers,
+    and the like.
+  purposes: {}
+- source: ntl
+  target: personal information
+  key: COLLECT
+  text:
+  - NTL retains your personal information for the length of time necessary to fulfill
+    the purposes outlined in this Privacy Policy, unless a longer retention period
+    is required or permitted by law.
+  - NTL stores your personal information for a period that is consistent with its
+    business purposes.
+  purposes: {}
+- source: ntl
+  target: postal address
+  key: COLLECT
+  text:
+  - When you ("User") access the Website, or purchase or license products and services
+    for this Website, NTL may collect information such as name, address, tax ID numbers,
+    and the like.
+  purposes: {}
+- source: ntl
+  target: tax id number
+  key: COLLECT
+  text:
+  - When you ("User") access the Website, or purchase or license products and services
+    for this Website, NTL may collect information such as name, address, tax ID numbers,
+    and the like.
+  purposes: {}
+- source: related technology
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Cookies and related technology NTL may use cookies, Locally Shared Objects, Web
+    beacons, or similar technology to keep track of user session identity on the Website,
+    such as tracking items in a shopping cart.
+  purposes:
+    analytics:
+    - to keep track of user session identity on the Website, such as tracking items
+      in a shopping cart
+    services:
+    - to keep track of user session identity on the Website, such as tracking items
+      in a shopping cart
+- source: related technology
+  target: shared objects
+  key: COLLECT
+  text:
+  - Cookies and related technology NTL may use cookies, Locally Shared Objects, Web
+    beacons, or similar technology to keep track of user session identity on the Website,
+    such as tracking items in a shopping cart.
+  purposes:
+    analytics:
+    - to keep track of user session identity on the Website, such as tracking items
+      in a shopping cart
+    services:
+    - to keep track of user session identity on the Website, such as tracking items
+      in a shopping cart
+- source: information about you
+  target: address change information
+  key: SUBSUM
+  text:
+  - We may obtain additional information about you, such as address change information,
+    from commercially available sources, in order to keep our records current.
+- source: non-personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Non-personal information may be collected by NTL and used to compile general website
+    usage statistics or facilitate access to restricted website services.
+  - 'Such information includes: Locations visited on the website.'
+- source: non-personal information
+  target: relate information
+  key: SUBSUM
+  text:
+  - Non-personal information may be collected by NTL and used to compile general website
+    usage statistics or facilitate access to restricted website services.
+  - 'Such information includes: Browser related information.'
+- source: social media
+  target: Facebook
+  key: SUBSUM
+  text:
+  - We may also offer you the opportunity to share your experience with a review or
+    other comment or provide you a service via various third-party social media such
+    as Google, Twitter, Facebook, and YouTube in a number of text, video, and image
+    formats.
+- source: social media
+  target: Google
+  key: SUBSUM
+  text:
+  - We may also offer you the opportunity to share your experience with a review or
+    other comment or provide you a service via various third-party social media such
+    as Google, Twitter, Facebook, and YouTube in a number of text, video, and image
+    formats.
+- source: social media
+  target: Twitter
+  key: SUBSUM
+  text:
+  - We may also offer you the opportunity to share your experience with a review or
+    other comment or provide you a service via various third-party social media such
+    as Google, Twitter, Facebook, and YouTube in a number of text, video, and image
+    formats.
+- source: social media
+  target: youtube
+  key: SUBSUM
+  text:
+  - We may also offer you the opportunity to share your experience with a review or
+    other comment or provide you a service via various third-party social media such
+    as Google, Twitter, Facebook, and YouTube in a number of text, video, and image
+    formats.
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: ntl
+- type: ACTOR
+  id: related technology
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: youtube
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: address change information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: file on google drive
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information provide to we in accordance with irs regulation
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: relate information
+- type: DATA
+  id: shared objects
+- type: DATA
+  id: tax id number
+- type: DATA
+  id: tax resolution information

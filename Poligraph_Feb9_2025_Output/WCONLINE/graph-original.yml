@@ -1,0 +1,53 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - While we are under no obligation to do so (and while we typically delete your
+    data immediately and permanently when you cancel), we may retain your data for
+    up to one year after you have cancelled (in the form of off-site backups).
+  purposes: {}
+- source: we
+  target: assistance
+  key: COLLECT
+  text:
+  - If you become aware of any violation of this Policy, you will immediately notify
+    us and provide us with assistance, as requested, to stop or remedy the violation.
+  purposes:
+    legal:
+    - to stop or remedy the violation
+    security:
+    - to stop or remedy the violation
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - On some of our services, we use cookies to give you the best possible experience--such
+    as to allow you to remain logged in instead of having to log in repeatedly.
+  purposes:
+    services:
+    - to give you the best possible experience--such as to allow you to remain logged
+      in instead of having to log in repeatedly
+- source: we
+  target: information we collect from individual
+  key: COLLECT
+  text:
+  - We use the information we collect from individuals only to allow them to access
+    and use our programs or to service their subscriptions.
+  purposes:
+    services:
+    - only to allow them to access and use our programs or to service their subscriptions
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: assistance
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information we collect from individual

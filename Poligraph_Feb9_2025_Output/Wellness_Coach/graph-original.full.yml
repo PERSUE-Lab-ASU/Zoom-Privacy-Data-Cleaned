@@ -1,0 +1,351 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When you use these services, you'll share some information with us.
+  purposes: {}
+- source: we
+  target: age
+  key: COLLECT
+  text:
+  - '- Content Information: We collect details like profile pictures, names, email
+    addresses, city, gender, age, and audio/video from live sessions.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to provide a great experience and help our website run effectively.
+  - We use cookies to track activity, browser, and device data.
+  purposes:
+    analytics:
+    - to track activity, browser, and device data
+    services:
+    - to provide a great experience and help our website run effectively
+- source: we
+  target: datum on
+  key: COLLECT
+  text:
+  - 'We collect data on how you use our services, including: - Usage Information:
+    We collect information on how you interact with our services (e.g., what videos
+    you watch, how often you participate in live classes).'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - '- Content Information: We collect details like profile pictures, names, email
+    addresses, city, gender, age, and audio/video from live sessions.'
+  purposes: {}
+- source: we
+  target: gender
+  key: COLLECT
+  text:
+  - '- Content Information: We collect details like profile pictures, names, email
+    addresses, city, gender, age, and audio/video from live sessions.'
+  purposes: {}
+- source: we
+  target: important detail about you
+  key: COLLECT
+  text:
+  - 'For example, most of our services require you to set up an account or log into
+    our services using 3rd party accounts such as Google and Facebook, so we need
+    to collect a few important details about you, such as: a unique username, password,
+    email address, gender, city, and age.'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may share information about you in the following ways: - With Coaches and
+    other users: Sharing usernames, profile pictures, and interaction details.'
+  purposes: {}
+- source: we
+  target: information on
+  key: COLLECT
+  text:
+  - 'We collect data on how you use our services, including: - Usage Information:
+    We collect information on how you interact with our services (e.g., what videos
+    you watch, how often you participate in live classes).'
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'We use the information we collect in the following ways: - To develop, operate,
+    and improve our products and services.'
+  purposes: {}
+- source: we
+  target: information you choose
+  key: COLLECT
+  text:
+  - When you interact with our services, we collect the information that you choose
+    to share with us.
+  purposes: {}
+- source: we
+  target: information you provide about weight
+  key: COLLECT
+  text:
+  - To provide accurate recommendations and help you achieve your wellness goals,
+    we also collect and use information you provide about your weight, height, and
+    age.
+  purposes:
+    analytics:
+    - To provide accurate recommendations and help you achieve your wellness goals
+    services:
+    - To provide accurate recommendations and help you achieve your wellness goals
+- source: we
+  target: llm
+  key: COLLECT
+  text:
+  - Our app utilizes a state-of-the-art Large Language Model (LLM) to provide responses.
+  purposes: {}
+- source: we
+  target: metric relate to sleep
+  key: COLLECT
+  text:
+  - This data can include metrics related to sleep, steps, workouts, and other wellness
+    indicators.
+  - We collect data from sources like Apple Health, Google Health, and/or connected
+    wearables to help our members understand their wellness patterns and offer tailored
+    recommendations.
+  purposes:
+    analytics:
+    - to help our members understand their wellness patterns and offer tailored recommendations
+    services:
+    - to help our members understand their wellness patterns and offer tailored recommendations
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - '- Content Information: We collect details like profile pictures, names, email
+    addresses, city, gender, age, and audio/video from live sessions.'
+  purposes: {}
+- source: we
+  target: profile picture
+  key: COLLECT
+  text:
+  - '- Content Information: We collect details like profile pictures, names, email
+    addresses, city, gender, age, and audio/video from live sessions.'
+  purposes: {}
+- source: we
+  target: state of art large language model
+  key: COLLECT
+  text:
+  - Our app utilizes a state-of-the-art Large Language Model (LLM) to provide responses.
+  purposes: {}
+- source: we
+  target: strong encryption
+  key: COLLECT
+  text:
+  - 'Our practices include: - Encryption: We use strong encryption to secure your
+    data in transit and at rest.'
+  purposes:
+    security:
+    - to secure your data in transit and at rest
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '- With third parties for legal reasons: Sharing data as necessary to comply with
+    legal obligations, protect rights, or investigate violations.'
+  purposes:
+    legal:
+    - for legal reasons
+    - to comply with legal obligations, protect rights, or investigate violations
+    security:
+    - to comply with legal obligations, protect rights, or investigate violations
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '- With service providers: Sharing information with service providers who perform
+    services on our behalf.'
+  purposes: {}
+- source: service provider who perform service on behalf
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '- With service providers: Sharing information with service providers who perform
+    services on our behalf.'
+  purposes: {}
+- source: 3rd party account
+  target: Facebook
+  key: SUBSUM
+  text:
+  - 'For example, most of our services require you to set up an account or log into
+    our services using 3rd party accounts such as Google and Facebook, so we need
+    to collect a few important details about you, such as: a unique username, password,
+    email address, gender, city, and age.'
+- source: 3rd party account
+  target: Google
+  key: SUBSUM
+  text:
+  - 'For example, most of our services require you to set up an account or log into
+    our services using 3rd party accounts such as Google and Facebook, so we need
+    to collect a few important details about you, such as: a unique username, password,
+    email address, gender, city, and age.'
+- source: form of datum
+  target: account detail
+  key: SUBSUM
+  text:
+  - This applies to all forms of data, including account details, health metrics,
+    and activity logs, ensuring that we only retain information for as long as it
+    is relevant to providing our services or as required by legal obligations.
+- source: form of datum
+  target: activity log
+  key: SUBSUM
+  text:
+  - This applies to all forms of data, including account details, health metrics,
+    and activity logs, ensuring that we only retain information for as long as it
+    is relevant to providing our services or as required by legal obligations.
+- source: form of datum
+  target: health metric
+  key: SUBSUM
+  text:
+  - This applies to all forms of data, including account details, health metrics,
+    and activity logs, ensuring that we only retain information for as long as it
+    is relevant to providing our services or as required by legal obligations.
+- source: important detail about you
+  target: age
+  key: SUBSUM
+  text:
+  - 'For example, most of our services require you to set up an account or log into
+    our services using 3rd party accounts such as Google and Facebook, so we need
+    to collect a few important details about you, such as: a unique username, password,
+    email address, gender, city, and age.'
+- source: important detail about you
+  target: email address
+  key: SUBSUM
+  text:
+  - 'For example, most of our services require you to set up an account or log into
+    our services using 3rd party accounts such as Google and Facebook, so we need
+    to collect a few important details about you, such as: a unique username, password,
+    email address, gender, city, and age.'
+- source: important detail about you
+  target: gender
+  key: SUBSUM
+  text:
+  - 'For example, most of our services require you to set up an account or log into
+    our services using 3rd party accounts such as Google and Facebook, so we need
+    to collect a few important details about you, such as: a unique username, password,
+    email address, gender, city, and age.'
+- source: important detail about you
+  target: password
+  key: SUBSUM
+  text:
+  - 'For example, most of our services require you to set up an account or log into
+    our services using 3rd party accounts such as Google and Facebook, so we need
+    to collect a few important details about you, such as: a unique username, password,
+    email address, gender, city, and age.'
+- source: important detail about you
+  target: unique username
+  key: SUBSUM
+  text:
+  - 'For example, most of our services require you to set up an account or log into
+    our services using 3rd party accounts such as Google and Facebook, so we need
+    to collect a few important details about you, such as: a unique username, password,
+    email address, gender, city, and age.'
+- source: information be
+  target: identifying information
+  key: SUBSUM
+  text:
+  - To make it easier for others to find you, we may also ask for some additional
+    information that will be publicly visible, such as profile pictures, a name, or
+    other identifying information.
+- source: information be
+  target: person name
+  key: SUBSUM
+  text:
+  - To make it easier for others to find you, we may also ask for some additional
+    information that will be publicly visible, such as profile pictures, a name, or
+    other identifying information.
+- source: information be
+  target: profile picture
+  key: SUBSUM
+  text:
+  - To make it easier for others to find you, we may also ask for some additional
+    information that will be publicly visible, such as profile pictures, a name, or
+    other identifying information.
+- source: source
+  target: connected wearable
+  key: SUBSUM
+  text:
+  - We collect data from sources like Apple Health, Google Health, and/or connected
+    wearables to help our members understand their wellness patterns and offer tailored
+    recommendations.
+nodes:
+- type: ACTOR
+  id: 3rd party account
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: service provider who perform service on behalf
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account detail
+- type: DATA
+  id: activity log
+- type: DATA
+  id: age
+- type: DATA
+  id: connected wearable
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum on
+- type: DATA
+  id: email address
+- type: DATA
+  id: form of datum
+- type: DATA
+  id: gender
+- type: DATA
+  id: health metric
+- type: DATA
+  id: identifying information
+- type: DATA
+  id: important detail about you
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information be
+- type: DATA
+  id: information on
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: information you provide about weight
+- type: DATA
+  id: llm
+- type: DATA
+  id: metric relate to sleep
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: profile picture
+- type: DATA
+  id: source
+- type: DATA
+  id: state of art large language model
+- type: DATA
+  id: strong encryption
+- type: DATA
+  id: unique username

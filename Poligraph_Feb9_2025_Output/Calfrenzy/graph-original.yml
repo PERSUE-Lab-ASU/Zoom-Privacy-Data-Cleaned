@@ -1,0 +1,154 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: availability
+  key: COLLECT
+  text:
+  - We collect your name, email, password hash, timezone, date & time format settings,
+    profile picture, availability (schedule), and event data.
+  purposes: {}
+- source: we
+  target: calendar setting
+  key: COLLECT
+  text:
+  - From Google and Microsoft accounts, we access a list of calendars, a list of events
+    for the primary calendar, calendar settings, and your contact information.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - From Google and Microsoft accounts, we access a list of calendars, a list of events
+    for the primary calendar, calendar settings, and your contact information.
+  purposes: {}
+- source: we
+  target: date format setting
+  key: COLLECT
+  text:
+  - We collect your name, email, password hash, timezone, date & time format settings,
+    profile picture, availability (schedule), and event data.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We collect your name, email, password hash, timezone, date & time format settings,
+    profile picture, availability (schedule), and event data.
+  purposes: {}
+- source: we
+  target: event datum
+  key: COLLECT
+  text:
+  - We collect your name, email, password hash, timezone, date & time format settings,
+    profile picture, availability (schedule), and event data.
+  purposes: {}
+- source: we
+  target: information provide
+  key: COLLECT
+  text:
+  - 2.1 Information Provided by You
+  - You provide us with this information directly during signup or by using our app.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    2. Information We Collect'
+  - You provide us with this information directly during signup or by using our app.
+  purposes: {}
+- source: we
+  target: list of calendar
+  key: COLLECT
+  text:
+  - From Google and Microsoft accounts, we access a list of calendars, a list of events
+    for the primary calendar, calendar settings, and your contact information.
+  purposes: {}
+- source: we
+  target: list of event for primary calendar
+  key: COLLECT
+  text:
+  - From Google and Microsoft accounts, we access a list of calendars, a list of events
+    for the primary calendar, calendar settings, and your contact information.
+  purposes: {}
+- source: we
+  target: password hash
+  key: COLLECT
+  text:
+  - We collect your name, email, password hash, timezone, date & time format settings,
+    profile picture, availability (schedule), and event data.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We collect your name, email, password hash, timezone, date & time format settings,
+    profile picture, availability (schedule), and event data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Calfrenzy operates on a global scale, and we may transfer your personal data across
+    borders.
+  purposes: {}
+- source: we
+  target: profile picture
+  key: COLLECT
+  text:
+  - We collect your name, email, password hash, timezone, date & time format settings,
+    profile picture, availability (schedule), and event data.
+  purposes: {}
+- source: we
+  target: schedule
+  key: COLLECT
+  text:
+  - We collect your name, email, password hash, timezone, date & time format settings,
+    profile picture, availability (schedule), and event data.
+  purposes: {}
+- source: we
+  target: timezone
+  key: COLLECT
+  text:
+  - We collect your name, email, password hash, timezone, date & time format settings,
+    profile picture, availability (schedule), and event data.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: availability
+- type: DATA
+  id: calendar setting
+- type: DATA
+  id: contact information
+- type: DATA
+  id: date format setting
+- type: DATA
+  id: email address
+- type: DATA
+  id: event datum
+- type: DATA
+  id: information provide
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: list of calendar
+- type: DATA
+  id: list of event for primary calendar
+- type: DATA
+  id: password hash
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: profile picture
+- type: DATA
+  id: schedule
+- type: DATA
+  id: timezone

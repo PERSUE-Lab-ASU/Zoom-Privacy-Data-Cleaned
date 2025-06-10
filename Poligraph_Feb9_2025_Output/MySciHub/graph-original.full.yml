@@ -1,0 +1,118 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: operator
+  target: personal information
+  key: COLLECT
+  text:
+  - 'The operator processes personal data if at least one of the following conditions
+    is met:'
+  purposes: {}
+- source: publicly available source of personal datum
+  target: date
+  key: SUBSUM
+  text:
+  - With the written consent of the subject of personal data, publicly available sources
+    of personal data may include his last name, first name, patronymic, date and place
+    of birth, position, contact phone numbers, email address and other personal data
+    provided by the subject of personal data.
+- source: publicly available source of personal datum
+  target: email address
+  key: SUBSUM
+  text:
+  - With the written consent of the subject of personal data, publicly available sources
+    of personal data may include his last name, first name, patronymic, date and place
+    of birth, position, contact phone numbers, email address and other personal data
+    provided by the subject of personal data.
+- source: publicly available source of personal datum
+  target: patronymic
+  key: SUBSUM
+  text:
+  - With the written consent of the subject of personal data, publicly available sources
+    of personal data may include his last name, first name, patronymic, date and place
+    of birth, position, contact phone numbers, email address and other personal data
+    provided by the subject of personal data.
+- source: publicly available source of personal datum
+  target: person name
+  key: SUBSUM
+  text:
+  - With the written consent of the subject of personal data, publicly available sources
+    of personal data may include his last name, first name, patronymic, date and place
+    of birth, position, contact phone numbers, email address and other personal data
+    provided by the subject of personal data.
+- source: publicly available source of personal datum
+  target: personal datum provide
+  key: SUBSUM
+  text:
+  - With the written consent of the subject of personal data, publicly available sources
+    of personal data may include his last name, first name, patronymic, date and place
+    of birth, position, contact phone numbers, email address and other personal data
+    provided by the subject of personal data.
+- source: publicly available source of personal datum
+  target: phone number
+  key: SUBSUM
+  text:
+  - With the written consent of the subject of personal data, publicly available sources
+    of personal data may include his last name, first name, patronymic, date and place
+    of birth, position, contact phone numbers, email address and other personal data
+    provided by the subject of personal data.
+- source: publicly available source of personal datum
+  target: place
+  key: SUBSUM
+  text:
+  - With the written consent of the subject of personal data, publicly available sources
+    of personal data may include his last name, first name, patronymic, date and place
+    of birth, position, contact phone numbers, email address and other personal data
+    provided by the subject of personal data.
+- source: publicly available source of personal datum
+  target: position
+  key: SUBSUM
+  text:
+  - With the written consent of the subject of personal data, publicly available sources
+    of personal data may include his last name, first name, patronymic, date and place
+    of birth, position, contact phone numbers, email address and other personal data
+    provided by the subject of personal data.
+- source: publicly available source of personal datum of personal datum subject
+  target: address book
+  key: SUBSUM
+  text:
+  - In order to provide information, the Operator may create publicly available sources
+    of personal data of personal data subjects, including directories and address
+    books.
+- source: publicly available source of personal datum of personal datum subject
+  target: directory
+  key: SUBSUM
+  text:
+  - In order to provide information, the Operator may create publicly available sources
+    of personal data of personal data subjects, including directories and address
+    books.
+nodes:
+- type: ACTOR
+  id: operator
+- type: DATA
+  id: address book
+- type: DATA
+  id: date
+- type: DATA
+  id: directory
+- type: DATA
+  id: email address
+- type: DATA
+  id: patronymic
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum provide
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: place
+- type: DATA
+  id: position
+- type: DATA
+  id: publicly available source of personal datum
+- type: DATA
+  id: publicly available source of personal datum of personal datum subject

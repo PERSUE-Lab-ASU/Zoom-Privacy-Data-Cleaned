@@ -1,0 +1,41 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information about advertisement click
+  key: COLLECT
+  text:
+  - For measuring advertising effectiveness, our site may obtain information about
+    advertisements clicked before visiting our site from third-party tools and match
+    it with your registration information.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Our company collects personal information from users of our services in the following
+    ways:'
+  - 'We use personal information for the following purposes:'
+  purposes: {}
+- source: we
+  target: service under registration
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Purpose of Using Personal Information
+
+
+    Operation of our services (including services under registration) and communication
+    and information provision associated with it'
+nodes:
+- type: ACTOR
+  id: service under registration
+- type: ACTOR
+  id: we
+- type: DATA
+  id: information about advertisement click
+- type: DATA
+  id: personal information

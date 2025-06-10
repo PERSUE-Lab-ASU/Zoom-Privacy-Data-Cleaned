@@ -1,0 +1,1437 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - (f) On your instructions, we share your information or data if you choose to use
+    an integration in conjunction with SurveyMonkey services, to the extent necessary
+    to facilitate that use.
+  - 'For example: We collect information about the types of questions you answer.'
+  - 'For example: We collect information about the types of surveys/forms/applications
+    you create (e.g., HR surveys), the types of plans you purchase and your account
+    transactional behavior to build a profile about you so as to help direct you and
+    your organization to other relevant features and services we offer and to optimize
+    user experience, for example by making recommendations to you or your organization.'
+  - We collect and use all this data to help us improve our product so that questions
+    are easier to answer and to help improve the completion rates on surveys/forms.
+  - 'We collect and use information from third parties and integration partners, where
+    applicable to one of our services, to:'
+  - We collect information from the device and application you use to access our services.
+  - We collect information from third parties with whom SurveyMonkey enables integrations
+    in order to allow you to use both services.
+  - We or third party data and advertising platforms that we work with collect data
+    from and advertising cookies, page tags, mobile identifiers and IP addresses.
+  - We use this data to infer users' common identities across different services and
+    multiple devices.
+  - We use this data to personalize online marketing campaigns to be relevant to you
+    and your interests in our services.
+  - We will also use information such as the type of survey, form, questionnaire or
+    application that you answered to personalize products we show you on completion
+    of a survey and to understand trends in our service adoption.
+  purposes:
+    advertising:
+    - to personalize online marketing campaigns to be relevant to you and your interests
+      in our services
+    analytics:
+    - to build a profile about you so as to help direct you and your organization
+      to other relevant features and services we offer and to optimize user experience,
+      for example by making recommendations to you or your organization
+    - to help us improve our product so that questions are easier to answer and to
+      help improve the completion rates on surveys/forms
+    - to infer users' common identities across different services and multiple devices
+    - to personalize products we show you on completion of a survey and to understand
+      trends in our service adoption
+    services:
+    - in order to allow you to use both services
+    - to build a profile about you so as to help direct you and your organization
+      to other relevant features and services we offer and to optimize user experience,
+      for example by making recommendations to you or your organization
+    - to help us improve our product so that questions are easier to answer and to
+      help improve the completion rates on surveys/forms
+    - to personalize products we show you on completion of a survey and to understand
+      trends in our service adoption
+    - 'to: Ensure you can sign-up to our service from a third party integration like
+      Facebook/LinkedIn/Microsoft/Google/SSO;'
+    - 'to: Ensure you can use our service in conjunction with other services'
+- source: we
+  target: account information
+  key: COLLECT
+  text:
+  - We need to use your account information to run your account, provide you with
+    services, bill you for our services, resolve disputes such as chargebacks and
+    refund requests, provide you with customer support, and contact you or your organization
+    about your service or account.
+  purposes:
+    services:
+    - to run your account, provide you with services, bill you for our services, resolve
+      disputes such as chargebacks and refund requests, provide you with customer
+      support, and contact you or your organization about your service or account
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We use aggregated or de-identified information to provide users with useful benchmarking
+    statistics and more relevant insights from the data they have collected using
+    our services.
+  purposes:
+    analytics:
+    - to provide users with useful benchmarking statistics and more relevant insights
+      from the data they have collected using our services
+- source: we
+  target: aggregate device data
+  key: COLLECT
+  text:
+  - We use aggregated or de-identified Device Data to extract usage patterns and to
+    improve our services.
+  purposes:
+    analytics:
+    - to extract usage patterns and to improve our services
+    services:
+    - to extract usage patterns and to improve our services
+- source: we
+  target: aspect of account information
+  key: COLLECT
+  text:
+  - We process other aspects of your account information (like the personal information
+    you provide about your job, your job title, and your marketing preferences) as
+    well as information obtained from public sources, to provide you with a personalized
+    experience and relevant and useful marketing information as well as to make other
+    product, feature and service recommendations to you and your organization to optimize
+    the use of the services we offer (where permitted by law).
+  purposes:
+    advertising:
+    - to provide you with a personalized experience and relevant and useful marketing
+      information as well as to make other product, feature and service recommendations
+      to you and your organization to optimize the use of the services we offer (where
+      permitted by law)
+    analytics:
+    - to provide you with a personalized experience and relevant and useful marketing
+      information as well as to make other product, feature and service recommendations
+      to you and your organization to optimize the use of the services we offer (where
+      permitted by law)
+    services:
+    - to provide you with a personalized experience and relevant and useful marketing
+      information as well as to make other product, feature and service recommendations
+      to you and your organization to optimize the use of the services we offer (where
+      permitted by law)
+- source: we
+  target: billing detail
+  key: COLLECT
+  text:
+  - If you make a payment to SurveyMonkey, we require you to provide your billing
+    details, a name, address, email address and financial information corresponding
+    to your selected method of payment (e.g., a credit card number and expiration
+    date or a bank account number).
+  purposes: {}
+- source: we
+  target: billing information
+  key: COLLECT
+  text:
+  - We may also use billing information in aggregate to adjust or manage pricing at
+    the individual level or across all service users.
+  purposes:
+    services:
+    - to adjust or manage pricing at the individual level or across all service users
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We only use contact information to respond to an inquiry on behalf of a Customer
+    if you, as a Respondent, contact us.
+  - We share the relevant contact information for respondents (email address or phone
+    number as applicable) with these third parties.
+  - We use contact information to respond to your inquiries or send you information
+    about our services, either where you have agreed to this at the point of providing
+    your information or where you operate in a business which may be interested in
+    our services and for as long as you do not opt-out.
+  - We use contact information to respond to your inquiries, send you information
+    as part of the services, and send you marketing information.
+  - Where consent is not required, we use contact information to send you marketing
+    information based on our legitimate interests for as long as you do not opt out.
+  - 'You might provide us with your contact information (for example: name or email
+    address), whether through use of our services, a form on our website, an interaction
+    with our sales or customer support team, or a response to one of SurveyMonkey''s
+    own surveys or forms.'
+  purposes:
+    advertising:
+    - to respond to your inquiries, send you information as part of the services,
+      and send you marketing information
+    - to send you marketing information based on our legitimate interests for as long
+      as you do not opt out
+    services:
+    - to respond to an inquiry on behalf of a Customer
+    - to respond to your inquiries or send you information about our services, either
+      where you have agreed to this at the point of providing your information or
+      where you operate in a business which may be interested in our services and
+      for as long as you do not opt-out
+    - to respond to your inquiries, send you information as part of the services,
+      and send you marketing information
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We also use cookies to ensure a respondent can only take a survey once (where
+    the Creator has set this function) and to track completion rates of surveys.
+  - We and our partners use cookies and similar technologies on our websites.
+  - We provide more information on cookies in our Cookies Notice.
+  - We use first party and third party cookies and tracking services that employ cookies
+    and page tags (also known as web beacons ) to collect data about visitors to our
+    websites.
+  - We use required cookies to ensure the operation of a Creator's survey, form, application,
+    or other SurveyMonkey product.
+  purposes:
+    analytics:
+    - to ensure a respondent can only take a survey once (where the Creator has set
+      this function) and to track completion rates of surveys
+    services:
+    - to ensure a respondent can only take a survey once (where the Creator has set
+      this function) and to track completion rates of surveys
+    - to ensure the operation of a Creator's survey, form, application, or other SurveyMonkey
+      product
+- source: we
+  target: data element
+  key: COLLECT
+  text:
+  - 'We collect and use the following data elements on the basis that we have to use
+    this information in order to fulfill our contract with you:'
+  purposes: {}
+- source: we
+  target: datum about
+  key: COLLECT
+  text:
+  - We use data about how you use our services and how our services are performing
+    to ensure that we're meeting our service-level agreements (SLAs) or other contractual
+    obligations to you.
+  purposes:
+    legal:
+    - to ensure that we're meeting our service-level agreements (SLAs) or other contractual
+      obligations to you
+    services:
+    - to ensure that we're meeting our service-level agreements (SLAs) or other contractual
+      obligations to you
+- source: we
+  target: device datum
+  key: COLLECT
+  text:
+  - We use device data both to troubleshoot problems with our service and to make
+    improvements to it.
+  - We use device data to fix bugs and troubleshoot problems with our service and
+    to make improvements to it.
+  - We use your device and browser data to provide our services to the Creator.
+  - We will also use this data to facilitate account verification and sign in and
+    to enforce our password sharing and security policies.
+  purposes:
+    security:
+    - to facilitate account verification and sign in and to enforce our password sharing
+      and security policies
+    services:
+    - both to troubleshoot problems with our service and to make improvements to it
+    - to facilitate account verification and sign in and to enforce our password sharing
+      and security policies
+    - to fix bugs and troubleshoot problems with our service and to make improvements
+      to it
+    - to provide our services to the Creator
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - Depending on your geographic location, we may share your email address in hashed
+    form with marketing vendors to present personalized advertisements such as display,
+    videos, and content on the web or connected devices.
+  - Depending on your geographic location, we may share your email address in hashed
+    form with marketing vendors to present targeted and personalized marketing and
+    sales information online.
+  - If you make a payment to SurveyMonkey, we require you to provide your billing
+    details, a name, address, email address and financial information corresponding
+    to your selected method of payment (e.g., a credit card number and expiration
+    date or a bank account number).
+  - We share the relevant contact information for respondents (email address or phone
+    number as applicable) with these third parties.
+  - When you register for an account, we collect your first and last name, username,
+    password and email address.
+  purposes:
+    advertising:
+    - to present personalized advertisements such as display, videos, and content
+      on the web or connected devices
+    - to present targeted and personalized marketing and sales information online
+- source: we
+  target: event contain in log datum
+  key: COLLECT
+  text:
+  - 'We use events contained in log data for many different business purposes to include:'
+  purposes:
+    analytics:
+    - To track behavior at the aggregate/de-identified level to identify and understand
+      trends in the various interactions with our services
+    security:
+    - To investigate security issues
+    services:
+    - To create new services, features, content or make recommendations
+    - To fix bugs and troubleshoot product functionality
+- source: we
+  target: event datum
+  key: COLLECT
+  text:
+  - '(b) We may also use event data:'
+  - '(b) We may also use usage data, event data, and aggregated or (where possible)
+    de-identified survey questions and responses:'
+  - '(b) We may also use usage data, event data, and aggregated or de-identified survey
+    questions and responses:'
+  - 'We use event data for many different business purposes including the following:'
+  purposes:
+    analytics:
+    - To track behavior at the aggregate/de-identified level to identify and understand
+      trends in the various interactions with our services; and
+    - To track your preferences and create new services, features, content or make
+      recommendations personalized for you
+    legal:
+    - To enforce our agreements where applicable
+    security:
+    - To investigate security issues
+    - To monitor abuse and troubleshoot
+    - To prevent or address potentially unlawful activities; and
+    - To prevent potentially illegal activities
+    - To screen for and prevent undesirable or abusive activity
+    services:
+    - To create and improve services, features, content or make recommendations
+    - To fix bugs and troubleshoot product functionality
+    - To track your preferences and create new services, features, content or make
+      recommendations personalized for you
+- source: we
+  target: financial information
+  key: COLLECT
+  text:
+  - If you make a payment to SurveyMonkey, we require you to provide your billing
+    details, a name, address, email address and financial information corresponding
+    to your selected method of payment (e.g., a credit card number and expiration
+    date or a bank account number).
+  purposes: {}
+- source: we
+  target: form content
+  key: COLLECT
+  text:
+  - We store your form data (form content and responses) for you.
+  purposes: {}
+- source: we
+  target: form datum
+  key: COLLECT
+  text:
+  - We store your form data (form content and responses) for you.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We may infer your geographic location based on your IP address to produce aggregated
+    data around Respondent location trends.
+  - We will use this information to compare and look at trends on how our service
+    operates and how you interact with surveys, on different browsers and devices.
+  purposes:
+    analytics:
+    - to compare and look at trends on how our service operates and how you interact
+      with surveys, on different browsers and devices
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We use information about how you have interacted with our websites to improve
+    our website services for you and all users.
+  - We use information about how you use our services to improve our services for
+    you and all users and to make recommendations to our customers about usage of
+    our services.
+  - We use information about how you use our services to improve our services for
+    you and all users and to make recommendations to you and your organization about
+    our other services.
+  purposes:
+    analytics:
+    - to improve our services for you and all users and to make recommendations to
+      our customers about usage of our services
+    services:
+    - to improve our services for you and all users and to make recommendations to
+      our customers about usage of our services
+    - to improve our services for you and all users and to make recommendations to
+      you and your organization about our other services
+    - to improve our website services for you and all users
+- source: we
+  target: information about source refer you to we
+  key: COLLECT
+  text:
+  - If you arrive at a SurveyMonkey website from an external source (such as a link
+    on another website or in an email) or have been invited to review a survey as
+    a guest, we record information about the source that referred you to us.
+  purposes: {}
+- source: we
+  target: information about webpage you visit
+  key: COLLECT
+  text:
+  - We collect information about the webpages you have visited and your activity on
+    our sites at an aggregate level.
+  - We collect this information so that we can track the most visited and most useful
+    parts of our website to identify what are our most popular services.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'When you have consented, we collect and use the following information about you:'
+  purposes: {}
+- source: we
+  target: information about yourself
+  key: COLLECT
+  text:
+  - When you sign up for our services you are asked to provide us with information
+    about yourself and to give us more detailed insights into who you are.
+  purposes: {}
+- source: we
+  target: information from third party
+  key: COLLECT
+  text:
+  - We will collect and use information from third parties and integration partners
+    to facilitate Creators in sending surveys/forms/applications/questionnaires to
+    you.
+  purposes:
+    advertising:
+    - to facilitate Creators in sending surveys/forms/applications/questionnaires
+      to you
+    analytics:
+    - to facilitate Creators in sending surveys/forms/applications/questionnaires
+      to you
+    services:
+    - to facilitate Creators in sending surveys/forms/applications/questionnaires
+      to you
+- source: we
+  target: information obtain from public source
+  key: COLLECT
+  text:
+  - We process other aspects of your account information (like the personal information
+    you provide about your job, your job title, and your marketing preferences) as
+    well as information obtained from public sources, to provide you with a personalized
+    experience and relevant and useful marketing information as well as to make other
+    product, feature and service recommendations to you and your organization to optimize
+    the use of the services we offer (where permitted by law).
+  purposes:
+    advertising:
+    - to provide you with a personalized experience and relevant and useful marketing
+      information as well as to make other product, feature and service recommendations
+      to you and your organization to optimize the use of the services we offer (where
+      permitted by law)
+    analytics:
+    - to provide you with a personalized experience and relevant and useful marketing
+      information as well as to make other product, feature and service recommendations
+      to you and your organization to optimize the use of the services we offer (where
+      permitted by law)
+    services:
+    - to provide you with a personalized experience and relevant and useful marketing
+      information as well as to make other product, feature and service recommendations
+      to you and your organization to optimize the use of the services we offer (where
+      permitted by law)
+- source: we
+  target: information provide to customer support team
+  key: COLLECT
+  text:
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support for
+    our Customer.
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support for
+    you.
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support.
+  purposes:
+    analytics:
+    - to train machine learning models to better predict customer support question
+      type, provide answers, generate insights about customer support trends, and
+      to improve our Customer Support
+    - to train machine learning models to better predict customer support question
+      type, provide answers, generate insights about customer support trends, and
+      to improve our Customer Support for our Customer
+    - to train machine learning models to better predict customer support question
+      type, provide answers, generate insights about customer support trends, and
+      to improve our Customer Support for you
+    services:
+    - to train machine learning models to better predict customer support question
+      type, provide answers, generate insights about customer support trends, and
+      to improve our Customer Support
+    - to train machine learning models to better predict customer support question
+      type, provide answers, generate insights about customer support trends, and
+      to improve our Customer Support for our Customer
+    - to train machine learning models to better predict customer support question
+      type, provide answers, generate insights about customer support trends, and
+      to improve our Customer Support for you
+- source: we
+  target: information submit through customer support email
+  key: COLLECT
+  text:
+  - We will use information submitted through our Customer Support emails, chats,
+    or phone calls, such as name, email, and message content, in order to provide
+    you with customer support.
+  purposes:
+    services:
+    - in order to provide you with customer support
+- source: we
+  target: information submit through customer support portal
+  key: COLLECT
+  text:
+  - We collect information submitted through our Customer Support portal, such as
+    name, email, and message text.
+  purposes: {}
+- source: we
+  target: information we hold about you
+  key: COLLECT
+  text:
+  - (a) To respond to legal requests, we may need to disclose information we hold
+    about you.
+  - (a) To respond to legal requests, we may need to use and disclose information
+    we hold about you.
+  purposes:
+    legal:
+    - To respond to legal requests
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - '(b) We may also use usage data, event data, and aggregated or (where possible)
+    de-identified survey questions and responses:'
+  - '(b) We may also use usage data, event data, and aggregated or de-identified survey
+    questions and responses:'
+  purposes:
+    legal:
+    - To enforce our agreements where applicable
+    security:
+    - To investigate security issues
+    - To prevent or address potentially unlawful activities; and
+    - To screen for and prevent undesirable or abusive activity
+- source: we
+  target: opt option
+  key: COLLECT
+  text:
+  - You can opt-out from direct marketing in your account and we provide opt-out options
+    in all direct marketing emails.
+  purposes: {}
+- source: we
+  target: page tag
+  key: COLLECT
+  text:
+  - We use page tags to allow the email sender (for a survey or form for example)
+    to measure the performance of email messaging and to learn how to improve email
+    deliverability and open rates.
+  purposes:
+    analytics:
+    - to allow the email sender (for a survey or form for example) to measure the
+      performance of email messaging and to learn how to improve email deliverability
+      and open rates
+    services:
+    - to allow the email sender (for a survey or form for example) to measure the
+      performance of email messaging and to learn how to improve email deliverability
+      and open rates
+- source: we
+  target: password
+  key: COLLECT
+  text:
+  - When you register for an account, we collect your first and last name, username,
+    password and email address.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - If you make a payment to SurveyMonkey, we require you to provide your billing
+    details, a name, address, email address and financial information corresponding
+    to your selected method of payment (e.g., a credit card number and expiration
+    date or a bank account number).
+  - When you register for an account, we collect your first and last name, username,
+    password and email address.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Customers
+
+
+    Privacy Notice : 4. How we share or disclose Personal Data'
+  - 'Privacy Notice
+
+
+    3. How we use the Personal Data we collect
+
+
+    We process Personal Data about you as a Creator where:'
+  - 'Privacy Notice
+
+
+    3. How we use the Personal Data we collect
+
+
+    We process Personal Data about you as a Visitor where:'
+  - 'Privacy Notice
+
+
+    4. How we share or disclose Personal Data'
+  - We also use this data to enforce our agreements, where applicable.
+  - 'We process Personal Data about you as a Respondent where:'
+  - We process your personal information in the following categories of data for legitimate
+    interests pursued by us.
+  purposes:
+    legal:
+    - To enforce our agreements where applicable
+    - to enforce our agreements, where applicable
+    security:
+    - To prevent potentially illegal activities
+    services:
+    - To build new product features
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - We share the relevant contact information for respondents (email address or phone
+    number as applicable) with these third parties.
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - If you make a payment to SurveyMonkey, we require you to provide your billing
+    details, a name, address, email address and financial information corresponding
+    to your selected method of payment (e.g., a credit card number and expiration
+    date or a bank account number).
+  purposes: {}
+- source: we
+  target: question
+  key: COLLECT
+  text:
+  - We store your survey/form/application data (questions and responses) for you and
+    provide analysis tools for you to use with respect to this data.
+  purposes: {}
+- source: we
+  target: referral information
+  key: COLLECT
+  text:
+  - For example, if you clicked on an advertisement for one of our brands, presented
+    by one of our partners on the web, which brought you to one of our websites, we
+    will record this information to help us track the success of advertising campaigns.
+  - We use referral information to track the success of our integrations and referral
+    processes.
+  purposes:
+    advertising:
+    - to help us track the success of advertising campaigns
+    analytics:
+    - to help us track the success of advertising campaigns
+    - to track the success of our integrations and referral processes
+    services:
+    - to track the success of our integrations and referral processes
+- source: we
+  target: response
+  key: COLLECT
+  text:
+  - We store your form data (form content and responses) for you.
+  - We store your survey/form/application data (questions and responses) for you and
+    provide analysis tools for you to use with respect to this data.
+  purposes: {}
+- source: we
+  target: survey datum
+  key: COLLECT
+  text:
+  - 'Specifically, we use machine learning on survey data to help Creators by:'
+  - We might also use this data to help improve analysis of responses;
+  purposes:
+    analytics:
+    - to help improve analysis of responses
+- source: we
+  target: survey form application datum
+  key: COLLECT
+  text:
+  - We store your survey/form/application data (questions and responses) for you and
+    provide analysis tools for you to use with respect to this data.
+  purposes: {}
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - We may also use usage information such as levels and nature of activity in your
+    account and number of responses you are receiving to personalize the features
+    and services we highlight for you and your organization in our Sites, improve
+    user experience and to make recommendations to you and your organization about
+    our services through our sales and marketing efforts.
+  purposes:
+    advertising:
+    - to personalize the features and services we highlight for you and your organization
+      in our Sites, improve user experience and to make recommendations to you and
+      your organization about our services through our sales and marketing efforts
+    services:
+    - to personalize the features and services we highlight for you and your organization
+      in our Sites, improve user experience and to make recommendations to you and
+      your organization about our services through our sales and marketing efforts
+- source: we
+  target: usage information about you
+  key: COLLECT
+  text:
+  - We collect usage information about you whenever you interact with our websites
+    and services.
+  purposes: {}
+- source: we
+  target: usage pattern
+  key: COLLECT
+  text:
+  - 'Specifically, we use machine learning on survey data to help Creators by: Extracting
+    and analyzing usage patterns, for example, we might identify when respondents
+    prefer multiple choice versus open text questions and make predictive response
+    suggestions when certain question types are selected.'
+  - We might also use this data to help improve analysis of responses;
+  purposes:
+    analytics:
+    - to help improve analysis of responses
+- source: we
+  target: username
+  key: COLLECT
+  text:
+  - When you register for an account, we collect your first and last name, username,
+    password and email address.
+  purposes: {}
+- source: we
+  target: uuid for device
+  key: COLLECT
+  text:
+  - If you are on a mobile device we also collect the UUID for that device.
+  purposes: {}
+- source: Momentive
+  target: personal information
+  key: COLLECT
+  text:
+  - In certain situations, SurveyMonkey Inc. may be required to disclose Personal
+    Data in response to lawful requests by public authorities, including to meet national
+    security or law enforcement requirements.
+  purposes: {}
+- source: Salesforce.com
+  target: registration information you provide
+  key: COLLECT
+  text:
+  - If you have created a GetFeedback Direct account, the registration information
+    you provide will be disclosed to Salesforce.com, Inc. and will be used by Salesforce.com,
+    Inc. pursuant to its privacy policy (see Salesforce Privacy Policy ).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: contact information
+  key: COLLECT
+  text:
+  - We share the relevant contact information for respondents (email address or phone
+    number as applicable) with these third parties.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We and our partners use cookies and similar technologies on our websites.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: email address
+  key: COLLECT
+  text:
+  - We share the relevant contact information for respondents (email address or phone
+    number as applicable) with these third parties.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: phone number
+  key: COLLECT
+  text:
+  - We share the relevant contact information for respondents (email address or phone
+    number as applicable) with these third parties.
+  purposes: {}
+- source: administrator
+  target: response
+  key: COLLECT
+  text:
+  - If you are part of a SurveyMonkey Enterprise or team plan, your plan's administrators
+    can transfer your survey questions and responses to, or share them with, other
+    members in your team, including your plan's administrators themselves.
+  purposes: {}
+- source: administrator
+  target: survey question
+  key: COLLECT
+  text:
+  - If you are part of a SurveyMonkey Enterprise or team plan, your plan's administrators
+    can transfer your survey questions and responses to, or share them with, other
+    members in your team, including your plan's administrators themselves.
+  purposes: {}
+- source: advertiser
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These third party data and advertising platforms may sometimes use data that we
+    provide to them in order to improve their technologies and their ability to match
+    common devices to users.
+  - We or third party data and advertising platforms that we work with collect data
+    from and advertising cookies, page tags, mobile identifiers and IP addresses.
+  purposes:
+    services:
+    - in order to improve their technologies and their ability to match common devices
+      to users
+- source: machine learning model
+  target: answer
+  key: COLLECT
+  text:
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support for
+    our Customer.
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support for
+    you.
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support.
+  purposes: {}
+- source: marketing vendor
+  target: email address
+  key: COLLECT
+  text:
+  - Depending on your geographic location, we may share your email address in hashed
+    form with marketing vendors to present personalized advertisements such as display,
+    videos, and content on the web or connected devices.
+  - Depending on your geographic location, we may share your email address in hashed
+    form with marketing vendors to present targeted and personalized marketing and
+    sales information online.
+  purposes:
+    advertising:
+    - to present personalized advertisements such as display, videos, and content
+      on the web or connected devices
+    - to present targeted and personalized marketing and sales information online
+- source: primary administrator
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you are a Creator that is part of a SurveyMonkey Enterprise or team plan, your
+    account information and data will be shared with the primary administrators and
+    your survey data may also be visible to other members in your team with whom you
+    share your surveys or with whom you collaborate.
+  purposes: {}
+- source: primary administrator
+  target: account information
+  key: COLLECT
+  text:
+  - If you are a Creator that is part of a SurveyMonkey Enterprise or team plan, your
+    account information and data will be shared with the primary administrators and
+    your survey data may also be visible to other members in your team with whom you
+    share your surveys or with whom you collaborate.
+  purposes: {}
+- source: web server
+  target: log file
+  key: COLLECT
+  text:
+  - Like most websites today, our web servers keep log files that record data each
+    time a device accesses those servers.
+  purposes: {}
+- source: Momentive
+  target: Hyundai Motor Company
+  key: SUBSUM
+  text:
+  - This Privacy Notice applies to all the products, services, websites and apps offered
+    by SurveyMonkey Inc., SurveyMonkey Europe UC, SurveyMonkey Brasil Internet Ltda.,
+    SurveyMonkey Netherlands B.V., and other SurveyMonkey affiliates (collectively
+    "SurveyMonkey"), except where otherwise noted.
+- source: aspect of account information
+  target: personal information
+  key: SUBSUM
+  text:
+  - We process other aspects of your account information (like the personal information
+    you provide about your job, your job title, and your marketing preferences) as
+    well as information obtained from public sources, to provide you with a personalized
+    experience and relevant and useful marketing information as well as to make other
+    product, feature and service recommendations to you and your organization to optimize
+    the use of the services we offer (where permitted by law).
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'You might provide us with your contact information (for example: name or email
+    address), whether through use of our services, a form on our website, an interaction
+    with our sales or customer support team, or a response to one of SurveyMonkey''s
+    own surveys or forms.'
+- source: contact information
+  target: for name
+  key: SUBSUM
+  text:
+  - 'You might provide us with your contact information (for example: name or email
+    address), whether through use of our services, a form on our website, an interaction
+    with our sales or customer support team, or a response to one of SurveyMonkey''s
+    own surveys or forms.'
+- source: cookie / pixel tag
+  target: usage statistic
+  key: SUBSUM
+  text:
+  - This data includes usage and user statistics.
+  - We use first party and third party cookies and tracking services that employ cookies
+    and page tags (also known as web beacons ) to collect data about visitors to our
+    websites.
+- source: datum about nature of access
+  target: device type
+  key: SUBSUM
+  text:
+  - The log files contain data about the nature of each access, including originating
+    IP addresses, internet service providers, the files viewed on our site (e.g.,
+    HTML pages, graphics, etc.), operating system versions, device type and timestamps.
+- source: datum about nature of access
+  target: file view on site
+  key: SUBSUM
+  text:
+  - The log files contain data about the nature of each access, including originating
+    IP addresses, internet service providers, the files viewed on our site (e.g.,
+    HTML pages, graphics, etc.), operating system versions, device type and timestamps.
+- source: datum about nature of access
+  target: ip address
+  key: SUBSUM
+  text:
+  - The log files contain data about the nature of each access, including originating
+    IP addresses, internet service providers, the files viewed on our site (e.g.,
+    HTML pages, graphics, etc.), operating system versions, device type and timestamps.
+- source: datum about nature of access
+  target: operating system version
+  key: SUBSUM
+  text:
+  - The log files contain data about the nature of each access, including originating
+    IP addresses, internet service providers, the files viewed on our site (e.g.,
+    HTML pages, graphics, etc.), operating system versions, device type and timestamps.
+- source: datum about nature of access
+  target: timestamp
+  key: SUBSUM
+  text:
+  - The log files contain data about the nature of each access, including originating
+    IP addresses, internet service providers, the files viewed on our site (e.g.,
+    HTML pages, graphics, etc.), operating system versions, device type and timestamps.
+- source: email send by surveymonkey
+  target: page tag
+  key: SUBSUM
+  text:
+  - Emails sent by SurveyMonkey or by users through our services also include page
+    tags that allow the sender to collect information about who opened those emails
+    and clicked on links in them.
+- source: external source
+  target: link
+  key: SUBSUM
+  text:
+  - If you arrive at a SurveyMonkey website from an external source (such as a link
+    on another website or in an email) or have been invited to review a survey as
+    a guest, we record information about the source that referred you to us.
+- source: identifying information
+  target: photo id
+  key: SUBSUM
+  text:
+  - 'In this case: Where applicable, we directly interact with a Creator''s registered
+    email address, because we authenticate users with username and unique password
+    and not with other identifying information (e.g., photo ID or similar).'
+- source: information provide to customer support team
+  target: email address
+  key: SUBSUM
+  text:
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support for
+    our Customer.
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support for
+    you.
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support.
+- source: information provide to customer support team
+  target: person name
+  key: SUBSUM
+  text:
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support for
+    our Customer.
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support for
+    you.
+  - We may use information provided to our Customer Support, Customer Success, and
+    Sales teams such as name, email, and message content to train machine learning
+    models to better predict customer support question type, provide answers, generate
+    insights about customer support trends, and to improve our Customer Support.
+- source: information submit through customer support email
+  target: email address
+  key: SUBSUM
+  text:
+  - We will use information submitted through our Customer Support emails, chats,
+    or phone calls, such as name, email, and message content, in order to provide
+    you with customer support.
+- source: information submit through customer support email
+  target: person name
+  key: SUBSUM
+  text:
+  - We will use information submitted through our Customer Support emails, chats,
+    or phone calls, such as name, email, and message content, in order to provide
+    you with customer support.
+- source: information submit through customer support portal
+  target: email address
+  key: SUBSUM
+  text:
+  - We collect information submitted through our Customer Support portal, such as
+    name, email, and message text.
+- source: information submit through customer support portal
+  target: message text
+  key: SUBSUM
+  text:
+  - We collect information submitted through our Customer Support portal, such as
+    name, email, and message text.
+- source: information submit through customer support portal
+  target: person name
+  key: SUBSUM
+  text:
+  - We collect information submitted through our Customer Support portal, such as
+    name, email, and message text.
+- source: member in team
+  target: administrator
+  key: SUBSUM
+  text:
+  - If you are part of a SurveyMonkey Enterprise or team plan, your plan's administrators
+    can transfer your survey questions and responses to, or share them with, other
+    members in your team, including your plan's administrators themselves.
+- source: page
+  target: account setting page
+  key: SUBSUM
+  text:
+  - You can set various preferences and personal details on pages like your account
+    settings page (or on your account settings page for our other products as applicable).
+- source: personal information
+  target: account information
+  key: SUBSUM
+  text:
+  - 'Privacy Notice
+
+
+    2. Personal Data we collect and the sources
+
+
+    2.3 Types of Personal Data We Collect
+
+
+    (i) Account information.'
+- source: personal information
+  target: address book information
+  key: SUBSUM
+  text:
+  - '2.3 Types of Personal Data We Collect
+
+
+    (j) Address book information.'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - '2.3 Types of Personal Data We Collect
+
+
+    (a) Contact information.'
+- source: personal information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Privacy Notice
+
+
+    2. Personal Data we collect and the sources
+
+
+    2.3 Types of Personal Data We Collect
+
+
+    (b) Cookie information.'
+- source: personal information
+  target: customer support information
+  key: SUBSUM
+  text:
+  - '2.3 Types of Personal Data We Collect
+
+
+    (c) Customer support information.'
+- source: personal information
+  target: device datum
+  key: SUBSUM
+  text:
+  - 'Privacy Notice
+
+
+    2. Personal Data we collect and the sources
+
+
+    2.3 Types of Personal Data We Collect
+
+
+    (e) Device and browser data.'
+- source: personal information
+  target: event data
+  key: SUBSUM
+  text:
+  - 'Privacy Notice
+
+
+    2. Personal Data we collect and the sources
+
+
+    2.3 Types of Personal Data We Collect
+
+
+    (f) Event data.'
+- source: personal information
+  target: first party profile information
+  key: SUBSUM
+  text:
+  - '2.3 Types of Personal Data We Collect
+
+
+    (l) First party profile information.'
+- source: personal information
+  target: integration data
+  key: SUBSUM
+  text:
+  - 'Privacy Notice
+
+
+    2. Personal Data we collect and the sources
+
+
+    2.3 Types of Personal Data We Collect
+
+
+    (h) Integration data.'
+- source: personal information
+  target: referral information
+  key: SUBSUM
+  text:
+  - '2.3 Types of Personal Data We Collect
+
+
+    (g) Referral information.'
+- source: personal information
+  target: survey form application datum
+  key: SUBSUM
+  text:
+  - 'Privacy Notice
+
+
+    2. Personal Data we collect and the sources
+
+
+    2.3 Types of Personal Data We Collect
+
+
+    (k) Survey/form/application data.'
+- source: personal information
+  target: third party profile information
+  key: SUBSUM
+  text:
+  - '2.3 Types of Personal Data We Collect
+
+
+    (m) Third party profile information.'
+- source: personal information
+  target: usage information
+  key: SUBSUM
+  text:
+  - 'Privacy Notice
+
+
+    2. Personal Data we collect and the sources
+
+
+    2.3 Types of Personal Data We Collect
+
+
+    (d) Usage information.'
+- source: select method of payment
+  target: bank account number
+  key: SUBSUM
+  text:
+  - If you make a payment to SurveyMonkey, we require you to provide your billing
+    details, a name, address, email address and financial information corresponding
+    to your selected method of payment (e.g., a credit card number and expiration
+    date or a bank account number).
+- source: select method of payment
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - If you make a payment to SurveyMonkey, we require you to provide your billing
+    details, a name, address, email address and financial information corresponding
+    to your selected method of payment (e.g., a credit card number and expiration
+    date or a bank account number).
+- source: select method of payment
+  target: expiration date
+  key: SUBSUM
+  text:
+  - If you make a payment to SurveyMonkey, we require you to provide your billing
+    details, a name, address, email address and financial information corresponding
+    to your selected method of payment (e.g., a credit card number and expiration
+    date or a bank account number).
+- source: type of survey
+  target: device datum associate with response
+  key: SUBSUM
+  text:
+  - SurveyMonkey may use first party machine learning or third party artificial intelligence
+    tools on data around the type of survey the Creator has sent you, the question
+    type, survey responses (at an aggregated and de-identified/pseudonymized level
+    only), and device and event data associated with responses to  fulfill our contract
+    with Creators and provide Creators with useful and relevant insights from the
+    data they have collected using our services.
+- source: type of survey
+  target: question type
+  key: SUBSUM
+  text:
+  - SurveyMonkey may use first party machine learning or third party artificial intelligence
+    tools on data around the type of survey the Creator has sent you, the question
+    type, survey responses (at an aggregated and de-identified/pseudonymized level
+    only), and device and event data associated with responses to  fulfill our contract
+    with Creators and provide Creators with useful and relevant insights from the
+    data they have collected using our services.
+- source: type of survey
+  target: survey response
+  key: SUBSUM
+  text:
+  - SurveyMonkey may use first party machine learning or third party artificial intelligence
+    tools on data around the type of survey the Creator has sent you, the question
+    type, survey responses (at an aggregated and de-identified/pseudonymized level
+    only), and device and event data associated with responses to  fulfill our contract
+    with Creators and provide Creators with useful and relevant insights from the
+    data they have collected using our services.
+- source: usage information
+  target: level
+  key: SUBSUM
+  text:
+  - We may also use usage information such as levels and nature of activity in your
+    account and number of responses you are receiving to personalize the features
+    and services we highlight for you and your organization in our Sites, improve
+    user experience and to make recommendations to you and your organization about
+    our services through our sales and marketing efforts.
+- source: usage information
+  target: nature
+  key: SUBSUM
+  text:
+  - We may also use usage information such as levels and nature of activity in your
+    account and number of responses you are receiving to personalize the features
+    and services we highlight for you and your organization in our Sites, improve
+    user experience and to make recommendations to you and your organization about
+    our services through our sales and marketing efforts.
+- source: usage information
+  target: number of response you receive
+  key: SUBSUM
+  text:
+  - We may also use usage information such as levels and nature of activity in your
+    account and number of responses you are receiving to personalize the features
+    and services we highlight for you and your organization in our Sites, improve
+    user experience and to make recommendations to you and your organization about
+    our services through our sales and marketing efforts.
+nodes:
+- type: ACTOR
+  id: Hyundai Motor Company
+- type: ACTOR
+  id: Momentive
+- type: ACTOR
+  id: Salesforce.com
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: account setting page
+- type: ACTOR
+  id: administrator
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: external source
+- type: ACTOR
+  id: link
+- type: ACTOR
+  id: machine learning model
+- type: ACTOR
+  id: marketing vendor
+- type: ACTOR
+  id: member in team
+- type: ACTOR
+  id: page
+- type: ACTOR
+  id: primary administrator
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web server
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information
+- type: DATA
+  id: address book information
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: aggregate device data
+- type: DATA
+  id: answer
+- type: DATA
+  id: aspect of account information
+- type: DATA
+  id: bank account number
+- type: DATA
+  id: billing detail
+- type: DATA
+  id: billing information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer support information
+- type: DATA
+  id: data element
+- type: DATA
+  id: datum about
+- type: DATA
+  id: datum about nature of access
+- type: DATA
+  id: device datum
+- type: DATA
+  id: device datum associate with response
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: email send by surveymonkey
+- type: DATA
+  id: event contain in log datum
+- type: DATA
+  id: event data
+- type: DATA
+  id: event datum
+- type: DATA
+  id: expiration date
+- type: DATA
+  id: file view on site
+- type: DATA
+  id: financial information
+- type: DATA
+  id: first party profile information
+- type: DATA
+  id: for name
+- type: DATA
+  id: form content
+- type: DATA
+  id: form datum
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifying information
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about source refer you to we
+- type: DATA
+  id: information about webpage you visit
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information about yourself
+- type: DATA
+  id: information from third party
+- type: DATA
+  id: information obtain from public source
+- type: DATA
+  id: information provide to customer support team
+- type: DATA
+  id: information submit through customer support email
+- type: DATA
+  id: information submit through customer support portal
+- type: DATA
+  id: information we hold about you
+- type: DATA
+  id: integration data
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: level
+- type: DATA
+  id: log file
+- type: DATA
+  id: message text
+- type: DATA
+  id: nature
+- type: DATA
+  id: number of response you receive
+- type: DATA
+  id: operating system version
+- type: DATA
+  id: opt option
+- type: DATA
+  id: page tag
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: photo id
+- type: DATA
+  id: postal address
+- type: DATA
+  id: question
+- type: DATA
+  id: question type
+- type: DATA
+  id: referral information
+- type: DATA
+  id: registration information you provide
+- type: DATA
+  id: response
+- type: DATA
+  id: select method of payment
+- type: DATA
+  id: survey datum
+- type: DATA
+  id: survey form application datum
+- type: DATA
+  id: survey question
+- type: DATA
+  id: survey response
+- type: DATA
+  id: third party profile information
+- type: DATA
+  id: timestamp
+- type: DATA
+  id: type of survey
+- type: DATA
+  id: usage information
+- type: DATA
+  id: usage information about you
+- type: DATA
+  id: usage pattern
+- type: DATA
+  id: usage statistic
+- type: DATA
+  id: username
+- type: DATA
+  id: uuid for device

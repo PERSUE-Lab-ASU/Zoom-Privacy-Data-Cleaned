@@ -1,0 +1,242 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may use the information to customise the website according to your interests.
+  - 'We require this information to understand your needs and provide you with a better
+    service, and in particular for the following reasons: If we have your explicit
+    and specific consent, we may also use your information to contact you for market
+    research purposes.'
+  - 'We require this information to understand your needs and provide you with a better
+    service, and in particular for the following reasons: If we have your explicit
+    and specific consent, we may also use your information to periodically send promotional
+    emails about new products, special offers or other information which we think
+    you may find interesting using the email address which you have provided.'
+  - 'We require this information to understand your needs and provide you with a better
+    service, and in particular for the following reasons: We may use the information
+    for analytics and to improve our products and services.'
+  purposes:
+    advertising:
+    - to contact you for market research purposes
+    - to periodically send promotional emails about new products, special offers or
+      other information which we think you may find interesting using the email address
+      which you have provided
+    analytics:
+    - for analytics and to improve our products and services
+    - to contact you for market research purposes
+    - to understand your needs and provide you with a better service, and in particular
+      for the following reasons
+    services:
+    - for analytics and to improve our products and services
+    - to customise the website according to your interests
+    - to understand your needs and provide you with a better service, and in particular
+      for the following reasons
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - 'WHAT WE COLLECT
+
+
+    We may collect the following information: Contact information including email
+    address'
+  purposes: {}
+- source: we
+  target: content of email you send to we
+  key: COLLECT
+  text:
+  - 'We may collect the following information: The contents of any email, contact
+    form or communication you send to us'
+  purposes: {}
+- source: we
+  target: demographic information
+  key: COLLECT
+  text:
+  - 'WHAT WE COLLECT
+
+
+    We may collect the following information: Demographic information such as postcode,
+    preferences and interests'
+  purposes: {}
+- source: we
+  target: information relevant
+  key: COLLECT
+  text:
+  - 'We may collect the following information: Other information relevant to customer
+    surveys, offers, and website analytics'
+  purposes: {}
+- source: we
+  target: job title
+  key: COLLECT
+  text:
+  - 'WHAT WE COLLECT
+
+
+    We may collect the following information: Name and job title'
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'WHAT WE COLLECT
+
+
+    We may collect the following information: Name and job title'
+  purposes: {}
+- source: we
+  target: personal datum associate with sell business
+  key: COLLECT
+  text:
+  - If we sell or otherwise transfer all or a part of our business, or are investigating
+    the possibility of doing so, we may transfer to, or share with, the actual or
+    potential buyer or other transferee, the personal data associated with the actually
+    or potentially sold or transferred business.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If we anonymize personal data, we may share that personal data with anyone for
+    any purpose.
+  - Under certain circumstances, we may be required to disclose your personal information
+    if required by law enforcement, government agencies, courts, or others where we
+    believe that our cooperation with information requests is required by law.
+  - We may provide personal data to others involved in the provision or receipt of
+    goods and/or services so that we can cooperate in providing or receiving goods
+    and/or services.
+  - We may provide personal data to outsourcing providers who perform functions in
+    support of our conduct of business.
+  - We may share your personal data with our contractors and service providers who
+    process personal data on behalf of PCI Pal (U.S.) Inc., to perform certain business-related
+    functions.
+  - When we engage another company to perform such functions, we may provide them
+    with information, including personal data, in connection with their performance
+    of such functions.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Personal information may be shared with third parties for the various purposes
+    as follows:'
+  purposes: {}
+- source: contractor
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal data with our contractors and service providers who
+    process personal data on behalf of PCI Pal (U.S.) Inc., to perform certain business-related
+    functions.
+  purposes: {}
+- source: function
+  target: personal information
+  key: COLLECT
+  text:
+  - When we engage another company to perform such functions, we may provide them
+    with information, including personal data, in connection with their performance
+    of such functions.
+  purposes: {}
+- source: outsourcing provider who perform function in support of conduct of business
+  target: personal information
+  key: COLLECT
+  text:
+  - We may provide personal data to outsourcing providers who perform functions in
+    support of our conduct of business.
+  purposes: {}
+- source: pci pal
+  target: personal information
+  key: COLLECT
+  text:
+  - PCI Pal may be required by law to disclose personal information in response to
+    lawful requests by public authorities, including to meet national security or
+    law enforcement requirements..
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal data with our contractors and service providers who
+    process personal data on behalf of PCI Pal (U.S.) Inc., to perform certain business-related
+    functions.
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'WHAT WE COLLECT
+
+
+    We may collect the following information: Contact information including email
+    address'
+- source: demographic information
+  target: interest
+  key: SUBSUM
+  text:
+  - 'WHAT WE COLLECT
+
+
+    We may collect the following information: Demographic information such as postcode,
+    preferences and interests'
+- source: demographic information
+  target: postcode
+  key: SUBSUM
+  text:
+  - 'WHAT WE COLLECT
+
+
+    We may collect the following information: Demographic information such as postcode,
+    preferences and interests'
+- source: demographic information
+  target: preference
+  key: SUBSUM
+  text:
+  - 'WHAT WE COLLECT
+
+
+    We may collect the following information: Demographic information such as postcode,
+    preferences and interests'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: function
+- type: ACTOR
+  id: outsourcing provider who perform function in support of conduct of business
+- type: ACTOR
+  id: pci pal
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: content of email you send to we
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: email address
+- type: DATA
+  id: information relevant
+- type: DATA
+  id: interest
+- type: DATA
+  id: job title
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum associate with sell business
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postcode
+- type: DATA
+  id: preference

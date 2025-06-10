@@ -1,0 +1,387 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    How We Use Your Information'
+  purposes: {}
+- source: we
+  target: information collect through site
+  key: COLLECT
+  text:
+  - We may share information collected through the Site with our subsidiaries, affiliated
+    companies, and like-minded business partners for the purpose of providing you
+    with the products and services you seek from the Site.
+  purposes:
+    services:
+    - for the purpose of providing you with the products and services you seek from
+      the Site
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We collect personally identifiable information from you only when you voluntarily
+    provide us with this information, such as when establishing an account, contacting
+    us with a question or comment, utilizing an "Email to a Friend" feature, or signing
+    up to receive emails about our latest products and services.
+  purposes: {}
+- source: we
+  target: personal information collect on site
+  key: COLLECT
+  text:
+  - In general, we use personal information collected on the Site for the specific
+    purpose for which it was volunteered; to market, sell, or provide products and
+    services; and to comply with any legal or regulatory requirements, process or
+    provisions.
+  purposes:
+    advertising:
+    - for the specific purpose for which it was volunteered; to market, sell, or provide
+      products and services; and to comply with any legal or regulatory requirements,
+      process or provisions
+    legal:
+    - for the specific purpose for which it was volunteered; to market, sell, or provide
+      products and services; and to comply with any legal or regulatory requirements,
+      process or provisions
+    services:
+    - for the specific purpose for which it was volunteered; to market, sell, or provide
+      products and services; and to comply with any legal or regulatory requirements,
+      process or provisions
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These third parties have access to your information only to perform specific tasks
+    on our behalf and are obligated not to disclose or use your information for any
+    other purpose.
+  purposes:
+    services:
+    - only to perform specific tasks on our behalf
+- source: UNSPECIFIED_ACTOR
+  target: datum collect through site
+  key: COLLECT
+  text:
+  - Propio may disclose the data collected through the Site, including personally
+    identifiable information, to another party with which Propio enters or reasonably
+    may enter into a corporate transaction, such as a merger, consolidation, acquisition,
+    or asset purchase.
+  purposes: {}
+- source: affiliated company
+  target: information collect through site
+  key: COLLECT
+  text:
+  - We may share information collected through the Site with our subsidiaries, affiliated
+    companies, and like-minded business partners for the purpose of providing you
+    with the products and services you seek from the Site.
+  purposes:
+    services:
+    - for the purpose of providing you with the products and services you seek from
+      the Site
+- source: minded business partner
+  target: information collect through site
+  key: COLLECT
+  text:
+  - We may share information collected through the Site with our subsidiaries, affiliated
+    companies, and like-minded business partners for the purpose of providing you
+    with the products and services you seek from the Site.
+  purposes:
+    services:
+    - for the purpose of providing you with the products and services you seek from
+      the Site
+- source: propio
+  target: datum collect through site
+  key: COLLECT
+  text:
+  - Propio may disclose the data collected through the Site, including personally
+    identifiable information, to another party with which Propio enters or reasonably
+    may enter into a corporate transaction, such as a merger, consolidation, acquisition,
+    or asset purchase.
+  purposes: {}
+- source: propio
+  target: personal identifier
+  key: COLLECT
+  text:
+  - However Propio may retain records of your personally identifiable information
+    for a period of time; for example, to follow-up on a request, resolve a dispute
+    or for similar reasons or in order to comply with applicable federal, state, or
+    local law.
+  - Propio may use your personally identifiable information [to communicate with you
+    and to send you information by email, postal mail, or other means about our products,
+    services, contests, and promotions].
+  purposes:
+    advertising:
+    - to communicate with you and to send you information by email, postal mail, or
+      other means about our products, services, contests, and promotions
+    services:
+    - to communicate with you and to send you information by email, postal mail, or
+      other means about our products, services, contests, and promotions
+- source: propio
+  target: personal information
+  key: COLLECT
+  text:
+  - By providing your personal information to Propio, you signify your acceptance
+    of the Terms of Use and agree that Propio may collect, use and disclose your personal
+    information as described herein.
+  purposes: {}
+- source: Publications Office of the EU
+  target: Scandinavian Airlines System Denmark-Norway-Sweden
+  key: SUBSUM
+  text:
+  - For these purposes, reference to the EU also includes the European Economic Area
+    countries of Iceland, Liechtenstein and Norway and, where applicable, Switzerland.
+- source: datum collect through site
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - Propio does not disclose the data collected through the Site, including personally
+    identifiable information, to other persons or entities for marketing purposes.
+  - Propio may disclose the data collected through the Site, including personally
+    identifiable information, to another party with which Propio enters or reasonably
+    may enter into a corporate transaction, such as a merger, consolidation, acquisition,
+    or asset purchase.
+- source: email address
+  target: billing information
+  key: SUBSUM
+  text:
+  - Propio will continue to send you non-promotional, service emails concerning your
+    account, such as emails relating to available upgrades, billing and payment information,
+    outstanding balance on your account, and other emails relating to your account
+    and/or your use of the Site.
+- source: email address
+  target: email relate to available upgrade
+  key: SUBSUM
+  text:
+  - Propio will continue to send you non-promotional, service emails concerning your
+    account, such as emails relating to available upgrades, billing and payment information,
+    outstanding balance on your account, and other emails relating to your account
+    and/or your use of the Site.
+- source: email address
+  target: outstanding balance on account
+  key: SUBSUM
+  text:
+  - Propio will continue to send you non-promotional, service emails concerning your
+    account, such as emails relating to available upgrades, billing and payment information,
+    outstanding balance on your account, and other emails relating to your account
+    and/or your use of the Site.
+- source: eu
+  target: european economic area
+  key: SUBSUM
+  text:
+  - This section applies if you are an individual located in the European Union or
+    European Economic Area (collectively, "EU") ("EU Data Subject").
+- source: eu
+  target: european union
+  key: SUBSUM
+  text:
+  - This section applies if you are an individual located in the European Union or
+    European Economic Area (collectively, "EU") ("EU Data Subject").
+- source: information about personal information we disclose to third party for direct
+    marketing purpose in precede calendar year
+  target: person name
+  key: SUBSUM
+  text:
+  - Additionally, California Civil Code Section 1798.83 (also known as the "Shine
+    The Light" law) permits users who are California residents to request and obtain
+    from us once a year, free of charge, information about the personal information
+    (if any) we disclosed to third parties for direct marketing purposes in the preceding
+    calendar year.
+  - If applicable, this information would include a list of the categories of personal
+    information that was shared and the names and addresses of all third parties with
+    which we shared information in the immediately preceding calendar year.
+- source: information about personal information we disclose to third party for direct
+    marketing purpose in precede calendar year
+  target: postal address
+  key: SUBSUM
+  text:
+  - Additionally, California Civil Code Section 1798.83 (also known as the "Shine
+    The Light" law) permits users who are California residents to request and obtain
+    from us once a year, free of charge, information about the personal information
+    (if any) we disclosed to third parties for direct marketing purposes in the preceding
+    calendar year.
+  - If applicable, this information would include a list of the categories of personal
+    information that was shared and the names and addresses of all third parties with
+    which we shared information in the immediately preceding calendar year.
+- source: information by identify
+  target: email address
+  key: SUBSUM
+  text:
+  - For purposes of this Privacy Policy, "personally identifiable information" means
+    any information by which someone can be personally identified, including name,
+    address, telephone number, email address, and other information incidental to
+    providing goods or services (also referred to herein as "personal information").
+- source: information by identify
+  target: information incidental
+  key: SUBSUM
+  text:
+  - For purposes of this Privacy Policy, "personally identifiable information" means
+    any information by which someone can be personally identified, including name,
+    address, telephone number, email address, and other information incidental to
+    providing goods or services (also referred to herein as "personal information").
+- source: information by identify
+  target: person name
+  key: SUBSUM
+  text:
+  - For purposes of this Privacy Policy, "personally identifiable information" means
+    any information by which someone can be personally identified, including name,
+    address, telephone number, email address, and other information incidental to
+    providing goods or services (also referred to herein as "personal information").
+- source: information by identify
+  target: phone number
+  key: SUBSUM
+  text:
+  - For purposes of this Privacy Policy, "personally identifiable information" means
+    any information by which someone can be personally identified, including name,
+    address, telephone number, email address, and other information incidental to
+    providing goods or services (also referred to herein as "personal information").
+- source: information by identify
+  target: postal address
+  key: SUBSUM
+  text:
+  - For purposes of this Privacy Policy, "personally identifiable information" means
+    any information by which someone can be personally identified, including name,
+    address, telephone number, email address, and other information incidental to
+    providing goods or services (also referred to herein as "personal information").
+- source: information from third party
+  target: demographic information
+  key: SUBSUM
+  text:
+  - '[In order to better serve you, we may combine information you provide to us on
+    the Site with information from third parties, including demographic or public
+    information].'
+- source: non-personal information
+  target: access provider
+  key: SUBSUM
+  text:
+  - When you visit the Site, our web servers may automatically recognize certain non-personally
+    identifiable information about you, such as your domain name, access provider,
+    IP address, and browser language.
+- source: non-personal information
+  target: browser language
+  key: SUBSUM
+  text:
+  - When you visit the Site, our web servers may automatically recognize certain non-personally
+    identifiable information about you, such as your domain name, access provider,
+    IP address, and browser language.
+- source: non-personal information
+  target: domain name
+  key: SUBSUM
+  text:
+  - When you visit the Site, our web servers may automatically recognize certain non-personally
+    identifiable information about you, such as your domain name, access provider,
+    IP address, and browser language.
+- source: non-personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - When you visit the Site, our web servers may automatically recognize certain non-personally
+    identifiable information about you, such as your domain name, access provider,
+    IP address, and browser language.
+- source: promotional email
+  target: new idea
+  key: SUBSUM
+  text:
+  - If you have established an account on the Site or signed up to receive electronic
+    newsletters or promotional emails from Propio, including new ideas, special offers,
+    and event information, or to otherwise receive communications about our products
+    and services, you will have the right at any time to opt out of receiving marketing
+    emails or to specify which, if any, communications you would like to receive from
+    us.
+- source: promotional email
+  target: special offer
+  key: SUBSUM
+  text:
+  - If you have established an account on the Site or signed up to receive electronic
+    newsletters or promotional emails from Propio, including new ideas, special offers,
+    and event information, or to otherwise receive communications about our products
+    and services, you will have the right at any time to opt out of receiving marketing
+    emails or to specify which, if any, communications you would like to receive from
+    us.
+- source: public network
+  target: internet
+  key: SUBSUM
+  text:
+  - Because public networks, such as the internet, occasionally experience disruptions,
+    Sosland cannot guarantee the website will be available 100% of the time.
+nodes:
+- type: ACTOR
+  id: Publications Office of the EU
+- type: ACTOR
+  id: Scandinavian Airlines System Denmark-Norway-Sweden
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: affiliated company
+- type: ACTOR
+  id: eu
+- type: ACTOR
+  id: european economic area
+- type: ACTOR
+  id: european union
+- type: ACTOR
+  id: internet
+- type: ACTOR
+  id: minded business partner
+- type: ACTOR
+  id: new idea
+- type: ACTOR
+  id: promotional email
+- type: ACTOR
+  id: propio
+- type: ACTOR
+  id: public network
+- type: ACTOR
+  id: special offer
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access provider
+- type: DATA
+  id: billing information
+- type: DATA
+  id: browser language
+- type: DATA
+  id: datum collect through site
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: domain name
+- type: DATA
+  id: email address
+- type: DATA
+  id: email relate to available upgrade
+- type: DATA
+  id: information about personal information we disclose to third party for direct
+    marketing purpose in precede calendar year
+- type: DATA
+  id: information by identify
+- type: DATA
+  id: information collect through site
+- type: DATA
+  id: information from third party
+- type: DATA
+  id: information incidental
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: outstanding balance on account
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information collect on site
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

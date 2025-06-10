@@ -1,0 +1,513 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Introduction
+
+
+    For Individuals Based in the European Union ("EU"), European Economic Area ("EEA")
+    and Switzerland
+
+
+    (c) We only process personal data if we have a lawful basis for doing so.'
+  - 'The lawful bases applicable to our processing as controller are: Contractual
+    basis: We process the personal data as necessary to fulfill our contractual terms
+    with you or our clients.'
+  - We only process the personal data under their direction.
+  - We process personal data in AWS Data centres located in the United States and
+    share it with our service providers in other jurisdictions.
+  purposes:
+    legal:
+    - to fulfill our contractual terms with you or our clients
+- source: UNSPECIFIED_ACTOR
+  target: information about customer
+  key: COLLECT
+  text:
+  - Some companies that help BarRaiser deliver interactive on-line advertising, such
+    as banner ads, may collect and use information about BarRaiser's customers to
+    help BarRaiser better understand the types of advertising or promotions that are
+    most appealing to BarRaiser's customers.
+  purposes:
+    advertising:
+    - to help BarRaiser better understand the types of advertising or promotions that
+      are most appealing to BarRaiser's customers
+- source: UNSPECIFIED_ACTOR
+  target: non - identifiable information
+  key: COLLECT
+  text:
+  - BarRaiser, or its third party vendors, collects non-identifiable and personal
+    information through the use of various technologies, including "cookies".
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: statistic garner
+  key: COLLECT
+  text:
+  - The statistics garnered, which contain no personal information and cannot be used
+    to gather such information, may also be provided to third parties.
+  purposes: {}
+- source: affiliated business
+  target: customer information relate to transaction with affiliated business
+  key: COLLECT
+  text:
+  - Customer information related to a transaction with an affiliated business is shared
+    with that affiliated business.
+  purposes: {}
+- source: barraiser
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - BarRaiser may share your personal information within the BarRaiser corporate organization,
+    and may transfer the information to countries in the world where BarRaiser conducts
+    business.
+  purposes: {}
+- source: barraiser
+  target: business decision making
+  key: COLLECT
+  text:
+  - BarRaiser or its contractors may use this data to analyze trends and statistics.
+  - 'Examples of such collecting include: traffic analysis, such as tracking of the
+    domains from which users visit, or tracking numbers of visitors; measuring visitor
+    activity on BarRaiser Websites; Web site and system administration; user analysis;
+    and business decision making.'
+  purposes:
+    analytics:
+    - to analyze trends and statistics
+- source: barraiser
+  target: clickstream data
+  key: COLLECT
+  text:
+  - BarRaiser or its contractors may use this data to analyze trends and statistics.
+  - Such information is sometimes known as "clickstream data."
+  purposes:
+    analytics:
+    - to analyze trends and statistics
+- source: barraiser
+  target: clickstream datum
+  key: COLLECT
+  text:
+  - Through web site access logs BarRaiser does collect clickstream data and HTTP
+    protocol elements, which generate certain kinds of non-identifying site usage
+    data, such as the number of hits and visits to our sites.
+  purposes: {}
+- source: barraiser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - BarRaiser may also use Web beacon or other technologies to better tailor its Web
+    sites to provide better customer service.
+  purposes:
+    services:
+    - to better tailor its Web sites to provide better customer service
+- source: barraiser
+  target: customer personal information
+  key: COLLECT
+  text:
+  - Help BarRaiser to keep customer personal information accurate.
+  purposes: {}
+- source: barraiser
+  target: http protocol element
+  key: COLLECT
+  text:
+  - Through web site access logs BarRaiser does collect clickstream data and HTTP
+    protocol elements, which generate certain kinds of non-identifying site usage
+    data, such as the number of hits and visits to our sites.
+  purposes: {}
+- source: barraiser
+  target: information enter on barraiser website
+  key: COLLECT
+  text:
+  - BarRaiser stores and retains the information provided by customer OR the information
+    entered on the BarRaiser Website.
+  purposes: {}
+- source: barraiser
+  target: information necessary
+  key: COLLECT
+  text:
+  - BarRaiser may request additional information necessary to establish and maintain
+    customer's account.
+  purposes: {}
+- source: barraiser
+  target: information provide
+  key: COLLECT
+  text:
+  - BarRaiser stores and retains the information provided by customer OR the information
+    entered on the BarRaiser Website.
+  purposes: {}
+- source: barraiser
+  target: non - identifiable information
+  key: COLLECT
+  text:
+  - BarRaiser may collect non-identifiable information from user visits to the BarRaiser
+    Web sites in order to provide better customer service.
+  - BarRaiser, or its third party vendors, collects non-identifiable and personal
+    information through the use of various technologies, including "cookies".
+  purposes:
+    services:
+    - in order to provide better customer service
+- source: barraiser
+  target: personal identifiable information
+  key: COLLECT
+  text:
+  - BarRaiser uses personal identifiable information to reply to inquiries, handle
+    complaints, provide operational notices and in program record-keeping.
+  purposes:
+    services:
+    - to reply to inquiries, handle complaints, provide operational notices and in
+      program record-keeping
+- source: barraiser
+  target: personal identify information
+  key: COLLECT
+  text:
+  - BarRaiser collects personal identifying information from customer during a transaction.
+  purposes: {}
+- source: barraiser
+  target: personal information
+  key: COLLECT
+  text:
+  - BarRaiser may share your personal information within the BarRaiser corporate organization,
+    and may transfer the information to countries in the world where BarRaiser conducts
+    business.
+  - 'Under the DPF, BarRaiser is: Required to disclose personal information in response
+    to lawful requests by public authorities'
+  purposes: {}
+- source: barraiser
+  target: personal information regard customer
+  key: COLLECT
+  text:
+  - At times, BarRaiser will need personal information regarding a customer or a prospect.
+  purposes: {}
+- source: barraiser
+  target: traffic analysis
+  key: COLLECT
+  text:
+  - BarRaiser or its contractors may use this data to analyze trends and statistics.
+  - 'Examples of such collecting include: traffic analysis, such as tracking of the
+    domains from which users visit, or tracking numbers of visitors; measuring visitor
+    activity on BarRaiser Websites; Web site and system administration; user analysis;
+    and business decision making.'
+  purposes:
+    analytics:
+    - to analyze trends and statistics
+- source: barraiser
+  target: user analysis
+  key: COLLECT
+  text:
+  - BarRaiser or its contractors may use this data to analyze trends and statistics.
+  - 'Examples of such collecting include: traffic analysis, such as tracking of the
+    domains from which users visit, or tracking numbers of visitors; measuring visitor
+    activity on BarRaiser Websites; Web site and system administration; user analysis;
+    and business decision making.'
+  purposes:
+    analytics:
+    - to analyze trends and statistics
+- source: client account administrator
+  target: personal information
+  key: COLLECT
+  text:
+  - You may be asked to provide personal information when you use the website to download
+    articles, data sheets or eBooks, request a free trial or demo, refer a friend
+    or a customer to us, connect with us directly via phone calls or video conferencing
+    platforms, participate in a marketing/sales promotion, attend trade events and
+    other industry networking events, register or attend a webinar or other event,
+    participate in programs we may offer from time to time, participate in chats,
+    pay for our services, you or client account administrators upload or enter personal
+    information into the application, and we or client account administrators grant
+    you access to the application
+  purposes: {}
+- source: contractor
+  target: business decision making
+  key: COLLECT
+  text:
+  - BarRaiser or its contractors may use this data to analyze trends and statistics.
+  - 'Examples of such collecting include: traffic analysis, such as tracking of the
+    domains from which users visit, or tracking numbers of visitors; measuring visitor
+    activity on BarRaiser Websites; Web site and system administration; user analysis;
+    and business decision making.'
+  purposes:
+    analytics:
+    - to analyze trends and statistics
+- source: contractor
+  target: clickstream data
+  key: COLLECT
+  text:
+  - BarRaiser or its contractors may use this data to analyze trends and statistics.
+  - Such information is sometimes known as "clickstream data."
+  purposes:
+    analytics:
+    - to analyze trends and statistics
+- source: contractor
+  target: traffic analysis
+  key: COLLECT
+  text:
+  - BarRaiser or its contractors may use this data to analyze trends and statistics.
+  - 'Examples of such collecting include: traffic analysis, such as tracking of the
+    domains from which users visit, or tracking numbers of visitors; measuring visitor
+    activity on BarRaiser Websites; Web site and system administration; user analysis;
+    and business decision making.'
+  purposes:
+    analytics:
+    - to analyze trends and statistics
+- source: contractor
+  target: user analysis
+  key: COLLECT
+  text:
+  - BarRaiser or its contractors may use this data to analyze trends and statistics.
+  - 'Examples of such collecting include: traffic analysis, such as tracking of the
+    domains from which users visit, or tracking numbers of visitors; measuring visitor
+    activity on BarRaiser Websites; Web site and system administration; user analysis;
+    and business decision making.'
+  purposes:
+    analytics:
+    - to analyze trends and statistics
+- source: technical support staff
+  target: web site access log
+  key: COLLECT
+  text:
+  - This information is used for internal purposes by technical support staff for
+    research and development, user analysis and business decision making, all of which
+    provides better services to the public.
+  - Through web site access logs BarRaiser does collect clickstream data and HTTP
+    protocol elements, which generate certain kinds of non-identifying site usage
+    data, such as the number of hits and visits to our sites.
+  purposes:
+    analytics:
+    - for research and development, user analysis and business decision making
+- source: we
+  target: barraiser
+  key: SUBSUM
+  text:
+  - 'This Privacy Policy is applicable to BarRaiser ("we," "our," or "us") as related
+    to our services, which collectively include:'
+- source: interactive on line advertising
+  target: banner ad
+  key: SUBSUM
+  text:
+  - Some companies that help BarRaiser deliver interactive on-line advertising, such
+    as banner ads, may collect and use information about BarRaiser's customers to
+    help BarRaiser better understand the types of advertising or promotions that are
+    most appealing to BarRaiser's customers.
+- source: internet activity
+  target: number of hit
+  key: SUBSUM
+  text:
+  - Through web site access logs BarRaiser does collect clickstream data and HTTP
+    protocol elements, which generate certain kinds of non-identifying site usage
+    data, such as the number of hits and visits to our sites.
+- source: non - identifiable information
+  target: clickstream datum
+  key: SUBSUM
+  text:
+  - BarRaiser may extract some personally identifying information about that transaction
+    in a non-identifiable format and combine it with other non-identifiable information,
+    such as clickstream data.
+- source: personal identify information
+  target: business
+  key: SUBSUM
+  text:
+  - 'In order to make a purchase OR to access designated subscriber services and /or
+    restricted areas within the BarRaiser Website, BarRaiser will request a user to
+    provide certain personal identifying information, which may include: legal name,
+    postal address (business and personal), email address, screen name, password,
+    mobile telephone number, facsimile number, method of payment, and, if applicable,
+    credit card number.'
+- source: personal identify information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'In order to make a purchase OR to access designated subscriber services and /or
+    restricted areas within the BarRaiser Website, BarRaiser will request a user to
+    provide certain personal identifying information, which may include: legal name,
+    postal address (business and personal), email address, screen name, password,
+    mobile telephone number, facsimile number, method of payment, and, if applicable,
+    credit card number.'
+- source: personal identify information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'In order to make a purchase OR to access designated subscriber services and /or
+    restricted areas within the BarRaiser Website, BarRaiser will request a user to
+    provide certain personal identifying information, which may include: legal name,
+    postal address (business and personal), email address, screen name, password,
+    mobile telephone number, facsimile number, method of payment, and, if applicable,
+    credit card number.'
+- source: personal identify information
+  target: facsimile number
+  key: SUBSUM
+  text:
+  - 'In order to make a purchase OR to access designated subscriber services and /or
+    restricted areas within the BarRaiser Website, BarRaiser will request a user to
+    provide certain personal identifying information, which may include: legal name,
+    postal address (business and personal), email address, screen name, password,
+    mobile telephone number, facsimile number, method of payment, and, if applicable,
+    credit card number.'
+- source: personal identify information
+  target: method of payment
+  key: SUBSUM
+  text:
+  - 'In order to make a purchase OR to access designated subscriber services and /or
+    restricted areas within the BarRaiser Website, BarRaiser will request a user to
+    provide certain personal identifying information, which may include: legal name,
+    postal address (business and personal), email address, screen name, password,
+    mobile telephone number, facsimile number, method of payment, and, if applicable,
+    credit card number.'
+- source: personal identify information
+  target: password
+  key: SUBSUM
+  text:
+  - 'In order to make a purchase OR to access designated subscriber services and /or
+    restricted areas within the BarRaiser Website, BarRaiser will request a user to
+    provide certain personal identifying information, which may include: legal name,
+    postal address (business and personal), email address, screen name, password,
+    mobile telephone number, facsimile number, method of payment, and, if applicable,
+    credit card number.'
+- source: personal identify information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'In order to make a purchase OR to access designated subscriber services and /or
+    restricted areas within the BarRaiser Website, BarRaiser will request a user to
+    provide certain personal identifying information, which may include: legal name,
+    postal address (business and personal), email address, screen name, password,
+    mobile telephone number, facsimile number, method of payment, and, if applicable,
+    credit card number.'
+- source: personal identify information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'In order to make a purchase OR to access designated subscriber services and /or
+    restricted areas within the BarRaiser Website, BarRaiser will request a user to
+    provide certain personal identifying information, which may include: legal name,
+    postal address (business and personal), email address, screen name, password,
+    mobile telephone number, facsimile number, method of payment, and, if applicable,
+    credit card number.'
+- source: personal identify information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'In order to make a purchase OR to access designated subscriber services and /or
+    restricted areas within the BarRaiser Website, BarRaiser will request a user to
+    provide certain personal identifying information, which may include: legal name,
+    postal address (business and personal), email address, screen name, password,
+    mobile telephone number, facsimile number, method of payment, and, if applicable,
+    credit card number.'
+- source: personal identify information
+  target: screen name
+  key: SUBSUM
+  text:
+  - 'In order to make a purchase OR to access designated subscriber services and /or
+    restricted areas within the BarRaiser Website, BarRaiser will request a user to
+    provide certain personal identifying information, which may include: legal name,
+    postal address (business and personal), email address, screen name, password,
+    mobile telephone number, facsimile number, method of payment, and, if applicable,
+    credit card number.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - It is BarRaiser's intent to inform you before BarRaiser collects personal information,
+    such as user's name and/or address on the Internet.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - It is BarRaiser's intent to inform you before BarRaiser collects personal information,
+    such as user's name and/or address on the Internet.
+- source: traffic analysis
+  target: track number of visitor
+  key: SUBSUM
+  text:
+  - 'Examples of such collecting include: traffic analysis, such as tracking of the
+    domains from which users visit, or tracking numbers of visitors; measuring visitor
+    activity on BarRaiser Websites; Web site and system administration; user analysis;
+    and business decision making.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: affiliated business
+- type: ACTOR
+  id: banner ad
+- type: ACTOR
+  id: barraiser
+- type: ACTOR
+  id: client account administrator
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: interactive on line advertising
+- type: ACTOR
+  id: technical support staff
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: business
+- type: DATA
+  id: business decision making
+- type: DATA
+  id: clickstream data
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer information relate to transaction with affiliated business
+- type: DATA
+  id: customer personal information
+- type: DATA
+  id: email address
+- type: DATA
+  id: facsimile number
+- type: DATA
+  id: http protocol element
+- type: DATA
+  id: information about customer
+- type: DATA
+  id: information enter on barraiser website
+- type: DATA
+  id: information necessary
+- type: DATA
+  id: information provide
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: method of payment
+- type: DATA
+  id: non - identifiable information
+- type: DATA
+  id: number of hit
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifiable information
+- type: DATA
+  id: personal identify information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information regard customer
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: screen name
+- type: DATA
+  id: statistic garner
+- type: DATA
+  id: track number of visitor
+- type: DATA
+  id: traffic analysis
+- type: DATA
+  id: user analysis
+- type: DATA
+  id: web site access log

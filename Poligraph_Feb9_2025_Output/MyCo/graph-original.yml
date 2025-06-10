@@ -1,0 +1,38 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We also collect these details for every additional user you create on your mycentreoffice
+    account.
+  - We keep your data based on our contractual obligations.
+  purposes:
+    services:
+    - for every additional user you create on your mycentreoffice account
+- source: we
+  target: password
+  key: COLLECT
+  text:
+  - We store passwords in an encrypted format.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We only process your personal data based on the contractual basis for registering
+    an account on mycentreoffice.
+  - We store personal data securely via the services of a 3rd party as described in
+    [7].
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: password
+- type: DATA
+  id: personal information

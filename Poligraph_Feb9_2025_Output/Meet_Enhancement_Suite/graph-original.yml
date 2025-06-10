@@ -1,0 +1,47 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The information below are meant to explain in plain language what information
+    we collect, how we use that information, and why.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - If you choose to sign-up for our email list, we will then store your email using
+    the Sendgrid service.
+  - We will only ever use emails to contact you about important updates in relation
+    to our service.
+  purposes:
+    services:
+    - to contact you about important updates in relation to our service
+- source: we
+  target: email enter during checkout
+  key: COLLECT
+  text:
+  - 'Through Gumroad we collect the following information: The email entered during
+    checkout'
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'Through Gumroad we collect the following information: The full name entered during
+    checkout'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: email address
+- type: DATA
+  id: email enter during checkout
+- type: DATA
+  id: person name

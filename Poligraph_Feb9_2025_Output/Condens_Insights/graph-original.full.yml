@@ -1,0 +1,266 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - How long we keep information
+  - 'Privacy Policy
+
+
+    How we store and secure the information'
+  - 'Privacy Policy
+
+
+    What information we collect about you'
+  - We might transfer, process, and store your information outside of your country
+    of residence, to where we, Condens or our third-party infrastructure subprocessors
+    operate (all GDPR compliant).
+  - 'What information we collect about you
+
+
+    Information we receive from other sources'
+  - 'What we explain in this policy
+
+
+    How we store and secure the information'
+  - 'What we explain in this policy
+
+
+    What we use the information for'
+  purposes:
+    analytics:
+    - To aid in research and development
+    security:
+    - To prevent fraud and abuse
+    services:
+    - To communicate with you about the Services
+    - To inform you about releases and updates
+    - To personalize your experience
+    - To provide customer support
+- source: we
+  target: access control to service
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    What we use the information for
+
+
+    Performance of a contract
+
+
+    Authentication and access control to our Services'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Cookies
+  - In the webapp, we only use cookies for user authentication.
+  - On our website, we use cookies to better understand how we can improve our offering
+    and marketing efforts.
+  - On the website, we use cookies from Hubspot , Google Ads and LinkedIn Insight
+    to better understand how we can improve our offering and marketing efforts.
+  - 'Privacy Policy
+
+
+    What information we collect about you'
+  purposes:
+    advertising:
+    - to better understand how we can improve our offering and marketing efforts
+    analytics:
+    - to better understand how we can improve our offering and marketing efforts
+    security:
+    - for user authentication
+    services:
+    - for user authentication
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We also receive your email address from other Service users when they provide
+    it in order to invite you to our Services.
+  purposes:
+    services:
+    - in order to invite you to our Services
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We collect information about how you interact with our webapp.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We collect information about you when you register for an account, create or modify
+    your profile, set preferences or sign-up for the Services.
+  - 'When you use the Services, we share certain information about you with Service
+    users that are in the same account as you for collaboration purposes: You can
+    create content, which may contain information about you, and others can see, share,
+    edit, copy and download that content.'
+  purposes:
+    services:
+    - for collaboration purposes
+- source: we
+  target: information storage
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    How we store and secure the information
+
+
+    Information storage and security'
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - 'We only collect the following non-personal information that helps us to better
+    understand how our website is used:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'In more detail
+
+
+    This privacy policy ("Privacy Policy") governs and describes how Condens Insights
+    GmbH and its subsidiaries ("Condens", "we," "us" or "our") may collect, use, and
+    disclose personal information when you use our products or services, or otherwise
+    interact with Condens (for example, attending Condens events), unless a different
+    privacy policy is displayed.'
+  - We retain your personal information while you have an account with Condens.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'In more detail
+
+
+    This privacy policy ("Privacy Policy") governs and describes how Condens Insights
+    GmbH and its subsidiaries ("Condens", "we," "us" or "our") may collect, use, and
+    disclose personal information when you use our products or services, or otherwise
+    interact with Condens (for example, attending Condens events), unless a different
+    privacy policy is displayed.'
+  purposes: {}
+- source: trust infrastructure subprocessor
+  target: datum you enter
+  key: COLLECT
+  text:
+  - All data you enter or upload into Condens is stored and processed in data centers
+    in the EU by trusted and certified infrastructure subprocessors .
+  purposes: {}
+- source: we
+  target: condens
+  key: SUBSUM
+  text:
+  - 'In more detail
+
+
+    This privacy policy ("Privacy Policy") governs and describes how Condens Insights
+    GmbH and its subsidiaries ("Condens", "we," "us" or "our") may collect, use, and
+    disclose personal information when you use our products or services, or otherwise
+    interact with Condens (for example, attending Condens events), unless a different
+    privacy policy is displayed.'
+- source: we
+  target: condens insights gmbh
+  key: SUBSUM
+  text:
+  - 'In more detail
+
+
+    This privacy policy ("Privacy Policy") governs and describes how Condens Insights
+    GmbH and its subsidiaries ("Condens", "we," "us" or "our") may collect, use, and
+    disclose personal information when you use our products or services, or otherwise
+    interact with Condens (for example, attending Condens events), unless a different
+    privacy policy is displayed.'
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'We only collect the following non-personal information that helps us to better
+    understand how our website is used: Browser type'
+- source: non-personal information
+  target: country of origin
+  key: SUBSUM
+  text:
+  - 'We only collect the following non-personal information that helps us to better
+    understand how our website is used: Country of origin'
+- source: non-personal information
+  target: date time stamp
+  key: SUBSUM
+  text:
+  - 'We only collect the following non-personal information that helps us to better
+    understand how our website is used: Date/time stamp'
+- source: non-personal information
+  target: device type
+  key: SUBSUM
+  text:
+  - 'We only collect the following non-personal information that helps us to better
+    understand how our website is used: Device type'
+- source: non-personal information
+  target: referrer url
+  key: SUBSUM
+  text:
+  - 'We only collect the following non-personal information that helps us to better
+    understand how our website is used: Referrer URL'
+- source: related service
+  target: support
+  key: SUBSUM
+  text:
+  - We also own and operate a number of websites and offer related services, like
+    support.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: condens
+- type: ACTOR
+  id: condens insights gmbh
+- type: ACTOR
+  id: related service
+- type: ACTOR
+  id: support
+- type: ACTOR
+  id: trust infrastructure subprocessor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access control to service
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: country of origin
+- type: DATA
+  id: date time stamp
+- type: DATA
+  id: datum you enter
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information storage
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: referrer url

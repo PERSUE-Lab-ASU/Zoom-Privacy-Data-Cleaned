@@ -1,0 +1,75 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: ai model
+  key: COLLECT
+  text:
+  - We use AI models to process your notes, but we do not send any of your information
+    for training purposes, and your notes remain absolutely private within your account.
+  purposes:
+    services:
+    - to process your notes
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - We record your IP address, browser type, operating system, and device type when
+    you use our services
+  purposes: {}
+- source: we
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - '3. Information We Do Not Share
+
+
+    Search History: We keep your search history confidential.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to improve site functionality and user experience.
+  purposes:
+    services:
+    - to improve site functionality and user experience
+- source: we
+  target: device type
+  key: COLLECT
+  text:
+  - We record your IP address, browser type, operating system, and device type when
+    you use our services
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We record your IP address, browser type, operating system, and device type when
+    you use our services
+  purposes: {}
+- source: we
+  target: operating system
+  key: COLLECT
+  text:
+  - We record your IP address, browser type, operating system, and device type when
+    you use our services
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: ai model
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: device type
+- type: DATA
+  id: ip address
+- type: DATA
+  id: operating system

@@ -1,0 +1,32 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: Brightcove
+  target: custom solutions
+  key: SUBSUM
+  text:
+  - 'Services by Brightcove :  Custom Solutions And Workflows'
+- source: report
+  target: events network
+  key: SUBSUM
+  text:
+  - 'Reports & News :  Events Network and develop your skills at an in-person or virtual
+    gathering'
+- source: stand product
+  target: Brightcove
+  key: SUBSUM
+  text:
+  - 'Stand-alone Products :  Brightcove Audience Insights Advanced analytics that
+    provide an up-close look at viewer behavior'
+nodes:
+- type: ACTOR
+  id: Brightcove
+- type: ACTOR
+  id: custom solutions
+- type: ACTOR
+  id: events network
+- type: ACTOR
+  id: report
+- type: ACTOR
+  id: stand product

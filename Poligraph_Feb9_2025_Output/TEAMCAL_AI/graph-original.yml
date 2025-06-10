@@ -1,0 +1,351 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In order to provide the Service, we also share data with services that help us
+    track errors and bugs, keep backups of log files and identify performance issues
+    (these are listed above).
+  - We also store additional information which may contain personal information (like
+    your time zone) in your local browser cache to ensure peak performance of the
+    Service.
+  - We keep personal metadata, given that the user allows us to process their data,
+    which can be controlled by going to the Privacy tab in Settings & Profile.
+  purposes:
+    services:
+    - In order to provide the Service
+    - to ensure peak performance of the Service
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We collect anonymous data from every visitor of the Website and Service to monitor
+    traffic and fix bugs.
+  purposes:
+    analytics:
+    - to monitor traffic and fix bugs
+    security:
+    - to monitor traffic and fix bugs
+    services:
+    - to monitor traffic and fix bugs
+- source: we
+  target: backup
+  key: COLLECT
+  text:
+  - In order to accommodate customers who need older data restored, we keep backups
+    indefinitely and cannot delete personal data from them.
+  purposes:
+    services:
+    - In order to accommodate customers who need older data restored
+- source: we
+  target: backup of log file
+  key: COLLECT
+  text:
+  - In order to provide the Service, we also share data with services that help us
+    track errors and bugs, keep backups of log files and identify performance issues
+    (these are listed above).
+  purposes:
+    services:
+    - In order to provide the Service
+- source: we
+  target: browser language
+  key: COLLECT
+  text:
+  - For example, we collect information like web requests, the data sent in response
+    to such requests, the Internet Protocol address, the browser type, the browser
+    language, and a timestamp for the request.
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - For example, we collect information like web requests, the data sent in response
+    to such requests, the Internet Protocol address, the browser type, the browser
+    language, and a timestamp for the request.
+  purposes: {}
+- source: we
+  target: company name
+  key: COLLECT
+  text:
+  - For the Service, we ask you to register an account, log in and provide certain
+    information (such as names and email addresses of your team members, your company
+    name and address and your credit card information) in order to be able to store
+    your task data as well as periodically automatically bill you & charge your card
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to store session information for your convenience.
+  purposes:
+    services:
+    - to store session information for your convenience
+- source: we
+  target: copy of purchasing record
+  key: COLLECT
+  text:
+  - We keep copies of all purchasing records for tax and auditing purposes.
+  purposes:
+    legal:
+    - for tax and auditing purposes
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - For the Service, we ask you to register an account, log in and provide certain
+    information (such as names and email addresses of your team members, your company
+    name and address and your credit card information) in order to be able to store
+    your task data as well as periodically automatically bill you & charge your card
+  purposes: {}
+- source: we
+  target: datum send in response to request
+  key: COLLECT
+  text:
+  - For example, we collect information like web requests, the data sent in response
+    to such requests, the Internet Protocol address, the browser type, the browser
+    language, and a timestamp for the request.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For the Service, we ask you to register an account, log in and provide certain
+    information (such as names and email addresses of your team members, your company
+    name and address and your credit card information) in order to be able to store
+    your task data as well as periodically automatically bill you & charge your card
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - To enable TEAMCAL AI services, we save users full name, job title, location for
+    timezone, and token to connect to Calendar.
+  purposes:
+    services:
+    - To enable TEAMCAL AI services
+    - to connect to Calendar
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - For example, we collect information like web requests, the data sent in response
+    to such requests, the Internet Protocol address, the browser type, the browser
+    language, and a timestamp for the request.
+  purposes: {}
+- source: we
+  target: job title
+  key: COLLECT
+  text:
+  - To enable TEAMCAL AI services, we save users full name, job title, location for
+    timezone, and token to connect to Calendar.
+  purposes:
+    services:
+    - To enable TEAMCAL AI services
+    - to connect to Calendar
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - For the Service, we ask you to register an account, log in and provide certain
+    information (such as names and email addresses of your team members, your company
+    name and address and your credit card information) in order to be able to store
+    your task data as well as periodically automatically bill you & charge your card
+  - To enable TEAMCAL AI services, we save users full name, job title, location for
+    timezone, and token to connect to Calendar.
+  purposes:
+    services:
+    - To enable TEAMCAL AI services
+    - to connect to Calendar
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We only use your personal information to provide you with the Service to communicate
+    with you about the Service or the Website.
+  purposes:
+    services:
+    - to provide you with the Service to communicate with you about the Service or
+      the Website
+- source: we
+  target: personal metadata
+  key: COLLECT
+  text:
+  - We keep personal metadata, given that the user allows us to process their data,
+    which can be controlled by going to the Privacy tab in Settings & Profile.
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - For the Service, we ask you to register an account, log in and provide certain
+    information (such as names and email addresses of your team members, your company
+    name and address and your credit card information) in order to be able to store
+    your task data as well as periodically automatically bill you & charge your card
+  purposes: {}
+- source: we
+  target: server log file
+  key: COLLECT
+  text:
+  - We store server log files for (up to) one year for the purposes of debugging errors
+    and helping customers find out when specific data changes happened and who did
+    them; and for preventing fraud and providing the necessary information when fraud
+    is suspected.
+  purposes:
+    security:
+    - for the purposes of debugging errors and helping customers find out when specific
+      data changes happened and who did them; and for preventing fraud and providing
+      the necessary information when fraud is suspected
+- source: we
+  target: timestamp for request
+  key: COLLECT
+  text:
+  - For example, we collect information like web requests, the data sent in response
+    to such requests, the Internet Protocol address, the browser type, the browser
+    language, and a timestamp for the request.
+  purposes: {}
+- source: we
+  target: token connect to calendar
+  key: COLLECT
+  text:
+  - To enable TEAMCAL AI services, we save users full name, job title, location for
+    timezone, and token to connect to Calendar.
+  purposes:
+    services:
+    - To enable TEAMCAL AI services
+    - to connect to Calendar
+- source: 3rd party service
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Some 3rd party services collect data independently from us, and have incorporated
+    it as part of their service.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In order to provide the Service, we also share data with services that help us
+    track errors and bugs, keep backups of log files and identify performance issues
+    (these are listed above).
+  purposes:
+    services:
+    - In order to provide the Service
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may need to share personal information with our Agents in order to provide
+    products or services to you.
+  purposes:
+    services:
+    - in order to provide products or services to you
+- source: UNSPECIFIED_ACTOR
+  target: user information
+  key: COLLECT
+  text:
+  - If TCAI is acquired or merged with another company, or TCAI sells the Website
+    and Service to another company, or if TCAI goes out of business or enters bankruptcy,
+    user information may be transferred to a third party.
+  purposes: {}
+- source: external service
+  target: aggregate statistical datum
+  key: COLLECT
+  text:
+  - Other then the information outlined below, only aggregated, statistical data is
+    periodically transmitted to external services to help us improve the Website and
+    Service.
+  purposes:
+    services:
+    - to help us improve the Website and Service
+- source: teamcal ai
+  target: data collect
+  key: COLLECT
+  text:
+  - The data collected is used by TEAMCAL AI to find convenient time for users to
+    schedule meetings and create a collaborative team with other members.
+  purposes:
+    services:
+    - to find convenient time for users to schedule meetings and create a collaborative
+      team with other members
+- source: personal information
+  target: picture
+  key: SUBSUM
+  text:
+  - In order to take advantage of certain features of the Service, you may also choose
+    to provide us with other personal information, such as your picture, but your
+    decision to utilize these features and provide such data will always be voluntary.
+- source: personal information
+  target: time zone
+  key: SUBSUM
+  text:
+  - We also store additional information which may contain personal information (like
+    your time zone) in your local browser cache to ensure peak performance of the
+    Service.
+nodes:
+- type: ACTOR
+  id: 3rd party service
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: external service
+- type: ACTOR
+  id: teamcal ai
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: aggregate statistical datum
+- type: DATA
+  id: backup
+- type: DATA
+  id: backup of log file
+- type: DATA
+  id: browser language
+- type: DATA
+  id: browser type
+- type: DATA
+  id: company name
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: copy of purchasing record
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: data collect
+- type: DATA
+  id: datum send in response to request
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job title
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal metadata
+- type: DATA
+  id: picture
+- type: DATA
+  id: postal address
+- type: DATA
+  id: server log file
+- type: DATA
+  id: time zone
+- type: DATA
+  id: timestamp for request
+- type: DATA
+  id: token connect to calendar
+- type: DATA
+  id: user information

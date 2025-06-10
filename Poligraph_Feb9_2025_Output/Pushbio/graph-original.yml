@@ -1,0 +1,819 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For each of these integrations: We use this information solely for the purpose
+    of providing and improving our Service.'
+  purposes:
+    services:
+    - solely for the purpose of providing and improving our Service
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Cookies and similar technologies'
+  - We may use cookies, local storage, and similar technologies to automatically collect
+    this information.
+  purposes: {}
+- source: we
+  target: google user datum
+  key: COLLECT
+  text:
+  - We retain Google user data only for as long as necessary to provide our services
+    and fulfill the purposes outlined in this Privacy Policy.
+  purposes:
+    services:
+    - to provide our services and fulfill the purposes outlined in this Privacy Policy
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including:'
+  purposes: {}
+- source: we
+  target: information you authorize we
+  key: COLLECT
+  text:
+  - 'For each of these integrations: We only access the information you explicitly
+    authorize us to access when you connect your accounts.'
+  purposes: {}
+- source: we
+  target: local storage
+  key: COLLECT
+  text:
+  - We may use cookies, local storage, and similar technologies to automatically collect
+    this information.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Personal information we collect
+  - 'Research and development
+
+
+    We may use your personal information for research and development purposes, including
+    to analyze and improve the Service and our business.'
+  - 'We may share your personal information with:'
+  - We may use cookies, local storage, and similar technologies to automatically collect
+    this information.
+  - We may use your personal information to send you Pushbio-related marketing communications
+    and to display advertisements to you.
+  - 'We may use your personal information to:'
+  - 'We use your personal information for the following purposes or as otherwise described
+    at the time of collection:'
+  purposes:
+    advertising:
+    - to send you Pushbio-related marketing communications and to display advertisements
+      to you
+    analytics:
+    - for research and development purposes, including to analyze and improve the
+      Service and our business
+    legal:
+    - 'to: Comply with applicable laws, lawful requests, and legal processes'
+    - 'to: Enforce our terms of service and other agreements'
+    security:
+    - 'to: Protect our, your, or others'' rights, privacy, safety, or property'
+    services:
+    - for research and development purposes, including to analyze and improve the
+      Service and our business
+    - 'to: Enforce our terms of service and other agreements'
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Third-party platforms , when you
+    choose to connect your Pushbio account with these platforms'
+  purposes: {}
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Advertising partners to display
+    advertisements to you'
+  purposes: {}
+- source: authority
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Authorities and others , when required
+    by law or to protect rights and safety'
+  purposes: {}
+- source: business partner
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including:'
+  purposes: {}
+- source: payment processor
+  target: payment
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Payment processors to process your
+    payments'
+  purposes: {}
+- source: payment processor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Payment processors to process your
+    payments'
+  purposes: {}
+- source: professional advisor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Professional advisors , such as
+    lawyers and accountants, where necessary'
+  purposes: {}
+- source: service provider
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including:'
+  purposes: {}
+- source: service provider help
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Service providers that help us operate
+    and improve our business and the Service'
+  purposes: {}
+- source: technology
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Cookies and similar technologies'
+  - We may use cookies, local storage, and similar technologies to automatically collect
+    this information.
+  purposes: {}
+- source: technology
+  target: local storage
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Cookies and similar technologies'
+  - We may use cookies, local storage, and similar technologies to automatically collect
+    this information.
+  purposes: {}
+- source: technology
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Cookies and similar technologies'
+  purposes: {}
+- source: account datum
+  target: online account
+  key: SUBSUM
+  text:
+  - 'Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Account data , such as your username and password that you set to establish an
+    online account with us, as well as other information you choose to include in
+    your account profile.'
+- source: account datum
+  target: password
+  key: SUBSUM
+  text:
+  - 'Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Account data , such as your username and password that you set to establish an
+    online account with us, as well as other information you choose to include in
+    your account profile.'
+- source: account datum
+  target: username
+  key: SUBSUM
+  text:
+  - 'Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Account data , such as your username and password that you set to establish an
+    online account with us, as well as other information you choose to include in
+    your account profile.'
+- source: browsing / search history
+  target: access time
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Online activity data , such as pages or screens you viewed, how long
+    you spent on a page or screen, navigation paths between pages or screens, information
+    about your activity on a page or screen, access times, and duration of access.'
+- source: browsing / search history
+  target: navigation path
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Online activity data , such as pages or screens you viewed, how long
+    you spent on a page or screen, navigation paths between pages or screens, information
+    about your activity on a page or screen, access times, and duration of access.'
+- source: communication data
+  target: message you send to we
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Communication data , including messages you send to us or that we exchange through
+    the Service.'
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Contact data , such as your first and last name, email address.'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Contact data , such as your first and last name, email address.'
+- source: device datum
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: cpu usage
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: device type
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: language setting
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: manufacturer
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: model
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: operate system type
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: ram
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: screen resolution
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: device datum
+  target: version
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: information about you
+  target: browsing / search history
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Online activity data , such as pages or screens you viewed, how long
+    you spent on a page or screen, navigation paths between pages or screens, information
+    about your activity on a page or screen, access times, and duration of access.'
+- source: information about you
+  target: device datum
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Device data , such as your computer or mobile device''s operating system
+    type and version, manufacturer and model, browser type, screen resolution, RAM
+    and disk size, CPU usage, device type, IP address, unique identifiers, language
+    settings, mobile device carrier, and general location information (such as city
+    or area).'
+- source: information about you
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Online activity data , such as pages or screens you viewed, how long
+    you spent on a page or screen, navigation paths between pages or screens, information
+    about your activity on a page or screen, access times, and duration of access.'
+- source: internet activity
+  target: access time
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Online activity data , such as pages or screens you viewed, how long
+    you spent on a page or screen, navigation paths between pages or screens, information
+    about your activity on a page or screen, access times, and duration of access.'
+- source: internet activity
+  target: navigation path
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction with our Service,
+    including: Online activity data , such as pages or screens you viewed, how long
+    you spent on a page or screen, navigation paths between pages or screens, information
+    about your activity on a page or screen, access times, and duration of access.'
+- source: marketing datum
+  target: preference for
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Marketing data , such as your preferences for receiving communications about our
+    products, services, and events.'
+- source: payment datum
+  target: billing information
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Payment and transaction data , such as payment card information, billing information,
+    and purchase history.'
+- source: payment datum
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Payment and transaction data , such as payment card information, billing information,
+    and purchase history.'
+- source: payment datum
+  target: purchase history
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Payment and transaction data , such as payment card information, billing information,
+    and purchase history.'
+- source: personal information
+  target: account datum
+  key: SUBSUM
+  text:
+  - 'Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Account data , such as your username and password that you set to establish an
+    online account with us, as well as other information you choose to include in
+    your account profile.'
+- source: personal information
+  target: communication data
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Communication data , including messages you send to us or that we exchange through
+    the Service.'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Contact data , such as your first and last name, email address.'
+- source: personal information
+  target: image
+  key: SUBSUM
+  text:
+  - 'Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Content , including any text, images, videos, or other content you upload to the
+    Service.'
+- source: personal information
+  target: marketing datum
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Marketing data , such as your preferences for receiving communications about our
+    products, services, and events.'
+- source: personal information
+  target: payment datum
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Payment and transaction data , such as payment card information, billing information,
+    and purchase history.'
+- source: personal information
+  target: social medium datum
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Social media data , such as information from your connected social media accounts
+    when you choose to link them to our Service.'
+- source: personal information
+  target: text
+  key: SUBSUM
+  text:
+  - 'Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Content , including any text, images, videos, or other content you upload to the
+    Service.'
+- source: professional advisor
+  target: accountant
+  key: SUBSUM
+  text:
+  - 'We may share your personal information with: Professional advisors , such as
+    lawyers and accountants, where necessary'
+- source: professional advisor
+  target: lawyer
+  key: SUBSUM
+  text:
+  - 'We may share your personal information with: Professional advisors , such as
+    lawyers and accountants, where necessary'
+- source: social medium datum
+  target: information from connect social medium account
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal information we collect
+
+
+    Information you provide to us
+
+
+    Personal information you may provide to us through the Service or otherwise includes:
+    Social media data , such as information from your connected social media accounts
+    when you choose to link them to our Service.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: accountant
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: authority
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: lawyer
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: professional advisor
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: service provider help
+- type: ACTOR
+  id: technology
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: account datum
+- type: DATA
+  id: billing information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: communication data
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: cpu usage
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: device datum
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: google user datum
+- type: DATA
+  id: identifier
+- type: DATA
+  id: image
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information from connect social medium account
+- type: DATA
+  id: information you authorize we
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language setting
+- type: DATA
+  id: local storage
+- type: DATA
+  id: manufacturer
+- type: DATA
+  id: marketing datum
+- type: DATA
+  id: message you send to we
+- type: DATA
+  id: model
+- type: DATA
+  id: navigation path
+- type: DATA
+  id: online account
+- type: DATA
+  id: operate system type
+- type: DATA
+  id: password
+- type: DATA
+  id: payment
+- type: DATA
+  id: payment datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: preference for
+- type: DATA
+  id: purchase history
+- type: DATA
+  id: ram
+- type: DATA
+  id: screen resolution
+- type: DATA
+  id: social medium datum
+- type: DATA
+  id: text
+- type: DATA
+  id: username
+- type: DATA
+  id: version

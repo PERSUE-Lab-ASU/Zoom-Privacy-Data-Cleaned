@@ -1,0 +1,100 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies/login sessions to identify you while you are accessing the Platform
+    and to make you aware when you re-access the Platform in the future.
+  purposes:
+    analytics:
+    - to identify you while you are accessing the Platform and to make you aware when
+      you re-access the Platform in the future
+    services:
+    - to identify you while you are accessing the Platform and to make you aware when
+      you re-access the Platform in the future
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - In this case, we may also provide device location data to third parties, including
+    our partners.
+  - The Company collects device location data for each service provided by the Company
+    and uses it for the service.
+  - We may use these device location data as a basis for providing reporting services
+    for each service and solution we provide.
+  purposes:
+    services:
+    - for each service provided by the Company
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Personal information protection approach
+
+
+    We will acquire personal information by lawful and fair means.'
+  - We will use personal information within the scope necessary to achieve the purpose
+    of use.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: geolocation
+  key: COLLECT
+  text:
+  - In this case, we may also provide device location data to third parties, including
+    our partners.
+  purposes: {}
+- source: we
+  target: innovature technologies kk
+  key: SUBSUM
+  text:
+  - This Privacy Policy is incorporated into the Terms of Use of Innovature Technologies
+    KK (hereinafter the Company).
+- source: geolocation
+  target: registration
+  key: SUBSUM
+  text:
+  - Registration, collection, and utilization of information will be carried out with
+    prior user agreement specifying the purpose.
+  - We may use these device location data as a basis for providing reporting services
+    for each service and solution we provide.
+- source: personal information
+  target: personal information of employee
+  key: SUBSUM
+  text:
+  - Personal information acquired from customers through business activities and personal
+    information of our employees (hereinafter "personal information", including specific
+    personal information) we recognize that it is an important social responsibility
+    of the Company to ensure the protection of personal information.
+- source: personal information
+  target: specific personal information
+  key: SUBSUM
+  text:
+  - Personal information acquired from customers through business activities and personal
+    information of our employees (hereinafter "personal information", including specific
+    personal information) we recognize that it is an important social responsibility
+    of the Company to ensure the protection of personal information.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: innovature technologies kk
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information of employee
+- type: DATA
+  id: registration
+- type: DATA
+  id: specific personal information

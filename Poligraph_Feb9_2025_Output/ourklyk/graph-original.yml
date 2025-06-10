@@ -1,0 +1,175 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Personal Information is collected directly from you when you: Access, browse,
+    or use the Klyk Services We may otherwise collect information from you when you
+    access, browse, use, or otherwise interact with the Klyk Services.'
+  - 'Privacy Policy
+
+
+    Who we disclose your information to'
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - When you contact our support team via our website, phone or email, we may collect
+    your name, contact details, and other Personal Information for the purpose of
+    providing assistance to you.
+  purposes:
+    services:
+    - for the purpose of providing assistance to you
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - If you submit a payment through the Klyk Services, we may collect credit card
+    details, or otherwise see the details of any bank transaction processed by you.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may collect anonymous Usage Data from the Klyk Services which utilises cookies,
+    pixel tags and other tracking technologies (collectively Cookies ).
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - When you contact our support team via our website, phone or email, we may collect
+    your name, contact details, and other Personal Information for the purpose of
+    providing assistance to you.
+  purposes:
+    services:
+    - for the purpose of providing assistance to you
+- source: we
+  target: personal detail
+  key: COLLECT
+  text:
+  - We ask you to provide personal details including but not limited to your name,
+    address, etc. for the purpose of creating your account and corresponding with
+    you about your use of the Klyk Services.
+  purposes:
+    services:
+    - for the purpose of creating your account and corresponding with you about your
+      use of the Klyk Services
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For the avoidance of doubt, we will only use your Personal Data for purposes that
+    you would reasonably expect us to use your Personal Data for in connection with
+    providing the Klyk Services to you, or where we are required by law to collect
+    your Personal Data.
+  - 'Legimate purposes that you agree we may use your Personal Data for include but
+    are not limited to the following:'
+  - We may, in the course of providing the Klyk Services to you, transfer your Personal
+    Data to overseas countries that are deemed by the EU Commission as having an 'adequate'
+    level of Personal Data protection.
+  - We will retain your Personal Data for the period necessary to fulfill the purposes
+    outlined in this Privacy Policy unless a longer retention period is required or
+    permitted by law.
+  - When you contact our support team via our website, phone or email, we may collect
+    your name, contact details, and other Personal Information for the purpose of
+    providing assistance to you.
+  purposes:
+    legal:
+    - for purposes that you would reasonably expect us to use your Personal Data for
+      in connection with providing the Klyk Services to you, or where we are required
+      by law to collect your Personal Data
+    services:
+    - for purposes that you would reasonably expect us to use your Personal Data for
+      in connection with providing the Klyk Services to you, or where we are required
+      by law to collect your Personal Data
+    - for the purpose of providing assistance to you
+- source: Publications Office of the EU
+  target: personal information
+  key: COLLECT
+  text:
+  - We may, in the course of providing the Klyk Services to you, transfer your Personal
+    Data to overseas countries that are deemed by the EU Commission as having an 'adequate'
+    level of Personal Data protection.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information supply to we
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how Klyk (referred to in this policy as " we ", "
+    us " or " our ") and/or its subsidiaries or affiliates use, collects, stores and
+    discloses information supplied to us whilst using our services through Klyk website
+    located at www.ourklyk.com and other websites, software applications, services,
+    devices (including, but not limited to, any mobile devices) or networks owned
+    or controlled by Klyk that allow for the distribution and reception of video,
+    audio, and other content (we will refer to these collectively as the " Klyk Services
+    ").
+  purposes: {}
+- source: klyk
+  target: information supply to we
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how Klyk (referred to in this policy as " we ", "
+    us " or " our ") and/or its subsidiaries or affiliates use, collects, stores and
+    discloses information supplied to us whilst using our services through Klyk website
+    located at www.ourklyk.com and other websites, software applications, services,
+    devices (including, but not limited to, any mobile devices) or networks owned
+    or controlled by Klyk that allow for the distribution and reception of video,
+    audio, and other content (we will refer to these collectively as the " Klyk Services
+    ").
+  purposes: {}
+- source: meeting host
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'You agree and consent to us disclosing your Personal Data to: Other Klyk Users
+    When you use the Klyk Services, some data will be disclosed to other participants
+    and to meeting or webinar hosts.'
+  purposes: {}
+- source: personal detail
+  target: person name
+  key: SUBSUM
+  text:
+  - We ask you to provide personal details including but not limited to your name,
+    address, etc. for the purpose of creating your account and corresponding with
+    you about your use of the Klyk Services.
+- source: personal detail
+  target: postal address
+  key: SUBSUM
+  text:
+  - We ask you to provide personal details including but not limited to your name,
+    address, etc. for the purpose of creating your account and corresponding with
+    you about your use of the Klyk Services.
+nodes:
+- type: ACTOR
+  id: Publications Office of the EU
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: klyk
+- type: ACTOR
+  id: meeting host
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: information supply to we
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal detail
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address

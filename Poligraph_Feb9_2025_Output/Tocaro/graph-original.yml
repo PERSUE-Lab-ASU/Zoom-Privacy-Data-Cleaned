@@ -1,0 +1,153 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In such case, we notify and disclose the purpose of the use of information, the
+    name of the business partner, the kind of information and the name of the administrator
+    to the customers.
+  - We acquire and use information in the Service as follows.
+  purposes: {}
+- source: we
+  target: acquire personal information
+  key: COLLECT
+  text:
+  - We use the acquired personal information for the following purposes or within
+    the scope necessary for achieving the purpose.
+  purposes:
+    services:
+    - To plan and offer new projects related to the Service
+- source: we
+  target: customer information
+  key: COLLECT
+  text:
+  - 'Information about Withdrawing Member
+
+
+    We will appropriately process customers information in accordance with related
+    laws and regulations and office regulations when deleting the Service account.'
+  purposes: {}
+- source: we
+  target: device information customer use
+  key: COLLECT
+  text:
+  - We may acquire the device information which customers use such as OS, individual
+    identification information, and computer name.
+  purposes: {}
+- source: we
+  target: name of administrator to customer
+  key: COLLECT
+  text:
+  - In such case, we notify and disclose the purpose of the use of information, the
+    name of the business partner, the kind of information and the name of the administrator
+    to the customers.
+  purposes: {}
+- source: we
+  target: name of business partner
+  key: COLLECT
+  text:
+  - In such case, we notify and disclose the purpose of the use of information, the
+    name of the business partner, the kind of information and the name of the administrator
+    to the customers.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We acquire personal information from our customers in these three ways:'
+  - We acquire personal information properly, never by fraud or other wrongful means.
+  purposes: {}
+- source: we
+  target: personal information about customer
+  key: COLLECT
+  text:
+  - We may share the personal information about our customers with our business partners
+    when they require to provide the Service to the customers.
+  purposes: {}
+- source: we
+  target: type of information
+  key: COLLECT
+  text:
+  - We use this type of information to analyze the user environment, to provide better
+    service levels and to prevent fraudulent acts which obstruct providing our normal
+    services.
+  - We use this type of information to provide better service levels, to perform personal
+    identification and to prevent fraudulent acts which obstruct providing our normal
+    services.
+  purposes:
+    analytics:
+    - to analyze the user environment, to provide better service levels and to prevent
+      fraudulent acts which obstruct providing our normal services
+    security:
+    - to analyze the user environment, to provide better service levels and to prevent
+      fraudulent acts which obstruct providing our normal services
+    - to provide better service levels, to perform personal identification and to
+      prevent fraudulent acts which obstruct providing our normal services
+    services:
+    - to provide better service levels, to perform personal identification and to
+      prevent fraudulent acts which obstruct providing our normal services
+- source: business partner
+  target: personal information about customer
+  key: COLLECT
+  text:
+  - We may share the personal information about our customers with our business partners
+    when they require to provide the Service to the customers.
+  purposes: {}
+- source: we
+  target: ctcsp corporation
+  key: SUBSUM
+  text:
+  - We, CTCSP Corporation ("we", "us" or "our"), consider that the protection of our
+    customers' information as one of the high-priority issues.
+- source: device information customer use
+  target: computer name
+  key: SUBSUM
+  text:
+  - We may acquire the device information which customers use such as OS, individual
+    identification information, and computer name.
+- source: device information customer use
+  target: individual identification information
+  key: SUBSUM
+  text:
+  - We may acquire the device information which customers use such as OS, individual
+    identification information, and computer name.
+- source: device information customer use
+  target: os
+  key: SUBSUM
+  text:
+  - We may acquire the device information which customers use such as OS, individual
+    identification information, and computer name.
+nodes:
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: ctcsp corporation
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: acquire personal information
+- type: DATA
+  id: computer name
+- type: DATA
+  id: customer information
+- type: DATA
+  id: device information customer use
+- type: DATA
+  id: individual identification information
+- type: DATA
+  id: name of administrator to customer
+- type: DATA
+  id: name of business partner
+- type: DATA
+  id: os
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information about customer
+- type: DATA
+  id: type of information

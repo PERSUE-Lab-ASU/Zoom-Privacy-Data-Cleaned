@@ -1,0 +1,55 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Our company uses personal information within the scope of predetermined purpose
+    in consideration of business content and scale, and will not use it beyond the
+    purpose.
+  purposes: {}
+- source: eqs inc.
+  target: user information
+  key: COLLECT
+  text:
+  - In order to provide Web application "SKY FORCE" (hereinafter referred to as "this
+    application") and the service related to this application (hereinafter referred
+    to as "this service"), EQS, Inc. will request user information, and establish
+    Web Application Privacy Policy (hereinafter referred to as "this policy") to protect
+    the information we acquired.
+  purposes:
+    services:
+    - In order to provide Web application "SKY FORCE" (hereinafter referred to as
+      "this application") and the service related to this application (hereinafter
+      referred to as "this service")
+- source: institution
+  target: court
+  key: SUBSUM
+  text:
+  - In addition, our company will not provide it without consent of individuals and
+    corporations unless there is a request for disclosure based on law from a institution
+    such as a court and police agency.
+- source: institution
+  target: police agency
+  key: SUBSUM
+  text:
+  - In addition, our company will not provide it without consent of individuals and
+    corporations unless there is a request for disclosure based on law from a institution
+    such as a court and police agency.
+nodes:
+- type: ACTOR
+  id: court
+- type: ACTOR
+  id: eqs inc.
+- type: ACTOR
+  id: institution
+- type: ACTOR
+  id: police agency
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal information
+- type: DATA
+  id: user information

@@ -1,0 +1,93 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - How we use Cookies; We use Cookies to help improve your experience whilst you
+    are visiting our site.
+  - We use Cookies to help understand anonymous usage of our site.
+  purposes:
+    analytics:
+    - to help understand anonymous usage of our site
+    services:
+    - to help improve your experience whilst you are visiting our site
+- source: we
+  target: information about visit
+  key: COLLECT
+  text:
+  - 'When you visit our web site, you may be providing us with information about your
+    visit in two ways: Statistics collected as you browse Organisational and personal
+    information you knowingly give us.'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - To achieve this, we occasionally need information about you when you visit our
+    Web site.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Within our website, you may be asked to give us personal or organisational information
+    in order to receive information about a product or service.
+  purposes:
+    advertising:
+    - in order to receive information about a product or service
+    analytics:
+    - in order to receive information about a product or service
+    services:
+    - in order to receive information about a product or service
+- source: we
+  target: statistic
+  key: COLLECT
+  text:
+  - We use these statistics to improve our website, to monitor its performance, and
+    to make it easier for you and other visitors to use.
+  purposes:
+    analytics:
+    - to improve our website, to monitor its performance, and to make it easier for
+      you and other visitors to use
+    services:
+    - to improve our website, to monitor its performance, and to make it easier for
+      you and other visitors to use
+- source: UNSPECIFIED_ACTOR
+  target: information you submit
+  key: COLLECT
+  text:
+  - The information you submit is only shared with third parties if it is necessary
+    to complete your request, provide you with access to downloadable software, or
+    as required by law.
+  purposes: {}
+- source: web server
+  target: information about visit not
+  key: COLLECT
+  text:
+  - As you browse the site, our Web servers collect information about your visit,
+    not about you personally.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web server
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information about visit
+- type: DATA
+  id: information about visit not
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information you submit
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistic

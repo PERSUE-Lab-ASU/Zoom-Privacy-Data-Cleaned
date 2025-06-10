@@ -1,0 +1,144 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - The types of information we collect automatically include referring sites, browser
+    used, pages visited and other generic measures of user activity.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - '7.3 Processing in the United Kingdom (GBR)
+
+
+    You can request from us information about - How long we retain your personal data'
+  - We are permitted to disclose personal information when we have good reason to
+    believe that this is legally required.
+  purposes: {}
+- source: be software international
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For Users with accounts in the Be Software International Australian Data Region,
+    Be Software International processes data solely in data centres located in Australia.
+  - For Users with accounts in the Be Software International Canada Data Region, Be
+    Software International processes data solely in data centers located in Canada.
+  - For Users with accounts in the Be Software International Singapore Data Region,
+    Be Software International processes data solely in data centres located in Singapore.
+  - For Users with accounts in the Be Software International US Data Region, Be Software
+    International processes data solely in data centres located in the US.
+  - For users with accounts in the Be Software International United Kingdom Data Region,
+    Be Software International processes data solely in data centres located in United
+    Kingdom
+  purposes:
+    analytics:
+    - For Users with accounts in the Be Software International Australian Data Region
+    - For Users with accounts in the Be Software International Canada Data Region
+    - For Users with accounts in the Be Software International Singapore Data Region
+    - For Users with accounts in the Be Software International US Data Region
+    - For users with accounts in the Be Software International United Kingdom Data
+      Region
+    services:
+    - For Users with accounts in the Be Software International Australian Data Region
+    - For Users with accounts in the Be Software International Canada Data Region
+    - For Users with accounts in the Be Software International Singapore Data Region
+    - For Users with accounts in the Be Software International US Data Region
+    - For users with accounts in the Be Software International United Kingdom Data
+      Region
+- source: be software international
+  target: information about yourself
+  key: COLLECT
+  text:
+  - When you engage in certain activities on this site, Be Software International
+    may ask you to provide certain information about yourself by filling out and submitting
+    an online form.
+  purposes: {}
+- source: be software international
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Be Software International collects and analyses non-personal information to evaluate
+    how visitors use our website.
+  purposes:
+    analytics:
+    - to evaluate how visitors use our website
+- source: be software international
+  target: personal information
+  key: COLLECT
+  text:
+  - Be Software International only uses personal information to better understand
+    your needs and interests and to provide you with a more personalised service.
+  purposes:
+    analytics:
+    - to better understand your needs and interests and to provide you with a more
+      personalised service
+    services:
+    - to better understand your needs and interests and to provide you with a more
+      personalised service
+- source: be software international
+  target: statistical information about visit
+  key: COLLECT
+  text:
+  - Be Software International automatically stores statistical information about your
+    visit.
+  purposes: {}
+- source: be software international website
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Be Software International website uses cookies, web beacons and other technologies
+    for data analysis and personalisation services.
+  purposes: {}
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - Non-personal data collected may include the pages visited on the Be Software International
+    website, unique URL's visited within Be Software International, browser type and
+    IP address.
+- source: non-personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - Non-personal data collected may include the pages visited on the Be Software International
+    website, unique URL's visited within Be Software International, browser type and
+    IP address.
+- source: non-personal information
+  target: unique url
+  key: SUBSUM
+  text:
+  - Non-personal data collected may include the pages visited on the Be Software International
+    website, unique URL's visited within Be Software International, browser type and
+    IP address.
+nodes:
+- type: ACTOR
+  id: be software international
+- type: ACTOR
+  id: be software international website
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information about yourself
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistical information about visit
+- type: DATA
+  id: unique url

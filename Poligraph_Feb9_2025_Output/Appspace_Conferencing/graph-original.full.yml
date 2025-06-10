@@ -1,0 +1,269 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We maintain the contents of any email correspondence with you as confidential
+    and for our internal use only, and we will use the information to improve your
+    experience with Appspace Sites and/or provide customized email communications
+    to you.
+  purposes:
+    services:
+    - to improve your experience with Appspace Sites and/or provide customized email
+      communications to you
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - When we share demographic information with third parties, we will give them aggregate
+    information only.
+  purposes: {}
+- source: we
+  target: content of email correspondence with you
+  key: COLLECT
+  text:
+  - We maintain the contents of any email correspondence with you as confidential
+    and for our internal use only, and we will use the information to improve your
+    experience with Appspace Sites and/or provide customized email communications
+    to you.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may also use cookies to monitor aggregate usage and web traffic routing on
+    our Services in order to customize and improve our Services.
+  - We may use both session cookies and persistent cookies to identify that you have
+    logged in to the Services and to tell us how and when you interact with our Services.
+  purposes:
+    analytics:
+    - to identify that you have logged in to the Services and to tell us how and when
+      you interact with our Services
+    - to monitor aggregate usage and web traffic routing on our Services
+    services:
+    - in order to customize and improve our Services
+    - to identify that you have logged in to the Services and to tell us how and when
+      you interact with our Services
+- source: we
+  target: demographic information
+  key: COLLECT
+  text:
+  - We may gather demographic information from you (for example, your age) from time
+    to time.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We may use location information to improve and personalize our Services for you.
+  purposes:
+    services:
+    - to improve and personalize our Services for you
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - In some cases, we collect and store information about where you are located, such
+    as by converting your IP address into a rough geolocation.
+  purposes: {}
+- source: we
+  target: information you provide
+  key: COLLECT
+  text:
+  - We may disclose information you provide if required to do so by law or if we have
+    a good faith belief that disclosure is necessary to (1) comply with the law or
+    with legal process served on us; (2) protect and defend our rights or property;
+    or (3) act in an emergency to protect someone's safety.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We gather your personally identifiable information to provide you with a customized
+    experience on Appspace Sites.
+  purposes:
+    services:
+    - to provide you with a customized experience on Appspace Sites
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As an extension of this commitment, this Privacy Policy (this "Privacy Policy")
+    is designed to assist you in understanding how we collect, use and safeguard the
+    personal information we collect and to assist you in making informed decisions
+    when visiting http://www.appspace.com and other related proprietary websites ("Appspace
+    Sites").
+  - In such situations, we may ask you to voluntarily provide personal information
+    - such as your name, contact details, or company name.
+  - We collect personal information from you when you register for an Appspace product
+    through one or more Appspace Sites and create an account.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - When we share demographic information with third parties, we will give them aggregate
+    information only.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - The third parties have access to your personally identifiable information only
+    for the purposes of performing such services on our behalf and are either bound
+    to comply with our Privacy Policy or have privacy policies that protect your information.
+  purposes:
+    services:
+    - only for the purposes of performing such services on our behalf
+- source: advertiser
+  target: information about visit to appspace sites
+  key: COLLECT
+  text:
+  - These companies may collect information about your visits to the Appspace Sites
+    and other websites and your interaction with our advertising and other communications.
+  - We may use third-party advertising companies that use tracking technologies to
+    serve our advertisements across the Internet.
+  purposes: {}
+- source: appspace
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Appspace is required to provide certain information to California consumers pursuant
+    to the California Consumer Privacy Act of 2018, which was later amended by the
+    California Privacy Rights Act of 2020 (the "CCPA").
+  purposes: {}
+- source: appspace
+  target: customer personal data
+  key: COLLECT
+  text:
+  - As defined in Section 2.2 of Appspace Data Processing Addendum, Appspace processes
+    Customer Personal Data as set forth in customer agreements and In accordance with
+    GDPR Art. 6, the lawful processing of information will be conducted to meet the
+    performance of the contract (EULA) further noted in the Data Processing Addendum.
+  purposes: {}
+- source: direct identify information
+  target: email address
+  key: SUBSUM
+  text:
+  - Data Subject - Direct identifying information (e.g., first name, last name, and
+    email address).
+- source: direct identify information
+  target: person name
+  key: SUBSUM
+  text:
+  - Data Subject - Direct identifying information (e.g., first name, last name, and
+    email address).
+- source: indirect identify information
+  target: job title
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Indirect identifying information (e.g., job title, telephone number)'
+- source: indirect identify information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Indirect identifying information (e.g., job title, telephone number)'
+- source: personal information
+  target: company name
+  key: SUBSUM
+  text:
+  - In such situations, we may ask you to voluntarily provide personal information
+    - such as your name, contact details, or company name.
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - In such situations, we may ask you to voluntarily provide personal information
+    - such as your name, contact details, or company name.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - In such situations, we may ask you to voluntarily provide personal information
+    - such as your name, contact details, or company name.
+- source: traffic datum
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Device identification and traffic data (e.g., Geolocation, IP addresses, cookies).'
+- source: traffic datum
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Device identification and traffic data (e.g., Geolocation, IP addresses, cookies).'
+- source: traffic datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Device identification and traffic data (e.g., Geolocation, IP addresses, cookies).'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: appspace
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: company name
+- type: DATA
+  id: contact information
+- type: DATA
+  id: content of email correspondence with you
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer personal data
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: direct identify information
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: indirect identify information
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about visit to appspace sites
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job title
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: traffic datum

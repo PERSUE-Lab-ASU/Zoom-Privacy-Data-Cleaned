@@ -1,0 +1,107 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For the purposes of the provisions of art. 10 of Law 34/2002, of July 11, on
+    Services of the Information Society and Electronic Commerce, we provide the following
+    information:'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website uses cookies to manage the sessions of registered users and analyze
+    the views and activity of users.
+  purposes:
+    analytics:
+    - to manage the sessions of registered users and analyze the views and activity
+      of users
+- source: we
+  target: information you need
+  key: COLLECT
+  text:
+  - If you are looking for information on the conditions of the service offered by
+    the Nubimed product for the comprehensive management of medical clinics, please
+    write to us through our contact form and we will provide you with all the information
+    you need.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: statistical information about audience
+  key: COLLECT
+  text:
+  - Specifically, the IP address itself, the browser used, the screen definition,
+    language, the operating system and the referring page (including any criteria
+    that have been entered in a search tool), which allow analyzing trends, managing
+    links and content on the site and collect statistical information about the audience.
+  purposes: {}
+- source: browser use
+  target: statistical information about audience
+  key: COLLECT
+  text:
+  - Specifically, the IP address itself, the browser used, the screen definition,
+    language, the operating system and the referring page (including any criteria
+    that have been entered in a search tool), which allow analyzing trends, managing
+    links and content on the site and collect statistical information about the audience.
+  purposes: {}
+- source: operate system
+  target: statistical information about audience
+  key: COLLECT
+  text:
+  - Specifically, the IP address itself, the browser used, the screen definition,
+    language, the operating system and the referring page (including any criteria
+    that have been entered in a search tool), which allow analyzing trends, managing
+    links and content on the site and collect statistical information about the audience.
+  purposes: {}
+- source: refer page
+  target: statistical information about audience
+  key: COLLECT
+  text:
+  - Specifically, the IP address itself, the browser used, the screen definition,
+    language, the operating system and the referring page (including any criteria
+    that have been entered in a search tool), which allow analyzing trends, managing
+    links and content on the site and collect statistical information about the audience.
+  purposes: {}
+- source: screen definition
+  target: statistical information about audience
+  key: COLLECT
+  text:
+  - Specifically, the IP address itself, the browser used, the screen definition,
+    language, the operating system and the referring page (including any criteria
+    that have been entered in a search tool), which allow analyzing trends, managing
+    links and content on the site and collect statistical information about the audience.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: browser use
+- type: ACTOR
+  id: operate system
+- type: ACTOR
+  id: refer page
+- type: ACTOR
+  id: screen definition
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information you need
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistical information about audience

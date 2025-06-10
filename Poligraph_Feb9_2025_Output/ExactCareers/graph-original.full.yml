@@ -1,0 +1,434 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Additionally, we will keep your data for the duration required to achieve the
+    original collection purpose and until the Customer's account is deleted in accordance
+    with our Customer Terms and Conditions.
+  - We retain data only for as long as necessary to perform the app's functions.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to enhance user experience and functionality within our app.
+  purposes:
+    services:
+    - to enhance user experience and functionality within our app
+- source: we
+  target: google user datum
+  key: COLLECT
+  text:
+  - Here we describe how our application accesses, uses, stores, and shares Google
+    user data when integrating Google Services, specifically Google Meet and Google
+    Calendar, for scheduling and conducting interviews.
+  purposes: {}
+- source: we
+  target: id
+  key: COLLECT
+  text:
+  - We only store Google Meet meeting's ID to make a meeting accessible once you want
+    to join it.
+  purposes:
+    services:
+    - to make a meeting accessible once you want to join it
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Our subsidiaries and affiliates (collectively, "Affiliates") may share Personal
+    Data about you with us.
+  - 'Third-Party Sources:
+
+
+    We receive Personal Data about you from third parties ("Third Parties"), including:'
+  - 'We gather Personal Data about you through the following channels:'
+  purposes: {}
+- source: we
+  target: personal information gather from website
+  key: COLLECT
+  text:
+  - We utilize the personal information gathered from our websites and through the
+    use of our services to offer a comprehensive range of benefits.
+  purposes:
+    services:
+    - to offer a comprehensive range of benefits
+- source: we
+  target: response we receive from google
+  key: COLLECT
+  text:
+  - We only use the response we receive from Google once you authenticate yourself
+    as a valid Google user.
+  purposes: {}
+- source: we
+  target: unique need of business
+  key: COLLECT
+  text:
+  - Additionally, we use this information to fulfill specific requests, respond promptly
+    to customer service inquiries, administer your account, and facilitate seamless
+    transactions with other users when utilizing our services.
+  - Understanding the unique needs of your business is a priority for us, allowing
+    us to recommend or determine suitable products tailored to your requirements.
+  purposes:
+    services:
+    - to fulfill specific requests, respond promptly to customer service inquiries,
+      administer your account, and facilitate seamless transactions with other users
+      when utilizing our services
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Once you click on these links, you will exit our website, and another entity may
+    collect your Personal Information or anonymized data.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Once you click on these links, you will exit our website, and another entity may
+    collect your Personal Information or anonymized data.
+  purposes: {}
+- source: acquirer
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Furthermore, should there be any significant changes in our business structure,
+    such as a merger, acquisition, or similar transaction, your information may be
+    transferred to an acquirer, successor, or assignee.
+  purposes: {}
+- source: affiliates
+  target: personal information
+  key: COLLECT
+  text:
+  - Our subsidiaries and affiliates (collectively, "Affiliates") may share Personal
+    Data about you with us.
+  purposes: {}
+- source: assignee
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Furthermore, should there be any significant changes in our business structure,
+    such as a merger, acquisition, or similar transaction, your information may be
+    transferred to an acquirer, successor, or assignee.
+  purposes: {}
+- source: collaborator
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These collaborators are authorized to use or disclose your information solely
+    for the purpose of delivering essential services on behalf of ExactCareers.
+  purposes:
+    services:
+    - solely for the purpose of delivering essential services on behalf of ExactCareers
+- source: exactcareers
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy outlines how ExactCareers gathers, utilizes, shares, and secures
+    the personal information you provide.
+  purposes: {}
+- source: provider of business contact information
+  target: publicly available detail about you
+  key: COLLECT
+  text:
+  - Providers of business contact information may supply publicly available details
+    about you, such as mailing addresses, job titles, email addresses, phone numbers,
+    social media profiles, social media URLs, and custom profiles.
+  purposes: {}
+- source: team
+  target: information regard inquiry
+  key: COLLECT
+  text:
+  - Please provide detailed information regarding your inquiry or concern, and our
+    team will strive to respond in a timely manner.
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'This may include details such as: Contact data: including your telephone number,
+    address, and email.'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'This may include details such as: Contact data: including your telephone number,
+    address, and email.'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'This may include details such as: Contact data: including your telephone number,
+    address, and email.'
+- source: detail as
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'This may include details such as: Contact data: including your telephone number,
+    address, and email.'
+- source: detail as
+  target: identity datum
+  key: SUBSUM
+  text:
+  - 'This may include details such as: Identity data: encompassing your name, age,
+    and profession.'
+- source: detail as
+  target: identity documentation
+  key: SUBSUM
+  text:
+  - 'This may include details such as: Identity and compliance documentation: provided
+    during a recruitment process, such as driver''s licenses, criminal checks, vaccination
+    status, and CVs.'
+- source: detail as
+  target: professional datum
+  key: SUBSUM
+  text:
+  - 'This may include details such as: Professional data: covering your professional
+    history, including previous positions and experiences.'
+- source: identity documentation
+  target: cv
+  key: SUBSUM
+  text:
+  - 'This may include details such as: Identity and compliance documentation: provided
+    during a recruitment process, such as driver''s licenses, criminal checks, vaccination
+    status, and CVs.'
+- source: identity documentation
+  target: license
+  key: SUBSUM
+  text:
+  - 'This may include details such as: Identity and compliance documentation: provided
+    during a recruitment process, such as driver''s licenses, criminal checks, vaccination
+    status, and CVs.'
+- source: identity documentation
+  target: vaccination status
+  key: SUBSUM
+  text:
+  - 'This may include details such as: Identity and compliance documentation: provided
+    during a recruitment process, such as driver''s licenses, criminal checks, vaccination
+    status, and CVs.'
+- source: outside app
+  target: cloud storage provider
+  key: SUBSUM
+  text:
+  - When we integrate with outside apps like Zoom and our cloud storage providers,
+    we minimize the data we request while still ensuring a quality service.
+- source: outside app
+  target: zoom
+  key: SUBSUM
+  text:
+  - When we integrate with outside apps like Zoom and our cloud storage providers,
+    we minimize the data we request while still ensuring a quality service.
+- source: professional history
+  target: previous position
+  key: SUBSUM
+  text:
+  - 'This may include details such as: Professional data: covering your professional
+    history, including previous positions and experiences.'
+- source: publicly available detail about you
+  target: custom profile
+  key: SUBSUM
+  text:
+  - Providers of business contact information may supply publicly available details
+    about you, such as mailing addresses, job titles, email addresses, phone numbers,
+    social media profiles, social media URLs, and custom profiles.
+- source: publicly available detail about you
+  target: email address
+  key: SUBSUM
+  text:
+  - Providers of business contact information may supply publicly available details
+    about you, such as mailing addresses, job titles, email addresses, phone numbers,
+    social media profiles, social media URLs, and custom profiles.
+- source: publicly available detail about you
+  target: job title
+  key: SUBSUM
+  text:
+  - Providers of business contact information may supply publicly available details
+    about you, such as mailing addresses, job titles, email addresses, phone numbers,
+    social media profiles, social media URLs, and custom profiles.
+- source: publicly available detail about you
+  target: phone number
+  key: SUBSUM
+  text:
+  - Providers of business contact information may supply publicly available details
+    about you, such as mailing addresses, job titles, email addresses, phone numbers,
+    social media profiles, social media URLs, and custom profiles.
+- source: publicly available detail about you
+  target: postal address
+  key: SUBSUM
+  text:
+  - Providers of business contact information may supply publicly available details
+    about you, such as mailing addresses, job titles, email addresses, phone numbers,
+    social media profiles, social media URLs, and custom profiles.
+- source: publicly available detail about you
+  target: social medium profile
+  key: SUBSUM
+  text:
+  - Providers of business contact information may supply publicly available details
+    about you, such as mailing addresses, job titles, email addresses, phone numbers,
+    social media profiles, social media URLs, and custom profiles.
+- source: publicly available detail about you
+  target: social medium url
+  key: SUBSUM
+  text:
+  - Providers of business contact information may supply publicly available details
+    about you, such as mailing addresses, job titles, email addresses, phone numbers,
+    social media profiles, social media URLs, and custom profiles.
+- source: sensitive personal information
+  target: belief
+  key: SUBSUM
+  text:
+  - 'We do not collect, save, or ask for the following types of sensitive personal
+    information: Political, religious, or philosophical opinions or beliefs'
+- source: sensitive personal information
+  target: biometric information
+  key: SUBSUM
+  text:
+  - 'We do not collect, save, or ask for the following types of sensitive personal
+    information: Biometric or genetic information'
+- source: sensitive personal information
+  target: criminal history
+  key: SUBSUM
+  text:
+  - 'We do not collect, save, or ask for the following types of sensitive personal
+    information: Criminal history'
+- source: sensitive personal information
+  target: ethnic origin
+  key: SUBSUM
+  text:
+  - 'We do not collect, save, or ask for the following types of sensitive personal
+    information: Race or ethnic origin'
+- source: sensitive personal information
+  target: personal health
+  key: SUBSUM
+  text:
+  - 'We do not collect, save, or ask for the following types of sensitive personal
+    information: Information about personal health, sexual activity, or sexual orientation'
+- source: sensitive personal information
+  target: race / ethnicity
+  key: SUBSUM
+  text:
+  - 'We do not collect, save, or ask for the following types of sensitive personal
+    information: Race or ethnic origin'
+- source: sensitive personal information
+  target: sexual activity
+  key: SUBSUM
+  text:
+  - 'We do not collect, save, or ask for the following types of sensitive personal
+    information: Information about personal health, sexual activity, or sexual orientation'
+- source: sensitive personal information
+  target: sexual orientation
+  key: SUBSUM
+  text:
+  - 'We do not collect, save, or ask for the following types of sensitive personal
+    information: Information about personal health, sexual activity, or sexual orientation'
+- source: sensitive personal information
+  target: trade union membership
+  key: SUBSUM
+  text:
+  - 'We do not collect, save, or ask for the following types of sensitive personal
+    information: Trade union membership'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: acquirer
+- type: ACTOR
+  id: affiliates
+- type: ACTOR
+  id: assignee
+- type: ACTOR
+  id: cloud storage provider
+- type: ACTOR
+  id: collaborator
+- type: ACTOR
+  id: exactcareers
+- type: ACTOR
+  id: outside app
+- type: ACTOR
+  id: provider of business contact information
+- type: ACTOR
+  id: team
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: belief
+- type: DATA
+  id: biometric information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: criminal history
+- type: DATA
+  id: custom profile
+- type: DATA
+  id: cv
+- type: DATA
+  id: detail as
+- type: DATA
+  id: email address
+- type: DATA
+  id: ethnic origin
+- type: DATA
+  id: google user datum
+- type: DATA
+  id: id
+- type: DATA
+  id: identity datum
+- type: DATA
+  id: identity documentation
+- type: DATA
+  id: information regard inquiry
+- type: DATA
+  id: job title
+- type: DATA
+  id: license
+- type: DATA
+  id: personal health
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information gather from website
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: previous position
+- type: DATA
+  id: professional datum
+- type: DATA
+  id: professional history
+- type: DATA
+  id: publicly available detail about you
+- type: DATA
+  id: race / ethnicity
+- type: DATA
+  id: response we receive from google
+- type: DATA
+  id: sensitive personal information
+- type: DATA
+  id: sexual activity
+- type: DATA
+  id: sexual orientation
+- type: DATA
+  id: social medium profile
+- type: DATA
+  id: social medium url
+- type: DATA
+  id: trade union membership
+- type: DATA
+  id: unique need of business
+- type: DATA
+  id: vaccination status

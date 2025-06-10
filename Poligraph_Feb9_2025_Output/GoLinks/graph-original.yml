@@ -1,0 +1,489 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect the following types of information from our users.
+  - We may also collect information about how you are using the Services to interact
+    with those connected Third Party Services.
+  - We will collect information about your general location (such as your city and
+    state) when you visit the Site (which is derived from your IP address) and we
+    may use various technologies to determine your location (if you enable this feature),
+    when you access and use the Services through a mobile device.
+  purposes: {}
+- source: we
+  target: authentication token
+  key: COLLECT
+  text:
+  - If you choose to connect GoLinks to such Third Party Services, we may collect
+    information related to your use of those Third Party Services, such as authentication
+    tokens that allow us to connect to your Third Party Service accounts or the contact
+    information of your friends (if you choose to connect your friends, followers,
+    or contacts from your account) so that you can contact these people when you use
+    the Services.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - If you choose to connect GoLinks to such Third Party Services, we may collect
+    information related to your use of those Third Party Services, such as authentication
+    tokens that allow us to connect to your Third Party Service accounts or the contact
+    information of your friends (if you choose to connect your friends, followers,
+    or contacts from your account) so that you can contact these people when you use
+    the Services.
+  - We use your contact information to send you login information and other information
+    about our Services.
+  purposes:
+    services:
+    - to send you login information and other information about our Services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We do, however, use cookies to identify that your web browser has accessed a GoLinks
+    Link and may associate that information with your Account if you have one.
+  - We use cookies to enable our servers to recognize your web browser and tell us
+    how and when you visit our Site and use the Services through the web.
+  - We use cookies to offer you a better experience.
+  purposes:
+    analytics:
+    - to enable our servers to recognize your web browser and tell us how and when
+      you visit our Site and use the Services through the web
+    - to identify that your web browser has accessed a GoLinks Link
+    services:
+    - to enable our servers to recognize your web browser and tell us how and when
+      you visit our Site and use the Services through the web
+    - to identify that your web browser has accessed a GoLinks Link
+    - to offer you a better experience
+- source: we
+  target: information about user
+  key: COLLECT
+  text:
+  - We may transfer and/or provide information about our users in connection with
+    an acquisition, sale of company assets, or other situation where user information
+    would be transferred as one of our business assets.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - In connection with certain aspects of the Services, we may request, collect and/or
+    display some information about you.
+  - We will share information about you when you instruct us to do so, such as when
+    you share GoLinks Links or content with others through the Services or if we notify
+    you that the information you provide will be shared in a particular manner and
+    you provide such information (like sharing/posting it with a Third Party Service).
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We do at times, however, share IP address information with Google Analytics and
+    Inspectlet for tracking purposes.
+  purposes:
+    analytics:
+    - for tracking purposes
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If you create an Account using your login from another account, such as Okta or
+    another single sign-on service, we will access and collect the personal information
+    about you that the account provides (which is based on your privacy settings),
+    so that you can create your Account with us.
+  - When you create an Account, we will collect personal information from you, such
+    as your name and email address.
+  purposes: {}
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - Generally, the Services automatically collect usage information, such as the number
+    and frequency of visitors to the Site.
+  purposes: {}
+- source: we
+  target: write description of url
+  key: COLLECT
+  text:
+  - Some features of the Services allow you to provide content to the Services, such
+    as written descriptions of URLs, comments, and images.
+  purposes: {}
+- source: Facebook
+  target: content
+  key: COLLECT
+  text:
+  - Some features of the Services allow you to share your content and GoLinks Links
+    through your accounts with other companies such as Facebook and Twitter.
+  purposes: {}
+- source: Google
+  target: ip address
+  key: COLLECT
+  text:
+  - We do at times, however, share IP address information with Google Analytics and
+    Inspectlet for tracking purposes.
+  purposes:
+    analytics:
+    - for tracking purposes
+- source: Inspectlet
+  target: ip address
+  key: COLLECT
+  text:
+  - We do at times, however, share IP address information with Google Analytics and
+    Inspectlet for tracking purposes.
+  purposes:
+    analytics:
+    - for tracking purposes
+- source: Twitter
+  target: content
+  key: COLLECT
+  text:
+  - Some features of the Services allow you to share your content and GoLinks Links
+    through your accounts with other companies such as Facebook and Twitter.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Any information that you elect to distribute through Third Party Services is provided
+    to them and may then become accessible to users of those services.
+  purposes: {}
+- source: acquirer of golinks
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In such a case, the acquirer of GoLinks may continue to use your information as
+    set forth in this policy.
+  purposes: {}
+- source: browser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Your browser stores cookies in a manner associated with each website you visit.
+  purposes: {}
+- source: golinks
+  target: browser type
+  key: COLLECT
+  text:
+  - GoLinks automatically receives and records information from your web browser when
+    you interact with the Services, such as your IP address, browser type, your general
+    location and cookie information.
+  purposes: {}
+- source: golinks
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - GoLinks automatically receives and records information from your web browser when
+    you interact with the Services, such as your IP address, browser type, your general
+    location and cookie information.
+  purposes: {}
+- source: golinks
+  target: date
+  key: COLLECT
+  text:
+  - GoLinks also collects and stores the time and date on which you shortened the
+    original URL and when you share the GoLinks Link, information on the channels
+    through which the GoLinks Link was shared.
+  purposes: {}
+- source: golinks
+  target: geolocation
+  key: COLLECT
+  text:
+  - GoLinks automatically receives and records information from your web browser when
+    you interact with the Services, such as your IP address, browser type, your general
+    location and cookie information.
+  purposes: {}
+- source: golinks
+  target: information about you
+  key: COLLECT
+  text:
+  - GoLinks receives information about you when you register for our Site and the
+    Services, through your user account with GoLinks(r) (your "Account").
+  purposes: {}
+- source: golinks
+  target: information mobile device transmit
+  key: COLLECT
+  text:
+  - GoLinks also automatically receives and records information that your mobile device
+    transmits when you access the Services, like a device identifier, device settings,
+    and operating system.
+  purposes: {}
+- source: golinks
+  target: information on channel through share
+  key: COLLECT
+  text:
+  - GoLinks also collects and stores the time and date on which you shortened the
+    original URL and when you share the GoLinks Link, information on the channels
+    through which the GoLinks Link was shared.
+  purposes: {}
+- source: golinks
+  target: internet activity
+  key: COLLECT
+  text:
+  - GoLinks collects information about accesses (such as clicks) of every GoLinks
+    Link created through the Services.
+  purposes: {}
+- source: golinks
+  target: ip address
+  key: COLLECT
+  text:
+  - GoLinks automatically receives and records information from your web browser when
+    you interact with the Services, such as your IP address, browser type, your general
+    location and cookie information.
+  purposes: {}
+- source: golinks
+  target: original url
+  key: COLLECT
+  text:
+  - GoLinks collects and stores both the original URL and the shortened URL and we
+    will associate that information with your Account.
+  purposes: {}
+- source: golinks
+  target: personal information
+  key: COLLECT
+  text:
+  - GoLinks will only retain your personal data for as long as necessary to fulfill
+    the purposes we collected it for, including to satisfy any legal, accounting,
+    or reporting requirements.
+  purposes:
+    legal:
+    - to fulfill the purposes we collected it for, including to satisfy any legal,
+      accounting, or reporting requirements
+- source: golinks
+  target: shorten url
+  key: COLLECT
+  text:
+  - GoLinks collects and stores both the original URL and the shortened URL and we
+    will associate that information with your Account.
+  purposes: {}
+- source: golinks
+  target: time
+  key: COLLECT
+  text:
+  - GoLinks also collects and stores the time and date on which you shortened the
+    original URL and when you share the GoLinks Link, information on the channels
+    through which the GoLinks Link was shared.
+  purposes: {}
+- source: golinks
+  target: usage information
+  key: COLLECT
+  text:
+  - Generally, the Services automatically collect usage information, such as the number
+    and frequency of visitors to the Site.
+  - GoLinks may use this data in aggregate form, that is, as a statistical measure,
+    or in individual form but not in a manner that would identify you personally.
+  purposes: {}
+- source: service providers
+  target: information about you
+  key: COLLECT
+  text:
+  - We may need to share information about you with our Service Providers in order
+    to provide products or services to you.
+  purposes:
+    services:
+    - in order to provide products or services to you
+- source: we in united states
+  target: information you provide
+  key: COLLECT
+  text:
+  - The information you provide may be transferred, processed and/or accessed only
+    by us in the United States or another country where we (or our service providers)
+    operate.
+  purposes: {}
+- source: we
+  target: Facebook
+  key: SUBSUM
+  text:
+  - This Privacy Policy does not apply to the practices of other businesses that GoLinks
+    does not own or control, including other companies" websites, services and applications
+    ("Third Party Services") that you can access through the Services, such as Facebook
+    or Twitter, or to individuals that GoLinks does not manage or employ.
+- source: we
+  target: Twitter
+  key: SUBSUM
+  text:
+  - This Privacy Policy does not apply to the practices of other businesses that GoLinks
+    does not own or control, including other companies" websites, services and applications
+    ("Third Party Services") that you can access through the Services, such as Facebook
+    or Twitter, or to individuals that GoLinks does not manage or employ.
+- source: we
+  target: golinks
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes the policies and procedures of GoLinks(r) Enterprises,
+    Inc. ("GoLinks", "we" or "us") on the collection, use and disclosure of information
+    about you on https://golinks.io (the "Site") and the services, features, content
+    or applications offered by GoLinks (collectively with the Site, the "Services").
+- source: geolocation
+  target: city
+  key: SUBSUM
+  text:
+  - We will collect information about your general location (such as your city and
+    state) when you visit the Site (which is derived from your IP address) and we
+    may use various technologies to determine your location (if you enable this feature),
+    when you access and use the Services through a mobile device.
+- source: information mobile device transmit
+  target: device identifier
+  key: SUBSUM
+  text:
+  - GoLinks also automatically receives and records information that your mobile device
+    transmits when you access the Services, like a device identifier, device settings,
+    and operating system.
+- source: information mobile device transmit
+  target: device setting
+  key: SUBSUM
+  text:
+  - GoLinks also automatically receives and records information that your mobile device
+    transmits when you access the Services, like a device identifier, device settings,
+    and operating system.
+- source: information mobile device transmit
+  target: operating system
+  key: SUBSUM
+  text:
+  - GoLinks also automatically receives and records information that your mobile device
+    transmits when you access the Services, like a device identifier, device settings,
+    and operating system.
+- source: internet activity
+  target: date
+  key: SUBSUM
+  text:
+  - GoLinks collects information about accesses (such as clicks) of every GoLinks
+    Link created through the Services.
+  - 'This information includes, but is not limited to: (i) the IP address and physical
+    location of the devices accessing the GoLinks Link; (ii) the referring websites
+    or services; and (iii) the time and date of each access;'
+- source: internet activity
+  target: geolocation
+  key: SUBSUM
+  text:
+  - GoLinks collects information about accesses (such as clicks) of every GoLinks
+    Link created through the Services.
+  - 'This information includes, but is not limited to: (i) the IP address and physical
+    location of the devices accessing the GoLinks Link; (ii) the referring websites
+    or services; and (iii) the time and date of each access;'
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - GoLinks collects information about accesses (such as clicks) of every GoLinks
+    Link created through the Services.
+  - 'This information includes, but is not limited to: (i) the IP address and physical
+    location of the devices accessing the GoLinks Link; (ii) the referring websites
+    or services; and (iii) the time and date of each access;'
+- source: internet activity
+  target: time
+  key: SUBSUM
+  text:
+  - GoLinks collects information about accesses (such as clicks) of every GoLinks
+    Link created through the Services.
+  - 'This information includes, but is not limited to: (i) the IP address and physical
+    location of the devices accessing the GoLinks Link; (ii) the referring websites
+    or services; and (iii) the time and date of each access;'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you create an Account, we will collect personal information from you, such
+    as your name and email address.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you create an Account, we will collect personal information from you, such
+    as your name and email address.
+- source: usage information
+  target: frequency
+  key: SUBSUM
+  text:
+  - Generally, the Services automatically collect usage information, such as the number
+    and frequency of visitors to the Site.
+- source: usage information
+  target: number
+  key: SUBSUM
+  text:
+  - Generally, the Services automatically collect usage information, such as the number
+    and frequency of visitors to the Site.
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Inspectlet
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: acquirer of golinks
+- type: ACTOR
+  id: browser
+- type: ACTOR
+  id: golinks
+- type: ACTOR
+  id: service providers
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: we in united states
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: authentication token
+- type: DATA
+  id: browser type
+- type: DATA
+  id: city
+- type: DATA
+  id: contact information
+- type: DATA
+  id: content
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device setting
+- type: DATA
+  id: email address
+- type: DATA
+  id: frequency
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about user
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information mobile device transmit
+- type: DATA
+  id: information on channel through share
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: number
+- type: DATA
+  id: operating system
+- type: DATA
+  id: original url
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: shorten url
+- type: DATA
+  id: time
+- type: DATA
+  id: usage information
+- type: DATA
+  id: write description of url

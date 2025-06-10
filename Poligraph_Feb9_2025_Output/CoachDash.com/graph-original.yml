@@ -1,0 +1,464 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This policy describes what information we collect when you use CoachDash's site,
+    services, products, and content ("Services").
+  - We receive information from you and other third-parties that helps us approximate
+    your location.
+  purposes: {}
+- source: we
+  target: account information
+  key: COLLECT
+  text:
+  - If you contact us, we may use your Account, Transaction or Usage Information to
+    respond.
+  purposes: {}
+- source: we
+  target: address of web page visit within service
+  key: COLLECT
+  text:
+  - Like most digital services, our servers automatically collect information when
+    Websites or Services are accessed or used and record it in log files.
+  - 'This log data may include: Address of web pages visited within the Services'
+  purposes: {}
+- source: we
+  target: browser configuration
+  key: COLLECT
+  text:
+  - Like most digital services, our servers automatically collect information when
+    Websites or Services are accessed or used and record it in log files.
+  - 'This log data may include: Information about browser configuration and plugins'
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - Like most digital services, our servers automatically collect information when
+    Websites or Services are accessed or used and record it in log files.
+  - 'This log data may include: Browser type and settings'
+  purposes: {}
+- source: we
+  target: business address submit
+  key: COLLECT
+  text:
+  - We may, for example, use a business address submitted by your employer, or an
+    IP address received from your browser or device to determine approximate location.
+  purposes:
+    analytics:
+    - to determine approximate location
+    services:
+    - to determine approximate location
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like most digital services, our servers automatically collect information when
+    Websites or Services are accessed or used and record it in log files.
+  - 'This log data may include: Cookie data'
+  purposes: {}
+- source: we
+  target: date
+  key: COLLECT
+  text:
+  - Like most digital services, our servers automatically collect information when
+    Websites or Services are accessed or used and record it in log files.
+  - 'This log data may include: Date and time of Services use'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We will fetch and store email address, name and profile image URL from this service.
+  purposes: {}
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - 'We may share information about with third parties in some circumstances, including:'
+  purposes:
+    services:
+    - to fulfill our service agreement with you
+- source: we
+  target: information we need
+  key: COLLECT
+  text:
+  - We will only collect and process information that we need to deliver the service
+    to you, and to continue to maintain and develop the service.
+  purposes: {}
+- source: we
+  target: information you choose
+  key: COLLECT
+  text:
+  - We may process information that you choose to share with us if you participate
+    in a focus group, research interview, contest, activity or event, apply for a
+    job, interact with our social media accounts or otherwise communicate with CoachDash.
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - We may process information that you provide to us for the purpose of subscribing
+    to our email newsletters.
+  purposes:
+    advertising:
+    - for the purpose of subscribing to our email newsletters
+    services:
+    - for the purpose of subscribing to our email newsletters
+- source: we
+  target: information you send to we
+  key: COLLECT
+  text:
+  - We may process information that you send to us, should you choose to submit a
+    ticket to our customer support.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - Like most digital services, our servers automatically collect information when
+    Websites or Services are accessed or used and record it in log files.
+  - 'This log data may include: Internet Protocol (IP) address'
+  - We may, for example, use a business address submitted by your employer, or an
+    IP address received from your browser or device to determine approximate location.
+  purposes:
+    analytics:
+    - to determine approximate location
+    services:
+    - to determine approximate location
+- source: we
+  target: language preference
+  key: COLLECT
+  text:
+  - Like most digital services, our servers automatically collect information when
+    Websites or Services are accessed or used and record it in log files.
+  - 'This log data may include: Language preferences'
+  purposes: {}
+- source: we
+  target: metadata
+  key: COLLECT
+  text:
+  - When you as a user interact with the Services, we collect and process metadata
+    to provide additional context about the way the Service is being used.
+  purposes:
+    analytics:
+    - to provide additional context about the way the Service is being used
+- source: we
+  target: option delete datum before transfer
+  key: COLLECT
+  text:
+  - In the case where we are involved in a merger, acquisition, bankruptcy, reorganization
+    or sale of assets such that your information would be transferred or become subject
+    to a different privacy policy, we will notify you in advance and give you the
+    option to delete your data before the transfer.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We will fetch and store email address, name and profile image URL from this service.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Regardless of the provisions above, we may retain your personal data where such
+    retention is necessary for compliance with a legal obligation to which we are
+    subject, or in order to protect your vital interests or the vital interests of
+    another natural person.
+  purposes: {}
+- source: we
+  target: profile image url
+  key: COLLECT
+  text:
+  - We will fetch and store email address, name and profile image URL from this service.
+  purposes: {}
+- source: we
+  target: setting
+  key: COLLECT
+  text:
+  - Like most digital services, our servers automatically collect information when
+    Websites or Services are accessed or used and record it in log files.
+  - 'This log data may include: Browser type and settings'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about
+  key: COLLECT
+  text:
+  - 'We may share information about with third parties in some circumstances, including:'
+  purposes:
+    services:
+    - to fulfill our service agreement with you
+- source: coachdash
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - CoachDash may collect, store and process various kinds of data, with different
+    legal grounds, as listed below.
+  purposes: {}
+- source: coachdash
+  target: application id
+  key: COLLECT
+  text:
+  - 'CoachDash may collect and process information about devices used to access the
+    Services, including: Application IDs'
+  purposes: {}
+- source: coachdash
+  target: billing detail as
+  key: COLLECT
+  text:
+  - 'Customers that choose to purchase a paid version of the Services provide CoachDash
+    (and our payment processors) with billing details such as:'
+  purposes: {}
+- source: coachdash
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'CoachDash uses the collected data for various purposes:'
+  purposes:
+    advertising:
+    - To provide you with news, special offers and general information about other
+      goods, services and events which we offer that are similar to those that you
+      have already purchased or enquired about unless you have opted not to receive
+      such information
+    analytics:
+    - To gather analysis or valuable information so that we can improve our Service
+    - To monitor the usage of our Service
+    legal:
+    - To carry out our obligations and enforce our rights arising from any contracts
+      entered into between you and us, including for billing and collection
+    security:
+    - To detect, prevent and address technical issues
+    services:
+    - To allow you to participate in interactive features of our Service when you
+      choose to do so
+    - To gather analysis or valuable information so that we can improve our Service
+    - To notify you about changes to our Service
+    - To provide and maintain our Service
+    - To provide customer support
+    - To provide you with news, special offers and general information about other
+      goods, services and events which we offer that are similar to those that you
+      have already purchased or enquired about unless you have opted not to receive
+      such information
+    - To provide you with notices about your account and/or subscription, including
+      expiration and renewal notices, email-instructions, etc.
+- source: coachdash
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - CoachDash uses cookies on the CoachDash Site and other aspects of the CoachDash
+    Services.
+  purposes: {}
+- source: coachdash
+  target: crash datum
+  key: COLLECT
+  text:
+  - 'CoachDash may collect and process information about devices used to access the
+    Services, including: Crash data'
+  purposes: {}
+- source: coachdash
+  target: device identifier
+  key: COLLECT
+  text:
+  - 'CoachDash may collect and process information about devices used to access the
+    Services, including: Unique device identifiers'
+  purposes: {}
+- source: coachdash
+  target: device setting
+  key: COLLECT
+  text:
+  - 'CoachDash may collect and process information about devices used to access the
+    Services, including: Device settings'
+  purposes: {}
+- source: coachdash
+  target: geolocation
+  key: COLLECT
+  text:
+  - CoachDash may also collect location information from devices in accordance with
+    the consent process provided by your device.
+  purposes: {}
+- source: coachdash
+  target: operate system
+  key: COLLECT
+  text:
+  - 'CoachDash may collect and process information about devices used to access the
+    Services, including: Operating system'
+  purposes: {}
+- source: coachdash
+  target: type of device
+  key: COLLECT
+  text:
+  - 'CoachDash may collect and process information about devices used to access the
+    Services, including: Type of device'
+  purposes: {}
+- source: customer choose
+  target: billing detail as
+  key: COLLECT
+  text:
+  - 'Customers that choose to purchase a paid version of the Services provide CoachDash
+    (and our payment processors) with billing details such as:'
+  purposes: {}
+- source: employee
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition, we limit access to your personal data to those employees, agents,
+    contractors and other third parties who have a business need to know.
+  - They will only process your personal data on our instructions and they are subject
+    to a duty of confidentiality.
+  purposes: {}
+- source: payment processor
+  target: billing detail as
+  key: COLLECT
+  text:
+  - 'Customers that choose to purchase a paid version of the Services provide CoachDash
+    (and our payment processors) with billing details such as:'
+  purposes: {}
+- source: we
+  target: coachdash website
+  key: SUBSUM
+  text:
+  - This policy applies to CoachDash's online meeting recording & transcription tool,
+    including the website and web applications, and other CoachDash websites (collectively
+    "the Websites"), as well as other interaction (e.g. customer support conversations,
+    user surveys and interviews etc.) you may have with CoachDash.
+- source: billing detail as
+  target: banking information
+  key: SUBSUM
+  text:
+  - 'Customers that choose to purchase a paid version of the Services provide CoachDash
+    (and our payment processors) with billing details such as: Banking information'
+- source: billing detail as
+  target: billing email
+  key: SUBSUM
+  text:
+  - 'Customers that choose to purchase a paid version of the Services provide CoachDash
+    (and our payment processors) with billing details such as: Billing email'
+- source: billing detail as
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'Customers that choose to purchase a paid version of the Services provide CoachDash
+    (and our payment processors) with billing details such as: Credit card information'
+- source: billing detail as
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Customers that choose to purchase a paid version of the Services provide CoachDash
+    (and our payment processors) with billing details such as: Location at time of
+    transaction'
+- source: billing detail as
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Customers that choose to purchase a paid version of the Services provide CoachDash
+    (and our payment processors) with billing details such as: Billing address'
+- source: coachdash
+  target: company acquisition
+  key: SUBSUM
+  text:
+  - 'CoachDash
+
+
+    10. Company Acquisition'
+- source: cookie / pixel tag
+  target: local share object
+  key: SUBSUM
+  text:
+  - Cookies, including local shared objects, are small pieces of information that
+    are stored by your browser on your computer's hard drive which work by assigning
+    to your computer a unique number that has no meaning outside of the CoachDash
+    Services.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: coachdash
+- type: ACTOR
+  id: coachdash website
+- type: ACTOR
+  id: company acquisition
+- type: ACTOR
+  id: customer choose
+- type: ACTOR
+  id: employee
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information
+- type: DATA
+  id: address of web page visit within service
+- type: DATA
+  id: application id
+- type: DATA
+  id: banking information
+- type: DATA
+  id: billing detail as
+- type: DATA
+  id: billing email
+- type: DATA
+  id: browser configuration
+- type: DATA
+  id: browser type
+- type: DATA
+  id: business address submit
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: crash datum
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device setting
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about
+- type: DATA
+  id: information we need
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: information you send to we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: local share object
+- type: DATA
+  id: metadata
+- type: DATA
+  id: operate system
+- type: DATA
+  id: option delete datum before transfer
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: profile image url
+- type: DATA
+  id: setting
+- type: DATA
+  id: type of device

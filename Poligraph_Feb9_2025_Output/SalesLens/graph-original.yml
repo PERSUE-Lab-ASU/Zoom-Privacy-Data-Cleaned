@@ -1,0 +1,522 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use them in order to anonymously or pseudonymously analyse the use of the website,
+    and present relevant offers to you.
+  purposes:
+    advertising:
+    - in order to anonymously or pseudonymously analyse the use of the website, and
+      present relevant offers to you
+    analytics:
+    - in order to anonymously or pseudonymously analyse the use of the website, and
+      present relevant offers to you
+- source: we
+  target: detail of access
+  key: COLLECT
+  text:
+  - When you visit our website SalesLens.io, our server temporarily saves details
+    of your access in its logs.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'We use the information we collect for the following purposes:'
+  purposes:
+    services:
+    - To provide and improve our service, including to personalize your experience
+      and to troubleshoot technical issues
+- source: we
+  target: list of sub - processor
+  key: COLLECT
+  text:
+  - We maintain a list of sub-processors here for your review in our Privacy Policy
+    (28.2)
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with third parties in the following circumstances:'
+  purposes: {}
+- source: Amplitude
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Amplitude collects data to help us improve our website and understand user behavior.
+  purposes:
+    analytics:
+    - to help us improve our website and understand user behavior
+    services:
+    - to help us improve our website and understand user behavior
+- source: Amplitude
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Amplitude uses cookies and similar tracking technologies to analyze your use of
+    our website.
+  purposes:
+    analytics:
+    - to analyze your use of our website
+- source: Amplitude
+  target: information collect
+  key: COLLECT
+  text:
+  - Amplitude may also share this information with third parties as required by law
+    or as contracted by Amplitude.
+  - Amplitude may use this information to generate aggregated and anonymized reports
+    on website usage for us.
+  - The information collected by Amplitude is transmitted to its servers and stored
+    there.
+  purposes:
+    analytics:
+    - to generate aggregated and anonymized reports on website usage for us
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Information obtained via these cookies is transferred to Google servers and saved
+    there.
+  purposes: {}
+- source: Google
+  target: datum collect
+  key: COLLECT
+  text:
+  - Google may use the Data collected to contextualize and personalize the ads of
+    its own advertising network.
+  purposes:
+    advertising:
+    - to contextualize and personalize the ads of its own advertising network
+- source: Google
+  target: input
+  key: COLLECT
+  text:
+  - For this purpose your input will be communicated to and used by Google.
+  - On behalf of the operator of this website, Google will use this information to
+    evaluate your use of this service.
+  purposes:
+    analytics:
+    - to evaluate your use of this service
+- source: Google
+  target: report
+  key: COLLECT
+  text:
+  - Google may give this information to further parties where legally required to
+    do so, or these parties are contracted to by Google.
+  - The analyses of your actions on our website is transferred to us in the form of
+    reports.
+  purposes: {}
+- source: Intercom
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Intercom may collect and process data to facilitate communication and provide
+    customer support services.
+  - Intercom may use cookies and similar tracking technologies to collect data from
+    our website.
+  purposes:
+    services:
+    - to facilitate communication and provide customer support services
+- source: Intercom
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Intercom may use cookies and similar tracking technologies to collect data from
+    our website.
+  purposes: {}
+- source: Intercom
+  target: online identifier
+  key: COLLECT
+  text:
+  - Intercom may collect various types of data, including personal data such as name,
+    email address, and other contact information, as well as online identifiers such
+    as IP addresses, browser information, and usage data.
+  purposes: {}
+- source: Intercom
+  target: personal information
+  key: COLLECT
+  text:
+  - Intercom may collect various types of data, including personal data such as name,
+    email address, and other contact information, as well as online identifiers such
+    as IP addresses, browser information, and usage data.
+  purposes: {}
+- source: Segment.io
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Segment.io collects data to help us improve our website and personalize our advertising
+    efforts.
+  purposes:
+    advertising:
+    - to help us improve our website and personalize our advertising efforts
+- source: Segment.io
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Segment.io uses cookies and similar tracking technologies to analyze your use
+    of our website.
+  purposes:
+    analytics:
+    - to analyze your use of our website
+- source: Segment.io
+  target: information collect
+  key: COLLECT
+  text:
+  - Segment.io may share this information with third parties as required by law or
+    as contracted by Segment.io.
+  - The information collected by Segment.io is transmitted to its servers and stored
+    there.
+  purposes: {}
+- source: Stripe
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For those existing customers who are billed with Stripe, the following data is
+    sent, and stored by Stripe:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Platform.sh may also use third-party service providers to assist with website
+    hosting and management, and may share data with them as necessary for these purposes.
+  purposes:
+    services:
+    - to assist with website hosting and management
+- source: UNSPECIFIED_ACTOR
+  target: datum collect
+  key: COLLECT
+  text:
+  - The data collected by Intercom may be stored on its servers and shared with third-party
+    service providers as necessary to provide the Intercom services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information collect
+  key: COLLECT
+  text:
+  - Amplitude may also share this information with third parties as required by law
+    or as contracted by Amplitude.
+  - Segment.io may share this information with third parties as required by law or
+    as contracted by Segment.io.
+  - The information collected by Amplitude is transmitted to its servers and stored
+    there.
+  - The information collected by Segment.io is transmitted to its servers and stored
+    there.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with third parties in the following circumstances:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: report
+  key: COLLECT
+  text:
+  - Google may give this information to further parties where legally required to
+    do so, or these parties are contracted to by Google.
+  - The analyses of your actions on our website is transferred to us in the form of
+    reports.
+  purposes: {}
+- source: data subjects
+  target: truthful information
+  key: COLLECT
+  text:
+  - In making modifications to their personal data, Data Subjects must provide only
+    truthful, complete, and accurate information.
+  purposes: {}
+- source: email service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with third parties in the following circumstances:
+    With service providers and vendors who assist us in providing our service, including
+    hosting providers, payment processors, and email service providers.'
+  purposes: {}
+- source: funnel.io
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Funnel.io processes data to help us improve our website and personalize our advertising
+    efforts.
+  purposes:
+    advertising:
+    - to help us improve our website and personalize our advertising efforts
+- source: hosting provider
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with third parties in the following circumstances:
+    With service providers and vendors who assist us in providing our service, including
+    hosting providers, payment processors, and email service providers.'
+  purposes: {}
+- source: hubsport
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Hubsport collects data to help us improve our customer support and onboarding
+    process.
+  purposes:
+    services:
+    - to help us improve our customer support and onboarding process
+- source: payment processor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with third parties in the following circumstances:
+    With service providers and vendors who assist us in providing our service, including
+    hosting providers, payment processors, and email service providers.'
+  purposes: {}
+- source: platform.sh
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Platform.sh may also use third-party service providers to assist with website
+    hosting and management, and may share data with them as necessary for these purposes.
+  - Platform.sh may collect and process data to ensure the proper functioning of our
+    website and to improve its performance.
+  purposes:
+    services:
+    - to assist with website hosting and management
+    - to ensure the proper functioning of our website and to improve its performance
+- source: platform.sh
+  target: online identifier
+  key: COLLECT
+  text:
+  - Platform.sh may collect various types of data, including online identifiers such
+    as IP addresses, browser information, and usage data, through cookies and similar
+    tracking technologies.
+  purposes: {}
+- source: saleslens
+  target: datum process via analysis conduct
+  key: COLLECT
+  text:
+  - All Data processed via the analysis conducted by SalesLens are used by SalesLens
+    only for the purpose of providing the service to the Users.
+  purposes:
+    services:
+    - only for the purpose of providing the service to the Users
+- source: saleslens
+  target: personal information
+  key: COLLECT
+  text:
+  - SalesLens only keeps and processes personal data for so long as it is necessary.
+  - SalesLens will only process personal data on instructions from the controller,
+    and inform the controller if it believes said instruction infringes on the GDPR
+    (28.3)
+  purposes: {}
+- source: server
+  target: information collect
+  key: COLLECT
+  text:
+  - The information collected by Amplitude is transmitted to its servers and stored
+    there.
+  - The information collected by Segment.io is transmitted to its servers and stored
+    there.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with third parties in the following circumstances:
+    With service providers and vendors who assist us in providing our service, including
+    hosting providers, payment processors, and email service providers.'
+  purposes: {}
+- source: we
+  target: for infrastructure service provider
+  key: SUBSUM
+  text:
+  - When we use third parties to provide the services, for example infrastructure
+    service providers, these third parties are only engaged after a comprehensive
+    review.
+- source: datum collect
+  target: online identifier
+  key: SUBSUM
+  text:
+  - The data collected may include online identifiers such as cookie identifiers,
+    internet protocol (IP) addresses, and device identifiers.
+- source: online identifier
+  target: browser information
+  key: SUBSUM
+  text:
+  - Intercom may collect various types of data, including personal data such as name,
+    email address, and other contact information, as well as online identifiers such
+    as IP addresses, browser information, and usage data.
+  - Platform.sh may collect various types of data, including online identifiers such
+    as IP addresses, browser information, and usage data, through cookies and similar
+    tracking technologies.
+- source: online identifier
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - The analysis of your use of our website is made possible through the use of cookies,
+    online identifiers, including cookie identifiers, internet protocol addresses
+    and device identifiers; client identifiers.
+  - The data collected may include online identifiers such as cookie identifiers,
+    internet protocol (IP) addresses, and device identifiers.
+  - The data processes may include online identifiers such as cookie identifiers,
+    internet protocol (IP) addresses, and device identifiers.
+  - This plugin query includes the sending of the IP address and possibly other data
+    required by Google for the Google reCAPTCHA service, for example answers to questions;
+    clicks; keypress events; motion sensor events; mouse movements; scroll position;
+    touch events; cookies, online identifiers, including cookie identifiers, internet
+    protocol addresses and device identifiers.
+- source: online identifier
+  target: device identifier
+  key: SUBSUM
+  text:
+  - The analysis of your use of our website is made possible through the use of cookies,
+    online identifiers, including cookie identifiers, internet protocol addresses
+    and device identifiers; client identifiers.
+  - The data collected may include online identifiers such as cookie identifiers,
+    internet protocol (IP) addresses, and device identifiers.
+  - The data processes may include online identifiers such as cookie identifiers,
+    internet protocol (IP) addresses, and device identifiers.
+  - This plugin query includes the sending of the IP address and possibly other data
+    required by Google for the Google reCAPTCHA service, for example answers to questions;
+    clicks; keypress events; motion sensor events; mouse movements; scroll position;
+    touch events; cookies, online identifiers, including cookie identifiers, internet
+    protocol addresses and device identifiers.
+- source: online identifier
+  target: internet activity
+  key: SUBSUM
+  text:
+  - Intercom may collect various types of data, including personal data such as name,
+    email address, and other contact information, as well as online identifiers such
+    as IP addresses, browser information, and usage data.
+  - Platform.sh may collect various types of data, including online identifiers such
+    as IP addresses, browser information, and usage data, through cookies and similar
+    tracking technologies.
+- source: online identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - Intercom may collect various types of data, including personal data such as name,
+    email address, and other contact information, as well as online identifiers such
+    as IP addresses, browser information, and usage data.
+  - Platform.sh may collect various types of data, including online identifiers such
+    as IP addresses, browser information, and usage data, through cookies and similar
+    tracking technologies.
+  - The analysis of your use of our website is made possible through the use of cookies,
+    online identifiers, including cookie identifiers, internet protocol addresses
+    and device identifiers; client identifiers.
+  - The data collected may include online identifiers such as cookie identifiers,
+    internet protocol (IP) addresses, and device identifiers.
+  - The data processes may include online identifiers such as cookie identifiers,
+    internet protocol (IP) addresses, and device identifiers.
+  - This plugin query includes the sending of the IP address and possibly other data
+    required by Google for the Google reCAPTCHA service, for example answers to questions;
+    clicks; keypress events; motion sensor events; mouse movements; scroll position;
+    touch events; cookies, online identifiers, including cookie identifiers, internet
+    protocol addresses and device identifiers.
+- source: online identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - The data collected may include online identifiers such as cookie identifiers,
+    internet protocol (IP) addresses, and device identifiers.
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - Intercom may collect various types of data, including personal data such as name,
+    email address, and other contact information, as well as online identifiers such
+    as IP addresses, browser information, and usage data.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Intercom may collect various types of data, including personal data such as name,
+    email address, and other contact information, as well as online identifiers such
+    as IP addresses, browser information, and usage data.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Intercom may collect various types of data, including personal data such as name,
+    email address, and other contact information, as well as online identifiers such
+    as IP addresses, browser information, and usage data.
+nodes:
+- type: ACTOR
+  id: Amplitude
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Intercom
+- type: ACTOR
+  id: Segment.io
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: data subjects
+- type: ACTOR
+  id: email service provider
+- type: ACTOR
+  id: for infrastructure service provider
+- type: ACTOR
+  id: funnel.io
+- type: ACTOR
+  id: hosting provider
+- type: ACTOR
+  id: hubsport
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: platform.sh
+- type: ACTOR
+  id: saleslens
+- type: ACTOR
+  id: server
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: datum process via analysis conduct
+- type: DATA
+  id: detail of access
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: information collect
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: input
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: list of sub - processor
+- type: DATA
+  id: online identifier
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: report
+- type: DATA
+  id: truthful information

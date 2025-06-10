@@ -1,0 +1,139 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information from
+  key: COLLECT
+  text:
+  - We collect information from and about users of our Service by which you may be
+    personally identified, such as name, email address, etc.
+  purposes: {}
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - 'We use information that we collect about you or that you provide to us, including
+    any personal information:'
+  purposes:
+    services:
+    - To present our Service and its contents to you
+    - To provide you with information, products, or services that you request from
+      us
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information that we collect or you provide as described
+    in this privacy policy:'
+  purposes: {}
+- source: we
+  target: text
+  key: COLLECT
+  text:
+  - We collect and store this information securely on our servers.
+  - When you use our Service, you may upload various types of information and content,
+    including but not limited to text and videos, to enable us to provide you with
+    our services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - When you visit or log in to our website, cookies and similar technologies may
+    be used by our online data partners or vendors to associate these activities with
+    other personal information they or others have about you.
+  purposes:
+    analytics:
+    - to associate these activities with other personal information they or others
+      have about you
+    security:
+    - to associate these activities with other personal information they or others
+      have about you
+    services:
+    - to associate these activities with other personal information they or others
+      have about you
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information that we collect or you provide as described
+    in this privacy policy: To contractors, service providers, and other third parties
+    we use to support our business.'
+  purposes: {}
+- source: contractor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information that we collect or you provide as described
+    in this privacy policy: To contractors, service providers, and other third parties
+    we use to support our business.'
+  purposes: {}
+- source: online datum partner
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - When you visit or log in to our website, cookies and similar technologies may
+    be used by our online data partners or vendors to associate these activities with
+    other personal information they or others have about you.
+  purposes:
+    analytics:
+    - to associate these activities with other personal information they or others
+      have about you
+    security:
+    - to associate these activities with other personal information they or others
+      have about you
+    services:
+    - to associate these activities with other personal information they or others
+      have about you
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information that we collect or you provide as described
+    in this privacy policy: To contractors, service providers, and other third parties
+    we use to support our business.'
+  purposes: {}
+- source: information from
+  target: email address
+  key: SUBSUM
+  text:
+  - We collect information from and about users of our Service by which you may be
+    personally identified, such as name, email address, etc.
+- source: information from
+  target: person name
+  key: SUBSUM
+  text:
+  - We collect information from and about users of our Service by which you may be
+    personally identified, such as name, email address, etc.
+- source: information we collect about you
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'We use information that we collect about you or that you provide to us, including
+    any personal information:'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: online datum partner
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information from
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: text

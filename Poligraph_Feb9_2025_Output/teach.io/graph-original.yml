@@ -1,0 +1,100 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you are an employee or representative of a customer or supplier of ours then
+    we may share your information with your employer for the purpose of manging the
+    business relationship between your organisation and us.
+  - 'In order to achieve these purposes, we share your data with the following people
+    or group of people:'
+  - 'Privacy Policy
+
+
+    HOW LONG WE KEEP YOUR INFORMATION FOR'
+  - We may need to process your information to carry out pre-contractual steps relating
+    to a potential contract between us.
+  - We only keep your information for so long as is reasonably necessary.
+  purposes:
+    advertising:
+    - for the purpose of manging the business relationship between your organisation
+      and us
+    legal:
+    - to carry out pre-contractual steps relating to a potential contract between
+      us
+    services:
+    - for the purpose of manging the business relationship between your organisation
+      and us
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This site uses cookies to store information on your computer.
+  purposes:
+    services:
+    - to store information on your computer
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Generally speaking, we keep your personal information for the following periods
+    of time:'
+  - We share your personal information with third parties only where we are required
+    to do so to comply with the law, to protect our rights, to perform our contractual
+    obligations or to efficiently operate our business.
+  purposes:
+    legal:
+    - to comply with the law, to protect our rights, to perform our contractual obligations
+      or to efficiently operate our business
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We share your personal information with third parties only where we are required
+    to do so to comply with the law, to protect our rights, to perform our contractual
+    obligations or to efficiently operate our business.
+  purposes:
+    legal:
+    - to comply with the law, to protect our rights, to perform our contractual obligations
+      or to efficiently operate our business
+- source: teach
+  target: personal information
+  key: COLLECT
+  text:
+  - This policy explains how Teach Digital Software L.L.C. (a UAE company with commercial
+    license number 1018442) ( "Teach" ) collects and uses your personal information.
+  purposes: {}
+- source: teach digital software l.l.c.
+  target: personal information
+  key: COLLECT
+  text:
+  - This policy explains how Teach Digital Software L.L.C. (a UAE company with commercial
+    license number 1018442) ( "Teach" ) collects and uses your personal information.
+  purposes: {}
+- source: uae company with commercial license number
+  target: personal information
+  key: COLLECT
+  text:
+  - This policy explains how Teach Digital Software L.L.C. (a UAE company with commercial
+    license number 1018442) ( "Teach" ) collects and uses your personal information.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: teach
+- type: ACTOR
+  id: teach digital software l.l.c.
+- type: ACTOR
+  id: uae company with commercial license number
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: personal information

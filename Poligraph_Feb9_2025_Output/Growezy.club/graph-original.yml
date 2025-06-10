@@ -1,0 +1,42 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: professional organisation
+  target: personal information
+  key: COLLECT
+  text:
+  - The "Professional / Organisation collects personal information such as name, email
+    address, and other relevant details to provide and manage the services.
+  purposes:
+    services:
+    - to provide and manage the services
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - The "Professional / Organisation collects personal information such as name, email
+    address, and other relevant details to provide and manage the services.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - The "Professional / Organisation collects personal information such as name, email
+    address, and other relevant details to provide and manage the services.
+- source: personal information
+  target: relevant detail
+  key: SUBSUM
+  text:
+  - The "Professional / Organisation collects personal information such as name, email
+    address, and other relevant details to provide and manage the services.
+nodes:
+- type: ACTOR
+  id: professional organisation
+- type: DATA
+  id: email address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: relevant detail

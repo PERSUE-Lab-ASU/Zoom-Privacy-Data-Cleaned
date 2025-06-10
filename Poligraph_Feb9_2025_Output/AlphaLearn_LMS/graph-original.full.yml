@@ -1,0 +1,120 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We may collect but do not share your location history.'
+  purposes: {}
+- source: we
+  target: precise geolocation
+  key: COLLECT
+  text:
+  - To customize our service for you, we may collect and store your precise geographic
+    location as part of your user profile.
+  purposes:
+    services:
+    - To customize our service for you
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Google Analytics collects information anonymously.
+  purposes: {}
+- source: advertiser
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - No ad companies collect data through our service.
+  - We do not allow advertising companies to collect data through our service for
+    ad targeting.
+  purposes:
+    advertising:
+    - for ad targeting
+- source: analytic provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Analytics providers access data on our behalf.
+  purposes: {}
+- source: analytic provider
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Analytics companies may access anonymous data (such as your IP address or device
+    ID) to help us understand how our services are used.
+  purposes:
+    analytics:
+    - to help us understand how our services are used
+- source: aggregate / deidentified / pseudonymized information
+  target: device identifier
+  key: SUBSUM
+  text:
+  - Analytics companies may access anonymous data (such as your IP address or device
+    ID) to help us understand how our services are used.
+- source: aggregate / deidentified / pseudonymized information
+  target: ip address
+  key: SUBSUM
+  text:
+  - Analytics companies may access anonymous data (such as your IP address or device
+    ID) to help us understand how our services are used.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - We do not share personally identifiable information (such as name, address, email
+    or phone) with other companies.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - We do not share personally identifiable information (such as name, address, email
+    or phone) with other companies.
+- source: personal identifier
+  target: phone
+  key: SUBSUM
+  text:
+  - We do not share personally identifiable information (such as name, address, email
+    or phone) with other companies.
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - We do not share personally identifiable information (such as name, address, email
+    or phone) with other companies.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: phone
+- type: DATA
+  id: postal address
+- type: DATA
+  id: precise geolocation

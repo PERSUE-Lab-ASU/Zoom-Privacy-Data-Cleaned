@@ -1,0 +1,15 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: talkmeup
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - TalkMeUp uses cookies that help the website function, and analyze our traffic.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: talkmeup
+- type: DATA
+  id: cookie / pixel tag

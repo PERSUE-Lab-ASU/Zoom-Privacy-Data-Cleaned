@@ -1,0 +1,271 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These allow us to recognise and count the number of visitors, to see how visitors
+    move around our website when they are using it, provides us with information about
+    the type of browser they are using, device and remembers if users have closed
+    our pop-up information.
+  - We may transfer your data to third parties operating or managing the website on
+    our behalf, to third-party payment providers, third-party social media providers,
+    and third-party mailing providers (including Amazon Web Services, Google, Mailchimp,
+    Facebook, Stripe, and Paypal).
+  - we only use information collected from cookies for statistical analysis purposes
+    and then the data is removed from the system.
+  purposes:
+    analytics:
+    - for statistical analysis purposes
+- source: we
+  target: access you provide
+  key: COLLECT
+  text:
+  - 'If you choose to do this, we will: Use the access that you have provided to send
+    emails via your Google account.'
+  purposes:
+    advertising:
+    - to send emails via your Google account
+    services:
+    - to send emails via your Google account
+- source: we
+  target: activity
+  key: COLLECT
+  text:
+  - We also record your activity and preferences when visiting our website through
+    the use of cookies (see the Cookies section below).
+  purposes: {}
+- source: we
+  target: analytic tracking
+  key: COLLECT
+  text:
+  - We also use analytics tracking to help improve our website in line with our
+  purposes:
+    analytics:
+    - to help improve our website in line with our
+    services:
+    - to help improve our website in line with our
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our site uses cookies to distinguish you from other users of our site and to distinguish
+    which webpages are being used.
+  - 'Our site uses: Facebook analytics and advertising cookies.'
+  - 'Our site uses: Google Analytics / performance cookies.'
+  - 'Our site uses: functionality cookies.'
+  - 'Our site uses: strictly necessary cookies.'
+  - we only use information collected from cookies for statistical analysis purposes
+    and then the data is removed from the system.
+  purposes:
+    analytics:
+    - for statistical analysis purposes
+    - to distinguish you from other users of our site and to distinguish which webpages
+      are being used
+    services:
+    - to distinguish you from other users of our site and to distinguish which webpages
+      are being used
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - If you agree to receive email updates or product support, we'll use your name
+    and email address to send this information to you.
+  - 'If you choose to do this, we will: Ask you to provide us with the Gmail or G
+    Suite email address linked to that account.'
+  purposes:
+    advertising:
+    - to send this information to you
+    analytics:
+    - to send this information to you
+    services:
+    - to send this information to you
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - A cookie in no way gives us access to your computer or any information about you,
+    other than the data you choose to share with us.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - If you agree to receive email updates or product support, we'll use your name
+    and email address to send this information to you.
+  purposes:
+    advertising:
+    - to send this information to you
+    analytics:
+    - to send this information to you
+    services:
+    - to send this information to you
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - By using our third-party providers, Mailchimp and Facebook, we transfer the personal
+    information we collect about you to the USA in order to perform our contract with
+    you.
+  - We may share your personal information with third parties where required by law,
+    where it is necessary for our working relationship, or where we have another legitimate
+    interest in doing so.
+  - We'll use your personal information to activate your free trial and set-up your
+    personal account with us.
+  - 'You''re entitled to know what personal information we hold about you and how
+    that information is processed, which means you can ask us to do any of the following
+    things:'
+  purposes:
+    legal:
+    - in order to perform our contract with you
+    security:
+    - to erase your data
+    - to receive a notification of any breach of your personal data
+    - to stop processing your data
+    services:
+    - in order to perform our contract with you
+    - to access your data
+    - to activate your free trial and set-up your personal account with us
+    - to object to our processing of your data
+    - to receive an electronic copy of your data
+    - to stop processing your data
+- source: we
+  target: preference
+  key: COLLECT
+  text:
+  - We also record your activity and preferences when visiting our website through
+    the use of cookies (see the Cookies section below).
+  purposes: {}
+- source: Facebook
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may transfer your data to third parties operating or managing the website on
+    our behalf, to third-party payment providers, third-party social media providers,
+    and third-party mailing providers (including Amazon Web Services, Google, Mailchimp,
+    Facebook, Stripe, and Paypal).
+  purposes: {}
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may transfer your data to third parties operating or managing the website on
+    our behalf, to third-party payment providers, third-party social media providers,
+    and third-party mailing providers (including Amazon Web Services, Google, Mailchimp,
+    Facebook, Stripe, and Paypal).
+  purposes: {}
+- source: Stripe
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may transfer your data to third parties operating or managing the website on
+    our behalf, to third-party payment providers, third-party social media providers,
+    and third-party mailing providers (including Amazon Web Services, Google, Mailchimp,
+    Facebook, Stripe, and Paypal).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may transfer your data to third parties operating or managing the website on
+    our behalf, to third-party payment providers, third-party social media providers,
+    and third-party mailing providers (including Amazon Web Services, Google, Mailchimp,
+    Facebook, Stripe, and Paypal).
+  - 'We will not: Share this information with any third party.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal information with third parties where required by law,
+    where it is necessary for our working relationship, or where we have another legitimate
+    interest in doing so.
+  purposes: {}
+- source: amazon web services
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may transfer your data to third parties operating or managing the website on
+    our behalf, to third-party payment providers, third-party social media providers,
+    and third-party mailing providers (including Amazon Web Services, Google, Mailchimp,
+    Facebook, Stripe, and Paypal).
+  purposes: {}
+- source: mailchimp
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may transfer your data to third parties operating or managing the website on
+    our behalf, to third-party payment providers, third-party social media providers,
+    and third-party mailing providers (including Amazon Web Services, Google, Mailchimp,
+    Facebook, Stripe, and Paypal).
+  purposes: {}
+- source: paypal
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may transfer your data to third parties operating or managing the website on
+    our behalf, to third-party payment providers, third-party social media providers,
+    and third-party mailing providers (including Amazon Web Services, Google, Mailchimp,
+    Facebook, Stripe, and Paypal).
+  purposes: {}
+- source: social media
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may transfer your data to third parties operating or managing the website on
+    our behalf, to third-party payment providers, third-party social media providers,
+    and third-party mailing providers (including Amazon Web Services, Google, Mailchimp,
+    Facebook, Stripe, and Paypal).
+  purposes: {}
+- source: third party payment provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may transfer your data to third parties operating or managing the website on
+    our behalf, to third-party payment providers, third-party social media providers,
+    and third-party mailing providers (including Amazon Web Services, Google, Mailchimp,
+    Facebook, Stripe, and Paypal).
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: amazon web services
+- type: ACTOR
+  id: mailchimp
+- type: ACTOR
+  id: paypal
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: third party payment provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access you provide
+- type: DATA
+  id: activity
+- type: DATA
+  id: analytic tracking
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: preference

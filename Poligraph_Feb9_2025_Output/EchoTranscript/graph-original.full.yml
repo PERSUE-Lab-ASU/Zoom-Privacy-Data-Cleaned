@@ -1,0 +1,189 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may collect additional information at other times, including but not limited
+    to, when you provide feedback, when you provide information about your personal
+    or business affairs, change your content or email preference, respond to surveys
+    and/or promotions, provide financial or credit card information, or communicate
+    with our customer support.
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - When you come to our website (www.BizGPT.com.au) we may collect certain information
+    such as browser type, operating system, website visited immediately before coming
+    to our site, etc.
+  purposes: {}
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - We maintain the collected data in a secure environment with robust encryption
+    protocols.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website may from time to time use cookies to analyses website traffic and
+    help us provide a better website visitor experience.
+  - We may from time to time use cookies on our website.
+  purposes:
+    analytics:
+    - to analyses website traffic and help us provide a better website visitor experience
+- source: we
+  target: information you provide
+  key: COLLECT
+  text:
+  - Additionally, we may also collect any other information you provide while interacting
+    with us.
+  purposes: {}
+- source: we
+  target: operating system
+  key: COLLECT
+  text:
+  - When you come to our website (www.BizGPT.com.au) we may collect certain information
+    such as browser type, operating system, website visited immediately before coming
+    to our site, etc.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This policy sets out how we collect and treat your personal information.
+  - We may also use your personal information to protect the copyright, trademarks,
+    legal rights, property or safety of BizGPT Pty Ltd Pty Ltd, www.BizGPT.com.au,
+    its customers or third parties.
+  - We may disclose your personal information to any of our employees, officers, insurers,
+    professional advisers, agents, suppliers or subcontractors insofar as reasonably
+    necessary for the purposes set out in this Policy.
+  - We may from time to time need to disclose personal information to comply with
+    a legal requirement, such as a law, regulation, court order, subpoena, warrant,
+    in the course of a legal proceeding or in response to a law enforcement agency
+    request.
+  - We may receive personal information from third parties.
+  - We may use your personal information to improve our products and services and
+    better understand your needs.
+  purposes:
+    analytics:
+    - to improve our products and services and better understand your needs
+    legal:
+    - to comply with a legal requirement, such as a law, regulation, court order,
+      subpoena, warrant, in the course of a legal proceeding or in response to a law
+      enforcement agency request
+    security:
+    - to protect the copyright, trademarks, legal rights, property or safety of BizGPT
+      Pty Ltd Pty Ltd, www.BizGPT.com.au, its customers or third parties
+    services:
+    - to improve our products and services and better understand your needs
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Personal information is only supplied to a third party when it is required for
+    the delivery of our services.
+  purposes: {}
+- source: bizgpt pty ltd pty ltd
+  target: personal information
+  key: COLLECT
+  text:
+  - BizGPT Pty Ltd Pty Ltd will, from time to time, receive and store personal information
+    you enter onto our website, provided to us directly or given to us in other forms.
+  - collects personal information from you in a variety of ways, including when you
+    interact with us electronically or in person, when you access our website and
+    when we provide our services to you.
+  purposes: {}
+- source: bizgpt pty ltd pty ltd
+  target: personal information collect from you
+  key: COLLECT
+  text:
+  - BizGPT Pty Ltd Pty Ltd may use personal information collected from you to provide
+    you with information, updates and our services.
+  purposes:
+    services:
+    - to provide you with information, updates and our services
+- source: basic information
+  target: email address
+  key: SUBSUM
+  text:
+  - You may provide basic information such as your name, phone number, address and
+    email address to enable us to send information, provide updates and process your
+    product or service order.
+- source: basic information
+  target: person name
+  key: SUBSUM
+  text:
+  - You may provide basic information such as your name, phone number, address and
+    email address to enable us to send information, provide updates and process your
+    product or service order.
+- source: basic information
+  target: phone number
+  key: SUBSUM
+  text:
+  - You may provide basic information such as your name, phone number, address and
+    email address to enable us to send information, provide updates and process your
+    product or service order.
+- source: basic information
+  target: postal address
+  key: SUBSUM
+  text:
+  - You may provide basic information such as your name, phone number, address and
+    email address to enable us to send information, provide updates and process your
+    product or service order.
+- source: data collect
+  target: associate metadata necessary
+  key: SUBSUM
+  text:
+  - The data collected includes audio recordings and any associated metadata necessary
+    for the transcription process.
+- source: data collect
+  target: audio recording
+  key: SUBSUM
+  text:
+  - The data collected includes audio recordings and any associated metadata necessary
+    for the transcription process.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: bizgpt pty ltd pty ltd
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: associate metadata necessary
+- type: DATA
+  id: audio recording
+- type: DATA
+  id: basic information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: data collect
+- type: DATA
+  id: email address
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: operating system
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information collect from you
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

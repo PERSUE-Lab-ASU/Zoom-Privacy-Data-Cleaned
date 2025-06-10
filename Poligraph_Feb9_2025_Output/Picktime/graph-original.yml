@@ -1,0 +1,59 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Personal Data collected for the following purposes and using the following services:
+
+
+    Transfer of personal information outside of Brazil based on your consent
+
+
+    We can transfer your personal information outside of the Brazilian territory if
+    you consent to such transfer.'
+  - These legal instruments allow us to transfer your personal information provided
+    that we abide by their rules.
+  - We can transfer your personal information outside of the Brazilian territory provided
+    that we are able to ensure that any further processing of your personal information
+    will be in compliance with the principles and the rules established by the LGPD,
+    and your rights are safeguarded.
+  - We can transfer your personal information outside of the Brazilian territory,
+    if the destination country, or the international organization which receives the
+    personal information, provides an adequate level of protection of the personal
+    information according to the ANPD.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information gather on website
+  key: COLLECT
+  text:
+  - If we (or our assets) are acquired by another company, whether by merger, acquisition,
+    bankruptcy or otherwise, that company would receive all information gathered by
+    Picktime on the Websites and the Subscription Service.
+  purposes: {}
+- source: owner of www.picktime.com
+  target: personal datum relate to user
+  key: COLLECT
+  text:
+  - The Owner of www.picktime.com may have legitimately collected Personal Data relating
+    to Users without their knowledge by reusing or sourcing them from third parties
+    on the grounds mentioned in the section specifying the legal basis of processing.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: owner of www.picktime.com
+- type: ACTOR
+  id: we
+- type: DATA
+  id: information gather on website
+- type: DATA
+  id: personal datum relate to user
+- type: DATA
+  id: personal information

@@ -1,0 +1,312 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: behavior
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Privacy & Cookies
+
+
+    California Consumer Privacy Act
+
+
+    Inferences. Insights that we use to build a profile about you; includes profiles,
+    preferences, and behaviors drawn from collection and analytics of any of the other
+    categories of personal information collected.'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - You agree that we may collect, use, and share information about you in any manner
+    permitted by the Privacy Policy posted on this Website.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We collect certain categories of personal information when you visit our site,
+    and we use that information for business and commercial purposes.
+  purposes: {}
+- source: we
+  target: preference
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Privacy & Cookies
+
+
+    California Consumer Privacy Act
+
+
+    Inferences. Insights that we use to build a profile about you; includes profiles,
+    preferences, and behaviors drawn from collection and analytics of any of the other
+    categories of personal information collected.'
+  purposes: {}
+- source: we
+  target: profile
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Privacy & Cookies
+
+
+    California Consumer Privacy Act
+
+
+    Inferences. Insights that we use to build a profile about you; includes profiles,
+    preferences, and behaviors drawn from collection and analytics of any of the other
+    categories of personal information collected.'
+  purposes: {}
+- source: financial institution
+  target: personal information necessary
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Privacy & Cookies
+
+
+    California Consumer Privacy Act
+
+
+    Financial institutions collect personal information necessary to offer and provide
+    financial products and services, as well as permitted by federal, state, and local
+    law.'
+  purposes: {}
+- source: biometric information
+  target: eye
+  key: SUBSUM
+  text:
+  - Biometric data that can be used to establish identity; includes voice, finger,
+    eye and facial prints or recognition.
+- source: biometric information
+  target: finger
+  key: SUBSUM
+  text:
+  - Biometric data that can be used to establish identity; includes voice, finger,
+    eye and facial prints or recognition.
+- source: biometric information
+  target: recognition
+  key: SUBSUM
+  text:
+  - Biometric data that can be used to establish identity; includes voice, finger,
+    eye and facial prints or recognition.
+- source: biometric information
+  target: voice
+  key: SUBSUM
+  text:
+  - Biometric data that can be used to establish identity; includes voice, finger,
+    eye and facial prints or recognition.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Yes LMS
+
+
+    provide your contact information, including your address, telephone number, and
+    an email address;'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Yes LMS
+
+
+    provide your contact information, including your address, telephone number, and
+    an email address;'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Yes LMS
+
+
+    provide your contact information, including your address, telephone number, and
+    an email address;'
+- source: cookie / pixel tag
+  target: behavior
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Privacy & Cookies
+
+
+    California Consumer Privacy Act
+
+
+    Inferences. Insights that we use to build a profile about you; includes profiles,
+    preferences, and behaviors drawn from collection and analytics of any of the other
+    categories of personal information collected.'
+- source: cookie / pixel tag
+  target: personal information necessary
+  key: SUBSUM
+  text:
+  - Includes collection, disclosure, and storage of personal information necessary
+    for job application and recruitment processes, employment, termination, and benefits
+    related activities.
+  - 'Privacy Policy
+
+
+    Privacy & Cookies'
+- source: cookie / pixel tag
+  target: preference
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Privacy & Cookies
+
+
+    California Consumer Privacy Act
+
+
+    Inferences. Insights that we use to build a profile about you; includes profiles,
+    preferences, and behaviors drawn from collection and analytics of any of the other
+    categories of personal information collected.'
+- source: cookie / pixel tag
+  target: profile
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Privacy & Cookies
+
+
+    California Consumer Privacy Act
+
+
+    Inferences. Insights that we use to build a profile about you; includes profiles,
+    preferences, and behaviors drawn from collection and analytics of any of the other
+    categories of personal information collected.'
+- source: personal identifier
+  target: alias
+  key: SUBSUM
+  text:
+  - This includes, but is not limited to, personal identifiers such as name, alias,
+    address, social security number, passport number, email address, Internet Protocol
+    address and other online identifiers, and other similar identifiers.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - This includes, but is not limited to, personal identifiers such as name, alias,
+    address, social security number, passport number, email address, Internet Protocol
+    address and other online identifiers, and other similar identifiers.
+- source: personal identifier
+  target: identifier
+  key: SUBSUM
+  text:
+  - This includes, but is not limited to, personal identifiers such as name, alias,
+    address, social security number, passport number, email address, Internet Protocol
+    address and other online identifiers, and other similar identifiers.
+- source: personal identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - This includes, but is not limited to, personal identifiers such as name, alias,
+    address, social security number, passport number, email address, Internet Protocol
+    address and other online identifiers, and other similar identifiers.
+- source: personal identifier
+  target: online identifier
+  key: SUBSUM
+  text:
+  - This includes, but is not limited to, personal identifiers such as name, alias,
+    address, social security number, passport number, email address, Internet Protocol
+    address and other online identifiers, and other similar identifiers.
+- source: personal identifier
+  target: passport number
+  key: SUBSUM
+  text:
+  - This includes, but is not limited to, personal identifiers such as name, alias,
+    address, social security number, passport number, email address, Internet Protocol
+    address and other online identifiers, and other similar identifiers.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - This includes, but is not limited to, personal identifiers such as name, alias,
+    address, social security number, passport number, email address, Internet Protocol
+    address and other online identifiers, and other similar identifiers.
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - This includes, but is not limited to, personal identifiers such as name, alias,
+    address, social security number, passport number, email address, Internet Protocol
+    address and other online identifiers, and other similar identifiers.
+- source: personal identifier
+  target: ssn
+  key: SUBSUM
+  text:
+  - This includes, but is not limited to, personal identifiers such as name, alias,
+    address, social security number, passport number, email address, Internet Protocol
+    address and other online identifiers, and other similar identifiers.
+nodes:
+- type: ACTOR
+  id: financial institution
+- type: ACTOR
+  id: we
+- type: DATA
+  id: alias
+- type: DATA
+  id: behavior
+- type: DATA
+  id: biometric information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: eye
+- type: DATA
+  id: finger
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about you
+- type: DATA
+  id: ip address
+- type: DATA
+  id: online identifier
+- type: DATA
+  id: passport number
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information necessary
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: preference
+- type: DATA
+  id: profile
+- type: DATA
+  id: recognition
+- type: DATA
+  id: ssn
+- type: DATA
+  id: voice

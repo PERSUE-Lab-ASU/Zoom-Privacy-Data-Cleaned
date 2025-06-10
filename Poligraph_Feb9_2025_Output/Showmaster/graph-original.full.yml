@@ -1,0 +1,84 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: cherryware
+  target: personal information require
+  key: COLLECT
+  text:
+  - In each case, Cherryware collects such information only insofar as is necessary
+    or appropriate to fulfill the purpose of the visitor's interaction with Cherryware.
+  - Those who engage in transactions with Cherryware - by purchasing Showmaster, are
+    asked to provide additional information including as necessary the personal and
+    financial information required to process those transactions.
+  purposes: {}
+- source: cherryware
+  target: record require
+  key: COLLECT
+  text:
+  - Cherryware will maintain all records required by Article 30(2) of the GDPR and,
+    to the extent applicable to the processing of Personal Data on behalf of Customer,
+    make them available to Customer upon request.
+  purposes: {}
+- source: server
+  target: content
+  key: COLLECT
+  text:
+  - For example, if a user decides to write an email to Cherryware, the header of
+    the email and its content will be stored and processed by Cherryware's server.
+  purposes: {}
+- source: server
+  target: header of email
+  key: COLLECT
+  text:
+  - For example, if a user decides to write an email to Cherryware, the header of
+    the email and its content will be stored and processed by Cherryware's server.
+  purposes: {}
+- source: showmaster
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Showmaster uses 'Cookies' and "Web Storage" to store your preferences on your
+    computer.
+  purposes:
+    services:
+    - to store your preferences on your computer
+- source: showmaster
+  target: web storage
+  key: COLLECT
+  text:
+  - Showmaster uses 'Cookies' and "Web Storage" to store your preferences on your
+    computer.
+  purposes:
+    services:
+    - to store your preferences on your computer
+- source: instruction
+  target: appointment of processor as processor
+  key: SUBSUM
+  text:
+  - In any instance where the GDPR applies and Customer is a processor, Customer warrants
+    to Cherryware that Customer's instructions, including appointment of Processor
+    as a processor or subprocessor, have been authorized by the relevant controller.
+nodes:
+- type: ACTOR
+  id: cherryware
+- type: ACTOR
+  id: server
+- type: ACTOR
+  id: showmaster
+- type: DATA
+  id: appointment of processor as processor
+- type: DATA
+  id: content
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: header of email
+- type: DATA
+  id: instruction
+- type: DATA
+  id: personal information require
+- type: DATA
+  id: record require
+- type: DATA
+  id: web storage

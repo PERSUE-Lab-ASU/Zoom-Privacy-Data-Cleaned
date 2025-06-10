@@ -1,0 +1,224 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: receiving party
+  target: confidential information of disclosing party
+  key: COLLECT
+  text:
+  - The Receiving Party may disclose Confidential Information of the Disclosing Party
+    to the extent compelled by law to do so, provided the Receiving Party gives the
+    Disclosing Party prior notice of the compelled disclosure (to the extent legally
+    permitted) and reasonable assistance, at the Disclosing Party's cost, if the Disclosing
+    Party wishes to contest the disclosure.
+  purposes: {}
+- source: school pathways
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Notwithstanding anything to the contrary, School Pathways shall have the right
+    to collect and analyze data and other information relating to the provision, use
+    and performance of various aspects of the School Pathway's Products and related
+    systems and technologies (including, without limitation, information concerning
+    Customer Data and data derived therefrom), and School Pathways will be free (during
+    and after the term hereof) to (i) analyze and use such information and data to
+    improve and enhance the School Pathway's Products and for other development, diagnostic
+    and corrective purposes in connection with the School Pathway's Products (examples
+    of such uses include optimizing resources and support, research and development,
+    verification of security and data integrity, internal demand planning, industry
+    developments and anonymous benchmarking with other customers), and (ii) disclose
+    such data solely in aggregate or other de-identified form in connection with its
+    business.
+  - School Pathways shall only have access to any such information for the purpose
+    of fulfilling this Agreement.
+  purposes:
+    services:
+    - to improve and enhance the School Pathway's Products
+- source: school pathways
+  target: customer material
+  key: COLLECT
+  text:
+  - School Pathways will maintain all such Customer Materials in strict confidence
+    and will not disclose any such Customer Materials, unless pursuant to this Agreement
+    or with express written consent of the Customer.
+  purposes: {}
+- source: school pathways
+  target: datum load
+  key: COLLECT
+  text:
+  - School Pathways shall provide a description and cost of Initial Professional Services
+    including onboarding (implementation), data loads, and training in the School
+    Pathways Quote form.
+  purposes: {}
+- source: school pathways
+  target: description
+  key: COLLECT
+  text:
+  - Additional descriptions, timelines and workplans for Initial Professional Services
+    shall be provided to the Customer by School Pathways upon Customer request.
+  purposes: {}
+- source: school pathways
+  target: information concern customer data
+  key: COLLECT
+  text:
+  - Notwithstanding anything to the contrary, School Pathways shall have the right
+    to collect and analyze data and other information relating to the provision, use
+    and performance of various aspects of the School Pathway's Products and related
+    systems and technologies (including, without limitation, information concerning
+    Customer Data and data derived therefrom), and School Pathways will be free (during
+    and after the term hereof) to (i) analyze and use such information and data to
+    improve and enhance the School Pathway's Products and for other development, diagnostic
+    and corrective purposes in connection with the School Pathway's Products (examples
+    of such uses include optimizing resources and support, research and development,
+    verification of security and data integrity, internal demand planning, industry
+    developments and anonymous benchmarking with other customers), and (ii) disclose
+    such data solely in aggregate or other de-identified form in connection with its
+    business.
+  purposes:
+    services:
+    - to improve and enhance the School Pathway's Products
+- source: confidential information
+  target: customer data
+  key: SUBSUM
+  text:
+  - Customer's Confidential Information includes Customer Data; School Pathway's Confidential
+    Information includes the Products and information regarding features, functionality
+    and performance of the Products; and Confidential Information of each party includes
+    the terms and conditions of this Agreement and all Quotes (including pricing),
+    as well as business and marketing plans, technology and technical information,
+    product plans and designs, and business processes disclosed by such party.
+- source: confidential information of party
+  target: business plan
+  key: SUBSUM
+  text:
+  - Customer's Confidential Information includes Customer Data; School Pathway's Confidential
+    Information includes the Products and information regarding features, functionality
+    and performance of the Products; and Confidential Information of each party includes
+    the terms and conditions of this Agreement and all Quotes (including pricing),
+    as well as business and marketing plans, technology and technical information,
+    product plans and designs, and business processes disclosed by such party.
+- source: confidential information of party
+  target: design
+  key: SUBSUM
+  text:
+  - Customer's Confidential Information includes Customer Data; School Pathway's Confidential
+    Information includes the Products and information regarding features, functionality
+    and performance of the Products; and Confidential Information of each party includes
+    the terms and conditions of this Agreement and all Quotes (including pricing),
+    as well as business and marketing plans, technology and technical information,
+    product plans and designs, and business processes disclosed by such party.
+- source: confidential information of party
+  target: pricing
+  key: SUBSUM
+  text:
+  - Customer's Confidential Information includes Customer Data; School Pathway's Confidential
+    Information includes the Products and information regarding features, functionality
+    and performance of the Products; and Confidential Information of each party includes
+    the terms and conditions of this Agreement and all Quotes (including pricing),
+    as well as business and marketing plans, technology and technical information,
+    product plans and designs, and business processes disclosed by such party.
+- source: confidential information of party
+  target: product plan
+  key: SUBSUM
+  text:
+  - Customer's Confidential Information includes Customer Data; School Pathway's Confidential
+    Information includes the Products and information regarding features, functionality
+    and performance of the Products; and Confidential Information of each party includes
+    the terms and conditions of this Agreement and all Quotes (including pricing),
+    as well as business and marketing plans, technology and technical information,
+    product plans and designs, and business processes disclosed by such party.
+- source: confidential information of party
+  target: technology information
+  key: SUBSUM
+  text:
+  - Customer's Confidential Information includes Customer Data; School Pathway's Confidential
+    Information includes the Products and information regarding features, functionality
+    and performance of the Products; and Confidential Information of each party includes
+    the terms and conditions of this Agreement and all Quotes (including pricing),
+    as well as business and marketing plans, technology and technical information,
+    product plans and designs, and business processes disclosed by such party.
+- source: customer materials
+  target: customer datum
+  key: SUBSUM
+  text:
+  - All Customer data and records uploaded or transmitted to School Pathways under
+    this Agreement (collectively, " Customer Materials ") shall continue to be the
+    property of Customer.
+- source: customer materials
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - 1.3 The Parties acknowledge that (i) Customer Materials may include personally
+    identifiable information from education records that are subject to the Family
+    Educational Rights and Privacy Act, as amended ("FERPA Records"); and (ii) to
+    the extent that Customer Materials includes FERPA Records, School Pathways will
+    comply with the requirements and obligations of FERPA.
+  - The Parties also acknowledge that Customer Materials may include personally identifiable
+    information from children under the age of 13, subject to the Children's Online
+    Privacy Protection Act and related regulations ("COPPA").
+- source: customer materials
+  target: record
+  key: SUBSUM
+  text:
+  - All Customer data and records uploaded or transmitted to School Pathways under
+    this Agreement (collectively, " Customer Materials ") shall continue to be the
+    property of Customer.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - School Pathways will safeguard and keep confidential personal or sensitive information
+    obtained from a Customer User, including, but not limited to, personally identifying
+    information such as the name, email address or screen name of the Customer User.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - School Pathways will safeguard and keep confidential personal or sensitive information
+    obtained from a Customer User, including, but not limited to, personally identifying
+    information such as the name, email address or screen name of the Customer User.
+nodes:
+- type: ACTOR
+  id: receiving party
+- type: ACTOR
+  id: school pathways
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: business plan
+- type: DATA
+  id: confidential information
+- type: DATA
+  id: confidential information of disclosing party
+- type: DATA
+  id: confidential information of party
+- type: DATA
+  id: customer data
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: customer material
+- type: DATA
+  id: customer materials
+- type: DATA
+  id: datum load
+- type: DATA
+  id: description
+- type: DATA
+  id: design
+- type: DATA
+  id: email address
+- type: DATA
+  id: information concern customer data
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: pricing
+- type: DATA
+  id: product plan
+- type: DATA
+  id: record
+- type: DATA
+  id: technology information

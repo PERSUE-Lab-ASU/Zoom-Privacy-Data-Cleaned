@@ -1,0 +1,231 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: customer information we collect
+  key: COLLECT
+  text:
+  - We may share Customer information we collect with one or more sub-processors as
+    necessary to provide the Services.
+  purposes: {}
+- source: we
+  target: information about customer end user
+  key: COLLECT
+  text:
+  - In order to provide the Services, we collect information about Customer end users
+    such as usage information of applications connected to the Services, first and
+    last name, email address, telephone number, IP address, collaboration and usage
+    information of applications connected to the Services.
+  purposes:
+    services:
+    - In order to provide the Services
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We use the information we collect at the instruction of the Customer and in accordance
+    with the Agreements to provide the Services.
+  purposes:
+    services:
+    - to provide the Services
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also share personal information with government, law enforcement officials
+    or private parties as required by law, when we believe such disclosure is necessary
+    or appropriate to (i) comply with applicable law; (ii) enforce the terms and conditions
+    that govern the Services; (iii) protect our rights, privacy, safety or property,
+    and/or that of you or others; and (iv) protect, investigate and deter against
+    fraudulent, harmful, unauthorized, unethical or illegal activity.
+  - We may also use personal information as we believe necessary or appropriate to
+    (i) comply with applicable law; (ii) enforce the terms and conditions that govern
+    the Services; (iii) protect our rights, privacy, safety or property, and/or that
+    of you or others; and (iv) protect, investigate and deter against fraudulent,
+    harmful, unauthorized, unethical or illegal activity.
+  purposes:
+    legal:
+    - to (i) comply with applicable law; (ii) enforce the terms and conditions that
+      govern the Services; (iii) protect our rights, privacy, safety or property,
+      and/or that of you or others; and (iv) protect, investigate and deter against
+      fraudulent, harmful, unauthorized, unethical or illegal activity
+    security:
+    - to (i) comply with applicable law; (ii) enforce the terms and conditions that
+      govern the Services; (iii) protect our rights, privacy, safety or property,
+      and/or that of you or others; and (iv) protect, investigate and deter against
+      fraudulent, harmful, unauthorized, unethical or illegal activity
+- source: Square
+  target: customer datum
+  key: COLLECT
+  text:
+  - Unify Square may transfer Customer data, including personal information, outside
+    of the country in which end users are located, including to the United States.
+  purposes: {}
+- source: Square
+  target: end user personal information
+  key: COLLECT
+  text:
+  - This Product Privacy Policy (" Policy ") explains how Unify Square collects, uses,
+    transfers, and otherwise processes end user personal information on behalf of
+    business customers in connection with our products and services (collectively,
+    the " Services ").
+  purposes: {}
+- source: Square
+  target: personal information
+  key: COLLECT
+  text:
+  - Unify Square retains personal information for as long as necessary to (i) provide
+    the Services; (ii) comply with legal obligations; (iii) resolve disputes; and
+    (iv) enforce the terms of the Agreements.
+  purposes: {}
+- source: government
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also share personal information with government, law enforcement officials
+    or private parties as required by law, when we believe such disclosure is necessary
+    or appropriate to (i) comply with applicable law; (ii) enforce the terms and conditions
+    that govern the Services; (iii) protect our rights, privacy, safety or property,
+    and/or that of you or others; and (iv) protect, investigate and deter against
+    fraudulent, harmful, unauthorized, unethical or illegal activity.
+  purposes: {}
+- source: law enforcement official
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also share personal information with government, law enforcement officials
+    or private parties as required by law, when we believe such disclosure is necessary
+    or appropriate to (i) comply with applicable law; (ii) enforce the terms and conditions
+    that govern the Services; (iii) protect our rights, privacy, safety or property,
+    and/or that of you or others; and (iv) protect, investigate and deter against
+    fraudulent, harmful, unauthorized, unethical or illegal activity.
+  purposes: {}
+- source: private party
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also share personal information with government, law enforcement officials
+    or private parties as required by law, when we believe such disclosure is necessary
+    or appropriate to (i) comply with applicable law; (ii) enforce the terms and conditions
+    that govern the Services; (iii) protect our rights, privacy, safety or property,
+    and/or that of you or others; and (iv) protect, investigate and deter against
+    fraudulent, harmful, unauthorized, unethical or illegal activity.
+  purposes: {}
+- source: sub
+  target: customer information we collect
+  key: COLLECT
+  text:
+  - We may share Customer information we collect with one or more sub-processors as
+    necessary to provide the Services.
+  purposes: {}
+- source: Square
+  target: asset
+  key: SUBSUM
+  text:
+  - We may sell, transfer or otherwise share some or all of Unify Square's business
+    or assets, including personal information, in connection with a prospective or
+    actual sale, merger, transfer or other reorganization of all or parts of our business.
+- source: customer datum
+  target: personal information
+  key: SUBSUM
+  text:
+  - Unify Square may transfer Customer data, including personal information, outside
+    of the country in which end users are located, including to the United States.
+- source: information about customer end user
+  target: collaboration
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we collect information about Customer end users
+    such as usage information of applications connected to the Services, first and
+    last name, email address, telephone number, IP address, collaboration and usage
+    information of applications connected to the Services.
+- source: information about customer end user
+  target: email address
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we collect information about Customer end users
+    such as usage information of applications connected to the Services, first and
+    last name, email address, telephone number, IP address, collaboration and usage
+    information of applications connected to the Services.
+- source: information about customer end user
+  target: ip address
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we collect information about Customer end users
+    such as usage information of applications connected to the Services, first and
+    last name, email address, telephone number, IP address, collaboration and usage
+    information of applications connected to the Services.
+- source: information about customer end user
+  target: person name
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we collect information about Customer end users
+    such as usage information of applications connected to the Services, first and
+    last name, email address, telephone number, IP address, collaboration and usage
+    information of applications connected to the Services.
+- source: information about customer end user
+  target: phone number
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we collect information about Customer end users
+    such as usage information of applications connected to the Services, first and
+    last name, email address, telephone number, IP address, collaboration and usage
+    information of applications connected to the Services.
+- source: information about customer end user
+  target: usage information
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we collect information about Customer end users
+    such as usage information of applications connected to the Services, first and
+    last name, email address, telephone number, IP address, collaboration and usage
+    information of applications connected to the Services.
+- source: information about customer end user
+  target: usage information of application connect to services
+  key: SUBSUM
+  text:
+  - In order to provide the Services, we collect information about Customer end users
+    such as usage information of applications connected to the Services, first and
+    last name, email address, telephone number, IP address, collaboration and usage
+    information of applications connected to the Services.
+nodes:
+- type: ACTOR
+  id: Square
+- type: ACTOR
+  id: asset
+- type: ACTOR
+  id: government
+- type: ACTOR
+  id: law enforcement official
+- type: ACTOR
+  id: private party
+- type: ACTOR
+  id: sub
+- type: ACTOR
+  id: we
+- type: DATA
+  id: collaboration
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: customer information we collect
+- type: DATA
+  id: email address
+- type: DATA
+  id: end user personal information
+- type: DATA
+  id: information about customer end user
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: usage information
+- type: DATA
+  id: usage information of application connect to services

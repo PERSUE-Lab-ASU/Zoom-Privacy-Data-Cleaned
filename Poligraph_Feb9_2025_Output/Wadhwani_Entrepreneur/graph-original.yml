@@ -1,0 +1,28 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Application collects some Personal Data from its Users.
+  - We can transfer your personal information outside of the Brazilian territory if
+    you consent to such transfer.
+  purposes: {}
+- source: iubenda
+  target: personal datum strictly necessary
+  key: COLLECT
+  text:
+  - iubenda hosts this content and only collects the Personal Data strictly necessary
+    for it to be provided.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: iubenda
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal datum strictly necessary
+- type: DATA
+  id: personal information

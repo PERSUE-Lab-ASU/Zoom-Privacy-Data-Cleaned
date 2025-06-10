@@ -1,0 +1,108 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information about use of service
+  key: COLLECT
+  text:
+  - We also collect information about your use of our services, such as the content
+    you view or engage with, the features you use, the actions you take, and the time,
+    frequency, and duration of your activities.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how we collect, use, share, and protect information
+    about you when you use our services.
+  - 'We may share information about you as follows or as otherwise described in this
+    Privacy Policy:'
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'We may use the information we collect to:'
+  purposes:
+    advertising:
+    - 'to: Communicate with you, including sending you updates, promotions, and surveys'
+    analytics:
+    - 'to: Monitor and analyze trends, usage, and activities in connection with our
+      services; and'
+    legal:
+    - 'to: Comply with legal obligations and enforce our policies'
+    services:
+    - 'to: Customize and personalize your experience'
+    - 'to: Provide, maintain, and improve our services'
+    - 'to: Respond to your inquiries and provide customer support'
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - We collect information you provide directly to us, such as when you create or
+    modify your account, contact customer support, or otherwise communicate with us.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may share information about you as follows or as otherwise described in this
+    Privacy Policy: With vendors, consultants, and other service providers who need
+    access to such information to carry out work on our behalf;'
+  purposes: {}
+- source: consultant
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may share information about you as follows or as otherwise described in this
+    Privacy Policy: With vendors, consultants, and other service providers who need
+    access to such information to carry out work on our behalf;'
+  purposes: {}
+- source: service provider
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may share information about you as follows or as otherwise described in this
+    Privacy Policy: With vendors, consultants, and other service providers who need
+    access to such information to carry out work on our behalf;'
+  purposes: {}
+- source: apace
+  target: apace systems
+  key: SUBSUM
+  text:
+  - At Apace (collectively, " Apace ," " Apace Systems ," " we ," " us ," or " our
+    "), we understand the importance of privacy and are committed to protecting the
+    confidentiality of your personal information.
+- source: communication service
+  target: cloud channels
+  key: SUBSUM
+  text:
+  - We provide communication, collaboration, and media sharing services, such as Cloud
+    Channels, through our owned and operated websites, including apacesystems.com
+    and apacecs.com (collectively, the " Services ").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: apace
+- type: ACTOR
+  id: apace systems
+- type: ACTOR
+  id: cloud channels
+- type: ACTOR
+  id: communication service
+- type: ACTOR
+  id: consultant
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: information about use of service
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you provide to we

@@ -1,0 +1,335 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We are committed to protecting and respecting your privacy, so we take your privacy
+    seriously and will use your personal data (the "data") to provide the services
+    only after obtaining your consent for the collection and processing of your data
+    as follows.
+  - We may also use and disclose the data to enforce the Terms, to protect our rights,
+    privacy, safety, or property, and/or that of our affiliates, you or others, and
+    to respond to requests from courts, law enforcement agencies, regulatory agencies,
+    and other public and government authorities, or in other cases provided for by
+    law.
+  - 'We process the Client''s Data with the following purposes:'
+  - 'We process the Client''s data under the following legal bases:'
+  - We share the data, in particular, for purposes indicated in section 5 hereof.
+  - 'We will retain your information:'
+  - Where there will be a necessity, we may also engage third-party services (providers)
+    and may share the data with them.
+  purposes:
+    legal:
+    - to enforce the Terms, to protect our rights, privacy, safety, or property, and/or
+      that of our affiliates, you or others, and to respond to requests from courts,
+      law enforcement agencies, regulatory agencies, and other public and government
+      authorities, or in other cases provided for by law
+    security:
+    - to enforce the Terms, to protect our rights, privacy, safety, or property, and/or
+      that of our affiliates, you or others, and to respond to requests from courts,
+      law enforcement agencies, regulatory agencies, and other public and government
+      authorities, or in other cases provided for by law
+    services:
+    - to provide the services only after obtaining your consent for the collection
+      and processing of your data as follows
+- source: we
+  target: business data
+  key: COLLECT
+  text:
+  - We may share the Business and Shared Data with our affiliates who may act for
+    us for any of the purposes set out in this Privacy Policy, including our current
+    and future parents, subsidiaries, and other companies under common control and
+    ownership with Closely.
+  - 'We process the Business and Shared Data with the following purposes:'
+  purposes: {}
+- source: we
+  target: information on action take on request
+  key: COLLECT
+  text:
+  - We will provide information on action taken on your request related to your rights
+    specified above within one month of receipt of the request for the longest.
+  purposes: {}
+- source: we
+  target: list of exclude businessperson
+  key: COLLECT
+  text:
+  - To avoid irrelevant Business and Shared Data, we maintain a list of excluded businesspersons
+    and companies outside of the Business and Shared Data (the "Opt-out list").
+  purposes:
+    security:
+    - To avoid irrelevant Business and Shared Data
+    services:
+    - To avoid irrelevant Business and Shared Data
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We are committed to protecting and respecting your privacy, so we take your privacy
+    seriously and will use your personal data (the "data") to provide the services
+    only after obtaining your consent for the collection and processing of your data
+    as follows.
+  purposes:
+    services:
+    - to provide the services only after obtaining your consent for the collection
+      and processing of your data as follows
+- source: we
+  target: statistical datum
+  key: COLLECT
+  text:
+  - We only send emails and collect statistical data (like number of sends, replies,
+    etc...).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Where there will be a necessity, we may also engage third-party services (providers)
+    and may share the data with them.
+  purposes: {}
+- source: client
+  target: business datum
+  key: COLLECT
+  text:
+  - Closely shares the Business and Shared Data with our Clients, for the purpose
+    of providing our Services and Platform and allowing access to authentic, current,
+    and up to date business contact information.
+  purposes:
+    services:
+    - for the purpose of providing our Services and Platform and allowing access to
+      authentic, current, and up to date business contact information
+- source: client
+  target: timely update of change
+  key: COLLECT
+  text:
+  - 'We process the Business and Shared Data with the following purposes: to enable
+    our Clients or their customers to enrich their existing customer relationship
+    management records and receive timely updates of changes;'
+  purposes:
+    analytics:
+    - to enrich their existing customer relationship management records
+    services:
+    - to enrich their existing customer relationship management records
+- source: closely
+  target: business
+  key: COLLECT
+  text:
+  - Still, Closely processes Business and Shared Data as a processor on behalf of
+    our Client.
+  purposes: {}
+- source: closely
+  target: business datum
+  key: COLLECT
+  text:
+  - Closely shares the Business and Shared Data with our Clients, for the purpose
+    of providing our Services and Platform and allowing access to authentic, current,
+    and up to date business contact information.
+  purposes:
+    services:
+    - for the purpose of providing our Services and Platform and allowing access to
+      authentic, current, and up to date business contact information
+- source: closely
+  target: relate information
+  key: COLLECT
+  text:
+  - As the Business and Shared Data, Closely processes only the business-related information.
+  purposes: {}
+- source: we with help of datum processor
+  target: business information
+  key: COLLECT
+  text:
+  - 'We solely or with help of other data processors may process the following personal
+    data: Client''s Data: the data you provide to Closely via the account: the full
+    name; business information (a company name and a job title); account photo; billing
+    name, address; email address; LinkedIn ID; phone number; any other information
+    you provide to us; information we receive about you from third parties;'
+  purposes: {}
+- source: we with help of datum processor
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'We solely or with help of other data processors may process the following personal
+    data: Client''s Data: the data we collect automatically: data about how you found
+    us; devise and location data: language settings, IP address, time zone, type and
+    model of a device, device settings, operating system, Internet service provider,
+    mobile carrier, hardware ID, country, region, city; your activity on the Website;
+    cookies identifiers;'
+  purposes: {}
+- source: we with help of datum processor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We solely or with help of other data processors may process the following personal
+    data:'
+  purposes: {}
+- source: business data
+  target: company name
+  key: SUBSUM
+  text:
+  - 'Closely may obtain business data of businesspeople and companies, "Business Data"
+    -- name, business email address, business phone number, website, and social media
+    account address, including LinkedIn URL-address, job title, seniority and role,
+    company name, country/state of business, other publicly available business data
+    from different sources:'
+- source: business data
+  target: country state of business
+  key: SUBSUM
+  text:
+  - 'Closely may obtain business data of businesspeople and companies, "Business Data"
+    -- name, business email address, business phone number, website, and social media
+    account address, including LinkedIn URL-address, job title, seniority and role,
+    company name, country/state of business, other publicly available business data
+    from different sources:'
+- source: business data
+  target: job title
+  key: SUBSUM
+  text:
+  - 'Closely may obtain business data of businesspeople and companies, "Business Data"
+    -- name, business email address, business phone number, website, and social media
+    account address, including LinkedIn URL-address, job title, seniority and role,
+    company name, country/state of business, other publicly available business data
+    from different sources:'
+- source: business data
+  target: linkedin url address
+  key: SUBSUM
+  text:
+  - 'Closely may obtain business data of businesspeople and companies, "Business Data"
+    -- name, business email address, business phone number, website, and social media
+    account address, including LinkedIn URL-address, job title, seniority and role,
+    company name, country/state of business, other publicly available business data
+    from different sources:'
+- source: business data
+  target: role
+  key: SUBSUM
+  text:
+  - 'Closely may obtain business data of businesspeople and companies, "Business Data"
+    -- name, business email address, business phone number, website, and social media
+    account address, including LinkedIn URL-address, job title, seniority and role,
+    company name, country/state of business, other publicly available business data
+    from different sources:'
+- source: business data
+  target: seniority
+  key: SUBSUM
+  text:
+  - 'Closely may obtain business data of businesspeople and companies, "Business Data"
+    -- name, business email address, business phone number, website, and social media
+    account address, including LinkedIn URL-address, job title, seniority and role,
+    company name, country/state of business, other publicly available business data
+    from different sources:'
+- source: personal information
+  target: business data
+  key: SUBSUM
+  text:
+  - 'We solely or with help of other data processors may process the following personal
+    data: Business Data.'
+- source: personal information
+  target: datum provide
+  key: SUBSUM
+  text:
+  - 'We solely or with help of other data processors may process the following personal
+    data: Client''s Data: the data provided by third parties: number of your sessions;
+    session duration; operating systems of your devices, device models; geography;
+    first launches date; number of the website opens.'
+- source: personal information
+  target: datum we collect
+  key: SUBSUM
+  text:
+  - 'We solely or with help of other data processors may process the following personal
+    data: Client''s Data: the data we collect automatically: data about how you found
+    us; devise and location data: language settings, IP address, time zone, type and
+    model of a device, device settings, operating system, Internet service provider,
+    mobile carrier, hardware ID, country, region, city; your activity on the Website;
+    cookies identifiers;'
+- source: personal information
+  target: datum we receive
+  key: SUBSUM
+  text:
+  - 'We solely or with help of other data processors may process the following personal
+    data: Client''s Data: the data we receive when you use the Website and Platform:
+    duration of a session; the history of the interaction of the Website and Platform;
+    information about how you use the Website and Platform and the relevant statistic,
+    surveys responses, data you provided our support team with, including, the language
+    of your requests; email and content of your message other information you may
+    voluntarily provide us with by sending us direct messages;'
+- source: personal information
+  target: datum you provide to via account
+  key: SUBSUM
+  text:
+  - 'We solely or with help of other data processors may process the following personal
+    data: Client''s Data: the data you provide to Closely via the account: the full
+    name; business information (a company name and a job title); account photo; billing
+    name, address; email address; LinkedIn ID; phone number; any other information
+    you provide to us; information we receive about you from third parties;'
+- source: personal information
+  target: shared data
+  key: SUBSUM
+  text:
+  - 'We solely or with help of other data processors may process the following personal
+    data: Shared Data.'
+- source: statistical datum
+  target: number of send
+  key: SUBSUM
+  text:
+  - We only send emails and collect statistical data (like number of sends, replies,
+    etc...).
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: client
+- type: ACTOR
+  id: closely
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: we with help of datum processor
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: business
+- type: DATA
+  id: business data
+- type: DATA
+  id: business datum
+- type: DATA
+  id: business information
+- type: DATA
+  id: company name
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: country state of business
+- type: DATA
+  id: datum provide
+- type: DATA
+  id: datum we collect
+- type: DATA
+  id: datum we receive
+- type: DATA
+  id: datum you provide to via account
+- type: DATA
+  id: information on action take on request
+- type: DATA
+  id: job title
+- type: DATA
+  id: linkedin url address
+- type: DATA
+  id: list of exclude businessperson
+- type: DATA
+  id: number of send
+- type: DATA
+  id: personal information
+- type: DATA
+  id: relate information
+- type: DATA
+  id: role
+- type: DATA
+  id: seniority
+- type: DATA
+  id: shared data
+- type: DATA
+  id: statistical datum
+- type: DATA
+  id: timely update of change

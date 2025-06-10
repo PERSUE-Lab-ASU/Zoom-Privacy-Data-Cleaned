@@ -1,0 +1,53 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: board
+  target: video showreel
+  key: COLLECT
+  text:
+  - 'For research and insights teams, Medallia Video Research Edition lets you: Compile
+    and share video showreels with executives, boards and key stakeholders, driving
+    intelligent action across your organization'
+  purposes: {}
+- source: executive
+  target: video showreel
+  key: COLLECT
+  text:
+  - 'For research and insights teams, Medallia Video Research Edition lets you: Compile
+    and share video showreels with executives, boards and key stakeholders, driving
+    intelligent action across your organization'
+  purposes: {}
+- source: key stakeholder
+  target: video showreel
+  key: COLLECT
+  text:
+  - 'For research and insights teams, Medallia Video Research Edition lets you: Compile
+    and share video showreels with executives, boards and key stakeholders, driving
+    intelligent action across your organization'
+  purposes: {}
+- source: team
+  target: insight
+  key: COLLECT
+  text:
+  - Review and analyze video responses in our platform to immediately gauge marketing
+    effectiveness, and share insights with your team to inform campaigns.
+  purposes:
+    advertising:
+    - to immediately gauge marketing effectiveness
+    - to inform campaigns
+    analytics:
+    - to immediately gauge marketing effectiveness
+nodes:
+- type: ACTOR
+  id: board
+- type: ACTOR
+  id: executive
+- type: ACTOR
+  id: key stakeholder
+- type: ACTOR
+  id: team
+- type: DATA
+  id: insight
+- type: DATA
+  id: video showreel

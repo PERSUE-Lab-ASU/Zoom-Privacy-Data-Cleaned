@@ -1,0 +1,94 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: access url
+  key: COLLECT
+  text:
+  - We may also use technologies such as cookies and JavaScript to obtain users' browsing
+    history on the site (accessed URLs, content, reference order, etc.).
+  purposes: {}
+- source: we
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - We may also use technologies such as cookies and JavaScript to obtain users' browsing
+    history on the site (accessed URLs, content, reference order, etc.).
+  purposes: {}
+- source: we
+  target: content
+  key: COLLECT
+  text:
+  - We may also use technologies such as cookies and JavaScript to obtain users' browsing
+    history on the site (accessed URLs, content, reference order, etc.).
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For privacy protection, convenience improvement, advertising delivery, and acquisition
+    of statistical data, we use cookies.
+  purposes:
+    advertising:
+    - For privacy protection, convenience improvement, advertising delivery, and acquisition
+      of statistical data
+    analytics:
+    - For privacy protection, convenience improvement, advertising delivery, and acquisition
+      of statistical data
+    security:
+    - For privacy protection, convenience improvement, advertising delivery, and acquisition
+      of statistical data
+    services:
+    - For privacy protection, convenience improvement, advertising delivery, and acquisition
+      of statistical data
+- source: we
+  target: information receive from google apis
+  key: COLLECT
+  text:
+  - This service will use and transfer information received from Google APIs in accordance
+    with the Google API Services User Data Policy , which includes limited usage requirements.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - However, in the following cases, we may provide personal information without the
+    user's consent.
+  - We strongly recognize the importance of personal information protection, and clearly
+    define the purpose of use within the scope necessary for the operation of the
+    service and other business activities of our company, and appropriately acquire,
+    use, and provide personal information.
+  purposes: {}
+- source: we
+  target: personal information of service user
+  key: COLLECT
+  text:
+  - We collect personal information of service users for the following purposes.
+  purposes: {}
+- source: we
+  target: reference order
+  key: COLLECT
+  text:
+  - We may also use technologies such as cookies and JavaScript to obtain users' browsing
+    history on the site (accessed URLs, content, reference order, etc.).
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: access url
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: content
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information receive from google apis
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information of service user
+- type: DATA
+  id: reference order

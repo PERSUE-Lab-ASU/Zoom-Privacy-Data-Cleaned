@@ -1,0 +1,54 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: privacy information supplement statement
+  key: COLLECT
+  text:
+  - For certain HP Services we may provide you with additional privacy information
+    that supplements this Statement.
+  purposes: {}
+- source: HP
+  target: device management
+  key: SUBSUM
+  text:
+  - This Privacy Statement applies to all of our services and is intended for our
+    audience located in the United States, as well as HP-owned websites, domains,
+    services (including device management), applications, subscriptions (i.e., Instant
+    Ink) and products, and those of our subsidiaries in the United States (collectively
+    "HP Services"), in the consumer context or while interacting with HP in the business
+    to business customer context.
+- source: HP
+  target: domain
+  key: SUBSUM
+  text:
+  - This Privacy Statement applies to all of our services and is intended for our
+    audience located in the United States, as well as HP-owned websites, domains,
+    services (including device management), applications, subscriptions (i.e., Instant
+    Ink) and products, and those of our subsidiaries in the United States (collectively
+    "HP Services"), in the consumer context or while interacting with HP in the business
+    to business customer context.
+- source: HP
+  target: subscription
+  key: SUBSUM
+  text:
+  - This Privacy Statement applies to all of our services and is intended for our
+    audience located in the United States, as well as HP-owned websites, domains,
+    services (including device management), applications, subscriptions (i.e., Instant
+    Ink) and products, and those of our subsidiaries in the United States (collectively
+    "HP Services"), in the consumer context or while interacting with HP in the business
+    to business customer context.
+nodes:
+- type: ACTOR
+  id: HP
+- type: ACTOR
+  id: device management
+- type: ACTOR
+  id: domain
+- type: ACTOR
+  id: subscription
+- type: ACTOR
+  id: we
+- type: DATA
+  id: privacy information supplement statement

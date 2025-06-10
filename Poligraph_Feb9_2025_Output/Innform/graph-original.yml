@@ -1,0 +1,187 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By filling in the contact form with their Data, the User authorizes this Application
+    to use these details to reply to requests for information, quotes or any other
+    kind of request as indicated by the form's header.
+  - "Privacy Policy of www.innform.io\n\nDetailed information on the processing of
+    Personal Data\n\n Contacting the User\n\nContact form (this Application)"
+  purposes:
+    services:
+    - to reply to requests for information, quotes or any other kind of request as
+      indicated by the form's header
+- source: we
+  target: detail about exist google meet space associate with in read mode
+  key: COLLECT
+  text:
+  - This allows us to access details about existing Google Meet spaces you are associated
+    with in read-only mode.
+  purposes: {}
+- source: we
+  target: file record interaction with application
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: we
+  target: information concern particular service
+  key: COLLECT
+  text:
+  - In addition to the information contained in this privacy policy, this Application
+    may provide the User with additional and contextual information concerning particular
+    Services or the collection and processing of Personal Data upon request.
+  purposes: {}
+- source: we
+  target: information necessary
+  key: COLLECT
+  text:
+  - Payment processing services enable this Application to process payments by credit
+    card, bank transfer or other means.
+  - To ensure greater security, this Application shares only the information necessary
+    to execute the transaction with the financial intermediaries handling the transaction.
+  purposes:
+    security:
+    - To ensure greater security
+- source: we
+  target: payment
+  key: COLLECT
+  text:
+  - Payment processing services enable this Application to process payments by credit
+    card, bank transfer or other means.
+  purposes: {}
+- source: we
+  target: personal datum relate to user
+  key: COLLECT
+  text:
+  - 'The Owner may process Personal Data relating to Users if one of the following
+    applies:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  - 'Further information for Users in Brazil
+
+
+    The grounds on which we process your personal information
+
+
+    We can process your personal information solely if we have a legal basis for such
+    processing.'
+  - This Application collects some Personal Data from its Users.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: we
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: Google
+  target: datum collect
+  key: COLLECT
+  text:
+  - Google may use the Data collected to contextualize and personalize the ads of
+    its own advertising network.
+  - Google utilizes the Data collected to track and examine the use of this Application,
+    to prepare reports on its activities and share them with other Google services.
+  purposes:
+    advertising:
+    - to contextualize and personalize the ads of its own advertising network
+    analytics:
+    - to track and examine the use of this Application, to prepare reports on its
+      activities and share them with other Google services
+- source: UNSPECIFIED_ACTOR
+  target: file record interaction with application
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: financial intermediary handle transaction
+  target: information necessary
+  key: COLLECT
+  text:
+  - To ensure greater security, this Application shares only the information necessary
+    to execute the transaction with the financial intermediaries handling the transaction.
+  purposes:
+    security:
+    - To ensure greater security
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: financial intermediary handle transaction
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: detail about exist google meet space associate with in read mode
+- type: DATA
+  id: file record interaction with application
+- type: DATA
+  id: information concern particular service
+- type: DATA
+  id: information necessary
+- type: DATA
+  id: ip address
+- type: DATA
+  id: payment
+- type: DATA
+  id: personal datum relate to user
+- type: DATA
+  id: personal information
+- type: DATA
+  id: system log

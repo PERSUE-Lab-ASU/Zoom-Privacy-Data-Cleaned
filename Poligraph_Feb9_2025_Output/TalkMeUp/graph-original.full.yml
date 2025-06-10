@@ -1,0 +1,33 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: talkmeup
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - TalkMeUp uses cookies that help the website function, and analyze our traffic.
+  purposes: {}
+- source: tool
+  target: ms teams
+  key: SUBSUM
+  text:
+  - By integrating with tools like Zoom and MS Teams, we seamlessly fit into your
+    team's workflow, assessing real-time virtual interactions.
+- source: tool
+  target: zoom
+  key: SUBSUM
+  text:
+  - By integrating with tools like Zoom and MS Teams, we seamlessly fit into your
+    team's workflow, assessing real-time virtual interactions.
+nodes:
+- type: ACTOR
+  id: ms teams
+- type: ACTOR
+  id: talkmeup
+- type: ACTOR
+  id: tool
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: cookie / pixel tag

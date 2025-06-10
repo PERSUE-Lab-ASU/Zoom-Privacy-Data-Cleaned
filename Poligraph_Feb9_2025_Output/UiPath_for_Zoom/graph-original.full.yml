@@ -1,0 +1,191 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information result from use of product call
+  key: COLLECT
+  text:
+  - To ensure the fair use, security, and reliability of our products, we process
+    information resulting from the use of our products, called telemetry.
+  purposes:
+    security:
+    - To ensure the fair use, security, and reliability of our products
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If you are a California resident, please note that UiPath does not sell your information,
+    but we might share personal data as described by the Privacy Policy and in compliance
+    with California Privacy Rights Act (CPRA).
+  purposes: {}
+- source: we
+  target: telemetry type
+  key: COLLECT
+  text:
+  - 'When you use the UiPath cloud products we process the following telemetry types:'
+  purposes:
+    services:
+    - to make sure that our products are reliable, functional and that all our customers
+      benefit fairly from our cloud resources
+- source: uipath
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you use personal data with UiPath cloud products, UiPath will be processing
+    data on your behalf and will be considered a data processor under the GDPR.
+  purposes: {}
+- source: uipath
+  target: email address
+  key: COLLECT
+  text:
+  - 'Privacy at UiPath
+
+
+    UiPath will process your email for account provisioning and for securing your
+    cloud account.'
+  purposes:
+    security:
+    - for account provisioning and for securing your cloud account
+    services:
+    - for account provisioning and for securing your cloud account
+- source: uipath
+  target: personal information
+  key: COLLECT
+  text:
+  - Therefore, UiPath processes your personal data such as full name, work email,
+    job title or role, requests and interactions, for account provisioning and security,
+    for contract performance, for sending you communications related to the use of
+    our products and services, for support provisioning, for ensuring service quality
+    and as further described in the privacy policy.
+  purposes: {}
+- source: uipath
+  target: strict control over
+  key: COLLECT
+  text:
+  - UiPath maintains strict control over who has access to production environment
+    and customer data.
+  purposes: {}
+- source: datum filtering
+  target: harmful content
+  key: SUBSUM
+  text:
+  - Therefore, customers benefit from audit dashboards offering visibility over the
+    usage of gen AI, data filtering such as masking and blocking of harmful content
+    and context grounding through Retrieval Augmented Generation (RAG).
+- source: operational telemetry
+  target: error log
+  key: SUBSUM
+  text:
+  - 'When you use the UiPath cloud products we process the following telemetry types:
+    Operational telemetry, such as: error logs, logs about the health and hardware
+    of our servers, logs about performance to make sure that our products are reliable,
+    functional and that all our customers benefit fairly from our cloud resources.'
+- source: operational telemetry
+  target: log
+  key: SUBSUM
+  text:
+  - 'When you use the UiPath cloud products we process the following telemetry types:
+    Operational telemetry, such as: error logs, logs about the health and hardware
+    of our servers, logs about performance to make sure that our products are reliable,
+    functional and that all our customers benefit fairly from our cloud resources.'
+- source: operational telemetry
+  target: log about performance
+  key: SUBSUM
+  text:
+  - 'When you use the UiPath cloud products we process the following telemetry types:
+    Operational telemetry, such as: error logs, logs about the health and hardware
+    of our servers, logs about performance to make sure that our products are reliable,
+    functional and that all our customers benefit fairly from our cloud resources.'
+- source: personal information
+  target: communication relate to use of product
+  key: SUBSUM
+  text:
+  - Therefore, UiPath processes your personal data such as full name, work email,
+    job title or role, requests and interactions, for account provisioning and security,
+    for contract performance, for sending you communications related to the use of
+    our products and services, for support provisioning, for ensuring service quality
+    and as further described in the privacy policy.
+- source: personal information
+  target: job title
+  key: SUBSUM
+  text:
+  - Therefore, UiPath processes your personal data such as full name, work email,
+    job title or role, requests and interactions, for account provisioning and security,
+    for contract performance, for sending you communications related to the use of
+    our products and services, for support provisioning, for ensuring service quality
+    and as further described in the privacy policy.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Therefore, UiPath processes your personal data such as full name, work email,
+    job title or role, requests and interactions, for account provisioning and security,
+    for contract performance, for sending you communications related to the use of
+    our products and services, for support provisioning, for ensuring service quality
+    and as further described in the privacy policy.
+- source: personal information
+  target: role
+  key: SUBSUM
+  text:
+  - Therefore, UiPath processes your personal data such as full name, work email,
+    job title or role, requests and interactions, for account provisioning and security,
+    for contract performance, for sending you communications related to the use of
+    our products and services, for support provisioning, for ensuring service quality
+    and as further described in the privacy policy.
+- source: personal information
+  target: work email
+  key: SUBSUM
+  text:
+  - Therefore, UiPath processes your personal data such as full name, work email,
+    job title or role, requests and interactions, for account provisioning and security,
+    for contract performance, for sending you communications related to the use of
+    our products and services, for support provisioning, for ensuring service quality
+    and as further described in the privacy policy.
+- source: telemetry type
+  target: operational telemetry
+  key: SUBSUM
+  text:
+  - 'When you use the UiPath cloud products we process the following telemetry types:
+    Operational telemetry, such as: error logs, logs about the health and hardware
+    of our servers, logs about performance to make sure that our products are reliable,
+    functional and that all our customers benefit fairly from our cloud resources.'
+nodes:
+- type: ACTOR
+  id: uipath
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: communication relate to use of product
+- type: DATA
+  id: datum filtering
+- type: DATA
+  id: email address
+- type: DATA
+  id: error log
+- type: DATA
+  id: harmful content
+- type: DATA
+  id: information result from use of product call
+- type: DATA
+  id: job title
+- type: DATA
+  id: log
+- type: DATA
+  id: log about performance
+- type: DATA
+  id: operational telemetry
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: role
+- type: DATA
+  id: strict control over
+- type: DATA
+  id: telemetry type
+- type: DATA
+  id: work email

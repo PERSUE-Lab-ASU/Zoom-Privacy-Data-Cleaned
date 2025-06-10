@@ -1,0 +1,179 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, if we suspend an Learning Loop Mentoring Account for fraud or safety
+    reasons, we may retain information from that Learning Loop Mentoring Account to
+    prevent that Member from opening a new Learning Loop Mentoring Account in the
+    future.
+  purposes:
+    security:
+    - to prevent that Member from opening a new Learning Loop Mentoring Account in
+      the future
+    services:
+    - to prevent that Member from opening a new Learning Loop Mentoring Account in
+      the future
+- source: we
+  target: account information you provide
+  key: COLLECT
+  text:
+  - We store the account information you provided as well as email and mobile phone
+    numbers for marketing purposes.
+  purposes:
+    advertising:
+    - for marketing purposes
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'If you request erasure of your personal information, please note the following:
+    We may retain your personal information as necessary for our legitimate business
+    interests, such as prevention of money laundering, fraud detection and prevention,
+    and enhancing safety.'
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - We store the account information you provided as well as email and mobile phone
+    numbers for marketing purposes.
+  purposes:
+    advertising:
+    - for marketing purposes
+- source: learning loop aps
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like any other website, Learning Loop ApS uses 'cookies'.
+  purposes: {}
+- source: learning loop mentoring platform application
+  target: request mentee email
+  key: COLLECT
+  text:
+  - When a mentee books a mentor, the Learning Loop Mentoring platform application
+    creates a calendar event through the preferred calendar integration of the mentor
+    (Google Calendar API or the Microsoft Outlook Graph API) on the behalf of the
+    mentor and also includes and shares the requesting mentee email with the mentor
+    through the created calendar event, where the mentee is a participant.
+  purposes: {}
+- source: learning loop mentoring platform application
+  target: start- not specific detail about event
+  key: COLLECT
+  text:
+  - The Learning Loop Mentoring platform application frequently requests to read all
+    calendar events in the mentors calendar 1,5 months ahead, but only reads and stores
+    the start- and end-times of mentor calendar events, not specific details about
+    the events. Start- and end-times of mentor calendar events are stored (cached)
+    in the Learning Loop Mentoring platform database - on a secured server and transferred
+    over a secured connection and is not shared with fourth parties.
+  purposes:
+    analytics:
+    - to read all calendar events in the mentors calendar 1,5 months ahead
+- source: mentor
+  target: request mentee email
+  key: COLLECT
+  text:
+  - When a mentee books a mentor, the Learning Loop Mentoring platform application
+    creates a calendar event through the preferred calendar integration of the mentor
+    (Google Calendar API or the Microsoft Outlook Graph API) on the behalf of the
+    mentor and also includes and shares the requesting mentee email with the mentor
+    through the created calendar event, where the mentee is a participant.
+  purposes: {}
+- source: copy of information
+  target: log record
+  key: SUBSUM
+  text:
+  - Some copies of your information (e.g., log records) will remain in our database,
+    but are disassociated from personal identifiers.
+- source: file
+  target: log file
+  key: SUBSUM
+  text:
+  - Learning Loop ApS follows a standard procedure of using log files.
+  - 'Privacy policy
+
+
+    Log files'
+  - These files log visitors when they visit websites.
+- source: information collect
+  target: browser type
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: date
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: ip address
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: number of click
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: time stamp
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+nodes:
+- type: ACTOR
+  id: learning loop aps
+- type: ACTOR
+  id: learning loop mentoring platform application
+- type: ACTOR
+  id: mentor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information you provide
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: copy of information
+- type: DATA
+  id: date
+- type: DATA
+  id: file
+- type: DATA
+  id: information collect
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log file
+- type: DATA
+  id: log record
+- type: DATA
+  id: number of click
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: request mentee email
+- type: DATA
+  id: start- not specific detail about event
+- type: DATA
+  id: time stamp

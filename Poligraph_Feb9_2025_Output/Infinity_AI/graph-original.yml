@@ -1,0 +1,87 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We use your information for various purposes:'
+  purposes:
+    advertising:
+    - 'Marketing: To send you promotional messages and information about services
+      we think will interest you'
+    analytics:
+    - 'Research and Development: To develop new tools, products, or services and to
+      enhance our existing offerings'
+    legal:
+    - Compliance and Protection
+    - For legal reasons, including enforcing our Terms of Service, and protecting
+      our rights and the rights of others
+    security:
+    - Compliance and Protection
+    - For legal reasons, including enforcing our Terms of Service, and protecting
+      our rights and the rights of others
+    services:
+    - 'Communication: To communicate with you, including responding to your requests
+      and providing customer service'
+    - 'Research and Development: To develop new tools, products, or services and to
+      enhance our existing offerings'
+    - 'Service Provisioning: To provide, maintain, and improve our services'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies, web beacons, and other technologies to collect data about your
+    use of our Platform and services.
+  purposes: {}
+- source: we
+  target: datum about use of platform
+  key: COLLECT
+  text:
+  - We use cookies, web beacons, and other technologies to collect data about your
+    use of our Platform and services.
+  purposes: {}
+- source: we
+  target: information relate to integration
+  key: COLLECT
+  text:
+  - If you integrate third-party services with our Platform, we may receive information
+    related to those integrations.
+  purposes: {}
+- source: we
+  target: service provisioning
+  key: COLLECT
+  text:
+  - 'We use your information for various purposes: Service Provisioning: To provide,
+    maintain, and improve our services.'
+  purposes: {}
+- source: we
+  target: analytic provider
+  key: SUBSUM
+  text:
+  - We engage third-party companies to assist in providing our services, such as data
+    analytics and hosting services.
+- source: we
+  target: hosting service
+  key: SUBSUM
+  text:
+  - We engage third-party companies to assist in providing our services, such as data
+    analytics and hosting services.
+nodes:
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: hosting service
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about use of platform
+- type: DATA
+  id: information relate to integration
+- type: DATA
+  id: service provisioning

@@ -1,0 +1,64 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - How long we retain your data
+  - Learning Stream's customers use the software to collect information from registrants
+    for purposes of training, classes, meetings, and other events.
+  - We process this information as part of binding agreements with our customers who
+    then offer their services to their customers (employees, customers, or to the
+    general public).
+  purposes: {}
+- source: organization host event use learningstream.com
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Learning Stream and its customers -- information is used only by organizations
+    hosting events using learningstream.com.
+  purposes: {}
+- source: third country
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you are within the EU and you complete a Learning Stream form, you are transferring
+    data to a third country (U.S.A.).
+  purposes: {}
+- source: message
+  target: confirmation
+  key: SUBSUM
+  text:
+  - As part of the registration process, Learning Stream customers will send messages
+    such as confirmation, wait list, and reminder emails.
+- source: message
+  target: reminder email
+  key: SUBSUM
+  text:
+  - As part of the registration process, Learning Stream customers will send messages
+    such as confirmation, wait list, and reminder emails.
+- source: message
+  target: wait list
+  key: SUBSUM
+  text:
+  - As part of the registration process, Learning Stream customers will send messages
+    such as confirmation, wait list, and reminder emails.
+nodes:
+- type: ACTOR
+  id: organization host event use learningstream.com
+- type: ACTOR
+  id: third country
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: confirmation
+- type: DATA
+  id: message
+- type: DATA
+  id: reminder email
+- type: DATA
+  id: wait list

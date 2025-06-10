@@ -1,0 +1,41 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - An essential part of this commitment involves transparently sharing how we collect,
+    use, store, and protect your data.
+  - We will retain and use your information to the extent necessary to comply with
+    our legal obligations, resolve disputes, and enforce our policies.
+  purposes: {}
+- source: advertiser
+  target: ip address
+  key: COLLECT
+  text:
+  - They automatically receive your IP address when this occurs.
+  - Third-party ad servers or ad networks uses technologies like cookies, JavaScript,
+    or Web Beacons that are used in their respective advertisements and links that
+    appear on useorbit.io, which are sent directly to users' browser.
+  purposes: {}
+- source: useorbit.io
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like any other website, useorbit.io uses 'cookies'.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: useorbit.io
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: ip address

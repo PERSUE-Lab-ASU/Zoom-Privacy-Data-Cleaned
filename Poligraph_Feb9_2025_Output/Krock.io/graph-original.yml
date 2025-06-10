@@ -1,0 +1,244 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy policy of KROCK service
+
+
+    How We use information'
+  - 'We use information for the following purposes:'
+  purposes:
+    services:
+    - 'Username and password: to register and administer Your user account via our
+      server'
+    - 'Your Content: to process and make available Your Content to the Service and
+      to share with other users'
+    - 'email address:'
+    - 'phone number: to contact you about matters requiring your urgent attention;
+      and'
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'Cookies enable us to record anonymous information about you, including: the type
+    of internet browser you use to access the Service, your computer operating system,
+    the websites you visited before visiting the Service, the areas of the Service
+    you visit and your IP address (which can provide information about your approximate
+    geographic location).'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Privacy policy of KROCK service
+
+
+    How We use cookies'
+  - 'Privacy policy of KROCK service
+
+
+    We will retain information received from Our use of cookies indefinitely.'
+  - We may use cookies in order to learn how the Service is being used and which types
+    of individuals are using the Platform; record and report user behaviour, location,
+    audience and interest data; record which other websites have referred You to the
+    Service; optimize the Service and improve it; make it easier for you to fill in
+    forms on the Service.
+  - We use "cookies" and similar technologies.
+  purposes:
+    analytics:
+    - in order to learn how the Service is being used and which types of individuals
+      are using the Platform
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - The information we collect in the Live Demo may include email, name, and IP address.
+  purposes: {}
+- source: we
+  target: essential information need
+  key: COLLECT
+  text:
+  - In the Live Demo regime, we collect only essential information needed to provide
+    services of fast sign-up to our Users.
+  purposes: {}
+- source: we
+  target: information submit to service
+  key: COLLECT
+  text:
+  - 'We may also use the Information submitted to the Service to:'
+  purposes:
+    analytics:
+    - 'to: review the Service usage, i.e. information on which pages are more popular
+      than others'
+    legal:
+    - 'to: enable our compliance with applicable laws and regulations'
+    services:
+    - 'to: enable Your use of the Service and associated services'
+    - 'to: provide You with an up to date, efficient and reliable service;'
+    - 'to: run and improve the Service'
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - The information we collect in the Live Demo may include email, name, and IP address.
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may share non-personally identifiable information with the current or potential
+    commercial partners, i.e. investors, sponsors and advertisers.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - The information we collect in the Live Demo may include email, name, and IP address.
+  purposes: {}
+- source: we
+  target: same basic information most website collect
+  key: COLLECT
+  text:
+  - We also automatically collect the same basic information that most websites collect,
+    i.e. certain non-personally identifiable information when You visit the website,
+    such as Your IP address, work session, time of activity, pages viewed, quotations,
+    the type of browser You are using, the type of operating system You are using
+    and the domain name of Your Internet service.
+  purposes: {}
+- source: we
+  target: sensitive information about you
+  key: COLLECT
+  text:
+  - 'Privacy policy of KROCK service
+
+
+    We may collect sensitive information about you, but We will never collect Your
+    sensitive information without Your explicit consent.'
+  purposes: {}
+- source: commercial partner
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may share non-personally identifiable information with the current or potential
+    commercial partners, i.e. investors, sponsors and advertisers.
+  purposes: {}
+- source: we
+  target: IO
+  key: SUBSUM
+  text:
+  - 'Privacy policy of KROCK service
+
+
+    Collection, processing and use of data that You (hereinafter referred to as "User"
+    /"You") provided during the use of the KROCK.IO service (hereinafter referred
+    to as "Service" / "KROCK.IO Service "/ "We") is performed exclusively in accordance
+    with international treaties and the current legislation of Ukraine.'
+- source: aggregate / deidentified / pseudonymized information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Cookies enable us to record anonymous information about you, including: the type
+    of internet browser you use to access the Service, your computer operating system,
+    the websites you visited before visiting the Service, the areas of the Service
+    you visit and your IP address (which can provide information about your approximate
+    geographic location).'
+- source: commercial partner
+  target: advertiser
+  key: SUBSUM
+  text:
+  - We may share non-personally identifiable information with the current or potential
+    commercial partners, i.e. investors, sponsors and advertisers.
+- source: commercial partner
+  target: sponsor
+  key: SUBSUM
+  text:
+  - We may share non-personally identifiable information with the current or potential
+    commercial partners, i.e. investors, sponsors and advertisers.
+- source: non-personal information
+  target: domain name of internet service
+  key: SUBSUM
+  text:
+  - We also automatically collect the same basic information that most websites collect,
+    i.e. certain non-personally identifiable information when You visit the website,
+    such as Your IP address, work session, time of activity, pages viewed, quotations,
+    the type of browser You are using, the type of operating system You are using
+    and the domain name of Your Internet service.
+- source: non-personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - We also automatically collect the same basic information that most websites collect,
+    i.e. certain non-personally identifiable information when You visit the website,
+    such as Your IP address, work session, time of activity, pages viewed, quotations,
+    the type of browser You are using, the type of operating system You are using
+    and the domain name of Your Internet service.
+- source: non-personal information
+  target: time of activity
+  key: SUBSUM
+  text:
+  - We also automatically collect the same basic information that most websites collect,
+    i.e. certain non-personally identifiable information when You visit the website,
+    such as Your IP address, work session, time of activity, pages viewed, quotations,
+    the type of browser You are using, the type of operating system You are using
+    and the domain name of Your Internet service.
+- source: non-personal information
+  target: work session
+  key: SUBSUM
+  text:
+  - We also automatically collect the same basic information that most websites collect,
+    i.e. certain non-personally identifiable information when You visit the website,
+    such as Your IP address, work session, time of activity, pages viewed, quotations,
+    the type of browser You are using, the type of operating system You are using
+    and the domain name of Your Internet service.
+- source: same basic information most website collect
+  target: non-personal information
+  key: SUBSUM
+  text:
+  - We also automatically collect the same basic information that most websites collect,
+    i.e. certain non-personally identifiable information when You visit the website,
+    such as Your IP address, work session, time of activity, pages viewed, quotations,
+    the type of browser You are using, the type of operating system You are using
+    and the domain name of Your Internet service.
+nodes:
+- type: ACTOR
+  id: IO
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: commercial partner
+- type: ACTOR
+  id: sponsor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: domain name of internet service
+- type: DATA
+  id: email address
+- type: DATA
+  id: essential information need
+- type: DATA
+  id: information submit to service
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: same basic information most website collect
+- type: DATA
+  id: sensitive information about you
+- type: DATA
+  id: time of activity
+- type: DATA
+  id: work session

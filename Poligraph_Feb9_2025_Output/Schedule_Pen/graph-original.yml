@@ -1,0 +1,46 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We process data under the contractual lawful basis, with a contract between us
+    and the user.
+  purposes: {}
+- source: we
+  target: backup
+  key: COLLECT
+  text:
+  - We take daily backups of our databases using two seperate backup providers and
+    store the backups on different servers to the ones we use to serve our software.
+  purposes: {}
+- source: we
+  target: information about browser
+  key: COLLECT
+  text:
+  - We may also store information about your browser and how you use the system.
+  purposes: {}
+- source: contractor
+  target: account
+  key: COLLECT
+  text:
+  - Our employees and contractors are prohibited from using this access to view your
+    data unless absolutely required.
+  - They will only access your account and view your data when you raise a support
+    ticket, or for training.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account
+- type: DATA
+  id: backup
+- type: DATA
+  id: information about browser

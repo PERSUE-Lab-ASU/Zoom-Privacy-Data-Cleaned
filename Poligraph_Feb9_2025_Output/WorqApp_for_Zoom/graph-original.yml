@@ -1,0 +1,193 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '- For other purposes: We may use Your information for other purposes, such as
+    data analysis, identifying usage trends, determining the effectiveness of our
+    promotional campaigns and to evaluate and improve our Service, products, services,
+    marketing and your experience.'
+  - Please note, however, that We may need to retain certain information when we have
+    a legal obligation or lawful basis to do so.
+  - When You access the Service by or through a mobile device, We may collect certain
+    information automatically, including, but not limited to, the type of mobile device
+    You use, Your mobile device unique ID, the IP address of Your mobile device, Your
+    mobile operating system, unique device identifiers and other diagnostic data.
+  purposes:
+    advertising:
+    - for other purposes, such as data analysis, identifying usage trends, determining
+      the effectiveness of our promotional campaigns
+    analytics:
+    - for other purposes, such as data analysis, identifying usage trends, determining
+      the effectiveness of our promotional campaigns
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using Our Service, We may ask You to provide Us with certain personally
+    identifiable information that can be used to contact or identify You.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - The app requires the user to provide us his mobile number and email address (on
+    with whichever the user signed up) to create a Quadruple account.
+  purposes:
+    services:
+    - to create a Quadruple account
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - We may also collect information that Your browser sends whenever You visit our
+    Service or when You access the Service by or through a mobile device.
+  purposes: {}
+- source: we
+  target: information collect
+  key: COLLECT
+  text:
+  - Information Collected while Using the Application
+  - We use this information to provide features of Our Service, to improve and customize
+    Our Service.
+  purposes:
+    services:
+    - to provide features of Our Service, to improve and customize Our Service
+- source: we
+  target: information we request
+  key: COLLECT
+  text:
+  - The information that we request will be retained by us and used as described in
+    this privacy policy.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - The Company will also retain Usage Data for internal analysis purposes.
+  purposes:
+    analytics:
+    - for internal analysis purposes
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - For a better experience, while using Quadruple app, we may require you to provide
+    us the access to your device's contacts, camera, and storage as well as certain
+    personally identifiable information.
+  - While using Our Service, We may ask You to provide Us with certain personally
+    identifiable information that can be used to contact or identify You.
+  purposes:
+    services:
+    - For a better experience
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'The Company may use Personal Data for the following purposes:'
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - The app requires the user to provide us his mobile number and email address (on
+    with whichever the user signed up) to create a Quadruple account.
+  purposes:
+    services:
+    - to create a Quadruple account
+- source: internet activity
+  target: browser type
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: browser version
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: date
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: device identifier
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: diagnostic datum
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: time
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: contact information
+- type: DATA
+  id: date
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: diagnostic datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: information collect
+- type: DATA
+  id: information we request
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: time

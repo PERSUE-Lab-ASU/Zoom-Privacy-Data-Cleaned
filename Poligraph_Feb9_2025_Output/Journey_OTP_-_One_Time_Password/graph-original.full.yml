@@ -1,0 +1,120 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will use your information to respond to you regarding any reason you have contacted
+    us.
+  purposes: {}
+- source: we
+  target: company name
+  key: COLLECT
+  text:
+  - In order to provide quality customer service, we may share your company name,
+    street address and phone number to third parties outside of our organization to
+    only fulfill customer requests you make ; for example, engaging a third party
+    to provide specialized identity services or any other service requests processed
+    on your behalf.
+  purposes:
+    services:
+    - In order to provide quality customer service
+    - to only fulfill customer requests you make
+- source: we
+  target: information we get from google analytics
+  key: COLLECT
+  text:
+  - We use the information we get from Google Analytics to maintain and improve the
+    Website and our products.
+  purposes:
+    services:
+    - to maintain and improve the Website and our products
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - In order to provide quality customer service, we may share your company name,
+    street address and phone number to third parties outside of our organization to
+    only fulfill customer requests you make ; for example, engaging a third party
+    to provide specialized identity services or any other service requests processed
+    on your behalf.
+  purposes:
+    services:
+    - In order to provide quality customer service
+    - to only fulfill customer requests you make
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - In order to provide quality customer service, we may share your company name,
+    street address and phone number to third parties outside of our organization to
+    only fulfill customer requests you make ; for example, engaging a third party
+    to provide specialized identity services or any other service requests processed
+    on your behalf.
+  purposes:
+    services:
+    - In order to provide quality customer service
+    - to only fulfill customer requests you make
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Google Analytics collects information such as how often users visit this Website,
+    what pages they visit when they do so, and what other websites they used prior
+    to coming to this Website.
+  purposes: {}
+- source: appropriate governmental authority
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Journey may also release personal information to appropriate governmental authorities
+    under the following circumstances:'
+  purposes: {}
+- source: journey
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Journey may also release personal information to appropriate governmental authorities
+    under the following circumstances:'
+  purposes: {}
+- source: internet activity
+  target: number of hit
+  key: SUBSUM
+  text:
+  - Our site logs do generate certain kinds of non-identifying site usage data, such
+    as the number of hits and visits to our sites.
+- source: internet activity
+  target: visit to site
+  key: SUBSUM
+  text:
+  - Our site logs do generate certain kinds of non-identifying site usage data, such
+    as the number of hits and visits to our sites.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: appropriate governmental authority
+- type: ACTOR
+  id: journey
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: company name
+- type: DATA
+  id: information we get from google analytics
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: number of hit
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: visit to site

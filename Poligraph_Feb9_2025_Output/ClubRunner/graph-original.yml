@@ -1,0 +1,241 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect information about the computer or mobile device you use to access our
+    Services, including the hardware model, operating system and version.
+  - 'We may share your information as follows or as otherwise described in this Privacy
+    Policy:'
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may also share aggregated or de-identified information, which cannot reasonably
+    be used to identify you.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our site uses "cookies" which are small files containing pieces of information
+    that are stored by your browser on your computer's hard drive.
+  - 'When you access or use our Services, we may automatically collect information
+    about you, including: Cookies: We use cookies to store your login session and
+    other information to make your navigation of our Services easier.'
+  purposes:
+    services:
+    - to store your login session and other information to make your navigation of
+      our Services easier
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - We or a designated third party may collect payment and credit card information
+    when you subscribe to our paid Services or purchase additional services.
+  purposes: {}
+- source: we
+  target: information about use of services
+  key: COLLECT
+  text:
+  - We log information about your use of the Services, including the type of browser
+    you use, access times, pages viewed, your IP address, your general location, and
+    the page you visited before navigating to our Services.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may use information about you for various purposes, including to:'
+  - 'When you access or use our Services, we may automatically collect information
+    about you, including:'
+  purposes:
+    advertising:
+    - 'to: Communicate with you about products, services, offers, promotions, and
+      events offered by ClubRunner and others, and provide news and information we
+      think will be of interest to you'
+    analytics:
+    - 'to: Monitor and analyze trends, usage and activities in connection with our
+      Services; and'
+    security:
+    - 'to: Send you technical notices, updates, security alerts and support and administrative
+      messages'
+    services:
+    - to store your login session and other information to make your navigation of
+      our Services easier
+    - 'to: Provide and deliver the products and services you request, process transactions
+      and send you related information, including confirmations and invoices'
+    - 'to: Provide, maintain, customize, and improve our Services'
+    - 'to: Respond to your comments, questions and requests and provide customer service'
+    - 'to: Send you technical notices, updates, security alerts and support and administrative
+      messages'
+- source: we
+  target: information process through website
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how we collect, use, and disclose information processed
+    through this website, and our online subscription service (the "Services").
+  purposes: {}
+- source: we
+  target: information relate to general site engagement
+  key: COLLECT
+  text:
+  - We use Google Analytics to track how visitors interact with our website, analyze
+    where traffic is generated from and collect information related to general site
+    engagement.
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - We collect information you provide directly to us.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also continue to store your personal information to allow us to resolve
+    disputes, enforce our agreements, comply with legal obligations and/or for other
+    legally permissible purposes consistent with this Privacy Policy.
+  - We will retain your personal information only for as long as it is needed to provide
+    our Services, and this depends on the purposes for which we use it, unless applicable
+    law requires we either dispose of it or keep it longer.
+  purposes:
+    legal:
+    - to allow us to resolve disputes, enforce our agreements, comply with legal obligations
+      and/or for other legally permissible purposes consistent with this Privacy Policy
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information as follows or as otherwise described in this Privacy
+    Policy: With vendors, consultants, and other service providers who need access
+    to such information to carry out work on our behalf;'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - We or a designated third party may collect payment and credit card information
+    when you subscribe to our paid Services or purchase additional services.
+  purposes: {}
+- source: clubrunner
+  target: information about
+  key: COLLECT
+  text:
+  - Upon request, ClubRunner will provide you with information about whether we hold
+    any of your personal information.
+  purposes: {}
+- source: consultant
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information as follows or as otherwise described in this Privacy
+    Policy: With vendors, consultants, and other service providers who need access
+    to such information to carry out work on our behalf;'
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information as follows or as otherwise described in this Privacy
+    Policy: With vendors, consultants, and other service providers who need access
+    to such information to carry out work on our behalf;'
+  purposes: {}
+- source: social media
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'On customer websites, where you engage with social share buttons (ex: Facebook
+    Like Button or the share content buttons), the services that manage the social
+    platform you get directed to may use cookies.'
+  purposes: {}
+- source: information about use of services
+  target: access time
+  key: SUBSUM
+  text:
+  - We log information about your use of the Services, including the type of browser
+    you use, access times, pages viewed, your IP address, your general location, and
+    the page you visited before navigating to our Services.
+- source: information about use of services
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We log information about your use of the Services, including the type of browser
+    you use, access times, pages viewed, your IP address, your general location, and
+    the page you visited before navigating to our Services.
+- source: information about use of services
+  target: ip address
+  key: SUBSUM
+  text:
+  - We log information about your use of the Services, including the type of browser
+    you use, access times, pages viewed, your IP address, your general location, and
+    the page you visited before navigating to our Services.
+- source: information about you
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'When you access or use our Services, we may automatically collect information
+    about you, including: Cookies: We use cookies to store your login session and
+    other information to make your navigation of our Services easier.'
+- source: information about you
+  target: device information
+  key: SUBSUM
+  text:
+  - 'When you access or use our Services, we may automatically collect information
+    about you, including: Device Information:'
+- source: information about you
+  target: log information
+  key: SUBSUM
+  text:
+  - 'When you access or use our Services, we may automatically collect information
+    about you, including: Log Information:'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: clubrunner
+- type: ACTOR
+  id: consultant
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: device information
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about use of services
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information process through website
+- type: DATA
+  id: information relate to general site engagement
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log information
+- type: DATA
+  id: personal information

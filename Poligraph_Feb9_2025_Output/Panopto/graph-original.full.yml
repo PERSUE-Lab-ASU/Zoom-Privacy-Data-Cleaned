@@ -1,0 +1,135 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalized ads or
+    content, and analyze our traffic.'
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    analytics:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    services:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: Adobe
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The demdex cookie, set under the domain demdex.net, is used by Adobe Audience
+    Manager to help identify a unique visitor across domains.
+  purposes:
+    analytics:
+    - to help identify a unique visitor across domains
+- source: website operator
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This cookie is used to record from where the visitor came to the website orginally.
+  - This information is used by the website operator to know the efficiency of their
+    marketing.
+  purposes:
+    advertising:
+    - to know the efficiency of their marketing
+    analytics:
+    - to know the efficiency of their marketing
+- source: youtube
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The cookie ytidb::LAST_RESULT_ENTRY_KEY is used by YouTube to store the last search
+    result entry that was clicked by the user.
+  - The yt-remote-fast-check-period cookie is used by YouTube to store the user's
+    video player preferences for embedded YouTube videos.
+  - The yt-remote-session-app cookie is used by YouTube to store user preferences
+    and information about the interface of the embedded YouTube video player.
+  - The yt-remote-session-name cookie is used by YouTube to store the user's video
+    player preferences using embedded YouTube video.
+  purposes:
+    analytics:
+    - to store the last search result entry that was clicked by the user
+    - to store the user's video player preferences using embedded YouTube video
+    - to store user preferences and information about the interface of the embedded
+      YouTube video player
+    services:
+    - to store the last search result entry that was clicked by the user
+    - to store the user's video player preferences for embedded YouTube videos
+    - to store the user's video player preferences using embedded YouTube video
+    - to store user preferences and information about the interface of the embedded
+      YouTube video player
+- source: data collection
+  target: number of visitor
+  key: SUBSUM
+  text:
+  - The data collection includes the number of visitors, where they visit the website,
+    and the pages visited.
+- source: information on user visit
+  target: average time spend on website
+  key: SUBSUM
+  text:
+  - This cookie is used for collecting information on the users visit such as number
+    of visits, average time spent on the website and the pages loaded for displaying
+    targeted ads.
+- source: information on user visit
+  target: number of visit
+  key: SUBSUM
+  text:
+  - This cookie is used for collecting information on the users visit such as number
+    of visits, average time spent on the website and the pages loaded for displaying
+    targeted ads.
+- source: metric
+  target: bounce rate
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: number of visitor
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: traffic source
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+nodes:
+- type: ACTOR
+  id: Adobe
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website operator
+- type: ACTOR
+  id: youtube
+- type: DATA
+  id: average time spend on website
+- type: DATA
+  id: bounce rate
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: data collection
+- type: DATA
+  id: information on user visit
+- type: DATA
+  id: metric
+- type: DATA
+  id: number of visit
+- type: DATA
+  id: number of visitor
+- type: DATA
+  id: traffic source

@@ -1,0 +1,118 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In such cases, we may provide personal information to the third party to whom
+    the business is sold on the condition that the third party complies with the corporation's
+    rules for handling personal information
+  - In the use of these services, we may issue IDs and passwords for member registration
+    and collect your personal information in order to provide the services.
+  - In these cases, we may provide personal information to the subcontractor to the
+    minimum extent necessary to conduct the business under our strict control
+  - In this case, the Company may provide the relevant cooperative or alliance company
+    with personal information to the minimum extent necessary to provide the Service
+    under the strict control of the Company
+  - The Company shall acquire personal information in an appropriate manner and shall
+    not acquire such information through deception or other wrongful means.
+  - The Company will use personal information for the purposes notified to customers
+    at the time of acquisition and collection of personal information or for the following
+    purposes.
+  purposes:
+    analytics:
+    - for the purposes notified to customers at the time of acquisition and collection
+      of personal information or for the following purposes
+    services:
+    - for member registration
+    - for the purposes notified to customers at the time of acquisition and collection
+      of personal information or for the following purposes
+    - in order to provide the services
+- source: we
+  target: ssl
+  key: COLLECT
+  text:
+  - To ensure the security of personal information when it is transmitted, we use
+    SSL (Secure Sockets Layer) encryption.
+  purposes:
+    security:
+    - To ensure the security of personal information when it is transmitted
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Company's services may use cookies and similar technologies.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - In such cases, we may provide personal information to the third party to whom
+    the business is sold on the condition that the third party complies with the corporation's
+    rules for handling personal information
+  purposes: {}
+- source: relevant cooperative company
+  target: personal information
+  key: COLLECT
+  text:
+  - In this case, the Company may provide the relevant cooperative or alliance company
+    with personal information to the minimum extent necessary to provide the Service
+    under the strict control of the Company
+  purposes: {}
+- source: service owner
+  target: personal information
+  key: COLLECT
+  text:
+  - 'The Company will not provide customer information to any third party without
+    prior consent of the customer, except in the following cases : Personal information,
+    including the name and email address of users who have transacted on the Service
+    will be disclosed to the Service Owner for the purpose of the transaction.'
+  purposes:
+    services:
+    - for the purpose of the transaction
+- source: subcontractor
+  target: personal information
+  key: COLLECT
+  text:
+  - In these cases, we may provide personal information to the subcontractor to the
+    minimum extent necessary to conduct the business under our strict control
+  purposes: {}
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'The Company will not provide customer information to any third party without
+    prior consent of the customer, except in the following cases : Personal information,
+    including the name and email address of users who have transacted on the Service
+    will be disclosed to the Service Owner for the purpose of the transaction.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'The Company will not provide customer information to any third party without
+    prior consent of the customer, except in the following cases : Personal information,
+    including the name and email address of users who have transacted on the Service
+    will be disclosed to the Service Owner for the purpose of the transaction.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: relevant cooperative company
+- type: ACTOR
+  id: service owner
+- type: ACTOR
+  id: subcontractor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: ssl

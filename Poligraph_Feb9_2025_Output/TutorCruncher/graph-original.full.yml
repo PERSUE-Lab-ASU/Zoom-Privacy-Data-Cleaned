@@ -1,0 +1,188 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your information with these third parties as part of our business
+    operations.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share generic aggregated data such as demographic information not linked
+    to any personal identification information regarding visitors and users with our
+    business partners, trusted affiliates and advertisers.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'We value your privacy
+
+
+    This website uses cookies to ensure you get the best experience on our website.'
+  purposes:
+    services:
+    - to ensure you get the best experience on our website
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your information with these third parties as part of our business
+    operations.
+  purposes: {}
+- source: advertiser
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share generic aggregated data such as demographic information not linked
+    to any personal identification information regarding visitors and users with our
+    business partners, trusted affiliates and advertisers.
+  purposes: {}
+- source: business partner
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share generic aggregated data such as demographic information not linked
+    to any personal identification information regarding visitors and users with our
+    business partners, trusted affiliates and advertisers.
+  purposes: {}
+- source: company with tutorcruncher account
+  target: user datum in company specific database
+  key: COLLECT
+  text:
+  - A company with a TutorCruncher account will only have access to the user data
+    in its company-specific database.
+  purposes: {}
+- source: trust affiliate
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share generic aggregated data such as demographic information not linked
+    to any personal identification information regarding visitors and users with our
+    business partners, trusted affiliates and advertisers.
+  purposes: {}
+- source: aggregate / deidentified / pseudonymized information
+  target: demographic information not link to personal identification information
+    regard visitor
+  key: SUBSUM
+  text:
+  - We may share generic aggregated data such as demographic information not linked
+    to any personal identification information regarding visitors and users with our
+    business partners, trusted affiliates and advertisers.
+- source: new feature augment
+  target: new functionality
+  key: SUBSUM
+  text:
+  - Any new features that augment or enhance the current Service, including the release
+    of new tools, new functionality (including, without limitation, the receipt and
+    disbursement of payments), website features or other resources, shall be subject
+    to the Terms of Service.
+- source: new feature augment
+  target: new tool
+  key: SUBSUM
+  text:
+  - Any new features that augment or enhance the current Service, including the release
+    of new tools, new functionality (including, without limitation, the receipt and
+    disbursement of payments), website features or other resources, shall be subject
+    to the Terms of Service.
+- source: new feature augment
+  target: resource
+  key: SUBSUM
+  text:
+  - Any new features that augment or enhance the current Service, including the release
+    of new tools, new functionality (including, without limitation, the receipt and
+    disbursement of payments), website features or other resources, shall be subject
+    to the Terms of Service.
+- source: new feature augment
+  target: website feature
+  key: SUBSUM
+  text:
+  - Any new features that augment or enhance the current Service, including the release
+    of new tools, new functionality (including, without limitation, the receipt and
+    disbursement of payments), website features or other resources, shall be subject
+    to the Terms of Service.
+- source: protectable component of service
+  target: artwork
+  key: SUBSUM
+  text:
+  - TutorCruncher owns or licences the intellectual property rights to any and all
+    protectable components of the Service, including but not limited to our site,
+    any material published on it, the name of the Service, artwork and end-user interface
+    elements contained within the Service, many of the individual features, and the
+    related documentation.
+- source: protectable component of service
+  target: individual feature
+  key: SUBSUM
+  text:
+  - TutorCruncher owns or licences the intellectual property rights to any and all
+    protectable components of the Service, including but not limited to our site,
+    any material published on it, the name of the Service, artwork and end-user interface
+    elements contained within the Service, many of the individual features, and the
+    related documentation.
+- source: protectable component of service
+  target: material publish on it
+  key: SUBSUM
+  text:
+  - TutorCruncher owns or licences the intellectual property rights to any and all
+    protectable components of the Service, including but not limited to our site,
+    any material published on it, the name of the Service, artwork and end-user interface
+    elements contained within the Service, many of the individual features, and the
+    related documentation.
+- source: protectable component of service
+  target: related documentation
+  key: SUBSUM
+  text:
+  - TutorCruncher owns or licences the intellectual property rights to any and all
+    protectable components of the Service, including but not limited to our site,
+    any material published on it, the name of the Service, artwork and end-user interface
+    elements contained within the Service, many of the individual features, and the
+    related documentation.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: artwork
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: company with tutorcruncher account
+- type: ACTOR
+  id: individual feature
+- type: ACTOR
+  id: material publish on it
+- type: ACTOR
+  id: new feature augment
+- type: ACTOR
+  id: new functionality
+- type: ACTOR
+  id: new tool
+- type: ACTOR
+  id: protectable component of service
+- type: ACTOR
+  id: related documentation
+- type: ACTOR
+  id: resource
+- type: ACTOR
+  id: trust affiliate
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website feature
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: demographic information not link to personal identification information regard
+    visitor
+- type: DATA
+  id: user datum in company specific database

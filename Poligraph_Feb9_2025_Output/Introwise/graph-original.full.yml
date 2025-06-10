@@ -1,0 +1,118 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal datum relate to user
+  key: COLLECT
+  text:
+  - 'The Owner may process Personal Data relating to Users if one of the following
+    applies:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: file record interaction with introwise
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Introwise and any third-party services
+    may collect files that record interaction with Introwise (System logs) or use
+    other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Introwise and any third-party services
+    may collect files that record interaction with Introwise (System logs) or use
+    other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Introwise and any third-party services
+    may collect files that record interaction with Introwise (System logs) or use
+    other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: introwise
+  target: file record interaction with introwise
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Introwise and any third-party services
+    may collect files that record interaction with Introwise (System logs) or use
+    other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: introwise
+  target: information concern particular service upon
+  key: COLLECT
+  text:
+  - In addition to the information contained in this privacy policy, Introwise may
+    provide the User with additional and contextual information concerning particular
+    Services or the collection and processing of Personal Data upon request.
+  purposes: {}
+- source: introwise
+  target: personal information
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Introwise and any third-party services
+    may collect files that record interaction with Introwise (System logs) or use
+    other Personal Data (such as the IP Address) for this purpose.
+  - Introwise collects some Personal Data from its Users.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: introwise
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Introwise and any third-party services
+    may collect files that record interaction with Introwise (System logs) or use
+    other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: country
+  target: un
+  key: SUBSUM
+  text:
+  - Users are also entitled to learn about the legal basis for Data transfers abroad
+    including to any international organization governed by public international law
+    or set up by two or more countries, such as the UN, and about the security measures
+    taken by the Owner to safeguard their Data.
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - For operation and maintenance purposes, Introwise and any third-party services
+    may collect files that record interaction with Introwise (System logs) or use
+    other Personal Data (such as the IP Address) for this purpose.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: country
+- type: ACTOR
+  id: introwise
+- type: ACTOR
+  id: un
+- type: ACTOR
+  id: we
+- type: DATA
+  id: file record interaction with introwise
+- type: DATA
+  id: information concern particular service upon
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal datum relate to user
+- type: DATA
+  id: personal information
+- type: DATA
+  id: system log

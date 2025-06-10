@@ -1,0 +1,349 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with selected third parties including: Analytics
+    and search engine providers that assist us in the improvement and optimisation
+    of our site.'
+  purposes:
+    legal:
+    - for the performance of any contract we enter into with them or you
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We do not disclose information about identifiable individuals to our advertisers,
+    but we may provide them with aggregate information about our users.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - In addition, we may use cookies to store and collect information regarding your
+    usage of our site so that we can deliver content specific to your interests and
+    improve your experience whilst at our site.
+  purposes:
+    analytics:
+    - to store and collect information regarding your usage of our site so that we
+      can deliver content specific to your interests and improve your experience whilst
+      at our site
+    services:
+    - to store and collect information regarding your usage of our site so that we
+      can deliver content specific to your interests and improve your experience whilst
+      at our site
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We retains trainer Zoom email address till he/she discounnects the app from the
+    platform and meeting details are retained till payment for those sessions are
+    verified.
+  - We store user email address for verification purposes.
+  purposes:
+    analytics:
+    - for verification purposes
+    security:
+    - for verification purposes
+    services:
+    - for verification purposes
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - Some of the cookies we use are provided by Google Analytics and these are used
+    to collect information about how visitors use our site.
+  - We use this information to help us improve the site and the user experience of
+    users.
+  purposes:
+    services:
+    - to help us improve the site and the user experience of users
+- source: we
+  target: information regarding usage of site
+  key: COLLECT
+  text:
+  - In addition, we may use cookies to store and collect information regarding your
+    usage of our site so that we can deliver content specific to your interests and
+    improve your experience whilst at our site.
+  purposes: {}
+- source: we
+  target: information send to we
+  key: COLLECT
+  text:
+  - We collect information that is sent to us by your web browser.
+  - We collect this non-personal information to create web statistics that help us
+    improve our website for our visitors.
+  purposes:
+    analytics:
+    - to create web statistics that help us improve our website for our visitors
+- source: we
+  target: information you provide we with
+  key: COLLECT
+  text:
+  - From time to time, we may use the information you have provided us with to contact
+    you with our newsletter or with other relevant offers or promotions that we feel
+    may be of interest to you.
+  purposes:
+    advertising:
+    - to contact you with our newsletter or with other relevant offers or promotions
+      that we feel may be of interest to you
+- source: we
+  target: meeting detail
+  key: COLLECT
+  text:
+  - We retains trainer Zoom email address till he/she discounnects the app from the
+    platform and meeting details are retained till payment for those sessions are
+    verified.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We collect and process your personal information in accordance with the Data Protection
+    Act 1998 and we do not sell, share or otherwise transfer personal data to any
+    third parties without consent, or, unless required by law.
+  - We collect personal information that you knowingly and voluntarily provide, for
+    example when you make an enquiry about our services or when you choose to book
+    an appointment over the phone or through our form online on our website www.motivatept.co.uk.
+  - We may make use of the personal data we have collected from you to enable us to
+    comply with our advertisers' wishes by displaying their advertisement to that
+    target audience.
+  - We may share your personal information with any member of our group, which means
+    our subsidiaries, our ultimate holding company and its subsidiaries, as defined
+    in section 1159 of the UK Companies Act 2006.
+  purposes:
+    advertising:
+    - to enable us to comply with our advertisers' wishes by displaying their advertisement
+      to that target audience
+- source: we
+  target: zoom detail
+  key: COLLECT
+  text:
+  - In addition, for trainers we use their Zoom details to automatically generate
+    meetings for online sessions.
+  purposes:
+    services:
+    - to automatically generate meetings for online sessions
+- source: Stripe
+  target: credit card payment
+  key: COLLECT
+  text:
+  - Credit and debit card payments are processed by Stripe (https://stripe.com/gb).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with selected third parties including: Advertisers
+    and advertising networks that require the data to serve relevant adverts to you
+    and others.'
+  - 'We may share your information with selected third parties including: Analytics
+    and search engine providers that assist us in the improvement and optimisation
+    of our site.'
+  purposes:
+    legal:
+    - for the performance of any contract we enter into with them or you
+- source: advertiser
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with selected third parties including: Advertisers
+    and advertising networks that require the data to serve relevant adverts to you
+    and others.'
+  purposes:
+    legal:
+    - for the performance of any contract we enter into with them or you
+- source: advertiser
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We do not disclose information about identifiable individuals to our advertisers,
+    but we may provide them with aggregate information about our users.
+  purposes: {}
+- source: analytic provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with selected third parties including: Analytics
+    and search engine providers that assist us in the improvement and optimisation
+    of our site.'
+  purposes:
+    legal:
+    - for the performance of any contract we enter into with them or you
+- source: business partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with selected third parties including: Business
+    partners, suppliers and sub-contractors (such as your allocated personal trainer)
+    for the performance of any contract we enter into with them or you.'
+  purposes:
+    legal:
+    - for the performance of any contract we enter into with them or you
+- source: relevant advert
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with selected third parties including: Advertisers
+    and advertising networks that require the data to serve relevant adverts to you
+    and others.'
+  purposes:
+    legal:
+    - for the performance of any contract we enter into with them or you
+- source: sub
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with selected third parties including: Business
+    partners, suppliers and sub-contractors (such as your allocated personal trainer)
+    for the performance of any contract we enter into with them or you.'
+  purposes:
+    legal:
+    - for the performance of any contract we enter into with them or you
+- source: supplier
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with selected third parties including: Business
+    partners, suppliers and sub-contractors (such as your allocated personal trainer)
+    for the performance of any contract we enter into with them or you.'
+  purposes:
+    legal:
+    - for the performance of any contract we enter into with them or you
+- source: information in anonymous form
+  target: number of visitor to site
+  key: SUBSUM
+  text:
+  - Again, these cookies collect information in an anonymous form, including numbers
+    of visitors to the site, the pages visited and where visitors have come to the
+    site from.
+- source: information send to we
+  target: date of visit
+  key: SUBSUM
+  text:
+  - This information includes your IP address, the date of your visit and the name
+    of your browser and operating system.
+  - We collect information that is sent to us by your web browser.
+- source: information send to we
+  target: ip address
+  key: SUBSUM
+  text:
+  - This information includes your IP address, the date of your visit and the name
+    of your browser and operating system.
+  - We collect information that is sent to us by your web browser.
+- source: information send to we
+  target: name of browser
+  key: SUBSUM
+  text:
+  - This information includes your IP address, the date of your visit and the name
+    of your browser and operating system.
+  - We collect information that is sent to us by your web browser.
+- source: part of site
+  target: portal
+  key: SUBSUM
+  text:
+  - Where we have given you (or where you have chosen) a password which enables you
+    to access certain parts of our site, such as the portal (https://my.motivatept.co.uk/)
+    you are responsible for keeping this password confidential.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - This information may include (amongst other things) your name, address, telephone
+    number and email address.
+  - We collect personal information that you knowingly and voluntarily provide, for
+    example when you make an enquiry about our services or when you choose to book
+    an appointment over the phone or through our form online on our website www.motivatept.co.uk.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - This information may include (amongst other things) your name, address, telephone
+    number and email address.
+  - We collect personal information that you knowingly and voluntarily provide, for
+    example when you make an enquiry about our services or when you choose to book
+    an appointment over the phone or through our form online on our website www.motivatept.co.uk.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - This information may include (amongst other things) your name, address, telephone
+    number and email address.
+  - We collect personal information that you knowingly and voluntarily provide, for
+    example when you make an enquiry about our services or when you choose to book
+    an appointment over the phone or through our form online on our website www.motivatept.co.uk.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - This information may include (amongst other things) your name, address, telephone
+    number and email address.
+  - We collect personal information that you knowingly and voluntarily provide, for
+    example when you make an enquiry about our services or when you choose to book
+    an appointment over the phone or through our form online on our website www.motivatept.co.uk.
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: part of site
+- type: ACTOR
+  id: portal
+- type: ACTOR
+  id: relevant advert
+- type: ACTOR
+  id: sub
+- type: ACTOR
+  id: supplier
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit card payment
+- type: DATA
+  id: date of visit
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about
+- type: DATA
+  id: information in anonymous form
+- type: DATA
+  id: information regarding usage of site
+- type: DATA
+  id: information send to we
+- type: DATA
+  id: information you provide we with
+- type: DATA
+  id: ip address
+- type: DATA
+  id: meeting detail
+- type: DATA
+  id: name of browser
+- type: DATA
+  id: number of visitor to site
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: zoom detail

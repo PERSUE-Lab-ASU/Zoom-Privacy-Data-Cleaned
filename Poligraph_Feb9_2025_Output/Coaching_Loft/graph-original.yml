@@ -1,0 +1,141 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This Privacy Policy outlines what information we collect, how we use it, your
+    rights, and our practices around that information.
+  purposes: {}
+- source: we
+  target: account information
+  key: COLLECT
+  text:
+  - 'Table of Contents
+
+
+    1.2 HOW WE USE ACCOUNT INFORMATION'
+  purposes: {}
+- source: we
+  target: coaching datum
+  key: COLLECT
+  text:
+  - 'We capture and store coaching data, as entered by coaches and the people they
+    coach, for the purpose of making it accessible to authorized users, including
+    but not limited to:'
+  purposes:
+    analytics:
+    - Data delivered by email to other parties as initiated by user action (e.g. a
+      progress report set to send weekly to a designated email recipient)
+    - Data that can be accessed in-app by other users who should see it (e.g. Action
+      items set up by a coach for a client, or Session Notes for a client that were
+      NOT marked private
+    - Data that can be accessed in-app by the user who entered it
+    services:
+    - Data delivered by email to other parties as initiated by user action (e.g. a
+      progress report set to send weekly to a designated email recipient)
+    - Data that can be accessed in-app by other users who should see it (e.g. Action
+      items set up by a coach for a client, or Session Notes for a client that were
+      NOT marked private
+    - Data that can be accessed in-app by the user who entered it
+    - for the purpose of making it accessible to authorized users, including but not
+      limited to
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Table of Contents
+
+
+    1.7 HOW WE USE COOKIES'
+  purposes: {}
+- source: we
+  target: garble version of password
+  key: COLLECT
+  text:
+  - (Well actually we only store a garbled-up version of passwords through the groovy
+    mathematical trick of one-way hashing--we have no idea what your real password
+    is, but when you log in, we sure can compute whether or not you do!)
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'Table of Contents
+
+
+    1.4 HOW WE USE USAGE DATA'
+  purposes: {}
+- source: ca staff
+  target: internet activity
+  key: COLLECT
+  text:
+  - 1.4 HOW WE USE USAGE DATA
+  - This information is used exclusively by CA staff and exclusively for the purposes
+    of aiding in support, troubleshooting, debugging, and performance tuning.
+  purposes: {}
+- source: coaching loft
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Coaching Loft, like any other web application uses cookies.
+  purposes: {}
+- source: few company
+  target: personal information
+  key: COLLECT
+  text:
+  - 'These companies are authorized to use your personal information only as necessary
+    to provide these services to us, which these services may include:'
+  - While we are the primary custodian and caretaker for your data as entered into
+    Coaching Loft, there are a few companies who will be handling certain parts of
+    your data as a matter of course for us to provide the service.
+  purposes:
+    advertising:
+    - Sending email & SMS communications
+    services:
+    - Payment processing
+    - Providing customer service
+    - Providing our hosting server infrastructure
+    - Sending email & SMS communications
+    - to provide these services to us, which these services may include
+- source: internet activity
+  target: headshot
+  key: SUBSUM
+  text:
+  - 'Specifically, this includes: In-app display of user activity (e.g. a name & headshot
+    of who posted a comment).'
+- source: internet activity
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Specifically, this includes: In-app display of user activity (e.g. a name & headshot
+    of who posted a comment).'
+nodes:
+- type: ACTOR
+  id: ca staff
+- type: ACTOR
+  id: coaching loft
+- type: ACTOR
+  id: few company
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information
+- type: DATA
+  id: coaching datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: garble version of password
+- type: DATA
+  id: headshot
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information

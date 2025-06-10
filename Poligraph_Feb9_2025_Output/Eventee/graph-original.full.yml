@@ -1,0 +1,156 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Besides that, we also receive data about your screen resolution and other similar
+    information.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'TL;DR
+
+
+    We use Cookies to:'
+  - 'TL;DR
+
+
+    We use cookies to ensure you get the best experience possible.'
+  purposes:
+    analytics:
+    - 'to: Better understand who is our customer'
+    - 'to: Understand what websites customers arrived from'
+    services:
+    - to ensure you get the best experience possible
+    - 'to: Provide technical help, like recognizing the language we should show you,
+      etc.'
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'TL;DR Version
+
+
+    We use the chat tool Smartsupp for support, we share your name and email address
+    with it so that in case we miss your message, we know which email to reply to.'
+  - 'TL;DR Version
+
+
+    We use the email tool Helpscout for support, we share your name and email address
+    with it so that we can answer you.'
+  purposes: {}
+- source: we
+  target: information about visit
+  key: COLLECT
+  text:
+  - They allow the website to record information about your visit, such as your selected
+    language.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'TL;DR Version
+
+
+    We use the chat tool Smartsupp for support, we share your name and email address
+    with it so that in case we miss your message, we know which email to reply to.'
+  - 'TL;DR Version
+
+
+    We use the email tool Helpscout for support, we share your name and email address
+    with it so that we can answer you.'
+  purposes: {}
+- source: website in world
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Cookies are used by almost every website in the world.
+  purposes: {}
+- source: contact information
+  target: information on job position
+  key: SUBSUM
+  text:
+  - 'The Administrator processes the following personal data for the above purpose:
+    Identification and contact details of the data subject : if the data subject is
+    a customer''s representative - identification and contact details to employment,
+    including information on the job position.'
+- source: content
+  target: channel know
+  key: SUBSUM
+  text:
+  - 9.3. By posting Content on the App, you grant Eventee a non-exclusive, worldwide,
+    royalty-free license (with the right to sublicense) to host, store, transmit,
+    display, perform, reproduce and modify all or any portion of the Content, in any
+    format and through any channel now known or hereafter developed for the purpose
+    of operating the App.
+- source: content
+  target: format
+  key: SUBSUM
+  text:
+  - 9.3. By posting Content on the App, you grant Eventee a non-exclusive, worldwide,
+    royalty-free license (with the right to sublicense) to host, store, transmit,
+    display, perform, reproduce and modify all or any portion of the Content, in any
+    format and through any channel now known or hereafter developed for the purpose
+    of operating the App.
+- source: information about visit
+  target: select language
+  key: SUBSUM
+  text:
+  - They allow the website to record information about your visit, such as your selected
+    language.
+- source: personal aspect of person
+  target: estimate of work performance
+  key: SUBSUM
+  text:
+  - Profiling means the use of personal data to assess certain personal aspects of
+    a person, such as an estimate of a person's work performance, economic situation,
+    state of health, personal preferences, interests, reliability, etc.
+- source: personal information
+  target: identification
+  key: SUBSUM
+  text:
+  - 'The Administrator processes the following personal data for the above purpose:
+    Identification and contact details of the data subject : if the data subject is
+    a customer''s representative - identification and contact details to employment,
+    including information on the job position.'
+nodes:
+- type: ACTOR
+  id: channel know
+- type: ACTOR
+  id: content
+- type: ACTOR
+  id: format
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website in world
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: estimate of work performance
+- type: DATA
+  id: identification
+- type: DATA
+  id: information about visit
+- type: DATA
+  id: information on job position
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal aspect of person
+- type: DATA
+  id: personal information
+- type: DATA
+  id: select language

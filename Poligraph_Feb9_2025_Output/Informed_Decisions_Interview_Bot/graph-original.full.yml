@@ -1,0 +1,306 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Affiliates: We may share information with our affiliates.'
+  - Notwithstanding the above, we will retain data as required by applicable law.
+  - 'This Policy explains: What information we collect and why we collect it.'
+  - We may share information with contractors, service providers and other third parties
+    we use to support the Platform and our products, services and business operations.
+  - We may share or transfer information if we believe it is necessary to protect
+    our rights.
+  - We may share or transfer information in connection with, or during negotiations
+    of, any merger, sale of Informed Decisions' assets, financing, or acquisition
+    of all or a portion of our business.
+  - 'We may share personal data in the following circumstances: Comply with Applicable
+    Law: We may share your information as required by any court order, law, legal
+    process or government or regulatory request.'
+  - 'We may share personal data in the following circumstances: Enforce Our Rights:
+    We may share information as reasonably necessary to enforce our rights arising
+    from any contract between us and the applicable Customer or Interviewer.'
+  - We retain data for the period of time that we deem necessary depending on the
+    purposes for which it is collected and the permitted uses we make of the data.
+  - We use AMAZON AWS for data processing and storage, and data is stored on secure
+    servers.
+  purposes:
+    services:
+    - for data processing and storage
+- source: we
+  target: above information
+  key: COLLECT
+  text:
+  - The Customer will either provide us the above information manually or via enabling
+    an integration between the Platform and the Customer's Applicant Tracking System
+    (" ATS ") or Human Capital Management System (" HCMS ").
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - .  Notwithstanding anything to the contrary in this Policy, we may use, share
+    and sell aggregated or anonymized data either collected by us or generated from
+    information collected by us for any purpose and without restriction including
+    to develop, improve and commercialize products and services.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - The Customer provides us with the name and contact information for Interviewers
+    who will be using the Platform to interview and assess Candidates as well as receive
+    feedback on the Interviewers' own interviewing process and patterns.
+  - The Customer will either provide us the name and contact information of Candidates
+    manually or via enabling an integration between the Platform and the Customer's
+    Applicant Tracking System (" ATS ") or Human Capital Management System (" HCMS
+    ")
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and other similar tools to conduct web analytics, in order to optimize
+    the Platform' performance and functionality.
+  purposes:
+    analytics:
+    - to conduct web analytics
+    services:
+    - in order to optimize the Platform' performance and functionality
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - The Customer provides us with the name and contact information for Interviewers
+    who will be using the Platform to interview and assess Candidates as well as receive
+    feedback on the Interviewers' own interviewing process and patterns.
+  - The Customer will either provide us the name and contact information of Candidates
+    manually or via enabling an integration between the Platform and the Customer's
+    Applicant Tracking System (" ATS ") or Human Capital Management System (" HCMS
+    ")
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Informed Interview Intelligence Platform Privacy Policy
+
+
+    4) Who we Share Personal Data With'
+  - 'We collect personal data: (i) from Customers and Interviewers directly and manually,
+    (ii) from Customers via integration with our Customers'' applicant tracking system,
+    human resources management systems, and other similar software, (iii) via our
+    transcription function when it is used by an Interviewer as part of an interview
+    conducted using the Platform, and (iv) through automated tracking technologies.'
+  - 'We may share personal data in the following circumstances:'
+  purposes: {}
+- source: we
+  target: technical information
+  key: COLLECT
+  text:
+  - We may either collect such information ourselves or authorize third party service
+    providers to collect this information on our behalf utilizing their software tools
+    integrated into the Platform.
+  - When you use the Platform, our technology may automatically collect a variety
+    of technical information as well as information regarding your usage of the Platform.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share information with contractors, service providers and other third parties
+    we use to support the Platform and our products, services and business operations.
+  purposes: {}
+- source: contractor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share information with contractors, service providers and other third parties
+    we use to support the Platform and our products, services and business operations.
+  purposes: {}
+- source: developer
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share personal data in the following circumstances: With Developers: Informed
+    Decisions'' software and technology developers have access to information that
+    is related to or useful for the development and improvement of our software, machine
+    learning algorithms, products and services.'
+  purposes: {}
+- source: platform
+  target: informaton regade usage of platform
+  key: COLLECT
+  text:
+  - The Platform will automatically collect informaton regading the Interviewer's
+    usage of the Platform.
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share information with contractors, service providers and other third parties
+    we use to support the Platform and our products, services and business operations.
+  purposes: {}
+- source: software developer
+  target: information be
+  key: COLLECT
+  text:
+  - 'We may share personal data in the following circumstances: With Developers: Informed
+    Decisions'' software and technology developers have access to information that
+    is related to or useful for the development and improvement of our software, machine
+    learning algorithms, products and services.'
+  purposes: {}
+- source: we
+  target: informed decisions
+  key: SUBSUM
+  text:
+  - This Privacy Policy (this " Policy ") describes how Informed Decisions Ltd. ("
+    Informed Decisions ", the " Company ", " we ", " our " or " us "), may collect,
+    store, use, process and/or share information collected by or transmitted on or
+    to our software based interview facilitation platform (the " Platform ").
+- source: we
+  target: informed decisions ltd.
+  key: SUBSUM
+  text:
+  - This Privacy Policy (this " Policy ") describes how Informed Decisions Ltd. ("
+    Informed Decisions ", the " Company ", " we ", " our " or " us "), may collect,
+    store, use, process and/or share information collected by or transmitted on or
+    to our software based interview facilitation platform (the " Platform ").
+- source: information collect via automate tracking technology
+  target: browser characteristic
+  key: SUBSUM
+  text:
+  - 'Information collected via automated tracking technologies may include: IP address,
+    browser and device characteristics, operating system, location information and
+    usage information regarding the way you use and interact with the Platform.'
+- source: information collect via automate tracking technology
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Information collected via automated tracking technologies may include: IP address,
+    browser and device characteristics, operating system, location information and
+    usage information regarding the way you use and interact with the Platform.'
+- source: information collect via automate tracking technology
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Information collected via automated tracking technologies may include: IP address,
+    browser and device characteristics, operating system, location information and
+    usage information regarding the way you use and interact with the Platform.'
+- source: information collect via automate tracking technology
+  target: operating system
+  key: SUBSUM
+  text:
+  - 'Information collected via automated tracking technologies may include: IP address,
+    browser and device characteristics, operating system, location information and
+    usage information regarding the way you use and interact with the Platform.'
+- source: information collect via automate tracking technology
+  target: usage information
+  key: SUBSUM
+  text:
+  - 'Information collected via automated tracking technologies may include: IP address,
+    browser and device characteristics, operating system, location information and
+    usage information regarding the way you use and interact with the Platform.'
+- source: information regard candidate
+  target: candidate identity
+  key: SUBSUM
+  text:
+  - Certain information regarding the Candidate such as the Candidates identity and
+    contact information and items included in the notes and transcription of the interview
+    are used to facilitate the conduct, review and assessment of the interview to
+    determine whether to hire a Candidate.
+- source: information regard candidate
+  target: contact information
+  key: SUBSUM
+  text:
+  - Certain information regarding the Candidate such as the Candidates identity and
+    contact information and items included in the notes and transcription of the interview
+    are used to facilitate the conduct, review and assessment of the interview to
+    determine whether to hire a Candidate.
+- source: information regard candidate
+  target: item include in note of interview
+  key: SUBSUM
+  text:
+  - Certain information regarding the Candidate such as the Candidates identity and
+    contact information and items included in the notes and transcription of the interview
+    are used to facilitate the conduct, review and assessment of the interview to
+    determine whether to hire a Candidate.
+- source: information regard interviewer
+  target: identity
+  key: SUBSUM
+  text:
+  - Certain information regarding the Interviewer such as the Interviewer's identity
+    and items included in the notes and transcription of the interview are used to
+    facilitate the conduct, review and assessment of the interview to determine whether
+    to hire a Candidate.
+- source: information regard interviewer
+  target: item include in note of interview
+  key: SUBSUM
+  text:
+  - Certain information regarding the Interviewer such as the Interviewer's identity
+    and items included in the notes and transcription of the interview are used to
+    facilitate the conduct, review and assessment of the interview to determine whether
+    to hire a Candidate.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: developer
+- type: ACTOR
+  id: informed decisions
+- type: ACTOR
+  id: informed decisions ltd.
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: software developer
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: above information
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser characteristic
+- type: DATA
+  id: candidate identity
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identity
+- type: DATA
+  id: information be
+- type: DATA
+  id: information collect via automate tracking technology
+- type: DATA
+  id: information regard candidate
+- type: DATA
+  id: information regard interviewer
+- type: DATA
+  id: informaton regade usage of platform
+- type: DATA
+  id: ip address
+- type: DATA
+  id: item include in note of interview
+- type: DATA
+  id: operating system
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: technical information
+- type: DATA
+  id: usage information

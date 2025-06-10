@@ -1,0 +1,160 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: coarse geolocation
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: signup source
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: time of registration
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: Zoom Video Communications
+  target: information you submit
+  key: COLLECT
+  text:
+  - When registering for any events or webinars on nomadgate.com organized by one
+    of our partners, in order to facilitate the registration the information you submit
+    will be shared both with Nomad Gate and the relavant partner, as well as with
+    Zoom Video Communications, Inc.
+  purposes:
+    services:
+    - in order to facilitate the registration
+- source: nomad gate
+  target: information you submit
+  key: COLLECT
+  text:
+  - When registering for any events or webinars on nomadgate.com organized by one
+    of our partners, in order to facilitate the registration the information you submit
+    will be shared both with Nomad Gate and the relavant partner, as well as with
+    Zoom Video Communications, Inc.
+  purposes:
+    services:
+    - in order to facilitate the registration
+- source: relavant partner
+  target: information you submit
+  key: COLLECT
+  text:
+  - When registering for any events or webinars on nomadgate.com organized by one
+    of our partners, in order to facilitate the registration the information you submit
+    will be shared both with Nomad Gate and the relavant partner, as well as with
+    Zoom Video Communications, Inc.
+  purposes:
+    services:
+    - in order to facilitate the registration
+- source: past subprocessor
+  target: Disqus
+  key: SUBSUM
+  text:
+  - 'Past subprocessors (no longer in use): Disqus, Inc., United States--Article comments
+    (not used since May 2018)'
+- source: past subprocessor
+  target: Metrics Delivered
+  key: SUBSUM
+  text:
+  - 'Past subprocessors (no longer in use): Metrics Delivered LLC (d.b.a. NeverBounce),
+    United States--Email validation (not used since March 2020)'
+- source: past subprocessor
+  target: Typeform
+  key: SUBSUM
+  text:
+  - 'Past subprocessors (no longer in use): Typeform S.L., Spain--Forms (not used
+    since November 2022)'
+- source: past subprocessor
+  target: convertfox
+  key: SUBSUM
+  text:
+  - 'Past subprocessors (no longer in use): ConvertFox, Inc. (d.b.a. ConvertFox),
+    United States--Customer support & analytics (not used since December 2018)'
+- source: past subprocessor
+  target: joshua anderton design
+  key: SUBSUM
+  text:
+  - 'Past subprocessors (no longer in use): Joshua Anderton Design (d.b.a. Upscribe),
+    Canada--Signup forms (not used since June 2018)'
+nodes:
+- type: ACTOR
+  id: Disqus
+- type: ACTOR
+  id: Metrics Delivered
+- type: ACTOR
+  id: Typeform
+- type: ACTOR
+  id: Zoom Video Communications
+- type: ACTOR
+  id: convertfox
+- type: ACTOR
+  id: joshua anderton design
+- type: ACTOR
+  id: nomad gate
+- type: ACTOR
+  id: past subprocessor
+- type: ACTOR
+  id: relavant partner
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: coarse geolocation
+- type: DATA
+  id: email address
+- type: DATA
+  id: information you submit
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: signup source
+- type: DATA
+  id: time of registration

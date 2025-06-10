@@ -1,0 +1,288 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In the rare case we share data with vendors.
+  purposes: {}
+- source: we
+  target: encryption
+  key: COLLECT
+  text:
+  - We use encryption to protect your information.
+  purposes:
+    security:
+    - to protect your information
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Agreement
+
+
+    2.2 Legal Compliance: Company may disclose personal information if required to
+    do so by law or in response to valid requests by public authorities (e.g., court
+    orders or government agencies).'
+  - 'Privacy Agreement
+
+
+    Company shall retain personal information only for as long as necessary to fulfill
+    the purposes outlined in this Agreement or as required by law.'
+  purposes:
+    legal:
+    - to fulfill the purposes outlined in this Agreement or as required by law
+- source: we
+  target: personal information from user
+  key: COLLECT
+  text:
+  - 'Company may collect and process personal information from Users, including but
+    not limited to:'
+  purposes: {}
+- source: we
+  target: relevant data
+  key: COLLECT
+  text:
+  - Only relevant data is given and we ensure the vendor is secure and trustworthy.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In the rare case we share data with vendors.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: datum perform task on behalf of company
+  key: COLLECT
+  text:
+  - These third parties shall only have access to the data to perform these tasks
+    on behalf of Company and are obligated not to disclose or use it for any other
+    purpose.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: mobile information
+  key: COLLECT
+  text:
+  - No mobile information will be shared with third parties/affiliates for marketing/promotional
+    purposes.
+  purposes:
+    advertising:
+    - for marketing/promotional purposes
+- source: email audit log
+  target: attachment
+  key: SUBSUM
+  text:
+  - The App will use access to read the email Audit log including message subjects,
+    recipients and senders (potentially attachments and bodies), metadata, headers,
+    and settings to provide a report for administrators to see productivity across
+    the organization.
+- source: email audit log
+  target: body
+  key: SUBSUM
+  text:
+  - The App will use access to read the email Audit log including message subjects,
+    recipients and senders (potentially attachments and bodies), metadata, headers,
+    and settings to provide a report for administrators to see productivity across
+    the organization.
+- source: email audit log
+  target: header
+  key: SUBSUM
+  text:
+  - The App will use access to read the email Audit log including message subjects,
+    recipients and senders (potentially attachments and bodies), metadata, headers,
+    and settings to provide a report for administrators to see productivity across
+    the organization.
+- source: email audit log
+  target: message subject
+  key: SUBSUM
+  text:
+  - The App will use access to read the email Audit log including message subjects,
+    recipients and senders (potentially attachments and bodies), metadata, headers,
+    and settings to provide a report for administrators to see productivity across
+    the organization.
+- source: email audit log
+  target: metadata
+  key: SUBSUM
+  text:
+  - The App will use access to read the email Audit log including message subjects,
+    recipients and senders (potentially attachments and bodies), metadata, headers,
+    and settings to provide a report for administrators to see productivity across
+    the organization.
+- source: email audit log
+  target: recipient
+  key: SUBSUM
+  text:
+  - The App will use access to read the email Audit log including message subjects,
+    recipients and senders (potentially attachments and bodies), metadata, headers,
+    and settings to provide a report for administrators to see productivity across
+    the organization.
+- source: email audit log
+  target: sender
+  key: SUBSUM
+  text:
+  - The App will use access to read the email Audit log including message subjects,
+    recipients and senders (potentially attachments and bodies), metadata, headers,
+    and settings to provide a report for administrators to see productivity across
+    the organization.
+- source: email audit log
+  target: setting
+  key: SUBSUM
+  text:
+  - The App will use access to read the email Audit log including message subjects,
+    recipients and senders (potentially attachments and bodies), metadata, headers,
+    and settings to provide a report for administrators to see productivity across
+    the organization.
+- source: encryption method
+  target: sha
+  key: SUBSUM
+  text:
+  - Encryption methods such as SHA 256 and aes-256-gcm are used to encrypt data in
+    flight and at rest.
+- source: google calendar datum
+  target: google workspace audit report
+  key: SUBSUM
+  text:
+  - The App will use access to read, write, modify, or control your Google Workspace
+    audit reports (including all calendar event related metadata and Google Meeting
+    metadata) and will not transfer this Google Calendar data to others unless doing
+    so is necessary to provide and improve these features, comply with applicable
+    law, or as part of a merger, acquisition, or sale of assets.
+- source: google workspace audit report
+  target: google meeting metadata
+  key: SUBSUM
+  text:
+  - The App will use access to read, write, modify, or control your Google Workspace
+    audit reports (including all calendar event related metadata and Google Meeting
+    metadata) and will not transfer this Google Calendar data to others unless doing
+    so is necessary to provide and improve these features, comply with applicable
+    law, or as part of a merger, acquisition, or sale of assets.
+- source: google workspace audit report
+  target: relate metadata
+  key: SUBSUM
+  text:
+  - The App will use access to read, write, modify, or control your Google Workspace
+    audit reports (including all calendar event related metadata and Google Meeting
+    metadata) and will not transfer this Google Calendar data to others unless doing
+    so is necessary to provide and improve these features, comply with applicable
+    law, or as part of a merger, acquisition, or sale of assets.
+- source: personal information from user
+  target: billing detail
+  key: SUBSUM
+  text:
+  - 'Company may collect and process personal information from Users, including but
+    not limited to: Billing details'
+- source: personal information from user
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Company may collect and process personal information from Users, including but
+    not limited to: Contact information'
+- source: personal information from user
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Company may collect and process personal information from Users, including but
+    not limited to: Email address'
+- source: personal information from user
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'Company may collect and process personal information from Users, including but
+    not limited to: Usage data'
+- source: personal information from user
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Company may collect and process personal information from Users, including but
+    not limited to: Name'
+- source: public authority
+  target: government agency
+  key: SUBSUM
+  text:
+  - 'Privacy Agreement
+
+
+    2.2 Legal Compliance: Company may disclose personal information if required to
+    do so by law or in response to valid requests by public authorities (e.g., court
+    orders or government agencies).'
+- source: require audit
+  target: pci
+  key: SUBSUM
+  text:
+  - This almost always means they have required audits such as SOC 2 or PCI.
+- source: require audit
+  target: soc
+  key: SUBSUM
+  text:
+  - This almost always means they have required audits such as SOC 2 or PCI.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: government agency
+- type: ACTOR
+  id: pci
+- type: ACTOR
+  id: public authority
+- type: ACTOR
+  id: require audit
+- type: ACTOR
+  id: soc
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: attachment
+- type: DATA
+  id: billing detail
+- type: DATA
+  id: body
+- type: DATA
+  id: contact information
+- type: DATA
+  id: datum perform task on behalf of company
+- type: DATA
+  id: email address
+- type: DATA
+  id: email audit log
+- type: DATA
+  id: encryption
+- type: DATA
+  id: encryption method
+- type: DATA
+  id: google calendar datum
+- type: DATA
+  id: google meeting metadata
+- type: DATA
+  id: google workspace audit report
+- type: DATA
+  id: header
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: message subject
+- type: DATA
+  id: metadata
+- type: DATA
+  id: mobile information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information from user
+- type: DATA
+  id: recipient
+- type: DATA
+  id: relate metadata
+- type: DATA
+  id: relevant data
+- type: DATA
+  id: sender
+- type: DATA
+  id: setting
+- type: DATA
+  id: sha

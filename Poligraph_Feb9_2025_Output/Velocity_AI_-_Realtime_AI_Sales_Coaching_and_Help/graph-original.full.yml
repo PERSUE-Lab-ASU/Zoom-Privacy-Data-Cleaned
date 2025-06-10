@@ -1,0 +1,282 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For verification purposes, we may require you to provide certain information to
+    confirm your identity before processing your request.
+  - However, we may share your information with third-party service providers who
+    perform services on our behalf.
+  - 'Our App collects information in a few different ways: 1.1'
+  - Please note that your information might also be disclosed to our affiliates and
+    in the event of an acquisition, sale, or asset sale, where your Personal Data
+    may be transferred as part of the business assets.
+  purposes:
+    analytics:
+    - For verification purposes
+    security:
+    - For verification purposes
+    - to confirm your identity
+    services:
+    - For verification purposes
+    - to confirm your identity
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Cookies : We use cookies to personalize your experience on Velocity AI, remember
+    your preferences, and understand usage patterns.'
+  purposes:
+    analytics:
+    - to personalize your experience on Velocity AI, remember your preferences, and
+      understand usage patterns
+    services:
+    - to personalize your experience on Velocity AI, remember your preferences, and
+      understand usage patterns
+- source: we
+  target: information about device you use
+  key: COLLECT
+  text:
+  - We may collect information about the device you're using to access Velocity AI,
+    including the type of device, operating system, and browser.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We collect your IP address to ensure a secure and stable connection to Velocity
+    AI.
+  purposes:
+    security:
+    - to ensure a secure and stable connection to Velocity AI
+    services:
+    - to ensure a secure and stable connection to Velocity AI
+- source: we
+  target: personal info you make
+  key: COLLECT
+  text:
+  - This includes any personal info you've made publicly available on your Google
+    profile.
+  - We use this information to customize the user experience.
+  purposes:
+    services:
+    - to customize the user experience
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In certain circumstances, we may also be required to disclose your Personal Data
+    if mandated by law or in response to valid requests by public authorities (e.g.,
+    a court or a government agency).
+  - We retain your Personal Data only for as long as is necessary for the purposes
+    set out in this Privacy Policy.
+  - We will retain and use your Personal Data to the extent necessary to comply with
+    our legal obligations, resolve disputes, and enforce our legal agreements and
+    policies.
+  purposes: {}
+- source: we
+  target: standard application use datum
+  key: COLLECT
+  text:
+  - As part of the regular operation of Velocity AI, we collect standard application
+    use data to improve your experience, secure your interactions, and streamline
+    our service.
+  purposes:
+    security:
+    - to improve your experience, secure your interactions, and streamline our service
+    services:
+    - to improve your experience, secure your interactions, and streamline our service
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, we may share your information with third-party service providers who
+    perform services on our behalf.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: google user data
+  key: COLLECT
+  text:
+  - No Google user data is shared with third parties without explicit user consent,
+    which is clearly obtained through an affirmative action in our consent process
+    (detailed in Section 2, Consent).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: raw audio datum from meeting
+  key: COLLECT
+  text:
+  - Raw audio data from your meetings is shared with third-party transcription services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: text transcript of meeting
+  key: COLLECT
+  text:
+  - Text transcripts of your meetings are shared with third-party AI models.
+  purposes: {}
+- source: real time zoom streaming data velocity ai
+  target: real time stream datum of zoom call
+  key: COLLECT
+  text:
+  - 1.3 Real-Time Zoom Streaming Data Velocity AI captures and processes the real-time
+    streaming data of your Zoom calls to provide its core functionality.
+  purposes:
+    services:
+    - to provide its core functionality
+- source: velocity ai
+  target: real time audio stream of zoom call
+  key: COLLECT
+  text:
+  - Velocity AI uses the real-time audio and video streams of your Zoom calls to generate
+    on-the-spot suggestions and coaching.
+  purposes:
+    advertising:
+    - to generate on-the-spot suggestions and coaching
+    services:
+    - to generate on-the-spot suggestions and coaching
+- source: calendar data
+  target: information about meeting schedule in calendar
+  key: SUBSUM
+  text:
+  - Calendar data, which includes information about the meetings scheduled in your
+    calendar, is used internally to manage the scheduling of our bot for note-taking.
+- source: datum share
+  target: calendar datum for scheduling support
+  key: SUBSUM
+  text:
+  - 'Examples of data shared include: email addresses for account verification, calendar
+    data for scheduling support, and any personal information necessary for enhancing
+    user experience.'
+- source: datum share
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Examples of data shared include: email addresses for account verification, calendar
+    data for scheduling support, and any personal information necessary for enhancing
+    user experience.'
+- source: datum share
+  target: personal information necessary
+  key: SUBSUM
+  text:
+  - 'Examples of data shared include: email addresses for account verification, calendar
+    data for scheduling support, and any personal information necessary for enhancing
+    user experience.'
+- source: information about device you use
+  target: type of device
+  key: SUBSUM
+  text:
+  - We may collect information about the device you're using to access Velocity AI,
+    including the type of device, operating system, and browser.
+- source: personal information
+  target: specific piece
+  key: SUBSUM
+  text:
+  - 'These rights may include, but are not limited to, the following: Right to Know/Request
+    Access : You have the right to request information about the specific pieces of
+    personal data we have collected about you, the categories of personal data we
+    have collected, the categories of sources from which the personal data was collected,
+    the purpose of collecting the personal data, and the categories of third parties
+    with whom we have shared your personal data.'
+- source: public authority
+  target: court
+  key: SUBSUM
+  text:
+  - In certain circumstances, we may also be required to disclose your Personal Data
+    if mandated by law or in response to valid requests by public authorities (e.g.,
+    a court or a government agency).
+- source: public authority
+  target: government agency
+  key: SUBSUM
+  text:
+  - In certain circumstances, we may also be required to disclose your Personal Data
+    if mandated by law or in response to valid requests by public authorities (e.g.,
+    a court or a government agency).
+- source: session data
+  target: amount of time spend on app
+  key: SUBSUM
+  text:
+  - Session data includes details about your interaction with the App, such as the
+    date and time of your access, pages viewed, and the amount of time spent on the
+    App.
+- source: session data
+  target: date
+  key: SUBSUM
+  text:
+  - Session data includes details about your interaction with the App, such as the
+    date and time of your access, pages viewed, and the amount of time spent on the
+    App.
+- source: source from collect
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'These rights may include, but are not limited to, the following: Right to Know/Request
+    Access : You have the right to request information about the specific pieces of
+    personal data we have collected about you, the categories of personal data we
+    have collected, the categories of sources from which the personal data was collected,
+    the purpose of collecting the personal data, and the categories of third parties
+    with whom we have shared your personal data.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: court
+- type: ACTOR
+  id: government agency
+- type: ACTOR
+  id: public authority
+- type: ACTOR
+  id: real time zoom streaming data velocity ai
+- type: ACTOR
+  id: velocity ai
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: amount of time spend on app
+- type: DATA
+  id: calendar data
+- type: DATA
+  id: calendar datum for scheduling support
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: datum share
+- type: DATA
+  id: email address
+- type: DATA
+  id: google user data
+- type: DATA
+  id: information about device you use
+- type: DATA
+  id: information about meeting schedule in calendar
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal info you make
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information necessary
+- type: DATA
+  id: raw audio datum from meeting
+- type: DATA
+  id: real time audio stream of zoom call
+- type: DATA
+  id: real time stream datum of zoom call
+- type: DATA
+  id: session data
+- type: DATA
+  id: source from collect
+- type: DATA
+  id: specific piece
+- type: DATA
+  id: standard application use datum
+- type: DATA
+  id: text transcript of meeting
+- type: DATA
+  id: type of device

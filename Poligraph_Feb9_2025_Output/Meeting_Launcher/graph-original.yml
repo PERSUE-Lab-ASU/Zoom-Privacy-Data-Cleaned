@@ -1,0 +1,614 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may disclose or use aggregated or anonymized Data for any purposes including
+    research.
+  purposes: {}
+- source: we
+  target: browser configuration
+  key: COLLECT
+  text:
+  - As is true of most websites and technology services offered via internet, our
+    servers automatically collect information when you access or use our Websites
+    or Services and record them in log files.
+  - This information may include IP address, the address of the web address you have
+    come from and you are going to, browser type and settings, your internet service
+    provider or mobile carrier, your searches, your operating system, your location,
+    the date and time you have accessed or used Services, information about your browser
+    configuration and plugins, language preference and cookie data.
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - As is true of most websites and technology services offered via internet, our
+    servers automatically collect information when you access or use our Websites
+    or Services and record them in log files.
+  - This information may include IP address, the address of the web address you have
+    come from and you are going to, browser type and settings, your internet service
+    provider or mobile carrier, your searches, your operating system, your location,
+    the date and time you have accessed or used Services, information about your browser
+    configuration and plugins, language preference and cookie data.
+  purposes: {}
+- source: we
+  target: coarse geolocation
+  key: COLLECT
+  text:
+  - In addition to information we collect on our Websites and Services, when you use
+    our Mobile Apps we may also collect further information including your city location,
+    device model and version, device identifier (or "UDID"), OS version, and your
+    subscription.
+  purposes: {}
+- source: we
+  target: company address
+  key: COLLECT
+  text:
+  - 'When you purchase or subscribe to our Services, we require you to provide the
+    following personal information: Primary Information, company address, billing
+    name and address, the number of employees within the organization and any other
+    information you choose to provide to us ("Personal Data").'
+  purposes: {}
+- source: we
+  target: company name
+  key: COLLECT
+  text:
+  - 'When you request more information about the Services, we require you to provide
+    the following personal information: your name, email address, your company name,
+    and telephone number ("Primary Information").'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - As is true of most websites and technology services offered via internet, our
+    servers automatically collect information when you access or use our Websites
+    or Services and record them in log files.
+  - In addition, we use third party cookies like Google Analytics.
+  - This information may include IP address, the address of the web address you have
+    come from and you are going to, browser type and settings, your internet service
+    provider or mobile carrier, your searches, your operating system, your location,
+    the date and time you have accessed or used Services, information about your browser
+    configuration and plugins, language preference and cookie data.
+  - We and/or our third party partners may use Flash cookies to remember settings,
+    preferences and usage and volume information from you to provide personalized
+    settings, enhanced interactions and more relevant communications, and to track
+    the performance of our advertisements.
+  - We use cookies and other ad technology such as Web beacons, pixels and tags or
+    in any combination to compile information about your usage of our Websites or
+    Services and give you a personalized experience in a faster and more secure way.
+  purposes:
+    advertising:
+    - to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+    - to remember settings, preferences and usage and volume information from you
+      to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+    analytics:
+    - to compile information about your usage of our Websites or Services and give
+      you a personalized experience in a faster and more secure way
+    - to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+    - to remember settings, preferences and usage and volume information from you
+      to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+    security:
+    - to compile information about your usage of our Websites or Services and give
+      you a personalized experience in a faster and more secure way
+    services:
+    - to compile information about your usage of our Websites or Services and give
+      you a personalized experience in a faster and more secure way
+    - to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+    - to remember settings, preferences and usage and volume information from you
+      to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+- source: we
+  target: date
+  key: COLLECT
+  text:
+  - As is true of most websites and technology services offered via internet, our
+    servers automatically collect information when you access or use our Websites
+    or Services and record them in log files.
+  - This information may include IP address, the address of the web address you have
+    come from and you are going to, browser type and settings, your internet service
+    provider or mobile carrier, your searches, your operating system, your location,
+    the date and time you have accessed or used Services, information about your browser
+    configuration and plugins, language preference and cookie data.
+  purposes: {}
+- source: we
+  target: device identifier
+  key: COLLECT
+  text:
+  - In addition to information we collect on our Websites and Services, when you use
+    our Mobile Apps we may also collect further information including your city location,
+    device model and version, device identifier (or "UDID"), OS version, and your
+    subscription.
+  purposes: {}
+- source: we
+  target: device model
+  key: COLLECT
+  text:
+  - In addition to information we collect on our Websites and Services, when you use
+    our Mobile Apps we may also collect further information including your city location,
+    device model and version, device identifier (or "UDID"), OS version, and your
+    subscription.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - Through our "import option", we may also collect Personal Data or email addresses
+    of contacts that you choose to share with us.
+  - We will use your email address or phone number to contact you for administrative
+    purposes, for customer service purposes, to address intellectual property notice,
+    to notify you of changes to our services, provide important notices, rights of
+    privacy, or defamation issues.
+  - 'When you request more information about the Services, we require you to provide
+    the following personal information: your name, email address, your company name,
+    and telephone number ("Primary Information").'
+  purposes:
+    security:
+    - to contact you for administrative purposes, for customer service purposes, to
+      address intellectual property notice, to notify you of changes to our services,
+      provide important notices, rights of privacy, or defamation issues
+    services:
+    - to contact you for administrative purposes, for customer service purposes, to
+      address intellectual property notice, to notify you of changes to our services,
+      provide important notices, rights of privacy, or defamation issues
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - As is true of most websites and technology services offered via internet, our
+    servers automatically collect information when you access or use our Websites
+    or Services and record them in log files.
+  - This information may include IP address, the address of the web address you have
+    come from and you are going to, browser type and settings, your internet service
+    provider or mobile carrier, your searches, your operating system, your location,
+    the date and time you have accessed or used Services, information about your browser
+    configuration and plugins, language preference and cookie data.
+  - When you come to visit our Websites, we collect information about your browser
+    type, Internet Protocol ("IP") address, geographical location, referral source,
+    length of visit and pages viewed ("Navigational Information").
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may use information about you that we collect from other sources, including
+    but not limited to newspapers and internet sources such as blogs, instant messaging
+    services, Platform developers, social media websites and other users of our Websites,
+    to supplement your profile.
+  purposes:
+    analytics:
+    - to supplement your profile
+    services:
+    - to supplement your profile
+- source: we
+  target: information you choose
+  key: COLLECT
+  text:
+  - 'When you purchase or subscribe to our Services, we require you to provide the
+    following personal information: Primary Information, company address, billing
+    name and address, the number of employees within the organization and any other
+    information you choose to provide to us ("Personal Data").'
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - As is true of most websites and technology services offered via internet, our
+    servers automatically collect information when you access or use our Websites
+    or Services and record them in log files.
+  - This information may include IP address, the address of the web address you have
+    come from and you are going to, browser type and settings, your internet service
+    provider or mobile carrier, your searches, your operating system, your location,
+    the date and time you have accessed or used Services, information about your browser
+    configuration and plugins, language preference and cookie data.
+  - When you come to visit our Websites, we collect information about your browser
+    type, Internet Protocol ("IP") address, geographical location, referral source,
+    length of visit and pages viewed ("Navigational Information").
+  purposes: {}
+- source: we
+  target: language preference
+  key: COLLECT
+  text:
+  - As is true of most websites and technology services offered via internet, our
+    servers automatically collect information when you access or use our Websites
+    or Services and record them in log files.
+  - This information may include IP address, the address of the web address you have
+    come from and you are going to, browser type and settings, your internet service
+    provider or mobile carrier, your searches, your operating system, your location,
+    the date and time you have accessed or used Services, information about your browser
+    configuration and plugins, language preference and cookie data.
+  purposes: {}
+- source: we
+  target: navigational information
+  key: COLLECT
+  text:
+  - In addition, we use Navigational Information, Personal Data you have provided,
+    publicly available information about you or in any combination of these to understand,
+    operate, enhance, improve, research, and analyze the usage trends and preferences
+    to the features of our Services and to create new features and functionality.
+  - We use Navigational Information alone or in combinations with publicly available
+    information about you to operate, enhance, improve and personalize your experience
+    on our Websites.
+  - When you come to visit our Websites, we collect information about your browser
+    type, Internet Protocol ("IP") address, geographical location, referral source,
+    length of visit and pages viewed ("Navigational Information").
+  purposes:
+    analytics:
+    - to understand, operate, enhance, improve, research, and analyze the usage trends
+      and preferences to the features of our Services and to create new features and
+      functionality
+    services:
+    - to operate, enhance, improve and personalize your experience on our Websites
+    - to understand, operate, enhance, improve, research, and analyze the usage trends
+      and preferences to the features of our Services and to create new features and
+      functionality
+- source: we
+  target: number of employee within organization
+  key: COLLECT
+  text:
+  - 'When you purchase or subscribe to our Services, we require you to provide the
+    following personal information: Primary Information, company address, billing
+    name and address, the number of employees within the organization and any other
+    information you choose to provide to us ("Personal Data").'
+  purposes: {}
+- source: we
+  target: os version
+  key: COLLECT
+  text:
+  - In addition to information we collect on our Websites and Services, when you use
+    our Mobile Apps we may also collect further information including your city location,
+    device model and version, device identifier (or "UDID"), OS version, and your
+    subscription.
+  purposes: {}
+- source: we
+  target: payment
+  key: COLLECT
+  text:
+  - When you provide us with credit card information, we use it to check your financial
+    qualifications and to collect payment from you.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'When you purchase or subscribe to our Services, we require you to provide the
+    following personal information: Primary Information, company address, billing
+    name and address, the number of employees within the organization and any other
+    information you choose to provide to us ("Personal Data").'
+  - 'When you request more information about the Services, we require you to provide
+    the following personal information: your name, email address, your company name,
+    and telephone number ("Primary Information").'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition, we use Navigational Information, Personal Data you have provided,
+    publicly available information about you or in any combination of these to understand,
+    operate, enhance, improve, research, and analyze the usage trends and preferences
+    to the features of our Services and to create new features and functionality.
+  - The Company primarily stores your Personal Data in the United States.
+  - Through our "import option", we may also collect Personal Data or email addresses
+    of contacts that you choose to share with us.
+  - We may transfer Personal Data you provided to countries other than the one in
+    which you live.
+  - We may use your Personal Data to send information about new product features or
+    marketing communications from the business of carefully selected third parties
+    which we think may be of interest to you.
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  - We will share, disclose, and update your Personal Data in accordance with your
+    instructions, including any applicable Agreement, Terms of Conditions, and Terms
+    of Use.
+  - 'When you purchase or subscribe to our Services, we require you to provide the
+    following personal information: Primary Information, company address, billing
+    name and address, the number of employees within the organization and any other
+    information you choose to provide to us ("Personal Data").'
+  - 'When you request more information about the Services, we require you to provide
+    the following personal information: your name, email address, your company name,
+    and telephone number ("Primary Information").'
+  purposes:
+    advertising:
+    - to send information about new product features or marketing communications from
+      the business of carefully selected third parties which we think may be of interest
+      to you
+    analytics:
+    - to understand, operate, enhance, improve, research, and analyze the usage trends
+      and preferences to the features of our Services and to create new features and
+      functionality
+    services:
+    - to understand, operate, enhance, improve, research, and analyze the usage trends
+      and preferences to the features of our Services and to create new features and
+      functionality
+- source: we
+  target: personal information about contact
+  key: COLLECT
+  text:
+  - We will only use this information for the specific manner under this Privacy Policy,
+    such as to add new accounts to your account.
+  - When you provide us with personal information about your contacts, they are subject
+    to your own privacy policy and you are responsible.
+  purposes:
+    services:
+    - for the specific manner under this Privacy Policy, such as to add new accounts
+      to your account
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - We will use your email address or phone number to contact you for administrative
+    purposes, for customer service purposes, to address intellectual property notice,
+    to notify you of changes to our services, provide important notices, rights of
+    privacy, or defamation issues.
+  - 'When you request more information about the Services, we require you to provide
+    the following personal information: your name, email address, your company name,
+    and telephone number ("Primary Information").'
+  purposes:
+    security:
+    - to contact you for administrative purposes, for customer service purposes, to
+      address intellectual property notice, to notify you of changes to our services,
+      provide important notices, rights of privacy, or defamation issues
+    services:
+    - to contact you for administrative purposes, for customer service purposes, to
+      address intellectual property notice, to notify you of changes to our services,
+      provide important notices, rights of privacy, or defamation issues
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - As is true of most websites and technology services offered via internet, our
+    servers automatically collect information when you access or use our Websites
+    or Services and record them in log files.
+  - This information may include IP address, the address of the web address you have
+    come from and you are going to, browser type and settings, your internet service
+    provider or mobile carrier, your searches, your operating system, your location,
+    the date and time you have accessed or used Services, information about your browser
+    configuration and plugins, language preference and cookie data.
+  - 'When you purchase or subscribe to our Services, we require you to provide the
+    following personal information: Primary Information, company address, billing
+    name and address, the number of employees within the organization and any other
+    information you choose to provide to us ("Personal Data").'
+  purposes: {}
+- source: we
+  target: primary information
+  key: COLLECT
+  text:
+  - 'When you purchase or subscribe to our Services, we require you to provide the
+    following personal information: Primary Information, company address, billing
+    name and address, the number of employees within the organization and any other
+    information you choose to provide to us ("Personal Data").'
+  purposes: {}
+- source: we
+  target: publicly available information about you
+  key: COLLECT
+  text:
+  - In addition, we use Navigational Information, Personal Data you have provided,
+    publicly available information about you or in any combination of these to understand,
+    operate, enhance, improve, research, and analyze the usage trends and preferences
+    to the features of our Services and to create new features and functionality.
+  purposes:
+    analytics:
+    - to understand, operate, enhance, improve, research, and analyze the usage trends
+      and preferences to the features of our Services and to create new features and
+      functionality
+    services:
+    - to understand, operate, enhance, improve, research, and analyze the usage trends
+      and preferences to the features of our Services and to create new features and
+      functionality
+- source: we
+  target: search
+  key: COLLECT
+  text:
+  - As is true of most websites and technology services offered via internet, our
+    servers automatically collect information when you access or use our Websites
+    or Services and record them in log files.
+  - This information may include IP address, the address of the web address you have
+    come from and you are going to, browser type and settings, your internet service
+    provider or mobile carrier, your searches, your operating system, your location,
+    the date and time you have accessed or used Services, information about your browser
+    configuration and plugins, language preference and cookie data.
+  purposes: {}
+- source: we
+  target: setting
+  key: COLLECT
+  text:
+  - As is true of most websites and technology services offered via internet, our
+    servers automatically collect information when you access or use our Websites
+    or Services and record them in log files.
+  - This information may include IP address, the address of the web address you have
+    come from and you are going to, browser type and settings, your internet service
+    provider or mobile carrier, your searches, your operating system, your location,
+    the date and time you have accessed or used Services, information about your browser
+    configuration and plugins, language preference and cookie data.
+  purposes: {}
+- source: we
+  target: version
+  key: COLLECT
+  text:
+  - In addition to information we collect on our Websites and Services, when you use
+    our Mobile Apps we may also collect further information including your city location,
+    device model and version, device identifier (or "UDID"), OS version, and your
+    subscription.
+  purposes: {}
+- source: we
+  target: web address you come from
+  key: COLLECT
+  text:
+  - As is true of most websites and technology services offered via internet, our
+    servers automatically collect information when you access or use our Websites
+    or Services and record them in log files.
+  - This information may include IP address, the address of the web address you have
+    come from and you are going to, browser type and settings, your internet service
+    provider or mobile carrier, your searches, your operating system, your location,
+    the date and time you have accessed or used Services, information about your browser
+    configuration and plugins, language preference and cookie data.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we may employ third party companies or individuals for website creation
+    and development, hosting, maintenance and support; virtual computing and storage
+    services.
+  - These third party companies may have access to or process your information.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We and/or our third party partners may use Flash cookies to remember settings,
+    preferences and usage and volume information from you to provide personalized
+    settings, enhanced interactions and more relevant communications, and to track
+    the performance of our advertisements.
+  purposes:
+    advertising:
+    - to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+    - to remember settings, preferences and usage and volume information from you
+      to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+    analytics:
+    - to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+    - to remember settings, preferences and usage and volume information from you
+      to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+    services:
+    - to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+    - to remember settings, preferences and usage and volume information from you
+      to provide personalized settings, enhanced interactions and more relevant communications,
+      and to track the performance of our advertisements
+- source: mobile app
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 11. Mobile Apps
+  - Mobile Apps may transmit information to and from Devices to provide the Mobile
+    Application services.
+  purposes:
+    services:
+    - to provide the Mobile Application services
+- source: social media
+  target: ip address
+  key: COLLECT
+  text:
+  - The Company's Websites and Services may use social media features, such as the
+    Facebook "like" button.
+  - These features may collect your IP address and which page you are visiting on
+    the Company's Websites, and may set a cookie to enable the feature to function
+    properly.
+  purposes: {}
+- source: we
+  target: mobile apps
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes our privacy policy practices in relation to your
+    access and uses of Platform and Solutions and its products and Mobile Apps (collectively,
+    the "Services"), your use and access to our Websites and your choices regarding
+    use, access, correction and deletion of your personal information.
+- source: we
+  target: platform
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes our privacy policy practices in relation to your
+    access and uses of Platform and Solutions and its products and Mobile Apps (collectively,
+    the "Services"), your use and access to our Websites and your choices regarding
+    use, access, correction and deletion of your personal information.
+- source: we
+  target: solutions
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes our privacy policy practices in relation to your
+    access and uses of Platform and Solutions and its products and Mobile Apps (collectively,
+    the "Services"), your use and access to our Websites and your choices regarding
+    use, access, correction and deletion of your personal information.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: mobile app
+- type: ACTOR
+  id: mobile apps
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: solutions
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser configuration
+- type: DATA
+  id: browser type
+- type: DATA
+  id: coarse geolocation
+- type: DATA
+  id: company address
+- type: DATA
+  id: company name
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device model
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: navigational information
+- type: DATA
+  id: number of employee within organization
+- type: DATA
+  id: os version
+- type: DATA
+  id: payment
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information about contact
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: primary information
+- type: DATA
+  id: publicly available information about you
+- type: DATA
+  id: search
+- type: DATA
+  id: setting
+- type: DATA
+  id: version
+- type: DATA
+  id: web address you come from

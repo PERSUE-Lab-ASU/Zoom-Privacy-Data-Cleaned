@@ -1,0 +1,291 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - How We Retain and Keep Your Data Secure
+  - What Data We Collect
+  purposes: {}
+- source: we
+  target: datum about device battery information
+  key: COLLECT
+  text:
+  - We collect data about device battery information.
+  purposes: {}
+- source: we
+  target: datum we collect
+  key: COLLECT
+  text:
+  - 'What Data We Collect
+
+
+    Data We Collect'
+  purposes: {}
+- source: we
+  target: datum you give we
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    What Data We Collect
+
+
+    Data You Give Us'
+  purposes: {}
+- source: we
+  target: detail about
+  key: COLLECT
+  text:
+  - We collect details about how network is used over a period.
+  purposes: {}
+- source: we
+  target: device detail about storage unit on device
+  key: COLLECT
+  text:
+  - We collect device details about storage units on the device.
+  purposes: {}
+- source: we
+  target: device memory information
+  key: COLLECT
+  text:
+  - We collect device memory information.
+  purposes: {}
+- source: we
+  target: device specific information
+  key: COLLECT
+  text:
+  - We collect device-specific information.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We collect device location information periodically even when the application
+    is in background.
+  purposes: {}
+- source: we
+  target: information about device
+  key: COLLECT
+  text:
+  - To provide TechPulse products, we must process information about the device.
+  purposes:
+    services:
+    - To provide TechPulse products
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'We use the information we collect for following purposes, including:'
+  purposes:
+    analytics:
+    - Device Utilization
+    - Location information
+    - Mobility Factor
+    - Software Utilization
+    - To forecast ahead the time duration left prior to the disk space reaching a
+      predetermined threshold
+    - To provide information about devices that have high storage and memory utilization,
+      and the software applications causing high CPU and memory utilization
+    - To provide information on battery replacement recommendation based on battery
+      health of devices enrolled in Proactive Management
+    - To provide information on the mobility aspects of devices by classifying devices
+      into various mobility factor categories and grouping device mobility factor
+      by hardware health.
+    - To provide the hardware inventory of devices by last seen status in Proactive
+      Management
+    - To show a monthly trend of suboptimal devices as unhealthy and facilitates drilling
+      down to identify devices failing to meet individual performance metrics (i.e.
+      battery health, disk health, thermal health, network, applications, memory,
+      and storage space utilization).
+    services:
+    - Device Utilization
+    - Hardware Health
+    - Location information
+    - Mobility Factor
+    - Non-Reporting Devices
+    - Software Inventory
+    - Software Utilization
+    - Storage Capacity.
+    - To forecast ahead the time duration left prior to the disk space reaching a
+      predetermined threshold
+    - To provide information on battery replacement recommendation based on battery
+      health of devices enrolled in Proactive Management
+    - To provide information on the mobility aspects of devices by classifying devices
+      into various mobility factor categories and grouping device mobility factor
+      by hardware health.
+    - To provide the hardware inventory of devices by last seen status in Proactive
+      Management
+    - To show a monthly trend of suboptimal devices as unhealthy and facilitates drilling
+      down to identify devices failing to meet individual performance metrics (i.e.
+      battery health, disk health, thermal health, network, applications, memory,
+      and storage space utilization).
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We collect application usage data from the device.
+  purposes: {}
+- source: we
+  target: package dump
+  key: COLLECT
+  text:
+  - We collect data about installed applications on the device.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We keep your personal data for as long as necessary to provide you with HP Services,
+    for legitimate and essential business purposes, such as making data-driven business
+    decisions, complying with our legal obligations, and resolving disputes.
+  - 'We will only share your personal data as follows and, when applicable, only with
+    the appropriate contractual obligations in place: Sharing with HP Companies We
+    may transfer your personal data to other HP entities in the US and worldwide for
+    the purposes outlined in this Privacy Statement.'
+  purposes:
+    legal:
+    - for legitimate and essential business purposes, such as making data-driven business
+      decisions, complying with our legal obligations, and resolving disputes
+    services:
+    - for legitimate and essential business purposes, such as making data-driven business
+      decisions, complying with our legal obligations, and resolving disputes
+    - to manage or support certain aspects of our business operations on our behalf
+    - to provide you with HP Services
+- source: we
+  target: set of device information
+  key: COLLECT
+  text:
+  - We automatically collect the below set of device information periodically.
+  purposes: {}
+- source: HP
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - HP retains data as required or permitted by law and while the data continues to
+    have a legitimate business purpose.
+  purposes: {}
+- source: HP
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We will only share your personal data as follows and, when applicable, only with
+    the appropriate contractual obligations in place: Sharing with HP Companies We
+    may transfer your personal data to other HP entities in the US and worldwide for
+    the purposes outlined in this Privacy Statement.'
+  purposes: {}
+- source: datum about device battery information
+  target: battery health
+  key: SUBSUM
+  text:
+  - This data includes battery health, capacity, and temperature.
+  - We collect data about device battery information.
+- source: datum about device battery information
+  target: temperature
+  key: SUBSUM
+  text:
+  - This data includes battery health, capacity, and temperature.
+  - We collect data about device battery information.
+- source: detail about
+  target: amount of datum receive
+  key: SUBSUM
+  text:
+  - This data includes network carrier details, amount of data received and transmitted
+    over a period.
+  - We collect details about how network is used over a period.
+- source: detail about
+  target: network carrier detail
+  key: SUBSUM
+  text:
+  - This data includes network carrier details, amount of data received and transmitted
+    over a period.
+  - We collect details about how network is used over a period.
+- source: device memory information
+  target: device total memory
+  key: SUBSUM
+  text:
+  - This data includes device total memory and free memory.
+  - We collect device memory information.
+- source: device memory information
+  target: free memory
+  key: SUBSUM
+  text:
+  - This data includes device total memory and free memory.
+  - We collect device memory information.
+- source: internet activity
+  target: amount of storage space consume
+  key: SUBSUM
+  text:
+  - This data includes amount of time a particular application is in foreground over
+    a period and amount of storage space consumed by the app.
+  - We collect application usage data from the device.
+- source: internet activity
+  target: amount of time be
+  key: SUBSUM
+  text:
+  - This data includes amount of time a particular application is in foreground over
+    a period and amount of storage space consumed by the app.
+  - We collect application usage data from the device.
+- source: personal information
+  target: information collect from use of device
+  key: SUBSUM
+  text:
+  - This Privacy Statement informs you of our privacy practices and of the choices
+    you can make and rights you can exercise in relation to your personal data, including
+    information that may be collected from use of devices.
+nodes:
+- type: ACTOR
+  id: HP
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: amount of datum receive
+- type: DATA
+  id: amount of storage space consume
+- type: DATA
+  id: amount of time be
+- type: DATA
+  id: battery health
+- type: DATA
+  id: datum about device battery information
+- type: DATA
+  id: datum we collect
+- type: DATA
+  id: datum you give we
+- type: DATA
+  id: detail about
+- type: DATA
+  id: device detail about storage unit on device
+- type: DATA
+  id: device memory information
+- type: DATA
+  id: device specific information
+- type: DATA
+  id: device total memory
+- type: DATA
+  id: free memory
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about device
+- type: DATA
+  id: information collect from use of device
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: network carrier detail
+- type: DATA
+  id: package dump
+- type: DATA
+  id: personal information
+- type: DATA
+  id: set of device information
+- type: DATA
+  id: temperature

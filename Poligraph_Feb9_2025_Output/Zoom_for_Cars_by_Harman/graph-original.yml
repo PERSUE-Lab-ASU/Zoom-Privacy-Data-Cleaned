@@ -1,0 +1,40 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: Harman International Industries
+  target: personal information
+  key: COLLECT
+  text:
+  - Harman will only use personal data that we collect through Ignite in accordance
+    with this EULA.
+  purposes: {}
+- source: app provider
+  target: personal information
+  key: COLLECT
+  text:
+  - The App providers may use your personal data to offer/market their services (including
+    in-app purchases, upgrades, as well as support services) to you.
+  purposes:
+    advertising:
+    - to offer/market their services (including in-app purchases, upgrades, as well
+      as support services) to you
+    services:
+    - to offer/market their services (including in-app purchases, upgrades, as well
+      as support services) to you
+- source: applicable app provider
+  target: personal information
+  key: COLLECT
+  text:
+  - You understand that you may need to share your personal data with the applicable
+    App providers so that those Apps can provide services to you.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Harman International Industries
+- type: ACTOR
+  id: app provider
+- type: ACTOR
+  id: applicable app provider
+- type: DATA
+  id: personal information

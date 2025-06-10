@@ -1,0 +1,65 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how we collect, use, disclose, and safeguard your
+    information when you visit our website www.lingoafrica.us, use our services, or
+    interact with us.
+  - We may share or transfer your information in connection with, or during negotiations
+    of, any merger, sale of company assets, financing, or acquisition of all or a
+    portion of our business to another company.
+  - 'We may share your information in the following situations: For Legal Reasons:
+    We may disclose your information if required to do so by law or in response to
+    valid requests by public authorities (e.g., a court or a government agency).'
+  purposes:
+    legal:
+    - For Legal Reasons
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'We use the information we collect for various purposes, including:'
+  purposes:
+    advertising:
+    - To communicate with you about products, services, offers, and events offered
+      by us and others, and provide news and
+    - information we think will be of interest to you
+    analytics:
+    - To monitor and analyze trends, usage, and activities in connection with our
+      website
+    - information we think will be of interest to you
+    security:
+    - To detect, prevent, and address technical issues
+    - To send you technical notices, updates, security alerts, and support and administrative
+      messages
+    services:
+    - To communicate with you about products, services, offers, and events offered
+      by us and others, and provide news and
+    - To detect, prevent, and address technical issues
+    - To improve, personalize, and expand our website and services
+    - To manage your account and provide customer support
+    - To process transactions and send related information, including purchase confirmations
+      and invoices
+    - To provide, operate, and maintain our website
+    - To send you technical notices, updates, security alerts, and support and administrative
+      messages
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your information in the following situations: With Your Consent:
+    We may disclose your personal information for any other purpose with your consent.'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: personal information

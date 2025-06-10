@@ -1,0 +1,106 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, we may share your information with service providers who perform services
+    on our behalf.
+  - We may also use the information to detect and prevent fraud or other illegal activities.
+  purposes:
+    security:
+    - to detect and prevent fraud or other illegal activities
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We may use the information we collect to provide and improve our services, communicate
+    with you, and personalize your experience.
+  purposes:
+    services:
+    - to provide and improve our services, communicate with you, and personalize your
+      experience
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may also collect non-personal information, such as device information, usage
+    statistics, and location data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may collect personal information that you provide to us, such as your name,
+    email address, and telephone number.
+  purposes: {}
+- source: service provider who perform service on behalf
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, we may share your information with service providers who perform services
+    on our behalf.
+  purposes: {}
+- source: non-personal information
+  target: device information
+  key: SUBSUM
+  text:
+  - We may also collect non-personal information, such as device information, usage
+    statistics, and location data.
+- source: non-personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We may also collect non-personal information, such as device information, usage
+    statistics, and location data.
+- source: non-personal information
+  target: usage statistic
+  key: SUBSUM
+  text:
+  - We may also collect non-personal information, such as device information, usage
+    statistics, and location data.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - We may collect personal information that you provide to us, such as your name,
+    email address, and telephone number.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - We may collect personal information that you provide to us, such as your name,
+    email address, and telephone number.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - We may collect personal information that you provide to us, such as your name,
+    email address, and telephone number.
+nodes:
+- type: ACTOR
+  id: service provider who perform service on behalf
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: usage statistic

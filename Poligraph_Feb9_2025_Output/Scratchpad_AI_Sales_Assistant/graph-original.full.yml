@@ -1,0 +1,321 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate visitor information
+  key: COLLECT
+  text:
+  - For the www.scratchpad.com site, Scratchpad may collect and analyze aggregate
+    visitor information, including the domain name, visited surveys, referring URLs,
+    and other publicly available information.
+  - We use this information to improve our website and services and to customize the
+    content of our pages for each website visitor.
+  purposes:
+    services:
+    - to improve our website and services and to customize the content of our pages
+      for each website visitor
+- source: we
+  target: browsing datum
+  key: COLLECT
+  text:
+  - We may also collect browsing data from individuals who visit the Scratchpad Site
+    or use the Scratchpad Services.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website uses cookies to distinguish you from other users of our website.
+  - 'We use the following cookies:  Required Cookies.'
+  purposes:
+    services:
+    - to distinguish you from other users of our website
+- source: we
+  target: site usage
+  key: COLLECT
+  text:
+  - These cookies allow us to analyze site usage so we can measure and improve performance.
+  purposes: {}
+- source: scratchpad
+  target: account data
+  key: COLLECT
+  text:
+  - In the normal course of providing the Scratchpad service, Scratchpad collects
+    personal data or information pertaining to the owner of the applicable Scratchpad
+    Account and/or Authorized Users for that Account, including name, email, address,
+    phone number, employer and billing information ("Account Data").
+  - Scratchpad collects Account Data from you directly or from your employer.
+  purposes: {}
+- source: scratchpad
+  target: aggregate visitor information
+  key: COLLECT
+  text:
+  - For the www.scratchpad.com site, Scratchpad may collect and analyze aggregate
+    visitor information, including the domain name, visited surveys, referring URLs,
+    and other publicly available information.
+  purposes: {}
+- source: scratchpad
+  target: email address
+  key: COLLECT
+  text:
+  - In the normal course of providing the Scratchpad service, Scratchpad collects
+    personal data or information pertaining to the owner of the applicable Scratchpad
+    Account and/or Authorized Users for that Account, including name, email, address,
+    phone number, employer and billing information ("Account Data").
+  purposes: {}
+- source: scratchpad
+  target: employer information
+  key: COLLECT
+  text:
+  - In the normal course of providing the Scratchpad service, Scratchpad collects
+    personal data or information pertaining to the owner of the applicable Scratchpad
+    Account and/or Authorized Users for that Account, including name, email, address,
+    phone number, employer and billing information ("Account Data").
+  purposes: {}
+- source: scratchpad
+  target: person name
+  key: COLLECT
+  text:
+  - In the normal course of providing the Scratchpad service, Scratchpad collects
+    personal data or information pertaining to the owner of the applicable Scratchpad
+    Account and/or Authorized Users for that Account, including name, email, address,
+    phone number, employer and billing information ("Account Data").
+  purposes: {}
+- source: scratchpad
+  target: personal information
+  key: COLLECT
+  text:
+  - In the normal course of providing the Scratchpad service, Scratchpad collects
+    personal data or information pertaining to the owner of the applicable Scratchpad
+    Account and/or Authorized Users for that Account, including name, email, address,
+    phone number, employer and billing information ("Account Data").
+  purposes: {}
+- source: scratchpad
+  target: phone number
+  key: COLLECT
+  text:
+  - In the normal course of providing the Scratchpad service, Scratchpad collects
+    personal data or information pertaining to the owner of the applicable Scratchpad
+    Account and/or Authorized Users for that Account, including name, email, address,
+    phone number, employer and billing information ("Account Data").
+  purposes: {}
+- source: scratchpad
+  target: postal address
+  key: COLLECT
+  text:
+  - In the normal course of providing the Scratchpad service, Scratchpad collects
+    personal data or information pertaining to the owner of the applicable Scratchpad
+    Account and/or Authorized Users for that Account, including name, email, address,
+    phone number, employer and billing information ("Account Data").
+  purposes: {}
+- source: we
+  target: ai sale agent
+  key: SUBSUM
+  text:
+  - 'Products
+
+
+    AI Sales Agents'
+- source: we
+  target: automation
+  key: SUBSUM
+  text:
+  - Automations & Enablement
+  - Products
+- source: we
+  target: careers
+  key: SUBSUM
+  text:
+  - Careers
+  - Company
+- source: we
+  target: deal room
+  key: SUBSUM
+  text:
+  - 'Products
+
+
+    Deal Rooms'
+- source: we
+  target: mobile
+  key: SUBSUM
+  text:
+  - 'Products
+
+
+    Mobile'
+- source: we
+  target: pipeline management
+  key: SUBSUM
+  text:
+  - 'Products
+
+
+    Pipeline Management'
+- source: we
+  target: scratchpad
+  key: SUBSUM
+  text:
+  - This Privacy Policy explains how Scratchpad, Inc. ("Scratchpad", "we", "us", "our")
+    handles personal data collected by us as a data controller during the normal course
+    of business (sales, marketing, and support), as well as how Scratchpad as a data
+    processor handles all client relationship management information input into the
+    Scratchpad software by the Account Owner or Authorized Users or generated on behalf
+    of Account Owners in connection with the services.
+- source: aggregate visitor information
+  target: domain name
+  key: SUBSUM
+  text:
+  - For the www.scratchpad.com site, Scratchpad may collect and analyze aggregate
+    visitor information, including the domain name, visited surveys, referring URLs,
+    and other publicly available information.
+- source: aggregate visitor information
+  target: publicly available information
+  key: SUBSUM
+  text:
+  - For the www.scratchpad.com site, Scratchpad may collect and analyze aggregate
+    visitor information, including the domain name, visited surveys, referring URLs,
+    and other publicly available information.
+- source: aggregate visitor information
+  target: refer url
+  key: SUBSUM
+  text:
+  - For the www.scratchpad.com site, Scratchpad may collect and analyze aggregate
+    visitor information, including the domain name, visited surveys, referring URLs,
+    and other publicly available information.
+- source: aggregate visitor information
+  target: visit survey
+  key: SUBSUM
+  text:
+  - For the www.scratchpad.com site, Scratchpad may collect and analyze aggregate
+    visitor information, including the domain name, visited surveys, referring URLs,
+    and other publicly available information.
+- source: i nformation pertain to owner of account
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Information Definitions
+
+
+    Account Data: I nformation pertaining to the owner of the Account, including name,
+    email, address, billing information.'
+- source: personal datum for scratchpad act as datum controller
+  target: account data
+  key: SUBSUM
+  text:
+  - If you wish to exercise rights in relation to any personal data for which Scratchpad
+    acts as a data controller (including, without limitation, Account Data), you should
+    contact privacy@scratchpad.com.
+- source: personal information
+  target: account data
+  key: SUBSUM
+  text:
+  - Scratchpad does not sell or share personal information of any type, including
+    Account Data, that we collect from you.
+- source: personal information
+  target: account datum
+  key: SUBSUM
+  text:
+  - '* In certain circumstances, individuals may have the following rights under data
+    protection law in relation to their personal information: A right to access personal
+    data or personal information (including, without limitation, Account Data) that
+    Scratchpad collects, uses, discloses, or processes (if applicable) about you'
+- source: resource
+  target: Slack
+  key: SUBSUM
+  text:
+  - 'Resources
+
+
+    Slack Automations Library'
+- source: resource
+  target: beyond quota podcast
+  key: SUBSUM
+  text:
+  - 'Resources
+
+
+    Beyond Quota Podcast'
+- source: resource
+  target: blog
+  key: SUBSUM
+  text:
+  - 'Resources
+
+
+    Blog'
+- source: resource
+  target: workflow session
+  key: SUBSUM
+  text:
+  - 'Resources
+
+
+    Sales Workflow Session'
+nodes:
+- type: ACTOR
+  id: Slack
+- type: ACTOR
+  id: ai sale agent
+- type: ACTOR
+  id: automation
+- type: ACTOR
+  id: beyond quota podcast
+- type: ACTOR
+  id: blog
+- type: ACTOR
+  id: careers
+- type: ACTOR
+  id: deal room
+- type: ACTOR
+  id: mobile
+- type: ACTOR
+  id: pipeline management
+- type: ACTOR
+  id: resource
+- type: ACTOR
+  id: scratchpad
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: workflow session
+- type: DATA
+  id: account data
+- type: DATA
+  id: account datum
+- type: DATA
+  id: aggregate visitor information
+- type: DATA
+  id: browsing datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: domain name
+- type: DATA
+  id: email address
+- type: DATA
+  id: employer information
+- type: DATA
+  id: i nformation pertain to owner of account
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum for scratchpad act as datum controller
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: publicly available information
+- type: DATA
+  id: refer url
+- type: DATA
+  id: site usage
+- type: DATA
+  id: visit survey

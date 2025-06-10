@@ -1,0 +1,908 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'When you make an enquiry or contact our support team
+
+
+    We need enough information from you to answer your enquiry.'
+  purposes: {}
+- source: we
+  target: call
+  key: COLLECT
+  text:
+  - We record calls for quality and training purposes to ensure we deal with your
+    request as best as possible.
+  purposes:
+    services:
+    - for quality and training purposes
+    - to ensure we deal with your request as best as possible
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - If you are entering into a contract with us, we will need your full contact details
+    including address, email and telephone number as well as your job title or position
+    in your business.
+  - We hold the names and contact details of individuals acting in their capacity
+    as representatives of their organisations, across the business.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies, which are small files with a code that is stored on your device,
+    with your consent.
+  purposes: {}
+- source: we
+  target: customer contract
+  key: COLLECT
+  text:
+  - We store customer contracts and related personal information within our internal
+    CRM system, and our legal case management system is shared with internal employees
+    on a need-to-know basis via email and Dropbox.
+  purposes: {}
+- source: we
+  target: detail of visitor behaviour pattern
+  key: COLLECT
+  text:
+  - When you visit our company websites, we collect internet log information and details
+    of visitor behaviour patterns.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - That information may include either your or your end-users' name, email address,
+    IP address, phone number, postal address, besides other details that may include
+    gender, location, occupation or other information of a demographic nature.
+  - While signing up for and using Dotdigital services, consulting with our support
+    teams, sending us an email, connecting another account with the Dotdigital services
+    (e.g. using one of our technical integrations and connectors), or communicating
+    with us in any way, you are voluntarily giving us information.
+  purposes: {}
+- source: we
+  target: gender
+  key: COLLECT
+  text:
+  - That information may include either your or your end-users' name, email address,
+    IP address, phone number, postal address, besides other details that may include
+    gender, location, occupation or other information of a demographic nature.
+  - While signing up for and using Dotdigital services, consulting with our support
+    teams, sending us an email, connecting another account with the Dotdigital services
+    (e.g. using one of our technical integrations and connectors), or communicating
+    with us in any way, you are voluntarily giving us information.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - That information may include either your or your end-users' name, email address,
+    IP address, phone number, postal address, besides other details that may include
+    gender, location, occupation or other information of a demographic nature.
+  - While signing up for and using Dotdigital services, consulting with our support
+    teams, sending us an email, connecting another account with the Dotdigital services
+    (e.g. using one of our technical integrations and connectors), or communicating
+    with us in any way, you are voluntarily giving us information.
+  purposes: {}
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - This may include details of your operating system, location, IP address, browser
+    ID, browsing activity, and other information about how you interacted with Dotdigital's
+    services.
+  - We may collect this information as a part of log files and through cookies or
+    other tracking technologies.
+  - We receive information about how you use the platform and store it in log files
+    or other types of files associated to your account and link it to other information
+    we hold about you.
+  - We use this information to help improve the website, security purposes or to monitor
+    the performance of our campaigns.
+  purposes:
+    analytics:
+    - to help improve the website, security purposes or to monitor the performance
+      of our campaigns
+    security:
+    - to help improve the website, security purposes or to monitor the performance
+      of our campaigns
+    services:
+    - to help improve the website, security purposes or to monitor the performance
+      of our campaigns
+- source: we
+  target: information about web browsing of site
+  key: COLLECT
+  text:
+  - When you browse one of our websites, use the Dotdigital platform or interact with
+    an email we send to you, we may collect information about your web browsing and
+    use of the site or platform.
+  purposes: {}
+- source: we
+  target: information of demographic nature
+  key: COLLECT
+  text:
+  - That information may include either your or your end-users' name, email address,
+    IP address, phone number, postal address, besides other details that may include
+    gender, location, occupation or other information of a demographic nature.
+  - While signing up for and using Dotdigital services, consulting with our support
+    teams, sending us an email, connecting another account with the Dotdigital services
+    (e.g. using one of our technical integrations and connectors), or communicating
+    with us in any way, you are voluntarily giving us information.
+  purposes: {}
+- source: we
+  target: information supply to we
+  key: COLLECT
+  text:
+  - 'When you make an enquiry or contact our support team
+
+
+    We''ll keep a record of your enquiry on Zendesk & intercom, our support ticketing
+    system We use the information supplied to us to deal with the enquiry and any
+    subsequent issues that may arise, and to check on the level of service we provide.'
+  purposes:
+    services:
+    - to deal with the enquiry and any subsequent issues that may arise, and to check
+      on the level of service we provide
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - Further to the uses described above, we may aggregate and/or de-identify any information
+    we collect, such that the information no longer identifies any specific individual.
+  - We may use, disclose and otherwise process such information for our own legitimate
+    business purposes without restriction.
+  purposes: {}
+- source: we
+  target: information we receive from source
+  key: COLLECT
+  text:
+  - Examples of the information we may receive from other sources include device information
+    (e.g. IP address and browser), location, behavioural data and demographic information.
+  - We may use this information, alone or combined with other information described
+    above, to develop or provide more relevant platform features or services (e.g.
+    social media data of end-users allowing you to send more relevant content) or
+    provide more relevant marketing and content to you.
+  purposes:
+    analytics:
+    - to develop or provide more relevant platform features or services (e.g. social
+      media data of end-users allowing you to send more relevant content)
+    services:
+    - to develop or provide more relevant platform features or services (e.g. social
+      media data of end-users allowing you to send more relevant content)
+- source: we
+  target: insight
+  key: COLLECT
+  text:
+  - This provides us with insights and increases business efficiency.
+  purposes: {}
+- source: we
+  target: internet log information
+  key: COLLECT
+  text:
+  - When you visit our company websites, we collect internet log information and details
+    of visitor behaviour patterns.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - That information may include either your or your end-users' name, email address,
+    IP address, phone number, postal address, besides other details that may include
+    gender, location, occupation or other information of a demographic nature.
+  - While signing up for and using Dotdigital services, consulting with our support
+    teams, sending us an email, connecting another account with the Dotdigital services
+    (e.g. using one of our technical integrations and connectors), or communicating
+    with us in any way, you are voluntarily giving us information.
+  purposes: {}
+- source: we
+  target: occupation
+  key: COLLECT
+  text:
+  - That information may include either your or your end-users' name, email address,
+    IP address, phone number, postal address, besides other details that may include
+    gender, location, occupation or other information of a demographic nature.
+  - While signing up for and using Dotdigital services, consulting with our support
+    teams, sending us an email, connecting another account with the Dotdigital services
+    (e.g. using one of our technical integrations and connectors), or communicating
+    with us in any way, you are voluntarily giving us information.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - That information may include either your or your end-users' name, email address,
+    IP address, phone number, postal address, besides other details that may include
+    gender, location, occupation or other information of a demographic nature.
+  - We hold the names and contact details of individuals acting in their capacity
+    as representatives of their organisations, across the business.
+  - While signing up for and using Dotdigital services, consulting with our support
+    teams, sending us an email, connecting another account with the Dotdigital services
+    (e.g. using one of our technical integrations and connectors), or communicating
+    with us in any way, you are voluntarily giving us information.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'How we use personal information
+
+
+    We use and disclose personal information to:'
+  - In providing services to you, we will hold personal information for as long as
+    we are providing you the services, to comply with our legal obligations, enforce
+    our contracts, resolve disputes or prevent abuse.
+  - We also obtain personal information from your use of Dotdigital SaaS Applications.
+  - We may disclose personal information to advertising partners, networks and exchanges
+    to display advertising on our website or to manage and serve our advertising on
+    other sites and may share personal information with them for this purpose.
+  - We may transfer personal information of you or your end-users to companies that
+    help us promote, provide, or support our platform or other services we provide.
+  - 'When you make an enquiry or contact our support team
+
+
+    When you contact Dotdigital via phone, email or live chat to make an enquiry,
+    we collect information, including your personal data, so that we can assist with
+    your enquiry.'
+  - When you negotiate with us to buy a product or start using one of our services,
+    we process some personal information so that we can enter into an agreement with
+    you or the organisation that you represent.
+  purposes:
+    advertising:
+    - to display advertising on our website or to manage and serve our advertising
+      on other sites
+    - 'to: Promote our services to you (e.g. when we collect your personal information
+      on our website, we may contact you further to invite you to use our platform)'
+    - 'to: Send you information and promotional content (you can amend your marketing
+      preferences in our preference centre or stop receiving messages by unsubscribing)'
+    analytics:
+    - 'to: Inform our professional advisors and auditors'
+    legal:
+    - to comply with our legal obligations, enforce our contracts, resolve disputes
+      or prevent abuse
+    - 'to: Bring or defend legal proceedings, meet legal requirements (e.g. complying
+      with court orders, enforcement actions, or other legally valid mechanisms) or
+      respond to lawful requests by public authorities or law enforcement requests;
+      and'
+    - 'to: Inform our professional advisors and auditors'
+    - 'to: Perform our obligations under the contract with you or applicable law (e.g.
+      to enforce our terms, communicate with you and provide support);'
+    security:
+    - 'Dotdigital privacy policy
+
+
+      How we use personal information
+
+
+      We use and disclose personal information to: Supply, improve and support the
+      services we provide'
+    - to comply with our legal obligations, enforce our contracts, resolve disputes
+      or prevent abuse
+    - 'to: Confirm your identity in using Dotdigital''s SaaS applications'
+    - 'to: Protect, investigate and deter against fraudulent, harmful, unauthorized
+      or illegal activity'
+    services:
+    - 'Dotdigital privacy policy
+
+
+      How we use personal information
+
+
+      We use and disclose personal information to: Supply, improve and support the
+      services we provide'
+    - 'to: Bill you (e.g. to send you invoices, process payment, notices)'
+    - 'to: Confirm your identity in using Dotdigital''s SaaS applications'
+    - 'to: Promote our services to you (e.g. when we collect your personal information
+      on our website, we may contact you further to invite you to use our platform)'
+    - 'to: Send notifications about the platform'
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - That information may include either your or your end-users' name, email address,
+    IP address, phone number, postal address, besides other details that may include
+    gender, location, occupation or other information of a demographic nature.
+  - While signing up for and using Dotdigital services, consulting with our support
+    teams, sending us an email, connecting another account with the Dotdigital services
+    (e.g. using one of our technical integrations and connectors), or communicating
+    with us in any way, you are voluntarily giving us information.
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - That information may include either your or your end-users' name, email address,
+    IP address, phone number, postal address, besides other details that may include
+    gender, location, occupation or other information of a demographic nature.
+  - While signing up for and using Dotdigital services, consulting with our support
+    teams, sending us an email, connecting another account with the Dotdigital services
+    (e.g. using one of our technical integrations and connectors), or communicating
+    with us in any way, you are voluntarily giving us information.
+  purposes: {}
+- source: we
+  target: presence
+  key: COLLECT
+  text:
+  - We also maintain presences on social media platforms including Facebook, X, and
+    Instagram.
+  purposes: {}
+- source: we
+  target: record of enquiry on zendesk
+  key: COLLECT
+  text:
+  - 'When you make an enquiry or contact our support team
+
+
+    We''ll keep a record of your enquiry on Zendesk & intercom, our support ticketing
+    system We use the information supplied to us to deal with the enquiry and any
+    subsequent issues that may arise, and to check on the level of service we provide.'
+  purposes:
+    services:
+    - to deal with the enquiry and any subsequent issues that may arise, and to check
+      on the level of service we provide
+- source: we
+  target: related personal information
+  key: COLLECT
+  text:
+  - We store customer contracts and related personal information within our internal
+    CRM system, and our legal case management system is shared with internal employees
+    on a need-to-know basis via email and Dropbox.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Both Dotdigital and our third-party partners may use assorted technologies to
+    collect and store information when you use the Dotdigital platform, visit our
+    website, or interact with an email from us.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These partners may use cookies or other tracking methods to provide you content
+    or advertisements based upon your browsing activities and interests.
+  purposes:
+    advertising:
+    - to provide you content or advertisements based upon your browsing activities
+      and interests
+- source: UNSPECIFIED_ACTOR
+  target: email address
+  key: COLLECT
+  text:
+  - These third-party services may collect publicly available contact and social information
+    related to you, such as your name, email address, gender, company, job title,
+    photos, website URLs, social network handles and physical addresses, to enhance
+    your user experience.
+  - This allows Dotdigital to monitor your use of our website, products and services
+    and tracks our relationship so we can improve our service to you.
+  purposes:
+    services:
+    - to enhance your user experience
+- source: UNSPECIFIED_ACTOR
+  target: gender
+  key: COLLECT
+  text:
+  - These third-party services may collect publicly available contact and social information
+    related to you, such as your name, email address, gender, company, job title,
+    photos, website URLs, social network handles and physical addresses, to enhance
+    your user experience.
+  - This allows Dotdigital to monitor your use of our website, products and services
+    and tracks our relationship so we can improve our service to you.
+  purposes:
+    services:
+    - to enhance your user experience
+- source: UNSPECIFIED_ACTOR
+  target: hose datum
+  key: COLLECT
+  text:
+  - 'Those include rights to: portability of such information and receive the personal
+    information about you which you have provided to us, in a structured, commonly
+    used and machine-readable format and may transmit hose data to a third party in
+    certain situations'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: job title
+  key: COLLECT
+  text:
+  - These third-party services may collect publicly available contact and social information
+    related to you, such as your name, email address, gender, company, job title,
+    photos, website URLs, social network handles and physical addresses, to enhance
+    your user experience.
+  - This allows Dotdigital to monitor your use of our website, products and services
+    and tracks our relationship so we can improve our service to you.
+  purposes:
+    services:
+    - to enhance your user experience
+- source: UNSPECIFIED_ACTOR
+  target: person name
+  key: COLLECT
+  text:
+  - These third-party services may collect publicly available contact and social information
+    related to you, such as your name, email address, gender, company, job title,
+    photos, website URLs, social network handles and physical addresses, to enhance
+    your user experience.
+  - This allows Dotdigital to monitor your use of our website, products and services
+    and tracks our relationship so we can improve our service to you.
+  purposes:
+    services:
+    - to enhance your user experience
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - All third parties with which we share this information must use your Personal
+    Information so it is consistent with this policy.
+  - 'Those include rights to: receive the personal information about you which you
+    have provided to us, in a structured, commonly used and machine-readable format
+    and may transmit those data to a third party in certain situations'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: photo
+  key: COLLECT
+  text:
+  - These third-party services may collect publicly available contact and social information
+    related to you, such as your name, email address, gender, company, job title,
+    photos, website URLs, social network handles and physical addresses, to enhance
+    your user experience.
+  - This allows Dotdigital to monitor your use of our website, products and services
+    and tracks our relationship so we can improve our service to you.
+  purposes:
+    services:
+    - to enhance your user experience
+- source: UNSPECIFIED_ACTOR
+  target: postal address
+  key: COLLECT
+  text:
+  - These third-party services may collect publicly available contact and social information
+    related to you, such as your name, email address, gender, company, job title,
+    photos, website URLs, social network handles and physical addresses, to enhance
+    your user experience.
+  - This allows Dotdigital to monitor your use of our website, products and services
+    and tracks our relationship so we can improve our service to you.
+  purposes:
+    services:
+    - to enhance your user experience
+- source: UNSPECIFIED_ACTOR
+  target: publicly available contact
+  key: COLLECT
+  text:
+  - These third-party services may collect publicly available contact and social information
+    related to you, such as your name, email address, gender, company, job title,
+    photos, website URLs, social network handles and physical addresses, to enhance
+    your user experience.
+  - This allows Dotdigital to monitor your use of our website, products and services
+    and tracks our relationship so we can improve our service to you.
+  purposes:
+    services:
+    - to enhance your user experience
+- source: UNSPECIFIED_ACTOR
+  target: social network handle
+  key: COLLECT
+  text:
+  - These third-party services may collect publicly available contact and social information
+    related to you, such as your name, email address, gender, company, job title,
+    photos, website URLs, social network handles and physical addresses, to enhance
+    your user experience.
+  - This allows Dotdigital to monitor your use of our website, products and services
+    and tracks our relationship so we can improve our service to you.
+  purposes:
+    services:
+    - to enhance your user experience
+- source: UNSPECIFIED_ACTOR
+  target: website url
+  key: COLLECT
+  text:
+  - These third-party services may collect publicly available contact and social information
+    related to you, such as your name, email address, gender, company, job title,
+    photos, website URLs, social network handles and physical addresses, to enhance
+    your user experience.
+  - This allows Dotdigital to monitor your use of our website, products and services
+    and tracks our relationship so we can improve our service to you.
+  purposes:
+    services:
+    - to enhance your user experience
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to advertising partners, networks and exchanges
+    to display advertising on our website or to manage and serve our advertising on
+    other sites and may share personal information with them for this purpose.
+  purposes:
+    advertising:
+    - to display advertising on our website or to manage and serve our advertising
+      on other sites
+- source: dotdigital
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Both Dotdigital and our third-party partners may use assorted technologies to
+    collect and store information when you use the Dotdigital platform, visit our
+    website, or interact with an email from us.
+  purposes: {}
+- source: dotdigital
+  target: information about you
+  key: COLLECT
+  text:
+  - Dotdigital may obtain information about you or end-users from third parties, such
+    as public databases, social media platforms, third party data providers and our
+    marketing partners.
+  purposes: {}
+- source: exchange
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to advertising partners, networks and exchanges
+    to display advertising on our website or to manage and serve our advertising on
+    other sites and may share personal information with them for this purpose.
+  purposes:
+    advertising:
+    - to display advertising on our website or to manage and serve our advertising
+      on other sites
+- source: network
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to advertising partners, networks and exchanges
+    to display advertising on our website or to manage and serve our advertising on
+    other sites and may share personal information with them for this purpose.
+  purposes:
+    advertising:
+    - to display advertising on our website or to manage and serve our advertising
+      on other sites
+- source: contact information
+  target: detail about organisation
+  key: SUBSUM
+  text:
+  - If you wish to receive information from us, you will be asked to provide your
+    contact information including your name, your organisation's name and other details
+    about your organisation.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - If you are entering into a contract with us, we will need your full contact details
+    including address, email and telephone number as well as your job title or position
+    in your business.
+- source: contact information
+  target: job title
+  key: SUBSUM
+  text:
+  - If you are entering into a contract with us, we will need your full contact details
+    including address, email and telephone number as well as your job title or position
+    in your business.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - If you wish to attend one of our events, you will be asked to provide your contact
+    information including your organisation's name and, if offered a place, information
+    about any dietary requirements or access provisions you may need.
+  - If you wish to receive information from us, you will be asked to provide your
+    contact information including your name, your organisation's name and other details
+    about your organisation.
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - If you are entering into a contract with us, we will need your full contact details
+    including address, email and telephone number as well as your job title or position
+    in your business.
+- source: contact information
+  target: position
+  key: SUBSUM
+  text:
+  - If you are entering into a contract with us, we will need your full contact details
+    including address, email and telephone number as well as your job title or position
+    in your business.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - If you are entering into a contract with us, we will need your full contact details
+    including address, email and telephone number as well as your job title or position
+    in your business.
+- source: device information
+  target: browser
+  key: SUBSUM
+  text:
+  - Examples of the information we may receive from other sources include device information
+    (e.g. IP address and browser), location, behavioural data and demographic information.
+- source: device information
+  target: ip address
+  key: SUBSUM
+  text:
+  - Examples of the information we may receive from other sources include device information
+    (e.g. IP address and browser), location, behavioural data and demographic information.
+- source: dotdigital group subsidiary
+  target: APAC Digital Exchange
+  key: SUBSUM
+  text:
+  - 'Where your data is being collected by any of the following Dotdigital Group subsidiaries,
+    where they are acting as data controller, this will be made clear at the point
+    of collection: Dotdigital APAC Pty Ltd'
+- source: dotdigital group subsidiary
+  target: dotdigital sa pty ltd
+  key: SUBSUM
+  text:
+  - 'Where your data is being collected by any of the following Dotdigital Group subsidiaries,
+    where they are acting as data controller, this will be made clear at the point
+    of collection: Dotdigital SA Pty Ltd'
+- source: dotdigital group subsidiary
+  target: fresh relevance inc.
+  key: SUBSUM
+  text:
+  - 'Where your data is being collected by any of the following Dotdigital Group subsidiaries,
+    where they are acting as data controller, this will be made clear at the point
+    of collection: Fresh Relevance Inc. (a Dotdigital company)'
+- source: dotdigital group subsidiary
+  target: fresh relevance ltd
+  key: SUBSUM
+  text:
+  - 'Where your data is being collected by any of the following Dotdigital Group subsidiaries,
+    where they are acting as data controller, this will be made clear at the point
+    of collection: Fresh Relevance Ltd (a Dotdigital company)'
+- source: information about
+  target: activity
+  key: SUBSUM
+  text:
+  - This information might include the date of any activity, the browser and IP address
+    and actions your end-users have taken within the platform.
+  - We receive information about how you use the platform and store it in log files
+    or other types of files associated to your account and link it to other information
+    we hold about you.
+- source: information about
+  target: date
+  key: SUBSUM
+  text:
+  - This information might include the date of any activity, the browser and IP address
+    and actions your end-users have taken within the platform.
+  - We receive information about how you use the platform and store it in log files
+    or other types of files associated to your account and link it to other information
+    we hold about you.
+- source: information about
+  target: ip address
+  key: SUBSUM
+  text:
+  - This information might include the date of any activity, the browser and IP address
+    and actions your end-users have taken within the platform.
+  - We receive information about how you use the platform and store it in log files
+    or other types of files associated to your account and link it to other information
+    we hold about you.
+- source: information to request relate
+  target: account
+  key: SUBSUM
+  text:
+  - 'To exercise any of those rights, please: let us know the information to which
+    your request relates, including any account or reference numbers, if you have
+    them'
+- source: information to request relate
+  target: reference number
+  key: SUBSUM
+  text:
+  - 'To exercise any of those rights, please: let us know the information to which
+    your request relates, including any account or reference numbers, if you have
+    them'
+- source: information we receive from source
+  target: behavioural datum
+  key: SUBSUM
+  text:
+  - Examples of the information we may receive from other sources include device information
+    (e.g. IP address and browser), location, behavioural data and demographic information.
+- source: information we receive from source
+  target: demographic information
+  key: SUBSUM
+  text:
+  - Examples of the information we may receive from other sources include device information
+    (e.g. IP address and browser), location, behavioural data and demographic information.
+- source: information we receive from source
+  target: device information
+  key: SUBSUM
+  text:
+  - Examples of the information we may receive from other sources include device information
+    (e.g. IP address and browser), location, behavioural data and demographic information.
+- source: information we receive from source
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Examples of the information we may receive from other sources include device information
+    (e.g. IP address and browser), location, behavioural data and demographic information.
+- source: key business system
+  target: crm
+  key: SUBSUM
+  text:
+  - In addition, to its marketing automation capabilities, Dotdigital Integrates with
+    key business systems, such as e-commerce platforms and CRMs, enabling businesses
+    to streamline their marketing operations and improve their customer engagement
+    strategies.
+- source: key business system
+  target: e - commerce platform
+  key: SUBSUM
+  text:
+  - In addition, to its marketing automation capabilities, Dotdigital Integrates with
+    key business systems, such as e-commerce platforms and CRMs, enabling businesses
+    to streamline their marketing operations and improve their customer engagement
+    strategies.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Those include rights to: request information, including a list of the categories
+    of Personal Information (e.g. name, email, and mailing address, and the services
+    provided to the customer that a business has disclosed to third parties (including
+    affiliates that are separate legal entities) during the immediately preceding
+    calendar year for the third-parties'' direct marketing purposes, from businesses
+    with whom you have an established business relationship, & the names and addresses
+    of all such third parties.;'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Those include rights to: request information, including a list of the categories
+    of Personal Information (e.g. name, email, and mailing address, and the services
+    provided to the customer that a business has disclosed to third parties (including
+    affiliates that are separate legal entities) during the immediately preceding
+    calendar year for the third-parties'' direct marketing purposes, from businesses
+    with whom you have an established business relationship, & the names and addresses
+    of all such third parties.;'
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Those include rights to: request information, including a list of the categories
+    of Personal Information (e.g. name, email, and mailing address, and the services
+    provided to the customer that a business has disclosed to third parties (including
+    affiliates that are separate legal entities) during the immediately preceding
+    calendar year for the third-parties'' direct marketing purposes, from businesses
+    with whom you have an established business relationship, & the names and addresses
+    of all such third parties.;'
+- source: social media
+  target: Facebook
+  key: SUBSUM
+  text:
+  - We also maintain presences on social media platforms including Facebook, X, and
+    Instagram.
+- source: social media
+  target: x
+  key: SUBSUM
+  text:
+  - We also maintain presences on social media platforms including Facebook, X, and
+    Instagram.
+- source: type of file
+  target: log file
+  key: SUBSUM
+  text:
+  - We receive information about how you use the platform and store it in log files
+    or other types of files associated to your account and link it to other information
+    we hold about you.
+nodes:
+- type: ACTOR
+  id: APAC Digital Exchange
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: crm
+- type: ACTOR
+  id: dotdigital
+- type: ACTOR
+  id: dotdigital group subsidiary
+- type: ACTOR
+  id: dotdigital sa pty ltd
+- type: ACTOR
+  id: e - commerce platform
+- type: ACTOR
+  id: exchange
+- type: ACTOR
+  id: fresh relevance inc.
+- type: ACTOR
+  id: fresh relevance ltd
+- type: ACTOR
+  id: key business system
+- type: ACTOR
+  id: network
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: x
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account
+- type: DATA
+  id: activity
+- type: DATA
+  id: behavioural datum
+- type: DATA
+  id: browser
+- type: DATA
+  id: call
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer contract
+- type: DATA
+  id: date
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: detail about organisation
+- type: DATA
+  id: detail of visitor behaviour pattern
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: gender
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: hose datum
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about web browsing of site
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information of demographic nature
+- type: DATA
+  id: information supply to we
+- type: DATA
+  id: information to request relate
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information we receive from source
+- type: DATA
+  id: insight
+- type: DATA
+  id: internet log information
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job title
+- type: DATA
+  id: log file
+- type: DATA
+  id: occupation
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: photo
+- type: DATA
+  id: position
+- type: DATA
+  id: postal address
+- type: DATA
+  id: presence
+- type: DATA
+  id: publicly available contact
+- type: DATA
+  id: record of enquiry on zendesk
+- type: DATA
+  id: reference number
+- type: DATA
+  id: related personal information
+- type: DATA
+  id: social network handle
+- type: DATA
+  id: type of file
+- type: DATA
+  id: website url

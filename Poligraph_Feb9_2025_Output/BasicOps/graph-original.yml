@@ -1,0 +1,201 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By using any product, service or functionality originating from BasicOps, you
+    hereby acknowledge and consent that we may share such information and data with
+    any third party with whom BasicOps has a contractual relationship to provide the
+    requested product, service or functionality on behalf of our users and customers.
+  - We may share data with trusted partners to help perform statistical analysis,
+    send you email or postal mail, provide customer support, or process payments.
+  purposes:
+    analytics:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or process payments
+    services:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or process payments
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use "cookies", or other technologies like pixels or web beacons, to help
+    you personalize your online experience and help us monitor, analyze and improve
+    the Services.
+  - We use both session-based and persistent cookies.
+  - We use cookies that help us remember you and improve your experience browsing
+    our site.
+  purposes:
+    analytics:
+    - to help you personalize your online experience and help us monitor, analyze
+      and improve the Services
+    services:
+    - to help you personalize your online experience and help us monitor, analyze
+      and improve the Services
+- source: we
+  target: payment information
+  key: COLLECT
+  text:
+  - We will share this payment information with the third party processing company.
+  - We will utilize a third party credit card payment processing company to collect
+    payment information, including your credit card number, billing address and phone
+    number.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may also use your personally identifiable information to inform you of other
+    products or services available from BasicOps and our affiliates.
+  - 'When you create an account and when you invite Users, we will collect personally
+    identifiable information associated with the account, some of which may or may
+    not be optional such as your:'
+  purposes:
+    advertising:
+    - to inform you of other products or services available from BasicOps and our
+      affiliates
+    analytics:
+    - to inform you of other products or services available from BasicOps and our
+      affiliates
+    services:
+    - to inform you of other products or services available from BasicOps and our
+      affiliates
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We will disclose your personal information, without notice, only if required
+    to do so by law or in the good faith belief that such action is necessary to:
+    (a) conform to the edicts of the law or comply with legal process served on BasicOps
+    or the site; (b) protect and defend the rights or property of BasicOps; and, (c)
+    act under exigent circumstances to protect the personal safety of users of BasicOps,
+    or the public.'
+  purposes: {}
+- source: we
+  target: record of email communication
+  key: COLLECT
+  text:
+  - Even if you are not a registered user of our Services, if you email us, we may
+    retain a record of such email communication, including your email address, the
+    content of your email, and our response.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By using any product, service or functionality originating from BasicOps, you
+    hereby acknowledge and consent that we may share such information and data with
+    any third party with whom BasicOps has a contractual relationship to provide the
+    requested product, service or functionality on behalf of our users and customers.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: payment information
+  key: COLLECT
+  text:
+  - We will share this payment information with the third party processing company.
+  - We will utilize a third party credit card payment processing company to collect
+    payment information, including your credit card number, billing address and phone
+    number.
+  purposes: {}
+- source: administrator
+  target: customer datum submit under account
+  key: COLLECT
+  text:
+  - Administrators have complete access to all Customer Data submitted under that
+    account by its users.
+  purposes: {}
+- source: basicops
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - BasicOps collects and uses your information to deliver the services you have requested.
+  purposes:
+    services:
+    - to deliver the services you have requested
+- source: trust partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share data with trusted partners to help perform statistical analysis,
+    send you email or postal mail, provide customer support, or process payments.
+  purposes:
+    analytics:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or process payments
+    services:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or process payments
+- source: we
+  target: online collaboration tool
+  key: SUBSUM
+  text:
+  - This Statement of Privacy applies to BasicOps, Inc.(together, "we", "us", "our"
+    or "BasicOps"), our online collaboration tools and platform (the "Services"),
+    and governs data collection and usage.
+- source: payment information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - We will utilize a third party credit card payment processing company to collect
+    payment information, including your credit card number, billing address and phone
+    number.
+- source: payment information
+  target: phone number
+  key: SUBSUM
+  text:
+  - We will utilize a third party credit card payment processing company to collect
+    payment information, including your credit card number, billing address and phone
+    number.
+- source: payment information
+  target: postal address
+  key: SUBSUM
+  text:
+  - We will utilize a third party credit card payment processing company to collect
+    payment information, including your credit card number, billing address and phone
+    number.
+- source: record of email communication
+  target: email address
+  key: SUBSUM
+  text:
+  - Even if you are not a registered user of our Services, if you email us, we may
+    retain a record of such email communication, including your email address, the
+    content of your email, and our response.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: administrator
+- type: ACTOR
+  id: basicops
+- type: ACTOR
+  id: online collaboration tool
+- type: ACTOR
+  id: trust partner
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer datum submit under account
+- type: DATA
+  id: email address
+- type: DATA
+  id: payment information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: record of email communication

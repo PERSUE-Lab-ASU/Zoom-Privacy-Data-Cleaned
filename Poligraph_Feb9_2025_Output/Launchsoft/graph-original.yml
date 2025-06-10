@@ -1,0 +1,356 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'From the user''s Google Analytics account we obtain and store the following data:
+    "url", "country", "device-category", "session-duration", "bounce-rate", "page-views",
+    "session-count".'
+  - 'We obtain and store the following data from the user''s Google Ads account: "campaign-name",
+    "investment-total", "total-leads", "cost-per-lead", "list-ctr", "page-views",
+    "video-views", "total-reach", "conversion-rate".'
+  - 'We obtain and store the following data from the user''s Youtube account: "followers",
+    "n-comments", "unsub-per", "page-likes", "dislikes", "video-views".'
+  purposes: {}
+- source: we
+  target: campaign name
+  key: COLLECT
+  text:
+  - 'We obtain and store the following data from the user''s Google Ads account: "campaign-name",
+    "investment-total", "total-leads", "cost-per-lead", "list-ctr", "page-views",
+    "video-views", "total-reach", "conversion-rate".'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website uses cookies to distinguish you from other users of our website.
+  purposes:
+    services:
+    - to distinguish you from other users of our website
+- source: we
+  target: country
+  key: COLLECT
+  text:
+  - 'From the user''s Google Analytics account we obtain and store the following data:
+    "url", "country", "device-category", "session-duration", "bounce-rate", "page-views",
+    "session-count".'
+  purposes: {}
+- source: we
+  target: device category
+  key: COLLECT
+  text:
+  - 'From the user''s Google Analytics account we obtain and store the following data:
+    "url", "country", "device-category", "session-duration", "bounce-rate", "page-views",
+    "session-count".'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We collect your name and email address when you register for a webinar or event,
+    request a free resource or join a waiting list, via Infusionsoft (Privacy Policy).
+  - We use this data to send you emails about useful advice and industry news and
+    to notify you about services and products you may be interested in.
+  purposes:
+    advertising:
+    - to send you emails about useful advice and industry news and to notify you about
+      services and products you may be interested in
+    analytics:
+    - to send you emails about useful advice and industry news and to notify you about
+      services and products you may be interested in
+    services:
+    - to send you emails about useful advice and industry news and to notify you about
+      services and products you may be interested in
+- source: we
+  target: file
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this website and any third-party services
+    may collect files that record interaction with this website (system logs) using
+    other personal data (such as IP address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: we
+  target: follower
+  key: COLLECT
+  text:
+  - 'We obtain and store the following data from the user''s Youtube account: "followers",
+    "n-comments", "unsub-per", "page-likes", "dislikes", "video-views".'
+  purposes: {}
+- source: we
+  target: list of session at give time
+  key: COLLECT
+  text:
+  - From the user's Zoom account we obtain and store the list of sessions and attendance
+    at any given time.
+  purposes: {}
+- source: we
+  target: name of file select
+  key: COLLECT
+  text:
+  - From the user's Google Drive account we obtain and store the names of the files
+    selected by the user.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - In addition, we collect your surname and postal address when you purchase a product
+    or course, as part of our payment provider's card verification and sales tax collection
+    process.
+  - We collect your name and email address when you register for a webinar or event,
+    request a free resource or join a waiting list, via Infusionsoft (Privacy Policy).
+  - We use this data to send you emails about useful advice and industry news and
+    to notify you about services and products you may be interested in.
+  purposes:
+    advertising:
+    - to send you emails about useful advice and industry news and to notify you about
+      services and products you may be interested in
+    analytics:
+    - to send you emails about useful advice and industry news and to notify you about
+      services and products you may be interested in
+    services:
+    - to send you emails about useful advice and industry news and to notify you about
+      services and products you may be interested in
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We collect personal data with your consent when you purchase Launchsoft products
+    or services, download or use Launchsoft e-books, quizzes, session offers, products,
+    services and applications or participate in market research.
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - In addition, we collect your surname and postal address when you purchase a product
+    or course, as part of our payment provider's card verification and sales tax collection
+    process.
+  purposes: {}
+- source: we
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this website and any third-party services
+    may collect files that record interaction with this website (system logs) using
+    other personal data (such as IP address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: Google
+  target: datum collect
+  key: COLLECT
+  text:
+  - Google can use the data collected to contextualize and personalize the ads of
+    its own advertising network.
+  - Google uses the data collected to track and analyze the use of this website, prepare
+    reports on its activities and share them with other Google services.
+  purposes:
+    advertising:
+    - to contextualize and personalize the ads of its own advertising network
+    analytics:
+    - to track and analyze the use of this website, prepare reports on its activities
+      and share them with other Google services
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The data may also be transmitted to third parties - entities other than Launchsoft
+    or the subcontractors - such as companies within the Launchsoft group, companies
+    with which Launchsoft develops partnerships, if the data subject has consented
+    - or entities to which the data must be communicated by law, such as the tax authority.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: file
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this website and any third-party services
+    may collect files that record interaction with this website (system logs) using
+    other personal data (such as IP address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this website and any third-party services
+    may collect files that record interaction with this website (system logs) using
+    other personal data (such as IP address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: company with launchsoft develop partnership
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The data may also be transmitted to third parties - entities other than Launchsoft
+    or the subcontractors - such as companies within the Launchsoft group, companies
+    with which Launchsoft develops partnerships, if the data subject has consented
+    - or entities to which the data must be communicated by law, such as the tax authority.
+  purposes: {}
+- source: entity become
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - receive the data you have provided in a commonly used, machine-readable digital
+    format or to request that your data be transmitted directly to another entity
+    that becomes the new controller of your personal data, such as receiving your
+    invoices or transmitting your contact details to the new controller, but in this
+    case only if technically possible
+  purposes: {}
+- source: entity to communicate by law
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The data may also be transmitted to third parties - entities other than Launchsoft
+    or the subcontractors - such as companies within the Launchsoft group, companies
+    with which Launchsoft develops partnerships, if the data subject has consented
+    - or entities to which the data must be communicated by law, such as the tax authority.
+  purposes: {}
+- source: integration
+  target: email address
+  key: COLLECT
+  text:
+  - The integration stores the name, email and token obtained during authentication.
+  purposes: {}
+- source: integration
+  target: person name
+  key: COLLECT
+  text:
+  - The integration stores the name, email and token obtained during authentication.
+  purposes: {}
+- source: integration
+  target: token
+  key: COLLECT
+  text:
+  - The integration stores the name, email and token obtained during authentication.
+  purposes: {}
+- source: launchsoft
+  target: personal datum on public administration website
+  key: COLLECT
+  text:
+  - Launchsoft may also access, collect or confirm personal data on public administration
+    and private entity websites, namely to confirm the accuracy of your identification
+    and contact details.
+  purposes: {}
+- source: launchsoft
+  target: personal information
+  key: COLLECT
+  text:
+  - Launchsoft may collect personal data from private entities that maintain relevant
+    information on the credit of the holders of the personal data, provided that these
+    bases comply with the applicable data protection rules.
+  - Launchsoft may keep other personal data for periods longer than the duration of
+    the contractual relationship, either on the basis of your consent, or to ensure
+    rights or duties related to the contract, or because it has legitimate interests
+    that justify it, but always for the period strictly necessary for the fulfillment
+    of the respective purposes and in accordance with the guidelines and decisions
+    of the CNPD.
+  - Launchsoft processes and stores your personal data in accordance with the purposes
+    for which it is processed.
+  - Thus, Launchsoft will process and keep your personal data for as long as it maintains
+    a contractual relationship with you.
+  - Your personal data will only be processed by Launchsoft for the period of time
+    necessary to fulfill the defined purpose or, as applicable, until you exercise
+    your right to object, right to be forgotten or withdraw consent.
+  purposes: {}
+- source: launchsoft group
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The data may also be transmitted to third parties - entities other than Launchsoft
+    or the subcontractors - such as companies within the Launchsoft group, companies
+    with which Launchsoft develops partnerships, if the data subject has consented
+    - or entities to which the data must be communicated by law, such as the tax authority.
+  purposes: {}
+- source: subcontractor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Your data may be passed on to subcontractors to process in the name and on behalf
+    of LAUNCHSOFT.
+  purposes:
+    services:
+    - to process in the name and on behalf of LAUNCHSOFT
+- source: type of service
+  target: traffic datum for page on instal
+  key: COLLECT
+  text:
+  - This type of service can still collect traffic data for the pages on which the
+    service is installed, even when Users are not using it.
+  purposes: {}
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - For operation and maintenance purposes, this website and any third-party services
+    may collect files that record interaction with this website (system logs) using
+    other personal data (such as IP address) for this purpose.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: company with launchsoft develop partnership
+- type: ACTOR
+  id: entity become
+- type: ACTOR
+  id: entity to communicate by law
+- type: ACTOR
+  id: integration
+- type: ACTOR
+  id: launchsoft
+- type: ACTOR
+  id: launchsoft group
+- type: ACTOR
+  id: subcontractor
+- type: ACTOR
+  id: type of service
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: campaign name
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: country
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: device category
+- type: DATA
+  id: email address
+- type: DATA
+  id: file
+- type: DATA
+  id: follower
+- type: DATA
+  id: ip address
+- type: DATA
+  id: list of session at give time
+- type: DATA
+  id: name of file select
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum on public administration website
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: system log
+- type: DATA
+  id: token
+- type: DATA
+  id: traffic datum for page on instal

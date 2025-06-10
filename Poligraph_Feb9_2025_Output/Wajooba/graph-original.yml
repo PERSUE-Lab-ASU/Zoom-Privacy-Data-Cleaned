@@ -1,0 +1,448 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - From time to time, we may use Google Analytics, Ad Words, Double Click and/or
+    Ad Sense tracking codes, and other third party software tools (such as remarketing
+    codes) in order to collect information and marketing analytics about the manner
+    in which you browse our Service.
+  - We may use this data in aggregate form, that is, as a statistical measure in order
+    to analyze and improve our Service.
+  - We process the information and PI we automatically collect in order to analyze
+    trends, administer, monitor and improve our Service, and to gather for aggregated
+    information to be used as basis for business strategies.
+  purposes:
+    analytics:
+    - in order to analyze and improve our Service
+    - in order to analyze trends, administer, monitor and improve our Service, and
+      to gather for aggregated information to be used as basis for business strategies
+    services:
+    - in order to analyze and improve our Service
+- source: we
+  target: ad words
+  key: COLLECT
+  text:
+  - From time to time, we may use Google Analytics, Ad Words, Double Click and/or
+    Ad Sense tracking codes, and other third party software tools (such as remarketing
+    codes) in order to collect information and marketing analytics about the manner
+    in which you browse our Service.
+  purposes: {}
+- source: we
+  target: advertising id
+  key: COLLECT
+  text:
+  - When you access our Service via a mobile device, we will use your mobile device
+    ID (i.e. the unique identifier assigned to a mobile device by the manufacturer)
+    and/or Advertising ID (for Apple iOS 6 and later) instead of cookies in order
+    to recognize you, track the number of relevant ads displayed, their performance
+    and display.
+  purposes:
+    advertising:
+    - in order to recognize you, track the number of relevant ads displayed, their
+      performance and display
+    analytics:
+    - in order to recognize you, track the number of relevant ads displayed, their
+      performance and display
+- source: we
+  target: call beacon
+  key: COLLECT
+  text:
+  - We also use the so-called 'beacons', which are small files, sometimes only a pixel
+    in size, embedded onto the pages of our Service.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - When you access our Service via a mobile device, we will use your mobile device
+    ID (i.e. the unique identifier assigned to a mobile device by the manufacturer)
+    and/or Advertising ID (for Apple iOS 6 and later) instead of cookies in order
+    to recognize you, track the number of relevant ads displayed, their performance
+    and display.
+  purposes:
+    advertising:
+    - in order to recognize you, track the number of relevant ads displayed, their
+      performance and display
+    analytics:
+    - in order to recognize you, track the number of relevant ads displayed, their
+      performance and display
+- source: we
+  target: datum contain in log file
+  key: COLLECT
+  text:
+  - We may also collect and use the data contained in log files, which may include
+    your IP (internet protocol) address, your ISP (internet service provider), the
+    browser you used to visit our Service, the time you visited our Service and which
+    pages you visited throughout our Service.
+  purposes: {}
+- source: we
+  target: device identifier
+  key: COLLECT
+  text:
+  - When you access our Service via a mobile device, we will use your mobile device
+    ID (i.e. the unique identifier assigned to a mobile device by the manufacturer)
+    and/or Advertising ID (for Apple iOS 6 and later) instead of cookies in order
+    to recognize you, track the number of relevant ads displayed, their performance
+    and display.
+  purposes:
+    advertising:
+    - in order to recognize you, track the number of relevant ads displayed, their
+      performance and display
+    analytics:
+    - in order to recognize you, track the number of relevant ads displayed, their
+      performance and display
+- source: we
+  target: double click tracking code
+  key: COLLECT
+  text:
+  - From time to time, we may use Google Analytics, Ad Words, Double Click and/or
+    Ad Sense tracking codes, and other third party software tools (such as remarketing
+    codes) in order to collect information and marketing analytics about the manner
+    in which you browse our Service.
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - 'We may also share non-personally identifying information with our authorized
+    third party service providers, such as: aggregate user statistics, demographic
+    information and web site usage information.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'In order to use the Service, you may or will need to disclose PI to us, including
+    but not limited to: your name, last name, IP address, email, phone number, gender,
+    date of birth, address and postal/zip code.'
+  - Our Service may offer the functionality of using your social media and other third
+    party credentials (e.g. Facebook and Google) to execute single-sign-on, and in
+    that manner we will also collect your PI as provided to us by such third party
+    platforms; such as your photos, info of your social media contacts and their common
+    contacts, login data and profile information such as "about me", "friend lists"
+    and "interests".
+  - We may use this data in aggregate form, that is, as a statistical measure in order
+    to analyze and improve our Service.
+  - We process the information and PI we automatically collect in order to analyze
+    trends, administer, monitor and improve our Service, and to gather for aggregated
+    information to be used as basis for business strategies.
+  - We will retain your PI for as long as needed to provide the applicable Service
+    you use, unless a longer retention period is required or permitted by law.
+  purposes:
+    analytics:
+    - in order to analyze and improve our Service
+    - in order to analyze trends, administer, monitor and improve our Service, and
+      to gather for aggregated information to be used as basis for business strategies
+    services:
+    - in order to analyze and improve our Service
+- source: UNSPECIFIED_ACTOR
+  target: beacon
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    15. Advertising, Opt-Out
+
+
+    Our third party vendors may also use cookies and beacons to track your Internet
+    browsing in order to serve you ads based on what they or us believe to be of interest
+    according to your browsing activities and consumer preferences.'
+  purposes:
+    advertising:
+    - in order to serve you ads based on what they or us believe to be of interest
+      according to your browsing activities and consumer preferences
+    analytics:
+    - to track your Internet browsing
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    15. Advertising, Opt-Out
+
+
+    Our third party vendors may also use cookies and beacons to track your Internet
+    browsing in order to serve you ads based on what they or us believe to be of interest
+    according to your browsing activities and consumer preferences.'
+  purposes:
+    advertising:
+    - in order to serve you ads based on what they or us believe to be of interest
+      according to your browsing activities and consumer preferences
+    analytics:
+    - to track your Internet browsing
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - 'We may also share non-personally identifying information with our authorized
+    third party service providers, such as: aggregate user statistics, demographic
+    information and web site usage information.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Upon the case where our business is or becomes part of any merger, acquisition,
+    financing or similar transaction, or in the event of insolvency or bankruptcy,
+    your PI may be disclosed and otherwise transferred to such entities.
+  purposes: {}
+- source: third party payment processing platform
+  target: sensitive financial information of user
+  key: COLLECT
+  text:
+  - In addition, we offer certain payment functionalities, which require that certain
+    third party payment processing platforms collect sensitive financial information
+    of our users (e.g. credit card and payment information).
+  purposes: {}
+- source: we
+  target: website link to policy
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to our websites including https://wajooba.com and
+    any other website that links to this Policy (our "Sites") (collectively, our "Service").
+- source: datum contain in log file
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may also collect and use the data contained in log files, which may include
+    your IP (internet protocol) address, your ISP (internet service provider), the
+    browser you used to visit our Service, the time you visited our Service and which
+    pages you visited throughout our Service.
+- source: non-personal information
+  target: aggregate user statistic
+  key: SUBSUM
+  text:
+  - 'We may also share non-personally identifying information with our authorized
+    third party service providers, such as: aggregate user statistics, demographic
+    information and web site usage information.'
+- source: non-personal information
+  target: demographic information
+  key: SUBSUM
+  text:
+  - 'We may also share non-personally identifying information with our authorized
+    third party service providers, such as: aggregate user statistics, demographic
+    information and web site usage information.'
+- source: non-personal information
+  target: web site usage information
+  key: SUBSUM
+  text:
+  - 'We may also share non-personally identifying information with our authorized
+    third party service providers, such as: aggregate user statistics, demographic
+    information and web site usage information.'
+- source: personal information
+  target: belief
+  key: SUBSUM
+  text:
+  - We do not ask you to send or to disclose us, any kind of sensitive PI, that is,
+    Social Security numbers, information related to racial or ethnic origin, political
+    opinions, religion or other beliefs, health, biometrics or genetic characteristics,
+    trade union membership or criminal background.
+- source: personal information
+  target: biometric information
+  key: SUBSUM
+  text:
+  - We do not ask you to send or to disclose us, any kind of sensitive PI, that is,
+    Social Security numbers, information related to racial or ethnic origin, political
+    opinions, religion or other beliefs, health, biometrics or genetic characteristics,
+    trade union membership or criminal background.
+- source: personal information
+  target: common contact
+  key: SUBSUM
+  text:
+  - Our Service may offer the functionality of using your social media and other third
+    party credentials (e.g. Facebook and Google) to execute single-sign-on, and in
+    that manner we will also collect your PI as provided to us by such third party
+    platforms; such as your photos, info of your social media contacts and their common
+    contacts, login data and profile information such as "about me", "friend lists"
+    and "interests".
+- source: personal information
+  target: criminal background
+  key: SUBSUM
+  text:
+  - We do not ask you to send or to disclose us, any kind of sensitive PI, that is,
+    Social Security numbers, information related to racial or ethnic origin, political
+    opinions, religion or other beliefs, health, biometrics or genetic characteristics,
+    trade union membership or criminal background.
+- source: personal information
+  target: genetic characteristic
+  key: SUBSUM
+  text:
+  - We do not ask you to send or to disclose us, any kind of sensitive PI, that is,
+    Social Security numbers, information related to racial or ethnic origin, political
+    opinions, religion or other beliefs, health, biometrics or genetic characteristics,
+    trade union membership or criminal background.
+- source: personal information
+  target: health
+  key: SUBSUM
+  text:
+  - We do not ask you to send or to disclose us, any kind of sensitive PI, that is,
+    Social Security numbers, information related to racial or ethnic origin, political
+    opinions, religion or other beliefs, health, biometrics or genetic characteristics,
+    trade union membership or criminal background.
+- source: personal information
+  target: info
+  key: SUBSUM
+  text:
+  - Our Service may offer the functionality of using your social media and other third
+    party credentials (e.g. Facebook and Google) to execute single-sign-on, and in
+    that manner we will also collect your PI as provided to us by such third party
+    platforms; such as your photos, info of your social media contacts and their common
+    contacts, login data and profile information such as "about me", "friend lists"
+    and "interests".
+- source: personal information
+  target: information relate to racial origin
+  key: SUBSUM
+  text:
+  - We do not ask you to send or to disclose us, any kind of sensitive PI, that is,
+    Social Security numbers, information related to racial or ethnic origin, political
+    opinions, religion or other beliefs, health, biometrics or genetic characteristics,
+    trade union membership or criminal background.
+- source: personal information
+  target: login datum
+  key: SUBSUM
+  text:
+  - Our Service may offer the functionality of using your social media and other third
+    party credentials (e.g. Facebook and Google) to execute single-sign-on, and in
+    that manner we will also collect your PI as provided to us by such third party
+    platforms; such as your photos, info of your social media contacts and their common
+    contacts, login data and profile information such as "about me", "friend lists"
+    and "interests".
+- source: personal information
+  target: photo
+  key: SUBSUM
+  text:
+  - Our Service may offer the functionality of using your social media and other third
+    party credentials (e.g. Facebook and Google) to execute single-sign-on, and in
+    that manner we will also collect your PI as provided to us by such third party
+    platforms; such as your photos, info of your social media contacts and their common
+    contacts, login data and profile information such as "about me", "friend lists"
+    and "interests".
+- source: personal information
+  target: political opinion
+  key: SUBSUM
+  text:
+  - We do not ask you to send or to disclose us, any kind of sensitive PI, that is,
+    Social Security numbers, information related to racial or ethnic origin, political
+    opinions, religion or other beliefs, health, biometrics or genetic characteristics,
+    trade union membership or criminal background.
+- source: personal information
+  target: profile information as about i
+  key: SUBSUM
+  text:
+  - Our Service may offer the functionality of using your social media and other third
+    party credentials (e.g. Facebook and Google) to execute single-sign-on, and in
+    that manner we will also collect your PI as provided to us by such third party
+    platforms; such as your photos, info of your social media contacts and their common
+    contacts, login data and profile information such as "about me", "friend lists"
+    and "interests".
+- source: personal information
+  target: religion
+  key: SUBSUM
+  text:
+  - We do not ask you to send or to disclose us, any kind of sensitive PI, that is,
+    Social Security numbers, information related to racial or ethnic origin, political
+    opinions, religion or other beliefs, health, biometrics or genetic characteristics,
+    trade union membership or criminal background.
+- source: personal information
+  target: ssn
+  key: SUBSUM
+  text:
+  - We do not ask you to send or to disclose us, any kind of sensitive PI, that is,
+    Social Security numbers, information related to racial or ethnic origin, political
+    opinions, religion or other beliefs, health, biometrics or genetic characteristics,
+    trade union membership or criminal background.
+- source: personal information
+  target: trade union membership
+  key: SUBSUM
+  text:
+  - We do not ask you to send or to disclose us, any kind of sensitive PI, that is,
+    Social Security numbers, information related to racial or ethnic origin, political
+    opinions, religion or other beliefs, health, biometrics or genetic characteristics,
+    trade union membership or criminal background.
+- source: sensitive financial information of user
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - In addition, we offer certain payment functionalities, which require that certain
+    third party payment processing platforms collect sensitive financial information
+    of our users (e.g. credit card and payment information).
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: third party payment processing platform
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website link to policy
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: ad words
+- type: DATA
+  id: advertising id
+- type: DATA
+  id: aggregate user statistic
+- type: DATA
+  id: beacon
+- type: DATA
+  id: belief
+- type: DATA
+  id: biometric information
+- type: DATA
+  id: call beacon
+- type: DATA
+  id: common contact
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: criminal background
+- type: DATA
+  id: datum contain in log file
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: double click tracking code
+- type: DATA
+  id: genetic characteristic
+- type: DATA
+  id: health
+- type: DATA
+  id: info
+- type: DATA
+  id: information relate to racial origin
+- type: DATA
+  id: ip address
+- type: DATA
+  id: login datum
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: photo
+- type: DATA
+  id: political opinion
+- type: DATA
+  id: profile information as about i
+- type: DATA
+  id: religion
+- type: DATA
+  id: sensitive financial information of user
+- type: DATA
+  id: ssn
+- type: DATA
+  id: trade union membership
+- type: DATA
+  id: web site usage information

@@ -1,0 +1,133 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'How we use your information
+
+
+    1. Information'
+  - 'How we use your information
+
+
+    2. Information'
+  - 'How we use your information
+
+
+    3. Information'
+  - We may use this information and the combined information for the purposes set
+    out above (depending on the type of information we receive).
+  - 'We will use this information: * To administer our site and mobile applications
+    for internal operations including trouble shooting, data analysis, testing, research,
+    statistical and survey purposes.'
+  - 'We will use this information: * To carry out our obligations arising out of any
+    contracts entered into between you and us to contact you in relation to appointment
+    and or event booking and to provide you with the information, about products and
+    services that you request from through our site.'
+  purposes:
+    legal:
+    - '* To carry out our obligations arising out of any contracts entered into between
+      you and us to contact you in relation to appointment and or event booking and
+      to provide you with the information, about products and services that you request
+      from through our site'
+    services:
+    - '* To carry out our obligations arising out of any contracts entered into between
+      you and us to contact you in relation to appointment and or event booking and
+      to provide you with the information, about products and services that you request
+      from through our site'
+- source: we
+  target: combine information
+  key: COLLECT
+  text:
+  - We may use this information and the combined information for the purposes set
+    out above (depending on the type of information we receive).
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We also use a session cookie to ensure that you may complete a booking and or
+    purchase of booking credits or gift vouchers.
+  - We use a session cookie to manage your authentication when you sign in to your
+    account.
+  purposes:
+    security:
+    - to manage your authentication when you sign in to your account
+    services:
+    - to ensure that you may complete a booking and or purchase of booking credits
+      or gift vouchers
+    - to manage your authentication when you sign in to your account
+- source: we
+  target: datum about you
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you:'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - You may give us information about you by filling in forms on the events, services
+    or booking pages, by creating an account with us, but uploading businesses to
+    our site.
+  purposes: {}
+- source: we
+  target: information hold about you
+  key: COLLECT
+  text:
+  - We use information held about you in the following ways
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Disclosure of your information
+
+
+    We may share your personal information with: 1. The business owner where you have
+    booked your appointment or event facilitator that is organising the event you
+    have booked.'
+  purposes: {}
+- source: business owner you book appointment
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Disclosure of your information
+
+
+    We may share your personal information with: 1. The business owner where you have
+    booked your appointment or event facilitator that is organising the event you
+    have booked.'
+  purposes: {}
+- source: we
+  target: bookinghawk
+  key: SUBSUM
+  text:
+  - We at BookingHawk.com trading as Jensen  Software (hereinafter "we" "us" "BookingHawk"
+    "BookingHawk.com") respect your right to privacy and comply with our obligations
+    under the Data Protection Acts 1988 and 2003 as well as General Data Protection
+    Regulation (EU GDPR).
+nodes:
+- type: ACTOR
+  id: bookinghawk
+- type: ACTOR
+  id: business owner you book appointment
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: combine information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information hold about you
+- type: DATA
+  id: personal information

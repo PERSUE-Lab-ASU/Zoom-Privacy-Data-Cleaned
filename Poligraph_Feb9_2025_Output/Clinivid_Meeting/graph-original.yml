@@ -1,0 +1,235 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Clinivid will use and disclose the personal information of authorised users for
+    the following purposes: To enable the application to share information between
+    clinical users'
+  - Whenever a problem or error occurs when using the Clinivid application we collect
+    log data and information through the use of these third-party products (Google
+    Analytics).
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use Google Analytics in connection with the Clinivid application and they may
+    set cookies on your browser or use cookies that are already there.
+  - We use this data to improve the user's experience of the Clinivid application.
+  - We use this information to improve the user's experience.
+  - Web-beacons are used as part of the Google Analytics service.
+  purposes:
+    services:
+    - to improve the user's experience
+    - to improve the user's experience of the Clinivid application
+- source: we
+  target: datum hold in clinivid
+  key: COLLECT
+  text:
+  - On infrequent occasions, for the specific purpose of providing technical support
+    to Infomedix, data held in Clinivid may be disclosed by us to Infomedix contracted
+    software developers located in India.
+  purposes:
+    services:
+    - for the specific purpose of providing technical support to Infomedix
+- source: we
+  target: log datum
+  key: COLLECT
+  text:
+  - Whenever a problem or error occurs when using the Clinivid application we collect
+    log data and information through the use of these third-party products (Google
+    Analytics).
+  purposes: {}
+- source: we
+  target: personal information we hold about they
+  key: COLLECT
+  text:
+  - Clinivid users may request details of personal information that we hold about
+    them.
+  - We will provide this information in accordance with the requirements of the Privacy
+    Act.
+  purposes: {}
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - We collect usage information through the use of cookies which is described in
+    more detail later in this privacy policy.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - The third-party companies and individuals may have access to personal or sensitive
+    information where it is essential to their ability to provide the service to us.
+  purposes: {}
+- source: clinivid
+  target: age
+  key: COLLECT
+  text:
+  - 'The type of patient personal information entered by users that Clinivid may store
+    and share with other authorised users includes: the patient''s name, age and gender.'
+  purposes: {}
+- source: clinivid
+  target: gender
+  key: COLLECT
+  text:
+  - 'The type of patient personal information entered by users that Clinivid may store
+    and share with other authorised users includes: the patient''s name, age and gender.'
+  purposes: {}
+- source: clinivid
+  target: information about patient enter
+  key: COLLECT
+  text:
+  - Clinivid stores information about patients that is entered by authorised users.
+  purposes: {}
+- source: clinivid
+  target: person name
+  key: COLLECT
+  text:
+  - 'The type of patient personal information entered by users that Clinivid may store
+    and share with other authorised users includes: the patient''s name, age and gender.'
+  purposes: {}
+- source: clinivid
+  target: personal information about contact
+  key: COLLECT
+  text:
+  - No personal information about the contact is stored or used in any other way by
+    Clinivid.
+  purposes: {}
+- source: clinivid
+  target: personal information of authorise user
+  key: COLLECT
+  text:
+  - 'Clinivid will use and disclose the personal information of authorised users for
+    the following purposes:'
+  purposes:
+    analytics:
+    - To undertake quality assurance processes, including assessing the product performance
+    legal:
+    - Where required or authorised by or under an Australian law or a court/tribunal
+      order
+    security:
+    - To monitor, detect and respond to cyber-security or privacy incidents
+    services:
+    - To correspond with users if necessary to maintain the service
+    - To enable the application to share information between clinical users
+    - To provide access to the Infomedix Clinivid product
+    - To undertake quality assurance processes, including assessing the product performance
+- source: clinivid
+  target: relevant health information
+  key: COLLECT
+  text:
+  - 'The type of patient personal information entered by users that Clinivid may store
+    and share with other authorised users includes: the patient''s relevant health
+    information including health history, diagnosis and treatment.'
+  purposes: {}
+- source: health service
+  target: patient information
+  key: COLLECT
+  text:
+  - Patient information is integrated with the patient's medical record and is held
+    by the health service.
+  purposes: {}
+- source: infomedix
+  target: clinivid datum
+  key: COLLECT
+  text:
+  - Infomedix stores Clinivid data in highly secure Australian data centres, ensuring
+    that all personal data stays in Australia.
+  purposes: {}
+- source: infomedix
+  target: personal information
+  key: COLLECT
+  text:
+  - Authorised users are required to provide some personal information to Infomedix
+    in order to use the Clinivid product.
+  - This Clinivid Privacy Policy explains how personal information is collected and
+    handled by Infomedix, its customers and their authorised users when using Clinivid.
+  purposes: {}
+- source: infomedix contract software developer locate in india
+  target: datum hold in clinivid
+  key: COLLECT
+  text:
+  - On infrequent occasions, for the specific purpose of providing technical support
+    to Infomedix, data held in Clinivid may be disclosed by us to Infomedix contracted
+    software developers located in India.
+  purposes:
+    services:
+    - for the specific purpose of providing technical support to Infomedix
+- source: personal information
+  target: datum enter about patient
+  key: SUBSUM
+  text:
+  - Personal information (including all data entered by users about patients) is encrypted
+    in transit and at rest.
+- source: personal information
+  target: sensitive personal information
+  key: SUBSUM
+  text:
+  - At Infomedix we are committed to managing personal information, including sensitive
+    personal information responsibly and in accordance with the thirteen Australian
+    Privacy Principles contained in the Privacy Act 1988 and applicable State and
+    Territory privacy laws.
+- source: relevant health information
+  target: health history
+  key: SUBSUM
+  text:
+  - 'The type of patient personal information entered by users that Clinivid may store
+    and share with other authorised users includes: the patient''s relevant health
+    information including health history, diagnosis and treatment.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: clinivid
+- type: ACTOR
+  id: health service
+- type: ACTOR
+  id: infomedix
+- type: ACTOR
+  id: infomedix contract software developer locate in india
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: age
+- type: DATA
+  id: clinivid datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum enter about patient
+- type: DATA
+  id: datum hold in clinivid
+- type: DATA
+  id: gender
+- type: DATA
+  id: health history
+- type: DATA
+  id: information about patient enter
+- type: DATA
+  id: log datum
+- type: DATA
+  id: patient information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information about contact
+- type: DATA
+  id: personal information of authorise user
+- type: DATA
+  id: personal information we hold about they
+- type: DATA
+  id: relevant health information
+- type: DATA
+  id: sensitive personal information
+- type: DATA
+  id: usage information

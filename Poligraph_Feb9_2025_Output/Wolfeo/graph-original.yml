@@ -1,0 +1,78 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: detail about browser you use
+  key: COLLECT
+  text:
+  - When you browse our store, we also automatically receive your computer's Internet
+    Protocol address (IP address), which allows us to obtain more details about the
+    browser and operating system you are using.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - When you browse our store, we also automatically receive your computer's Internet
+    Protocol address (IP address), which allows us to obtain more details about the
+    browser and operating system you are using.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your personal information if we are required to do so by law or
+    if you violate our Terms and Conditions.
+  - When you make a purchase from our store, as part of our buying and selling process,
+    we collect the personal information you provide to us, such as your name, address
+    and email address.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In general, the third-party providers that we use will only collect, use and disclose
+    your information to the extent necessary to be able to perform the services they
+    provide to us.
+  purposes: {}
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you make a purchase from our store, as part of our buying and selling process,
+    we collect the personal information you provide to us, such as your name, address
+    and email address.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you make a purchase from our store, as part of our buying and selling process,
+    we collect the personal information you provide to us, such as your name, address
+    and email address.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - When you make a purchase from our store, as part of our buying and selling process,
+    we collect the personal information you provide to us, such as your name, address
+    and email address.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: detail about browser you use
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address

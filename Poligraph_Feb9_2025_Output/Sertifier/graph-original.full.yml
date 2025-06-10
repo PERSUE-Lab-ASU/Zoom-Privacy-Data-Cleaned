@@ -1,0 +1,391 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website uses cookies
+  - We and our third-party vendors use cookies to inform, optimize, and serve ads
+    based on your past visits to our Service.
+  - We use cookies and similar tracking technologies to track the activity on our
+    Service and hold certain information.
+  - We use cookies to personalize content and ads, to provide social media features
+    and to analyze our traffic.
+  purposes:
+    advertising:
+    - to inform, optimize, and serve ads based on your past visits to our Service
+    - to personalize content and ads, to provide social media features and to analyze
+      our traffic
+    analytics:
+    - to personalize content and ads, to provide social media features and to analyze
+      our traffic
+    - to track the activity on our Service and hold certain information
+    services:
+    - to personalize content and ads, to provide social media features and to analyze
+      our traffic
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We may use and store information about your location if you give us permission
+    to do so ("Location Data").
+  - We use this data to provide features of our Service, to improve and customize
+    our Service.
+  purposes:
+    services:
+    - to provide features of our Service, to improve and customize our Service
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We may also collect information about how the Service is accessed and used ("Usage
+    Data").
+  purposes: {}
+- source: we
+  target: information about use of site
+  key: COLLECT
+  text:
+  - We also share information about your use of our site with our social media, advertising
+    and analytics partners who may combine it with other information that you've provided
+    to them or that they've collected from your use of their services.
+  purposes: {}
+- source: we
+  target: information you provide about yourself
+  key: COLLECT
+  text:
+  - We use the information you provide about yourself when placing an order only to
+    complete that order and to provide excellent customer service during the term
+    of your service.
+  purposes:
+    services:
+    - only to complete that order and to provide excellent customer service during
+      the term of your service
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may also collect information about how the Service is accessed and used ("Usage
+    Data").
+  purposes: {}
+- source: we
+  target: lead encryption
+  key: COLLECT
+  text:
+  - We use industry-leading encryption to protect all external traffic in transit
+    (via HTTPS/TLS) and at rest (using AES-256 and an automated key rotation system).
+  purposes:
+    security:
+    - to protect all external traffic in transit (via HTTPS/TLS) and at rest (using
+      AES-256 and an automated key rotation system)
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose your Personal Data in the good faith belief that such action
+    is necessary to:'
+  - 'We process Personal Data under the following legal bases:'
+  - We will retain and use your Personal Data to the extent necessary to comply with
+    our legal obligations (for example, if we are required to retain your data to
+    comply with applicable laws), resolve disputes, and enforce our legal agreements
+    and policies.
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We and our third-party vendors use cookies to inform, optimize, and serve ads
+    based on your past visits to our Service.
+  purposes:
+    advertising:
+    - to inform, optimize, and serve ads based on your past visits to our Service
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties have access to your Personal Data only to perform these tasks
+    on our behalf and are obligated not to disclose or use it for any other purpose.
+  purposes:
+    services:
+    - only to perform these tasks on our behalf
+- source: advertiser
+  target: information about use of site
+  key: COLLECT
+  text:
+  - We also share information about your use of our site with our social media, advertising
+    and analytics partners who may combine it with other information that you've provided
+    to them or that they've collected from your use of their services.
+  purposes: {}
+- source: analytic provider
+  target: information about use of site
+  key: COLLECT
+  text:
+  - We also share information about your use of our site with our social media, advertising
+    and analytics partners who may combine it with other information that you've provided
+    to them or that they've collected from your use of their services.
+  purposes: {}
+- source: script
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Tracking technologies also used are beacons, tags, and scripts to collect and
+    track information and to improve and analyze our Service.
+  purposes: {}
+- source: sertifier
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'Sertifier uses the collected data for various purposes:'
+  purposes:
+    advertising:
+    - To provide you with news, special offers, and general information about other
+      goods, services, and events which we offer that are similar to those that you
+      have already purchased or enquired about unless you have opted not to receive
+      such information
+    analytics:
+    - To gather analysis or valuable information so that we can improve our Service
+    - To monitor the usage of our Service
+    security:
+    - To detect, prevent, and address technical issues
+    services:
+    - To allow you to participate in interactive features of our Service when you
+      choose to do so
+    - To detect, prevent, and address technical issues
+    - To gather analysis or valuable information so that we can improve our Service
+    - To notify you about changes to our Service
+    - To provide customer support
+    - To provide you with news, special offers, and general information about other
+      goods, services, and events which we offer that are similar to those that you
+      have already purchased or enquired about unless you have opted not to receive
+      such information
+    - To provide, maintain, and improve our Service
+- source: sertifier
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Sertifier will also retain Usage Data for internal analysis purposes.'
+  purposes:
+    analytics:
+    - for internal analysis purposes
+- source: sertifier
+  target: personal information
+  key: COLLECT
+  text:
+  - Sertifier will retain your Personal Data only for as long as is necessary for
+    the purposes set out in this Privacy Policy.
+  purposes: {}
+- source: social media
+  target: information about use of site
+  key: COLLECT
+  text:
+  - We also share information about your use of our site with our social media, advertising
+    and analytics partners who may combine it with other information that you've provided
+    to them or that they've collected from your use of their services.
+  purposes: {}
+- source: track technology use
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Tracking technologies also used are beacons, tags, and scripts to collect and
+    track information and to improve and analyze our Service.
+  purposes: {}
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with a small amount of data which may include an anonymous unique
+    identifier.
+- source: datum collect through use of service
+  target: browser information
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    2. Definitions : Usage Data: Data collected automatically through the use of the
+    Service, such as IP addresses and browser information.'
+- source: datum collect through use of service
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    2. Definitions : Usage Data: Data collected automatically through the use of the
+    Service, such as IP addresses and browser information.'
+- source: information as
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'This Usage Data may include information such as: Browser type and version'
+- source: information as
+  target: date
+  key: SUBSUM
+  text:
+  - 'This Usage Data may include information such as: The time and date of your visit'
+- source: information as
+  target: device identifier
+  key: SUBSUM
+  text:
+  - 'This Usage Data may include information such as: Unique device identifiers'
+- source: information as
+  target: diagnostic datum
+  key: SUBSUM
+  text:
+  - 'This Usage Data may include information such as: Other diagnostic data'
+- source: information as
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'This Usage Data may include information such as: Your computer''s Internet Protocol
+    address (e.g. IP address)'
+- source: information as
+  target: time
+  key: SUBSUM
+  text:
+  - 'This Usage Data may include information such as: The time and date of your visit'
+- source: information as
+  target: time spend on page
+  key: SUBSUM
+  text:
+  - 'This Usage Data may include information such as: The time spent on those pages'
+- source: information as
+  target: version
+  key: SUBSUM
+  text:
+  - 'This Usage Data may include information such as: Browser type and version'
+- source: internet activity
+  target: information as
+  key: SUBSUM
+  text:
+  - 'This Usage Data may include information such as:'
+  - We may also collect information about how the Service is accessed and used ("Usage
+    Data").
+- source: personal information
+  target: company name
+  key: SUBSUM
+  text:
+  - 'This Personal Data may include, but is not limited to: Company Name'
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+- source: personal information
+  target: company website url
+  key: SUBSUM
+  text:
+  - 'This Personal Data may include, but is not limited to: Company Website URL'
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'This Personal Data may include, but is not limited to: email Address'
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+- source: software application
+  target: api
+  key: SUBSUM
+  text:
+  - This Policy applies to data collected through the Sertifier website ("Site") and
+    software application, including our API ("app").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: api
+- type: ACTOR
+  id: script
+- type: ACTOR
+  id: sertifier
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: software application
+- type: ACTOR
+  id: track technology use
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: company name
+- type: DATA
+  id: company website url
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: datum collect through use of service
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: diagnostic datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about use of site
+- type: DATA
+  id: information as
+- type: DATA
+  id: information you provide about yourself
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: lead encryption
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: time
+- type: DATA
+  id: time spend on page
+- type: DATA
+  id: version

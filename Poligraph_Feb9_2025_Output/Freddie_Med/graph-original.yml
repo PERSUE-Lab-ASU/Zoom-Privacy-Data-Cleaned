@@ -1,0 +1,119 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Website uses cookies.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We collect the following information about you if you register with us or get
+    in contact with us through our Website:'
+  - We may also gather and generate information about you when you provide it to us
+    or interact with us directly.
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - We may also collect other information that you provide to us through using our
+    Website.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As a general rule, we keep your personal information for as long as required (a)
+    to comply with law; (b) in connection with legal action or an investigation involving
+    us; or (c) to provide you with information, access to the Website, or our products
+    and our services.
+  - 'Privacy Policy
+
+
+    6. We sometimes share your personal information
+
+
+    We may share your personal information with any of the following:'
+  - We may transfer your personal information outside of your home country.
+  - 'We use your personal information for the purposes of:'
+  purposes:
+    advertising:
+    - marketing
+    legal:
+    - complying with our legal obligations
+    security:
+    - security, fraud prevention and detection
+    services:
+    - administration of your account
+    - improving our products and services;
+    - notifying you of any changes to the Website or to our products or services that
+      may affect you
+    - personalising our services to you
+    - providing our Website to you
+- source: advertiser
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In some cases, data may still be collected about your browsing activity by these
+    third-party advertisers, but they will not use this data to deliver advertisements
+    that are based on your past online browsing behaviour.
+  purposes: {}
+- source: freddie med
+  target: contact information
+  key: COLLECT
+  text:
+  - Where you have given your consent, Freddie Med may store your business contact
+    details for direct marketing purposes and we may contact you about our respective
+    products or services that may be of interest to you or your employer.
+  purposes:
+    advertising:
+    - for direct marketing purposes
+- source: information about you
+  target: business address
+  key: SUBSUM
+  text:
+  - 'We collect the following information about you if you register with us or get
+    in contact with us through our Website: your business address;'
+- source: information about you
+  target: detail about professional medical practice
+  key: SUBSUM
+  text:
+  - 'We collect the following information about you if you register with us or get
+    in contact with us through our Website: details about your professional medical
+    practice.'
+- source: information about you
+  target: email address
+  key: SUBSUM
+  text:
+  - 'We collect the following information about you if you register with us or get
+    in contact with us through our Website: your email address;'
+nodes:
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: freddie med
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: business address
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: detail about professional medical practice
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: personal information

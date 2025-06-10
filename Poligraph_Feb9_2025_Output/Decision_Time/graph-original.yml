@@ -1,0 +1,206 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - It should be noted that in some circumstances this legal basis may vary, however,
+    we always operate in full compliance with Data Protection Law and will only process
+    data with a fair and reasonable legal basis for doing so.
+  - 'Note: We may need to request additional information to verify your identity before
+    we action your request.'
+  - 'This privacy notice covers: How long we may keep your information'
+  - We will only retain information for as long as is necessary to deliver the service
+    safely and securely.
+  purposes:
+    security:
+    - to verify your identity
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website uses cookies to provide you with a service you have requested.
+  purposes:
+    services:
+    - to provide you with a service you have requested
+- source: we
+  target: detail of visitor behaviour pattern
+  key: COLLECT
+  text:
+  - When someone visits our websites we use third party services (Google Analytics
+    and Lead Forensics) to collect standard internet log information and details of
+    visitor behaviour patterns.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Notice
+
+
+    How long we may keep your personal information'
+  - 'Privacy Notice
+
+
+    Why we use your personal information
+
+
+    Service Provision
+
+
+    Where you are using our Services on behalf of our Customer, we process this personal
+    data for the following purposes:'
+  - 'This privacy notice covers: What personal information we use'
+  - We use your personal information, and some of our employees have access to such
+    information, only to the extent required to carry out business-to-business marketing,
+    service provision and recruitment.
+  - We will only disclose Personal Information to other parties in the following limited
+    circumstances
+  purposes:
+    legal:
+    - to enable us to comply with our legal and regulatory obligations
+    security:
+    - the verification of your identity where required
+    services:
+    - for the ongoing administration of the service
+    - to allow us to improve the products and services we offer to customers
+    - to offer new products and services to you which are relevant and appropriate,
+      and only to the extent that would be reasonably expected
+    - to provide you with the service activated and registered for
+- source: we
+  target: record
+  key: COLLECT
+  text:
+  - We may need to retain some records to maintain compliance with other applicable
+    legislation.
+  purposes:
+    legal:
+    - to maintain compliance with other applicable legislation
+- source: we
+  target: standard internet log information
+  key: COLLECT
+  text:
+  - When someone visits our websites we use third party services (Google Analytics
+    and Lead Forensics) to collect standard internet log information and details of
+    visitor behaviour patterns.
+  purposes: {}
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Google will store and use this information.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Notice
+
+
+    Sharing personal information with third parties'
+  - 'This privacy notice covers: Sharing personal information with third parties'
+  - We will only disclose Personal Information to other parties in the following limited
+    circumstances
+  purposes: {}
+- source: decision time
+  target: photography
+  key: COLLECT
+  text:
+  - Photography and videography may be used by Decision Time for the purpose of promoting
+    our business activities.
+  purposes:
+    advertising:
+    - for the purpose of promoting our business activities
+- source: decision time
+  target: videography
+  key: COLLECT
+  text:
+  - Photography and videography may be used by Decision Time for the purpose of promoting
+    our business activities.
+  purposes:
+    advertising:
+    - for the purpose of promoting our business activities
+- source: personal information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Types of personal information we collect
+
+
+    Cookies'
+- source: standard internet log information
+  target: ip address
+  key: SUBSUM
+  text:
+  - This information may include your IP address, referral address, and technical
+    information such as browser type and operating system.
+  - When someone visits our websites we use third party services (Google Analytics
+    and Lead Forensics) to collect standard internet log information and details of
+    visitor behaviour patterns.
+- source: standard internet log information
+  target: referral address
+  key: SUBSUM
+  text:
+  - This information may include your IP address, referral address, and technical
+    information such as browser type and operating system.
+  - When someone visits our websites we use third party services (Google Analytics
+    and Lead Forensics) to collect standard internet log information and details of
+    visitor behaviour patterns.
+- source: standard internet log information
+  target: technical information
+  key: SUBSUM
+  text:
+  - This information may include your IP address, referral address, and technical
+    information such as browser type and operating system.
+  - When someone visits our websites we use third party services (Google Analytics
+    and Lead Forensics) to collect standard internet log information and details of
+    visitor behaviour patterns.
+- source: technical information
+  target: browser type
+  key: SUBSUM
+  text:
+  - This information may include your IP address, referral address, and technical
+    information such as browser type and operating system.
+- source: technical information
+  target: operating system
+  key: SUBSUM
+  text:
+  - This information may include your IP address, referral address, and technical
+    information such as browser type and operating system.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: decision time
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: detail of visitor behaviour pattern
+- type: DATA
+  id: ip address
+- type: DATA
+  id: operating system
+- type: DATA
+  id: personal information
+- type: DATA
+  id: photography
+- type: DATA
+  id: record
+- type: DATA
+  id: referral address
+- type: DATA
+  id: standard internet log information
+- type: DATA
+  id: technical information
+- type: DATA
+  id: videography

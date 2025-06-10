@@ -1,0 +1,802 @@
+<html lang="en"><head><style><!----><!---->
+        .osano-cm-window{font-size:16px;font-family:Helvetica, Arial, 'Hiragino Sans GB', STXihei, 'Microsoft YaHei', 'WenQuanYi Micro Hei', Hind, 'MS Gothic', 'Apple SD Gothic Neo', 'NanumBarunGothic', sans-serif;font-smooth:always;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothingz:auto;display:block;position:absolute;left:0;top:0;z-index:2147483638;line-height:1;width:100%}.osano-cm-button{border-width:thin;border-style:solid;border-radius:0.25em;font-weight:bold;font-size:1em;padding:0.5em 0.75em;margin:0.125em;line-height:1;flex:1 1 auto;min-width:6em;cursor:pointer;transition-duration:200ms;transition-property:background-color;transition-timing-function:ease-out}.osano-cm-button:focus,.osano-cm-button:hover{outline:none}.osano-cm-link{cursor:pointer;text-decoration:underline;transition-duration:200ms;transition-property:color;transition-timing-function:ease-out}.osano-cm-link:hover,.osano-cm-link:active{outline:none}.osano-cm-link:focus{outline:none}.osano-cm-toggle{align-items:center;display:flex;flex-direction:row-reverse;justify-content:flex-start;margin:0.25em 0;position:relative}.osano-cm-toggle__label{margin:0 0.5em}.osano-cm-toggle__switch{color:transparent;line-height:0;text-indent:-9999px;width:44px;height:22px;display:block;border-radius:10px;position:relative;transition-duration:200ms;transition-property:background-color;transition-timing-function:ease-out}.osano-cm-toggle__switch:hover{cursor:pointer}.osano-cm-toggle__switch::after{content:'';position:absolute;top:0;left:0;margin:2px 2px;width:18px;height:18px;border-radius:9px;transform:translateX(0);transition-duration:300ms;transition-property:transform left margin;transition-timing-function:ease-out}.osano-cm-toggle__switch::after:active{width:26px;transition-duration:100ms}.osano-cm-toggle__checkbox{height:1px;width:1px;margin:-1px;opacity:0;position:absolute}.osano-cm-toggle__checkbox:checked+.osano-cm-toggle__switch::after{left:100%;margin:2px 2px 2px -2px;transform:translateX(-100%)}.osano-cm-toggle__checkbox:disabled{cursor:default}.osano-cm-toggle__checkbox:disabled+.osano-cm-toggle__switch{cursor:default}.osano-cm-script-disclosure__title,.osano-cm-cookie-disclosure__title{display:block;flex:0 1 30%;clear:both;font-weight:bold}.osano-cm-script-disclosure__description,.osano-cm-cookie-disclosure__description{font-size:0.875em;margin:0 0 0.5em;flex:0 1 70%}.osano-cm-disclosure{display:block;font-size:0.75em;margin:0 -1.5em 1em;padding:1.5em 1.5em 0;border-bottom:none;padding-bottom:0}.osano-cm-disclosure--collapse{border-bottom:1px solid rgba(0,0,0,0.1);padding-bottom:1em}.osano-cm-disclosure--empty,.osano-cm-disclosure--empty:not([open]){border-bottom:1px solid rgba(0,0,0,0.1);padding-bottom:0}.osano-cm-disclosure__list{line-height:1.25;list-style:none;margin:0 -1.5em 0;padding:1.25em 1.5em 1em;background-color:rgba(0,0,0,0.1)}.osano-cm-disclosure__list:empty{border:none;padding:0 1.5em}.osano-cm-disclosure__list:first-of-type{margin-top:1em;padding:1.25em 1.5em 1em}.osano-cm-disclosure__list:first-of-type:empty{padding:1.75em 1.5em 0.75em}.osano-cm-disclosure__list:not(:first-of-type):not(:empty){border-top:1px solid rgba(0,0,0,0.1)}.osano-cm-disclosure__list:empty+.osano-cm-disclosure__list:not(:empty){border:none;padding:0 1.5em}.osano-cm-disclosure__list:not(:empty) ~ .osano-cm-disclosure__list:empty+.osano-cm-disclosure__list:not(:empty){border-top:1px solid rgba(0,0,0,0.1)}.osano-cm-disclosure .osano-cm-item{line-height:1.25}.osano-cm-disclosure .osano-cm-item:not(:first-of-type){border-top:1px solid rgba(0,0,0,0.1);margin:1em -1.25em 0;padding:1em 1.25em 0}.osano-cm-disclosure__toggle{cursor:pointer;display:block;line-height:1.25;margin:0 auto 0 0;outline:none;position:relative}.osano-cm-disclosure__toggle:hover,.osano-cm-disclosure__toggle:active{outline:none}.osano-cm-disclosure__toggle:focus{outline:none}.osano-cm-disclosure--loading .osano-cm-disclosure__list{height:0;line-height:0;max-height:0}.osano-cm-disclosure--loading .osano-cm-disclosure__list>*{display:none}.osano-cm-disclosure--loading .osano-cm-disclosure__list::after{content:'';display:block;transform:translate(0, -50%);width:1em;height:1em;border-radius:100%;-webkit-animation-name:osano-load-scale;animation-name:osano-load-scale;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;animation-timing-function:ease-in-out}.osano-cm-disclosure--collapse .osano-cm-disclosure__list{display:none}.osano-cm-disclosure--collapse .osano-cm-disclosure__list::after{content:none}.osano-cm-script-disclosure,.osano-cm-cookie-disclosure{display:flex;flex-wrap:wrap;margin:0}@-webkit-keyframes osano-load-scale{0%{transform:translate(0, -50%) scale(0)}100%{transform:translate(0, -50%) scale(1);opacity:0}}@keyframes osano-load-scale{0%{transform:translate(0, -50%) scale(0)}100%{transform:translate(0, -50%) scale(1);opacity:0}}.osano-cm-widget{cursor:pointer;position:fixed;background:none;border:none;bottom:12px;z-index:2147483636;width:40px;height:40px;opacity:0.9;outline:none;padding:0;transition:transform 100ms linear 0s, opacity 400ms linear 0ms, visibility 0ms linear 0ms;visibility:visible}.osano-cm-widget--position_right{right:12px}.osano-cm-widget--position_left{left:12px}.osano-cm-widget:focus,.osano-cm-widget:hover{opacity:1;transform:scale(1.1)}.osano-cm-widget--hidden{opacity:0;transition-delay:0ms, 0ms, 400ms;visibility:hidden}.osano-cm-widget--hidden:focus,.osano-cm-widget--hidden:hover{opacity:0;transform:scale(1)}.osano-cm-dialog{box-sizing:border-box;font-size:1em;line-height:1.25;align-items:center;position:fixed;z-index:2147483637;padding:1.5em;overflow:auto;transition-property:opacity, visibility;transition-duration:700ms, 700ms;transition-delay:0ms, 0ms;visibility:visible}.osano-cm-dialog--hidden{opacity:0;transition-delay:0ms, 700ms;visibility:hidden}.osano-cm-dialog--type_bar{display:flex;flex-direction:column;box-sizing:border-box;right:0;left:0}.osano-cm-dialog--type_bar .osano-cm-button{flex:none;margin:0.125em auto;width:80%}@media screen and (min-width: 768px){.osano-cm-dialog--type_bar{flex-direction:row}.osano-cm-dialog--type_bar .osano-cm-button{flex:1 1 auto;width:auto;margin:0.25em 0.5em}}.osano-cm-dialog--type_box{width:calc(100vw - 2em);flex-direction:column;max-width:20em;max-height:calc(100vh - 2em)}.osano-cm-dialog__list{margin:0.5em 0 0 0;padding:0}.osano-cm-dialog__list .osano-cm-item{display:flex;margin-top:0}.osano-cm-dialog__list .osano-cm-item:last-child{margin-bottom:0}.osano-cm-dialog__list .osano-cm-toggle{flex-direction:row}.osano-cm-dialog__list .osano-cm-label{margin-left:0.375em;white-space:nowrap}.osano-cm-dialog__buttons{display:flex;flex-wrap:wrap}.osano-cm-dialog--type_bar .osano-cm-dialog__content{flex:5;margin-bottom:0.25em}.osano-cm-dialog--type_box .osano-cm-dialog__content{display:flex;flex-direction:column;flex-grow:0.00001;transition:flex-grow 1000ms linear}.osano-cm-dialog--type_bar .osano-cm-dialog__list{display:flex;flex-direction:column;flex-wrap:wrap;justify-content:flex-start;margin:0.75em auto}@media screen and (min-width: 376px){.osano-cm-dialog--type_bar .osano-cm-dialog__list{flex-direction:row}}@media screen and (min-width: 768px){.osano-cm-dialog--type_bar .osano-cm-dialog__list{margin:0.5em 0 0 auto}}.osano-cm-dialog--type_bar .osano-cm-dialog__list .osano-cm-item{margin-right:0.5em}.osano-cm-dialog--type_bar .osano-cm-dialog__list .osano-cm-label{padding-top:0}.osano-cm-dialog--type_bar .osano-cm-dialog__buttons{flex:1;justify-content:flex-end;width:100%;margin:0}@media screen and (min-width: 768px){.osano-cm-dialog--type_bar .osano-cm-dialog__buttons{width:auto;margin:0 0 0 0.5em}}.osano-cm-dialog--type_box .osano-cm-dialog__buttons{margin:0.5em 0 0 0}.osano-cm-dialog--type_bar.osano-cm-dialog--position_top{top:0}.osano-cm-dialog--type_bar.osano-cm-dialog--position_bottom{bottom:0}.osano-cm-dialog--type_box.osano-cm-dialog--position_top-left{top:1em;left:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_top-right{top:1em;right:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_bottom-left{bottom:1em;left:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_bottom-right{bottom:1em;right:1em}.osano-cm-dialog--type_box.osano-cm-dialog--position_center{top:50%;left:50%;transform:translate(-50%, -50%)}.osano-cm-storage-policy{display:inline-block;padding:0 0.125em;text-transform:capitalize}.osano-cm-info-dialog{position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:2147483638;transition-property:opacity, visibility;transition-duration:200ms, 0ms;transition-delay:0ms, 0ms;visibility:visible}.osano-cm-info-dialog--hidden{opacity:0;transition-delay:0ms, 200ms;visibility:hidden}.osano-cm-info{box-sizing:border-box;position:fixed;bottom:0;top:0;max-width:20em;transition-property:transform;transition-duration:400ms;padding:1em 0.75em 0;box-shadow:0 0 2px 2px #ccc;overflow-x:hidden;overflow-y:auto}.osano-cm-info--position_left{left:0;transform:translate(-100%, 0)}.osano-cm-info--position_right{right:0;transform:translate(100%, 0)}.osano-cm-info--open{transform:translate(0, 0)}.osano-cm-info__button{font-size:0.875em;width:100%;margin:1em 0 0}.osano-cm-info__list{list-style-type:none;margin:0;padding:0}.osano-cm-drawer-item{margin:1em 0 0;padding:0}.osano-cm-description{font-size:0.75em;font-weight:300;line-height:1.375;margin:1em 0 0}.osano-cm-drawer-toggle .osano-cm-label{font-size:0.875em;margin:0 auto 0 0}.osano-cm-info-dialog-header{margin:0.25em 0 1em}.osano-cm-info-dialog-header__header{font-size:1em;margin:0 0 1em 0;padding:0.25em 0}.osano-cm-info-dialog-header__description{font-size:0.75em;line-height:1.375}.osano-cm-close{cursor:pointer;float:right;text-decoration:none;border:none;padding:0;transition:transform 200ms ease-out;transform:rotate(0deg);margin:0;outline:none}.osano-cm-close polygon{transition-property:fill;transition-duration:200ms;transition-timing-function:ease-out}.osano-cm-close:focus{transform:rotate(90deg)}.osano-cm-close:hover{transform:rotate(90deg)}.osano-cm-powered-by{align-items:center;display:flex;flex-direction:column;justify-content:center;margin:1em 0}.osano-cm-powered-by__link{font-size:0.625em;text-decoration:none}
+
+        .osano-cm-dialog { background: #3c404d; color: #d6d6d6; }
+        .osano-cm-info-dialog { background: rgba(0,0,0,0.45); }
+        .osano-cm-info { background: #fff; color: #000; }
+        .osano-cm-info-dialog-header__close > svg > polygon { fill: #000; }
+        .osano-cm-info-dialog-header__close:focus > svg > polygon {
+            fill: #141414;
+        }
+        .osano-cm-info-dialog-header__close:hover > svg > polygon {
+            fill: #212121;
+        }
+        .osano-cm-disclosure__list:first-of-type::after { background-color: #92bffb; }
+        .osano-cm-disclosure__toggle { color: #92bffb; }
+        .osano-cm-disclosure__toggle:hover, .osano-cm-disclosure__toggle:active {
+            color: #92bffb;
+        }
+        .osano-cm-disclosure__toggle:focus { color: #7daae6; }
+        .osano-cm-button {
+            background-color: #8bed4f;
+            border-color: #000;
+            color: #000;
+        }
+        .osano-cm-button--type_deny {
+            background-color: #989;
+            border-color: #fff;
+            color: #fff;
+        }
+        .osano-cm-button:focus,
+        .osano-cm-button:hover { background-color: #76d83a; }
+        .osano-cm-button--type_deny:focus, .osano-cm-button--type_deny:hover {
+            background-color: #847384;
+        }
+        .osano-cm-close { background: #fff; color: #000; }
+        .osano-cm-link { color: #92bffb; }
+        .osano-cm-link:hover, .osano-cm-link:active { color: #92bffb; }
+        .osano-cm-link:focus { color: #7daae6; }
+        .osano-cm-toggle__switch { background-color: #d2cfff; }
+        .osano-cm-toggle__switch::after { background-color: #ffffff; }
+        .osano-cm-toggle__checkbox:checked + .osano-cm-toggle__switch {
+            background-color: #37cd8f;
+        }
+        .osano-cm-toggle__checkbox:checked + .osano-cm-toggle__switch::after {
+            background-color: #f4f4f4;
+        }
+        .osano-cm-toggle__checkbox:focus + .osano-cm-toggle__switch,
+        .osano-cm-toggle__checkbox:hover + .osano-cm-toggle__switch {
+            background-color: #bdbaea;
+        }
+        .osano-cm-toggle__checkbox:focus + .osano-cm-toggle__switch::after,
+        .osano-cm-toggle__checkbox:hover + .osano-cm-toggle__switch::after {
+            background-color: #eaeaea;
+        }
+        .osano-cm-toggle__checkbox:focus:checked + .osano-cm-toggle__switch,
+        .osano-cm-toggle__checkbox:hover:checked + .osano-cm-toggle__switch {
+            background-color: #22b87a;
+        }
+        .osano-cm-toggle__checkbox:focus:checked + .osano-cm-toggle__switch::after,
+        .osano-cm-toggle__checkbox:hover:checked + .osano-cm-toggle__switch::after {
+            background-color: #dfdfdf;
+        }
+        .osano-cm-toggle__checkbox:disabled + .osano-cm-toggle__switch,
+        .osano-cm-toggle__checkbox:focus:disabled + .osano-cm-toggle__switch,
+        .osano-cm-toggle__checkbox:hover:disabled + .osano-cm-toggle__switch {
+            background-color: #928fbf;
+        }
+        .osano-cm-toggle__checkbox:disabled + .osano-cm-toggle__switch::after,
+        .osano-cm-toggle__checkbox:focus:disabled + .osano-cm-toggle__switch::after,
+        .osano-cm-toggle__checkbox:hover:disabled + .osano-cm-toggle__switch::after {
+            background-color: #bfbfbf;
+        }
+        .osano-cm-toggle__checkbox:disabled:checked + .osano-cm-toggle__switch,
+        .osano-cm-toggle__checkbox:disabled:checked:focus + .osano-cm-toggle__switch,
+        .osano-cm-toggle__checkbox:disabled:checked:hover + .osano-cm-toggle__switch {
+            background-color: #008d4f;
+        }
+        .osano-cm-toggle__checkbox:disabled:checked + .osano-cm-toggle__switch::after,
+        .osano-cm-toggle__checkbox:disabled:checked:focus + .osano-cm-toggle__switch::after,
+        .osano-cm-toggle__checkbox:disabled:checked:hover + .osano-cm-toggle__switch::after {
+            background-color: #b4b4b4;
+        }
+    <!----><!----></style>
+
+
+
+<meta charset="UTF-8">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="robots" content="index,follow">
+<meta name="rating" content="GENERAL">
+<meta name="author" content="Rito Salomone">
+<meta name="copyright" content="(c) 1990-2024, Resource Software International Ltd. (RSI) ">
+<meta name="generator" content="RSI">
+<meta name="distribution" content="global">
+<meta name="verify-v1" content="eOb3tQ0i5X8bF6tk4nVQp92fkGGQVr/7SdaMhHr4tcM=">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Description" content="Call Accounting Privacy, Website Privacy Statement, Call Accounting Software">
+<meta name="keywords" content="Call Accounting Software, Emergency Notification, Call Recording, Call Center Reporting, Hotel Billing, Team Collaboration">
+
+<meta property="og:title" content="Resource Software International Ltd. (RSI) ">
+<meta property="og:image" content="https://telecost.com/images/275-rsi.png">
+<meta property="og:description" content="Communication management analytics for every enterprise.">
+<meta property="og:url" content="https://www.telecost.com">
+<meta name="twitter:card" content="https://telecost.com/images/275-rsi.png">
+<meta property="og:image:secure_url" content="https://telecost.com/images/275-rsi.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:alt" content="RSI logo">
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<!-- <link rel="manifest" href="/manifest.json"> -->
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#000000">  
+
+
+
+<meta name="format-detection" content="telephone=no">
+
+<!-- < meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">  -->  
+
+
+
+
+
+
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Google Fonts -->
+
+	
+	
+
+
+	<!-- Favicon -->
+	
+	<!-- Bootstrap Min CSS -->
+	
+	
+	<!-- Animate Min CSS -->
+	
+	<!-- FlatIcon CSS -->
+	
+	<!-- Font Awesome Min CSS -->
+	
+	<!-- Mran Menu CSS -->
+	
+	<!-- Magnific Popup Min CSS -->
+	
+	<!-- Nice Select Min CSS -->
+	
+	<!-- Swiper Min CSS -->
+	
+	<!-- Owl Carousel Min CSS -->
+	
+	<!-- Style CSS -->
+	
+	<!-- Responsive CSS -->
+	
+	
+	<!-- My CSS -->
+	
+	
+	<title>Resource Software International Ltd. (RSI) Privacy Statement</title> 
+</head>
+
+<body><div class="osano-cm-window"><!---->
+                
+        <div role="dialog" aria-live="polite" aria-label="Consent Manager by Osano" aria-describedby="7a41f2fa-7b9d-44eb-9802-b77bc685ead4" class="osano-cm-window__dialog osano-cm-dialog osano-cm-dialog--position_bottom osano-cm-dialog--type_bar">
+            <!--googleoff: all-->
+            <div class="osano-cm-dialog__content osano-cm-content">
+                
+        <span id="7a41f2fa-7b9d-44eb-9802-b77bc685ead4" class="osano-cm-content__message osano-cm-message">
+            This website stores data such as cookies to enable important site functionality including analytics, targeting, and personalization.
+            By remaining on this web site you indicate your consent.
+        </span>
+    
+                
+        <a href="https://www.telecost.com/privacy.php" target="_blank" class="osano-cm-storage-policy osano-cm-content__link osano-cm-link"><!---->data storage policy<!----></a>
+    
+                
+            </div>
+            
+            <!--googleon: all-->
+        </div>
+    
+                
+        <button class="osano-cm-window__widget osano-cm-widget osano-cm-widget--hidden osano-cm-widget--position_left" title="Cookie Preferences" aria-label="Cookie Preferences">
+            <svg width="40" height="40" viewBox="0 0 71.85 72.23" xmlns="http://www.w3.org/2000/svg">
+                <path d="m67.6 36.73a6.26 6.26 0 0 1 -3.2-2.8 5.86 5.86 0 0 0 -5.2-3.1h-.3a11 11 0 0 1 -11.4-9.5 6 6 0 0 1 -.1-1.4 9.2 9.2 0 0 1 .4-2.9 8.65 8.65 0 0 0 .2-1.6 5.38 5.38 0 0 0 -1.9-4.3 7.3 7.3 0 0 1 -2.5-5.5 3.91 3.91 0 0 0 -3.5-3.9 36.46 36.46 0 0 0 -15 1.5 33.14 33.14 0 0 0 -22.1 22.7 35.62 35.62 0 0 0 -1.5 10.2 34.07 34.07 0 0 0 4.8 17.6.75.75 0 0 0 .07.12c.11.17 1.22 1.39 2.68 3-.36.47 5.18 6.16 5.65 6.52a34.62 34.62 0 0 0 55.6-21.9 4.38 4.38 0 0 0 -2.7-4.74z" stroke-width="3" style="fill: rgb(255, 255, 255); stroke: rgb(41, 36, 106);"></path>
+                <path d="m68 41.13a32.37 32.37 0 0 1 -52 20.5l-2-1.56c-2.5-3.28-5.62-7.15-5.81-7.44a32 32 0 0 1 -4.5-16.5 34.3 34.3 0 0 1 1.4-9.6 30.56 30.56 0 0 1 20.61-21.13 33.51 33.51 0 0 1 14.1-1.4 1.83 1.83 0 0 1 1.6 1.8 9.38 9.38 0 0 0 3.3 7.1 3.36 3.36 0 0 1 1.2 2.6 3.37 3.37 0 0 1 -.1 1 12.66 12.66 0 0 0 -.5 3.4 9.65 9.65 0 0 0 .1 1.7 13 13 0 0 0 10.5 11.2 16.05 16.05 0 0 0 3.1.2 3.84 3.84 0 0 1 3.5 2 10 10 0 0 0 4.1 3.83 2 2 0 0 1 1.4 2z" stroke-width="3" style="fill: rgb(255, 255, 255); stroke: rgb(41, 36, 106);"></path>
+                <g style="fill: rgb(55, 205, 143);">
+                    <path d="m26.6 31.43a5.4 5.4 0 1 1 5.4-5.43 5.38 5.38 0 0 1 -5.33 5.43z"></path>
+                    <path d="m25.2 53.13a5.4 5.4 0 1 1 5.4-5.4 5.44 5.44 0 0 1 -5.4 5.4z"></path>
+                    <path d="m47.9 52.33a5.4 5.4 0 1 1 5.4-5.4 5.32 5.32 0 0 1 -5.24 5.4z"></path>
+                </g>
+            </svg>
+        </button>
+    
+                
+        <div class="osano-cm-window__info-dialog osano-cm-info-dialog osano-cm-info-dialog--hidden">
+            <div ss-container="" class="osano-cm-info-dialog__info osano-cm-info osano-cm-info--position_left">
+                
+        <div class="osano-cm-info__info-dialog-header osano-cm-info-dialog-header">
+            <button tabindex="0" class="osano-cm-info-dialog-header__close osano-cm-close">
+                <svg aria-role="button" width="20px" height="20px" viewBox="0 0 25 25">
+                    <title><!---->en.drawer.close<!----></title>
+                    <polygon points="25 0.71 24.29 0 12.5 11.79 0.71 0 0 0.71 11.79 12.5 0 24.29 0.71 25 12.5 13.21 24.29 25 25 24.29 13.21 12.5 25 0.71"></polygon>
+                </svg>
+            </button>
+            <p class="osano-cm-info-dialog-header__header osano-cm-header"><!---->Storage Preferences<!----></p>
+            <p class="osano-cm-info-dialog-header__description osano-cm-description"><!---->When you visit web sites, they may store or retrieve data in your web browser. This storage is often necessary for basic functionality of the web site or the storage may be used for the purposes of marketing, analytics, and personalization of the web site such as storing your preferences. Privacy is important to us so you have the option of disabling certain types of storage that may not be necessary to the basic functioning of the web site. Blocking categories may impact your experience on the web site<!----></p>
+        </div>
+    
+                
+        <ul class="osano-cm-info__list osano-cm-list">
+            <!---->
+                          <li class="osano-cm-drawer-item osano-cm-list__item osano-cm-item">
+                              
+        
+        <label class="osano-cm-list-item__drawer-toggle osano-cm-drawer-toggle osano-cm-list-item__toggle osano-cm-toggle osano-cm-toggle--checked osano-cm-toggle--disabled" title="Strictly Necessary" for="osano-cm-drawer-toggle--category_ESSENTIAL">
+            <input type="checkbox" class="osano-cm-toggle__checkbox osano-cm-checkbox osano-cm-checkbox--checked osano-cm-checkbox--disabled" id="osano-cm-drawer-toggle--category_ESSENTIAL" disabled="" data-category="ESSENTIAL">
+            <span class="osano-cm-toggle__switch osano-cm-switch"></span>
+            <span class="osano-cm-toggle__label osano-cm-label"><!---->Strictly Necessary<!----></span>
+        </label>
+    
+        <div class="osano-cm-list-item__description osano-cm-description">
+            Essential in order to enable you to navigate the website and use its features, such as accessing secure areas of the website.
+        </div>
+        
+              <div class="osano-cm-list-item__disclosure osano-cm-disclosure osano-cm-disclosure--collapse">
+                  <div tabindex="0" role="button" class="osano-cm-disclosure__toggle osano-cm-toggle" aria-pressed="false">
+                      Disclosure
+                  </div>
+                  
+        <ul class="osano-cm-disclosure__list osano-cm-list">
+            
+                      <li class="osano-cm-list__item osano-cm-item">
+                           No Disclosures 
+                      </li>
+                  
+        </ul>
+    
+              </div>
+          
+    
+                          </li>
+                      <!---->
+                          <li class="osano-cm-drawer-item osano-cm-list__item osano-cm-item">
+                              
+        
+        <label class="osano-cm-list-item__drawer-toggle osano-cm-drawer-toggle osano-cm-list-item__toggle osano-cm-toggle osano-cm-toggle--checked" title="Marketing" for="osano-cm-drawer-toggle--category_MARKETING">
+            <input type="checkbox" class="osano-cm-toggle__checkbox osano-cm-checkbox osano-cm-checkbox--checked" id="osano-cm-drawer-toggle--category_MARKETING" data-category="MARKETING">
+            <span class="osano-cm-toggle__switch osano-cm-switch"></span>
+            <span class="osano-cm-toggle__label osano-cm-label"><!---->Marketing<!----></span>
+        </label>
+    
+        <div class="osano-cm-list-item__description osano-cm-description">
+            Used to deliver advertising that is more relevant to you and your interests. They are also used to limit the number of times you see an advertisement as well as help measure the effectiveness of the advertising campaign. They are usually placed by advertising networks with the website operator’s permission.
+        </div>
+        
+              <div class="osano-cm-list-item__disclosure osano-cm-disclosure osano-cm-disclosure--collapse">
+                  <div tabindex="0" role="button" class="osano-cm-disclosure__toggle osano-cm-toggle" aria-pressed="false">
+                      Disclosure
+                  </div>
+                  
+        <ul class="osano-cm-disclosure__list osano-cm-list">
+            
+                      <li class="osano-cm-list__item osano-cm-item">
+                           No Disclosures 
+                      </li>
+                  
+        </ul>
+    
+              </div>
+          
+    
+                          </li>
+                      <!---->
+                          <li class="osano-cm-drawer-item osano-cm-list__item osano-cm-item">
+                              
+        
+        <label class="osano-cm-list-item__drawer-toggle osano-cm-drawer-toggle osano-cm-list-item__toggle osano-cm-toggle osano-cm-toggle--checked" title="Personalization" for="osano-cm-drawer-toggle--category_PERSONALIZATION">
+            <input type="checkbox" class="osano-cm-toggle__checkbox osano-cm-checkbox osano-cm-checkbox--checked" id="osano-cm-drawer-toggle--category_PERSONALIZATION" data-category="PERSONALIZATION">
+            <span class="osano-cm-toggle__switch osano-cm-switch"></span>
+            <span class="osano-cm-toggle__label osano-cm-label"><!---->Personalization<!----></span>
+        </label>
+    
+        <div class="osano-cm-list-item__description osano-cm-description">
+            Allows the website to remember choices you make (such as your user name, language or the region you are in) and provide enhanced, more personal features. For example, a website may be able to provide you with local weather reports or traffic news by storing data about the region in which you are currently located. 
+        </div>
+        
+              <div class="osano-cm-list-item__disclosure osano-cm-disclosure osano-cm-disclosure--collapse">
+                  <div tabindex="0" role="button" class="osano-cm-disclosure__toggle osano-cm-toggle" aria-pressed="false">
+                      Disclosure
+                  </div>
+                  
+        <ul class="osano-cm-disclosure__list osano-cm-list">
+            
+                      <li class="osano-cm-list__item osano-cm-item">
+                           No Disclosures 
+                      </li>
+                  
+        </ul>
+    
+              </div>
+          
+    
+                          </li>
+                      <!---->
+                          <li class="osano-cm-drawer-item osano-cm-list__item osano-cm-item">
+                              
+        
+        <label class="osano-cm-list-item__drawer-toggle osano-cm-drawer-toggle osano-cm-list-item__toggle osano-cm-toggle osano-cm-toggle--checked" title="Analytics" for="osano-cm-drawer-toggle--category_ANALYTICS">
+            <input type="checkbox" class="osano-cm-toggle__checkbox osano-cm-checkbox osano-cm-checkbox--checked" id="osano-cm-drawer-toggle--category_ANALYTICS" data-category="ANALYTICS">
+            <span class="osano-cm-toggle__switch osano-cm-switch"></span>
+            <span class="osano-cm-toggle__label osano-cm-label"><!---->Analytics<!----></span>
+        </label>
+    
+        <div class="osano-cm-list-item__description osano-cm-description">
+            Provides information about how a web site performs, how each page renders, and whether there are technical issues on the web site to the web site operator. This storage type usually doesn’t collect information that identifies a visitor. 
+        </div>
+        
+              <div class="osano-cm-list-item__disclosure osano-cm-disclosure osano-cm-disclosure--collapse">
+                  <div tabindex="0" role="button" class="osano-cm-disclosure__toggle osano-cm-toggle" aria-pressed="false">
+                      Disclosure
+                  </div>
+                  
+        <ul class="osano-cm-disclosure__list osano-cm-list">
+            
+                      <li class="osano-cm-list__item osano-cm-item">
+                           No Disclosures 
+                      </li>
+                  
+        </ul>
+    
+              </div>
+          
+    
+                          </li>
+                      <!---->
+                          <li class="osano-cm-drawer-item osano-cm-list__item osano-cm-item">
+                              
+        
+        <label class="osano-cm-list-item__drawer-toggle osano-cm-drawer-toggle osano-cm-list-item__toggle osano-cm-toggle" title="Do Not Sell" for="osano-cm-drawer-toggle--category_OPT_OUT">
+            <input type="checkbox" class="osano-cm-toggle__checkbox osano-cm-checkbox" id="osano-cm-drawer-toggle--category_OPT_OUT" data-category="OPT_OUT">
+            <span class="osano-cm-toggle__switch osano-cm-switch"></span>
+            <span class="osano-cm-toggle__label osano-cm-label"><!---->Do Not Sell<!----></span>
+        </label>
+    
+        <div class="osano-cm-list-item__description osano-cm-description">
+            Do not sell my personal data to third-parties when I visit this website.
+        </div>
+        <div class="osano-cm-list-item__disclosure osano-cm-disclosure osano-cm-disclosure--empty"></div>
+    
+                          </li>
+                      <!---->
+        </ul>
+    
+                
+        <button aria-role="button" class="osano-cm-save osano-cm-info__button osano-cm-button">
+            Save
+        </button>
+    
+                <div class="osano-cm-info__powered-by osano-cm-powered-by">
+                    
+        <a href="https://www.osano.com/?utm_campaign=cmp&amp;utm_source=cmp-dialog&amp;utm_medium=drawer" target="_self" class="osano-cm-powered-by__link osano-cm-link"><!---->Powered by Osano<!----></a>
+    
+                </div>
+            </div>
+        </div>
+    
+            <!----></div>
+  
+	<!-- Start Preloader Area -->
+	<div class="preloader preloader-deactivate">
+		<div class="loader">
+			<div class="shadow"></div>
+			<div class="box"></div>
+		</div>
+	</div>
+	<!-- End Preloader Area -->
+	
+	<!-- Start Navbar Area -->
+	<div class="navbar-area">
+		<div class="techvio-responsive-nav">
+			<div class="container">
+			         
+	
+			
+			
+				<div class="techvio-responsive-menu">
+					<div class="logo">
+						<a href="/index.php">
+							<img src="assets/img/logo.png" class="white-logo" alt="logo">
+							<img src="assets/img/logo-black.png" class="black-logo" alt="logo">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="techvio-nav">
+			<div class="container">
+				
+			</div>
+		</div>
+	</div>
+	<!-- End Navbar Area -->
+	
+  
+  	<!-- Start Page Title Area -->
+	<div class="page-title-area">
+		<div class="d-table">
+			<div class="d-table-cell">
+				<div class="container">
+					<div class="page-title-content">
+						<h2>Privacy Policy</h2>
+						<ul>
+							<li><a href="index.php">Home</a></li>
+							<li>Privacy Policy</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Page Title Area -->
+	
+
+	<!-- Start Project Details Area -->
+	<section class="project-details-area ptb-100">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-12 col-md-12">
+					<div class="projects-details-desc">
+
+<p>We respect your privacy and are committed to protecting it through our compliance with this privacy policy (“Policy”). This Policy describes the types of information we may collect from you or that you may provide (“Personal Information”) on the <a href="https://www.telecost.com">telecost.com</a> website (“Website”) and any of its related products and services (collectively, “Services”), and our practices for collecting, using, maintaining, protecting, and disclosing that Personal Information. It also describes the choices available to you regarding our use of your Personal Information and how you can access and update it.</p>
+<p>This Policy is a legally binding agreement between you (“User”, “you” or “your”) and Resource Software International Ltd. (doing business as “RSI”, “we”, “us” or “our”). If you are entering into this agreement on behalf of a business or other legal entity, you represent that you have the authority to bind such entity to this agreement, in which case the terms “User”, “you” or “your” shall refer to such entity. If you do not have such authority, or if you do not agree with the terms of this agreement, you must not accept this agreement and may not access and use the Website and Services. By accessing and using the Website and Services, you acknowledge that you have read, understood, and agree to be bound by the terms of this Policy. This Policy does not apply to the practices of companies that we do not own or control, or to individuals that we do not employ or manage.</p>
+<div class="wpembed-index"><h3>Table of contents</h3><p></p><ol class="wpembed-index"><li><a href="#automatic-collection-of-information">Automatic collection of information</a></li><li><a href="#privacy-of-children">Privacy of children</a></li><li><a href="#use-and-processing-of-collected-information">Use and processing of collected information</a></li><li><a href="#disclosure-of-information">Disclosure of information</a></li><li><a href="#retention-of-information">Retention of information</a></li><li><a href="#transfer-of-information">Transfer of information</a></li><li><a href="#data-protection-rights-under-the-gdpr">Data protection rights under the GDPR</a></li>
+<li><a href="#california-privacy-rights">California privacy rights</a></li><li><a href="#how-to-exercise-your-rights">How to exercise your rights</a></li><li><a href="#do-not-track-signals">Do Not Track signals</a></li><li><a href="#social-media-features">Social media features</a></li><li><a href="#complaint-policy-for-SMS">SMS Complaint Policy</a></li><li><a href="#email-marketing">Email marketing</a></li><li><a href="#links-to-other-resources">Links to other resources</a></li><li><a href="#information-security">Information security</a></li><li><a href="#data-breach">Data breach</a></li><li><a href="#changes-and-amendments">Changes and amendments</a></li><li><a href="#acceptance-of-this-policy">Acceptance of this policy</a></li><li><a href="#contacting-us">Contacting us</a></li></ol><p></p></div>
+
+<h2 id="automatic-collection-of-information"><br>Automatic collection of information</h2>
+<p>When you open the Website, our servers automatically record information that your browser sends. This data may include information such as your device’s IP address, browser type, and version, operating system type and version, language preferences or the webpage you were visiting before you came to the Website and Services, pages of the Website and Services that you visit, the time spent on those pages, information you search for on the Website, access times and dates, and other statistics.</p>
+<p>Information collected automatically is used only to identify potential cases of abuse and establish statistical information regarding the usage and traffic of the Website and Services. This statistical information is not otherwise aggregated in such a way that would identify any particular User of the system.</p>
+<h2 id="privacy-of-children">Privacy of children</h2>
+<p>We do not knowingly collect any Personal Information from children under the age of 18. If you are under the age of 18, please do not submit any Personal Information through the Website and Services. If you have reason to believe that a child under the age of 18 has provided Personal Information to us through the Website and Services, please contact us to request that we delete that child’s Personal Information from our Services.</p>
+<p>We encourage parents and legal guardians to monitor their children’s Internet usage and to help enforce this Policy by instructing their children never to provide Personal Information through the Website and Services without their permission. We also ask that all parents and legal guardians overseeing the care of children take the necessary precautions to ensure that their children are instructed to never give out Personal Information when online without their permission.</p>
+<h2 id="use-and-processing-of-collected-information">Use and processing of collected information</h2>
+<p>We act as a data controller and a data processor in terms of the GDPR when handling Personal Information, unless we have entered into a data processing agreement with you in which case you would be the data controller and we would be the data processor.</p>
+<p> Our role may also differ depending on the specific situation involving Personal Information. We act in the capacity of a data controller when we ask you to submit your Personal Information that is necessary to ensure your access and use of the Website and Services. In such instances, we are a data controller because we determine the purposes and means of the processing of Personal Information and we comply with data controllers’ obligations set forth in the GDPR.</p>
+<p>We act in the capacity of a data processor in situations when you submit Personal Information through the Website and Services. We do not own, control, or make decisions about the submitted Personal Information, and such Personal Information is processed only in accordance with your instructions. In such instances, the User providing Personal Information acts as a data controller in terms of the GDPR.</p>
+<p>In order to make the Website and Services available to you, or to meet a legal obligation, we may need to collect and use certain Personal Information. If you do not provide the information that we request, we may not be able to provide you with the requested products or services. Any of the information we collect from you may be used for the following purposes:</p>
+<p>
+</p><ul>
+<li>- Create and manage user accounts</li>
+<li>- Fulfill and manage orders</li>
+<li>- Deliver products or services</li>
+<li>- Send administrative information</li>
+<li>- Send product and service updates</li>
+<li>- Respond to inquiries and offer support</li>
+<li>- Respond to legal requests and prevent harm</li>
+<li>- Run and operate the Website and Services</li>
+</ul>
+<p></p>
+<p>Processing your Personal Information depends on how you interact with the Website and Services, where you are located in the world and if one of the following applies: (i) you have given your consent for one or more specific purposes; this, however, does not apply, whenever the processing of Personal Information is subject to California Consumer Privacy Act or European data protection law; (ii) provision of information is necessary for the performance of an agreement with you and/or for any pre-contractual obligations thereof; (iii) processing is necessary for compliance with a legal obligation to which you are subject; (iv) processing is related to a task that is carried out in the public interest or in the exercise of official authority vested in us; (v) processing is necessary for the purposes of the legitimate interests pursued by us or by a third party.</p>
+<p>We rely on user’s consent and performance of a contract as legal bases as defined in the GDPR upon which we collect and process your Personal Information.</p>
+<p> Note that under some legislations we may be allowed to process information until you object to such processing by opting out, without having to rely on consent or any other of the legal bases above. In any case, we will be happy to clarify the specific legal basis that applies to the processing, and in particular whether the provision of Personal Information is a statutory or contractual requirement, or a requirement necessary to enter into a contract.</p>
+<h2 id="disclosure-of-information">Disclosure of information</h2>
+<p> Depending on the requested Services or as necessary to complete any transaction or provide any Service you have requested, we may share your information with our trusted subsidiaries and joint venture partners, affiliates, contracted companies, and service providers (collectively, “Service Providers”) we rely upon to assist in the operation of the Website and Services available to you and whose privacy policies are consistent with ours or who agree to abide by our policies with respect to Personal Information. We will not share any personally identifiable information with third parties and will not share any information with unaffiliated third parties.</p>
+<p>Service Providers are not authorized to use or disclose your information except as necessary to perform services on our behalf or comply with legal requirements. Service Providers are given the information they need only in order to perform their designated functions, and we do not authorize them to use or disclose any of the provided information for their own marketing or other purposes.</p>
+<p>We may also disclose any Personal Information we collect, use or receive if required or permitted by law, such as to comply with a subpoena or similar legal process, and when we believe in good faith that disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud, or respond to a government request.</p>
+<p>In the event we go through a business transition, such as a merger or acquisition by another company, or sale of all or a portion of its assets, your Personal Information will likely be among the assets transferred.</p>
+<h2 id="retention-of-information">Retention of information</h2>
+<p>We will retain and use your Personal Information for the period necessary to comply with our legal obligations, until our and our affiliates and partners obligations are fulfilled, to enforce our agreements, resolve disputes, and unless a longer retention period is required or permitted by law.</p>
+<p>We may use any aggregated data derived from or incorporating your Personal Information after you update or delete it, but not in a manner that would identify you personally. Once the retention period expires, Personal Information shall be deleted. Therefore, the right to access, the right to erasure, the right to rectification, and the right to data portability cannot be enforced after the expiration of the retention period.</p>
+<h2 id="transfer-of-information">Transfer of information</h2>
+<p>Depending on your location, data transfers may involve transferring and storing your information in a country other than your own. However, this will not include countries outside the European Union and European Economic Area. If any such transfer takes place, you can find out more by checking the relevant sections of this Policy or inquire with us using the information provided in the contact section.</p>
+<h2 id="data-protection-rights-under-the-gdpr">Data protection rights under the GDPR</h2>
+<p>If you are a resident of the European Economic Area (“EEA”), you have certain data protection rights and we aim to take reasonable steps to allow you to correct, amend, delete, or limit the use of your Personal Information. If you wish to be informed what Personal Information we hold about you and if you want it to be removed from our systems, please contact us. In certain circumstances, you have the following data protection rights:</p>
+<p>
+(i) You have the right to withdraw consent where you have previously given your consent to the processing of your Personal Information. To the extent that the legal basis for our processing of your Personal Information is consent, you have the right to withdraw that consent at any time. Withdrawal will not affect the lawfulness of processing before the withdrawal.</p>
+<p>(ii) You have the right to learn if your Personal Information is being processed by us, obtain disclosure regarding certain aspects of the processing, and obtain a copy of your Personal Information undergoing processing.</p>
+<p>(iii) You have the right to verify the accuracy of your information and ask for it to be updated or corrected. You also have the right to request us to complete the Personal Information you believe is incomplete.</p>
+<p>(iv) You have the right to object to the processing of your information if the processing is carried out on a legal basis other than consent. Where Personal Information is processed for the public interest, in the exercise of an official authority vested in us, or for the purposes of the legitimate interests pursued by us, you may object to such processing by providing a ground related to your particular situation to justify the objection.</p>
+<p>(v) You have the right, under certain circumstances, to restrict the processing of your Personal Information. These circumstances include: the accuracy of your Personal Information is contested by you and we must verify its accuracy; the processing is unlawful, but you oppose the erasure of your Personal Information and request the restriction of its use instead; we no longer need your Personal Information for the purposes of processing, but you require it to establish, exercise or defend your legal claims; you have objected to processing pending the verification of whether our legitimate grounds override your legitimate grounds. Where processing has been restricted, such Personal Information will be marked accordingly and, with the exception of storage, will be processed only with your consent or for the establishment, to exercise or defense of legal claims, for the protection of the rights of another natural, or legal person or for reasons of important public interest.</p>
+<p>(vi) You have the right, under certain circumstances, to obtain the erasure of your Personal Information from us. These circumstances include: the Personal Information is no longer necessary in relation to the purposes for which it was collected or otherwise processed; you withdraw consent to consent-based processing; you object to the processing under certain rules of applicable data protection law; the processing is for direct marketing purposes; and the personal data have been unlawfully processed. However, there are exclusions of the right to erasure such as where processing is necessary: for exercising the right of freedom of expression and information; for compliance with a legal obligation; or for the establishment, to exercise or defense of legal claims.</p>
+<p>(vii) You have the right to receive your Personal Information that you have provided to us in a structured, commonly used, and machine-readable format and, if technically feasible, to have it transmitted to another controller without any hindrance from us, provided that such transmission does not adversely affect the rights and freedoms of others.</p>
+<p>(viii) You have the right to complain to a data protection authority about our collection and use of your Personal Information. If you are not satisfied with the outcome of your complaint directly with us, you have the right to lodge a complaint with your local data protection authority. For more information, please contact your local data protection authority in the EEA. This provision is applicable provided that your Personal Information is processed by automated means and that the processing is based on your consent, on a contract which you are part of, or on pre-contractual obligations thereof.</p>
+<h2 id="california-privacy-rights">California privacy rights</h2>
+<p>Consumers residing in California are afforded certain additional rights with respect to their Personal Information under the California Consumer Privacy Act (“CCPA”). If you are a California resident, this section applies to you.</p>
+<p>In addition to the rights as explained in this Policy, California residents who provide Personal Information as defined in the statute to obtain Services for personal, family, or household use are entitled to request and obtain from us, once a calendar year, information about the categories and specific pieces of Personal Information we have collected and disclosed.</p>
+<p>Furthermore, California residents have the right to request deletion of their Personal Information or opt-out of the sale of their Personal Information which may include selling, disclosing, or transferring Personal Information to another business or a third party for monetary or other valuable consideration. To do so, simply contact us. We will not discriminate against you if you exercise your rights under the CCPA.</p>
+<h2 id="how-to-exercise-your-rights">How to exercise your rights</h2>
+<p>Any requests to exercise your rights can be directed to us through the contact details provided in this document. Please note that we may ask you to verify your identity before responding to such requests. Your request must provide sufficient information that allows us to verify that you are the person you are claiming to be or that you are the authorized representative of such person. If we receive your request from an authorized representative, we may request evidence that you have provided such an authorized representative with power of attorney or that the authorized representative otherwise has valid written authority to submit requests on your behalf.</p>
+<p>You must include sufficient details to allow us to properly understand the request and respond to it. We cannot respond to your request or provide you with Personal Information unless we first verify your identity or authority to make such a request and confirm that the Personal Information relates to you.</p>
+<h2 id="do-not-track-signals">Do Not Track signals</h2>
+<p>Some browsers incorporate a Do Not Track feature that signals to websites you visit that you do not want to have your online activity tracked. Tracking is not the same as using or collecting information in connection with a website. For these purposes, tracking refers to collecting personally identifiable information from consumers who use or visit a website or online service as they move across different websites over time. How browsers communicate the Do Not Track signal is not yet uniform. As a result, the Website and Services are not yet set up to interpret or respond to Do Not Track signals communicated by your browser. Even so, as described in more detail throughout this Policy, we limit our use and collection of your Personal Information. For a description of Do Not Track protocols for browsers and mobile devices or to learn more about the choices available to you, visit <a href="https://www.internetcookies.com" target="_blank">internetcookies.com</a></p>
+<h2 id="social-media-features">Social media features</h2>
+<p>Our Website and Services may include social media features, such as the Facebook and Twitter buttons, Share This buttons, etc (collectively, “Social Media Features”). These Social Media Features may collect your IP address, what page you are visiting on our Website and Services, and may set a cookie to enable Social Media Features to function properly. Social Media Features are hosted either by their respective providers or directly on our Website and Services. Your interactions with these Social Media Features are governed by the privacy policy of their respective providers.</p>
+<h2 id="complaint-policy-for-SMS">SMS Complaint Policy</h2>
+<p>We do not utilize SMS to perform outbound marketing campaigns or contact individuals outside our organization via SMS without prior permission. Permission is granted if you contact us directly and or approve SMS texting in our contact us pages on our website. IF you receive an unsolicited message or wish to stop receiving text messages once permission is granted, you may <a href="#contacting-us">Contact Us</a>
+
+</p><p>You must include sufficient details to allow us to properly understand the request and respond to it. We cannot respond to your request or provide you with Personal Information unless we first verify your identity or authority to make such a request and confirm that the Personal Information relates to you.</p>
+<h2 id="email-marketing">Email marketing</h2>
+<p>We offer electronic newsletters to which you may voluntarily subscribe at any time. We are committed to keeping your e-mail address confidential and will not disclose your email address to any third parties except as allowed in the information use and processing section. We will maintain the information sent via e-mail in accordance with applicable laws and regulations.</p>
+<p>In compliance with the CAN-SPAM Act, all e-mails sent from us will clearly state who the e-mail is from and provide clear information on how to contact the sender. You may choose to stop receiving our newsletter or marketing emails by following the unsubscribe instructions included in these emails or by contacting us.</p>
+<h2 id="links-to-other-resources">Links to other resources</h2>
+<p>The Website and Services contain links to other resources that are not owned or controlled by us. Please be aware that we are not responsible for the privacy practices of such other resources or third parties. We encourage you to be aware when you leave the Website and Services and to read the privacy statements of each and every resource that may collect Personal Information.</p>
+<h2 id="information-security">Information security</h2>
+<p>We secure information you provide on computer servers in a controlled, secure environment, protected from unauthorized access, use, or disclosure. We maintain reasonable administrative, technical, and physical safeguards in an effort to protect against unauthorized access, use, modification, and disclosure of Personal Information in our control and custody. However, no data transmission over the Internet or wireless network can be guaranteed.</p>
+<p>Therefore, while we strive to protect your Personal Information, you acknowledge that (i) there are security and privacy limitations of the Internet which are beyond our control; (ii) the security, integrity, and privacy of any and all information and data exchanged between you and the Website and Services cannot be guaranteed; and (iii) any such information and data may be viewed or tampered with in transit by a third party, despite best efforts.</p>
+<h2 id="data-breach">Data breach</h2>
+<p>In the event we become aware that the security of the Website and Services has been compromised or Users’ Personal Information has been disclosed to unrelated third parties as a result of external activity, including, but not limited to, security attacks or fraud, we reserve the right to take reasonably appropriate measures, including, but not limited to, investigation and reporting, as well as notification to and cooperation with law enforcement authorities. In the event of a data breach, we will make reasonable efforts to notify affected individuals if we believe that there is a reasonable risk of harm to the User as a result of the breach or if notice is otherwise required by law. When we do, we will send you an email, mail you a letter.</p>
+<h2 id="changes-and-amendments">Changes and amendments</h2>
+<p>We reserve the right to modify this Policy or its terms related to the Website and Services at any time at our discretion. When we do, we will revise the updated date at the bottom of this page, post a notification on the main page of the Website. We may also provide notice to you in other ways at our discretion, such as through the contact information you have provided.</p>
+<p>An updated version of this Policy will be effective immediately upon the posting of the revised Policy unless otherwise specified. Your continued use of the Website and Services after the effective date of the revised Policy (or such other act specified at that time) will constitute your consent to those changes. However, we will not, without your consent, use your Personal Information in a manner materially different than what was stated at the time your Personal Information was collected.</p>
+<h2 id="acceptance-of-this-policy">Acceptance of this policy</h2>
+<p>You acknowledge that you have read this Policy and agree to all its terms and conditions. By accessing and using the Website and Services and submitting your information you agree to be bound by this Policy. If you do not agree to abide by the terms of this Policy, you are not authorized to access or use the Website and Services.</p>
+<h2 id="contacting-us">Contacting us</h2>
+
+          <a name="PO"></a>
+          <p class="text">If we change our Privacy Statement, we
+          will post those changes on this page so our users are aware of what
+          information we collect, how we use it and under which circumstances,
+          if any, we disclose it. Users should check this policy frequently to
+          keep abreast of any changes.
+          </p>
+
+          <p class="strong">Resource
+          Software International Ltd. (RSI)</p><p>
+          </p><p class="text">
+          Attention: Privacy Officer<br>
+          40 King Street West, Suite 300<br>
+          Oshawa, Ontario. L1G 7C7<br>
+          Phone: 905-576-4575<br>
+          <a href="mailto:rsi@telecost.com">rsi@telecost.com</a>
+          </p>
+
+<p>We will attempt to resolve complaints and disputes and make every reasonable effort to honor your wish to exercise your rights as quickly as possible and in any event, within the timescales provided by applicable data protection laws.</p>
+          
+<p>This document was last updated on October 28, 2024</p>
+  
+  
+						</div>						
+						
+					</div>
+				</div>
+			</div>
+		
+	</section>
+	<!-- End Project Details Area -->
+        
+
+
+
+
+
+
+
+
+            
+  	      
+<!--	
+<section id='webchat'>
+<div id="webchat-register-container">
+    <button id="webchat-register-button"></button>
+</div>
+</section>
+-->
+
+
+		<!-- Start Footer & Subscribe Section -->
+	      <section class="footer-subscribe-wrapper">
+      
+	      
+	      
+<!--		
+		<div class="subscribe-area">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-6">
+						<div class="subscribe-content">
+							<h2>Sign Up Our Newsletter</h2>
+							<span class="sub-title">We Offer An Informative Monthly Technology Newsletter - Check It Out.</span>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<form class="newsletter-form">
+							<input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
+							<button type="submit">Subscribe Now</button>
+							<div id="validator-newsletter" class="form-result"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+
+-->		
+
+		
+		<!-- End Subscribe Area -->
+
+
+		<!-- Start Footer Area -->
+		<div class="footer-area ptb-100">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<div class="footer-heading">
+								<h3>About Us</h3>
+							</div>
+							<p>Founded in 1990, Resource Software International Ltd. (RSI) is a world leader in producing products, training and resources that proactively manage, control and reduce the expense of communication facilities resulting in a more dynamic, responsive and productive communication ecosystem.</p>
+							<ul class="footer-social">
+								<li>
+									<a href="https://www.linkedin.com/company/rsiltd/"> <i class="fab fa-linkedin"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.rsiblog.com"> <i class="fab fa-blogger-b"></i>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.facebook.com/RSILtd"> <i class="fab fa-facebook-f"></i>
+									</a>
+								</li>
+								<li>
+									<a href="http://www.twitter.com/telecost"> <i class="fab fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="/feedback.php?title=Contact%20RSI&amp;subtitle=Please%20enter%20your%20your%20requirements%20with%20contact%20details%20below%20and%20one%20of%20our%20representatives%20will%20contact%20you.&amp;form=feedback"> <i class="fa fa-envelope"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<div class="footer-heading">
+								<h3>Our Portfolio</h3>
+							</div>
+							<ul class="footer-quick-links">
+								<li> <a href="products.php">Shadow All In One Analytics</a></li>
+								<li> <a href="products.php">Communication Analytics</a></li>
+								<li> <a href="partners.php">Technology Partners</a></li>
+								<li> <a href="support.php">Maintenance Plans</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<div class="footer-heading">
+								<h3>Useful Links</h3>
+							</div>
+							<ul class="footer-quick-links">
+								<li><a href="about.php">About Us</a></li>
+								<li><a href="news.php">News and Events</a></li>
+								<li> <a href="resale.php">Become a Partner</a></li>
+								<li> <a href="/feedback.php?title=Support Ticket&amp;subtitle= &amp;form=demo">Support Ticket</a></li>
+								<li> <a href="/feedback.php?title=Sales Inquiry&amp;subtitle= &amp;form=demo">Sales Inquiry</a></li>
+								
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="single-footer-widget">
+							<div class="footer-heading">
+								<h3>Contact Us</h3>
+							</div>
+							<div class="footer-info-contact"> <i class="flaticon-phone-call"></i>
+								<h3>Phone</h3>
+								<span><img src="/images/american-flag.png" style="height:14px"><a class="tel" id="tel" href="tel:7187010945">+1 718 701-0945</a></span><br>
+								
+								<span><img src="/images/canadian-flag.png" style="height:14px"><a class="tel" id="tel" href="tel:9055764575">+1 905 576-4575 </a></span>
+	        
+       							
+								
+							</div>
+							<div class="footer-info-contact"> <i class="flaticon-envelope"></i>
+								<h3>Email</h3>
+								<span><a href="mailto:sales@telecost.com.com?Subject=Website Request">sales@telecost.com</a></span>
+							</div>
+							<div class="footer-info-contact"> <i class="flaticon-placeholder"></i>
+								<h3>Address</h3>
+								<span>50 Richmond Street East, Unit 105,<br>Oshawa, Ontario. L1G 7C7.<br>Canada</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+           
+		
+		
+		<!-- End Footer Section -->
+	</section>
+	<!-- End Footer & Subscribe Section -->
+	
+	<!-- Start Copy Right Section -->
+	<div class="copyright-area">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-md-6">
+					<p> <i class="far fa-copyright"></i> 2025 Resource Software International Ltd. (RSI) - All Rights Reserved.</p>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<ul>
+						<li> <a href="accessability.php">Accessability</a></li>
+						<li> <a href="termsofuse.php">Terms of Use</a></li>
+						<li> <a href="privacy.php">Privacy Policy</a></li>
+					</ul>
+				</div>
+			</div>
+           <div class="row"> 
+           &nbsp;<br><br>
+           </div>		
+           <div class="row"> 
+           <span id="siteseal">
+           <center></center>
+           <img style="cursor:pointer;cursor:hand" src="https://seal.godaddy.com/images/3/en/siteseal_gd_3_h_l_m.gif" onclick="verifySeal();" alt="SSL site seal - click to verify"></span>    
+           </div>		
+           
+          
+           
+
+
+		</div>
+        </div> 		
+	<!-- End Copy Right Section -->
+	
+	
+	<!-- Start Go Top Section -->
+	<div class="go-top">
+		<i class="fas fa-chevron-up"></i>
+		<i class="fas fa-chevron-up"></i>
+	</div>
+	<!-- End Go Top Section -->
+	
+
+
+<!--Start of Tawk.to Script-->
+<iframe style="display: none;" name="__uspapiLocator"></iframe><iframe style="display: none;" name="__tcfapiLocator"></iframe>
+<!--End of Tawk.to Script-->
+	
+	
+	
+        	
+	
+	<!-- jQuery Min JS -->
+	
+	<!-- Popper Min JS -->
+	
+	<!-- Bootstrap Min JS -->
+	
+	<!-- MeanMenu JS  -->
+	
+	<!-- Appear Min JS -->
+	
+	<!-- CounterUp Min JS -->
+	
+	
+	<!-- Owl Carousel Min JS -->
+	
+	<!-- Magnific Popup Min JS -->
+	
+	<!-- Nice Select Min JS -->
+	
+	<!-- Isotope Min JS -->
+	
+	<!-- Swiper Min JS -->
+	
+	<!-- WOW Min JS -->
+	
+	<!-- Main JS -->
+	
+
+
+
+
+
+
+<div id="zlj9l8utc1to1739317127466" class="widget-visible"><iframe src="about:blank" scrolling="no" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:20px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:60px !important; min-width:64px !important; max-height:60px !important; max-width:64px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:64px !important; height:60px !important; display:block !important; z-index:1000001 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="ar0v27ebv9a81739317127543" class="" title="chat widget" width="64px" height="60px" frameborder="0"></iframe><iframe src="about:blank" scrolling="no" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:10px !important; bottom:90px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:520px !important; min-width:350px !important; max-height:520px !important; max-width:350px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:350px !important; height:520px !important; display:none !important; z-index:1000002 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:5px !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="o3ilb9qjf2es1739317127573" class="" title="chat widget" width="350px" height="520px" frameborder="0"></iframe><iframe src="about:blank" scrolling="no" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:100px; left:auto !important; position:fixed !important; border:0 !important; min-height:145px !important; min-width:360px !important; max-height:145px !important; max-width:360px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:360px !important; height:145px !important; display:none !important; z-index:auto !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="jp814hmgo50o1739317127564" class="" title="chat widget" width="360px" height="145px" frameborder="0"></iframe><iframe src="about:blank" scrolling="no" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:7px !important; bottom:6px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:81px !important; min-width:155px !important; max-height:81px !important; max-width:155px !important; padding:0 !important; margin:0px 0 0 0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:rotate(0deg) translateZ(0); -webkit-transform:rotate(0deg) translateZ(0); -ms-transform:rotate(0deg) translateZ(0); width:155px !important; height:81px !important; display:none !important; z-index:1000002 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important; -moz-transform:rotate(0deg) translateZ(0); -o-transform:rotate(0deg) translateZ(0); transform-origin:0; -moz-transform-origin:0; -webkit-transform-origin:0; -o-transform-origin:0; -ms-transform-origin:0;" id="as6r54piv1f81739317127551" class="" title="chat widget" width="155px" height="81px" frameborder="0"></iframe></div></body></html>

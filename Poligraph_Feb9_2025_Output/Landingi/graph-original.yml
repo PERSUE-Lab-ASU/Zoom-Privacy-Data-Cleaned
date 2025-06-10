@@ -1,0 +1,160 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Processing of data on the Site and the Platform : In connection with the processing
+    of your data, we may transfer your data to a third country, while observing the
+    highest standards of data protection and respecting the rules of the GDPR.'
+  - 'Privacy Policy
+
+
+    The Data Controller and the rights of data subjects : We process your data within
+    the scope, time and purpose indicated each time in the content made available
+    in the forms used to collect personal data.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Cookies : We make use of the following cookie files:'
+  - The Site, the Platform and each Landing Page make use of cookies.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Data protection in recruitment procedures : During the recruitment process, we
+    process your personal data to the extent provided to us, in particular through
+    one of the services selected by us for posting job offers and associating employees
+    with employers.'
+  purposes: {}
+- source: external payment channel
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Personal data or data concerning your credit card necessary to make a payment
+    are saved in a dedicated IT system by an external payment channel.
+  purposes: {}
+- source: external payment channel
+  target: personal information
+  key: COLLECT
+  text:
+  - Personal data or data concerning your credit card necessary to make a payment
+    are saved in a dedicated IT system by an external payment channel.
+  purposes: {}
+- source: landing page
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Site, the Platform and each Landing Page make use of cookies.
+  purposes: {}
+- source: platform
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Site, the Platform and each Landing Page make use of cookies.
+  purposes: {}
+- source: tool
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Both tools collect anonymous information and record trends on the site without
+    identifying individual visitors.
+  purposes: {}
+- source: tool
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Both tools collect anonymous information and record trends on the site without
+    identifying individual visitors.
+  - Like many other services, these tools use their own cookies to analyse the activities
+    of visitors.
+  purposes:
+    analytics:
+    - to analyse the activities of visitors
+- source: tool
+  target: trend on site
+  key: COLLECT
+  text:
+  - Both tools collect anonymous information and record trends on the site without
+    identifying individual visitors.
+  purposes: {}
+- source: we
+  target: 10th commercial division of national court register
+  key: SUBSUM
+  text:
+  - 'This document defines the Privacy Policy of Landingi Inc. and Landingi Sp. z
+    o.o. acting as joint controllers, which in particular includes regulations concerning
+    the protection of personal data and the security of other data provided by third
+    parties. The terms specified in this document shall have the following meaning:
+    We - joint controllers: Landingi Inc. and Landingi Sp. z o.o., registered office
+    at Dworcowa 25, 44-100, Gliwice, NIP: 6762461659, REGON: 122774425, entered in
+    the business register in the District Court in Gliwice, 10th Commercial Division
+    of the National Court Register under KRS number 0000449404, with share capital
+    of PLN 10,950, paid in full, email: support@landingi.com, phone number: +48 539
+    303 900;'
+- source: we
+  target: landingi inc.
+  key: SUBSUM
+  text:
+  - 'This document defines the Privacy Policy of Landingi Inc. and Landingi Sp. z
+    o.o. acting as joint controllers, which in particular includes regulations concerning
+    the protection of personal data and the security of other data provided by third
+    parties. The terms specified in this document shall have the following meaning:
+    We - joint controllers: Landingi Inc. and Landingi Sp. z o.o., registered office
+    at Dworcowa 25, 44-100, Gliwice, NIP: 6762461659, REGON: 122774425, entered in
+    the business register in the District Court in Gliwice, 10th Commercial Division
+    of the National Court Register under KRS number 0000449404, with share capital
+    of PLN 10,950, paid in full, email: support@landingi.com, phone number: +48 539
+    303 900;'
+- source: we
+  target: register office at dworcowa
+  key: SUBSUM
+  text:
+  - 'This document defines the Privacy Policy of Landingi Inc. and Landingi Sp. z
+    o.o. acting as joint controllers, which in particular includes regulations concerning
+    the protection of personal data and the security of other data provided by third
+    parties. The terms specified in this document shall have the following meaning:
+    We - joint controllers: Landingi Inc. and Landingi Sp. z o.o., registered office
+    at Dworcowa 25, 44-100, Gliwice, NIP: 6762461659, REGON: 122774425, entered in
+    the business register in the District Court in Gliwice, 10th Commercial Division
+    of the National Court Register under KRS number 0000449404, with share capital
+    of PLN 10,950, paid in full, email: support@landingi.com, phone number: +48 539
+    303 900;'
+nodes:
+- type: ACTOR
+  id: 10th commercial division of national court register
+- type: ACTOR
+  id: external payment channel
+- type: ACTOR
+  id: landing page
+- type: ACTOR
+  id: landingi inc.
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: register office at dworcowa
+- type: ACTOR
+  id: tool
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: personal information
+- type: DATA
+  id: trend on site

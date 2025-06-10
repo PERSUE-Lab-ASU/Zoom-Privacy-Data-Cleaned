@@ -1,0 +1,334 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We collect the information using the following technologies:'
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - 'We collect the information using the following technologies: "Log files" track
+    actions occurring on the site, and collect data such as your IP address, browser
+    type, Internet service provider, referring/exit pages, and date/time stamps.'
+  purposes: {}
+- source: we
+  target: customer order for
+  key: COLLECT
+  text:
+  - We collect information about your customers and customer orders for managing order
+    workflow.
+  purposes: {}
+- source: we
+  target: customer order for delivery rate calculation
+  key: COLLECT
+  text:
+  - We collect information about your customers and customer orders for delivery rate
+    calculation.
+  purposes:
+    analytics:
+    - for delivery rate calculation
+    services:
+    - for delivery rate calculation
+- source: we
+  target: customer order for report feature of app
+  key: COLLECT
+  text:
+  - We collect information about your customers and customer orders for the report
+    feature of the app.
+  purposes:
+    analytics:
+    - for the report feature of the app
+    services:
+    - for the report feature of the app
+- source: we
+  target: customer order for shipping rate calculation
+  key: COLLECT
+  text:
+  - We collect information about your customers and customer orders for shipping rate
+    calculation.
+  purposes:
+    services:
+    - for shipping rate calculation
+- source: we
+  target: date time stamp
+  key: COLLECT
+  text:
+  - 'We collect the information using the following technologies: "Log files" track
+    actions occurring on the site, and collect data such as your IP address, browser
+    type, Internet service provider, referring/exit pages, and date/time stamps.'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - '- Email - The app uses the customer''s email ID to send emails.'
+  - We only access the customer's name and email address from the order data to send
+    payment reminders to customers.
+  purposes:
+    services:
+    - to send emails
+    - to send payment reminders to customers
+- source: we
+  target: information about customer
+  key: COLLECT
+  text:
+  - Information collected from Merchants' customers  For us to be able to provide
+    you with our Services and support, for you to better serve your customers, and
+    to improve our Services, in some apps we collect information about your Customers.
+  - We collect information about your customers and customer orders for delivery rate
+    calculation.
+  - We collect information about your customers and customer orders for managing order
+    workflow.
+  - We collect information about your customers and customer orders for shipping rate
+    calculation.
+  - We collect information about your customers and customer orders for the report
+    feature of the app.
+  purposes:
+    analytics:
+    - for delivery rate calculation
+    - for the report feature of the app
+    services:
+    - for delivery rate calculation
+    - for shipping rate calculation
+    - for the report feature of the app
+- source: we
+  target: information about customer order
+  key: COLLECT
+  text:
+  - We collect limited information about customer orders to send payment reminder
+    emails.
+  purposes:
+    services:
+    - to send payment reminder emails
+- source: we
+  target: information about customer order for
+  key: COLLECT
+  text:
+  - We collect information about your customer orders for calculating usage charges.
+  purposes: {}
+- source: we
+  target: information about device
+  key: COLLECT
+  text:
+  - When you visit our website, we collect certain information about your device,
+    including information about your web browser, IP address, time zone, and some
+    of the cookies installed on your device.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'We collect the information using the following technologies: "Log files" track
+    actions occurring on the site, and collect data such as your IP address, browser
+    type, Internet service provider, referring/exit pages, and date/time stamps.'
+  purposes: {}
+- source: we
+  target: order datum
+  key: COLLECT
+  text:
+  - Order data, including customer information, is not stored in our database.
+  - We use this data temporarily to fulfill the app's functionality (sending reminders).
+  purposes:
+    services:
+    - to fulfill the app's functionality (sending reminders)
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'BookEasy - Customer data protection BookEasy uses the following Customer data:
+    - Name - First name and last name fields - Email - Email ID field - Phone - Default
+    and shipping phone number fields - Address - Shipping address fields Why we need
+    access to these fields: - Name - The app uses the customer''s name while sending
+    emails on appointment booking and reminders.'
+  - We only access the customer's name and email address from the order data to send
+    payment reminders to customers.
+  purposes:
+    services:
+    - to send payment reminders to customers
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how we may collect and use personal data and the
+    rights granted to our visitors, customers, and merchants regarding their respective
+    data.
+  - We may also share your Personal Information to comply with applicable laws and
+    regulations, to respond to a subpoena, search warrant, or other lawful requests
+    for any information we receive, or to otherwise protect our rights.
+  - We may use your Personal Information to provide you with targeted advertisements
+    or marketing communications we believe could be of interest to you.
+  - We share your Personal Information with the following third parties to help us
+    conduct our business and support our customers.
+  purposes:
+    advertising:
+    - to provide you with targeted advertisements or marketing communications we believe
+      could be of interest to you
+    legal:
+    - to comply with applicable laws and regulations, to respond to a subpoena, search
+      warrant, or other lawful requests for any information we receive, or to otherwise
+      protect our rights
+    services:
+    - to help us conduct our business and support our customers
+- source: we
+  target: type of information
+  key: COLLECT
+  text:
+  - 'Information collected from Merchants  When you install the App, we are automatically
+    able to access certain types of information from your Shopify account: You can
+    see the detail here .'
+  - We collect this information to provide you with our Services; for example, to
+    confirm your identity, contact you, provide customer support when you contact
+    us, provide you with advertising and marketing.
+  purposes:
+    security:
+    - to confirm your identity, contact you, provide customer support when you contact
+      us
+    services:
+    - to confirm your identity, contact you, provide customer support when you contact
+      us
+    - to provide you with our Services
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By default, only the application can access the data.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We share your Personal Information with the following third parties to help us
+    conduct our business and support our customers.
+  purposes:
+    services:
+    - to help us conduct our business and support our customers
+- source: company acquire business
+  target: personal information
+  key: COLLECT
+  text:
+  - Personal information may also be shared with a company that acquires our business,
+    whether through merger, acquisition, bankruptcy, dissolution, reorganization,
+    or other similar transaction or proceeding.
+  purposes: {}
+- source: cross - border transfer logbase
+  target: personal information
+  key: COLLECT
+  text:
+  - Cross-border transfer LogBase processes and stores personal information using
+    our servers based in the United States.
+  purposes: {}
+- source: information about device
+  target: ip address
+  key: SUBSUM
+  text:
+  - When you visit our website, we collect certain information about your device,
+    including information about your web browser, IP address, time zone, and some
+    of the cookies installed on your device.
+- source: information about device
+  target: time zone
+  key: SUBSUM
+  text:
+  - When you visit our website, we collect certain information about your device,
+    including information about your web browser, IP address, time zone, and some
+    of the cookies installed on your device.
+- source: order datum
+  target: customer information
+  key: SUBSUM
+  text:
+  - Order data, including customer information, is not stored in our database.
+- source: protected customer field
+  target: email address
+  key: SUBSUM
+  text:
+  - However protected customer fields like name, email, address and phone, will not
+    be shared with us.
+  - Protected customer fields such as name, email, address and phone number are not
+    shared with us.
+- source: protected customer field
+  target: person name
+  key: SUBSUM
+  text:
+  - However protected customer fields like name, email, address and phone, will not
+    be shared with us.
+  - Protected customer fields such as name, email, address and phone number are not
+    shared with us.
+- source: protected customer field
+  target: phone
+  key: SUBSUM
+  text:
+  - However protected customer fields like name, email, address and phone, will not
+    be shared with us.
+- source: protected customer field
+  target: phone number
+  key: SUBSUM
+  text:
+  - Protected customer fields such as name, email, address and phone number are not
+    shared with us.
+- source: protected customer field
+  target: postal address
+  key: SUBSUM
+  text:
+  - However protected customer fields like name, email, address and phone, will not
+    be shared with us.
+  - Protected customer fields such as name, email, address and phone number are not
+    shared with us.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: company acquire business
+- type: ACTOR
+  id: cross - border transfer logbase
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: customer information
+- type: DATA
+  id: customer order for
+- type: DATA
+  id: customer order for delivery rate calculation
+- type: DATA
+  id: customer order for report feature of app
+- type: DATA
+  id: customer order for shipping rate calculation
+- type: DATA
+  id: date time stamp
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about customer
+- type: DATA
+  id: information about customer order
+- type: DATA
+  id: information about customer order for
+- type: DATA
+  id: information about device
+- type: DATA
+  id: ip address
+- type: DATA
+  id: order datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: protected customer field
+- type: DATA
+  id: time zone
+- type: DATA
+  id: type of information

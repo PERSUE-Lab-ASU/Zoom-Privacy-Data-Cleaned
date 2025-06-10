@@ -1,0 +1,43 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website uses cookies that help the website to function and also to track
+    how you interact with our website.
+  - This website uses cookies to improve your experience while you navigate through
+    the website.
+  - We also use third-party cookies that help us analyze and understand how you use
+    this website, to store user preferences and provide them with content and advertisements
+    that are relevant to you.
+  purposes:
+    services:
+    - to improve your experience while you navigate through the website
+- source: cdn service
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The cookie is used by cdn services like CloudFare to identify individual clients
+    behind a shared IP address and apply security settings on a per-client basis.
+  purposes:
+    security:
+    - to identify individual clients behind a shared IP address and apply security
+      settings on a per-client basis
+- source: cdn service
+  target: cloudfare
+  key: SUBSUM
+  text:
+  - The cookie is used by cdn services like CloudFare to identify individual clients
+    behind a shared IP address and apply security settings on a per-client basis.
+nodes:
+- type: ACTOR
+  id: cdn service
+- type: ACTOR
+  id: cloudfare
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag

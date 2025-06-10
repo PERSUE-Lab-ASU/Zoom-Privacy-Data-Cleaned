@@ -1,0 +1,202 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you submit your details and give us your consent, we may use your data to send
+    you email/newsletters, re-target LeadSquared advertisements or re-market our Services
+    using services from third-parties like Facebook and Google.
+  - The data provided by you as a Visitor, or when you sign up as a Customer / User
+    or register for our Services will be processed by us for the purpose of rendering
+    Services to you or in order to take steps prior to rendering such Services, at
+    your request.
+  - WHAT DATA WE MAY COLLECT
+  - We also use this data to enable you to make payments for our Services.
+  - We collect this data in order to facilitate provision of our Services.
+  - We collect this data in order to help you register for and facilitate provision
+    of our Services.
+  - We use this information to analyse and identify your behaviour and enhance the
+    interactions you have with the Website.
+  purposes:
+    advertising:
+    - to send you email/newsletters, re-target LeadSquared advertisements or re-
+    analytics:
+    - to analyse and identify your behaviour and enhance the interactions you have
+      with the Website
+    services:
+    - for the purpose of rendering Services to you or in order to take steps prior
+      to rendering such Services, at your request
+    - in order to facilitate provision of our Services
+    - in order to help you register for and facilitate provision of our Services
+    - to enable you to make payments for our Services
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may also use aggregated and anonymised data for other internal business purposes.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Upon receiving your specific consent, we may share the data we collect from Cookies
+    or Web Beacons with our advertisement partners to track your visits, establish
+    your non-personal identity and present you with targeted advertisements about
+    our Services.
+  - We may use advertising cookies to deliver relevant advertisements based on your
+    interests and online behavior.
+  - We use these cookies to gather information about how users interact with the Service,
+    such as which pages are visited most often, how users navigate the site, and other
+    usage statistics.
+  purposes:
+    advertising:
+    - to deliver relevant advertisements based on your interests and online behavior
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+    analytics:
+    - to gather information about how users interact with the Service, such as which
+      pages are visited most often, how users navigate the site, and other usage statistics
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+    services:
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+- source: we
+  target: customer datum
+  key: COLLECT
+  text:
+  - As a processor, we may only access and process customer data based on their instructions.
+  purposes: {}
+- source: we
+  target: datum we collect
+  key: COLLECT
+  text:
+  - 'In addition to the purposes set out in the Policy, we may disclose any data we
+    collected or processed from you if it is required:'
+  - In order for us to facilitate our global operations, we may transfer and access
+    the data we collect and process in accordance with this Policy, to our group companies
+    around the world.
+  purposes: {}
+- source: we
+  target: device
+  key: COLLECT
+  text:
+  - In the event you report an issue with a Service, we may also screen/video record
+    your Device only when you use the App for a limited time period to help us better
+    understand how to address the issue.
+  purposes:
+    analytics:
+    - to help us better understand how to address the issue
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We use these cookies to gather information about how users interact with the Service,
+    such as which pages are visited most often, how users navigate the site, and other
+    usage statistics.
+  purposes: {}
+- source: we
+  target: name of customer who provide datum to we
+  key: COLLECT
+  text:
+  - If you wish to make any requests to us directly, please also provide us with the
+    name of the customer who provide your data to us.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As a business service, we neither target our Services toward nor knowingly collect
+    any personal information from any individuals under the age of 13.
+  - We may need to retain your personal data even if you seek deletion thereof, if
+    it is needed to comply with our legal obligations, resolve disputes and enforce
+    our agreements.
+  - We will store any personal data we collect from you as long as it is necessary
+    in order to facilitate your use of the Services and for ancillary legitimate and
+    essential business purposes - these include, without limitation, for improving
+    our Services, attending to technical issues, and dealing with disputes.
+  purposes: {}
+- source: we
+  target: personal information submit to service
+  key: COLLECT
+  text:
+  - We also process personal information submitted by or for a customer to our Services.
+  - We process such personal data as a processor on behalf of our customer, who is
+    the controller of such data.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Further, in the ordinary course of business, we may employ other companies and
+    people to assist us in providing certain components of our Services in compliance
+    with the provisions of this Policy.
+  - To do so, we may need to share your data with them.
+  - We will ensure, through contractual agreements and other appropriate measures,
+    that these third parties process your data in accordance with applicable data
+    protection laws.
+  purposes: {}
+- source: advertiser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Upon receiving your specific consent, we may share the data we collect from Cookies
+    or Web Beacons with our advertisement partners to track your visits, establish
+    your non-personal identity and present you with targeted advertisements about
+    our Services.
+  purposes:
+    advertising:
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+    analytics:
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+    services:
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+- source: we
+  target: leadsquared
+  key: SUBSUM
+  text:
+  - LeadSquared, its affiliates and subsidiaries ("we," "us," "our"), thank you for
+    using our services.
+- source: we
+  target: leadsquared mobile application platform
+  key: SUBSUM
+  text:
+  - If you do not agree with the Policy, we would advise you to not visit/use the
+    Website or the LeadSquared mobile applications/platforms (collectively "App").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: leadsquared
+- type: ACTOR
+  id: leadsquared mobile application platform
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: datum we collect
+- type: DATA
+  id: device
+- type: DATA
+  id: information about
+- type: DATA
+  id: name of customer who provide datum to we
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information submit to service

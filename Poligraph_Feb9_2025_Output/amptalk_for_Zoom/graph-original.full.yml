@@ -1,0 +1,252 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If the user allows the Company to obtain user information through a service operated
+    by a third party, the Company may obtain the user's information.
+  - In some cases, the Company may use information obtained from third parties other
+    than the Company, such as user interests and preferences and browsing history,
+    in conjunction with personal information already in the possession of the Company,
+    but in such cases, the Company will obtain consent from the user in advance and
+    use the information within the scope of the purposes of use listed above.
+  - The Company may acquire the following information from users in this service through
+    the website ( amptalk.co.jp ) or our product.
+  - When acquiring personal information, we will publicly announce or notify the purpose
+    of use, or when acquiring personal information directly from the user in a contract
+    or other document (including electromagnetic records), we will clearly state the
+    purpose of use in advance and acquire the information through legal and fair means.
+  purposes: {}
+- source: we
+  target: acquire personal information
+  key: COLLECT
+  text:
+  - We use the acquired personal information within the scope necessary to achieve
+    the following purposes of use
+  purposes:
+    advertising:
+    - For other marketing purposes
+    - To announce information to users
+    - To announce usage of this service by our users
+    analytics:
+    - To announce information to users
+    - To announce usage of this service by our users
+    - To create statistical data related to the usage of this service in a format
+      that does not identify individuals or specific users
+    - to understand users' interests, preferences, etc.
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website uses HubSpot, a CRM tool, and uses cookies issued by Hubspot.
+  purposes: {}
+- source: we
+  target: information obtain from third party
+  key: COLLECT
+  text:
+  - In some cases, the Company may use information obtained from third parties other
+    than the Company, such as user interests and preferences and browsing history,
+    in conjunction with personal information already in the possession of the Company,
+    but in such cases, the Company will obtain consent from the user in advance and
+    use the information within the scope of the purposes of use listed above.
+  purposes: {}
+- source: we
+  target: information obtain from user
+  key: COLLECT
+  text:
+  - We may analyze information obtained from users, such as website browsing history
+    and purchase history, in order to provide services and distribute advertisements.
+  purposes:
+    advertising:
+    - in order to provide services and distribute advertisements
+    - to provide services and distribute advertisements
+    services:
+    - in order to provide services and distribute advertisements
+    - to provide services and distribute advertisements
+- source: we
+  target: retain personal datum
+  key: COLLECT
+  text:
+  - If a user requests the disclosure of retained personal data that identifies the
+    user based on the Act on the Protection of Personal Information, the Company will
+    confirm that the request is from the user themselves and disclose the retained
+    personal data without delay in accordance with the Act on the Protection of Personal
+    Information in the manner requested by the user (if the requested method requires
+    a large amount of expense or is otherwise difficult, disclosure will be made by
+    delivering a written document).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Company's website uses a technology (cookies) to record and manage the information
+    of users of the Company's website on their computers and application software.
+  purposes:
+    analytics:
+    - to record and manage the information of users of the Company's website on their
+      computers and application software
+    services:
+    - to record and manage the information of users of the Company's website on their
+      computers and application software
+- source: contractor
+  target: subcontractor
+  key: SUBSUM
+  text:
+  - In addition, we will exercise necessary and appropriate supervision over our employees
+    and contractors (including subcontractors, etc.) who handle personal data.
+- source: information list
+  target: company name
+  key: SUBSUM
+  text:
+  - '4 Information acquired through our service
+
+
+    1.User authentication information, information obtained by the registration of
+    this service by the user or change of registered contents, and information obtained
+    through inquiry or contact from the user, including but not limited to the information
+    listed below.'
+  - Company name
+- source: information list
+  target: email address
+  key: SUBSUM
+  text:
+  - '4 Information acquired through our service
+
+
+    1.User authentication information, information obtained by the registration of
+    this service by the user or change of registered contents, and information obtained
+    through inquiry or contact from the user, including but not limited to the information
+    listed below.'
+  - Email address
+- source: information list
+  target: information from customer support
+  key: SUBSUM
+  text:
+  - '4 Information acquired through our service
+
+
+    1.User authentication information, information obtained by the registration of
+    this service by the user or change of registered contents, and information obtained
+    through inquiry or contact from the user, including but not limited to the information
+    listed below.'
+  - Information from customer support inquiriesTelephone number
+- source: information list
+  target: person name
+  key: SUBSUM
+  text:
+  - '4 Information acquired through our service
+
+
+    1.User authentication information, information obtained by the registration of
+    this service by the user or change of registered contents, and information obtained
+    through inquiry or contact from the user, including but not limited to the information
+    listed below.'
+  - Name
+- source: information list
+  target: phone number
+  key: SUBSUM
+  text:
+  - '4 Information acquired through our service
+
+
+    1.User authentication information, information obtained by the registration of
+    this service by the user or change of registered contents, and information obtained
+    through inquiry or contact from the user, including but not limited to the information
+    listed below.'
+  - Telephone number
+- source: information obtain from third party
+  target: browsing / search history
+  key: SUBSUM
+  text:
+  - In some cases, the Company may use information obtained from third parties other
+    than the Company, such as user interests and preferences and browsing history,
+    in conjunction with personal information already in the possession of the Company,
+    but in such cases, the Company will obtain consent from the user in advance and
+    use the information within the scope of the purposes of use listed above.
+- source: information obtain from third party
+  target: preference
+  key: SUBSUM
+  text:
+  - In some cases, the Company may use information obtained from third parties other
+    than the Company, such as user interests and preferences and browsing history,
+    in conjunction with personal information already in the possession of the Company,
+    but in such cases, the Company will obtain consent from the user in advance and
+    use the information within the scope of the purposes of use listed above.
+- source: information obtain from third party
+  target: user interest
+  key: SUBSUM
+  text:
+  - In some cases, the Company may use information obtained from third parties other
+    than the Company, such as user interests and preferences and browsing history,
+    in conjunction with personal information already in the possession of the Company,
+    but in such cases, the Company will obtain consent from the user in advance and
+    use the information within the scope of the purposes of use listed above.
+- source: information obtain from user
+  target: browsing / search history
+  key: SUBSUM
+  text:
+  - We may analyze information obtained from users, such as website browsing history
+    and purchase history, in order to provide services and distribute advertisements.
+- source: information obtain from user
+  target: purchase history
+  key: SUBSUM
+  text:
+  - We may analyze information obtained from users, such as website browsing history
+    and purchase history, in order to provide services and distribute advertisements.
+- source: information obtain through inquiry from user
+  target: information list
+  key: SUBSUM
+  text:
+  - '4 Information acquired through our service
+
+
+    1.User authentication information, information obtained by the registration of
+    this service by the user or change of registered contents, and information obtained
+    through inquiry or contact from the user, including but not limited to the information
+    listed below.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: subcontractor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: acquire personal information
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: company name
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information from customer support
+- type: DATA
+  id: information list
+- type: DATA
+  id: information obtain from third party
+- type: DATA
+  id: information obtain from user
+- type: DATA
+  id: information obtain through inquiry from user
+- type: DATA
+  id: person name
+- type: DATA
+  id: phone number
+- type: DATA
+  id: preference
+- type: DATA
+  id: purchase history
+- type: DATA
+  id: retain personal datum
+- type: DATA
+  id: user interest

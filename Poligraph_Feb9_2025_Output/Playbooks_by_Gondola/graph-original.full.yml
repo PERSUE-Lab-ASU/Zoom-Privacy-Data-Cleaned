@@ -1,0 +1,912 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - How We Collect, Use, and Disclose Information through the Gmail Integration
+  - We may collect this information using cookies and other similar technologies.
+  purposes: {}
+- source: we
+  target: information about user
+  key: COLLECT
+  text:
+  - We may also share information about our users with these companies to facilitate
+    interest-based advertising to those or similar users on other online platforms.
+  purposes:
+    advertising:
+    - to facilitate interest-based advertising to those or similar users on other
+      online platforms
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers, and insurers, where necessary in the course of the professional services
+    that they render to us.
+  - We may disclose personal information to acquirers and other relevant participants
+    in business transactions (or negotiations for such transactions) involving a corporate
+    divestiture, merger, consolidation, acquisition, reorganization, sale or other
+    disposition of all or any portion of the business or assets of, or equity interests
+    in, Gondola or our affiliates (including, in connection with a bankruptcy or similar
+    proceedings).
+  - We may disclose personal information to law enforcement, government authorities,
+    and private parties, as we believe in good faith to be necessary or appropriate.
+  - We may disclose personal information to third-party advertising companies, including
+    for the interest-based advertising purposes described above.
+  - 'We may disclose personal information to:'
+  - We may obtain your personal information from other third parties, such as marketing
+    partners, data providers, and publicly-available sources.
+  - We may use personal information to analyze and improve the services, identify
+    trends, and operate and expand our business activities.
+  - 'We use personal information for the following purposes:'
+  purposes:
+    analytics:
+    - to analyze and improve the services, identify trends, and operate and expand
+      our business activities
+    services:
+    - to analyze and improve the services, identify trends, and operate and expand
+      our business activities
+- source: we
+  target: relate email in inbox
+  key: COLLECT
+  text:
+  - As described above, with users' explicit permission, we use the Gmail API to access
+    and read travel-related emails in your inbox.
+  - We collect and use this information in accordance with the  Google API Services
+    User Data Policy , including the Limited Use requirements.
+  - We use this information to build a travel history and populate your loyalty dashboard.
+  - With users' explicit permission, we use the Gmail API to access travel-related
+    emails in your inbox.
+  purposes:
+    services:
+    - to build a travel history and populate your loyalty dashboard
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+  purposes: {}
+- source: acquirer
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to acquirers and other relevant participants
+    in business transactions (or negotiations for such transactions) involving a corporate
+    divestiture, merger, consolidation, acquisition, reorganization, sale or other
+    disposition of all or any portion of the business or assets of, or equity interests
+    in, Gondola or our affiliates (including, in connection with a bankruptcy or similar
+    proceedings).
+  purposes: {}
+- source: advertiser
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These companies may use cookies and similar technologies to collect information
+    about your interactions, including the data described in the Automatic data collection
+    section above, over time across our services, our communications, and other online
+    services, and use that information to serve online ads that they think will interest
+    you.
+  - We engage our advertising partners, including third party advertising companies
+    and social media companies, to display ads around the web.
+  purposes: {}
+- source: advertiser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These companies may use cookies and similar technologies to collect information
+    about your interactions, including the data described in the Automatic data collection
+    section above, over time across our services, our communications, and other online
+    services, and use that information to serve online ads that they think will interest
+    you.
+  - We engage our advertising partners, including third party advertising companies
+    and social media companies, to display ads around the web.
+  purposes: {}
+- source: advertiser
+  target: information about user
+  key: COLLECT
+  text:
+  - We engage our advertising partners, including third party advertising companies
+    and social media companies, to display ads around the web.
+  - We may also share information about our users with these companies to facilitate
+    interest-based advertising to those or similar users on other online platforms.
+  purposes:
+    advertising:
+    - to facilitate interest-based advertising to those or similar users on other
+      online platforms
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to third-party advertising companies, including
+    for the interest-based advertising purposes described above.
+  purposes: {}
+- source: business partner
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as:'
+  purposes: {}
+- source: gondola
+  target: personal information
+  key: COLLECT
+  text:
+  - Gondola will retain your personal information for the length of time needed to
+    fulfill the purposes outlined in this privacy policy unless a longer retention
+    period is required or permitted by law.
+  purposes: {}
+- source: government authority
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to law enforcement, government authorities,
+    and private parties, as we believe in good faith to be necessary or appropriate.
+  purposes: {}
+- source: individual
+  target: personal information
+  key: COLLECT
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+  purposes: {}
+- source: law enforcement
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to law enforcement, government authorities,
+    and private parties, as we believe in good faith to be necessary or appropriate.
+  purposes: {}
+- source: private party
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to law enforcement, government authorities,
+    and private parties, as we believe in good faith to be necessary or appropriate.
+  purposes: {}
+- source: professional advisor
+  target: personal information
+  key: COLLECT
+  text:
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers, and insurers, where necessary in the course of the professional services
+    that they render to us.
+  purposes: {}
+- source: relevant participant
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to acquirers and other relevant participants
+    in business transactions (or negotiations for such transactions) involving a corporate
+    divestiture, merger, consolidation, acquisition, reorganization, sale or other
+    disposition of all or any portion of the business or assets of, or equity interests
+    in, Gondola or our affiliates (including, in connection with a bankruptcy or similar
+    proceedings).
+  purposes: {}
+- source: service provider
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as:'
+  purposes: {}
+- source: advertiser
+  target: social media
+  key: SUBSUM
+  text:
+  - We engage our advertising partners, including third party advertising companies
+    and social media companies, to display ads around the web.
+- source: booking information
+  target: driver's license number
+  key: SUBSUM
+  text:
+  - 'Personal Information We Collect
+
+
+    Information you provide
+
+
+    Booking information, such as your passport or driver''s license number, frequent
+    flyer numbers, and hotel rewards numbers.'
+- source: booking information
+  target: frequent flyer number
+  key: SUBSUM
+  text:
+  - 'Personal Information We Collect
+
+
+    Information you provide
+
+
+    Booking information, such as your passport or driver''s license number, frequent
+    flyer numbers, and hotel rewards numbers.'
+- source: booking information
+  target: hotel reward number
+  key: SUBSUM
+  text:
+  - 'Personal Information We Collect
+
+
+    Information you provide
+
+
+    Booking information, such as your passport or driver''s license number, frequent
+    flyer numbers, and hotel rewards numbers.'
+- source: booking information
+  target: passport number
+  key: SUBSUM
+  text:
+  - 'Personal Information We Collect
+
+
+    Information you provide
+
+
+    Booking information, such as your passport or driver''s license number, frequent
+    flyer numbers, and hotel rewards numbers.'
+- source: browser
+  target: brave
+  key: SUBSUM
+  text:
+  - You can block our Services from setting cookies used for interest-based ads by
+    using a browser with privacy features, like Brave, or installing browser plugins
+    like Privacy Badger, DuckDuckGo, Ghostery or uBlock Origin, and configuring them
+    to block third party cookies/trackers.
+- source: browser plugin
+  target: Duck Duck Go
+  key: SUBSUM
+  text:
+  - You can block our Services from setting cookies used for interest-based ads by
+    using a browser with privacy features, like Brave, or installing browser plugins
+    like Privacy Badger, DuckDuckGo, Ghostery or uBlock Origin, and configuring them
+    to block third party cookies/trackers.
+- source: browser plugin
+  target: ghostery
+  key: SUBSUM
+  text:
+  - You can block our Services from setting cookies used for interest-based ads by
+    using a browser with privacy features, like Brave, or installing browser plugins
+    like Privacy Badger, DuckDuckGo, Ghostery or uBlock Origin, and configuring them
+    to block third party cookies/trackers.
+- source: browser plugin
+  target: privacy badger
+  key: SUBSUM
+  text:
+  - You can block our Services from setting cookies used for interest-based ads by
+    using a browser with privacy features, like Brave, or installing browser plugins
+    like Privacy Badger, DuckDuckGo, Ghostery or uBlock Origin, and configuring them
+    to block third party cookies/trackers.
+- source: browser plugin
+  target: ublock origin
+  key: SUBSUM
+  text:
+  - You can block our Services from setting cookies used for interest-based ads by
+    using a browser with privacy features, like Brave, or installing browser plugins
+    like Privacy Badger, DuckDuckGo, Ghostery or uBlock Origin, and configuring them
+    to block third party cookies/trackers.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Information We Collect
+
+
+    Information you provide
+
+
+    Contact details, including your first and last name, email and mailing addresses,
+    and phone number.'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Information We Collect
+
+
+    Information you provide
+
+
+    Contact details, including your first and last name, email and mailing addresses,
+    and phone number.'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Information We Collect
+
+
+    Information you provide
+
+
+    Contact details, including your first and last name, email and mailing addresses,
+    and phone number.'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Information We Collect
+
+
+    Information you provide
+
+
+    Contact details, including your first and last name, email and mailing addresses,
+    and phone number.'
+- source: device datum
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as: Device data, such as your computer''s or mobile device''s
+    operating system, manufacturer and model, browser type, IP address, unique identifiers,
+    language settings, mobile device carrier, and general location information such
+    as city, state or geographic area; and'
+- source: device datum
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as: Device data, such as your computer''s or mobile device''s
+    operating system, manufacturer and model, browser type, IP address, unique identifiers,
+    language settings, mobile device carrier, and general location information such
+    as city, state or geographic area; and'
+- source: device datum
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as: Device data, such as your computer''s or mobile device''s
+    operating system, manufacturer and model, browser type, IP address, unique identifiers,
+    language settings, mobile device carrier, and general location information such
+    as city, state or geographic area; and'
+- source: device datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as: Device data, such as your computer''s or mobile device''s
+    operating system, manufacturer and model, browser type, IP address, unique identifiers,
+    language settings, mobile device carrier, and general location information such
+    as city, state or geographic area; and'
+- source: device datum
+  target: language setting
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as: Device data, such as your computer''s or mobile device''s
+    operating system, manufacturer and model, browser type, IP address, unique identifiers,
+    language settings, mobile device carrier, and general location information such
+    as city, state or geographic area; and'
+- source: device datum
+  target: manufacturer
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as: Device data, such as your computer''s or mobile device''s
+    operating system, manufacturer and model, browser type, IP address, unique identifiers,
+    language settings, mobile device carrier, and general location information such
+    as city, state or geographic area; and'
+- source: device datum
+  target: model
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as: Device data, such as your computer''s or mobile device''s
+    operating system, manufacturer and model, browser type, IP address, unique identifiers,
+    language settings, mobile device carrier, and general location information such
+    as city, state or geographic area; and'
+- source: individual
+  target: billing processing service
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: communication
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: customer relation management system
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: datum service
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: email service provider
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: fraud detection
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: hosting service
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: investigation service
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: web analytic
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cybersecurity services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: information about you
+  target: device datum
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as: Device data, such as your computer''s or mobile device''s
+    operating system, manufacturer and model, browser type, IP address, unique identifiers,
+    language settings, mobile device carrier, and general location information such
+    as city, state or geographic area; and'
+- source: information about you
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as: Usage data, such as pages or screens you viewed, how long
+    you spent on a page, browsing history, and access times.'
+- source: internet activity
+  target: access time
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as: Usage data, such as pages or screens you viewed, how long
+    you spent on a page, browsing history, and access times.'
+- source: internet activity
+  target: browsing / search history
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    our services, such as: Usage data, such as pages or screens you viewed, how long
+    you spent on a page, browsing history, and access times.'
+- source: marketing information
+  target: detail about
+  key: SUBSUM
+  text:
+  - 'Information you provide
+
+
+    Marketing information, such as your preferences for receiving communications about
+    our services and publications, and details about how you engage with our communications.'
+- source: marketing information
+  target: preference for
+  key: SUBSUM
+  text:
+  - 'Information you provide
+
+
+    Marketing information, such as your preferences for receiving communications about
+    our services and publications, and details about how you engage with our communications.'
+- source: message body
+  target: attachment
+  key: SUBSUM
+  text:
+  - 'Notwithstanding anything else in this Privacy Policy, our use of the data we
+    collect through the Gmail API is subject to the following restrictions: We will
+    only use access to the email inbox to read message bodies (including attachments),
+    metadata, headers, and settings, and then structure this information into your
+    travel profile.'
+- source: payment datum
+  target: billing information
+  key: SUBSUM
+  text:
+  - Payment data that we use to determine your rewards information and to complete
+    your bookings and transactions on or through our services (including name, payment
+    card information, billing information), your purchase history, and your credit
+    card points information.
+- source: payment datum
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - Payment data that we use to determine your rewards information and to complete
+    your bookings and transactions on or through our services (including name, payment
+    card information, billing information), your purchase history, and your credit
+    card points information.
+- source: payment datum
+  target: credit card point information
+  key: SUBSUM
+  text:
+  - Payment data that we use to determine your rewards information and to complete
+    your bookings and transactions on or through our services (including name, payment
+    card information, billing information), your purchase history, and your credit
+    card points information.
+- source: payment datum
+  target: person name
+  key: SUBSUM
+  text:
+  - Payment data that we use to determine your rewards information and to complete
+    your bookings and transactions on or through our services (including name, payment
+    card information, billing information), your purchase history, and your credit
+    card points information.
+- source: payment datum
+  target: purchase history
+  key: SUBSUM
+  text:
+  - Payment data that we use to determine your rewards information and to complete
+    your bookings and transactions on or through our services (including name, payment
+    card information, billing information), your purchase history, and your credit
+    card points information.
+- source: professional advisor
+  target: auditor
+  key: SUBSUM
+  text:
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers, and insurers, where necessary in the course of the professional services
+    that they render to us.
+- source: professional advisor
+  target: banker
+  key: SUBSUM
+  text:
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers, and insurers, where necessary in the course of the professional services
+    that they render to us.
+- source: professional advisor
+  target: insurer
+  key: SUBSUM
+  text:
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers, and insurers, where necessary in the course of the professional services
+    that they render to us.
+- source: professional advisor
+  target: lawyer
+  key: SUBSUM
+  text:
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers, and insurers, where necessary in the course of the professional services
+    that they render to us.
+- source: social media
+  target: Facebook
+  key: SUBSUM
+  text:
+  - We may maintain pages on social media platforms, such as Facebook and X (formerly
+    Twitter).
+- source: social media
+  target: Twitter
+  key: SUBSUM
+  text:
+  - We may maintain pages on social media platforms, such as Facebook and X (formerly
+    Twitter).
+- source: social media
+  target: x
+  key: SUBSUM
+  text:
+  - We may maintain pages on social media platforms, such as Facebook and X (formerly
+    Twitter).
+- source: third party model
+  target: openai model
+  key: SUBSUM
+  text:
+  - 'Your emails, travel history, and travel data: are NOT used to improve any third
+    party models, including OpenAI models'
+- source: travel partner
+  target: airline
+  key: SUBSUM
+  text:
+  - If we need more information about your travel history or loyalty rewards, we will
+    ask for your permission to contact travel partners (such as airlines or hotels)
+    on your behalf to learn about your loyalty information.
+- source: travel partner
+  target: hotel
+  key: SUBSUM
+  text:
+  - If we need more information about your travel history or loyalty rewards, we will
+    ask for your permission to contact travel partners (such as airlines or hotels)
+    on your behalf to learn about your loyalty information.
+- source: travel preference
+  target: hotel room preference
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Information We Collect
+
+
+    Information you provide
+
+
+    Travel preferences, including your preferred dates and times of travel, preferred
+    airlines, and hotel room preferences.'
+- source: travel preference
+  target: prefer date
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Information We Collect
+
+
+    Information you provide
+
+
+    Travel preferences, including your preferred dates and times of travel, preferred
+    airlines, and hotel room preferences.'
+- source: travel preference
+  target: time
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Information We Collect
+
+
+    Information you provide
+
+
+    Travel preferences, including your preferred dates and times of travel, preferred
+    airlines, and hotel room preferences.'
+nodes:
+- type: ACTOR
+  id: Duck Duck Go
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: acquirer
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: airline
+- type: ACTOR
+  id: auditor
+- type: ACTOR
+  id: banker
+- type: ACTOR
+  id: billing processing service
+- type: ACTOR
+  id: brave
+- type: ACTOR
+  id: browser
+- type: ACTOR
+  id: browser plugin
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: communication
+- type: ACTOR
+  id: customer relation management system
+- type: ACTOR
+  id: datum service
+- type: ACTOR
+  id: email service provider
+- type: ACTOR
+  id: fraud detection
+- type: ACTOR
+  id: ghostery
+- type: ACTOR
+  id: gondola
+- type: ACTOR
+  id: government authority
+- type: ACTOR
+  id: hosting service
+- type: ACTOR
+  id: hotel
+- type: ACTOR
+  id: individual
+- type: ACTOR
+  id: insurer
+- type: ACTOR
+  id: investigation service
+- type: ACTOR
+  id: law enforcement
+- type: ACTOR
+  id: lawyer
+- type: ACTOR
+  id: privacy badger
+- type: ACTOR
+  id: private party
+- type: ACTOR
+  id: professional advisor
+- type: ACTOR
+  id: relevant participant
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: travel partner
+- type: ACTOR
+  id: ublock origin
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web analytic
+- type: ACTOR
+  id: x
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: attachment
+- type: DATA
+  id: billing information
+- type: DATA
+  id: booking information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: credit card point information
+- type: DATA
+  id: detail about
+- type: DATA
+  id: device datum
+- type: DATA
+  id: driver's license number
+- type: DATA
+  id: email address
+- type: DATA
+  id: frequent flyer number
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: hotel reward number
+- type: DATA
+  id: hotel room preference
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about user
+- type: DATA
+  id: information about you
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language setting
+- type: DATA
+  id: manufacturer
+- type: DATA
+  id: marketing information
+- type: DATA
+  id: message body
+- type: DATA
+  id: model
+- type: DATA
+  id: openai model
+- type: DATA
+  id: passport number
+- type: DATA
+  id: payment datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: prefer date
+- type: DATA
+  id: preference for
+- type: DATA
+  id: purchase history
+- type: DATA
+  id: relate email in inbox
+- type: DATA
+  id: third party model
+- type: DATA
+  id: time
+- type: DATA
+  id: travel preference

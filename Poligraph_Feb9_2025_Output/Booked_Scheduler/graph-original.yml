@@ -1,0 +1,156 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, we ask visitors who sign up for a blog at https://www.bookedscheduler.com
+    to provide a username and email address.
+  purposes: {}
+- source: we
+  target: username
+  key: COLLECT
+  text:
+  - For example, we ask visitors who sign up for a blog at https://www.bookedscheduler.com
+    to provide a username and email address.
+  purposes: {}
+- source: twinkle toes software
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - To enrich and perfect your online experience, Twinkle Toes Software uses "Cookies",
+    similar technologies and services provided by others to display personalized content,
+    appropriate advertising and store your preferences on your computer.
+  - Twinkle Toes Software uses cookies to help Twinkle Toes Software identify and
+    track visitors, their usage of https://www.bookedscheduler.com, and their website
+    access preferences.
+  purposes:
+    analytics:
+    - to help Twinkle Toes Software identify and track visitors, their usage of https://www.bookedscheduler.com,
+      and their website access preferences
+    services:
+    - To enrich and perfect your online experience
+- source: twinkle toes software
+  target: ip address
+  key: COLLECT
+  text:
+  - Twinkle Toes Software only discloses logged in user and commenter IP addresses
+    under the same circumstances that it uses and discloses personally-identifying
+    information as described below.
+  purposes: {}
+- source: twinkle toes software
+  target: non-personal information
+  key: COLLECT
+  text:
+  - From time to time, Twinkle Toes Software may release non-personally-identifying
+    information in the aggregate, e.g., by publishing a report on trends in the usage
+    of its website.
+  - Like most website operators, Twinkle Toes Software collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+  purposes: {}
+- source: twinkle toes software
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Certain visitors to Twinkle Toes Software's websites choose to interact with Twinkle
+    Toes Software in ways that require Twinkle Toes Software to gather personally-identifying
+    information.
+  - Other than to its employees, contractors and affiliated organizations, as described
+    above, Twinkle Toes Software discloses potentially personally-identifying and
+    personally-identifying information only in response to a subpoena, court order
+    or other governmental request, or when Twinkle Toes Software believes in good
+    faith that disclosure is reasonably necessary to protect the property or rights
+    of Twinkle Toes Software, third parties or the public at large.
+  - Twinkle Toes Software also collects potentially personally-identifying information
+    like Internet Protocol (IP) addresses for logged in users and for users leaving
+    comments on https://www.bookedscheduler.com blog posts.
+  - Twinkle Toes Software discloses potentially personally-identifying and personally-identifying
+    information only to those of its employees, contractors and affiliated organizations
+    that (i) need to know that information in order to process it on Twinkle Toes
+    Software's behalf or to provide services available at Twinkle Toes Software's
+    website, and (ii) that have agreed not to disclose it to others.
+  - Twinkle Toes Software only discloses logged in user and commenter IP addresses
+    under the same circumstances that it uses and discloses personally-identifying
+    information as described below.
+  purposes: {}
+- source: twinkle toes software
+  target: personal information require
+  key: COLLECT
+  text:
+  - In each case, Twinkle Toes Software collects such information only insofar as
+    is necessary or appropriate to fulfill the purpose of the visitor's interaction
+    with Twinkle Toes Software.
+  - Those who engage in transactions with Twinkle Toes Software - by purchasing Twinkle
+    Toes Software's services or products, are asked to provide additional information,
+    including as necessary the personal and financial information required to process
+    those transactions.
+  purposes: {}
+- source: twinkle toes software
+  target: statistic about behavior of visitor to website
+  key: COLLECT
+  text:
+  - Twinkle Toes Software may collect statistics about the behavior of visitors to
+    its website.
+  purposes: {}
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - Like most website operators, Twinkle Toes Software collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: non-personal information
+  target: date
+  key: SUBSUM
+  text:
+  - Like most website operators, Twinkle Toes Software collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: non-personal information
+  target: language preference
+  key: SUBSUM
+  text:
+  - Like most website operators, Twinkle Toes Software collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: personal identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - Twinkle Toes Software also collects potentially personally-identifying information
+    like Internet Protocol (IP) addresses for logged in users and for users leaving
+    comments on https://www.bookedscheduler.com blog posts.
+nodes:
+- type: ACTOR
+  id: twinkle toes software
+- type: ACTOR
+  id: we
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information require
+- type: DATA
+  id: statistic about behavior of visitor to website
+- type: DATA
+  id: username

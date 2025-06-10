@@ -1,0 +1,572 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may disclose aggregated information about our users, and information that does
+    not identify any individual, without restriction.
+  purposes: {}
+- source: we
+  target: detail of transaction you carry through website
+  key: COLLECT
+  text:
+  - 'The information we collect on or through our Website may include: Details of
+    transactions you carry out through our Website.'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'The information we collect on or through our Website may include: Records and
+    copies of your correspondence (including email addresses), if you contact us.'
+  purposes: {}
+- source: we
+  target: information about equipment
+  key: COLLECT
+  text:
+  - 'As you navigate through our Website and interact with our Services, we may use
+    automatic data collection technologies to collect certain information about your
+    equipment, browsing actions, and patterns, including:'
+  purposes:
+    analytics:
+    - Details of your visits to our Website, including traffic data, location data,
+      logs, and other communication data and the resources that you access and use
+      on the Website
+    - Information about your computer and internet connection, including your IP address,
+      operating system, and browser type
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - Information We Collect About You and How We Collect It
+  - 'We collect this information:'
+  - 'We use information that we collect about you or that you provide to us, including
+    any personal information:'
+  purposes:
+    legal:
+    - To carry out our obligations and enforce our rights arising from any contracts
+      entered into between you and us, including for billing and collection
+    services:
+    - To allow you to complete transactions and participate in interactive features
+      on our Website
+    - To notify you about changes to our Website and Services
+    - To present our Services, Website, and its contents to you
+    - To provide you with information, products, or services that you request from
+      us
+    - To provide you with notices about your account/subscription, including expiration
+      and renewal notices
+- source: we
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - We may use the information we have collected from you to enable us to display
+    advertisements to our advertisers' target audiences.
+  purposes:
+    advertising:
+    - to enable us to display advertisements to our advertisers' target audiences
+- source: we
+  target: information you provide by
+  key: COLLECT
+  text:
+  - 'The information we collect on or through our Website may include: Information
+    that you provide by filling in forms on our Website.'
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may disclose aggregated information about our users, and information that does
+    not identify any individual, without restriction.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Colorado, Connecticut, Virginia, and Utah each provide their state residents
+    with rights to: Confirm whether we process their personal information.'
+  - The information we collect may include personal information or we may maintain
+    it or associate it with personal information we collect in other ways or receive
+    from third parties.
+  - 'We may also disclose your personal information:'
+  - 'We may disclose personal information that we collect or you provide as described
+    in this privacy policy: To our subsidiaries and affiliates.'
+  purposes:
+    legal:
+    - To comply with any court order, law, or legal process, including to respond
+      to any government or regulatory request
+    - To enforce or apply our terms of use and other agreements, including for billing
+      and collection purposes
+    services:
+    - To enforce or apply our terms of use and other agreements, including for billing
+      and collection purposes
+- source: we
+  target: record
+  key: COLLECT
+  text:
+  - 'The information we collect on or through our Website may include: Records and
+    copies of your correspondence (including email addresses), if you contact us.'
+  purposes: {}
+- source: we
+  target: response to survey we ask you
+  key: COLLECT
+  text:
+  - 'The information we collect on or through our Website may include: Your responses
+    to surveys that we might ask you to complete for research purposes.'
+  purposes: {}
+- source: we
+  target: several type
+  key: COLLECT
+  text:
+  - 'We collect several types of information from and about users of our Website,
+    including information:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information that we collect or you provide as described
+    in this privacy policy: To contractors, service providers, and other third parties
+    we use to support our business.'
+  - 'We may disclose personal information that we collect or you provide as described
+    in this privacy policy: To our subsidiaries and affiliates.'
+  purposes: {}
+- source: advertiser
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - The information they collect may be associated with your personal information
+    or they may collect information, including personal information, about your online
+    activities over time and across different websites and other online services.
+  purposes: {}
+- source: advertiser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - These third parties may use cookies alone or in conjunction with web beacons or
+    other tracking technologies to collect information about you when you use our
+    website.
+  purposes: {}
+- source: advertiser
+  target: information about you
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - These third parties may use cookies alone or in conjunction with web beacons or
+    other tracking technologies to collect information about you when you use our
+    website.
+  purposes: {}
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - The information they collect may be associated with your personal information
+    or they may collect information, including personal information, about your online
+    activities over time and across different websites and other online services.
+  purposes: {}
+- source: application provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - The information they collect may be associated with your personal information
+    or they may collect information, including personal information, about your online
+    activities over time and across different websites and other online services.
+  purposes: {}
+- source: application provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - These third parties may use cookies alone or in conjunction with web beacons or
+    other tracking technologies to collect information about you when you use our
+    website.
+  purposes: {}
+- source: application provider
+  target: information about you
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - These third parties may use cookies alone or in conjunction with web beacons or
+    other tracking technologies to collect information about you when you use our
+    website.
+  purposes: {}
+- source: application provider
+  target: personal information
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - The information they collect may be associated with your personal information
+    or they may collect information, including personal information, about your online
+    activities over time and across different websites and other online services.
+  purposes: {}
+- source: content provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - The information they collect may be associated with your personal information
+    or they may collect information, including personal information, about your online
+    activities over time and across different websites and other online services.
+  purposes: {}
+- source: content provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - These third parties may use cookies alone or in conjunction with web beacons or
+    other tracking technologies to collect information about you when you use our
+    website.
+  purposes: {}
+- source: content provider
+  target: information about you
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - These third parties may use cookies alone or in conjunction with web beacons or
+    other tracking technologies to collect information about you when you use our
+    website.
+  purposes: {}
+- source: content provider
+  target: personal information
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - The information they collect may be associated with your personal information
+    or they may collect information, including personal information, about your online
+    activities over time and across different websites and other online services.
+  purposes: {}
+- source: contractor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information that we collect or you provide as described
+    in this privacy policy: To contractors, service providers, and other third parties
+    we use to support our business.'
+  purposes: {}
+- source: different website
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The information they collect may be associated with your personal information
+    or they may collect information, including personal information, about your online
+    activities over time and across different websites and other online services.
+  purposes:
+    advertising:
+    - to provide you with interest-based (behavioral) advertising or other targeted
+      content
+- source: lucky carrot
+  target: ongoing backup datum of user account
+  key: COLLECT
+  text:
+  - For paid service accounts, Lucky Carrot maintains ongoing backup data of its user
+    accounts for a period of six (6) months.
+  purposes: {}
+- source: server
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - The information they collect may be associated with your personal information
+    or they may collect information, including personal information, about your online
+    activities over time and across different websites and other online services.
+  purposes: {}
+- source: server
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - These third parties may use cookies alone or in conjunction with web beacons or
+    other tracking technologies to collect information about you when you use our
+    website.
+  purposes: {}
+- source: server
+  target: information about you
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - These third parties may use cookies alone or in conjunction with web beacons or
+    other tracking technologies to collect information about you when you use our
+    website.
+  purposes: {}
+- source: server
+  target: personal information
+  key: COLLECT
+  text:
+  - Some content or applications, including advertisements, on the Website are served
+    by third parties, including advertisers, ad networks and servers, content providers,
+    and application providers.
+  - The information they collect may be associated with your personal information
+    or they may collect information, including personal information, about your online
+    activities over time and across different websites and other online services.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information that we collect or you provide as described
+    in this privacy policy: To contractors, service providers, and other third parties
+    we use to support our business.'
+  purposes: {}
+- source: detail of visit to website
+  target: communication datum
+  key: SUBSUM
+  text:
+  - 'As you navigate through our Website and interact with our Services, we may use
+    automatic data collection technologies to collect certain information about your
+    equipment, browsing actions, and patterns, including: Details of your visits to
+    our Website, including traffic data, location data, logs, and other communication
+    data and the resources that you access and use on the Website.'
+- source: detail of visit to website
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'As you navigate through our Website and interact with our Services, we may use
+    automatic data collection technologies to collect certain information about your
+    equipment, browsing actions, and patterns, including: Details of your visits to
+    our Website, including traffic data, location data, logs, and other communication
+    data and the resources that you access and use on the Website.'
+- source: detail of visit to website
+  target: log
+  key: SUBSUM
+  text:
+  - 'As you navigate through our Website and interact with our Services, we may use
+    automatic data collection technologies to collect certain information about your
+    equipment, browsing actions, and patterns, including: Details of your visits to
+    our Website, including traffic data, location data, logs, and other communication
+    data and the resources that you access and use on the Website.'
+- source: detail of visit to website
+  target: traffic datum
+  key: SUBSUM
+  text:
+  - 'As you navigate through our Website and interact with our Services, we may use
+    automatic data collection technologies to collect certain information about your
+    equipment, browsing actions, and patterns, including: Details of your visits to
+    our Website, including traffic data, location data, logs, and other communication
+    data and the resources that you access and use on the Website.'
+- source: information about equipment
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'As you navigate through our Website and interact with our Services, we may use
+    automatic data collection technologies to collect certain information about your
+    equipment, browsing actions, and patterns, including: Information about your computer
+    and internet connection, including your IP address, operating system, and browser
+    type.'
+- source: information about equipment
+  target: detail of visit to website
+  key: SUBSUM
+  text:
+  - 'As you navigate through our Website and interact with our Services, we may use
+    automatic data collection technologies to collect certain information about your
+    equipment, browsing actions, and patterns, including: Details of your visits to
+    our Website, including traffic data, location data, logs, and other communication
+    data and the resources that you access and use on the Website.'
+- source: information about equipment
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'As you navigate through our Website and interact with our Services, we may use
+    automatic data collection technologies to collect certain information about your
+    equipment, browsing actions, and patterns, including: Information about your computer
+    and internet connection, including your IP address, operating system, and browser
+    type.'
+- source: information about equipment
+  target: operating system
+  key: SUBSUM
+  text:
+  - 'As you navigate through our Website and interact with our Services, we may use
+    automatic data collection technologies to collect certain information about your
+    equipment, browsing actions, and patterns, including: Information about your computer
+    and internet connection, including your IP address, operating system, and browser
+    type.'
+- source: information we collect about you
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'We use information that we collect about you or that you provide to us, including
+    any personal information:'
+- source: several type
+  target: date of birth
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Website,
+    including information: By which you may be personally identified, such as name,
+    employer''s name, email address, birth date, your work start date, or any other
+    identifier by which you may be contacted online or offline (" personal information
+    ");'
+- source: several type
+  target: email address
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Website,
+    including information: By which you may be personally identified, such as name,
+    employer''s name, email address, birth date, your work start date, or any other
+    identifier by which you may be contacted online or offline (" personal information
+    ");'
+- source: several type
+  target: equipment you use
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Website,
+    including information: About your internet connection, the equipment you use to
+    access our Website, and usage details.'
+- source: several type
+  target: identifier by contact
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Website,
+    including information: By which you may be personally identified, such as name,
+    employer''s name, email address, birth date, your work start date, or any other
+    identifier by which you may be contacted online or offline (" personal information
+    ");'
+- source: several type
+  target: person name
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Website,
+    including information: By which you may be personally identified, such as name,
+    employer''s name, email address, birth date, your work start date, or any other
+    identifier by which you may be contacted online or offline (" personal information
+    ");'
+- source: several type
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Website,
+    including information: By which you may be personally identified, such as name,
+    employer''s name, email address, birth date, your work start date, or any other
+    identifier by which you may be contacted online or offline (" personal information
+    ");'
+- source: several type
+  target: usage detail
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Website,
+    including information: About your internet connection, the equipment you use to
+    access our Website, and usage details.'
+- source: several type
+  target: work start date
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Website,
+    including information: By which you may be personally identified, such as name,
+    employer''s name, email address, birth date, your work start date, or any other
+    identifier by which you may be contacted online or offline (" personal information
+    ");'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: application provider
+- type: ACTOR
+  id: content provider
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: different website
+- type: ACTOR
+  id: lucky carrot
+- type: ACTOR
+  id: server
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: communication datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: detail of transaction you carry through website
+- type: DATA
+  id: detail of visit to website
+- type: DATA
+  id: email address
+- type: DATA
+  id: equipment you use
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier by contact
+- type: DATA
+  id: information about equipment
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: information we collect from you
+- type: DATA
+  id: information you provide by
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: ongoing backup datum of user account
+- type: DATA
+  id: operating system
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: record
+- type: DATA
+  id: response to survey we ask you
+- type: DATA
+  id: several type
+- type: DATA
+  id: traffic datum
+- type: DATA
+  id: usage detail
+- type: DATA
+  id: work start date

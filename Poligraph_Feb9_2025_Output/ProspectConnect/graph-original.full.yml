@@ -1,0 +1,263 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We collect Information:'
+  - We might also obtain Information through a partner or co-create datasets with
+    a partner as part of our business operations.
+  - We obtain Information from partners, vendors, suppliers, and third parties.
+  - We use Information to operate our business, for example, to perform accounting,
+    auditing, billing, reconciliation, and collection activities.
+  - We use Information to provide, offer, and personalize the Platform and other Prospect
+    Connect Services provided to you.
+  purposes:
+    analytics:
+    - for example, to perform accounting, auditing, billing, reconciliation, and collection
+      activities
+    legal:
+    - for example, to perform accounting, auditing, billing, reconciliation, and collection
+      activities
+    services:
+    - for example, to perform accounting, auditing, billing, reconciliation, and collection
+      activities
+    - to operate our business,
+    - to provide, offer, and personalize the Platform and other Prospect Connect Services
+      provided to you
+- source: we
+  target: analytic information
+  key: COLLECT
+  text:
+  - We use cookies to make our websites and the Platform operate, work more efficiently,
+    and provide analytic Information.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We use contact information to send messages to provide Prospect Connect Services,
+    respond to customer service requests to provide alerts such as security updates
+    or changes in our policies or about subscriptions that are ending, and send marketing
+    or informational materials like newsletters or white papers, by your communication
+    preferences.
+  purposes:
+    services:
+    - to send messages to provide Prospect Connect Services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'We automatically: collect Information about how you interact with the Platform
+    through cookies, pixel tags, and similar technologies as you navigate through
+    the Platform or utilize our Services.'
+  - We use cookies to make our websites and the Platform operate, work more efficiently,
+    and provide analytic Information.
+  purposes:
+    analytics:
+    - to make our websites and the Platform operate, work more efficiently, and provide
+      analytic Information
+    services:
+    - to make our websites and the Platform operate, work more efficiently, and provide
+      analytic Information
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We will gather and store Information about your visit that does not identify you
+    personally.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - However, we will collect Personal Information from you only where we have your
+    consent to do so, where we need the Personal Information to perform a contract
+    with you, where we have a legal obligation to do so, or where the processing is
+    in our legitimate interests (such as processing for administrative purposes, direct
+    marketing, product development or improvement, preventing fraud or criminal acts,
+    and in support of information security) and not overridden by your data protection
+    interests or fundamental rights and freedoms.
+  - Similarly, suppose we collect and use your Personal Information based on our legitimate
+    interests (or those of any third party).
+  - This Privacy Policy describes how we collect and use your Personal Information
+    when you visit our website at prospectconnect.com or otherwise use the Platform,
+    as described further in the Terms of Service, and that you may provide in electronic
+    messages to Prospect Connect.
+  - We also use personal Information to contact you to advertise, market, and sell
+    Prospect Connect Services based on your communications preferences.
+  - We may retain your Personal Information for a Privacy Policy for Prospect Connect.
+  - We may transfer your personal Information internationally by applicable laws.
+  - 'We use the Personal Information that we collect about you or that you provide
+    to us for the following purposes:'
+  - We will only retain your Personal Information for as long as reasonably necessary
+    to fulfill the purposes we collected it for, including satisfying any legal, regulatory,
+    tax, accounting, or reporting requirements and for other purposes described in
+    this Privacy Policy.
+  purposes:
+    advertising:
+    - to contact you to advertise, market, and sell Prospect Connect Services based
+      on your communications preferences
+    legal:
+    - to fulfill the purposes we collected it for, including satisfying any legal,
+      regulatory, tax, accounting, or reporting requirements and for other purposes
+      described in this Privacy Policy
+- source: we
+  target: personal information about people
+  key: COLLECT
+  text:
+  - Suppose you submit Personal Information about other people to us or our service
+    providers.
+  purposes: {}
+- source: we
+  target: personal information collect from you
+  key: COLLECT
+  text:
+  - We may use personal Information collected from you, along with Information about
+    what advertisements you viewed and other Information we collect, to enable us
+    to provide personalized content and study the effectiveness of advertising and
+    marketing campaigns.
+  purposes:
+    advertising:
+    - to enable us to provide personalized content and study the effectiveness of
+      advertising and marketing campaigns
+    analytics:
+    - to enable us to provide personalized content and study the effectiveness of
+      advertising and marketing campaigns
+    services:
+    - to enable us to provide personalized content and study the effectiveness of
+      advertising and marketing campaigns
+- source: platform
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The Platform may use Information to provide Prospect Connect with updates and
+    reports and to check that the Platform is working correctly.
+  purposes:
+    analytics:
+    - to provide Prospect Connect with updates and reports and to check that the Platform
+      is working correctly
+    services:
+    - to provide Prospect Connect with updates and reports and to check that the Platform
+      is working correctly
+- source: platform
+  target: analytic information
+  key: COLLECT
+  text:
+  - We use cookies to make our websites and the Platform operate, work more efficiently,
+    and provide analytic Information.
+  purposes: {}
+- source: service provider
+  target: personal information about people
+  key: COLLECT
+  text:
+  - Suppose you submit Personal Information about other people to us or our service
+    providers.
+  purposes: {}
+- source: we
+  target: prospect connect
+  key: SUBSUM
+  text:
+  - Prospect Connect ("Prospect Connect," "we," "us," and "our") respects your privacy
+    and is committed to protecting it through compliance with this Privacy Policy
+    ("Privacy Policy").
+- source: datum by identify
+  target: email address
+  key: SUBSUM
+  text:
+  - '"Personal Information" refers to data by which you may be personally identified,
+    such as name, email address, employer, job title and department, and telephone
+    number.'
+- source: datum by identify
+  target: job title
+  key: SUBSUM
+  text:
+  - '"Personal Information" refers to data by which you may be personally identified,
+    such as name, email address, employer, job title and department, and telephone
+    number.'
+- source: datum by identify
+  target: person name
+  key: SUBSUM
+  text:
+  - '"Personal Information" refers to data by which you may be personally identified,
+    such as name, email address, employer, job title and department, and telephone
+    number.'
+- source: datum by identify
+  target: phone number
+  key: SUBSUM
+  text:
+  - '"Personal Information" refers to data by which you may be personally identified,
+    such as name, email address, employer, job title and department, and telephone
+    number.'
+- source: machine learning model
+  target: user datum
+  key: SUBSUM
+  text:
+  - We do NOT retain Personal Information to develop, improve, or train generalized
+    artificial intelligence or machine learning models, including user data provided
+    via third-party APIs, including but not limited to Google Workspace APIs.
+- source: marketing material
+  target: newsletter
+  key: SUBSUM
+  text:
+  - We use contact information to send messages to provide Prospect Connect Services,
+    respond to customer service requests to provide alerts such as security updates
+    or changes in our policies or about subscriptions that are ending, and send marketing
+    or informational materials like newsletters or white papers, by your communication
+    preferences.
+- source: marketing material
+  target: white paper
+  key: SUBSUM
+  text:
+  - We use contact information to send messages to provide Prospect Connect Services,
+    respond to customer service requests to provide alerts such as security updates
+    or changes in our policies or about subscriptions that are ending, and send marketing
+    or informational materials like newsletters or white papers, by your communication
+    preferences.
+nodes:
+- type: ACTOR
+  id: marketing material
+- type: ACTOR
+  id: newsletter
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: prospect connect
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: white paper
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: analytic information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum by identify
+- type: DATA
+  id: email address
+- type: DATA
+  id: job title
+- type: DATA
+  id: machine learning model
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information about people
+- type: DATA
+  id: personal information collect from you
+- type: DATA
+  id: phone number
+- type: DATA
+  id: user datum

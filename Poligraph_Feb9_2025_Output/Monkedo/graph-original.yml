@@ -1,0 +1,101 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Monkedo may share a user''s information with third parties under the following
+    circumstances :'
+  - 'The data collected from users can be processed or anonymized or stored by Monkedo
+    or Monkedo can transfer the data to third parties for specific purposes :'
+  purposes:
+    analytics:
+    - Anonymizing user information for internal use, like platform improvements and
+      generating internal reports
+    security:
+    - Anonymizing user information for internal use, like platform improvements and
+      generating internal reports
+    services:
+    - Anonymizing user information for internal use, like platform improvements and
+      generating internal reports
+    - For specific services like payment transactions, invoice processing, and bank
+      integration
+    - Improving user experiences within Monkedo, including maintenance, support, service
+      development, and personalization
+    - for organizational use
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - ': With user consent, anonymized data may be used by Monkedo and partners for
+    marketing or fundraising.'
+  purposes:
+    advertising:
+    - for marketing or fundraising
+- source: UNSPECIFIED_ACTOR
+  target: datum collect from user
+  key: COLLECT
+  text:
+  - 'The data collected from users can be processed or anonymized or stored by Monkedo
+    or Monkedo can transfer the data to third parties for specific purposes :'
+  purposes:
+    services:
+    - For specific services like payment transactions, invoice processing, and bank
+      integration
+    - for organizational use
+- source: monkedo
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Monkedo may share a user''s information with third parties under the following
+    circumstances :'
+  - 'The data collected from users can be processed or anonymized or stored by Monkedo
+    or Monkedo can transfer the data to third parties for specific purposes :'
+  purposes:
+    analytics:
+    - Anonymizing user information for internal use, like platform improvements and
+      generating internal reports
+    security:
+    - Anonymizing user information for internal use, like platform improvements and
+      generating internal reports
+    services:
+    - Anonymizing user information for internal use, like platform improvements and
+      generating internal reports
+    - For specific services like payment transactions, invoice processing, and bank
+      integration
+    - Improving user experiences within Monkedo, including maintenance, support, service
+      development, and personalization
+    - for organizational use
+- source: monkedo
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - ': With user consent, anonymized data may be used by Monkedo and partners for
+    marketing or fundraising.'
+  purposes:
+    advertising:
+    - for marketing or fundraising
+- source: monkedo
+  target: datum collect from user
+  key: COLLECT
+  text:
+  - 'The data collected from users can be processed or anonymized or stored by Monkedo
+    or Monkedo can transfer the data to third parties for specific purposes :'
+  purposes:
+    services:
+    - For specific services like payment transactions, invoice processing, and bank
+      integration
+    - for organizational use
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: monkedo
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: datum collect from user

@@ -1,0 +1,197 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We are collecting your data for several reasons:'
+  purposes:
+    advertising:
+    - To contact you to fill out surveys or participate in other types of market research,
+      when we have your consent to do so
+    - To send you promotional emails containing information we think you may like
+      when we have your consent to do so
+    analytics:
+    - To better understand your needs and provide you with the services you have requested
+    - To contact you to fill out surveys or participate in other types of market research,
+      when we have your consent to do so
+    services:
+    - To better understand your needs and provide you with the services you have requested
+    - To customize our website according to your online behavior and personal preferences
+    - To fulfill our legitimate interest in improving our services and products
+- source: we
+  target: information collect
+  key: COLLECT
+  text:
+  - 'This website collects various types of information, such as: Information automatically
+    collected when visiting our website, which may include cookies, third party tracking
+    technologies and server logs.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy ("Policy") will help you understand how we collect and use
+    personal information from those who visit our website or make use of our online
+    facilities and services, and what we will and will not do with the information
+    we collect.
+  purposes: {}
+- source: we
+  target: sensitive information
+  key: COLLECT
+  text:
+  - Wherever we collect sensitive information (e.g. credit card information), that
+    information is encrypted and transmitted to us in a secure way.
+  purposes: {}
+- source: hypnotes inc.
+  target: personal information
+  key: COLLECT
+  text:
+  - Hypnotes Inc. may collect and may make use of personal information to assist in
+    the operation of our website and to ensure delivery of the services you need and
+    request.
+  purposes:
+    services:
+    - to assist in the operation of our website and to ensure delivery of the services
+      you need and request
+- source: information collect
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'This website collects various types of information, such as: Information automatically
+    collected when visiting our website, which may include cookies, third party tracking
+    technologies and server logs.'
+- source: information collect
+  target: server log
+  key: SUBSUM
+  text:
+  - 'This website collects various types of information, such as: Information automatically
+    collected when visiting our website, which may include cookies, third party tracking
+    technologies and server logs.'
+- source: non-personal information
+  target: type of operate system
+  key: SUBSUM
+  text:
+  - In addition, Hypnotes Inc. may have the occasion to collect non-personal anonymous
+    demographic information, such as age, gender, household income, political affiliation,
+    race and religion, as well as the type of browser you are using, IP address, or
+    type of operating system, which will assist us in providing and maintaining superior
+    quality service.
+- source: sensitive information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - Wherever we collect sensitive information (e.g. credit card information), that
+    information is encrypted and transmitted to us in a secure way.
+- source: specific job
+  target: customer service
+  key: SUBSUM
+  text:
+  - Only employees who need the information to perform a specific job (for example,
+    billing or customer service) are granted access to personally identifiable information.
+- source: type of operate system
+  target: age
+  key: SUBSUM
+  text:
+  - In addition, Hypnotes Inc. may have the occasion to collect non-personal anonymous
+    demographic information, such as age, gender, household income, political affiliation,
+    race and religion, as well as the type of browser you are using, IP address, or
+    type of operating system, which will assist us in providing and maintaining superior
+    quality service.
+- source: type of operate system
+  target: gender
+  key: SUBSUM
+  text:
+  - In addition, Hypnotes Inc. may have the occasion to collect non-personal anonymous
+    demographic information, such as age, gender, household income, political affiliation,
+    race and religion, as well as the type of browser you are using, IP address, or
+    type of operating system, which will assist us in providing and maintaining superior
+    quality service.
+- source: type of operate system
+  target: household income
+  key: SUBSUM
+  text:
+  - In addition, Hypnotes Inc. may have the occasion to collect non-personal anonymous
+    demographic information, such as age, gender, household income, political affiliation,
+    race and religion, as well as the type of browser you are using, IP address, or
+    type of operating system, which will assist us in providing and maintaining superior
+    quality service.
+- source: type of operate system
+  target: ip address
+  key: SUBSUM
+  text:
+  - In addition, Hypnotes Inc. may have the occasion to collect non-personal anonymous
+    demographic information, such as age, gender, household income, political affiliation,
+    race and religion, as well as the type of browser you are using, IP address, or
+    type of operating system, which will assist us in providing and maintaining superior
+    quality service.
+- source: type of operate system
+  target: political affiliation
+  key: SUBSUM
+  text:
+  - In addition, Hypnotes Inc. may have the occasion to collect non-personal anonymous
+    demographic information, such as age, gender, household income, political affiliation,
+    race and religion, as well as the type of browser you are using, IP address, or
+    type of operating system, which will assist us in providing and maintaining superior
+    quality service.
+- source: type of operate system
+  target: race / ethnicity
+  key: SUBSUM
+  text:
+  - In addition, Hypnotes Inc. may have the occasion to collect non-personal anonymous
+    demographic information, such as age, gender, household income, political affiliation,
+    race and religion, as well as the type of browser you are using, IP address, or
+    type of operating system, which will assist us in providing and maintaining superior
+    quality service.
+- source: type of operate system
+  target: religion
+  key: SUBSUM
+  text:
+  - In addition, Hypnotes Inc. may have the occasion to collect non-personal anonymous
+    demographic information, such as age, gender, household income, political affiliation,
+    race and religion, as well as the type of browser you are using, IP address, or
+    type of operating system, which will assist us in providing and maintaining superior
+    quality service.
+nodes:
+- type: ACTOR
+  id: customer service
+- type: ACTOR
+  id: hypnotes inc.
+- type: ACTOR
+  id: specific job
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: age
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: gender
+- type: DATA
+  id: household income
+- type: DATA
+  id: information collect
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: political affiliation
+- type: DATA
+  id: race / ethnicity
+- type: DATA
+  id: religion
+- type: DATA
+  id: sensitive information
+- type: DATA
+  id: server log
+- type: DATA
+  id: type of operate system

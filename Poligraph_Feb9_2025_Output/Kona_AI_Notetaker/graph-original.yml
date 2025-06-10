@@ -1,0 +1,19 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: kona
+  target: large language model
+  key: COLLECT
+  text:
+  - Kona uses a large language model (LLM) for summarization, content, and coaching.
+  purposes:
+    analytics:
+    - for summarization, content, and coaching
+    services:
+    - for summarization, content, and coaching
+nodes:
+- type: ACTOR
+  id: kona
+- type: DATA
+  id: large language model

@@ -1,0 +1,790 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Finally, we may obtain information about you from third parties, including from
+    vendors and service providers who may collect information on our behalf, such
+    as: When you visit our Site, open or click on emails we send you, or interact
+    with our Services or advertisements, we, or third parties we work with, may automatically
+    collect certain information using online tracking technologies such as pixels,
+    web beacons, software developer kits, third-party libraries, and cookies.'
+  - We may need to collect information from you to verify your identity, such as your
+    email address or account information, before providing a substantive response
+    to the request.
+  purposes:
+    security:
+    - to verify your identity, such as your email address or account information,
+      before providing a substantive response to the request
+- source: we
+  target: calendar
+  key: COLLECT
+  text:
+  - 'In case you want to use our Google Calendar integration, which is optional, we
+    require you to connect your Google Calendar account and give us permission to:
+    List your calendars, so that we can retrieve the ID of the primary one, we need
+    that information to be able to manage events from the correct calendar.'
+  purposes: {}
+- source: we
+  target: code
+  key: COLLECT
+  text:
+  - In our database, for each Google Meet meeting created by TinyCal, we store the
+    meeting's name, URL and code, so that we can present that information to you in
+    our interface and also share that information with the meeting's attendees, to
+    make it easy for all parties to join the meeting.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like many websites, we use Cookies on our Site.
+  - To do this, we may use cookies, pixels and similar technologies ("Cookies").
+  - We use Cookies to power and improve our Site and our Services (including to remember
+    your actions and preferences), to run analytics and better understand user interaction
+    with the Services (in our legitimate interests to administer, improve and optimize
+    the Services).
+  purposes:
+    analytics:
+    - to power and improve our Site and our Services (including to remember your actions
+      and preferences), to run analytics and better understand user interaction with
+      the Services (in our legitimate interests to administer, improve and optimize
+      the Services)
+    services:
+    - to power and improve our Site and our Services (including to remember your actions
+      and preferences), to run analytics and better understand user interaction with
+      the Services (in our legitimate interests to administer, improve and optimize
+      the Services)
+- source: we
+  target: google account information
+  key: COLLECT
+  text:
+  - 'In case you want to use our Google Calendar integration, which is optional, we
+    require you to connect your Google Calendar account and give us permission to:
+    List your calendars, so that we can retrieve the ID of the primary one, we need
+    that information to be able to manage events from the correct calendar.'
+  - 'Privacy Policy
+
+
+    17. Access to your Google account information'
+  - The only data we share from your Google Meet account with people outside your
+    TinyCal's account is the URL of the meetings that were exclusively created by
+    TinyCal, and we only share that information with the direct attendees of the meetings,
+    no other piece of information from your Google Meet account is shared.
+  purposes: {}
+- source: we
+  target: google calendar account
+  key: COLLECT
+  text:
+  - 'In case you want to use our Google Calendar integration, which is optional, we
+    require you to connect your Google Calendar account and give us permission to:
+    List your calendars, so that we can retrieve the ID of the primary one, we need
+    that information to be able to manage events from the correct calendar.'
+  purposes: {}
+- source: we
+  target: information about interaction with services
+  key: COLLECT
+  text:
+  - We also automatically collect certain information about your interaction with
+    the Services ("Usage Data").
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'Finally, we may obtain information about you from third parties, including from
+    vendors and service providers who may collect information on our behalf, such
+    as:'
+  purposes: {}
+- source: we
+  target: information about yourself
+  key: COLLECT
+  text:
+  - Some features of the Services may require you to directly provide us with certain
+    information about yourself.
+  purposes: {}
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - In addition to the specific uses set out below, we may use information we collect
+    about you to communicate with you, provide the Services, comply with any applicable
+    legal obligations, enforce any applicable terms of service, and to protect or
+    defend the Services, our rights, and the rights of our users or others.
+  purposes:
+    legal:
+    - to communicate with you, provide the Services, comply with any applicable legal
+      obligations, enforce any applicable terms of service, and to protect or defend
+      the Services, our rights, and the rights of our users or others
+    security:
+    - to communicate with you, provide the Services, comply with any applicable legal
+      obligations, enforce any applicable terms of service, and to protect or defend
+      the Services, our rights, and the rights of our users or others
+    services:
+    - to communicate with you, provide the Services, comply with any applicable legal
+      obligations, enforce any applicable terms of service, and to protect or defend
+      the Services, our rights, and the rights of our users or others
+- source: we
+  target: only data we share from google meet account with people outside account
+  key: COLLECT
+  text:
+  - The only data we share from your Google Meet account with people outside your
+    TinyCal's account is the URL of the meetings that were exclusively created by
+    TinyCal, and we only share that information with the direct attendees of the meetings,
+    no other piece of information from your Google Meet account is shared.
+  purposes: {}
+- source: we
+  target: only data we share from zoom account with people outside account
+  key: COLLECT
+  text:
+  - The only data we share from your Zoom account with people outside your TinyCal's
+    account is the URL to join the meetings that were exclusively created by TinyCal,
+    and we only share that information with the direct attendees of the meetings,
+    no other piece of information from your Zoom account is shared.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - In our database, for each Google Meet meeting created by TinyCal, we store the
+    meeting's name, URL and code, so that we can present that information to you in
+    our interface and also share that information with the meeting's attendees, to
+    make it easy for all parties to join the meeting.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 3. What Personal Information We Collect
+  - In certain circumstances, we may disclose your personal information to third parties
+    for legitimate purposes subject to this Privacy Policy.
+  - Please note that we may transfer, store and process your personal information
+    outside the country you live in, including the United States.
+  - 'Privacy Policy
+
+
+    2. How We Collect and Use Your Personal Information'
+  - This Privacy Policy describes how TinyCal (the "Site", "we", "us", or "our") collects,
+    uses, and discloses your personal information when you visit, use our services,
+    or make a purchase from https://tinycal.net (the "Site") or otherwise communicate
+    with us (collectively, the "Services").
+  - To provide the Services, we collect and have collected over the past 12 months
+    personal information about you from a variety of sources, as set out below.
+  - We have "sold" and "shared" (as those terms are defined in applicable law) personal
+    information over the preceding 12 months for the purpose of engaging in advertising
+    and marketing activities, as follows.
+  - We use your personal information for marketing and promotional purposes, such
+    as to send marketing, advertising and promotional communications by email, text
+    message or postal mail, and to show you advertisements for products or services.
+  - We use your personal information to detect, investigate or take action regarding
+    possible fraudulent, illegal or malicious activity.
+  - We use your personal information to provide you with customer support and improve
+    our Services.
+  - We use your personal information to provide you with the Services in order to
+    perform our contract with you, including to process your payments, fulfill your
+    orders, to send notifications to you related to you account, purchases, returns,
+    exchanges or other transactions, to create, maintain and otherwise manage your
+    account, to arrange for shipping, facilitate any returns and exchanges and to
+    enable you to post reviews.
+  purposes:
+    advertising:
+    - for marketing and promotional purposes, such as to send marketing, advertising
+      and promotional communications by email, text message or postal mail, and to
+      show you advertisements for products or services
+    - for the purpose of engaging in advertising and marketing activities
+    security:
+    - to detect, investigate or take action regarding possible fraudulent, illegal
+      or malicious activity
+    services:
+    - To provide the Services
+    - in order to perform our contract with you, including to process your payments,
+      fulfill your orders, to send notifications to you related to you account, purchases,
+      returns, exchanges or other transactions, to create, maintain and otherwise
+      manage your account, to arrange for shipping, facilitate any returns and exchanges
+      and to enable you to post reviews
+    - to provide you with customer support and improve our Services
+    - to provide you with the Services
+- source: we
+  target: piece of information
+  key: COLLECT
+  text:
+  - 'In our database we store the unique ID of your primary calendar and also the
+    unique ID of each calendar event created by TinyCal, we need these pieces of information
+    to be able to:'
+  purposes: {}
+- source: we
+  target: pixel
+  key: COLLECT
+  text:
+  - To do this, we may use cookies, pixels and similar technologies ("Cookies").
+  purposes: {}
+- source: we
+  target: unique id
+  key: COLLECT
+  text:
+  - In our database, for each Zoom meeting created by TinyCal, we store the meeting's
+    URL and unique ID, so that we can present that information to you in our interface
+    and also share that information with the meeting's attendees, to make it easy
+    for all parties to join the meeting.
+  purposes: {}
+- source: we
+  target: unique id of calendar event create
+  key: COLLECT
+  text:
+  - 'In our database we store the unique ID of your primary calendar and also the
+    unique ID of each calendar event created by TinyCal, we need these pieces of information
+    to be able to:'
+  purposes: {}
+- source: we
+  target: unique id of primary calendar
+  key: COLLECT
+  text:
+  - 'In our database we store the unique ID of your primary calendar and also the
+    unique ID of each calendar event created by TinyCal, we need these pieces of information
+    to be able to:'
+  purposes: {}
+- source: we
+  target: url
+  key: COLLECT
+  text:
+  - In our database, for each Google Meet meeting created by TinyCal, we store the
+    meeting's name, URL and code, so that we can present that information to you in
+    our interface and also share that information with the meeting's attendees, to
+    make it easy for all parties to join the meeting.
+  - In our database, for each Zoom meeting created by TinyCal, we store the meeting's
+    URL and unique ID, so that we can present that information to you in our interface
+    and also share that information with the meeting's attendees, to make it easy
+    for all parties to join the meeting.
+  purposes: {}
+- source: we
+  target: zoom account information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    18. Access to your Zoom account information'
+  - The only data we share from your Zoom account with people outside your TinyCal's
+    account is the URL to join the meetings that were exclusively created by TinyCal,
+    and we only share that information with the direct attendees of the meetings,
+    no other piece of information from your Zoom account is shared.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Finally, we may obtain information about you from third parties, including from
+    vendors and service providers who may collect information on our behalf, such
+    as: When you visit our Site, open or click on emails we send you, or interact
+    with our Services or advertisements, we, or third parties we work with, may automatically
+    collect certain information using online tracking technologies such as pixels,
+    web beacons, software developer kits, third-party libraries, and cookies.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may also permit third parties and services providers to use Cookies on our
+    Site to better tailor the services, products and advertising on our Site and other
+    websites.
+  purposes:
+    advertising:
+    - to better tailor the services, products and advertising on our Site and other
+      websites
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - In certain circumstances, we may disclose your personal information to third parties
+    for legitimate purposes subject to this Privacy Policy.
+  - This Privacy Policy describes how TinyCal (the "Site", "we", "us", or "our") collects,
+    uses, and discloses your personal information when you visit, use our services,
+    or make a purchase from https://tinycal.net (the "Site") or otherwise communicate
+    with us (collectively, the "Services").
+  - Your personal information is also processed by staff and third party service providers
+    and partners in these countries.
+  purposes: {}
+- source: business partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our business and marketing partners will use your information in accordance with
+    their own privacy notices.
+  purposes: {}
+- source: service provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may also permit third parties and services providers to use Cookies on our
+    Site to better tailor the services, products and advertising on our Site and other
+    websites.
+  purposes:
+    advertising:
+    - to better tailor the services, products and advertising on our Site and other
+      websites
+- source: staff
+  target: personal information
+  key: COLLECT
+  text:
+  - Your personal information is also processed by staff and third party service providers
+    and partners in these countries.
+  purposes: {}
+- source: tinycal
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how TinyCal (the "Site", "we", "us", or "our") collects,
+    uses, and discloses your personal information when you visit, use our services,
+    or make a purchase from https://tinycal.net (the "Site") or otherwise communicate
+    with us (collectively, the "Services").
+  purposes: {}
+- source: tinycal
+  target: unique id
+  key: COLLECT
+  text:
+  - The unique ID is used by TinyCal to perform the actions mentioned in the previous
+    paragraph.
+  purposes:
+    services:
+    - to perform the actions mentioned in the previous paragraph
+- source: account information
+  target: username password
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Account information including your username, password, security questions.'
+- source: advertiser
+  target: shopify audience
+  key: SUBSUM
+  text:
+  - '[[NOTE TO MERCHANT: INSERT THE FOLLOWING SENTENCE IF USING SHOPIFY''S AD SERVICES,
+    SUCH AS SHOPIFY AUDIENCES]]'
+- source: business partner
+  target: Shopify
+  key: SUBSUM
+  text:
+  - 'Such circumstances may include: With business and marketing partners, including
+    Shopify, to provide services and advertise to you.'
+- source: commercial information
+  target: customer support information
+  key: SUBSUM
+  text:
+  - 'Category: Commercial information such as order information, shopping information
+    and customer support information'
+- source: commercial information
+  target: order information
+  key: SUBSUM
+  text:
+  - 'Category: Commercial information such as order information, shopping information
+    and customer support information'
+- source: commercial information
+  target: record of product purchase
+  key: SUBSUM
+  text:
+  - 'Category of Personal Information: Commercial information such as records of products
+    or services purchased and shopping information'
+- source: commercial information
+  target: shopping information
+  key: SUBSUM
+  text:
+  - 'Category of Personal Information: Commercial information such as records of products
+    or services purchased and shopping information'
+  - 'Category: Commercial information such as order information, shopping information
+    and customer support information'
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Basic contact details including your name, address, phone number, email.'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Basic contact details including your name, address, phone number, email.'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Basic contact details including your name, address, phone number, email.'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Basic contact details including your name, address, phone number, email.'
+- source: customer support information
+  target: information you choose
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Customer support information including the information you choose to include in
+    communications with us, for example, when sending a message through the Services.'
+- source: identifier
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Category of Personal Information: Identifiers such as basic contact details and
+    certain order and account information'
+  - 'Category: Identifiers such as basic contact details and certain order and account
+    information'
+- source: identifier
+  target: order information
+  key: SUBSUM
+  text:
+  - 'Category of Personal Information: Identifiers such as basic contact details and
+    certain order and account information'
+  - 'Category: Identifiers such as basic contact details and certain order and account
+    information'
+- source: identity
+  target: account information
+  key: SUBSUM
+  text:
+  - We may need to collect information from you to verify your identity, such as your
+    email address or account information, before providing a substantive response
+    to the request.
+- source: identity
+  target: email address
+  key: SUBSUM
+  text:
+  - We may need to collect information from you to verify your identity, such as your
+    email address or account information, before providing a substantive response
+    to the request.
+- source: information about
+  target: browser information
+  key: SUBSUM
+  text:
+  - Usage Data may include information about how you access and use our Site and your
+    account, including device information, browser information, information about
+    your network connection, your IP address and other information regarding your
+    interaction with the Services.
+- source: information about
+  target: device information
+  key: SUBSUM
+  text:
+  - Usage Data may include information about how you access and use our Site and your
+    account, including device information, browser information, information about
+    your network connection, your IP address and other information regarding your
+    interaction with the Services.
+- source: information about
+  target: information about network connection
+  key: SUBSUM
+  text:
+  - Usage Data may include information about how you access and use our Site and your
+    account, including device information, browser information, information about
+    your network connection, your IP address and other information regarding your
+    interaction with the Services.
+- source: information about
+  target: ip address
+  key: SUBSUM
+  text:
+  - Usage Data may include information about how you access and use our Site and your
+    account, including device information, browser information, information about
+    your network connection, your IP address and other information regarding your
+    interaction with the Services.
+- source: information you submit to we through service
+  target: account information
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Account information including your username, password, security questions.'
+- source: information you submit to we through service
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Basic contact details including your name, address, phone number, email.'
+- source: information you submit to we through service
+  target: customer support information
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Customer support information including the information you choose to include in
+    communications with us, for example, when sending a message through the Services.'
+- source: information you submit to we through service
+  target: order information
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Order information including your name, billing address, shipping address, payment
+    confirmation, email address, phone number.'
+- source: information you submit to we through service
+  target: shopping information
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Shopping information including the items you view, put in your cart or add to
+    your wishlist.'
+- source: internet activity
+  target: information about
+  key: SUBSUM
+  text:
+  - Usage Data may include information about how you access and use our Site and your
+    account, including device information, browser information, information about
+    your network connection, your IP address and other information regarding your
+    interaction with the Services.
+- source: order information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Order information including your name, billing address, shipping address, payment
+    confirmation, email address, phone number.'
+- source: order information
+  target: payment confirmation
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Order information including your name, billing address, shipping address, payment
+    confirmation, email address, phone number.'
+- source: order information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Order information including your name, billing address, shipping address, payment
+    confirmation, email address, phone number.'
+- source: order information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Order information including your name, billing address, shipping address, payment
+    confirmation, email address, phone number.'
+- source: order information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Order information including your name, billing address, shipping address, payment
+    confirmation, email address, phone number.'
+- source: payment information
+  target: bank account
+  key: SUBSUM
+  text:
+  - 'Finally, we may obtain information about you from third parties, including from
+    vendors and service providers who may collect information on our behalf, such
+    as: Our payment processors, who collect payment information (e.g., bank account,
+    credit or debit card information, billing address) to process your payment in
+    order to fulfill your orders and provide you with products or services you have
+    requested, in order to perform our contract with you.'
+- source: payment information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'Finally, we may obtain information about you from third parties, including from
+    vendors and service providers who may collect information on our behalf, such
+    as: Our payment processors, who collect payment information (e.g., bank account,
+    credit or debit card information, billing address) to process your payment in
+    order to fulfill your orders and provide you with products or services you have
+    requested, in order to perform our contract with you.'
+- source: payment information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Finally, we may obtain information about you from third parties, including from
+    vendors and service providers who may collect information on our behalf, such
+    as: Our payment processors, who collect payment information (e.g., bank account,
+    credit or debit card information, billing address) to process your payment in
+    order to fulfill your orders and provide you with products or services you have
+    requested, in order to perform our contract with you.'
+- source: personal information
+  target: commercial information
+  key: SUBSUM
+  text:
+  - 'Category of Personal Information: Commercial information such as records of products
+    or services purchased and shopping information'
+- source: personal information
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'Category of Personal Information: Identifiers such as basic contact details and
+    certain order and account information'
+- source: personal information
+  target: internet
+  key: SUBSUM
+  text:
+  - 'Category of Personal Information: Internet or other similar network activity,
+    such as Usage Data'
+- source: personal information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'Category of Personal Information: Internet or other similar network activity,
+    such as Usage Data'
+- source: personal information
+  target: sensitive personal information
+  key: SUBSUM
+  text:
+  - 'We have, in the past 12 months disclosed the following categories of personal
+    information and sensitive personal information (denoted by *) about users for
+    the purposes set out above in "How we Collect and Use your Personal Information"
+    and "How we Disclose Personal Information":'
+- source: personal information
+  target: specific type
+  key: SUBSUM
+  text:
+  - The following sections describe the categories and specific types of personal
+    information we collect.
+- source: personal information we hold about you
+  target: detail relate to way we use
+  key: SUBSUM
+  text:
+  - You may have a right to request access to personal information that we hold about
+    you, including details relating to the ways in which we use and share your information.
+- source: service provider
+  target: company who support site
+  key: SUBSUM
+  text:
+  - 'Finally, we may obtain information about you from third parties, including from
+    vendors and service providers who may collect information on our behalf, such
+    as: Companies who support our Site and Services.'
+- source: service provider
+  target: payment processor
+  key: SUBSUM
+  text:
+  - 'Finally, we may obtain information about you from third parties, including from
+    vendors and service providers who may collect information on our behalf, such
+    as: Our payment processors, who collect payment information (e.g., bank account,
+    credit or debit card information, billing address) to process your payment in
+    order to fulfill your orders and provide you with products or services you have
+    requested, in order to perform our contract with you.'
+- source: shopping information
+  target: item you view
+  key: SUBSUM
+  text:
+  - 'Information that you directly submit to us through our Services may include:
+    Shopping information including the items you view, put in your cart or add to
+    your wishlist.'
+nodes:
+- type: ACTOR
+  id: Shopify
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: company who support site
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: shopify audience
+- type: ACTOR
+  id: staff
+- type: ACTOR
+  id: tinycal
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information
+- type: DATA
+  id: bank account
+- type: DATA
+  id: browser information
+- type: DATA
+  id: calendar
+- type: DATA
+  id: code
+- type: DATA
+  id: commercial information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer support information
+- type: DATA
+  id: detail relate to way we use
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: google account information
+- type: DATA
+  id: google calendar account
+- type: DATA
+  id: identifier
+- type: DATA
+  id: identity
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about interaction with services
+- type: DATA
+  id: information about network connection
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information about yourself
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: information you submit to we through service
+- type: DATA
+  id: internet
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: item you view
+- type: DATA
+  id: only data we share from google meet account with people outside account
+- type: DATA
+  id: only data we share from zoom account with people outside account
+- type: DATA
+  id: order information
+- type: DATA
+  id: payment confirmation
+- type: DATA
+  id: payment information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information we hold about you
+- type: DATA
+  id: phone number
+- type: DATA
+  id: piece of information
+- type: DATA
+  id: pixel
+- type: DATA
+  id: postal address
+- type: DATA
+  id: record of product purchase
+- type: DATA
+  id: sensitive personal information
+- type: DATA
+  id: shopping information
+- type: DATA
+  id: specific type
+- type: DATA
+  id: unique id
+- type: DATA
+  id: unique id of calendar event create
+- type: DATA
+  id: unique id of primary calendar
+- type: DATA
+  id: url
+- type: DATA
+  id: username password
+- type: DATA
+  id: zoom account information

@@ -1,0 +1,104 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Line21 is committed to not disclosing user communication contents unless required
+    by law or under circumstances where such disclosure is reasonably necessary to:
+    Comply with Legal Process : We may release information if required to abide by
+    legal procedures or comply with law enforcement requests served on Line21.'
+  - 'Privacy policy
+
+
+    Data Disclosure
+
+
+    Ensure Safety : We may release information to ensure the personal safety of Line21
+    participants.'
+  - 'Privacy policy
+
+
+    Data Disclosure
+
+
+    Protect Our Rights : We may disclose information to protect and defend the rights
+    and property of Line21 or to uphold the terms of a subscriber''s agreement.'
+  purposes:
+    security:
+    - to ensure the personal safety of Line21 participants
+    - to protect and defend the rights and property of Line21 or to uphold the terms
+      of a subscriber's agreement
+- source: we
+  target: minimal amount of user information necessary
+  key: COLLECT
+  text:
+  - 'We collect the following minimal amount of user information necessary for enhancing
+    your browsing experience and facilitating event interactions:'
+  purposes:
+    services:
+    - to personalize your interactions with Line21 services
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'User''s Name : We use your name to personalize your interactions with Line21
+    services.'
+  purposes:
+    services:
+    - to personalize your interactions with Line21 services
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - It may occur that a third-party based in the EU, such as your employer, may need
+    to transfer personal information to us for the purpose of verifying your participation
+    in a class.
+  - Therefore, we and our service providers may store and access your personal information
+    in the U.S.
+  purposes:
+    security:
+    - for the purpose of verifying your participation in a class
+    services:
+    - for the purpose of verifying your participation in a class
+- source: data subject
+  target: truthful information
+  key: COLLECT
+  text:
+  - In making modifications to their Personal Data, Data Subjects must provide only
+    truthful, complete, and accurate information.
+  purposes: {}
+- source: line21 platform
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The Line21 platform may process and store information in the U.S.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - Therefore, we and our service providers may store and access your personal information
+    in the U.S.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: data subject
+- type: ACTOR
+  id: line21 platform
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: minimal amount of user information necessary
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: truthful information

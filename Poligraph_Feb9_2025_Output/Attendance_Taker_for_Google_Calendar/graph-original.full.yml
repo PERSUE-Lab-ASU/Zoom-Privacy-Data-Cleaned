@@ -1,0 +1,370 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For example: we may be legally required to disclose information to the government
+    or a third party under certain circumstances such as responding to a subpoena,
+    court order or to exercise our legal rights or defend against legal claims, or
+    third parties may unlawfully intercept or access transmissions or private communications.'
+  - We collect information for our clients, if you are a customer of one of our Clients
+    and would no longer like to be contacted by one of our Clients that use our service,
+    please contact the client that you interact with directly.
+  - We may further retain and use the information as necessary to comply with our
+    legal obligations, resolve disputes, and enforce our agreements.
+  - We store and process data in AWS DynamoDB and its servers are located in the Oregon,
+    United States (West) data center.
+  purposes:
+    services:
+    - for our clients
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: clickstream datum
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: date time stamp
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We use return email addresses to answer the email we receive.
+  purposes:
+    services:
+    - to answer the email we receive
+- source: we
+  target: information about website user
+  key: COLLECT
+  text:
+  - We gather information about our website users collectively.
+  - We will only use this data anonymously and in the aggregate.
+  purposes: {}
+- source: we
+  target: information you provide about yourself
+  key: COLLECT
+  text:
+  - We use the information you provide about yourself when placing an order ONLY to
+    complete that order.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, we may share your personal information like your email address, name,
+    organisation name with our third-party service providers such as credit card processors,
+    to provide the necessary services we use to operate the Services.
+  - We may also disclose your personal information as required by law such as to comply
+    with a subpoena or bankruptcy proceedings or in response to lawful requests by
+    public authorities, including to meet national security or law enforcement requirements,
+    if ServiceRocket is involved in a merger, acquisition, or sales of all or a portion
+    of its assets, you will be notified via email and/or a prominent notice on our
+    Web site of any change in ownership or uses of your personal information, as well
+    as any choices you may have regarding your personal information.
+  purposes:
+    services:
+    - to provide the necessary services we use to operate the Services
+- source: we
+  target: personal information individual choose
+  key: COLLECT
+  text:
+  - We may also collect personal information that individuals choose to provide via
+    online forms or by email.
+  purposes: {}
+- source: we
+  target: personal information we process on behalf of yourself
+  key: COLLECT
+  text:
+  - We will retain personal information we process on behalf of yourself for as long
+    as needed to provide the Services to you, subject to our compliance with this
+    Policy.
+  purposes:
+    services:
+    - to provide the Services to you
+- source: we
+  target: prior version of policy
+  key: COLLECT
+  text:
+  - We will also keep prior versions of this Policy in an archive for your review.
+  purposes: {}
+- source: we
+  target: visitor information
+  key: COLLECT
+  text:
+  - This privacy policy (the "Policy") explains how we collect and use visitors' and
+    customers' information, particularly personal information, and the terms and conditions
+    surrounding the capture and use of that information.
+  purposes: {}
+- source: Google
+  target: email address
+  key: COLLECT
+  text:
+  - The email address were provided by Google API, provided that permission from the
+    Client.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For example: we may be legally required to disclose information to the government
+    or a third party under certain circumstances such as responding to a subpoena,
+    court order or to exercise our legal rights or defend against legal claims, or
+    third parties may unlawfully intercept or access transmissions or private communications.'
+  purposes: {}
+- source: credit card processor
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, we may share your personal information like your email address, name,
+    organisation name with our third-party service providers such as credit card processors,
+    to provide the necessary services we use to operate the Services.
+  purposes:
+    services:
+    - to provide the necessary services we use to operate the Services
+- source: government
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For example: we may be legally required to disclose information to the government
+    or a third party under certain circumstances such as responding to a subpoena,
+    court order or to exercise our legal rights or defend against legal claims, or
+    third parties may unlawfully intercept or access transmissions or private communications.'
+  purposes: {}
+- source: layer of firewall
+  target: sensitive customer information
+  key: COLLECT
+  text:
+  - For example, when you enter sensitive customer information (such as login credentials),
+    this information is transferred via industry standard Secure Sockets Layers (SSL)
+    and our databases are protected by 2 layers of firewalls.
+  purposes: {}
+- source: payment processor
+  target: company name
+  key: COLLECT
+  text:
+  - The payment processors only provide the customer's email address, First Name,
+    Last Name, Company Name, and, in the case of ChargeBee, the shipping address for
+    generating invoice.
+  purposes: {}
+- source: payment processor
+  target: email address
+  key: COLLECT
+  text:
+  - The payment processors only provide the customer's email address, First Name,
+    Last Name, Company Name, and, in the case of ChargeBee, the shipping address for
+    generating invoice.
+  purposes: {}
+- source: payment processor
+  target: person name
+  key: COLLECT
+  text:
+  - The payment processors only provide the customer's email address, First Name,
+    Last Name, Company Name, and, in the case of ChargeBee, the shipping address for
+    generating invoice.
+  purposes: {}
+- source: payment processor
+  target: postal address
+  key: COLLECT
+  text:
+  - The payment processors only provide the customer's email address, First Name,
+    Last Name, Company Name, and, in the case of ChargeBee, the shipping address for
+    generating invoice.
+  purposes: {}
+- source: servicerocket
+  target: information about
+  key: COLLECT
+  text:
+  - Upon request ServiceRocket will provide you with information about whether we
+    hold any of your personal information.
+  purposes: {}
+- source: servicerocket
+  target: personal datum we process on behalf of client
+  key: COLLECT
+  text:
+  - ServiceRocket will retain and use this personal information as necessary to comply
+    with our legal obligations, resolve disputes, and enforce our agreements.
+  - ServiceRocket will retain personal data we process on behalf of our Clients for
+    as long as needed to provide services to our Client.
+  purposes:
+    legal:
+    - to comply with our legal obligations, resolve disputes, and enforce our agreements
+- source: servicerocket
+  target: personal information
+  key: COLLECT
+  text:
+  - In certain situations, ServiceRocket may be required to disclose personal data
+    in response to lawful requests by public authorities, including to meet national
+    security or law enforcement requirements.
+  purposes: {}
+- source: appropriate regulatory authority
+  target: local data protection authority
+  key: SUBSUM
+  text:
+  - We work with the appropriate regulatory authorities, including local data protection
+    authorities, to resolve any complaints regarding the transfer of personal data
+    that we cannot resolve with our users directly.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - For example, we may share your personal information like your email address, name,
+    organisation name with our third-party service providers such as credit card processors,
+    to provide the necessary services we use to operate the Services.
+- source: personal information
+  target: organisation name
+  key: SUBSUM
+  text:
+  - For example, we may share your personal information like your email address, name,
+    organisation name with our third-party service providers such as credit card processors,
+    to provide the necessary services we use to operate the Services.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - For example, we may share your personal information like your email address, name,
+    organisation name with our third-party service providers such as credit card processors,
+    to provide the necessary services we use to operate the Services.
+- source: sensitive customer information
+  target: login credential
+  key: SUBSUM
+  text:
+  - For example, when you enter sensitive customer information (such as login credentials),
+    this information is transferred via industry standard Secure Sockets Layers (SSL)
+    and our databases are protected by 2 layers of firewalls.
+- source: tool
+  target: Maru/edr
+  key: SUBSUM
+  text:
+  - This includes continuously tightening our endpoint- and workload-level security,
+    with tools such as MDM, EDR, and MDR, responding to data & security related incidents
+    with a CSIRT function, and drive clarity and outcome with processes such as PROCESS-257
+    Incident Response Plan and PROCESS-270 Data Breach Response Plan.
+- source: tool
+  target: mdm
+  key: SUBSUM
+  text:
+  - This includes continuously tightening our endpoint- and workload-level security,
+    with tools such as MDM, EDR, and MDR, responding to data & security related incidents
+    with a CSIRT function, and drive clarity and outcome with processes such as PROCESS-257
+    Incident Response Plan and PROCESS-270 Data Breach Response Plan.
+- source: tool
+  target: mdr
+  key: SUBSUM
+  text:
+  - This includes continuously tightening our endpoint- and workload-level security,
+    with tools such as MDM, EDR, and MDR, responding to data & security related incidents
+    with a CSIRT function, and drive clarity and outcome with processes such as PROCESS-257
+    Incident Response Plan and PROCESS-270 Data Breach Response Plan.
+- source: visitor information
+  target: personal information
+  key: SUBSUM
+  text:
+  - This privacy policy (the "Policy") explains how we collect and use visitors' and
+    customers' information, particularly personal information, and the terms and conditions
+    surrounding the capture and use of that information.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Maru/edr
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: appropriate regulatory authority
+- type: ACTOR
+  id: credit card processor
+- type: ACTOR
+  id: government
+- type: ACTOR
+  id: layer of firewall
+- type: ACTOR
+  id: local data protection authority
+- type: ACTOR
+  id: mdm
+- type: ACTOR
+  id: mdr
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: servicerocket
+- type: ACTOR
+  id: tool
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: company name
+- type: DATA
+  id: date time stamp
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about website user
+- type: DATA
+  id: information you provide about yourself
+- type: DATA
+  id: ip address
+- type: DATA
+  id: login credential
+- type: DATA
+  id: organisation name
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum we process on behalf of client
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information individual choose
+- type: DATA
+  id: personal information we process on behalf of yourself
+- type: DATA
+  id: postal address
+- type: DATA
+  id: prior version of policy
+- type: DATA
+  id: sensitive customer information
+- type: DATA
+  id: visitor information

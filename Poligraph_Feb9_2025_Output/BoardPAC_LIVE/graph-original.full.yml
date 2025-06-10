@@ -1,0 +1,298 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will retain and use your information as necessary to comply with our legal
+    obligations, resolve disputes, and enforce our agreements.
+  - We will retain your information for as long as your account is active or as needed
+    to provide you services.
+  - When you download and use our mobile application, we proactively collect information
+    on the type of device you use, operating system version, and the device identifier
+    in order to optimize product experience.
+  purposes:
+    services:
+    - in order to optimize product experience
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include Internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: clickstream datum
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include Internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalized ads or
+    content, and analyze our traffic.'
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    analytics:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    services:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: we
+  target: date time stamp
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include Internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: encryption technology
+  key: COLLECT
+  text:
+  - We use security measures (such as encryption technology) to protect your information
+    including the personally identifiable information that we transmit and store.
+  purposes:
+    security:
+    - to protect your information including the personally identifiable information
+      that we transmit and store
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include Internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Due to the nature of some of these activities, we may collect personally identifiable
+    information, such as your name, employer/organization, country, email address
+    and phone number, as well as any other information you elect to provide us.
+  - If you request more information about our services, we may use your personally
+    identifiable information to send you the information you have requested.
+  - We may also use this information to respond to customer service requests, and
+    send updates about our latest events and products.
+  purposes:
+    analytics:
+    - to send you the information you have requested
+    services:
+    - to respond to customer service requests, and send updates about our latest events
+      and products
+    - to send you the information you have requested
+- source: we
+  target: report
+  key: COLLECT
+  text:
+  - We may receive reports based on the use of these technologies by these companies
+    on an individual as well as aggregated basis.
+  purposes: {}
+- source: boardpac
+  target: information about
+  key: COLLECT
+  text:
+  - Upon request BoardPAC will provide you with information about whether we hold
+    any of your personal information.
+  purposes: {}
+- source: social media
+  target: ip address
+  key: COLLECT
+  text:
+  - Our website includes Social Media Features, such as the Facebook Like button,
+    and Widgets, such as the Share this button or interactive mini-programs that run
+    on our website.
+  - These Features may collect your Internet protocol address, the page you are visiting
+    on our website, and may set a cookie to enable the Feature to function properly.
+  purposes: {}
+- source: information about company
+  target: annual operating budget
+  key: SUBSUM
+  text:
+  - In certain circumstances, we also may ask for additional information about your
+    company, such as annual operating budget, number of board members, number of committee
+    members, and other details.
+- source: information about company
+  target: number of board member
+  key: SUBSUM
+  text:
+  - In certain circumstances, we also may ask for additional information about your
+    company, such as annual operating budget, number of board members, number of committee
+    members, and other details.
+- source: information about company
+  target: number of committee member
+  key: SUBSUM
+  text:
+  - In certain circumstances, we also may ask for additional information about your
+    company, such as annual operating budget, number of board members, number of committee
+    members, and other details.
+- source: metric
+  target: bounce rate
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: number of visitor
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: traffic source
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: personal identifier
+  target: country
+  key: SUBSUM
+  text:
+  - Due to the nature of some of these activities, we may collect personally identifiable
+    information, such as your name, employer/organization, country, email address
+    and phone number, as well as any other information you elect to provide us.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - Due to the nature of some of these activities, we may collect personally identifiable
+    information, such as your name, employer/organization, country, email address
+    and phone number, as well as any other information you elect to provide us.
+- source: personal identifier
+  target: employer organization
+  key: SUBSUM
+  text:
+  - Due to the nature of some of these activities, we may collect personally identifiable
+    information, such as your name, employer/organization, country, email address
+    and phone number, as well as any other information you elect to provide us.
+- source: personal identifier
+  target: information you elect
+  key: SUBSUM
+  text:
+  - Due to the nature of some of these activities, we may collect personally identifiable
+    information, such as your name, employer/organization, country, email address
+    and phone number, as well as any other information you elect to provide us.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Due to the nature of some of these activities, we may collect personally identifiable
+    information, such as your name, employer/organization, country, email address
+    and phone number, as well as any other information you elect to provide us.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - Due to the nature of some of these activities, we may collect personally identifiable
+    information, such as your name, employer/organization, country, email address
+    and phone number, as well as any other information you elect to provide us.
+- source: sensitive information
+  target: login credential
+  key: SUBSUM
+  text:
+  - 'BoardPAC employs the following measures to secure data: When you enter sensitive
+    information (such as login credentials) we encrypt the transmission of that information
+    using transport layer security technology (TLS).'
+- source: type of device you use
+  target: device identifier
+  key: SUBSUM
+  text:
+  - When you download and use our mobile application, we proactively collect information
+    on the type of device you use, operating system version, and the device identifier
+    in order to optimize product experience.
+- source: type of device you use
+  target: operating system version
+  key: SUBSUM
+  text:
+  - When you download and use our mobile application, we proactively collect information
+    on the type of device you use, operating system version, and the device identifier
+    in order to optimize product experience.
+nodes:
+- type: ACTOR
+  id: boardpac
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: annual operating budget
+- type: DATA
+  id: bounce rate
+- type: DATA
+  id: browser type
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: country
+- type: DATA
+  id: date time stamp
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: employer organization
+- type: DATA
+  id: encryption technology
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about company
+- type: DATA
+  id: information you elect
+- type: DATA
+  id: ip address
+- type: DATA
+  id: login credential
+- type: DATA
+  id: metric
+- type: DATA
+  id: number of board member
+- type: DATA
+  id: number of committee member
+- type: DATA
+  id: number of visitor
+- type: DATA
+  id: operating system version
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: phone number
+- type: DATA
+  id: report
+- type: DATA
+  id: sensitive information
+- type: DATA
+  id: traffic source
+- type: DATA
+  id: type of device you use

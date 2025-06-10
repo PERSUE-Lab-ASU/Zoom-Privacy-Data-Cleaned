@@ -1,0 +1,78 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We process data in a form that does not permit direct association with any specific
+    individual.
+  - We share your data with third parties for the delivery or fulfilment of our services
+    and ensure that they protect such information from unauthorised access, use, and
+    disclosure.
+  purposes:
+    services:
+    - for the delivery or fulfilment of our services
+- source: we
+  target: information relate to use of service
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    1. Information We Collect and How We Use It
+
+
+    To Understand How You Use Our Services:
+
+
+    We collect information relating to your use of our services to improve our offerings
+    and deliver relevant content.'
+  purposes:
+    analytics:
+    - To Understand How You Use Our Services
+    services:
+    - to improve our offerings and deliver relevant content
+- source: we
+  target: payment information
+  key: COLLECT
+  text:
+  - We collect your payment information to process payments.
+  purposes:
+    services:
+    - to process payments
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We collect and use your personal information for a variety of reasons, including:'
+  - We collect personal information about you when you access our website ( www.talio.ai
+    ) or when you use any of our products, applications, or services (collectively
+    our "Services").
+  - We retain your personal information as needed to fulfil the purposes for which
+    it was collected and in accordance with legal obligations.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share your data with third parties for the delivery or fulfilment of our services
+    and ensure that they protect such information from unauthorised access, use, and
+    disclosure.
+  purposes:
+    services:
+    - for the delivery or fulfilment of our services
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: information relate to use of service
+- type: DATA
+  id: payment information
+- type: DATA
+  id: personal information

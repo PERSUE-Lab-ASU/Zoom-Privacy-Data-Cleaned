@@ -1,0 +1,135 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Additionally, if you are a European resident we note that we are processing your
+    information in order to fulfill contracts we might have with you (for example
+    if you make an order through the Site), or otherwise to pursue our legitimate
+    business interests listed above.
+  - When you install the App, we will maintain your Information for our records until
+    48 hours after you uninstall the App or until you ask us to delete this information
+    - whichever is earlier.
+  purposes:
+    legal:
+    - in order to fulfill contracts we might have with you (for example if you make
+      an order through the Site), or otherwise to pursue our legitimate business interests
+      listed above
+    services:
+    - in order to fulfill contracts we might have with you (for example if you make
+      an order through the Site), or otherwise to pursue our legitimate business interests
+      listed above
+- source: we
+  target: minimum amount of information necessary
+  key: COLLECT
+  text:
+  - The App collects and stores only the minimum amount of information necessary to
+    provide App functionality.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Additionally, we use this personal information to: Communicate with you; Optimize
+    or improve the App; and Provide you with information or advertising relating to
+    our products or services.'
+  - We use the personal information we collect from you and your customers in order
+    to provide the Service and to operate the App.
+  purposes:
+    advertising:
+    - 'to: Communicate with you; Optimize or improve the App; and Provide you with
+      information or advertising relating to our products or services'
+    services:
+    - in order to provide the Service and to operate the App
+    - 'to: Communicate with you; Optimize or improve the App; and Provide you with
+      information or advertising relating to our products or services'
+- source: we
+  target: customer api
+  key: SUBSUM
+  text:
+  - 'When you install the App, we are automatically able to access certain types of
+    information from your Shopify account: Customer APIs: view and modify your stores
+    customers'
+- source: information about zoom user account
+  target: email address
+  key: SUBSUM
+  text:
+  - 'When you activate the Zoom integration, we are automatically able to access certain
+    types of information from your Zoom account including: User API: information about
+    your Zoom user account including your email address, name, timezone, etc.'
+- source: information about zoom user account
+  target: person name
+  key: SUBSUM
+  text:
+  - 'When you activate the Zoom integration, we are automatically able to access certain
+    types of information from your Zoom account including: User API: information about
+    your Zoom user account including your email address, name, timezone, etc.'
+- source: information about zoom user account
+  target: timezone
+  key: SUBSUM
+  text:
+  - 'When you activate the Zoom integration, we are automatically able to access certain
+    types of information from your Zoom account including: User API: information about
+    your Zoom user account including your email address, name, timezone, etc.'
+- source: personal information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Additionally, server logs may collect the following types of personal information
+    from you and/or your customers once you have installed the App: IP address, web
+    browser details, time zone, and information about the cookies installed on the
+    particular device.'
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Additionally, server logs may collect the following types of personal information
+    from you and/or your customers once you have installed the App: IP address, web
+    browser details, time zone, and information about the cookies installed on the
+    particular device.'
+- source: personal information
+  target: time zone
+  key: SUBSUM
+  text:
+  - 'Additionally, server logs may collect the following types of personal information
+    from you and/or your customers once you have installed the App: IP address, web
+    browser details, time zone, and information about the cookies installed on the
+    particular device.'
+- source: personal information
+  target: web browser detail
+  key: SUBSUM
+  text:
+  - 'Additionally, server logs may collect the following types of personal information
+    from you and/or your customers once you have installed the App: IP address, web
+    browser details, time zone, and information about the cookies installed on the
+    particular device.'
+nodes:
+- type: ACTOR
+  id: customer api
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about zoom user account
+- type: DATA
+  id: ip address
+- type: DATA
+  id: minimum amount of information necessary
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: time zone
+- type: DATA
+  id: timezone
+- type: DATA
+  id: web browser detail

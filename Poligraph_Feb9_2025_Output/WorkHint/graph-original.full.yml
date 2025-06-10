@@ -1,0 +1,127 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your data with this third party within the limits of those specific
+    purposes if you have given us permission to do so.
+  purposes: {}
+- source: we
+  target: aggregate demographic information not associate with personally identifiable
+    information about visitor
+  key: COLLECT
+  text:
+  - We may share aggregated demographic information that is not associated with any
+    personally identifiable information about visitors and users with our partners,
+    affiliates and advertisers for the purposes described above .
+  purposes: {}
+- source: we
+  target: instruction on
+  key: COLLECT
+  text:
+  - If at any time the user wishes to unsubscribe from receiving any future messages,
+    we will provide detailed instructions on canceling the registration at the end
+    of each email, or the user can contact us through the platform or our website.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Within the time necessary to satisfy the objectives specified in this Privacy
+    Notice, we will maintain your Personal Data, unless a longer retention duration
+    is needed or approved by regulation.
+  purposes: {}
+- source: Stripe
+  target: personal information
+  key: COLLECT
+  text:
+  - When you provide personal data in connection with the Payouts feature, Stripe
+    receives that personal data and processes it in accordance with Stripe's Privacy
+    Policy.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your data with this third party within the limits of those specific
+    purposes if you have given us permission to do so.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate demographic information not associate with personally identifiable
+    information about visitor
+  key: COLLECT
+  text:
+  - We may share aggregated demographic information that is not associated with any
+    personally identifiable information about visitors and users with our partners,
+    affiliates and advertisers for the purposes described above .
+  purposes: {}
+- source: advertiser
+  target: aggregate demographic information not associate with personally identifiable
+    information about visitor
+  key: COLLECT
+  text:
+  - We may share aggregated demographic information that is not associated with any
+    personally identifiable information about visitors and users with our partners,
+    affiliates and advertisers for the purposes described above .
+  purposes: {}
+- source: workhint
+  target: information about user
+  key: COLLECT
+  text:
+  - Workhint collects some information about users wherever they interact with the
+    platform.
+  purposes: {}
+- source: workhint
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Workhint collects personally identifiable information from users in different
+    ways, including but not limited to times of user visit to the platform, registration
+    on the Workhint platform, filling out the application, questionnaire analysis
+    form, and other activities, services, features or resources that may We offer
+    it on our platform.
+  purposes: {}
+- source: workhint
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Workhint collects and uses personal information for users for the following purposes:'
+  purposes: {}
+- source: type of smartphone
+  target: internet activity
+  key: SUBSUM
+  text:
+  - This information is not about personal identity, but may include the type of smartphone
+    and technical information about the user's access to the platform, such as the
+    company used to provide Internet service and other similar information.
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: workhint
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate demographic information not associate with personally identifiable
+    information about visitor
+- type: DATA
+  id: information about user
+- type: DATA
+  id: instruction on
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: type of smartphone

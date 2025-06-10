@@ -1,0 +1,127 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: central office
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our school and/or the Department's central or regional offices will use and disclose
+    information as considered appropriate to respond to these complaints (including
+    responding to complaints made to external organisations or agencies).
+  purposes: {}
+- source: school
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our school and/or the Department's central or regional offices will use and disclose
+    information as considered appropriate to respond to these complaints (including
+    responding to complaints made to external organisations or agencies).
+  - 'Our school collects information in a number of ways, including:'
+  - 'Our school uses or discloses information, as follows:'
+  purposes:
+    analytics:
+    - for research, development or school statistics purposes
+    legal:
+    - for example, to enable the school council to fulfil its objectives, functions
+      and powers
+    security:
+    - a person's life, health, safety or welfare
+    - the public's health, safety or welfare
+    services:
+    - for example, to enable the school council to fulfil its objectives, functions
+      and powers
+- source: school
+  target: identifier
+  key: COLLECT
+  text:
+  - 'Our school uses or discloses information, as follows: when necessary to lessen
+    or prevent a serious threat to: A unique identifier is assigned to each student
+    to enable the school to carry out its functions effectively.'
+  purposes:
+    services:
+    - to enable the school to carry out its functions effectively
+- source: school
+  target: information about staff
+  key: COLLECT
+  text:
+  - 'Our school collects information about staff, volunteers and job applicants:'
+  purposes:
+    advertising:
+    - to assess applicants' suitability for employment or volunteering
+    analytics:
+    - to assess applicants' suitability for employment or volunteering
+    legal:
+    - to respond to legal claims against our school/the Department
+    security:
+    - for insurance purposes
+    services:
+    - to administer employment or volunteer placement
+    - to assess applicants' suitability for employment or volunteering
+- source: school
+  target: information about student
+  key: COLLECT
+  text:
+  - 'Our school collects information about students and when necessary to:'
+  - 'Our school collects the following type of information: information about students,
+    provided by students and others.'
+  purposes:
+    legal:
+    - 'to: fulfil statutory functions and duties'
+- source: school
+  target: information about you we take active step collect
+  key: COLLECT
+  text:
+  - Our school may receive information about you that we have taken no active steps
+    to collect.
+  purposes: {}
+- source: school
+  target: ordinary school communication
+  key: COLLECT
+  text:
+  - Our school only provides school reports and ordinary school communications to
+    students who have a legal right to that information.
+  purposes: {}
+- source: school
+  target: paper
+  key: COLLECT
+  text:
+  - Our school stores all paper and electronic records securely, consistent with the
+    Department's records management policy and information security standards.
+  purposes: {}
+- source: school
+  target: record of information
+  key: COLLECT
+  text:
+  - If permitted or required by law, our school may keep records of this information.
+  purposes: {}
+- source: school
+  target: school report
+  key: COLLECT
+  text:
+  - Our school only provides school reports and ordinary school communications to
+    students who have a legal right to that information.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: central office
+- type: ACTOR
+  id: school
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about staff
+- type: DATA
+  id: information about student
+- type: DATA
+  id: information about you we take active step collect
+- type: DATA
+  id: ordinary school communication
+- type: DATA
+  id: paper
+- type: DATA
+  id: record of information
+- type: DATA
+  id: school report

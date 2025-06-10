@@ -1,0 +1,71 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We collect information that identifies you as an individual or that can be used
+    to identify or contact you ("Personal Data").
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We collect information that identifies you as an individual or that can be used
+    to identify or contact you ("Personal Data").
+  - 'We process your Personal Data under the following legal bases:'
+  - 'We share your Personal Data with selected third parties, including:'
+  - 'We use your Personal Data for the following purposes:'
+  purposes:
+    legal:
+    - To comply with legal obligations
+    security:
+    - To enhance the security of our services
+    services:
+    - To communicate with you, including providing customer support and sending you
+      service-related updates
+    - To improve our services
+    - To provide and maintain our services
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We share your Personal Data with selected third parties, including: Service providers
+    who perform services on our behalf, such as payment processing and data analysis'
+  purposes: {}
+- source: subprocessor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We share your Personal Data with selected third parties, including: Subprocessors,
+    like livekit.io, who assist us in providing our services'
+  purposes: {}
+- source: service on behalf
+  target: payment processing
+  key: SUBSUM
+  text:
+  - 'We share your Personal Data with selected third parties, including: Service providers
+    who perform services on our behalf, such as payment processing and data analysis'
+- source: service provider
+  target: payment processing
+  key: SUBSUM
+  text:
+  - 'We share your Personal Data with selected third parties, including: Service providers
+    who perform services on our behalf, such as payment processing and data analysis'
+nodes:
+- type: ACTOR
+  id: payment processing
+- type: ACTOR
+  id: service on behalf
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: subprocessor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information

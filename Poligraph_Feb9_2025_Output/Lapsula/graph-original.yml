@@ -1,0 +1,46 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '5. Data Retention
+
+
+    We will retain your information only for as long as necessary for the purposes
+    set out in this policy.'
+  - 'We may share your information in certain circumstances, such as:'
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'We use the information we collect for various purposes, including:'
+  purposes:
+    legal:
+    - Complying with legal obligations
+    services:
+    - Communicating with you
+    - Improving our services
+    - Processing payments
+    - Providing and maintaining our services
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This policy describes how we collect, use, and disclose personal information when
+    you use our website and services.
+  - We collect various types of information, including personal information, when
+    you use our services.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: personal information

@@ -1,0 +1,146 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Please read this policy carefully: it outlines what information we access, why,
+    and how we treat it.'
+  - We collect limited information from our site via Cookies - please read our Cookie
+    Policy.
+  - We use this information to improve our analytics, personalize the product, and
+    enhance the app functionality.
+  - We use this information to improve the performance of the app and its features
+    and services.
+  purposes:
+    analytics:
+    - to improve our analytics, personalize the product, and enhance the app functionality
+    services:
+    - to improve our analytics, personalize the product, and enhance the app functionality
+    - to improve the performance of the app and its features and services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to personalize content, run ads, and analyze traffic.
+  purposes:
+    advertising:
+    - to personalize content, run ads, and analyze traffic
+    analytics:
+    - to personalize content, run ads, and analyze traffic
+- source: we
+  target: datum collect from apple health
+  key: COLLECT
+  text:
+  - With the data collected from Apple Health, we provide personalized recommendations
+    and suggestions to optimize how you organize your day.
+  purposes: {}
+- source: we
+  target: datum from apple health
+  key: COLLECT
+  text:
+  - We collect data from Apple Health, including but not limited to sleep data, workout
+    data, mindful minutes, activity, and data of birth.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Other key points : We''ll only retain personal data for 2 years unless we''re
+    legally obliged to keep it longer.'
+  purposes: {}
+- source: we
+  target: personalized recommendation
+  key: COLLECT
+  text:
+  - With the data collected from Apple Health, we provide personalized recommendations
+    and suggestions to optimize how you organize your day.
+  purposes: {}
+- source: we
+  target: suggestion
+  key: COLLECT
+  text:
+  - With the data collected from Apple Health, we provide personalized recommendations
+    and suggestions to optimize how you organize your day.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: datum about you
+  key: COLLECT
+  text:
+  - Clicking on those links or enabling those connections may allow third parties
+    to collect or share data about you.
+  purposes: {}
+- source: we
+  target: atkairos limited
+  key: SUBSUM
+  text:
+  - 'privacy policy
+
+
+    ATKAIROS LIMITED (" we ", " us " or " our ") is the data controller and is responsible
+    for your personal data.'
+- source: datum from apple health
+  target: activity
+  key: SUBSUM
+  text:
+  - We collect data from Apple Health, including but not limited to sleep data, workout
+    data, mindful minutes, activity, and data of birth.
+- source: datum from apple health
+  target: datum of birth
+  key: SUBSUM
+  text:
+  - We collect data from Apple Health, including but not limited to sleep data, workout
+    data, mindful minutes, activity, and data of birth.
+- source: datum from apple health
+  target: mindful minute
+  key: SUBSUM
+  text:
+  - We collect data from Apple Health, including but not limited to sleep data, workout
+    data, mindful minutes, activity, and data of birth.
+- source: datum from apple health
+  target: sleep datum
+  key: SUBSUM
+  text:
+  - We collect data from Apple Health, including but not limited to sleep data, workout
+    data, mindful minutes, activity, and data of birth.
+- source: datum from apple health
+  target: workout datum
+  key: SUBSUM
+  text:
+  - We collect data from Apple Health, including but not limited to sleep data, workout
+    data, mindful minutes, activity, and data of birth.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: atkairos limited
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: activity
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: datum collect from apple health
+- type: DATA
+  id: datum from apple health
+- type: DATA
+  id: datum of birth
+- type: DATA
+  id: mindful minute
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personalized recommendation
+- type: DATA
+  id: sleep datum
+- type: DATA
+  id: suggestion
+- type: DATA
+  id: workout datum

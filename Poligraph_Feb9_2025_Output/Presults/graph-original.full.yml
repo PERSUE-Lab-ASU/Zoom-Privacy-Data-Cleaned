@@ -1,0 +1,200 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: permission allow
+  key: COLLECT
+  text:
+  - Depending on the User's specific device, this Application may request certain
+    permissions that allow it to access the User's device Data as described below.
+  purposes: {}
+- source: we
+  target: respective personal datum
+  key: COLLECT
+  text:
+  - If User grants any of the permissions listed below, the respective Personal Data
+    may be processed (i.e accessed to, modified or removed) by this Application.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: mobile information
+  key: COLLECT
+  text:
+  - 'Device permissions for Personal Data access
+
+
+    Mobile information
+
+
+    No mobile information will be shared with third parties/affiliates for marketing/promotional
+    purposes.'
+  purposes:
+    advertising:
+    - for marketing/promotional purposes
+- source: presults
+  target: private information be
+  key: COLLECT
+  text:
+  - In general, Presults may collect, process, store,  transmit, and disseminate only
+    that private information that is necessary for the proper  functioning of its
+    business.
+  purposes: {}
+- source: confidential information
+  target: competitive information
+  key: SUBSUM
+  text:
+  - Confidential Information may include, but is not limited to, source code, product
+    designs and  plans, beta and benchmarking results, patent applications, production
+    methods, product  roadmaps, customer lists and information, prospect lists and
+    information, promotional plans,  competitive information, names, salaries, skills,
+    positions, pre-public financial results, product  costs, and pricing, and employee
+    information and lists including organizational charts.
+- source: confidential information
+  target: confidential information receive from a
+  key: SUBSUM
+  text:
+  - Confidential Information also includes any confidential information received by
+    Presults from a  third party under a non-disclosure agreement.
+- source: confidential information
+  target: employee information
+  key: SUBSUM
+  text:
+  - Confidential Information may include, but is not limited to, source code, product
+    designs and  plans, beta and benchmarking results, patent applications, production
+    methods, product  roadmaps, customer lists and information, prospect lists and
+    information, promotional plans,  competitive information, names, salaries, skills,
+    positions, pre-public financial results, product  costs, and pricing, and employee
+    information and lists including organizational charts.
+- source: confidential information
+  target: list
+  key: SUBSUM
+  text:
+  - Confidential Information may include, but is not limited to, source code, product
+    designs and  plans, beta and benchmarking results, patent applications, production
+    methods, product  roadmaps, customer lists and information, prospect lists and
+    information, promotional plans,  competitive information, names, salaries, skills,
+    positions, pre-public financial results, product  costs, and pricing, and employee
+    information and lists including organizational charts.
+- source: confidential information
+  target: person name
+  key: SUBSUM
+  text:
+  - Confidential Information may include, but is not limited to, source code, product
+    designs and  plans, beta and benchmarking results, patent applications, production
+    methods, product  roadmaps, customer lists and information, prospect lists and
+    information, promotional plans,  competitive information, names, salaries, skills,
+    positions, pre-public financial results, product  costs, and pricing, and employee
+    information and lists including organizational charts.
+- source: confidential information
+  target: position
+  key: SUBSUM
+  text:
+  - Confidential Information may include, but is not limited to, source code, product
+    designs and  plans, beta and benchmarking results, patent applications, production
+    methods, product  roadmaps, customer lists and information, prospect lists and
+    information, promotional plans,  competitive information, names, salaries, skills,
+    positions, pre-public financial results, product  costs, and pricing, and employee
+    information and lists including organizational charts.
+- source: confidential information
+  target: pre - public financial result
+  key: SUBSUM
+  text:
+  - Confidential Information may include, but is not limited to, source code, product
+    designs and  plans, beta and benchmarking results, patent applications, production
+    methods, product  roadmaps, customer lists and information, prospect lists and
+    information, promotional plans,  competitive information, names, salaries, skills,
+    positions, pre-public financial results, product  costs, and pricing, and employee
+    information and lists including organizational charts.
+- source: confidential information
+  target: pricing
+  key: SUBSUM
+  text:
+  - Confidential Information may include, but is not limited to, source code, product
+    designs and  plans, beta and benchmarking results, patent applications, production
+    methods, product  roadmaps, customer lists and information, prospect lists and
+    information, promotional plans,  competitive information, names, salaries, skills,
+    positions, pre-public financial results, product  costs, and pricing, and employee
+    information and lists including organizational charts.
+- source: confidential information
+  target: skill
+  key: SUBSUM
+  text:
+  - Confidential Information may include, but is not limited to, source code, product
+    designs and  plans, beta and benchmarking results, patent applications, production
+    methods, product  roadmaps, customer lists and information, prospect lists and
+    information, promotional plans,  competitive information, names, salaries, skills,
+    positions, pre-public financial results, product  costs, and pricing, and employee
+    information and lists including organizational charts.
+- source: list
+  target: organizational chart
+  key: SUBSUM
+  text:
+  - Confidential Information may include, but is not limited to, source code, product
+    designs and  plans, beta and benchmarking results, patent applications, production
+    methods, product  roadmaps, customer lists and information, prospect lists and
+    information, promotional plans,  competitive information, names, salaries, skills,
+    positions, pre-public financial results, product  costs, and pricing, and employee
+    information and lists including organizational charts.
+- source: reputable information report agency
+  target: credit bureau
+  key: SUBSUM
+  text:
+  - These circumstances are limited to the  disclosure of information to a reputable
+    information reporting agency such as a credit bureau,  when performing its own
+    due diligence related to a customer's request to perform a certain  action such
+    as extend the amount of an existing line of credit, those circumstances when the  customer
+    requests the disclosure, the disclosure is required by or permitted by law, or
+    the  customer has been informed about the possibility of such a disclosure for
+    marketing or similar  purposes, and has been given an opportunity to decline.
+- source: type of information relate to
+  target: private information
+  key: SUBSUM
+  text:
+  - '- Without advance consent from the manager  of the Information Security department,
+    Presults information systems must not be configured to  support new links between
+    private information and other types of information related to the  same individual.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: credit bureau
+- type: ACTOR
+  id: presults
+- type: ACTOR
+  id: reputable information report agency
+- type: ACTOR
+  id: we
+- type: DATA
+  id: competitive information
+- type: DATA
+  id: confidential information
+- type: DATA
+  id: confidential information receive from a
+- type: DATA
+  id: employee information
+- type: DATA
+  id: list
+- type: DATA
+  id: mobile information
+- type: DATA
+  id: organizational chart
+- type: DATA
+  id: permission allow
+- type: DATA
+  id: person name
+- type: DATA
+  id: position
+- type: DATA
+  id: pre - public financial result
+- type: DATA
+  id: pricing
+- type: DATA
+  id: private information
+- type: DATA
+  id: private information be
+- type: DATA
+  id: respective personal datum
+- type: DATA
+  id: skill
+- type: DATA
+  id: type of information relate to

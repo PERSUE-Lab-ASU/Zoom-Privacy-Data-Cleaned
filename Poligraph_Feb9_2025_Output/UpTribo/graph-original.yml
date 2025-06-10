@@ -1,0 +1,96 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help us identify you as a user, to provide you a better experience
+    on our Software, to measure promotional effectiveness and to ensure trust and
+    safety on our Software.
+  purposes:
+    advertising:
+    - to help us identify you as a user, to provide you a better experience on our
+      Software, to measure promotional effectiveness and to ensure trust and safety
+      on our Software
+    analytics:
+    - to help us identify you as a user, to provide you a better experience on our
+      Software, to measure promotional effectiveness and to ensure trust and safety
+      on our Software
+    services:
+    - to help us identify you as a user, to provide you a better experience on our
+      Software, to measure promotional effectiveness and to ensure trust and safety
+      on our Software
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may receive or collect additional information about you from third parties
+    and add this to our account information.
+  purposes: {}
+- source: we
+  target: information send to we
+  key: COLLECT
+  text:
+  - When you use our Services, we automatically collect the information sent to us
+    by your mobile device or other equipment that provides access.
+  purposes: {}
+- source: we
+  target: information you enter on software
+  key: COLLECT
+  text:
+  - ': We collect and store any information you enter on our Software or that you
+    provide to us when you use our Services.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We retain personal information no longer than is legally permissible and delete
+    personal information when it is no longer necessary for the purposes as described
+    above.
+  - 'You agree that we may use your personal information for the following purposes:'
+  purposes:
+    analytics:
+    - to personalize, measure and improve our Services, and content
+    security:
+    - to prevent, detect and investigate potentially prohibited or illegal activities,
+      fraud and security breaches and to enforce our Terms of Use
+    services:
+    - to personalize, measure and improve our Services, and content
+    - to provide you access to our Services
+- source: information send to we
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'This information includes, but is not limited to: information we collect through
+    cookies, web beacons and similar technologies.'
+  - When you use our Services, we automatically collect the information sent to us
+    by your mobile device or other equipment that provides access.
+- source: information send to we
+  target: information from interaction with service
+  key: SUBSUM
+  text:
+  - 'This information includes, but is not limited to: information from your interaction
+    with our Services, including, but not limited to, device ID, device type, geolocation
+    information, computer and connection information, statistics on page views, traffic
+    to and from https://www.uptribo.com , referring URL, ad data, IP address and standard
+    web log information; and'
+  - When you use our Services, we automatically collect the information sent to us
+    by your mobile device or other equipment that provides access.
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information from interaction with service
+- type: DATA
+  id: information send to we
+- type: DATA
+  id: information you enter on software
+- type: DATA
+  id: personal information

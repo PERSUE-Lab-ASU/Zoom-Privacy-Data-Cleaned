@@ -1,0 +1,443 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    4. Personal data we collect : 4.1.  We may gather and handle the following personal
+    details or information (data that can be uniquely associated with you) about you:'
+  - You control how long we keep your data and can decide when you want it automatically
+    deleted.
+  purposes: {}
+- source: we
+  target: account
+  key: COLLECT
+  text:
+  - 'To assist you further, here are the basics: for us, it''s not just about adhering
+    to the letter of the law, but also about embracing the spirit and principles behind
+    it to protect your data and your contract with us: We will hold you to the same
+    standards in how you treat data that is collected on our systems - Our acceptable
+    use policy ensures that if we believe you are mishandling user data, we will hold
+    you accountable and may delete your account.'
+  purposes: {}
+- source: we
+  target: booking form information
+  key: COLLECT
+  text:
+  - Note that some data (including Calendar Information, Booking Information, and
+    Booking Form Information) is processed by us as a "processor", with our account
+    holder acting as the "data controller" (please refer to section 3, Data Processing,
+    for more details on these terms).
+  purposes: {}
+- source: we
+  target: booking information
+  key: COLLECT
+  text:
+  - Note that some data (including Calendar Information, Booking Information, and
+    Booking Form Information) is processed by us as a "processor", with our account
+    holder acting as the "data controller" (please refer to section 3, Data Processing,
+    for more details on these terms).
+  purposes: {}
+- source: we
+  target: calendar information
+  key: COLLECT
+  text:
+  - Note that some data (including Calendar Information, Booking Information, and
+    Booking Form Information) is processed by us as a "processor", with our account
+    holder acting as the "data controller" (please refer to section 3, Data Processing,
+    for more details on these terms).
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Cookie policy : 17.2.  On your first visit to our site from your browser, we
+    will display a notice to notify you that we are using cookies.'
+  purposes: {}
+- source: we
+  target: datum associate with you
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    4. Personal data we collect : 4.1.  We may gather and handle the following personal
+    details or information (data that can be uniquely associated with you) about you:'
+  purposes: {}
+- source: we
+  target: datum you provide
+  key: COLLECT
+  text:
+  - We will pass the data you provide onto our account holder in accordance with this
+    privacy notice.
+  purposes: {}
+- source: we
+  target: information about free time
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    6.1.1.  If you are an account holder, we will share information about your free
+    and busy times from any linked third-party calendar account (e.g., Google Calendar)
+    with anyone seeking to make a booking using the Service (please note that any
+    data held on third-party calendar services will be subject to their privacy terms);'
+  purposes: {}
+- source: we
+  target: information contain in booking form
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    6.1.3.  If you are an account holder, we will share information contained in any
+    booking form or other content created by you with anyone seeking to make a booking
+    using the Service;'
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    6.1.4.  If you are a Customer making a booking, we will supply any information
+    you provide to us to our account holder;'
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    4. Personal data we collect : 4.5.  We use your IP address to diagnose server
+    problems, report aggregate information, determine the fastest route for your computer
+    to connect to our site, and to manage and improve the site.'
+  purposes:
+    analytics:
+    - to diagnose server problems, report aggregate information, determine the fastest
+      route for your computer to connect to our site, and to manage and improve the
+      site
+    services:
+    - to diagnose server problems, report aggregate information, determine the fastest
+      route for your computer to connect to our site, and to manage and improve the
+      site
+- source: we
+  target: payment history with account holder
+  key: COLLECT
+  text:
+  - 4.6.  If you are a customer of our account holder and they have connected with
+    us via Stripe Connect (allowing us to collect payment on the Site), we may have
+    access to your payment history with our account holder, even if you are not a
+    user of the Site.
+  purposes: {}
+- source: we
+  target: personal detail
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    4. Personal data we collect : 4.1.  We may gather and handle the following personal
+    details or information (data that can be uniquely associated with you) about you:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    4. Personal data we collect : 4.2.  We collect such information only when you
+    choose to provide it to us.'
+  - 'Privacy policy
+
+
+    6.1.8.  We may transfer your personal information to a third party as part of
+    a sale of some or all of our business and assets to any third party or as part
+    of any business restructuring or reorganization, but we will take steps to ensure
+    that your privacy rights continue to be protected;'
+  - You may also request that we transfer your personal data directly to a third party
+    (where technically feasible).
+  purposes: {}
+- source: we
+  target: sar
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    11. Your privacy rights : 11.2.  All SARs and other requests or notifications
+    regarding your above rights may be submitted to us via our contact page.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    6.1.8.  We may transfer your personal information to a third party as part of
+    a sale of some or all of our business and assets to any third party or as part
+    of any business restructuring or reorganization, but we will take steps to ensure
+    that your privacy rights continue to be protected;'
+  - You may also request that we transfer your personal data directly to a third party
+    (where technically feasible).
+  purposes: {}
+- source: bookable
+  target: information obtain from google api in accordance with google api services
+    user data policy
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    Bookable will utilize information obtained from Google APIs in accordance with
+    the Google API Services User Data Policy , including compliance with Limited Use
+    requirements.'
+  purposes: {}
+- source: bookable.page
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    17. Cookie policy : 17.1.  Like most websites and applications, Bookable.page
+    uses cookies to help provide you with the best experience whilst using our service.'
+  purposes:
+    services:
+    - to help provide you with the best experience whilst using our service
+- source: payment processor
+  target: payment information
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    6.1.5.  Payment information may be provided to our payment processors;'
+  purposes: {}
+- source: we
+  target: asset
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    6.1.8.  We may transfer your personal information to a third party as part of
+    a sale of some or all of our business and assets to any third party or as part
+    of any business restructuring or reorganization, but we will take steps to ensure
+    that your privacy rights continue to be protected;'
+- source: we
+  target: big bear little goose ltd
+  key: SUBSUM
+  text:
+  - 1.1.  Big Bear Little Goose Ltd ("we" or "us") takes the privacy of your information
+    very seriously.
+- source: we
+  target: datum analysis
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    To administer and protect our business, including troubleshooting, data analysis,
+    testing, system maintenance, support, reporting, and hosting of data.'
+- source: analytic provider
+  target: Google
+  key: SUBSUM
+  text:
+  - We use analytic tools, such as Google Analytics, to understand how our site is
+    used and where we can make improvements to provide you with the best experience.
+- source: contact information
+  target: contact address
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    4.1.2.  Contact Information contact details we collect from you as an account
+    holder about you or your employees (such as names, addresses, contact addresses,
+    telephone numbers, and email addresses provided to us by you or your employer);'
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    4.1.2.  Contact Information contact details we collect from you as an account
+    holder about you or your employees (such as names, addresses, contact addresses,
+    telephone numbers, and email addresses provided to us by you or your employer);'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    4.1.2.  Contact Information contact details we collect from you as an account
+    holder about you or your employees (such as names, addresses, contact addresses,
+    telephone numbers, and email addresses provided to us by you or your employer);'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    4.1.2.  Contact Information contact details we collect from you as an account
+    holder about you or your employees (such as names, addresses, contact addresses,
+    telephone numbers, and email addresses provided to us by you or your employer);'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    4.1.2.  Contact Information contact details we collect from you as an account
+    holder about you or your employees (such as names, addresses, contact addresses,
+    telephone numbers, and email addresses provided to us by you or your employer);'
+- source: content
+  target: private information enter on calendar
+  key: SUBSUM
+  text:
+  - .  When working with data or content not collected by us and originating elsewhere
+    (e.g., private information entered on your calendar), our policy is to access
+    and process only a limited amount of outline data needed to deliver the service
+    to you (e.g., your 'free/busy' times).
+- source: information we collect
+  target: booking form information
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    8. Subscriber Personal Data : 8.1.  We act as a "data processor" rather than a
+    data controller for certain information we collect, including Calendar Information,
+    Booking Information, and Booking Form Information.'
+- source: information we collect
+  target: booking information
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    8. Subscriber Personal Data : 8.1.  We act as a "data processor" rather than a
+    data controller for certain information we collect, including Calendar Information,
+    Booking Information, and Booking Form Information.'
+- source: information we collect
+  target: calendar information
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    8. Subscriber Personal Data : 8.1.  We act as a "data processor" rather than a
+    data controller for certain information we collect, including Calendar Information,
+    Booking Information, and Booking Form Information.'
+- source: method
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    4. Personal data we collect : 4.3.  Information may also be collected through
+    the Service without you actively providing it, using various technologies and
+    methods such as Internet Protocol (IP) addresses and cookies.'
+- source: method
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    4. Personal data we collect : 4.3.  Information may also be collected through
+    the Service without you actively providing it, using various technologies and
+    methods such as Internet Protocol (IP) addresses and cookies.'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: asset
+- type: ACTOR
+  id: big bear little goose ltd
+- type: ACTOR
+  id: bookable
+- type: ACTOR
+  id: bookable.page
+- type: ACTOR
+  id: datum analysis
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account
+- type: DATA
+  id: booking form information
+- type: DATA
+  id: booking information
+- type: DATA
+  id: calendar information
+- type: DATA
+  id: contact address
+- type: DATA
+  id: contact information
+- type: DATA
+  id: content
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum associate with you
+- type: DATA
+  id: datum you provide
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about free time
+- type: DATA
+  id: information contain in booking form
+- type: DATA
+  id: information obtain from google api in accordance with google api services user
+    data policy
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: method
+- type: DATA
+  id: payment history with account holder
+- type: DATA
+  id: payment information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal detail
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: private information enter on calendar
+- type: DATA
+  id: sar

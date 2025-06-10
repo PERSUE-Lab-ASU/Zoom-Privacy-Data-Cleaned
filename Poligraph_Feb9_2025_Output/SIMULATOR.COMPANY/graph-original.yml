@@ -1,0 +1,30 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: standard support
+  key: COLLECT
+  text:
+  - We will provide standard support to all Corezoid Actor Engine products.
+  purposes: {}
+- source: corezoid actor engine product
+  target: standard support
+  key: COLLECT
+  text:
+  - We will provide standard support to all Corezoid Actor Engine products.
+  purposes: {}
+- source: we
+  target: landing
+  key: SUBSUM
+  text:
+  - '"Corezoid Product" means the Services (including, without limitation, the Landing).'
+nodes:
+- type: ACTOR
+  id: corezoid actor engine product
+- type: ACTOR
+  id: landing
+- type: ACTOR
+  id: we
+- type: DATA
+  id: standard support

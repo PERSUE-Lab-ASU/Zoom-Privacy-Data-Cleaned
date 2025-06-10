@@ -1,0 +1,288 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In general, we will only retain your information for the time necessary to realize
+    our legitimate business purposes and to comply with the law.
+  - We also collect information when you voluntarily complete customer surveys, provide
+    feedback, and participate in competitions.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - However, we may continue to store anonymous or anonymized information, such as
+    website visits, without identifiers, in order to improve our services.
+  purposes:
+    services:
+    - in order to improve our services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - In addition, our Websites may use "cookies" to gather Non-Personally Identifiable
+    Information.
+  purposes:
+    analytics:
+    - to gather Non-Personally Identifiable Information
+    security:
+    - to gather Non-Personally Identifiable Information
+- source: we
+  target: financial information you submit
+  key: COLLECT
+  text:
+  - In processing your order, we may send your details to our third-party product
+    fulfillment agents and use financial information you submit or information from
+    credit reference agencies and fraud prevention agencies to verify your credit
+    and collect payments for your purchases, orders, and registrations.
+  purposes:
+    security:
+    - to verify your credit and collect payments for your purchases, orders, and registrations
+    services:
+    - to verify your credit and collect payments for your purchases, orders, and registrations
+- source: we
+  target: information from credit reference agency
+  key: COLLECT
+  text:
+  - In processing your order, we may send your details to our third-party product
+    fulfillment agents and use financial information you submit or information from
+    credit reference agencies and fraud prevention agencies to verify your credit
+    and collect payments for your purchases, orders, and registrations.
+  purposes:
+    security:
+    - to verify your credit and collect payments for your purchases, orders, and registrations
+    services:
+    - to verify your credit and collect payments for your purchases, orders, and registrations
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - In addition, our Websites may use "cookies" to gather Non-Personally Identifiable
+    Information.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Although unlikely, your Personal Information may be disclosed to the governments,
+    courts, law enforcement or regulatory agencies under a lawful order in a jurisdiction
+    where you are located and/or where your Personal Information is stored and/or
+    processed.
+  - In general, we collect your Personal Information when you voluntarily provide
+    it to us, such as when you register with us, place an order for products or services,
+    or submit your information to us in one of our online web-forms.
+  - 'Other than as set forth above, we may use and/or disclose your information, including
+    your Personal Information, in the following circumstances:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: geolocation
+  key: COLLECT
+  text:
+  - Additionally, this location data is only used within the Vuzix Connect App and
+    not sent to or logged by third-parties.
+  - Location data obtained by the Vuzix Connect App is only used while actively engaged
+    in pertinent activity where location is required by the app, e.g., fitness, navigation,
+    etc.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Vuzix may share your Personal Information with third parties as indicated above
+    and as consistent with this Policy.
+  purposes: {}
+- source: court
+  target: personal information
+  key: COLLECT
+  text:
+  - Although unlikely, your Personal Information may be disclosed to the governments,
+    courts, law enforcement or regulatory agencies under a lawful order in a jurisdiction
+    where you are located and/or where your Personal Information is stored and/or
+    processed.
+  purposes: {}
+- source: government
+  target: personal information
+  key: COLLECT
+  text:
+  - Although unlikely, your Personal Information may be disclosed to the governments,
+    courts, law enforcement or regulatory agencies under a lawful order in a jurisdiction
+    where you are located and/or where your Personal Information is stored and/or
+    processed.
+  purposes: {}
+- source: law enforcement
+  target: personal information
+  key: COLLECT
+  text:
+  - Although unlikely, your Personal Information may be disclosed to the governments,
+    courts, law enforcement or regulatory agencies under a lawful order in a jurisdiction
+    where you are located and/or where your Personal Information is stored and/or
+    processed.
+  purposes: {}
+- source: regulatory agency
+  target: personal information
+  key: COLLECT
+  text:
+  - Although unlikely, your Personal Information may be disclosed to the governments,
+    courts, law enforcement or regulatory agencies under a lawful order in a jurisdiction
+    where you are located and/or where your Personal Information is stored and/or
+    processed.
+  purposes: {}
+- source: vuzix
+  target: personal information
+  key: COLLECT
+  text:
+  - Vuzix may share your Personal Information with third parties as indicated above
+    and as consistent with this Policy.
+  - Vuzix will only collect, process, and store Personal Information if there is a
+    lawful basis for doing so.
+  purposes: {}
+- source: vuzix companion app
+  target: geolocation
+  key: COLLECT
+  text:
+  - Location data may be obtained from a user's phone by the Vuzix Companion App.
+  purposes: {}
+- source: vuzix connect app
+  target: geolocation
+  key: COLLECT
+  text:
+  - Similarly, location data may be obtained from a user's phone by the Vuzix Connect
+    App.
+  purposes: {}
+- source: we
+  target: asset
+  key: SUBSUM
+  text:
+  - 'Additionally, this Policy sets forth the circumstances in which we may disclose
+    Personal Information without offering you an opportunity to opt out, including:
+    in the event we sell or transfer all or a portion of our business or assets (including
+    in the event of a divestiture, merger, consolidation, liquidation or bankruptcy).'
+- source: aggregate / deidentified / pseudonymized information
+  target: website visit
+  key: SUBSUM
+  text:
+  - However, we may continue to store anonymous or anonymized information, such as
+    website visits, without identifiers, in order to improve our services.
+- source: personal datum collect
+  target: information collect through
+  key: SUBSUM
+  text:
+  - This Policy applies to all personal data collected, processed, and stored by Vuzix
+    in relation to our customers, employees, and any other individuals whose personal
+    data or personal information we may collect in the course of regular business
+    activities, including but not limited to information collected through  a visitor's
+    use of one or more of our websites, e.g., ( https://www.vuzix.com/ ), ( https://vuzix.asia/
+    ), ( https://vuzix.uk/ ), ( https://www.vuzix.eu/ ), ( https://www.vuzixjapan.com/
+    ), ( https://ir.vuzix.com/ ), and ( https://apps.vuzix.com/ ) referred to collectively
+    herein as "our Websites" or "the Websites", any information that is accessed by
+    any application that Vuzix makes available on it's App Store, and any information
+    we or our employees collect in person or over the telephone.
+- source: specific of
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - Personal Information refers to information that lets us know the specifics of
+    who you are (for example, your name, job title, company, physical mailing address,
+    email address, telephone and fax numbers and, if applicable, financial information
+    such as your credit card information).
+- source: specific of
+  target: email address
+  key: SUBSUM
+  text:
+  - Personal Information refers to information that lets us know the specifics of
+    who you are (for example, your name, job title, company, physical mailing address,
+    email address, telephone and fax numbers and, if applicable, financial information
+    such as your credit card information).
+- source: specific of
+  target: job title
+  key: SUBSUM
+  text:
+  - Personal Information refers to information that lets us know the specifics of
+    who you are (for example, your name, job title, company, physical mailing address,
+    email address, telephone and fax numbers and, if applicable, financial information
+    such as your credit card information).
+- source: specific of
+  target: person name
+  key: SUBSUM
+  text:
+  - Personal Information refers to information that lets us know the specifics of
+    who you are (for example, your name, job title, company, physical mailing address,
+    email address, telephone and fax numbers and, if applicable, financial information
+    such as your credit card information).
+- source: specific of
+  target: phone number
+  key: SUBSUM
+  text:
+  - Personal Information refers to information that lets us know the specifics of
+    who you are (for example, your name, job title, company, physical mailing address,
+    email address, telephone and fax numbers and, if applicable, financial information
+    such as your credit card information).
+- source: specific of
+  target: postal address
+  key: SUBSUM
+  text:
+  - Personal Information refers to information that lets us know the specifics of
+    who you are (for example, your name, job title, company, physical mailing address,
+    email address, telephone and fax numbers and, if applicable, financial information
+    such as your credit card information).
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: asset
+- type: ACTOR
+  id: court
+- type: ACTOR
+  id: government
+- type: ACTOR
+  id: law enforcement
+- type: ACTOR
+  id: regulatory agency
+- type: ACTOR
+  id: vuzix
+- type: ACTOR
+  id: vuzix companion app
+- type: ACTOR
+  id: vuzix connect app
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial information you submit
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information collect through
+- type: DATA
+  id: information from credit reference agency
+- type: DATA
+  id: job title
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum collect
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: specific of
+- type: DATA
+  id: website visit

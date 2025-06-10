@@ -1,0 +1,741 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 7. Disclosure of information Depending on the requested Services or as necessary
+    to complete any transaction or provide any Service you have requested, we may
+    share your information with our affiliates, contracted companies, and service
+    providers (collectively, "Service Providers") we rely upon to assist in the operation
+    of the Services available to you and whose privacy policies are consistent with
+    ours or who agree to abide by our policies with respect to Personal Information.
+  - Note that under some legislations we may be allowed to process information until
+    you object to such processing by opting out, without having to rely on consent
+    or any other of the legal bases.
+  - Service Providers are given the information they need only in order to perform
+    their designated functions, and we do not authorize them to use or disclose any
+    of the provided information for their own marketing or other purposes.
+  - We may use cookies to collect, store, and track information for security and personalization,
+    to operate the Services, and for statistical purposes.
+  purposes:
+    analytics:
+    - for security and personalization, to operate the Services, and for statistical
+      purposes
+    security:
+    - for security and personalization, to operate the Services, and for statistical
+      purposes
+    services:
+    - for security and personalization, to operate the Services, and for statistical
+      purposes
+    - only in order to perform their designated functions
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may use any aggregated data derived from or incorporating your Personal Information
+    after you update or delete it, but not in a manner that would identify you personally.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 11. Cookies Our Services use "cookies" to help personalize your online experience.
+  - We may use cookies to collect, store, and track information for security and personalization,
+    to operate the Services, and for statistical purposes.
+  purposes:
+    services:
+    - to help personalize your online experience
+- source: we
+  target: evidence
+  key: COLLECT
+  text:
+  - If we receive your request from an authorized representative, we may request evidence
+    that you have provided such an authorized representative with power of attorney
+    or that the authorized representative otherwise has valid written authority to
+    submit requests on your behalf.
+  purposes: {}
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - When you open the Website or use the Mobile Application, our servers automatically
+    record information that your browser or device sends.
+  purposes: {}
+- source: we
+  target: information obtain from analytic tool
+  key: COLLECT
+  text:
+  - We use the information obtained from these analytics tools to monitor the performance
+    and improve our Services.
+  purposes:
+    analytics:
+    - to monitor the performance and improve our Services
+    services:
+    - to monitor the performance and improve our Services
+- source: we
+  target: information send via email
+  key: COLLECT
+  text:
+  - We will maintain the information sent via email in accordance with applicable
+    laws and regulations.
+  purposes: {}
+- source: we
+  target: information you provide to we you create account
+  key: COLLECT
+  text:
+  - We receive and store any information you knowingly provide to us when you create
+    an account, make a purchase, or fill any forms on the Services.
+  purposes: {}
+- source: we
+  target: payment datum
+  key: COLLECT
+  text:
+  - We will share payment data with the Payment Processors only to the extent necessary
+    for the purposes of processing your payments, refunding such payments, and dealing
+    with complaints and queries related to such payments and refunds.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - However, we may also collect Personal Information about you from other sources
+    such as social media platforms, public databases, third-party data providers,
+    and our joint partners.
+  - In order to make the Services available to you, or to meet a legal obligation,
+    we may need to collect and use certain Personal Information.
+  - Personal Information we collect from other sources may include demographic information,
+    such as age and gender, device information, such as IP addresses, location, such
+    as city and state, and online behavioral data, such as information about your
+    use of social media websites, page view information and search results and links.
+  - We may also disclose any Personal Information we collect, use or receive if required
+    or permitted by law, such as to comply with a subpoena or similar legal process,
+    and when we believe in good faith that disclosure is necessary to protect our
+    rights, protect your safety or the safety of others, investigate fraud, or respond
+    to a government request.
+  - We will retain and use your Personal Information for the period necessary to comply
+    with our legal obligations, as long as your user account remains active, to enforce
+    our agreements, resolve disputes, and unless a longer retention period is required
+    or permitted by law.
+  purposes:
+    legal:
+    - In order to make the Services available to you, or to meet a legal obligation
+    services:
+    - In order to make the Services available to you, or to meet a legal obligation
+- source: payment processors
+  target: payment datum
+  key: COLLECT
+  text:
+  - We will share payment data with the Payment Processors only to the extent necessary
+    for the purposes of processing your payments, refunding such payments, and dealing
+    with complaints and queries related to such payments and refunds.
+  purposes: {}
+- source: payment processors
+  target: personal information
+  key: COLLECT
+  text:
+  - Please note that the Payment Processors may collect some Personal Information
+    from you, which allows them to process your payments (e.g., your email address,
+    address, credit card details, and bank account number) and handle all the steps
+    in the payment process through their systems, including data collection and data
+    processing.
+  purposes: {}
+- source: service providers
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 7. Disclosure of information Depending on the requested Services or as necessary
+    to complete any transaction or provide any Service you have requested, we may
+    share your information with our affiliates, contracted companies, and service
+    providers (collectively, "Service Providers") we rely upon to assist in the operation
+    of the Services available to you and whose privacy policies are consistent with
+    ours or who agree to abide by our policies with respect to Personal Information.
+  purposes: {}
+- source: social media
+  target: ip address
+  key: COLLECT
+  text:
+  - Social Media Features Our Services may include social media features, such as
+    the Facebook and Twitter buttons, Share This buttons, etc (collectively, "Social
+    Media Features").
+  - These Social Media Features may collect your IP address, what page you are visiting
+    on our Services, and may set a cookie to enable Social Media Features to function
+    properly.
+  purposes: {}
+- source: we
+  target: mobile application
+  key: SUBSUM
+  text:
+  - This Policy describes the types of information we may collect from you or that
+    you may provide ("Personal Information") on the thoughtfulpost.com website ("Website"),
+    "ThoughtfulPlatform" mobile application ("Mobile Application"), and any of their
+    related products and services (collectively, "Services"), and our practices for
+    collecting, using, maintaining, protecting, and disclosing that Personal Information.
+- source: we
+  target: thoughtfulplatform mobile application
+  key: SUBSUM
+  text:
+  - This Policy describes the types of information we may collect from you or that
+    you may provide ("Personal Information") on the thoughtfulpost.com website ("Website"),
+    "ThoughtfulPlatform" mobile application ("Mobile Application"), and any of their
+    related products and services (collectively, "Services"), and our practices for
+    collecting, using, maintaining, protecting, and disclosing that Personal Information.
+- source: we
+  target: thoughtfulpost.com website
+  key: SUBSUM
+  text:
+  - This Policy describes the types of information we may collect from you or that
+    you may provide ("Personal Information") on the thoughtfulpost.com website ("Website"),
+    "ThoughtfulPlatform" mobile application ("Mobile Application"), and any of their
+    related products and services (collectively, "Services"), and our practices for
+    collecting, using, maintaining, protecting, and disclosing that Personal Information.
+- source: account detail
+  target: password
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: account detail
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: account detail
+  target: user name
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: basic personal information
+  target: country of residence
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: basic personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: demographic information
+  target: age
+  key: SUBSUM
+  text:
+  - Personal Information we collect from other sources may include demographic information,
+    such as age and gender, device information, such as IP addresses, location, such
+    as city and state, and online behavioral data, such as information about your
+    use of social media websites, page view information and search results and links.
+- source: demographic information
+  target: gender
+  key: SUBSUM
+  text:
+  - Personal Information we collect from other sources may include demographic information,
+    such as age and gender, device information, such as IP addresses, location, such
+    as city and state, and online behavioral data, such as information about your
+    use of social media websites, page view information and search results and links.
+- source: device information
+  target: ip address
+  key: SUBSUM
+  text:
+  - Personal Information we collect from other sources may include demographic information,
+    such as age and gender, device information, such as IP addresses, location, such
+    as city and state, and online behavioral data, such as information about your
+    use of social media websites, page view information and search results and links.
+- source: geolocation
+  target: precise geolocation
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: information browser send
+  target: access time
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    browser and device name and version, operating system type and version, language
+    preferences, the webpage you were visiting before you came to the Services, pages
+    of the Services that you visit, the time spent on those pages, the information
+    you search for on the Services, access times and dates, and other statistics.
+  - When you open the Website or use the Mobile Application, our servers automatically
+    record information that your browser or device sends.
+- source: information browser send
+  target: browser name
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    browser and device name and version, operating system type and version, language
+    preferences, the webpage you were visiting before you came to the Services, pages
+    of the Services that you visit, the time spent on those pages, the information
+    you search for on the Services, access times and dates, and other statistics.
+  - When you open the Website or use the Mobile Application, our servers automatically
+    record information that your browser or device sends.
+- source: information browser send
+  target: date
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    browser and device name and version, operating system type and version, language
+    preferences, the webpage you were visiting before you came to the Services, pages
+    of the Services that you visit, the time spent on those pages, the information
+    you search for on the Services, access times and dates, and other statistics.
+  - When you open the Website or use the Mobile Application, our servers automatically
+    record information that your browser or device sends.
+- source: information browser send
+  target: geolocation
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    browser and device name and version, operating system type and version, language
+    preferences, the webpage you were visiting before you came to the Services, pages
+    of the Services that you visit, the time spent on those pages, the information
+    you search for on the Services, access times and dates, and other statistics.
+  - When you open the Website or use the Mobile Application, our servers automatically
+    record information that your browser or device sends.
+- source: information browser send
+  target: information you search for on services
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    browser and device name and version, operating system type and version, language
+    preferences, the webpage you were visiting before you came to the Services, pages
+    of the Services that you visit, the time spent on those pages, the information
+    you search for on the Services, access times and dates, and other statistics.
+  - When you open the Website or use the Mobile Application, our servers automatically
+    record information that your browser or device sends.
+- source: information browser send
+  target: ip address
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    browser and device name and version, operating system type and version, language
+    preferences, the webpage you were visiting before you came to the Services, pages
+    of the Services that you visit, the time spent on those pages, the information
+    you search for on the Services, access times and dates, and other statistics.
+  - When you open the Website or use the Mobile Application, our servers automatically
+    record information that your browser or device sends.
+- source: information browser send
+  target: language preference
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    browser and device name and version, operating system type and version, language
+    preferences, the webpage you were visiting before you came to the Services, pages
+    of the Services that you visit, the time spent on those pages, the information
+    you search for on the Services, access times and dates, and other statistics.
+  - When you open the Website or use the Mobile Application, our servers automatically
+    record information that your browser or device sends.
+- source: information browser send
+  target: operating system type
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    browser and device name and version, operating system type and version, language
+    preferences, the webpage you were visiting before you came to the Services, pages
+    of the Services that you visit, the time spent on those pages, the information
+    you search for on the Services, access times and dates, and other statistics.
+  - When you open the Website or use the Mobile Application, our servers automatically
+    record information that your browser or device sends.
+- source: information browser send
+  target: statistic
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    browser and device name and version, operating system type and version, language
+    preferences, the webpage you were visiting before you came to the Services, pages
+    of the Services that you visit, the time spent on those pages, the information
+    you search for on the Services, access times and dates, and other statistics.
+  - When you open the Website or use the Mobile Application, our servers automatically
+    record information that your browser or device sends.
+- source: information browser send
+  target: version
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    browser and device name and version, operating system type and version, language
+    preferences, the webpage you were visiting before you came to the Services, pages
+    of the Services that you visit, the time spent on those pages, the information
+    you search for on the Services, access times and dates, and other statistics.
+  - When you open the Website or use the Mobile Application, our servers automatically
+    record information that your browser or device sends.
+- source: information you provide to we you create account
+  target: account detail
+  key: SUBSUM
+  text:
+  - We receive and store any information you knowingly provide to us when you create
+    an account, make a purchase, or fill any forms on the Services.
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: information you provide to we you create account
+  target: basic personal information
+  key: SUBSUM
+  text:
+  - We receive and store any information you knowingly provide to us when you create
+    an account, make a purchase, or fill any forms on the Services.
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: information you provide to we you create account
+  target: contact information
+  key: SUBSUM
+  text:
+  - We receive and store any information you knowingly provide to us when you create
+    an account, make a purchase, or fill any forms on the Services.
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: information you provide to we you create account
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We receive and store any information you knowingly provide to us when you create
+    an account, make a purchase, or fill any forms on the Services.
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: information you provide to we you create account
+  target: sensitive personal information
+  key: SUBSUM
+  text:
+  - We receive and store any information you knowingly provide to us when you create
+    an account, make a purchase, or fill any forms on the Services.
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: online behavioral datum
+  target: page view information
+  key: SUBSUM
+  text:
+  - Personal Information we collect from other sources may include demographic information,
+    such as age and gender, device information, such as IP addresses, location, such
+    as city and state, and online behavioral data, such as information about your
+    use of social media websites, page view information and search results and links.
+- source: online behavioral datum
+  target: search result
+  key: SUBSUM
+  text:
+  - Personal Information we collect from other sources may include demographic information,
+    such as age and gender, device information, such as IP addresses, location, such
+    as city and state, and online behavioral data, such as information about your
+    use of social media websites, page view information and search results and links.
+- source: personal information
+  target: demographic information
+  key: SUBSUM
+  text:
+  - Personal Information we collect from other sources may include demographic information,
+    such as age and gender, device information, such as IP addresses, location, such
+    as city and state, and online behavioral data, such as information about your
+    use of social media websites, page view information and search results and links.
+- source: personal information
+  target: device information
+  key: SUBSUM
+  text:
+  - Personal Information we collect from other sources may include demographic information,
+    such as age and gender, device information, such as IP addresses, location, such
+    as city and state, and online behavioral data, such as information about your
+    use of social media websites, page view information and search results and links.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - If, however, you wish to use some of the features offered on the Services, you
+    may be asked to provide certain Personal Information (for example, your name and
+    email address).
+- source: personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Personal Information we collect from other sources may include demographic information,
+    such as age and gender, device information, such as IP addresses, location, such
+    as city and state, and online behavioral data, such as information about your
+    use of social media websites, page view information and search results and links.
+- source: personal information
+  target: online behavioral datum
+  key: SUBSUM
+  text:
+  - Personal Information we collect from other sources may include demographic information,
+    such as age and gender, device information, such as IP addresses, location, such
+    as city and state, and online behavioral data, such as information about your
+    use of social media websites, page view information and search results and links.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - If, however, you wish to use some of the features offered on the Services, you
+    may be asked to provide certain Personal Information (for example, your name and
+    email address).
+- source: sensitive personal information
+  target: mental health
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: sensitive personal information
+  target: race / ethnicity
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: sensitive personal information
+  target: religious belief
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following:  Account details (such
+    as user name, unique user ID, password, etc) Contact information (such as email
+    address, phone number, etc) Basic personal information (such as name, country
+    of residence, etc) Sensitive personal information (such as ethnicity, religious
+    beliefs, mental health, etc) Geolocation data of your device (such as latitude
+    and longitude) Certain features on the mobile device (such as contacts, calendar,
+    gallery, etc) Information about other individuals (such as your family members,
+    friends, etc)'
+- source: service providers
+  target: contract company
+  key: SUBSUM
+  text:
+  - 7. Disclosure of information Depending on the requested Services or as necessary
+    to complete any transaction or provide any Service you have requested, we may
+    share your information with our affiliates, contracted companies, and service
+    providers (collectively, "Service Providers") we rely upon to assist in the operation
+    of the Services available to you and whose privacy policies are consistent with
+    ours or who agree to abide by our policies with respect to Personal Information.
+- source: service providers
+  target: service provider
+  key: SUBSUM
+  text:
+  - 7. Disclosure of information Depending on the requested Services or as necessary
+    to complete any transaction or provide any Service you have requested, we may
+    share your information with our affiliates, contracted companies, and service
+    providers (collectively, "Service Providers") we rely upon to assist in the operation
+    of the Services available to you and whose privacy policies are consistent with
+    ours or who agree to abide by our policies with respect to Personal Information.
+- source: social media
+  target: Facebook
+  key: SUBSUM
+  text:
+  - Social Media Features Our Services may include social media features, such as
+    the Facebook and Twitter buttons, Share This buttons, etc (collectively, "Social
+    Media Features").
+- source: social media
+  target: Twitter
+  key: SUBSUM
+  text:
+  - Social Media Features Our Services may include social media features, such as
+    the Facebook and Twitter buttons, Share This buttons, etc (collectively, "Social
+    Media Features").
+- source: social media
+  target: share this button
+  key: SUBSUM
+  text:
+  - Social Media Features Our Services may include social media features, such as
+    the Facebook and Twitter buttons, Share This buttons, etc (collectively, "Social
+    Media Features").
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: contract company
+- type: ACTOR
+  id: mobile application
+- type: ACTOR
+  id: payment processors
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: service providers
+- type: ACTOR
+  id: share this button
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: thoughtfulplatform mobile application
+- type: ACTOR
+  id: thoughtfulpost.com website
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: account detail
+- type: DATA
+  id: age
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: basic personal information
+- type: DATA
+  id: browser name
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: country of residence
+- type: DATA
+  id: date
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: evidence
+- type: DATA
+  id: gender
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: information obtain from analytic tool
+- type: DATA
+  id: information send via email
+- type: DATA
+  id: information you provide to we you create account
+- type: DATA
+  id: information you search for on services
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: mental health
+- type: DATA
+  id: online behavioral datum
+- type: DATA
+  id: operating system type
+- type: DATA
+  id: page view information
+- type: DATA
+  id: password
+- type: DATA
+  id: payment datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: precise geolocation
+- type: DATA
+  id: race / ethnicity
+- type: DATA
+  id: religious belief
+- type: DATA
+  id: search result
+- type: DATA
+  id: sensitive personal information
+- type: DATA
+  id: statistic
+- type: DATA
+  id: user name
+- type: DATA
+  id: version

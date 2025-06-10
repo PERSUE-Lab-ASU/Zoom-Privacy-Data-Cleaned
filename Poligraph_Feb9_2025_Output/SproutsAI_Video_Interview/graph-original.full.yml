@@ -1,0 +1,252 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may also gather aggregated data about our services and website visitors and
+    disclose the results of such aggregated (but not personally identifiable) information
+    to our partners, service providers, advertisers, and/or other third parties for
+    marketing or promotional purposes.
+  purposes: {}
+- source: we
+  target: audio datum
+  key: COLLECT
+  text:
+  - By default, we retain audio and video data, and meeting metadata including transcriptions.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'We collect the following Google user data through our application: Primary Google
+    Account Email Address.'
+  purposes: {}
+- source: we
+  target: google meet information
+  key: COLLECT
+  text:
+  - Google Meet Information, including the ability to create, edit, and see information
+    about your Google Meet conferences created by the app.
+  - 'We use this data to: Provide and personalize our services.'
+  purposes:
+    services:
+    - 'to: Provide and personalize our services'
+- source: we
+  target: google user datum
+  key: COLLECT
+  text:
+  - 'We collect the following Google user data through our application: Primary Google
+    Account Email Address.'
+  purposes:
+    advertising:
+    - to associate you with your personal info on Google
+    - to automate email communication between recruiters and candidates which is part
+      of a hiring process
+    analytics:
+    - to associate you with your personal info on Google
+    services:
+    - to associate you with your personal info on Google
+    - to automate email communication between recruiters and candidates which is part
+      of a hiring process
+- source: we
+  target: meeting metadata include transcription
+  key: COLLECT
+  text:
+  - By default, we retain audio and video data, and meeting metadata including transcriptions.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    How We Collect and Use (Process) Your Personal Information'
+  - 'Table of Contents:
+
+
+    How we collect and use (process) your personal information'
+  - 'We use this data to:'
+  - We will retain and use your personal data to the extent necessary to comply with
+    our legal obligations (for example, if we are required to retain your data to
+    comply with applicable laws), resolve disputes, and enforce our legal agreements
+    and policies.
+  purposes:
+    services:
+    - 'to: Communicate with users about updates and services'
+    - 'to: Improve our products and user experience'
+    - 'to: Manage calendar events and meetings effectively'
+    - 'to: Provide and personalize our services'
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Sharing information with third parties'
+  - 'Table of Contents:
+
+
+    Sharing information with third parties'
+  purposes: {}
+- source: reseller
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Prohibited Uses
+
+
+    Providing information to resellers.'
+  purposes: {}
+- source: sproutsai inc.
+  target: date provide
+  key: COLLECT
+  text:
+  - If access cannot be provided within a reasonable time frame, SproutsAI Inc. will
+    provide you with a date when the information will be provided.
+  purposes: {}
+- source: sproutsai inc.
+  target: government request for information
+  key: COLLECT
+  text:
+  - Since it was founded, SproutsAI Inc. has received zero government requests for
+    information.
+  purposes: {}
+- source: sproutsai inc.
+  target: internet activity
+  key: COLLECT
+  text:
+  - SproutsAI Inc. retains personal data and usage data only for as long as is necessary
+    for the purposes set out in this Privacy Policy.
+  purposes: {}
+- source: sproutsai inc.
+  target: personal information
+  key: COLLECT
+  text:
+  - Depending on the circumstance, SproutsAI Inc. also collects and transfers to the
+    U.S. personal data with consent; to perform a contract with you; or to fulfill
+    a compelling legitimate interest of SproutsAI Inc. in a manner that does not outweigh
+    your rights and freedoms.
+  - SproutsAI Inc. retains personal data and usage data only for as long as is necessary
+    for the purposes set out in this Privacy Policy.
+  - When technically feasible, SproutsAI Inc. will--at your request--provide your
+    personal data to you.
+  - Your personal data is stored by the SproutsAI Inc. on its servers, and on the
+    servers of the cloud-based database management services the SproutsAI Inc. engages,
+    located in the United States.
+  purposes: {}
+- source: sproutsai inc.
+  target: prospect datum
+  key: COLLECT
+  text:
+  - SproutsAI Inc. retains prospect data until such time as it no longer has business
+    value and is purged from SproutsAI Inc. systems.
+  purposes: {}
+- source: sproutsai inc.
+  target: service datum
+  key: COLLECT
+  text:
+  - The SproutsAI Inc. retains service data for the duration of the customer's business
+    relationship with the SproutsAI Inc. and for a period of time thereafter, to analyze
+    the data for SproutsAI Inc.'s own operations, and for historical and archiving
+    purposes associated with SproutsAI Inc.'s services.
+  purposes: {}
+- source: google user datum
+  target: email address
+  key: SUBSUM
+  text:
+  - 'We collect the following Google user data through our application: Primary Google
+    Account Email Address.'
+- source: google user datum
+  target: gmail information
+  key: SUBSUM
+  text:
+  - 'We collect the following Google user data through our application: Gmail Information
+    to automate email communication between recruiters and candidates which is part
+    of a hiring process.'
+- source: google user datum
+  target: google calendar information
+  key: SUBSUM
+  text:
+  - 'We collect the following Google user data through our application: Google Calendar
+    Information, including the ability to see, edit, share, and permanently delete
+    all the calendars you can access using Google Calendar.'
+- source: google user datum
+  target: google meet information
+  key: SUBSUM
+  text:
+  - 'We collect the following Google user data through our application: Google Meet
+    Information, including the ability to create, edit, and see information about
+    your Google Meet conferences created by the app.'
+- source: google user datum
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'We collect the following Google user data through our application: Personal Info,
+    including publicly available information.'
+- source: personal datum concern
+  target: source of information
+  key: SUBSUM
+  text:
+  - 'You may also request information about: the purpose of the processing; the categories
+    of personal data concerned; who else outside SproutsAI Inc. might have received
+    the data from SproutsAI Inc.; what the source of the information was (if you didn''t
+    provide it directly to SproutsAI Inc.); and how long it will be stored.'
+- source: personal information
+  target: publicly available information
+  key: SUBSUM
+  text:
+  - 'We collect the following Google user data through our application: Personal Info,
+    including publicly available information.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: reseller
+- type: ACTOR
+  id: sproutsai inc.
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: audio datum
+- type: DATA
+  id: date provide
+- type: DATA
+  id: email address
+- type: DATA
+  id: gmail information
+- type: DATA
+  id: google calendar information
+- type: DATA
+  id: google meet information
+- type: DATA
+  id: google user datum
+- type: DATA
+  id: government request for information
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: meeting metadata include transcription
+- type: DATA
+  id: personal datum concern
+- type: DATA
+  id: personal information
+- type: DATA
+  id: prospect datum
+- type: DATA
+  id: publicly available information
+- type: DATA
+  id: service datum
+- type: DATA
+  id: source of information

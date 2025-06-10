@@ -1,0 +1,145 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This privacy policy explains how we collect, use, maintain, and protect personal
+    information through our services.
+  purposes: {}
+- source: we
+  target: request
+  key: COLLECT
+  text:
+  - Once a legal right over the data is established, we process the request promptly.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Usermuse shares information with third-party services under strict confidentiality
+    agreements to ensure data protection and compliance with relevant laws.
+  purposes:
+    legal:
+    - to ensure data protection and compliance with relevant laws
+    security:
+    - to ensure data protection and compliance with relevant laws
+- source: usermuse
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Usermuse retains data as long as it is necessary to provide our services or until
+    a deletion request is received from the client.
+  - Usermuse shares information with third-party services under strict confidentiality
+    agreements to ensure data protection and compliance with relevant laws.
+  purposes:
+    legal:
+    - to ensure data protection and compliance with relevant laws
+    security:
+    - to ensure data protection and compliance with relevant laws
+- source: we
+  target: careers
+  key: SUBSUM
+  text:
+  - Careers
+  - Company
+- source: Google
+  target: firestore
+  key: SUBSUM
+  text:
+  - 'Privacy Policy for Usermuse
+
+
+    IAM (Identity and Access Management) manages access to Google Cloud resources,
+    including Firestore.'
+- source: detail relate to schedule research call
+  target: date
+  key: SUBSUM
+  text:
+  - 'Privacy Policy for Usermuse
+
+
+    Calendar Event Metadata: Details related to scheduled research calls, such as
+    time, date, and participants.'
+- source: detail relate to schedule research call
+  target: participant
+  key: SUBSUM
+  text:
+  - 'Privacy Policy for Usermuse
+
+
+    Calendar Event Metadata: Details related to scheduled research calls, such as
+    time, date, and participants.'
+- source: detail relate to schedule research call
+  target: time
+  key: SUBSUM
+  text:
+  - 'Privacy Policy for Usermuse
+
+
+    Calendar Event Metadata: Details related to scheduled research calls, such as
+    time, date, and participants.'
+- source: personal identifiable information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Privacy Policy for Usermuse
+
+
+    Personal Identifiable Information (PII): Includes names, emails, and other contact
+    details.'
+- source: personal identifiable information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy for Usermuse
+
+
+    Personal Identifiable Information (PII): Includes names, emails, and other contact
+    details.'
+- source: personal identifiable information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Privacy Policy for Usermuse
+
+
+    Personal Identifiable Information (PII): Includes names, emails, and other contact
+    details.'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: careers
+- type: ACTOR
+  id: firestore
+- type: ACTOR
+  id: usermuse
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: date
+- type: DATA
+  id: detail relate to schedule research call
+- type: DATA
+  id: email address
+- type: DATA
+  id: participant
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifiable information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: request
+- type: DATA
+  id: time

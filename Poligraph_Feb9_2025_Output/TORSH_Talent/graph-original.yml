@@ -1,0 +1,239 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'From time to time, we may share your information with the following third parties
+    and to the extent possible, we encourage you to review their privacy policies
+    and terms of use to see how they treat the information we share with them: Zendesk
+    ( ZenDesk Privacy Policy ) ; Google ( Google Privacy Policy ); Atlas ( Atlas Privacy
+    Policy ); Zoom ( Zoom Privacy Policy ); Amazon ( Amazon Privacy Policy ).'
+  - We may share your information with third parties who assist with delivery of our
+    products and services.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to tell us how often you visit our site, and what pages you go
+    to on our site.
+  purposes:
+    analytics:
+    - to tell us how often you visit our site, and what pages you go to on our site
+- source: we
+  target: file from company
+  key: COLLECT
+  text:
+  - Sometimes we use files from other companies (called third-party cookies) to help
+    us see where people go on our website.
+  purposes:
+    analytics:
+    - to help us see where people go on our website
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - Like many sites, we collect information that your browser sends whenever you visit
+    our Site.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We will retain personally identifiable information for as long as it is needed
+    to fulfill the purpose for which it was collected or as required by the law.
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Our goal is to provide you with a unique and secure experience when using Torsh
+    TALENT and as such we do need some personal information to make that happen.
+  purposes:
+    services:
+    - to make that happen
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'From time to time, we may share your information with the following third parties
+    and to the extent possible, we encourage you to review their privacy policies
+    and terms of use to see how they treat the information we share with them: Zendesk
+    ( ZenDesk Privacy Policy ) ; Google ( Google Privacy Policy ); Atlas ( Atlas Privacy
+    Policy ); Zoom ( Zoom Privacy Policy ); Amazon ( Amazon Privacy Policy ).'
+  - We may share your information with third parties who assist with delivery of our
+    products and services.
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+- source: contact information
+  target: title
+  key: SUBSUM
+  text:
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+- source: information browser send
+  target: browser type
+  key: SUBSUM
+  text:
+  - Like many sites, we collect information that your browser sends whenever you visit
+    our Site.
+  - This log data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our site that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+- source: information browser send
+  target: browser version
+  key: SUBSUM
+  text:
+  - Like many sites, we collect information that your browser sends whenever you visit
+    our Site.
+  - This log data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our site that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+- source: information browser send
+  target: ip address
+  key: SUBSUM
+  text:
+  - Like many sites, we collect information that your browser sends whenever you visit
+    our Site.
+  - This log data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our site that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+- source: information browser send
+  target: statistic
+  key: SUBSUM
+  text:
+  - Like many sites, we collect information that your browser sends whenever you visit
+    our Site.
+  - This log data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our site that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+- source: information browser send
+  target: time
+  key: SUBSUM
+  text:
+  - Like many sites, we collect information that your browser sends whenever you visit
+    our Site.
+  - This log data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our site that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+- source: personal identifier
+  target: title
+  key: SUBSUM
+  text:
+  - While using our Site, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you, such as, your name, title,
+    phone number, email address, or mailing address.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: file from company
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: statistic
+- type: DATA
+  id: time
+- type: DATA
+  id: title

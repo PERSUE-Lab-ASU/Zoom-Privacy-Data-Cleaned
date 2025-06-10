@@ -1,0 +1,316 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: file record interaction with application
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - This Application may collect, use, and share User location Data in order to provide
+    location-based services.
+  - This Application may use the User's geographic location to send push notifications
+    for the purposes outlined in this privacy policy.
+  purposes:
+    services:
+    - in order to provide location-based services
+    - to send push notifications for the purposes outlined in this privacy policy
+- source: we
+  target: information concern particular service upon
+  key: COLLECT
+  text:
+  - In addition to the information contained in this privacy policy, this Application
+    may provide the User with additional and contextual information concerning particular
+    Services or the collection and processing of Personal Data upon request.
+  purposes: {}
+- source: we
+  target: mention category
+  key: COLLECT
+  text:
+  - We collect the above-mentioned categories of Personal Information, either directly
+    or indirectly, from you when you use this Application.
+  purposes: {}
+- source: we
+  target: permission allow
+  key: COLLECT
+  text:
+  - Depending on the User's specific device, this Application may request certain
+    permissions that allow it to access the User's device Data as described below.
+  purposes: {}
+- source: we
+  target: personal datum relate to user
+  key: COLLECT
+  text:
+  - 'The Owner may process Personal Data relating to Users if one of the following
+    applies:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Finally, we may collect your Personal Information from third parties that work
+    with us in connection with the Service or with the functioning of this Application
+    and features thereof.
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  - This Application collects some Personal Data from its Users.
+  - This Application may use the User's Personal Data to make decisions entirely or
+    partially based on automated processes according to the purposes outlined in this
+    document.
+  - We will provide your Personal Information in a portable and usable format that
+    allows you to transfer data easily to another entity - provided that this is technically
+    feasible;
+  purposes:
+    analytics:
+    - to make decisions entirely or partially based on automated processes according
+      to the purposes outlined in this document
+    services:
+    - For operation and maintenance purposes
+    - to make decisions entirely or partially based on automated processes according
+      to the purposes outlined in this document
+- source: we
+  target: personal information collect from you
+  key: COLLECT
+  text:
+  - We will use any Personal Information collected from you in connection with the
+    verification of your request solely for verification and shall not further disclose
+    the Personal Information, retain it longer than necessary for purposes of verification,
+    or use it for unrelated purposes.
+  purposes: {}
+- source: we
+  target: request
+  key: COLLECT
+  text:
+  - To exercise the rights described above, you need to submit your request to us
+    by contacting us via the contact details provided in this document.
+  purposes:
+    legal:
+    - To exercise the rights described above
+- source: we
+  target: respective personal datum
+  key: COLLECT
+  text:
+  - If User grants any of the permissions listed below, the respective Personal Data
+    may be processed (i.e accessed to, modified or removed) by this Application.
+  purposes: {}
+- source: we
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will provide your Personal Information in a portable and usable format that
+    allows you to transfer data easily to another entity - provided that this is technically
+    feasible;
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: file record interaction with application
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: iubenda
+  target: personal datum strictly necessary
+  key: COLLECT
+  text:
+  - 'Changes to this privacy policy
+
+
+    iubenda hosts this content and only collects the Personal Data strictly necessary
+    for it to be provided.'
+  purposes: {}
+- source: owner of application
+  target: personal datum relate to user
+  key: COLLECT
+  text:
+  - The Owner of this Application may have legitimately collected Personal Data relating
+    to Users without their knowledge by reusing or sourcing them from third parties
+    on the grounds mentioned in the section specifying the legal basis of processing.
+  purposes: {}
+- source: third country
+  target: personal information
+  key: COLLECT
+  text:
+  - 'If no other legal basis applies, Personal Data shall be transferred from the
+    EU to third countries only if at least one of the following conditions is met:'
+  - If this is the legal basis, Personal Data of Users shall be transferred from the
+    EU to third countries only if the User has explicitly consented to such transfer,
+    after having been informed of the possible risks due to the absence of an adequacy
+    decision and appropriate safeguards.
+  purposes: {}
+- source: automate tool
+  target: algorithm
+  key: SUBSUM
+  text:
+  - User profiles can also be created through the use of automated tools like algorithms,
+    which can also be provided by third parties.
+- source: calendar on device
+  target: entry
+  key: SUBSUM
+  text:
+  - 'Calendar permission
+
+
+    Used for accessing the calendar on the User''s device, including the reading,
+    adding and removing of entries.'
+- source: country
+  target: un
+  key: SUBSUM
+  text:
+  - Users are also entitled to learn about the legal basis for Data transfers abroad
+    including to any international organization governed by public international law
+    or set up by two or more countries, such as the UN, and about the security measures
+    taken by the Owner to safeguard their Data.
+- source: device setting
+  target: notification setting for mobile phone
+  key: SUBSUM
+  text:
+  - Users may in most cases opt-out of receiving push notifications by visiting their
+    device settings, such as the notification settings for mobile phones, and then
+    changing those settings for some or all of the apps on the particular device.
+  - Users may in most cases opt-out of receiving push notifications by visiting their
+    device settings, such as the notification settings for mobile phones, and then
+    changing those settings for this Application or all of the apps on the particular
+    device.
+- source: identifier
+  target: call universally unique identifier
+  key: SUBSUM
+  text:
+  - This identifier is generated upon installation of this Application, it persists
+    between Application launches and updates, but it is lost when the User deletes
+    the Application.
+  - User identification via a universally unique identifier (UUID) This Application
+    may track Users by storing a so-called universally unique identifier (or short
+    UUID) for analytics purposes or for storing Users' preferences.
+- source: personal data collect
+  target: bank account use for transfer
+  key: SUBSUM
+  text:
+  - The Personal Data collected to complete the payment may include the credit card,
+    the bank account used for the transfer, or any other means of payment envisaged.
+- source: personal data collect
+  target: credit card
+  key: SUBSUM
+  text:
+  - The Personal Data collected to complete the payment may include the credit card,
+    the bank account used for the transfer, or any other means of payment envisaged.
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+- source: personal information
+  target: mention category
+  key: SUBSUM
+  text:
+  - We collect the above-mentioned categories of Personal Information, either directly
+    or indirectly, from you when you use this Application.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: algorithm
+- type: ACTOR
+  id: automate tool
+- type: ACTOR
+  id: country
+- type: ACTOR
+  id: iubenda
+- type: ACTOR
+  id: owner of application
+- type: ACTOR
+  id: third country
+- type: ACTOR
+  id: un
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: bank account use for transfer
+- type: DATA
+  id: calendar on device
+- type: DATA
+  id: call universally unique identifier
+- type: DATA
+  id: credit card
+- type: DATA
+  id: device setting
+- type: DATA
+  id: entry
+- type: DATA
+  id: file record interaction with application
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information concern particular service upon
+- type: DATA
+  id: ip address
+- type: DATA
+  id: mention category
+- type: DATA
+  id: notification setting for mobile phone
+- type: DATA
+  id: permission allow
+- type: DATA
+  id: personal data collect
+- type: DATA
+  id: personal datum relate to user
+- type: DATA
+  id: personal datum strictly necessary
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information collect from you
+- type: DATA
+  id: request
+- type: DATA
+  id: respective personal datum
+- type: DATA
+  id: system log

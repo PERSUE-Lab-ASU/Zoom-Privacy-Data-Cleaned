@@ -1,0 +1,618 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy and Personal Data Management Policy
+
+
+    5. What we collect We may collect the following data depending on how you interact
+    with us.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - '6. Source of collection We may collect personal data in two different ways: -
+    Either directly from you: - voluntarily, when you fill in collection fields -
+    automatically, when you use the Platform or browse the websites - Or indirectly:
+    - from other users of our services (e.g. when you are a Participant without an
+    account) - from our technical partners who provide an integration service, such
+    as when connecting in iframe (e.g. Teams) - from third parties, for example Google
+    Analytics, Microsoft, Facebook or LinkedIn (especially if you use the Single Sign
+    On feature to connect to the Platform) - from our business partners.'
+  purposes: {}
+- source: beekast
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Among these audience analysis cookies, Beekast use Google Analytics third-party
+    cookie.
+  purposes: {}
+- source: organisation entrust with debt collection
+  target: payment datum
+  key: COLLECT
+  text:
+  - Organisations entrusted with debt collection may receive the buyer's payment data
+    only.
+  purposes: {}
+- source: payment service provider ensure
+  target: personal data relate to bank card number it collect
+  key: COLLECT
+  text:
+  - '(iii) Concerning bank card data: The financial transactions relating to paying
+    for purchases and fees via the Solution are entrusted to a payment service provider
+    that ensures transactions are performed properly and are secure.'
+  - For the purposes of the Services, this payment service provider may receive your
+    personal data relating to your bank card numbers, which it collects and stores
+    on our behalf.
+  purposes: {}
+- source: solution
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'The Solution uses different types of cookies, which have different purposes:'
+  purposes: {}
+- source: zoom
+  target: personal datum collect
+  key: COLLECT
+  text:
+  - '(vi) Concerning Zoom: if you choose to connect Beekast with Zoom, Zoom may receive
+    personal data which will be collected and retained in order to provide the service
+    to you.'
+  purposes:
+    services:
+    - in order to provide the service to you
+- source: connection datum
+  target: login id assign to you
+  key: SUBSUM
+  text:
+  - '- Connection data, e.g. the login ID assigned to you by Beekast so you can connect
+    to the Platform, as well as any data needed to stay connected to the Platform;
+    - Your IP address; - Device data, e.g. the device model used, browser version
+    used, screen resolution; - Usage data, for example, application logs, technical
+    logs and any other data for keeping track of visits and actions performed on the
+    platform.'
+- source: contract datum
+  target: type of subscription take
+  key: SUBSUM
+  text:
+  - 'As a Customer or a contact person of a Customer, the following categories of
+    personal data may be collected in the course of our business relationship: - Identification
+    data, e.g. your first and last names, email address; - Contract data, including
+    the type of subscription taken out, billing details'
+- source: datum need
+  target: browser version use
+  key: SUBSUM
+  text:
+  - '- Connection data, e.g. the login ID assigned to you by Beekast so you can connect
+    to the Platform, as well as any data needed to stay connected to the Platform;
+    - Your IP address; - Device data, e.g. the device model used, browser version
+    used, screen resolution; - Usage data, for example, application logs, technical
+    logs and any other data for keeping track of visits and actions performed on the
+    platform.'
+- source: datum need
+  target: device datum
+  key: SUBSUM
+  text:
+  - '- Connection data, e.g. the login ID assigned to you by Beekast so you can connect
+    to the Platform, as well as any data needed to stay connected to the Platform;
+    - Your IP address; - Device data, e.g. the device model used, browser version
+    used, screen resolution; - Usage data, for example, application logs, technical
+    logs and any other data for keeping track of visits and actions performed on the
+    platform.'
+- source: datum need
+  target: screen resolution
+  key: SUBSUM
+  text:
+  - '- Connection data, e.g. the login ID assigned to you by Beekast so you can connect
+    to the Platform, as well as any data needed to stay connected to the Platform;
+    - Your IP address; - Device data, e.g. the device model used, browser version
+    used, screen resolution; - Usage data, for example, application logs, technical
+    logs and any other data for keeping track of visits and actions performed on the
+    platform.'
+- source: device datum
+  target: application log
+  key: SUBSUM
+  text:
+  - '- Connection data, e.g. the login ID assigned to you by Beekast so you can connect
+    to the Platform, as well as any data needed to stay connected to the Platform;
+    - Your IP address; - Device data, e.g. the device model used, browser version
+    used, screen resolution; - Usage data, for example, application logs, technical
+    logs and any other data for keeping track of visits and actions performed on the
+    platform.'
+- source: device datum
+  target: datum for
+  key: SUBSUM
+  text:
+  - '- Connection data, e.g. the login ID assigned to you by Beekast so you can connect
+    to the Platform, as well as any data needed to stay connected to the Platform;
+    - Your IP address; - Device data, e.g. the device model used, browser version
+    used, screen resolution; - Usage data, for example, application logs, technical
+    logs and any other data for keeping track of visits and actions performed on the
+    platform.'
+- source: device datum
+  target: internet activity
+  key: SUBSUM
+  text:
+  - '- Connection data, e.g. the login ID assigned to you by Beekast so you can connect
+    to the Platform, as well as any data needed to stay connected to the Platform;
+    - Your IP address; - Device data, e.g. the device model used, browser version
+    used, screen resolution; - Usage data, for example, application logs, technical
+    logs and any other data for keeping track of visits and actions performed on the
+    platform.'
+- source: device datum
+  target: technical log
+  key: SUBSUM
+  text:
+  - '- Connection data, e.g. the login ID assigned to you by Beekast so you can connect
+    to the Platform, as well as any data needed to stay connected to the Platform;
+    - Your IP address; - Device data, e.g. the device model used, browser version
+    used, screen resolution; - Usage data, for example, application logs, technical
+    logs and any other data for keeping track of visits and actions performed on the
+    platform.'
+- source: identification datum
+  target: application log
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+- source: identification datum
+  target: browser version use
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+  - 'As a Visitor, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - Device data, e.g. the device
+    model used, browser version used, screen resolution; - Browsing data, e.g. the
+    pages you visit on the beekast.com website; - Your IP address; - Location data;
+    - Chat data, if you use the chat on beekast.com; - Additional third-party information
+    related to your occupation.'
+- source: identification datum
+  target: browsing datum
+  key: SUBSUM
+  text:
+  - 'As a Visitor, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - Device data, e.g. the device
+    model used, browser version used, screen resolution; - Browsing data, e.g. the
+    pages you visit on the beekast.com website; - Your IP address; - Location data;
+    - Chat data, if you use the chat on beekast.com; - Additional third-party information
+    related to your occupation.'
+- source: identification datum
+  target: datum for
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+- source: identification datum
+  target: datum require in access setting
+  key: SUBSUM
+  text:
+  - 'As a Participant without an account, the following categories of personal data
+    may be collected: - Identification data, e.g. your first and last names and any
+    data required by the User in their Session''s access settings.'
+- source: identification datum
+  target: device datum
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+  - 'As a Visitor, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - Device data, e.g. the device
+    model used, browser version used, screen resolution; - Browsing data, e.g. the
+    pages you visit on the beekast.com website; - Your IP address; - Location data;
+    - Chat data, if you use the chat on beekast.com; - Additional third-party information
+    related to your occupation.'
+- source: identification datum
+  target: email address
+  key: SUBSUM
+  text:
+  - 'As a Customer or a contact person of a Customer, the following categories of
+    personal data may be collected in the course of our business relationship: - Identification
+    data, e.g. your first and last names, email address; - Contract data, including
+    the type of subscription taken out, billing details'
+- source: identification datum
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+- source: identification datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+- source: identification datum
+  target: person name
+  key: SUBSUM
+  text:
+  - 'As a Customer or a contact person of a Customer, the following categories of
+    personal data may be collected in the course of our business relationship: - Identification
+    data, e.g. your first and last names, email address; - Contract data, including
+    the type of subscription taken out, billing details'
+  - 'As a Participant without an account, the following categories of personal data
+    may be collected: - Identification data, e.g. your first and last names and any
+    data required by the User in their Session''s access settings.'
+- source: identification datum
+  target: screen resolution
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+  - 'As a Visitor, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - Device data, e.g. the device
+    model used, browser version used, screen resolution; - Browsing data, e.g. the
+    pages you visit on the beekast.com website; - Your IP address; - Location data;
+    - Chat data, if you use the chat on beekast.com; - Additional third-party information
+    related to your occupation.'
+- source: identification datum
+  target: technical log
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+- source: login datum
+  target: datum need
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+- source: login datum
+  target: login name
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+- source: login datum
+  target: password
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+- source: personal information
+  target: billing detail
+  key: SUBSUM
+  text:
+  - 'As a Customer or a contact person of a Customer, the following categories of
+    personal data may be collected in the course of our business relationship: - Identification
+    data, e.g. your first and last names, email address; - Contract data, including
+    the type of subscription taken out, billing details'
+- source: personal information
+  target: chat datum
+  key: SUBSUM
+  text:
+  - 'As a Visitor, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - Device data, e.g. the device
+    model used, browser version used, screen resolution; - Browsing data, e.g. the
+    pages you visit on the beekast.com website; - Your IP address; - Location data;
+    - Chat data, if you use the chat on beekast.com; - Additional third-party information
+    related to your occupation.'
+- source: personal information
+  target: contract datum
+  key: SUBSUM
+  text:
+  - 'As a Customer or a contact person of a Customer, the following categories of
+    personal data may be collected in the course of our business relationship: - Identification
+    data, e.g. your first and last names, email address; - Contract data, including
+    the type of subscription taken out, billing details'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+  - 'As a Visitor, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - Device data, e.g. the device
+    model used, browser version used, screen resolution; - Browsing data, e.g. the
+    pages you visit on the beekast.com website; - Your IP address; - Location data;
+    - Chat data, if you use the chat on beekast.com; - Additional third-party information
+    related to your occupation.'
+- source: personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+  - 'As a Visitor, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - Device data, e.g. the device
+    model used, browser version used, screen resolution; - Browsing data, e.g. the
+    pages you visit on the beekast.com website; - Your IP address; - Location data;
+    - Chat data, if you use the chat on beekast.com; - Additional third-party information
+    related to your occupation.'
+- source: personal information
+  target: identification datum
+  key: SUBSUM
+  text:
+  - 'As a Customer or a contact person of a Customer, the following categories of
+    personal data may be collected in the course of our business relationship: - Identification
+    data, e.g. your first and last names, email address; - Contract data, including
+    the type of subscription taken out, billing details'
+  - 'As a Participant without an account, the following categories of personal data
+    may be collected: - Identification data, e.g. your first and last names and any
+    data required by the User in their Session''s access settings.'
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+  - 'As a Visitor, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - Device data, e.g. the device
+    model used, browser version used, screen resolution; - Browsing data, e.g. the
+    pages you visit on the beekast.com website; - Your IP address; - Location data;
+    - Chat data, if you use the chat on beekast.com; - Additional third-party information
+    related to your occupation.'
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'As a Visitor, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - Device data, e.g. the device
+    model used, browser version used, screen resolution; - Browsing data, e.g. the
+    pages you visit on the beekast.com website; - Your IP address; - Location data;
+    - Chat data, if you use the chat on beekast.com; - Additional third-party information
+    related to your occupation.'
+- source: personal information
+  target: login datum
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+  - 'As a Visitor, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - Device data, e.g. the device
+    model used, browser version used, screen resolution; - Browsing data, e.g. the
+    pages you visit on the beekast.com website; - Your IP address; - Location data;
+    - Chat data, if you use the chat on beekast.com; - Additional third-party information
+    related to your occupation.'
+- source: personal information
+  target: response you receive to activity you use
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+- source: personal information
+  target: support datum
+  key: SUBSUM
+  text:
+  - 'As a User, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - User Content, i.e. the
+    content you import into your sessions and the responses you receive to activities
+    you use; - Login data, e.g. your login name and password, as well as any data
+    needed to stay connected to the platform; - Device data, e.g. the device model
+    used, browser version used, screen resolution; - Your IP address; - Usage data,
+    for example, application logs, technical logs and any other data for keeping track
+    of visits and actions performed on the platform; - Location data (for support
+    only); - Support data, such as the content of support tickets or conversations
+    on the support chat.'
+- source: personal information
+  target: third party information relate to occupation
+  key: SUBSUM
+  text:
+  - 'As a Visitor, the following categories of personal data may be collected: - Identification
+    data, e.g. your first and last names, email address; - Device data, e.g. the device
+    model used, browser version used, screen resolution; - Browsing data, e.g. the
+    pages you visit on the beekast.com website; - Your IP address; - Location data;
+    - Chat data, if you use the chat on beekast.com; - Additional third-party information
+    related to your occupation.'
+nodes:
+- type: ACTOR
+  id: beekast
+- type: ACTOR
+  id: organisation entrust with debt collection
+- type: ACTOR
+  id: payment service provider ensure
+- type: ACTOR
+  id: solution
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: application log
+- type: DATA
+  id: billing detail
+- type: DATA
+  id: browser version use
+- type: DATA
+  id: browsing datum
+- type: DATA
+  id: chat datum
+- type: DATA
+  id: connection datum
+- type: DATA
+  id: contract datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum for
+- type: DATA
+  id: datum need
+- type: DATA
+  id: datum require in access setting
+- type: DATA
+  id: device datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identification datum
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: login datum
+- type: DATA
+  id: login id assign to you
+- type: DATA
+  id: login name
+- type: DATA
+  id: password
+- type: DATA
+  id: payment datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal data relate to bank card number it collect
+- type: DATA
+  id: personal datum collect
+- type: DATA
+  id: personal information
+- type: DATA
+  id: response you receive to activity you use
+- type: DATA
+  id: screen resolution
+- type: DATA
+  id: support datum
+- type: DATA
+  id: technical log
+- type: DATA
+  id: third party information relate to occupation
+- type: DATA
+  id: type of subscription take

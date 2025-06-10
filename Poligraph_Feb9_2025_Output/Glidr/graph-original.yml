@@ -1,0 +1,175 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, we ask visitors who sign up for LaunchPad Central services to provide
+    a username and email address.
+  - If we ever send you information by email concerning new products, services or
+    information that you did not expressly request, we will provide you with an email
+    address by which you may request no further notices.
+  purposes: {}
+- source: we
+  target: summary
+  key: COLLECT
+  text:
+  - Upon your request, we will provide you with a summary of the information we collect
+    about you.
+  purposes: {}
+- source: we
+  target: username
+  key: COLLECT
+  text:
+  - For example, we ask visitors who sign up for LaunchPad Central services to provide
+    a username and email address.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Potentially personally identifying and personally-identifying information may
+    be transferred to a third party as a result of a sale, acquisition, merger, reorganization
+    or other transfer (a "Transfer") involving LaunchPad Central.
+  purposes: {}
+- source: client
+  target: information enter
+  key: COLLECT
+  text:
+  - Clients have complete access to all information entered by users created under
+    a Client account; Launch Pad Central has no obligation to maintain any information
+    entered by a user as private or confidential as between the user and the Client.
+  purposes: {}
+- source: launchpad central
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - LaunchPad Central uses cookies to help LaunchPad Central identify and track visitors,
+    their usage of the Website, and their Website access preferences.
+  purposes:
+    analytics:
+    - to help LaunchPad Central identify and track visitors, their usage of the Website,
+      and their Website access preferences
+- source: launchpad central
+  target: non-personal information
+  key: COLLECT
+  text:
+  - From time to time, LaunchPad Central may release non-personally-identifying information
+    in the aggregate, e.g., by publishing a report on trends in the usage of its Website.
+  - Like most website operators, LaunchPad Central collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+  purposes: {}
+- source: launchpad central
+  target: personal identifier
+  key: COLLECT
+  text:
+  - LaunchPad Central also collects potentially personally-identifying information
+    like Internet Protocol (IP) addresses.
+  - LaunchPad Central discloses potentially personally-identifying and personally-identifying
+    information to those of its employees, contractors and affiliated organizations
+    that (i) need to know that information in order to process it on LaunchPad Central's
+    behalf or to provide services available at the Website, and (ii) that have agreed
+    not to disclose it to others.
+  - Other than to its employees, contractors and affiliated organizations or as described
+    above, LaunchPad Central discloses potentially personally-identifying and personally-identifying
+    information only when permitted to do so by law, or when LaunchPad Central believes
+    in good faith that disclosure is reasonably necessary to protect the property
+    or rights of LaunchPad Central, third parties or the public at large.
+  purposes: {}
+- source: launchpad central
+  target: personal information require
+  key: COLLECT
+  text:
+  - Clients who sign up for LaunchPad Central's services are asked to provide additional
+    information, including as necessary the personal and financial information required
+    to create accounts and process payments.
+  - In each case, LaunchPad Central collects such information only insofar as is necessary
+    or appropriate to fulfill the purpose of the visitor's interaction with LaunchPad
+    Central.
+  purposes: {}
+- source: launchpad central
+  target: statistic about behavior of visitor to website
+  key: COLLECT
+  text:
+  - LaunchPad Central may collect statistics about the behavior of visitors to the
+    Website.
+  purposes: {}
+- source: we
+  target: website available
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how LaunchPad Central, Inc. ("LaunchPad Central")
+    treats the information we collect when you visit and use the websites available
+    at www.glidr.com and other related websites with links to this Privacy Policy
+    (collectively, the "Website").
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - Like most website operators, LaunchPad Central collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: non-personal information
+  target: date
+  key: SUBSUM
+  text:
+  - Like most website operators, LaunchPad Central collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: non-personal information
+  target: language preference
+  key: SUBSUM
+  text:
+  - Like most website operators, LaunchPad Central collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: personal identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - LaunchPad Central also collects potentially personally-identifying information
+    like Internet Protocol (IP) addresses.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: client
+- type: ACTOR
+  id: launchpad central
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website available
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: email address
+- type: DATA
+  id: information enter
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information require
+- type: DATA
+  id: statistic about behavior of visitor to website
+- type: DATA
+  id: summary
+- type: DATA
+  id: username

@@ -1,0 +1,30 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: phreesia
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Phreesia may collect other information and request certain permissions from Provider
+    clients to ensure our products and services are functioning and for other permissible
+    purposes.
+  purposes: {}
+- source: phreesia
+  target: permission
+  key: COLLECT
+  text:
+  - Phreesia may collect other information and request certain permissions from Provider
+    clients to ensure our products and services are functioning and for other permissible
+    purposes.
+  purposes:
+    services:
+    - to ensure our products and services are functioning and for other permissible
+      purposes
+nodes:
+- type: ACTOR
+  id: phreesia
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: permission

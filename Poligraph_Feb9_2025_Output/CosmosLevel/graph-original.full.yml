@@ -1,0 +1,258 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share information with:'
+  - We may transfer, process, and store your information on servers located outside
+    of your home country, which may not offer the same level of data protection.
+  purposes: {}
+- source: we
+  target: appointment detail
+  key: COLLECT
+  text:
+  - 'Privacy
+
+
+    III. Personal Data Processed by cosmoslevel.com:
+
+
+    We may collect the following types of information: Appointment details and scheduling
+    information'
+  purposes: {}
+- source: we
+  target: billing information
+  key: COLLECT
+  text:
+  - 'Privacy
+
+
+    III. Personal Data Processed by cosmoslevel.com:
+
+
+    We may collect the following types of information: Billing and payment information'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website uses cookies to ensure you get the best experience on our website.
+  purposes:
+    services:
+    - to ensure you get the best experience on our website
+- source: we
+  target: generate content
+  key: COLLECT
+  text:
+  - 'Privacy
+
+
+    III. Personal Data Processed by cosmoslevel.com:
+
+
+    We may collect the following types of information: User-generated content, such
+    as reviews and feedback'
+  purposes: {}
+- source: we
+  target: personal identification information
+  key: COLLECT
+  text:
+  - 'Privacy
+
+
+    III. Personal Data Processed by cosmoslevel.com:
+
+
+    We may collect the following types of information:'
+  - 'We may collect the following types of information: Personal identification information
+    (Name, email address, phone number, etc.)'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For the purposes of providing cosmoslevel.com services, your personal data will
+    be processed by us at HOP TRAINING SRL, located at Str. Morii 33B, Sat Valea Mare
+    Podgoria, Arges, Romania, registered at the National Trade Register Office under
+    no. J03/998/2021, Unique Registration Code 44131318.
+  purposes:
+    services:
+    - For the purposes of providing cosmoslevel.com services
+- source: we
+  target: professional credential
+  key: COLLECT
+  text:
+  - 'Privacy
+
+
+    III. Personal Data Processed by cosmoslevel.com:
+
+
+    We may collect the following types of information: Professional credentials and
+    qualifications'
+  purposes: {}
+- source: we
+  target: qualification
+  key: COLLECT
+  text:
+  - 'Privacy
+
+
+    III. Personal Data Processed by cosmoslevel.com:
+
+
+    We may collect the following types of information: Professional credentials and
+    qualifications'
+  purposes: {}
+- source: we
+  target: scheduling information
+  key: COLLECT
+  text:
+  - 'Privacy
+
+
+    III. Personal Data Processed by cosmoslevel.com:
+
+
+    We may collect the following types of information: Appointment details and scheduling
+    information'
+  purposes: {}
+- source: we
+  target: technical datum
+  key: COLLECT
+  text:
+  - 'Privacy
+
+
+    III. Personal Data Processed by cosmoslevel.com:
+
+
+    We may collect the following types of information:'
+  - 'We may collect the following types of information: Technical data (IP address,
+    browser type, operating system, etc.)'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - When a professional (salon, clinic, or independent professional) desires to utilize
+    cosmoslevel.com to manage bookings, they will register on the platform and their
+    personal data will be processed as described.
+  purposes: {}
+- source: cosmoslevel.com
+  target: zoom user token
+  key: COLLECT
+  text:
+  - At user request, cosmoslevel.com stores the Zoom user and refresh token to create
+    and update Zoom meeting links.
+  purposes:
+    services:
+    - to create and update Zoom meeting links
+- source: service provider who perform service on behalf
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share information with: Service providers who perform services on our
+    behalf'
+  purposes: {}
+- source: smart scheduling option
+  target: minimum notice requirement
+  key: SUBSUM
+  text:
+  - For added convenience, professionals have the option to sync with their Google
+    Calendar, check for scheduling conflicts, and employ smart scheduling options
+    like time slot increments and minimum notice requirements before bookings.
+- source: smart scheduling option
+  target: time slot increment
+  key: SUBSUM
+  text:
+  - For added convenience, professionals have the option to sync with their Google
+    Calendar, check for scheduling conflicts, and employ smart scheduling options
+    like time slot increments and minimum notice requirements before bookings.
+- source: special category of personal datum
+  target: data subject
+  key: SUBSUM
+  text:
+  - 'Privacy
+
+
+    I. Definitions:
+
+
+    "Personal Data", "Special Categories of Personal Data", "Processing", "Controller",
+    "Data Subject", "Processor", "GDPR", "Supervisory Authority", and "EEA" are as
+    defined in the original template.'
+- source: special category of personal datum
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'Privacy
+
+
+    I. Definitions:
+
+
+    "Personal Data", "Special Categories of Personal Data", "Processing", "Controller",
+    "Data Subject", "Processor", "GDPR", "Supervisory Authority", and "EEA" are as
+    defined in the original template.'
+- source: special category of personal datum
+  target: supervisory authority
+  key: SUBSUM
+  text:
+  - 'Privacy
+
+
+    I. Definitions:
+
+
+    "Personal Data", "Special Categories of Personal Data", "Processing", "Controller",
+    "Data Subject", "Processor", "GDPR", "Supervisory Authority", and "EEA" are as
+    defined in the original template.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: cosmoslevel.com
+- type: ACTOR
+  id: service provider who perform service on behalf
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: appointment detail
+- type: DATA
+  id: billing information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: data subject
+- type: DATA
+  id: generate content
+- type: DATA
+  id: minimum notice requirement
+- type: DATA
+  id: personal identification information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: professional credential
+- type: DATA
+  id: qualification
+- type: DATA
+  id: scheduling information
+- type: DATA
+  id: smart scheduling option
+- type: DATA
+  id: special category of personal datum
+- type: DATA
+  id: supervisory authority
+- type: DATA
+  id: technical datum
+- type: DATA
+  id: time slot increment
+- type: DATA
+  id: zoom user token

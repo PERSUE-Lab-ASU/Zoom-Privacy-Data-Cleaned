@@ -1,0 +1,298 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will retain and use your information as necessary to comply with our legal
+    obligations, resolve disputes, and enforce our agreements.
+  - We will retain your information for as long as your account is active or as needed
+    to provide you services.
+  purposes:
+    legal:
+    - to comply with our legal obligations, resolve disputes, and enforce our agreements
+- source: we
+  target: billing information
+  key: COLLECT
+  text:
+  - We only collect information like your name, email address, mailing address, phone
+    number, and billing information so we can provide the services described on our
+    website.
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - As is true of most websites, we gather certain information automatically and store
+    it in log files.
+  - This information includes internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and clickstream data.
+  purposes: {}
+- source: we
+  target: clickstream datum
+  key: COLLECT
+  text:
+  - As is true of most websites, we gather certain information automatically and store
+    it in log files.
+  - This information includes internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and clickstream data.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies for our shopping cart, to remember your settings (e.g., language
+    preference), and for authentication.
+  purposes:
+    services:
+    - for our shopping cart, to remember your settings (e.g., language preference),
+      and for authentication
+- source: we
+  target: date time stamp
+  key: COLLECT
+  text:
+  - As is true of most websites, we gather certain information automatically and store
+    it in log files.
+  - This information includes internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and clickstream data.
+  purposes: {}
+- source: we
+  target: demographic information about user base as whole
+  key: COLLECT
+  text:
+  - We and our partners, affiliates, or analytics or services providers use technologies,
+    such as cookies, beacons, tags, and scripts, to analyze trends, administer our
+    website, tracking users' movements around the website, and to gather demographic
+    information about our user base as a whole.
+  purposes: {}
+- source: we
+  target: demographic information about visitor as whole
+  key: COLLECT
+  text:
+  - We use this information, which does not identify individual visitors, to analyze
+    trends, administer our website, track visitors' movements around our website,
+    and gather demographic information about our visitors as a whole.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - To subscribe you to our newsletters, we will only use your email address to send
+    the newsletter to you.
+  - We only collect information like your name, email address, mailing address, phone
+    number, and billing information so we can provide the services described on our
+    website.
+  purposes:
+    advertising:
+    - to send the newsletter to you
+    services:
+    - To subscribe you to our newsletters
+    - to send the newsletter to you
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - As is true of most websites, we gather certain information automatically and store
+    it in log files.
+  - This information includes internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and clickstream data.
+  purposes: {}
+- source: we
+  target: log file
+  key: COLLECT
+  text:
+  - '(1) Website Privacy Statement
+
+
+    What About Log Files?'
+  - We use this information, which does not identify individual visitors, to analyze
+    trends, administer our website, track visitors' movements around our website,
+    and gather demographic information about our visitors as a whole.
+  purposes:
+    analytics:
+    - to analyze trends, administer our website, track visitors' movements around
+      our website, and gather demographic information about our visitors as a whole
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We only collect information like your name, email address, mailing address, phone
+    number, and billing information so we can provide the services described on our
+    website.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - When you sign up for our services, we will share your personal information only
+    as necessary for the third party to provide that service.
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - We only collect information like your name, email address, mailing address, phone
+    number, and billing information so we can provide the services described on our
+    website.
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - We only collect information like your name, email address, mailing address, phone
+    number, and billing information so we can provide the services described on our
+    website.
+  purposes: {}
+- source: we
+  target: report
+  key: COLLECT
+  text:
+  - We may receive reports based on the use of these technologies by these companies
+    on an individual as well as aggregated basis.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: demographic information about user base as whole
+  key: COLLECT
+  text:
+  - We and our partners, affiliates, or analytics or services providers use technologies,
+    such as cookies, beacons, tags, and scripts, to analyze trends, administer our
+    website, tracking users' movements around the website, and to gather demographic
+    information about our user base as a whole.
+  purposes: {}
+- source: analytic provider
+  target: demographic information about user base as whole
+  key: COLLECT
+  text:
+  - We and our partners, affiliates, or analytics or services providers use technologies,
+    such as cookies, beacons, tags, and scripts, to analyze trends, administer our
+    website, tracking users' movements around the website, and to gather demographic
+    information about our user base as a whole.
+  purposes: {}
+- source: social media
+  target: ip address
+  key: COLLECT
+  text:
+  - Our website includes social media features, such as the Facebook "Like" button.
+  - These features may collect your IP address and the page you are visiting on our
+    website.
+  purposes: {}
+- source: we
+  target: accucampus
+  key: SUBSUM
+  text:
+  - 'Products
+
+
+    AccuCampus'
+- source: we
+  target: accuclass
+  key: SUBSUM
+  text:
+  - 'Products
+
+
+    AccuClass'
+- source: we
+  target: accuclub
+  key: SUBSUM
+  text:
+  - 'Products
+
+
+    AccuClub'
+- source: we
+  target: accudemia
+  key: SUBSUM
+  text:
+  - 'Products
+
+
+    Accudemia'
+- source: we
+  target: accutraining
+  key: SUBSUM
+  text:
+  - 'Products
+
+
+    AccuTraining'
+- source: we
+  target: conference lead
+  key: SUBSUM
+  text:
+  - Conference Leads
+  - Products
+- source: we
+  target: engineerica
+  key: SUBSUM
+  text:
+  - At Engineerica Systems, Inc. ("Engineerica", "We", "Us" or "Our"), we respect
+    your privacy and take protecting it seriously.
+- source: social media
+  target: Facebook
+  key: SUBSUM
+  text:
+  - Our website includes social media features, such as the Facebook "Like" button.
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: accucampus
+- type: ACTOR
+  id: accuclass
+- type: ACTOR
+  id: accuclub
+- type: ACTOR
+  id: accudemia
+- type: ACTOR
+  id: accutraining
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: conference lead
+- type: ACTOR
+  id: engineerica
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: billing information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date time stamp
+- type: DATA
+  id: demographic information about user base as whole
+- type: DATA
+  id: demographic information about visitor as whole
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log file
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: report

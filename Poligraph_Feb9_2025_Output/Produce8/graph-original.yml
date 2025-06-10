@@ -1,0 +1,641 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, if necessary, we may retain your information for compliance with legal,
+    accounting, or reporting obligations, for archiving purposes in the public interest
+    or for scientific or historical research purposes or statistical purposes.
+  - 'We may collect, hold, use, and disclose information for the following purposes,
+    and PII will not be further processed in a manner that is incompatible with these
+    purposes:'
+  - 'We only collect and use your information on the following grounds:'
+  - Where possible, we will provide this information in CSV (comma-separated value)
+    format or other easily readable machine format.
+  purposes:
+    analytics:
+    - for compliance with legal, accounting, or reporting obligations, for archiving
+      purposes in the public interest or for scientific or historical research purposes
+      or statistical purposes
+    legal:
+    - for compliance with legal, accounting, or reporting obligations, for archiving
+      purposes in the public interest or for scientific or historical research purposes
+      or statistical purposes
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use "cookies" to collect information about you and your activity across our
+    site.
+  purposes: {}
+- source: we
+  target: datum about device
+  key: COLLECT
+  text:
+  - 'When you visit the Site or access and use the Services, we may automatically
+    collect data about your device, such as:'
+  purposes: {}
+- source: we
+  target: datum about error
+  key: COLLECT
+  text:
+  - Additionally, if you encounter certain errors while using the Site, we may automatically
+    collect data about the error and the circumstances surrounding its occurrence.
+  purposes: {}
+- source: we
+  target: full detail of allege breach
+  key: COLLECT
+  text:
+  - If you believe that we have breached a relevant data protection law and wish to
+    make a complaint, please contact us at the email address at the bottom of this
+    Privacy Policy and provide us with full details of the alleged breach.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We use "cookies" to collect information about you and your activity across our
+    site.
+  purposes: {}
+- source: we
+  target: permission
+  key: COLLECT
+  text:
+  - If required by law, we will get your permission or give you the opportunity to
+    opt in to or opt out of, as applicable, any new uses of your PII.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - For example, if you have provided us with PII as part of creating an account with
+    us, we may retain this information for the duration your account exists on our
+    system.
+  - If our company or our company's business and assets (collectively, the "Company")
+    are acquired, or in the unlikely event that we go out of business or enter bankruptcy,
+    we would include data, including your PII, among the assets transferred to any
+    parties who acquire the Company.
+  - 'In the past 12 months, we have collected the following categories of PII enumerated
+    in the California Consumer Privacy Act:'
+  - In which case, we will collect and use your PII lawfully, fairly, and in a transparent
+    manner.
+  - 'Privacy Policy
+
+
+    How Long We Keep Your PII'
+  - We keep your PII only for as long as we need to.
+  - 'We may collect PII from you when you do any of the following on our website:'
+  - 'We may collect, hold, use, and disclose information for the following purposes,
+    and PII will not be further processed in a manner that is incompatible with these
+    purposes:'
+  - 'We may disclose PII to: third-party service providers, including agents or sub-contractors,
+    who assist us in providing information, products, services, or direct marketing
+    to you,'
+  - We only collect and use your PII when we have a legitimate reason for doing so,
+    and we only collect PII that is reasonably necessary to provide the Services to
+    you.
+  - We will only collect and use your PII when we have a legal right to do so.
+  - 'Your choice: By providing PII to us, you understand we will collect, hold, use,
+    and disclose your PII in accordance with this Privacy Policy.'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+    - to access the Services
+    - to contact and communicate with you
+    - to enable you to access and use the Site and the Services
+    - to provide you with the Service's core features and services
+    - to receive updates from us via email or social media channels
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, if you purchase a product, service, or subscription from us, we may
+    need to use your personal and payment information to process and deliver your
+    order.
+  purposes:
+    services:
+    - to process and deliver your order
+- source: we
+  target: specific information
+  key: COLLECT
+  text:
+  - We may need to request specific information from you to help us confirm your identity.
+  purposes:
+    security:
+    - to help us confirm your identity
+- source: we
+  target: standard datum provide
+  key: COLLECT
+  text:
+  - When you visit the Site, our servers may automatically log the standard data provided
+    by your web browser, which may include your device's Internet Protocol (IP) address,
+    your browser type and version, the pages you visit, the time and date of your
+    visit, the time spent on each page, and other details about your visit.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers to collect and process
+    data,'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: a parent, subsidiary, or affiliate of P8,'
+  - 'We may disclose PII to: and an entity that purchases our company or to which
+    we transfer all or substantially of the company''s assets and business.'
+  - 'We may disclose PII to: third-party service providers to collect and process
+    data,'
+  - 'We may disclose PII to: third-party service providers, including agents or sub-contractors,
+    who assist us in providing information, products, services, or direct marketing
+    to you,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: analytic provider
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers for the purpose of enabling
+    them to provide their services, including (without limitation) IT service providers,
+    data storage, hosting and server providers, analytics, error loggers, debt collectors,
+    maintenance or problem-solving providers, marketing providers, professional advisors,
+    and payment systems operators,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: business partner
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: our existing or potential agents or business partners,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: contractor
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: our employees, contractors, and related entities,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: court
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: courts, tribunals, regulatory authorities, and law enforcement
+    officers, as required by law, in connection with any actual or prospective legal
+    proceedings, or to establish, exercise, or defend our legal rights,'
+  - 'We may disclose PII to: credit reporting agencies and courts, tribunals, and
+    regulatory authorities, in the event you fail to pay for the Services you have
+    accessed and used,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: credit reporting agency
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: credit reporting agencies and courts, tribunals, and
+    regulatory authorities, in the event you fail to pay for the Services you have
+    accessed and used,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: data storage
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers for the purpose of enabling
+    them to provide their services, including (without limitation) IT service providers,
+    data storage, hosting and server providers, analytics, error loggers, debt collectors,
+    maintenance or problem-solving providers, marketing providers, professional advisors,
+    and payment systems operators,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: debt collector
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers for the purpose of enabling
+    them to provide their services, including (without limitation) IT service providers,
+    data storage, hosting and server providers, analytics, error loggers, debt collectors,
+    maintenance or problem-solving providers, marketing providers, professional advisors,
+    and payment systems operators,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: employee
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: our employees, contractors, and related entities,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: error logger
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers for the purpose of enabling
+    them to provide their services, including (without limitation) IT service providers,
+    data storage, hosting and server providers, analytics, error loggers, debt collectors,
+    maintenance or problem-solving providers, marketing providers, professional advisors,
+    and payment systems operators,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: exist agent
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: our existing or potential agents or business partners,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: hosting provider
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers for the purpose of enabling
+    them to provide their services, including (without limitation) IT service providers,
+    data storage, hosting and server providers, analytics, error loggers, debt collectors,
+    maintenance or problem-solving providers, marketing providers, professional advisors,
+    and payment systems operators,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: it service provider
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers for the purpose of enabling
+    them to provide their services, including (without limitation) IT service providers,
+    data storage, hosting and server providers, analytics, error loggers, debt collectors,
+    maintenance or problem-solving providers, marketing providers, professional advisors,
+    and payment systems operators,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: law enforcement officer
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: courts, tribunals, regulatory authorities, and law enforcement
+    officers, as required by law, in connection with any actual or prospective legal
+    proceedings, or to establish, exercise, or defend our legal rights,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: maintenance provider
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers for the purpose of enabling
+    them to provide their services, including (without limitation) IT service providers,
+    data storage, hosting and server providers, analytics, error loggers, debt collectors,
+    maintenance or problem-solving providers, marketing providers, professional advisors,
+    and payment systems operators,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: marketing provider
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers for the purpose of enabling
+    them to provide their services, including (without limitation) IT service providers,
+    data storage, hosting and server providers, analytics, error loggers, debt collectors,
+    maintenance or problem-solving providers, marketing providers, professional advisors,
+    and payment systems operators,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: payment system operator
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers for the purpose of enabling
+    them to provide their services, including (without limitation) IT service providers,
+    data storage, hosting and server providers, analytics, error loggers, debt collectors,
+    maintenance or problem-solving providers, marketing providers, professional advisors,
+    and payment systems operators,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: professional advisor
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers for the purpose of enabling
+    them to provide their services, including (without limitation) IT service providers,
+    data storage, hosting and server providers, analytics, error loggers, debt collectors,
+    maintenance or problem-solving providers, marketing providers, professional advisors,
+    and payment systems operators,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: regulatory authority
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: courts, tribunals, regulatory authorities, and law enforcement
+    officers, as required by law, in connection with any actual or prospective legal
+    proceedings, or to establish, exercise, or defend our legal rights,'
+  - 'We may disclose PII to: credit reporting agencies and courts, tribunals, and
+    regulatory authorities, in the event you fail to pay for the Services you have
+    accessed and used,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: related entity
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: our employees, contractors, and related entities,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: sub
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: third-party service providers, including agents or sub-contractors,
+    who assist us in providing information, products, services, or direct marketing
+    to you,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: tribunal
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We may disclose PII to: credit reporting agencies and courts, tribunals, and
+    regulatory authorities, in the event you fail to pay for the Services you have
+    accessed and used,'
+  purposes:
+    services:
+    - for the purpose of enabling them to provide their services
+- source: we
+  target: asset
+  key: SUBSUM
+  text:
+  - If our company or our company's business and assets (collectively, the "Company")
+    are acquired, or in the unlikely event that we go out of business or enter bankruptcy,
+    we would include data, including your PII, among the assets transferred to any
+    parties who acquire the Company.
+- source: we
+  target: produce8 inc.
+  key: SUBSUM
+  text:
+  - We, Produce8 Inc., located at the address provided in our Contact Us section,
+    are a Data Controller with respect to the PII you provide to us.
+- source: customer record
+  target: credit card datum
+  key: SUBSUM
+  text:
+  - 'In the past 12 months, we have collected the following categories of PII enumerated
+    in the California Consumer Privacy Act: customer records, such as billing and
+    shipping address, and credit or debit card data,'
+- source: customer record
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'In the past 12 months, we have collected the following categories of PII enumerated
+    in the California Consumer Privacy Act: customer records, such as billing and
+    shipping address, and credit or debit card data,'
+- source: datum about device
+  target: device type
+  key: SUBSUM
+  text:
+  - 'When you visit the Site or access and use the Services, we may automatically
+    collect data about your device, such as: device type'
+- source: datum about device
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'When you visit the Site or access and use the Services, we may automatically
+    collect data about your device, such as: geolocation data'
+- source: datum about device
+  target: operate system
+  key: SUBSUM
+  text:
+  - 'When you visit the Site or access and use the Services, we may automatically
+    collect data about your device, such as: operating system'
+- source: datum about error
+  target: technical detail about device
+  key: SUBSUM
+  text:
+  - Additionally, if you encounter certain errors while using the Site, we may automatically
+    collect data about the error and the circumstances surrounding its occurrence.
+  - This data may include technical details about your device, what you were trying
+    to do when the error happened, and other technical information relating to the
+    problem.
+- source: datum about error
+  target: technical information relate to problem
+  key: SUBSUM
+  text:
+  - Additionally, if you encounter certain errors while using the Site, we may automatically
+    collect data about the error and the circumstances surrounding its occurrence.
+  - This data may include technical details about your device, what you were trying
+    to do when the error happened, and other technical information relating to the
+    problem.
+- source: personal identifier
+  target: customer record
+  key: SUBSUM
+  text:
+  - 'In the past 12 months, we have collected the following categories of PII enumerated
+    in the California Consumer Privacy Act: customer records, such as billing and
+    shipping address, and credit or debit card data,'
+- source: personal identifier
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'In the past 12 months, we have collected the following categories of PII enumerated
+    in the California Consumer Privacy Act: geolocation data.'
+- source: personal identifier
+  target: profile information
+  key: SUBSUM
+  text:
+  - Please be aware that search engines and similar third parties may still retain
+    copies of your PII that has been made public at least once, like certain profile
+    information and public comments, even after you have deleted the information from
+    our services or deactivated your account.
+- source: personal identifier
+  target: public comment
+  key: SUBSUM
+  text:
+  - Please be aware that search engines and similar third parties may still retain
+    copies of your PII that has been made public at least once, like certain profile
+    information and public comments, even after you have deleted the information from
+    our services or deactivated your account.
+- source: standard datum provide
+  target: browser type
+  key: SUBSUM
+  text:
+  - When you visit the Site, our servers may automatically log the standard data provided
+    by your web browser, which may include your device's Internet Protocol (IP) address,
+    your browser type and version, the pages you visit, the time and date of your
+    visit, the time spent on each page, and other details about your visit.
+- source: standard datum provide
+  target: date
+  key: SUBSUM
+  text:
+  - When you visit the Site, our servers may automatically log the standard data provided
+    by your web browser, which may include your device's Internet Protocol (IP) address,
+    your browser type and version, the pages you visit, the time and date of your
+    visit, the time spent on each page, and other details about your visit.
+- source: standard datum provide
+  target: detail about visit
+  key: SUBSUM
+  text:
+  - When you visit the Site, our servers may automatically log the standard data provided
+    by your web browser, which may include your device's Internet Protocol (IP) address,
+    your browser type and version, the pages you visit, the time and date of your
+    visit, the time spent on each page, and other details about your visit.
+- source: standard datum provide
+  target: ip address
+  key: SUBSUM
+  text:
+  - When you visit the Site, our servers may automatically log the standard data provided
+    by your web browser, which may include your device's Internet Protocol (IP) address,
+    your browser type and version, the pages you visit, the time and date of your
+    visit, the time spent on each page, and other details about your visit.
+- source: standard datum provide
+  target: time
+  key: SUBSUM
+  text:
+  - When you visit the Site, our servers may automatically log the standard data provided
+    by your web browser, which may include your device's Internet Protocol (IP) address,
+    your browser type and version, the pages you visit, the time and date of your
+    visit, the time spent on each page, and other details about your visit.
+- source: standard datum provide
+  target: time spend on page
+  key: SUBSUM
+  text:
+  - When you visit the Site, our servers may automatically log the standard data provided
+    by your web browser, which may include your device's Internet Protocol (IP) address,
+    your browser type and version, the pages you visit, the time and date of your
+    visit, the time spent on each page, and other details about your visit.
+- source: standard datum provide
+  target: version
+  key: SUBSUM
+  text:
+  - When you visit the Site, our servers may automatically log the standard data provided
+    by your web browser, which may include your device's Internet Protocol (IP) address,
+    your browser type and version, the pages you visit, the time and date of your
+    visit, the time spent on each page, and other details about your visit.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: asset
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: court
+- type: ACTOR
+  id: credit reporting agency
+- type: ACTOR
+  id: data storage
+- type: ACTOR
+  id: debt collector
+- type: ACTOR
+  id: employee
+- type: ACTOR
+  id: error logger
+- type: ACTOR
+  id: exist agent
+- type: ACTOR
+  id: hosting provider
+- type: ACTOR
+  id: it service provider
+- type: ACTOR
+  id: law enforcement officer
+- type: ACTOR
+  id: maintenance provider
+- type: ACTOR
+  id: marketing provider
+- type: ACTOR
+  id: payment system operator
+- type: ACTOR
+  id: produce8 inc.
+- type: ACTOR
+  id: professional advisor
+- type: ACTOR
+  id: regulatory authority
+- type: ACTOR
+  id: related entity
+- type: ACTOR
+  id: sub
+- type: ACTOR
+  id: tribunal
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit card datum
+- type: DATA
+  id: customer record
+- type: DATA
+  id: date
+- type: DATA
+  id: datum about device
+- type: DATA
+  id: datum about error
+- type: DATA
+  id: detail about visit
+- type: DATA
+  id: device type
+- type: DATA
+  id: full detail of allege breach
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about you
+- type: DATA
+  id: ip address
+- type: DATA
+  id: operate system
+- type: DATA
+  id: permission
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: profile information
+- type: DATA
+  id: public comment
+- type: DATA
+  id: specific information
+- type: DATA
+  id: standard datum provide
+- type: DATA
+  id: technical detail about device
+- type: DATA
+  id: technical information relate to problem
+- type: DATA
+  id: time
+- type: DATA
+  id: time spend on page
+- type: DATA
+  id: version

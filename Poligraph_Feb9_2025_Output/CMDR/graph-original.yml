@@ -1,0 +1,228 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    2. How We Use your Data'
+  - 'We use this data to: Authenticate users and provide access to CMDR. Monitor usage
+    patterns and improve our services Comply with legal obligations.'
+  purposes:
+    security:
+    - 'to: Authenticate users and provide access to CMDR.'
+    services:
+    - 'to: Authenticate users and provide access to CMDR.'
+- source: we
+  target: access time
+  key: COLLECT
+  text:
+  - Log Data may include information such as your computer's Internet Protocol (IP)
+    address, browser type, machine model, activity you engage in on our pages, the
+    referring URL, and access times and dates.
+  - We use this information to monitor, analyze, use of, and administer CMDR, and
+    to better tailor CMDR to your needs.
+  purposes:
+    analytics:
+    - to monitor, analyze, use of, and administer CMDR, and to better tailor CMDR
+      to your needs
+- source: we
+  target: access token expiry
+  key: COLLECT
+  text:
+  - We store and maintain OAuth access tokens, refresh tokens, access token expiry,
+    client user IDs, and reports generated using CMDR encrypted in our database.
+  purposes: {}
+- source: we
+  target: activity you engage in on page
+  key: COLLECT
+  text:
+  - Log Data may include information such as your computer's Internet Protocol (IP)
+    address, browser type, machine model, activity you engage in on our pages, the
+    referring URL, and access times and dates.
+  - We use this information to monitor, analyze, use of, and administer CMDR, and
+    to better tailor CMDR to your needs.
+  purposes:
+    analytics:
+    - to monitor, analyze, use of, and administer CMDR, and to better tailor CMDR
+      to your needs
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - Log Data may include information such as your computer's Internet Protocol (IP)
+    address, browser type, machine model, activity you engage in on our pages, the
+    referring URL, and access times and dates.
+  - We use this information to monitor, analyze, use of, and administer CMDR, and
+    to better tailor CMDR to your needs.
+  purposes:
+    analytics:
+    - to monitor, analyze, use of, and administer CMDR, and to better tailor CMDR
+      to your needs
+- source: we
+  target: date
+  key: COLLECT
+  text:
+  - Log Data may include information such as your computer's Internet Protocol (IP)
+    address, browser type, machine model, activity you engage in on our pages, the
+    referring URL, and access times and dates.
+  - We use this information to monitor, analyze, use of, and administer CMDR, and
+    to better tailor CMDR to your needs.
+  purposes:
+    analytics:
+    - to monitor, analyze, use of, and administer CMDR, and to better tailor CMDR
+      to your needs
+- source: we
+  target: information send from browser
+  key: COLLECT
+  text:
+  - When you use CMDR, our servers automatically record information sent from your
+    browser.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - Log Data may include information such as your computer's Internet Protocol (IP)
+    address, browser type, machine model, activity you engage in on our pages, the
+    referring URL, and access times and dates.
+  - We use this information to monitor, analyze, use of, and administer CMDR, and
+    to better tailor CMDR to your needs.
+  purposes:
+    analytics:
+    - to monitor, analyze, use of, and administer CMDR, and to better tailor CMDR
+      to your needs
+- source: we
+  target: machine model
+  key: COLLECT
+  text:
+  - Log Data may include information such as your computer's Internet Protocol (IP)
+    address, browser type, machine model, activity you engage in on our pages, the
+    referring URL, and access times and dates.
+  - We use this information to monitor, analyze, use of, and administer CMDR, and
+    to better tailor CMDR to your needs.
+  purposes:
+    analytics:
+    - to monitor, analyze, use of, and administer CMDR, and to better tailor CMDR
+      to your needs
+- source: we
+  target: oauth access token
+  key: COLLECT
+  text:
+  - We store and maintain OAuth access tokens, refresh tokens, access token expiry,
+    client user IDs, and reports generated using CMDR encrypted in our database.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We store and maintain OAuth access tokens, refresh tokens, access token expiry,
+    client user IDs, and reports generated using CMDR encrypted in our database.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal data with third-party subprocessors to provide and
+    improve our services.
+  purposes:
+    services:
+    - to provide and improve our services
+- source: we
+  target: refer url
+  key: COLLECT
+  text:
+  - Log Data may include information such as your computer's Internet Protocol (IP)
+    address, browser type, machine model, activity you engage in on our pages, the
+    referring URL, and access times and dates.
+  - We use this information to monitor, analyze, use of, and administer CMDR, and
+    to better tailor CMDR to your needs.
+  purposes:
+    analytics:
+    - to monitor, analyze, use of, and administer CMDR, and to better tailor CMDR
+      to your needs
+- source: we
+  target: refresh token
+  key: COLLECT
+  text:
+  - We store and maintain OAuth access tokens, refresh tokens, access token expiry,
+    client user IDs, and reports generated using CMDR encrypted in our database.
+  purposes: {}
+- source: we
+  target: report generate
+  key: COLLECT
+  text:
+  - We store and maintain OAuth access tokens, refresh tokens, access token expiry,
+    client user IDs, and reports generated using CMDR encrypted in our database.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These subprocessors may process data on our behalf in accordance with our instructions
+    and applicable laws.
+  - We may share your personal data with third-party subprocessors to provide and
+    improve our services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal data with third-party subprocessors to provide and
+    improve our services.
+  purposes:
+    services:
+    - to provide and improve our services
+- source: we
+  target: cmdr
+  key: SUBSUM
+  text:
+  - The CMDR platform is operated by CMDR Inc. ("CMDR," "we," "us").
+- source: we
+  target: cmdr inc.
+  key: SUBSUM
+  text:
+  - The CMDR platform is operated by CMDR Inc. ("CMDR," "we," "us").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: cmdr
+- type: ACTOR
+  id: cmdr inc.
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: access token expiry
+- type: DATA
+  id: activity you engage in on page
+- type: DATA
+  id: browser type
+- type: DATA
+  id: date
+- type: DATA
+  id: information send from browser
+- type: DATA
+  id: ip address
+- type: DATA
+  id: machine model
+- type: DATA
+  id: oauth access token
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: refer url
+- type: DATA
+  id: refresh token
+- type: DATA
+  id: report generate

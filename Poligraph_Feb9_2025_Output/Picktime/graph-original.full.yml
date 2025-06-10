@@ -1,0 +1,123 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Personal Data collected for the following purposes and using the following services:
+
+
+    Transfer of personal information outside of Brazil based on your consent
+
+
+    We can transfer your personal information outside of the Brazilian territory if
+    you consent to such transfer.'
+  - These legal instruments allow us to transfer your personal information provided
+    that we abide by their rules.
+  - We can transfer your personal information outside of the Brazilian territory provided
+    that we are able to ensure that any further processing of your personal information
+    will be in compliance with the principles and the rules established by the LGPD,
+    and your rights are safeguarded.
+  - We can transfer your personal information outside of the Brazilian territory,
+    if the destination country, or the international organization which receives the
+    personal information, provides an adequate level of protection of the personal
+    information according to the ANPD.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information gather on website
+  key: COLLECT
+  text:
+  - If we (or our assets) are acquired by another company, whether by merger, acquisition,
+    bankruptcy or otherwise, that company would receive all information gathered by
+    Picktime on the Websites and the Subscription Service.
+  purposes: {}
+- source: owner of www.picktime.com
+  target: personal datum relate to user
+  key: COLLECT
+  text:
+  - The Owner of www.picktime.com may have legitimately collected Personal Data relating
+    to Users without their knowledge by reusing or sourcing them from third parties
+    on the grounds mentioned in the section specifying the legal basis of processing.
+  purposes: {}
+- source: device setting
+  target: notification setting for mobile phone
+  key: SUBSUM
+  text:
+  - Users may in most cases opt-out of receiving push notifications by visiting their
+    device settings, such as the notification settings for mobile phones, and then
+    change those settings for www.picktime.com, some or all of the apps on the particular
+    device.
+- source: identifier
+  target: call universally unique identifier
+  key: SUBSUM
+  text:
+  - This identifier is generated upon installation of this Application, it persists
+    between Application launches and updates, but it is lost when the User deletes
+    the Application.
+  - 'User identification via a universally unique identifier (UUID)
+
+
+    www.picktime.com may track Users by storing a so-called universally unique identifier
+    (or short UUID) for analytics purposes or for storing Users'' preferences.'
+- source: personal data collect
+  target: bank account use for transfer
+  key: SUBSUM
+  text:
+  - The Personal Data collected to complete the payment may include the credit card,
+    the bank account used for the transfer, or any other means of payment envisaged.
+- source: personal data collect
+  target: credit card
+  key: SUBSUM
+  text:
+  - The Personal Data collected to complete the payment may include the credit card,
+    the bank account used for the transfer, or any other means of payment envisaged.
+- source: user preference
+  target: region
+  key: SUBSUM
+  text:
+  - Preference Cookies store the User preferences detected on www.picktime.com in
+    the local domain such as, for example, their timezone and region.
+- source: user preference
+  target: timezone
+  key: SUBSUM
+  text:
+  - Preference Cookies store the User preferences detected on www.picktime.com in
+    the local domain such as, for example, their timezone and region.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: owner of www.picktime.com
+- type: ACTOR
+  id: we
+- type: DATA
+  id: bank account use for transfer
+- type: DATA
+  id: call universally unique identifier
+- type: DATA
+  id: credit card
+- type: DATA
+  id: device setting
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information gather on website
+- type: DATA
+  id: notification setting for mobile phone
+- type: DATA
+  id: personal data collect
+- type: DATA
+  id: personal datum relate to user
+- type: DATA
+  id: personal information
+- type: DATA
+  id: region
+- type: DATA
+  id: timezone
+- type: DATA
+  id: user preference

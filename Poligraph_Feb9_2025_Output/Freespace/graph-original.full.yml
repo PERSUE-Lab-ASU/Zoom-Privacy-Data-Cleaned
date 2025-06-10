@@ -1,0 +1,210 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These cookies are used to collect information about how you interact with our
+    website and allow us to remember you.
+  - We use this information in order to improve and customize your browsing experience
+    and for analytics and metrics about our visitors both on this website and other
+    media.
+  purposes:
+    analytics:
+    - in order to improve and customize your browsing experience and for analytics
+      and metrics about our visitors both on this website and other media
+    services:
+    - in order to improve and customize your browsing experience and for analytics
+      and metrics about our visitors both on this website and other media
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Website or Services, we may ask you to provide us with certain
+    personally identifiable information that can be used to contact or identify you
+    ("Personal Information").
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our Website or Services may use cookies and similar technologies to enhance the
+    user experience.
+  - This website uses cookies
+  purposes:
+    services:
+    - to enhance the user experience
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - Like many website and service operators, we collect information that your browser
+    or applications sends whenever you visit our Website or Services.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Website or Services, we may ask you to provide us with certain
+    personally identifiable information that can be used to contact or identify you
+    ("Personal Information").
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If you exercise this right, we will no longer process your Personal Information
+    unless we can demonstrate compelling legitimate grounds for the processing that
+    override your interests, rights, and freedoms or for the establishment, exercise,
+    or defence of legal claims.
+  - We collect Personal Data from you when you submit web forms or interact with our
+    website, for example by subscribing to the Freespace Index, subscribing to one
+    of our services or requesting customer support.
+  purposes: {}
+- source: we
+  target: personal information collect from you
+  key: COLLECT
+  text:
+  - 'We may use the Personal Information collected from you for various purposes,
+    including but not limited to:'
+  purposes: {}
+- source: we
+  target: relevant information
+  key: COLLECT
+  text:
+  - If you would like assistance in identifying the appropriate supervisory authority,
+    please contact us, and we will provide you with the relevant information.
+  purposes: {}
+- source: HubSpot
+  target: personal information
+  key: COLLECT
+  text:
+  - HubSpot may collect and process Personal Information on our behalf, as outlined
+    in their privacy policy.
+  purposes: {}
+- source: freshdesk
+  target: information you provide
+  key: COLLECT
+  text:
+  - When you submit a support ticket or contact us through our support channels, the
+    information you provide may be collected and processed by Freshdesk on our behalf.
+  purposes: {}
+- source: information you provide
+  target: detail you provide
+  key: SUBSUM
+  text:
+  - This information may include your name, email address, phone number, and any additional
+    details you provide.
+  - When you submit a support ticket or contact us through our support channels, the
+    information you provide may be collected and processed by Freshdesk on our behalf.
+- source: information you provide
+  target: email address
+  key: SUBSUM
+  text:
+  - This information may include your name, email address, phone number, and any additional
+    details you provide.
+  - When you submit a support ticket or contact us through our support channels, the
+    information you provide may be collected and processed by Freshdesk on our behalf.
+- source: information you provide
+  target: person name
+  key: SUBSUM
+  text:
+  - This information may include your name, email address, phone number, and any additional
+    details you provide.
+  - When you submit a support ticket or contact us through our support channels, the
+    information you provide may be collected and processed by Freshdesk on our behalf.
+- source: information you provide
+  target: phone number
+  key: SUBSUM
+  text:
+  - This information may include your name, email address, phone number, and any additional
+    details you provide.
+  - When you submit a support ticket or contact us through our support channels, the
+    information you provide may be collected and processed by Freshdesk on our behalf.
+- source: log data
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    (IP) address, browser type, browser version, the pages of our Website that you
+    visit, the time and date of your visit, the time spent on those pages, and other
+    statistics.
+- source: log data
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    (IP) address, browser type, browser version, the pages of our Website that you
+    visit, the time and date of your visit, the time spent on those pages, and other
+    statistics.
+- source: log data
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    (IP) address, browser type, browser version, the pages of our Website that you
+    visit, the time and date of your visit, the time spent on those pages, and other
+    statistics.
+- source: log data
+  target: statistic
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    (IP) address, browser type, browser version, the pages of our Website that you
+    visit, the time and date of your visit, the time spent on those pages, and other
+    statistics.
+- source: log data
+  target: time
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    (IP) address, browser type, browser version, the pages of our Website that you
+    visit, the time and date of your visit, the time spent on those pages, and other
+    statistics.
+nodes:
+- type: ACTOR
+  id: HubSpot
+- type: ACTOR
+  id: freshdesk
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: detail you provide
+- type: DATA
+  id: email address
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log data
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information collect from you
+- type: DATA
+  id: phone number
+- type: DATA
+  id: relevant information
+- type: DATA
+  id: statistic
+- type: DATA
+  id: time

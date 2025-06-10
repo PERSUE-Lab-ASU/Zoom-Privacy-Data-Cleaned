@@ -1,0 +1,112 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: roomin
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    RoomIn may collect the following personal information from users:'
+  - 'Privacy Policy
+
+
+    RoomIn uses users'' personal information for the following purposes:'
+  purposes: {}
+- source: information about device use
+  target: advertising id
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Device Information: Information about the device used to access the Application,
+    such as device model, operating system version, IP address, and advertising identifiers.'
+- source: information about device use
+  target: device model
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Device Information: Information about the device used to access the Application,
+    such as device model, operating system version, IP address, and advertising identifiers.'
+- source: information about device use
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Device Information: Information about the device used to access the Application,
+    such as device model, operating system version, IP address, and advertising identifiers.'
+- source: information about device use
+  target: operating system version
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Device Information: Information about the device used to access the Application,
+    such as device model, operating system version, IP address, and advertising identifiers.'
+- source: relate communication
+  target: application update
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    To send application-related communications, such as application updates and notifications.'
+- source: relate communication
+  target: notification
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    To send application-related communications, such as application updates and notifications.'
+- source: user profile information
+  target: profile photo
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Profile Information: User profile information, such as username and profile photo.'
+- source: user profile information
+  target: username
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Profile Information: User profile information, such as username and profile photo.'
+nodes:
+- type: ACTOR
+  id: roomin
+- type: DATA
+  id: advertising id
+- type: DATA
+  id: application update
+- type: DATA
+  id: device model
+- type: DATA
+  id: information about device use
+- type: DATA
+  id: ip address
+- type: DATA
+  id: notification
+- type: DATA
+  id: operating system version
+- type: DATA
+  id: personal information
+- type: DATA
+  id: profile photo
+- type: DATA
+  id: relate communication
+- type: DATA
+  id: user profile information
+- type: DATA
+  id: username

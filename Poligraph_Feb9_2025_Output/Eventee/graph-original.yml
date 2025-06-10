@@ -1,0 +1,97 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Besides that, we also receive data about your screen resolution and other similar
+    information.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'TL;DR
+
+
+    We use Cookies to:'
+  - 'TL;DR
+
+
+    We use cookies to ensure you get the best experience possible.'
+  purposes:
+    analytics:
+    - 'to: Better understand who is our customer'
+    - 'to: Understand what websites customers arrived from'
+    services:
+    - to ensure you get the best experience possible
+    - 'to: Provide technical help, like recognizing the language we should show you,
+      etc.'
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'TL;DR Version
+
+
+    We use the chat tool Smartsupp for support, we share your name and email address
+    with it so that in case we miss your message, we know which email to reply to.'
+  - 'TL;DR Version
+
+
+    We use the email tool Helpscout for support, we share your name and email address
+    with it so that we can answer you.'
+  purposes: {}
+- source: we
+  target: information about visit
+  key: COLLECT
+  text:
+  - They allow the website to record information about your visit, such as your selected
+    language.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'TL;DR Version
+
+
+    We use the chat tool Smartsupp for support, we share your name and email address
+    with it so that in case we miss your message, we know which email to reply to.'
+  - 'TL;DR Version
+
+
+    We use the email tool Helpscout for support, we share your name and email address
+    with it so that we can answer you.'
+  purposes: {}
+- source: website in world
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Cookies are used by almost every website in the world.
+  purposes: {}
+- source: information about visit
+  target: select language
+  key: SUBSUM
+  text:
+  - They allow the website to record information about your visit, such as your selected
+    language.
+nodes:
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website in world
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about visit
+- type: DATA
+  id: person name
+- type: DATA
+  id: select language

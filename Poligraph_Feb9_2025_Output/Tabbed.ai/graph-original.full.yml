@@ -1,0 +1,688 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Our Commercial or Business Purposes for Collecting Personal Data
+
+
+    Providing, Customizing and Improving the Services
+
+
+    Meeting or fulfilling the reason you provided the information to us.'
+  - We may further retain information in an anonymous or aggregated form where that
+    information would not identify you personally.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may create aggregated, de-identified or anonymized data from the Personal Data
+    we collect, including by removing information that makes the data personally identifiable
+    to a particular user.
+  - We may use such aggregated, de-identified or anonymized data and share it with
+    third parties for our lawful business purposes, including to analyze, build and
+    improve the Services and promote our business, provided that we will not share
+    such data in a manner that could identify you.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Services use cookies and similar technologies such as pixel tags, web beacons,
+    clear GIFs and JavaScript (collectively, "Cookies") to enable our servers to recognize
+    your web browser, tell us how and when you visit and use our Services, analyze
+    trends, learn about our user base and operate and improve our Services.
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We use the following types of Cookies: Essential Cookies .'
+  - 'We use the following types of Cookies: Functional Cookies .'
+  - 'We use the following types of Cookies: Performance/Analytical Cookies .'
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalised ads or
+    content, and analyse our traffic.'
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalised ads or content, and
+      analyse our traffic
+    analytics:
+    - to enable our servers to recognize your web browser, tell us how and when you
+      visit and use our Services, analyze trends, learn about our user base and operate
+      and improve our Services
+    - to enhance your browsing experience, serve personalised ads or content, and
+      analyse our traffic
+    services:
+    - to enable our servers to recognize your web browser, tell us how and when you
+      visit and use our Services, analyze trends, learn about our user base and operate
+      and improve our Services
+    - to enhance your browsing experience, serve personalised ads or content, and
+      analyse our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We receive information about you from some of our vendors who assist us with marketing
+    or promotional services related to how you interact with our websites, applications,
+    products, Services, advertisements or communications.
+  purposes: {}
+- source: we
+  target: information receive from api
+  key: COLLECT
+  text:
+  - We may use and transfer information received from APIs to any other apps.
+  purposes: {}
+- source: we
+  target: information transmit from compute device
+  key: COLLECT
+  text:
+  - If you download, install, or use certain applications and software we make available,
+    or use our product on a call, we may receive and collect information transmitted
+    from your computing device for the purpose of providing you the relevant Services,
+    such as information regarding when you are logged on and available to receive
+    updates or alert notices.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In some cases we retain Personal Data for longer, if doing so is necessary to
+    comply with our legal obligations, resolve disputes or collect fees owed, or is
+    otherwise permitted or required by applicable law, rule or regulation.
+  - 'We collect Personal Data about you from the following categories of sources:'
+  - We disclose your Personal Data to the categories of service providers and other
+    parties listed in this section.
+  - We may share any Personal Data that we collect with third parties in conjunction
+    with any of the activities set forth under "Meeting Legal Requirements and Enforcing
+    Legal Terms" in the "Our Commercial or Business Purposes for Collecting Personal
+    Data" section above.
+  - We retain Personal Data about you for as long as you have an open account with
+    us or as otherwise necessary to provide you with our Services.
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For example, Google Inc. ("Google") uses cookies in connection with its Google
+    Analytics services.
+  purposes: {}
+- source: HubSpot
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - HubSpot sets this cookie to keep track of the visitors to the website.
+  - This cookie is passed to HubSpot on form submission and used when deduplicating
+    contacts.
+  purposes: {}
+- source: Stripe
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - 'They include: Our payment processing partner Stripe, Inc. ("Stripe") collects
+    your voluntarily- provided payment card information necessary to process your
+    payment.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information receive from api
+  key: COLLECT
+  text:
+  - We may use and transfer information received from APIs to any other apps.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share any Personal Data that we collect with third parties in conjunction
+    with any of the activities set forth under "Meeting Legal Requirements and Enforcing
+    Legal Terms" in the "Our Commercial or Business Purposes for Collecting Personal
+    Data" section above.
+  purposes: {}
+- source: payment processing partner
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - 'They include: Our payment processing partner Stripe, Inc. ("Stripe") collects
+    your voluntarily- provided payment card information necessary to process your
+    payment.'
+  purposes: {}
+- source: website operator
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This cookie is used to record from where the visitor came to the website orginally.
+  - This information is used by the website operator to know the efficiency of their
+    marketing.
+  purposes:
+    advertising:
+    - to know the efficiency of their marketing
+    analytics:
+    - to know the efficiency of their marketing
+- source: we
+  target: internal analytic
+  key: SUBSUM
+  text:
+  - Improving the Services, including testing, research, internal analytics and product
+    development.
+- source: we
+  target: product development
+  key: SUBSUM
+  text:
+  - Improving the Services, including testing, research, internal analytics and product
+    development.
+- source: artificial intelligence platform
+  target: Microsoft
+  key: SUBSUM
+  text:
+  - 'They include: Artificial intelligence platforms, including Microsoft''s Azure
+    OpenAI, are provided call transcripts which may include a user''s email address,
+    phone number, or conference username.'
+- source: call transcript
+  target: conference username
+  key: SUBSUM
+  text:
+  - 'They include: Artificial intelligence platforms, including Microsoft''s Azure
+    OpenAI, are provided call transcripts which may include a user''s email address,
+    phone number, or conference username.'
+- source: call transcript
+  target: email address
+  key: SUBSUM
+  text:
+  - 'They include: Artificial intelligence platforms, including Microsoft''s Azure
+    OpenAI, are provided call transcripts which may include a user''s email address,
+    phone number, or conference username.'
+- source: call transcript
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'They include: Artificial intelligence platforms, including Microsoft''s Azure
+    OpenAI, are provided call transcripts which may include a user''s email address,
+    phone number, or conference username.'
+- source: identifier
+  target: account name
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Unique identifiers such as account name and passwords Unique personal and online
+    identifiers'
+- source: identifier
+  target: password
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Unique identifiers such as account name and passwords Unique personal and online
+    identifiers'
+- source: information transmit from compute device
+  target: information regard
+  key: SUBSUM
+  text:
+  - If you download, install, or use certain applications and software we make available,
+    or use our product on a call, we may receive and collect information transmitted
+    from your computing device for the purpose of providing you the relevant Services,
+    such as information regarding when you are logged on and available to receive
+    updates or alert notices.
+- source: metric
+  target: bounce rate
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: number of visitor
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: traffic source
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: personal information
+  target: consent preference
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Categories of Third Parties With Whom We Share this Personal Data:'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Profile or Contact Data'
+- source: personal information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect'
+  - Payment card type Payment card number (full number) Last 4 digits of payment card
+    Bank account information
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Billing address, phone number, and email
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect'
+- source: personal information
+  target: full number
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect'
+  - Payment card type Payment card number (full number) Last 4 digits of payment card
+    Bank account information
+- source: personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Geolocation Data'
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    IP address-based location information'
+- source: personal information
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Unique identifiers such as account name and passwords Unique personal and online
+    identifiers'
+- source: personal information
+  target: inference draw from personal datum collect
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Inferences Drawn From Other Personal Data Collected'
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Device/IP Data'
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    IP address-based location information'
+- source: personal information
+  target: last digit
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect'
+  - Payment card type Payment card number (full number) Last 4 digits of payment card
+    Bank account information
+- source: personal information
+  target: payment card bank account information
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect'
+  - Payment card type Payment card number (full number) Last 4 digits of payment card
+    Bank account information
+- source: personal information
+  target: payment card type
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect'
+  - Payment card type Payment card number (full number) Last 4 digits of payment card
+    Bank account information
+- source: personal information
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Unique identifiers such as account name and passwords Unique personal and online
+    identifiers'
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Billing address, phone number, and email
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect'
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Billing address, phone number, and email
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect'
+- source: personal information
+  target: professional datum
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Professional or Employment-Related Data'
+- source: personal information
+  target: profile reflect user attribute
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Profiles reflecting user attributes, behavior, preferences or abilities/aptitudes'
+- source: personal information
+  target: recording of environment
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Photos, videos, or recordings of your environment'
+- source: personal information
+  target: service statistic
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect'
+  - Web page interactions Referring webpage/source through which you accessed the
+    Services Statistics associated with the interaction between device or browser
+    and the Services
+- source: personal information
+  target: service statistic associate with interaction between device
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect'
+  - Web page interactions Referring webpage/source through which you accessed the
+    Services Statistics associated with the interaction between device or browser
+    and the Services
+- source: source of personal datum
+  target: consent preference
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Sources of Personal Data'
+- source: source of personal datum
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'Customise Consent Preferences
+
+
+    Personal Data
+
+
+    Categories of Sources of Personal Data'
+- source: technology
+  target: javascript
+  key: SUBSUM
+  text:
+  - The Services use cookies and similar technologies such as pixel tags, web beacons,
+    clear GIFs and JavaScript (collectively, "Cookies") to enable our servers to recognize
+    your web browser, tell us how and when you visit and use our Services, analyze
+    trends, learn about our user base and operate and improve our Services.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: HubSpot
+- type: ACTOR
+  id: Microsoft
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: artificial intelligence platform
+- type: ACTOR
+  id: internal analytic
+- type: ACTOR
+  id: javascript
+- type: ACTOR
+  id: payment processing partner
+- type: ACTOR
+  id: product development
+- type: ACTOR
+  id: technology
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website operator
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account name
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: bounce rate
+- type: DATA
+  id: call transcript
+- type: DATA
+  id: conference username
+- type: DATA
+  id: consent preference
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: email address
+- type: DATA
+  id: full number
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: inference draw from personal datum collect
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information receive from api
+- type: DATA
+  id: information regard
+- type: DATA
+  id: information transmit from compute device
+- type: DATA
+  id: ip address
+- type: DATA
+  id: last digit
+- type: DATA
+  id: metric
+- type: DATA
+  id: number of visitor
+- type: DATA
+  id: password
+- type: DATA
+  id: payment card bank account information
+- type: DATA
+  id: payment card type
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: professional datum
+- type: DATA
+  id: profile reflect user attribute
+- type: DATA
+  id: recording of environment
+- type: DATA
+  id: service statistic
+- type: DATA
+  id: service statistic associate with interaction between device
+- type: DATA
+  id: source of personal datum
+- type: DATA
+  id: traffic source

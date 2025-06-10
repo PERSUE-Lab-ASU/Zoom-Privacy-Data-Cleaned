@@ -1,0 +1,121 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'From time to time, we may share your information with the following third parties
+    and to the extent possible, we encourage you to review their privacy policies
+    and terms of use to see how they treat the information we share with them: Google
+    (Google Privacy Policy) and Zoom (Zoom Privacy Policy) .'
+  - We may share your information with third parties who assist with delivery of our
+    products and services.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We collect the email addresses of those who communicate with us via email, aggregate
+    information on what pages consumers access or visit, and information volunteered
+    by the consumer (such as survey information and/or site registrations).
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We collect the email addresses of those who communicate with us via email, aggregate
+    information on what pages consumers access or visit, and information volunteered
+    by the consumer (such as survey information and/or site registrations).
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may transfer information about you if Classpro is acquired by or merged with
+    another company.
+  purposes: {}
+- source: we
+  target: information volunteer
+  key: COLLECT
+  text:
+  - We collect the email addresses of those who communicate with us via email, aggregate
+    information on what pages consumers access or visit, and information volunteered
+    by the consumer (such as survey information and/or site registrations).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'From time to time, we may share your information with the following third parties
+    and to the extent possible, we encourage you to review their privacy policies
+    and terms of use to see how they treat the information we share with them: Google
+    (Google Privacy Policy) and Zoom (Zoom Privacy Policy) .'
+  - We may share your information with third parties who assist with delivery of our
+    products and services.
+  purposes: {}
+- source: classpro
+  target: collect information
+  key: COLLECT
+  text:
+  - 'Information Gathering and Usage
+
+
+    Classpro uses collected information for the following general purposes: products
+    and services provision, billing, identification and authentication, services improvement,
+    contact and research.'
+  purposes:
+    analytics:
+    - 'for the following general purposes: products and services provision, billing,
+      identification and authentication, services improvement, contact and research'
+    services:
+    - 'for the following general purposes: products and services provision, billing,
+      identification and authentication, services improvement, contact and research'
+- source: classpro
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Classpro may disclose personally identifiable information under special circumstances,
+    such as to comply with subpoenas or when your actions violate the Terms of Service
+    .
+  purposes: {}
+- source: information volunteer
+  target: site registration
+  key: SUBSUM
+  text:
+  - We collect the email addresses of those who communicate with us via email, aggregate
+    information on what pages consumers access or visit, and information volunteered
+    by the consumer (such as survey information and/or site registrations).
+- source: information volunteer
+  target: survey information
+  key: SUBSUM
+  text:
+  - We collect the email addresses of those who communicate with us via email, aggregate
+    information on what pages consumers access or visit, and information volunteered
+    by the consumer (such as survey information and/or site registrations).
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: classpro
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: collect information
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information volunteer
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: site registration
+- type: DATA
+  id: survey information

@@ -1,0 +1,165 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you are using Kaboom.ai products via your employer, your employer may provide
+    us with your contact and other information Cookies
+  purposes: {}
+- source: we
+  target: contact
+  key: COLLECT
+  text:
+  - If you are using Kaboom.ai products via your employer, your employer may provide
+    us with your contact and other information Cookies
+  purposes: {}
+- source: employer
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you are using Kaboom.ai products via your employer, your employer may provide
+    us with your contact and other information Cookies
+  purposes: {}
+- source: employer
+  target: contact
+  key: COLLECT
+  text:
+  - If you are using Kaboom.ai products via your employer, your employer may provide
+    us with your contact and other information Cookies
+  purposes: {}
+- source: kaboom.ai
+  target: personal information
+  key: COLLECT
+  text:
+  - International data transfers Kaboom.ai and its websites are located in the United
+    States, and Kaboom.ai processes and stores all Personal Information in the United
+    States.
+  - 'Kaboom.ai may share or disclose Personal Information with: Services Providers
+    and Suppliers:'
+  purposes:
+    security:
+    - to protect your Personal Information Authorities
+- source: kaboom.ai website
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Kaboom.ai websites use the following cookies, pieces of data stored on a user''s
+    device that automatically collect certain technical information United States
+    Kaboom.ai may use your Personal Information to: Provide or offer products, product
+    updates, services or technical and security alerts Communication regarding your
+    issues, orders, requests for information, feedback, and customer support responses   Establish
+    and maintain your account'
+  purposes: {}
+- source: kaboom.ai website
+  target: piece of datum store on device collect technical information
+  key: COLLECT
+  text:
+  - Kaboom.ai websites use the following cookies, pieces of data stored on a user's
+    device that automatically collect certain technical information
+  purposes: {}
+- source: operator
+  target: information you provide on third party website
+  key: COLLECT
+  text:
+  - Any information you provide on third-party websites or services is provided directly
+    to their operators and is subject to those operators' policies How Kaboom.ai Uses
+    Personal Information
+  purposes: {}
+- source: we
+  target: kaboom.ai.com webpage
+  key: SUBSUM
+  text:
+  - These terms of use and any other terms and conditions that may accompany the documents,
+    materials and services ("Services") made through this website (collectively, the
+    "Terms") apply to all Kaboom.ai.com webpages (collectively, the "Websites"). .
+- source: personal information
+  target: company
+  key: SUBSUM
+  text:
+  - Collects Information you provide us Personal Information such as name, company
+    and address, phone number, email address, username, and password Customer service/product
+    support information
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Collects Information you provide us Personal Information such as name, company
+    and address, phone number, email address, username, and password Customer service/product
+    support information
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - Collects Information you provide us Personal Information such as name, company
+    and address, phone number, email address, username, and password Customer service/product
+    support information
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Collects Information you provide us Personal Information such as name, company
+    and address, phone number, email address, username, and password Customer service/product
+    support information
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Collects Information you provide us Personal Information such as name, company
+    and address, phone number, email address, username, and password Customer service/product
+    support information
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Collects Information you provide us Personal Information such as name, company
+    and address, phone number, email address, username, and password Customer service/product
+    support information
+- source: personal information
+  target: username
+  key: SUBSUM
+  text:
+  - Collects Information you provide us Personal Information such as name, company
+    and address, phone number, email address, username, and password Customer service/product
+    support information
+nodes:
+- type: ACTOR
+  id: employer
+- type: ACTOR
+  id: kaboom.ai
+- type: ACTOR
+  id: kaboom.ai website
+- type: ACTOR
+  id: kaboom.ai.com webpage
+- type: ACTOR
+  id: operator
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: company
+- type: DATA
+  id: contact
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information you provide on third party website
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: piece of datum store on device collect technical information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: username

@@ -1,0 +1,128 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'The types of data we collect include:'
+  - We may disclose your information when required by law, such as to comply with
+    a subpoena, court order, or other legal processes.
+  - We may share your data with third parties when you explicitly authorize us to
+    do so.
+  purposes: {}
+- source: we
+  target: audio recording
+  key: COLLECT
+  text:
+  - When you use our Services to record meetings, we collect and process the audio
+    and video recordings and generate transcripts.
+  purposes: {}
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'We use the collected data for various purposes, including:'
+  purposes:
+    advertising:
+    - 'Marketing and Engagement: Sending relevant updates, newsletters, and promotional
+      content (with your consent'
+    analytics:
+    - 'Enhancement and Development: Using anonymized data to improve algorithms and
+      features like sentiment analysis or actionable insights'
+    - 'Service Provision and Maintenance: Providing meeting recording, transcription,
+      and analytics'
+    security:
+    - 'Security and Compliance: Detecting fraud, preventing unauthorized access, and
+      ensuring regulatory compliance'
+    services:
+    - 'Customer Support: Resolving issues and processing feedback for service improvement'
+    - 'Enhancement and Development: Using anonymized data to improve algorithms and
+      features like sentiment analysis or actionable insights'
+    - 'Service Provision and Maintenance: Providing meeting recording, transcription,
+      and analytics'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'We use cookies and similar tracking technologies to enhance your experience and
+    analyze usage:'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We will fetch and store your email address, name, and profile image URL from these
+    services.
+  purposes: {}
+- source: we
+  target: option delete datum before transfer
+  key: COLLECT
+  text:
+  - We will notify you in advance and give you the option to delete your data before
+    the transfer.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We will fetch and store your email address, name, and profile image URL from these
+    services.
+  purposes: {}
+- source: we
+  target: personal datum necessary
+  key: COLLECT
+  text:
+  - We collect and process personal data necessary to deliver and improve our Services.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In some cases, we may retain personal data longer if required by law or necessary
+    to protect our legal rights.
+  - 'We may share your personal data under the following circumstances:'
+  - We primarily store and process personal data in Microsoft Azure's data centers
+    located in the European Economic Area (EEA), specifically in Ireland.
+  - 'We retain personal data only as long as necessary for:'
+  purposes: {}
+- source: we
+  target: profile image url
+  key: COLLECT
+  text:
+  - We will fetch and store your email address, name, and profile image URL from these
+    services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your data with third parties when you explicitly authorize us to
+    do so.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: audio recording
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: option delete datum before transfer
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum necessary
+- type: DATA
+  id: personal information
+- type: DATA
+  id: profile image url

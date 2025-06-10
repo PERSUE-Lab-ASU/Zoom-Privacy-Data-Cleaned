@@ -1,0 +1,99 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: zoom specific information
+  key: COLLECT
+  text:
+  - 'In addition to the standard Keypoint-related information listed above, the app
+    accesses the following Zoom-specific information:'
+  purposes:
+    security:
+    - to facilitate authorization and deauthorization of the app
+    services:
+    - to facilitate authorization and deauthorization of the app
+    - to provide the host with an option to abstain from the voting
+- source: Microsoft
+  target: relate information specific
+  key: COLLECT
+  text:
+  - For example, a presentation shared with attendees via Microsoft Teams, during
+    which participants may use external or integrated voting keypads to respond to
+    questions, may temporarily log Keypoint Connect related information specific to
+    the voting but, will not log Microsoft Teams related information pertaining to
+    the overall meeting.
+  purposes: {}
+- source: keypoint
+  target: relate information specific
+  key: COLLECT
+  text:
+  - Keypoint may also temporarily log Keypoint Connect related information specific
+    to the voting but, will not log any additional Webex related information pertaining
+    to the user or the overall meeting.
+  purposes: {}
+- source: operator
+  target: password
+  key: COLLECT
+  text:
+  - The operator may also provide a password to limit voting to participants with
+    knowledge of the meeting ID and password.
+  purposes:
+    services:
+    - to limit voting to participants with knowledge of the meeting ID and password
+- source: operator of host pc
+  target: person name
+  key: COLLECT
+  text:
+  - The operator of the host PC may request names or pre-defined user IDs to uniquely
+    associate participant responses with an individual within the host PC.
+  purposes:
+    analytics:
+    - to uniquely associate participant responses with an individual within the host
+      PC
+    services:
+    - to uniquely associate participant responses with an individual within the host
+      PC
+- source: operator of host pc
+  target: personal identifier
+  key: COLLECT
+  text:
+  - The operator of the host PC may request names or pre-defined user IDs to uniquely
+    associate participant responses with an individual within the host PC.
+  purposes:
+    analytics:
+    - to uniquely associate participant responses with an individual within the host
+      PC
+    services:
+    - to uniquely associate participant responses with an individual within the host
+      PC
+- source: zoom specific information
+  target: meeting id use
+  key: SUBSUM
+  text:
+  - 'In addition to the standard Keypoint-related information listed above, the app
+    accesses the following Zoom-specific information: The meeting ID which is used
+    to connect the virtual keypads to the Keypoint Connect meeting.'
+nodes:
+- type: ACTOR
+  id: Microsoft
+- type: ACTOR
+  id: keypoint
+- type: ACTOR
+  id: operator
+- type: ACTOR
+  id: operator of host pc
+- type: ACTOR
+  id: we
+- type: DATA
+  id: meeting id use
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: relate information specific
+- type: DATA
+  id: zoom specific information

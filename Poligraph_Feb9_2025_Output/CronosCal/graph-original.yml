@@ -1,0 +1,39 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: google account
+  key: COLLECT
+  text:
+  - When you grant Cronos Calendar access to your Google and Zoom accounts, we will
+    only use this information to provide you with the services you have requested.
+  purposes:
+    services:
+    - to provide you with the services you have requested
+- source: we
+  target: information you give we
+  key: COLLECT
+  text:
+  - This privacy policy sets out how we use and protect any information that you give
+    us when using our service.
+  purposes: {}
+- source: cronos calendar
+  target: google datum
+  key: COLLECT
+  text:
+  - Cronos Calendar uses Google data to authenticate users and provide calendar services.
+  purposes:
+    services:
+    - to authenticate users and provide calendar services
+nodes:
+- type: ACTOR
+  id: cronos calendar
+- type: ACTOR
+  id: we
+- type: DATA
+  id: google account
+- type: DATA
+  id: google datum
+- type: DATA
+  id: information you give we

@@ -1,0 +1,365 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By using or accessing our website (the " Site ") in any manner, you acknowledge
+    that you accept the practices and policies outlined below, and you hereby consent
+    that we will collect, use and share your information as described in this Privacy
+    Policy.
+  - Vendors We may use vendors to obtain information to generate leads and create
+    user profiles.
+  - We may further retain information in an anonymous or aggregated form where that
+    information would not identify you personally.
+  - When establishing a retention period for specific categories of data, we consider
+    who we collected the data from, our need for the Personal Data, why we collected
+    the Personal Data, and the sensitivity of the Personal Data.
+  purposes:
+    advertising:
+    - to generate leads and create user profiles
+    analytics:
+    - to generate leads and create user profiles
+    services:
+    - to generate leads and create user profiles
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may create aggregated, de-identified or anonymized data from the Personal Data
+    we collect, including by removing information that makes the data personally identifiable
+    to a particular user.
+  - We may use such aggregated, de-identified or anonymized data and share it with
+    third parties for our lawful business purposes, including to analyze, build and
+    improve our Site and products and services and promote our business, provided
+    that we will not share such data in a manner that could identify you.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Site use cookies and similar technologies such as pixel tags, web beacons,
+    clear GIFs and JavaScript (collectively, "Cookies") to enable our servers to recognize
+    your web browser, tell us how and when you visit and use our Services, analyze
+    trends, learn about our user base and operate and improve our Services.
+  purposes:
+    analytics:
+    - to enable our servers to recognize your web browser, tell us how and when you
+      visit and use our Services, analyze trends, learn about our user base and operate
+      and improve our Services
+    services:
+    - to enable our servers to recognize your web browser, tell us how and when you
+      visit and use our Services, analyze trends, learn about our user base and operate
+      and improve our Services
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - If you use a location-enabled browser, we may receive information about your location.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We receive information about you from some of our vendors who assist us with marketing
+    or promotional services related to how you interact with our Site, advertisements
+    or communications.
+  purposes: {}
+- source: we
+  target: information transmit from compute device for purpose of
+  key: COLLECT
+  text:
+  - If you download and install certain applications and software we make available,
+    we may receive and collect information transmitted from your computing device
+    for the purpose of providing you the Site, such as information regarding when
+    you are logged on and available to receive updates or alert notices.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We retain your device/IP data for as long as we need it to ensure that our systems
+    are working appropriately, effectively and efficiently.
+  purposes:
+    services:
+    - to ensure that our systems are working appropriately, effectively and efficiently
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In some cases we retain Personal Data for longer, if doing so is necessary to
+    comply with our legal obligations, resolve disputes or collect fees owed, or is
+    otherwise permitted or required by applicable law, rule or regulation.
+  - 'We collect Personal Data about you from the following categories of sources:'
+  - We disclose your Personal Data to the categories of service providers and other
+    parties listed in this section.
+  - We may share any Personal Data that we collect with third parties in conjunction
+    with any of the activities set forth under " Meeting Legal Requirements and Enforcing
+    Legal Terms " in the " Our Commercial or Business Purposes for Collecting Personal
+    Data " section above.
+  - We retain Personal Data about you for as long as necessary to perform our business
+    or commercial purposes for collecting your Personal Data.
+  - When establishing a retention period for specific categories of data, we consider
+    who we collected the data from, our need for the Personal Data, why we collected
+    the Personal Data, and the sensitivity of the Personal Data.
+  purposes:
+    analytics:
+    - to perform our business or commercial purposes for collecting your Personal
+      Data
+    services:
+    - to perform our business or commercial purposes for collecting your Personal
+      Data
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For example, Google LLC ("Google") uses cookies in connection with its Google
+    Analytics services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share any Personal Data that we collect with third parties in conjunction
+    with any of the activities set forth under " Meeting Legal Requirements and Enforcing
+    Legal Terms " in the " Our Commercial or Business Purposes for Collecting Personal
+    Data " section above.
+  purposes: {}
+- source: 3rd party with whom we share
+  target: LINE
+  key: SUBSUM
+  text:
+  - Categories of 3rd Parties with Whom We Share Data Service Providers Analytics
+    Partners Business Partners Parties You Authorize, Access or Authenticate
+  - 'Device/IP Data
+
+
+    Categories of 3rd Parties with Whom We Share'
+- source: 3rd party with whom we share
+  target: analytic provider
+  key: SUBSUM
+  text:
+  - Categories of 3rd Parties with Whom We Share Data Service Providers Analytics
+    Partners Business Partners Parties You Authorize, Access or Authenticate
+- source: 3rd party with whom we share
+  target: datum service provider
+  key: SUBSUM
+  text:
+  - 'Geolocation Data
+
+
+    Categories of 3rd Parties with Whom We Share Data Service Providers Advertising
+    Partners Analytics Partners'
+  - 'Profile or Contact Data
+
+
+    Categories of 3rd Parties with Whom We Share Data Service Providers Business Partners
+    Parties You Authorize, Access or Authenticate'
+  - 'Web Analytics
+
+
+    Categories of 3rd Parties with Whom We Share Data Service Providers Advertising
+    Partners Analytics Partners'
+- source: 3rd party with whom we share
+  target: datum service provider party you authorize
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Social Network Data
+
+
+    Categories of 3rd Parties with Whom We Share Data Service Providers Parties You
+    Authorize, Access or Authenticate'
+- source: information transmit from compute device for purpose of
+  target: information regard
+  key: SUBSUM
+  text:
+  - If you download and install certain applications and software we make available,
+    we may receive and collect information transmitted from your computing device
+    for the purpose of providing you the Site, such as information regarding when
+    you are logged on and available to receive updates or alert notices.
+- source: ip address
+  target: device identifier
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Device/IP Data
+
+
+    Example of Personal Data IP address Device ID Domain server Type of device/operating
+    system/browser used to access the Site'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - Categories of Personal Data We Collect
+  - Profile or Contact Data
+- source: personal information
+  target: device identifier
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Device/IP Data
+
+
+    Example of Personal Data IP address Device ID Domain server Type of device/operating
+    system/browser used to access the Site'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Categories of Personal Data We Collect
+  - Example of Personal Data First and last name Email address Phone number
+- source: personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Categories of Personal Data We Collect
+  - Geolocation Data
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Personal Data
+
+
+    Categories of Personal Data We Collect
+
+
+    Device/IP Data
+
+
+    Example of Personal Data IP address Device ID Domain server Type of device/operating
+    system/browser used to access the Site'
+- source: personal information
+  target: online identifier
+  key: SUBSUM
+  text:
+  - Categories of Personal Data We Collect
+  - Online Identifiers
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Categories of Personal Data We Collect
+  - Example of Personal Data First and last name Email address Phone number
+- source: personal information
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - Categories of Personal Data We Collect
+  - Example of Personal Data Unique identifiers such as passwords Other unique personal
+    or online identifiers
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Categories of Personal Data We Collect
+  - Example of Personal Data First and last name Email address Phone number
+- source: personal information
+  target: social network data
+  key: SUBSUM
+  text:
+  - Categories of Personal Data We Collect
+  - Social Network Data
+- source: technology
+  target: javascript
+  key: SUBSUM
+  text:
+  - The Site use cookies and similar technologies such as pixel tags, web beacons,
+    clear GIFs and JavaScript (collectively, "Cookies") to enable our servers to recognize
+    your web browser, tell us how and when you visit and use our Services, analyze
+    trends, learn about our user base and operate and improve our Services.
+- source: type of personal datum
+  target: personal information
+  key: SUBSUM
+  text:
+  - We seek to protect your Personal Data from unauthorized access, use and disclosure
+    using appropriate physical, technical, organizational and administrative security
+    measures based on the type of Personal Data and how we are processing that data.
+nodes:
+- type: ACTOR
+  id: 3rd party with whom we share
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: LINE
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: datum service provider
+- type: ACTOR
+  id: datum service provider party you authorize
+- type: ACTOR
+  id: javascript
+- type: ACTOR
+  id: technology
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information regard
+- type: DATA
+  id: information transmit from compute device for purpose of
+- type: DATA
+  id: ip address
+- type: DATA
+  id: online identifier
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: social network data
+- type: DATA
+  id: type of personal datum

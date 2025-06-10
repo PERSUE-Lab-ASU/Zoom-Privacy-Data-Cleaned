@@ -1,0 +1,194 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: content user need
+  key: COLLECT
+  text:
+  - When developing new services or expanding contents, the company can prioritize
+    services that need to be developed more efficiently based on the personal information
+    provided by existing users, and the company can reasonably select and provide
+    the contents that users need.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The company uses 'cookie' to store and retrieve your information from time to
+    time to provide more appropriate and useful services to the members.
+  purposes:
+    analytics:
+    - to store and retrieve your information from time to time to provide more appropriate
+      and useful services to the members
+    services:
+    - to store and retrieve your information from time to time to provide more appropriate
+      and useful services to the members
+- source: we
+  target: member information
+  key: COLLECT
+  text:
+  - Fourth, we collect and use member information for the following purposes according
+    to the membership classification.
+  purposes: {}
+- source: we
+  target: membership information
+  key: COLLECT
+  text:
+  - Besides, if it is necessary to preserve following the provisions of the relevant
+    statutes, the company shall keep the membership information for a certain period
+    as prescribed by the relevant statutes.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - However, the company collects user personal information to provide users with
+    better quality services, including customized services, through member services
+    (log-in-based services that are currently available or will be provided in the
+    future, such as event creation).
+  - The Company collects personal information through the following methods to provide
+    users with various and convenient Internet services.
+  - The company uses your personal information within the scope notified in Article
+    1, and in principle, it does not exceed this scope or provide users' personal
+    information to third parties without your prior consent.
+  purposes:
+    services:
+    - to provide users with better quality services, including customized services,
+      through member services (log-in-based services that are currently available
+      or will be provided in the future, such as event creation)
+    - to provide users with various and convenient Internet services
+- source: we
+  target: personal information cancel
+  key: COLLECT
+  text:
+  - The company processes personal information that has been canceled or deleted at
+    the request of a member as specified in Article 2 and is processed so that it
+    cannot be viewed or used for any other purpose.
+  purposes: {}
+- source: separate db
+  target: information enter for membership registration
+  key: COLLECT
+  text:
+  - The information entered by the member for membership registration, etc. is transferred
+    to a separate DB after the purpose is achieved (in case of paper, a separate document
+    box), and it is stored for a certain period of time and then destroyed according
+    to the reasons for information protection under internal policies and other related
+    laws (see retention and use period).
+  purposes: {}
+- source: sns company
+  target: information for connection to company
+  key: COLLECT
+  text:
+  - Third, For the smooth use of the services provided by the company, members can
+    have SNS companies provide information for the connection to the company through
+    a legitimate consent procedure.
+  purposes:
+    services:
+    - For the smooth use of the services provided by the company
+- source: transaction party
+  target: relevant information
+  key: COLLECT
+  text:
+  - When orders and payments are made through the service provided by the company,
+    the relevant information is provided to the transaction parties within the necessary
+    range for smooth communication between the transaction parties such as consultation
+    and the execution of the transaction such as delivery and meetings.
+  purposes: {}
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - '"Personal information" refers to information about surviving individuals that
+    can identify individuals, such as their name, email address, and phone number.'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - '"Personal information" refers to information about surviving individuals that
+    can identify individuals, such as their name, email address, and phone number.'
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - '"Personal information" refers to information about surviving individuals that
+    can identify individuals, such as their name, email address, and phone number.'
+- source: personal information
+  target: id
+  key: SUBSUM
+  text:
+  - Be careful not to leak your personal information, including your ID and name,
+    and be careful not to damage other people's personal information, including posts.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Be careful not to leak your personal information, including your ID and name,
+    and be careful not to damage other people's personal information, including posts.
+- source: personal information
+  target: post
+  key: SUBSUM
+  text:
+  - Be careful not to leak your personal information, including your ID and name,
+    and be careful not to damage other people's personal information, including posts.
+- source: personal information
+  target: resident registration number of person
+  key: SUBSUM
+  text:
+  - Members are responsible for any problems arising from incorrect information input
+    by the member and the use of the service by stealing personal information such
+    as the resident registration number of another person may result in loss of membership
+    and punishment under the Resident Registration Act.
+- source: well quality service
+  target: customize service
+  key: SUBSUM
+  text:
+  - However, the company collects user personal information to provide users with
+    better quality services, including customized services, through member services
+    (log-in-based services that are currently available or will be provided in the
+    future, such as event creation).
+nodes:
+- type: ACTOR
+  id: customize service
+- type: ACTOR
+  id: separate db
+- type: ACTOR
+  id: sns company
+- type: ACTOR
+  id: transaction party
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: well quality service
+- type: DATA
+  id: content user need
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: id
+- type: DATA
+  id: information enter for membership registration
+- type: DATA
+  id: information for connection to company
+- type: DATA
+  id: member information
+- type: DATA
+  id: membership information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information cancel
+- type: DATA
+  id: phone number
+- type: DATA
+  id: post
+- type: DATA
+  id: relevant information
+- type: DATA
+  id: resident registration number of person

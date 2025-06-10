@@ -1,0 +1,226 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - We may also collect your relevant payment or credit card information if you wish
+    to pay for any services offered via the Platform.
+  purposes: {}
+- source: we
+  target: information submit
+  key: COLLECT
+  text:
+  - 'Where applicable, we will use any information submitted by you in the following
+    ways:'
+  purposes: {}
+- source: we
+  target: non
+  key: COLLECT
+  text:
+  - Whenever you use our Platform, we may collect Non-PII from you, such as your IP
+    address, registration history, interactions with the Platform, usage information,
+    location, referring URL, browser, operating system, data usage, data transferred,
+    and Internet service provider.
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - At Viva Translate, we collect personally identifiable information ("PII") and
+    non-personally identifiable ("Non-PII") information from you.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - At Viva Translate, we collect personally identifiable information ("PII") and
+    non-personally identifiable ("Non-PII") information from you.
+  - However, in order to access or use some portions of the Platform, we may collect
+    PII such as your name, email, username, personal information, zip code, location,
+    User Content including all translated information, and additional information.
+  - Whenever you use our Platform, we may collect Non-PII from you, such as your IP
+    address, registration history, interactions with the Platform, usage information,
+    location, referring URL, browser, operating system, data usage, data transferred,
+    and Internet service provider.
+  purposes:
+    services:
+    - in order to access or use some portions of the Platform
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Where applicable, we will use any information submitted by you in the following
+    ways: To share your information with third party contractors hired by us to perform
+    functions and provide services to us subject to the obligations consistent with
+    this Privacy Policy.'
+  purposes: {}
+- source: viva translate
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Viva Translate gets PII from OAuth integrations that are used internally by our
+    Platform, such as your name, email, username, personal information, and calendar
+    events.
+  purposes: {}
+- source: non
+  target: datum transfer
+  key: SUBSUM
+  text:
+  - Whenever you use our Platform, we may collect Non-PII from you, such as your IP
+    address, registration history, interactions with the Platform, usage information,
+    location, referring URL, browser, operating system, data usage, data transferred,
+    and Internet service provider.
+- source: non
+  target: datum usage
+  key: SUBSUM
+  text:
+  - Whenever you use our Platform, we may collect Non-PII from you, such as your IP
+    address, registration history, interactions with the Platform, usage information,
+    location, referring URL, browser, operating system, data usage, data transferred,
+    and Internet service provider.
+- source: non
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Whenever you use our Platform, we may collect Non-PII from you, such as your IP
+    address, registration history, interactions with the Platform, usage information,
+    location, referring URL, browser, operating system, data usage, data transferred,
+    and Internet service provider.
+- source: non
+  target: ip address
+  key: SUBSUM
+  text:
+  - Whenever you use our Platform, we may collect Non-PII from you, such as your IP
+    address, registration history, interactions with the Platform, usage information,
+    location, referring URL, browser, operating system, data usage, data transferred,
+    and Internet service provider.
+- source: non
+  target: refer url
+  key: SUBSUM
+  text:
+  - Whenever you use our Platform, we may collect Non-PII from you, such as your IP
+    address, registration history, interactions with the Platform, usage information,
+    location, referring URL, browser, operating system, data usage, data transferred,
+    and Internet service provider.
+- source: non
+  target: registration history
+  key: SUBSUM
+  text:
+  - Whenever you use our Platform, we may collect Non-PII from you, such as your IP
+    address, registration history, interactions with the Platform, usage information,
+    location, referring URL, browser, operating system, data usage, data transferred,
+    and Internet service provider.
+- source: non
+  target: usage information
+  key: SUBSUM
+  text:
+  - Whenever you use our Platform, we may collect Non-PII from you, such as your IP
+    address, registration history, interactions with the Platform, usage information,
+    location, referring URL, browser, operating system, data usage, data transferred,
+    and Internet service provider.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - However, in order to access or use some portions of the Platform, we may collect
+    PII such as your name, email, username, personal information, zip code, location,
+    User Content including all translated information, and additional information.
+- source: personal identifier
+  target: geolocation
+  key: SUBSUM
+  text:
+  - However, in order to access or use some portions of the Platform, we may collect
+    PII such as your name, email, username, personal information, zip code, location,
+    User Content including all translated information, and additional information.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - However, in order to access or use some portions of the Platform, we may collect
+    PII such as your name, email, username, personal information, zip code, location,
+    User Content including all translated information, and additional information.
+- source: personal identifier
+  target: personal information
+  key: SUBSUM
+  text:
+  - However, in order to access or use some portions of the Platform, we may collect
+    PII such as your name, email, username, personal information, zip code, location,
+    User Content including all translated information, and additional information.
+- source: personal identifier
+  target: user content
+  key: SUBSUM
+  text:
+  - However, in order to access or use some portions of the Platform, we may collect
+    PII such as your name, email, username, personal information, zip code, location,
+    User Content including all translated information, and additional information.
+- source: personal identifier
+  target: username
+  key: SUBSUM
+  text:
+  - However, in order to access or use some portions of the Platform, we may collect
+    PII such as your name, email, username, personal information, zip code, location,
+    User Content including all translated information, and additional information.
+- source: personal identifier
+  target: zip code
+  key: SUBSUM
+  text:
+  - However, in order to access or use some portions of the Platform, we may collect
+    PII such as your name, email, username, personal information, zip code, location,
+    User Content including all translated information, and additional information.
+- source: user content
+  target: translate information
+  key: SUBSUM
+  text:
+  - However, in order to access or use some portions of the Platform, we may collect
+    PII such as your name, email, username, personal information, zip code, location,
+    User Content including all translated information, and additional information.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: viva translate
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: datum transfer
+- type: DATA
+  id: datum usage
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information submit
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: refer url
+- type: DATA
+  id: registration history
+- type: DATA
+  id: translate information
+- type: DATA
+  id: usage information
+- type: DATA
+  id: user content
+- type: DATA
+  id: username
+- type: DATA
+  id: zip code

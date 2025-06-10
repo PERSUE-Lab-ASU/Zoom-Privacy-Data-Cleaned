@@ -1,0 +1,62 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This privacy policy explains how we collect, use, maintain, and protect personal
+    information through our services.
+  purposes: {}
+- source: we
+  target: request
+  key: COLLECT
+  text:
+  - Once a legal right over the data is established, we process the request promptly.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Usermuse shares information with third-party services under strict confidentiality
+    agreements to ensure data protection and compliance with relevant laws.
+  purposes:
+    legal:
+    - to ensure data protection and compliance with relevant laws
+    security:
+    - to ensure data protection and compliance with relevant laws
+- source: usermuse
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Usermuse retains data as long as it is necessary to provide our services or until
+    a deletion request is received from the client.
+  - Usermuse shares information with third-party services under strict confidentiality
+    agreements to ensure data protection and compliance with relevant laws.
+  purposes:
+    legal:
+    - to ensure data protection and compliance with relevant laws
+    security:
+    - to ensure data protection and compliance with relevant laws
+- source: we
+  target: careers
+  key: SUBSUM
+  text:
+  - Careers
+  - Company
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: careers
+- type: ACTOR
+  id: usermuse
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: personal information
+- type: DATA
+  id: request

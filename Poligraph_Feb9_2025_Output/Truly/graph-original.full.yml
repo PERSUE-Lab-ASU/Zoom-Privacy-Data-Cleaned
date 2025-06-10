@@ -1,0 +1,188 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We collect information in three ways: Information from Other Sources: We may
+    gather publicly available information or data from third-party partners with your
+    consent.'
+  - 'We may share your information with:'
+  - 'We use your information to:'
+  purposes:
+    advertising:
+    - for website operation and marketing activities
+    - 'to: Develop and promote services and inform you about relevant offers'
+    analytics:
+    - 'to: Analyze website usage anonymously for internal and external research'
+    legal:
+    - 'to: Prevent fraud, conduct audits, and comply with legal requirements'
+    security:
+    - 'to: Prevent fraud, conduct audits, and comply with legal requirements'
+    services:
+    - 'to: Develop and promote services and inform you about relevant offers'
+    - 'to: Facilitate website use and improve your experience'
+    - 'to: Manage internal processes, respond to inquiries, and establish business
+      relationships'
+- source: we
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - 'We collect information in three ways: Automatically Collected Information: We
+    collect data like IP address, device identifiers, browsing activity, and geolocation
+    through cookies and similar technologies.'
+  purposes: {}
+- source: we
+  target: device identifier
+  key: COLLECT
+  text:
+  - 'We collect information in three ways: Automatically Collected Information: We
+    collect data like IP address, device identifiers, browsing activity, and geolocation
+    through cookies and similar technologies.'
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'We collect information in three ways: Automatically Collected Information: We
+    collect data like IP address, device identifiers, browsing activity, and geolocation
+    through cookies and similar technologies.'
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'We collect information in three ways: Automatically Collected Information: We
+    collect data like IP address, device identifiers, browsing activity, and geolocation
+    through cookies and similar technologies.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Table of Contents : How We Protect and Retain Your Personal Information'
+  - This Privacy Policy explains how we collect, use, and store your personal information
+    when you use our website, www.truly.ws.
+  purposes: {}
+- source: we
+  target: publicly available information
+  key: COLLECT
+  text:
+  - 'We collect information in three ways: Information from Other Sources: We may
+    gather publicly available information or data from third-party partners with your
+    consent.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with: Partners and service providers for website
+    operation and marketing activities.'
+  - 'We may share your information with: Third parties with your explicit consent.'
+  purposes:
+    advertising:
+    - for website operation and marketing activities
+- source: affiliated company
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with: Affiliated companies in case of mergers or
+    acquisitions.'
+  purposes:
+    advertising:
+    - for website operation and marketing activities
+- source: legal entity
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with: Legal and regulatory entities when required
+    by law.'
+  purposes:
+    advertising:
+    - for website operation and marketing activities
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with: Partners and service providers for website
+    operation and marketing activities.'
+  purposes:
+    advertising:
+    - for website operation and marketing activities
+- source: zoom integration app
+  target: audio datum
+  key: COLLECT
+  text:
+  - Our Zoom integration app collects images and audio data to verify meeting participants
+    and detect deepfakes.
+  purposes:
+    security:
+    - to verify meeting participants and detect deepfakes
+- source: zoom integration app
+  target: image
+  key: COLLECT
+  text:
+  - Our Zoom integration app collects images and audio data to verify meeting participants
+    and detect deepfakes.
+  purposes:
+    security:
+    - to verify meeting participants and detect deepfakes
+- source: tool
+  target: FullStory
+  key: SUBSUM
+  text:
+  - We use tools like FullStory, Google Analytics, and third-party advertising partners
+    with cookies to analyze website traffic and serve targeted ads.
+- source: tool
+  target: Google
+  key: SUBSUM
+  text:
+  - We use tools like FullStory, Google Analytics, and third-party advertising partners
+    with cookies to analyze website traffic and serve targeted ads.
+- source: tool
+  target: advertiser
+  key: SUBSUM
+  text:
+  - We use tools like FullStory, Google Analytics, and third-party advertising partners
+    with cookies to analyze website traffic and serve targeted ads.
+nodes:
+- type: ACTOR
+  id: FullStory
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: affiliated company
+- type: ACTOR
+  id: legal entity
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: tool
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom integration app
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: audio datum
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: image
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal information
+- type: DATA
+  id: publicly available information

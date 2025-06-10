@@ -1,0 +1,354 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: backup
+  key: COLLECT
+  text:
+  - For paid subscription accounts, We automatically back Your CRM instance data up
+    every day and keep backups for a rolling 30 days.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalized ads or
+    content, and analyze our traffic.'
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    analytics:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    services:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: analec
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Where Your use of Services includes the processing by ANALEC of Customer Personal
+    Data on your behalf, You consent and agree that ANALEC may process the data in
+    accordance with the terms of the data processing addendum ("DPA") linked here.
+  purposes: {}
+- source: analec
+  target: file
+  key: COLLECT
+  text:
+  - ANALEC may provide sample data and files for the purpose of demonstrating the
+    possibility of using the Services effectively for specific purposes.
+  purposes:
+    services:
+    - for the purpose of demonstrating the possibility of using the Services effectively
+      for specific purposes
+- source: analec
+  target: sample datum
+  key: COLLECT
+  text:
+  - ANALEC may provide sample data and files for the purpose of demonstrating the
+    possibility of using the Services effectively for specific purposes.
+  purposes:
+    services:
+    - for the purpose of demonstrating the possibility of using the Services effectively
+      for specific purposes
+- source: receiving party
+  target: confidential information of disclosing party
+  key: COLLECT
+  text:
+  - The Receiving Party may disclose Confidential Information of the Disclosing Party
+    to the extent compelled by law or a valid order of a governmental agency, legislative
+    body, or court of competent jurisdiction to do so, provided the Receiving Party
+    gives the Disclosing Party prior notice of the compelled disclosure (to the extent
+    legally permitted) and reasonable assistance, at the Disclosing Party's cost,
+    if the Disclosing Party wishes to contest the disclosure.
+  purposes: {}
+- source: youtube
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The cookie ytidb::LAST_RESULT_ENTRY_KEY is used by YouTube to store the last search
+    result entry that was clicked by the user.
+  - The yt-player-headers-readable cookie is used by YouTube to store user preferences
+    related to video playback and interface, enhancing the user's viewing experience.
+  - The yt-remote-fast-check-period cookie is used by YouTube to store the user's
+    video player preferences for embedded YouTube videos.
+  - The yt-remote-session-app cookie is used by YouTube to store user preferences
+    and information about the interface of the embedded YouTube video player.
+  - The yt-remote-session-name cookie is used by YouTube to store the user's video
+    player preferences using embedded YouTube video.
+  purposes:
+    analytics:
+    - to store the last search result entry that was clicked by the user
+    - to store the user's video player preferences using embedded YouTube video
+    - to store user preferences and information about the interface of the embedded
+      YouTube video player
+    services:
+    - to store the last search result entry that was clicked by the user
+    - to store the user's video player preferences for embedded YouTube videos
+    - to store the user's video player preferences using embedded YouTube video
+    - to store user preferences and information about the interface of the embedded
+      YouTube video player
+    - to store user preferences related to video playback and interface,
+- source: capability deliver via https://insightscrm.com as part of subscription
+  target: analec software extension
+  key: SUBSUM
+  text:
+  - 'The following words and phrases have defined meanings: "Services" means the capabilities
+    delivered via https://insightscrm.com (or any subvariant of https://insightscrm.com
+    ) as a part of the subscription including but not limited to any other ANALEC
+    Software extensions, third party extensions, modules, add-ins that are ordered
+    by You under an Order Form or provided to You free of charge, or for a charge
+    (as applicable) or under a free trial or a paid subscription and made available
+    online by Us, including associated offline and mobile components, as described
+    in the Documentation.'
+- source: capability deliver via https://insightscrm.com as part of subscription
+  target: charge
+  key: SUBSUM
+  text:
+  - 'The following words and phrases have defined meanings: "Services" means the capabilities
+    delivered via https://insightscrm.com (or any subvariant of https://insightscrm.com
+    ) as a part of the subscription including but not limited to any other ANALEC
+    Software extensions, third party extensions, modules, add-ins that are ordered
+    by You under an Order Form or provided to You free of charge, or for a charge
+    (as applicable) or under a free trial or a paid subscription and made available
+    online by Us, including associated offline and mobile components, as described
+    in the Documentation.'
+- source: capability deliver via https://insightscrm.com as part of subscription
+  target: free trial
+  key: SUBSUM
+  text:
+  - 'The following words and phrases have defined meanings: "Services" means the capabilities
+    delivered via https://insightscrm.com (or any subvariant of https://insightscrm.com
+    ) as a part of the subscription including but not limited to any other ANALEC
+    Software extensions, third party extensions, modules, add-ins that are ordered
+    by You under an Order Form or provided to You free of charge, or for a charge
+    (as applicable) or under a free trial or a paid subscription and made available
+    online by Us, including associated offline and mobile components, as described
+    in the Documentation.'
+- source: capability deliver via https://insightscrm.com as part of subscription
+  target: module
+  key: SUBSUM
+  text:
+  - 'The following words and phrases have defined meanings: "Services" means the capabilities
+    delivered via https://insightscrm.com (or any subvariant of https://insightscrm.com
+    ) as a part of the subscription including but not limited to any other ANALEC
+    Software extensions, third party extensions, modules, add-ins that are ordered
+    by You under an Order Form or provided to You free of charge, or for a charge
+    (as applicable) or under a free trial or a paid subscription and made available
+    online by Us, including associated offline and mobile components, as described
+    in the Documentation.'
+- source: capability deliver via https://insightscrm.com as part of subscription
+  target: order form
+  key: SUBSUM
+  text:
+  - 'The following words and phrases have defined meanings: "Services" means the capabilities
+    delivered via https://insightscrm.com (or any subvariant of https://insightscrm.com
+    ) as a part of the subscription including but not limited to any other ANALEC
+    Software extensions, third party extensions, modules, add-ins that are ordered
+    by You under an Order Form or provided to You free of charge, or for a charge
+    (as applicable) or under a free trial or a paid subscription and made available
+    online by Us, including associated offline and mobile components, as described
+    in the Documentation.'
+- source: capability deliver via https://insightscrm.com as part of subscription
+  target: paid subscription
+  key: SUBSUM
+  text:
+  - 'The following words and phrases have defined meanings: "Services" means the capabilities
+    delivered via https://insightscrm.com (or any subvariant of https://insightscrm.com
+    ) as a part of the subscription including but not limited to any other ANALEC
+    Software extensions, third party extensions, modules, add-ins that are ordered
+    by You under an Order Form or provided to You free of charge, or for a charge
+    (as applicable) or under a free trial or a paid subscription and made available
+    online by Us, including associated offline and mobile components, as described
+    in the Documentation.'
+- source: communication from analec
+  target: newsletter
+  key: SUBSUM
+  text:
+  - The Service may include certain communications from ANALEC, such as service announcements,
+    administrative messages, and newsletters.
+- source: confidential information
+  target: intellectual property
+  key: SUBSUM
+  text:
+  - Your Confidential Information includes Your Data; Our Confidential Information
+    includes our Services and all intellectual property, proprietary information and
+    trade secrets associated therewith; and Confidential Information of each party
+    includes the terms and conditions of this Agreement and all Order Forms (including
+    pricing), as well as business and marketing plans, technology and technical information,
+    product plans and designs, and business processes disclosed by such party.
+- source: confidential information
+  target: proprietary information
+  key: SUBSUM
+  text:
+  - Your Confidential Information includes Your Data; Our Confidential Information
+    includes our Services and all intellectual property, proprietary information and
+    trade secrets associated therewith; and Confidential Information of each party
+    includes the terms and conditions of this Agreement and all Order Forms (including
+    pricing), as well as business and marketing plans, technology and technical information,
+    product plans and designs, and business processes disclosed by such party.
+- source: confidential information
+  target: trade secret
+  key: SUBSUM
+  text:
+  - Your Confidential Information includes Your Data; Our Confidential Information
+    includes our Services and all intellectual property, proprietary information and
+    trade secrets associated therewith; and Confidential Information of each party
+    includes the terms and conditions of this Agreement and all Order Forms (including
+    pricing), as well as business and marketing plans, technology and technical information,
+    product plans and designs, and business processes disclosed by such party.
+- source: confidential information of party
+  target: design
+  key: SUBSUM
+  text:
+  - Your Confidential Information includes Your Data; Our Confidential Information
+    includes our Services and all intellectual property, proprietary information and
+    trade secrets associated therewith; and Confidential Information of each party
+    includes the terms and conditions of this Agreement and all Order Forms (including
+    pricing), as well as business and marketing plans, technology and technical information,
+    product plans and designs, and business processes disclosed by such party.
+- source: confidential information of party
+  target: technology information
+  key: SUBSUM
+  text:
+  - Your Confidential Information includes Your Data; Our Confidential Information
+    includes our Services and all intellectual property, proprietary information and
+    trade secrets associated therewith; and Confidential Information of each party
+    includes the terms and conditions of this Agreement and all Order Forms (including
+    pricing), as well as business and marketing plans, technology and technical information,
+    product plans and designs, and business processes disclosed by such party.
+- source: information in user account
+  target: email address
+  key: SUBSUM
+  text:
+  - Termination of user account will include denial of access to all Services, deletion
+    of information in Your user account such as Your email address and password and
+    deletion of all data in Your user account.
+- source: information in user account
+  target: password
+  key: SUBSUM
+  text:
+  - Termination of user account will include denial of access to all Services, deletion
+    of information in Your user account such as Your email address and password and
+    deletion of all data in Your user account.
+- source: metric
+  target: bounce rate
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: number of visitor
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: traffic source
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: user preference
+  target: customization
+  key: SUBSUM
+  text:
+  - PREF cookie is set by Youtube to store user preferences like language, format
+    of search results and other customizations for YouTube Videos embedded in different
+    sites.
+- source: user preference
+  target: format of search result
+  key: SUBSUM
+  text:
+  - PREF cookie is set by Youtube to store user preferences like language, format
+    of search results and other customizations for YouTube Videos embedded in different
+    sites.
+- source: user preference
+  target: language
+  key: SUBSUM
+  text:
+  - PREF cookie is set by Youtube to store user preferences like language, format
+    of search results and other customizations for YouTube Videos embedded in different
+    sites.
+nodes:
+- type: ACTOR
+  id: analec
+- type: ACTOR
+  id: analec software extension
+- type: ACTOR
+  id: capability deliver via https://insightscrm.com as part of subscription
+- type: ACTOR
+  id: charge
+- type: ACTOR
+  id: communication from analec
+- type: ACTOR
+  id: free trial
+- type: ACTOR
+  id: module
+- type: ACTOR
+  id: newsletter
+- type: ACTOR
+  id: order form
+- type: ACTOR
+  id: paid subscription
+- type: ACTOR
+  id: receiving party
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: youtube
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: backup
+- type: DATA
+  id: bounce rate
+- type: DATA
+  id: confidential information
+- type: DATA
+  id: confidential information of disclosing party
+- type: DATA
+  id: confidential information of party
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customization
+- type: DATA
+  id: design
+- type: DATA
+  id: email address
+- type: DATA
+  id: file
+- type: DATA
+  id: format of search result
+- type: DATA
+  id: information in user account
+- type: DATA
+  id: intellectual property
+- type: DATA
+  id: language
+- type: DATA
+  id: metric
+- type: DATA
+  id: number of visitor
+- type: DATA
+  id: password
+- type: DATA
+  id: proprietary information
+- type: DATA
+  id: sample datum
+- type: DATA
+  id: technology information
+- type: DATA
+  id: trade secret
+- type: DATA
+  id: traffic source
+- type: DATA
+  id: user preference

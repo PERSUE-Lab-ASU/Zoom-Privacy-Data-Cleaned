@@ -1,0 +1,63 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We generally process your information when we need to do so to fulfill a contractual
+    obligation (for example, to process your subscription payments to use the LoyaltyMatch
+    application), or where we or someone we work with needs to use your personal information
+    for a reason related to their business (for example, to provide you with a service).
+  - We only process personal information for these "legitimate interests" after considering
+    the potential risks to your privacy--for example, by providing clear transparency
+    into our privacy practices, offering you control over your personal information
+    where appropriate, limiting the information we keep, limiting what we do with
+    your information, who we send your information to, how long we keep your information,
+    or the technical measures we use to protect your information.
+  purposes: {}
+- source: we
+  target: datum about individual across world
+  key: COLLECT
+  text:
+  - We are a Canadian company, but we work with and process data about individuals
+    across the world.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'In our mission to make loyalty programs and analytics available for all, at LoyaltyMatch
+    we collect and use information about you, including:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Finally, while we do what we can to protect your information, we may at times
+    be legally required to disclose your personal information (for example, if we
+    receive a valid court order).
+  - This Privacy Policy will help you better understand how we collect, use, and share
+    your personal information.
+  - We only process personal information for these "legitimate interests" after considering
+    the potential risks to your privacy--for example, by providing clear transparency
+    into our privacy practices, offering you control over your personal information
+    where appropriate, limiting the information we keep, limiting what we do with
+    your information, who we send your information to, how long we keep your information,
+    or the technical measures we use to protect your information.
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: datum about individual across world
+- type: DATA
+  id: information about you
+- type: DATA
+  id: personal information

@@ -1,0 +1,313 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'In addition, we may use the information for the following purposes:'
+  - We will retain and use your information as necessary to comply with our legal
+    obligations, resolve disputes, and enforce our agreements.
+  purposes:
+    advertising:
+    - To provide information on other products which we feel may be of interest to
+      you, where you have consented to receive such information
+    analytics:
+    - To provide information on other products which we feel may be of interest to
+      you, where you have consented to receive such information
+    - To provide you with information requested from us, relating to our products
+      or services
+    legal:
+    - To meet our contractual commitments to you
+    - to comply with our legal obligations, resolve disputes, and enforce our agreements
+    services:
+    - To notify you about any changes to our website and service, such as improvements
+      or service/product changes, that may affect the services we offer
+    - To provide you with information requested from us, relating to our products
+      or services
+- source: we
+  target: aggregate statistical information about user
+  key: COLLECT
+  text:
+  - Please be advised that we do not reveal any personal information about identifiable
+    individuals to other organizations, however we may provide aggregate statistical
+    information about our users and site visitors.
+  - We may contact you with information about goods and services related to your use
+    of BlueCamroo, however we may use aggregate statistical information about our
+    users and site visitors to improve our service and/or our website.
+  purposes:
+    services:
+    - to improve our service and/or our website
+- source: we
+  target: datum about you
+  key: COLLECT
+  text:
+  - 'In operating our Service we may collect and process the following data about
+    you:'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We use user's name and email to identify support tickets and open a Case in our
+    BlueCamroo workspace when we receive an email to our Support email address.
+  purposes:
+    services:
+    - to identify support tickets and open a Case in our BlueCamroo workspace when
+      we receive an email to our Support email address
+- source: we
+  target: information about computer
+  key: COLLECT
+  text:
+  - On occasion, we may gather information about your computer for our services and
+    to provide statistical information regarding the use of our website.
+  purposes:
+    analytics:
+    - for our services and to provide statistical information regarding the use of
+      our website
+- source: we
+  target: information need
+  key: COLLECT
+  text:
+  - We only collect the information needed so that BlueCamroo can run effectively.
+  purposes: {}
+- source: we
+  target: information on
+  key: COLLECT
+  text:
+  - 'In order to keep in compliance with the EU''s GDPR we will be sharing with you
+    some information on how we store and process your data:'
+  purposes:
+    legal:
+    - In order to keep in compliance with the EU's GDPR
+    - to keep in compliance with the EU's GDPR
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We use user's name and email to identify support tickets and open a Case in our
+    BlueCamroo workspace when we receive an email to our Support email address.
+  purposes:
+    services:
+    - to identify support tickets and open a Case in our BlueCamroo workspace when
+      we receive an email to our Support email address
+- source: we
+  target: personal datum we process on behalf of client
+  key: COLLECT
+  text:
+  - We will also retain personal data we process on behalf of our clients for as long
+    as needed to provide services to our client.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may also disclose your personal information to third parties:'
+  - We will internally share your personal information to necessary members of BlueCamroo
+    to provide a better service for you.
+  purposes:
+    security:
+    - To assist fraud protection and minimize credit risk
+    services:
+    - to provide a better service for you
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may also disclose your personal information to third parties:'
+  purposes:
+    security:
+    - To assist fraud protection and minimize credit risk
+- source: bluecamroo
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - BlueCamroo will retain your information for as long as your account is active
+    or as needed to provide you services.
+  purposes: {}
+- source: group
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This allows the admin to determine how much access to data each user or group
+    will get.
+  purposes: {}
+- source: datum about you
+  target: detail of visit to website
+  key: SUBSUM
+  text:
+  - 'In operating our Service we may collect and process the following data about
+    you: Details of your visits to our website and the resources that you access,
+    including, but not limited to, traffic data, location data, weblogs and other
+    communication data.'
+- source: datum about you
+  target: information provide to we
+  key: SUBSUM
+  text:
+  - 'In operating our Service we may collect and process the following data about
+    you: Information provided to us when you communicate with us for any reason'
+- source: datum about you
+  target: information you provide by as
+  key: SUBSUM
+  text:
+  - 'In operating our Service we may collect and process the following data about
+    you: Information that you provide by filling in forms on our website, such as
+    when you registered for information or make a payment for a subscription or for
+    any additional services we offer.'
+- source: datum about you
+  target: information you provide in order use
+  key: SUBSUM
+  text:
+  - 'In operating our Service we may collect and process the following data about
+    you: Information that you provide in order to use, or in the course of using,
+    the BlueCamroo system'
+- source: gmail datum
+  target: gmail message body
+  key: SUBSUM
+  text:
+  - 'Notwithstanding anything else in this Privacy Policy, if you provide the BlueCamroo
+    access to the following types of your Google data, the App''s use of that data
+    will be subject to these additional restrictions: The App will only use access
+    to read, write, modify, or control Gmail message bodies (including attachments),
+    metadata, headers, and settings to provide a web email client that allows users
+    to compose, send, read, and process emails and will not transfer this Gmail data
+    to others unless doing so is necessary to provide and improve these features,
+    comply with applicable law, or as part of a merger, acquisition, or sale of assets.'
+- source: gmail datum
+  target: google datum
+  key: SUBSUM
+  text:
+  - 'Notwithstanding anything else in this Privacy Policy, if you provide the BlueCamroo
+    access to the following types of your Google data, the App''s use of that data
+    will be subject to these additional restrictions: The App will not use this Gmail
+    data for serving advertisements.'
+  - 'Notwithstanding anything else in this Privacy Policy, if you provide the BlueCamroo
+    access to the following types of your Google data, the App''s use of that data
+    will be subject to these additional restrictions: The App will only use access
+    to read, write, modify, or control Gmail message bodies (including attachments),
+    metadata, headers, and settings to provide a web email client that allows users
+    to compose, send, read, and process emails and will not transfer this Gmail data
+    to others unless doing so is necessary to provide and improve these features,
+    comply with applicable law, or as part of a merger, acquisition, or sale of assets.'
+- source: gmail datum
+  target: header
+  key: SUBSUM
+  text:
+  - 'Notwithstanding anything else in this Privacy Policy, if you provide the BlueCamroo
+    access to the following types of your Google data, the App''s use of that data
+    will be subject to these additional restrictions: The App will only use access
+    to read, write, modify, or control Gmail message bodies (including attachments),
+    metadata, headers, and settings to provide a web email client that allows users
+    to compose, send, read, and process emails and will not transfer this Gmail data
+    to others unless doing so is necessary to provide and improve these features,
+    comply with applicable law, or as part of a merger, acquisition, or sale of assets.'
+- source: gmail datum
+  target: metadata
+  key: SUBSUM
+  text:
+  - 'Notwithstanding anything else in this Privacy Policy, if you provide the BlueCamroo
+    access to the following types of your Google data, the App''s use of that data
+    will be subject to these additional restrictions: The App will only use access
+    to read, write, modify, or control Gmail message bodies (including attachments),
+    metadata, headers, and settings to provide a web email client that allows users
+    to compose, send, read, and process emails and will not transfer this Gmail data
+    to others unless doing so is necessary to provide and improve these features,
+    comply with applicable law, or as part of a merger, acquisition, or sale of assets.'
+- source: gmail datum
+  target: setting
+  key: SUBSUM
+  text:
+  - 'Notwithstanding anything else in this Privacy Policy, if you provide the BlueCamroo
+    access to the following types of your Google data, the App''s use of that data
+    will be subject to these additional restrictions: The App will only use access
+    to read, write, modify, or control Gmail message bodies (including attachments),
+    metadata, headers, and settings to provide a web email client that allows users
+    to compose, send, read, and process emails and will not transfer this Gmail data
+    to others unless doing so is necessary to provide and improve these features,
+    comply with applicable law, or as part of a merger, acquisition, or sale of assets.'
+- source: gmail message body
+  target: attachment
+  key: SUBSUM
+  text:
+  - 'Notwithstanding anything else in this Privacy Policy, if you provide the BlueCamroo
+    access to the following types of your Google data, the App''s use of that data
+    will be subject to these additional restrictions: The App will only use access
+    to read, write, modify, or control Gmail message bodies (including attachments),
+    metadata, headers, and settings to provide a web email client that allows users
+    to compose, send, read, and process emails and will not transfer this Gmail data
+    to others unless doing so is necessary to provide and improve these features,
+    comply with applicable law, or as part of a merger, acquisition, or sale of assets.'
+- source: statistical data
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Privacy Policy for www.bluecamroo.com
+
+
+    Use of Cookies on www.bluecamroo.com'
+  - This statistical data does not identify any personal details whatsoever.
+- source: statistical data
+  target: statistical datum about visitor
+  key: SUBSUM
+  text:
+  - Such information will not identify you personally it is statistical data about
+    our visitors and their use of our site.
+  - This statistical data does not identify any personal details whatsoever.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: bluecamroo
+- type: ACTOR
+  id: group
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate statistical information about user
+- type: DATA
+  id: attachment
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: detail of visit to website
+- type: DATA
+  id: email address
+- type: DATA
+  id: gmail datum
+- type: DATA
+  id: gmail message body
+- type: DATA
+  id: google datum
+- type: DATA
+  id: header
+- type: DATA
+  id: information about computer
+- type: DATA
+  id: information need
+- type: DATA
+  id: information on
+- type: DATA
+  id: information provide to we
+- type: DATA
+  id: information you provide by as
+- type: DATA
+  id: information you provide in order use
+- type: DATA
+  id: metadata
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum we process on behalf of client
+- type: DATA
+  id: personal information
+- type: DATA
+  id: setting
+- type: DATA
+  id: statistical data
+- type: DATA
+  id: statistical datum about visitor

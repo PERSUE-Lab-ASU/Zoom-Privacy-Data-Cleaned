@@ -1,0 +1,128 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may access and collect information from your calendar and email accounts to
+    provide features such as scheduling meetings, generating summaries, and analyzing
+    your engagement.
+  - We may share your information with third-party service providers who assist us
+    in providing and improving our Service.
+  - We may use your information to personalize your experience, such as providing
+    tailored recommendations and content.
+  purposes:
+    analytics:
+    - to provide features such as scheduling meetings, generating summaries, and analyzing
+      your engagement
+    services:
+    - to personalize your experience, such as providing tailored recommendations and
+      content
+    - to provide features such as scheduling meetings, generating summaries, and analyzing
+      your engagement
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalized ads or
+    content, and analyze our traffic.'
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    analytics:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    services:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We use the information we collect to provide, maintain, and improve our Service,
+    including developing new features and functionality.
+  purposes:
+    services:
+    - to provide, maintain, and improve our Service, including developing new features
+      and functionality
+- source: we
+  target: meeting you schedule
+  key: COLLECT
+  text:
+  - Our Service may automatically transcribe and analyze meetings that you schedule
+    and attend using our platform.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy outlines how we collect, use, disclose, and protect your personal
+    information when you use our platform.
+  - We may collect personal information that you provide when you register for an
+    account, use our Service, or communicate with us.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your information with third-party service providers who assist us
+    in providing and improving our Service.
+  purposes: {}
+- source: salescaling
+  target: personal information
+  key: COLLECT
+  text:
+  - Salescaling retains personal data for as long as is necessary to fulfill the purposes
+    for which it was collected.
+  purposes: {}
+- source: metric
+  target: bounce rate
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: number of visitor
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: traffic source
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: salescaling
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: bounce rate
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: meeting you schedule
+- type: DATA
+  id: metric
+- type: DATA
+  id: number of visitor
+- type: DATA
+  id: personal information
+- type: DATA
+  id: traffic source

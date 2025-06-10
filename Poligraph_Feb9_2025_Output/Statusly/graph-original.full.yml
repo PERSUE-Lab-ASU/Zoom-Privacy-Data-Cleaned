@@ -1,0 +1,689 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We automatically collect certain information when you visit, use or navigate the
+    platform.
+  - We keep your information only so long as we need it to provide service to you
+    and fulfill the purposes described in this policy.
+  purposes: {}
+- source: we
+  target: browser datum
+  key: COLLECT
+  text:
+  - We may also use browser data such as cookies, Flash cookies (also known as Flash
+    Local Shared Objects) or similar data on certain parts of our Website for fraud
+    prevention and other purposes.
+  purposes:
+    security:
+    - for fraud prevention and other purposes
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We may share the information that we collect, both personal and non-personal,
+    with third parties such as advertisers, contest sponsors, promotional and marketing
+    partners, and others who provide our content or whose products or services we
+    think may interest you.
+  - 'We use the information we collect in various ways, including to: * Provide, operate,
+    and maintain our website or service * Improve, personalize, and expand our website
+    or service * Understand and analyze how you use our website or service * Develop
+    new products, services, features, and functionality'
+  purposes:
+    services:
+    - to provide you with updates and other information relating to the website or
+      service
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We may share portions of our log file data, including IP addresses, for analytics
+    purposes with third parties such as web analytics partners, application developers,
+    and ad networks.
+  purposes:
+    analytics:
+    - for analytics purposes
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may also disclose personal and non-personal information about you to government
+    or law enforcement officials or private parties as we, in our sole discretion,
+    believe necessary or appropriate in order to respond to claims, legal process
+    (including subpoenas), to protect our rights and interests or those of a third
+    party, the safety of the public or any person, to prevent or stop any illegal,
+    unethical, or legally actionable activity, or to otherwise comply with applicable
+    court orders, laws, rules and regulations.
+  - We may also share it with our current and future affiliated companies and business
+    partners, and if we are involved in a merger, asset sale or other business reorganization,
+    we may also share or transfer your personal and non-personal information to our
+    successors-in-interest.
+  - We will likely share your personal information, and possibly some non-personal
+    information, with these third parties to enable them to perform these services
+    for us and for you.
+  purposes:
+    legal:
+    - in order to respond to claims, legal process (including subpoenas), to protect
+      our rights and interests or those of a third party, the safety of the public
+      or any person, to prevent or stop any illegal, unethical, or legally actionable
+      activity, or to otherwise comply with applicable court orders, laws, rules and
+      regulations
+    security:
+    - in order to respond to claims, legal process (including subpoenas), to protect
+      our rights and interests or those of a third party, the safety of the public
+      or any person, to prevent or stop any illegal, unethical, or legally actionable
+      activity, or to otherwise comply with applicable court orders, laws, rules and
+      regulations
+    services:
+    - to enable them to perform these services for us and for you
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will collect personal information that you submit to us.
+  - We will likely share your personal information, and possibly some non-personal
+    information, with these third parties to enable them to perform these services
+    for us and for you.
+  purposes:
+    services:
+    - to enable them to perform these services for us and for you
+- source: we
+  target: session information
+  key: COLLECT
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+  purposes: {}
+- source: we
+  target: technical information
+  key: COLLECT
+  text:
+  - We may also collect technical information to help us identify your device for
+    fraud prevention and diagnostic purposes.
+  purposes:
+    security:
+    - to help us identify your device for fraud prevention and diagnostic purposes
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We will likely share your personal information, and possibly some non-personal
+    information, with these third parties to enable them to perform these services
+    for us and for you.
+  purposes:
+    services:
+    - to enable them to perform these services for us and for you
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We will likely share your personal information, and possibly some non-personal
+    information, with these third parties to enable them to perform these services
+    for us and for you.
+  purposes:
+    services:
+    - to enable them to perform these services for us and for you
+- source: advertiser
+  target: information we collect
+  key: COLLECT
+  text:
+  - We may share the information that we collect, both personal and non-personal,
+    with third parties such as advertisers, contest sponsors, promotional and marketing
+    partners, and others who provide our content or whose products or services we
+    think may interest you.
+  purposes: {}
+- source: advertiser
+  target: ip address
+  key: COLLECT
+  text:
+  - They automatically receive your IP address when this occurs.
+  - Third-party ad servers or ad networks uses technologies like cookies, JavaScript,
+    or Web Beacons that are used in their respective advertisements and links that
+    appear on Statusly, which are sent directly to users' browser.
+  - We may share portions of our log file data, including IP addresses, for analytics
+    purposes with third parties such as web analytics partners, application developers,
+    and ad networks.
+  purposes:
+    analytics:
+    - for analytics purposes
+- source: analytic provider
+  target: ip address
+  key: COLLECT
+  text:
+  - We may share portions of our log file data, including IP addresses, for analytics
+    purposes with third parties such as web analytics partners, application developers,
+    and ad networks.
+  purposes:
+    analytics:
+    - for analytics purposes
+- source: application developer
+  target: ip address
+  key: COLLECT
+  text:
+  - We may share portions of our log file data, including IP addresses, for analytics
+    purposes with third parties such as web analytics partners, application developers,
+    and ad networks.
+  purposes:
+    analytics:
+    - for analytics purposes
+- source: contest sponsor
+  target: information we collect
+  key: COLLECT
+  text:
+  - We may share the information that we collect, both personal and non-personal,
+    with third parties such as advertisers, contest sponsors, promotional and marketing
+    partners, and others who provide our content or whose products or services we
+    think may interest you.
+  purposes: {}
+- source: government official
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may also disclose personal and non-personal information about you to government
+    or law enforcement officials or private parties as we, in our sole discretion,
+    believe necessary or appropriate in order to respond to claims, legal process
+    (including subpoenas), to protect our rights and interests or those of a third
+    party, the safety of the public or any person, to prevent or stop any illegal,
+    unethical, or legally actionable activity, or to otherwise comply with applicable
+    court orders, laws, rules and regulations.
+  purposes:
+    legal:
+    - in order to respond to claims, legal process (including subpoenas), to protect
+      our rights and interests or those of a third party, the safety of the public
+      or any person, to prevent or stop any illegal, unethical, or legally actionable
+      activity, or to otherwise comply with applicable court orders, laws, rules and
+      regulations
+    security:
+    - in order to respond to claims, legal process (including subpoenas), to protect
+      our rights and interests or those of a third party, the safety of the public
+      or any person, to prevent or stop any illegal, unethical, or legally actionable
+      activity, or to otherwise comply with applicable court orders, laws, rules and
+      regulations
+- source: private party
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may also disclose personal and non-personal information about you to government
+    or law enforcement officials or private parties as we, in our sole discretion,
+    believe necessary or appropriate in order to respond to claims, legal process
+    (including subpoenas), to protect our rights and interests or those of a third
+    party, the safety of the public or any person, to prevent or stop any illegal,
+    unethical, or legally actionable activity, or to otherwise comply with applicable
+    court orders, laws, rules and regulations.
+  purposes:
+    legal:
+    - in order to respond to claims, legal process (including subpoenas), to protect
+      our rights and interests or those of a third party, the safety of the public
+      or any person, to prevent or stop any illegal, unethical, or legally actionable
+      activity, or to otherwise comply with applicable court orders, laws, rules and
+      regulations
+    security:
+    - in order to respond to claims, legal process (including subpoenas), to protect
+      our rights and interests or those of a third party, the safety of the public
+      or any person, to prevent or stop any illegal, unethical, or legally actionable
+      activity, or to otherwise comply with applicable court orders, laws, rules and
+      regulations
+- source: promotional partner
+  target: information we collect
+  key: COLLECT
+  text:
+  - We may share the information that we collect, both personal and non-personal,
+    with third parties such as advertisers, contest sponsors, promotional and marketing
+    partners, and others who provide our content or whose products or services we
+    think may interest you.
+  purposes: {}
+- source: statusly
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like any other website, Statusly uses 'cookies'.
+  purposes: {}
+- source: browser datum
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - We may also use browser data such as cookies, Flash cookies (also known as Flash
+    Local Shared Objects) or similar data on certain parts of our Website for fraud
+    prevention and other purposes.
+- source: browser datum
+  target: datum on part of website
+  key: SUBSUM
+  text:
+  - We may also use browser data such as cookies, Flash cookies (also known as Flash
+    Local Shared Objects) or similar data on certain parts of our Website for fraud
+    prevention and other purposes.
+- source: contact information
+  target: item
+  key: SUBSUM
+  text:
+  - When you register for an Account, we may ask for your contact information, including
+    items such as name, email address, and telephone number.
+- source: device information
+  target: browser characteristic
+  key: SUBSUM
+  text:
+  - This information does not reveal your specific identity (like your name or contact
+    information) but may include device and usage information, such as your IP address,
+    browser and device characteristics, operating system, language preferences, referring
+    URLs, device name, country, location, information about who and when you use our
+    and other technical information.
+- source: device information
+  target: coarse geolocation
+  key: SUBSUM
+  text:
+  - This information does not reveal your specific identity (like your name or contact
+    information) but may include device and usage information, such as your IP address,
+    browser and device characteristics, operating system, language preferences, referring
+    URLs, device name, country, location, information about who and when you use our
+    and other technical information.
+- source: device information
+  target: device name
+  key: SUBSUM
+  text:
+  - This information does not reveal your specific identity (like your name or contact
+    information) but may include device and usage information, such as your IP address,
+    browser and device characteristics, operating system, language preferences, referring
+    URLs, device name, country, location, information about who and when you use our
+    and other technical information.
+- source: device information
+  target: information about
+  key: SUBSUM
+  text:
+  - This information does not reveal your specific identity (like your name or contact
+    information) but may include device and usage information, such as your IP address,
+    browser and device characteristics, operating system, language preferences, referring
+    URLs, device name, country, location, information about who and when you use our
+    and other technical information.
+- source: device information
+  target: ip address
+  key: SUBSUM
+  text:
+  - This information does not reveal your specific identity (like your name or contact
+    information) but may include device and usage information, such as your IP address,
+    browser and device characteristics, operating system, language preferences, referring
+    URLs, device name, country, location, information about who and when you use our
+    and other technical information.
+- source: device information
+  target: language preference
+  key: SUBSUM
+  text:
+  - This information does not reveal your specific identity (like your name or contact
+    information) but may include device and usage information, such as your IP address,
+    browser and device characteristics, operating system, language preferences, referring
+    URLs, device name, country, location, information about who and when you use our
+    and other technical information.
+- source: device information
+  target: operating system
+  key: SUBSUM
+  text:
+  - This information does not reveal your specific identity (like your name or contact
+    information) but may include device and usage information, such as your IP address,
+    browser and device characteristics, operating system, language preferences, referring
+    URLs, device name, country, location, information about who and when you use our
+    and other technical information.
+- source: device information
+  target: refer url
+  key: SUBSUM
+  text:
+  - This information does not reveal your specific identity (like your name or contact
+    information) but may include device and usage information, such as your IP address,
+    browser and device characteristics, operating system, language preferences, referring
+    URLs, device name, country, location, information about who and when you use our
+    and other technical information.
+- source: information about you
+  target: attachment
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: content
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: email address
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: information you choose
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: person name
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: phone number
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information collect
+  target: browser type
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: information collect
+  target: date
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: email address
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: information collect
+  target: ip address
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: number of click
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: phone number
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: information collect
+  target: time
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: item
+  target: email address
+  key: SUBSUM
+  text:
+  - When you register for an Account, we may ask for your contact information, including
+    items such as name, email address, and telephone number.
+- source: item
+  target: person name
+  key: SUBSUM
+  text:
+  - When you register for an Account, we may ask for your contact information, including
+    items such as name, email address, and telephone number.
+- source: item
+  target: phone number
+  key: SUBSUM
+  text:
+  - When you register for an Account, we may ask for your contact information, including
+    items such as name, email address, and telephone number.
+- source: page interaction information
+  target: mouse over
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: personal information
+  target: specific piece
+  key: SUBSUM
+  text:
+  - 'Under the CCPA, among other rights, California consumers have the right to: Request
+    that a business that collects a consumer''s personal data disclose the categories
+    and specific pieces of personal data that a business has collected about consumers.'
+- source: session information
+  target: download error
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: session information
+  target: length
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: session information
+  target: page interaction information
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: session information
+  target: page response time
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: specific identity
+  target: contact information
+  key: SUBSUM
+  text:
+  - This information does not reveal your specific identity (like your name or contact
+    information) but may include device and usage information, such as your IP address,
+    browser and device characteristics, operating system, language preferences, referring
+    URLs, device name, country, location, information about who and when you use our
+    and other technical information.
+- source: specific identity
+  target: person name
+  key: SUBSUM
+  text:
+  - This information does not reveal your specific identity (like your name or contact
+    information) but may include device and usage information, such as your IP address,
+    browser and device characteristics, operating system, language preferences, referring
+    URLs, device name, country, location, information about who and when you use our
+    and other technical information.
+- source: technographic
+  target: type of device use
+  key: SUBSUM
+  text:
+  - If your IP address is shared, it may be used to estimate general location and
+    other technographics such as connection speed, whether you have visited the service
+    in a shared location, and type of device used to visit the service.
+- source: technology
+  target: javascript
+  key: SUBSUM
+  text:
+  - Third-party ad servers or ad networks uses technologies like cookies, JavaScript,
+    or Web Beacons that are used in their respective advertisements and links that
+    appear on Statusly, which are sent directly to users' browser.
+- source: type of device use
+  target: connection speed
+  key: SUBSUM
+  text:
+  - If your IP address is shared, it may be used to estimate general location and
+    other technographics such as connection speed, whether you have visited the service
+    in a shared location, and type of device used to visit the service.
+- source: type of device use
+  target: geolocation
+  key: SUBSUM
+  text:
+  - If your IP address is shared, it may be used to estimate general location and
+    other technographics such as connection speed, whether you have visited the service
+    in a shared location, and type of device used to visit the service.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: application developer
+- type: ACTOR
+  id: contest sponsor
+- type: ACTOR
+  id: government official
+- type: ACTOR
+  id: javascript
+- type: ACTOR
+  id: private party
+- type: ACTOR
+  id: promotional partner
+- type: ACTOR
+  id: statusly
+- type: ACTOR
+  id: technology
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: attachment
+- type: DATA
+  id: browser characteristic
+- type: DATA
+  id: browser datum
+- type: DATA
+  id: browser type
+- type: DATA
+  id: coarse geolocation
+- type: DATA
+  id: connection speed
+- type: DATA
+  id: contact information
+- type: DATA
+  id: content
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: datum on part of website
+- type: DATA
+  id: device information
+- type: DATA
+  id: device name
+- type: DATA
+  id: download error
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information collect
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: ip address
+- type: DATA
+  id: item
+- type: DATA
+  id: language preference
+- type: DATA
+  id: length
+- type: DATA
+  id: mouse over
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: number of click
+- type: DATA
+  id: operating system
+- type: DATA
+  id: page interaction information
+- type: DATA
+  id: page response time
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: refer url
+- type: DATA
+  id: session information
+- type: DATA
+  id: specific identity
+- type: DATA
+  id: specific piece
+- type: DATA
+  id: technical information
+- type: DATA
+  id: technographic
+- type: DATA
+  id: time
+- type: DATA
+  id: type of device use

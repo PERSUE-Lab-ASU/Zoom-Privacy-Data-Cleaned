@@ -1,0 +1,35 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information contain in advertisement
+  key: COLLECT
+  text:
+  - Like other websites, we collect and use information contained in advertisements.
+  purposes: {}
+- source: information contain in advertisement
+  target: ip address
+  key: SUBSUM
+  text:
+  - The information contained in the advertisements includes your IP (Internet Protocol)
+    address, your ISP (Internet Service Provider, such as Sapo, Clix, or other), the
+    browser you used when visiting our website (such as Internet Explorer or Firefox),
+    the time of your visit and what pages you visited within our website.
+- source: information contain in advertisement
+  target: time of visit
+  key: SUBSUM
+  text:
+  - The information contained in the advertisements includes your IP (Internet Protocol)
+    address, your ISP (Internet Service Provider, such as Sapo, Clix, or other), the
+    browser you used when visiting our website (such as Internet Explorer or Firefox),
+    the time of your visit and what pages you visited within our website.
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: information contain in advertisement
+- type: DATA
+  id: ip address
+- type: DATA
+  id: time of visit

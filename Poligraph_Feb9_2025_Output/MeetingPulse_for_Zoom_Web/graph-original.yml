@@ -1,0 +1,266 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We also use these technologies to collect and store information when you interact
+    with services offered by our partners, such as advertising services or user behaviour
+    analytics services.
+  - We collect and process information from you when you create an event, attend an
+    event or register an account with us.
+  - 'We collect information in the following ways:'
+  - We may also release your information when we believe release is appropriate to
+    comply with the law, enforce our site policies or protect our or others' rights,
+    property, or safety.
+  - We store your data on our servers located within the United States.
+  - When you use our services as an event admin or an attendee, we automatically collect
+    and store certain information in server logs.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'This information includes: Cookies and similar technologies.'
+  - We and our partners use may use cookies of similar technologies to identify your
+    browser or device.
+  - We collect information about the services that you use and how you use them, like
+    when you create an event or enter as an attendee.
+  - 'We use cookies on our sites for two main reasons:'
+  purposes:
+    analytics:
+    - To store your interaction with our sites
+    security:
+    - to identify your browser or device
+    services:
+    - In order to save your settings for future visits
+    - To store your interaction with our sites
+    - to identify your browser or device
+- source: we
+  target: device information
+  key: COLLECT
+  text:
+  - 'This information includes: Device Information.'
+  - We collect information about the services that you use and how you use them, like
+    when you create an event or enter as an attendee.
+  purposes: {}
+- source: we
+  target: device specific information
+  key: COLLECT
+  text:
+  - 'We may collect device-specific information, as provided by your browser such
+    as: hardware, operating system version, browser version and device identifiers.'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - Please include the phrase "California Privacy Request:" in the subject line, and
+    provide us with your name, address and email address.
+  purposes: {}
+- source: we
+  target: information collect
+  key: COLLECT
+  text:
+  - We use the information collected using cookies to improve our sites and services.
+  purposes:
+    services:
+    - to improve our sites and services
+- source: we
+  target: log information
+  key: COLLECT
+  text:
+  - 'This information includes: Log Information.'
+  - We collect information about the services that you use and how you use them, like
+    when you create an event or enter as an attendee.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - Please include the phrase "California Privacy Request:" in the subject line, and
+    provide us with your name, address and email address.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If you are accessing the Websites or Services from the European Union, we will
+    transfer your personal information to the United States through the use of appropriate
+    safeguards.
+  - In the event of a legal matter, when necessary we will disclose personal data
+    in certain ways to comply with our legal obligations.
+  - 'Privacy Policy
+
+
+    We process personal data:'
+  - We may collect and store information (including personal information) locally
+    on your device using mechanisms such as browser web storage (including HTML 5)
+    and application data caches.
+  purposes:
+    legal:
+    - To Fulfill Our Contractual Commitments
+    - to comply with our legal obligations
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - Please include the phrase "California Privacy Request:" in the subject line, and
+    provide us with your name, address and email address.
+  purposes: {}
+- source: Hotjar
+  target: browser information
+  key: COLLECT
+  text:
+  - Hotjar stores this information on our behalf in a pseudonymized user profile.
+  - This includes a device's IP address (processed during your session and stored
+    in a de-identified form), device screen size, device type (unique device identifiers),
+    browser information, geographic location (country only), and the preferred language
+    used to display our platform.
+  purposes: {}
+- source: Hotjar
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Hotjar uses cookies and other technologies to collect data on our users' behavior
+    and their devices.
+  purposes: {}
+- source: Hotjar
+  target: datum on behavior
+  key: COLLECT
+  text:
+  - Hotjar uses cookies and other technologies to collect data on our users' behavior
+    and their devices.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We and our partners use may use cookies of similar technologies to identify your
+    browser or device.
+  - When you visit or log in to our website, cookies and similar technologies may
+    be used by our online data partners or vendors to associate these activities with
+    other personal information they or others have about you, including by association
+    with your email or home address.
+  purposes:
+    analytics:
+    - to associate these activities with other personal information they or others
+      have about you, including by association with your email or home address
+    security:
+    - to associate these activities with other personal information they or others
+      have about you, including by association with your email or home address
+    - to identify your browser or device
+    services:
+    - to associate these activities with other personal information they or others
+      have about you, including by association with your email or home address
+    - to identify your browser or device
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Non-personally identifiable information may be provided to other parties for MeetingPulse
+    marketing, advertising, or other uses.
+  purposes:
+    advertising:
+    - for MeetingPulse marketing, advertising, or other uses
+- source: event admin
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - As an attendee, an event admin may ask you to provide your name or other details.
+  purposes: {}
+- source: event admin
+  target: person name
+  key: COLLECT
+  text:
+  - As an attendee, an event admin may ask you to provide your name or other details.
+  purposes: {}
+- source: online datum partner
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - When you visit or log in to our website, cookies and similar technologies may
+    be used by our online data partners or vendors to associate these activities with
+    other personal information they or others have about you, including by association
+    with your email or home address.
+  purposes:
+    analytics:
+    - to associate these activities with other personal information they or others
+      have about you, including by association with your email or home address
+    security:
+    - to associate these activities with other personal information they or others
+      have about you, including by association with your email or home address
+    services:
+    - to associate these activities with other personal information they or others
+      have about you, including by association with your email or home address
+- source: device specific information
+  target: browser version
+  key: SUBSUM
+  text:
+  - 'We may collect device-specific information, as provided by your browser such
+    as: hardware, operating system version, browser version and device identifiers.'
+- source: device specific information
+  target: device identifier
+  key: SUBSUM
+  text:
+  - 'We may collect device-specific information, as provided by your browser such
+    as: hardware, operating system version, browser version and device identifiers.'
+- source: device specific information
+  target: hardware
+  key: SUBSUM
+  text:
+  - 'We may collect device-specific information, as provided by your browser such
+    as: hardware, operating system version, browser version and device identifiers.'
+- source: device specific information
+  target: operating system version
+  key: SUBSUM
+  text:
+  - 'We may collect device-specific information, as provided by your browser such
+    as: hardware, operating system version, browser version and device identifiers.'
+nodes:
+- type: ACTOR
+  id: Hotjar
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: event admin
+- type: ACTOR
+  id: online datum partner
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser information
+- type: DATA
+  id: browser version
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum on behavior
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device information
+- type: DATA
+  id: device specific information
+- type: DATA
+  id: email address
+- type: DATA
+  id: hardware
+- type: DATA
+  id: information collect
+- type: DATA
+  id: log information
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: operating system version
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address

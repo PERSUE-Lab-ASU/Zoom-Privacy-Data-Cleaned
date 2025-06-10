@@ -1,0 +1,71 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'When you use the SLMax app to create Zoom meetings and amoCRM, we may collect
+    the following information: - data provided by the user when registering and using
+    the application; - data from Zoom meetings and integrations with amoCRM created
+    by the user in our application; - information about the user''s actions in the
+    application to improve its functionality and quality of service.'
+  purposes: {}
+- source: we
+  target: data provide
+  key: COLLECT
+  text:
+  - 'When you use the SLMax app to create Zoom meetings and amoCRM, we may collect
+    the following information: - data provided by the user when registering and using
+    the application; - data from Zoom meetings and integrations with amoCRM created
+    by the user in our application; - information about the user''s actions in the
+    application to improve its functionality and quality of service.'
+  purposes: {}
+- source: we
+  target: information about action in application
+  key: COLLECT
+  text:
+  - 'When you use the SLMax app to create Zoom meetings and amoCRM, we may collect
+    the following information: - data provided by the user when registering and using
+    the application; - data from Zoom meetings and integrations with amoCRM created
+    by the user in our application; - information about the user''s actions in the
+    application to improve its functionality and quality of service.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about create zoom meeting
+  key: COLLECT
+  text:
+  - 3.2 Information about created Zoom meetings and integrations with amoCRM may be
+    disclosed to third parties only when necessary to fulfil legal requirements or
+    when necessary to protect the rights and property of the application.
+  purposes: {}
+- source: slmax
+  target: information collect
+  key: COLLECT
+  text:
+  - '1.2 SLMax may use the information collected to: - provide services to create
+    Zoom meetings and integrate with amoCRM; - improve the application and provide
+    a better user experience; - provide feedback to users and solve possible problems.'
+  purposes:
+    services:
+    - 'to: - provide services to create Zoom meetings and integrate with amoCRM; -
+      improve the application and provide a better user experience; - provide feedback
+      to users and solve possible problems'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: slmax
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: data provide
+- type: DATA
+  id: information about action in application
+- type: DATA
+  id: information about create zoom meeting
+- type: DATA
+  id: information collect

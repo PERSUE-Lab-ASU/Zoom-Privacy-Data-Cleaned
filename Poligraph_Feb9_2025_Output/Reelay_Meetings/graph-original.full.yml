@@ -1,0 +1,143 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: api
+  key: SUBSUM
+  text:
+  - These Terms of Service apply to www.reelay.com and our various websites, APIs,
+    email notifications, documentation, software, products, licenses or applications
+    (collectively, the "Service") that is owned and operated by Reelay Meetings, Inc.
+    ("Reelay", "we", "our", or "us").
+- source: we
+  target: documentation
+  key: SUBSUM
+  text:
+  - These Terms of Service apply to www.reelay.com and our various websites, APIs,
+    email notifications, documentation, software, products, licenses or applications
+    (collectively, the "Service") that is owned and operated by Reelay Meetings, Inc.
+    ("Reelay", "we", "our", or "us").
+- source: we
+  target: email notification
+  key: SUBSUM
+  text:
+  - These Terms of Service apply to www.reelay.com and our various websites, APIs,
+    email notifications, documentation, software, products, licenses or applications
+    (collectively, the "Service") that is owned and operated by Reelay Meetings, Inc.
+    ("Reelay", "we", "our", or "us").
+- source: we
+  target: license
+  key: SUBSUM
+  text:
+  - These Terms of Service apply to www.reelay.com and our various websites, APIs,
+    email notifications, documentation, software, products, licenses or applications
+    (collectively, the "Service") that is owned and operated by Reelay Meetings, Inc.
+    ("Reelay", "we", "our", or "us").
+- source: we
+  target: mobile applications
+  key: SUBSUM
+  text:
+  - Our services are provided through the Site (which may include Mobile Applications),
+    which is an online meeting technology solution that allows participating meeting
+    hosts ("Hosts") and meeting viewers ("Viewers") to communicate with their colleagues
+    and clients ("Teammates") by distributing virtual meeting assets via a secure
+    Internet connection.
+- source: information reasonably sufficient
+  target: email address
+  key: SUBSUM
+  text:
+  - 'If you believe any materials on the Site or Services infringe a copyright, you
+    should provide us with written notice that at a minimum contains: i. A physical
+    or electronic signature of a person authorized to act on behalf of the owner of
+    an exclusive right that is allegedly infringed; ii. Identification of the copyrighted
+    work claimed to have been infringed, or, if multiple copyrighted works at a single
+    online site are covered by a single notification, a representative list of such
+    works at that site; iii. Identification of the material that is claimed to be
+    infringing or to be the subject of infringing activity and that is to be removed
+    or access to which is to be disabled, and information reasonably sufficient to
+    permit us to locate the material; iv. Information reasonably sufficient to permit
+    us to contact the complaining party, such as an address, telephone number, and,
+    if available, an electronic mail address at which the complaining party may be
+    contacted; v. A statement that the complaining party has a good faith belief that
+    use of the material in the manner complained of is not authorized by the copyright
+    owner, its agent, or the law; and vi.'
+- source: information reasonably sufficient
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'If you believe any materials on the Site or Services infringe a copyright, you
+    should provide us with written notice that at a minimum contains: i. A physical
+    or electronic signature of a person authorized to act on behalf of the owner of
+    an exclusive right that is allegedly infringed; ii. Identification of the copyrighted
+    work claimed to have been infringed, or, if multiple copyrighted works at a single
+    online site are covered by a single notification, a representative list of such
+    works at that site; iii. Identification of the material that is claimed to be
+    infringing or to be the subject of infringing activity and that is to be removed
+    or access to which is to be disabled, and information reasonably sufficient to
+    permit us to locate the material; iv. Information reasonably sufficient to permit
+    us to contact the complaining party, such as an address, telephone number, and,
+    if available, an electronic mail address at which the complaining party may be
+    contacted; v. A statement that the complaining party has a good faith belief that
+    use of the material in the manner complained of is not authorized by the copyright
+    owner, its agent, or the law; and vi.'
+- source: information reasonably sufficient
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'If you believe any materials on the Site or Services infringe a copyright, you
+    should provide us with written notice that at a minimum contains: i. A physical
+    or electronic signature of a person authorized to act on behalf of the owner of
+    an exclusive right that is allegedly infringed; ii. Identification of the copyrighted
+    work claimed to have been infringed, or, if multiple copyrighted works at a single
+    online site are covered by a single notification, a representative list of such
+    works at that site; iii. Identification of the material that is claimed to be
+    infringing or to be the subject of infringing activity and that is to be removed
+    or access to which is to be disabled, and information reasonably sufficient to
+    permit us to locate the material; iv. Information reasonably sufficient to permit
+    us to contact the complaining party, such as an address, telephone number, and,
+    if available, an electronic mail address at which the complaining party may be
+    contacted; v. A statement that the complaining party has a good faith belief that
+    use of the material in the manner complained of is not authorized by the copyright
+    owner, its agent, or the law; and vi.'
+- source: information we obtain through use of service
+  target: registration datum
+  key: SUBSUM
+  text:
+  - The information we obtain through your use of this Service, including your Registration
+    Data, is subject to our Privacy Policy, which is specifically incorporated by
+    reference into these Terms of Service.
+- source: user account
+  target: password
+  key: SUBSUM
+  text:
+  - Your user account includes a password.
+nodes:
+- type: ACTOR
+  id: api
+- type: ACTOR
+  id: documentation
+- type: ACTOR
+  id: email notification
+- type: ACTOR
+  id: license
+- type: ACTOR
+  id: mobile applications
+- type: ACTOR
+  id: we
+- type: DATA
+  id: email address
+- type: DATA
+  id: information reasonably sufficient
+- type: DATA
+  id: information we obtain through use of service
+- type: DATA
+  id: password
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: registration datum
+- type: DATA
+  id: user account

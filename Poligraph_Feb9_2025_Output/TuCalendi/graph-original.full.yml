@@ -1,0 +1,284 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Like every service operator, we also capture, process and use data as part of
+    our application services online via the internet and mobile applications (the
+    "Service").
+  - We may share information with Service Providers and government entities for legal,
+    security, and safety purposes.
+  purposes:
+    legal:
+    - for legal, security, and safety purposes
+    security:
+    - for legal, security, and safety purposes
+- source: we
+  target: anonymous technical datum
+  key: COLLECT
+  text:
+  - We collect anonymous technical data, such as the name of your internet service
+    provider, internet browser and operating system, screen resolution and information
+    about the websites that directed you to us, the number and date of your visits,
+    your average time on our site and which of our websites you visited.
+  purposes: {}
+- source: we
+  target: data require for
+  key: COLLECT
+  text:
+  - We only process or use the data which is required for using the site or the data
+    which you provide to us.
+  purposes: {}
+- source: we
+  target: datum you provide to we
+  key: COLLECT
+  text:
+  - We only process or use the data which is required for using the site or the data
+    which you provide to us.
+  purposes: {}
+- source: we
+  target: personal datum collect during registration
+  key: COLLECT
+  text:
+  - All personal data collected during registration will be stored by us for as long
+    as the user's registration is active.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If the user shares personal data for the purpose of establishing contact, we will
+    store this data only for as long as it is required for the purpose of communication,
+    customer contact and project planning and implementation.
+  - 'Privacy Policy
+
+
+    We collect, process and use the personal data you provided to us when you registered
+    for our membership area, to the extent required, for the following purposes:'
+  - Therefore we gather, process and use your personal data exclusively in accordance
+    with the applicable legal regulations.
+  - We collect, process and use your personal data only with your consent or when
+    this processing or use is permissible by law.
+  purposes: {}
+- source: we
+  target: transaction datum
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Registration and Execution of the Contract : We collect, process and use transaction
+    data relating to your activities on the websites (such as purchases and content
+    which you generate or associate with your account).'
+  purposes: {}
+- source: government entity
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share information with Service Providers and government entities for legal,
+    security, and safety purposes.
+  purposes:
+    legal:
+    - for legal, security, and safety purposes
+    security:
+    - for legal, security, and safety purposes
+- source: service providers
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share information with Service Providers and government entities for legal,
+    security, and safety purposes.
+  purposes:
+    legal:
+    - for legal, security, and safety purposes
+    security:
+    - for legal, security, and safety purposes
+- source: service providers
+  target: personal information
+  key: COLLECT
+  text:
+  - These Service Providers may have access to your personal or other information
+    in order to provide these functions.
+  - We may also engage Service Providers to provide services such as monitoring and
+    developing TuCalendi services, IT services, customer service, analyzing, enhancing
+    data etc etc.
+  purposes:
+    services:
+    - in order to provide these functions
+- source: activity on website
+  target: account
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Registration and Execution of the Contract : We collect, process and use transaction
+    data relating to your activities on the websites (such as purchases and content
+    which you generate or associate with your account).'
+- source: activity on website
+  target: content
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Registration and Execution of the Contract : We collect, process and use transaction
+    data relating to your activities on the websites (such as purchases and content
+    which you generate or associate with your account).'
+- source: anonymous technical datum
+  target: average time on site
+  key: SUBSUM
+  text:
+  - We collect anonymous technical data, such as the name of your internet service
+    provider, internet browser and operating system, screen resolution and information
+    about the websites that directed you to us, the number and date of your visits,
+    your average time on our site and which of our websites you visited.
+- source: anonymous technical datum
+  target: date
+  key: SUBSUM
+  text:
+  - We collect anonymous technical data, such as the name of your internet service
+    provider, internet browser and operating system, screen resolution and information
+    about the websites that directed you to us, the number and date of your visits,
+    your average time on our site and which of our websites you visited.
+- source: anonymous technical datum
+  target: information about website direct you to we
+  key: SUBSUM
+  text:
+  - We collect anonymous technical data, such as the name of your internet service
+    provider, internet browser and operating system, screen resolution and information
+    about the websites that directed you to us, the number and date of your visits,
+    your average time on our site and which of our websites you visited.
+- source: anonymous technical datum
+  target: name of internet service provider
+  key: SUBSUM
+  text:
+  - We collect anonymous technical data, such as the name of your internet service
+    provider, internet browser and operating system, screen resolution and information
+    about the websites that directed you to us, the number and date of your visits,
+    your average time on our site and which of our websites you visited.
+- source: anonymous technical datum
+  target: number
+  key: SUBSUM
+  text:
+  - We collect anonymous technical data, such as the name of your internet service
+    provider, internet browser and operating system, screen resolution and information
+    about the websites that directed you to us, the number and date of your visits,
+    your average time on our site and which of our websites you visited.
+- source: anonymous technical datum
+  target: screen resolution
+  key: SUBSUM
+  text:
+  - We collect anonymous technical data, such as the name of your internet service
+    provider, internet browser and operating system, screen resolution and information
+    about the websites that directed you to us, the number and date of your visits,
+    your average time on our site and which of our websites you visited.
+- source: datum you provide
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Registration and Execution of the Contract : Data that you provide when setting
+    up an account, such as your name, email address, telephone number, mobile phone
+    number, postal address and the information provided depending on the services
+    used.'
+- source: datum you provide
+  target: information provide depend on service use
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Registration and Execution of the Contract : Data that you provide when setting
+    up an account, such as your name, email address, telephone number, mobile phone
+    number, postal address and the information provided depending on the services
+    used.'
+- source: datum you provide
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Registration and Execution of the Contract : Data that you provide when setting
+    up an account, such as your name, email address, telephone number, mobile phone
+    number, postal address and the information provided depending on the services
+    used.'
+- source: datum you provide
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Registration and Execution of the Contract : Data that you provide when setting
+    up an account, such as your name, email address, telephone number, mobile phone
+    number, postal address and the information provided depending on the services
+    used.'
+- source: datum you provide
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Registration and Execution of the Contract : Data that you provide when setting
+    up an account, such as your name, email address, telephone number, mobile phone
+    number, postal address and the information provided depending on the services
+    used.'
+nodes:
+- type: ACTOR
+  id: government entity
+- type: ACTOR
+  id: service providers
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account
+- type: DATA
+  id: activity on website
+- type: DATA
+  id: anonymous technical datum
+- type: DATA
+  id: average time on site
+- type: DATA
+  id: content
+- type: DATA
+  id: data require for
+- type: DATA
+  id: date
+- type: DATA
+  id: datum you provide
+- type: DATA
+  id: datum you provide to we
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about website direct you to we
+- type: DATA
+  id: information provide depend on service use
+- type: DATA
+  id: name of internet service provider
+- type: DATA
+  id: number
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum collect during registration
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: screen resolution
+- type: DATA
+  id: transaction datum

@@ -1,0 +1,338 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If we carry out analyses, we shall store your data until the analysis has been
+    concluded.
+  - We shall only retain your data for as long as is legally necessary or in accordance
+    with the purpose for which they were processed.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - When you use Doodle, the service can store cookies on your computer.
+  purposes: {}
+- source: we
+  target: datum you provide
+  key: COLLECT
+  text:
+  - We use the data you provide exclusively to improve the user experience and to
+    further develop our products.
+  purposes:
+    advertising:
+    - 14. For user surveys and market research
+    analytics:
+    - 14. For user surveys and market research
+    services:
+    - to improve the user experience and to further develop our products
+- source: we
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - When you use our website and enter your email address on our website (either to
+    log in, or to sign up for a newsletter, or similar), we may share with LiveRamp
+    and its group companies information that we collect from you, such as your email
+    (in hashed, pseudonymous form), IP address, or information about your browser
+    or operating system, with any of the following, acting as "joint controllers"
+    (as applicable and defined in the GDPR).
+  purposes: {}
+- source: we
+  target: log datum
+  key: COLLECT
+  text:
+  - Other data is generated implicitly by your use of Doodle, e.g. log data.
+  - We use this information for internal analytical purposes to improve the product
+    for you.
+  purposes:
+    analytics:
+    - for internal analytical purposes
+    services:
+    - to improve the product for you
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We shall only process your Personal Data in accordance with principles of data
+    protection and if there is a legal basis to do so.
+  purposes: {}
+- source: Freestar Capital
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This Site is affiliated with Publisher First, Inc. dba Freestar ("Freestar") for
+    the purposes of placing certain advertising on the Site, and Freestar will collect
+    and use certain data for advertising purposes.
+  purposes:
+    advertising:
+    - for advertising purposes
+    - for the purposes of placing certain advertising on the Site
+- source: LiveRamp
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - LiveRamp uses this information to create an online identification code for the
+    purpose of recognising you on your devices.
+  - LiveRamp uses this information to create an online identification code that we
+    may store in our first-party cookie for our use in online, in-app, and cross-channel
+    advertising.
+  purposes:
+    advertising:
+    - to create an online identification code that we may store in our first-party
+      cookie for our use in online, in-app, and cross-channel advertising
+    security:
+    - to create an online identification code for the purpose of recognising you on
+      your devices
+    services:
+    - to create an online identification code for the purpose of recognising you on
+      your devices
+    - to create an online identification code that we may store in our first-party
+      cookie for our use in online, in-app, and cross-channel advertising
+- source: LiveRamp
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - When you use our website and enter your email address on our website (either to
+    log in, or to sign up for a newsletter, or similar), we may share with LiveRamp
+    and its group companies information that we collect from you, such as your email
+    (in hashed, pseudonymous form), IP address, or information about your browser
+    or operating system, with any of the following, acting as "joint controllers"
+    (as applicable and defined in the GDPR).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - All this information would be requested by the provider anyway.
+  - 'Doodle may share personal information with other companies or individuals only
+    in the following limited circumstances: (i) Doodle has your consent; (ii) Doodle
+    has good faith that there is a legal obligation to share the data; (iii) Doodle
+    needs to access or share the data to protect the security of the service or of
+    others users'' data; (iv) Doodle needs to access or share the data to protect
+    Doodle''s rights and property or to enforce the Terms of Service.'
+  purposes:
+    security:
+    - to protect Doodle's rights and property or to enforce the Terms of Service
+- source: UNSPECIFIED_ACTOR
+  target: log datum
+  key: COLLECT
+  text:
+  - Furthermore we employ other companies to perform tasks on our behalf and may need
+    to share this information with them to provide services to you.
+  - Other data is generated implicitly by your use of Doodle, e.g. log data.
+  purposes:
+    services:
+    - to perform tasks on our behalf
+    - to provide services to you
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Doodle may share personal information with other companies or individuals only
+    in the following limited circumstances: (i) Doodle has your consent; (ii) Doodle
+    has good faith that there is a legal obligation to share the data; (iii) Doodle
+    needs to access or share the data to protect the security of the service or of
+    others users'' data; (iv) Doodle needs to access or share the data to protect
+    Doodle''s rights and property or to enforce the Terms of Service.'
+  purposes:
+    security:
+    - to access or share the data to protect Doodle's rights and property or to enforce
+      the Terms of Service
+- source: doodle
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Doodle may share personal information with other companies or individuals only
+    in the following limited circumstances: (i) Doodle has your consent; (ii) Doodle
+    has good faith that there is a legal obligation to share the data; (iii) Doodle
+    needs to access or share the data to protect the security of the service or of
+    others users'' data; (iv) Doodle needs to access or share the data to protect
+    Doodle''s rights and property or to enforce the Terms of Service.'
+  purposes:
+    security:
+    - to access or share the data to protect Doodle's rights and property or to enforce
+      the Terms of Service
+    - to protect Doodle's rights and property or to enforce the Terms of Service
+    - to protect the security of the service or of others users' data
+- source: doodle
+  target: calendar datum
+  key: COLLECT
+  text:
+  - Doodle can store certain calendar data to improve performance (caching) and to
+    personalise scheduling.
+  purposes:
+    services:
+    - to improve performance (caching) and to personalise scheduling
+- source: doodle
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Doodle uses cookies to track usage, to improve ease-of-use and the overall user
+    experience, and to manage advertising inventories.
+  purposes:
+    advertising:
+    - to track usage, to improve ease-of-use and the overall user experience, and
+      to manage advertising inventories
+    analytics:
+    - to track usage, to improve ease-of-use and the overall user experience, and
+      to manage advertising inventories
+    services:
+    - to track usage, to improve ease-of-use and the overall user experience, and
+      to manage advertising inventories
+- source: doodle
+  target: google contact
+  key: COLLECT
+  text:
+  - In this case, you authorize Doodle to access your Google contacts.
+  purposes: {}
+- source: doodle
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Doodle may share personal information with other companies or individuals only
+    in the following limited circumstances: (i) Doodle has your consent; (ii) Doodle
+    has good faith that there is a legal obligation to share the data; (iii) Doodle
+    needs to access or share the data to protect the security of the service or of
+    others users'' data; (iv) Doodle needs to access or share the data to protect
+    Doodle''s rights and property or to enforce the Terms of Service.'
+  - 'Privacy Policy
+
+
+    18. Sharing personal information
+
+
+    Doodle uses personal information according to the Terms of Service and this Privacy
+    Policy.'
+  purposes:
+    security:
+    - to access or share the data to protect Doodle's rights and property or to enforce
+      the Terms of Service
+- source: doodle
+  target: request
+  key: COLLECT
+  text:
+  - Doodle records certain requests and transactions in log files.
+  purposes: {}
+- source: group company
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - When you use our website and enter your email address on our website (either to
+    log in, or to sign up for a newsletter, or similar), we may share with LiveRamp
+    and its group companies information that we collect from you, such as your email
+    (in hashed, pseudonymous form), IP address, or information about your browser
+    or operating system, with any of the following, acting as "joint controllers"
+    (as applicable and defined in the GDPR).
+  purposes: {}
+- source: openai
+  target: large language model
+  key: COLLECT
+  text:
+  - OpenAI provides large language models that can be used for a variety of purposes,
+    including customer interaction and experience management.
+  purposes: {}
+- source: information be
+  target: ip address
+  key: SUBSUM
+  text:
+  - These advertisements can be targeted based on the information that is available
+    to Doodle, e.g. language, IP address, poll content, etc.
+- source: information be
+  target: poll content
+  key: SUBSUM
+  text:
+  - These advertisements can be targeted based on the information that is available
+    to Doodle, e.g. language, IP address, poll content, etc.
+- source: information we collect from you
+  target: email address
+  key: SUBSUM
+  text:
+  - When you use our website and enter your email address on our website (either to
+    log in, or to sign up for a newsletter, or similar), we may share with LiveRamp
+    and its group companies information that we collect from you, such as your email
+    (in hashed, pseudonymous form), IP address, or information about your browser
+    or operating system, with any of the following, acting as "joint controllers"
+    (as applicable and defined in the GDPR).
+- source: information we collect from you
+  target: ip address
+  key: SUBSUM
+  text:
+  - When you use our website and enter your email address on our website (either to
+    log in, or to sign up for a newsletter, or similar), we may share with LiveRamp
+    and its group companies information that we collect from you, such as your email
+    (in hashed, pseudonymous form), IP address, or information about your browser
+    or operating system, with any of the following, acting as "joint controllers"
+    (as applicable and defined in the GDPR).
+- source: log datum
+  target: log file
+  key: SUBSUM
+  text:
+  - Doodle records certain requests and transactions in log files.
+  - This log data is used for troubleshooting, statistics, analytics, quality assurance,
+    and to monitor system security and can be analyzed to that end.
+- source: log datum
+  target: request
+  key: SUBSUM
+  text:
+  - Doodle records certain requests and transactions in log files.
+  - This log data is used for troubleshooting, statistics, analytics, quality assurance,
+    and to monitor system security and can be analyzed to that end.
+- source: online calendar
+  target: Google
+  key: SUBSUM
+  text:
+  - Online calendars like Google calendar are constantly accessible via their respective
+    interfaces.
+nodes:
+- type: ACTOR
+  id: Freestar Capital
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: LiveRamp
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: doodle
+- type: ACTOR
+  id: group company
+- type: ACTOR
+  id: online calendar
+- type: ACTOR
+  id: openai
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: calendar datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum you provide
+- type: DATA
+  id: email address
+- type: DATA
+  id: google contact
+- type: DATA
+  id: information be
+- type: DATA
+  id: information we collect from you
+- type: DATA
+  id: ip address
+- type: DATA
+  id: large language model
+- type: DATA
+  id: log datum
+- type: DATA
+  id: log file
+- type: DATA
+  id: personal information
+- type: DATA
+  id: poll content
+- type: DATA
+  id: request

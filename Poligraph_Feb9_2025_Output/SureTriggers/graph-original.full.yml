@@ -1,0 +1,157 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may also use your email address to send additional messages such as newsletters,
+    updates on our features, information about new services, events, and other relevant
+    information.
+  purposes:
+    services:
+    - to send additional messages such as newsletters, updates on our features, information
+      about new services, events, and other relevant information
+- source: we
+  target: login credential
+  key: COLLECT
+  text:
+  - The login credentials for these third-party applications that you authenticate
+    will be stored by us to facilitate continued use of the Services.
+  purposes:
+    services:
+    - to facilitate continued use of the Services
+- source: suretriggers
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Information necessary for accessing the third-party applications and any data
+    or content contained within the third-party application necessary for automation
+    will be collected by SureTriggers.
+  purposes: {}
+- source: suretriggers
+  target: content
+  key: COLLECT
+  text:
+  - Information necessary for accessing the third-party applications and any data
+    or content contained within the third-party application necessary for automation
+    will be collected by SureTriggers.
+  purposes: {}
+- source: suretriggers
+  target: information necessary
+  key: COLLECT
+  text:
+  - Information necessary for accessing the third-party applications and any data
+    or content contained within the third-party application necessary for automation
+    will be collected by SureTriggers.
+  purposes: {}
+- source: suretriggers services
+  target: information obtain for api client purpose
+  key: COLLECT
+  text:
+  - With respect to YouTube API, SureTriggers Services uses information obtained for
+    API client purposes and complies with the YouTube Terms of Service .
+  purposes: {}
+- source: developer program
+  target: community
+  key: SUBSUM
+  text:
+  - This Privacy Statement also applies to information collected through the services
+    and developer programs offered by Brainstorm Force US LLC (SureTriggers), including
+    our developer platform and services, communities, marketing and customer engagement,
+    and branded social media pages.
+- source: developer program
+  target: developer platform
+  key: SUBSUM
+  text:
+  - This Privacy Statement also applies to information collected through the services
+    and developer programs offered by Brainstorm Force US LLC (SureTriggers), including
+    our developer platform and services, communities, marketing and customer engagement,
+    and branded social media pages.
+- source: developer program
+  target: marketing
+  key: SUBSUM
+  text:
+  - This Privacy Statement also applies to information collected through the services
+    and developer programs offered by Brainstorm Force US LLC (SureTriggers), including
+    our developer platform and services, communities, marketing and customer engagement,
+    and branded social media pages.
+- source: developer program
+  target: social media
+  key: SUBSUM
+  text:
+  - This Privacy Statement also applies to information collected through the services
+    and developer programs offered by Brainstorm Force US LLC (SureTriggers), including
+    our developer platform and services, communities, marketing and customer engagement,
+    and branded social media pages.
+- source: information be
+  target: aggregate / deidentified / pseudonymized information
+  key: SUBSUM
+  text:
+  - This Privacy Statement also does not include any information that is not personally
+    identifiable, such as anonymous or aggregate information.
+- source: message
+  target: newsletter
+  key: SUBSUM
+  text:
+  - We may also use your email address to send additional messages such as newsletters,
+    updates on our features, information about new services, events, and other relevant
+    information.
+- source: message
+  target: relevant information
+  key: SUBSUM
+  text:
+  - We may also use your email address to send additional messages such as newsletters,
+    updates on our features, information about new services, events, and other relevant
+    information.
+- source: sensitive information
+  target: financial health information
+  key: SUBSUM
+  text:
+  - It is important to note that use of SureTriggers Services is subject to the Terms
+    of Service and sensitive information, such as financial or regulated health information,
+    should not be transmitted.
+nodes:
+- type: ACTOR
+  id: community
+- type: ACTOR
+  id: developer platform
+- type: ACTOR
+  id: developer program
+- type: ACTOR
+  id: marketing
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: suretriggers
+- type: ACTOR
+  id: suretriggers services
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: content
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial health information
+- type: DATA
+  id: information be
+- type: DATA
+  id: information necessary
+- type: DATA
+  id: information obtain for api client purpose
+- type: DATA
+  id: login credential
+- type: DATA
+  id: message
+- type: DATA
+  id: newsletter
+- type: DATA
+  id: relevant information
+- type: DATA
+  id: sensitive information

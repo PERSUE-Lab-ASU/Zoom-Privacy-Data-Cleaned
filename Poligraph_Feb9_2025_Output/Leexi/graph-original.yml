@@ -1,0 +1,165 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Introduction
+
+
+    We process your personal data when:'
+  purposes: {}
+- source: leexi
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In this case, Leexi will only process the data for storage purposes.
+  purposes:
+    services:
+    - for storage purposes
+- source: leexi
+  target: cover letter
+  key: COLLECT
+  text:
+  - Leexi uses your name, first name, email address, telephone number and professional
+    situation (CV and cover letter) in order to contact you when you reply to our
+    recruitment offers.
+  purposes:
+    advertising:
+    - in order to contact you when you reply to our recruitment offers
+- source: leexi
+  target: cv
+  key: COLLECT
+  text:
+  - Leexi uses your name, first name, email address, telephone number and professional
+    situation (CV and cover letter) in order to contact you when you reply to our
+    recruitment offers.
+  purposes:
+    advertising:
+    - in order to contact you when you reply to our recruitment offers
+- source: leexi
+  target: email address
+  key: COLLECT
+  text:
+  - Leexi uses your email address to send you its newsletter.
+  - Leexi uses your first name, last name, email address, telephone number and employment
+    status in order to contact you in connection with your request for a demonstration
+    of our SAAS tool.
+  - Leexi uses your full name, email address and professional status to contact you
+    when you apply for a course.
+  - Leexi uses your full name, email address and telephone number to contact you in
+    connection with your request.
+  - Leexi uses your name, first name, email address, telephone number and professional
+    situation (CV and cover letter) in order to contact you when you reply to our
+    recruitment offers.
+  purposes:
+    advertising:
+    - in order to contact you when you reply to our recruitment offers
+    - to send you its newsletter
+    services:
+    - in order to contact you in connection with your request for a demonstration
+      of our SAAS tool
+    - to contact you in connection with your request
+    - to contact you when you apply for a course
+    - to send you its newsletter
+- source: leexi
+  target: employment status
+  key: COLLECT
+  text:
+  - Leexi uses your first name, last name, email address, telephone number and employment
+    status in order to contact you in connection with your request for a demonstration
+    of our SAAS tool.
+  purposes:
+    services:
+    - in order to contact you in connection with your request for a demonstration
+      of our SAAS tool
+- source: leexi
+  target: person name
+  key: COLLECT
+  text:
+  - Leexi uses your first name, last name, email address, telephone number and employment
+    status in order to contact you in connection with your request for a demonstration
+    of our SAAS tool.
+  - Leexi uses your full name, email address and professional status to contact you
+    when you apply for a course.
+  - Leexi uses your full name, email address and telephone number to contact you in
+    connection with your request.
+  - Leexi uses your name, first name, email address, telephone number and professional
+    situation (CV and cover letter) in order to contact you when you reply to our
+    recruitment offers.
+  purposes:
+    advertising:
+    - in order to contact you when you reply to our recruitment offers
+    services:
+    - in order to contact you in connection with your request for a demonstration
+      of our SAAS tool
+    - to contact you in connection with your request
+    - to contact you when you apply for a course
+- source: leexi
+  target: phone number
+  key: COLLECT
+  text:
+  - Leexi uses your first name, last name, email address, telephone number and employment
+    status in order to contact you in connection with your request for a demonstration
+    of our SAAS tool.
+  - Leexi uses your full name, email address and telephone number to contact you in
+    connection with your request.
+  - Leexi uses your name, first name, email address, telephone number and professional
+    situation (CV and cover letter) in order to contact you when you reply to our
+    recruitment offers.
+  purposes:
+    advertising:
+    - in order to contact you when you reply to our recruitment offers
+    services:
+    - in order to contact you in connection with your request for a demonstration
+      of our SAAS tool
+    - to contact you in connection with your request
+- source: leexi
+  target: professional situation
+  key: COLLECT
+  text:
+  - Leexi uses your name, first name, email address, telephone number and professional
+    situation (CV and cover letter) in order to contact you when you reply to our
+    recruitment offers.
+  purposes:
+    advertising:
+    - in order to contact you when you reply to our recruitment offers
+- source: leexi
+  target: professional status
+  key: COLLECT
+  text:
+  - Leexi uses your full name, email address and professional status to contact you
+    when you apply for a course.
+  purposes:
+    services:
+    - to contact you when you apply for a course
+nodes:
+- type: ACTOR
+  id: leexi
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cover letter
+- type: DATA
+  id: cv
+- type: DATA
+  id: email address
+- type: DATA
+  id: employment status
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: professional situation
+- type: DATA
+  id: professional status

@@ -1,0 +1,46 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'We use the collected data for various purposes:'
+  purposes: {}
+- source: cowlendar
+  target: contact information
+  key: COLLECT
+  text:
+  - Cowlendar stores contacts, companies and engagements related details for the app's
+    functionality.
+  purposes:
+    services:
+    - for the app's functionality
+- source: cowlendar
+  target: shopify access token
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Cowlendar stores Shopify access token with the given permissions for app.'
+  purposes: {}
+- source: we
+  target: penida
+  key: SUBSUM
+  text:
+  - PENIDA ("We", "Us" and "Our" ) built 'Cowlendar' (the "app") as Shopify App.
+nodes:
+- type: ACTOR
+  id: cowlendar
+- type: ACTOR
+  id: penida
+- type: ACTOR
+  id: we
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: contact information
+- type: DATA
+  id: shopify access token

@@ -1,0 +1,117 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also need to share certain information for legal reasons or in case of
+    a dispute.
+  - We retain or disclose your information if we believe it is reasonably necessary
+    to comply with any legal or regulatory obligation, any legal process or administrative
+    request, to protect the safety of a person, to address any issue of a fraudulent,
+    security, or technical nature, improve our AI platform, or to protect the rights
+    or property of our users.
+  purposes:
+    legal:
+    - for legal reasons or in case of a dispute
+- source: we
+  target: datum about you
+  key: COLLECT
+  text:
+  - However, we may process certain data about you based on your consent, due to legal
+    obligations, or to respond to our legitimate interest in processing them.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - In some cases, we may retain information about you due to legal requirements or
+    for other purposes, even if you delete your account.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Finally, we only communicate your personal data to companies or third parties
+    in the following circumstances: When necessary for external processing needs and/or
+    improvement of our AI platform, and only in these cases, we transmit this data
+    to our trusted providers who process it on our behalf, following our instructions
+    or under a contractual agreement, in accordance with this privacy policy and respecting
+    any other appropriate security and confidentiality measures.'
+  - We may transfer your personal data to them only for the purposes set out below.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Finally, we only communicate your personal data to companies or third parties
+    in the following circumstances: When necessary for external processing needs and/or
+    improvement of our AI platform, and only in these cases, we transmit this data
+    to our trusted providers who process it on our behalf, following our instructions
+    or under a contractual agreement, in accordance with this privacy policy and respecting
+    any other appropriate security and confidentiality measures.'
+  - We may transfer your personal data to them only for the purposes set out below.
+  purposes: {}
+- source: trust provider who process it on behalf
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Finally, we only communicate your personal data to companies or third parties
+    in the following circumstances: When necessary for external processing needs and/or
+    improvement of our AI platform, and only in these cases, we transmit this data
+    to our trusted providers who process it on our behalf, following our instructions
+    or under a contractual agreement, in accordance with this privacy policy and respecting
+    any other appropriate security and confidentiality measures.'
+  purposes: {}
+- source: ween.ai
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In such a case, Ween.ai will no longer process the data unless it demonstrates
+    compelling legitimate grounds for the processing that override your interests,
+    rights, and freedoms, or for the establishment, exercise, or defense of legal
+    claims.
+  - Ween.ai retains your information as long as your account remains active, unless
+    you request the deletion of your information or your account.
+  - 'You have the right to obtain from Ween.ai the restriction of processing of your
+    data when one of the following applies: Ween.ai is verifying the accuracy of the
+    data following your contestation of the accuracy of the data; The processing is
+    unlawful, and you oppose the erasure of the data and instead request the restriction
+    of their use; Ween.ai no longer needs the data for processing purposes, but they
+    are still required by you for the establishment, exercise, or defense of legal
+    claims;'
+  purposes:
+    analytics:
+    - for processing purposes
+    legal:
+    - for the establishment, exercise, or defense of legal claims
+    services:
+    - for processing purposes
+- source: ween.ai
+  target: several category
+  key: COLLECT
+  text:
+  - In the context of using our services and navigating our platform, Ween.ai collects
+    several categories of data, details of which are provided below.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: trust provider who process it on behalf
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: ween.ai
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: information about you
+- type: DATA
+  id: personal information
+- type: DATA
+  id: several category

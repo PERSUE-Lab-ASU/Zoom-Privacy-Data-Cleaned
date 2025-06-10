@@ -1,0 +1,318 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - Through cookies we place on your browser or device, we may collect information
+    about your online activity after you leave our Services.
+  purposes: {}
+- source: we
+  target: confirmation
+  key: COLLECT
+  text:
+  - Also, we may receive a confirmation when you open an email from us.
+  purposes: {}
+- source: we
+  target: content of draft email message
+  key: COLLECT
+  text:
+  - During email composition, we temporarily store the content of your draft email
+    message (however once the message is sent, draft content is transferred to your
+    Gmail account and stored on Google's servers, not InboxPro's).
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - They may also use web logs or web beacons and may set and access cookies on your
+    computer or other device.
+  - This website uses cookies to improve user experience.
+  - When a user browses or uses the Services, these third party analytics services
+    may collect the user's IP address, browser type, and approximate location (based
+    on the IP address).
+  purposes:
+    services:
+    - to improve user experience
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - In addition, when you send email using the Services we collect the recipient's
+    name, email address and the email subject line so that we can display that information
+    in your Live Feed in InboxPro and for debugging purposes.
+  - In order to refine our understanding of user engagement, we provide these services
+    with a user's name and email address (which we collected as part of the user's
+    account registration process).
+  purposes:
+    analytics:
+    - In order to refine our understanding of user engagement
+- source: we
+  target: email body
+  key: COLLECT
+  text:
+  - You can limit the amount of Personal Information transferred to us by being sure
+    to complete and send your draft email messages, or by deleting any unsent drafts
+    if you decide not to send them, or by refraining from using the features listed
+    above in which we store the email body, or other features in which we notify you
+    that we store the email body.
+  purposes: {}
+- source: we
+  target: email subject line
+  key: COLLECT
+  text:
+  - In addition, when you send email using the Services we collect the recipient's
+    name, email address and the email subject line so that we can display that information
+    in your Live Feed in InboxPro and for debugging purposes.
+  purposes: {}
+- source: we
+  target: information on server log
+  key: COLLECT
+  text:
+  - Whenever you interact with our Services, we automatically receive and record information
+    on our server logs from your browser or device, which may include your IP address,
+    "cookie" information, the type of browser and/or device you're using to access
+    our Services, and the page or feature you requested.
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - We receive and store any information you knowingly provide to us.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - Through cookies we place on your browser or device, we may collect information
+    about your online activity after you leave our Services.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - In addition, when you send email using the Services we collect the recipient's
+    name, email address and the email subject line so that we can display that information
+    in your Live Feed in InboxPro and for debugging purposes.
+  - In order to refine our understanding of user engagement, we provide these services
+    with a user's name and email address (which we collected as part of the user's
+    account registration process).
+  purposes:
+    analytics:
+    - In order to refine our understanding of user engagement
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'However, we may share your Personal Information with third parties as described
+    in this section:'
+  - In addition, we collect Personal Information you submit to us, for example by
+    completing a form on https://inboxpro.io .
+  - In certain cases, we may also share some Personal Information with third parties,
+    but only as described below.
+  - We gather various types of Personal Information from our users, as explained in
+    more detail below, and we use this Personal Information in order to make our Services
+    available to you, to contact you, and to better understand how you use the Services.
+  - We neither rent nor sell your Personal Information to anyone.
+  purposes:
+    analytics:
+    - in order to make our Services available to you, to contact you, and to better
+      understand how you use the Services
+    services:
+    - in order to make our Services available to you, to contact you, and to better
+      understand how you use the Services
+- source: we
+  target: preference on browser
+  key: COLLECT
+  text:
+  - We may use this data to customize content for you that we think you might like,
+    based on your usage patterns, and generally to improve the Services.
+  - You may be able to change the preferences on your browser or device to prevent
+    or limit your device's acceptance of cookies, but this may prevent you from taking
+    advantage of some of our features.
+  purposes:
+    services:
+    - to customize content for you that we think you might like, based on your usage
+      patterns, and generally to improve the Services
+- source: we
+  target: web log
+  key: COLLECT
+  text:
+  - They may also use web logs or web beacons and may set and access cookies on your
+    computer or other device.
+  - When a user browses or uses the Services, these third party analytics services
+    may collect the user's IP address, browser type, and approximate location (based
+    on the IP address).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: email address
+  key: COLLECT
+  text:
+  - In order to refine our understanding of user engagement, we provide these services
+    with a user's name and email address (which we collected as part of the user's
+    account registration process).
+  purposes:
+    analytics:
+    - In order to refine our understanding of user engagement
+- source: UNSPECIFIED_ACTOR
+  target: person name
+  key: COLLECT
+  text:
+  - In order to refine our understanding of user engagement, we provide these services
+    with a user's name and email address (which we collected as part of the user's
+    account registration process).
+  purposes:
+    analytics:
+    - In order to refine our understanding of user engagement
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'However, we may share your Personal Information with third parties as described
+    in this section:'
+  - In certain cases, we may also share some Personal Information with third parties,
+    but only as described below.
+  - We employ other companies and people to perform tasks on our behalf and need to
+    share your information with them, including in some cases the Personal Information
+    you have provided to us, in order to make the Services available to you.
+  purposes:
+    services:
+    - in order to make the Services available to you
+    - to perform tasks on our behalf
+- source: analytic provider
+  target: browser type
+  key: COLLECT
+  text:
+  - We use third party analytics services in order to better understand user engagement
+    with the Services.
+  - When a user browses or uses the Services, these third party analytics services
+    may collect the user's IP address, browser type, and approximate location (based
+    on the IP address).
+  purposes: {}
+- source: analytic provider
+  target: coarse geolocation
+  key: COLLECT
+  text:
+  - We use third party analytics services in order to better understand user engagement
+    with the Services.
+  - When a user browses or uses the Services, these third party analytics services
+    may collect the user's IP address, browser type, and approximate location (based
+    on the IP address).
+  purposes: {}
+- source: analytic provider
+  target: ip address
+  key: COLLECT
+  text:
+  - We use third party analytics services in order to better understand user engagement
+    with the Services.
+  - When a user browses or uses the Services, these third party analytics services
+    may collect the user's IP address, browser type, and approximate location (based
+    on the IP address).
+  purposes: {}
+- source: inboxpro
+  target: device type
+  key: COLLECT
+  text:
+  - 'If you are using open, click, and download tracking, InboxPro collects the recipient''s
+    device type and IP address (in order to provide you with the recipient''s approximate
+    location when the message is opened), along with the recipient''s activities (for
+    example: opens, clicks, downloads).'
+  purposes: {}
+- source: inboxpro
+  target: email body
+  key: COLLECT
+  text:
+  - 'InboxPro stores the email body in the following contexts: when you create an
+    email draft and the message remains unsent; when you create a Sequence or Template
+    in InboxPro; when you share an email via a share link; and when you enable people
+    in your organization to view your messages in the Live Feed.'
+  purposes: {}
+- source: inboxpro
+  target: ip address
+  key: COLLECT
+  text:
+  - 'If you are using open, click, and download tracking, InboxPro collects the recipient''s
+    device type and IP address (in order to provide you with the recipient''s approximate
+    location when the message is opened), along with the recipient''s activities (for
+    example: opens, clicks, downloads).'
+  purposes: {}
+- source: inboxpro
+  target: open tracking
+  key: COLLECT
+  text:
+  - For recipients outside the European Union ("EU"), InboxPro uses these activities
+    data to provide Recommended Send Times, which indicate the times of day when the
+    recipient has been active with InboxPro emails in the past.
+  - 'If you are using open, click, and download tracking, InboxPro collects the recipient''s
+    device type and IP address (in order to provide you with the recipient''s approximate
+    location when the message is opened), along with the recipient''s activities (for
+    example: opens, clicks, downloads).'
+  purposes:
+    services:
+    - to provide Recommended Send Times, which indicate the times of day when the
+      recipient has been active with InboxPro emails in the past
+- source: information on server log
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Whenever you interact with our Services, we automatically receive and record information
+    on our server logs from your browser or device, which may include your IP address,
+    "cookie" information, the type of browser and/or device you're using to access
+    our Services, and the page or feature you requested.
+- source: information on server log
+  target: ip address
+  key: SUBSUM
+  text:
+  - Whenever you interact with our Services, we automatically receive and record information
+    on our server logs from your browser or device, which may include your IP address,
+    "cookie" information, the type of browser and/or device you're using to access
+    our Services, and the page or feature you requested.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: inboxpro
+- type: ACTOR
+  id: we
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: coarse geolocation
+- type: DATA
+  id: confirmation
+- type: DATA
+  id: content of draft email message
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: email body
+- type: DATA
+  id: email subject line
+- type: DATA
+  id: information on server log
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: open tracking
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: preference on browser
+- type: DATA
+  id: web log

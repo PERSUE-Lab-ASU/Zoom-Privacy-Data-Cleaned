@@ -1,0 +1,478 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for mock interviews, the Analysis Results Data will
+    be provided by us only to the customers and the interviewers of mock interviews,
+    and will not be provided or shared with other third parties (including companies
+    using our services).'
+  - '* When our services are used for the Other Interviews conducted by the companies
+    using our services, the Analysis Results Data will be provided by us only to companies
+    using our services, and will not be provided or shared with other companies.'
+  - '* When our services are used for the improvement of working environment, etc.
+    by the companies using our services, the Analysis Results Data will be provided
+    by us only to companies using our services, and will not be provided or shared
+    with other companies.'
+  - '* When our services are used for the recruitment selection by the companies using
+    our services, the Analysis Results Data will be provided by us only to companies
+    using our services of which customers has undergone recruitment selection, and
+    will not be provided or shared with other companies.'
+  purposes: {}
+- source: we
+  target: information disclose
+  key: COLLECT
+  text:
+  - Except for cases set forth in (2), we input into our AI program and analyze personal
+    information obtained directly from customers through our services by companies
+    using our services and customers' information disclosed or provided by companies
+    using our services based on request from the companies using our services, and
+    then provide the results of the analysis to the companies using our services.
+  purposes: {}
+- source: we
+  target: information obtain from company use service
+  key: COLLECT
+  text:
+  - (2) We input into our AI program and analyze personal information obtained directly
+    from customers through our services and information indirectly obtained from companies
+    using our services, third parties to which we entrust certain works or interviewers
+    of mock interviews based on request from customers and interviewers of mock interviews,
+    and then provide the results of the analysis to the customers and the interviewers
+    of mock interviews.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - (2) When using our services for the purpose of conducting mock interviews, customers
+    will provide personal information to us and interviewers of the mock interviews
+    through our services.
+  - '*Cases where it is necessary to cooperate with a state organ, a local government,
+    or a person commissioned thereby in performing the work prescribed by laws and
+    regulations and where obtaining consent of the person is likely to hinder the
+    performance of the work *Cases where consent from the relevant person is not required
+    under laws and regulations 5. CAUTION (1) When using our services (expect for
+    cases set forth in (2)), customers will provide personal information to us and
+    companies using our services through our services.'
+  purposes: {}
+- source: we
+  target: personal information obtain from customer through service
+  key: COLLECT
+  text:
+  - (2) We input into our AI program and analyze personal information obtained directly
+    from customers through our services and information indirectly obtained from companies
+    using our services, third parties to which we entrust certain works or interviewers
+    of mock interviews based on request from customers and interviewers of mock interviews,
+    and then provide the results of the analysis to the customers and the interviewers
+    of mock interviews.
+  - Except for cases set forth in (2), we input into our AI program and analyze personal
+    information obtained directly from customers through our services by companies
+    using our services and customers' information disclosed or provided by companies
+    using our services based on request from the companies using our services, and
+    then provide the results of the analysis to the companies using our services.
+  purposes: {}
+- source: business partner
+  target: statistical datum
+  key: COLLECT
+  text:
+  - Statistical data may be provided to business partners.)
+  purposes: {}
+- source: company concerned customer work for
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for the improvement of working environment, etc.
+    by the companies using our services, the Analysis Results Data will be provided
+    by us only to companies using our services, and will not be provided or shared
+    with other companies.'
+  - And such Analysis Results Data will be provided only as a reference index for
+    improvement of working environment, and the use of such data will be finally determined
+    by the company which the concerned customers are working for.
+  purposes: {}
+- source: company of customer undergo recruitment selection
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for the recruitment selection by the companies using
+    our services, the Analysis Results Data will be provided by us only to companies
+    using our services of which customers has undergone recruitment selection, and
+    will not be provided or shared with other companies.'
+  - And such Analysis Results Data will be provided only as a reference index for
+    recruitment selection, and the results of recruitment selection will be finally
+    determined by the company of which the customer has undergone the recruitment
+    selection.
+  purposes: {}
+- source: company use service
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for the Other Interviews conducted by the companies
+    using our services, the Analysis Results Data will be provided by us only to companies
+    using our services, and will not be provided or shared with other companies.'
+  - '* When our services are used for the improvement of working environment, etc.
+    by the companies using our services, the Analysis Results Data will be provided
+    by us only to companies using our services, and will not be provided or shared
+    with other companies.'
+  - And such Analysis Results Data will be provided only as a reference index for
+    Other Interviews, and the use of such data will be finally determined by the company
+    using our services.
+  purposes: {}
+- source: company use service of customer undergo recruitment selection
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for the recruitment selection by the companies using
+    our services, the Analysis Results Data will be provided by us only to companies
+    using our services of which customers has undergone recruitment selection, and
+    will not be provided or shared with other companies.'
+  purposes: {}
+- source: company use service through service
+  target: personal information
+  key: COLLECT
+  text:
+  - '*Cases where it is necessary to cooperate with a state organ, a local government,
+    or a person commissioned thereby in performing the work prescribed by laws and
+    regulations and where obtaining consent of the person is likely to hinder the
+    performance of the work *Cases where consent from the relevant person is not required
+    under laws and regulations 5. CAUTION (1) When using our services (expect for
+    cases set forth in (2)), customers will provide personal information to us and
+    companies using our services through our services.'
+  purposes: {}
+- source: interviewer
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for mock interviews, the Analysis Results Data will
+    be provided by us only to the customers and the interviewers of mock interviews,
+    and will not be provided or shared with other third parties (including companies
+    using our services).'
+  purposes: {}
+- source: interviewer of mock interview
+  target: personal information
+  key: COLLECT
+  text:
+  - (2) When using our services for the purpose of conducting mock interviews, customers
+    will provide personal information to us and interviewers of the mock interviews
+    through our services.
+  purposes: {}
+- source: action log
+  target: information on status of connection check in service
+  key: SUBSUM
+  text:
+  - 1. Collection of Personal Information (1) Information we obtain from our customers
+    through our service (Items Common for all services) *name, telephone number, and
+    email address *Personal information entered or uploaded by customers to input
+    form designated by us or the companies (including those which have been approved
+    to temporarily use our services such as free trial, the same shall apply hereinafter)
+    using our services (meaning information as defined in Article 2, Paragraph 1 of
+    the Act on Protection of Personal Information, including those concerning living
+    individuals that can identify specific individuals by name, date of birth, and
+    other descriptions contained in the information (including information that can
+    be easily verified against other information and thereby identify a specific individual))
+    *Information entered or transmitted on our services by customers who have accessed
+    our services (including personal information) *Access logs, action logs (including
+    information on the status of connection checks in our service), time stamps and
+    IP addresses of customers who accessed our service *Information about the communication
+    status and connected terminals of customers who have accessed our services (A.
+    When our services are used for the recruitment selection by the companies using
+    our services) *Entry videos uploaded by customers for the recruitment selection
+    by the companies using our services, and the contents of interviews with the companies
+    using our services (including portrait, appearance, behavior and speech, audio,
+    and shooting environment information; hereinafter referred to as "Selection Videos").
+- source: customer information on recruitment selection
+  target: evaluation information on recruitment selection
+  key: SUBSUM
+  text:
+  - (2) Newly generated information based on information obtained by us *Data analyzed
+    by entering video information (including Selection Videos, Internal Interview
+    Videos, Mock Interview Videos and Other Interview Videos) and other personal information
+    of customers into our AI program (hereinafter referred to as "Analysis Result
+    Data") that can identify a specific individual (3) Information obtained indirectly
+    from companies using our services (A. When our services are used for the recruitment
+    selection by the companies using our services) *Customer information on recruitment
+    selection (including information on companies and jobs to be applied for and evaluation
+    information on recruitment selection) (B. When our services are used for mock
+    interviews) *Information on customer who act as an interviewer at mock interviews)
+    (C. When our services are used for the improvement of working environment, etc.
+    by the companies using our services)
+- source: customer information on recruitment selection
+  target: information on company apply for
+  key: SUBSUM
+  text:
+  - (2) Newly generated information based on information obtained by us *Data analyzed
+    by entering video information (including Selection Videos, Internal Interview
+    Videos, Mock Interview Videos and Other Interview Videos) and other personal information
+    of customers into our AI program (hereinafter referred to as "Analysis Result
+    Data") that can identify a specific individual (3) Information obtained indirectly
+    from companies using our services (A. When our services are used for the recruitment
+    selection by the companies using our services) *Customer information on recruitment
+    selection (including information on companies and jobs to be applied for and evaluation
+    information on recruitment selection) (B. When our services are used for mock
+    interviews) *Information on customer who act as an interviewer at mock interviews)
+    (C. When our services are used for the improvement of working environment, etc.
+    by the companies using our services)
+- source: information disclose
+  target: appearance
+  key: SUBSUM
+  text:
+  - '*In order to analyze Other Interview Videos and other information disclosed or
+    provided by companies using our services (including information such as portraits,
+    appearance, behavior and speech, voice, and shooting environment, and if information
+    related to the Other Interview Videos is indirectly obtained from companies using
+    our services, including such information; the same shall apply hereinafter) for
+    the purpose of research and development of AI programs, and to provide and operate
+    our existing services or new services.'
+- source: information disclose
+  target: shooting environment
+  key: SUBSUM
+  text:
+  - '*In order to analyze Other Interview Videos and other information disclosed or
+    provided by companies using our services (including information such as portraits,
+    appearance, behavior and speech, voice, and shooting environment, and if information
+    related to the Other Interview Videos is indirectly obtained from companies using
+    our services, including such information; the same shall apply hereinafter) for
+    the purpose of research and development of AI programs, and to provide and operate
+    our existing services or new services.'
+- source: information enter
+  target: personal information
+  key: SUBSUM
+  text:
+  - 1. Collection of Personal Information (1) Information we obtain from our customers
+    through our service (Items Common for all services) *name, telephone number, and
+    email address *Personal information entered or uploaded by customers to input
+    form designated by us or the companies (including those which have been approved
+    to temporarily use our services such as free trial, the same shall apply hereinafter)
+    using our services (meaning information as defined in Article 2, Paragraph 1 of
+    the Act on Protection of Personal Information, including those concerning living
+    individuals that can identify specific individuals by name, date of birth, and
+    other descriptions contained in the information (including information that can
+    be easily verified against other information and thereby identify a specific individual))
+    *Information entered or transmitted on our services by customers who have accessed
+    our services (including personal information) *Access logs, action logs (including
+    information on the status of connection checks in our service), time stamps and
+    IP addresses of customers who accessed our service *Information about the communication
+    status and connected terminals of customers who have accessed our services (A.
+    When our services are used for the recruitment selection by the companies using
+    our services) *Entry videos uploaded by customers for the recruitment selection
+    by the companies using our services, and the contents of interviews with the companies
+    using our services (including portrait, appearance, behavior and speech, audio,
+    and shooting environment information; hereinafter referred to as "Selection Videos").
+- source: information take
+  target: shooting environment
+  key: SUBSUM
+  text:
+  - '*For marketing research and the development of our new services and functions
+    *For the purpose of responding to violations of the Terms and Conditions *In order
+    to analyze Selection Videos (including information taken by customers such as
+    portraits, appearance, behavior and speech, voice, and shooting environment, and
+    if evaluation information is indirectly obtained from companies using our services,
+    including such evaluation information; the same shall apply hereinafter) for the
+    purpose of research and development of AI programs, and to provide and operate
+    our existing services or new services.'
+- source: information take
+  target: voice
+  key: SUBSUM
+  text:
+  - '*For marketing research and the development of our new services and functions
+    *For the purpose of responding to violations of the Terms and Conditions *In order
+    to analyze Selection Videos (including information taken by customers such as
+    portraits, appearance, behavior and speech, voice, and shooting environment, and
+    if evaluation information is indirectly obtained from companies using our services,
+    including such evaluation information; the same shall apply hereinafter) for the
+    purpose of research and development of AI programs, and to provide and operate
+    our existing services or new services.'
+- source: present address
+  target: health insurance card
+  key: SUBSUM
+  text:
+  - 2. the documents to identify the legal representative himself or herself the copy
+    of documents that can identify the representative's name and present address such
+    as driver's license,passport and health insurance card and so on in case of the
+    representative the person delegates 1. original of a letter of proxy(appended
+    papers of a bill of requesting disclosure of personal information)
+- source: present address
+  target: license
+  key: SUBSUM
+  text:
+  - 2. the documents to identify the legal representative himself or herself the copy
+    of documents that can identify the representative's name and present address such
+    as driver's license,passport and health insurance card and so on in case of the
+    representative the person delegates 1. original of a letter of proxy(appended
+    papers of a bill of requesting disclosure of personal information)
+- source: present address
+  target: passport
+  key: SUBSUM
+  text:
+  - 2. the documents to identify the legal representative himself or herself the copy
+    of documents that can identify the representative's name and present address such
+    as driver's license,passport and health insurance card and so on in case of the
+    representative the person delegates 1. original of a letter of proxy(appended
+    papers of a bill of requesting disclosure of personal information)
+- source: selection videos
+  target: information take
+  key: SUBSUM
+  text:
+  - '*For marketing research and the development of our new services and functions
+    *For the purpose of responding to violations of the Terms and Conditions *In order
+    to analyze Selection Videos (including information taken by customers such as
+    portraits, appearance, behavior and speech, voice, and shooting environment, and
+    if evaluation information is indirectly obtained from companies using our services,
+    including such evaluation information; the same shall apply hereinafter) for the
+    purpose of research and development of AI programs, and to provide and operate
+    our existing services or new services.'
+- source: video information
+  target: internal interview videos
+  key: SUBSUM
+  text:
+  - (2) Newly generated information based on information obtained by us *Data analyzed
+    by entering video information (including Selection Videos, Internal Interview
+    Videos, Mock Interview Videos and Other Interview Videos) and other personal information
+    of customers into our AI program (hereinafter referred to as "Analysis Result
+    Data") that can identify a specific individual (3) Information obtained indirectly
+    from companies using our services (A. When our services are used for the recruitment
+    selection by the companies using our services) *Customer information on recruitment
+    selection (including information on companies and jobs to be applied for and evaluation
+    information on recruitment selection) (B. When our services are used for mock
+    interviews) *Information on customer who act as an interviewer at mock interviews)
+    (C. When our services are used for the improvement of working environment, etc.
+    by the companies using our services)
+- source: video information
+  target: interview videos
+  key: SUBSUM
+  text:
+  - (2) Newly generated information based on information obtained by us *Data analyzed
+    by entering video information (including Selection Videos, Internal Interview
+    Videos, Mock Interview Videos and Other Interview Videos) and other personal information
+    of customers into our AI program (hereinafter referred to as "Analysis Result
+    Data") that can identify a specific individual (3) Information obtained indirectly
+    from companies using our services (A. When our services are used for the recruitment
+    selection by the companies using our services) *Customer information on recruitment
+    selection (including information on companies and jobs to be applied for and evaluation
+    information on recruitment selection) (B. When our services are used for mock
+    interviews) *Information on customer who act as an interviewer at mock interviews)
+    (C. When our services are used for the improvement of working environment, etc.
+    by the companies using our services)
+- source: video information
+  target: mock interview videos
+  key: SUBSUM
+  text:
+  - (2) Newly generated information based on information obtained by us *Data analyzed
+    by entering video information (including Selection Videos, Internal Interview
+    Videos, Mock Interview Videos and Other Interview Videos) and other personal information
+    of customers into our AI program (hereinafter referred to as "Analysis Result
+    Data") that can identify a specific individual (3) Information obtained indirectly
+    from companies using our services (A. When our services are used for the recruitment
+    selection by the companies using our services) *Customer information on recruitment
+    selection (including information on companies and jobs to be applied for and evaluation
+    information on recruitment selection) (B. When our services are used for mock
+    interviews) *Information on customer who act as an interviewer at mock interviews)
+    (C. When our services are used for the improvement of working environment, etc.
+    by the companies using our services)
+- source: video information
+  target: selection videos
+  key: SUBSUM
+  text:
+  - (2) Newly generated information based on information obtained by us *Data analyzed
+    by entering video information (including Selection Videos, Internal Interview
+    Videos, Mock Interview Videos and Other Interview Videos) and other personal information
+    of customers into our AI program (hereinafter referred to as "Analysis Result
+    Data") that can identify a specific individual (3) Information obtained indirectly
+    from companies using our services (A. When our services are used for the recruitment
+    selection by the companies using our services) *Customer information on recruitment
+    selection (including information on companies and jobs to be applied for and evaluation
+    information on recruitment selection) (B. When our services are used for mock
+    interviews) *Information on customer who act as an interviewer at mock interviews)
+    (C. When our services are used for the improvement of working environment, etc.
+    by the companies using our services)
+- source: work
+  target: feedback to customer
+  key: SUBSUM
+  text:
+  - '*Personnel Information of the companies using our services (D. When our services
+    are used for Other Interviews conducted by the companies using our services) *Customer
+    information on Other Interviews and other information disclosed or provided by
+    the companies using our services to us (4) Information obtained indirectly from
+    third parties (A. When our services are used for mock interviews) *Customer information
+    disclosed or provided by third parties to which we entrust certain works (including
+    feedbacks to the customers) *Customer information disclosed or provided by parties
+    who conduct mock interviews for the customers (meaning an interviewer or interviewee;
+    the same shall apply hereinafter) (including feedbacks to the customers and contents
+    of inquiries) 2. Purpose of Use of Personal Information (1) We shall specify the
+    purpose of use of personal information and shall not use personal information
+    for any purpose other than that purpose.'
+nodes:
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: company concerned customer work for
+- type: ACTOR
+  id: company of customer undergo recruitment selection
+- type: ACTOR
+  id: company use service
+- type: ACTOR
+  id: company use service of customer undergo recruitment selection
+- type: ACTOR
+  id: company use service through service
+- type: ACTOR
+  id: feedback to customer
+- type: ACTOR
+  id: interviewer
+- type: ACTOR
+  id: interviewer of mock interview
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: work
+- type: DATA
+  id: action log
+- type: DATA
+  id: analysis results data
+- type: DATA
+  id: appearance
+- type: DATA
+  id: customer information on recruitment selection
+- type: DATA
+  id: evaluation information on recruitment selection
+- type: DATA
+  id: health insurance card
+- type: DATA
+  id: information disclose
+- type: DATA
+  id: information enter
+- type: DATA
+  id: information obtain from company use service
+- type: DATA
+  id: information on company apply for
+- type: DATA
+  id: information on status of connection check in service
+- type: DATA
+  id: information take
+- type: DATA
+  id: internal interview videos
+- type: DATA
+  id: interview videos
+- type: DATA
+  id: license
+- type: DATA
+  id: mock interview videos
+- type: DATA
+  id: passport
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information obtain from customer through service
+- type: DATA
+  id: present address
+- type: DATA
+  id: selection videos
+- type: DATA
+  id: shooting environment
+- type: DATA
+  id: statistical datum
+- type: DATA
+  id: video information
+- type: DATA
+  id: voice

@@ -1,0 +1,210 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: affiliate link
+  key: COLLECT
+  text:
+  - This site uses affiliate links and does earn a commission from certain links.
+  purposes: {}
+- source: we
+  target: datum about yellow melon ltd.
+  key: COLLECT
+  text:
+  - If you purchase, specifically express interest in, or register for a jointly-offered
+    product, service, or program from or through Yellow Melon Ltd., the Company may
+    share Data about Yellow Melon Ltd.Customers collected in connection with your
+    purchase or expression of interest with our partners.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, we ask visitors who sign up for a blog at https://smoothbook.co to
+    provide a username and email address.
+  purposes: {}
+- source: we
+  target: username
+  key: COLLECT
+  text:
+  - For example, we ask visitors who sign up for a blog at https://smoothbook.co to
+    provide a username and email address.
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Third-party vendors, including Google, use cookies to serve ads based on someone's
+    past visits.
+  purposes:
+    advertising:
+    - to serve ads based on someone's past visits
+- source: UNSPECIFIED_ACTOR
+  target: datum about yellow melon ltd.
+  key: COLLECT
+  text:
+  - If you purchase, specifically express interest in, or register for a jointly-offered
+    product, service, or program from or through Yellow Melon Ltd., the Company may
+    share Data about Yellow Melon Ltd.Customers collected in connection with your
+    purchase or expression of interest with our partners.
+  purposes: {}
+- source: yellow melon ltd.
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Yellow Melon Ltd. uses cookies to help Yellow Melon Ltd. identify and track visitors,
+    their usage of https://smoothbook.co, and their website access preferences.
+  purposes:
+    analytics:
+    - to help Yellow Melon Ltd. identify and track visitors, their usage of https://smoothbook.co,
+      and their website access preferences
+- source: yellow melon ltd.
+  target: cookies
+  key: COLLECT
+  text:
+  - To enrich and perfect your online experience, Yellow Melon Ltd. uses "Cookies",
+    similar technologies and services provided by others to display personalized content,
+    appropriate advertising and store your preferences on your computer.
+  purposes:
+    services:
+    - To enrich and perfect your online experience
+- source: yellow melon ltd.
+  target: google adwords
+  key: COLLECT
+  text:
+  - Yellow Melon Ltd. uses Google AdWords for remarketing
+  purposes: {}
+- source: yellow melon ltd.
+  target: ip address
+  key: COLLECT
+  text:
+  - Yellow Melon Ltd. only discloses logged in user and commenter IP addresses under
+    the same circumstances that it uses and discloses personally-identifying information
+    as described below.
+  purposes: {}
+- source: yellow melon ltd.
+  target: non-personal information
+  key: COLLECT
+  text:
+  - From time to time, Yellow Melon Ltd. may release non-personally-identifying information
+    in the aggregate, e.g., by publishing a report on trends in the usage of its website.
+  - Like most website operators, Yellow Melon Ltd. collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+  purposes: {}
+- source: yellow melon ltd.
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Certain visitors to Yellow Melon Ltd.'s websites choose to interact with Yellow
+    Melon Ltd. in ways that require Yellow Melon Ltd. to gather personally-identifying
+    information.
+  - Other than to its employees, contractors and affiliated organizations, as described
+    above, Yellow Melon Ltd. discloses potentially personally-identifying and personally-identifying
+    information only in response to a subpoena, court order or other governmental
+    request, or when Yellow Melon Ltd. believes in good faith that disclosure is reasonably
+    necessary to protect the property or rights of Yellow Melon Ltd., third parties
+    or the public at large.
+  - Yellow Melon Ltd. also collects potentially personally-identifying information
+    like Internet Protocol (IP) addresses for logged in users and for users leaving
+    comments on https://smoothbook.co blog posts.
+  - Yellow Melon Ltd. discloses potentially personally-identifying and personally-identifying
+    information only to those of its employees, contractors and affiliated organizations
+    that (i) need to know that information in order to process it on Yellow Melon
+    Ltd.'s behalf or to provide services available at Yellow Melon Ltd.'s website,
+    and (ii) that have agreed not to disclose it to others.
+  - Yellow Melon Ltd. only discloses logged in user and commenter IP addresses under
+    the same circumstances that it uses and discloses personally-identifying information
+    as described below.
+  purposes: {}
+- source: yellow melon ltd.
+  target: personal information require
+  key: COLLECT
+  text:
+  - In each case, Yellow Melon Ltd. collects such information only insofar as is necessary
+    or appropriate to fulfill the purpose of the visitor's interaction with Yellow
+    Melon Ltd..
+  - Those who engage in transactions with Yellow Melon Ltd. - by purchasing Yellow
+    Melon Ltd.'s services or products, are asked to provide additional information,
+    including as necessary the personal and financial information required to process
+    those transactions.
+  purposes: {}
+- source: yellow melon ltd.
+  target: statistic about behavior of visitor to website
+  key: COLLECT
+  text:
+  - Yellow Melon Ltd. may collect statistics about the behavior of visitors to its
+    website.
+  purposes: {}
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - Like most website operators, Yellow Melon Ltd. collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: non-personal information
+  target: date
+  key: SUBSUM
+  text:
+  - Like most website operators, Yellow Melon Ltd. collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: non-personal information
+  target: language preference
+  key: SUBSUM
+  text:
+  - Like most website operators, Yellow Melon Ltd. collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: personal identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - Yellow Melon Ltd. also collects potentially personally-identifying information
+    like Internet Protocol (IP) addresses for logged in users and for users leaving
+    comments on https://smoothbook.co blog posts.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: yellow melon ltd.
+- type: DATA
+  id: affiliate link
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: cookies
+- type: DATA
+  id: date
+- type: DATA
+  id: datum about yellow melon ltd.
+- type: DATA
+  id: email address
+- type: DATA
+  id: google adwords
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information require
+- type: DATA
+  id: statistic about behavior of visitor to website
+- type: DATA
+  id: username

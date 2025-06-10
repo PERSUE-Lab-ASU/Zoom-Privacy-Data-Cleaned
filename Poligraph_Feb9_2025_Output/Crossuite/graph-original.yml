@@ -1,0 +1,214 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For the purpose of performing the agreement, we use your data in order to accurately
+    compile your invoice and send it to you, as well as in order to follow-up on any
+    payment issues.
+  - In most cases we only use this data on an aggregated and anonymous basis for the
+    purpose of user research and statistical analysis.
+  - When there are grounds for doubting your identity, we could request further information
+    for the purpose of confirming who you are.
+  purposes:
+    analytics:
+    - for the purpose of user research and statistical analysis
+    legal:
+    - For the purpose of performing the agreement
+    services:
+    - for the purpose of confirming who you are
+    - in order to accurately compile your invoice and send it to you, as well as in
+      order to follow-up on any payment issues
+- source: we
+  target: banking detail
+  key: COLLECT
+  text:
+  - We have no access whatsoever to your banking details.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We could transmit the contact details of prospects to outbound marketing agencies.
+  purposes: {}
+- source: we
+  target: datum of people who send we job application
+  key: COLLECT
+  text:
+  - For the purpose of recruitment we collect the data of people who have sent us
+    job applications, whether solicited or unsolicited.
+  - We process this data on the basis of the consent of the parties involved.
+  purposes:
+    advertising:
+    - For the purpose of recruitment
+- source: we
+  target: information on you
+  key: COLLECT
+  text:
+  - Our website could contain hyperlinks to other websites and when you click on one
+    of those links you will leave our website.
+  - These other websites or internet sources could collect information on you using
+    cookies or other technology.
+  purposes: {}
+- source: we
+  target: personal datum of nonpayer
+  key: COLLECT
+  text:
+  - We also use an external party for collecting payments on unpaid invoices, and
+    in that context the personal data of a nonpayer can be transmitted.
+  purposes: {}
+- source: we
+  target: personal detail
+  key: COLLECT
+  text:
+  - We also retain your personal details for a period of two years if you decide not
+    to acquire a Crossuite licence after the trial period expires.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Before telling you what personal data we collect and why we collect it, we wish
+    to inform you there is a significant difference between:'
+  - 'We could also disclose your personal data:'
+  - 'We will only transmit your personal data to parties located outside of the European
+    Economic Area under one of the following conditions:'
+  - When you enter into a commercial partnership with Crossuite you will share certain
+    personal data with us, whether your own and/or that of employees.
+  purposes: {}
+- source: we
+  target: relevant documentation
+  key: COLLECT
+  text:
+  - When that partnership comes to an end we will only retain the relevant documentation
+    (such as the partnership agreement) for a specific period of time.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: bank detail
+  key: COLLECT
+  text:
+  - That party processes your bank details solely for the purpose of the required
+    payments.
+  purposes:
+    legal:
+    - solely for the purpose of the required payments
+    services:
+    - solely for the purpose of the required payments
+- source: UNSPECIFIED_ACTOR
+  target: personal datum in account
+  key: COLLECT
+  text:
+  - If you do decide to provide your login details to a third party, that party has
+    access to the personal data in your account and we are no longer able to guarantee
+    that your data is secure.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - In that context we do however use external parties, but those external parties
+    may only process your personal data in accordance with very clearly defined instructions.
+  purposes: {}
+- source: competent authority
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We could also disclose your personal data: To the competent authorities (i) when
+    we are required to do so by law or as a result of legal proceedings or pending
+    legal proceedings and (ii) for the purposes of indemnification and defending our
+    rights.'
+  purposes: {}
+- source: internet source
+  target: information on you
+  key: COLLECT
+  text:
+  - These other websites or internet sources could collect information on you using
+    cookies or other technology.
+  purposes: {}
+- source: outbound marketing agency
+  target: contact information
+  key: COLLECT
+  text:
+  - We could transmit the contact details of prospects to outbound marketing agencies.
+  purposes: {}
+- source: party locate outside
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We will only transmit your personal data to parties located outside of the European
+    Economic Area under one of the following conditions:'
+  purposes: {}
+- source: party outside
+  target: personal information
+  key: COLLECT
+  text:
+  - 5. Is my personal data transmitted to parties outside of the European Economic
+    Area?
+  purposes: {}
+- source: social media
+  target: personal information
+  key: COLLECT
+  text:
+  - We do wish to inform you that personal data can be collected by social networks
+    when you use a social plugin on our website (such as the Facebook 'like' button).
+  purposes: {}
+- source: we
+  target: online form
+  key: SUBSUM
+  text:
+  - Then we most likely do not (yet) know you nor are able to identify you, and that
+    will remain the case as long as you do not transmit to us any personal data through
+    the website (such as an online form, a webchat, etc).
+- source: we
+  target: webchat
+  key: SUBSUM
+  text:
+  - Then we most likely do not (yet) know you nor are able to identify you, and that
+    will remain the case as long as you do not transmit to us any personal data through
+    the website (such as an online form, a webchat, etc).
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: competent authority
+- type: ACTOR
+  id: internet source
+- type: ACTOR
+  id: online form
+- type: ACTOR
+  id: outbound marketing agency
+- type: ACTOR
+  id: party locate outside
+- type: ACTOR
+  id: party outside
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: webchat
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: bank detail
+- type: DATA
+  id: banking detail
+- type: DATA
+  id: contact information
+- type: DATA
+  id: datum of people who send we job application
+- type: DATA
+  id: information on you
+- type: DATA
+  id: personal datum in account
+- type: DATA
+  id: personal datum of nonpayer
+- type: DATA
+  id: personal detail
+- type: DATA
+  id: personal information
+- type: DATA
+  id: relevant documentation

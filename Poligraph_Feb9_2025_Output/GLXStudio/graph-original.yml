@@ -1,0 +1,127 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Although MediaMobz respects the privacy of all those who visit the Site and use
+    our online services, we do collect information from our members and visitors.
+  - 'Our policy is to release the data we collect in the following circumstances:
+    For abusive users, we may release information to assist in attempting to block
+    the abusive user or to file a complaint with that user''s Internet Service Provider.'
+  purposes:
+    security:
+    - For abusive users
+    - to assist in attempting to block the abusive user or to file a complaint with
+      that user's Internet Service Provider
+- source: we
+  target: datum log
+  key: COLLECT
+  text:
+  - The data logged may be used by us to solve technical problems with the Site and,
+    in cases of abuse of this Site, to investigate the abuse.
+  purposes:
+    security:
+    - to solve technical problems with the Site and, in cases of abuse of this Site,
+      to investigate the abuse
+    services:
+    - to solve technical problems with the Site and, in cases of abuse of this Site,
+      to investigate the abuse
+- source: we
+  target: personal datum collect
+  key: COLLECT
+  text:
+  - The Service stores personal and media data collected and input by users for specified,
+    explicit, and legitimate purposes and kept for no longer than necessary for the
+    purposes of processing.
+  - The Service stores this media and personal identifiable information data on behalf
+    of users as long as necessary for the purposes for which it was originally collected.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We store personal information behind a computer firewall, a barrier designed to
+    prevent outsiders from accessing our servers, and we have implemented technology
+    to detect intrusions.
+  purposes: {}
+- source: we
+  target: personal information user submit to we through site
+  key: COLLECT
+  text:
+  - We collect personal information that users submit to us voluntarily through the
+    Site.
+  purposes: {}
+- source: we
+  target: user account personal identifiable information
+  key: COLLECT
+  text:
+  - Upon deletion of media and an account, no user-owned media or user account personal
+    identifiable information is retained by the Service.
+  purposes: {}
+- source: service in usa
+  target: user medium
+  key: COLLECT
+  text:
+  - User media and user account content is stored securely by the Service in the USA
+    on Amazon Web Services (AWS) infrastructure and data processing equipment.
+  purposes: {}
+- source: web server host site
+  target: access log
+  key: COLLECT
+  text:
+  - The web servers that host this Site maintain access logs with the information
+    that you send.
+  purposes: {}
+- source: personal information
+  target: biography
+  key: SUBSUM
+  text:
+  - Personal information is all information pertaining to the user that is directly
+    editable through his or her Profile pages, including, for example, the user's
+    name, email address and biography.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Personal information is all information pertaining to the user that is directly
+    editable through his or her Profile pages, including, for example, the user's
+    name, email address and biography.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Personal information is all information pertaining to the user that is directly
+    editable through his or her Profile pages, including, for example, the user's
+    name, email address and biography.
+nodes:
+- type: ACTOR
+  id: service in usa
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web server host site
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access log
+- type: DATA
+  id: biography
+- type: DATA
+  id: datum log
+- type: DATA
+  id: email address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum collect
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information user submit to we through site
+- type: DATA
+  id: user account personal identifiable information
+- type: DATA
+  id: user medium

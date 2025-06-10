@@ -1,0 +1,946 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Company will disclose Personally-Identifying Information under the following
+    circumstances:'
+  - Our Privacy Policy tells you (i) what information We may collect from you, (ii)
+    how We may use and/or share that information, and (iii) how you can limit Our
+    collection, use and sharing of Your information.
+  - Under COPPA, children that are 13 years and older may provide us with information
+    without a parent's or guardian's permission.
+  - We will only share your information with third parties in accordance with your
+    instructions or as necessary to provide you with a specific service or otherwise
+    in accordance with applicable privacy legislation.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We also may share aggregated information with third parties, including advisors
+    and investors, for the purpose of conducting general business analysis.
+  purposes:
+    analytics:
+    - for the purpose of conducting general business analysis
+- source: we
+  target: area on website you post review relate to activity on website
+  key: COLLECT
+  text:
+  - We may provide areas on the Website where You can post reviews and other information
+    relating to Your activities on the Website.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - As with other Non-Personally-Identifying Information gathered from Users of the
+    Website, Company analyzes and discloses in aggregated form information gathered
+    using Web Cookies, so as to help Company, its partners and others better understand
+    how the Website is being used.
+  - Company also uses Web Cookies to track the pages that Users visit during each
+    Website session, both to help Company improve Users' experiences and to help Company
+    understand how the Website is being used.
+  - We use cookies on the Website to keep track of services You have used, to record
+    registration information regarding Your login name and password, to record Your
+    User preferences, and to keep You logged into the Website.
+  purposes:
+    analytics:
+    - both to help Company improve Users' experiences and to help Company understand
+      how the Website is being used
+    - to keep track of services You have used, to record registration information
+      regarding Your login name and password, to record Your User preferences, and
+      to keep You logged into the Website
+    - to track the pages that Users visit during each Website session
+    services:
+    - both to help Company improve Users' experiences and to help Company understand
+      how the Website is being used
+    - to keep track of services You have used, to record registration information
+      regarding Your login name and password, to record Your User preferences, and
+      to keep You logged into the Website
+- source: we
+  target: date of birth
+  key: COLLECT
+  text:
+  - We also may request information about Your interests and activities, Your gender,
+    age, date of birth, username, hometown and other demographic or relevant information
+    as determined by Company from time to time.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'We collect your email address in order to:'
+  - We may occasionally use Your name and email address to send You notifications
+    regarding new products, services or information made available by Company that
+    We think You may find valuable.
+  purposes:
+    advertising:
+    - 'in order to: Market to our mailing list or continue to send emails to our clients
+      after the original transaction has occurred'
+    - to send You notifications regarding new products, services or information made
+      available by Company that We think You may find valuable
+    analytics:
+    - to send You notifications regarding new products, services or information made
+      available by Company that We think You may find valuable
+    security:
+    - 'in order to: Provide secure login access to Authorizes Users of the GReminders
+      SaaS Services'
+    services:
+    - 'in order to: Market to our mailing list or continue to send emails to our clients
+      after the original transaction has occurred'
+    - 'in order to: Provide secure login access to Authorizes Users of the GReminders
+      SaaS Services'
+    - 'in order to: Send information, respond to inquiries, and/or other requests
+      or questions'
+    - to send You notifications regarding new products, services or information made
+      available by Company that We think You may find valuable
+- source: we
+  target: financial information
+  key: COLLECT
+  text:
+  - We may use financial information or payment method to process payment for any
+    purchases made on the Website, enroll You in the discount, rebate, and other programs
+    in which You elect to participate, to protect against or identify possible fraudulent
+    transactions and otherwise as needed to manage Our business.
+  purposes:
+    security:
+    - to process payment for any purchases made on the Website, enroll You in the
+      discount, rebate, and other programs in which You elect to participate, to protect
+      against or identify possible fraudulent transactions
+    services:
+    - to process payment for any purchases made on the Website, enroll You in the
+      discount, rebate, and other programs in which You elect to participate, to protect
+      against or identify possible fraudulent transactions
+- source: we
+  target: history of change information
+  key: COLLECT
+  text:
+  - Additionally, We keep a history of changed information to investigate suspected
+    fraud with Your account.
+  purposes:
+    security:
+    - to investigate suspected fraud with Your account
+- source: we
+  target: hyperlink on website redirect you to social network
+  key: COLLECT
+  text:
+  - We may use hyperlinks on the Website which will redirect You to a social network
+    if You click on the respective link.
+  purposes: {}
+- source: we
+  target: information we obtain from current activity on website
+  key: COLLECT
+  text:
+  - Company uses the Personally-Identifying Information in the file We maintain about
+    You, and other information We obtain from Your current and past activities on
+    the Website (1) to deliver the products and services that You have requested;
+    (2) to manage Your account and provide You with customer support; (3) to communicate
+    with You by email, postal mail, telephone and/or mobile devices about products
+    or services that may be of interest to You either from us, Our affiliate companies
+    or other third parties; (4) to develop and display content and advertising tailored
+    to Your interests on the Website and other sites; (5) to resolve disputes and
+    troubleshoot problems; (6) to measure consumer interest in Our services; (7) to
+    inform You of updates; (8) to customize Your experience; (9) to detect and protect
+    us against error, fraud and other criminal activity; (10) to enforce Our Terms
+    of Use; and (11) to do as otherwise described to You at the time of collection.
+  purposes:
+    advertising:
+    - (1) to deliver the products and services that You have requested; (2) to manage
+      Your account and provide You with customer support; (3) to communicate with
+      You by email, postal mail, telephone and/or mobile devices about products or
+      services that may be of interest to You either from us, Our affiliate companies
+      or other third parties; (4) to develop and display content and advertising tailored
+      to Your interests on the Website and other sites; (5) to resolve disputes and
+      troubleshoot problems; (6) to measure consumer interest in Our services; (7)
+      to inform You of updates; (8) to customize Your experience; (9) to detect and
+      protect us against error, fraud and other criminal activity; (10) to enforce
+      Our Terms of Use; and (11) to do as otherwise described to You at the time of
+      collection
+    analytics:
+    - (1) to deliver the products and services that You have requested; (2) to manage
+      Your account and provide You with customer support; (3) to communicate with
+      You by email, postal mail, telephone and/or mobile devices about products or
+      services that may be of interest to You either from us, Our affiliate companies
+      or other third parties; (4) to develop and display content and advertising tailored
+      to Your interests on the Website and other sites; (5) to resolve disputes and
+      troubleshoot problems; (6) to measure consumer interest in Our services; (7)
+      to inform You of updates; (8) to customize Your experience; (9) to detect and
+      protect us against error, fraud and other criminal activity; (10) to enforce
+      Our Terms of Use; and (11) to do as otherwise described to You at the time of
+      collection
+    security:
+    - (1) to deliver the products and services that You have requested; (2) to manage
+      Your account and provide You with customer support; (3) to communicate with
+      You by email, postal mail, telephone and/or mobile devices about products or
+      services that may be of interest to You either from us, Our affiliate companies
+      or other third parties; (4) to develop and display content and advertising tailored
+      to Your interests on the Website and other sites; (5) to resolve disputes and
+      troubleshoot problems; (6) to measure consumer interest in Our services; (7)
+      to inform You of updates; (8) to customize Your experience; (9) to detect and
+      protect us against error, fraud and other criminal activity; (10) to enforce
+      Our Terms of Use; and (11) to do as otherwise described to You at the time of
+      collection
+    services:
+    - (1) to deliver the products and services that You have requested; (2) to manage
+      Your account and provide You with customer support; (3) to communicate with
+      You by email, postal mail, telephone and/or mobile devices about products or
+      services that may be of interest to You either from us, Our affiliate companies
+      or other third parties; (4) to develop and display content and advertising tailored
+      to Your interests on the Website and other sites; (5) to resolve disputes and
+      troubleshoot problems; (6) to measure consumer interest in Our services; (7)
+      to inform You of updates; (8) to customize Your experience; (9) to detect and
+      protect us against error, fraud and other criminal activity; (10) to enforce
+      Our Terms of Use; and (11) to do as otherwise described to You at the time of
+      collection
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - From time to time, We may also release the Non-Personally-Identifying Information
+    gathered from Users in the aggregate, such as by publishing a report on trends
+    in the usage of the Website.
+  - Like most website operators, We gather from Users of the Website Non-Personally-Identifying
+    Information of the sort that Web browsers, depending on their settings, may make
+    available.
+  - We analyze Non-Personally-Identifying Information gathered from Users of the Website
+    to help Us better understand how the Website is being used.
+  - We may share aggregated and Non-Personally Identifying Information We collect
+    under any of the above circumstances.
+  purposes:
+    analytics:
+    - to help Us better understand how the Website is being used
+- source: we
+  target: option connect account on website to account on social networking site
+  key: COLLECT
+  text:
+  - We may provide You the option to connect Your account on the Website to Your account
+    on some social networking sites for the purpose of logging in, uploading information
+    or enabling certain features on the Services.
+  purposes:
+    services:
+    - for the purpose of logging in, uploading information or enabling certain features
+      on the Services
+- source: we
+  target: payment method
+  key: COLLECT
+  text:
+  - We may use financial information or payment method to process payment for any
+    purchases made on the Website, enroll You in the discount, rebate, and other programs
+    in which You elect to participate, to protect against or identify possible fraudulent
+    transactions and otherwise as needed to manage Our business.
+  purposes:
+    security:
+    - to process payment for any purchases made on the Website, enroll You in the
+      discount, rebate, and other programs in which You elect to participate, to protect
+      against or identify possible fraudulent transactions
+    services:
+    - to process payment for any purchases made on the Website, enroll You in the
+      discount, rebate, and other programs in which You elect to participate, to protect
+      against or identify possible fraudulent transactions
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We may occasionally use Your name and email address to send You notifications
+    regarding new products, services or information made available by Company that
+    We think You may find valuable.
+  purposes:
+    advertising:
+    - to send You notifications regarding new products, services or information made
+      available by Company that We think You may find valuable
+    analytics:
+    - to send You notifications regarding new products, services or information made
+      available by Company that We think You may find valuable
+    services:
+    - to send You notifications regarding new products, services or information made
+      available by Company that We think You may find valuable
+- source: we
+  target: personal data provide in valid request
+  key: COLLECT
+  text:
+  - We will only use Personal Data provided in a Valid Request to verify you and complete
+    your request.
+  purposes:
+    security:
+    - to verify you and complete your request
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Company uses the Personally-Identifying Information in the file We maintain about
+    You, and other information We obtain from Your current and past activities on
+    the Website (1) to deliver the products and services that You have requested;
+    (2) to manage Your account and provide You with customer support; (3) to communicate
+    with You by email, postal mail, telephone and/or mobile devices about products
+    or services that may be of interest to You either from us, Our affiliate companies
+    or other third parties; (4) to develop and display content and advertising tailored
+    to Your interests on the Website and other sites; (5) to resolve disputes and
+    troubleshoot problems; (6) to measure consumer interest in Our services; (7) to
+    inform You of updates; (8) to customize Your experience; (9) to detect and protect
+    us against error, fraud and other criminal activity; (10) to enforce Our Terms
+    of Use; and (11) to do as otherwise described to You at the time of collection.
+  - We may collect the Personally-Identifying Information You have made publicly available
+    on the social networking site, such as Your name, profile picture, cover photo,
+    username, gender, friends network, age range, locale, friend list and any other
+    information You have made public.
+  - We will retain in Our files some Personally-Identifying Information to prevent
+    fraud, to troubleshoot problems, to assist with any investigations, to enforce
+    Our Terms of Use and to comply with legal requirements as is permitted by law.
+  - When We believe disclosure is appropriate, We may disclose Personally-Identifying
+    Information in connection with efforts to investigate, prevent or take other action
+    regarding illegal activity, suspected fraud or other wrongdoing; to protect and
+    defend the rights, property or safety of Company, Our Users, Our employees or
+    others; to comply with applicable law or cooperate with law enforcement; to enforce
+    Our Terms of Use or other agreements or policies, in response to a subpoena or
+    similar investigative demand, a court order or a request for cooperation from
+    a law enforcement or other government agency; to establish or exercise Our legal
+    rights; to defend against legal claims; or as otherwise required by law.
+  purposes:
+    advertising:
+    - (1) to deliver the products and services that You have requested; (2) to manage
+      Your account and provide You with customer support; (3) to communicate with
+      You by email, postal mail, telephone and/or mobile devices about products or
+      services that may be of interest to You either from us, Our affiliate companies
+      or other third parties; (4) to develop and display content and advertising tailored
+      to Your interests on the Website and other sites; (5) to resolve disputes and
+      troubleshoot problems; (6) to measure consumer interest in Our services; (7)
+      to inform You of updates; (8) to customize Your experience; (9) to detect and
+      protect us against error, fraud and other criminal activity; (10) to enforce
+      Our Terms of Use; and (11) to do as otherwise described to You at the time of
+      collection
+    analytics:
+    - (1) to deliver the products and services that You have requested; (2) to manage
+      Your account and provide You with customer support; (3) to communicate with
+      You by email, postal mail, telephone and/or mobile devices about products or
+      services that may be of interest to You either from us, Our affiliate companies
+      or other third parties; (4) to develop and display content and advertising tailored
+      to Your interests on the Website and other sites; (5) to resolve disputes and
+      troubleshoot problems; (6) to measure consumer interest in Our services; (7)
+      to inform You of updates; (8) to customize Your experience; (9) to detect and
+      protect us against error, fraud and other criminal activity; (10) to enforce
+      Our Terms of Use; and (11) to do as otherwise described to You at the time of
+      collection
+    legal:
+    - to prevent fraud, to troubleshoot problems, to assist with any investigations,
+      to enforce Our Terms of Use and to comply with legal requirements as is permitted
+      by law
+    security:
+    - (1) to deliver the products and services that You have requested; (2) to manage
+      Your account and provide You with customer support; (3) to communicate with
+      You by email, postal mail, telephone and/or mobile devices about products or
+      services that may be of interest to You either from us, Our affiliate companies
+      or other third parties; (4) to develop and display content and advertising tailored
+      to Your interests on the Website and other sites; (5) to resolve disputes and
+      troubleshoot problems; (6) to measure consumer interest in Our services; (7)
+      to inform You of updates; (8) to customize Your experience; (9) to detect and
+      protect us against error, fraud and other criminal activity; (10) to enforce
+      Our Terms of Use; and (11) to do as otherwise described to You at the time of
+      collection
+    - to prevent fraud, to troubleshoot problems, to assist with any investigations,
+      to enforce Our Terms of Use and to comply with legal requirements as is permitted
+      by law
+    services:
+    - (1) to deliver the products and services that You have requested; (2) to manage
+      Your account and provide You with customer support; (3) to communicate with
+      You by email, postal mail, telephone and/or mobile devices about products or
+      services that may be of interest to You either from us, Our affiliate companies
+      or other third parties; (4) to develop and display content and advertising tailored
+      to Your interests on the Website and other sites; (5) to resolve disputes and
+      troubleshoot problems; (6) to measure consumer interest in Our services; (7)
+      to inform You of updates; (8) to customize Your experience; (9) to detect and
+      protect us against error, fraud and other criminal activity; (10) to enforce
+      Our Terms of Use; and (11) to do as otherwise described to You at the time of
+      collection
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, we may need to retain your Personal Data to provide you with the
+    Services or complete a transaction or other action you have requested.
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  purposes:
+    services:
+    - to provide you with the Services or complete a transaction or other action you
+      have requested
+- source: we
+  target: specific piece of personal data we collect about you
+  key: COLLECT
+  text:
+  - 'We will provide you with the following information: The specific pieces of Personal
+    Data that we have collected about you.'
+  purposes: {}
+- source: Facebook
+  target: browser version
+  key: COLLECT
+  text:
+  - So for example, when You click on the Facebook's "Like" button on the Website,
+    Facebook will receive Your IP address, the browser version and screen resolution,
+    and the operating system of the device You have used to access the Website.
+  purposes: {}
+- source: Facebook
+  target: ip address
+  key: COLLECT
+  text:
+  - So for example, when You click on the Facebook's "Like" button on the Website,
+    Facebook will receive Your IP address, the browser version and screen resolution,
+    and the operating system of the device You have used to access the Website.
+  purposes: {}
+- source: Facebook
+  target: screen resolution
+  key: COLLECT
+  text:
+  - So for example, when You click on the Facebook's "Like" button on the Website,
+    Facebook will receive Your IP address, the browser version and screen resolution,
+    and the operating system of the device You have used to access the Website.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will only share your information with third parties in accordance with your
+    instructions or as necessary to provide you with a specific service or otherwise
+    in accordance with applicable privacy legislation.
+  purposes: {}
+- source: advisor
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We also may share aggregated information with third parties, including advisors
+    and investors, for the purpose of conducting general business analysis.
+  purposes:
+    analytics:
+    - for the purpose of conducting general business analysis
+- source: we in united states
+  target: personal information
+  key: COLLECT
+  text:
+  - If You are accessing Our Website from other jurisdictions, please be advised that
+    You are transferring Your personal information to us in the United States, and
+    by using Our Website, You consent to that transfer and use of Your personal information
+    in accordance with this Privacy Policy.
+  purposes: {}
+- source: web beacons
+  target: set of information
+  key: COLLECT
+  text:
+  - Web Beacons collect only a limited set of information, including a Web Cookie
+    number, time and date of a page or email view and a description of the page or
+    email on which the Web Beacon resides.
+  purposes: {}
+- source: we
+  target: greminders
+  key: SUBSUM
+  text:
+  - Kaiser Ridge, Inc. (" GReminders ") ("us", "we", or "our") operates the greminders.com
+    website (hereinafter referred to as the "Service").
+- source: we
+  target: greminders software as service
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to Our Website located at https://www.greminders.com,
+    including other media forms, media channels, mobile website or mobile application
+    related or connected thereto (collectively, "Website") and the GReminders software
+    as a service ("Services") that are accessed by Authorized Users.
+- source: we
+  target: kaiser ridge inc.
+  key: SUBSUM
+  text:
+  - Kaiser Ridge, Inc. (" GReminders ") ("us", "we", or "our") operates the greminders.com
+    website (hereinafter referred to as the "Service").
+- source: we
+  target: media form
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to Our Website located at https://www.greminders.com,
+    including other media forms, media channels, mobile website or mobile application
+    related or connected thereto (collectively, "Website") and the GReminders software
+    as a service ("Services") that are accessed by Authorized Users.
+- source: we
+  target: medium channel
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to Our Website located at https://www.greminders.com,
+    including other media forms, media channels, mobile website or mobile application
+    related or connected thereto (collectively, "Website") and the GReminders software
+    as a service ("Services") that are accessed by Authorized Users.
+- source: we
+  target: mobile application related
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to Our Website located at https://www.greminders.com,
+    including other media forms, media channels, mobile website or mobile application
+    related or connected thereto (collectively, "Website") and the GReminders software
+    as a service ("Services") that are accessed by Authorized Users.
+- source: we
+  target: mobile website
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to Our Website located at https://www.greminders.com,
+    including other media forms, media channels, mobile website or mobile application
+    related or connected thereto (collectively, "Website") and the GReminders software
+    as a service ("Services") that are accessed by Authorized Users.
+- source: financial information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - That information may include each User's name, address, email address and telephone
+    number, and, if You transact business with us, financial information such as Your
+    payment method (valid credit card number, type, expiration date or other financial
+    information).
+- source: financial information
+  target: expiration date
+  key: SUBSUM
+  text:
+  - That information may include each User's name, address, email address and telephone
+    number, and, if You transact business with us, financial information such as Your
+    payment method (valid credit card number, type, expiration date or other financial
+    information).
+- source: financial information
+  target: payment method
+  key: SUBSUM
+  text:
+  - That information may include each User's name, address, email address and telephone
+    number, and, if You transact business with us, financial information such as Your
+    payment method (valid credit card number, type, expiration date or other financial
+    information).
+- source: information provide
+  target: email address
+  key: SUBSUM
+  text:
+  - Much of the Personally-Identifying Information collected is information provided
+    by users themselves when (1) registering on Our Website, (2) logging in to access
+    the Services, (3) logging in with social network credentials, (4) participating
+    in polls, contests, surveys or other features of Our Website, (5) or responding
+    to offer or advertisements, (6) communicating with us, (7) creating a public profile
+    or (8) signing up to receive newsletters.
+  - That information may include each User's name, address, email address and telephone
+    number, and, if You transact business with us, financial information such as Your
+    payment method (valid credit card number, type, expiration date or other financial
+    information).
+- source: information provide
+  target: financial information
+  key: SUBSUM
+  text:
+  - Much of the Personally-Identifying Information collected is information provided
+    by users themselves when (1) registering on Our Website, (2) logging in to access
+    the Services, (3) logging in with social network credentials, (4) participating
+    in polls, contests, surveys or other features of Our Website, (5) or responding
+    to offer or advertisements, (6) communicating with us, (7) creating a public profile
+    or (8) signing up to receive newsletters.
+  - That information may include each User's name, address, email address and telephone
+    number, and, if You transact business with us, financial information such as Your
+    payment method (valid credit card number, type, expiration date or other financial
+    information).
+- source: information provide
+  target: person name
+  key: SUBSUM
+  text:
+  - Much of the Personally-Identifying Information collected is information provided
+    by users themselves when (1) registering on Our Website, (2) logging in to access
+    the Services, (3) logging in with social network credentials, (4) participating
+    in polls, contests, surveys or other features of Our Website, (5) or responding
+    to offer or advertisements, (6) communicating with us, (7) creating a public profile
+    or (8) signing up to receive newsletters.
+  - That information may include each User's name, address, email address and telephone
+    number, and, if You transact business with us, financial information such as Your
+    payment method (valid credit card number, type, expiration date or other financial
+    information).
+- source: information provide
+  target: phone number
+  key: SUBSUM
+  text:
+  - Much of the Personally-Identifying Information collected is information provided
+    by users themselves when (1) registering on Our Website, (2) logging in to access
+    the Services, (3) logging in with social network credentials, (4) participating
+    in polls, contests, surveys or other features of Our Website, (5) or responding
+    to offer or advertisements, (6) communicating with us, (7) creating a public profile
+    or (8) signing up to receive newsletters.
+  - That information may include each User's name, address, email address and telephone
+    number, and, if You transact business with us, financial information such as Your
+    payment method (valid credit card number, type, expiration date or other financial
+    information).
+- source: information provide
+  target: postal address
+  key: SUBSUM
+  text:
+  - Much of the Personally-Identifying Information collected is information provided
+    by users themselves when (1) registering on Our Website, (2) logging in to access
+    the Services, (3) logging in with social network credentials, (4) participating
+    in polls, contests, surveys or other features of Our Website, (5) or responding
+    to offer or advertisements, (6) communicating with us, (7) creating a public profile
+    or (8) signing up to receive newsletters.
+  - That information may include each User's name, address, email address and telephone
+    number, and, if You transact business with us, financial information such as Your
+    payment method (valid credit card number, type, expiration date or other financial
+    information).
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - Like most website operators, We gather from Users of the Website Non-Personally-Identifying
+    Information of the sort that Web browsers, depending on their settings, may make
+    available.
+  - That information includes the User'sInternet Protocol (IP) address, operating
+    system, browser type and the locations of the websites the user views right before
+    arriving at, while navigating and immediately after leaving the Website.
+- source: non-personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Like most website operators, We gather from Users of the Website Non-Personally-Identifying
+    Information of the sort that Web browsers, depending on their settings, may make
+    available.
+  - That information includes the User'sInternet Protocol (IP) address, operating
+    system, browser type and the locations of the websites the user views right before
+    arriving at, while navigating and immediately after leaving the Website.
+- source: non-personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - Like most website operators, We gather from Users of the Website Non-Personally-Identifying
+    Information of the sort that Web browsers, depending on their settings, may make
+    available.
+  - That information includes the User'sInternet Protocol (IP) address, operating
+    system, browser type and the locations of the websites the user views right before
+    arriving at, while navigating and immediately after leaving the Website.
+- source: non-personal information
+  target: operating system
+  key: SUBSUM
+  text:
+  - Like most website operators, We gather from Users of the Website Non-Personally-Identifying
+    Information of the sort that Web browsers, depending on their settings, may make
+    available.
+  - That information includes the User'sInternet Protocol (IP) address, operating
+    system, browser type and the locations of the websites the user views right before
+    arriving at, while navigating and immediately after leaving the Website.
+- source: personal identifier
+  target: age
+  key: SUBSUM
+  text:
+  - We may collect the Personally-Identifying Information You have made publicly available
+    on the social networking site, such as Your name, profile picture, cover photo,
+    username, gender, friends network, age range, locale, friend list and any other
+    information You have made public.
+- source: personal identifier
+  target: cover photo
+  key: SUBSUM
+  text:
+  - We may collect the Personally-Identifying Information You have made publicly available
+    on the social networking site, such as Your name, profile picture, cover photo,
+    username, gender, friends network, age range, locale, friend list and any other
+    information You have made public.
+- source: personal identifier
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - PII may include information such as your name, address, phone number, credit card
+    information, and other related information that you provide to us or that We obtain
+    about you.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - '"Personally-Identifying Information," by contrast, is information such as a name
+    or email address that, without more, can be directly associated with a specific
+    person.'
+- source: personal identifier
+  target: friend list
+  key: SUBSUM
+  text:
+  - We may collect the Personally-Identifying Information You have made publicly available
+    on the social networking site, such as Your name, profile picture, cover photo,
+    username, gender, friends network, age range, locale, friend list and any other
+    information You have made public.
+- source: personal identifier
+  target: friend network
+  key: SUBSUM
+  text:
+  - We may collect the Personally-Identifying Information You have made publicly available
+    on the social networking site, such as Your name, profile picture, cover photo,
+    username, gender, friends network, age range, locale, friend list and any other
+    information You have made public.
+- source: personal identifier
+  target: gender
+  key: SUBSUM
+  text:
+  - We may collect the Personally-Identifying Information You have made publicly available
+    on the social networking site, such as Your name, profile picture, cover photo,
+    username, gender, friends network, age range, locale, friend list and any other
+    information You have made public.
+- source: personal identifier
+  target: information you make
+  key: SUBSUM
+  text:
+  - We may collect the Personally-Identifying Information You have made publicly available
+    on the social networking site, such as Your name, profile picture, cover photo,
+    username, gender, friends network, age range, locale, friend list and any other
+    information You have made public.
+- source: personal identifier
+  target: locale
+  key: SUBSUM
+  text:
+  - We may collect the Personally-Identifying Information You have made publicly available
+    on the social networking site, such as Your name, profile picture, cover photo,
+    username, gender, friends network, age range, locale, friend list and any other
+    information You have made public.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - '"Personally-Identifying Information," by contrast, is information such as a name
+    or email address that, without more, can be directly associated with a specific
+    person.'
+  - PII may include information such as your name, address, phone number, credit card
+    information, and other related information that you provide to us or that We obtain
+    about you.
+  - We may collect the Personally-Identifying Information You have made publicly available
+    on the social networking site, such as Your name, profile picture, cover photo,
+    username, gender, friends network, age range, locale, friend list and any other
+    information You have made public.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - PII may include information such as your name, address, phone number, credit card
+    information, and other related information that you provide to us or that We obtain
+    about you.
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - PII may include information such as your name, address, phone number, credit card
+    information, and other related information that you provide to us or that We obtain
+    about you.
+- source: personal identifier
+  target: profile picture
+  key: SUBSUM
+  text:
+  - We may collect the Personally-Identifying Information You have made publicly available
+    on the social networking site, such as Your name, profile picture, cover photo,
+    username, gender, friends network, age range, locale, friend list and any other
+    information You have made public.
+- source: personal identifier
+  target: related information you provide to we
+  key: SUBSUM
+  text:
+  - PII may include information such as your name, address, phone number, credit card
+    information, and other related information that you provide to us or that We obtain
+    about you.
+- source: personal identifier
+  target: username
+  key: SUBSUM
+  text:
+  - We may collect the Personally-Identifying Information You have made publicly available
+    on the social networking site, such as Your name, profile picture, cover photo,
+    username, gender, friends network, age range, locale, friend list and any other
+    information You have made public.
+- source: set of information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Web Beacons collect only a limited set of information, including a Web Cookie
+    number, time and date of a page or email view and a description of the page or
+    email on which the Web Beacon resides.
+- source: set of information
+  target: date
+  key: SUBSUM
+  text:
+  - Web Beacons collect only a limited set of information, including a Web Cookie
+    number, time and date of a page or email view and a description of the page or
+    email on which the Web Beacon resides.
+- source: set of information
+  target: page view
+  key: SUBSUM
+  text:
+  - Web Beacons collect only a limited set of information, including a Web Cookie
+    number, time and date of a page or email view and a description of the page or
+    email on which the Web Beacon resides.
+- source: set of information
+  target: time
+  key: SUBSUM
+  text:
+  - Web Beacons collect only a limited set of information, including a Web Cookie
+    number, time and date of a page or email view and a description of the page or
+    email on which the Web Beacon resides.
+- source: social plug in
+  target: Google
+  key: SUBSUM
+  text:
+  - However, when You click on a social plug-in, such as Facebook's "Like" button,
+    Twitter's "tweet" button or the Google+, that particular social network's plugin
+    will be activated and Your browser will directly connect to that provider's servers.
+- source: social plug in
+  target: Twitter
+  key: SUBSUM
+  text:
+  - However, when You click on a social plug-in, such as Facebook's "Like" button,
+    Twitter's "tweet" button or the Google+, that particular social network's plugin
+    will be activated and Your browser will directly connect to that provider's servers.
+- source: website locate at https://www.greminders.com
+  target: greminders saas services
+  key: SUBSUM
+  text:
+  - '"WebSite" means Our Website located at https://www.greminders.com, including
+    other media forms, media channels, mobile website or mobile application related
+    or connected thereto and the GReminders SaaS Services.'
+- source: website locate at https://www.greminders.com
+  target: medium channel
+  key: SUBSUM
+  text:
+  - '"WebSite" means Our Website located at https://www.greminders.com, including
+    other media forms, media channels, mobile website or mobile application related
+    or connected thereto and the GReminders SaaS Services.'
+- source: website locate at https://www.greminders.com
+  target: medium form
+  key: SUBSUM
+  text:
+  - '"WebSite" means Our Website located at https://www.greminders.com, including
+    other media forms, media channels, mobile website or mobile application related
+    or connected thereto and the GReminders SaaS Services.'
+- source: website locate at https://www.greminders.com
+  target: mobile application relate
+  key: SUBSUM
+  text:
+  - '"WebSite" means Our Website located at https://www.greminders.com, including
+    other media forms, media channels, mobile website or mobile application related
+    or connected thereto and the GReminders SaaS Services.'
+- source: website locate at https://www.greminders.com
+  target: mobile website
+  key: SUBSUM
+  text:
+  - '"WebSite" means Our Website located at https://www.greminders.com, including
+    other media forms, media channels, mobile website or mobile application related
+    or connected thereto and the GReminders SaaS Services.'
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advisor
+- type: ACTOR
+  id: greminders
+- type: ACTOR
+  id: greminders saas services
+- type: ACTOR
+  id: greminders software as service
+- type: ACTOR
+  id: kaiser ridge inc.
+- type: ACTOR
+  id: media form
+- type: ACTOR
+  id: medium channel
+- type: ACTOR
+  id: medium form
+- type: ACTOR
+  id: mobile application relate
+- type: ACTOR
+  id: mobile application related
+- type: ACTOR
+  id: mobile website
+- type: ACTOR
+  id: social plug in
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: we in united states
+- type: ACTOR
+  id: web beacons
+- type: ACTOR
+  id: website locate at https://www.greminders.com
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: age
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: area on website you post review relate to activity on website
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: cover photo
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: email address
+- type: DATA
+  id: expiration date
+- type: DATA
+  id: financial information
+- type: DATA
+  id: friend list
+- type: DATA
+  id: friend network
+- type: DATA
+  id: gender
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: history of change information
+- type: DATA
+  id: hyperlink on website redirect you to social network
+- type: DATA
+  id: information provide
+- type: DATA
+  id: information we obtain from current activity on website
+- type: DATA
+  id: information you make
+- type: DATA
+  id: ip address
+- type: DATA
+  id: locale
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: operating system
+- type: DATA
+  id: option connect account on website to account on social networking site
+- type: DATA
+  id: page view
+- type: DATA
+  id: payment method
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal data provide in valid request
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: profile picture
+- type: DATA
+  id: related information you provide to we
+- type: DATA
+  id: screen resolution
+- type: DATA
+  id: set of information
+- type: DATA
+  id: specific piece of personal data we collect about you
+- type: DATA
+  id: time
+- type: DATA
+  id: username

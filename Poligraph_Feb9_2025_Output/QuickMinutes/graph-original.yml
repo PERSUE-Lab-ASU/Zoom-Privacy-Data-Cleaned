@@ -1,0 +1,172 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This privacy policy sets out how we, as a data controller, collect, use, process
+    and disclose the personal data (Data) that we collect from you, or that you provide
+    to us, on our website www.quickminutes.com, as well as our integrations in 3rd
+    party platforms and applications. (i.e "QuickMinutes Assistant" for Microsoft
+    Teams).
+  - We collect data automatically when you navigate through our site, as explained
+    in our cookie policy.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 5.1 Our Website uses "cookies" and files that are similar to cookies.
+  purposes: {}
+- source: we
+  target: datum we collect about you
+  key: COLLECT
+  text:
+  - '8.1 We use the data that we collect about you for the following purposes:'
+  purposes:
+    analytics:
+    - To administer our website and for internal operations, including troubleshooting,
+      data analysis, research, testing, statistical and survey purposes
+    security:
+    - As part of our efforts to keep the website safe and secure
+    services:
+    - Inform you about products and services that we offer and
+    - To administer our website and for internal operations, including troubleshooting,
+      data analysis, research, testing, statistical and survey purposes
+    - To administer your account
+    - To maintain and improve our website, including personalizing your online experience
+      and ensuring content is presented in the most effective manner for you
+    - To notify you about changes to our services, the website or our Terms of Use
+      and this Privacy Policy
+- source: we
+  target: datum you input in quickminutes assistant
+  key: COLLECT
+  text:
+  - We collect some data that you input in the QuickMinutes Assistant to provide you
+    with the best possible experience with the product.
+  purposes:
+    services:
+    - to provide you with the best possible experience with the product
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We temporarily share your email address with sendinblue, so they know where to
+    send the transactional email.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We also use a GDPR compliant service "MixPanel" to collect telemetry and product
+    usage data which helps us improve the overall functionality and value of the product.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We temporarily share your name with them, so they can personalise the email.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This privacy policy sets out how we, as a data controller, collect, use, process
+    and disclose the personal data (Data) that we collect from you, or that you provide
+    to us, on our website www.quickminutes.com, as well as our integrations in 3rd
+    party platforms and applications. (i.e "QuickMinutes Assistant" for Microsoft
+    Teams).
+  - We may also disclose personal information in other circumstances as required by
+    law.
+  - We may disclose personal information that we collect about you to these companies
+    to enable them to perform these services.
+  purposes:
+    services:
+    - to enable them to perform these services
+- source: Google
+  target: select data
+  key: COLLECT
+  text:
+  - Select Data is shared with Google Analytics through the use of cookies.
+  purposes: {}
+- source: Switzerland Tourism
+  target: information collect within european economic area
+  key: COLLECT
+  text:
+  - Information collected within the European Economic Area ("EEA") and Switzerland
+    may, for example, be transferred to and processed by third parties that are located
+    in a country outside of the EEA and Switzerland.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information relate to order we combine with personal information
+  key: COLLECT
+  text:
+  - By way of example, information relating to your order which we have combined with
+    other personal information (as explained above) may be shared with our third party
+    service providers that assist us in providing our service.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - In order to carry out certain business functions, such as payment processing or
+    email delivery, we may hire other companies to perform services on our behalf.
+  - We may disclose personal information that we collect about you to these companies
+    to enable them to perform these services.
+  purposes:
+    services:
+    - to enable them to perform these services
+- source: advertising quickminutes
+  target: facebook analytics datum from quickminutes website
+  key: COLLECT
+  text:
+  - Advertising & Analytics QuickMinutes to use advertising features like audiences,
+    conversions, targeting and optimization as well as Facebook Analytics data from
+    the QuickMinutes website.
+  purposes: {}
+- source: sendinblue
+  target: email address
+  key: COLLECT
+  text:
+  - We temporarily share your email address with sendinblue, so they know where to
+    send the transactional email.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Switzerland Tourism
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertising quickminutes
+- type: ACTOR
+  id: sendinblue
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum we collect about you
+- type: DATA
+  id: datum you input in quickminutes assistant
+- type: DATA
+  id: email address
+- type: DATA
+  id: facebook analytics datum from quickminutes website
+- type: DATA
+  id: information collect within european economic area
+- type: DATA
+  id: information relate to order we combine with personal information
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: select data

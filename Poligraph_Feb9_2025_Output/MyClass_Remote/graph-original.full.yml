@@ -1,0 +1,17 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: mediaseek
+  target: personal information
+  key: COLLECT
+  text:
+  - Mediaseek may obtain personal information through security camera for safety control.
+  purposes:
+    security:
+    - for safety control
+nodes:
+- type: ACTOR
+  id: mediaseek
+- type: DATA
+  id: personal information

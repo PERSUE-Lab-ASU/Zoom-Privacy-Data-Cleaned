@@ -1,0 +1,310 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Upon your request we will provide information to you about your account and your
+    purchase and/or transaction history.
+  - Upon your request, we will provide you information to you detailing the amount
+    and type of your personal information, if any, that we have.
+  - We collect information from you for the purpose of improving our existing products
+    and services and for developing new products and services.
+  purposes:
+    services:
+    - for the purpose of improving our existing products and services and for developing
+      new products and services
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - In addition, we will process at your request changes and deletions to your account
+    information including personal contact information and financial information.
+  purposes: {}
+- source: we
+  target: financial information
+  key: COLLECT
+  text:
+  - In addition, we will process at your request changes and deletions to your account
+    information including personal contact information and financial information.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may collect information about you from our Service Providers.
+  - We may collect information about you from our business partners and affiliates.
+  - We may receive information about you from publicly available sources of information,
+    including government records and commercially available sources of consumer information.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - Internet or other network activity information may be collected by us.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'For Operation Purposes: We may use your personal information to ensure proper
+    operation of our service.'
+  - If you appoint an agent to receive information from us on your behalf we may provide
+    your personal information in responding to enquiries from such appointed agent.
+  - In certain circumstances, we will transfer your personal information outside of
+    the European Economic Area.
+  - 'Marketing Purposes: We collect personal information from you for the purpose
+    of marketing services to you and to other prospective customers.'
+  - 'Network Security Purposes: We collect your personal information so that we may
+    can maintain the proper level of security over our network and to also prevent
+    and/or investigate fraud or suspicious activities.'
+  - We collect personal information from you to provide our business partners with
+    information about you if you have either expressed an interest in products or
+    services offered by our business partners or if you have purchased services or
+    products from such business partners.
+  - 'We collect your personal data based on the legal processes set forth below:'
+  - We collect your personal information for a number of reasons.
+  - We collect your personal information for the purpose of providing you with our
+    products and services.
+  - We do and will share your personal information with third parties in certain specific
+    circumstances.
+  - We maintain your personal information for as long as it is required to provide
+    you with our services.
+  - We may also share your personal information with a business partner or affiliate
+    in instances where we and the business partner or affiliate have offered a product
+    or service jointly and it is a product or service that you have ordered, purchased
+    or expressed an interest in.
+  - We may also use your personal information to provide you information about future
+    services or in response to an enquiry by you about our products and services in
+    which you may have a potential interest.
+  - We may share personal information about you in connection with public postings
+    regarding our products and services.
+  - We may share your personal information with affiliates in very limited circumstances.
+  - We may share your personal information with certain government and tax authorities
+    in connection with fulfilling a purchase transaction between us and you with regarding
+    to our services.
+  - We may share your personal information with third party service providers who
+    may assist us in providing our business services to you.
+  - You may specifically opt-out of allowing us to share your personal information
+    in this manner by contacting us here .
+  purposes:
+    advertising:
+    - for the purpose of marketing services to you and to other prospective customers
+    - to provide our business partners with information about you
+    analytics:
+    - to provide our business partners with information about you
+    services:
+    - For Operation Purposes
+    - for the purpose of providing you with our products and services
+    - to ensure proper operation of our service
+    - to provide our business partners with information about you
+    - to provide you information about future services
+- source: we
+  target: personal information of consumer
+  key: COLLECT
+  text:
+  - This Privacy Policy details how we collect, process, store, disclose and use personal
+    information of consumers.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We do and will share your personal information with third parties in certain specific
+    circumstances.
+  - We may also share your personal information with a business partner or affiliate
+    in instances where we and the business partner or affiliate have offered a product
+    or service jointly and it is a product or service that you have ordered, purchased
+    or expressed an interest in.
+  - We may share your personal information with affiliates in very limited circumstances.
+  - We may share your personal information with third party service providers who
+    may assist us in providing our business services to you.
+  purposes: {}
+- source: business partner
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also share your personal information with a business partner or affiliate
+    in instances where we and the business partner or affiliate have offered a product
+    or service jointly and it is a product or service that you have ordered, purchased
+    or expressed an interest in.
+  purposes: {}
+- source: government authority
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal information with certain government and tax authorities
+    in connection with fulfilling a purchase transaction between us and you with regarding
+    to our services.
+  purposes: {}
+- source: paid.link
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Paid.link also potentially uses each category of information that we collect to
+    carry out the any or each of the purposes set forth below.
+  purposes: {}
+- source: paidlink
+  target: email address
+  key: COLLECT
+  text:
+  - Paidlink uses tokens, user ID and user email address for authorisation of the
+    users and managing Zoom meetings associated with links created with Paidlink.
+  purposes:
+    services:
+    - for authorisation of the users and managing Zoom meetings associated with links
+      created with Paidlink
+- source: paidlink
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Paidlink uses tokens, user ID and user email address for authorisation of the
+    users and managing Zoom meetings associated with links created with Paidlink.
+  purposes:
+    services:
+    - for authorisation of the users and managing Zoom meetings associated with links
+      created with Paidlink
+- source: paidlink
+  target: token
+  key: COLLECT
+  text:
+  - Paidlink uses tokens, user ID and user email address for authorisation of the
+    users and managing Zoom meetings associated with links created with Paidlink.
+  purposes:
+    services:
+    - for authorisation of the users and managing Zoom meetings associated with links
+      created with Paidlink
+- source: financial account information
+  target: account number
+  key: SUBSUM
+  text:
+  - For example, we contract with payment processing companies, including Stripe Payment
+    Processing whereby we collect financial account information including credit card
+    numbers and financial institution names and accounts numbers.
+- source: financial account information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - For example, we contract with payment processing companies, including Stripe Payment
+    Processing whereby we collect financial account information including credit card
+    numbers and financial institution names and accounts numbers.
+- source: financial account information
+  target: financial institution name
+  key: SUBSUM
+  text:
+  - For example, we contract with payment processing companies, including Stripe Payment
+    Processing whereby we collect financial account information including credit card
+    numbers and financial institution names and accounts numbers.
+- source: financial information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - Examples of other types of information that we may collect include telephone numbers,
+    financial information including bank account, credit card and debit card numbers.
+- source: process company
+  target: Stripe
+  key: SUBSUM
+  text:
+  - For example, we contract with payment processing companies, including Stripe Payment
+    Processing whereby we collect financial account information including credit card
+    numbers and financial institution names and accounts numbers.
+- source: publicly available source of information
+  target: commercially available source of consumer information
+  key: SUBSUM
+  text:
+  - We may receive information about you from publicly available sources of information,
+    including government records and commercially available sources of consumer information.
+- source: publicly available source of information
+  target: government record
+  key: SUBSUM
+  text:
+  - We may receive information about you from publicly available sources of information,
+    including government records and commercially available sources of consumer information.
+- source: source of information
+  target: personal consumer information
+  key: SUBSUM
+  text:
+  - This includes access to specific pieces and categories of personal consumer information
+    that the business has collected, the categories of sources of that information,
+    the purposes for collecting that personal information, and the categories of third
+    parties who have access to that personal information.
+- source: source of information
+  target: specific piece
+  key: SUBSUM
+  text:
+  - This includes access to specific pieces and categories of personal consumer information
+    that the business has collected, the categories of sources of that information,
+    the purposes for collecting that personal information, and the categories of third
+    parties who have access to that personal information.
+- source: type of marketing material
+  target: service update
+  key: SUBSUM
+  text:
+  - Your opt -out options may include partial opting out of receiving marketing materials,
+    for example, you may selectively opt-out from receiving emails or texts from us
+    or opt-out from receiving certain types of marketing materials, including for
+    example, service and product updates, promotions, and other specific marketing
+    efforts.
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: government authority
+- type: ACTOR
+  id: paid.link
+- type: ACTOR
+  id: paidlink
+- type: ACTOR
+  id: process company
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account number
+- type: DATA
+  id: commercially available source of consumer information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial account information
+- type: DATA
+  id: financial information
+- type: DATA
+  id: financial institution name
+- type: DATA
+  id: government record
+- type: DATA
+  id: information about you
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: personal consumer information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information of consumer
+- type: DATA
+  id: publicly available source of information
+- type: DATA
+  id: service update
+- type: DATA
+  id: source of information
+- type: DATA
+  id: specific piece
+- type: DATA
+  id: token
+- type: DATA
+  id: type of marketing material

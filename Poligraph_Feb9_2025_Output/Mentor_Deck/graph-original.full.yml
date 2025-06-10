@@ -1,0 +1,71 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Cookies are used by our website to enable the functionality of certain areas to
+    make it easier for people visiting our website.
+  purposes:
+    services:
+    - to enable the functionality of certain areas to make it easier for people visiting
+      our website
+- source: we
+  target: encryption
+  key: COLLECT
+  text:
+  - We use encryption to protect your information.
+  purposes:
+    security:
+    - to protect your information
+- source: mentor deck
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Mentor Deck only collects information to serve the purpose of connecting mentors.
+  purposes:
+    services:
+    - to serve the purpose of connecting mentors
+- source: mentor deck
+  target: information from zoom
+  key: COLLECT
+  text:
+  - Mentor Deck will collect information from Zoom if you choose to connect it including
+    your access token, which allows us to ccommunicate with the Zoom api on your behalf.
+  purposes: {}
+- source: most interactive website
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Most interactive websites use cookies to let us retrieve the user's details for
+    each visit.
+  purposes:
+    analytics:
+    - to let us retrieve the user's details for each visit
+    services:
+    - to let us retrieve the user's details for each visit
+- source: information from zoom
+  target: access token
+  key: SUBSUM
+  text:
+  - Mentor Deck will collect information from Zoom if you choose to connect it including
+    your access token, which allows us to ccommunicate with the Zoom api on your behalf.
+nodes:
+- type: ACTOR
+  id: mentor deck
+- type: ACTOR
+  id: most interactive website
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access token
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: encryption
+- type: DATA
+  id: information from zoom

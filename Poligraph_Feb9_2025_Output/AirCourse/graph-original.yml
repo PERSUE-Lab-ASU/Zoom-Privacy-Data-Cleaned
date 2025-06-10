@@ -1,0 +1,168 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: device identifier
+  key: COLLECT
+  text:
+  - We may obtain information about the device you are using (OS, advertisement ID,
+    name of computer, language setting, etc.).
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may also refer to your Cookie information and obtain your access history, etc.
+    for marketing purposes such as displaying advertisement targeting user activities.
+  purposes:
+    advertising:
+    - for marketing purposes such as displaying advertisement targeting user activities
+- source: we
+  target: obtain information
+  key: COLLECT
+  text:
+  - We may also link obtained information to internal identifier given to you by us.
+  - We will use this information to provide better services, as well as to prevent
+    fraudulent act that interfere with verification of identity and normal service.
+  purposes:
+    security:
+    - to provide better services, as well as to prevent fraudulent act that interfere
+      with verification of identity and normal service
+    services:
+    - to provide better services, as well as to prevent fraudulent act that interfere
+      with verification of identity and normal service
+- source: we
+  target: personal datum hold
+  key: COLLECT
+  text:
+  - However, personal information that you've provided to us and personal data already
+    held by us will be used by us without indicating our intended usage for each occasion
+    for the purpose pertaining to course operated by us and contact for course operated
+    by other company of which application was submitted by you through us, or related
+    provisions of information, use of information, performance of agreement, business
+    contact for our services/products, etc.
+  purposes:
+    analytics:
+    - for the purpose pertaining to course operated by us and contact for course operated
+      by other company of which application was submitted by you through us, or related
+      provisions of information, use of information, performance of agreement, business
+      contact for our services/products, etc
+    services:
+    - for the purpose pertaining to course operated by us and contact for course operated
+      by other company of which application was submitted by you through us, or related
+      provisions of information, use of information, performance of agreement, business
+      contact for our services/products, etc
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - However, personal information that you've provided to us and personal data already
+    held by us will be used by us without indicating our intended usage for each occasion
+    for the purpose pertaining to course operated by us and contact for course operated
+    by other company of which application was submitted by you through us, or related
+    provisions of information, use of information, performance of agreement, business
+    contact for our services/products, etc.
+  purposes:
+    analytics:
+    - for the purpose pertaining to course operated by us and contact for course operated
+      by other company of which application was submitted by you through us, or related
+      provisions of information, use of information, performance of agreement, business
+      contact for our services/products, etc
+    services:
+    - for the purpose pertaining to course operated by us and contact for course operated
+      by other company of which application was submitted by you through us, or related
+      provisions of information, use of information, performance of agreement, business
+      contact for our services/products, etc
+- source: we
+  target: personal information you disclose to we
+  key: COLLECT
+  text:
+  - If you submit application for lecture operated by other company through us, we
+    will provide the personal information that you disclosed to us to such other company
+    for the above purpose.
+  purposes: {}
+- source: access analysis tool
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These access analysis tools use Cookie to gather data that does not include personal
+    information.
+  - This website may use access analysis tool such as Google Analytics to improve
+    website and quality.
+  purposes:
+    analytics:
+    - to gather data that does not include personal information
+- source: access analysis tool
+  target: datum not include personal information
+  key: COLLECT
+  text:
+  - These access analysis tools use Cookie to gather data that does not include personal
+    information.
+  - This website may use access analysis tool such as Google Analytics to improve
+    website and quality.
+  purposes: {}
+- source: application for lecture operate through we
+  target: personal information you disclose to we
+  key: COLLECT
+  text:
+  - If you submit application for lecture operated by other company through us, we
+    will provide the personal information that you disclosed to us to such other company
+    for the above purpose.
+  purposes: {}
+- source: company of submit through we
+  target: personal information you disclose to we
+  key: COLLECT
+  text:
+  - However, personal information that you've provided to us and personal data already
+    held by us will be used by us without indicating our intended usage for each occasion
+    for the purpose pertaining to course operated by us and contact for course operated
+    by other company of which application was submitted by you through us, or related
+    provisions of information, use of information, performance of agreement, business
+    contact for our services/products, etc.
+  - If you submit application for lecture operated by other company through us, we
+    will provide the personal information that you disclosed to us to such other company
+    for the above purpose.
+  purposes: {}
+- source: we
+  target: aircourse kiyo learning co. ltd.
+  key: SUBSUM
+  text:
+  - Operator of "AirCourse" KIYO Learning Co., Ltd. (hereinafter, "Company" or "we/us")
+    considers respecting your privacy and protecting your personal information to
+    be important duty of the company.
+- source: access analysis tool
+  target: Google
+  key: SUBSUM
+  text:
+  - This website may use access analysis tool such as Google Analytics to improve
+    website and quality.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: access analysis tool
+- type: ACTOR
+  id: aircourse kiyo learning co. ltd.
+- type: ACTOR
+  id: application for lecture operate through we
+- type: ACTOR
+  id: company of submit through we
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum not include personal information
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: obtain information
+- type: DATA
+  id: personal datum hold
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information you disclose to we

@@ -1,0 +1,186 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - How long we keep your data for
+  - We collect and use the following information to provide, improve, protect, and
+    promote our service.
+  purposes:
+    security:
+    - to provide, improve, protect, and promote our service
+    services:
+    - to provide, improve, protect, and promote our service
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may place, access, or recognize cookies (or other similar tracking technologies)
+    on your computer for analytics, marketing, and general operation of the service.
+  purposes:
+    advertising:
+    - for analytics, marketing, and general operation of the service
+    analytics:
+    - for analytics, marketing, and general operation of the service
+- source: we
+  target: meeting recording
+  key: COLLECT
+  text:
+  - If the cloud provider requires us to download this information, we will only store
+    your meeting recordings on our server as long as the files are needed to upload
+    to the cloud provider.
+  purposes: {}
+- source: we
+  target: metadata of action
+  key: COLLECT
+  text:
+  - To help us provide and support our customers, we will store metadata of your actions
+    and automatic backups on our service.
+  purposes:
+    services:
+    - To help us provide and support our customers
+- source: we
+  target: rest of datum list in section
+  key: COLLECT
+  text:
+  - With the exception of Virtual Meeting Recording Files which are deleted after
+    they are successfully backed up to your cloud storage provider, we will securely
+    store the rest of the data listed in section 2.
+  purposes: {}
+- source: we
+  target: retargeting information
+  key: COLLECT
+  text:
+  - We may also use service providers to collect retargeting information to bring
+    our users advertising based on their engagement with our website and service.
+  purposes:
+    advertising:
+    - to bring our users advertising based on their engagement with our website and
+      service
+- source: email service provider
+  target: contact information
+  key: COLLECT
+  text:
+  - To inform you of your usage of the service and to promote the service to you,
+    we will need to share your contact information with our marketing & email service
+    providers.
+  purposes:
+    advertising:
+    - To inform you of your usage of the service and to promote the service to you
+    analytics:
+    - To inform you of your usage of the service and to promote the service to you
+    services:
+    - To inform you of your usage of the service and to promote the service to you
+- source: select cloud storage providers
+  target: metadata
+  key: COLLECT
+  text:
+  - To carry out our Primary Function, we will need to share your Virtual Meeting
+    Recording Files and Metadata with your selected Cloud Storage Providers.
+  purposes:
+    services:
+    - To carry out our Primary Function
+- source: select cloud storage providers
+  target: virtual meeting recording file
+  key: COLLECT
+  text:
+  - To carry out our Primary Function, we will need to share your Virtual Meeting
+    Recording Files and Metadata with your selected Cloud Storage Providers.
+  purposes:
+    services:
+    - To carry out our Primary Function
+- source: service provider
+  target: payment information
+  key: COLLECT
+  text:
+  - When you make a purchase with us, our service providers will collect your payment
+    information for the purpose of billing you over the course of your subscription.
+  purposes:
+    services:
+    - for the purpose of billing you over the course of your subscription
+- source: outside app
+  target: cloud storage provider
+  key: SUBSUM
+  text:
+  - When we integrate with outside apps like Zoom and our cloud storage providers,
+    we limit the amount of data we ask for as much as we can while still providing
+    you a quality service.
+- source: outside app
+  target: zoom
+  key: SUBSUM
+  text:
+  - When we integrate with outside apps like Zoom and our cloud storage providers,
+    we limit the amount of data we ask for as much as we can while still providing
+    you a quality service.
+- source: payment information
+  target: history
+  key: SUBSUM
+  text:
+  - For accounting and future business development purposes, we will need to hold
+    on to some of your payment information & history and some of your personal information,
+    where allowable by Zoom policies.
+- source: personal information
+  target: payment information
+  key: SUBSUM
+  text:
+  - For accounting and future business development purposes, we will need to hold
+    on to some of your payment information & history and some of your personal information,
+    where allowable by Zoom policies.
+- source: service provider
+  target: Google
+  key: SUBSUM
+  text:
+  - We use various service providers, like Google Analytics and Zoho Analytics, to
+    understand how you engage with our website and service.
+- source: service provider
+  target: zoho analytics
+  key: SUBSUM
+  text:
+  - We use various service providers, like Google Analytics and Zoho Analytics, to
+    understand how you engage with our website and service.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: cloud storage provider
+- type: ACTOR
+  id: email service provider
+- type: ACTOR
+  id: outside app
+- type: ACTOR
+  id: select cloud storage providers
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoho analytics
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: history
+- type: DATA
+  id: meeting recording
+- type: DATA
+  id: metadata
+- type: DATA
+  id: metadata of action
+- type: DATA
+  id: payment information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: rest of datum list in section
+- type: DATA
+  id: retargeting information
+- type: DATA
+  id: virtual meeting recording file

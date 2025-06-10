@@ -1,0 +1,66 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect information from you when you fill out a form.
+  - We may also release your information when we believe release is appropriate to
+    comply with the law, enforce our site policies, or protect ours or others rights,
+    property, or safety.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Any of the information we collect from you may be used in one of the following
+    ways: Yes, we use cookies.'
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalized ads or
+    content, and analyze our traffic.'
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    analytics:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    services:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: we
+  target: expertise
+  key: COLLECT
+  text:
+  - We focus on your needs and use our expertise to guide you through compliance challenges.
+  purposes:
+    legal:
+    - to guide you through compliance challenges
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - However, non-personally identifiable visitor information may be provided to other
+    parties for marketing, advertising or other uses.
+  purposes:
+    advertising:
+    - for marketing, advertising or other uses
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: expertise
+- type: DATA
+  id: non-personal information

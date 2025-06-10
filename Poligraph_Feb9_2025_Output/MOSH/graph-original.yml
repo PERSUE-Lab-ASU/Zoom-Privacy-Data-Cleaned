@@ -1,0 +1,145 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, when providing cookies to a third party as personal-related information,
+    if it is assumed that the third party will use cookies as personal data that can
+    identify the user himself/herself, the user We will provide the information to
+    the third party after confirming that the consent of the person has been obtained.
+  - When acquiring personal information, we clearly define the purpose of acquisition
+    in advance within the scope of legitimate business, and acquire and use the information
+    in a lawful and fair manner, with the consent of the individual, to the extent
+    necessary to achieve that purpose.
+  purposes: {}
+- source: we
+  target: access log
+  key: COLLECT
+  text:
+  - We use Google Analytics to collect and analyze the access logs (history) of users
+    who use this service.
+  purposes: {}
+- source: we
+  target: advertisement page view
+  key: COLLECT
+  text:
+  - When the user uses this service, we store and refer to our cookie, and automatically
+    collect information such as IP address, advertisement / page viewed, usage environment
+    etc.
+  purposes: {}
+- source: we
+  target: history
+  key: COLLECT
+  text:
+  - We use Google Analytics to collect and analyze the access logs (history) of users
+    who use this service.
+  purposes: {}
+- source: we
+  target: information obtain
+  key: COLLECT
+  text:
+  - We will use the information obtained by this method to improve this service and
+    as materials for considering new services, and we will not disclose any information
+    to advertisers, information providers, etc.
+  purposes:
+    services:
+    - to improve this service and as materials for considering new services
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - When the user uses this service, we store and refer to our cookie, and automatically
+    collect information such as IP address, advertisement / page viewed, usage environment
+    etc.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - (2) When we receive a request from an individual to disclose personal data (including
+    disclosure of records of provision to a third party regarding the transfer of
+    personal data), we will disclose the personal data by the method designated by
+    the individual, either 1 by mailing a document to the address designated by the
+    individual, or 2 by sending an electromagnetic record to the email address designated
+    by the individual.
+  - However, if disclosure by the method designated by the individual requires a large
+    amount of expenses or is otherwise difficult to disclose by the said method, we
+    will disclose the personal data by method 1.
+  purposes: {}
+- source: we
+  target: personal information obtain from user
+  key: COLLECT
+  text:
+  - We will use personal information obtained from users only within the scope of
+    the following purposes of use.
+  purposes: {}
+- source: we
+  target: usage environment
+  key: COLLECT
+  text:
+  - When the user uses this service, we store and refer to our cookie, and automatically
+    collect information such as IP address, advertisement / page viewed, usage environment
+    etc.
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Google Analytics uses cookies to collect logs that do not include any personally
+    identifiable information.
+  purposes: {}
+- source: Google
+  target: log not include personally identifiable information
+  key: COLLECT
+  text:
+  - Google Analytics uses cookies to collect logs that do not include any personally
+    identifiable information.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, when providing cookies to a third party as personal-related information,
+    if it is assumed that the third party will use cookies as personal data that can
+    identify the user himself/herself, the user We will provide the information to
+    the third party after confirming that the consent of the person has been obtained.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - However, personal data may be disclosed or provided to third parties in the following
+    cases.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access log
+- type: DATA
+  id: advertisement page view
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: history
+- type: DATA
+  id: information obtain
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log not include personally identifiable information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information obtain from user
+- type: DATA
+  id: usage environment

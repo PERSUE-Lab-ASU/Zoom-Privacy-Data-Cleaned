@@ -1,0 +1,157 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'PRIVACY NOTICE
+
+
+    How We Collect and Use (Process) Your Information'
+  - This notice will describe what information we collect, how we collect it and how
+    it is used.
+  purposes: {}
+- source: we
+  target: broad demographic information assist we in
+  key: COLLECT
+  text:
+  - We may also use your IP address to help diagnose problems with our server and
+    to administer our website, analyze trends, track visitor movements, and gather
+    broad demographic information that assists us in identifying visitor preferences.
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - The information may include internet protocol (IP) addresses, the region or general
+    location where your computer or device is accessing the internet, browser type,
+    operating system and other usage information about the use of our website.
+  - We use this information to help us design our site to better suit our users' needs.
+  purposes:
+    analytics:
+    - to help us design our site to better suit our users' needs
+    services:
+    - to help us design our site to better suit our users' needs
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - The information may include internet protocol (IP) addresses, the region or general
+    location where your computer or device is accessing the internet, browser type,
+    operating system and other usage information about the use of our website.
+  - We use this information to help us design our site to better suit our users' needs.
+  purposes:
+    analytics:
+    - to help us design our site to better suit our users' needs
+    services:
+    - to help us design our site to better suit our users' needs
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - The information may include internet protocol (IP) addresses, the region or general
+    location where your computer or device is accessing the internet, browser type,
+    operating system and other usage information about the use of our website.
+  - We may also use your IP address to help diagnose problems with our server and
+    to administer our website, analyze trends, track visitor movements, and gather
+    broad demographic information that assists us in identifying visitor preferences.
+  - We use this information to help us design our site to better suit our users' needs.
+  purposes:
+    analytics:
+    - to help diagnose problems with our server and to administer our website, analyze
+      trends, track visitor movements, and gather broad demographic information that
+      assists us in identifying visitor preferences
+    - to help us design our site to better suit our users' needs
+    services:
+    - to help diagnose problems with our server and to administer our website, analyze
+      trends, track visitor movements, and gather broad demographic information that
+      assists us in identifying visitor preferences
+    - to help us design our site to better suit our users' needs
+- source: we
+  target: region
+  key: COLLECT
+  text:
+  - The information may include internet protocol (IP) addresses, the region or general
+    location where your computer or device is accessing the internet, browser type,
+    operating system and other usage information about the use of our website.
+  - We use this information to help us design our site to better suit our users' needs.
+  purposes:
+    analytics:
+    - to help us design our site to better suit our users' needs
+    services:
+    - to help us design our site to better suit our users' needs
+- source: we
+  target: usage information about use of website
+  key: COLLECT
+  text:
+  - The information may include internet protocol (IP) addresses, the region or general
+    location where your computer or device is accessing the internet, browser type,
+    operating system and other usage information about the use of our website.
+  - We use this information to help us design our site to better suit our users' needs.
+  purposes:
+    analytics:
+    - to help us design our site to better suit our users' needs
+    services:
+    - to help us design our site to better suit our users' needs
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Canal Park, LLC's website collects certain information automatically and stores
+    it in log files.
+  purposes: {}
+- source: canal park llc
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - Canal Park, LLC will only collect and store information you provide to us through
+    our online forms, such as contact requests.
+  purposes: {}
+- source: canal park llc
+  target: information you provide to we via online form
+  key: COLLECT
+  text:
+  - The information you provide to us via our online forms is stored, accessed and
+    used by Canal Park, LLC to contact you regarding the type of information requested.
+  purposes: {}
+- source: canal park llc
+  target: personal information
+  key: COLLECT
+  text:
+  - In particular, Canal Park, LLC collects and transfers to the U.S. personal data
+    only (with your consent) to contract with you; or to fulfill a compelling legitimate
+    interest of Canal Park, LLC in a manner that does not outweigh your rights and
+    freedoms.
+  purposes:
+    legal:
+    - to contract with you; or to fulfill a compelling legitimate interest of Canal
+      Park, LLC in a manner that does not outweigh your rights and freedoms
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: canal park llc
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: broad demographic information assist we in
+- type: DATA
+  id: browser type
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: information you provide to we via online form
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal information
+- type: DATA
+  id: region
+- type: DATA
+  id: usage information about use of website

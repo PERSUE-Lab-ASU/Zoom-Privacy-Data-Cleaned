@@ -1,0 +1,388 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, you might give us the following types of data during your use of
+    the Services:name and email address.
+  - If you apply for a job with us, we use your data for recruitment purposes.
+  - 'The data we collect can include the following:'
+  - We also obtain and process data in the context of providing the Services.
+  - We also share your data with vendors working on our behalf; when required by law
+    or to respond to legal process; to protect our customers; to protect lives; to
+    maintain the security of our Services; and to protect our rights or our property.
+  - We also use data for general business purposes, including, among other things,
+    to improve customer service, to help us improve the content and functionality
+    of our Services, to better understand our users, to protect against wrongdoing,
+    to enforce our Terms of Service, and to generally manage our business.
+  - We may also use the data to communicate with you to, among other things, inform
+    you about your account, provide security updates, and give you information about
+    the Services.
+  - We may also use the data to manage your email subscriptions, improve the relevance
+    and security of our website, respond to user enquiries, send you periodic marketing
+    communications about our Services, and improve the relevance of our advertising.
+  - We may use your data to administer contests, promotions, surveys, or other site
+    features.
+  - We may use your data to improve our advertising campaigns, primarily in an effort
+    to prevent targeting of impressions via third-party channels when they are not
+    relevant to you.
+  - We may use your data to send you periodic emails.
+  - We use data to carry out your transactions with us and to provide the Services
+    to you.
+  - We use data to continually improve our website and our Services, including system
+    administration, system security, and adding new features or capabilities.
+  - We use data to develop aggregate analyses and business intelligence that enable
+    us to operate, protect, make informed decisions, and report on the performance
+    of our business.
+  - We use data to diagnose product problems, and to provide other customer care and
+    support services.
+  - We use data to provide and improve the Services we offer, and to perform essential
+    business operations.
+  - We use data to respond to your enquiries and requests relating to our Services,
+    to create and administer your accounts, and to provide us with information and
+    access to resources that you have requested from us.
+  purposes:
+    advertising:
+    - for recruitment purposes
+    - to administer contests, promotions, surveys, or other site features
+    - to improve our advertising campaigns
+    - to manage your email subscriptions, improve the relevance and security of our
+      website, respond to user enquiries, send you periodic marketing communications
+      about our Services, and improve the relevance of our advertising
+    analytics:
+    - to develop aggregate analyses and business intelligence that enable us to operate,
+      protect, make informed decisions, and report on the performance of our business
+    - to manage your email subscriptions, improve the relevance and security of our
+      website, respond to user enquiries, send you periodic marketing communications
+      about our Services, and improve the relevance of our advertising
+    security:
+    - for general business purposes, including, among other things, to improve customer
+      service, to help us improve the content and functionality of our Services, to
+      better understand our users, to protect against wrongdoing, to enforce our Terms
+      of Service, and to generally manage our business
+    - to communicate with you to, among other things, inform you about your account,
+      provide security updates, and give you information about the Services
+    - to continually improve our website and our Services, including system administration,
+      system security, and adding new features or capabilities
+    - to develop aggregate analyses and business intelligence that enable us to operate,
+      protect, make informed decisions, and report on the performance of our business
+    - to manage your email subscriptions, improve the relevance and security of our
+      website, respond to user enquiries, send you periodic marketing communications
+      about our Services, and improve the relevance of our advertising
+    services:
+    - for general business purposes, including, among other things, to improve customer
+      service, to help us improve the content and functionality of our Services, to
+      better understand our users, to protect against wrongdoing, to enforce our Terms
+      of Service, and to generally manage our business
+    - to carry out your transactions with us and to provide the Services to you
+    - to communicate with you to, among other things, inform you about your account,
+      provide security updates, and give you information about the Services
+    - to continually improve our website and our Services, including system administration,
+      system security, and adding new features or capabilities
+    - to diagnose product problems, and to provide other customer care and support
+      services
+    - to manage your email subscriptions, improve the relevance and security of our
+      website, respond to user enquiries, send you periodic marketing communications
+      about our Services, and improve the relevance of our advertising
+    - to provide and improve the Services we offer, and to perform essential business
+      operations
+    - to respond to your enquiries and requests relating to our Services, to create
+      and administer your accounts, and to provide us with information and access
+      to resources that you have requested from us
+    - to send you periodic emails
+- source: we
+  target: billing metadata about company
+  key: COLLECT
+  text:
+  - Please note that we retain billing and usage metadata about a company or individual
+    as required for compliance with law and regulation.
+  purposes: {}
+- source: we
+  target: company information
+  key: COLLECT
+  text:
+  - We may collect your first and last name, email address,, postal address, phone
+    number, company information, and other similar contact data.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We may collect your first and last name, email address,, postal address, phone
+    number, company information, and other similar contact data.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and other similar identifiers to understand and save your preferences
+    for future visits, to advertise to you on other sites, and to compile aggregate
+    data about site traffic and site interaction so that we can offer better site
+    experiences and tools in the future.
+  purposes:
+    advertising:
+    - to understand and save your preferences for future visits, to advertise to you
+      on other sites, and to compile aggregate data about site traffic and site interaction
+      so that we can offer better site experiences and tools in the future
+    analytics:
+    - to understand and save your preferences for future visits, to advertise to you
+      on other sites, and to compile aggregate data about site traffic and site interaction
+      so that we can offer better site experiences and tools in the future
+- source: we
+  target: data we collect
+  key: COLLECT
+  text:
+  - We use data we collect to communicate with you, and to personalize our communications
+    with you.
+  - We use the data we collect to operate our business, and to provide the Services
+    to you.
+  purposes:
+    services:
+    - to communicate with you, and to personalize our communications with you
+    - to operate our business, and to provide the Services to you
+- source: we
+  target: datum about device
+  key: COLLECT
+  text:
+  - We may collect data about your device and how you and your device interact with
+    Donut and our Services.
+  - We may collect data about your device and the network you use to connect to our
+    Services.
+  purposes: {}
+- source: we
+  target: datum about feature you use
+  key: COLLECT
+  text:
+  - We may collect data about the features you use, the Services you purchase, and
+    the web pages you visit.
+  purposes: {}
+- source: we
+  target: device datum
+  key: COLLECT
+  text:
+  - 'For example, we may collect: Device, connectivity and configuration data .'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, you might give us the following types of data during your use of
+    the Services:name and email address.
+  - We may collect your first and last name, email address,, postal address, phone
+    number, company information, and other similar contact data.
+  purposes: {}
+- source: we
+  target: encrypted backup of datum
+  key: COLLECT
+  text:
+  - We keep encrypted backups of data on Heroku.
+  purposes: {}
+- source: we
+  target: identifier
+  key: COLLECT
+  text:
+  - We use cookies and other similar identifiers to understand and save your preferences
+    for future visits, to advertise to you on other sites, and to compile aggregate
+    data about site traffic and site interaction so that we can offer better site
+    experiences and tools in the future.
+  purposes:
+    advertising:
+    - to understand and save your preferences for future visits, to advertise to you
+      on other sites, and to compile aggregate data about site traffic and site interaction
+      so that we can offer better site experiences and tools in the future
+    analytics:
+    - to understand and save your preferences for future visits, to advertise to you
+      on other sites, and to compile aggregate data about site traffic and site interaction
+      so that we can offer better site experiences and tools in the future
+- source: we
+  target: information about security vulnerability exploit through penetration testing
+  key: COLLECT
+  text:
+  - We engage an independent, third-party agency to perform penetration testing on
+    a regular basis.  Information about security vulnerabilities that are successfully
+    exploited through penetration testing is then used to set mitigation and remediation
+    priorities.
+  purposes:
+    analytics:
+    - to perform penetration testing on a regular basis
+    security:
+    - to set mitigation and remediation priorities
+    services:
+    - to perform penetration testing on a regular basis
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may use and share aggregated non-personal information with third parties for
+    marketing, advertising, and analytics purposes.
+  purposes:
+    advertising:
+    - for marketing, advertising, and analytics purposes
+    analytics:
+    - for marketing, advertising, and analytics purposes
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - For example, you might give us the following types of data during your use of
+    the Services:name and email address.
+  - We may collect your first and last name, email address,, postal address, phone
+    number, company information, and other similar contact data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Finally, we will access, transfer, disclose, and/or preserve personal data, when
+    we have a good faith belief that doing so is necessary to:'
+  - 'Privacy Policy
+
+
+    We share your personal data with your consent, or as necessary to provide the
+    Services to you.'
+  - 'Privacy Policy
+
+
+    Where we Store and Process Personal Data; International Transfers'
+  - This Privacy Policy (this "Policy") sets out how we collect and process personal
+    information about you when you visit our website at donut.com, when you use our
+    products and services (whether via our third party integrations with various collaboration
+    services (including, among others, Slack), app.donut.ai, or otherwise) (collectively,
+    our "Services"), or when you otherwise do business or make contact with us.
+  - We also share personal data with vendors or agents working on our behalf for the
+    purposes described in this Policy.
+  - We may disclose your personal data as part of a corporate transaction such as
+    a corporate sale, merger, reorganization, dissolution, or similar event.
+  - We may retain your personal information as long as you continue to use the Services,
+    have an account with us, have Donut installed on your collaboration service or
+    other Third Party Account, or for as long as is necessary to fulfill the purposes
+    outlined in the policy.
+  - We may, however, retain personal information for an additional period as is permitted
+    or required under applicable laws, for legal, tax, or regulatory reasons, or for
+    legitimate and lawful business purposes.
+  - We transfer personal data from the European Economic Area, the UK and Switzerland
+    to other countries, some of which have not been determined by the European Commission
+    to have an adequate level of data protection.
+  - We will retain your personal data for as long as necessary to provide the Services
+    to you, or for other essential purposes such as complying with our legal obligations,
+    resolving disputes, and enforcing our agreements.
+  purposes:
+    legal:
+    - for legal, tax, or regulatory reasons, or for legitimate and lawful business
+      purposes
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - We may collect your first and last name, email address,, postal address, phone
+    number, company information, and other similar contact data.
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - We may collect your first and last name, email address,, postal address, phone
+    number, company information, and other similar contact data.
+  purposes: {}
+- source: we
+  target: use datum
+  key: COLLECT
+  text:
+  - 'For example, we may collect: Use data .'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may use and share aggregated non-personal information with third parties for
+    marketing, advertising, and analytics purposes.
+  purposes:
+    advertising:
+    - for marketing, advertising, and analytics purposes
+    analytics:
+    - for marketing, advertising, and analytics purposes
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We also share personal data with vendors or agents working on our behalf for the
+    purposes described in this Policy.
+  purposes: {}
+- source: donut
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Donut collects data to enable it to operate the Services effectively, and to provide
+    you with the best experiences on our website and our Services.
+  purposes:
+    services:
+    - to enable it to operate the Services effectively, and to provide you with the
+      best experiences on our website and our Services
+- source: operator of website
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you access other websites using the links provided, the operators of these
+    websites may collect information from you that will be used by them in accordance
+    with their privacy policies.
+  purposes: {}
+- source: vendor work on behalf
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We also share your data with vendors working on our behalf; when required by law
+    or to respond to legal process; to protect our customers; to protect lives; to
+    maintain the security of our Services; and to protect our rights or our property.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: donut
+- type: ACTOR
+  id: operator of website
+- type: ACTOR
+  id: vendor work on behalf
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: billing metadata about company
+- type: DATA
+  id: company information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: data we collect
+- type: DATA
+  id: datum about device
+- type: DATA
+  id: datum about feature you use
+- type: DATA
+  id: device datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: encrypted backup of datum
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about security vulnerability exploit through penetration testing
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: use datum

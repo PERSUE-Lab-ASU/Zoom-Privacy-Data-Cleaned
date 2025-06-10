@@ -1,0 +1,41 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'We use the collected data to:'
+  purposes:
+    advertising:
+    - 'to: Conduct marketing and analytics'
+    analytics:
+    - 'to: Conduct marketing and analytics'
+    legal:
+    - 'to: Comply with legal obligations and protect our legal rights'
+    services:
+    - 'to: Communicate with you regarding your account or services'
+    - 'to: Provide and improve our services'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to enhance site functionality and user experience.
+  - We use cookies to ensure our website works properly, personalize your browsing
+    experience, and analyze how you use our website.
+  purposes:
+    analytics:
+    - to ensure our website works properly, personalize your browsing experience,
+      and analyze how you use our website
+    services:
+    - to enhance site functionality and user experience
+    - to ensure our website works properly, personalize your browsing experience,
+      and analyze how you use our website
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: cookie / pixel tag

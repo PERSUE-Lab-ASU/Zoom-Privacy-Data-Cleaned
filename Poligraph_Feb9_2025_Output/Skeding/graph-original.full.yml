@@ -1,0 +1,608 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - End users may voluntarily provide us with information they have made available
+    on social media websites.
+  - We collect information from you when you visit our website, register on our site,
+    place an order, subscribe to our newsletter, respond to a survey or fill out a
+    form.
+  - We keep your information only so long as we need it to provide Skeding to you
+    and fulfill the purposes described in this policy.
+  - We receive no information from third parties when you contact us.
+  purposes: {}
+- source: we
+  target: conversation datum
+  key: COLLECT
+  text:
+  - We do store all conversation and personal data for up to 6 years unless your account
+    is deleted.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - By submitting your email address, you also agree to allow us to use your email
+    address for customer audience targeting on sites like Facebook, where we display
+    custom advertising to specific people who have opted-in to receive communications
+    from us.
+  purposes:
+    advertising:
+    - for customer audience targeting on sites like Facebook, where we display custom
+      advertising to specific people who have opted-in to receive communications from
+      us
+- source: we
+  target: information collect
+  key: COLLECT
+  text:
+  - We use the information collected for Human Resources purposes in order to administer
+    benefits to workers and screen applicants.
+  purposes:
+    services:
+    - for Human Resources purposes
+    - in order to administer benefits to workers and screen applicants
+- source: we
+  target: information you grant we access to from third party oauth provider
+  key: COLLECT
+  text:
+  - We do however use information that you have granted us access to from third party
+    OAuth (Microsoft or Google) providers when you sign up to access your calendar.
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - If you are a Skeding worker or applicant, we collect information you voluntarily
+    provide to us.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We may share portions of our log file data, including IP addresses, for analytics
+    purposes with third parties such as web analytics partners, application developers,
+    and ad networks.
+  purposes:
+    analytics:
+    - for analytics purposes
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may also disclose personal and non-personal information about you to government
+    or law enforcement officials or private parties as we, in our sole discretion,
+    believe necessary or appropriate in order to respond to claims, legal process
+    (including subpoenas), to protect our rights and interests or those of a third
+    party, the safety of the public or any person, to prevent or stop any illegal,
+    unethical, or legally actionable activity, or to otherwise comply with applicable
+    court orders, laws, rules and regulations.
+  - We will likely share your personal information, and possibly some non-personal
+    information, with these third parties to enable them to perform these services
+    for us and for you.
+  purposes:
+    legal:
+    - in order to respond to claims, legal process (including subpoenas),
+    - to protect our rights and interests or those of a third party, the safety of
+      the public or any person, to prevent or stop any illegal, unethical, or legally
+      actionable activity, or to otherwise comply with applicable court orders, laws,
+      rules and regulations
+    security:
+    - to protect our rights and interests or those of a third party, the safety of
+      the public or any person, to prevent or stop any illegal, unethical, or legally
+      actionable activity, or to otherwise comply with applicable court orders, laws,
+      rules and regulations
+    services:
+    - to enable them to perform these services for us and for you
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also receive personal information about you from third parties as described
+    above.
+  - We may disclose information (including personal information) about you to our
+    Corporate Affiliates.
+  - We will likely share your personal information, and possibly some non-personal
+    information, with these third parties to enable them to perform these services
+    for us and for you.
+  purposes:
+    services:
+    - to enable them to perform these services for us and for you
+- source: we
+  target: publicly available information
+  key: COLLECT
+  text:
+  - If you provide us with any such information, we may collect publicly available
+    information from the social media websites you have indicated.
+  purposes: {}
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Google Maps API may collect information from You and from Your Device for security
+    purposes.
+  purposes:
+    security:
+    - for security purposes
+- source: Google
+  target: information hold in accordance with privacy policy
+  key: COLLECT
+  text:
+  - Google Maps API collects information that is held in accordance with its Privacy
+    Policy
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Such third parties may use their own cookies or other methods to collect information
+    about you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - Such third parties may use their own cookies or other methods to collect information
+    about you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information collect via website
+  key: COLLECT
+  text:
+  - Information collected via our website, through direct interactions with you, or
+    from use of our help services may be transferred from time to time to our offices
+    or personnel, or to third parties, located throughout the world, and may be viewed
+    and hosted anywhere in the world, including countries that may not have laws of
+    general applicability regulating the use and transfer of such data.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We will likely share your personal information, and possibly some non-personal
+    information, with these third parties to enable them to perform these services
+    for us and for you.
+  purposes:
+    services:
+    - to enable them to perform these services for us and for you
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We will likely share your personal information, and possibly some non-personal
+    information, with these third parties to enable them to perform these services
+    for us and for you.
+  purposes:
+    services:
+    - to enable them to perform these services for us and for you
+- source: advertiser
+  target: ip address
+  key: COLLECT
+  text:
+  - We may share portions of our log file data, including IP addresses, for analytics
+    purposes with third parties such as web analytics partners, application developers,
+    and ad networks.
+  purposes:
+    analytics:
+    - for analytics purposes
+- source: analytic provider
+  target: ip address
+  key: COLLECT
+  text:
+  - We may share portions of our log file data, including IP addresses, for analytics
+    purposes with third parties such as web analytics partners, application developers,
+    and ad networks.
+  purposes:
+    analytics:
+    - for analytics purposes
+- source: application developer
+  target: ip address
+  key: COLLECT
+  text:
+  - We may share portions of our log file data, including IP addresses, for analytics
+    purposes with third parties such as web analytics partners, application developers,
+    and ad networks.
+  purposes:
+    analytics:
+    - for analytics purposes
+- source: corporate affiliates
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose information (including personal information) about you to our
+    Corporate Affiliates.
+  purposes: {}
+- source: government official
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may also disclose personal and non-personal information about you to government
+    or law enforcement officials or private parties as we, in our sole discretion,
+    believe necessary or appropriate in order to respond to claims, legal process
+    (including subpoenas), to protect our rights and interests or those of a third
+    party, the safety of the public or any person, to prevent or stop any illegal,
+    unethical, or legally actionable activity, or to otherwise comply with applicable
+    court orders, laws, rules and regulations.
+  purposes:
+    legal:
+    - in order to respond to claims, legal process (including subpoenas),
+    - to protect our rights and interests or those of a third party, the safety of
+      the public or any person, to prevent or stop any illegal, unethical, or legally
+      actionable activity, or to otherwise comply with applicable court orders, laws,
+      rules and regulations
+    security:
+    - to protect our rights and interests or those of a third party, the safety of
+      the public or any person, to prevent or stop any illegal, unethical, or legally
+      actionable activity, or to otherwise comply with applicable court orders, laws,
+      rules and regulations
+- source: office
+  target: information collect via website
+  key: COLLECT
+  text:
+  - Information collected via our website, through direct interactions with you, or
+    from use of our help services may be transferred from time to time to our offices
+    or personnel, or to third parties, located throughout the world, and may be viewed
+    and hosted anywhere in the world, including countries that may not have laws of
+    general applicability regulating the use and transfer of such data.
+  purposes: {}
+- source: private party
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may also disclose personal and non-personal information about you to government
+    or law enforcement officials or private parties as we, in our sole discretion,
+    believe necessary or appropriate in order to respond to claims, legal process
+    (including subpoenas), to protect our rights and interests or those of a third
+    party, the safety of the public or any person, to prevent or stop any illegal,
+    unethical, or legally actionable activity, or to otherwise comply with applicable
+    court orders, laws, rules and regulations.
+  purposes:
+    legal:
+    - in order to respond to claims, legal process (including subpoenas),
+    - to protect our rights and interests or those of a third party, the safety of
+      the public or any person, to prevent or stop any illegal, unethical, or legally
+      actionable activity, or to otherwise comply with applicable court orders, laws,
+      rules and regulations
+    security:
+    - to protect our rights and interests or those of a third party, the safety of
+      the public or any person, to prevent or stop any illegal, unethical, or legally
+      actionable activity, or to otherwise comply with applicable court orders, laws,
+      rules and regulations
+- source: session skeding
+  target: sessions
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Tracking Technologies
+
+
+    Sessions - Skeding uses "Sessions" to identify the areas of our website that you
+    have visited.'
+  purposes:
+    analytics:
+    - to identify the areas of our website that you have visited
+- source: skeding
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Skeding uses cookies to remember information about your account when you log in
+    to make certain functionalities possible, we do not store personally identifiable
+    information about you or your session.
+  purposes:
+    services:
+    - to remember information about your account when you log in to make certain functionalities
+      possible
+- source: skeding
+  target: end user data
+  key: COLLECT
+  text:
+  - Skeding will collect End User Data necessary to provide Skeding services to our
+    customers.
+  purposes: {}
+- source: skeding
+  target: personal information
+  key: COLLECT
+  text:
+  - Skeding collects personal information when you sign up including username and
+    email.
+  - This Privacy Policy explains how your personal information is collected, used,
+    and disclosed by Skeding.
+  purposes: {}
+- source: tracking technology
+  target: sessions
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Tracking Technologies
+
+
+    Sessions - Skeding uses "Sessions" to identify the areas of our website that you
+    have visited.'
+  purposes:
+    analytics:
+    - to identify the areas of our website that you have visited
+- source: we
+  target: skeding
+  key: SUBSUM
+  text:
+  - Skeding ("we," "our," or "us") is committed to protecting your privacy.
+- source: asset
+  target: portion
+  key: SUBSUM
+  text:
+  - We reserve the right to transfer information to a third party in the event of
+    a sale, merger or other transfer of all or substantially all of the assets of
+    Skeding or any of its Corporate Affiliates (as defined herein), or that portion
+    of Skeding or any of its Corporate Affiliates to which the Service relates, or
+    in the event that we discontinue our business or file a petition or have filed
+    against us a petition in bankruptcy, reorganization or similar proceeding, provided
+    that the third party agrees to adhere to the terms of this Privacy Policy.
+- source: asset
+  target: skeding
+  key: SUBSUM
+  text:
+  - We reserve the right to transfer information to a third party in the event of
+    a sale, merger or other transfer of all or substantially all of the assets of
+    Skeding or any of its Corporate Affiliates (as defined herein), or that portion
+    of Skeding or any of its Corporate Affiliates to which the Service relates, or
+    in the event that we discontinue our business or file a petition or have filed
+    against us a petition in bankruptcy, reorganization or similar proceeding, provided
+    that the third party agrees to adhere to the terms of this Privacy Policy.
+- source: corporate affiliates
+  target: skeding
+  key: SUBSUM
+  text:
+  - We reserve the right to transfer information to a third party in the event of
+    a sale, merger or other transfer of all or substantially all of the assets of
+    Skeding or any of its Corporate Affiliates (as defined herein), or that portion
+    of Skeding or any of its Corporate Affiliates to which the Service relates, or
+    in the event that we discontinue our business or file a petition or have filed
+    against us a petition in bankruptcy, reorganization or similar proceeding, provided
+    that the third party agrees to adhere to the terms of this Privacy Policy.
+- source: information about you
+  target: language preference
+  key: SUBSUM
+  text:
+  - It is used to identify your browser, provide analytics, remember information about
+    you such as your language preference or login information.
+- source: information about you
+  target: login information
+  key: SUBSUM
+  text:
+  - It is used to identify your browser, provide analytics, remember information about
+    you such as your language preference or login information.
+- source: log file datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may share portions of our log file data, including IP addresses, for analytics
+    purposes with third parties such as web analytics partners, application developers,
+    and ad networks.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Skeding collects personal information when you sign up including username and
+    email.
+- source: personal information
+  target: specific piece of personal information we collect about you
+  key: SUBSUM
+  text:
+  - 'You may submit a verifiable request for information regarding the: (1) categories
+    of Personal Information we collect, use, or share; (2) purposes for which categories
+    of Personal Information are collected or used by us; (3) categories of sources
+    from which we collect Personal Information; and (4) specific pieces of Personal
+    Information we have collected about you.'
+- source: personal information
+  target: username
+  key: SUBSUM
+  text:
+  - Skeding collects personal information when you sign up including username and
+    email.
+- source: save information
+  target: save login detail
+  key: SUBSUM
+  text:
+  - You should also be aware that you may also lose some saved information (e.g. saved
+    login details, site preferences) if you block cookies on your browser.
+- source: save information
+  target: site preference
+  key: SUBSUM
+  text:
+  - You should also be aware that you may also lose some saved information (e.g. saved
+    login details, site preferences) if you block cookies on your browser.
+- source: security system
+  target: encryption system
+  key: SUBSUM
+  text:
+  - However, neither people nor security systems are foolproof, including encryption
+    systems.
+- source: service to we
+  target: credit card processing
+  key: SUBSUM
+  text:
+  - We may engage trusted third party service providers to perform functions and provide
+    services to us, such as hosting and maintaining our servers and the website, database
+    storage and management, email management, storage marketing, credit card processing,
+    customer service and fulfilling orders for products and services you may purchase
+    through the website.
+- source: service to we
+  target: customer service
+  key: SUBSUM
+  text:
+  - We may engage trusted third party service providers to perform functions and provide
+    services to us, such as hosting and maintaining our servers and the website, database
+    storage and management, email management, storage marketing, credit card processing,
+    customer service and fulfilling orders for products and services you may purchase
+    through the website.
+- source: service to we
+  target: database storage
+  key: SUBSUM
+  text:
+  - We may engage trusted third party service providers to perform functions and provide
+    services to us, such as hosting and maintaining our servers and the website, database
+    storage and management, email management, storage marketing, credit card processing,
+    customer service and fulfilling orders for products and services you may purchase
+    through the website.
+- source: service to we
+  target: order for product you purchase through website
+  key: SUBSUM
+  text:
+  - We may engage trusted third party service providers to perform functions and provide
+    services to us, such as hosting and maintaining our servers and the website, database
+    storage and management, email management, storage marketing, credit card processing,
+    customer service and fulfilling orders for products and services you may purchase
+    through the website.
+- source: service to we
+  target: storage marketing
+  key: SUBSUM
+  text:
+  - We may engage trusted third party service providers to perform functions and provide
+    services to us, such as hosting and maintaining our servers and the website, database
+    storage and management, email management, storage marketing, credit card processing,
+    customer service and fulfilling orders for products and services you may purchase
+    through the website.
+- source: source
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'You may submit a verifiable request for information regarding the: (1) categories
+    of Personal Information we collect, use, or share; (2) purposes for which categories
+    of Personal Information are collected or used by us; (3) categories of sources
+    from which we collect Personal Information; and (4) specific pieces of Personal
+    Information we have collected about you.'
+- source: technographic
+  target: connection speed
+  key: SUBSUM
+  text:
+  - If your IP address is shared, it may be used to estimate general location and
+    other technographics such as connection speed, whether you have visited the website
+    in a shared location, and type of the device used to visit the website.
+- source: technographic
+  target: geolocation
+  key: SUBSUM
+  text:
+  - If your IP address is shared, it may be used to estimate general location and
+    other technographics such as connection speed, whether you have visited the website
+    in a shared location, and type of the device used to visit the website.
+- source: third party content
+  target: product service
+  key: SUBSUM
+  text:
+  - We may display, include or make available third-party content (including data,
+    information, applications and other products services) or provide links to third-party
+    websites or services ("Third- Party Services").You
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: application developer
+- type: ACTOR
+  id: asset
+- type: ACTOR
+  id: corporate affiliates
+- type: ACTOR
+  id: credit card processing
+- type: ACTOR
+  id: customer service
+- type: ACTOR
+  id: database storage
+- type: ACTOR
+  id: encryption system
+- type: ACTOR
+  id: government official
+- type: ACTOR
+  id: office
+- type: ACTOR
+  id: order for product you purchase through website
+- type: ACTOR
+  id: portion
+- type: ACTOR
+  id: private party
+- type: ACTOR
+  id: product service
+- type: ACTOR
+  id: security system
+- type: ACTOR
+  id: service to we
+- type: ACTOR
+  id: session skeding
+- type: ACTOR
+  id: skeding
+- type: ACTOR
+  id: storage marketing
+- type: ACTOR
+  id: third party content
+- type: ACTOR
+  id: tracking technology
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: connection speed
+- type: DATA
+  id: conversation datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: end user data
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information collect
+- type: DATA
+  id: information collect via website
+- type: DATA
+  id: information hold in accordance with privacy policy
+- type: DATA
+  id: information you grant we access to from third party oauth provider
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: log file datum
+- type: DATA
+  id: login information
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: publicly available information
+- type: DATA
+  id: save information
+- type: DATA
+  id: save login detail
+- type: DATA
+  id: sessions
+- type: DATA
+  id: site preference
+- type: DATA
+  id: source
+- type: DATA
+  id: specific piece of personal information we collect about you
+- type: DATA
+  id: technographic
+- type: DATA
+  id: username

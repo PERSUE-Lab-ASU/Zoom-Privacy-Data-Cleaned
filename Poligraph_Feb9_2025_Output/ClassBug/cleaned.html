@@ -1,0 +1,341 @@
+<!DOCTYPE html><html class="js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths wf-europa-n4-active wf-europa-n7-active wf-europa-n3-active wf-europa-i4-active wf-europa-i7-active wf-europa-i3-active wf-active"><head>
+
+
+  <title>ClassBug</title>
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  <!-- adding in Tilled.js -->
+  
+  
+  <!-- Adding Europa Font -->
+  
+  
+  
+  
+  <meta content="authenticity_token" name="csrf-param">
+<meta content="mApzwXXpZIJncDNtOo9h2MhjVEj2lUgRetcUog9m/tA=" name="csrf-token">
+  <meta content="mm/dd/yy" name="localization:date_month_day_year">
+<meta content="mm/dd/yy @ hh:mmp" name="localization:date_month_day_year_time_am_pm">
+<meta content="hh:mm p" name="localization:time_am_pm">
+  <meta content="pk_7h99dkc0SDrF38yBmi8DmsKUUtS0R" name="stripe-key">
+  <meta content="pk_wculLStvKbWhJwhHOsFtqfMP8AyfntzqjJ11xDuzT3SIpy5HoX3Q1GWTh5Zab7E2HfpR47T6qFHkqpL7H5VaA8MNGqg1jSNlm0Wa" name="tilled-key">
+  <meta content="512043c61ef0c6b4b7211079eabaa3" name="plaid-key">
+  <meta content="production" name="plaid-env">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:image" content="https://classbug.comhttps://cdn.classbug.com/assets/cb-stamp-2021-482e819d27c52039673fda3dc9d450de.png">
+  <meta property="og:image:secure_url" content="https://classbug.comhttps://cdn.classbug.com/assets/cb-stamp-2021-482e819d27c52039673fda3dc9d450de.png">
+  <meta property="og:site_name" content="ClassBug.com">
+  <meta property="og:type" content="company">
+  <meta property="og:description" content="ClassBug is the easiest and most affordable way to manage your class studio or venue. We help simplify your daily tasks by leveraging the power of the internet, saving you time and money. Anyone can learn to use Classbug with our clean, common-sense website.">
+  <meta property="og:title" content="ClassBug.com - The Easiest Way To Manage Your Studio and Sell Your Classes Online">
+  <meta property="og:url" content="https://classbug.com/">
+  <meta property="description" content="ClassBug is the easiest and most affordable way to manage your class studio or venue. We help simplify your daily tasks by leveraging the power of the internet, saving you time and money. Anyone can learn to use Classbug with our clean, common-sense website.">
+
+  
+
+  
+</head>
+<body>
+
+<div id="modal-loading-bar" style="display: none;">
+  <!-- <img alt="Loading-spiral" src="https://cdn.classbug.com/assets/loading-spiral-fb78134058d91e2b11dc5bf5a24537d5.gif" /> -->
+  <img alt="Loading-gif-2021" src="https://cdn.classbug.com/assets/loading-gif-2021-646bb67fc5442c1f2e35473cdb527cd4.gif">
+</div>
+
+<div id="new-loading-bar" style="display:none">
+  <!-- <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/585d0331234507.564a1d239ac5e.gif"  /> -->
+  <img alt="Loading-gif-2021" src="https://cdn.classbug.com/assets/loading-gif-2021-646bb67fc5442c1f2e35473cdb527cd4.gif">
+</div>
+
+<!-- "what's this?" helper modal -->
+<button style="display: none" id="inline-help-modal-open" data-toggle="modal" data-target="#inlineHelpModal">button</button>
+<!-- Modal -->
+<div id="inlineHelpModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="inline-help-content">
+        
+        
+        
+        </div>	
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+
+
+<div data-pjax-container="">
+<div class="container-cb">
+      
+  
+
+
+
+    <div class="header" id="old-header">
+     <div class="header-wrap">	
+    	<div class="logo">
+            <a href="/"><img alt="Cb-logo-2020" src="https://cdn.classbug.com/assets/cb-logo-2020-1982eccc94773a638f1eb31ba7056bd9.png"></a>
+      </div>
+        <div class="nav">
+        	<ul>
+              <li><a href="/">Home</a></li>
+                <li id="demo-link"><a href="/demos/new?not_home=true" data-remote="true">Demo</a></li>
+                <li><a href="/signin">Login</a></li>
+                <li id="help-link"><a href="/faq/venue">Help</a></li>
+          			<li style="margin-right: 0px;"><a href="/registration_wizard" class="btn btn-default-green btn-strong">Get Started!</a></li>
+    	    </ul>
+        </div>
+      </div> 
+    </div>
+  
+<!-- <div id="embeded-search-results-overlay"></div> -->
+
+  <div id="on-page-cart">
+    
+  </div>
+
+  </div>  
+
+<div class="content">
+
+    <div class="main-view clearfix">
+      <div id="main-content">
+          <div>
+            
+
+
+<div class="portal clearfix">
+<div class="new-label">
+ 	<div class="cb-stamp"></div>
+ 	<h2 style="margin-top:0">Terms of Service</h2>
+ </div>
+<div class="tos-main clearfix whiteback">
+<h2 style="margin-top:0">
+Terms and Conditions of Use for ClassBug.com
+</h2>
+
+<h3>
+        1. Terms
+</h3>
+
+<p>
+        By accessing this web site, you are agreeing to be bound by these 
+        Terms and Conditions of Use, and agree that you are responsible for compliance with any applicable local 
+        laws. If you do not agree with any of these terms, you are prohibited from 
+        using or accessing this site. The materials contained in this web site are 
+        protected by applicable copyright and trade mark laws, and are the property of ClassBug.com LLC.
+</p>
+
+<h3>
+        2. Use License
+</h3>
+
+<ol type="a">
+        <li>
+                Permission is granted to temporarily download one copy of the materials 
+                (information or software) on ClassBug.com's web site for personal, 
+                non-commercial transitory viewing only. This is the grant of a license, 
+                not a transfer of title, and under this license you may not:
+                
+                <ol type="i">
+                        <li>modify or copy the materials;</li>
+                        <li>use the materials for any commercial purpose, or for any public display (commercial or non-commercial);</li>
+                        <li>attempt to decompile or reverse engineer any software contained on ClassBug.com's web site;</li>
+                        <li>remove any copyright or other proprietary notations from the materials; or</li>
+                        <li>transfer the materials to another person or "mirror" the materials on any other server.</li>
+                </ol>
+        </li>
+        <li>
+                This license shall automatically terminate if you violate any of these restrictions and may be terminated by ClassBug.com at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
+        </li>
+</ol>
+
+<h3>
+        3. Disclaimer
+</h3>
+
+<ol type="a">
+        <li>
+                The materials on ClassBug.com's web site are provided "as is". ClassBug.com makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties, including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights. Further, ClassBug.com does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its Internet web site or otherwise relating to such materials or on any sites linked to this site.
+        </li>
+</ol>
+
+<h3>
+        4. Limitations
+</h3>
+
+<p>
+        In no event shall ClassBug.com or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption,) arising out of the use or inability to use the materials on ClassBug.com's Internet site, even if ClassBug.com or a ClassBug.com authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.
+</p>
+                        
+<h3>
+        5. Revisions and Errata
+</h3>
+
+<p>
+        The materials appearing on ClassBug.com's web site could include technical, typographical, or photographic errors. ClassBug.com does not warrant that any of the materials on its web site are accurate, complete, or current. ClassBug.com may make changes to the materials contained on its web site at any time without notice. ClassBug.com does not, however, make any commitment to update the materials.
+</p>
+
+<h3>
+        6. Links
+</h3>
+
+<p>
+        ClassBug.com has not reviewed all of the sites linked to its Internet web site and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by ClassBug.com of the site. Use of any such linked web site is at the user's own risk.
+</p>
+
+<h3>
+        7. Site Terms of Use Modifications
+</h3>
+
+<p>
+        ClassBug.com may revise these terms of use for its web site at any time without notice. By using this web site you are agreeing to be bound by the then current version of these Terms and Conditions of Use.
+</p>
+
+<h3>
+        8. Governing Law
+</h3>
+
+<p>
+        Any claim relating to ClassBug.com's web site shall be governed by the laws of the State of Illinois without regard to its conflict of law provisions.
+</p>
+
+<p>
+        General Terms and Conditions applicable to Use of a Web Site.
+</p>
+
+<div class="privacy-policy well" style="margin-top:20px;" id="cb-privacy-policy">
+	<h2 style="margin-top:0">
+        Privacy Policy
+</h2>
+
+<p>
+        Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate, disclose and make use of personal information. The following outlines our privacy policy.
+</p>
+
+<ul>
+        <li>
+                Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.
+        </li>
+        <li>
+                We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.               
+        </li>
+        <li>
+                We will only retain personal information as long as necessary for the fulfillment of those purposes. 
+        </li>
+        <li>
+                We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned. 
+        </li>
+        <li>
+                Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date. 
+        </li>
+        <li>
+                We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.
+        </li>
+        <li>
+                We will make readily available to customers information about our policies and practices relating to the management of personal information. 
+        </li>
+</ul>
+
+<p>
+        We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained. 
+</p>
+
+<p>
+  <b>Right of Access to Personal Data:</b> Pursuant to applicable law, you have the right to request and receive a copy of your personal data that we collect,
+  process, and store in our capacity as a Service Provider. Upon receipt of a written request, we shall, within ten (10) business days,
+  provide you with such personal data in a commonly used electronic format, unless extenuating circumstances require a longer response time,
+  which shall be communicated to you within the ten (10) business day period. In the event that multiple requests are made,
+  we reserve the right to charge a reasonable fee to cover our administrative costs. All requests for access to personal data should be directed in writing to support@classbug.com.
+</p>
+
+<p>
+	We use Tilled &amp; Stripe payment systems to gather End Users' data from financial
+
+institutions. By using our service, you grant ClassBug and Tilled/Stripe the right, power, and
+
+authority to act on your behalf to access and transmit your personal and financial
+
+information from the relevant financial institution. You agree to your personal and
+
+financial information being transferred, stored, and processed by Tilled/Stripe in accordance
+
+with their privacy policies..
+</p>	
+</div>
+	
+<br>
+
+<div class="merchant-agreement">
+	<h2> ClassBug Merchant Agreement</h2>
+    <h4> By offering any class, product or service for sale via ClassBug.com, you are hereby considered a 'Merchant' and you agree to the following:</h4>
+    <h3>Workflow &amp; Procedures</h3>
+    By setting up items for sale in your ClassBug online store, you are agreeing to inherent Online Sales workflows and procedures.  
+    
+
+<br>
+<h3>License</h3>
+Merchant grants to ClassBug a non-exclusive worldwide license and right to use, reproduce, display, distribute and transmit the Merchant's name, logo and any trademarks and any photographs, graphics, artwork, text and other content provided or specified by Merchant in connection with the marketing, promotion, sale or distribution of classes or class vouchers, or any other items sold by merchant via ClassBug.com.
+<br>
+
+<h3>Financials</h3>
+Credit card charges apply to each sale. Cards are encrypted, secured &amp; managed by our processing partners, Stripe (CAN and UK) and Tilled (USA). The rate is fixed at 2.9%+ $.30 of every sale, regardless of which card is used by the customer, unless a custom, negotiated rate has been agreed upon in writing.
+<br> <br>
+Merchant balances accrue in their respective ClassBug accounts.  Funds are cleared by processor within 24-48 hours.  Bank transfers to Merchant from processor are rolling, daily.
+<br><br>
+Businesses can track their sales though their ClassBug account, including views of all fees subtracted.  
+<br>
+
+<h3>Limitation of Liability</h3>
+EXCEPT FOR INDEMNIFICATION OBLIGATIONS HEREUNDER, IN NO EVENT SHALL EITHER PARTY BE LIABLE OR OBLIGATED TO THE OTHER PARTY OR ANY THIRD PARTY IN ANY MANNER FOR ANY SPECIAL, INCIDENTAL, EXEMPLARY, CONSEQUENTIAL, PUNITIVE, OR INDIRECT DAMAGES OF ANY KIND REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT, NEGLIGENCE, STRICT PRODUCT LIABILITY, OR OTHERWISE, EVEN IF INFORMED OF THE POSSIBILITY OF ANY SUCH DAMAGES IN ADVANCE, ClassBug'S SOLE AND COMPLETE LIABILITY TO MERCHANT FOR ANY CLAIMS ARISING OUT OF RELATING TO THIS AGREEMENT OR ANY ERRORS, OMISSIONS OR MISPLACEMENTS OF THE VOUCHERS SHALL BE LIMITED TO THE AMOUNT OF OPPORTUNITY FEES PAID HEREUNDER. THIS LIMITATION OF LIABILITY SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW AND NOTWITHSTANDING THE FAILURE OF ANY LIMITED REMEDY.
+<br><br>
+Merchant agrees to defend, indemnify and hold ClassBug, its affiliated and related entities, and any of their officers, directors, agents and employees, harmless from and against any claims, lawsuits, investigations, penalties, damages, losses or expenses (including but not limited to attorney's fees and costs) arising out of or relating to any of the following: (a) any breach or alleged breach by Merchant of this Agreement or the representations and warranties  (b) any claim for state sales or use tax obligations ("Taxes") arising from the sale and subsequent redemption of a Voucher; (c) any claim by any local, state or federal governmental entity for unredeemed Vouchers or unredeemed cash values of Vouchers or any other amounts under any applicable abandoned or unclaimed property or escheat law, including but not limited to any claims for penalties and interest ("Abandoned Property Claims"); or (d) any claim arising out of or relating to the products and services provided by Merchant, including but not limited to, any claims for false advertising, product defects, personal injury, death, or property damages. Without limiting the foregoing, Merchant shall pay any monies owed to any party, as well as all attorney's fees, related to any action against, or determinations against, ClassBug related to any action to pursue ClassBug for Taxes or Abandoned Property Claims.
+<br>
+
+<h3>Compliance</h3>
+<h4>If merchant sells discounted goods, they agree to the following</h4>
+Compliance with Gift Card, Gift Certificate and Abandoned Property Laws. Merchant further agrees to comply with the voucher terms and conditions as set forth on the Website, and to ensure that the Vouchers comply with any and all Laws that govern vouchers, gift cards, coupons, and/or gift certificates, including but not limited to, the Credit Card Act of  2009 and any state or local Laws governing the imposition of expiration dates, service charges, dormancy fees or other terms and conditions of the Voucher. 
+<br><br>
+	
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+    </div>
+
+</div>
+</div>      
+
+
+
+
+
+
+
+
+
+
+
+<iframe name="stripeXDM_default134281_provider" id="stripeXDM_default134281_provider" aria-hidden="false" style="position: absolute; top: -2000px; left: 0px;" src="https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fclassbug.com&amp;stripe_xdm_c=default134281&amp;stripe_xdm_p=1#__stripe_transport__" frameborder="0"></iframe><iframe src="https://js.stripe.com/v2/m/outer.html#referrer=&amp;title=ClassBug&amp;url=https%3A%2F%2Fclassbug.com%2Ftos&amp;muid=NA&amp;sid=NA&amp;version=6&amp;preview=false&amp;" style="width: 1px !important; height: 1px !important; position: fixed !important; visibility: hidden !important; pointer-events: none !important;" allowtransparency="true" scrolling="no" tabindex="-1" aria-hidden="false" frameborder="0"></iframe></body></html>

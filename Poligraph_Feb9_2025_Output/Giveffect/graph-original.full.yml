@@ -1,0 +1,303 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and other similar technologies (such as actions tags, also known
+    as beacons, or pixels tags) for a number of purposes including to remember preferences,
+    track conversions, conduct marketing and promotional efforts, analyze site traffic
+    and trends, and generally understand the online behaviors and interests of people
+    who interact with our Site.
+  purposes:
+    advertising:
+    - for a number of purposes including to remember preferences, track conversions,
+      conduct marketing and promotional efforts, analyze site traffic and trends,
+      and generally understand the online behaviors and interests of people who interact
+      with our Site
+    analytics:
+    - for a number of purposes including to remember preferences, track conversions,
+      conduct marketing and promotional efforts, analyze site traffic and trends,
+      and generally understand the online behaviors and interests of people who interact
+      with our Site
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - 'Giveffect Inc. uses Personally Identifiable Information for several general purposes:
+    We may use non-Personally Identifiable Information such as demographic data to
+    analyze and develop our marketing strategy and further improve the Site and our
+    services.'
+  - When you visit the Site we also collect non-personally identifiable information,
+    which is information that by itself cannot be used to identify or contact you,
+    such as demographic information (such as age or gender) or usage information (such
+    as the browser you are using, the URL that referred you to the Site and the areas
+    of the Site you visit).
+  purposes:
+    advertising:
+    - to analyze and develop our marketing strategy and further improve the Site and
+      our services
+    analytics:
+    - to analyze and develop our marketing strategy and further improve the Site and
+      our services
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We collect Personally Identifiable Information from you when you register for
+    the Site, including the following: name and email address.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: action you take on site
+  key: COLLECT
+  text:
+  - Our Site may integrate with social sharing features or other related tools which
+    let you share actions you take on our Site with other apps, sites or media, and
+    vice versa.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Giveffect may also share non-Personally Identifiable Information with third parties
+    (e.g. aggregate or demographic data).
+  purposes: {}
+- source: advertiser
+  target: action tag
+  key: COLLECT
+  text:
+  - These companies may use a cookie or an action tag, to tailor the advertisements
+    you see on this Website and other sites, to track your response to their advertisement,
+    to determine whether advertising has been served and to measure the effectiveness
+    of their advertising or to award incentives or points to their members who respond
+    to their advertisements.
+  - We use third-party advertising companies to serve advertisements on our behalf
+    or to provide advertising-related services.
+  purposes:
+    advertising:
+    - to tailor the advertisements you see on this Website and other sites, to track
+      your response to their advertisement, to determine whether advertising has been
+      served and to measure the effectiveness of their advertising or to award incentives
+      or points to their members who respond to their advertisements
+    analytics:
+    - to tailor the advertisements you see on this Website and other sites, to track
+      your response to their advertisement, to determine whether advertising has been
+      served and to measure the effectiveness of their advertising or to award incentives
+      or points to their members who respond to their advertisements
+- source: advertiser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These companies may use a cookie or an action tag, to tailor the advertisements
+    you see on this Website and other sites, to track your response to their advertisement,
+    to determine whether advertising has been served and to measure the effectiveness
+    of their advertising or to award incentives or points to their members who respond
+    to their advertisements.
+  - We use third-party advertising companies to serve advertisements on our behalf
+    or to provide advertising-related services.
+  purposes:
+    advertising:
+    - to tailor the advertisements you see on this Website and other sites, to track
+      your response to their advertisement, to determine whether advertising has been
+      served and to measure the effectiveness of their advertising or to award incentives
+      or points to their members who respond to their advertisements
+    analytics:
+    - to tailor the advertisements you see on this Website and other sites, to track
+      your response to their advertisement, to determine whether advertising has been
+      served and to measure the effectiveness of their advertising or to award incentives
+      or points to their members who respond to their advertisements
+- source: giveffect
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Giveffect may also share non-Personally Identifiable Information with third parties
+    (e.g. aggregate or demographic data).
+  purposes: {}
+- source: giveffect inc.
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'Giveffect Inc. uses Personally Identifiable Information for several general purposes:'
+  purposes:
+    advertising:
+    - to analyze and develop our marketing strategy and further improve the Site and
+      our services
+    - to contact you for our own marketing and promotional purposes, or
+    - to process contests, sweepstakes, or other promotions and fulfill any related
+      awards or discounts
+    analytics:
+    - to analyze and develop our marketing strategy and further improve the Site and
+      our services
+    - to conduct research about Giveffect's customer base or services
+    services:
+    - to contact you for feedback about our services
+    - to improve customer service, or
+    - to improve the Giveffect website and nonprofit tools
+    - to notify you of technical updates or changes in policy
+    - to personalize your experience
+    - to process your payments including credit checks and collection
+    - to provide you with the Site, service information, and news
+    - to support the Site and services offered on or through the Site
+- source: medium
+  target: action you take on site
+  key: COLLECT
+  text:
+  - Our Site may integrate with social sharing features or other related tools which
+    let you share actions you take on our Site with other apps, sites or media, and
+    vice versa.
+  purposes: {}
+- source: social sharing feature
+  target: ip address
+  key: COLLECT
+  text:
+  - Our Site may integrate with social sharing features or other related tools which
+    let you share actions you take on our Site with other apps, sites or media, and
+    vice versa.
+  - These features may also collect your IP address and which page you are visiting
+    on our Site, and may set a cookie to enable the feature to function properly.
+  purposes: {}
+- source: demographic information
+  target: age
+  key: SUBSUM
+  text:
+  - When you visit the Site we also collect non-personally identifiable information,
+    which is information that by itself cannot be used to identify or contact you,
+    such as demographic information (such as age or gender) or usage information (such
+    as the browser you are using, the URL that referred you to the Site and the areas
+    of the Site you visit).
+- source: demographic information
+  target: gender
+  key: SUBSUM
+  text:
+  - When you visit the Site we also collect non-personally identifiable information,
+    which is information that by itself cannot be used to identify or contact you,
+    such as demographic information (such as age or gender) or usage information (such
+    as the browser you are using, the URL that referred you to the Site and the areas
+    of the Site you visit).
+- source: non-personal information
+  target: demographic information
+  key: SUBSUM
+  text:
+  - When you visit the Site we also collect non-personally identifiable information,
+    which is information that by itself cannot be used to identify or contact you,
+    such as demographic information (such as age or gender) or usage information (such
+    as the browser you are using, the URL that referred you to the Site and the areas
+    of the Site you visit).
+- source: non-personal information
+  target: usage information
+  key: SUBSUM
+  text:
+  - When you visit the Site we also collect non-personally identifiable information,
+    which is information that by itself cannot be used to identify or contact you,
+    such as demographic information (such as age or gender) or usage information (such
+    as the browser you are using, the URL that referred you to the Site and the areas
+    of the Site you visit).
+- source: personal identifier
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - To participate in certain activities and to obtain certain services or documents
+    offered on the Site, you may be asked to provide additional Personally Identifiable
+    Information such as phone number, billing address and credit card information.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - To participate in certain activities and to obtain certain services or documents
+    offered on the Site, you may be asked to provide additional Personally Identifiable
+    Information such as phone number, billing address and credit card information.
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - To participate in certain activities and to obtain certain services or documents
+    offered on the Site, you may be asked to provide additional Personally Identifiable
+    Information such as phone number, billing address and credit card information.
+- source: public area of site
+  target: community
+  key: SUBSUM
+  text:
+  - The Site may allow you to post or share content to a public area of the Site such
+    as a public profile, group, community or other public area.
+- source: public area of site
+  target: group
+  key: SUBSUM
+  text:
+  - The Site may allow you to post or share content to a public area of the Site such
+    as a public profile, group, community or other public area.
+- source: public area of site
+  target: public area
+  key: SUBSUM
+  text:
+  - The Site may allow you to post or share content to a public area of the Site such
+    as a public profile, group, community or other public area.
+- source: public area of site
+  target: public profile
+  key: SUBSUM
+  text:
+  - The Site may allow you to post or share content to a public area of the Site such
+    as a public profile, group, community or other public area.
+- source: usage information
+  target: url
+  key: SUBSUM
+  text:
+  - When you visit the Site we also collect non-personally identifiable information,
+    which is information that by itself cannot be used to identify or contact you,
+    such as demographic information (such as age or gender) or usage information (such
+    as the browser you are using, the URL that referred you to the Site and the areas
+    of the Site you visit).
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: community
+- type: ACTOR
+  id: giveffect
+- type: ACTOR
+  id: giveffect inc.
+- type: ACTOR
+  id: group
+- type: ACTOR
+  id: medium
+- type: ACTOR
+  id: public area
+- type: ACTOR
+  id: public area of site
+- type: ACTOR
+  id: public profile
+- type: ACTOR
+  id: social sharing feature
+- type: ACTOR
+  id: we
+- type: DATA
+  id: action tag
+- type: DATA
+  id: action you take on site
+- type: DATA
+  id: age
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: gender
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: url
+- type: DATA
+  id: usage information

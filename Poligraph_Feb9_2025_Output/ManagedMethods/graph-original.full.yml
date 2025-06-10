@@ -1,0 +1,836 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also use the information to contact you to further discuss your interest
+    in our company and the ManagedMethods Service, to send information regarding our
+    company or partners, such as promotions and events, and to respond to your requests
+    for information.
+  purposes:
+    advertising:
+    - to contact you to further discuss your interest in our company and the ManagedMethods
+      Service, to send information regarding our company or partners, such as promotions
+      and events, and to respond to your requests for information
+    services:
+    - to contact you to further discuss your interest in our company and the ManagedMethods
+      Service, to send information regarding our company or partners, such as promotions
+      and events, and to respond to your requests for information
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - If you register to use the ManagedMethods Service or express interest in obtaining
+    additional information, we require you to give us your contact information, such
+    as your name, company name, address, and email address.
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - 'We may also collect and track other personally identifiable and non-personally
+    identifiable information about you, such as: your IP address, the type of browser
+    you use, and the website you visited before visiting our Website or ManagedMethods
+    Services.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may provide your personal information to companies that provide services to
+    help us with our business activities such as payment processing or offering customer
+    service through our live chat service.
+  - We will only share personal information with a limited set of third-party service
+    providers necessary to provide or develop our services (such as database hosting)
+    or as required by law, and we will be transparent about who these service providers
+    are.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In order to help ManagedMethods provide, maintain, protect and improve our services,
+    ManagedMethods shares information with other partners, vendors and trusted organizations
+    to process it on our behalf in accordance with our instructions, Privacy Policy,
+    and any other appropriate confidentiality, security or other requirements we deem
+    appropriate.
+  - These companies will only have access to the information they need to provide
+    the ManagedMethods service.
+  purposes:
+    security:
+    - In order to help ManagedMethods provide, maintain, protect and improve our services
+    - to process it on our behalf in accordance with our instructions, Privacy Policy,
+      and any other appropriate confidentiality, security or other requirements we
+      deem appropriate
+    services:
+    - In order to help ManagedMethods provide, maintain, protect and improve our services
+    - to process it on our behalf in accordance with our instructions, Privacy Policy,
+      and any other appropriate confidentiality, security or other requirements we
+      deem appropriate
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These companies are authorized to use your personal information only as necessary
+    to provide these services to us.
+  - We may provide your personal information to companies that provide services to
+    help us with our business activities such as payment processing or offering customer
+    service through our live chat service.
+  - We will contractually require that these service providers process personal information
+    in accordance with our instructions and consistent with this Privacy Policy and
+    ensure that these service providers employ reasonable and comprehensive data protection
+    and security protocols.
+  - We will only share personal information with a limited set of third-party service
+    providers necessary to provide or develop our services (such as database hosting)
+    or as required by law, and we will be transparent about who these service providers
+    are.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: usage statistical information
+  key: COLLECT
+  text:
+  - Managed Methods also aggregates anonymized user data, including document and user
+    meta-data, usage and volume statistical information, and other statistics (but
+    not contact information) from our visitors and Users and may provide such anonymous
+    aggregated information to third parties.
+  purposes: {}
+- source: managed methods
+  target: student datum
+  key: COLLECT
+  text:
+  - Managed Methods will use student data to troubleshoot issues within the customer
+    environment per a support ticket.
+  purposes:
+    services:
+    - to troubleshoot issues within the customer environment per a support ticket
+- source: managed methods
+  target: usage statistical information
+  key: COLLECT
+  text:
+  - Managed Methods also aggregates anonymized user data, including document and user
+    meta-data, usage and volume statistical information, and other statistics (but
+    not contact information) from our visitors and Users and may provide such anonymous
+    aggregated information to third parties.
+  purposes: {}
+- source: managedmethods
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In order to help ManagedMethods provide, maintain, protect and improve our services,
+    ManagedMethods shares information with other partners, vendors and trusted organizations
+    to process it on our behalf in accordance with our instructions, Privacy Policy,
+    and any other appropriate confidentiality, security or other requirements we deem
+    appropriate.
+  - ManagedMethods uses the data to set up, administer and provide the ManagedMethods
+    Service for organizations.
+  purposes:
+    security:
+    - In order to help ManagedMethods provide, maintain, protect and improve our services
+    - to process it on our behalf in accordance with our instructions, Privacy Policy,
+      and any other appropriate confidentiality, security or other requirements we
+      deem appropriate
+    services:
+    - In order to help ManagedMethods provide, maintain, protect and improve our services
+    - to process it on our behalf in accordance with our instructions, Privacy Policy,
+      and any other appropriate confidentiality, security or other requirements we
+      deem appropriate
+    - to set up, administer and provide the ManagedMethods Service for organizations
+- source: managedmethods
+  target: cpu utilization over time
+  key: COLLECT
+  text:
+  - ManagedMethods collects and stores information to monitor and maintain the ManagedMethods
+    Service to you.
+  - Such information includes system health and availability, CPU and disk utilization
+    over time, etc.
+  purposes:
+    analytics:
+    - to monitor and maintain the ManagedMethods Service to you
+    services:
+    - to monitor and maintain the ManagedMethods Service to you
+- source: managedmethods
+  target: identifiable information
+  key: COLLECT
+  text:
+  - '(11) Regarding information we collect about your students: ManagedMethods monitors
+    students'' activities in the cloud, ManagedMethods analyzes user activities within
+    the school''s web applications to include Google G Suite, Google Drive, Office
+    365 Mail, OneDrive, SharePoint, Slack, Box, Dropbox and ShareFile, and as such,
+    may have access to students'' personal identifiable information.'
+  purposes:
+    services:
+    - to include Google G Suite, Google Drive, Office 365 Mail, OneDrive, SharePoint,
+      Slack, Box, Dropbox and ShareFile
+- source: managedmethods
+  target: information disclose to it
+  key: COLLECT
+  text:
+  - In addition to the above, ManagedMethods may in any event use and disclose information
+    disclosed to it or collected by to the extent required by any law, subpoena, legal
+    process, court, judicial, regulatory or governmental authority, or if in ManagedMethods'
+    reasonable discretion use or disclosure is necessary to investigate fraud or any
+    threat to the safety of any individual, to protect ManagedMethods' legal rights
+    or to protect the rights of third parties.
+  purposes: {}
+- source: managedmethods
+  target: information require
+  key: COLLECT
+  text:
+  - If you request to quote or purchase a third party solution on the ManagedMethods
+    platform, ManagedMethods will share with your selected third party or its authorized
+    reseller information required in order to provide such quote or fulfill the purchase
+    of the third party license.
+  purposes: {}
+- source: managedmethods
+  target: internet activity
+  key: COLLECT
+  text:
+  - '(11) Regarding information we collect about your students: ManagedMethods monitors
+    students'' activities in the cloud, ManagedMethods analyzes user activities within
+    the school''s web applications to include Google G Suite, Google Drive, Office
+    365 Mail, OneDrive, SharePoint, Slack, Box, Dropbox and ShareFile, and as such,
+    may have access to students'' personal identifiable information.'
+  purposes:
+    services:
+    - to include Google G Suite, Google Drive, Office 365 Mail, OneDrive, SharePoint,
+      Slack, Box, Dropbox and ShareFile
+- source: managedmethods
+  target: system health
+  key: COLLECT
+  text:
+  - ManagedMethods collects and stores information to monitor and maintain the ManagedMethods
+    Service to you.
+  - Such information includes system health and availability, CPU and disk utilization
+    over time, etc.
+  purposes:
+    analytics:
+    - to monitor and maintain the ManagedMethods Service to you
+    services:
+    - to monitor and maintain the ManagedMethods Service to you
+- source: set
+  target: personal information
+  key: COLLECT
+  text:
+  - We will only share personal information with a limited set of third-party service
+    providers necessary to provide or develop our services (such as database hosting)
+    or as required by law, and we will be transparent about who these service providers
+    are.
+  purposes: {}
+- source: successor
+  target: information disclose to
+  key: COLLECT
+  text:
+  - In the event that ManagedMethods is involved in a merger, reorganization, dissolution,
+    sale of business, assets or similar event, information disclosed to or collected
+    by ManagedMethods may be transferred to ManagedMethods' successor, or to the purchaser
+    of such assets, as applicable.
+  purposes: {}
+- source: trusted organization
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In order to help ManagedMethods provide, maintain, protect and improve our services,
+    ManagedMethods shares information with other partners, vendors and trusted organizations
+    to process it on our behalf in accordance with our instructions, Privacy Policy,
+    and any other appropriate confidentiality, security or other requirements we deem
+    appropriate.
+  purposes:
+    security:
+    - In order to help ManagedMethods provide, maintain, protect and improve our services
+    - to process it on our behalf in accordance with our instructions, Privacy Policy,
+      and any other appropriate confidentiality, security or other requirements we
+      deem appropriate
+    services:
+    - In order to help ManagedMethods provide, maintain, protect and improve our services
+    - to process it on our behalf in accordance with our instructions, Privacy Policy,
+      and any other appropriate confidentiality, security or other requirements we
+      deem appropriate
+- source: we
+  target: database hosting
+  key: SUBSUM
+  text:
+  - We will only share personal information with a limited set of third-party service
+    providers necessary to provide or develop our services (such as database hosting)
+    or as required by law, and we will be transparent about who these service providers
+    are.
+- source: admin api datum
+  target: login
+  key: SUBSUM
+  text:
+  - The App will only use access to read, write, modify or control your G Suite data,
+    including Gmail message bodies (and attachments), metadata, headers, and settings,
+    G Drive files, metadata, read access to admin API data such as logins, third party
+    apps to provide the service.
+- source: anonymized user datum
+  target: document meta
+  key: SUBSUM
+  text:
+  - Managed Methods also aggregates anonymized user data, including document and user
+    meta-data, usage and volume statistical information, and other statistics (but
+    not contact information) from our visitors and Users and may provide such anonymous
+    aggregated information to third parties.
+- source: anonymized user datum
+  target: statistic
+  key: SUBSUM
+  text:
+  - Managed Methods also aggregates anonymized user data, including document and user
+    meta-data, usage and volume statistical information, and other statistics (but
+    not contact information) from our visitors and Users and may provide such anonymous
+    aggregated information to third parties.
+- source: anonymized user datum
+  target: usage statistical information
+  key: SUBSUM
+  text:
+  - Managed Methods also aggregates anonymized user data, including document and user
+    meta-data, usage and volume statistical information, and other statistics (but
+    not contact information) from our visitors and Users and may provide such anonymous
+    aggregated information to third parties.
+- source: business activity
+  target: customer service
+  key: SUBSUM
+  text:
+  - We may provide your personal information to companies that provide services to
+    help us with our business activities such as payment processing or offering customer
+    service through our live chat service.
+- source: business activity
+  target: live chat service
+  key: SUBSUM
+  text:
+  - We may provide your personal information to companies that provide services to
+    help us with our business activities such as payment processing or offering customer
+    service through our live chat service.
+- source: business activity
+  target: payment processing
+  key: SUBSUM
+  text:
+  - We may provide your personal information to companies that provide services to
+    help us with our business activities such as payment processing or offering customer
+    service through our live chat service.
+- source: company information
+  target: annual revenue
+  key: SUBSUM
+  text:
+  - We may also ask for additional personal information, such as title, phone number,
+    department name or additional company information, such as annual revenues, number
+    of employees, or industry.
+- source: company information
+  target: number of employee
+  key: SUBSUM
+  text:
+  - We may also ask for additional personal information, such as title, phone number,
+    department name or additional company information, such as annual revenues, number
+    of employees, or industry.
+- source: contact information
+  target: company name
+  key: SUBSUM
+  text:
+  - If you register to use the ManagedMethods Service or express interest in obtaining
+    additional information, we require you to give us your contact information, such
+    as your name, company name, address, and email address.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - If you register to use the ManagedMethods Service or express interest in obtaining
+    additional information, we require you to give us your contact information, such
+    as your name, company name, address, and email address.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - If you register to use the ManagedMethods Service or express interest in obtaining
+    additional information, we require you to give us your contact information, such
+    as your name, company name, address, and email address.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - If you register to use the ManagedMethods Service or express interest in obtaining
+    additional information, we require you to give us your contact information, such
+    as your name, company name, address, and email address.
+- source: customer data
+  target: audit trail
+  key: SUBSUM
+  text:
+  - Notwithstanding any other restrictions on use of data in this or any other agreement
+    (i) Customer grants ManagedMethods the limited, non-exclusive right to perform
+    an automated content scan of Customer Data stored with Customer's Cloud Provider
+    solely for the purpose of providing the Services to Customer, (ii) Customer grants
+    ManagedMethods the limited, non-exclusive right to view, modify, collect and use
+    the Customer Data to create meta-data derived from Customer Data (which may include,
+    by way of example, file encryption, file modification dates, audit trails, and
+    the number of times a file has been accessed (Customer Meta-Data)), solely for
+    the purpose of providing the Services to Customer (iii) Customer grants ManagedMethods
+    the right to collect and use anonymized generic statistical information derived
+    from such Customer Meta-Data (but not derived from the Customer Data directly)
+    and aggregate it with statistical information from other customers (Non-Identifiable
+    Aggregated Data) solely for providing and improving its services, and (iv) Customer
+    agrees that ManagedMethods shall own all right, title and interest in any such
+    Non-Identifiable Aggregated Data.
+- source: customer data
+  target: file encryption
+  key: SUBSUM
+  text:
+  - Notwithstanding any other restrictions on use of data in this or any other agreement
+    (i) Customer grants ManagedMethods the limited, non-exclusive right to perform
+    an automated content scan of Customer Data stored with Customer's Cloud Provider
+    solely for the purpose of providing the Services to Customer, (ii) Customer grants
+    ManagedMethods the limited, non-exclusive right to view, modify, collect and use
+    the Customer Data to create meta-data derived from Customer Data (which may include,
+    by way of example, file encryption, file modification dates, audit trails, and
+    the number of times a file has been accessed (Customer Meta-Data)), solely for
+    the purpose of providing the Services to Customer (iii) Customer grants ManagedMethods
+    the right to collect and use anonymized generic statistical information derived
+    from such Customer Meta-Data (but not derived from the Customer Data directly)
+    and aggregate it with statistical information from other customers (Non-Identifiable
+    Aggregated Data) solely for providing and improving its services, and (iv) Customer
+    agrees that ManagedMethods shall own all right, title and interest in any such
+    Non-Identifiable Aggregated Data.
+- source: customer data
+  target: file modification date
+  key: SUBSUM
+  text:
+  - Notwithstanding any other restrictions on use of data in this or any other agreement
+    (i) Customer grants ManagedMethods the limited, non-exclusive right to perform
+    an automated content scan of Customer Data stored with Customer's Cloud Provider
+    solely for the purpose of providing the Services to Customer, (ii) Customer grants
+    ManagedMethods the limited, non-exclusive right to view, modify, collect and use
+    the Customer Data to create meta-data derived from Customer Data (which may include,
+    by way of example, file encryption, file modification dates, audit trails, and
+    the number of times a file has been accessed (Customer Meta-Data)), solely for
+    the purpose of providing the Services to Customer (iii) Customer grants ManagedMethods
+    the right to collect and use anonymized generic statistical information derived
+    from such Customer Meta-Data (but not derived from the Customer Data directly)
+    and aggregate it with statistical information from other customers (Non-Identifiable
+    Aggregated Data) solely for providing and improving its services, and (iv) Customer
+    agrees that ManagedMethods shall own all right, title and interest in any such
+    Non-Identifiable Aggregated Data.
+- source: customer data
+  target: number of time access
+  key: SUBSUM
+  text:
+  - Notwithstanding any other restrictions on use of data in this or any other agreement
+    (i) Customer grants ManagedMethods the limited, non-exclusive right to perform
+    an automated content scan of Customer Data stored with Customer's Cloud Provider
+    solely for the purpose of providing the Services to Customer, (ii) Customer grants
+    ManagedMethods the limited, non-exclusive right to view, modify, collect and use
+    the Customer Data to create meta-data derived from Customer Data (which may include,
+    by way of example, file encryption, file modification dates, audit trails, and
+    the number of times a file has been accessed (Customer Meta-Data)), solely for
+    the purpose of providing the Services to Customer (iii) Customer grants ManagedMethods
+    the right to collect and use anonymized generic statistical information derived
+    from such Customer Meta-Data (but not derived from the Customer Data directly)
+    and aggregate it with statistical information from other customers (Non-Identifiable
+    Aggregated Data) solely for providing and improving its services, and (iv) Customer
+    agrees that ManagedMethods shall own all right, title and interest in any such
+    Non-Identifiable Aggregated Data.
+- source: g suite datum
+  target: attachment
+  key: SUBSUM
+  text:
+  - The App will only use access to read, write, modify or control your G Suite data,
+    including Gmail message bodies (and attachments), metadata, headers, and settings,
+    G Drive files, metadata, read access to admin API data such as logins, third party
+    apps to provide the service.
+- source: g suite datum
+  target: g drive file
+  key: SUBSUM
+  text:
+  - The App will only use access to read, write, modify or control your G Suite data,
+    including Gmail message bodies (and attachments), metadata, headers, and settings,
+    G Drive files, metadata, read access to admin API data such as logins, third party
+    apps to provide the service.
+- source: g suite datum
+  target: gmail message body
+  key: SUBSUM
+  text:
+  - The App will only use access to read, write, modify or control your G Suite data,
+    including Gmail message bodies (and attachments), metadata, headers, and settings,
+    G Drive files, metadata, read access to admin API data such as logins, third party
+    apps to provide the service.
+- source: g suite datum
+  target: header
+  key: SUBSUM
+  text:
+  - The App will only use access to read, write, modify or control your G Suite data,
+    including Gmail message bodies (and attachments), metadata, headers, and settings,
+    G Drive files, metadata, read access to admin API data such as logins, third party
+    apps to provide the service.
+- source: g suite datum
+  target: metadata
+  key: SUBSUM
+  text:
+  - The App will only use access to read, write, modify or control your G Suite data,
+    including Gmail message bodies (and attachments), metadata, headers, and settings,
+    G Drive files, metadata, read access to admin API data such as logins, third party
+    apps to provide the service.
+- source: g suite datum
+  target: setting
+  key: SUBSUM
+  text:
+  - The App will only use access to read, write, modify or control your G Suite data,
+    including Gmail message bodies (and attachments), metadata, headers, and settings,
+    G Drive files, metadata, read access to admin API data such as logins, third party
+    apps to provide the service.
+- source: information require
+  target: average number of file change per time period
+  key: SUBSUM
+  text:
+  - If you request to quote or purchase a third party solution on the ManagedMethods
+    platform, ManagedMethods will share with your selected third party or its authorized
+    reseller information required in order to provide such quote or fulfill the purchase
+    of the third party license.
+  - Such information may include but not limited to total number of users, total number
+    of files, total amount of data stored, average number of file changes per time
+    period, etc.
+- source: information require
+  target: total amount of datum store
+  key: SUBSUM
+  text:
+  - If you request to quote or purchase a third party solution on the ManagedMethods
+    platform, ManagedMethods will share with your selected third party or its authorized
+    reseller information required in order to provide such quote or fulfill the purchase
+    of the third party license.
+  - Such information may include but not limited to total number of users, total number
+    of files, total amount of data stored, average number of file changes per time
+    period, etc.
+- source: information require
+  target: total number of file
+  key: SUBSUM
+  text:
+  - If you request to quote or purchase a third party solution on the ManagedMethods
+    platform, ManagedMethods will share with your selected third party or its authorized
+    reseller information required in order to provide such quote or fulfill the purchase
+    of the third party license.
+  - Such information may include but not limited to total number of users, total number
+    of files, total amount of data stored, average number of file changes per time
+    period, etc.
+- source: information require
+  target: total number of user
+  key: SUBSUM
+  text:
+  - If you request to quote or purchase a third party solution on the ManagedMethods
+    platform, ManagedMethods will share with your selected third party or its authorized
+    reseller information required in order to provide such quote or fulfill the purchase
+    of the third party license.
+  - Such information may include but not limited to total number of users, total number
+    of files, total amount of data stored, average number of file changes per time
+    period, etc.
+- source: non-personal information
+  target: type of browser you use
+  key: SUBSUM
+  text:
+  - 'We may also collect and track other personally identifiable and non-personally
+    identifiable information about you, such as: your IP address, the type of browser
+    you use, and the website you visited before visiting our Website or ManagedMethods
+    Services.'
+- source: personal identifier
+  target: creation date of file
+  key: SUBSUM
+  text:
+  - Personally identifiable information such as student name, student email address,
+    file names, creation dates of files, login dates and times, and third party applications
+    which students use could be viewed on our service by Product Support Staff.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - Personally identifiable information such as student name, student email address,
+    file names, creation dates of files, login dates and times, and third party applications
+    which students use could be viewed on our service by Product Support Staff.
+- source: personal identifier
+  target: file name
+  key: SUBSUM
+  text:
+  - Personally identifiable information such as student name, student email address,
+    file names, creation dates of files, login dates and times, and third party applications
+    which students use could be viewed on our service by Product Support Staff.
+- source: personal identifier
+  target: login date
+  key: SUBSUM
+  text:
+  - Personally identifiable information such as student name, student email address,
+    file names, creation dates of files, login dates and times, and third party applications
+    which students use could be viewed on our service by Product Support Staff.
+- source: personal identifier
+  target: student name
+  key: SUBSUM
+  text:
+  - Personally identifiable information such as student name, student email address,
+    file names, creation dates of files, login dates and times, and third party applications
+    which students use could be viewed on our service by Product Support Staff.
+- source: personal identifier
+  target: time
+  key: SUBSUM
+  text:
+  - Personally identifiable information such as student name, student email address,
+    file names, creation dates of files, login dates and times, and third party applications
+    which students use could be viewed on our service by Product Support Staff.
+- source: personal information
+  target: company information
+  key: SUBSUM
+  text:
+  - We may also ask for additional personal information, such as title, phone number,
+    department name or additional company information, such as annual revenues, number
+    of employees, or industry.
+- source: personal information
+  target: department name
+  key: SUBSUM
+  text:
+  - We may also ask for additional personal information, such as title, phone number,
+    department name or additional company information, such as annual revenues, number
+    of employees, or industry.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Portions of the ManagedMethod Service and the Website contain functions for collecting
+    personal information including names and email addresses as well as an individual's
+    or account's access history.
+- source: personal information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - Portions of the ManagedMethod Service and the Website contain functions for collecting
+    personal information including names and email addresses as well as an individual's
+    or account's access history.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Portions of the ManagedMethod Service and the Website contain functions for collecting
+    personal information including names and email addresses as well as an individual's
+    or account's access history.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - We may also ask for additional personal information, such as title, phone number,
+    department name or additional company information, such as annual revenues, number
+    of employees, or industry.
+- source: personal information
+  target: title
+  key: SUBSUM
+  text:
+  - We may also ask for additional personal information, such as title, phone number,
+    department name or additional company information, such as annual revenues, number
+    of employees, or industry.
+- source: school
+  target: administrator
+  key: SUBSUM
+  text:
+  - When schools use our Services, the school (including a teacher, administrator
+    or school district) is required to consent to the collection and use of personal
+    information from students as part of signing up to use the Services.
+- source: school
+  target: school district
+  key: SUBSUM
+  text:
+  - When schools use our Services, the school (including a teacher, administrator
+    or school district) is required to consent to the collection and use of personal
+    information from students as part of signing up to use the Services.
+- source: student information be
+  target: creation date of file
+  key: SUBSUM
+  text:
+  - 'Use of data
+
+
+    Registered Account Information from School/Educators (Name, Address, Billing information,
+    etc.) and Student Information that may be visible during Customer Support/Troubleshooting,
+    including student name, student email address, file names, creation dates of files,
+    login dates/times and third party applications students use.'
+- source: student information be
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Use of data
+
+
+    Registered Account Information from School/Educators (Name, Address, Billing information,
+    etc.) and Student Information that may be visible during Customer Support/Troubleshooting,
+    including student name, student email address, file names, creation dates of files,
+    login dates/times and third party applications students use.'
+- source: student information be
+  target: file name
+  key: SUBSUM
+  text:
+  - 'Use of data
+
+
+    Registered Account Information from School/Educators (Name, Address, Billing information,
+    etc.) and Student Information that may be visible during Customer Support/Troubleshooting,
+    including student name, student email address, file names, creation dates of files,
+    login dates/times and third party applications students use.'
+- source: student information be
+  target: login date time
+  key: SUBSUM
+  text:
+  - 'Use of data
+
+
+    Registered Account Information from School/Educators (Name, Address, Billing information,
+    etc.) and Student Information that may be visible during Customer Support/Troubleshooting,
+    including student name, student email address, file names, creation dates of files,
+    login dates/times and third party applications students use.'
+- source: student information be
+  target: student name
+  key: SUBSUM
+  text:
+  - 'Use of data
+
+
+    Registered Account Information from School/Educators (Name, Address, Billing information,
+    etc.) and Student Information that may be visible during Customer Support/Troubleshooting,
+    including student name, student email address, file names, creation dates of files,
+    login dates/times and third party applications students use.'
+- source: type of browser you use
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'We may also collect and track other personally identifiable and non-personally
+    identifiable information about you, such as: your IP address, the type of browser
+    you use, and the website you visited before visiting our Website or ManagedMethods
+    Services.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: administrator
+- type: ACTOR
+  id: business activity
+- type: ACTOR
+  id: customer service
+- type: ACTOR
+  id: database hosting
+- type: ACTOR
+  id: live chat service
+- type: ACTOR
+  id: managed methods
+- type: ACTOR
+  id: managedmethods
+- type: ACTOR
+  id: payment processing
+- type: ACTOR
+  id: school
+- type: ACTOR
+  id: school district
+- type: ACTOR
+  id: set
+- type: ACTOR
+  id: successor
+- type: ACTOR
+  id: trusted organization
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: admin api datum
+- type: DATA
+  id: annual revenue
+- type: DATA
+  id: anonymized user datum
+- type: DATA
+  id: attachment
+- type: DATA
+  id: audit trail
+- type: DATA
+  id: average number of file change per time period
+- type: DATA
+  id: company information
+- type: DATA
+  id: company name
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cpu utilization over time
+- type: DATA
+  id: creation date of file
+- type: DATA
+  id: customer data
+- type: DATA
+  id: department name
+- type: DATA
+  id: document meta
+- type: DATA
+  id: email address
+- type: DATA
+  id: file encryption
+- type: DATA
+  id: file modification date
+- type: DATA
+  id: file name
+- type: DATA
+  id: g drive file
+- type: DATA
+  id: g suite datum
+- type: DATA
+  id: gmail message body
+- type: DATA
+  id: header
+- type: DATA
+  id: identifiable information
+- type: DATA
+  id: information disclose to
+- type: DATA
+  id: information disclose to it
+- type: DATA
+  id: information require
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: login
+- type: DATA
+  id: login date
+- type: DATA
+  id: login date time
+- type: DATA
+  id: metadata
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: number of employee
+- type: DATA
+  id: number of time access
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: setting
+- type: DATA
+  id: statistic
+- type: DATA
+  id: student datum
+- type: DATA
+  id: student information be
+- type: DATA
+  id: student name
+- type: DATA
+  id: system health
+- type: DATA
+  id: time
+- type: DATA
+  id: title
+- type: DATA
+  id: total amount of datum store
+- type: DATA
+  id: total number of file
+- type: DATA
+  id: total number of user
+- type: DATA
+  id: type of browser you use
+- type: DATA
+  id: usage statistical information

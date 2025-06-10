@@ -1,0 +1,100 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your information with these third parties as part of our business
+    operations.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share generic aggregated data such as demographic information not linked
+    to any personal identification information regarding visitors and users with our
+    business partners, trusted affiliates and advertisers.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'We value your privacy
+
+
+    This website uses cookies to ensure you get the best experience on our website.'
+  purposes:
+    services:
+    - to ensure you get the best experience on our website
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your information with these third parties as part of our business
+    operations.
+  purposes: {}
+- source: advertiser
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share generic aggregated data such as demographic information not linked
+    to any personal identification information regarding visitors and users with our
+    business partners, trusted affiliates and advertisers.
+  purposes: {}
+- source: business partner
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share generic aggregated data such as demographic information not linked
+    to any personal identification information regarding visitors and users with our
+    business partners, trusted affiliates and advertisers.
+  purposes: {}
+- source: company with tutorcruncher account
+  target: user datum in company specific database
+  key: COLLECT
+  text:
+  - A company with a TutorCruncher account will only have access to the user data
+    in its company-specific database.
+  purposes: {}
+- source: trust affiliate
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share generic aggregated data such as demographic information not linked
+    to any personal identification information regarding visitors and users with our
+    business partners, trusted affiliates and advertisers.
+  purposes: {}
+- source: aggregate / deidentified / pseudonymized information
+  target: demographic information not link to personal identification information
+    regard visitor
+  key: SUBSUM
+  text:
+  - We may share generic aggregated data such as demographic information not linked
+    to any personal identification information regarding visitors and users with our
+    business partners, trusted affiliates and advertisers.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: company with tutorcruncher account
+- type: ACTOR
+  id: trust affiliate
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: demographic information not link to personal identification information regard
+    visitor
+- type: DATA
+  id: user datum in company specific database

@@ -1,0 +1,301 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Specifically, we disclose data to:'
+  - 'Specifically, we may share your data with:'
+  - This Privacy Policy explains how we collect, use, disclose, and safeguard your
+    information when you use our application and services.
+  - We disclose data to third-party service providers solely for operational purposes.
+  purposes:
+    analytics:
+    - To capture and process meeting data, which is used for generating meeting transcripts,
+      AI summaries, and action items
+    security:
+    - For secure data storage and processing
+    - For secure storage and processing of Google Calendar data, where all data is
+      encrypted and securely stored
+    services:
+    - To capture and process meeting data, which is used for generating meeting transcripts,
+      AI summaries, and action items
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - We store the collected data securely and retain it until the user chooses to delete
+    it.
+  purposes: {}
+- source: we
+  target: event detail
+  key: COLLECT
+  text:
+  - We access event details, including titles, descriptions, start and end times,
+    and attendee information.
+  purposes: {}
+- source: we
+  target: google calendar datum
+  key: COLLECT
+  text:
+  - 'We collect and utilize your Google Calendar data (such as event titles, descriptions,
+    start times, end times, and attendee details) exclusively for the following purposes:'
+  purposes:
+    analytics:
+    - Data Analysis and Summarization
+    - To generate meeting transcripts, AI summaries, and action items based on the
+      events
+    services:
+    - 'Meeting Recording Services: To enable users to send recording bots to scheduled
+      meetings'
+    - To generate meeting transcripts, AI summaries, and action items based on the
+      events
+    - User Support and Service Improvement
+- source: we
+  target: google calendar datum we collect
+  key: COLLECT
+  text:
+  - We retain the Google Calendar data we collect (e.g., event titles, descriptions,
+    times, and attendees) for as long as necessary to provide our services.
+  purposes: {}
+- source: we
+  target: information discuss during meeting
+  key: COLLECT
+  text:
+  - Our application collects information discussed during meetings, including relevant
+    details that may be shared in the course of the conversation.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We disclose data to third-party service providers solely for operational purposes.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: google calendar data we collect
+  key: COLLECT
+  text:
+  - The Google Calendar data we collect (e.g., event titles, descriptions, times,
+    and attendees) is shared with third-party service providers solely for the purpose
+    of providing our services.
+  purposes:
+    services:
+    - solely for the purpose of providing our services
+- source: amazon web services
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Specifically, we disclose data to: AWS (Amazon Web Services) : For secure data
+    storage and processing.'
+  - 'Specifically, we may share your data with: AWS (Amazon Web Services): For secure
+    storage and processing of Google Calendar data, where all data is encrypted and
+    securely stored.'
+  purposes:
+    analytics:
+    - To capture and process meeting data, which is used for generating meeting transcripts,
+      AI summaries, and action items
+    security:
+    - For secure data storage and processing
+    - For secure storage and processing of Google Calendar data, where all data is
+      encrypted and securely stored
+    services:
+    - To capture and process meeting data, which is used for generating meeting transcripts,
+      AI summaries, and action items
+- source: aws
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Specifically, we disclose data to: AWS (Amazon Web Services) : For secure data
+    storage and processing.'
+  - 'Specifically, we may share your data with: AWS (Amazon Web Services): For secure
+    storage and processing of Google Calendar data, where all data is encrypted and
+    securely stored.'
+  purposes:
+    analytics:
+    - To capture and process meeting data, which is used for generating meeting transcripts,
+      AI summaries, and action items
+    security:
+    - For secure data storage and processing
+    - For secure storage and processing of Google Calendar data, where all data is
+      encrypted and securely stored
+    services:
+    - To capture and process meeting data, which is used for generating meeting transcripts,
+      AI summaries, and action items
+- source: meeting bot api
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Specifically, we disclose data to: Recall.ai : A meeting bot API we use to capture
+    data from meetings.'
+  purposes:
+    security:
+    - For secure data storage and processing
+- source: recall.ai
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Specifically, we disclose data to: Recall.ai : A meeting bot API we use to capture
+    data from meetings.'
+  - 'Specifically, we may share your data with: Recall.ai: To capture and process
+    meeting data, which is used for generating meeting transcripts, AI summaries,
+    and action items.'
+  purposes:
+    analytics:
+    - To capture and process meeting data, which is used for generating meeting transcripts,
+      AI summaries, and action items
+    security:
+    - For secure data storage and processing
+    - For secure storage and processing of Google Calendar data, where all data is
+      encrypted and securely stored
+    services:
+    - To capture and process meeting data, which is used for generating meeting transcripts,
+      AI summaries, and action items
+- source: we
+  target: aspen
+  key: SUBSUM
+  text:
+  - At AVO Insights, doing business as Aspen ("we," "our," or "us"), we are committed
+    to protecting your privacy.
+- source: we
+  target: avo insights
+  key: SUBSUM
+  text:
+  - At AVO Insights, doing business as Aspen ("we," "our," or "us"), we are committed
+    to protecting your privacy.
+- source: event detail
+  target: attendee information
+  key: SUBSUM
+  text:
+  - We access event details, including titles, descriptions, start and end times,
+    and attendee information.
+- source: event detail
+  target: description
+  key: SUBSUM
+  text:
+  - We access event details, including titles, descriptions, start and end times,
+    and attendee information.
+- source: event detail
+  target: start time
+  key: SUBSUM
+  text:
+  - We access event details, including titles, descriptions, start and end times,
+    and attendee information.
+- source: event detail
+  target: title
+  key: SUBSUM
+  text:
+  - We access event details, including titles, descriptions, start and end times,
+    and attendee information.
+- source: google calendar data we collect
+  target: description
+  key: SUBSUM
+  text:
+  - The Google Calendar data we collect (e.g., event titles, descriptions, times,
+    and attendees) is shared with third-party service providers solely for the purpose
+    of providing our services.
+- source: google calendar data we collect
+  target: time
+  key: SUBSUM
+  text:
+  - The Google Calendar data we collect (e.g., event titles, descriptions, times,
+    and attendees) is shared with third-party service providers solely for the purpose
+    of providing our services.
+- source: google calendar datum
+  target: attendee detail
+  key: SUBSUM
+  text:
+  - 'We collect and utilize your Google Calendar data (such as event titles, descriptions,
+    start times, end times, and attendee details) exclusively for the following purposes:'
+- source: google calendar datum
+  target: description
+  key: SUBSUM
+  text:
+  - 'We collect and utilize your Google Calendar data (such as event titles, descriptions,
+    start times, end times, and attendee details) exclusively for the following purposes:'
+- source: google calendar datum
+  target: end time
+  key: SUBSUM
+  text:
+  - 'We collect and utilize your Google Calendar data (such as event titles, descriptions,
+    start times, end times, and attendee details) exclusively for the following purposes:'
+- source: google calendar datum
+  target: event title
+  key: SUBSUM
+  text:
+  - 'We collect and utilize your Google Calendar data (such as event titles, descriptions,
+    start times, end times, and attendee details) exclusively for the following purposes:'
+- source: google calendar datum
+  target: start time
+  key: SUBSUM
+  text:
+  - 'We collect and utilize your Google Calendar data (such as event titles, descriptions,
+    start times, end times, and attendee details) exclusively for the following purposes:'
+- source: google calendar datum we collect
+  target: description
+  key: SUBSUM
+  text:
+  - We retain the Google Calendar data we collect (e.g., event titles, descriptions,
+    times, and attendees) for as long as necessary to provide our services.
+- source: google calendar datum we collect
+  target: event detail
+  key: SUBSUM
+  text:
+  - We implement a variety of security measures to protect the Google Calendar data
+    we collect (such as event details).
+- source: information discuss during meeting
+  target: relevant detail share in course of conversation
+  key: SUBSUM
+  text:
+  - Our application collects information discussed during meetings, including relevant
+    details that may be shared in the course of the conversation.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: amazon web services
+- type: ACTOR
+  id: aspen
+- type: ACTOR
+  id: avo insights
+- type: ACTOR
+  id: aws
+- type: ACTOR
+  id: meeting bot api
+- type: ACTOR
+  id: recall.ai
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: attendee detail
+- type: DATA
+  id: attendee information
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: description
+- type: DATA
+  id: end time
+- type: DATA
+  id: event detail
+- type: DATA
+  id: event title
+- type: DATA
+  id: google calendar data we collect
+- type: DATA
+  id: google calendar datum
+- type: DATA
+  id: google calendar datum we collect
+- type: DATA
+  id: information discuss during meeting
+- type: DATA
+  id: relevant detail share in course of conversation
+- type: DATA
+  id: start time
+- type: DATA
+  id: time
+- type: DATA
+  id: title

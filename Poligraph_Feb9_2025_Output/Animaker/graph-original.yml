@@ -1,0 +1,42 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to provide a personalised experience for our users.
+  - Websites use Cookies in order to make most websites work, or work more efficiently.
+  purposes:
+    services:
+    - in order to make most websites work, or work more efficiently
+    - to provide a personalised experience for our users
+- source: animaker
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Animaker uses Cookie Data to compile aggregated data about site traffic and site
+    interactions.
+  - Animaker uses Cookie Data to help save User's website preferences for future visits.
+  - Animaker uses Cookie Data to help save your website preferences for future visits.
+  - Animaker uses Cookie Data to offer better website experiences and tools in the
+    future.
+  - 'Animaker uses Cookie Data to recognize and remember the following:'
+  - Animaker uses Cookies on its Websites.
+  purposes:
+    analytics:
+    - to compile aggregated data about site traffic and site interactions
+    services:
+    - save User's website preferences for future visits
+    - save your website preferences for future visits
+    - to help save User's website preferences for future visits
+    - to help save your website preferences for future visits
+    - to offer better website experiences and tools in the future
+nodes:
+- type: ACTOR
+  id: animaker
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag

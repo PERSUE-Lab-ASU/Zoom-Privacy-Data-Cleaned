@@ -1,0 +1,288 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Communications: We process your data to send you administrative updates, service
+    changes, and other essential communications.'
+  - In the process of delivering our services, we may disclose your information to
+    trusted parties.
+  - 'Privacy Policy
+
+
+    With Whom We May Share Your Information'
+  - 'Protection and Legal Compliance: We process information to protect your rights
+    and safety, comply with legal obligations, and respond to legal and governmental
+    requests.'
+  - 'These parties include: Governmental Bodies(When we are required to disclose information
+    to public authorities under legal obligations)'
+  - We only share your data as described here, and we offer you the chance to opt-out
+    before we share your information under any other circumstances.
+  purposes:
+    legal:
+    - to protect your rights and safety, comply with legal obligations, and respond
+      to legal and governmental requests
+    security:
+    - to protect your rights and safety, comply with legal obligations, and respond
+      to legal and governmental requests
+    services:
+    - to send you administrative updates, service changes, and other essential communications
+- source: we
+  target: basic information
+  key: COLLECT
+  text:
+  - We collect basic information such as your name, email address, and password to
+    set up and manage your account.
+  purposes:
+    services:
+    - to set up and manage your account
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - 'We collect various types of information, including: Contact Data: Includes email
+    addresses and telephone numbers.'
+  purposes: {}
+- source: we
+  target: datum we gather through use of website
+  key: COLLECT
+  text:
+  - We collect information that you voluntarily provide to us, as well as data we
+    gather automatically through the use of our website.
+  purposes: {}
+- source: we
+  target: identity data
+  key: COLLECT
+  text:
+  - 'We collect various types of information, including: Identity Data: Includes first
+    name, last name, username or similar identifier.'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - This privacy notice for ZippyPlan explains how and why we collect, use, and share
+    information about you when you use our service.
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - We collect information that you voluntarily provide to us, as well as data we
+    gather automatically through the use of our website.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'We collect various types of information, including: Usage Data: Provides insights
+    on how you use our website, products, and services, including navigation paths,
+    time spent on pages, and pages visited.'
+  purposes: {}
+- source: we
+  target: payment detail
+  key: COLLECT
+  text:
+  - 'Subscription Handling: We use your payment details to manage charges, present
+    billing history, and conduct internal financial reviews.'
+  purposes:
+    analytics:
+    - to manage charges, present billing history, and conduct internal financial reviews
+    services:
+    - to manage charges, present billing history, and conduct internal financial reviews
+- source: we
+  target: profile data
+  key: COLLECT
+  text:
+  - 'We collect various types of information, including: Profile Data: Includes your
+    username and password, appointments booked, your interests, preferences, feedback,
+    and survey responses.'
+  purposes: {}
+- source: we
+  target: technical datum
+  key: COLLECT
+  text:
+  - 'We collect various types of information, including: Technical Data: This encompasses
+    your internet protocol (IP) address, login credentials, type and version of your
+    browser, as well as your time zone setting and geographic location.'
+  purposes: {}
+- source: we
+  target: technical datum about device
+  key: COLLECT
+  text:
+  - Additionally, as you use our services, we automatically collect certain technical
+    data about your device and usage.
+  purposes: {}
+- source: we
+  target: transactional data
+  key: COLLECT
+  text:
+  - 'We collect various types of information, including: Transactional Data: Includes
+    details about payments to and from you and other details of services you have
+    purchased from us.'
+  purposes: {}
+- source: successor business entity
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When our company goes through a substantial business transition, such as a merger
+    or acquisition, your information may be transferred or shared with the successor
+    business entity.
+  purposes: {}
+- source: trust party
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In the process of delivering our services, we may disclose your information to
+    trusted parties.
+  purposes: {}
+- source: basic information
+  target: email address
+  key: SUBSUM
+  text:
+  - We collect basic information such as your name, email address, and password to
+    set up and manage your account.
+- source: basic information
+  target: password
+  key: SUBSUM
+  text:
+  - We collect basic information such as your name, email address, and password to
+    set up and manage your account.
+- source: basic information
+  target: person name
+  key: SUBSUM
+  text:
+  - We collect basic information such as your name, email address, and password to
+    set up and manage your account.
+- source: identity data
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'We collect various types of information, including: Identity Data: Includes first
+    name, last name, username or similar identifier.'
+- source: identity data
+  target: person name
+  key: SUBSUM
+  text:
+  - 'We collect various types of information, including: Identity Data: Includes first
+    name, last name, username or similar identifier.'
+- source: identity data
+  target: username
+  key: SUBSUM
+  text:
+  - 'We collect various types of information, including: Identity Data: Includes first
+    name, last name, username or similar identifier.'
+- source: profile data
+  target: appointment book
+  key: SUBSUM
+  text:
+  - 'We collect various types of information, including: Profile Data: Includes your
+    username and password, appointments booked, your interests, preferences, feedback,
+    and survey responses.'
+- source: profile data
+  target: feedback
+  key: SUBSUM
+  text:
+  - 'We collect various types of information, including: Profile Data: Includes your
+    username and password, appointments booked, your interests, preferences, feedback,
+    and survey responses.'
+- source: profile data
+  target: interest
+  key: SUBSUM
+  text:
+  - 'We collect various types of information, including: Profile Data: Includes your
+    username and password, appointments booked, your interests, preferences, feedback,
+    and survey responses.'
+- source: profile data
+  target: password
+  key: SUBSUM
+  text:
+  - 'We collect various types of information, including: Profile Data: Includes your
+    username and password, appointments booked, your interests, preferences, feedback,
+    and survey responses.'
+- source: profile data
+  target: preference
+  key: SUBSUM
+  text:
+  - 'We collect various types of information, including: Profile Data: Includes your
+    username and password, appointments booked, your interests, preferences, feedback,
+    and survey responses.'
+- source: profile data
+  target: survey response
+  key: SUBSUM
+  text:
+  - 'We collect various types of information, including: Profile Data: Includes your
+    username and password, appointments booked, your interests, preferences, feedback,
+    and survey responses.'
+- source: profile data
+  target: username
+  key: SUBSUM
+  text:
+  - 'We collect various types of information, including: Profile Data: Includes your
+    username and password, appointments booked, your interests, preferences, feedback,
+    and survey responses.'
+- source: transactional data
+  target: detail of service you purchase from we
+  key: SUBSUM
+  text:
+  - 'We collect various types of information, including: Transactional Data: Includes
+    details about payments to and from you and other details of services you have
+    purchased from us.'
+nodes:
+- type: ACTOR
+  id: successor business entity
+- type: ACTOR
+  id: trust party
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: appointment book
+- type: DATA
+  id: basic information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: datum we gather through use of website
+- type: DATA
+  id: detail of service you purchase from we
+- type: DATA
+  id: email address
+- type: DATA
+  id: feedback
+- type: DATA
+  id: identifier
+- type: DATA
+  id: identity data
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: interest
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: password
+- type: DATA
+  id: payment detail
+- type: DATA
+  id: person name
+- type: DATA
+  id: preference
+- type: DATA
+  id: profile data
+- type: DATA
+  id: survey response
+- type: DATA
+  id: technical datum
+- type: DATA
+  id: technical datum about device
+- type: DATA
+  id: transactional data
+- type: DATA
+  id: username

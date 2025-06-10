@@ -1,0 +1,493 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In addition to previously stated retention policies, we will retain your information
+    for as long as your account is active or as needed to provide you services.
+  - In addition, if you so indicate in the event of sharing your contact information
+    with us, we may use the information we collect to send you news and product and
+    service updates, including contacting you about our services, products, activities,
+    special events or offers and for other marketing, informational, product development
+    and promotional purposes, including notifications about new features and or improvements
+    to the Sites of our products and services; We may also receive information from
+    third parties with whom we have business relationships, and may combine this information
+    with the other personal information we have about you.
+  - We may retain and use your information as necessary to comply with our legal obligations,
+    resolve disputes, and enforce our agreements.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We collect aggregate data for a number of purposes, including to help us understand
+    trends and user needs so that we can better consider new publications, products
+    and services, and tailor existing publications, products and services to user
+    desires.
+  purposes:
+    analytics:
+    - for a number of purposes, including to help us understand trends and user needs
+      so that we can better consider new publications, products and services, and
+      tailor existing publications, products and services to user desires
+    services:
+    - for a number of purposes, including to help us understand trends and user needs
+      so that we can better consider new publications, products and services, and
+      tailor existing publications, products and services to user desires
+- source: we
+  target: audit trail
+  key: COLLECT
+  text:
+  - Any time a user access protected data we store an audit trail for security purposes.
+  purposes:
+    security:
+    - for security purposes
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - As true of most websites, we gather certain information automatically and store
+    it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: clickstream datum
+  key: COLLECT
+  text:
+  - As true of most websites, we gather certain information automatically and store
+    it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: contact
+  key: COLLECT
+  text:
+  - In addition, from time to time we may collect contact or other personal or demographic
+    information you provide in connection with your participation in surveys.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We may share your contact information with third parties, but only if you have
+    indicated to us that you wish to receive information from such parties.
+  purposes: {}
+- source: we
+  target: date time stamp
+  key: COLLECT
+  text:
+  - As true of most websites, we gather certain information automatically and store
+    it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: demographic information
+  key: COLLECT
+  text:
+  - If you register for the App, send us an email, or submit content, we may collect
+    your name, photo, and/or demographic information that you provide.
+  purposes: {}
+- source: we
+  target: feedback
+  key: COLLECT
+  text:
+  - 'For example, we may use the information we collect: to request feedback and to
+    enable us to develop, customize and improve the Site and our information and services;
+    and'
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'For example, we may use the information we collect:'
+  - In addition, if you so indicate in the event of sharing your contact information
+    with us, we may use the information we collect to send you news and product and
+    service updates, including contacting you about our services, products, activities,
+    special events or offers and for other marketing, informational, product development
+    and promotional purposes, including notifications about new features and or improvements
+    to the Sites of our products and services; We may also receive information from
+    third parties with whom we have business relationships, and may combine this information
+    with the other personal information we have about you.
+  purposes:
+    advertising:
+    - to send you news and product and service updates, including contacting you about
+      our services, products, activities, special events or offers and for other marketing,
+      informational, product development and promotional purposes, including notifications
+      about new features and or improvements to the Sites of our products and services
+    analytics:
+    - to request feedback and to enable us to develop, customize and improve the Site
+      and our information and services;
+    services:
+    - to allow other users of the service that you designate to view information in
+      your profile
+    - to ensure that the application is working correctly and that you are being served
+      the most recent version
+    - to request feedback and to enable us to develop, customize and improve the Site
+      and our information and services;
+    - to respond to your emails, submissions, comments, requests or complaints
+    - to send you news and product and service updates, including contacting you about
+      our services, products, activities, special events or offers and for other marketing,
+      informational, product development and promotional purposes, including notifications
+      about new features and or improvements to the Sites of our products and services
+- source: we
+  target: information you provide to we contain personal information
+  key: COLLECT
+  text:
+  - At several places on our Sites, we may collect certain information you voluntarily
+    provide to us which may contain personal information.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - As true of most websites, we gather certain information automatically and store
+    it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: local storage objects
+  key: COLLECT
+  text:
+  - We may also use Local Storage Objects (LSOs) such as those available in the HTML5
+    web standard to store content information and preferences.
+  purposes:
+    analytics:
+    - to store content information and preferences
+    services:
+    - to store content information and preferences
+- source: we
+  target: lsos
+  key: COLLECT
+  text:
+  - We may also use Local Storage Objects (LSOs) such as those available in the HTML5
+    web standard to store content information and preferences.
+  purposes:
+    analytics:
+    - to store content information and preferences
+    services:
+    - to store content information and preferences
+- source: we
+  target: option of
+  key: COLLECT
+  text:
+  - We may provide the option of connecting to the Degree Analytics service through
+    Facebook, Twitter, Google+ or other social network as a faster, easier way for
+    you to create a profile on the Degree Analytics service.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - If you register for the App, send us an email, or submit content, we may collect
+    your name, photo, and/or demographic information that you provide.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition, from time to time we may collect contact or other personal or demographic
+    information you provide in connection with your participation in surveys.
+  - In general, we use personal information we may collect (such as your name) to
+    facilitate your use of the Degree Analytics App, to provide you with information,
+    products and services you request, to administer and assist us with the operation
+    of the Sites, our app, and for any other purpose for which the information was
+    provided.
+  - In the event that we engage or partner with third party vendors, consultants or
+    other service providers in connection with the operation of the Site and our services
+    ("Service Providers"), we may share personal information with such Service Providers
+    who need access to such information to carry out their work for us so long as
+    it meets any requirements are stipulated by FERPA.
+  - The Policy is designed to tell you how we collect and use personal information
+    (as defined below) so you can make an informed decision about using our Site and
+    the Degree Analytics service.
+  purposes:
+    services:
+    - to allow other users of the service that you designate to view information in
+      your profile
+- source: we
+  target: photo
+  key: COLLECT
+  text:
+  - If you register for the App, send us an email, or submit content, we may collect
+    your name, photo, and/or demographic information that you provide.
+  purposes: {}
+- source: we
+  target: report base on use of technology by company
+  key: COLLECT
+  text:
+  - We may receive reports based on the use of these technologies by these companies
+    on an individual as well as aggregated basis.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: contact information
+  key: COLLECT
+  text:
+  - We may share your contact information with third parties, but only if you have
+    indicated to us that you wish to receive information from such parties.
+  purposes: {}
+- source: analytic provider
+  target: information as you use application
+  key: COLLECT
+  text:
+  - This software may record information such as how often you use the application,
+    the events that occur within the application, aggregated usage, performance data,
+    and from where the application was downloaded.
+  - We use analytics software to allow us to better understand the functionality of
+    our Software on your device.
+  purposes: {}
+- source: degree analytics
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Degree Analytics will keep deidentified and aggregate data for a period of 8 years.
+  purposes: {}
+- source: degree analytics
+  target: email address
+  key: COLLECT
+  text:
+  - Degree Analytics may share other personal or non- personal information and aggregate
+    information to third parties in order for the App to provide you some service.
+  - Specifically, with regard to Email functionality, when the Degree Analytics app
+    sends an email to a user, the user's email address will be provided to them along
+    with such identifying information as you choose, such as your name and/or photo.
+  purposes: {}
+- source: degree analytics
+  target: geolocation
+  key: COLLECT
+  text:
+  - Unless you direct us to act otherwise, your personal location information is only
+    stored by Degree Analytics for up to 365 days of inactivity after which location
+    information is disassociated from personal information and anonymized.
+  purposes: {}
+- source: degree analytics
+  target: information about computer
+  key: COLLECT
+  text:
+  - When you visit our website or use our mobile apps, Degree Analytics and our service
+    provider partners may collect certain information about your computer or device
+    through technologies such as cookies, beacons, tags, and scripts.
+  purposes: {}
+- source: degree analytics
+  target: personal information
+  key: COLLECT
+  text:
+  - Degree Analytics may disclose personal information when we are required to comply
+    with the law (e.g. a lawful subpoena, warrant or court order); to enforce or apply
+    this privacy policy or our other policies or agreements; to initiate, render,
+    bill, and collect for amounts owed to us; to protect our or our customers' rights,
+    property or safety; to protect our customers from fraudulent, abusive, or unlawful
+    use of our Sites; or if we believe that an emergency involving the danger of death
+    or serious physical injury to any person requires disclosure of communications
+    or justifies disclosure of personal information.
+  - Degree Analytics may share other personal or non- personal information and aggregate
+    information to third parties in order for the App to provide you some service.
+  purposes: {}
+- source: degree analytics app
+  target: geolocation
+  key: COLLECT
+  text:
+  - Degree Analytics app may automatically collect location information from your
+    device.
+  purposes: {}
+- source: provider of service
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When you use these services, you would be providing information directly to the
+    provider of these services, and the provision of such information would be subject
+    to such party's own privacy policy.
+  purposes: {}
+- source: service provider partner
+  target: information about computer
+  key: COLLECT
+  text:
+  - When you visit our website or use our mobile apps, Degree Analytics and our service
+    provider partners may collect certain information about your computer or device
+    through technologies such as cookies, beacons, tags, and scripts.
+  purposes: {}
+- source: service providers
+  target: personal information
+  key: COLLECT
+  text:
+  - In the event that we engage or partner with third party vendors, consultants or
+    other service providers in connection with the operation of the Site and our services
+    ("Service Providers"), we may share personal information with such Service Providers
+    who need access to such information to carry out their work for us so long as
+    it meets any requirements are stipulated by FERPA.
+  purposes: {}
+- source: we
+  target: corp
+  key: SUBSUM
+  text:
+  - This privacy policy ("Policy") applies to any Web sites located through the domains
+    of at degreeanalytics.com, *.degreeanalytics.com (the "Site") owned and operated
+    by MF Genius, Corp d.b.a Degree Analytics ("MF Genius" "Degree Analytics" "we"
+    or "us") and the Degree Analytics service accessed through our mobile, web application,
+    or API (the "Service" or "App") or data, reports or otherwise provided by Degree
+    Analytics.
+- source: we
+  target: mf genius
+  key: SUBSUM
+  text:
+  - This privacy policy ("Policy") applies to any Web sites located through the domains
+    of at degreeanalytics.com, *.degreeanalytics.com (the "Site") owned and operated
+    by MF Genius, Corp d.b.a Degree Analytics ("MF Genius" "Degree Analytics" "we"
+    or "us") and the Degree Analytics service accessed through our mobile, web application,
+    or API (the "Service" or "App") or data, reports or otherwise provided by Degree
+    Analytics.
+- source: demographic information
+  target: date of birth
+  key: SUBSUM
+  text:
+  - Personal information also includes demographic information such as date of birth,
+    gender, geographic area and preferences when such information is linked to other
+    personal information that identifies you.
+- source: demographic information
+  target: gender
+  key: SUBSUM
+  text:
+  - Personal information also includes demographic information such as date of birth,
+    gender, geographic area and preferences when such information is linked to other
+    personal information that identifies you.
+- source: demographic information
+  target: geographic area
+  key: SUBSUM
+  text:
+  - Personal information also includes demographic information such as date of birth,
+    gender, geographic area and preferences when such information is linked to other
+    personal information that identifies you.
+- source: demographic information
+  target: preference
+  key: SUBSUM
+  text:
+  - Personal information also includes demographic information such as date of birth,
+    gender, geographic area and preferences when such information is linked to other
+    personal information that identifies you.
+- source: personal information
+  target: demographic information
+  key: SUBSUM
+  text:
+  - Personal information also includes demographic information such as date of birth,
+    gender, geographic area and preferences when such information is linked to other
+    personal information that identifies you.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Degree Analytics may share other personal or non- personal information and aggregate
+    information to third parties in order for the App to provide you some service.
+  - In general, we use personal information we may collect (such as your name) to
+    facilitate your use of the Degree Analytics App, to provide you with information,
+    products and services you request, to administer and assist us with the operation
+    of the Sites, our app, and for any other purpose for which the information was
+    provided.
+  - Specifically, with regard to Email functionality, when the Degree Analytics app
+    sends an email to a user, the user's email address will be provided to them along
+    with such identifying information as you choose, such as your name and/or photo.
+- source: personal information
+  target: photo
+  key: SUBSUM
+  text:
+  - Degree Analytics may share other personal or non- personal information and aggregate
+    information to third parties in order for the App to provide you some service.
+  - Specifically, with regard to Email functionality, when the Degree Analytics app
+    sends an email to a user, the user's email address will be provided to them along
+    with such identifying information as you choose, such as your name and/or photo.
+- source: technology
+  target: script
+  key: SUBSUM
+  text:
+  - When you visit our website or use our mobile apps, Degree Analytics and our service
+    provider partners may collect certain information about your computer or device
+    through technologies such as cookies, beacons, tags, and scripts.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: corp
+- type: ACTOR
+  id: degree analytics
+- type: ACTOR
+  id: degree analytics app
+- type: ACTOR
+  id: mf genius
+- type: ACTOR
+  id: provider of service
+- type: ACTOR
+  id: script
+- type: ACTOR
+  id: service provider partner
+- type: ACTOR
+  id: service providers
+- type: ACTOR
+  id: technology
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: audit trail
+- type: DATA
+  id: browser type
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: contact
+- type: DATA
+  id: contact information
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: date time stamp
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: email address
+- type: DATA
+  id: feedback
+- type: DATA
+  id: gender
+- type: DATA
+  id: geographic area
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about computer
+- type: DATA
+  id: information as you use application
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you provide to we contain personal information
+- type: DATA
+  id: ip address
+- type: DATA
+  id: local storage objects
+- type: DATA
+  id: lsos
+- type: DATA
+  id: option of
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: photo
+- type: DATA
+  id: preference
+- type: DATA
+  id: report base on use of technology by company

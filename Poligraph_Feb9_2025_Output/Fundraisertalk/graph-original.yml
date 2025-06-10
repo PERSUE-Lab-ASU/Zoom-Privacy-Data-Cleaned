@@ -1,0 +1,279 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - It describes which information we collect, the ways we may use it, the parties
+    we might share it with, and how you may control its use and disclosure.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We retain your personal data insofar as is required by law or by legitimate business
+    concerns such as reducing the level of risk exhibited by users who had to be banned
+    from CoffeeTalk for exhibiting undesirable, dangerous, or criminal behavior.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate user datum
+  key: COLLECT
+  text:
+  - CoffeeTalk may disclose aggregate user data in some of the aforementioned circumstances.
+  - Such data may also be disclosed to third parties for the purposes of advertisement
+    campaign analysis, research, and development.
+  purposes:
+    advertising:
+    - for the purposes of advertisement campaign analysis, research, and development
+    analytics:
+    - for the purposes of advertisement campaign analysis, research, and development
+- source: UNSPECIFIED_ACTOR
+  target: personalized user datum
+  key: COLLECT
+  text:
+  - CoffeeTalk may disclose personalized user data to third parties acting on its
+    behalf for such purposes as fulfilling orders, providing marketing assistance
+    or screening members.
+  - CoffeeTalk only provides personalized user data to third parties in accordance
+    with the provisions of the present document.
+  purposes: {}
+- source: advertiser
+  target: aggregate user datum
+  key: COLLECT
+  text:
+  - CoffeeTalk will only provide aggregate and/or anonymized user data to these advertisers.
+  - The advertisers may use such technologies as cookies and web beacons to measure
+    the efficacy of their advertising campaigns.
+  purposes: {}
+- source: advertiser
+  target: same mobile device datum
+  key: COLLECT
+  text:
+  - Apart from CoffeeTalk, ad companies and analytics companies use the same mobile
+    device data to personalize targeted ads, measure the success of ads campaigns
+    and analyze app usage information.
+  purposes:
+    advertising:
+    - to personalize targeted ads, measure the success of ads campaigns and analyze
+      app usage information
+    analytics:
+    - to personalize targeted ads, measure the success of ads campaigns and analyze
+      app usage information
+- source: analytic provider
+  target: same mobile device datum
+  key: COLLECT
+  text:
+  - Apart from CoffeeTalk, ad companies and analytics companies use the same mobile
+    device data to personalize targeted ads, measure the success of ads campaigns
+    and analyze app usage information.
+  purposes:
+    advertising:
+    - to personalize targeted ads, measure the success of ads campaigns and analyze
+      app usage information
+    analytics:
+    - to personalize targeted ads, measure the success of ads campaigns and analyze
+      app usage information
+- source: automate technology
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The means used for data collection Your information is almost entirely collected,
+    processed, and analyzed by fully automated technologies.
+  purposes: {}
+- source: coffeetalk
+  target: advertising id
+  key: COLLECT
+  text:
+  - CoffeeTalk will gather the unique (manufacturer-assigned) IDs of your devices,
+    and the advertising IDs assigned by, iOS for example, for storing your CoffeeTalk
+    preferences and monitoring your use of CoffeeTalk.
+  purposes: {}
+- source: coffeetalk
+  target: aggregate user datum
+  key: COLLECT
+  text:
+  - CoffeeTalk may disclose aggregate user data in some of the aforementioned circumstances.
+  - CoffeeTalk will only provide aggregate and/or anonymized user data to these advertisers.
+  purposes: {}
+- source: coffeetalk
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - CoffeeTalk might use cookies (time-limited text files which store session data
+    to improve your CoffeeTalk experience.
+  - CoffeeTalk might use pixel tags (single-pixel, practically invisible graphics)
+    which are also known as web beacons for accessing cookies, measuring user activities,
+    and measuring how many times ads were viewed.
+  purposes:
+    services:
+    - to improve your CoffeeTalk experience
+- source: coffeetalk
+  target: data it gather
+  key: COLLECT
+  text:
+  - CoffeeTalk may use the data it gathers to optimize its products and services,
+    for the day-to-day management of CoffeeTalk, to manage user accounts, to provide
+    customer support, to gain research insights, to communicate offers of possible
+    interest to users, to target and personalize advertising, to verify eligibility
+    and deliver rewards during promotional campaigns, to carry out actions further
+    to a provision in the CoffeeTalk Terms of Use document, and to carry out other
+    functions not mentioned above as necessary as long as you are provided with a
+    description of the data used and the grounds for their use.
+  purposes:
+    advertising:
+    - to optimize its products and services, for the day-to-day management of CoffeeTalk,
+      to manage user accounts, to provide customer support, to gain research insights,
+      to communicate offers of possible interest to users, to target and personalize
+      advertising, to verify eligibility and deliver rewards during promotional campaigns,
+      to carry out actions further to a provision in the CoffeeTalk Terms of Use document,
+      and to carry out other functions not mentioned above as necessary as long as
+      you are provided with a description of the data used and the grounds for their
+      use
+    analytics:
+    - to optimize its products and services, for the day-to-day management of CoffeeTalk,
+      to manage user accounts, to provide customer support, to gain research insights,
+      to communicate offers of possible interest to users, to target and personalize
+      advertising, to verify eligibility and deliver rewards during promotional campaigns,
+      to carry out actions further to a provision in the CoffeeTalk Terms of Use document,
+      and to carry out other functions not mentioned above as necessary as long as
+      you are provided with a description of the data used and the grounds for their
+      use
+    services:
+    - to optimize its products and services, for the day-to-day management of CoffeeTalk,
+      to manage user accounts, to provide customer support, to gain research insights,
+      to communicate offers of possible interest to users, to target and personalize
+      advertising, to verify eligibility and deliver rewards during promotional campaigns,
+      to carry out actions further to a provision in the CoffeeTalk Terms of Use document,
+      and to carry out other functions not mentioned above as necessary as long as
+      you are provided with a description of the data used and the grounds for their
+      use
+- source: coffeetalk
+  target: geolocation
+  key: COLLECT
+  text:
+  - If you permit it, CoffeeTalk will collect information that allows us to determine
+    your present location by either employing the device's GPS hardware to determine
+    your longitude and latitude (to within a few meters), or by gathering location-relevant
+    data from your device's Bluetooth or WiFi connection.
+  - You might also be prompted to allow CoffeeTalk to gather information on your present
+    location.
+  purposes: {}
+- source: coffeetalk
+  target: limit text file store session datum
+  key: COLLECT
+  text:
+  - CoffeeTalk might use cookies (time-limited text files which store session data
+    to improve your CoffeeTalk experience.
+  purposes:
+    services:
+    - to improve your CoffeeTalk experience
+- source: coffeetalk
+  target: non-personal information
+  key: COLLECT
+  text:
+  - CoffeeTalk may gather personal and/or non-personal information from other members'
+    websites, as well as CoffeeTalk business partners and third parties.
+  purposes: {}
+- source: coffeetalk
+  target: personalized user datum
+  key: COLLECT
+  text:
+  - CoffeeTalk may disclose personalized user data if it is served with a valid subpoena
+    or similar document, a court order, or a duly certified request from a law enforcement
+    or government agency.
+  - CoffeeTalk may disclose personalized user data in special and/or extreme legal
+    circumstances.
+  - CoffeeTalk may disclose personalized user data in the course of handling illegal
+    activities (e.g. fraud) on CoffeeTalk, if it believes it necessary for protecting
+    CoffeeTalk's corporate interests, if our legal advisors require us to do so for
+    valid legal reasons, or as part of enforcing the CoffeeTalk Terms of Use document
+    or other agreements incorporated therein.
+  - CoffeeTalk may disclose personalized user data to third parties acting on its
+    behalf for such purposes as fulfilling orders, providing marketing assistance
+    or screening members.
+  - CoffeeTalk only provides personalized user data to third parties in accordance
+    with the provisions of the present document.
+  purposes: {}
+- source: coffeetalk
+  target: unique assign id of device
+  key: COLLECT
+  text:
+  - CoffeeTalk will gather the unique (manufacturer-assigned) IDs of your devices,
+    and the advertising IDs assigned by, iOS for example, for storing your CoffeeTalk
+    preferences and monitoring your use of CoffeeTalk.
+  purposes: {}
+- source: coffeetalk
+  target: user datum
+  key: COLLECT
+  text:
+  - CoffeeTalk may process user data internally, or may contract a third party to
+    perform user data research and analysis.
+  purposes: {}
+- source: service provider
+  target: personalized user datum
+  key: COLLECT
+  text:
+  - CoffeeTalk may disclose personalized user data to third parties acting on its
+    behalf for such purposes as fulfilling orders, providing marketing assistance
+    or screening members.
+  - However, these service providers may only use this data for the service they were
+    contracted to perform, and may not use it for other purposes.
+  purposes:
+    legal:
+    - for the service they were contracted to perform
+    services:
+    - for the service they were contracted to perform
+- source: coffeetalk
+  target: Google
+  key: SUBSUM
+  text:
+  - These include, but are not limited to, your Internet Protocol (IP) address (your
+    device's unique internet identifier), the type and unique identification ID of
+    the access device, the browser used to access CoffeeTalk (if applicable), the
+    operating system running on the device used for said access, and the Internet
+    address of the website which referred you to CoffeeTalk (e.g. Google).
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: automate technology
+- type: ACTOR
+  id: coffeetalk
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: advertising id
+- type: DATA
+  id: aggregate user datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: data it gather
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: limit text file store session datum
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personalized user datum
+- type: DATA
+  id: same mobile device datum
+- type: DATA
+  id: unique assign id of device
+- type: DATA
+  id: user datum

@@ -1,0 +1,18 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to provide you with a great experience and to help our website
+    run effectively.
+  purposes:
+    services:
+    - to provide you with a great experience and to help our website run effectively
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag

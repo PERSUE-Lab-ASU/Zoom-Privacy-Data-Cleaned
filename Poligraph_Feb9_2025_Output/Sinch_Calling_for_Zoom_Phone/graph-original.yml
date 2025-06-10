@@ -1,0 +1,151 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will not disclose or transfer information about you that we collect, to third
+    parties without your consent, unless such disclosure has been agreed with us through
+    contract or otherwise; provided that we may disclose data or information when
+    required by law or when we believe in good faith that such disclosure is necessary
+    to comply with applicable laws.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - 'Customer Data comes to be processed by Sinch in one of several ways: Third parties
+    may have provided information about you to Sinch - these third parties include
+    market survey companies, marketers, and sales leads databases.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Sinch does not sell personal data and does not allow third parties to use your
+    personal data for their own business interests, without explicit consent from
+    data subjects to do so, for instance from active customers who opt-in to participate
+    in leads-sharing programs.
+  - The Sinch entity that first sources your personal data will share these data (including
+    both Service Data and Customer Data as described above) with other parties, as
+    a part of providing services and maintaining the services infrastructure.
+  purposes: {}
+- source: sinch
+  target: customer data
+  key: COLLECT
+  text:
+  - 'For the purposes of this notice Sinch processes two types of Personal Data as
+    a Controller: Customer Data , which means personal data relating to current and
+    potential future Customers.'
+  purposes: {}
+- source: sinch
+  target: detail relate to payment to processing
+  key: COLLECT
+  text:
+  - For Customers who choose to pay for Sinch services by credit card or direct debit,
+    Sinch collects details related to the payment to processing.
+  purposes:
+    services:
+    - For Customers who choose to pay for Sinch services by credit card or direct
+      debit
+- source: sinch
+  target: information about you
+  key: COLLECT
+  text:
+  - 'Customer Data comes to be processed by Sinch in one of several ways: Third parties
+    may have provided information about you to Sinch - these third parties include
+    market survey companies, marketers, and sales leads databases.'
+  purposes: {}
+- source: sinch
+  target: personal datum relate to customer
+  key: COLLECT
+  text:
+  - Sinch will process personal data related to Customers as part of providing services
+    to our Customers and to communicate with you about those services.
+  purposes: {}
+- source: sinch
+  target: personal datum relate to end recipient of communication
+  key: COLLECT
+  text:
+  - As a provider of electronic communications services, Sinch will process personal
+    data related to end recipients of communications in the ways described below.
+  purposes: {}
+- source: sinch
+  target: personal information
+  key: COLLECT
+  text:
+  - For instance, Sinch shares personal data internally between Sinch entities for
+    many of the purposes described above under processing activities, such as to ensure
+    correct billing and account handling.
+  - 'Privacy Notice
+
+
+    Sinch will collect personal data from you based upon your business relationship
+    with Sinch and the use of Sinch platforms and services, as set out below.'
+  - Sinch, being a global group, transfers personal data between countries.
+  purposes: {}
+- source: sinch
+  target: service data
+  key: COLLECT
+  text:
+  - 'For the purposes of this notice Sinch processes two types of Personal Data as
+    a Controller: Service Data, which means the routing and message data, including
+    message content, that is created and processed as a part of provision of services
+    to Sinch Customers.'
+  purposes: {}
+- source: sinch entity
+  target: personal information
+  key: COLLECT
+  text:
+  - The Sinch entity that first sources your personal data will share these data (including
+    both Service Data and Customer Data as described above) with other parties, as
+    a part of providing services and maintaining the services infrastructure.
+  purposes: {}
+- source: personal information
+  target: customer data
+  key: SUBSUM
+  text:
+  - 'For the purposes of this notice Sinch processes two types of Personal Data as
+    a Controller: Customer Data , which means personal data relating to current and
+    potential future Customers.'
+  - The Sinch entity that first sources your personal data will share these data (including
+    both Service Data and Customer Data as described above) with other parties, as
+    a part of providing services and maintaining the services infrastructure.
+- source: personal information
+  target: service data
+  key: SUBSUM
+  text:
+  - 'For the purposes of this notice Sinch processes two types of Personal Data as
+    a Controller: Service Data, which means the routing and message data, including
+    message content, that is created and processed as a part of provision of services
+    to Sinch Customers.'
+  - The Sinch entity that first sources your personal data will share these data (including
+    both Service Data and Customer Data as described above) with other parties, as
+    a part of providing services and maintaining the services infrastructure.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: sinch
+- type: ACTOR
+  id: sinch entity
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: customer data
+- type: DATA
+  id: detail relate to payment to processing
+- type: DATA
+  id: information about you
+- type: DATA
+  id: personal datum relate to customer
+- type: DATA
+  id: personal datum relate to end recipient of communication
+- type: DATA
+  id: personal information
+- type: DATA
+  id: service data

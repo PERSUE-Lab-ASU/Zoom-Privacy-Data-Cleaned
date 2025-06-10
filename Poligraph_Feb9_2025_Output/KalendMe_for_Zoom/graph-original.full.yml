@@ -1,0 +1,123 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect information about the type and language of the operating system ("OS")
+    running on your device, the browser type you used during your visit, and the website
+    you visited just before ours.
+  purposes: {}
+- source: we
+  target: access to calendar
+  key: COLLECT
+  text:
+  - We use access to your calendar to calculate your availability with users you share
+    your link with.
+  purposes:
+    analytics:
+    - to calculate your availability with users you share your link with
+    services:
+    - to calculate your availability with users you share your link with
+- source: we
+  target: browser information
+  key: COLLECT
+  text:
+  - We collect following dataLocation (Country), Website Activity, and Browser Information.
+  purposes: {}
+- source: we
+  target: change in user state
+  key: COLLECT
+  text:
+  - We also collect information about which web-elements or objects you interact with,
+    metadata about your activity on the Site, changes in your user state, and the
+    duration of your visit.
+  purposes: {}
+- source: we
+  target: collect information
+  key: COLLECT
+  text:
+  - We only retain collected information for as long as necessary to provide you with
+    your requested service.
+  purposes:
+    services:
+    - to provide you with your requested service
+- source: we
+  target: country
+  key: COLLECT
+  text:
+  - We collect following dataLocation (Country), Website Activity, and Browser Information.
+  purposes: {}
+- source: we
+  target: datalocation
+  key: COLLECT
+  text:
+  - We collect following dataLocation (Country), Website Activity, and Browser Information.
+  purposes: {}
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We also collect information about which web-elements or objects you interact with,
+    metadata about your activity on the Site, changes in your user state, and the
+    duration of your visit.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We collect following dataLocation (Country), Website Activity, and Browser Information.
+  purposes: {}
+- source: we
+  target: metadata about activity on site
+  key: COLLECT
+  text:
+  - We also collect information about which web-elements or objects you interact with,
+    metadata about your activity on the Site, changes in your user state, and the
+    duration of your visit.
+  purposes: {}
+- source: operate system
+  target: os
+  key: SUBSUM
+  text:
+  - We collect information about the type and language of the operating system ("OS")
+    running on your device, the browser type you used during your visit, and the website
+    you visited just before ours.
+- source: operate system
+  target: website you visit before ours
+  key: SUBSUM
+  text:
+  - We collect information about the type and language of the operating system ("OS")
+    running on your device, the browser type you used during your visit, and the website
+    you visited just before ours.
+nodes:
+- type: ACTOR
+  id: operate system
+- type: ACTOR
+  id: os
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website you visit before ours
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access to calendar
+- type: DATA
+  id: browser information
+- type: DATA
+  id: change in user state
+- type: DATA
+  id: collect information
+- type: DATA
+  id: country
+- type: DATA
+  id: datalocation
+- type: DATA
+  id: information about
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: metadata about activity on site

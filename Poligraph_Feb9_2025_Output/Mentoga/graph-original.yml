@@ -1,0 +1,139 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information in the following ways:'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website uses cookies to give you the best and most relevant experience.
+  - We use cookies to give you the best possible experience while you browse through
+    our website.
+  - We use different types of cookies to optimize your experience on our website.
+  purposes:
+    services:
+    - to give you the best possible experience while you browse through our website
+    - to optimize your experience on our website
+- source: we
+  target: encryption
+  key: COLLECT
+  text:
+  - We use industry-standard measures, including encryption, to protect personal information.
+  purposes:
+    security:
+    - to protect personal information
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This document outlines how Mentoga ("Mentoga," "we," "our," or "us") collects,
+    uses, stores, and protects personal information.
+  - We may share your Personal Data with third parties that help us provide the messaging
+    service, including, but not limited to, platform providers, phone companies, and
+    other vendors who assist us in the delivery of text messages.
+  - 'We process personal information in accordance with applicable laws and under
+    the following legal bases:'
+  - 'We retain personal information as long as necessary to fulfil the purposes outlined
+    in this Policy, including:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Mentoga''s Privacy Policy
+
+
+    7. Sharing Personal Information with Third Parties'
+  - 'Mentoga''s Privacy Policy
+
+
+    Table Of Contents
+
+
+    Sharing Personal Information with Third Parties'
+  - This document outlines how Mentoga ("Mentoga," "we," "our," or "us") collects,
+    uses, stores, and protects personal information.
+  - We may share your Personal Data with third parties that help us provide the messaging
+    service, including, but not limited to, platform providers, phone companies, and
+    other vendors who assist us in the delivery of text messages.
+  purposes:
+    legal:
+    - For Legal Compliance
+- source: acquire entity
+  target: personal information
+  key: COLLECT
+  text:
+  - In the event of a merger, acquisition, or sale of assets, personal data may be
+    transferred to the acquiring entity.
+  purposes: {}
+- source: mentoga
+  target: personal information
+  key: COLLECT
+  text:
+  - Mentoga collects personal information directly from users, automatically through
+    usage of the Site, and from third-party sources.
+  - 'Mentoga uses your personal information for the following purposes:'
+  - This document outlines how Mentoga ("Mentoga," "we," "our," or "us") collects,
+    uses, stores, and protects personal information.
+  purposes: {}
+- source: mentoga llc
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Mentoga LLC may disclose Personal Data and other information as follows:'
+  purposes: {}
+- source: mentoga llc
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Mentoga LLC may disclose Personal Data and other information as follows:'
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - 7.1 With Service Providers
+  - 'Mentoga''s Privacy Policy
+
+
+    7. Sharing Personal Information with Third Parties'
+  purposes:
+    legal:
+    - For Legal Compliance
+- source: mentoga
+  target: social media
+  key: SUBSUM
+  text:
+  - '1.3 Information from Third Parties
+
+
+    Linked Accounts: Data from accounts connected to Mentoga (e.g., social media platforms).'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: acquire entity
+- type: ACTOR
+  id: mentoga
+- type: ACTOR
+  id: mentoga llc
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: encryption
+- type: DATA
+  id: personal information

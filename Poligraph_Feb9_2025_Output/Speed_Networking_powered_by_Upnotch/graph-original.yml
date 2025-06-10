@@ -1,0 +1,220 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - But sometimes we do need the information to provide services that you request.
+  - We notify our job applicants, consumers, customers, suppliers and others located
+    in the EU about the purposes for which we collect and use Personal Data, the types
+    of third parties to which we disclose the information, the choices job applicants,
+    consumers, customers, suppliers, and others have for limiting the use and disclosure
+    of their information, and how to contact us about our practices concerning Personal
+    Data.
+  - When we receive Personal Data from our subsidiaries, affiliates or other entities
+    in the EU, we will use and disclose such information in accordance with the notices
+    provided by such entities and the choices made by the individuals to whom such
+    Personal Data relates.
+  purposes:
+    services:
+    - to provide services that you request
+- source: we
+  target: copy of message
+  key: COLLECT
+  text:
+  - We will keep a copy of your message until we have had an opportunity to address
+    your concerns.
+  purposes: {}
+- source: we
+  target: message
+  key: COLLECT
+  text:
+  - We will share your messages with those within and outside our organization that
+    may be able to address the issues contained in your message.
+  purposes: {}
+- source: we
+  target: password
+  key: COLLECT
+  text:
+  - Once you're a customer of IntellectSpace, we'll provide you with your User ID
+    and password so that only you can access your solution or services.
+  purposes: {}
+- source: we
+  target: personal data of consumer
+  key: COLLECT
+  text:
+  - We use Personal Data of consumers, customers, suppliers and others (i) to respond
+    to your requests, (ii) to evaluate the quality of our products and services, (iii)
+    to communicate with you about our products, services, and related issues, (iv)
+    to notify you of and administer offers, contests, sweepstakes and other promotions,
+    and (v) for internal administrative and analytics purposes and to comply with
+    our legal obligations, policies, and procedures.
+  purposes:
+    advertising:
+    - (i) to respond to your requests, (ii) to evaluate the quality of our products
+      and services, (iii) to communicate with you about our products, services, and
+      related issues, (iv) to notify you of and administer offers, contests, sweepstakes
+      and other promotions, and (v) for internal administrative and analytics purposes
+      and to comply with our legal obligations, policies, and procedures
+    analytics:
+    - (i) to respond to your requests, (ii) to evaluate the quality of our products
+      and services, (iii) to communicate with you about our products, services, and
+      related issues, (iv) to notify you of and administer offers, contests, sweepstakes
+      and other promotions, and (v) for internal administrative and analytics purposes
+      and to comply with our legal obligations, policies, and procedures
+    services:
+    - (i) to respond to your requests, (ii) to evaluate the quality of our products
+      and services, (iii) to communicate with you about our products, services, and
+      related issues, (iv) to notify you of and administer offers, contests, sweepstakes
+      and other promotions, and (v) for internal administrative and analytics purposes
+      and to comply with our legal obligations, policies, and procedures
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Once you're a customer of IntellectSpace, we'll provide you with your User ID
+    and password so that only you can access your solution or services.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition, we may disclose Personal Data (i) if we are required to do so by
+    law or legal process, (ii) to law enforcement authorities or other government
+    officials based on an enforceable government request or as may be required under
+    applicable law, or (iii) when we believe disclosure is necessary or appropriate
+    to prevent physical harm or financial loss or in connection with an investigation
+    of suspected or actual illegal activity.
+  - 'Specifically, we may use your personal information in the following ways: (1)
+    to deliver your solution and services to you; (2) to update your solution and
+    services; and (3) to alert you to product upgrades, updated information and other
+    new services from IntellectSpace.'
+  - We may share Personal Data with service providers we have retained to perform
+    services on our behalf.
+  purposes:
+    services:
+    - to perform services on our behalf
+- source: we
+  target: publicly available personal information about individual
+  key: COLLECT
+  text:
+  - IntellectSpace collects publicly available personal information about individuals,
+    and we sell this information to our customers.
+  purposes: {}
+- source: intellectspace
+  target: personal identifiable information
+  key: COLLECT
+  text:
+  - IntellectSpace operates internationally and transfers Personal Identifiable Information
+    (Personal Data) to the United States and other countries for the purposes described
+    in this policy.
+  purposes: {}
+- source: intellectspace
+  target: personal information
+  key: COLLECT
+  text:
+  - IntellectSpace collects certain Personal Data such as name, company, title, and
+    email address.
+  - IntellectSpace operates internationally and transfers Personal Identifiable Information
+    (Personal Data) to the United States and other countries for the purposes described
+    in this policy.
+  - IntellectSpace shares Personal Data with its service providers.
+  purposes: {}
+- source: intellectspace
+  target: publicly available personal information about individual
+  key: COLLECT
+  text:
+  - IntellectSpace collects publicly available personal information about individuals,
+    and we sell this information to our customers.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - IntellectSpace shares Personal Data with its service providers.
+  purposes: {}
+- source: service provider we retain
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share Personal Data with service providers we have retained to perform
+    services on our behalf.
+  purposes:
+    services:
+    - to perform services on our behalf
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - IntellectSpace collects certain Personal Data such as name, company, title, and
+    email address.
+  - Such information might include your phone number, name, or email address.
+  - We define "personal information" as information that personally identifies you
+    or allows us to contact you.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - IntellectSpace collects certain Personal Data such as name, company, title, and
+    email address.
+  - Such information might include your phone number, name, or email address.
+  - We define "personal information" as information that personally identifies you
+    or allows us to contact you.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Such information might include your phone number, name, or email address.
+  - We define "personal information" as information that personally identifies you
+    or allows us to contact you.
+- source: personal information
+  target: specific piece
+  key: SUBSUM
+  text:
+  - '* The right to know what personal information is collected, used, shared or sold,
+    both as to the categories and specific pieces of personal information;'
+- source: personal information
+  target: title
+  key: SUBSUM
+  text:
+  - IntellectSpace collects certain Personal Data such as name, company, title, and
+    email address.
+nodes:
+- type: ACTOR
+  id: intellectspace
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: service provider we retain
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: copy of message
+- type: DATA
+  id: email address
+- type: DATA
+  id: message
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal data of consumer
+- type: DATA
+  id: personal identifiable information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: publicly available personal information about individual
+- type: DATA
+  id: specific piece
+- type: DATA
+  id: title

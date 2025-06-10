@@ -1,0 +1,508 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also obtain some information from third parties, for example, credit checks,
+    information from your employer, and searches of information in the public domain
+    such as the voters roll.
+  - You will provide information to us verbally and in writing, including email.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to personalize content, run ads, and analyze traffic.
+  purposes:
+    advertising:
+    - to personalize content, run ads, and analyze traffic
+    analytics:
+    - to personalize content, run ads, and analyze traffic
+- source: we
+  target: information from employer
+  key: COLLECT
+  text:
+  - We may also obtain some information from third parties, for example, credit checks,
+    information from your employer, and searches of information in the public domain
+    such as the voters roll.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In such circumstances, we would be processing Your Personal Data in order to meet
+    a legal, compliance or other regulatory obligation to which we are subject.
+  - 'In the course of handling Your Personal Data, we will: Record and store Your
+    Personal Data in our paper files, mobile devices and on our computer systems (websites,
+    email, hard drives, and cloud facilities).'
+  - On occasion, we will use Your Personal Data for contractual responsibilities we
+    may owe our regulator, The Financial Conduct Authority (FCA), or for wider compliance
+    with any legal or regulatory obligation to which we might be subject.
+  - We will collect and record Your Personal Data from a variety of sources, but mainly
+    directly from you.
+  - Your Personal Data will be retained by us either electronically or in paper form
+    for a minimum period of 6 years following the service you receive from us, although
+    your data could be held for a longer period where this may be needed to meet the
+    requirements of our regulatory bodies.
+  - Your privacy is important to us and we will keep Your Personal Data secure in
+    accordance with our legal responsibilities.
+  purposes:
+    legal:
+    - for contractual responsibilities we may owe our regulator, The Financial Conduct
+      Authority (FCA), or for wider compliance with any legal or regulatory obligation
+      to which we might be subject
+    - in order to meet a legal, compliance or other regulatory obligation to which
+      we are subject
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'From time to time Your Personal Data will be shared with: Insurance providers
+    Third parties who we believe will be able to assist us with your enquiry or application,
+    or who are able to support your needs as identified.'
+  - 'In the course of handling Your Personal Data, we will: Record and store Your
+    Personal Data in our paper files, mobile devices and on our computer systems (websites,
+    email, hard drives, and cloud facilities).'
+  - This information can only be accessed by employees and consultants within our
+    firm and only when it is necessary to provide our service to you and to perform
+    any administration tasks associated with or incidental to that service.
+  purposes: {}
+- source: consultant
+  target: personal information
+  key: COLLECT
+  text:
+  - 'In the course of handling Your Personal Data, we will: Record and store Your
+    Personal Data in our paper files, mobile devices and on our computer systems (websites,
+    email, hard drives, and cloud facilities).'
+  - This information can only be accessed by employees and consultants within our
+    firm and only when it is necessary to provide our service to you and to perform
+    any administration tasks associated with or incidental to that service.
+  purposes: {}
+- source: employee
+  target: personal information
+  key: COLLECT
+  text:
+  - 'In the course of handling Your Personal Data, we will: Record and store Your
+    Personal Data in our paper files, mobile devices and on our computer systems (websites,
+    email, hard drives, and cloud facilities).'
+  - This information can only be accessed by employees and consultants within our
+    firm and only when it is necessary to provide our service to you and to perform
+    any administration tasks associated with or incidental to that service.
+  purposes: {}
+- source: insurance product provider
+  target: personal information
+  key: COLLECT
+  text:
+  - Submit Your Personal Data to Insurance Product providers both in paper form and
+    on-line via a secure portal.
+  purposes: {}
+- source: personal information
+  target: bank account detail
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: date of birth
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+  - Your Personal Data may identify you directly, for example your name, address,
+    date of birth, national insurance number.
+- source: personal information
+  target: detail of dependent
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: detail of treatment
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: document
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: employment history
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: employment information
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: family circumstance
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: gender
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: health status
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: history
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: loan
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: marital status
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: medical report
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: national insurance number
+  key: SUBSUM
+  text:
+  - Your Personal Data may identify you directly, for example your name, address,
+    date of birth, national insurance number.
+- source: personal information
+  target: nationality
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+  - Your Personal Data may identify you directly, for example your name, address,
+    date of birth, national insurance number.
+- source: personal information
+  target: personal credit history
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+  - Your Personal Data may identify you directly, for example your name, address,
+    date of birth, national insurance number.
+- source: personal information
+  target: source of income
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: tax information
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+- source: personal information
+  target: title
+  key: SUBSUM
+  text:
+  - 'In the context of providing you with assistance in relation to your insurance,
+    Your Personal Data may include: Title, name, date of birth, gender, nationality,
+    civil/marital status, contact details, addresses and documents that are necessary
+    to verify your identity Employment and remuneration information, (including salary/
+    bonus schemes/overtime/sick pay/other benefits), employment history Bank account
+    details, tax information, loans and credit commitments, personal credit history,
+    sources of income and expenditure, family circumstances and details of dependents
+    Health status and history, details of treatment and prognosis, medical reports
+    (further details are provided below specifically with regard to the processing
+    we may undertake in relation to this type of information) Any pre-existing insurance
+    products and the terms and conditions relating to these.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: consultant
+- type: ACTOR
+  id: employee
+- type: ACTOR
+  id: insurance product provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: bank account detail
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: detail of dependent
+- type: DATA
+  id: detail of treatment
+- type: DATA
+  id: document
+- type: DATA
+  id: employment history
+- type: DATA
+  id: employment information
+- type: DATA
+  id: family circumstance
+- type: DATA
+  id: gender
+- type: DATA
+  id: health status
+- type: DATA
+  id: history
+- type: DATA
+  id: information from employer
+- type: DATA
+  id: loan
+- type: DATA
+  id: marital status
+- type: DATA
+  id: medical report
+- type: DATA
+  id: national insurance number
+- type: DATA
+  id: nationality
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal credit history
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: source of income
+- type: DATA
+  id: tax information
+- type: DATA
+  id: title

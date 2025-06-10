@@ -1,0 +1,148 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Like many sites, we use "cookies" to collect information.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like many sites, we use "cookies" to collect information.
+  purposes: {}
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - Like many site operators, we collect information that your browser sends whenever
+    you use Products ("Log Data").
+  purposes: {}
+- source: we
+  target: log data
+  key: COLLECT
+  text:
+  - Like many site operators, we collect information that your browser sends whenever
+    you use Products ("Log Data").
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Products, we may ask you to provide us with certain personally
+    identifiable information (Personal Data) that can be used to contact or identify
+    you.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may use your Personal Data to contact you with newsletters, marketing or promotional
+    materials and other information.
+  - We will retain your Personal Data for the period necessary to fulfil the purposes
+    outlined in this Privacy Policy unless a longer retention period is required or
+    permitted by law.
+  - While using our Products, we may ask you to provide us with certain personally
+    identifiable information (Personal Data) that can be used to contact or identify
+    you.
+  purposes:
+    advertising:
+    - to contact you with newsletters, marketing or promotional materials and other
+      information
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with small amount of data, which may include an anonymous unique
+    identifier.
+- source: log data
+  target: browser type
+  key: SUBSUM
+  text:
+  - Like many site operators, we collect information that your browser sends whenever
+    you use Products ("Log Data").
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the time and date of your visit,
+    the time spent on using Products and other statistics.
+- source: log data
+  target: browser version
+  key: SUBSUM
+  text:
+  - Like many site operators, we collect information that your browser sends whenever
+    you use Products ("Log Data").
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the time and date of your visit,
+    the time spent on using Products and other statistics.
+- source: log data
+  target: ip address
+  key: SUBSUM
+  text:
+  - Like many site operators, we collect information that your browser sends whenever
+    you use Products ("Log Data").
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the time and date of your visit,
+    the time spent on using Products and other statistics.
+- source: log data
+  target: statistic
+  key: SUBSUM
+  text:
+  - Like many site operators, we collect information that your browser sends whenever
+    you use Products ("Log Data").
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the time and date of your visit,
+    the time spent on using Products and other statistics.
+- source: log data
+  target: time
+  key: SUBSUM
+  text:
+  - Like many site operators, we collect information that your browser sends whenever
+    you use Products ("Log Data").
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the time and date of your visit,
+    the time spent on using Products and other statistics.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Personally identifiable information may include, but is not limited to your name,
+    email, phone number.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - Personally identifiable information may include, but is not limited to your name,
+    email, phone number.
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log data
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: statistic
+- type: DATA
+  id: time

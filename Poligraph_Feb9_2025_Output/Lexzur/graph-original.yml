@@ -1,0 +1,181 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalized ads or
+    content, and analyze our traffic.'
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    analytics:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    services:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain and only use your Personal Data to the extent necessary to comply
+    with our legal obligations.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: customer datum
+  key: COLLECT
+  text:
+  - 'Lexzur may use Personal Data for the following purposes: To adhere to legal obligations:
+    Lexzur may disclose customer data to third parties and public authorities where
+    such disclosure is regulated by law e.g., to avoid loss of value, including in
+    connection with judgments, public authority orders, the customer''s bankruptcy,
+    death or the like.'
+  purposes:
+    legal:
+    - To adhere to legal obligations
+    - where such disclosure is regulated by law e.g., to avoid loss of value, including
+      in connection with judgments, public authority orders, the customer's bankruptcy,
+      death or the like
+- source: lexzur
+  target: bank grade tls bit encryption
+  key: COLLECT
+  text:
+  - Lexzur uses bank-grade TLS/SSL (Secure Sockets Layer) 256-bit encryption, which
+    protects the data in transit.
+  purposes: {}
+- source: lexzur
+  target: customer datum
+  key: COLLECT
+  text:
+  - 'Lexzur may use Personal Data for the following purposes: To adhere to legal obligations:
+    Lexzur may disclose customer data to third parties and public authorities where
+    such disclosure is regulated by law e.g., to avoid loss of value, including in
+    connection with judgments, public authority orders, the customer''s bankruptcy,
+    death or the like.'
+  purposes:
+    legal:
+    - To adhere to legal obligations
+    - where such disclosure is regulated by law e.g., to avoid loss of value, including
+      in connection with judgments, public authority orders, the customer's bankruptcy,
+      death or the like
+- source: lexzur
+  target: hosting choice
+  key: COLLECT
+  text:
+  - 'Built with data residency (and physical security) in mind
+
+
+    Lexzur provides hosting choices.'
+  purposes: {}
+- source: lexzur
+  target: password
+  key: COLLECT
+  text:
+  - Lexzur stores passwords using Bcrypt hashing with Salt and utilizes the password
+    strength guidelines to evaluate whether a new password is legitimate.
+  purposes: {}
+- source: lexzur
+  target: personal datum need for purpose set
+  key: COLLECT
+  text:
+  - Lexzur will only use your personal data needed for the purposes set out herein.
+  purposes: {}
+- source: lexzur
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Customize Consent Preferences
+
+
+    Security and Privacy
+
+
+    Use of personal data
+
+
+    Lexzur may use Personal Data for the following purposes:'
+  - Lexzur will retain your Personal Data only for as long as is necessary for the
+    purposes set out in this Privacy Policy.
+  purposes:
+    analytics:
+    - To provide and maintain our Service , including to monitor the usage of our
+      Service
+    legal:
+    - To adhere to legal obligations
+    - where such disclosure is regulated by law e.g., to avoid loss of value, including
+      in connection with judgments, public authority orders, the customer's bankruptcy,
+      death or the like
+    services:
+    - 'To contact you: regarding updates or informative communications related to
+      the functionalities, products or contracted services, including the security
+      updates, when necessary or reasonable for their implementation'
+    - To manage your Account
+    - To manage your requests
+    - To provide and maintain our Service , including to monitor the usage of our
+      Service
+    - to attend and manage your requests
+- source: public authority
+  target: customer datum
+  key: COLLECT
+  text:
+  - 'Lexzur may use Personal Data for the following purposes: To adhere to legal obligations:
+    Lexzur may disclose customer data to third parties and public authorities where
+    such disclosure is regulated by law e.g., to avoid loss of value, including in
+    connection with judgments, public authority orders, the customer''s bankruptcy,
+    death or the like.'
+  purposes:
+    legal:
+    - To adhere to legal obligations
+    - where such disclosure is regulated by law e.g., to avoid loss of value, including
+      in connection with judgments, public authority orders, the customer's bankruptcy,
+      death or the like
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: lexzur
+- type: ACTOR
+  id: public authority
+- type: ACTOR
+  id: we
+- type: DATA
+  id: bank grade tls bit encryption
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: hosting choice
+- type: DATA
+  id: password
+- type: DATA
+  id: personal datum need for purpose set
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information

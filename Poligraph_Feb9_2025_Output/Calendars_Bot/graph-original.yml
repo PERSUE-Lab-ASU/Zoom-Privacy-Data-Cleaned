@@ -1,0 +1,320 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - ': After the termination or deactivation of your services, we may, at our discretion
+    (but without any obligation), retain your information for archival purposes.'
+  - ': Despite anything to the contrary in this Policy, we may retain or disclose
+    your information if we believe it is reasonably necessary to comply with a law,
+    regulation, or legal request; to protect the safety of any individual; to address
+    fraud, security, or technical issues; or to safeguard our rights or property.'
+  - However, we may share your data with our service providers who process your personal
+    information to provide services on our behalf.
+  - 'POLICIES
+
+
+    Privacy Policy
+
+
+    3. How We Use Your Information'
+  - We acknowledge and respect that not all users may want us to share their information
+    with other users or companies.
+  - We retain your information only for the duration required to fulfill the purposes
+    outlined in this policy.
+  purposes:
+    analytics:
+    - for archival purposes
+    services:
+    - for API client purpose
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - Furthermore, we store contact information if you manually input email addresses
+    or import contact details from other online social networks.
+  purposes: {}
+- source: we
+  target: content of email
+  key: COLLECT
+  text:
+  - When you communicate with us via email, we may retain the content of your emails,
+    your email address, and our responses.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Information Collected by Cookies and Tracking Technologies :'
+  - 'When you use our Services, we automatically collect various types of information,
+    as detailed below:'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - Additionally, we may use your email address for sending other messages, such as
+    newsletters, updates on our features, new services, events, or other relevant
+    information.
+  - When you communicate with us via email, we may retain the content of your emails,
+    your email address, and our responses.
+  - You share information with us, including your full name and email address.
+  purposes: {}
+- source: we
+  target: general information about
+  key: COLLECT
+  text:
+  - We also gather general information about how you use our services.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'Location Information : With your consent, we may gather information about your
+    device''s location to enhance your user experience, provide location-based features
+    (e.g., local weather), and for other purposes.'
+  purposes:
+    services:
+    - to enhance your user experience, provide location-based features (e.g., local
+      weather), and for other purposes
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'Log Information : We log data about your website usage, including your browser
+    type and language, access times, pages visited, your IP address, and the website
+    you viewed before coming to ours.'
+  purposes: {}
+- source: we
+  target: login credential
+  key: COLLECT
+  text:
+  - We store your login credentials for authentication and collect necessary information
+    to enable access and functionality.
+  purposes:
+    security:
+    - for authentication
+    services:
+    - for authentication
+- source: we
+  target: necessary information
+  key: COLLECT
+  text:
+  - We store your login credentials for authentication and collect necessary information
+    to enable access and functionality.
+  purposes:
+    security:
+    - for authentication
+    services:
+    - for authentication
+    - to enable access and functionality
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - You share information with us, including your full name and email address.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may release personally identifiable information to unaffiliated third parties
+    when we believe such disclosure is necessary to comply with the law, enforce our
+    Terms and Conditions and other agreements, or protect the rights, property, or
+    safety of Trader Interactive, our users, or others.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - '3. How We Use Your Information : We utilize the personal information we collect
+    for various purposes, including fulfilling your service requests, enhancing our
+    services, reaching out to you, conducting research, and providing anonymous reports
+    for both internal and external stakeholders.'
+  - It also outlines how we utilize, share, and safeguard this information on the
+    website.
+  - Our Privacy Policy provides a comprehensive explanation of how we collect personal
+    information, categorizing it as either required or optional in the regular course
+    of our services.
+  purposes: {}
+- source: we
+  target: privacy
+  key: COLLECT
+  text:
+  - On www.automationsbuilder.com , safeguarding data is built on trust, and we hold
+    your privacy in high regard.
+  purposes: {}
+- source: we
+  target: response
+  key: COLLECT
+  text:
+  - When you communicate with us via email, we may retain the content of your emails,
+    your email address, and our responses.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Please note that the presence of a link to a website does not imply our endorsement,
+    authorization, or affiliation with that third party.
+  - These external websites may employ their own cookies or files on your computer,
+    gather data, or request personally identifiable information from you.
+  - We acknowledge and respect that not all users may want us to share their information
+    with other users or companies.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Please note that the presence of a link to a website does not imply our endorsement,
+    authorization, or affiliation with that third party.
+  - These external websites may employ their own cookies or files on your computer,
+    gather data, or request personally identifiable information from you.
+  - We may release personally identifiable information to unaffiliated third parties
+    when we believe such disclosure is necessary to comply with the law, enforce our
+    Terms and Conditions and other agreements, or protect the rights, property, or
+    safety of Trader Interactive, our users, or others.
+  purposes: {}
+- source: automations builder
+  target: information receive from youtube api
+  key: COLLECT
+  text:
+  - '3. How We Use Your Information : Automations Builder uses information received
+    from YouTube API for API client purpose which will adhere to YouTube Terms of
+    Service.'
+  purposes:
+    services:
+    - for API client purpose
+- source: service provider who process personal information
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, we may share your data with our service providers who process your personal
+    information to provide services on our behalf.
+  purposes: {}
+- source: internet activity
+  target: access time
+  key: SUBSUM
+  text:
+  - 'Log Information : We log data about your website usage, including your browser
+    type and language, access times, pages visited, your IP address, and the website
+    you viewed before coming to ours.'
+- source: internet activity
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'Log Information : We log data about your website usage, including your browser
+    type and language, access times, pages visited, your IP address, and the website
+    you viewed before coming to ours.'
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Log Information : We log data about your website usage, including your browser
+    type and language, access times, pages visited, your IP address, and the website
+    you viewed before coming to ours.'
+- source: internet activity
+  target: language
+  key: SUBSUM
+  text:
+  - 'Log Information : We log data about your website usage, including your browser
+    type and language, access times, pages visited, your IP address, and the website
+    you viewed before coming to ours.'
+- source: personal information
+  target: api key
+  key: SUBSUM
+  text:
+  - For third-party services that do not utilize the modern OAuth protocol, they rely
+    on either API keys or login credentials to authenticate and authorize communication
+    with their APIs.
+  - In such instances, we take measures to securely store these API keys or login
+    credentials and pledge not to employ this personal information for any purposes
+    beyond those for which you have initially supplied it.
+- source: personal information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - If you receive an unsolicited email that appears to be from us or one of our members
+    and it requests personal information such as credit card details, login credentials,
+    or passwords, or it asks you to confirm your account or other personal data by
+    clicking a link, it is likely that the email was sent by someone attempting to
+    unlawfully acquire your information, often referred to as a "phisher" or "spoofer."
+- source: personal information
+  target: login credential
+  key: SUBSUM
+  text:
+  - If you receive an unsolicited email that appears to be from us or one of our members
+    and it requests personal information such as credit card details, login credentials,
+    or passwords, or it asks you to confirm your account or other personal data by
+    clicking a link, it is likely that the email was sent by someone attempting to
+    unlawfully acquire your information, often referred to as a "phisher" or "spoofer."
+  - In such instances, we take measures to securely store these API keys or login
+    credentials and pledge not to employ this personal information for any purposes
+    beyond those for which you have initially supplied it.
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - If you receive an unsolicited email that appears to be from us or one of our members
+    and it requests personal information such as credit card details, login credentials,
+    or passwords, or it asks you to confirm your account or other personal data by
+    clicking a link, it is likely that the email was sent by someone attempting to
+    unlawfully acquire your information, often referred to as a "phisher" or "spoofer."
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: automations builder
+- type: ACTOR
+  id: service provider who process personal information
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: api key
+- type: DATA
+  id: browser type
+- type: DATA
+  id: contact information
+- type: DATA
+  id: content of email
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: email address
+- type: DATA
+  id: general information about
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information receive from youtube api
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language
+- type: DATA
+  id: login credential
+- type: DATA
+  id: necessary information
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: privacy
+- type: DATA
+  id: response

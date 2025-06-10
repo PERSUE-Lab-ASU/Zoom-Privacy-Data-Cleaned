@@ -1,0 +1,84 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We store the information at the request of your organization and use it solely
+    for your organization's business purposes.
+  purposes: {}
+- source: we
+  target: precede information concern privacy policy
+  key: COLLECT
+  text:
+  - We provide the preceding information concerning our privacy policy so that you
+    may visit our website without being concerned for your personal security.
+  purposes: {}
+- source: we
+  target: subscriber information
+  key: COLLECT
+  text:
+  - We store subscriber and personal information securely.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - 'This includes: Utilizing third-party providers to store credit card numbers'
+  purposes: {}
+- source: staff at trainery
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Staff at Trainery may also access this information to carry out administrative
+    tasks on behalf of your organization or to troubleshoot and resolve issues that
+    may arise.
+  - We store the information at the request of your organization and use it solely
+    for your organization's business purposes.
+  purposes:
+    services:
+    - to carry out administrative tasks on behalf of your organization or to troubleshoot
+      and resolve issues that may arise
+- source: identifier
+  target: descriptive information
+  key: SUBSUM
+  text:
+  - 'Privacy Statement
+
+
+    Personal Information Trainery may request your name, email address, other unique
+    identifiers such as an employee ID and/or other descriptive information when you
+    register as a new user.'
+- source: identifier
+  target: employee id
+  key: SUBSUM
+  text:
+  - 'Privacy Statement
+
+
+    Personal Information Trainery may request your name, email address, other unique
+    identifiers such as an employee ID and/or other descriptive information when you
+    register as a new user.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: staff at trainery
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: descriptive information
+- type: DATA
+  id: employee id
+- type: DATA
+  id: identifier
+- type: DATA
+  id: precede information concern privacy policy
+- type: DATA
+  id: subscriber information

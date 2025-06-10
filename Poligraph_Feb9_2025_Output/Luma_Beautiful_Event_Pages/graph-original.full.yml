@@ -1,0 +1,257 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Like many sites, we use "cookies" to collect information.
+  - We may need to request information from you to confirm your identity.
+  purposes:
+    security:
+    - to confirm your identity
+    services:
+    - to confirm your identity
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like many sites, we use "cookies" to collect information.
+  purposes: {}
+- source: we
+  target: different type of datum
+  key: COLLECT
+  text:
+  - We retain different types of data for different lengths depending on the type
+    of data and what it is used for.
+  purposes: {}
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - Like many site operators, we collect information that your browser sends whenever
+    you visit our Service ("Log Data").
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal data with third-parties to provide necessary services,
+    including: if you are the host of an event, we will share your personal data with
+    your guests;'
+  - 'We may share your personal data with third-parties to provide necessary services,
+    including: when you register for an event, we will share your personal data with
+    the event host; and'
+  - We retain your personal data in order to provide a consistent service.
+  - We use your Personal Information only for providing and improving the Service.
+  - We will retain your Personal Information for the period necessary to fulfill obligations
+    to the law.
+  purposes:
+    advertising:
+    - when you purchase ticket for an event, we will share relevant information with
+      Stripe, our payment processor
+    services:
+    - if you are the host of an event, we will share your personal data with your
+      guests
+    - in order to provide a consistent service
+    - 'to provide necessary services, including:'
+    - when you purchase ticket for an event, we will share relevant information with
+      Stripe, our payment processor
+    - when you register for an event, we will share your personal data with the event
+      host; and
+- source: we
+  target: relevant information
+  key: COLLECT
+  text:
+  - 'We may share your personal data with third-parties to provide necessary services,
+    including: when you purchase ticket for an event, we will share relevant information
+    with Stripe, our payment processor.'
+  purposes:
+    services:
+    - 'to provide necessary services, including:'
+- source: Stripe
+  target: relevant information
+  key: COLLECT
+  text:
+  - 'We may share your personal data with third-parties to provide necessary services,
+    including: when you purchase ticket for an event, we will share relevant information
+    with Stripe, our payment processor.'
+  purposes:
+    services:
+    - 'to provide necessary services, including:'
+- source: UNSPECIFIED_ACTOR
+  target: datum about you
+  key: COLLECT
+  text:
+  - Clicking on these links may allow those third parties to collect data about you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal data with third-parties to provide necessary services,
+    including:'
+  purposes:
+    advertising:
+    - when you purchase ticket for an event, we will share relevant information with
+      Stripe, our payment processor
+    services:
+    - if you are the host of an event, we will share your personal data with your
+      guests
+    - 'to provide necessary services, including:'
+    - when you purchase ticket for an event, we will share relevant information with
+      Stripe, our payment processor
+    - when you register for an event, we will share your personal data with the event
+      host; and
+- source: event host
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal data with third-parties to provide necessary services,
+    including: when you register for an event, we will share your personal data with
+    the event host; and'
+  purposes:
+    services:
+    - 'to provide necessary services, including:'
+- source: payment processor
+  target: relevant information
+  key: COLLECT
+  text:
+  - 'We may share your personal data with third-parties to provide necessary services,
+    including: when you purchase ticket for an event, we will share relevant information
+    with Stripe, our payment processor.'
+  purposes:
+    services:
+    - 'to provide necessary services, including:'
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with small amount of data, which may include an anonymous unique
+    identifier.
+- source: log datum
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Log Data'
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+- source: log datum
+  target: browser version
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Log Data'
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+- source: log datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Log Data'
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+- source: log datum
+  target: statistic
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Log Data'
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - Personally identifiable information may include, but is not limited to your name
+    and email address ("Personal Information").
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Personally identifiable information may include, but is not limited to your name
+    and email address ("Personal Information").
+- source: personal identifier
+  target: personal information
+  key: SUBSUM
+  text:
+  - Personally identifiable information may include, but is not limited to your name
+    and email address ("Personal Information").
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: event host
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: different type of datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: relevant information
+- type: DATA
+  id: statistic

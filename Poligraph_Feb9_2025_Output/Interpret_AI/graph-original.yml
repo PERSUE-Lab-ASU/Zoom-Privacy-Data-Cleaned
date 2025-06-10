@@ -1,0 +1,97 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may share information in the following cases:'
+  purposes: {}
+- source: we
+  target: collect information
+  key: COLLECT
+  text:
+  - 'We use the collected information for the following purposes:'
+  purposes: {}
+- source: we
+  target: device type
+  key: COLLECT
+  text:
+  - We may automatically collect certain information, including device type, model,
+    OS version, usage data, and analytics such as the amount of minutes used and timestamps
+    of transcriptions.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - To update users of any Privacy Policy changes, we will provide an email to the
+    users registered email upon Privacy Policy change.
+  - 'User Provided Information: When you use our services, we may collect your name
+    and email address to register your account.'
+  purposes:
+    services:
+    - To update users of any Privacy Policy changes
+    - to register your account
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may automatically collect certain information, including device type, model,
+    OS version, usage data, and analytics such as the amount of minutes used and timestamps
+    of transcriptions.
+  purposes: {}
+- source: we
+  target: model
+  key: COLLECT
+  text:
+  - We may automatically collect certain information, including device type, model,
+    OS version, usage data, and analytics such as the amount of minutes used and timestamps
+    of transcriptions.
+  purposes: {}
+- source: we
+  target: os version
+  key: COLLECT
+  text:
+  - We may automatically collect certain information, including device type, model,
+    OS version, usage data, and analytics such as the amount of minutes used and timestamps
+    of transcriptions.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'User Provided Information: When you use our services, we may collect your name
+    and email address to register your account.'
+  purposes:
+    services:
+    - to register your account
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy outlines how we collect, use, disclose, and safeguard your
+    personal information when you use our services on the web or mobile applications.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: collect information
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: model
+- type: DATA
+  id: os version
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information

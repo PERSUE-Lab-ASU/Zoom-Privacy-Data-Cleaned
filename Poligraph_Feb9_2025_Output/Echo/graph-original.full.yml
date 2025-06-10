@@ -1,0 +1,222 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Analyze usage trends: We use the information to analyze usage trends and improve
+    service reliability and user experience.'
+  - 'Ensure compliance: We use the information to ensure compliance with legal requirements
+    and protect against fraud or security risks.'
+  - 'However, we may share your data under the following circumstances: Business Transfers:
+    In the event of a merger, acquisition, or sale of company assets, your data may
+    be transferred as part of that transaction, subject to the same protections outlined
+    here.'
+  - 'However, we may share your data under the following circumstances: With Service
+    Providers: We may share your data with third-party service providers who assist
+    us in delivering Echo, such as cloud providers, analytics services, and other
+    technology partners.'
+  - 'Personalize your experience: We use the information to tailor the service to
+    your preferences.'
+  - 'Provide, maintain, and improve the functionality of Echo: We use the information
+    to ensure the functionality of Echo, including real-time note-taking, meeting
+    assistance, and other services.'
+  - This Privacy Policy explains how we collect, use, disclose, and safeguard your
+    information when you interact with our Zoom meeting companion service.
+  - 'We collect information in the following ways:'
+  - We may collect data from third-party services you integrate with Echo, such as
+    Zoom, to enhance your experience.
+  purposes:
+    analytics:
+    - to analyze usage trends and improve service reliability and user experience
+    legal:
+    - to ensure compliance with legal requirements and protect against fraud or security
+      risks
+    security:
+    - to ensure compliance with legal requirements and protect against fraud or security
+      risks
+    services:
+    - to analyze usage trends and improve service reliability and user experience
+    - to enhance your experience
+    - to ensure the functionality of Echo, including real-time note-taking, meeting
+      assistance, and other services
+    - to tailor the service to your preferences
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We use the information we collect to provide, maintain, and improve our services,
+    including adding AI bots to your meetings.
+  purposes:
+    services:
+    - to provide, maintain, and improve our services, including adding AI bots to
+      your meetings
+- source: we
+  target: information you provide
+  key: COLLECT
+  text:
+  - ': When you use Echo, we may collect information that you voluntarily provide,
+    such as meeting details, meeting URLs, and any content you share during meetings.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We retain personal information only for as long as necessary to fulfill the purposes
+    for which it was collected.
+  purposes: {}
+- source: we
+  target: technical datum
+  key: COLLECT
+  text:
+  - 'Automatic Data Collection: We may automatically collect technical data, such
+    as your IP address, device information, and metadata related to meeting interactions
+    (e.g., timestamps, participant details) to improve service performance.'
+  purposes:
+    services:
+    - to improve service performance
+- source: analytic provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may share your data under the following circumstances: With Service
+    Providers: We may share your data with third-party service providers who assist
+    us in delivering Echo, such as cloud providers, analytics services, and other
+    technology partners.'
+  purposes: {}
+- source: cloud provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may share your data under the following circumstances: With Service
+    Providers: We may share your data with third-party service providers who assist
+    us in delivering Echo, such as cloud providers, analytics services, and other
+    technology partners.'
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may share your data under the following circumstances: With Service
+    Providers: We may share your data with third-party service providers who assist
+    us in delivering Echo, such as cloud providers, analytics services, and other
+    technology partners.'
+  purposes: {}
+- source: technology partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may share your data under the following circumstances: With Service
+    Providers: We may share your data with third-party service providers who assist
+    us in delivering Echo, such as cloud providers, analytics services, and other
+    technology partners.'
+  purposes: {}
+- source: we
+  target: echo
+  key: SUBSUM
+  text:
+  - Welcome to Echo Meeting Companion ("Echo", "we", "our", "us).
+- source: we
+  target: echo meeting companion
+  key: SUBSUM
+  text:
+  - Welcome to Echo Meeting Companion ("Echo", "we", "our", "us).
+- source: functionality of echo
+  target: meeting assistance
+  key: SUBSUM
+  text:
+  - 'Provide, maintain, and improve the functionality of Echo: We use the information
+    to ensure the functionality of Echo, including real-time note-taking, meeting
+    assistance, and other services.'
+- source: information you provide
+  target: meeting detail
+  key: SUBSUM
+  text:
+  - ': When you use Echo, we may collect information that you voluntarily provide,
+    such as meeting details, meeting URLs, and any content you share during meetings.'
+- source: information you provide
+  target: meeting url
+  key: SUBSUM
+  text:
+  - ': When you use Echo, we may collect information that you voluntarily provide,
+    such as meeting details, meeting URLs, and any content you share during meetings.'
+- source: metadata relate to meeting interaction
+  target: participant detail
+  key: SUBSUM
+  text:
+  - 'Automatic Data Collection: We may automatically collect technical data, such
+    as your IP address, device information, and metadata related to meeting interactions
+    (e.g., timestamps, participant details) to improve service performance.'
+- source: metadata relate to meeting interaction
+  target: timestamp
+  key: SUBSUM
+  text:
+  - 'Automatic Data Collection: We may automatically collect technical data, such
+    as your IP address, device information, and metadata related to meeting interactions
+    (e.g., timestamps, participant details) to improve service performance.'
+- source: technical datum
+  target: device information
+  key: SUBSUM
+  text:
+  - 'Automatic Data Collection: We may automatically collect technical data, such
+    as your IP address, device information, and metadata related to meeting interactions
+    (e.g., timestamps, participant details) to improve service performance.'
+- source: technical datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Automatic Data Collection: We may automatically collect technical data, such
+    as your IP address, device information, and metadata related to meeting interactions
+    (e.g., timestamps, participant details) to improve service performance.'
+- source: technical datum
+  target: metadata relate to meeting interaction
+  key: SUBSUM
+  text:
+  - 'Automatic Data Collection: We may automatically collect technical data, such
+    as your IP address, device information, and metadata related to meeting interactions
+    (e.g., timestamps, participant details) to improve service performance.'
+nodes:
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: cloud provider
+- type: ACTOR
+  id: echo
+- type: ACTOR
+  id: echo meeting companion
+- type: ACTOR
+  id: functionality of echo
+- type: ACTOR
+  id: meeting assistance
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: technology partner
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: device information
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: ip address
+- type: DATA
+  id: meeting detail
+- type: DATA
+  id: meeting url
+- type: DATA
+  id: metadata relate to meeting interaction
+- type: DATA
+  id: participant detail
+- type: DATA
+  id: personal information
+- type: DATA
+  id: technical datum
+- type: DATA
+  id: timestamp

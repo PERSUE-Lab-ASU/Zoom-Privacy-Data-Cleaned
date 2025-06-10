@@ -1,0 +1,269 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Our values, terms, and conditions
+
+
+    In all other cases we will only transmit or disclose data to third parties if
+    mandated by statutory provisions or if the data subject has given his/her consent.'
+  - We shall process your request to access your information and provide this information
+    to you free of charge.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website uses cookies to improve your experience while you navigate through
+    the website.
+  - We also use third-party cookies that help us analyze and understand how you use
+    this website.
+  - We use cookies on our website to give you the most relevant experience by remembering
+    your preferences and repeat visits.
+  purposes:
+    services:
+    - to give you the most relevant experience by remembering your preferences and
+      repeat visits
+    - to improve your experience while you navigate through the website
+- source: we
+  target: datum about you
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you:'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: Information you give
+    us : You may give us information about you by completing enquiry forms on the
+    Website or by corresponding with us by phone, email or otherwise.'
+  purposes: {}
+- source: we
+  target: information we receive
+  key: COLLECT
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  purposes:
+    analytics:
+    - in order to provide general statistics of the usage of the community you are
+      part of to the program administrator to monitor the effectiveness of the program
+- source: we
+  target: information you give we
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: Information you give
+    us : You may give us information about you by completing enquiry forms on the
+    Website or by corresponding with us by phone, email or otherwise.'
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We will retain your IP Address (as through GCP Cloud Logging it's not possible
+    to delete log records using the API) and we will retain your personal data in
+    backups, for a maximum of 10 days (e.g. after 10 days the back-ups are deleted).
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We process personal information if
+    the processing is necessary to fulfill our obligations under any contract we have
+    entered into with you or with the organization of the program you are part of,
+    especially as it pertains to the services which are provided to you via the platform
+    (Article 6(1)(b) GDPR).We process personal information to send you newsletters
+    and email notifications of your activity in the platform, if you have consented
+    to us doing so (Article 6(1)(a) GDPR).'
+  - 'We process personal information for certain legitimate business purposes (according
+    to Article 6 (1) (f) GDPR), which include some or all of the following:'
+  - We will retain your IP Address (as through GCP Cloud Logging it's not possible
+    to delete log records using the API) and we will retain your personal data in
+    backups, for a maximum of 10 days (e.g. after 10 days the back-ups are deleted).
+  purposes:
+    services:
+    - for a maximum of 10 days
+- source: Amplitude
+  target: browser information
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google Analytics store this information on our behalf in
+    a pseudonymized user profile.
+  - This includes a device's IP address (processed during your session and stored
+    in a de-identified form), device screen size, device type (unique device identifiers),
+    browser information, geographic location (country only), and the preferred language
+    used to display our website.
+  purposes: {}
+- source: Amplitude
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: Amplitude
+  target: datum on behavior
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: Google
+  target: browser information
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google Analytics store this information on our behalf in
+    a pseudonymized user profile.
+  - This includes a device's IP address (processed during your session and stored
+    in a de-identified form), device screen size, device type (unique device identifiers),
+    browser information, geographic location (country only), and the preferred language
+    used to display our website.
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: Google
+  target: datum on behavior
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: Hotjar
+  target: browser information
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google Analytics store this information on our behalf in
+    a pseudonymized user profile.
+  - This includes a device's IP address (processed during your session and stored
+    in a de-identified form), device screen size, device type (unique device identifiers),
+    browser information, geographic location (country only), and the preferred language
+    used to display our website.
+  purposes: {}
+- source: Hotjar
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: Hotjar
+  target: datum on behavior
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Our values, terms, and conditions
+
+
+    In all other cases we will only transmit or disclose data to third parties if
+    mandated by statutory provisions or if the data subject has given his/her consent.'
+  purposes: {}
+- source: youtube
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The cookie ytidb::LAST_RESULT_ENTRY_KEY is used by YouTube to store the last search
+    result entry that was clicked by the user.
+  - The yt-player-headers-readable cookie is used by YouTube to store user preferences
+    related to video playback and interface, enhancing the user's viewing experience.
+  - The yt-remote-fast-check-period cookie is used by YouTube to store the user's
+    video player preferences for embedded YouTube videos.
+  - The yt-remote-session-app cookie is used by YouTube to store user preferences
+    and information about the interface of the embedded YouTube video player.
+  - The yt-remote-session-name cookie is used by YouTube to store the user's video
+    player preferences using embedded YouTube video.
+  purposes:
+    analytics:
+    - to store the last search result entry that was clicked by the user
+    - to store the user's video player preferences using embedded YouTube video
+    - to store user preferences and information about the interface of the embedded
+      YouTube video player
+    services:
+    - to store the last search result entry that was clicked by the user
+    - to store the user's video player preferences for embedded YouTube videos
+    - to store the user's video player preferences using embedded YouTube video
+    - to store user preferences and information about the interface of the embedded
+      YouTube video player
+    - to store user preferences related to video playback and interface, enhancing
+      the user's viewing experience
+- source: information you give we
+  target: email address
+  key: SUBSUM
+  text:
+  - The information you give us may include your name, email address, address / location,
+    interests, skills.
+- source: information you give we
+  target: geolocation
+  key: SUBSUM
+  text:
+  - The information you give us may include your name, email address, address / location,
+    interests, skills.
+- source: information you give we
+  target: person name
+  key: SUBSUM
+  text:
+  - The information you give us may include your name, email address, address / location,
+    interests, skills.
+nodes:
+- type: ACTOR
+  id: Amplitude
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Hotjar
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: youtube
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: datum on behavior
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information we receive
+- type: DATA
+  id: information you give we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information

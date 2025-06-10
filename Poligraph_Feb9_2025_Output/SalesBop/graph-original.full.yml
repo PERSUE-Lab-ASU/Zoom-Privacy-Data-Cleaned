@@ -1,0 +1,47 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: content
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Contents
+
+
+    12. Cookies and Similar Technologies'
+- source: content
+  target: data retention
+  key: SUBSUM
+  text:
+  - 'Contents
+
+
+    11. Data Retention'
+- source: content
+  target: information we collect
+  key: SUBSUM
+  text:
+  - 'Contents
+
+
+    4. Information We Collect'
+- source: content
+  target: international datum transfer
+  key: SUBSUM
+  text:
+  - 'Contents
+
+
+    9. International Data Transfers'
+nodes:
+- type: DATA
+  id: content
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: data retention
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: international datum transfer

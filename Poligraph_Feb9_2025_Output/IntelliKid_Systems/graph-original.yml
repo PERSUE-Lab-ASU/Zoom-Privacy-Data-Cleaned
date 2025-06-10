@@ -1,0 +1,216 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Customer acknowledges and agreements that Provider may obtain and aggregate technical
+    and other data about Customer's use of the Services, excluding any personally
+    identifiable information ("Anonymous Data").
+  - Provider may use aggregate information derived from Personal Data for internal
+    business purposes, in accordance with these Terms.
+  - Such Anonymous Data shall be retained by Provider, during the period during which
+    Customer's has access to the Services, and after in perpetuity, for Provider's
+    use, including, without limitation, to analyze, support, operate, and improve
+    the Services, for research purposes, and for any business purposes, including,
+    without limitation, product and development.
+  purposes:
+    legal:
+    - for internal business purposes
+- source: UNSPECIFIED_ACTOR
+  target: commercial information
+  key: COLLECT
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Provider may sale or share information obtained through cookies and tracking technologies
+    to extent the same constitutes a "sale" under the CCPA/CPRA.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: customer data
+  key: COLLECT
+  text:
+  - Provider shall retain and use Customer Data, including, without limitation, Customer
+    Data obtained through third-parties, during the period necessary to implement,
+    administer, and furnish the Services and as required to comply with any and all
+    legal or regulatory obligations.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: identifier
+  key: COLLECT
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Provider may collect personally identifiable information ("Personal Data") about
+    Customer's staff, clients, prospects, and other individuals which information
+    is provided within Customer Data and through other voluntarily submitted data
+    received by Provider from Customer.
+  - Provider will not share or distribute personally identifiable information with
+    any third parties without the written consent of Customer and will not enter into
+    agreements that allow third-parties to collect personally identifiable information
+    directly through the Services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+  - Provider also collects Personal Data from correspondence with Customer, phone
+    conversations with Customer, or those recorded via the Services between Customer
+    and third-parties, through electronic means, such as "cookies" and other Website
+    usage tracking data.
+  - Provider may collect personally identifiable information ("Personal Data") about
+    Customer's staff, clients, prospects, and other individuals which information
+    is provided within Customer Data and through other voluntarily submitted data
+    received by Provider from Customer.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: sole control over operation of website
+  key: COLLECT
+  text:
+  - Customer acknowledges that Provider has and retains sole control over the operation,
+    provision, maintenance, and management of the Website and the Services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: technical datum about use of services
+  key: COLLECT
+  text:
+  - Customer acknowledges and agreements that Provider may obtain and aggregate technical
+    and other data about Customer's use of the Services, excluding any personally
+    identifiable information ("Anonymous Data").
+  purposes: {}
+- source: customer
+  target: access credentials
+  key: COLLECT
+  text:
+  - To access the Services, Customer may be asked to provide certain registration
+    details or other information, including without limitation, usernames and passwords
+    required for security procedures ("Access Credentials").
+  purposes:
+    services:
+    - To access the Services
+- source: customer
+  target: password
+  key: COLLECT
+  text:
+  - To access the Services, Customer may be asked to provide certain registration
+    details or other information, including without limitation, usernames and passwords
+    required for security procedures ("Access Credentials").
+  purposes:
+    services:
+    - To access the Services
+- source: customer
+  target: registration detail
+  key: COLLECT
+  text:
+  - To access the Services, Customer may be asked to provide certain registration
+    details or other information, including without limitation, usernames and passwords
+    required for security procedures ("Access Credentials").
+  purposes:
+    services:
+    - To access the Services
+- source: customer
+  target: username
+  key: COLLECT
+  text:
+  - To access the Services, Customer may be asked to provide certain registration
+    details or other information, including without limitation, usernames and passwords
+    required for security procedures ("Access Credentials").
+  purposes:
+    services:
+    - To access the Services
+- source: customer data
+  target: customer data obtain through third party
+  key: SUBSUM
+  text:
+  - Provider shall retain and use Customer Data, including, without limitation, Customer
+    Data obtained through third-parties, during the period necessary to implement,
+    administer, and furnish the Services and as required to comply with any and all
+    legal or regulatory obligations.
+- source: personal information
+  target: commercial information
+  key: SUBSUM
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+- source: personal information
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+- source: personal information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: customer
+- type: DATA
+  id: access credentials
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: commercial information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer data
+- type: DATA
+  id: customer data obtain through third party
+- type: DATA
+  id: identifier
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: password
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: registration detail
+- type: DATA
+  id: sole control over operation of website
+- type: DATA
+  id: technical datum about use of services
+- type: DATA
+  id: username

@@ -1,0 +1,136 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also collect similar information from emails sent to you which then help
+    us track which emails are opened and which links are clicked by recipients.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'To improve your overall experience with the Services, we may use cookies, device
+    identifiers, and similar technologies such as pixels, web beacons, and local storage
+    for the following purposes: to improve the functionality of the Services, to remember
+    your online preferences within the Services, and to help us better understand
+    how you interact with the Services.'
+  purposes:
+    analytics:
+    - 'for the following purposes: to improve the functionality of the Services, to
+      remember your online preferences within the Services, and to help us better
+      understand how you interact with the Services'
+    services:
+    - To improve your overall experience with the Services
+    - 'for the following purposes: to improve the functionality of the Services, to
+      remember your online preferences within the Services, and to help us better
+      understand how you interact with the Services'
+- source: we
+  target: device identifier
+  key: COLLECT
+  text:
+  - 'To improve your overall experience with the Services, we may use cookies, device
+    identifiers, and similar technologies such as pixels, web beacons, and local storage
+    for the following purposes: to improve the functionality of the Services, to remember
+    your online preferences within the Services, and to help us better understand
+    how you interact with the Services.'
+  purposes:
+    analytics:
+    - 'for the following purposes: to improve the functionality of the Services, to
+      remember your online preferences within the Services, and to help us better
+      understand how you interact with the Services'
+    services:
+    - To improve your overall experience with the Services
+    - 'for the following purposes: to improve the functionality of the Services, to
+      remember your online preferences within the Services, and to help us better
+      understand how you interact with the Services'
+- source: we
+  target: information on
+  key: COLLECT
+  text:
+  - We provide information on how to do that below.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - When you use the Services, our servers and systems automatically record information,
+    including your Internet Protocol address (
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We use or in the future may potentially use Personal Information for the following
+    purposes:'
+  - Remember, though, that even if you request deletion of your Personal Information,
+    we may keep certain Personal Information for a time after your deletion request
+    to comply with legal or recordkeeping requirements.
+  - 'To support your use of the Services, we may request you provide certain types
+    of Personal Information, specifically, to use our SaaS platform, we may request
+    you provide us the following Personal Information:'
+  - We may disclose Personal Information at the request of law enforcement or government
+    agencies; in response to subpoenas, court orders, or other legal processes; to
+    establish, protect, or exercise our rights; to defend against a legal claim; to
+    protect the rights, property, or safety of any other person; or as otherwise required
+    by law.
+  - 'We may share your Personal Information in the following circumstances:'
+  - We retain Personal Information for as long as useful or permitted to further the
+    purposes of collection.
+  purposes:
+    legal:
+    - to comply with legal or recordkeeping requirements
+- source: system
+  target: ip address
+  key: COLLECT
+  text:
+  - When you use the Services, our servers and systems automatically record information,
+    including your Internet Protocol address (
+  purposes: {}
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Examples of Personal Information include, among others, name, email address, and
+    online identifier.
+- source: personal information
+  target: online identifier
+  key: SUBSUM
+  text:
+  - Examples of Personal Information include, among others, name, email address, and
+    online identifier.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Examples of Personal Information include, among others, name, email address, and
+    online identifier.
+nodes:
+- type: ACTOR
+  id: system
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: information on
+- type: DATA
+  id: ip address
+- type: DATA
+  id: online identifier
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information

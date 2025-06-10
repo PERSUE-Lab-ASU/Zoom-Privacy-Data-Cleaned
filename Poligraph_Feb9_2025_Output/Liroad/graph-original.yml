@@ -1,0 +1,137 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Compliance with legal obligations: We may disclose your information if necessary
+    to comply with a legal obligation or protect our legalrights.'
+  - 'Provide and improve our service: We use your information to operate and maintain
+    our services, including personalizing your experience.'
+  - This privacy policy outlines how we collect, use, share, and protect your information
+    when you use our services, including those utilizing GoogleAPIs.
+  - 'With your consent: We will only share your information with third parties if
+    you have explicitly given us your consent.'
+  purposes:
+    legal:
+    - to comply with a legal obligation or protect our legalrights
+    services:
+    - to operate and maintain our services, including personalizing your experience
+- source: we
+  target: identifying information
+  key: COLLECT
+  text:
+  - When you sign up for our service or access it through third-party services (e.g.,
+    Google), we may collect identifying information such as your name, email address,
+    and other details necessary for creating your account.
+  purposes: {}
+- source: we
+  target: information about interaction with service
+  key: COLLECT
+  text:
+  - We may collect information about your interactions with our services, such as
+    your IP address, browser type, pages visited, time spent on pages, and other statistics.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We retain your personal information only for as long as necessary to provide our
+    services and fulfill our legal obligations.
+  purposes: {}
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'With Google services: If our application uses Google APIs,some information may
+    be shared with Google in accordance with their terms of service and privacy policies.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'With your consent: We will only share your information with third parties if
+    you have explicitly given us your consent.'
+  purposes: {}
+- source: we
+  target: Google
+  key: SUBSUM
+  text:
+  - This privacy policy outlines how we collect, use, share, and protect your information
+    when you use our services, including those utilizing GoogleAPIs.
+- source: identifying information
+  target: detail necessary
+  key: SUBSUM
+  text:
+  - When you sign up for our service or access it through third-party services (e.g.,
+    Google), we may collect identifying information such as your name, email address,
+    and other details necessary for creating your account.
+- source: identifying information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you sign up for our service or access it through third-party services (e.g.,
+    Google), we may collect identifying information such as your name, email address,
+    and other details necessary for creating your account.
+- source: identifying information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you sign up for our service or access it through third-party services (e.g.,
+    Google), we may collect identifying information such as your name, email address,
+    and other details necessary for creating your account.
+- source: information about interaction with service
+  target: browser type
+  key: SUBSUM
+  text:
+  - We may collect information about your interactions with our services, such as
+    your IP address, browser type, pages visited, time spent on pages, and other statistics.
+- source: information about interaction with service
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may collect information about your interactions with our services, such as
+    your IP address, browser type, pages visited, time spent on pages, and other statistics.
+- source: information about interaction with service
+  target: statistic
+  key: SUBSUM
+  text:
+  - We may collect information about your interactions with our services, such as
+    your IP address, browser type, pages visited, time spent on pages, and other statistics.
+- source: information about interaction with service
+  target: time spend on page
+  key: SUBSUM
+  text:
+  - We may collect information about your interactions with our services, such as
+    your IP address, browser type, pages visited, time spent on pages, and other statistics.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: detail necessary
+- type: DATA
+  id: email address
+- type: DATA
+  id: identifying information
+- type: DATA
+  id: information about interaction with service
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistic
+- type: DATA
+  id: time spend on page

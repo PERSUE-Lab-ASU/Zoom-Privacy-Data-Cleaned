@@ -1,0 +1,61 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: boinx employees
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'mimoLive
+
+
+    Ask questions, suggest features, share your examples, schmooze with Boinx Employees
+    and hang out with your peers.'
+  purposes: {}
+- source: mimolive
+  target: News
+  key: SUBSUM
+  text:
+  - 'mimoLive
+
+
+    Latest News'
+- source: mimolive
+  target: forum
+  key: SUBSUM
+  text:
+  - 'mimoLive
+
+
+    Forum'
+- source: mimolive
+  target: newsletter
+  key: SUBSUM
+  text:
+  - 'mimoLive
+
+
+    Newsletter'
+- source: mimolive
+  target: tech support
+  key: SUBSUM
+  text:
+  - 'mimoLive
+
+
+    Tech Support'
+nodes:
+- type: ACTOR
+  id: News
+- type: ACTOR
+  id: boinx employees
+- type: ACTOR
+  id: forum
+- type: ACTOR
+  id: mimolive
+- type: ACTOR
+  id: newsletter
+- type: ACTOR
+  id: tech support
+- type: DATA
+  id: UNSPECIFIED_DATA

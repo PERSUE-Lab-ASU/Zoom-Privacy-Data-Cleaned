@@ -1,0 +1,276 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - At Power Hour Game, we collect various types of information to provide you with
+    a seamless and personalized experience.
+  - 'Privacy Policy
+
+
+    2. No, we may only collect the information in the following categories.'
+  - We and third-party partners collect information using cookies, pixel tags, or
+    similar technologies.
+  purposes:
+    services:
+    - to provide you with a seamless and personalized experience
+- source: we
+  target: call
+  key: COLLECT
+  text:
+  - By using Power Hour Game, you understand that your call may be recorded, and you
+    agree to allow us to monitor and/or record your call.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use both session cookies and persistent cookies.
+  purposes: {}
+- source: we
+  target: datum relate to zoom meeting
+  key: COLLECT
+  text:
+  - During this integration, we collect data related to your Zoom meetings, such as
+    meeting details and participant information.
+  purposes: {}
+- source: we
+  target: essential information
+  key: COLLECT
+  text:
+  - When you register for Power Hour Game, we collect essential information to create
+    and manage your user account.
+  purposes:
+    services:
+    - to create and manage your user account
+- source: we
+  target: information about transaction
+  key: COLLECT
+  text:
+  - When you purchase our Power Hour Game's services, we collect information about
+    the transaction, such as Service details, purchase price, and the date of the
+    transaction.
+  purposes: {}
+- source: we
+  target: minimum necessary information require for integration
+  key: COLLECT
+  text:
+  - Rest assured, we only share the minimum necessary information required for the
+    integration and strictly adhere to Zoom's privacy and security protocols.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Otherwise, we will retain your personal information, subject to the "Data Retention"
+    Section above, but we will take measures to pseudonymize or anonymize it.
+  - We may share your personal information by disclosing it to a third party for a
+    business purpose.
+  - We will only retain personal information for a period of time consistent with
+    the original purposes for which we collected it, as described in this Privacy
+    Policy, including, as applicable, (i) for as long as we have an ongoing relationship
+    with the individual to whom the information pertains; (ii) as long as needed to
+    provide users, our customers, or our partners the services; (iii) as necessary
+    to comply with our legal obligations; (iv) as necessary to resolve disputes or
+    to protect ourselves from potential future disputes; or (v) as necessary to enforce
+    our agreements.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We and third-party partners collect information using cookies, pixel tags, or
+    similar technologies.
+  purposes: {}
+- source: advertiser
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - Our third-party partners, such as analytics and advertising partners, may use
+    these technologies to collect information about your online activities over time
+    and across different services.
+  purposes: {}
+- source: advertiser
+  target: internet activity
+  key: COLLECT
+  text:
+  - Our third-party partners, such as analytics and advertising partners, may use
+    these technologies to collect information about your online activities over time
+    and across different services.
+  purposes: {}
+- source: analytic provider
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - Our third-party partners, such as analytics and advertising partners, may use
+    these technologies to collect information about your online activities over time
+    and across different services.
+  purposes: {}
+- source: analytic provider
+  target: internet activity
+  key: COLLECT
+  text:
+  - Our third-party partners, such as analytics and advertising partners, may use
+    these technologies to collect information about your online activities over time
+    and across different services.
+  purposes: {}
+- source: credit card processor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These service providers may have access to your information solely for the purpose
+    of performing tasks on our behalf, such as hosting, data analysis, and customer
+    support.
+  - We may engage trusted third-party service providers (such as its credit card processors,
+    learning management systems, support services, and hosting partners) to assist
+    us in delivering and maintaining Power Hour Game services.
+  purposes:
+    analytics:
+    - solely for the purpose of performing tasks on our behalf, such as hosting, data
+      analysis, and customer support
+    services:
+    - solely for the purpose of performing tasks on our behalf, such as hosting, data
+      analysis, and customer support
+- source: hosting partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These service providers may have access to your information solely for the purpose
+    of performing tasks on our behalf, such as hosting, data analysis, and customer
+    support.
+  - We may engage trusted third-party service providers (such as its credit card processors,
+    learning management systems, support services, and hosting partners) to assist
+    us in delivering and maintaining Power Hour Game services.
+  purposes:
+    analytics:
+    - solely for the purpose of performing tasks on our behalf, such as hosting, data
+      analysis, and customer support
+    services:
+    - solely for the purpose of performing tasks on our behalf, such as hosting, data
+      analysis, and customer support
+- source: learning management system
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These service providers may have access to your information solely for the purpose
+    of performing tasks on our behalf, such as hosting, data analysis, and customer
+    support.
+  - We may engage trusted third-party service providers (such as its credit card processors,
+    learning management systems, support services, and hosting partners) to assist
+    us in delivering and maintaining Power Hour Game services.
+  purposes:
+    analytics:
+    - solely for the purpose of performing tasks on our behalf, such as hosting, data
+      analysis, and customer support
+    services:
+    - solely for the purpose of performing tasks on our behalf, such as hosting, data
+      analysis, and customer support
+- source: support service
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These service providers may have access to your information solely for the purpose
+    of performing tasks on our behalf, such as hosting, data analysis, and customer
+    support.
+  - We may engage trusted third-party service providers (such as its credit card processors,
+    learning management systems, support services, and hosting partners) to assist
+    us in delivering and maintaining Power Hour Game services.
+  purposes:
+    analytics:
+    - solely for the purpose of performing tasks on our behalf, such as hosting, data
+      analysis, and customer support
+    services:
+    - solely for the purpose of performing tasks on our behalf, such as hosting, data
+      analysis, and customer support
+- source: zoom
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - As part of the integration between Power Hour Game and the Zoom platform, certain
+    information may be shared with Zoom.
+  purposes: {}
+- source: datum relate to zoom meeting
+  target: meeting detail
+  key: SUBSUM
+  text:
+  - During this integration, we collect data related to your Zoom meetings, such as
+    meeting details and participant information.
+- source: datum relate to zoom meeting
+  target: participant information
+  key: SUBSUM
+  text:
+  - During this integration, we collect data related to your Zoom meetings, such as
+    meeting details and participant information.
+- source: information about transaction
+  target: date of transaction
+  key: SUBSUM
+  text:
+  - When you purchase our Power Hour Game's services, we collect information about
+    the transaction, such as Service details, purchase price, and the date of the
+    transaction.
+- source: information about transaction
+  target: purchase price
+  key: SUBSUM
+  text:
+  - When you purchase our Power Hour Game's services, we collect information about
+    the transaction, such as Service details, purchase price, and the date of the
+    transaction.
+- source: information about transaction
+  target: service detail
+  key: SUBSUM
+  text:
+  - When you purchase our Power Hour Game's services, we collect information about
+    the transaction, such as Service details, purchase price, and the date of the
+    transaction.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: credit card processor
+- type: ACTOR
+  id: hosting partner
+- type: ACTOR
+  id: learning management system
+- type: ACTOR
+  id: support service
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: call
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date of transaction
+- type: DATA
+  id: datum relate to zoom meeting
+- type: DATA
+  id: essential information
+- type: DATA
+  id: information about transaction
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: meeting detail
+- type: DATA
+  id: minimum necessary information require for integration
+- type: DATA
+  id: participant information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: purchase price
+- type: DATA
+  id: service detail

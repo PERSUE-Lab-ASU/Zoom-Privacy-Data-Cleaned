@@ -1,0 +1,327 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you respond voluntarily to our surveys or other interactive communications,
+    we collect the responses and use the information to improve the quality and range
+    of Services.
+  purposes:
+    services:
+    - to improve the quality and range of Services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may, for statistical, security or quality purposes, use cookies and other online
+    usage tracking tools to perform and improve our Services.
+  purposes:
+    security:
+    - for statistical, security or quality purposes
+    services:
+    - for statistical, security or quality purposes
+    - to perform and improve our Services
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We transfer information about you if Nabooki is acquired by or merged with another
+    company.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We also use your Personal Information in the following ways:'
+  - We collect and use your Personal Information to operate our websites and deliver
+    our Services to you.
+  - We will also use your Personal Information to provide you with sales, technical
+    and account management support, notify you of product upgrades and important product
+    information.
+  - We will retain your Personal Information for as long as needed or permitted in
+    light of the purposes for which it was obtained and consistent with applicable
+    law.
+  - When you use our Services or make an online enquiry, we request Personal Information
+    from you.
+  purposes:
+    advertising:
+    - to enable both us and the third party provider of services for which you utilise
+      the booking to engage in direct marketing purposes
+    security:
+    - to confirm your identity; and
+    services:
+    - to confirm your identity; and
+    - to enable both us and the third party provider of services for which you utilise
+      the booking to engage in direct marketing purposes
+    - to operate our websites and deliver our Services to you
+    - to provide you with sales, technical and account management support, notify
+      you of product upgrades and important product information
+- source: we
+  target: personal information of individual with whom user interact
+  key: COLLECT
+  text:
+  - Any information that is submitted to or collected by Users of Services, Users
+    of our Services are solely responsible for establishing policies for and ensuring
+    compliance with all applicable laws and regulations, as well as all privacy policies,
+    relating to the collection of personal information of individuals with whom our
+    Users interact.
+  - We collect this information under the direction of our Users, and have no direct
+    relationship with individuals whose personal information we process in connection
+    with the use of our Services.
+  purposes: {}
+- source: we
+  target: relevant personal information
+  key: COLLECT
+  text:
+  - If you have opted to use Nabooki Services integrated into one or more partner
+    websites or platforms, such as for example e-commerce marketplaces, daily deal
+    websites, directories, review sites, franchise groups etc ("Partner Platform")
+    or if your account within Nabooki has been originated from a partner or affiliate
+    that enabled or authorised the registration of your account, or your use of the
+    Services is predominately connected with your use of the Partner Platform, we
+    provide the relevant Personal Information to such Partner Platform.
+  purposes: {}
+- source: we
+  target: request
+  key: COLLECT
+  text:
+  - We will process your request within 30 days of receiving your request, accompanied
+    by a relevant proof of identification.
+  purposes: {}
+- source: we
+  target: response
+  key: COLLECT
+  text:
+  - If you respond voluntarily to our surveys or other interactive communications,
+    we collect the responses and use the information to improve the quality and range
+    of Services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These companies may use your personal information to provide their service and
+    communicate with you.
+  purposes:
+    services:
+    - to provide their service and communicate with you
+- source: nabooki
+  target: information about consumer
+  key: COLLECT
+  text:
+  - Nabooki collects and stores information about consumers and their transactions,
+    including information about their identity, details of the bookings they have
+    made and purchase history.
+  purposes: {}
+- source: nabooki
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Nabooki collects various non-personally identifying information, such as for example
+    the number of visitors coming to the website, geolocation data with your permission,
+    cookie-related data as described below, online identifiers (e.g. IP address, device
+    IDs) etc.
+  purposes: {}
+- source: partner platform
+  target: relevant personal information
+  key: COLLECT
+  text:
+  - If you have opted to use Nabooki Services integrated into one or more partner
+    websites or platforms, such as for example e-commerce marketplaces, daily deal
+    websites, directories, review sites, franchise groups etc ("Partner Platform")
+    or if your account within Nabooki has been originated from a partner or affiliate
+    that enabled or authorised the registration of your account, or your use of the
+    Services is predominately connected with your use of the Partner Platform, we
+    provide the relevant Personal Information to such Partner Platform.
+  purposes: {}
+- source: information about consumer
+  target: identity
+  key: SUBSUM
+  text:
+  - Nabooki collects and stores information about consumers and their transactions,
+    including information about their identity, details of the bookings they have
+    made and purchase history.
+- source: information about consumer
+  target: purchase history
+  key: SUBSUM
+  text:
+  - Nabooki collects and stores information about consumers and their transactions,
+    including information about their identity, details of the bookings they have
+    made and purchase history.
+- source: non-personal information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Nabooki collects various non-personally identifying information, such as for example
+    the number of visitors coming to the website, geolocation data with your permission,
+    cookie-related data as described below, online identifiers (e.g. IP address, device
+    IDs) etc.
+- source: non-personal information
+  target: for number of visitor come to website
+  key: SUBSUM
+  text:
+  - Nabooki collects various non-personally identifying information, such as for example
+    the number of visitors coming to the website, geolocation data with your permission,
+    cookie-related data as described below, online identifiers (e.g. IP address, device
+    IDs) etc.
+- source: non-personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Nabooki collects various non-personally identifying information, such as for example
+    the number of visitors coming to the website, geolocation data with your permission,
+    cookie-related data as described below, online identifiers (e.g. IP address, device
+    IDs) etc.
+- source: non-personal information
+  target: online identifier
+  key: SUBSUM
+  text:
+  - Nabooki collects various non-personally identifying information, such as for example
+    the number of visitors coming to the website, geolocation data with your permission,
+    cookie-related data as described below, online identifiers (e.g. IP address, device
+    IDs) etc.
+- source: online identifier
+  target: device identifier
+  key: SUBSUM
+  text:
+  - Nabooki collects various non-personally identifying information, such as for example
+    the number of visitors coming to the website, geolocation data with your permission,
+    cookie-related data as described below, online identifiers (e.g. IP address, device
+    IDs) etc.
+- source: online identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - Nabooki collects various non-personally identifying information, such as for example
+    the number of visitors coming to the website, geolocation data with your permission,
+    cookie-related data as described below, online identifiers (e.g. IP address, device
+    IDs) etc.
+- source: personal information
+  target: consumer information add
+  key: SUBSUM
+  text:
+  - 'There are five categories of Personal Information that we collect: Consumer information
+    added by Users.'
+- source: personal information
+  target: information provide
+  key: SUBSUM
+  text:
+  - 'There are five categories of Personal Information that we collect: Information
+    provided by consumers when they make or manage bookings.'
+- source: personal information
+  target: non-personal information
+  key: SUBSUM
+  text:
+  - 'There are five categories of Personal Information that we collect: Non-personally
+    identifying information.'
+- source: personal information
+  target: user information
+  key: SUBSUM
+  text:
+  - 'There are five categories of Personal Information that we collect: User information.'
+- source: platform
+  target: daily deal website
+  key: SUBSUM
+  text:
+  - If you have opted to use Nabooki Services integrated into one or more partner
+    websites or platforms, such as for example e-commerce marketplaces, daily deal
+    websites, directories, review sites, franchise groups etc ("Partner Platform")
+    or if your account within Nabooki has been originated from a partner or affiliate
+    that enabled or authorised the registration of your account, or your use of the
+    Services is predominately connected with your use of the Partner Platform, we
+    provide the relevant Personal Information to such Partner Platform.
+- source: platform
+  target: directory
+  key: SUBSUM
+  text:
+  - If you have opted to use Nabooki Services integrated into one or more partner
+    websites or platforms, such as for example e-commerce marketplaces, daily deal
+    websites, directories, review sites, franchise groups etc ("Partner Platform")
+    or if your account within Nabooki has been originated from a partner or affiliate
+    that enabled or authorised the registration of your account, or your use of the
+    Services is predominately connected with your use of the Partner Platform, we
+    provide the relevant Personal Information to such Partner Platform.
+- source: platform
+  target: franchise group
+  key: SUBSUM
+  text:
+  - If you have opted to use Nabooki Services integrated into one or more partner
+    websites or platforms, such as for example e-commerce marketplaces, daily deal
+    websites, directories, review sites, franchise groups etc ("Partner Platform")
+    or if your account within Nabooki has been originated from a partner or affiliate
+    that enabled or authorised the registration of your account, or your use of the
+    Services is predominately connected with your use of the Partner Platform, we
+    provide the relevant Personal Information to such Partner Platform.
+- source: platform
+  target: review site
+  key: SUBSUM
+  text:
+  - If you have opted to use Nabooki Services integrated into one or more partner
+    websites or platforms, such as for example e-commerce marketplaces, daily deal
+    websites, directories, review sites, franchise groups etc ("Partner Platform")
+    or if your account within Nabooki has been originated from a partner or affiliate
+    that enabled or authorised the registration of your account, or your use of the
+    Services is predominately connected with your use of the Partner Platform, we
+    provide the relevant Personal Information to such Partner Platform.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: daily deal website
+- type: ACTOR
+  id: directory
+- type: ACTOR
+  id: franchise group
+- type: ACTOR
+  id: nabooki
+- type: ACTOR
+  id: partner platform
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: review site
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: consumer information add
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: for number of visitor come to website
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identity
+- type: DATA
+  id: information about consumer
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information provide
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: online identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information of individual with whom user interact
+- type: DATA
+  id: purchase history
+- type: DATA
+  id: relevant personal information
+- type: DATA
+  id: request
+- type: DATA
+  id: response
+- type: DATA
+  id: user information

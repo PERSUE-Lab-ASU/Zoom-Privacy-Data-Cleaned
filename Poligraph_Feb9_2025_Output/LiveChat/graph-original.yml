@@ -1,0 +1,87 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'In this policy, we lay out: what data we collect and why; how your data is handled;
+    and your rights to your data.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We do use persistent first-party cookies to store certain preferences, make it
+    easier for you to use our applications, and support some in-house analytics.
+  purposes:
+    analytics:
+    - to store certain preferences, make it easier for you to use our applications,
+      and support some in-house analytics
+    services:
+    - to store certain preferences, make it easier for you to use our applications,
+      and support some in-house analytics
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - When you install an app developed by SKlabs Software Ltd, we store your email
+    address to identify you as a customer.
+  purposes:
+    services:
+    - to identify you as a customer
+- source: we
+  target: information you volunteer
+  key: COLLECT
+  text:
+  - We also store any information you volunteer like surveys.
+  purposes: {}
+- source: we
+  target: voluntary correspondence
+  key: COLLECT
+  text:
+  - Voluntary correspondence
+  - When you write SKlabs Software Ltd with a question or to ask for help, we keep
+    that correspondence, including the email address, so that we have a history of
+    past correspondences to reference if you reach out in the future.
+  purposes: {}
+- source: browser
+  target: information as
+  key: COLLECT
+  text:
+  - 'What we collect and why
+
+
+    Website interactions
+
+
+    When you browse our marketing pages or applications, your browser automatically
+    shares certain information such as which operating system and browser version
+    you are using.'
+  purposes: {}
+- source: voluntary correspondence
+  target: email address
+  key: SUBSUM
+  text:
+  - Voluntary correspondence
+  - When you write SKlabs Software Ltd with a question or to ask for help, we keep
+    that correspondence, including the email address, so that we have a history of
+    past correspondences to reference if you reach out in the future.
+nodes:
+- type: ACTOR
+  id: browser
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information as
+- type: DATA
+  id: information you volunteer
+- type: DATA
+  id: voluntary correspondence

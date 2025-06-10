@@ -1,0 +1,400 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect and process information about the creators you engage with their content,
+    the level at which you support them, what benefits you receive and how often you
+    support them.
+  - We collect information automatically as you navigate the site or through our third-party
+    analytics providers.
+  - We may request information from you at in-person and online events.
+  - 'We process your information to:'
+  - We retain your information only as long as required to provide the Services requested
+    by you, for record keeping purposes, to comply with our legal obligations, resolve
+    disputes, and enforce the terms for the Services.
+  - You must also provide us with additional information for tax purposes.
+  purposes:
+    advertising:
+    - 'to: promote your Fanclb account for greater discoverability'
+    - 'to: send merchandise to your shipping address'
+    - 'to: send you emails relevant to your usage, as controlled by your email preferences'
+    analytics:
+    - 'to: conduct research and development to improve Fanclb and develop future products'
+    - 'to: understand how you use the service and create better tools for creators
+      to serve fans'
+    legal:
+    - for tax purposes
+    - 'to: verify your identity to comply with US federal, state, and international
+      laws'
+    security:
+    - 'to: prevent fraud and abuse on Fanclb'
+    - 'to: verify your identity to comply with US federal, state, and international
+      laws'
+    services:
+    - 'to: allow you to pay and access content, products, events, exclusive memberships
+      for a creator''s Fanclb'
+    - 'to: allow you to sign in to your account'
+    - 'to: conduct research and development to improve Fanclb and develop future products'
+    - 'to: process membership payments, content, tickets & products payments and payouts'
+    - 'to: promote your Fanclb account for greater discoverability'
+    - 'to: provide to you existing and enhanced services related to your Fanclb account'
+    - 'to: provide you with reasonable accommodation, if you notify us of a disability'
+    - 'to: send merchandise to your shipping address'
+    - 'to: send you emails relevant to your usage, as controlled by your email preferences'
+    - 'to: spotlight and celebrate creators'
+    - 'to: understand how you use the service and create better tools for creators
+      to serve fans'
+- source: we
+  target: comment
+  key: COLLECT
+  text:
+  - We may collect and store your email address, your comments and your profile information
+    from our blog sites to better understand your interests and improve our services
+    to you.
+  purposes:
+    analytics:
+    - to better understand your interests and improve our services to you
+    services:
+    - to better understand your interests and improve our services to you
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use Cookies on our website that collect information to allow us and third parties
+    to understand your use of Fanclb.
+  purposes: {}
+- source: we
+  target: demographic information
+  key: COLLECT
+  text:
+  - In order to better understand and serve our user base, we may ask you for demographic
+    information, including information related to your gender, ethnicity, race, age,
+    sexual orientation, earnings and accessibility, which you may choose to share
+    or not.
+  - We collect such information to ensure we provide fair and equal access to our
+    services and to showcase creators to fans for greater discoverability.
+  purposes:
+    services:
+    - to ensure we provide fair and equal access to our services and to showcase creators
+      to fans for greater discoverability
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may collect and store your email address, your comments and your profile information
+    from our blog sites to better understand your interests and improve our services
+    to you.
+  purposes:
+    analytics:
+    - to better understand your interests and improve our services to you
+    services:
+    - to better understand your interests and improve our services to you
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - Please note that we may need to retain certain information about you for as long
+    as you maintain an account for our Services, to provide you with our Services,
+    for record keeping purposes, for payment processing, to comply with our legal
+    and regulatory obligations, to resolve disputes, or to enforce the applicable
+    terms of service or other agreement in place between you (or your organization)
+    and Fanclb (the "Terms of Service").
+  purposes: {}
+- source: we
+  target: link to use social network
+  key: COLLECT
+  text:
+  - 'We have provided links to the most used social networks below for easy reference:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We use secure transmission methods to collect personal data through our website.
+  purposes: {}
+- source: we
+  target: profile information
+  key: COLLECT
+  text:
+  - We may collect and store your email address, your comments and your profile information
+    from our blog sites to better understand your interests and improve our services
+    to you.
+  purposes:
+    analytics:
+    - to better understand your interests and improve our services to you
+    services:
+    - to better understand your interests and improve our services to you
+- source: we
+  target: social information
+  key: COLLECT
+  text:
+  - This social information allows us to provide you with a better Fanclb experience
+    and also helps guide future development of Fanclb.
+  - 'We use this data to:'
+  purposes: {}
+- source: we
+  target: social information from platform
+  key: COLLECT
+  text:
+  - we will collect and store some social information from those platforms, such as(
+    follower or subscriber counts, post or upload counts, view, like, and comment
+    counts)
+  purposes:
+    services:
+    - to connect your social accounts (e.g. Twitter, Facebook, Google, YouTube and
+      Twitch) with Fanclb
+- source: we
+  target: survey response
+  key: COLLECT
+  text:
+  - We will store your survey responses as and when you participate in the surveys.
+  purposes: {}
+- source: we
+  target: token represent account
+  key: COLLECT
+  text:
+  - Very good security provide us with a token that represents your account, your
+    card's expiration date, card type and the last four digits of your card number.
+  purposes: {}
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - We may store usage information such as the type of device you use to access Fanclb,
+    your operating system, browser type, IP address, device ID, the pages you visit
+    or request, links clicked, referring sites, user interactions and your search
+    terms.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The Social Networks and Third-Party Services that you choose to integrate with
+    our Services may collect, store, and process your information from various locations
+    around the world according to their own terms and privacy policies.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: payment information
+  key: COLLECT
+  text:
+  - As a fan you must provide your payment information to Creator's linked payment
+    processor's vendor & account.
+  purposes: {}
+- source: credit card processor
+  target: personal information
+  key: COLLECT
+  text:
+  - Fanclb also uses third-party service providers, such as managed hosting providers,
+    credit card processors, and technology partners to provide the software, networking,
+    infrastructure and other services required to operate the Services.
+  - These third-party providers may process or store personal data on servers outside
+    of the EEA and Switzerland, including in Canada or the US.
+  purposes: {}
+- source: customer support specialist
+  target: information about you
+  key: COLLECT
+  text:
+  - For example, information about you may be provided to our customer support specialists
+    to help you with your requests.
+  purposes:
+    services:
+    - to help you with your requests
+- source: feature
+  target: ip address
+  key: COLLECT
+  text:
+  - These features may collect your IP address and other personal data, including
+    which page you are visiting on our site, and may set a cookie to enable the feature
+    to function properly.
+  purposes: {}
+- source: feature
+  target: personal information
+  key: COLLECT
+  text:
+  - These features may collect your IP address and other personal data, including
+    which page you are visiting on our site, and may set a cookie to enable the feature
+    to function properly.
+  purposes: {}
+- source: manage hosting provider
+  target: personal information
+  key: COLLECT
+  text:
+  - Fanclb also uses third-party service providers, such as managed hosting providers,
+    credit card processors, and technology partners to provide the software, networking,
+    infrastructure and other services required to operate the Services.
+  - These third-party providers may process or store personal data on servers outside
+    of the EEA and Switzerland, including in Canada or the US.
+  purposes: {}
+- source: social media
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The Social Networks and Third-Party Services that you choose to integrate with
+    our Services may collect, store, and process your information from various locations
+    around the world according to their own terms and privacy policies.
+  purposes: {}
+- source: technology partner
+  target: personal information
+  key: COLLECT
+  text:
+  - Fanclb also uses third-party service providers, such as managed hosting providers,
+    credit card processors, and technology partners to provide the software, networking,
+    infrastructure and other services required to operate the Services.
+  - These third-party providers may process or store personal data on servers outside
+    of the EEA and Switzerland, including in Canada or the US.
+  purposes: {}
+- source: demographic information
+  target: race / ethnicity
+  key: SUBSUM
+  text:
+  - In order to better understand and serve our user base, we may ask you for demographic
+    information, including information related to your gender, ethnicity, race, age,
+    sexual orientation, earnings and accessibility, which you may choose to share
+    or not.
+- source: social information from platform
+  target: follower count
+  key: SUBSUM
+  text:
+  - we will collect and store some social information from those platforms, such as(
+    follower or subscriber counts, post or upload counts, view, like, and comment
+    counts)
+- source: social information from platform
+  target: view count
+  key: SUBSUM
+  text:
+  - we will collect and store some social information from those platforms, such as(
+    follower or subscriber counts, post or upload counts, view, like, and comment
+    counts)
+- source: social media
+  target: widget
+  key: SUBSUM
+  text:
+  - We use social media features, including the Facebook Like button and widgets,
+    such as the Share button or similar interactive mini-programs that run on Fanclb.
+- source: type of device you use
+  target: browser type
+  key: SUBSUM
+  text:
+  - We may store usage information such as the type of device you use to access Fanclb,
+    your operating system, browser type, IP address, device ID, the pages you visit
+    or request, links clicked, referring sites, user interactions and your search
+    terms.
+- source: type of device you use
+  target: device identifier
+  key: SUBSUM
+  text:
+  - We may store usage information such as the type of device you use to access Fanclb,
+    your operating system, browser type, IP address, device ID, the pages you visit
+    or request, links clicked, referring sites, user interactions and your search
+    terms.
+- source: type of device you use
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may store usage information such as the type of device you use to access Fanclb,
+    your operating system, browser type, IP address, device ID, the pages you visit
+    or request, links clicked, referring sites, user interactions and your search
+    terms.
+- source: type of device you use
+  target: link click
+  key: SUBSUM
+  text:
+  - We may store usage information such as the type of device you use to access Fanclb,
+    your operating system, browser type, IP address, device ID, the pages you visit
+    or request, links clicked, referring sites, user interactions and your search
+    terms.
+- source: type of device you use
+  target: user interaction
+  key: SUBSUM
+  text:
+  - We may store usage information such as the type of device you use to access Fanclb,
+    your operating system, browser type, IP address, device ID, the pages you visit
+    or request, links clicked, referring sites, user interactions and your search
+    terms.
+- source: usage information
+  target: type of device you use
+  key: SUBSUM
+  text:
+  - We may store usage information such as the type of device you use to access Fanclb,
+    your operating system, browser type, IP address, device ID, the pages you visit
+    or request, links clicked, referring sites, user interactions and your search
+    terms.
+- source: widget
+  target: interactive mini
+  key: SUBSUM
+  text:
+  - We use social media features, including the Facebook Like button and widgets,
+    such as the Share button or similar interactive mini-programs that run on Fanclb.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: credit card processor
+- type: ACTOR
+  id: customer support specialist
+- type: ACTOR
+  id: feature
+- type: ACTOR
+  id: interactive mini
+- type: ACTOR
+  id: manage hosting provider
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: technology partner
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: widget
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: comment
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: follower count
+- type: DATA
+  id: information about you
+- type: DATA
+  id: ip address
+- type: DATA
+  id: link click
+- type: DATA
+  id: link to use social network
+- type: DATA
+  id: payment information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: profile information
+- type: DATA
+  id: race / ethnicity
+- type: DATA
+  id: social information
+- type: DATA
+  id: social information from platform
+- type: DATA
+  id: survey response
+- type: DATA
+  id: token represent account
+- type: DATA
+  id: type of device you use
+- type: DATA
+  id: usage information
+- type: DATA
+  id: user interaction
+- type: DATA
+  id: view count

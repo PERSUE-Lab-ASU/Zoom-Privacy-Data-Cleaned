@@ -1,0 +1,405 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We gather information from the account profile created by the user, and other
+    content you share on the Services.
+  - 'We may also retain, preserve or disclose your information if we determine that
+    this is reasonably necessary or appropriate to: (1) prevent any person from death
+    or serious bodily injury; (2) to address issues of national security or other
+    issues of public importance; (3) to prevent or detect violations of our Terms
+    of Service or fraud or abuse of My Meeting Card or its users'
+  - We may collect information directly from you or through our service providers
+    , such as when we collect your feedback through surveys.
+  - We may preserve and share your information with third parties, including law enforcement,
+    public or governmental agencies, or private litigants, within or outside your
+    country of residence, if we determine that such disclosure is allowed by the law
+    or reasonably necessary to comply with the law, including to respond to court
+    orders, warrants, subpoenas, or other legal or regulatory process.
+  - We may share your information with third parties who provide services to My Meeting
+    Card such as supporting, improving, promoting and securing the Services, processing
+    payments, or fulfilling license subscriptions.
+  - We receive information in a few different ways, including when you check in and
+    check out of a meeting, generate a meeting report as part of the Services.
+  - We retain information as long as it is necessary to provide the Services to you
+    and others, subject to any legal obligations to further retain such information.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - In addition, we may sell or share aggregated data about our users, as described
+    in more detail in the "Aggregate Information" section below.
+  purposes: {}
+- source: we
+  target: analytic information
+  key: COLLECT
+  text:
+  - This technical information includes device and network information, and analytics
+    information.
+  - We collect information from your browser, computer, or mobile device, which provides
+    us with technical information when you access or use the Services.
+  purposes: {}
+- source: we
+  target: basic account information
+  key: COLLECT
+  text:
+  - 'For example: Account, Profile, Activity, and Use Information We collect basic
+    account information such as your name, email address, date of birth, and password
+    that helps secure and provide you with access to our Services.'
+  purposes:
+    analytics:
+    - 'For example: Account, Profile, Activity, and Use Information'
+    services:
+    - 'For example: Account, Profile, Activity, and Use Information'
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We use your contact information so we can contact you when needed.
+  purposes: {}
+- source: we
+  target: date of birth
+  key: COLLECT
+  text:
+  - We also use dates of birth to enhance safety and privacy for our younger users
+    to provide more accurate performance of the meeting verification.
+  purposes:
+    security:
+    - to enhance safety and privacy for our younger users to provide more accurate
+      performance of the meeting verification
+    services:
+    - to enhance safety and privacy for our younger users to provide more accurate
+      performance of the meeting verification
+- source: we
+  target: device information
+  key: COLLECT
+  text:
+  - This technical information includes device and network information, and analytics
+    information.
+  - We collect information from your browser, computer, or mobile device, which provides
+    us with technical information when you access or use the Services.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We collect and process location information when you sign up for and use the Services.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - To provide the Services We use the information we collect and receive to provide
+    the Services, including providing
+  - We also use the information we collect and receive to conduct research, and to
+    analyze, develop, troubleshoot, and improve the Services.
+  - We may also use the information we collect and receive to market and promote the
+    Services, activities and events on My Meeting Card, and other commercial products
+    or services, including using email and push notifications, in accordance with
+    your preferences.
+  - We use the information we collect and receive to protect users, enforce our Terms
+    of Service , and promote well-being.
+  - We use the information we collect and receive to provide support in response to
+    your requests and comments.
+  - We use the information we collect and receive to serve you with relevant promotions,
+    subject to your notification and email preferences.
+  - We use the information we collect to process your subscription, including using
+    your location data to determine your country pricing.
+  purposes:
+    advertising:
+    - to market and promote the Services, activities and events on My Meeting Card,
+      and other commercial products or services, including using email and push notifications,
+      in accordance with your preferences
+    - to serve you with relevant promotions, subject to your notification and email
+      preferences
+    analytics:
+    - to conduct research, and to analyze, develop, troubleshoot, and improve the
+      Services
+    - to process your subscription, including using your location data to determine
+      your country pricing
+    security:
+    - to protect users, enforce our Terms of Service , and promote well-being
+    services:
+    - To provide the Services
+    - to conduct research, and to analyze, develop, troubleshoot, and improve the
+      Services
+    - to process your subscription, including using your location data to determine
+      your country pricing
+    - to protect users, enforce our Terms of Service , and promote well-being
+    - to provide support in response to your requests and comments
+    - to provide the Services, including providing
+- source: we
+  target: information you agree
+  key: COLLECT
+  text:
+  - If you access the Services with Third-Party Accounts we will collect information
+    that you have agreed to make
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share personal information in accordance with your preferences, as needed
+    to run our business and provide the Services, and where required for legal purposes,
+    as set forth below.
+  purposes: {}
+- source: we
+  target: same suite of privacy control
+  key: COLLECT
+  text:
+  - We provide the same suite of privacy controls to all of our users worldwide.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This information is collected by the Third-Party Account providers
+  - We may share your information with third parties who provide services to My Meeting
+    Card such as supporting, improving, promoting and securing the Services, processing
+    payments, or fulfilling license subscriptions.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: meeting attendance
+  key: COLLECT
+  text:
+  - Submit meeting attendance to other parties .
+  purposes: {}
+- source: law enforcement
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may preserve and share your information with third parties, including law enforcement,
+    public or governmental agencies, or private litigants, within or outside your
+    country of residence, if we determine that such disclosure is allowed by the law
+    or reasonably necessary to comply with the law, including to respond to court
+    orders, warrants, subpoenas, or other legal or regulatory process.
+  purposes: {}
+- source: meeting card
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - My Meeting Card collects information from devices and apps you connect to My Meeting
+    Card , which will be used to troubleshoot issues users may experience using the
+    mobile app.
+  purposes: {}
+- source: meeting card
+  target: information about
+  key: COLLECT
+  text:
+  - My Meeting Card also collects information about how you use the Services.
+  purposes: {}
+- source: meeting card
+  target: information about you
+  key: COLLECT
+  text:
+  - My Meeting Card collects information about you, including information that directly
+    or indirectly identifies you.
+  purposes: {}
+- source: private litigant
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may preserve and share your information with third parties, including law enforcement,
+    public or governmental agencies, or private litigants, within or outside your
+    country of residence, if we determine that such disclosure is allowed by the law
+    or reasonably necessary to comply with the law, including to respond to court
+    orders, warrants, subpoenas, or other legal or regulatory process.
+  purposes: {}
+- source: public agency
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may preserve and share your information with third parties, including law enforcement,
+    public or governmental agencies, or private litigants, within or outside your
+    country of residence, if we determine that such disclosure is allowed by the law
+    or reasonably necessary to comply with the law, including to respond to court
+    orders, warrants, subpoenas, or other legal or regulatory process.
+  purposes: {}
+- source: service provider
+  target: information necessary
+  key: COLLECT
+  text:
+  - These service providers only have access to the information necessary to perform
+    these limited functions on our behalf and are required to protect and secure your
+    information.
+  purposes: {}
+- source: we
+  target: related mobile application
+  key: SUBSUM
+  text:
+  - with our websites and the related mobile applications and services (collectively,
+    the "Services").
+- source: basic account information
+  target: date of birth
+  key: SUBSUM
+  text:
+  - 'For example: Account, Profile, Activity, and Use Information We collect basic
+    account information such as your name, email address, date of birth, and password
+    that helps secure and provide you with access to our Services.'
+- source: basic account information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'For example: Account, Profile, Activity, and Use Information We collect basic
+    account information such as your name, email address, date of birth, and password
+    that helps secure and provide you with access to our Services.'
+- source: basic account information
+  target: password
+  key: SUBSUM
+  text:
+  - 'For example: Account, Profile, Activity, and Use Information We collect basic
+    account information such as your name, email address, date of birth, and password
+    that helps secure and provide you with access to our Services.'
+- source: basic account information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'For example: Account, Profile, Activity, and Use Information We collect basic
+    account information such as your name, email address, date of birth, and password
+    that helps secure and provide you with access to our Services.'
+- source: content you share with
+  target: email address
+  key: SUBSUM
+  text:
+  - Note that we do not have control over content you have shared directly with others,
+    such as name, email address, personal information or meeting attendance reports.
+- source: content you share with
+  target: meeting attendance report
+  key: SUBSUM
+  text:
+  - Note that we do not have control over content you have shared directly with others,
+    such as name, email address, personal information or meeting attendance reports.
+- source: content you share with
+  target: person name
+  key: SUBSUM
+  text:
+  - Note that we do not have control over content you have shared directly with others,
+    such as name, email address, personal information or meeting attendance reports.
+- source: content you share with
+  target: personal information
+  key: SUBSUM
+  text:
+  - Note that we do not have control over content you have shared directly with others,
+    such as name, email address, personal information or meeting attendance reports.
+- source: information about you
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - My Meeting Card collects information about you, including information that directly
+    or indirectly identifies you.
+- source: insight be
+  target: statistic of use of services
+  key: SUBSUM
+  text:
+  - identified or aggregated with other non-personal data to provide insights that
+    are commercially valuable to My Meeting Card, such as statistics of the use of
+    the Services.
+- source: item of information
+  target: profile information
+  key: SUBSUM
+  text:
+  - In addition, you can delete some items of information (e.g., profile information)
+    and you can remove profile information without deleting your account.
+- source: payment information
+  target: payment card
+  key: SUBSUM
+  text:
+  - When you make a payment on My Meeting Card, you may provide payment information
+    such as your payment card or other payment details.
+- source: payment information
+  target: payment detail
+  key: SUBSUM
+  text:
+  - When you make a payment on My Meeting Card, you may provide payment information
+    such as your payment card or other payment details.
+- source: third party accounts
+  target: account
+  key: SUBSUM
+  text:
+  - My Meeting Card allows you to sign up and log in to the Services using accounts
+    you create with third-party products and services, such as Meta, Google, or Apple
+    (collectively, "Third-Party Accounts").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: law enforcement
+- type: ACTOR
+  id: meeting card
+- type: ACTOR
+  id: private litigant
+- type: ACTOR
+  id: public agency
+- type: ACTOR
+  id: related mobile application
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: analytic information
+- type: DATA
+  id: basic account information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: content you share with
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information necessary
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you agree
+- type: DATA
+  id: insight be
+- type: DATA
+  id: item of information
+- type: DATA
+  id: meeting attendance
+- type: DATA
+  id: meeting attendance report
+- type: DATA
+  id: password
+- type: DATA
+  id: payment card
+- type: DATA
+  id: payment detail
+- type: DATA
+  id: payment information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: profile information
+- type: DATA
+  id: same suite of privacy control
+- type: DATA
+  id: statistic of use of services
+- type: DATA
+  id: third party accounts

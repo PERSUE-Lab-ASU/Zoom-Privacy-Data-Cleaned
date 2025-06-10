@@ -1,0 +1,141 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: access to account
+  key: COLLECT
+  text:
+  - We log all access to all accounts by IP address, so we can always verify that
+    no unauthorized access has happened for as long as the logs are kept.
+  purposes: {}
+- source: we
+  target: account
+  key: COLLECT
+  text:
+  - We'll only ever access your account to help you with a problem or fix a software
+    bug.
+  purposes:
+    services:
+    - to help you with a problem or fix a software bug
+- source: we
+  target: collect information
+  key: COLLECT
+  text:
+  - 'We use collected information for the following general purposes: products and
+    services provision, billing, identification and authentication, services improvement,
+    contact, and research.'
+  purposes:
+    analytics:
+    - 'for the following general purposes: products and services provision, billing,
+      identification and authentication, services improvement, contact, and research'
+    services:
+    - 'for the following general purposes: products and services provision, billing,
+      identification and authentication, services improvement, contact, and research'
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - You may give us your Identity, Contact and Financial Data by filling in forms
+    or by corresponding with us by mail, phone, email or through chat or social media.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to record current session information, but do not require permanent
+    cookies.
+  purposes:
+    analytics:
+    - to record current session information
+    services:
+    - to record current session information
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We transfer information about you if My Portal App is acquired by or merged with
+    another company.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may receive personal data about you from various types of third parties, including:
+    Technical Data and/or Tracking Data from analytics providers, advertising networks
+    and search information providers; Contact, Financial and Transaction Data from
+    providers of payment and fraud prevention services; Identity and Contact Data
+    from data partners; and Data from any third parties who are permitted by law or
+    have your permission to share your personal data with us, such as via social media
+    or review sites We will only use your personal data when the law allows us to.'
+  purposes: {}
+- source: we
+  target: specific information
+  key: COLLECT
+  text:
+  - We may need to request specific information from you to help us confirm your identity
+    and ensure your right to access your personal data (or to exercise any of your
+    other rights).
+  purposes:
+    security:
+    - to help us confirm your identity and ensure your right to access your personal
+      data (or to exercise any of your other rights)
+- source: we
+  target: technical data about equipment
+  key: COLLECT
+  text:
+  - As you interact with us, including via the myportalapp.com website, we may automatically
+    collect Technical Data about your equipment, browsing actions and patterns.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - These service providers may have access to your personal information.
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - Contact Data includes billing address, delivery address, and email address.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Contact Data includes billing address, delivery address, and email address.
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - A cookie is a small amount of data, which often includes an anonymous unique identifier,
+    that is sent to your browser from a web site's computers and stored on your computer's
+    hard drive.
+nodes:
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: access to account
+- type: DATA
+  id: account
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: collect information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: specific information
+- type: DATA
+  id: technical data about equipment

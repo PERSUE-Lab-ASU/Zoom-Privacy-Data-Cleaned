@@ -1,0 +1,520 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:'
+  - 'We may use and disclose this information in order to:'
+  - 'When you do business with us, we may collect three types of information: personal,
+    non-personal and anonymous.'
+  purposes:
+    advertising:
+    - 'in order to: Provide requested information on our products and services (e.g.,
+      demo requests, marketing communications, sales communication);'
+    - 'in order to: Serve interest-based advertising'
+    analytics:
+    - 'in order to: Provide requested information on our products and services (e.g.,
+      demo requests, marketing communications, sales communication);'
+    - 'in order to: Sharing data with other data subprocessors for integration purposes'
+    - to analyze traffic to our website
+    legal:
+    - 'in order to: Act as required or authorized by law;'
+    services:
+    - 'in order to: Communicate with you in a timely and efficient manner (e.g., responds
+      to customer service requests);'
+    - 'in order to: Sharing data with other data subprocessors for integration purposes'
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    When we collect information about you:
+
+
+    We collect information about you when you provide it to us, when you visit our
+    website and when you use our services.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you:'
+  purposes:
+    analytics:
+    - to analyze traffic to our website
+- source: absorb
+  target: content on site
+  key: COLLECT
+  text:
+  - Content on our site is provided "as is" and Absorb disclaims all warranties, express
+    or implied.
+  purposes: {}
+- source: datum subprocessor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may use and disclose this information in order to: Sharing data with other
+    data subprocessors for integration purposes.'
+  purposes:
+    analytics:
+    - for integration purposes
+    services:
+    - for integration purposes
+- source: contact information
+  target: attachment
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Contact information provided
+    when seeking technical support, including summary of problem and attachments that
+    may be helpful in resolving an issue'
+- source: contact information
+  target: billing information
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Contact information such
+    as name, email address, phone number, billing information, information you input
+    into open text fields'
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Contact information such
+    as name, email address, phone number, billing information, information you input
+    into open text fields'
+- source: contact information
+  target: information you input into open text field
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Contact information such
+    as name, email address, phone number, billing information, information you input
+    into open text fields'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Contact information such
+    as name, email address, phone number, billing information, information you input
+    into open text fields'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Contact information such
+    as name, email address, phone number, billing information, information you input
+    into open text fields'
+- source: contact information
+  target: summary of problem
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Contact information provided
+    when seeking technical support, including summary of problem and attachments that
+    may be helpful in resolving an issue'
+- source: content information about you
+  target: training interaction
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Content information about
+    you that may include viewed content and training interactions'
+- source: content information about you
+  target: view content
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Content information about
+    you that may include viewed content and training interactions'
+- source: device information
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'We collect the following personal information about you: Device information including
+    your connection type and settings, information about your operating system, browser
+    type, IP address, URLs of referring/exit pages'
+- source: device information
+  target: connection type
+  key: SUBSUM
+  text:
+  - 'We collect the following personal information about you: Device information including
+    your connection type and settings, information about your operating system, browser
+    type, IP address, URLs of referring/exit pages'
+- source: device information
+  target: information about operate system
+  key: SUBSUM
+  text:
+  - 'We collect the following personal information about you: Device information including
+    your connection type and settings, information about your operating system, browser
+    type, IP address, URLs of referring/exit pages'
+- source: device information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'We collect the following personal information about you: Device information including
+    your connection type and settings, information about your operating system, browser
+    type, IP address, URLs of referring/exit pages'
+- source: device information
+  target: setting
+  key: SUBSUM
+  text:
+  - 'We collect the following personal information about you: Device information including
+    your connection type and settings, information about your operating system, browser
+    type, IP address, URLs of referring/exit pages'
+- source: device information
+  target: url of refer exit page
+  key: SUBSUM
+  text:
+  - 'We collect the following personal information about you: Device information including
+    your connection type and settings, information about your operating system, browser
+    type, IP address, URLs of referring/exit pages'
+- source: information about business
+  target: company name
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Information about your
+    business such as a company name, industry, company size, company contact information'
+- source: information about business
+  target: company size
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Information about your
+    business such as a company name, industry, company size, company contact information'
+- source: information about business
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Information about your
+    business such as a company name, industry, company size, company contact information'
+- source: information about business
+  target: industry
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Information about your
+    business such as a company name, industry, company size, company contact information'
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: We partner with third
+    party companies that may collect and use non-personally identifiable information
+    (e.g., click stream information, browser type, time and date, subject of advertisements
+    clicked or scrolled over) during your visit to this web site in order to provide
+    advertisements about goods and services likely to be of greater interest to you.'
+- source: non-personal information
+  target: click stream information
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: We partner with third
+    party companies that may collect and use non-personally identifiable information
+    (e.g., click stream information, browser type, time and date, subject of advertisements
+    clicked or scrolled over) during your visit to this web site in order to provide
+    advertisements about goods and services likely to be of greater interest to you.'
+- source: non-personal information
+  target: date
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: We partner with third
+    party companies that may collect and use non-personally identifiable information
+    (e.g., click stream information, browser type, time and date, subject of advertisements
+    clicked or scrolled over) during your visit to this web site in order to provide
+    advertisements about goods and services likely to be of greater interest to you.'
+- source: non-personal information
+  target: time
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: We partner with third
+    party companies that may collect and use non-personally identifiable information
+    (e.g., click stream information, browser type, time and date, subject of advertisements
+    clicked or scrolled over) during your visit to this web site in order to provide
+    advertisements about goods and services likely to be of greater interest to you.'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Contact information provided
+    when seeking technical support, including summary of problem and attachments that
+    may be helpful in resolving an issue'
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Contact information such
+    as name, email address, phone number, billing information, information you input
+    into open text fields'
+- source: personal information
+  target: content information about you
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Content information about
+    you that may include viewed content and training interactions'
+- source: personal information
+  target: device information
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you:'
+  - 'We collect the following personal information about you: Device information including
+    your connection type and settings, information about your operating system, browser
+    type, IP address, URLs of referring/exit pages'
+- source: personal information
+  target: information about business
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Information about your
+    business such as a company name, industry, company size, company contact information'
+- source: personal information
+  target: information about you
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you:'
+  - 'We collect the following personal information about you: Information about you
+    when you visit and interact with our website and training portal.'
+- source: request information
+  target: sale communication
+  key: SUBSUM
+  text:
+  - 'We may use and disclose this information in order to: Provide requested information
+    on our products and services (e.g., demo requests, marketing communications, sales
+    communication);'
+- source: technical support
+  target: attachment
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Contact information provided
+    when seeking technical support, including summary of problem and attachments that
+    may be helpful in resolving an issue'
+- source: technical support
+  target: summary of problem
+  key: SUBSUM
+  text:
+  - 'Absorb LMS Privacy Policy
+
+
+    What information we collect about you:
+
+
+    We collect the following personal information about you: Contact information provided
+    when seeking technical support, including summary of problem and attachments that
+    may be helpful in resolving an issue'
+nodes:
+- type: ACTOR
+  id: absorb
+- type: ACTOR
+  id: datum subprocessor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: attachment
+- type: DATA
+  id: billing information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: click stream information
+- type: DATA
+  id: company name
+- type: DATA
+  id: company size
+- type: DATA
+  id: connection type
+- type: DATA
+  id: contact information
+- type: DATA
+  id: content information about you
+- type: DATA
+  id: content on site
+- type: DATA
+  id: date
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: industry
+- type: DATA
+  id: information about business
+- type: DATA
+  id: information about operate system
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information you input into open text field
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: request information
+- type: DATA
+  id: sale communication
+- type: DATA
+  id: setting
+- type: DATA
+  id: summary of problem
+- type: DATA
+  id: technical support
+- type: DATA
+  id: time
+- type: DATA
+  id: training interaction
+- type: DATA
+  id: url of refer exit page
+- type: DATA
+  id: view content

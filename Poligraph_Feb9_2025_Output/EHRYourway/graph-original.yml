@@ -1,0 +1,229 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we may share information with other physicians, nurses or healthcare
+    professionals entering information into your medical records relating to your
+    medical care and treatment.
+  - 'Privacy Policy
+
+
+    How We May Use and Disclose Your Information :'
+  purposes: {}
+- source: we
+  target: information about treatment practice provide to you
+  key: COLLECT
+  text:
+  - We may need to disclose information about the treatment, procedures or care my
+    practice provided to you in order to bill and receive payment for services I provided.
+  - We may share this information with you, an insurance company or any third party
+    responsible for payment.
+  purposes:
+    services:
+    - in order to bill and receive payment for services I provided
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may need to share information about you in order to provide medical care to
+    you.
+  - We may share information about you including x-rays, prescriptions and requests
+    for lab work.
+  purposes:
+    services:
+    - in order to provide medical care to you
+- source: we
+  target: medical information
+  key: COLLECT
+  text:
+  - If my practice believes, in good faith, that a use or disclosure of your medical
+    information is necessary to prevent or lessen a serious and imminent threat to
+    the health or safety of a person or the public, we may disclose your medical information.
+  purposes: {}
+- source: we
+  target: medical information about you
+  key: COLLECT
+  text:
+  - We may release medical information about you for work-related illness or injury
+    for workers' compensation or other related programs.
+  purposes: {}
+- source: we
+  target: medical information relate to you
+  key: COLLECT
+  text:
+  - We will disclose medical information related to you if required to do so by state,
+    federal or local law.
+  purposes: {}
+- source: we
+  target: permission
+  key: COLLECT
+  text:
+  - If however, the researcher will have access to information that will identify
+    you, we will seek to obtain your permission (though we cannot guarantee this).
+  purposes: {}
+- source: we
+  target: personal health information
+  key: COLLECT
+  text:
+  - 'Certain disclosures may be made for public health activities in the following
+    circumstances: If our practice reasonably believes a person is the victim of abuse,
+    neglect, or domestic violence, we may disclose personal health information to
+    the appropriate authority.'
+  - In order to help me run my practice more efficiently and provide better care,
+    I may use and disclose your personal health information to Business Associates
+    who need to use or disclose your information to provide a service for my medical
+    practice, such as my software vendor who occasionally provides assistance with
+    data management on my behalf.
+  purposes:
+    services:
+    - In order to help me run my practice more efficiently and provide better care
+- source: we
+  target: personal health information about you
+  key: COLLECT
+  text:
+  - We may also need to disclose personal health information about you with your health
+    plan and/or referring physician in order to obtain prior authorization for treatment,
+    to determine whether payment for the treatment is covered by your plan or to facilitate
+    payment of a referring physician.
+  purposes:
+    services:
+    - in order to obtain prior authorization for treatment, to determine whether payment
+      for the treatment is covered by your plan or to facilitate payment of a referring
+      physician
+- source: we
+  target: specific authorization
+  key: COLLECT
+  text:
+  - We will always obtain your specific authorization if required by law.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about treatment practice provide to you
+  key: COLLECT
+  text:
+  - We may need to disclose information about the treatment, procedures or care my
+    practice provided to you in order to bill and receive payment for services I provided.
+  - We may share this information with you, an insurance company or any third party
+    responsible for payment.
+  purposes: {}
+- source: business associates
+  target: personal health information
+  key: COLLECT
+  text:
+  - In order to help me run my practice more efficiently and provide better care,
+    I may use and disclose your personal health information to Business Associates
+    who need to use or disclose your information to provide a service for my medical
+    practice, such as my software vendor who occasionally provides assistance with
+    data management on my behalf.
+  purposes:
+    services:
+    - In order to help me run my practice more efficiently and provide better care
+- source: federal authority
+  target: personal health information
+  key: COLLECT
+  text:
+  - Your personal health information may be disclosed to federal, state or local authorities
+    as part of an investigation or government activity authorized by law.
+  purposes: {}
+- source: health plan
+  target: personal health information about you
+  key: COLLECT
+  text:
+  - We may also need to disclose personal health information about you with your health
+    plan and/or referring physician in order to obtain prior authorization for treatment,
+    to determine whether payment for the treatment is covered by your plan or to facilitate
+    payment of a referring physician.
+  purposes:
+    services:
+    - in order to obtain prior authorization for treatment, to determine whether payment
+      for the treatment is covered by your plan or to facilitate payment of a referring
+      physician
+- source: healthcare professional
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we may share information with other physicians, nurses or healthcare
+    professionals entering information into your medical records relating to your
+    medical care and treatment.
+  purposes: {}
+- source: insurance company
+  target: information about treatment practice provide to you
+  key: COLLECT
+  text:
+  - We may need to disclose information about the treatment, procedures or care my
+    practice provided to you in order to bill and receive payment for services I provided.
+  - We may share this information with you, an insurance company or any third party
+    responsible for payment.
+  purposes: {}
+- source: physician
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we may share information with other physicians, nurses or healthcare
+    professionals entering information into your medical records relating to your
+    medical care and treatment.
+  purposes: {}
+- source: public health authority
+  target: medical information
+  key: COLLECT
+  text:
+  - Your medical information may be disclosed to a public health authority that is
+    authorized by law to collect or receive such information for public health activities.
+  purposes: {}
+- source: refer physician
+  target: personal health information about you
+  key: COLLECT
+  text:
+  - We may also need to disclose personal health information about you with your health
+    plan and/or referring physician in order to obtain prior authorization for treatment,
+    to determine whether payment for the treatment is covered by your plan or to facilitate
+    payment of a referring physician.
+  purposes:
+    services:
+    - in order to obtain prior authorization for treatment, to determine whether payment
+      for the treatment is covered by your plan or to facilitate payment of a referring
+      physician
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: business associates
+- type: ACTOR
+  id: federal authority
+- type: ACTOR
+  id: health plan
+- type: ACTOR
+  id: healthcare professional
+- type: ACTOR
+  id: insurance company
+- type: ACTOR
+  id: physician
+- type: ACTOR
+  id: public health authority
+- type: ACTOR
+  id: refer physician
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: information about treatment practice provide to you
+- type: DATA
+  id: information about you
+- type: DATA
+  id: medical information
+- type: DATA
+  id: medical information about you
+- type: DATA
+  id: medical information relate to you
+- type: DATA
+  id: permission
+- type: DATA
+  id: personal health information
+- type: DATA
+  id: personal health information about you
+- type: DATA
+  id: specific authorization

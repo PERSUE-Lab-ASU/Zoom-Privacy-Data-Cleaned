@@ -1,0 +1,761 @@
+<!DOCTYPE html><html style="" data-di-loaded="1" lang="en"><head>
+    <title>Leverage simplified end-to-end video research solution with Medallia Video. – Medallia</title>
+<meta name="robots" content="max-image-preview:large">
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="With Medallia video, capture richer insights from your customers and bring their stories to life while driving ROI for your business."><meta name="title" content="Leverage simplified end-to-end video research solution with Medallia Video."><meta property="og:image" content=""><meta property="og:image" content="">
+
+
+<meta name="msapplication-TileImage" content="https://www.medallia.com/wp-content/uploads/2024/05/cropped-mdeallia-favicon-01-270x270.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Tag Manager -->
+    
+    <!-- End Google Tag Manager -->
+    
+</head>
+
+
+<body class="page-id-3135 page-video parent-products post-type-page" style="">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M899Q69F" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
+    
+
+    <div id="medallia-live-search" x-data="{     show_search: false,    query: '',    results: [],    loading: false,    error: false,    init() {        let search_button = document.querySelector('header #medallia-search-button');        search_button.addEventListener('click', () => {            this.show_search = !this.show_search;            if(this.show_search) {                document.querySelector('#medallia-live-search input').focus();            }        });    },    search() {        if(this.query.length >= 0) {        this.loading = true;            fetch(`${customSearchData.rest_url}?s=${this.query}`, {                headers: {                    'X-WP-Nonce': customSearchData.nonce                }            })                .then(res => {                    return res.json()                })                .then(data => {                    this.loading = false;                    this.results = data;                })                .catch(() => {                    this.loading = false;                    this.error = true;                });        } else {            this.results = [];        }    }}" x-on:input.debounce="search()" x-show="show_search" @keydown.escape="show_search = false" x-transition="" style="display: none;">
+    <div class="logo">
+            </div>
+    <div class="live-search-wrapper" @click.outside="show_search = false">
+        <div class="close-icon" @click="show_search = false">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" data-di-res-id="4d904e18-2f4448ce" data-di-rand="1739318306505">
+<path d="M14 0C6.2 0 0 6.2 0 14C0 21.8 6.2 28 14 28C21.8 28 28 21.8 28 14C28 6.2 21.8 0 14 0ZM19.4 21L14 15.6L8.6 21L7 19.4L12.4 14L7 8.6L8.6 7L14 12.4L19.4 7L21 8.6L15.6 14L21 19.4L19.4 21Z" fill="black"></path>
+</svg>
+        </div>
+        <div class="search-bar">
+            <input type="text" x-model="query" placeholder="Search">
+            <div class="search-icon">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" data-di-res-id="4d904e18-fadd5767" data-di-rand="1739318306505">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.6815 9.96875C12.7782 7.48944 12.5471 3.7977 10.1575 1.59934C7.76787 -0.59903 4.06993 -0.521929 1.77402 1.77413C-0.521897 4.07019 -0.598993 7.76835 1.59924 10.1581C3.79747 12.5479 7.48897 12.779 9.96813 10.6822L15.2866 16L16 15.2866L10.6815 9.96875ZM6.06344 11.1039C4.02408 11.1043 2.18532 9.87596 1.4047 7.99179C0.62408 6.10762 1.05536 3.93871 2.49741 2.49657C3.93946 1.05443 6.10824 0.62312 7.99229 1.40379C9.87634 2.18445 11.1046 4.02333 11.1042 6.06282C11.1003 8.84531 8.84576 11.1 6.06344 11.1039Z" fill="#071E3C"></path>
+</svg>
+            </div>
+        </div>
+        <div class="results" x-show="results.length !== 0" style="display: none;">
+            <template x-for="(items, type) in results" :key="type" data-search-resource="">
+                <template x-if="Object.keys(items).length !== 0" "!loading"="">
+                    <div class="type-group">
+                        <div class="type">
+                            <p x-text="type.charAt(0).toUpperCase() + type.slice(1)"></p>
+                        </div>
+                        <template x-for="item in items" :key="item.id">
+                            <div class="item" :class="{'page' : type === 'pages', 'post' : type === 'posts', 'other' : type === 'others'}">
+                                <a :href="item.url">
+                                    <h4 class="title" x-html="item.title"></h4>
+                                    <div class="link">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9 3H3C2.46957 3 1.96086 3.21071 1.58579 3.58579C1.21071 3.96086 1 4.46957 1 5V15C1 15.5304 1.21071 16.0391 1.58579 16.4142C1.96086 16.7893 2.46957 17 3 17H13C13.5304 17 14.0391 16.7893 14.4142 16.4142C14.7893 16.0391 15 15.5304 15 15V9M8 10L17 1M17 1H12M17 1V6" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+                <div class="spinner" x-show="loading">
+                    Loading...
+                </div>
+                <template x-if="error">
+                    <p>There was an error</p>
+                </template>
+            </template>
+        </div>
+    </div>
+</div>
+    <main>
+                <section class="section hero min-h-600">
+
+                    
+
+<div class="hero hero-side-by-side-video bg-blue">
+    <div class="container">
+        <div class="content__wrap">
+            <div class="copy__wrap">
+
+                
+                <h1 class="header"> Medallia Video </h1>
+
+                                <div class="copy"> <p>Capture, analyze, and share consumer insight videos in a single platform. Automatically extract insights to tell powerful stories.</p>
+</div>
+                
+                                <div class="cta__wrap">
+                                        <a target="_self" href="#footer-form" class="btn btn-white-blue" data-di-id="di-id-2d3d8b3f-8340e4e6">
+                        Request a demo                    </a>
+                                                            <a target="_blank" href="https://app.livinglens.tv/login" class="btn btn-transparent-white" data-di-id="di-id-3449889d-5c458136">
+                        Login                    </a>
+                                    </div>
+                
+            </div>
+            <div class="video__wrap">
+                <div class="vidyard-player-container" uuid="1V47vLZUPiHTNWdWGDhzrP" style="margin: auto; width: 100%; height: auto; overflow: hidden; display: block;"><div class="vidyard-div-1V47vLZUPiHTNWdWGDhzrP" role="region" aria-label="Vidyard media player" style="position: relative; padding-bottom: 56.25%; height: 0px; overflow: hidden; max-width: 100%; background-color: transparent;"><div class="vidyard-inner-container-1V47vLZUPiHTNWdWGDhzrP" style="position: absolute;height: 100%; width: 100%; " data-pl="false"> <iframe allow="autoplay; fullscreen; picture-in-picture; camera; microphone; display-capture; clipboard-write" allowfullscreen="" allowtransparency="true" referrerpolicy="no-referrer-when-downgrade" class="vidyard-iframe-1V47vLZUPiHTNWdWGDhzrP" scrolling="no" src="https://play.vidyard.com/1V47vLZUPiHTNWdWGDhzrP?disable_popouts=1&amp;v=4.3.15&amp;type=inline" title="Tell a Compelling Story with Video Feedback- web" style="opacity: 1; background-color: transparent; position: absolute; top: 0px; left: 0px;" width="100%" height="100%" frameborder="0"></iframe><img class="vidyard-player-embed inserted" src="//play.vidyard.com/1V47vLZUPiHTNWdWGDhzrP.html?" data-uuid="1V47vLZUPiHTNWdWGDhzrP" data-v="4" data-type="inline" data-rendered="true" style="display: none;"></div> </div></div>
+            </div>
+        </div>
+
+    </div>
+</div>                </section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-white text-black pl-none pr-none pt-small pb-small">
+            
+            <div class="container">
+                
+<div class="list-images ml-none mr-none mt-small mb-none" style="--logos-number: 5">
+
+            <div class="list-item">
+        <div class="image__wrap  wide-image">
+            <img class="" src="https://www.medallia.com/wp-content/uploads/2024/06/alled-irish-bank-color.avif" alt="">
+        </div>
+    </div>
+                <div class="list-item">
+        <div class="image__wrap  wide-image">
+            <img class="" src="https://www.medallia.com/wp-content/uploads/2024/06/buzz-back-color.avif" alt="">
+        </div>
+    </div>
+                <div class="list-item">
+        <div class="image__wrap  wide-image">
+            <img class="" src="https://www.medallia.com/wp-content/uploads/2024/06/do-it-best-color.avif" alt="">
+        </div>
+    </div>
+                <div class="list-item">
+        <div class="image__wrap  wide-image">
+            <img class="" src="https://www.medallia.com/wp-content/uploads/2024/06/hudson-bay-company-color.avif" alt="">
+        </div>
+    </div>
+                <div class="list-item">
+        <div class="image__wrap  wide-image">
+            <img class="" src="https://www.medallia.com/wp-content/uploads/2024/06/talktalk-color.avif" alt="">
+        </div>
+    </div>
+        </div>            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-white text-black pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="header-container ml-none mr-none mt-medium mb-none">
+    <div class="header__wrap w-100">
+                <div class="green-line__wrap">
+            <div class="green-line"></div>
+        </div>
+                <h2 class="text-style-none  text-align-center text-black">Enhance your CX/EX feedback with video insights        </h2>
+            </div>
+</div>
+<div class="solo-content ml-none mr-none mt-none mb-medium">
+    <div class="content__wrap w-100">
+        <div class="text-align-left"> <p>Easily integrate video questions into Medallia surveys</p>
+</div>
+    </div>
+</div>
+<div class="image-copy image-side-left ml-none mr-none mt-medium mb-medium v-align-center type-normal">
+
+    <div class="copy__wrap">
+
+        <div class="content">
+                        <ul>
+<li>Capture ~6x more information compared to open-end text responses</li>
+<li>Review video and transcriptions alongside other feedback</li>
+<li>Uncover topics, themes, and sentiment from transcripts with text analytics</li>
+</ul>
+        </div>
+
+                <a target="_self" href="/platform/video/" class="btn btn-blue-white" ""="" data-di-id="di-id-a31a841b-e1b0620b">
+            Add video to your CX/EX program        </a>
+        
+                    </div>
+
+        <div class="image__wrap image-size-normal" style="background-image: url('https://www.medallia.com/wp-content/uploads/2024/06/video-001.avif'); aspect-ratio: 1104 / 808 ">
+    </div>
+
+</div>            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-gray text-black pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="header-container ml-none mr-none mt-medium mb-none">
+    <div class="header__wrap w-100">
+                <div class="green-line__wrap">
+            <div class="green-line"></div>
+        </div>
+                <h2 class="text-style-none  text-align-center text-black">Remote Market Research Made Easy        </h2>
+            </div>
+</div>
+<div class="solo-content ml-none mr-none mt-none mb-medium">
+    <div class="content__wrap w-100">
+        <div class="text-align-left"> <p>For research and insights teams, Medallia Video Research Edition lets you:</p>
+</div>
+    </div>
+</div>
+<div class="image-copy image-side-right ml-none mr-none mt-medium mb-medium v-align-center type-normal">
+
+    <div class="copy__wrap">
+
+        <div class="content">
+                        <ul>
+<li>Capture recordings directly or pull in any other video or audio content (incl. Zoom recordings &amp; transcripts)</li>
+<li>Create a centralized video asset library accessible by the entire organization</li>
+<li>Transform research findings into key insights to better understand and serve your customers, in real-time</li>
+<li>Compile and share video showreels with executives, boards and key stakeholders, driving intelligent action across your organization</li>
+</ul>
+        </div>
+
+                    </div>
+
+        <div class="image__wrap image-size-normal" style="background-image: url('https://www.medallia.com/wp-content/uploads/2024/06/video-002.avif'); aspect-ratio: 1104 / 808 ">
+    </div>
+
+</div>            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-white text-black pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="image-copy image-side-left ml-none mr-none mt-medium mb-medium v-align-center type-normal">
+
+    <div class="copy__wrap">
+
+        <div class="content">
+                        <h2 id="capture-insights-virtually-with-zoom">Capture insights virtually with Zoom</h2>
+<p>Our market-leading video intelligence technology integrates with Zoom so you can capture powerful feedback via market research video sessions. Medallia Video rapidly transcribes the video content from consenting virtual focus groups and in-depth interviews. Your Zoom recordings are then centralized in a single asset management platform. And you can always capture all of your video directly in Medallia Video.</p>
+<p>The Medallia Video Zoom connector is available for customers of both Zoom and Medallia Video Research Edition.</p>
+        </div>
+
+                <a target="_blank" href="https://marketplace.zoom.us/apps/Jnw8rWiVRiCgjqtK8TrqaQ" class="btn btn-blue-white" "_blank"="" data-di-id="di-id-53aaaeac-eb436b36">
+            Install the app        </a>
+        
+                    </div>
+
+        <div class="image__wrap image-size-normal" style="background-image: url('https://www.medallia.com/wp-content/uploads/2024/06/video-003.avif'); aspect-ratio: 1104 / 808 ">
+    </div>
+
+</div>            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-gray text-black pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="image-copy image-side-right ml-none mr-none mt-medium mb-medium v-align-center type-normal">
+
+    <div class="copy__wrap">
+
+        <div class="content">
+                        <h2 id="dive-deep-into-user-testing-to-easily-pinpoint-moments-that-matter">Dive deep into user testing to easily pinpoint moments that matter</h2>
+<p>Get closer to your customers by generating insights from their interactions with your products or experiences. Leverage Medallia Video Research Edition to collect and analyze user experience data, at scale. Go beyond screen capture and voiceover by analyzing reactions caught on video for sentiment, facial emotion, and object recognition.</p>
+        </div>
+
+                    </div>
+
+        <div class="image__wrap image-size-normal" style="background-image: url('https://www.medallia.com/wp-content/uploads/2024/06/video-004.avif'); aspect-ratio: 1104 / 808 ">
+    </div>
+
+</div>            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-white text-black pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="image-copy image-side-left ml-none mr-none mt-medium mb-medium v-align-center type-normal">
+
+    <div class="copy__wrap">
+
+        <div class="content">
+                        <h2 id="auto-extract-rich-signals-from-focus-groups-idis">Auto extract rich signals from focus groups &amp; IDIs</h2>
+<p>Leverage the cloud to upload and transcribe recordings of focus groups or in-depth interviews into the Medallia Video Research Edition platform. Alternatively, upload existing content and Medallia Video will timestamp and transcode the content for you.</p>
+        </div>
+
+                    </div>
+
+        <div class="image__wrap image-size-normal" style="background-image: url('https://www.medallia.com/wp-content/uploads/2024/06/video-005.avif'); aspect-ratio: 1104 / 808 ">
+    </div>
+
+</div>            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-midnight text-white pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="solo-image ml-none mr-none mt-medium mb-medium">
+    <div class="image__wrap logo">
+        <img src="https://www.medallia.com/wp-content/uploads/2024/06/just-world-wide-white.avif" alt="">
+    </div>
+</div>
+<div class="solo-content ml-none mr-none mt-medium mb-medium">
+    <div class="content__wrap w-70">
+        <div class="text-align-center"> <h2>“There’s been no slowdown in terms of what we’ve been able to deliver for clients – even in a global pandemic which has hit our sector hard. Having worked with Medallia Video for 3 years, we’ve been able to grow our patient journey research work by 10-20% year over year.”</h2>
+<div class="name">
+<p>&nbsp;</p>
+<p><strong>SALLY UDAYAKUMAR<br>
+</strong>Research Manager, Just Worldwide<strong><br>
+</strong></p>
+</div>
+</div>
+    </div>
+</div>
+<div class="cta-button ml-none mr-none mt-medium mb-medium">
+    <a target="_self" href="https://www.medallia.com/resource/just-worldwide-case-study/" class="btn btn-white-midnight" data-di-id="di-id-36c38120-2c29d20e">
+        Download now    </a>
+    </div>
+            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-white text-black pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="image-copy image-side-left ml-none mr-none mt-medium mb-medium v-align-center type-normal">
+
+    <div class="copy__wrap">
+
+        <div class="content">
+                        <h2 id="identify-key-themes-patterns-and-trends-within-your-video-content">Identify key themes, patterns, and trends within your video content</h2>
+<p>Use Medallia Video Research Edition to capture your market’s reaction to advertisements and marketing efforts. Record respondent reactions using any of our capture methods. Review and analyze video responses in our platform to immediately gauge marketing effectiveness, and share insights with your team to inform campaigns.</p>
+        </div>
+
+                    </div>
+
+        <div class="image__wrap image-size-normal" style="background-image: url('https://www.medallia.com/wp-content/uploads/2024/06/video-006.avif'); aspect-ratio: 1104 / 808 ">
+    </div>
+
+</div>            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-gray text-black pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="image-copy image-side-right ml-none mr-none mt-medium mb-medium v-align-center type-normal">
+
+    <div class="copy__wrap">
+
+        <div class="content">
+                        <h2 id="storytelling-at-a-global-level">Storytelling at a global level</h2>
+<p>Transcribe and analyze speech-to-text in 50+ languages to pinpoint local and global trends.</p>
+        </div>
+
+                    </div>
+
+        <div class="image__wrap image-size-normal" style="background-image: url('https://www.medallia.com/wp-content/uploads/2024/06/video-007.avif'); aspect-ratio: 1104 / 808 ">
+    </div>
+
+</div>            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-midnight text-white pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="header-container ml-none mr-none mt-medium mb-medium">
+    <div class="header__wrap w-100">
+                <div class="green-line__wrap">
+            <div class="green-line"></div>
+        </div>
+                <h2 class="text-style-none  text-align-center text-white">How Medallia Video Research Edition works        </h2>
+            </div>
+</div>
+<div class="list-image-copy ml-none mr-none mt-medium mb-medium">
+        <div class="list-item">
+        <div class="image__wrap medium">
+            <img class="" src="https://www.medallia.com/wp-content/uploads/2024/06/icon-tools-browser-white.avif" alt="">
+        </div>
+        <div class="content__wrap">
+            <div class="copy__wrap">
+                <h4 class="list-title"> Integrate</h4>
+                <p class="list-copy"> </p><p>Our plug and play APIs enable seamless integration with your existing technology stack. If you don’t need to integrate, jump straight to Capture.</p>
+<p></p>
+            </div>
+                    </div>
+    </div>
+        <div class="list-item">
+        <div class="image__wrap medium">
+            <img class="" src="https://www.medallia.com/wp-content/uploads/2024/06/icon-pie-graph-white.avif" alt="">
+        </div>
+        <div class="content__wrap">
+            <div class="copy__wrap">
+                <h4 class="list-title"> Capture</h4>
+                <p class="list-copy"> </p><p>Capture video feedback content from surveys, our mobile app, the cloud, or even Zoom. Upload new or existing video content quickly and easily using our video capture tools.</p>
+<p></p>
+            </div>
+                    </div>
+    </div>
+        <div class="list-item">
+        <div class="image__wrap medium">
+            <img class="" src="https://www.medallia.com/wp-content/uploads/2024/06/icon-movie-white.avif" alt="">
+        </div>
+        <div class="content__wrap">
+            <div class="copy__wrap">
+                <h4 class="list-title"> Analyze</h4>
+                <p class="list-copy"> </p><p>Dig deep into speech, emotion, object, and context data to understand meaningful trends in your video content using powerful AI and machine-learning tools.</p>
+<p></p>
+            </div>
+                    </div>
+    </div>
+        <div class="list-item">
+        <div class="image__wrap medium">
+            <img class="" src="https://www.medallia.com/wp-content/uploads/2024/06/icon-megaphone-white.avif" alt="">
+        </div>
+        <div class="content__wrap">
+            <div class="copy__wrap">
+                <h4 class="list-title"> Share</h4>
+                <p class="list-copy"> </p><p>Create impactful showreels and data reports in minutes to humanize your feedback strategy and bring the voice of the customer to life.</p>
+<p></p>
+            </div>
+                    </div>
+    </div>
+    </div>            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-gray text-black pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="cta-large bg-white ml-none mr-none mt-medium mb-medium">
+    <div class="content__wrap">
+        <div class="copy__wrap">
+            <h5 class="cta-type">Guide</h5>
+            <h2 class="title"></h2>
+            <div class="wysiyg__wrap">
+                <h3 id="the-ultimate-guide-to-virtual-market-research">The Ultimate Guide to Virtual Market Research</h3>
+<p>Want to learn more about optimizing market research in today’s virtual environment? Get the ultimate guide to Virtual Market Research for enterprise today.</p>
+            </div>
+        </div>
+        <div class="button__wrap">
+                                    <a target="_self" href="https://www.medallia.com/resource/ultimate-guide-to-virtual-market-research/" class="btn btn-blue-white" "_self"="" data-di-id="di-id-53aaaeac-f97f6781">
+                Read now            </a>
+                    </div>
+    </div>
+</div>            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="" class="section">
+
+            <div class="section__wrap bg-white text-black pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="header-container ml-none mr-none mt-medium mb-medium">
+    <div class="header__wrap w-100">
+                <div class="green-line__wrap">
+            <div class="green-line"></div>
+        </div>
+                <h2 class="text-style-none  text-align-center text-black">Success Stories        </h2>
+            </div>
+</div>
+
+<div class="image-copy-cards ml-none mr-none mt-medium mb-medium">
+                                <a target="_self" href="https://www.medallia.com/resource/fast-rich-video-insights-power-amazing-mobile-experiences-at-del-taco" class="card" ""="" data-di-id="di-id-c26e1125-5f7f8b06">
+                                            <div class="background-image__wrap">
+                            <div style="background-image: url(https://www.medallia.com/wp-content/uploads/2024/06/video-case-study-001.avif); aspect-ratio: 788 / 444" class="image__wrap">
+                            </div>
+                        </div>
+
+                        <div class="content__wrap">
+                                                            <p class="card-type">
+                                    Case Study                                </p>
+                                                        <h4 class="card-title"> Del Taco leverages video insights to drive change and engagement</h4>
+                            <p class="card-copy"> </p>
+                        </div>
+
+                        <div class="cta__wrap">
+                            <span>Learn more</span>
+                        </div>
+                                    </a>
+                                            <a target="_self" href="https://www.medallia.com/resource/buzzback-case-study/" class="card" ""="" data-di-id="di-id-e279d657-749a7faa">
+                                            <div class="background-image__wrap">
+                            <div style="background-image: url(https://www.medallia.com/wp-content/uploads/2024/06/video-case-study-002.avif); aspect-ratio: 788 / 444" class="image__wrap">
+                            </div>
+                        </div>
+
+                        <div class="content__wrap">
+                                                            <p class="card-type">
+                                    Case Study                                </p>
+                                                        <h4 class="card-title"> Buzzback uses video to influence strategic decision making</h4>
+                            <p class="card-copy"> </p>
+                        </div>
+
+                        <div class="cta__wrap">
+                            <span>Learn more</span>
+                        </div>
+                                    </a>
+                                            <a target="_self" href="https://www.medallia.com/resource/just-worldwide-case-study/" class="card" ""="" data-di-id="di-id-efc2c29d-2dd7f6a">
+                                            <div class="background-image__wrap">
+                            <div style="background-image: url(https://www.medallia.com/wp-content/uploads/2024/06/video-case-study-003.avif); aspect-ratio: 788 / 444" class="image__wrap">
+                            </div>
+                        </div>
+
+                        <div class="content__wrap">
+                                                            <p class="card-type">
+                                    Case Study                                </p>
+                                                        <h4 class="card-title"> Just Worldwide increased patient journey work 10-20% YoY with video</h4>
+                            <p class="card-copy"> </p>
+                        </div>
+
+                        <div class="cta__wrap">
+                            <span>Learn more</span>
+                        </div>
+                                    </a>
+                </div>
+<div class="cta-button ml-none mr-none mt-medium mb-medium">
+    <a target="_self" href="https://www.medallia.com/resource-library/" class="btn btn-blue-white" data-di-id="di-id-1657ecbd-46b1e4c2">
+        View All Resources    </a>
+    </div>
+            </div>
+
+        </div>
+    
+</section>
+
+
+<section id="footer-form" class="section">
+
+            <div class="section__wrap bg-blue text-white pl-none pr-none pt-large pb-large">
+            
+            <div class="container">
+                
+<div class="footer-form ml-none mr-none mt-medium mb-medium" id="3827">
+
+    <div class="c-medallia-form" id="medallia-form">
+        <div class="form-titles__wrap">
+
+                        <div class="form-text w-100">
+                                <h2 class="form-title">Learn more about Medallia Video</h2>
+                            </div>
+                    </div>
+
+        <div class="form-fail-load-message" style="display: none;">
+            <h4>
+                Oops… looks like we're having trouble. Please refresh the page and try
+                again.
+            </h4>
+            <button onclick="window.location.reload();" class="btn btn-white-blue" data-di-id="di-id-1b0a58c8-d1a2939">
+                Refresh Page
+            </button>
+        </div>
+
+        <div data-form-status="ready" class="form form--two-col form--dark" style="display: block;">
+            <div class="form__wrap">
+                <form id="mktoForm_3827" __bizdiag="196418924" __biza="W___" novalidate="novalidate" style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: rgb(51, 51, 51); width: 296px;" class="mktoForm mktoHasWidth mktoLayoutAbove"><div class="mktoFormRow"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="FirstName" id="LblFirstName" class="mktoLabel mktoHasWidth" style="width: 140px;"><div class="mktoAsterix">*</div>First Name:</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><input id="FirstName" name="FirstName" placeholder="* First Name" maxlength="100" aria-labelledby="LblFirstName InstructFirstName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" style="width: 285px;" aria-required="true"><span id="InstructFirstName" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="LastName" id="LblLastName" class="mktoLabel mktoHasWidth" style="width: 140px;"><div class="mktoAsterix">*</div>Last Name:</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><input id="LastName" name="LastName" placeholder="* Last Name" maxlength="100" aria-labelledby="LblLastName InstructLastName" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" style="width: 285px;" aria-required="true"><span id="InstructLastName" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="Email" id="LblEmail" class="mktoLabel mktoHasWidth" style="width: 285px;"><div class="mktoAsterix">*</div>Business Email Address:</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><input id="Email" name="Email" placeholder="* Business Email Address" maxlength="100" aria-labelledby="LblEmail InstructEmail" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" style="width: 285px;" aria-required="true"><span id="InstructEmail" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="Company" id="LblCompany" class="mktoLabel mktoHasWidth" style="width: 140px;"><div class="mktoAsterix">*</div>Company:</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><input id="Company" name="Company" placeholder="* Company" maxlength="100" aria-labelledby="LblCompany InstructCompany" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" style="width: 285px;" aria-required="true"><span id="InstructCompany" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="Title" id="LblTitle" class="mktoLabel mktoHasWidth" style="width: 140px;"><div class="mktoAsterix">*</div>Job Title:</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><input id="Title" name="Title" placeholder="* Job Title" maxlength="255" aria-labelledby="LblTitle InstructTitle" type="text" class="mktoField mktoTextField mktoHasWidth mktoRequired" style="width: 285px;" aria-required="true"><span id="InstructTitle" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="Country" id="LblCountry" class="mktoLabel mktoHasWidth" style="width: 140px;"><div class="mktoAsterix">*</div>Country:</label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><select id="Country" name="Country" aria-labelledby="LblCountry InstructCountry" class="mktoField mktoHasWidth mktoRequired" style="width: 285px;" aria-required="true"><option value="">Country</option><option value="United States">United States</option><option value="Afghanistan">Afghanistan</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Antigua &amp; Barbuda">Antigua &amp; Barbuda</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Bahamas">Bahamas</option><option value="Bahrain">Bahrain</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Belgium">Belgium</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bhutan">Bhutan</option><option value="Bolivia">Bolivia</option><option value="Bosnia &amp; Herzegovina">Bosnia &amp; Herzegovina</option><option value="Botswana">Botswana</option><option value="Brazil">Brazil</option><option value="Brunei">Brunei</option><option value="Bulgaria">Bulgaria</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Cambodia">Cambodia</option><option value="Cameroon">Cameroon</option><option value="Canada">Canada</option><option value="Cape Verde">Cape Verde</option><option value="Central African Republic">Central African Republic</option><option value="Chad">Chad</option><option value="Chile">Chile</option><option value="China">China</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Congo Democratic Republic">Congo Democratic Republic</option><option value="Congo">Congo</option><option value="Costa Rica">Costa Rica</option><option value="Cote d'Ivoire">Cote d'Ivoire</option><option value="Croatia">Croatia</option><option value="Cuba">Cuba</option><option value="Cyprus">Cyprus</option><option value="Czech Republic">Czech Republic</option><option value="Denmark">Denmark</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Dominican Republic">Dominican Republic</option><option value="East Timor">East Timor</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Eritrea">Eritrea</option><option value="Estonia">Estonia</option><option value="Ethiopia">Ethiopia</option><option value="Fiji">Fiji</option><option value="Finland">Finland</option><option value="France">France</option><option value="Gabon">Gabon</option><option value="Gambia">Gambia</option><option value="Georgia">Georgia</option><option value="Germany">Germany</option><option value="Ghana">Ghana</option><option value="Gibraltar">Gibraltar</option><option value="Greece">Greece</option><option value="Grenada">Grenada</option><option value="Guatemala">Guatemala</option><option value="Guinea-Bissau">Guinea-Bissau</option><option value="Guinea">Guinea</option><option value="Guyana">Guyana</option><option value="Haiti">Haiti</option><option value="Honduras">Honduras</option><option value="Hong Kong">Hong Kong</option><option value="Hungary">Hungary</option><option value="Iceland">Iceland</option><option value="India">India</option><option value="Indonesia">Indonesia</option><option value="Iran">Iran</option><option value="Iraq">Iraq</option><option value="Ireland">Ireland</option><option value="Isle of Man">Isle of Man</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Japan">Japan</option><option value="Jordan">Jordan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kiribati">Kiribati</option><option value="Kosovo">Kosovo</option><option value="Kuwait">Kuwait</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Laos">Laos</option><option value="Latvia">Latvia</option><option value="Lebanon">Lebanon</option><option value="Lesotho">Lesotho</option><option value="Liberia">Liberia</option><option value="Libya">Libya</option><option value="Liechtenstein">Liechtenstein</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Macedonia">Macedonia</option><option value="Madagascar">Madagascar</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marshall Islands">Marshall Islands</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Mexico">Mexico</option><option value="Micronesia">Micronesia</option><option value="Moldova">Moldova</option><option value="Monaco">Monaco</option><option value="Mongolia">Mongolia</option><option value="Montenegro">Montenegro</option><option value="Morocco">Morocco</option><option value="Mozambique">Mozambique</option><option value="Myanmar (Burma)">Myanmar (Burma)</option><option value="Namibia">Namibia</option><option value="Nauru">Nauru</option><option value="Nepal">Nepal</option><option value="Netherlands">Netherlands</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="North Korea">North Korea</option><option value="Norway">Norway</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Palau">Palau</option><option value="Palestinian State">Palestinian State</option><option value="Panama">Panama</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Qatar">Qatar</option><option value="Romania">Romania</option><option value="Russia">Russia</option><option value="Rwanda">Rwanda</option><option value="Samoa">Samoa</option><option value="San Marino">San Marino</option><option value="Sao Tome &amp; Principe">Sao Tome &amp; Principe</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Senegal">Senegal</option><option value="Serbia">Serbia</option><option value="Seychelles">Seychelles</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapore">Singapore</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Solomon Islands">Solomon Islands</option><option value="Somalia">Somalia</option><option value="South Africa">South Africa</option><option value="South Korea">South Korea</option><option value="South Sudan">South Sudan</option><option value="Spain">Spain</option><option value="Sri Lanka">Sri Lanka</option><option value="St. Kitts &amp; Nevis">St. Kitts &amp; Nevis</option><option value="St. Lucia">St. Lucia</option><option value="St. Vincent &amp; The Grenadines">St. Vincent &amp; The Grenadines</option><option value="Sudan">Sudan</option><option value="Suriname">Suriname</option><option value="Swaziland">Swaziland</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Syria">Syria</option><option value="Taiwan">Taiwan</option><option value="Tajikistan">Tajikistan</option><option value="Tanzania">Tanzania</option><option value="Thailand">Thailand</option><option value="Togo">Togo</option><option value="Tonga">Tonga</option><option value="Trinidad &amp; Tobago">Trinidad &amp; Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Turkmenistan">Turkmenistan</option><option value="Tuvalu">Tuvalu</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="United Arab Emirates">United Arab Emirates</option><option value="United Kingdom">United Kingdom</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistan</option><option value="Vanuatu">Vanuatu</option><option value="Vatican City (Holy See)">Vatican City (Holy See)</option><option value="Venezuela">Venezuela</option><option value="Vietnam">Vietnam</option><option value="Yemen">Yemen</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option></select><span id="InstructCountry" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow medallia-checkbox-row"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap"><label for="emailOptIn" id="LblemailOptIn" class="mktoLabel mktoHasWidth" style="width: 0px;"><div class="mktoAsterix">*</div></label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><div class="mktoLogicalField mktoCheckboxList mktoHasWidth" style="width: 285px;"><input name="emailOptIn" id="mktoCheckbox_62106_0" type="checkbox" value="true" aria-labelledby="LblemailOptIn LblmktoCheckbox_62106_0 InstructemailOptIn" class="mktoField"><label for="mktoCheckbox_62106_0" id="LblmktoCheckbox_62106_0">By checking this box, I agree to receive information and promotional material about Medallia solutions.  </label></div><span id="InstructemailOptIn" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow medallia-checkbox-row"><div class="mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;"><div class="mktoOffset" style="width: 10px;"></div><div class="mktoFieldWrap mktoRequiredField"><label for="termsandConditions" id="LbltermsandConditions" class="mktoLabel mktoHasWidth" style="width: 0px;"><div class="mktoAsterix">*</div></label><div class="mktoGutter mktoHasWidth" style="width: 10px;"></div><div class="mktoLogicalField mktoCheckboxList mktoHasWidth mktoRequired" style="width: 285px;"><input name="termsandConditions" id="mktoCheckbox_62101_0" type="checkbox" value="yes" aria-required="true" aria-labelledby="LbltermsandConditions LblmktoCheckbox_62101_0 InstructtermsandConditions" class="mktoField"><label for="mktoCheckbox_62101_0" id="LblmktoCheckbox_62101_0">By submitting this form, you accept the site <a href="https://www.medallia.com/terms-of-use/" target="_blank" data-di-id="di-id-4bcf60fc-6f9ea80d">terms &amp; conditions</a> and the <a href="https://www.medallia.com/privacy-policy/" target="_blank" data-di-id="di-id-b0eb94ee-d4518ab0">privacy policy</a>.</label></div><span id="InstructtermsandConditions" tabindex="-1" class="mktoInstruction"></span><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="LeadSource" class="mktoField mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;" value=""><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="UTM_Campaign_Most_Recent__c" class="mktoField mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;" value=""><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="UTM_Content_Most_Recent__c" class="mktoField mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;" value=""><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="UTM_Medium_Most_Recent__c" class="mktoField mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;" value=""><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="UTM_Source_Most_Recent__c" class="mktoField mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;" value=""><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="UTM_Term_Most_Recent__c" class="mktoField mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;" value=""><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="Conversion_Page_Most_Recent__c" class="mktoField mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;" value="custom_mktoReferrer"><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="GCLID__c" class="mktoField mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;" value=""><div class="mktoClear"></div></div><div class="mktoFormRow"><input type="hidden" name="Mktg_Intellimize_Testing__c" class="mktoField mktoFieldDescriptor mktoFormCol" style="margin-bottom: 10px;" value=""><div class="mktoClear"></div></div><div class="mktoButtonRow"><span class="mktoButtonWrap mktoInset" style="margin-left: 120px;"><button type="submit" class="mktoButton" data-di-id="di-id-2115e0b7-8b7a20c1">Submit</button></span></div><input type="hidden" name="formid" class="mktoField mktoFieldDescriptor" value="3827"><input type="hidden" name="munchkinId" class="mktoField mktoFieldDescriptor" value="141-HJW-872"></form>
+            </div>
+        </div>
+
+        <div data-form-status="loading" class="form-header hidden-header loading" style="display: none;">
+            <div class="medallia-loader__wrap">loading</div>
+        </div>
+
+        <div data-form-status="notAvailable" class="form-header hidden-header not_available" style="display: none;">
+            The form cannot be displayed at this time. Please connect with us via
+            our website chat.
+        </div>
+
+        <div data-form-status="submitted" class="form-header hidden-header submitted" style="display: none;">
+            <div class="thank-you-title">
+                                <h4>Thank you</h4>
+                            </div>
+            <div class="thank-you-text">
+                                <p>Thank you for your interest in Medallia.</p>
+                            </div>
+        </div>
+    </div>
+</div>
+            </div>
+
+        </div>
+    
+</section>
+
+</main>
+
+<div id="consent_blackbar"><div id="emptybanner" style="display:none;">blank</div></div>
+
+			
+		
+
+
+
+
+
+<iframe style="display: none;" name="trustarc_notice" id="trustarcNoticeFrame" title="Trustarc Cross-Domain Consent Frame" src="https://consent.trustarc.com/get?name=crossdomain.html&amp;domain=medallia.com"></iframe><iframe style="display: none; border: 0px none;" alt="" aria-hidden="false" sandbox="" id="db-sync" src="https://s.company-target.com/s/sync?exc=lr" width="0" height="0"></iframe><img style="display: none;" alt="" aria-hidden="false" id="db_lr_pixel_ad" src="https://id.rlcdn.com/464526.gif" width="0" height="0">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="weglot-container wg-default" data-switcher-id="1" id="weglot-switcher-1"><div style="" data-wg-notranslate="true" aria-expanded="false" aria-haspopup="listbox" role="combobox" tabindex="0" class="weglot_switcher vertical_expand closed wg-down wg-right"><div style="background-color: rgb(255, 255, 255);" aria-label="Language selected: English" role="option" class="language-option active-language"><a href="#" aria-label="EN" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" id="weglot-language-en" data-di-id="#weglot-language-en"><img src="https://cdn.weglot.com/flags/square/us.svg" alt="English flag" class="wg-flag" width="20" height="20">EN</a></div><div role="listbox" class="language-list"><div style="background-color: rgb(255, 255, 255);" role="option" class="language-option"><a href="https://www.medallia.com/fr/products/video/" aria-label="FR" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" id="weglot-language-fr" data-di-id="#weglot-language-fr"><img src="https://cdn.weglot.com/flags/square/fr.svg" alt="Français flag" class="wg-flag" width="20" height="20">FR</a></div><div style="background-color: rgb(255, 255, 255);" role="option" class="language-option"><a href="https://www.medallia.com/de/products/video/" aria-label="DE" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" id="weglot-language-de" data-di-id="#weglot-language-de"><img src="https://cdn.weglot.com/flags/square/de.svg" alt="Deutsch flag" class="wg-flag" width="20" height="20">DE</a></div><div style="background-color: rgb(255, 255, 255);" role="option" class="language-option"><a href="https://www.medallia.com/es/productos/video/" aria-label="ES" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" id="weglot-language-es" data-di-id="#weglot-language-es"><img src="https://cdn.weglot.com/flags/square/es.svg" alt="Español flag" class="wg-flag" width="20" height="20">ES</a></div><div style="background-color: rgb(255, 255, 255);" role="option" class="language-option"><a href="https://www.medallia.com/latam/productos/video/" aria-label="LATAM" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" id="weglot-language-latam" data-di-id="#weglot-language-latam"><img src="https://cdn.weglot.com/flags/square/mx.svg" alt="Español (América Latina) flag" class="wg-flag" width="20" height="20">LATAM</a></div><div style="background-color: rgb(255, 255, 255);" role="option" class="language-option"><a href="https://www.medallia.com/it/prodotti/video/" aria-label="IT" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" id="weglot-language-it" data-di-id="#weglot-language-it"><img src="https://cdn.weglot.com/flags/square/it.svg" alt="Italiano flag" class="wg-flag" width="20" height="20">IT</a></div><div style="background-color: rgb(255, 255, 255);" role="option" class="language-option"><a href="https://www.medallia.com/ja/products/video/" aria-label="JA" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" id="weglot-language-ja" data-di-id="#weglot-language-ja"><img src="https://cdn.weglot.com/flags/square/jp.svg" alt="日本語 flag" class="wg-flag" width="20" height="20">JA</a></div><div style="background-color: rgb(255, 255, 255);" role="option" class="language-option"><a href="https://www.medallia.com/ko/products/video/" aria-label="KO" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" id="weglot-language-ko" data-di-id="#weglot-language-ko"><img src="https://cdn.weglot.com/flags/square/kr.svg" alt="한국어 flag" class="wg-flag" width="20" height="20">KO</a></div><div style="background-color: rgb(255, 255, 255);" role="option" class="language-option"><a href="https://www.medallia.com/pt-br/produtos/video/" aria-label="BR" style="color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);" id="weglot-language-br" data-di-id="#weglot-language-br"><img src="https://cdn.weglot.com/flags/square/br.svg" alt="Português Brasileiro flag" class="wg-flag" width="20" height="20">BR</a></div></div></div></div><img style="display: none;" alt="" src="https://cdn.bizible.com/ipv?_biz_r=&amp;_biz_h=-968268825&amp;_biz_u=ee16e8f1e6a4427df318a848e0ebefc0&amp;_biz_l=https%3A%2F%2Fwww.medallia.com%2Fproducts%2Fvideo%2F%3Futm_campaign%3Dlivinglensmigration&amp;_biz_t=1739318304714&amp;_biz_i=Leverage%20simplified%20end-to-end%20video%20research%20solution%20with%20Medallia%20Video.%20%E2%80%93%20Medallia&amp;_biz_n=0&amp;rnd=918283&amp;cdn_o=a&amp;_biz_z=1739318304994"><img style="display: none;" alt="" src="https://cdn.bizibly.com/u?_biz_u=ee16e8f1e6a4427df318a848e0ebefc0&amp;_biz_l=https%3A%2F%2Fwww.medallia.com%2Fproducts%2Fvideo%2F%3Futm_campaign%3Dlivinglensmigration&amp;_biz_t=1739318304996&amp;_biz_i=Leverage%20simplified%20end-to-end%20video%20research%20solution%20with%20Medallia%20Video.%20%E2%80%93%20Medallia&amp;rnd=230965&amp;cdn_o=a&amp;_biz_z=1739318304996"><img style="border-style:none;" alt="" src="https://insight.adsrvr.org/track/pxl/?adv=y04s7do&amp;ct=0:5ew5slc&amp;fmt=3" width="1" height="1">
+
+ 
+
+
+
+
+
+        <iframe name="" class="qlfd-not-mobile" id="q-messenger-frame" data-mirrored="true" allow="camera;microphone" title="Qualified Messenger" style="
+              height: 450px !important;
+              width: 320px !important;
+              visibility: hidden !important;
+              content-visibility: hidden !important;
+            " src="https://app.qualified.com/w/1/1aA65J9ukmpbyPns/messenger?uuid=df185037-8132-4077-a9f1-c285a2a81fa9"></iframe><img style="display: none;" alt="" src="https://cdn.bizible.com/u?mapType=mkto&amp;mapValue=id%3A141-HJW-872%26token%3A_mch-medallia.com-1356b3eec8c6e1af12726961efb71400&amp;_biz_u=ee16e8f1e6a4427df318a848e0ebefc0&amp;_biz_l=https%3A%2F%2Fwww.medallia.com%2Fproducts%2Fvideo%2F%3Futm_campaign%3Dlivinglensmigration&amp;_biz_t=1739318306133&amp;_biz_i=Leverage%20simplified%20end-to-end%20video%20research%20solution%20with%20Medallia%20Video.%20%E2%80%93%20Medallia&amp;_biz_n=1&amp;rnd=285600&amp;cdn_o=a&amp;_biz_z=1739318306133"><img style="display: none;" alt="" src="https://cdn.bizible.com/u?mapType=ecid&amp;mapValue=28F958C45FF3799D0A495C47%40AdobeOrg_03052650747963841722410939922417224622&amp;_biz_u=ee16e8f1e6a4427df318a848e0ebefc0&amp;_biz_l=https%3A%2F%2Fwww.medallia.com%2Fproducts%2Fvideo%2F%3Futm_campaign%3Dlivinglensmigration&amp;_biz_t=1739318306134&amp;_biz_i=Leverage%20simplified%20end-to-end%20video%20research%20solution%20with%20Medallia%20Video.%20%E2%80%93%20Medallia&amp;_biz_n=2&amp;rnd=478734&amp;cdn_o=a&amp;_biz_z=1739318306274"><iframe id="universal_pixel_mw22bm6" style="display:none;" src="https://insight.adsrvr.org/track/up?adv=y04s7do&amp;ref=https%3A%2F%2Fwww.medallia.com%2Fproducts%2Fvideo%2F%3Futm_campaign%3Dlivinglensmigration&amp;upid=mw22bm6&amp;upv=1.1.0" title="TTD Universal Pixel" width="0" height="0"></iframe><span id="kampyleButtonContainer"><button id="nebula_div_btn" style="position: fixed !important; border: medium none; bottom: 921px;" alt="Feedback" tabindex="0" class="kampyle_vertical_button kampyle_left  wcagOutline " data-di-id="#nebula_div_btn"><div class="kampyle_button"></div><div data-aut="feedback" class="kampyle_button-text">Feedback</div></button></span><div id="mktoStyleLoaded" style="display: none; border-top-color: rgb(18, 52, 86);"></div><form __bizdiag="94453780" __biza="W___" novalidate="novalidate" style="font-family: Helvetica, Arial, sans-serif; font-size: 13px; color: rgb(51, 51, 51); visibility: hidden; position: absolute; top: -500px; left: -1000px; width: 1080px;" class="mktoForm mktoHasWidth mktoLayoutAbove"></form><iframe name="mktoFormsXDIframe0.5393225572164762" id="MktoForms2XDIframe" style="display: none;" src="https://go2.medallia.com/index.php/form/XDFrame"></iframe></body><div class="THX_IP">
+
+    
+    <button one-asset-response="negative" class="btn btn-exit" style="width: 55px; height: 55px; text-align: center; padding: 0px; border-radius: 50px; left: 20px; bottom: 20px; background-color: #4050c6; position: fixed; color: rgb(255, 255, 255); cursor: pointer; border: none; font-size: 30px;transform: rotate(45deg)" data-di-id="di-id-631b0203-55f7910a"><p class="xclose">+</p>
+    </button>
+    <div id="medallia-popup" class="ex-pop-up-b animate-intro" style="position: fixed; background: rgb(255, 255, 255); bottom: 70px; left: 70px;height: auto; max-width: 400px; padding: 25px 40px; border: 2px solid rgb(255, 255, 255); border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px 0px; transition: all 0.5s ease 0s; text-align: center; z-index: 10;">
+        <h3 style="text-transform: uppercase; color: rgb(64, 80, 198); font-size: 22px; font-weight: 600">
+
+            WELCOME TO MEDALLIA VIDEO!
+
+        </h3>
+
+        <p style="font-size: 16px;">
+
+            The Medallia Video website has been updated. New Webpage, Same Great Experience
+
+        </p>
+        <p>
+            Clients log in
+            <a href="https://app.livinglens.tv/login" class="" style="width: 100%; font-family: graphik, sans-serif;" one-asset-response="positive" data-di-id="di-id-b99826f4-b7b91de7">
+
+                here
+
+            </a>
+        </p>
+
+        
+    </div>
+</div></html>

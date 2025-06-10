@@ -1,0 +1,27 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may use TelemetryDeck to collect anonymized data from our apps.
+  purposes: {}
+- source: we
+  target: identifiable information
+  key: COLLECT
+  text:
+  - This data is completely private and does not contain personal identifiable information.
+  - We only use such information to diagnose problems and improve the services we
+    offer.
+  purposes:
+    services:
+    - to diagnose problems and improve the services we offer
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: identifiable information

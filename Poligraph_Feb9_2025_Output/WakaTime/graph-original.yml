@@ -1,0 +1,435 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we may share your information with third parties with which you authorize
+    us to do so, such as the integrations that you connect to your account through
+    our Integrations feature.
+  - If you grant us authorization to integrate with another service provider , we
+    will connect that service to ours and only collect data from that service which
+    is necessary to provide you the integration service.
+  - 'We collect information in the following ways:'
+  - We may collect information about the services you use and how you use them, like
+    which pages you visit and which features you use.
+  - We retain your data while you have an active account.
+  - 'With your consent: We may share and disclose information with your consent or
+    at your direction.'
+  purposes: {}
+- source: we
+  target: branch name
+  key: COLLECT
+  text:
+  - We collect and store the path of the file you are editing, timestamps, project
+    names, branch names, editor names & versions, languages, libraries/imports from
+    opened files, line counts of opened files, position of your cursor in opened files,
+    your computer's hostname, your computer's timezone, your computer's operating
+    system name and version information, and websites visited in your browser from
+    your usage of our downloadable plugins .
+  purposes: {}
+- source: we
+  target: calendar name
+  key: COLLECT
+  text:
+  - After you have selected which calendars to integrate with WakaTime, we only store
+    the calendar names, event titles, event start times, and event end times for the
+    calendars you have selected.
+  purposes: {}
+- source: we
+  target: card type of credit card
+  key: COLLECT
+  text:
+  - We only store the last 4 digits, expiration date, and card type of your credit
+    card on our servers for reference.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies with unique identifiers to authenticate your login session.
+  purposes:
+    security:
+    - to authenticate your login session
+    services:
+    - to authenticate your login session
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - We collect billing address and credit card information if you purchase a premium
+    version of WakaTime.
+  purposes: {}
+- source: we
+  target: editor name
+  key: COLLECT
+  text:
+  - We collect and store the path of the file you are editing, timestamps, project
+    names, branch names, editor names & versions, languages, libraries/imports from
+    opened files, line counts of opened files, position of your cursor in opened files,
+    your computer's hostname, your computer's timezone, your computer's operating
+    system name and version information, and websites visited in your browser from
+    your usage of our downloadable plugins .
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may use your name and email address to inform you about our services, such
+    as letting you know about upcoming changes or improvements.
+  - When you contact WakaTime, we may keep a record of your name and email address
+    to better solve any customer issues.
+  - When you sign up for a WakaTime account, we store information such as your email
+    address.
+  purposes:
+    services:
+    - to better solve any customer issues
+    - to inform you about our services, such as letting you know about upcoming changes
+      or improvements
+- source: we
+  target: event end time
+  key: COLLECT
+  text:
+  - After you have selected which calendars to integrate with WakaTime, we only store
+    the calendar names, event titles, event start times, and event end times for the
+    calendars you have selected.
+  purposes: {}
+- source: we
+  target: event start time
+  key: COLLECT
+  text:
+  - After you have selected which calendars to integrate with WakaTime, we only store
+    the calendar names, event titles, event start times, and event end times for the
+    calendars you have selected.
+  purposes: {}
+- source: we
+  target: event title
+  key: COLLECT
+  text:
+  - After you have selected which calendars to integrate with WakaTime, we only store
+    the calendar names, event titles, event start times, and event end times for the
+    calendars you have selected.
+  purposes: {}
+- source: we
+  target: expiration date
+  key: COLLECT
+  text:
+  - We only store the last 4 digits, expiration date, and card type of your credit
+    card on our servers for reference.
+  purposes: {}
+- source: we
+  target: hostname
+  key: COLLECT
+  text:
+  - We collect and store the path of the file you are editing, timestamps, project
+    names, branch names, editor names & versions, languages, libraries/imports from
+    opened files, line counts of opened files, position of your cursor in opened files,
+    your computer's hostname, your computer's timezone, your computer's operating
+    system name and version information, and websites visited in your browser from
+    your usage of our downloadable plugins .
+  purposes: {}
+- source: we
+  target: identifier
+  key: COLLECT
+  text:
+  - After you have selected a Slack channel for the integration, we only store the
+    selected Slack channel's ID.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We share information about you in the limited circumstances spelled out below
+    and with appropriate safeguards on your privacy: As required by law: We may disclose
+    information about you in response to a subpoena, court order, or other governmental
+    request.'
+  purposes: {}
+- source: we
+  target: information aggregate
+  key: COLLECT
+  text:
+  - 'We share information about you in the limited circumstances spelled out below
+    and with appropriate safeguards on your privacy: Aggregated and de-identified
+    information: We may share information that has been aggregated or reasonably de-identified,
+    so that the information could not reasonably be used to identify you.'
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We may also use this information to improve your user-experience with our services.
+  - We use the information we collect to provide, maintain, and protect services for
+    our users.
+  purposes:
+    security:
+    - to provide, maintain, and protect services for our users
+    services:
+    - to improve your user-experience with our services
+    - to provide, maintain, and protect services for our users
+- source: we
+  target: last digit
+  key: COLLECT
+  text:
+  - We only store the last 4 digits, expiration date, and card type of your credit
+    card on our servers for reference.
+  purposes: {}
+- source: we
+  target: line count of open file
+  key: COLLECT
+  text:
+  - We collect and store the path of the file you are editing, timestamps, project
+    names, branch names, editor names & versions, languages, libraries/imports from
+    opened files, line counts of opened files, position of your cursor in opened files,
+    your computer's hostname, your computer's timezone, your computer's operating
+    system name and version information, and websites visited in your browser from
+    your usage of our downloadable plugins .
+  purposes: {}
+- source: we
+  target: list of available channel name
+  key: COLLECT
+  text:
+  - When you connect the Slack integration, we temporarily store a list of your available
+    channel names.
+  purposes: {}
+- source: we
+  target: name of calendar
+  key: COLLECT
+  text:
+  - For example when you connect the Google Calendar integration, we temporarily store
+    the names of your calendars during the integration setup process.
+  purposes: {}
+- source: we
+  target: operate system name
+  key: COLLECT
+  text:
+  - We collect and store the path of the file you are editing, timestamps, project
+    names, branch names, editor names & versions, languages, libraries/imports from
+    opened files, line counts of opened files, position of your cursor in opened files,
+    your computer's hostname, your computer's timezone, your computer's operating
+    system name and version information, and websites visited in your browser from
+    your usage of our downloadable plugins .
+  purposes: {}
+- source: we
+  target: path of file you edit
+  key: COLLECT
+  text:
+  - We collect and store the path of the file you are editing, timestamps, project
+    names, branch names, editor names & versions, languages, libraries/imports from
+    opened files, line counts of opened files, position of your cursor in opened files,
+    your computer's hostname, your computer's timezone, your computer's operating
+    system name and version information, and websites visited in your browser from
+    your usage of our downloadable plugins .
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We may use your name and email address to inform you about our services, such
+    as letting you know about upcoming changes or improvements.
+  - When you contact WakaTime, we may keep a record of your name and email address
+    to better solve any customer issues.
+  purposes:
+    services:
+    - to better solve any customer issues
+    - to inform you about our services, such as letting you know about upcoming changes
+      or improvements
+- source: we
+  target: position of cursor in open file
+  key: COLLECT
+  text:
+  - We collect and store the path of the file you are editing, timestamps, project
+    names, branch names, editor names & versions, languages, libraries/imports from
+    opened files, line counts of opened files, position of your cursor in opened files,
+    your computer's hostname, your computer's timezone, your computer's operating
+    system name and version information, and websites visited in your browser from
+    your usage of our downloadable plugins .
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - We collect billing address and credit card information if you purchase a premium
+    version of WakaTime.
+  purposes: {}
+- source: we
+  target: project name
+  key: COLLECT
+  text:
+  - We collect and store the path of the file you are editing, timestamps, project
+    names, branch names, editor names & versions, languages, libraries/imports from
+    opened files, line counts of opened files, position of your cursor in opened files,
+    your computer's hostname, your computer's timezone, your computer's operating
+    system name and version information, and websites visited in your browser from
+    your usage of our downloadable plugins .
+  purposes: {}
+- source: we
+  target: timestamp
+  key: COLLECT
+  text:
+  - We collect and store the path of the file you are editing, timestamps, project
+    names, branch names, editor names & versions, languages, libraries/imports from
+    opened files, line counts of opened files, position of your cursor in opened files,
+    your computer's hostname, your computer's timezone, your computer's operating
+    system name and version information, and websites visited in your browser from
+    your usage of our downloadable plugins .
+  purposes: {}
+- source: we
+  target: timezone
+  key: COLLECT
+  text:
+  - We collect and store the path of the file you are editing, timestamps, project
+    names, branch names, editor names & versions, languages, libraries/imports from
+    opened files, line counts of opened files, position of your cursor in opened files,
+    your computer's hostname, your computer's timezone, your computer's operating
+    system name and version information, and websites visited in your browser from
+    your usage of our downloadable plugins .
+  purposes: {}
+- source: we
+  target: version information
+  key: COLLECT
+  text:
+  - We collect and store the path of the file you are editing, timestamps, project
+    names, branch names, editor names & versions, languages, libraries/imports from
+    opened files, line counts of opened files, position of your cursor in opened files,
+    your computer's hostname, your computer's timezone, your computer's operating
+    system name and version information, and websites visited in your browser from
+    your usage of our downloadable plugins .
+  purposes: {}
+- source: we
+  target: way hash algorithm with random salt
+  key: COLLECT
+  text:
+  - We use a one-way hash algorithm with random salt to store your password.
+  purposes:
+    security:
+    - to store your password
+    services:
+    - to store your password
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Third parties, including but not limited to Google Analytics, may also use cookies
+    to track your return visits to the website.
+  purposes:
+    analytics:
+    - to track your return visits to the website
+- source: integration you connect to account through integrations feature
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we may share your information with third parties with which you authorize
+    us to do so, such as the integrations that you connect to your account through
+    our Integrations feature.
+  purposes: {}
+- source: process partner
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - Billing address and credit card information is securely passed to our payment
+    processing partner and is not stored at WakaTime.
+  purposes: {}
+- source: process partner
+  target: postal address
+  key: COLLECT
+  text:
+  - Billing address and credit card information is securely passed to our payment
+    processing partner and is not stored at WakaTime.
+  purposes: {}
+- source: wakatime
+  target: integration content
+  key: COLLECT
+  text:
+  - Your integration content is also immediately deleted and no longer stored or indexed
+    by WakaTime when you delete your WakaTime account according to the WakaTime Data
+    Security Policy .
+  purposes: {}
+- source: card type of credit card
+  target: expiration date
+  key: SUBSUM
+  text:
+  - We only store the last 4 digits, expiration date, and card type of your credit
+    card on our servers for reference.
+- source: card type of credit card
+  target: last digit
+  key: SUBSUM
+  text:
+  - We only store the last 4 digits, expiration date, and card type of your credit
+    card on our servers for reference.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: integration you connect to account through integrations feature
+- type: ACTOR
+  id: process partner
+- type: ACTOR
+  id: wakatime
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: branch name
+- type: DATA
+  id: calendar name
+- type: DATA
+  id: card type of credit card
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: editor name
+- type: DATA
+  id: email address
+- type: DATA
+  id: event end time
+- type: DATA
+  id: event start time
+- type: DATA
+  id: event title
+- type: DATA
+  id: expiration date
+- type: DATA
+  id: hostname
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information aggregate
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: integration content
+- type: DATA
+  id: last digit
+- type: DATA
+  id: line count of open file
+- type: DATA
+  id: list of available channel name
+- type: DATA
+  id: name of calendar
+- type: DATA
+  id: operate system name
+- type: DATA
+  id: path of file you edit
+- type: DATA
+  id: person name
+- type: DATA
+  id: position of cursor in open file
+- type: DATA
+  id: postal address
+- type: DATA
+  id: project name
+- type: DATA
+  id: timestamp
+- type: DATA
+  id: timezone
+- type: DATA
+  id: version information
+- type: DATA
+  id: way hash algorithm with random salt

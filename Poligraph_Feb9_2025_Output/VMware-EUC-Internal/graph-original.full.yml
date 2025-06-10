@@ -1,0 +1,15 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: global product availability
+  target: schedule maintenance window
+  key: SUBSUM
+  text:
+  - Access a transparent view of global product and service availability, including
+    scheduled maintenance windows.
+nodes:
+- type: DATA
+  id: global product availability
+- type: DATA
+  id: schedule maintenance window

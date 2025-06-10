@@ -1,0 +1,244 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may be required to disclose your data in response to lawful requests by public
+    authorities, including to meet law enforcement requirements.
+  - We share your information with our third-party service providers and any subcontractors
+    as required to offer you our products and services.
+  - With respect to website cookies, we share your information with third-party marketing
+    and advertising partners to market our services on our Sites and other websites
+    that you may visit.
+  - You may give us information by signing up for an online account, entering information
+    through our online forms or surveys, inputting information while using our services,
+    or contacting us by phone or email for information or customer service.
+  purposes:
+    advertising:
+    - to market our services on our Sites and other websites that you may visit
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Aggregated Data.
+  - We may also aggregate or otherwise strip information of all personally identifying
+    characteristics and may share that aggregated, anonymized data with third parties
+    or publish it.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may also use targeted advertising cookies, such as Google Ads, to deliver tailored
+    advertising on our Sites and other websites that you may visit.
+  purposes:
+    advertising:
+    - to deliver tailored advertising on our Sites and other websites that you may
+      visit
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - Like many website operators, we collect information that your browser sends whenever
+    you visit our Sites.
+  purposes: {}
+- source: we
+  target: information from
+  key: COLLECT
+  text:
+  - We retain information from or about you for so long as necessary to fulfill the
+    purposes outlined in this Privacy Policy.
+  purposes: {}
+- source: we
+  target: information we get from google analytics
+  key: COLLECT
+  text:
+  - We use the information we get from Google Analytics only to improve the Sites.
+  purposes:
+    services:
+    - only to improve the Sites
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may use your personal information to contact you with newsletters, marketing
+    or promotional materials and other information that may be of interest to you.
+  - 'We use your personal information for the following purposes:'
+  purposes:
+    advertising:
+    - To conduct market research and project planning
+    - To market our Sites and services to you
+    - To share your website visitor activity, through website cookies, with third-party
+      marketing partners to market our services on our Sites and other websites that
+      you may visit
+    - to contact you with newsletters, marketing or promotional materials and other
+      information that may be of interest to you
+    analytics:
+    - To conduct market research and project planning
+    legal:
+    - To fulfill our legal and financial obligations
+    security:
+    - To detect security incidents, protect against fraudulent or other criminal activity,
+      debug and repair errors, and maintain the overall quality and safety of our
+      Sites and services
+    services:
+    - To provide you with employment opportunities
+    - To provide you with our Sites and services
+- source: we
+  target: personal information we gather on subdomain on www.visla.us
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how we collect, use, and share the personal information
+    that we gather on the subdomains and websites on www.visla.us (the "Sites") or
+    through your use of our mobile apps, products, and services.
+  purposes: {}
+- source: we
+  target: user content
+  key: COLLECT
+  text:
+  - We may share your information, including your username and user content, with
+    other users or the public with your consent.
+  purposes: {}
+- source: we
+  target: username
+  key: COLLECT
+  text:
+  - We may share your information, including your username and user content, with
+    other users or the public with your consent.
+  purposes: {}
+- source: we
+  target: zip code
+  key: COLLECT
+  text:
+  - These external service providers do not share your financial information, like
+    credit card number, with us, but may share limited information with us related
+    to your purchase, like your zip code.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share your information with our third-party service providers and any subcontractors
+    as required to offer you our products and services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Aggregated Data.
+  - We may also aggregate or otherwise strip information of all personally identifying
+    characteristics and may share that aggregated, anonymized data with third parties
+    or publish it.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Personal information may be transferred to a third party because of a sale, acquisition,
+    merger, reorganization, or other change in control.
+  purposes: {}
+- source: advertiser
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - With respect to website cookies, we share your information with third-party marketing
+    and advertising partners to market our services on our Sites and other websites
+    that you may visit.
+  purposes:
+    advertising:
+    - to market our services on our Sites and other websites that you may visit
+- source: collaborator
+  target: private datum
+  key: COLLECT
+  text:
+  - When a user is removed from a Visla collaboration workspace they have joined,
+    their private data may be transferred to other collaborators, depending on the
+    workspace settings.
+  purposes: {}
+- source: external service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Some external service providers may also collect information directly from you
+    (for example, a payment processor may request your billing and financial information)
+    in accordance with their own privacy policy.
+  purposes: {}
+- source: external service provider
+  target: zip code
+  key: COLLECT
+  text:
+  - Some external service providers may also collect information directly from you
+    (for example, a payment processor may request your billing and financial information)
+    in accordance with their own privacy policy.
+  - These external service providers do not share your financial information, like
+    credit card number, with us, but may share limited information with us related
+    to your purchase, like your zip code.
+  purposes: {}
+- source: subcontractor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share your information with our third-party service providers and any subcontractors
+    as required to offer you our products and services.
+  purposes: {}
+- source: third party marketing partner
+  target: website visitor activity
+  key: COLLECT
+  text:
+  - 'We use your personal information for the following purposes: To share your website
+    visitor activity, through website cookies, with third-party marketing partners
+    to market our services on our Sites and other websites that you may visit.'
+  purposes:
+    advertising:
+    - to market our services on our Sites and other websites that you may visit
+- source: we
+  target: visla
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to Visla ("we," "our," "us").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: collaborator
+- type: ACTOR
+  id: external service provider
+- type: ACTOR
+  id: subcontractor
+- type: ACTOR
+  id: third party marketing partner
+- type: ACTOR
+  id: visla
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: information from
+- type: DATA
+  id: information we get from google analytics
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information we gather on subdomain on www.visla.us
+- type: DATA
+  id: private datum
+- type: DATA
+  id: user content
+- type: DATA
+  id: username
+- type: DATA
+  id: website visitor activity
+- type: DATA
+  id: zip code

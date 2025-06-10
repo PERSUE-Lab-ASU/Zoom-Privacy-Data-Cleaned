@@ -1,0 +1,266 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website may use these "cookies" to keep you signed in to our Service.
+  purposes:
+    services:
+    - to keep you signed in to our Service
+- source: we
+  target: device information
+  key: COLLECT
+  text:
+  - When you access the Service using a mobile device, we may collect additional device
+    information, such as the type of device you are using, its operating system, and
+    mobile network information."
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We collect your email address in order to send information about our service and
+    respond to inquiries and requests.
+  purposes:
+    analytics:
+    - in order to send information about our service and respond to inquiries and
+      requests
+    services:
+    - in order to send information about our service and respond to inquiries and
+      requests
+- source: we
+  target: information browser send to we
+  key: COLLECT
+  text:
+  - In addition, whenever you visit our Service, we collect information that your
+    browser sends to us that is called Log Data.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - For a better experience while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to your name and email address.
+  purposes:
+    services:
+    - For a better experience while using our Service
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In the case we discover that a child under 13 has provided us with personal information,
+    we immediately delete this from our servers.
+  - We may disclose Personal Information that we collect about you to these companies
+    to enable them to perform these services.
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  purposes:
+    services:
+    - to enable them to perform these services
+- source: Personal Information Privacy and Security Association (Vancouver)
+  target: information collect within european economic area
+  key: COLLECT
+  text:
+  - Information collected within the European Economic Area ("EEA") and Switzerland
+    may, for example, be transferred to and processed by third parties referred to
+    below that are located in a country outside of the EEA and Switzerland, where
+    you may have fewer rights in relation to your Personal Information.
+  purposes: {}
+- source: Switzerland Tourism
+  target: information collect within european economic area
+  key: COLLECT
+  text:
+  - Information collected within the European Economic Area ("EEA") and Switzerland
+    may, for example, be transferred to and processed by third parties referred to
+    below that are located in a country outside of the EEA and Switzerland, where
+    you may have fewer rights in relation to your Personal Information.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - In order to carry out certain business functions, such as alert notifications,
+    trade fulfillment, transaction importing, or email delivery, we may hire other
+    companies to perform services on our behalf.
+  - We may disclose Personal Information that we collect about you to these companies
+    to enable them to perform these services.
+  purposes:
+    services:
+    - to enable them to perform these services
+- source: qrev
+  target: datum about you
+  key: COLLECT
+  text:
+  - QRev transfers, processes and stores data about you on servers operated by our
+    hosting provider located in the United States of America.
+  purposes: {}
+- source: business function
+  target: email delivery
+  key: SUBSUM
+  text:
+  - In order to carry out certain business functions, such as alert notifications,
+    trade fulfillment, transaction importing, or email delivery, we may hire other
+    companies to perform services on our behalf.
+- source: business function
+  target: trade fulfillment
+  key: SUBSUM
+  text:
+  - In order to carry out certain business functions, such as alert notifications,
+    trade fulfillment, transaction importing, or email delivery, we may hire other
+    companies to perform services on our behalf.
+- source: business function
+  target: transaction importing
+  key: SUBSUM
+  text:
+  - In order to carry out certain business functions, such as alert notifications,
+    trade fulfillment, transaction importing, or email delivery, we may hire other
+    companies to perform services on our behalf.
+- source: customer information
+  target: personal information
+  key: SUBSUM
+  text:
+  - In the event that any such transaction occurs, it is possible that our customer
+    information, including your Personal Information, may be transferred to the new
+    business entity as one of QRev's assets.
+- source: device information
+  target: type of device you use
+  key: SUBSUM
+  text:
+  - When you access the Service using a mobile device, we may collect additional device
+    information, such as the type of device you are using, its operating system, and
+    mobile network information."
+- source: log data
+  target: browser version
+  key: SUBSUM
+  text:
+  - In addition, whenever you visit our Service, we collect information that your
+    browser sends to us that is called Log Data.
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser version, pages of our Service that you visit, the time
+    and date of your visit, the time spent on those pages, and other statistics.
+- source: log data
+  target: date
+  key: SUBSUM
+  text:
+  - In addition, whenever you visit our Service, we collect information that your
+    browser sends to us that is called Log Data.
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser version, pages of our Service that you visit, the time
+    and date of your visit, the time spent on those pages, and other statistics.
+- source: log data
+  target: ip address
+  key: SUBSUM
+  text:
+  - In addition, whenever you visit our Service, we collect information that your
+    browser sends to us that is called Log Data.
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser version, pages of our Service that you visit, the time
+    and date of your visit, the time spent on those pages, and other statistics.
+- source: log data
+  target: statistic
+  key: SUBSUM
+  text:
+  - In addition, whenever you visit our Service, we collect information that your
+    browser sends to us that is called Log Data.
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser version, pages of our Service that you visit, the time
+    and date of your visit, the time spent on those pages, and other statistics.
+- source: log data
+  target: time
+  key: SUBSUM
+  text:
+  - In addition, whenever you visit our Service, we collect information that your
+    browser sends to us that is called Log Data.
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser version, pages of our Service that you visit, the time
+    and date of your visit, the time spent on those pages, and other statistics.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - For a better experience while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to your name and email address.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - For a better experience while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to your name and email address.
+- source: type of device you use
+  target: mobile network information
+  key: SUBSUM
+  text:
+  - When you access the Service using a mobile device, we may collect additional device
+    information, such as the type of device you are using, its operating system, and
+    mobile network information."
+- source: type of device you use
+  target: operating system
+  key: SUBSUM
+  text:
+  - When you access the Service using a mobile device, we may collect additional device
+    information, such as the type of device you are using, its operating system, and
+    mobile network information.
+nodes:
+- type: ACTOR
+  id: Personal Information Privacy and Security Association (Vancouver)
+- type: ACTOR
+  id: Switzerland Tourism
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: business function
+- type: ACTOR
+  id: email delivery
+- type: ACTOR
+  id: qrev
+- type: ACTOR
+  id: trade fulfillment
+- type: ACTOR
+  id: transaction importing
+- type: ACTOR
+  id: we
+- type: DATA
+  id: browser version
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer information
+- type: DATA
+  id: date
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: information browser send to we
+- type: DATA
+  id: information collect within european economic area
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log data
+- type: DATA
+  id: mobile network information
+- type: DATA
+  id: operating system
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistic
+- type: DATA
+  id: time
+- type: DATA
+  id: type of device you use

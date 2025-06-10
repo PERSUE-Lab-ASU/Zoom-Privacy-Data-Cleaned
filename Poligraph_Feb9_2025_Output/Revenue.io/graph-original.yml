@@ -1,0 +1,270 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In these cases, we may share your data with our partners.
+  - Please note that we may retain certain data for a period of time after cancellation,
+    as described in our Privacy Policy.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may disclose aggregated information about our users, and information that does
+    not identify any individual, without restriction.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our websites also use web beacons, which are clear electronic images that can
+    recognize certain types of information on your computer.
+  - We use both session-based and persistent-based cookies.
+  purposes: {}
+- source: we
+  target: datum collect
+  key: COLLECT
+  text:
+  - We may share data collected with our service providers to enhance the quality
+    of the information provided and occasionally partner with other companies for
+    jointly-offered products or services.
+  purposes:
+    services:
+    - to enhance the quality of the information provided
+- source: we
+  target: datum you provide to we on frontend
+  key: COLLECT
+  text:
+  - As a client, you retain ownership and control of all data you provide to us on
+    the frontend and only backup data for business continuity related purposes.
+  - We will only use this data to provide the services you have requested, in accordance
+    with our Privacy Policy and Terms of Service.
+  purposes:
+    services:
+    - to provide the services you have requested
+- source: we
+  target: factor authentication
+  key: COLLECT
+  text:
+  - 'The key controls we have in place include: Two-Factor Authentication (2FA): We
+    use two-factor authentication for accessing our systems.'
+  purposes: {}
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - 'We use the information we collect about you or that you provide to us, including
+    any personal information:'
+  purposes:
+    legal:
+    - To carry out our obligations and enforce our rights arising from any contracts
+      entered into between you and us
+    services:
+    - To present our Services and its contents to you
+    - To provide you with information, products, or services that you request from
+      us
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may disclose aggregated information about our users, and information that does
+    not identify any individual, without restriction.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal data with these subprocessors in compliance with applicable
+    data protection laws and with appropriate data security measures in place.
+  - We retain personal data we collect from you where we have an ongoing legitimate
+    business need to do so (for example, to provide you with a service you have requested
+    or to comply with applicable legal, tax, or accounting requirements).
+  - When we have no ongoing legitimate business need to process your personal data,
+    we will either delete or anonymize it or, if this is not possible (for example,
+    because your personal data has been stored in backup archives), then we will securely
+    store your personal data and isolate it from any further processing until deletion
+    is possible.
+  purposes: {}
+- source: we
+  target: range of technical control
+  key: COLLECT
+  text:
+  - At Revenue Inc., we utilize a range of technical controls to ensure the secure
+    processing and storage of your data.
+  purposes:
+    security:
+    - to ensure the secure processing and storage of your data
+- source: we
+  target: several type
+  key: COLLECT
+  text:
+  - 'We collect several types of information from and about users of our Services,
+    including:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In these cases, we may share your data with our partners.
+  purposes: {}
+- source: revenue.io
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Revenue.io uses cookies and similar tools, such as web beacons, to enhance your
+    online experience and to gather data as you navigate our websites.
+  purposes: {}
+- source: revenue.io
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Revenue.io uses cookies and similar tools, such as web beacons, to enhance your
+    online experience and to gather data as you navigate our websites.
+  purposes:
+    analytics:
+    - to enhance your online experience and to gather data as you navigate our websites
+    services:
+    - to enhance your online experience and to gather data as you navigate our websites
+- source: service provider
+  target: datum collect
+  key: COLLECT
+  text:
+  - We may share data collected with our service providers to enhance the quality
+    of the information provided and occasionally partner with other companies for
+    jointly-offered products or services.
+  purposes:
+    services:
+    - to enhance the quality of the information provided
+- source: subprocessor
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal data with these subprocessors in compliance with applicable
+    data protection laws and with appropriate data security measures in place.
+  purposes: {}
+- source: commercial information
+  target: personal property
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Services,
+    including: Commercial information, such as records of personal property, products
+    or services purchased, obtained, or considered, or other purchasing or consuming
+    histories or tendencies.'
+- source: commercial information
+  target: record
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Services,
+    including: Commercial information, such as records of personal property, products
+    or services purchased, obtained, or considered, or other purchasing or consuming
+    histories or tendencies.'
+- source: information we collect about you
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'We use the information we collect about you or that you provide to us, including
+    any personal information:'
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Services,
+    including: Personal identifiers, such as name, postal address, email address,
+    or telephone number.'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Services,
+    including: Personal identifiers, such as name, postal address, email address,
+    or telephone number.'
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Services,
+    including: Personal identifiers, such as name, postal address, email address,
+    or telephone number.'
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Services,
+    including: Personal identifiers, such as name, postal address, email address,
+    or telephone number.'
+- source: several type
+  target: commercial information
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Services,
+    including: Commercial information, such as records of personal property, products
+    or services purchased, obtained, or considered, or other purchasing or consuming
+    histories or tendencies.'
+- source: several type
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Services,
+    including: Internet or other electronic network activity information.'
+- source: several type
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Services,
+    including: Personal identifiers, such as name, postal address, email address,
+    or telephone number.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: revenue.io
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: subprocessor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: commercial information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: datum you provide to we on frontend
+- type: DATA
+  id: email address
+- type: DATA
+  id: factor authentication
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal property
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: range of technical control
+- type: DATA
+  id: record
+- type: DATA
+  id: several type

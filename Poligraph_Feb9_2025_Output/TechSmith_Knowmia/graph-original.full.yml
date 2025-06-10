@@ -1,0 +1,27 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website uses cookies to deliver the best experience to our users.
+  - We use cookies to offer you a better browsing experience, analyze site traffic,
+    and assist in our marketing efforts.
+  purposes:
+    advertising:
+    - to offer you a better browsing experience, analyze site traffic, and assist
+      in our marketing efforts
+    analytics:
+    - to offer you a better browsing experience, analyze site traffic, and assist
+      in our marketing efforts
+    services:
+    - to deliver the best experience to our users
+    - to offer you a better browsing experience, analyze site traffic, and assist
+      in our marketing efforts
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag

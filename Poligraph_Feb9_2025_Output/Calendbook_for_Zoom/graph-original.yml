@@ -1,0 +1,181 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information regard specific service
+  key: COLLECT
+  text:
+  - At the request of the User, in addition to the information contained in this privacy
+    policy, this Website may provide the User with additional and contextual information
+    regarding specific Services, or the collection and processing of Personal Data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Website collects some Personal Data from its Users.
+  purposes: {}
+- source: we
+  target: system log
+  key: COLLECT
+  text:
+  - For needs related to operation and maintenance, this Website and any third party
+    services used by it may collect system logs, which are files that record the interactions
+    and which may also contain Personal Data, such as the IP address User.
+  purposes:
+    services:
+    - For needs related to operation and maintenance
+- source: Google
+  target: access
+  key: COLLECT
+  text:
+  - This access is provided by Google LLC under strict terms.
+  purposes: {}
+- source: Google
+  target: personal information
+  key: COLLECT
+  text:
+  - Google may use the Personal Data to contextualize and personalize the advertisements
+    of its own advertising network.
+  - Google uses the Personal Data collected for the purpose of tracking and examining
+    the use of this Website, compiling reports and sharing them with other services
+    developed by Google.
+  purposes:
+    advertising:
+    - to contextualize and personalize the advertisements of its own advertising network
+- source: UNSPECIFIED_ACTOR
+  target: system log
+  key: COLLECT
+  text:
+  - For needs related to operation and maintenance, this Website and any third party
+    services used by it may collect system logs, which are files that record the interactions
+    and which may also contain Personal Data, such as the IP address User.
+  purposes:
+    services:
+    - For needs related to operation and maintenance
+- source: UNSPECIFIED_ACTOR
+  target: user data
+  key: COLLECT
+  text:
+  - User Data will be transferred to third parties only if necessary, to provide or
+    improve the User interface functionality and if necessary to comply with applicable
+    law or as part of a merger, acquisition or sale of assets upon prior notice to
+    Users.
+  purposes:
+    legal:
+    - to provide or improve the User interface functionality and if necessary to comply
+      with applicable law or as part of a merger, acquisition or sale of assets upon
+      prior notice to Users
+- source: administrative commercial marketing legal system administrator
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In addition to the Data Controller, in some cases, other subjects involved in
+    the organization of this Website (administrative, commercial, marketing, legal,
+    system administrators) or external subjects (such as third party technical service
+    providers, postal couriers) may have access to the Data.
+  purposes: {}
+- source: data controller
+  target: personal data relate to user
+  key: COLLECT
+  text:
+  - "The Data Controller processes Personal Data relating to the User if the following
+    conditions exist \n\n1."
+  purposes: {}
+- source: data controller
+  target: personal information
+  key: COLLECT
+  text:
+  - When the processing is based on the User's consent, the Data Controller may keep
+    the Personal Data longer until such consent is revoked.
+  purposes: {}
+- source: data controller
+  target: say datum
+  key: COLLECT
+  text:
+  - "In particular, where personal data are collected and processed for marketing
+    purposes, the Data Controller will keep and process said data no later than 5
+    years from the moment the data subject has given the last express consent for
+    this purpose. \n\nFurthermore, the Data Controller may be obliged to keep Personal
+    Data for a longer period in compliance with a legal obligation or by order of
+    an authority."
+  purposes: {}
+- source: data controller
+  target: traffic datum
+  key: COLLECT
+  text:
+  - The services contained in this section allow the Data Controller to monitor and
+    analyze traffic data and are used to keep track of User behavior.
+  purposes: {}
+- source: postal courier
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In addition to the Data Controller, in some cases, other subjects involved in
+    the organization of this Website (administrative, commercial, marketing, legal,
+    system administrators) or external subjects (such as third party technical service
+    providers, postal couriers) may have access to the Data.
+  purposes: {}
+- source: type of service
+  target: datum on web traffic relate to page instal
+  key: COLLECT
+  text:
+  - This type of service may still collect data on web traffic relating to the pages
+    where the service is installed, even when users do not use it.
+  purposes: {}
+- source: website app
+  target: payment
+  key: COLLECT
+  text:
+  - Unless otherwise specified, this Website / App processes all payments by credit
+    card, bank transfer or other means through external payment service providers.
+  purposes: {}
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - For needs related to operation and maintenance, this Website and any third party
+    services used by it may collect system logs, which are files that record the interactions
+    and which may also contain Personal Data, such as the IP address User.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: administrative commercial marketing legal system administrator
+- type: ACTOR
+  id: data controller
+- type: ACTOR
+  id: postal courier
+- type: ACTOR
+  id: type of service
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website app
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access
+- type: DATA
+  id: datum on web traffic relate to page instal
+- type: DATA
+  id: information regard specific service
+- type: DATA
+  id: ip address
+- type: DATA
+  id: payment
+- type: DATA
+  id: personal data relate to user
+- type: DATA
+  id: personal information
+- type: DATA
+  id: say datum
+- type: DATA
+  id: system log
+- type: DATA
+  id: traffic datum
+- type: DATA
+  id: user data

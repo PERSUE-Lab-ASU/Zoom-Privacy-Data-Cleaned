@@ -1,0 +1,127 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Find out how we store and protect your data.
+  - We do use your data in aggregate as well to find trends about how our software
+    and services are being used.
+  - We may use your data to help us build better services and software for you.
+  purposes:
+    analytics:
+    - to find trends about how our software and services are being used
+    services:
+    - to help us build better services and software for you
+- source: we
+  target: backup of client datum
+  key: COLLECT
+  text:
+  - 'Security & Trust
+
+
+    Security Standards and Policies
+
+
+    Redundancies
+
+
+    Backups
+
+
+    We retain backups of client data for 12 months rolling.'
+  purposes: {}
+- source: we
+  target: client datum
+  key: COLLECT
+  text:
+  - However, we may use client data in aggregate to understand any prevailing usage
+    patterns or needs of our customers.
+  - We will use that information as part of our product development process to create
+    new or enhance existing features and services.
+  purposes:
+    analytics:
+    - to understand any prevailing usage patterns or needs of our customers
+    services:
+    - to create new or enhance existing features and services
+- source: we
+  target: factor authentication
+  key: COLLECT
+  text:
+  - We enable and use two-factor authentication wherever possible for back-end services
+    used by Condo Control and it is also available for anyone who is accessing our
+    platform.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - Whenever an end-user accesses Condo Control, we record their IP address so that
+    we can identify where the request came from.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, we will use your personal information to verify your identity, as
+    required by PIPEDA, when you contact us with a request to make sure it is really
+    you.
+  - 'Security & Trust
+
+
+    Security Standards and Policies
+
+
+    How we use your data
+
+
+    Why we collect personal data'
+  purposes:
+    security:
+    - to verify your identity, as required by PIPEDA,
+- source: Stripe
+  target: card datum submit through condo control
+  key: COLLECT
+  text:
+  - Stripe manages and holds all card data submitted through Condo Control; we do
+    not hold any payment card data.
+  purposes: {}
+- source: azure
+  target: failover
+  key: COLLECT
+  text:
+  - Azure provides both our primary server environment as well as our failovers.
+  purposes: {}
+- source: azure
+  target: primary server environment
+  key: COLLECT
+  text:
+  - Azure provides both our primary server environment as well as our failovers.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: azure
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: backup of client datum
+- type: DATA
+  id: card datum submit through condo control
+- type: DATA
+  id: client datum
+- type: DATA
+  id: factor authentication
+- type: DATA
+  id: failover
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal information
+- type: DATA
+  id: primary server environment

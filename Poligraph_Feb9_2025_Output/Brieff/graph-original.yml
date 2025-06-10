@@ -1,0 +1,136 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Through your use of Brieff, we may also collect information from you about someone
+    else.
+  - When you use Brieff, our servers automatically record certain information in server
+    logs.
+  purposes: {}
+- source: we
+  target: accurate personal information
+  key: COLLECT
+  text:
+  - We require you to provide accurate, up-to-date and complete personal information
+    at the time it is collected.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 5. We use cookies
+  - By using our Services and accessing our website, you agree that we can store and
+    access Cookies in accordance with this Policy.
+  purposes: {}
+- source: we
+  target: payment information
+  key: COLLECT
+  text:
+  - If you are a user of our paid service, we utilise third party payment processing
+    companies to collect payment information, including your credit card number, billing
+    address and phone number.
+  - We will share this payment information with the third party processing company,
+    and as such you should be aware of the appropriate terms and conditions of these
+    companies.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 1. We collect your personal information
+  - 2. We may receive personal information from you about others
+  - 3. We collect, hold, and use your personal information for limited purposes
+  - 9. We will only disclose your personal information in limited circumstances
+  - 'In doing so, we may use the personal information we have collected from you for
+    purposes related to the Services including to:'
+  - This Privacy Policy sets out how we collect, use, store, share and disclose your
+    and your clients' personal information.
+  - We collect your personal information so that we can provide you with our Services
+    and any related services you may request.
+  - 'We may collect personal information directly from you including, but not limited
+    to your:'
+  - 'We may collect personal information directly from you when you:'
+  - We will only disclose the personal information you have provided to us to entities
+    outside Brieff's group of companies if it is necessary and appropriate to facilitate
+    the purpose for which your personal information was collected pursuant to this
+    Policy, including the provision of our Services.
+  - We will only use your personal information for the purposes described in this
+    Policy or with your express permission.
+  - Where we have your express consent, or where we are otherwise permitted by law,
+    we may use your personal information to send you information about products and
+    services we believe are suited to you and your interests or we may invite you
+    to attend special events.
+  purposes:
+    advertising:
+    - to send you information about products and services we believe are suited to
+      you and your interests
+    services:
+    - to send you information about products and services we believe are suited to
+      you and your interests
+- source: UNSPECIFIED_ACTOR
+  target: payment information
+  key: COLLECT
+  text:
+  - If you are a user of our paid service, we utilise third party payment processing
+    companies to collect payment information, including your credit card number, billing
+    address and phone number.
+  - We will share this payment information with the third party processing company,
+    and as such you should be aware of the appropriate terms and conditions of these
+    companies.
+  purposes: {}
+- source: brieff
+  target: log file
+  key: COLLECT
+  text:
+  - 6. Brieff uses log files
+  purposes: {}
+- source: payment information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - If you are a user of our paid service, we utilise third party payment processing
+    companies to collect payment information, including your credit card number, billing
+    address and phone number.
+- source: payment information
+  target: phone number
+  key: SUBSUM
+  text:
+  - If you are a user of our paid service, we utilise third party payment processing
+    companies to collect payment information, including your credit card number, billing
+    address and phone number.
+- source: payment information
+  target: postal address
+  key: SUBSUM
+  text:
+  - If you are a user of our paid service, we utilise third party payment processing
+    companies to collect payment information, including your credit card number, billing
+    address and phone number.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: brieff
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: accurate personal information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: log file
+- type: DATA
+  id: payment information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

@@ -1,0 +1,311 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For customer support - We use your information to resolve technical issues and
+    to respond to requests for assistance.
+  - 'How we store and secure data we collect
+
+
+    How long we keep data'
+  - 'How we store and secure data we collect
+
+
+    How we store and transmit data : We store your data in a Amazon Web Services data
+    centers located in the United States.'
+  - Please note that we may need to retain certain data within your profile for record
+    keeping purposes or to comply with our legal obligations.
+  - 'Privacy Policy
+
+
+    What data we collect from you'
+  - 'Sharing with other Service users : For administration - For certain kinds of
+    accounts we will share your information with the administrators of the account.'
+  - 'The goal of this policy is to help you understand: What data we collect automatically'
+  - 'The goal of this policy is to help you understand: What data we collect from
+    you'
+  - To provide the Service and customize your experience - We use your information
+    to provide the Service and tailor it to your needs.
+  purposes:
+    legal:
+    - for record keeping purposes or to comply with our legal obligations
+    services:
+    - For administration
+    - For customer support
+    - To provide the Service and customize your experience
+    - to provide the Service and tailor it to your needs
+    - to resolve technical issues and to respond to requests for assistance
+    - to transmit data in between Service users and third parties
+- source: we
+  target: account datum
+  key: COLLECT
+  text:
+  - Account data - We retain account data for the lifetime of the account, as it's
+    mandatory to use the Service.
+  purposes: {}
+- source: we
+  target: booking datum for lifetime of account
+  key: COLLECT
+  text:
+  - Booking data - By default we retain booking data for the lifetime of the account.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Cookies and other tracking technologies - Our Service uses cookies so that we
+    can recognize you after you sign in.
+  purposes: {}
+- source: we
+  target: customer datum
+  key: COLLECT
+  text:
+  - For example, if we find that customers are using certain web conference providers,
+    we will use that information to develop integrations with those services.
+  - For product development and research - To improve our Service, we will often look
+    at our customer data to better understand what it is you're using the Service
+    for.
+  purposes:
+    services:
+    - to develop integrations with those services
+- source: we
+  target: datum about you
+  key: COLLECT
+  text:
+  - We collect data about you when you provide it to us by using our Service, as described
+    below.
+  purposes: {}
+- source: we
+  target: datum necessary
+  key: COLLECT
+  text:
+  - We also retain any data necessary to comply with legal obligations and resolve
+    disputes.
+  purposes: {}
+- source: we
+  target: datum we collect
+  key: COLLECT
+  text:
+  - 'The goal of this policy is to help you understand: How we store and secure data
+    we collect'
+  purposes:
+    services:
+    - to transmit data in between Service users and third parties
+- source: we
+  target: electronic file of account datum
+  key: COLLECT
+  text:
+  - Should you request it, we will provide you with an electronic file of your account
+    data.
+  purposes: {}
+- source: we
+  target: extreme care
+  key: COLLECT
+  text:
+  - We use extreme care when handling your data and always use industry standards
+    where applicable.
+  purposes: {}
+- source: we
+  target: information about company
+  key: COLLECT
+  text:
+  - Content you provide through our Service - When using our Service we collect various
+    information about your company and the Services you provide to your customers.
+  purposes: {}
+- source: we
+  target: information about device as
+  key: COLLECT
+  text:
+  - We also collect information about your device such as what type it is (laptop,
+    tablet, etc) and what browser you're running so that we can improve the quality
+    of the Service, as well as resolve any issues you may encounter.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - Account and profile information - We collect information about you when you register
+    for the Service, such as name and email address, as well as other various settings
+    and contact information.
+  - For safety and security - We use information about you to verify your account
+    and to monitor for suspicious or fraudulent behavior.
+  - Legal / law enforcement - In exceptional circumstances we may share information
+    about you with a third party if we believe sharing is necessary to comply with
+    applicable laws, regulations or governmental requests.
+  purposes:
+    security:
+    - For safety and security
+    - to verify your account and to monitor for suspicious or fraudulent behavior
+- source: we
+  target: information you choose
+  key: COLLECT
+  text:
+  - Information you provide through our support channels - If you elect to use our
+    customer support, we will collect any information you choose to share with us.
+  purposes: {}
+- source: we
+  target: minimum amount of datum
+  key: COLLECT
+  text:
+  - Integration partners - If you choose to take advantage of our various integrations,
+    we will share the minimum amount of data with them to perform the desired task.
+  purposes:
+    services:
+    - to perform the desired task
+- source: we
+  target: minimum amount require
+  key: COLLECT
+  text:
+  - 'That said, we''d like to take a moment to share a few philosophies that guide
+    how we treat data and privacy here at Appointlet now and going forward: We consider
+    data a liability and only collect and share the minimum amount required to provide
+    you with a great service.'
+  purposes: {}
+- source: we
+  target: payment datum
+  key: COLLECT
+  text:
+  - Payment data - We retain payment data for the lifetime of the account as it's
+    mandatory in order to use our Service.
+  purposes: {}
+- source: we
+  target: payment information
+  key: COLLECT
+  text:
+  - Payment information - If you decide to upgrade to one of our premium plans, we
+    will collect payment information such as credit card details.
+  purposes: {}
+- source: we
+  target: piece of information about network connection
+  key: COLLECT
+  text:
+  - We collect various pieces of information about your network connection, such as
+    IP address, so that we can protect the Service against abuse.
+  purposes: {}
+- source: we
+  target: user datum
+  key: COLLECT
+  text:
+  - We keep user data for varying lengths of time, depending on the type of data and
+    how you've configured our Service.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - Legal / law enforcement - In exceptional circumstances we may share information
+    about you with a third party if we believe sharing is necessary to comply with
+    applicable laws, regulations or governmental requests.
+  purposes: {}
+- source: integration
+  target: minimum amount of datum
+  key: COLLECT
+  text:
+  - Integration partners - If you choose to take advantage of our various integrations,
+    we will share the minimum amount of data with them to perform the desired task.
+  purposes:
+    services:
+    - to perform the desired task
+- source: information about you
+  target: contact information
+  key: SUBSUM
+  text:
+  - Account and profile information - We collect information about you when you register
+    for the Service, such as name and email address, as well as other various settings
+    and contact information.
+- source: information about you
+  target: email address
+  key: SUBSUM
+  text:
+  - Account and profile information - We collect information about you when you register
+    for the Service, such as name and email address, as well as other various settings
+    and contact information.
+- source: information about you
+  target: person name
+  key: SUBSUM
+  text:
+  - Account and profile information - We collect information about you when you register
+    for the Service, such as name and email address, as well as other various settings
+    and contact information.
+- source: information about you
+  target: setting
+  key: SUBSUM
+  text:
+  - Account and profile information - We collect information about you when you register
+    for the Service, such as name and email address, as well as other various settings
+    and contact information.
+- source: payment information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - Payment information - If you decide to upgrade to one of our premium plans, we
+    will collect payment information such as credit card details.
+- source: piece of information about network connection
+  target: ip address
+  key: SUBSUM
+  text:
+  - We collect various pieces of information about your network connection, such as
+    IP address, so that we can protect the Service against abuse.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: integration
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account datum
+- type: DATA
+  id: booking datum for lifetime of account
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: datum necessary
+- type: DATA
+  id: datum we collect
+- type: DATA
+  id: electronic file of account datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: extreme care
+- type: DATA
+  id: information about company
+- type: DATA
+  id: information about device as
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: ip address
+- type: DATA
+  id: minimum amount of datum
+- type: DATA
+  id: minimum amount require
+- type: DATA
+  id: payment datum
+- type: DATA
+  id: payment information
+- type: DATA
+  id: person name
+- type: DATA
+  id: piece of information about network connection
+- type: DATA
+  id: setting
+- type: DATA
+  id: user datum

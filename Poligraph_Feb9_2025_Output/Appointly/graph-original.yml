@@ -1,0 +1,56 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By using our services, you acknowledge that we may access your data to provide
+    the requested services, troubleshoot issues, and ensure compliance with our terms
+    of service.
+  - We will retain your information for as long as your account is active or as needed
+    to provide you services.
+  purposes:
+    services:
+    - to provide the requested services, troubleshoot issues, and ensure compliance
+      with our terms of service
+- source: we
+  target: datum give to we
+  key: COLLECT
+  text:
+  - We collect personal data given to us during the onboarding process or data voluntarily
+    given by you to us while using the platform.
+  purposes: {}
+- source: we
+  target: personal datum give to we during onboarding process
+  key: COLLECT
+  text:
+  - We collect personal data given to us during the onboarding process or data voluntarily
+    given by you to us while using the platform.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Additionally, we use this personal information to communicate with you, optimize
+    or improve the App
+  - We may use your personal information to personalize your experience, process transactions,
+    and provide customer support.
+  - We use the personal information we collect from you in order to provide the Service.
+  purposes:
+    services:
+    - in order to provide the Service
+    - to communicate with you, optimize or improve the App
+    - to personalize your experience, process transactions, and provide customer support
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: datum give to we
+- type: DATA
+  id: personal datum give to we during onboarding process
+- type: DATA
+  id: personal information

@@ -1,0 +1,117 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For our website, we will use your information to respond to you, regarding the
+    reason you contacted us.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - Through our website at www.welcomehomesoftware.com , we collect email addresses
+    of visitors.
+  purposes: {}
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - Through our applications, we also collect information about what our clients provide
+    to us.
+  purposes: {}
+- source: we
+  target: information you give we via email
+  key: COLLECT
+  text:
+  - We only have access to/collect information that you voluntarily give us via email
+    or through our website and application forms.
+  purposes: {}
+- source: we
+  target: information you provide about prospect lead
+  key: COLLECT
+  text:
+  - For our applications, we will use the information you provide about your prospects/leads,
+    only to perform lead scoring services, which you require us to do, through a preexisting
+    contract.
+  purposes:
+    services:
+    - only to perform lead scoring services, which you require us to do, through a
+      preexisting contract
+- source: we
+  target: information you provide we
+  key: COLLECT
+  text:
+  - We only use the information that you provide us voluntarily.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: we
+  target: sensitive information
+  key: COLLECT
+  text:
+  - Wherever we collect sensitive information, that information is encrypted and transmitted
+    to us in a secure way.
+  purposes: {}
+- source: we
+  target: welcome home software
+  key: SUBSUM
+  text:
+  - Welcome Home Software ("us", "we", or "our") operates the www.welcomehomesoftware.com
+    website.
+- source: type of unit
+  target: email of user of application
+  key: SUBSUM
+  text:
+  - This information pertains to their communities such as names, addresses, type
+    of units, and email of users of our applications.
+- source: type of unit
+  target: person name
+  key: SUBSUM
+  text:
+  - This information pertains to their communities such as names, addresses, type
+    of units, and email of users of our applications.
+- source: type of unit
+  target: postal address
+  key: SUBSUM
+  text:
+  - This information pertains to their communities such as names, addresses, type
+    of units, and email of users of our applications.
+nodes:
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: welcome home software
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: email address
+- type: DATA
+  id: email of user of application
+- type: DATA
+  id: information about
+- type: DATA
+  id: information you give we via email
+- type: DATA
+  id: information you provide about prospect lead
+- type: DATA
+  id: information you provide we
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: sensitive information
+- type: DATA
+  id: type of unit

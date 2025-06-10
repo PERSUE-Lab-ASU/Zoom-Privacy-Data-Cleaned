@@ -1,0 +1,98 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: Diennea
+  target: personal information
+  key: COLLECT
+  text:
+  - aSc Applied Software Consultants s.r.o is a data processor and processes personal
+    data on behalf of the data controller when the controller is using EduPage Cloud
+    Platform.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - No cookies are shared by third parties.
+  purposes: {}
+- source: asc applied software consultants
+  target: personal information
+  key: COLLECT
+  text:
+  - aSc Applied Software Consultants s.r.o is a data processor and processes personal
+    data on behalf of the data controller when the controller is using EduPage Cloud
+    Platform.
+  purposes: {}
+- source: edupage
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - EduPage stores data in secured datacenters certified by DIN ISO/IEC 27001.
+  purposes: {}
+- source: edupage
+  target: aggregate statistical datum
+  key: COLLECT
+  text:
+  - EduPage collects aggregate statistical data.
+  purposes: {}
+- source: edupage
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - EduPage uses only 2 cookies - one for the login purposes, this cookie is deleted
+    once you close your browser.
+  purposes: {}
+- source: edupage
+  target: encryption
+  key: COLLECT
+  text:
+  - EduPage uses encryption to protect data in transit.
+  purposes:
+    security:
+    - to protect data in transit
+- source: edupage
+  target: internet activity
+  key: COLLECT
+  text:
+  - EduPage stores logfiles of the user activity for security purposes.
+  purposes:
+    security:
+    - for security purposes
+- source: edupage
+  target: statistic about edupage usage
+  key: COLLECT
+  text:
+  - EduPage uses Google analytics service to gather the statistics about EduPage usage.
+  purposes: {}
+- source: edupage
+  target: tiered support level
+  key: COLLECT
+  text:
+  - EduPage uses tiered support levels.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Diennea
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: asc applied software consultants
+- type: ACTOR
+  id: edupage
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate statistical datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: encryption
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistic about edupage usage
+- type: DATA
+  id: tiered support level

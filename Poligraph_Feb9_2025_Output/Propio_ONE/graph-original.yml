@@ -1,0 +1,163 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    How We Use Your Information'
+  purposes: {}
+- source: we
+  target: information collect through site
+  key: COLLECT
+  text:
+  - We may share information collected through the Site with our subsidiaries, affiliated
+    companies, and like-minded business partners for the purpose of providing you
+    with the products and services you seek from the Site.
+  purposes:
+    services:
+    - for the purpose of providing you with the products and services you seek from
+      the Site
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We collect personally identifiable information from you only when you voluntarily
+    provide us with this information, such as when establishing an account, contacting
+    us with a question or comment, utilizing an "Email to a Friend" feature, or signing
+    up to receive emails about our latest products and services.
+  purposes: {}
+- source: we
+  target: personal information collect on site
+  key: COLLECT
+  text:
+  - In general, we use personal information collected on the Site for the specific
+    purpose for which it was volunteered; to market, sell, or provide products and
+    services; and to comply with any legal or regulatory requirements, process or
+    provisions.
+  purposes:
+    advertising:
+    - for the specific purpose for which it was volunteered; to market, sell, or provide
+      products and services; and to comply with any legal or regulatory requirements,
+      process or provisions
+    legal:
+    - for the specific purpose for which it was volunteered; to market, sell, or provide
+      products and services; and to comply with any legal or regulatory requirements,
+      process or provisions
+    services:
+    - for the specific purpose for which it was volunteered; to market, sell, or provide
+      products and services; and to comply with any legal or regulatory requirements,
+      process or provisions
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These third parties have access to your information only to perform specific tasks
+    on our behalf and are obligated not to disclose or use your information for any
+    other purpose.
+  purposes:
+    services:
+    - only to perform specific tasks on our behalf
+- source: UNSPECIFIED_ACTOR
+  target: datum collect through site
+  key: COLLECT
+  text:
+  - Propio may disclose the data collected through the Site, including personally
+    identifiable information, to another party with which Propio enters or reasonably
+    may enter into a corporate transaction, such as a merger, consolidation, acquisition,
+    or asset purchase.
+  purposes: {}
+- source: affiliated company
+  target: information collect through site
+  key: COLLECT
+  text:
+  - We may share information collected through the Site with our subsidiaries, affiliated
+    companies, and like-minded business partners for the purpose of providing you
+    with the products and services you seek from the Site.
+  purposes:
+    services:
+    - for the purpose of providing you with the products and services you seek from
+      the Site
+- source: minded business partner
+  target: information collect through site
+  key: COLLECT
+  text:
+  - We may share information collected through the Site with our subsidiaries, affiliated
+    companies, and like-minded business partners for the purpose of providing you
+    with the products and services you seek from the Site.
+  purposes:
+    services:
+    - for the purpose of providing you with the products and services you seek from
+      the Site
+- source: propio
+  target: datum collect through site
+  key: COLLECT
+  text:
+  - Propio may disclose the data collected through the Site, including personally
+    identifiable information, to another party with which Propio enters or reasonably
+    may enter into a corporate transaction, such as a merger, consolidation, acquisition,
+    or asset purchase.
+  purposes: {}
+- source: propio
+  target: personal identifier
+  key: COLLECT
+  text:
+  - However Propio may retain records of your personally identifiable information
+    for a period of time; for example, to follow-up on a request, resolve a dispute
+    or for similar reasons or in order to comply with applicable federal, state, or
+    local law.
+  - Propio may use your personally identifiable information [to communicate with you
+    and to send you information by email, postal mail, or other means about our products,
+    services, contests, and promotions].
+  purposes:
+    advertising:
+    - to communicate with you and to send you information by email, postal mail, or
+      other means about our products, services, contests, and promotions
+    services:
+    - to communicate with you and to send you information by email, postal mail, or
+      other means about our products, services, contests, and promotions
+- source: propio
+  target: personal information
+  key: COLLECT
+  text:
+  - By providing your personal information to Propio, you signify your acceptance
+    of the Terms of Use and agree that Propio may collect, use and disclose your personal
+    information as described herein.
+  purposes: {}
+- source: datum collect through site
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - Propio does not disclose the data collected through the Site, including personally
+    identifiable information, to other persons or entities for marketing purposes.
+  - Propio may disclose the data collected through the Site, including personally
+    identifiable information, to another party with which Propio enters or reasonably
+    may enter into a corporate transaction, such as a merger, consolidation, acquisition,
+    or asset purchase.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: affiliated company
+- type: ACTOR
+  id: minded business partner
+- type: ACTOR
+  id: propio
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: datum collect through site
+- type: DATA
+  id: information collect through site
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information collect on site

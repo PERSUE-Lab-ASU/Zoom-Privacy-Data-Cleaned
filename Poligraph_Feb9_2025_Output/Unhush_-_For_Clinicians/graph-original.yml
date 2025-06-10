@@ -1,0 +1,131 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Like most websites, Unhush collects certain information automatically through
+    the use of log files, including IP addresses, browser type, and operating system.
+  - We use this data for website analytics, troubleshooting, and to enhance user experience.
+  purposes:
+    analytics:
+    - for website analytics, troubleshooting, and to enhance user experience
+    services:
+    - for website analytics, troubleshooting, and to enhance user experience
+- source: we
+  target: log state
+  key: COLLECT
+  text:
+  - Cookies help us recognize you as a returning user and maintain your logged-in
+    state.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also disclose personal information as required by law, to enforce our agreements,
+    or to protect the rights, safety, or property of Unhush, our users, or others.
+  - 'We share personal information with third parties based on the principle of least
+    access, only as necessary for our business purposes:'
+  purposes:
+    legal:
+    - to enforce our agreements, or to protect the rights, safety, or property of
+      Unhush, our users, or others
+    security:
+    - to enforce our agreements, or to protect the rights, safety, or property of
+      Unhush, our users, or others
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Process payments   7. Sharing Information with Third Parties
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We share personal information with third parties based on the principle of least
+    access, only as necessary for our business purposes:'
+  purposes: {}
+- source: cloud storage
+  target: personal information
+  key: COLLECT
+  text:
+  - Unhush may share your personal information with third-party service providers
+    (e.g., cloud storage, payment processors) who assist in delivering our services.
+  purposes: {}
+- source: payment processor
+  target: personal information
+  key: COLLECT
+  text:
+  - Unhush may share your personal information with third-party service providers
+    (e.g., cloud storage, payment processors) who assist in delivering our services.
+  purposes: {}
+- source: unhush
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Like most websites, Unhush collects certain information automatically through
+    the use of log files, including IP addresses, browser type, and operating system.
+  purposes: {}
+- source: unhush
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Unhush uses cookies to improve your experience on our website.
+  purposes:
+    services:
+    - to improve your experience on our website
+- source: unhush
+  target: personal information
+  key: COLLECT
+  text:
+  - 11. Data Storage and Retention Unhush retains personal information for as long
+    as necessary to fulfill the purposes outlined in this Privacy Statement or as
+    required by law.
+  - Unhush may share your personal information with third-party service providers
+    (e.g., cloud storage, payment processors) who assist in delivering our services.
+  - Unhush processes personal information to provide mental health practitioners with
+    AI-generated session notes.
+  purposes:
+    services:
+    - to provide mental health practitioners with AI-generated session notes
+- source: unhush
+  target: personal information necessary
+  key: COLLECT
+  text:
+  - 3. Collection and Use of Personal Information  Information We Collect  Unhush
+    collects personal information necessary for the provision of its services.
+  purposes: {}
+- source: we
+  target: platform
+  key: SUBSUM
+  text:
+  - This Privacy Statement outlines Unhush's practices regarding the collection, use,
+    and sharing of personal information through its website, https://un-hush.com/
+    , and platform, https://www.app.un-hush.com , (collectively, the "Services").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: cloud storage
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: unhush
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: log state
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information necessary

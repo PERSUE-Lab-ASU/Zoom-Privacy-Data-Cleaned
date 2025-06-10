@@ -1,0 +1,15 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: mycomplianceoffice
+  target: fairwords
+  key: COLLECT
+  text:
+  - Fairwords has been acquired by MyComplianceOffice.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: mycomplianceoffice
+- type: DATA
+  id: fairwords

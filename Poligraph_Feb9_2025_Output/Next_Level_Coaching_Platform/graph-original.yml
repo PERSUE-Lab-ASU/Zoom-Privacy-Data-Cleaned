@@ -1,0 +1,150 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - CONTACTING THE USER CONTACT FORM (THIS APPLICATION) By filling in the contact
+    form with their Data, the User authorizes this Application to use these details
+    to reply to requests for information, quotes or any other kind of request as indicated
+    by the form's header.
+  purposes:
+    legal:
+    - to reply to requests for information, quotes or any other kind of request
+    services:
+    - to reply to requests for information, quotes or any other kind of request
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This Application uses Cookies.
+  purposes: {}
+- source: we
+  target: file record interaction with application
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - LOCATION-BASED INTERACTIONS GEOLOCATION (THIS APPLICATION)
+  - NON-CONTINUOUS GEOLOCATION (THIS APPLICATION)
+  - This Application may collect, use, and share User location Data in order to provide
+    location-based services.
+  purposes:
+    services:
+    - in order to provide location-based services
+- source: we
+  target: information concern particular service
+  key: COLLECT
+  text:
+  - In addition to the information contained in this privacy policy, this Application
+    may provide the User with additional and contextual information concerning particular
+    Services or the collection and processing of Personal Data upon request.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Note: Under some legislations the Owner may be allowed to process Personal Data
+    until the User objects to such processing ("opt-out"), without having to rely
+    on consent or any other of the following legal bases.'
+  - The Owner may be allowed to retain Personal Data for a longer period whenever
+    the User has given consent to such processing, as long as such consent is not
+    withdrawn.
+  purposes: {}
+- source: we
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: Google
+  target: datum collect
+  key: COLLECT
+  text:
+  - Google may use the Data collected to contextualize and personalize the ads of
+    its own advertising network.
+  - Google utilizes the Data collected to track and examine the use of this Application,
+    to prepare reports on its activities and share them with other Google services.
+  purposes:
+    advertising:
+    - to contextualize and personalize the ads of its own advertising network
+    analytics:
+    - to track and examine the use of this Application, to prepare reports on its
+      activities and share them with other Google services
+- source: UNSPECIFIED_ACTOR
+  target: file record interaction with application
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: type of service
+  target: web traffic datum for page instal
+  key: COLLECT
+  text:
+  - This type of service might still collect web traffic data for the pages where
+    the service is installed, even when Users do not use it.
+  purposes: {}
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    use other Personal Data (such as the IP Address) for this purpose.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: type of service
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: file record interaction with application
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information concern particular service
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal information
+- type: DATA
+  id: system log
+- type: DATA
+  id: web traffic datum for page instal

@@ -1,0 +1,394 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By using any product, service or functionality originating from BasicOps, you
+    hereby acknowledge and consent that we may share such information and data with
+    any third party with whom BasicOps has a contractual relationship to provide the
+    requested product, service or functionality on behalf of our users and customers.
+  - We may share data with trusted partners to help perform statistical analysis,
+    send you email or postal mail, provide customer support, or process payments.
+  purposes:
+    analytics:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or process payments
+    services:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or process payments
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use "cookies", or other technologies like pixels or web beacons, to help
+    you personalize your online experience and help us monitor, analyze and improve
+    the Services.
+  - We use both session-based and persistent cookies.
+  - We use cookies that help us remember you and improve your experience browsing
+    our site.
+  purposes:
+    analytics:
+    - to help you personalize your online experience and help us monitor, analyze
+      and improve the Services
+    services:
+    - to help you personalize your online experience and help us monitor, analyze
+      and improve the Services
+- source: we
+  target: payment information
+  key: COLLECT
+  text:
+  - We will share this payment information with the third party processing company.
+  - We will utilize a third party credit card payment processing company to collect
+    payment information, including your credit card number, billing address and phone
+    number.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may also use your personally identifiable information to inform you of other
+    products or services available from BasicOps and our affiliates.
+  - 'When you create an account and when you invite Users, we will collect personally
+    identifiable information associated with the account, some of which may or may
+    not be optional such as your:'
+  purposes:
+    advertising:
+    - to inform you of other products or services available from BasicOps and our
+      affiliates
+    analytics:
+    - to inform you of other products or services available from BasicOps and our
+      affiliates
+    services:
+    - to inform you of other products or services available from BasicOps and our
+      affiliates
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We will disclose your personal information, without notice, only if required
+    to do so by law or in the good faith belief that such action is necessary to:
+    (a) conform to the edicts of the law or comply with legal process served on BasicOps
+    or the site; (b) protect and defend the rights or property of BasicOps; and, (c)
+    act under exigent circumstances to protect the personal safety of users of BasicOps,
+    or the public.'
+  purposes: {}
+- source: we
+  target: record of email communication
+  key: COLLECT
+  text:
+  - Even if you are not a registered user of our Services, if you email us, we may
+    retain a record of such email communication, including your email address, the
+    content of your email, and our response.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By using any product, service or functionality originating from BasicOps, you
+    hereby acknowledge and consent that we may share such information and data with
+    any third party with whom BasicOps has a contractual relationship to provide the
+    requested product, service or functionality on behalf of our users and customers.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: payment information
+  key: COLLECT
+  text:
+  - We will share this payment information with the third party processing company.
+  - We will utilize a third party credit card payment processing company to collect
+    payment information, including your credit card number, billing address and phone
+    number.
+  purposes: {}
+- source: administrator
+  target: customer datum submit under account
+  key: COLLECT
+  text:
+  - Administrators have complete access to all Customer Data submitted under that
+    account by its users.
+  purposes: {}
+- source: basicops
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - BasicOps collects and uses your information to deliver the services you have requested.
+  purposes:
+    services:
+    - to deliver the services you have requested
+- source: trust partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share data with trusted partners to help perform statistical analysis,
+    send you email or postal mail, provide customer support, or process payments.
+  purposes:
+    analytics:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or process payments
+    services:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or process payments
+- source: we
+  target: online collaboration tool
+  key: SUBSUM
+  text:
+  - This Statement of Privacy applies to BasicOps, Inc.(together, "we", "us", "our"
+    or "BasicOps"), our online collaboration tools and platform (the "Services"),
+    and governs data collection and usage.
+- source: content include as part of services
+  target: compilation
+  key: SUBSUM
+  text:
+  - All content included as part of the Services, such as text, graphics, logos, images,
+    as well as the compilation thereof, and any software used by the Services, is
+    the property of BasicOps or its suppliers and protected by copyright and other
+    laws that protect intellectual property and proprietary rights.
+- source: content include as part of services
+  target: graphic
+  key: SUBSUM
+  text:
+  - All content included as part of the Services, such as text, graphics, logos, images,
+    as well as the compilation thereof, and any software used by the Services, is
+    the property of BasicOps or its suppliers and protected by copyright and other
+    laws that protect intellectual property and proprietary rights.
+- source: content include as part of services
+  target: logo
+  key: SUBSUM
+  text:
+  - All content included as part of the Services, such as text, graphics, logos, images,
+    as well as the compilation thereof, and any software used by the Services, is
+    the property of BasicOps or its suppliers and protected by copyright and other
+    laws that protect intellectual property and proprietary rights.
+- source: content include as part of services
+  target: software use
+  key: SUBSUM
+  text:
+  - All content included as part of the Services, such as text, graphics, logos, images,
+    as well as the compilation thereof, and any software used by the Services, is
+    the property of BasicOps or its suppliers and protected by copyright and other
+    laws that protect intellectual property and proprietary rights.
+- source: customer data
+  target: associated information
+  key: SUBSUM
+  text:
+  - The Services allow you to create projects and tasks and associated information,
+    text, files, video, images, documents and other materials of any type that you
+    upload, post, transmit, submit or otherwise make available to or through the Services
+    (together the "Customer Data") and to share that Customer Data with other Users.
+- source: customer data
+  target: file
+  key: SUBSUM
+  text:
+  - The Services allow you to create projects and tasks and associated information,
+    text, files, video, images, documents and other materials of any type that you
+    upload, post, transmit, submit or otherwise make available to or through the Services
+    (together the "Customer Data") and to share that Customer Data with other Users.
+- source: customer data
+  target: ownership of customer data
+  key: SUBSUM
+  text:
+  - You retain ownership of your Customer Data, but by uploading it onto the Services,
+    you are granting us a license to use, copy, reproduce, process, adapt, publish,
+    transmit, host and display that Customer Data for the purpose of (i) providing
+    you the Services and support; (ii) displaying the Customer Data to the Customer
+    and Users; and (iii) analyzing and improving the operation of the Services.
+- source: customer data
+  target: text
+  key: SUBSUM
+  text:
+  - The Services allow you to create projects and tasks and associated information,
+    text, files, video, images, documents and other materials of any type that you
+    upload, post, transmit, submit or otherwise make available to or through the Services
+    (together the "Customer Data") and to share that Customer Data with other Users.
+- source: customer datum
+  target: associated information
+  key: SUBSUM
+  text:
+  - The Services allow you to create projects and tasks and associated information,
+    text, files, video, images, documents and other materials of any type that you
+    upload, post, transmit, submit or otherwise make available to or through the Services
+    (together the "Customer Data") and to share that Customer Data with other Users.
+- source: customer datum
+  target: file
+  key: SUBSUM
+  text:
+  - The Services allow you to create projects and tasks and associated information,
+    text, files, video, images, documents and other materials of any type that you
+    upload, post, transmit, submit or otherwise make available to or through the Services
+    (together the "Customer Data") and to share that Customer Data with other Users.
+- source: customer datum
+  target: image
+  key: SUBSUM
+  text:
+  - The Services allow you to create projects and tasks and associated information,
+    text, files, video, images, documents and other materials of any type that you
+    upload, post, transmit, submit or otherwise make available to or through the Services
+    (together the "Customer Data") and to share that Customer Data with other Users.
+- source: customer datum
+  target: text
+  key: SUBSUM
+  text:
+  - The Services allow you to create projects and tasks and associated information,
+    text, files, video, images, documents and other materials of any type that you
+    upload, post, transmit, submit or otherwise make available to or through the Services
+    (together the "Customer Data") and to share that Customer Data with other Users.
+- source: industry standard encryption
+  target: SSL
+  key: SUBSUM
+  text:
+  - When you enter sensitive information (such as a credit card number) as part of
+    our Services, we encrypt the transmission of that information using industry-standard
+    encryption, such as the Secure Sockets Layer (SSL) protocol.
+- source: information about computer hardware
+  target: access time
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software and mobile hardware and
+    software may be automatically collected when you use the Services.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: browser type
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software and mobile hardware and
+    software may be automatically collected when you use the Services.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: domain name
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software and mobile hardware and
+    software may be automatically collected when you use the Services.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: ip address
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software and mobile hardware and
+    software may be automatically collected when you use the Services.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: refer website address
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software and mobile hardware and
+    software may be automatically collected when you use the Services.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: payment information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - We will utilize a third party credit card payment processing company to collect
+    payment information, including your credit card number, billing address and phone
+    number.
+- source: payment information
+  target: phone number
+  key: SUBSUM
+  text:
+  - We will utilize a third party credit card payment processing company to collect
+    payment information, including your credit card number, billing address and phone
+    number.
+- source: payment information
+  target: postal address
+  key: SUBSUM
+  text:
+  - We will utilize a third party credit card payment processing company to collect
+    payment information, including your credit card number, billing address and phone
+    number.
+- source: record of email communication
+  target: email address
+  key: SUBSUM
+  text:
+  - Even if you are not a registered user of our Services, if you email us, we may
+    retain a record of such email communication, including your email address, the
+    content of your email, and our response.
+- source: sensitive information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - When you enter sensitive information (such as a credit card number) as part of
+    our Services, we encrypt the transmission of that information using industry-standard
+    encryption, such as the Secure Sockets Layer (SSL) protocol.
+nodes:
+- type: ACTOR
+  id: SSL
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: administrator
+- type: ACTOR
+  id: basicops
+- type: ACTOR
+  id: compilation
+- type: ACTOR
+  id: content include as part of services
+- type: ACTOR
+  id: graphic
+- type: ACTOR
+  id: industry standard encryption
+- type: ACTOR
+  id: logo
+- type: ACTOR
+  id: online collaboration tool
+- type: ACTOR
+  id: software use
+- type: ACTOR
+  id: trust partner
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: associated information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer data
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: customer datum submit under account
+- type: DATA
+  id: domain name
+- type: DATA
+  id: email address
+- type: DATA
+  id: file
+- type: DATA
+  id: image
+- type: DATA
+  id: information about computer hardware
+- type: DATA
+  id: ip address
+- type: DATA
+  id: ownership of customer data
+- type: DATA
+  id: payment information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: record of email communication
+- type: DATA
+  id: refer website address
+- type: DATA
+  id: sensitive information
+- type: DATA
+  id: text

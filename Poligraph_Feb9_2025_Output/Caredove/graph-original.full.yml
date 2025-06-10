@@ -1,0 +1,274 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: caredove
+  target: browser information for performance analytic
+  key: COLLECT
+  text:
+  - Caredove collects browser information for performance and usage analytics.
+  purposes: {}
+- source: caredove
+  target: personal information
+  key: COLLECT
+  text:
+  - Caredove will collect only the amount of PI that we require to achieve the purposes
+    identified in (Principle 2) above, unless we receive consent from the individual
+    or agency to collect it for another purpose.
+  - 'Principle 2: Identifying Purposes
+
+
+    Caredove collects Personal Information (PI)  about users of Caredove with the
+    intention of helping users find and connect with health care and community care
+    services.'
+  purposes: {}
+- source: caredove
+  target: phi
+  key: COLLECT
+  text:
+  - Caredove may store Protected Health Information (PHI) while providing an electronic
+    service that allows HICs to streamline patient referrals.
+  purposes: {}
+- source: caredove
+  target: phi collect
+  key: COLLECT
+  text:
+  - Caredove may manage and temporarily store PHI collected and entered by the Health
+    Information Custodian (HIC).
+  purposes: {}
+- source: caredove
+  target: procedure for own personnel
+  key: COLLECT
+  text:
+  - 'Caredove maintains procedures for its own personnel that:'
+  purposes: {}
+- source: caredove
+  target: protected health information
+  key: COLLECT
+  text:
+  - Caredove may store Protected Health Information (PHI) while providing an electronic
+    service that allows HICs to streamline patient referrals.
+  purposes: {}
+- source: business consulting service
+  target: process improvement
+  key: SUBSUM
+  text:
+  - 'Such collected information about users may be for one or more of the following
+    purposes: Providing business consulting services such as process improvement &
+    program evaluation'
+- source: functionality
+  target: analytic provider
+  key: SUBSUM
+  text:
+  - Caredove makes use of some 3rd party web services to support its functionality
+    (e.g., mapping, translation, email, customer support, faxing and analytics services
+    services), to which some information may be transferred.
+- source: functionality
+  target: email service provider
+  key: SUBSUM
+  text:
+  - Caredove makes use of some 3rd party web services to support its functionality
+    (e.g., mapping, translation, email, customer support, faxing and analytics services
+    services), to which some information may be transferred.
+- source: governmental organization
+  target: Administration for Children and Families
+  key: SUBSUM
+  text:
+  - 'The CPO will: Cooperate with officials in governmental organizations (e.g., HHS
+    or Office of the Privacy Commissioner. )'
+- source: governmental organization
+  target: office of privacy commissioner
+  key: SUBSUM
+  text:
+  - 'The CPO will: Cooperate with officials in governmental organizations (e.g., HHS
+    or Office of the Privacy Commissioner. )'
+- source: identifiable information about individual as
+  target: email address
+  key: SUBSUM
+  text:
+  - '"Personal Information (PI)" means identifiable information about an individual
+    such as: Personal address, telephone number or email address'
+- source: identifiable information about individual as
+  target: identify number assign to individual
+  key: SUBSUM
+  text:
+  - '"Personal Information (PI)" means identifiable information about an individual
+    such as: Any identifying number assigned to an individual (e.g. Social Insurance
+    Number, Social Security Number)'
+- source: identifiable information about individual as
+  target: information relate to education
+  key: SUBSUM
+  text:
+  - '"Personal Information (PI)" means identifiable information about an individual
+    such as: Information relating to education, employment, etc.'
+- source: identifiable information about individual as
+  target: payment history
+  key: SUBSUM
+  text:
+  - '"Personal Information (PI)" means identifiable information about an individual
+    such as: Payment history'
+- source: identifiable information about individual as
+  target: personal address
+  key: SUBSUM
+  text:
+  - '"Personal Information (PI)" means identifiable information about an individual
+    such as: Personal address, telephone number or email address'
+- source: identifiable information about individual as
+  target: phone number
+  key: SUBSUM
+  text:
+  - '"Personal Information (PI)" means identifiable information about an individual
+    such as: Personal address, telephone number or email address'
+- source: identifiable information about individual as
+  target: race / ethnicity
+  key: SUBSUM
+  text:
+  - '"Personal Information (PI)" means identifiable information about an individual
+    such as: Information relating to age, sex, disability, race, citizenship status,
+    marital status, religion, etc.'
+- source: identify number assign to individual
+  target: social insurance number
+  key: SUBSUM
+  text:
+  - '"Personal Information (PI)" means identifiable information about an individual
+    such as: Any identifying number assigned to an individual (e.g. Social Insurance
+    Number, Social Security Number)'
+- source: identify number assign to individual
+  target: ssn
+  key: SUBSUM
+  text:
+  - '"Personal Information (PI)" means identifiable information about an individual
+    such as: Any identifying number assigned to an individual (e.g. Social Insurance
+    Number, Social Security Number)'
+- source: information as
+  target: alternate decision maker
+  key: SUBSUM
+  text:
+  - '"Protected Health Information (PHI)" means information such as: Alternate decision
+    maker'
+- source: information as
+  target: clinical information about individual refer for service
+  key: SUBSUM
+  text:
+  - '"Protected Health Information (PHI)" means information such as: Clinical information
+    about the individual being referred for service.'
+- source: information as
+  target: e.g ohip card
+  key: SUBSUM
+  text:
+  - '"Protected Health Information (PHI)" means information such as: Health Card Number
+    (e.g OHIP card)'
+- source: information as
+  target: eligibility for health care
+  key: SUBSUM
+  text:
+  - '"Protected Health Information (PHI)" means information such as: Eligibility for
+    health care'
+- source: information as
+  target: family health history
+  key: SUBSUM
+  text:
+  - '"Protected Health Information (PHI)" means information such as: The individual''s
+    family health history'
+- source: information as
+  target: health card number
+  key: SUBSUM
+  text:
+  - '"Protected Health Information (PHI)" means information such as: Health Card Number
+    (e.g OHIP card)'
+- source: information as
+  target: identify information be
+  key: SUBSUM
+  text:
+  - '"Protected Health Information (PHI)" means information such as: Any identifying
+    information that is not personal health information but that is contained in a
+    record of personal health information'
+- source: version
+  target: for firefox
+  key: SUBSUM
+  text:
+  - For both anonymous visitors and known visitors to our website, information is
+    collected such as the server the computer is logged onto, the domain name of the
+    internet service provider, browser type and version (for example, Firefox or Internet
+    Explorer) and IP address.
+- source: version
+  target: internet explorer
+  key: SUBSUM
+  text:
+  - For both anonymous visitors and known visitors to our website, information is
+    collected such as the server the computer is logged onto, the domain name of the
+    internet service provider, browser type and version (for example, Firefox or Internet
+    Explorer) and IP address.
+nodes:
+- type: ACTOR
+  id: Administration for Children and Families
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: business consulting service
+- type: ACTOR
+  id: caredove
+- type: ACTOR
+  id: email service provider
+- type: ACTOR
+  id: for firefox
+- type: ACTOR
+  id: functionality
+- type: ACTOR
+  id: governmental organization
+- type: ACTOR
+  id: internet explorer
+- type: ACTOR
+  id: office of privacy commissioner
+- type: ACTOR
+  id: process improvement
+- type: ACTOR
+  id: version
+- type: DATA
+  id: alternate decision maker
+- type: DATA
+  id: browser information for performance analytic
+- type: DATA
+  id: clinical information about individual refer for service
+- type: DATA
+  id: e.g ohip card
+- type: DATA
+  id: eligibility for health care
+- type: DATA
+  id: email address
+- type: DATA
+  id: family health history
+- type: DATA
+  id: health card number
+- type: DATA
+  id: identifiable information about individual as
+- type: DATA
+  id: identify information be
+- type: DATA
+  id: identify number assign to individual
+- type: DATA
+  id: information as
+- type: DATA
+  id: information relate to education
+- type: DATA
+  id: payment history
+- type: DATA
+  id: personal address
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phi
+- type: DATA
+  id: phi collect
+- type: DATA
+  id: phone number
+- type: DATA
+  id: procedure for own personnel
+- type: DATA
+  id: protected health information
+- type: DATA
+  id: race / ethnicity
+- type: DATA
+  id: social insurance number
+- type: DATA
+  id: ssn

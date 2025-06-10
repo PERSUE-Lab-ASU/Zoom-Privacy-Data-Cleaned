@@ -1,0 +1,73 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'In some exceptional cases, we may be legally permitted under applicable law to
+    process your information without your consent, including, for example:'
+  - We keep your information for as long as necessary to
+  - We may also process your information for other purposes with your consent.
+  - We may process your information if you have given us permission (i.e. , consent)
+    to use your personal information for a specific purpose.
+  - We may process your information if you have given us specific permission (i.e.
+  - We may process your information when necessary to save or protect an individual's
+    vital interest, such as to prevent harm.
+  - We may process your information where we believe it is necessary for compliance
+    with our legal obligations, such as to cooperate with a law enforcement body or
+    regulatory agency, exercise or defend our legal rights, or disclose your information
+    as evidence in litigation in which we are involved.
+  - We may process your information where we believe it is necessary to protect your
+    vital interests or the vital interests of a third party, such as situations involving
+    potential threats to the safety of any person.
+  - We may share information in specific situations and with specific
+  - We may share or transfer your information in connection with, or during negotiations
+    of, any merger, sale of company assets, financing, or acquisition of all or a
+    portion of our business to another company.
+  - We process your information only when we have a valid legal reason to do so.
+  - We process your information to provide, improve, and administer our Services,
+    communicate with you, for security and fraud prevention, and to comply with law.
+  purposes:
+    security:
+    - to save or protect an individual's vital interest, such as to prevent harm
+    services:
+    - to provide, improve, and administer our Services
+- source: we
+  target: information in specific situation describe in section
+  key: COLLECT
+  text:
+  - We may share information in specific situations described in this section and/or
+    with the following
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - ', or, if this is not possible (for example, because your personal information
+    has been stored in backup archives), then we will securely store your personal
+    information and isolate it from any further processing until deletion is possible.'
+  - 'The personal information we collect may include the following:'
+  - We collect personal information that you provide to us.
+  - We collect personal information that you voluntarily provide to us when you
+  - We only process your personal information when we believe it is necessary and
+    we have a valid legal reason (i.e.
+  - 'We process your personal information for a variety of reasons, depending on how
+    you interact with our Services, including:'
+  - We will only keep your personal information for as long as it is necessary for
+    the purposes set out in this privacy notice, unless a longer retention period
+    is required or permitted by law (such as tax, accounting, or other legal requirements).
+  - When you visit, use, or navigate our Services, we may process personal information
+    depending on how you interact with
+  - when and with whom we share your personal information
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: information in specific situation describe in section
+- type: DATA
+  id: personal information

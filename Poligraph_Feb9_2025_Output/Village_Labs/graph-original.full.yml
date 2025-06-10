@@ -1,0 +1,1320 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you reply to one of these postings by submitting your application, CV and/or
+    cover letter to us, we will collect and use your information to assess your qualifications.
+  - "Information From Third Parties \n\nHow We Use the Information"
+  - Like many website and app owners and operators, we (and our partners who assist
+    us with marketing, analytics, User research, advertising, and User support) may
+    utilize automated data collection tools such as cookies, web beacons, and pixel
+    tags to collect certain information from Users of our Services.
+  - We do not directly collect or store any payment card information entered through
+    our Services, but we may receive information associated with your payment card
+    information (e.g., your billing details).
+  - We may also use this information to monitor recruitment statistics, to communicate
+    with you, to comply with law, and as otherwise necessary for compliance, fraud
+    prevention, and safety purposes.
+  - We may also use your information for any other purpose disclosed to you at the
+    time we collect or receive your information, or otherwise with your consent.
+  - We share information with our corporate subsidiaries and affiliates, including
+    parent and holding companies, for our administrative purposes, including activities
+    such as IT management, auditing and compliance, and for them to provide services
+    to you or support and supplement the Services we provide.
+  - 'You may request that we erase the Personal Data we hold about you in the following
+    circumstances: where you believe it is no longer necessary for us to hold the
+    Personal Data; we are processing it on the basis of your consent and you wish
+    to withdraw your consent; we are processing your data on the basis of our legitimate
+    interest and you object to such processing; you no longer wish us to use your
+    data to send you marketing; or you believe we are unlawfully processing your data.'
+  purposes:
+    advertising:
+    - to send you marketing
+    analytics:
+    - to assess your qualifications
+    - to monitor recruitment statistics, to communicate with you, to comply with law,
+      and as otherwise necessary for compliance, fraud prevention, and safety purposes
+    legal:
+    - to monitor recruitment statistics, to communicate with you, to comply with law,
+      and as otherwise necessary for compliance, fraud prevention, and safety purposes
+    security:
+    - to monitor recruitment statistics, to communicate with you, to comply with law,
+      and as otherwise necessary for compliance, fraud prevention, and safety purposes
+    services:
+    - for our administrative purposes, including activities such as IT management,
+      auditing and compliance, and for them to provide services to you or support
+      and supplement the Services we provide
+    - to assess your qualifications
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'We may share de-identified or aggregated data we collect from the use of the
+    Services, including but not limited to de-identified or aggregated: transaction
+    or investment  information, location information, information about the computer
+    or device from which you access the Services, market trends, and other analysis
+    that we create based on the information we receive from you and other Users.'
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - if you choose to share contact information of other individuals with us, for example
+    if you are using a referral feature or a friend finder feature, we will collect
+    and retain the contact information that you provide.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For example, we can use these Cookies to learn more about which features are the
+    most popular with our Users and which ones might need some tweaks.
+  - For instance, we may use these Cookies to remember your language preferences.
+  - For instance, we may use these cookies to store your session information to prevent
+    others from changing your password without your username and password.
+  - We may use both session cookies and persistent cookies to identify that you've
+    logged in to the Services and to tell us how and when you interact with our Services.
+  - We use this type of Cookie to collect information about how you use our site,
+    monitor site performance, and improve our site performance, our services, and
+    your experience.
+  - We use this type of Cookie to deliver advertisements, to make them more relevant
+    and meaningful to consumers, and to track the efficiency of our advertising campaigns,
+    both on our Services and on other sites or mobile apps.
+  - We use this type of Cookie to remember your settings and preferences, and to improve
+    your experience on our site.
+  - We use this type of Cookie to run our site, and to identify and prevent security
+    risks.
+  purposes:
+    advertising:
+    - to deliver advertisements, to make them more relevant and meaningful to consumers,
+      and to track the efficiency of our advertising campaigns, both on our Services
+      and on other sites or mobile apps
+    analytics:
+    - to deliver advertisements, to make them more relevant and meaningful to consumers,
+      and to track the efficiency of our advertising campaigns, both on our Services
+      and on other sites or mobile apps
+    - to identify that you've logged in to the Services and to tell us how and when
+      you interact with our Services
+    - to learn more about which features are the most popular with our Users and which
+      ones might need some tweaks
+    security:
+    - to run our site, and to identify and prevent security risks
+    - to store your session information to prevent others from changing your password
+      without your username and password
+    services:
+    - to identify that you've logged in to the Services and to tell us how and when
+      you interact with our Services
+    - to learn more about which features are the most popular with our Users and which
+      ones might need some tweaks
+    - to remember your language preferences
+    - to remember your settings and preferences, and to improve your experience on
+      our site
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - We do not directly collect or store any payment card information entered through
+    our Services, but we may receive information associated with your payment card
+    information (e.g., your billing details).
+  purposes: {}
+- source: we
+  target: datum connector
+  key: COLLECT
+  text:
+  - We collect certain information from Connectors (such as data Connectors to 3rd-party
+    workplace tools like Google Workspace, Zoom, Jira, Notion and other SaaS applications).
+  purposes: {}
+- source: we
+  target: detail as
+  key: COLLECT
+  text:
+  - Please provide us with detail as to your reasoning so that we can assess whether
+    there is a compelling overriding interest in us continuing to process such data
+    or we need to process it in relation to legal claims.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - This information may include your name, email address, phone number, address,
+    order payment information, and other information that may relate to you or identify
+    you.
+  - You may provide information to us when you use the Services, including when you
+    contact us, respond to surveys, or provide feedback about the Services.
+  purposes: {}
+- source: we
+  target: financial information
+  key: COLLECT
+  text:
+  - When you pay for the Services, we will keep records of what you purchased or ordered,
+    and will request financial information such as payment method or credit or debit
+    card information so we can charge you for the purchase.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - When you use our Services, we may collect and store information about your location
+    by converting your IP address into a rough geolocation or by requesting precise
+    location through your browser settings.
+  purposes: {}
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We also use Microsoft Clarity, a service provided by Microsoft, Inc. ("Microsoft"),
+    to gather information about how Users engage with our Site and Services.
+  - We use Google Analytics, a service provided by Google, Inc. ("Google"), to gather
+    information about how Users engage with our Site and Services.
+  - We use this type of Cookie to collect information about how you use our site,
+    monitor site performance, and improve our site performance, our services, and
+    your experience.
+  purposes: {}
+- source: we
+  target: information about account
+  key: COLLECT
+  text:
+  - For example, if we shut down a User's account because of security or fraud incidents,
+    we may retain certain information about that account to prevent that User from
+    opening a new account in the future.
+  purposes:
+    security:
+    - to prevent that User from opening a new account in the future
+    services:
+    - to prevent that User from opening a new account in the future
+- source: we
+  target: information about user
+  key: COLLECT
+  text:
+  - We may also obtain information about Users from third parties, including but not
+    limited to our Customers,         affiliates, joint marketing partners, lead providers,
+    fraud and risk mitigation vendors, and identify verification         services.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - Similarly we may share information about you with companies offering complimentary
+    services, promotions, or offers through our Site our Services, if you request,
+    or consent, that we share your information.
+  - 'We may disclose any information about you to government or law enforcement officials
+    or private parties as we, in our sole discretion, believe necessary or appropriate:
+    (i) to respond to claims, legal process (including subpoenas); (ii) to protect
+    our property, rights and safety and the property, rights and safety of a third
+    party or the public in general; and (iii) to stop any activity that we consider
+    illegal, unethical or legally actionable activity.'
+  - We may share information about you with third parties in the event that you request
+    we do so, for example, with other Users or groups of Users or the public if you
+    request that or if, for instance, you use a feature that performs that type sharing
+    function.
+  - We may use Personal Data and other information about you to create de-identified
+    and/or aggregated information, such as de-identified demographic information,
+    de-identified location information, or de-identified information about the device
+    from which you access our Services.
+  purposes:
+    analytics:
+    - to create de-identified and/or aggregated information, such as de-identified
+      demographic information, de-identified location information, or de-identified
+      information about the device from which you access our Services
+- source: we
+  target: information mobile device send
+  key: COLLECT
+  text:
+  - We collect certain information that your mobile device, laptop, or other hardware
+    device sends when you use our Services, including but not limited to IP Address,
+    user agent information, network and connectivity information, device identifiers,
+    advertising identifiers, language preferences, user settings, software and operating
+    system names and versions, hardware models, as well as other information about
+    your use of our Services.
+  purposes: {}
+- source: we
+  target: information relate to action you perform
+  key: COLLECT
+  text:
+  - We also collect information relating to the actions that you perform while logged
+    into your account.
+  purposes: {}
+- source: we
+  target: information you provide on
+  key: COLLECT
+  text:
+  - Any information that you provide on or to a Third-party Service or that is collected
+    by a Third-party Service is provided directly to the owner or operator of the
+    Third-party Service and is subject to the owner's or operator's privacy policy.
+  purposes: {}
+- source: we
+  target: information you provide to we you send we email with query feedback
+  key: COLLECT
+  text:
+  - We also collect any information you provide to us when you send us emails with
+    queries, feedback, or for any other reason.
+  purposes: {}
+- source: we
+  target: information you provide we
+  key: COLLECT
+  text:
+  - We need to retain the information you provide us in order to provide our Services,
+    and we retain such information for as long as you maintain your account, at a
+    minimum.
+  purposes:
+    analytics:
+    - to retain the information you provide us
+    security:
+    - to retain the information you provide us
+    services:
+    - in order to provide our Services
+    - to retain the information you provide us
+- source: we
+  target: information you provide we include personal datum
+  key: COLLECT
+  text:
+  - We may share information you provide us, including your Personal Data, with third
+    parties, in the types of scenarios, and for the types of reasons described in
+    this section.
+  purposes: {}
+- source: we
+  target: order payment information
+  key: COLLECT
+  text:
+  - This information may include your name, email address, phone number, address,
+    order payment information, and other information that may relate to you or identify
+    you.
+  - You may provide information to us when you use the Services, including when you
+    contact us, respond to surveys, or provide feedback about the Services.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - This information may include your name, email address, phone number, address,
+    order payment information, and other information that may relate to you or identify
+    you.
+  - You may provide information to us when you use the Services, including when you
+    contact us, respond to surveys, or provide feedback about the Services.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - This information may include your name, email address, phone number, address,
+    order payment information, and other information that may relate to you or identify
+    you.
+  - 'When you sign up to create an account, we collect and retain certain information
+    that can be used to identify you (" Personal Data "), including, in the case of
+    account creation: your first and last name, email addresses, and phone number,
+    and profile photo ("Sign Up Information").'
+  - You may provide information to us when you use the Services, including when you
+    contact us, respond to surveys, or provide feedback about the Services.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, we may share your Personal Data with a cloud hosting provider (for
+    example, Amazon Web Services) as part of our utilization of their hosting services.
+  - If we have not entered into a contract with you, we process your personal information
+    based on our legitimate interest in providing the services you access and request.
+  - 'Pursuant to the GDPR and LGPD, we may process Personal Data under only the following
+    conditions:'
+  - We may use Personal Data and other information about you to create de-identified
+    and/or aggregated information, such as de-identified demographic information,
+    de-identified location information, or de-identified information about the device
+    from which you access our Services.
+  - 'We will use your Personal Data for the following purposes:'
+  - 'When you sign up to create an account, we collect and retain certain information
+    that can be used to identify you (" Personal Data "), including, in the case of
+    account creation: your first and last name, email addresses, and phone number,
+    and profile photo ("Sign Up Information").'
+  purposes:
+    analytics:
+    - to create de-identified and/or aggregated information, such as de-identified
+      demographic information, de-identified location information, or de-identified
+      information about the device from which you access our Services
+    services:
+    - Providing our Services, including generating automated reporting, transcription,
+      communicating with you, and providing customer support in relation to the Services
+    - Providing our Services, including to communicate with you, and provide customer
+      support in relation to the Services
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - This information may include your name, email address, phone number, address,
+    order payment information, and other information that may relate to you or identify
+    you.
+  - You may provide information to us when you use the Services, including when you
+    contact us, respond to surveys, or provide feedback about the Services.
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - This information may include your name, email address, phone number, address,
+    order payment information, and other information that may relate to you or identify
+    you.
+  - You may provide information to us when you use the Services, including when you
+    contact us, respond to surveys, or provide feedback about the Services.
+  purposes: {}
+- source: we
+  target: record of
+  key: COLLECT
+  text:
+  - When you pay for the Services, we will keep records of what you purchased or ordered,
+    and will request financial information such as payment method or credit or debit
+    card information so we can charge you for the purchase.
+  purposes: {}
+- source: we
+  target: relevant information
+  key: COLLECT
+  text:
+  - We also retain certain relevant information, including transaction, location,
+    device, and usage information, for as long as it is required to do so, in connection
+    with regulatory, tax, insurance, legal, administrative, and other requirements.
+  purposes: {}
+- source: Stripe
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Rather, all such information is provided directly to our third-party processor,
+    Stripe, whose use of your personal information is governed by their privacy policy,
+    which may be viewed at https://stripe.com/us/privacy.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In order to create your account and enable certain of our Services, we may require
+    you to provide certain information to our third party identity verification partner.
+  - Rather, all such information is provided directly to our third-party processor,
+    Stripe, whose use of your personal information is governed by their privacy policy,
+    which may be viewed at https://stripe.com/us/privacy.
+  purposes:
+    services:
+    - In order to create your account and enable certain of our Services
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - We may share information about you with third parties in the event that you request
+    we do so, for example, with other Users or groups of Users or the public if you
+    request that or if, for instance, you use a feature that performs that type sharing
+    function.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information you provide we include personal datum
+  key: COLLECT
+  text:
+  - We may share information you provide us, including your Personal Data, with third
+    parties, in the types of scenarios, and for the types of reasons described in
+    this section.
+  purposes: {}
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - Your Personal Data may be shared with certain advertising partners who conduct
+    or assist us with marketing, as well as advertising and social media partners
+    who we allow to place cookies (or similar technology) in our Services as necessary
+    to their provision of various services, including but not limited to ad attribution,
+    ad placement, audience measurement, social sharing, and site analytics.
+  purposes: {}
+- source: auth provider
+  target: personal information
+  key: COLLECT
+  text:
+  - These third-party services providers will have access to your Personal Data for
+    the purpose of performing services on our behalf.
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+  purposes:
+    services:
+    - for the purpose of performing services on our behalf
+- source: cloud hosting provider
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, we may share your Personal Data with a cloud hosting provider (for
+    example, Amazon Web Services) as part of our utilization of their hosting services.
+  - These third-party services providers will have access to your Personal Data for
+    the purpose of performing services on our behalf.
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+  purposes:
+    services:
+    - for the purpose of performing services on our behalf
+- source: company offer complimentary service through site
+  target: information about you
+  key: COLLECT
+  text:
+  - Similarly we may share information about you with companies offering complimentary
+    services, promotions, or offers through our Site our Services, if you request,
+    or consent, that we share your information.
+  purposes: {}
+- source: customer support partner
+  target: personal information
+  key: COLLECT
+  text:
+  - These third-party services providers will have access to your Personal Data for
+    the purpose of performing services on our behalf.
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+  purposes:
+    services:
+    - for the purpose of performing services on our behalf
+- source: financial service company
+  target: personal information
+  key: COLLECT
+  text:
+  - These third-party services providers will have access to your Personal Data for
+    the purpose of performing services on our behalf.
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+  purposes:
+    services:
+    - for the purpose of performing services on our behalf
+- source: fraud detection service
+  target: personal information
+  key: COLLECT
+  text:
+  - These third-party services providers will have access to your Personal Data for
+    the purpose of performing services on our behalf.
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+  purposes:
+    services:
+    - for the purpose of performing services on our behalf
+- source: fulfillment service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - These third-party services providers will have access to your Personal Data for
+    the purpose of performing services on our behalf.
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+  purposes:
+    services:
+    - for the purpose of performing services on our behalf
+- source: government official
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may disclose any information about you to government or law enforcement officials
+    or private parties as we, in our sole discretion, believe necessary or appropriate:
+    (i) to respond to claims, legal process (including subpoenas); (ii) to protect
+    our property, rights and safety and the property, rights and safety of a third
+    party or the public in general; and (iii) to stop any activity that we consider
+    illegal, unethical or legally actionable activity.'
+  purposes: {}
+- source: group of user
+  target: information about you
+  key: COLLECT
+  text:
+  - We may share information about you with third parties in the event that you request
+    we do so, for example, with other Users or groups of Users or the public if you
+    request that or if, for instance, you use a feature that performs that type sharing
+    function.
+  purposes: {}
+- source: large language model infrastructure provider
+  target: personal information
+  key: COLLECT
+  text:
+  - These third-party services providers will have access to your Personal Data for
+    the purpose of performing services on our behalf.
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+  purposes:
+    services:
+    - for the purpose of performing services on our behalf
+- source: operator
+  target: information you provide on
+  key: COLLECT
+  text:
+  - Any information that you provide on or to a Third-party Service or that is collected
+    by a Third-party Service is provided directly to the owner or operator of the
+    Third-party Service and is subject to the owner's or operator's privacy policy.
+  purposes: {}
+- source: parent hold company
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share information with our corporate subsidiaries and affiliates, including
+    parent and holding companies, for our administrative purposes, including activities
+    such as IT management, auditing and compliance, and for them to provide services
+    to you or support and supplement the Services we provide.
+  purposes:
+    services:
+    - for our administrative purposes, including activities such as IT management,
+      auditing and compliance, and for them to provide services to you or support
+      and supplement the Services we provide
+- source: partner who assist we with marketing
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Like many website and app owners and operators, we (and our partners who assist
+    us with marketing, analytics, User research, advertising, and User support) may
+    utilize automated data collection tools such as cookies, web beacons, and pixel
+    tags to collect certain information from Users of our Services.
+  purposes: {}
+- source: private party
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may disclose any information about you to government or law enforcement officials
+    or private parties as we, in our sole discretion, believe necessary or appropriate:
+    (i) to respond to claims, legal process (including subpoenas); (ii) to protect
+    our property, rights and safety and the property, rights and safety of a third
+    party or the public in general; and (iii) to stop any activity that we consider
+    illegal, unethical or legally actionable activity.'
+  purposes: {}
+- source: social media
+  target: personal information
+  key: COLLECT
+  text:
+  - Your Personal Data may be shared with certain advertising partners who conduct
+    or assist us with marketing, as well as advertising and social media partners
+    who we allow to place cookies (or similar technology) in our Services as necessary
+    to their provision of various services, including but not limited to ad attribution,
+    ad placement, audience measurement, social sharing, and site analytics.
+  purposes: {}
+- source: web hosting provider
+  target: personal information
+  key: COLLECT
+  text:
+  - These third-party services providers will have access to your Personal Data for
+    the purpose of performing services on our behalf.
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+  purposes:
+    services:
+    - for the purpose of performing services on our behalf
+- source: we
+  target: auth provider
+  key: SUBSUM
+  text:
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+- source: we
+  target: cloud hosting provider
+  key: SUBSUM
+  text:
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+- source: we
+  target: communication with you
+  key: SUBSUM
+  text:
+  - This Privacy Policy ("Privacy Policy" or "Policy") explains our practices regarding
+    the collection, use, and disclosure of information that we receive through our
+    website located at www.villagelabs.co (the "Site"), our products and technologies,
+    and our communications with you (collectively, the "Services").
+- source: we
+  target: customer support partner
+  key: SUBSUM
+  text:
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+- source: we
+  target: financial service company
+  key: SUBSUM
+  text:
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+- source: we
+  target: fraud detection service
+  key: SUBSUM
+  text:
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+- source: we
+  target: fulfillment service provider
+  key: SUBSUM
+  text:
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+- source: we
+  target: large language model infrastructure provider
+  key: SUBSUM
+  text:
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+- source: we
+  target: technology
+  key: SUBSUM
+  text:
+  - This Privacy Policy ("Privacy Policy" or "Policy") explains our practices regarding
+    the collection, use, and disclosure of information that we receive through our
+    website located at www.villagelabs.co (the "Site"), our products and technologies,
+    and our communications with you (collectively, the "Services").
+- source: we
+  target: web hosting provider
+  key: SUBSUM
+  text:
+  - 'We may engage third-party service providers to help us administer, provide, and
+    improve the Services, including but not limited to the following types of partners:
+    third party financial financial institutions and financial services companies,
+    web hosting providers, cloud hosting providers, fraud detection services, identity
+    verification services, fulfillment service providers, large-language model infrastructure
+    providers, and customer support partners.'
+- source: we
+  target: website locate at www.villagelabs.co
+  key: SUBSUM
+  text:
+  - This Privacy Policy ("Privacy Policy" or "Policy") explains our practices regarding
+    the collection, use, and disclosure of information that we receive through our
+    website located at www.villagelabs.co (the "Site"), our products and technologies,
+    and our communications with you (collectively, the "Services").
+- source: 3rd party workplace tool
+  target: Google
+  key: SUBSUM
+  text:
+  - We collect certain information from Connectors (such as data Connectors to 3rd-party
+    workplace tools like Google Workspace, Zoom, Jira, Notion and other SaaS applications).
+- source: 3rd party workplace tool
+  target: jira
+  key: SUBSUM
+  text:
+  - We collect certain information from Connectors (such as data Connectors to 3rd-party
+    workplace tools like Google Workspace, Zoom, Jira, Notion and other SaaS applications).
+- source: 3rd party workplace tool
+  target: notion
+  key: SUBSUM
+  text:
+  - We collect certain information from Connectors (such as data Connectors to 3rd-party
+    workplace tools like Google Workspace, Zoom, Jira, Notion and other SaaS applications).
+- source: 3rd party workplace tool
+  target: saas application
+  key: SUBSUM
+  text:
+  - We collect certain information from Connectors (such as data Connectors to 3rd-party
+    workplace tools like Google Workspace, Zoom, Jira, Notion and other SaaS applications).
+- source: 3rd party workplace tool
+  target: zoom
+  key: SUBSUM
+  text:
+  - We collect certain information from Connectors (such as data Connectors to 3rd-party
+    workplace tools like Google Workspace, Zoom, Jira, Notion and other SaaS applications).
+- source: aggregate / deidentified / pseudonymized information
+  target: de - identify demographic information
+  key: SUBSUM
+  text:
+  - We may use Personal Data and other information about you to create de-identified
+    and/or aggregated information, such as de-identified demographic information,
+    de-identified location information, or de-identified information about the device
+    from which you access our Services.
+- source: aggregate / deidentified / pseudonymized information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We may use Personal Data and other information about you to create de-identified
+    and/or aggregated information, such as de-identified demographic information,
+    de-identified location information, or de-identified information about the device
+    from which you access our Services.
+- source: block extension in browser
+  target: ghostery
+  key: SUBSUM
+  text:
+  - You can opt out of the collection and use of your information for ad targeting
+    by going here or here to limit collection through the Site, by configuring the
+    settings on your browser, by setting preferences in the cookie consent manager
+    service on our site, or by using cookie blocking extensions in your browser (such
+    as Privacy Badger or Ghostery).
+- source: block extension in browser
+  target: privacy badger
+  key: SUBSUM
+  text:
+  - You can opt out of the collection and use of your information for ad targeting
+    by going here or here to limit collection through the Site, by configuring the
+    settings on your browser, by setting preferences in the cookie consent manager
+    service on our site, or by using cookie blocking extensions in your browser (such
+    as Privacy Badger or Ghostery).
+- source: cloud hosting provider
+  target: for amazon web services
+  key: SUBSUM
+  text:
+  - For example, we may share your Personal Data with a cloud hosting provider (for
+    example, Amazon Web Services) as part of our utilization of their hosting services.
+- source: credit / debit card number
+  target: billing detail
+  key: SUBSUM
+  text:
+  - We do not directly collect or store any payment card information entered through
+    our Services, but we may receive information associated with your payment card
+    information (e.g., your billing details).
+- source: customer datum
+  target: personal information
+  key: SUBSUM
+  text:
+  - Village Labs does not use customer data, including personal data, data collected
+    through our website or applications to develop, improve, or train generalized
+    AI or ML models.
+- source: data connectors
+  target: Google
+  key: SUBSUM
+  text:
+  - This includes customer data obtained through Data Connectors such as Google Workspace
+    APIs, Notion APIs, Slack APIs and other Data Connectors.
+- source: data connectors
+  target: Slack
+  key: SUBSUM
+  text:
+  - This includes customer data obtained through Data Connectors such as Google Workspace
+    APIs, Notion APIs, Slack APIs and other Data Connectors.
+- source: data connectors
+  target: notion api
+  key: SUBSUM
+  text:
+  - This includes customer data obtained through Data Connectors such as Google Workspace
+    APIs, Notion APIs, Slack APIs and other Data Connectors.
+- source: everyday business need
+  target: analytic provider
+  key: SUBSUM
+  text:
+  - "Information From Third Parties \n\nManaging our everyday business needs, including,
+    but not limited to the following activities: auditing, administration of the Services,
+    forum management, fulfillment, analytics, fraud prevention, identify verification,
+    and enforcement of our Terms of Use , or to comply with applicable laws or regulations;"
+- source: everyday business need
+  target: fulfillment
+  key: SUBSUM
+  text:
+  - "Information From Third Parties \n\nManaging our everyday business needs, including,
+    but not limited to the following activities: auditing, administration of the Services,
+    forum management, fulfillment, analytics, fraud prevention, identify verification,
+    and enforcement of our Terms of Use , or to comply with applicable laws or regulations;"
+- source: financial information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - In connection with the processing of such payments, we do not retain any personally
+    identifiable information or any financial information such as full credit card
+    numbers.
+  - When you pay for the Services, we will keep records of what you purchased or ordered,
+    and will request financial information such as payment method or credit or debit
+    card information so we can charge you for the purchase.
+- source: financial information
+  target: payment method
+  key: SUBSUM
+  text:
+  - When you pay for the Services, we will keep records of what you purchased or ordered,
+    and will request financial information such as payment method or credit or debit
+    card information so we can charge you for the purchase.
+- source: information collect
+  target: biometric information
+  key: SUBSUM
+  text:
+  - 'Biometric Information:'
+  - Information Collected Automatically
+- source: information collect
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - '1. Necessary Cookies:'
+  - '2. Performance Cookies:'
+  - '3. Preference Cookies:'
+  - '4. Marketing Cookies:'
+  - Information Collected Automatically
+- source: information collect
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Information Collected Automatically
+  - 'Location Information :'
+- source: information collect
+  target: information send
+  key: SUBSUM
+  text:
+  - 'Information Collected Automatically
+
+
+    Information Sent by Your Device :'
+- source: information collect
+  target: interaction datum
+  key: SUBSUM
+  text:
+  - Information Collected Automatically
+  - 'Interaction Data:'
+- source: information from third party
+  target: contextual customization of ad
+  key: SUBSUM
+  text:
+  - "Information From Third Parties \n\nShort-term, transient use, such as contextual
+    customization of ads;"
+- source: information from third party
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - "Information From Third Parties \n\nCookie and Ad Tracking Choices :"
+- source: information from third party
+  target: directory
+  key: SUBSUM
+  text:
+  - "Information From Third Parties \n\nDirectory: an engaging way to keep your team
+    connected through an org directory with personalized profiles."
+- source: information from third party
+  target: information disclose for protection
+  key: SUBSUM
+  text:
+  - "Information From Third Parties \n\nInformation Disclosed for Our Protection and
+    the Protection of Others :"
+- source: information from third party
+  target: information disclose in connection with business transaction
+  key: SUBSUM
+  text:
+  - "Information From Third Parties \n\nInformation Disclosed in Connection with Business
+    Transactions :"
+- source: information from third party
+  target: information share with web analytic service provider
+  key: SUBSUM
+  text:
+  - "Information From Third Parties \n\nInformation Shared with Web Analytics Services
+    Providers : We may use some or all of the following analytics services:"
+- source: information from third party
+  target: leadership insight
+  key: SUBSUM
+  text:
+  - "Information From Third Parties \n\nLeadership Insights: real-time key performance
+    metrics and alerts across your organization to better understand things like employee
+    engagement and where resources are being allocated."
+- source: information mobile device send
+  target: advertising id
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device, laptop, or other hardware
+    device sends when you use our Services, including but not limited to IP Address,
+    user agent information, network and connectivity information, device identifiers,
+    advertising identifiers, language preferences, user settings, software and operating
+    system names and versions, hardware models, as well as other information about
+    your use of our Services.
+- source: information mobile device send
+  target: device identifier
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device, laptop, or other hardware
+    device sends when you use our Services, including but not limited to IP Address,
+    user agent information, network and connectivity information, device identifiers,
+    advertising identifiers, language preferences, user settings, software and operating
+    system names and versions, hardware models, as well as other information about
+    your use of our Services.
+- source: information mobile device send
+  target: hardware model
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device, laptop, or other hardware
+    device sends when you use our Services, including but not limited to IP Address,
+    user agent information, network and connectivity information, device identifiers,
+    advertising identifiers, language preferences, user settings, software and operating
+    system names and versions, hardware models, as well as other information about
+    your use of our Services.
+- source: information mobile device send
+  target: information about use of services
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device, laptop, or other hardware
+    device sends when you use our Services, including but not limited to IP Address,
+    user agent information, network and connectivity information, device identifiers,
+    advertising identifiers, language preferences, user settings, software and operating
+    system names and versions, hardware models, as well as other information about
+    your use of our Services.
+- source: information mobile device send
+  target: ip address
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device, laptop, or other hardware
+    device sends when you use our Services, including but not limited to IP Address,
+    user agent information, network and connectivity information, device identifiers,
+    advertising identifiers, language preferences, user settings, software and operating
+    system names and versions, hardware models, as well as other information about
+    your use of our Services.
+- source: information mobile device send
+  target: language preference
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device, laptop, or other hardware
+    device sends when you use our Services, including but not limited to IP Address,
+    user agent information, network and connectivity information, device identifiers,
+    advertising identifiers, language preferences, user settings, software and operating
+    system names and versions, hardware models, as well as other information about
+    your use of our Services.
+- source: information mobile device send
+  target: network information
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device, laptop, or other hardware
+    device sends when you use our Services, including but not limited to IP Address,
+    user agent information, network and connectivity information, device identifiers,
+    advertising identifiers, language preferences, user settings, software and operating
+    system names and versions, hardware models, as well as other information about
+    your use of our Services.
+- source: information mobile device send
+  target: software name
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device, laptop, or other hardware
+    device sends when you use our Services, including but not limited to IP Address,
+    user agent information, network and connectivity information, device identifiers,
+    advertising identifiers, language preferences, user settings, software and operating
+    system names and versions, hardware models, as well as other information about
+    your use of our Services.
+- source: information mobile device send
+  target: user agent information
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device, laptop, or other hardware
+    device sends when you use our Services, including but not limited to IP Address,
+    user agent information, network and connectivity information, device identifiers,
+    advertising identifiers, language preferences, user settings, software and operating
+    system names and versions, hardware models, as well as other information about
+    your use of our Services.
+- source: information mobile device send
+  target: user setting
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device, laptop, or other hardware
+    device sends when you use our Services, including but not limited to IP Address,
+    user agent information, network and connectivity information, device identifiers,
+    advertising identifiers, language preferences, user settings, software and operating
+    system names and versions, hardware models, as well as other information about
+    your use of our Services.
+- source: information we collect from
+  target: personal information
+  key: SUBSUM
+  text:
+  - We take reasonable administrative, physical, and electronic measures designed
+    to protect the information that we collect from or about you (including your Personal
+    Data) from unauthorized access, use or disclosure.
+- source: information you provide
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Contact Information of Others:'
+  - Information that You Provide Directly
+- source: information you provide
+  target: purchase information
+  key: SUBSUM
+  text:
+  - Information that You Provide Directly
+  - 'Purchase and Payment Information:'
+- source: personal data we obtain about you
+  target: different type
+  key: SUBSUM
+  text:
+  - "Information From Third Parties \n\nThis section describes the different types
+    of Personal Data we may obtain about you."
+- source: personal datum we obtain about you
+  target: different type
+  key: SUBSUM
+  text:
+  - This section describes the different types of Personal Data we may obtain about
+    you.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'When you sign up to create an account, we collect and retain certain information
+    that can be used to identify you (" Personal Data "), including, in the case of
+    account creation: your first and last name, email addresses, and phone number,
+    and profile photo ("Sign Up Information").'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'When you sign up to create an account, we collect and retain certain information
+    that can be used to identify you (" Personal Data "), including, in the case of
+    account creation: your first and last name, email addresses, and phone number,
+    and profile photo ("Sign Up Information").'
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'When you sign up to create an account, we collect and retain certain information
+    that can be used to identify you (" Personal Data "), including, in the case of
+    account creation: your first and last name, email addresses, and phone number,
+    and profile photo ("Sign Up Information").'
+- source: personal identifier
+  target: profile photo
+  key: SUBSUM
+  text:
+  - 'When you sign up to create an account, we collect and retain certain information
+    that can be used to identify you (" Personal Data "), including, in the case of
+    account creation: your first and last name, email addresses, and phone number,
+    and profile photo ("Sign Up Information").'
+- source: personal identifier
+  target: sign information
+  key: SUBSUM
+  text:
+  - 'When you sign up to create an account, we collect and retain certain information
+    that can be used to identify you (" Personal Data "), including, in the case of
+    account creation: your first and last name, email addresses, and phone number,
+    and profile photo ("Sign Up Information").'
+- source: relevant information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We also retain certain relevant information, including transaction, location,
+    device, and usage information, for as long as it is required to do so, in connection
+    with regulatory, tax, insurance, legal, administrative, and other requirements.
+nodes:
+- type: ACTOR
+  id: 3rd party workplace tool
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Slack
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: auth provider
+- type: ACTOR
+  id: block extension in browser
+- type: ACTOR
+  id: cloud hosting provider
+- type: ACTOR
+  id: communication with you
+- type: ACTOR
+  id: company offer complimentary service through site
+- type: ACTOR
+  id: customer support partner
+- type: ACTOR
+  id: data connectors
+- type: ACTOR
+  id: everyday business need
+- type: ACTOR
+  id: financial service company
+- type: ACTOR
+  id: for amazon web services
+- type: ACTOR
+  id: fraud detection service
+- type: ACTOR
+  id: fulfillment
+- type: ACTOR
+  id: fulfillment service provider
+- type: ACTOR
+  id: ghostery
+- type: ACTOR
+  id: government official
+- type: ACTOR
+  id: group of user
+- type: ACTOR
+  id: jira
+- type: ACTOR
+  id: large language model infrastructure provider
+- type: ACTOR
+  id: notion
+- type: ACTOR
+  id: notion api
+- type: ACTOR
+  id: operator
+- type: ACTOR
+  id: parent hold company
+- type: ACTOR
+  id: partner who assist we with marketing
+- type: ACTOR
+  id: privacy badger
+- type: ACTOR
+  id: private party
+- type: ACTOR
+  id: saas application
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: technology
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web hosting provider
+- type: ACTOR
+  id: website locate at www.villagelabs.co
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: advertising id
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: billing detail
+- type: DATA
+  id: biometric information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: contextual customization of ad
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: datum connector
+- type: DATA
+  id: de - identify demographic information
+- type: DATA
+  id: detail as
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: different type
+- type: DATA
+  id: directory
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial information
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: hardware model
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about account
+- type: DATA
+  id: information about use of services
+- type: DATA
+  id: information about user
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information collect
+- type: DATA
+  id: information disclose for protection
+- type: DATA
+  id: information disclose in connection with business transaction
+- type: DATA
+  id: information from third party
+- type: DATA
+  id: information mobile device send
+- type: DATA
+  id: information relate to action you perform
+- type: DATA
+  id: information send
+- type: DATA
+  id: information share with web analytic service provider
+- type: DATA
+  id: information we collect from
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: information you provide on
+- type: DATA
+  id: information you provide to we you send we email with query feedback
+- type: DATA
+  id: information you provide we
+- type: DATA
+  id: information you provide we include personal datum
+- type: DATA
+  id: interaction datum
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: leadership insight
+- type: DATA
+  id: network information
+- type: DATA
+  id: order payment information
+- type: DATA
+  id: payment method
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal data we obtain about you
+- type: DATA
+  id: personal datum we obtain about you
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: profile photo
+- type: DATA
+  id: purchase information
+- type: DATA
+  id: record of
+- type: DATA
+  id: relevant information
+- type: DATA
+  id: sign information
+- type: DATA
+  id: software name
+- type: DATA
+  id: user agent information
+- type: DATA
+  id: user setting

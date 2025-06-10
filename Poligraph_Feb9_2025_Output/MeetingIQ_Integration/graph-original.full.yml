@@ -1,0 +1,527 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: data regulate
+  key: COLLECT
+  text:
+  - Seeing the scope of the Products and Services (see FAQ B1), the Products and Services
+    are NOT intended or equipped to Process any data that is regulated by the Payment
+    Card Industry Security Standards Council (PCI SSC), nor do the Products and Services
+    offer features that are subject to the Payment Card Industry Data Security Standards
+    (PCI DSS).
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - The Products and Services process Personal Data for and on behalf of Showpad Customer.
+  purposes: {}
+- source: showpad
+  target: personal datum result from relationship between showpad
+  key: COLLECT
+  text:
+  - Notwithstanding the above, in the limited cases as explicitly stated in the Showpad
+    Privacy Policy (see FAQ A3), certain Personal Data resulting from the relationship
+    between Showpad and the Showpad Customer, may be processed by Showpad as being
+    the data " Controller" (e.g. as required for Showpad as a controller to administer
+    the (contractual) relationship between Showpad and its Customer, or, providing
+    support).
+  purposes: {}
+- source: showpad
+  target: personal information
+  key: COLLECT
+  text:
+  - Seeing the above, Showpad is only offering the means allowing the Showpad Customer
+    to interact with the Data Subject through the Products and Services, and as Showpad
+    is merely acting upon instructions of the Showpad Customer, this means that Showpad
+    is processing the Data Subject's Personal Data as a so-called data "Processor"
+    for and on behalf of the Showpad Customer.
+  - 'Showpad Privacy Principles
+
+
+    Showpad transfers Personal Data to third countries if and when required by: Its
+    and its affiliates'' employees and collaborators; Third-party technology and service
+    providers as used for the purposes described in this Privacy Policy (see Sub-Processors)
+    ; Third-party maintenance & support recipients (including related service/technology
+    providers); Other third parties to the extent Showpad has good faith belief that
+    such disclosure is reasonably necessary to (a) comply with a law, regulation or
+    compulsory legal request from a public or law enforcement authority; (b) national
+    security (c) protect the safety of any person from death or serious bodily injury;
+    (d) prevent fraud or abuse; (e) as necessary to protect or enforce our legal rights
+    & those of our collaborators as well as the integrity of our Product and Services.'
+  purposes: {}
+- source: showpad customer
+  target: proof of identity
+  key: COLLECT
+  text:
+  - In order to exercise such rights, You may be required by the Showpad Customer
+    to provide proof of Your identity by providing an official document (e.g. ID Card,
+    driver's license, ...).
+  purposes:
+    legal:
+    - In order to exercise such rights
+- source: showpad feature make use of ai service
+  target: third party ai model
+  key: COLLECT
+  text:
+  - Showpad features that make use of AI services may be using third party AI models.
+  purposes: {}
+- source: tool
+  target: granular option
+  key: COLLECT
+  text:
+  - Certain tools (e.g. "Ghostery", "Disconnect", ... ) may provide you with more
+    granular options in order to manage cookies.
+  purposes:
+    services:
+    - in order to manage cookies
+- source: we
+  target: shared spaces
+  key: SUBSUM
+  text:
+  - 'Under these Privacy Principles, Personal Data of Data Subjects may be made available:
+    within the functionality of the Products and Services (as determined by the Showpad
+    Customer) to: Users - Administrators - Privileged Users; and Third-Party Data
+    Subjects (e.g. in respect of collaborative functionalities of the Products and
+    Services such as Shared Spaces) within the functioning of the architectural set-up
+    (incl. maintenance & support) of the Products and Services, to: Showpad (including
+    its collaborators); and the respective Sub-Processors ((including their collaborators),
+    providing processing activities for the Products and Services (see FAQ B13).'
+- source: account information
+  target: app view
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: account information
+  target: channel subscription
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: account information
+  target: connection information
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: account information
+  target: device information
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: account information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: account information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: account information
+  target: language preference from browser
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: account information
+  target: logon information
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: account information
+  target: password
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: account information
+  target: profile picture
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: account information
+  target: role
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: account information
+  target: usage behavior statistic
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: collaborative functionality
+  target: shared spaces
+  key: SUBSUM
+  text:
+  - 'Under these Privacy Principles, Personal Data of Data Subjects may be made available:
+    within the functionality of the Products and Services (as determined by the Showpad
+    Customer) to: Users - Administrators - Privileged Users; and Third-Party Data
+    Subjects (e.g. in respect of collaborative functionalities of the Products and
+    Services such as Shared Spaces) within the functioning of the architectural set-up
+    (incl. maintenance & support) of the Products and Services, to: Showpad (including
+    its collaborators); and the respective Sub-Processors ((including their collaborators),
+    providing processing activities for the Products and Services (see FAQ B13).'
+- source: connection information
+  target: admin announcement
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: connection information
+  target: information from third party integration
+  key: SUBSUM
+  text:
+  - 'Account information (e.g. password, profile picture, role, device information,
+    logon information, Language preference from the browser...) Usage/behavior statistics
+    (e.g. sessions, in app views, shares, channel subscriptions, # of interactions
+    with the Customer Content, ...) Connection information (e.g. IP address, geolocation,
+    ...) Customer Content (e.g. documents, presentations, audio, video, ... as uploaded
+    onto and managed by the Products and Services) Communications (e.g. Chat content,
+    reviews, comments, Admin announcements, ...) Information from third party integrations
+    (connected calendars, CRM data, Marketing data, ...)'
+- source: datum concern health
+  target: hipaa regulate datum
+  key: SUBSUM
+  text:
+  - Seeing the scope of the Products and Services (see FAQ B1), the Products and Services
+    are NOT intended or equipped to Process any Personal Data in respect of genetic
+    data, biometric data, data concerning health (e.g. HIPAA regulated data) or data
+    concerning a natural person's sex life or sexual orientation, nor any Personal
+    Data revealing racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, or such other data that the applicable data protection
+    law indicates being "regulated" or "sensitive" ("Sensitive Personal Data").
+- source: industry standard encryption technology
+  target: application to application communication channel
+  key: SUBSUM
+  text:
+  - Showpad uses industry standard encryption technologies, including application
+    to application communication channels are TLS encrypted and data at rest is encrypted
+    using AES 256 bits encryption.
+- source: information about interaction with products
+  target: email you open
+  key: SUBSUM
+  text:
+  - 'Web Beacons : Small graphic images (also known as "1x1 GIFs" or "clear GIFs")
+    that is designed to collect information about your interactions with the Products
+    and Services, such as the emails you open.'
+- source: interact product
+  target: front end client
+  key: SUBSUM
+  text:
+  - These Products and Services are offered under a "Software as a Service" model,
+    which is a software licensing and delivery model in which software is centrally
+    hosted and made available to multiple users over a network, including through
+    interacting products (including front-end clients, apps, Web-Interface, plugins,
+    or connectors to third-party applications).
+- source: interact product
+  target: plugin
+  key: SUBSUM
+  text:
+  - These Products and Services are offered under a "Software as a Service" model,
+    which is a software licensing and delivery model in which software is centrally
+    hosted and made available to multiple users over a network, including through
+    interacting products (including front-end clients, apps, Web-Interface, plugins,
+    or connectors to third-party applications).
+- source: interact product
+  target: web interface
+  key: SUBSUM
+  text:
+  - These Products and Services are offered under a "Software as a Service" model,
+    which is a software licensing and delivery model in which software is centrally
+    hosted and made available to multiple users over a network, including through
+    interacting products (including front-end clients, apps, Web-Interface, plugins,
+    or connectors to third-party applications).
+- source: internal collaborator
+  target: marketing team
+  key: SUBSUM
+  text:
+  - The aim is to provide the Showpad Customer through the Products and Services with
+    the information, insights, analytics and tools to help the Showpad Customer to
+    streamline and improve interactions by and between their internal collaborators
+    (e.g. sales teams, marketing teams, ...) and/or third parties (e.g. potential
+    buyers).
+- source: internal collaborator
+  target: sale team
+  key: SUBSUM
+  text:
+  - The aim is to provide the Showpad Customer through the Products and Services with
+    the information, insights, analytics and tools to help the Showpad Customer to
+    streamline and improve interactions by and between their internal collaborators
+    (e.g. sales teams, marketing teams, ...) and/or third parties (e.g. potential
+    buyers).
+- source: most web browser
+  target: Google
+  key: SUBSUM
+  text:
+  - Web browser Most web browsers (e.g. Internet Explorer, Mozilla Firefox, Safari,
+    and Google Chrome) have cookies automatically enabled.
+- source: most web browser
+  target: Mozilla Foundation
+  key: SUBSUM
+  text:
+  - Web browser Most web browsers (e.g. Internet Explorer, Mozilla Firefox, Safari,
+    and Google Chrome) have cookies automatically enabled.
+- source: most web browser
+  target: internet explorer
+  key: SUBSUM
+  text:
+  - Web browser Most web browsers (e.g. Internet Explorer, Mozilla Firefox, Safari,
+    and Google Chrome) have cookies automatically enabled.
+- source: most web browser
+  target: safari
+  key: SUBSUM
+  text:
+  - Web browser Most web browsers (e.g. Internet Explorer, Mozilla Firefox, Safari,
+    and Google Chrome) have cookies automatically enabled.
+- source: personal data process
+  target: regulated personal datum
+  key: SUBSUM
+  text:
+  - While Showpad aims to implement industry-leading safeguards designed to protect
+    Personal Data, we cannot guarantee that any Personal Data which was incidentally
+    processed by the Showpad Customer (e.g. regulated or sensitive Personal Data,
+    see FAQ's B4 and B5) is maintained at levels of protection to meet specific needs
+    or obligations the Showpad Customer may have relating to that type information.
+- source: showpad
+  target: collaborator
+  key: SUBSUM
+  text:
+  - 'Under these Privacy Principles, Personal Data of Data Subjects may be made available:
+    within the functionality of the Products and Services (as determined by the Showpad
+    Customer) to: Users - Administrators - Privileged Users; and Third-Party Data
+    Subjects (e.g. in respect of collaborative functionalities of the Products and
+    Services such as Shared Spaces) within the functioning of the architectural set-up
+    (incl. maintenance & support) of the Products and Services, to: Showpad (including
+    its collaborators); and the respective Sub-Processors ((including their collaborators),
+    providing processing activities for the Products and Services (see FAQ B13).'
+- source: showpad customer instance
+  target: datum it contain
+  key: SUBSUM
+  text:
+  - The Showpad Customer instance (including all data it then contains) remains available
+    on production environment for up to 90 days following closure of the Showpad Customer
+    Instance (e.g. where the contract with the Showpad Customer has expired).
+- source: tool
+  target: disconnect
+  key: SUBSUM
+  text:
+  - Certain tools (e.g. "Ghostery", "Disconnect", ... ) may provide you with more
+    granular options in order to manage cookies.
+- source: tool
+  target: ghostery
+  key: SUBSUM
+  text:
+  - Certain tools (e.g. "Ghostery", "Disconnect", ... ) may provide you with more
+    granular options in order to manage cookies.
+- source: user account to products
+  target: account
+  key: SUBSUM
+  text:
+  - 'It is the Showpad Customer who: Manages user accounts to the Products and Services
+    (e.g. password reset, access rights, third-party integrations, suspending accounts,
+    grouping users, assigning channels, ...); Manages the Customer Content being made
+    available through the Products and Services; Determines which Data Subjects to
+    interact with through the Products and Services (and thus whose Personal Data
+    are to be processed); Determines for which purpose the Products and Services are
+    to be used.'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Mozilla Foundation
+- type: ACTOR
+  id: application to application communication channel
+- type: ACTOR
+  id: collaborative functionality
+- type: ACTOR
+  id: collaborator
+- type: ACTOR
+  id: disconnect
+- type: ACTOR
+  id: front end client
+- type: ACTOR
+  id: ghostery
+- type: ACTOR
+  id: industry standard encryption technology
+- type: ACTOR
+  id: interact product
+- type: ACTOR
+  id: internal collaborator
+- type: ACTOR
+  id: internet explorer
+- type: ACTOR
+  id: marketing team
+- type: ACTOR
+  id: most web browser
+- type: ACTOR
+  id: plugin
+- type: ACTOR
+  id: safari
+- type: ACTOR
+  id: sale team
+- type: ACTOR
+  id: shared spaces
+- type: ACTOR
+  id: showpad
+- type: ACTOR
+  id: showpad customer
+- type: ACTOR
+  id: showpad feature make use of ai service
+- type: ACTOR
+  id: tool
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web interface
+- type: DATA
+  id: account
+- type: DATA
+  id: account information
+- type: DATA
+  id: admin announcement
+- type: DATA
+  id: app view
+- type: DATA
+  id: channel subscription
+- type: DATA
+  id: connection information
+- type: DATA
+  id: data regulate
+- type: DATA
+  id: datum concern health
+- type: DATA
+  id: datum it contain
+- type: DATA
+  id: device information
+- type: DATA
+  id: email you open
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: granular option
+- type: DATA
+  id: hipaa regulate datum
+- type: DATA
+  id: information about interaction with products
+- type: DATA
+  id: information from third party integration
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference from browser
+- type: DATA
+  id: logon information
+- type: DATA
+  id: password
+- type: DATA
+  id: personal data process
+- type: DATA
+  id: personal datum result from relationship between showpad
+- type: DATA
+  id: personal information
+- type: DATA
+  id: profile picture
+- type: DATA
+  id: proof of identity
+- type: DATA
+  id: regulated personal datum
+- type: DATA
+  id: role
+- type: DATA
+  id: showpad customer instance
+- type: DATA
+  id: third party ai model
+- type: DATA
+  id: usage behavior statistic
+- type: DATA
+  id: user account to products

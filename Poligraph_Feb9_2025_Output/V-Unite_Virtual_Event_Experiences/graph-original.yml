@@ -1,0 +1,56 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: handi media
+  target: client datum
+  key: COLLECT
+  text:
+  - Notwithstanding the foregoing, HANDI MEDIA may use such CLIENT data for purposes
+    of internal testing associated with the Application, and HANDI MEDIA may use screen
+    shots of non-Confidential Information of CLIENT for promotional purposes, as long
+    as such does not include use of Confidential Information and such is not otherwise
+    shared with any third party or used for any purpose inconsistent with this License.
+  purposes:
+    analytics:
+    - for purposes of internal testing associated with the Application
+    services:
+    - for purposes of internal testing associated with the Application
+- source: handi media
+  target: screen shot of non - confidential information of client
+  key: COLLECT
+  text:
+  - Notwithstanding the foregoing, HANDI MEDIA may use such CLIENT data for purposes
+    of internal testing associated with the Application, and HANDI MEDIA may use screen
+    shots of non-Confidential Information of CLIENT for promotional purposes, as long
+    as such does not include use of Confidential Information and such is not otherwise
+    shared with any third party or used for any purpose inconsistent with this License.
+  purposes:
+    advertising:
+    - for promotional purposes
+    analytics:
+    - for purposes of internal testing associated with the Application
+    services:
+    - for purposes of internal testing associated with the Application
+- source: receive party
+  target: confidential information of disclose party
+  key: COLLECT
+  text:
+  - 'Terms of Use & Privacy Policy
+
+
+    The Confidential Information of the disclosing party may be used by the receiving
+    party only in connection with the Application or as otherwise permitted pursuant
+    to this License.'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: handi media
+- type: ACTOR
+  id: receive party
+- type: DATA
+  id: client datum
+- type: DATA
+  id: confidential information of disclose party
+- type: DATA
+  id: screen shot of non - confidential information of client

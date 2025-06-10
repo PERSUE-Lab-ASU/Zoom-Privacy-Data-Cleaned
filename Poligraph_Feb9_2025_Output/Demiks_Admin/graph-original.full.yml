@@ -1,0 +1,103 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect information from you when you register on our site, place an order,
+    subscribe to a newsletter or enter information on our site.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For instance, we use cookies to help us remember and process the items in your
+    shopping cart.
+  - We also use cookies to help us compile aggregate data about site traffic and site
+    interaction so that we can offer better site experiences and tools in the future.
+  - We use cookies to help remember and process the items in the shopping cart.
+  purposes:
+    analytics:
+    - to help us compile aggregate data about site traffic and site interaction so
+      that we can offer better site experiences and tools in the future
+    services:
+    - to help remember and process the items in the shopping cart
+    - to help us remember and process the items in your shopping cart
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'We collect your email address in order to:'
+  purposes:
+    advertising:
+    - 'in order to: Market to our mailing list or continue to send emails to our clients
+      after the original transaction has occurred'
+    analytics:
+    - 'in order to: Send you additional information related to your product and/or
+      service'
+    services:
+    - 'in order to: Market to our mailing list or continue to send emails to our clients
+      after the original transaction has occurred'
+    - 'in order to: Process orders and to send information and updates pertaining
+      to orders'
+    - 'in order to: Send information, respond to inquiries, and/or other requests
+      or questions'
+    - 'in order to: Send you additional information related to your product and/or
+      service'
+- source: we
+  target: information necessary
+  key: COLLECT
+  text:
+  - Through integrations with other platforms, we collect and store only information
+    necessary to fulfill the purposes outlined in this privacy policy.
+  purposes: {}
+- source: we
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - 'We may use the information we collect from you when you register, make a purchase,
+    sign up for our newsletter, respond to a survey or marketing communication, surf
+    the website, or use certain other site features in the following ways:'
+  purposes: {}
+- source: we
+  target: item in shopping cart
+  key: COLLECT
+  text:
+  - For instance, we use cookies to help us remember and process the items in your
+    shopping cart.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain your personal information for the period necessary to fulfill the
+    purposes outlined in this privacy policy unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: we
+  target: regular malware scanning
+  key: COLLECT
+  text:
+  - We use regular Malware Scanning.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information necessary
+- type: DATA
+  id: information we collect from you
+- type: DATA
+  id: item in shopping cart
+- type: DATA
+  id: personal information
+- type: DATA
+  id: regular malware scanning

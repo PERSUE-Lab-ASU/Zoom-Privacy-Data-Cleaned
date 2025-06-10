@@ -1,0 +1,33 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: blog
+  key: SUBSUM
+  text:
+  - Blog
+  - Company
+- source: we
+  target: careers
+  key: SUBSUM
+  text:
+  - Careers
+  - Company
+- source: we
+  target: press
+  key: SUBSUM
+  text:
+  - 'Company
+
+
+    Press'
+nodes:
+- type: ACTOR
+  id: blog
+- type: ACTOR
+  id: careers
+- type: ACTOR
+  id: press
+- type: ACTOR
+  id: we

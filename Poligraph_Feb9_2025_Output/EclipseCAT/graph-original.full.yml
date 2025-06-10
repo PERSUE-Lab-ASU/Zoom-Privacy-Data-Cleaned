@@ -1,0 +1,342 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies for various reasons.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'However, most areas of this Site require registration to access, which requires
+    you to provide certain personally identifiable information, including: your name,
+    mailing address, email address and voice and/or fax telephone numbers.'
+  - We collect this information to better understand your needs and provide you with
+    services that are valuable to you.
+  purposes:
+    analytics:
+    - to better understand your needs and provide you with services that are valuable
+      to you
+    services:
+    - to better understand your needs and provide you with services that are valuable
+      to you
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Advantage provides a number of ways for you to "opt-out" of receiving certain
+    additional information from us or having us provide your personal information
+    to our partners.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Advantage provides a number of ways for you to "opt-out" of receiving certain
+    additional information from us or having us provide your personal information
+    to our partners.
+  purposes: {}
+- source: advantage
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Advantage may use cookies from time to time.
+  purposes: {}
+- source: advantage
+  target: number
+  key: COLLECT
+  text:
+  - Advantage provides a number of ways for you to "opt-out" of receiving certain
+    additional information from us or having us provide your personal information
+    to our partners.
+  purposes: {}
+- source: we
+  target: Box
+  key: SUBSUM
+  text:
+  - 'Software : Boost Flow : Boost Box w/Speechmatics'
+- source: we
+  target: Catalina Marketing
+  key: SUBSUM
+  text:
+  - 'Software : Student : NCRA A to Z(r) Graduate Offer'
+- source: we
+  target: accucap
+  key: SUBSUM
+  text:
+  - 'Software : AccuCap'
+- source: we
+  target: accucap steno
+  key: SUBSUM
+  text:
+  - 'Software : AccuCap : Steno'
+- source: we
+  target: boost flow
+  key: SUBSUM
+  text:
+  - 'Software : Boost Flow'
+- source: we
+  target: bridge mobile
+  key: SUBSUM
+  text:
+  - 'Software : Bridge Mobile'
+- source: we
+  target: eclipse
+  key: SUBSUM
+  text:
+  - 'Software : Eclipse'
+- source: we
+  target: eclipse rsr
+  key: SUBSUM
+  text:
+  - 'Software : Eclipse : Eclipse RSR'
+- source: we
+  target: eclipse steno
+  key: SUBSUM
+  text:
+  - 'Software : Eclipse : Steno'
+- source: we
+  target: eclipse student software
+  key: SUBSUM
+  text:
+  - 'Software : Student : Eclipse Student Software'
+- source: we
+  target: searchmaster
+  key: SUBSUM
+  text:
+  - 'Software : SearchMaster'
+- source: catalog
+  target: Amazon.com
+  key: SUBSUM
+  text:
+  - 'Catalog : DVD Drive'
+- source: catalog
+  target: USB Promos
+  key: SUBSUM
+  text:
+  - 'Catalog : Hubs : 5-in-1 USB-C Hub w/4K HDMI Output'
+  - 'Catalog : USB Devices'
+  - 'Catalog : Wireless : USB Powered Wireless Travel Router'
+- source: catalog
+  target: audio
+  key: SUBSUM
+  text:
+  - 'Catalog : Audio'
+- source: catalog
+  target: bundle
+  key: SUBSUM
+  text:
+  - 'Catalog : All Bundles'
+- source: catalog
+  target: dragon stenomask
+  key: SUBSUM
+  text:
+  - 'Catalog : Audio : Speech Recognition : Dragon Stenomask'
+- source: catalog
+  target: hubs
+  key: SUBSUM
+  text:
+  - 'Catalog : Hubs'
+- source: catalog
+  target: microphone
+  key: SUBSUM
+  text:
+  - 'Catalog : Audio : Microphones'
+- source: catalog
+  target: professional headphone
+  key: SUBSUM
+  text:
+  - 'Catalog : Audio : Headphones : Professional Headphones'
+- source: catalog
+  target: software bundle
+  key: SUBSUM
+  text:
+  - 'Catalog : Software Bundles'
+- source: catalog
+  target: splitter
+  key: SUBSUM
+  text:
+  - 'Catalog : Audio : Splitters'
+- source: catalog
+  target: wireless
+  key: SUBSUM
+  text:
+  - 'Catalog : Wireless'
+- source: catalog
+  target: wireless travel router
+  key: SUBSUM
+  text:
+  - 'Catalog : Wireless : Wireless Travel Router - Slate AX1800'
+- source: catalog
+  target: workbook
+  key: SUBSUM
+  text:
+  - 'Catalog : Training & Education : Workbooks'
+- source: laptop
+  target: Box
+  key: SUBSUM
+  text:
+  - 'Laptops : Boost Box'
+- source: laptop
+  target: thinkbook
+  key: SUBSUM
+  text:
+  - 'Laptops : Touchscreen : ThinkBook 14'
+- source: laptop
+  target: thinkpad x1 carbon
+  key: SUBSUM
+  text:
+  - 'Laptops : Touchscreen : ThinkPad X1 Carbon | Intel Ultra 7'
+- source: laptop
+  target: touchscreen
+  key: SUBSUM
+  text:
+  - 'Laptops : Touchscreen'
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'However, most areas of this Site require registration to access, which requires
+    you to provide certain personally identifiable information, including: your name,
+    mailing address, email address and voice and/or fax telephone numbers.'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'However, most areas of this Site require registration to access, which requires
+    you to provide certain personally identifiable information, including: your name,
+    mailing address, email address and voice and/or fax telephone numbers.'
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'However, most areas of this Site require registration to access, which requires
+    you to provide certain personally identifiable information, including: your name,
+    mailing address, email address and voice and/or fax telephone numbers.'
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'However, most areas of this Site require registration to access, which requires
+    you to provide certain personally identifiable information, including: your name,
+    mailing address, email address and voice and/or fax telephone numbers.'
+- source: webinar
+  target: instructor
+  key: SUBSUM
+  text:
+  - 'Webinars & Training : Our Instructors'
+- source: webinar
+  target: past webinar
+  key: SUBSUM
+  text:
+  - 'Webinars & Training : Videos & Workbooks : Past Webinars'
+- source: webinar
+  target: upcoming event
+  key: SUBSUM
+  text:
+  - 'Webinars & Training : Upcoming Events'
+- source: webinar
+  target: video
+  key: SUBSUM
+  text:
+  - 'Webinars & Training : Videos & Workbooks'
+- source: webinar
+  target: workbook
+  key: SUBSUM
+  text:
+  - 'Webinars & Training : Videos & Workbooks : Workbooks'
+nodes:
+- type: ACTOR
+  id: Amazon.com
+- type: ACTOR
+  id: Box
+- type: ACTOR
+  id: Catalina Marketing
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: USB Promos
+- type: ACTOR
+  id: accucap
+- type: ACTOR
+  id: accucap steno
+- type: ACTOR
+  id: advantage
+- type: ACTOR
+  id: audio
+- type: ACTOR
+  id: boost flow
+- type: ACTOR
+  id: bridge mobile
+- type: ACTOR
+  id: bundle
+- type: ACTOR
+  id: catalog
+- type: ACTOR
+  id: dragon stenomask
+- type: ACTOR
+  id: eclipse
+- type: ACTOR
+  id: eclipse rsr
+- type: ACTOR
+  id: eclipse steno
+- type: ACTOR
+  id: eclipse student software
+- type: ACTOR
+  id: hubs
+- type: ACTOR
+  id: instructor
+- type: ACTOR
+  id: laptop
+- type: ACTOR
+  id: microphone
+- type: ACTOR
+  id: past webinar
+- type: ACTOR
+  id: professional headphone
+- type: ACTOR
+  id: searchmaster
+- type: ACTOR
+  id: software bundle
+- type: ACTOR
+  id: splitter
+- type: ACTOR
+  id: thinkbook
+- type: ACTOR
+  id: thinkpad x1 carbon
+- type: ACTOR
+  id: touchscreen
+- type: ACTOR
+  id: upcoming event
+- type: ACTOR
+  id: video
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: webinar
+- type: ACTOR
+  id: wireless
+- type: ACTOR
+  id: wireless travel router
+- type: ACTOR
+  id: workbook
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: number
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

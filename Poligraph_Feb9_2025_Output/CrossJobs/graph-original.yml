@@ -1,0 +1,152 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also share your information with our partners and affiliates who offer
+    complementary products and services.
+  - We may also use your information to improve our services, prevent fraud, and comply
+    with legal and regulatory requirements.
+  purposes:
+    legal:
+    - to improve our services, prevent fraud, and comply with legal and regulatory
+      requirements
+    security:
+    - to improve our services, prevent fraud, and comply with legal and regulatory
+      requirements
+- source: we
+  target: information about device
+  key: COLLECT
+  text:
+  - We may also collect information about your device and browser.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This privacy policy explains how we collect, use, and disclose your personal information
+    when you use our website and our financial services.
+  - We may collect personal information about you when you use our website and our
+    financial services.
+  - We may share your personal information with third-party service providers who
+    help us provide our financial services, such as payment processors and customer
+    support providers.
+  - We may use your personal information to provide you with our financial services,
+    process your transactions, and communicate with you about your account.
+  purposes:
+    services:
+    - to provide you with our financial services, process your transactions, and communicate
+      with you about your account
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also share your information with our partners and affiliates who offer
+    complementary products and services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal information with third-party service providers who
+    help us provide our financial services, such as payment processors and customer
+    support providers.
+  purposes: {}
+- source: financial information
+  target: bank account detail
+  key: SUBSUM
+  text:
+  - This information may include your name, address, date of birth, email address,
+    phone number, and financial information, such as your bank account details and
+    payment history.
+- source: financial information
+  target: payment history
+  key: SUBSUM
+  text:
+  - This information may include your name, address, date of birth, email address,
+    phone number, and financial information, such as your bank account details and
+    payment history.
+- source: personal information
+  target: date of birth
+  key: SUBSUM
+  text:
+  - This information may include your name, address, date of birth, email address,
+    phone number, and financial information, such as your bank account details and
+    payment history.
+  - We may collect personal information about you when you use our website and our
+    financial services.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - This information may include your name, address, date of birth, email address,
+    phone number, and financial information, such as your bank account details and
+    payment history.
+  - We may collect personal information about you when you use our website and our
+    financial services.
+- source: personal information
+  target: financial information
+  key: SUBSUM
+  text:
+  - This information may include your name, address, date of birth, email address,
+    phone number, and financial information, such as your bank account details and
+    payment history.
+  - We may collect personal information about you when you use our website and our
+    financial services.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - This information may include your name, address, date of birth, email address,
+    phone number, and financial information, such as your bank account details and
+    payment history.
+  - We may collect personal information about you when you use our website and our
+    financial services.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - This information may include your name, address, date of birth, email address,
+    phone number, and financial information, such as your bank account details and
+    payment history.
+  - We may collect personal information about you when you use our website and our
+    financial services.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - This information may include your name, address, date of birth, email address,
+    phone number, and financial information, such as your bank account details and
+    payment history.
+  - We may collect personal information about you when you use our website and our
+    financial services.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: bank account detail
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial information
+- type: DATA
+  id: information about device
+- type: DATA
+  id: payment history
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

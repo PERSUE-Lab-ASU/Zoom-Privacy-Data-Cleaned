@@ -1,0 +1,356 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Classcipe
+
+
+    Policy
+
+
+    Our Policy Toward Children
+
+
+    This privacy policy covers the following: Whether we will give your information
+    to anyone else'
+  - We may collect information from third parties to enhance our services, however,
+    when we do so, this information is collected in aggregated form.
+  purposes:
+    services:
+    - to enhance our services
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - However, we may collect aggregated information and combine that information with
+    personal information we hold about you.
+  purposes: {}
+- source: we
+  target: datum you share with we
+  key: COLLECT
+  text:
+  - 'We commit to:
+
+
+    We use the data you share with us solely to provide you use of our service, to
+    improve it, and to keep you updated about new developments.'
+  purposes:
+    services:
+    - solely to provide you use of our service, to improve it, and to keep you updated
+      about new developments
+- source: we
+  target: decision on request
+  key: COLLECT
+  text:
+  - When any such request is received, we will process your request as soon as possible
+    and provide you with our decision on your request within 20 working days after
+    your request.
+  purposes: {}
+- source: we
+  target: personal detail
+  key: COLLECT
+  text:
+  - In order to protect our intellectual property, our brand and business, we may
+    collect or use your personal details where we have reason to believe that you
+    or any organisation you represent is infringing on our intellectual property rights.
+  - 'We may obtain your personal details from:'
+  purposes:
+    security:
+    - In order to protect our intellectual property, our brand and business
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Here we describe how we collect, use, and handle your personal information.
+  - However, we do share your personal information with trusted third parties that
+    work on our behalf to deliver our services to you (such as for computing and storage
+    purposes, for email correspondence and marketing purposes).
+  - 'This privacy policy covers the following: How long we keep your personal information
+    for and where we store it'
+  - 'This privacy policy covers the following: What personal information we may collect
+    about you (and how we collect it)'
+  - This privacy statement outlines what personal information we collect, how we store,
+    use and share it, and how you can access or correct your personal information.
+  purposes: {}
+- source: we
+  target: request
+  key: COLLECT
+  text:
+  - When any such request is received, we will process your request as soon as possible
+    and provide you with our decision on your request within 20 working days after
+    your request.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - However, we do share your personal information with trusted third parties that
+    work on our behalf to deliver our services to you (such as for computing and storage
+    purposes, for email correspondence and marketing purposes).
+  purposes: {}
+- source: classcipe
+  target: information we collect
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how Classcipe use, protect, and disclose the information
+    we collect when you use the Classcipe services (the "Services") through our website
+    ("Site"), applications on Devices ("Apps"), through APIs, and through third parties.
+  purposes: {}
+- source: classipe
+  target: personal information
+  key: COLLECT
+  text:
+  - Classipe collects limited personal information from students where that student's
+    school, district, or teacher has provided access to our service, which collects
+    personal information solely for the use and benefit of the learning environment.
+  purposes: {}
+- source: information provide to we
+  target: list source
+  key: SUBSUM
+  text:
+  - 'Classcipe
+
+
+    Policy
+
+
+    We commit to:
+
+
+    information provided by you to us; Any other publicly listed source.'
+- source: information provide to we
+  target: public body
+  key: SUBSUM
+  text:
+  - 'Classcipe
+
+
+    Policy
+
+
+    We commit to:
+
+
+    information provided by you to us; Other public body'
+- source: information provide to we
+  target: social medium
+  key: SUBSUM
+  text:
+  - 'Classcipe
+
+
+    Policy
+
+
+    We commit to:
+
+
+    information provided by you to us; Social media'
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - Any information identifying you, such as your name and email address, will be
+    opted-out from any future activity in our database.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Any information identifying you, such as your name and email address, will be
+    opted-out from any future activity in our database.
+- source: personal information
+  target: age
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Age, gender ethnicity and any other demographic information
+    you provide to us.'
+- source: personal information
+  target: card verification code cvc code
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Your credit card number, name on your card, expiry date
+    and card verification code (CVC) code*.'
+- source: personal information
+  target: comment
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Your comments and community contributions.'
+- source: personal information
+  target: community contribution
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Your comments and community contributions.'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Your name and contact details.'
+- source: personal information
+  target: correspondence with staff
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Any correspondence with our staff'
+- source: personal information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Your credit card number, name on your card, expiry date
+    and card verification code (CVC) code*.'
+- source: personal information
+  target: demographic information you provide to we
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Age, gender ethnicity and any other demographic information
+    you provide to us.'
+- source: personal information
+  target: expiry date
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Your credit card number, name on your card, expiry date
+    and card verification code (CVC) code*.'
+- source: personal information
+  target: information you choose
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Any other information you choose to provide us.'
+- source: personal information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Website activity.'
+- source: personal information
+  target: name on card
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Your credit card number, name on your card, expiry date
+    and card verification code (CVC) code*.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Your name and contact details.'
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Your address or region and housing information.'
+- source: personal information
+  target: race / ethnicity
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Age, gender ethnicity and any other demographic information
+    you provide to us.'
+- source: personal information
+  target: region information
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Your address or region and housing information.'
+- source: personal information
+  target: survey result
+  key: SUBSUM
+  text:
+  - 'We commit to:
+
+
+    Information collected from you If you access any of our services, we will collect
+    some or all of the following personal information: Survey results and responses,
+    when you participate in any of our serves.'
+- source: personal information
+  target: transaction history
+  key: SUBSUM
+  text:
+  - 'If you access any of our services, we will collect some or all of the following
+    personal information: Transaction history.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: classcipe
+- type: ACTOR
+  id: classipe
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: age
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: card verification code cvc code
+- type: DATA
+  id: comment
+- type: DATA
+  id: community contribution
+- type: DATA
+  id: contact information
+- type: DATA
+  id: correspondence with staff
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: datum you share with we
+- type: DATA
+  id: decision on request
+- type: DATA
+  id: demographic information you provide to we
+- type: DATA
+  id: email address
+- type: DATA
+  id: expiry date
+- type: DATA
+  id: information provide to we
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: list source
+- type: DATA
+  id: name on card
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal detail
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: public body
+- type: DATA
+  id: race / ethnicity
+- type: DATA
+  id: region information
+- type: DATA
+  id: request
+- type: DATA
+  id: social medium
+- type: DATA
+  id: survey result
+- type: DATA
+  id: transaction history

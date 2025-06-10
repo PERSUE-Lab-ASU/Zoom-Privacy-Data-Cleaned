@@ -1,0 +1,517 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Customer acknowledges and agreements that Provider may obtain and aggregate technical
+    and other data about Customer's use of the Services, excluding any personally
+    identifiable information ("Anonymous Data").
+  - Provider may use aggregate information derived from Personal Data for internal
+    business purposes, in accordance with these Terms.
+  - Such Anonymous Data shall be retained by Provider, during the period during which
+    Customer's has access to the Services, and after in perpetuity, for Provider's
+    use, including, without limitation, to analyze, support, operate, and improve
+    the Services, for research purposes, and for any business purposes, including,
+    without limitation, product and development.
+  purposes:
+    legal:
+    - for internal business purposes
+- source: UNSPECIFIED_ACTOR
+  target: commercial information
+  key: COLLECT
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Provider may sale or share information obtained through cookies and tracking technologies
+    to extent the same constitutes a "sale" under the CCPA/CPRA.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: customer data
+  key: COLLECT
+  text:
+  - Provider shall retain and use Customer Data, including, without limitation, Customer
+    Data obtained through third-parties, during the period necessary to implement,
+    administer, and furnish the Services and as required to comply with any and all
+    legal or regulatory obligations.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: identifier
+  key: COLLECT
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Provider may collect personally identifiable information ("Personal Data") about
+    Customer's staff, clients, prospects, and other individuals which information
+    is provided within Customer Data and through other voluntarily submitted data
+    received by Provider from Customer.
+  - Provider will not share or distribute personally identifiable information with
+    any third parties without the written consent of Customer and will not enter into
+    agreements that allow third-parties to collect personally identifiable information
+    directly through the Services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+  - Provider also collects Personal Data from correspondence with Customer, phone
+    conversations with Customer, or those recorded via the Services between Customer
+    and third-parties, through electronic means, such as "cookies" and other Website
+    usage tracking data.
+  - Provider may collect personally identifiable information ("Personal Data") about
+    Customer's staff, clients, prospects, and other individuals which information
+    is provided within Customer Data and through other voluntarily submitted data
+    received by Provider from Customer.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: sole control over operation of website
+  key: COLLECT
+  text:
+  - Customer acknowledges that Provider has and retains sole control over the operation,
+    provision, maintenance, and management of the Website and the Services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: technical datum about use of services
+  key: COLLECT
+  text:
+  - Customer acknowledges and agreements that Provider may obtain and aggregate technical
+    and other data about Customer's use of the Services, excluding any personally
+    identifiable information ("Anonymous Data").
+  purposes: {}
+- source: customer
+  target: access credentials
+  key: COLLECT
+  text:
+  - To access the Services, Customer may be asked to provide certain registration
+    details or other information, including without limitation, usernames and passwords
+    required for security procedures ("Access Credentials").
+  purposes:
+    services:
+    - To access the Services
+- source: customer
+  target: password
+  key: COLLECT
+  text:
+  - To access the Services, Customer may be asked to provide certain registration
+    details or other information, including without limitation, usernames and passwords
+    required for security procedures ("Access Credentials").
+  purposes:
+    services:
+    - To access the Services
+- source: customer
+  target: registration detail
+  key: COLLECT
+  text:
+  - To access the Services, Customer may be asked to provide certain registration
+    details or other information, including without limitation, usernames and passwords
+    required for security procedures ("Access Credentials").
+  purposes:
+    services:
+    - To access the Services
+- source: customer
+  target: username
+  key: COLLECT
+  text:
+  - To access the Services, Customer may be asked to provide certain registration
+    details or other information, including without limitation, usernames and passwords
+    required for security procedures ("Access Credentials").
+  purposes:
+    services:
+    - To access the Services
+- source: we
+  target: intellikid systems
+  key: SUBSUM
+  text:
+  - Thank you for using INTELLIKID SYSTEMS LLC , a Nevada limited-liability company
+    (referred to herein, as the "Provider" or "IntelliKid Systems") products, services,
+    Website (defined herein), and applications (commonly referred as Software as a
+    Service (SaaS)) (collectively, the "Services").
+- source: we
+  target: intellikid systems llc
+  key: SUBSUM
+  text:
+  - INTELLIKID SYSTEMS LLC ("we", "us", or "our") respects your privacy and is committed
+    to safeguarding the personal information entrusted to us.
+  - Thank you for using INTELLIKID SYSTEMS LLC , a Nevada limited-liability company
+    (referred to herein, as the "Provider" or "IntelliKid Systems") products, services,
+    Website (defined herein), and applications (commonly referred as Software as a
+    Service (SaaS)) (collectively, the "Services").
+- source: we
+  target: nevada liability company
+  key: SUBSUM
+  text:
+  - Thank you for using INTELLIKID SYSTEMS LLC , a Nevada limited-liability company
+    (referred to herein, as the "Provider" or "IntelliKid Systems") products, services,
+    Website (defined herein), and applications (commonly referred as Software as a
+    Service (SaaS)) (collectively, the "Services").
+- source: customer data
+  target: customer data obtain through third party
+  key: SUBSUM
+  text:
+  - Provider shall retain and use Customer Data, including, without limitation, Customer
+    Data obtained through third-parties, during the period necessary to implement,
+    administer, and furnish the Services and as required to comply with any and all
+    legal or regulatory obligations.
+- source: customer datum
+  target: lead information
+  key: SUBSUM
+  text:
+  - An integral part of the Services involves the uploading of Customer data, including
+    lead information, such as, without limitation, phone numbers, email addresses,
+    notes regarding potential clients of Customer, and recordings of phone calls with
+    potential clients, by Customer to the Website (collectively, "Customer Data").
+- source: fee
+  target: late fee equal
+  key: SUBSUM
+  text:
+  - Provider may charge an additional late fee equal to fifteen dollars and no cents
+    ($15.00) for each month thereafter in which Customer fails to pay such Fees in
+    full.
+- source: google data
+  target: attachment
+  key: SUBSUM
+  text:
+  - 'In addition to the foregoing, the following restrictions will apply to Provider''s
+    access to your Google Data: (1) Provider will only use access to read, write,
+    modify, or control Google Data (including attachments), metadata, headers, and
+    settings to that allow users to compose, send, read, and process Google Data and
+    will not transfer this Google Data to others unless doing so is necessary to provide
+    and improve these features, comply with applicable law, or as part of a merger,
+    acquisition, or sale of assets; (2) Provider will not use this Google Data for
+    serving advertisements; and (3) Provider will not allow humans to read this Google
+    Data unless we have your affirmative agreement for specific Google Data, doing
+    so is necessary for security purposes such as investigating abuse, to comply with
+    applicable law, or for the Provider''s internal operations and even then only
+    when the data have been aggregated and anonymized.'
+- source: google data
+  target: header
+  key: SUBSUM
+  text:
+  - 'In addition to the foregoing, the following restrictions will apply to Provider''s
+    access to your Google Data: (1) Provider will only use access to read, write,
+    modify, or control Google Data (including attachments), metadata, headers, and
+    settings to that allow users to compose, send, read, and process Google Data and
+    will not transfer this Google Data to others unless doing so is necessary to provide
+    and improve these features, comply with applicable law, or as part of a merger,
+    acquisition, or sale of assets; (2) Provider will not use this Google Data for
+    serving advertisements; and (3) Provider will not allow humans to read this Google
+    Data unless we have your affirmative agreement for specific Google Data, doing
+    so is necessary for security purposes such as investigating abuse, to comply with
+    applicable law, or for the Provider''s internal operations and even then only
+    when the data have been aggregated and anonymized.'
+- source: google data
+  target: metadata
+  key: SUBSUM
+  text:
+  - 'In addition to the foregoing, the following restrictions will apply to Provider''s
+    access to your Google Data: (1) Provider will only use access to read, write,
+    modify, or control Google Data (including attachments), metadata, headers, and
+    settings to that allow users to compose, send, read, and process Google Data and
+    will not transfer this Google Data to others unless doing so is necessary to provide
+    and improve these features, comply with applicable law, or as part of a merger,
+    acquisition, or sale of assets; (2) Provider will not use this Google Data for
+    serving advertisements; and (3) Provider will not allow humans to read this Google
+    Data unless we have your affirmative agreement for specific Google Data, doing
+    so is necessary for security purposes such as investigating abuse, to comply with
+    applicable law, or for the Provider''s internal operations and even then only
+    when the data have been aggregated and anonymized.'
+- source: google data
+  target: setting
+  key: SUBSUM
+  text:
+  - 'In addition to the foregoing, the following restrictions will apply to Provider''s
+    access to your Google Data: (1) Provider will only use access to read, write,
+    modify, or control Google Data (including attachments), metadata, headers, and
+    settings to that allow users to compose, send, read, and process Google Data and
+    will not transfer this Google Data to others unless doing so is necessary to provide
+    and improve these features, comply with applicable law, or as part of a merger,
+    acquisition, or sale of assets; (2) Provider will not use this Google Data for
+    serving advertisements; and (3) Provider will not allow humans to read this Google
+    Data unless we have your affirmative agreement for specific Google Data, doing
+    so is necessary for security purposes such as investigating abuse, to comply with
+    applicable law, or for the Provider''s internal operations and even then only
+    when the data have been aggregated and anonymized.'
+- source: google datum
+  target: access
+  key: SUBSUM
+  text:
+  - Notwithstanding anything else in this Privacy Policy, if you consent to providing
+    Provider access to the certain types of your Google data (using Google's OAuth
+    authentication method), including access to your Gmail, Google Calendar, and Contacts
+    data ("Google Data"), the Provider's use of such Google Data will be subject to
+    additional restrictions, which are set forth herein, including, without limitation,
+    that Provider's use of such Google Data received from Google APIs will adhere
+    to Google API Services User Data Policy, including the Limited Use requirements.
+- source: lead information
+  target: email address
+  key: SUBSUM
+  text:
+  - An integral part of the Services involves the uploading of Customer data, including
+    lead information, such as, without limitation, phone numbers, email addresses,
+    notes regarding potential clients of Customer, and recordings of phone calls with
+    potential clients, by Customer to the Website (collectively, "Customer Data").
+- source: lead information
+  target: note regard potential client of customer
+  key: SUBSUM
+  text:
+  - An integral part of the Services involves the uploading of Customer data, including
+    lead information, such as, without limitation, phone numbers, email addresses,
+    notes regarding potential clients of Customer, and recordings of phone calls with
+    potential clients, by Customer to the Website (collectively, "Customer Data").
+- source: lead information
+  target: phone number
+  key: SUBSUM
+  text:
+  - An integral part of the Services involves the uploading of Customer data, including
+    lead information, such as, without limitation, phone numbers, email addresses,
+    notes regarding potential clients of Customer, and recordings of phone calls with
+    potential clients, by Customer to the Website (collectively, "Customer Data").
+- source: lead information
+  target: recording of phone call with potential client
+  key: SUBSUM
+  text:
+  - An integral part of the Services involves the uploading of Customer data, including
+    lead information, such as, without limitation, phone numbers, email addresses,
+    notes regarding potential clients of Customer, and recordings of phone calls with
+    potential clients, by Customer to the Website (collectively, "Customer Data").
+- source: malicious software
+  target: link
+  key: SUBSUM
+  text:
+  - "IntelliKid Systems LLC Terms and Conditions of Use\n\n  Customer will not transmit
+    any viruses, malware, or other types of malicious software, or links to such software,
+    through the Services, or attempt to do so."
+- source: malicious software
+  target: malware
+  key: SUBSUM
+  text:
+  - "IntelliKid Systems LLC Terms and Conditions of Use\n\n  Customer will not transmit
+    any viruses, malware, or other types of malicious software, or links to such software,
+    through the Services, or attempt to do so."
+- source: malicious software
+  target: virus
+  key: SUBSUM
+  text:
+  - "IntelliKid Systems LLC Terms and Conditions of Use\n\n  Customer will not transmit
+    any viruses, malware, or other types of malicious software, or links to such software,
+    through the Services, or attempt to do so."
+- source: method
+  target: web technology
+  key: SUBSUM
+  text:
+  - If Customer is located in European Economic Area, the United Kingdom, Canada or
+    another jurisdiction outside of the United States with laws and regulations governing
+    Personal Data collection, use, and disclosure that differ from United States laws,
+    please be aware that information we collect (including through the use of methods
+    such as Cookies and other web technologies) will be processed and stored in the
+    United States or in other countries where we or our third-party service providers
+    have operations.
+- source: personal information
+  target: commercial information
+  key: SUBSUM
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+- source: personal information
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+- source: personal information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'In the preceding 12 months, Provider has collected the following categories of
+    Personal Data: identifiers, commercial information, and internet or other similar
+    network activity, and has used and disclosed such Personal Data for the purposed
+    listed herein.'
+- source: sale
+  target: advertising
+  key: SUBSUM
+  text:
+  - 'Without limitation of the foregoing, Customer shall not upload any content to
+    the Website that is: (a) unlawful, spam, malware or other harmful code; (b) defamatory,
+    obscene, indecent, abusive, offensive, harassing, violent, hateful, hateful, inflammatory,
+    or otherwise objectionable; (c) promoting an illegal activity or unlawful act,
+    sexually explicit or pornographic material, violence, or discrimination based
+    on race, sex, religion, nationality, disability, sexual orientation, or age; (d)
+    an infringement of any patent, trademark, copyright, trade secret, or other intellectual
+    property rights of any other person; (e) a violation of the legal rights (including
+    rights of publicity or privacy) of others or upload any material that could give
+    rise to any civil or criminal liability under applicable laws or regulations or
+    that otherwise may be in conflict with these Terms; (f) likely to be deceptive,
+    mispresents an identity or affiliation, or impersonates another (including, without
+    limitation, Provider); (g) likely to cause annoyance, inconvenience, embarrassment,
+    or emotional distress; and/or (h) involving commercial activity or sales (except
+    for the sole purpose of digital marketing and lead-tracking for childcare centers,
+    including analysis related thereto), such as contests, sweepstakes, other sales
+    promotions, and advertising.'
+- source: sale
+  target: sale promotion
+  key: SUBSUM
+  text:
+  - 'Without limitation of the foregoing, Customer shall not upload any content to
+    the Website that is: (a) unlawful, spam, malware or other harmful code; (b) defamatory,
+    obscene, indecent, abusive, offensive, harassing, violent, hateful, hateful, inflammatory,
+    or otherwise objectionable; (c) promoting an illegal activity or unlawful act,
+    sexually explicit or pornographic material, violence, or discrimination based
+    on race, sex, religion, nationality, disability, sexual orientation, or age; (d)
+    an infringement of any patent, trademark, copyright, trade secret, or other intellectual
+    property rights of any other person; (e) a violation of the legal rights (including
+    rights of publicity or privacy) of others or upload any material that could give
+    rise to any civil or criminal liability under applicable laws or regulations or
+    that otherwise may be in conflict with these Terms; (f) likely to be deceptive,
+    mispresents an identity or affiliation, or impersonates another (including, without
+    limitation, Provider); (g) likely to cause annoyance, inconvenience, embarrassment,
+    or emotional distress; and/or (h) involving commercial activity or sales (except
+    for the sole purpose of digital marketing and lead-tracking for childcare centers,
+    including analysis related thereto), such as contests, sweepstakes, other sales
+    promotions, and advertising.'
+- source: sale
+  target: sweepstake
+  key: SUBSUM
+  text:
+  - 'Without limitation of the foregoing, Customer shall not upload any content to
+    the Website that is: (a) unlawful, spam, malware or other harmful code; (b) defamatory,
+    obscene, indecent, abusive, offensive, harassing, violent, hateful, hateful, inflammatory,
+    or otherwise objectionable; (c) promoting an illegal activity or unlawful act,
+    sexually explicit or pornographic material, violence, or discrimination based
+    on race, sex, religion, nationality, disability, sexual orientation, or age; (d)
+    an infringement of any patent, trademark, copyright, trade secret, or other intellectual
+    property rights of any other person; (e) a violation of the legal rights (including
+    rights of publicity or privacy) of others or upload any material that could give
+    rise to any civil or criminal liability under applicable laws or regulations or
+    that otherwise may be in conflict with these Terms; (f) likely to be deceptive,
+    mispresents an identity or affiliation, or impersonates another (including, without
+    limitation, Provider); (g) likely to cause annoyance, inconvenience, embarrassment,
+    or emotional distress; and/or (h) involving commercial activity or sales (except
+    for the sole purpose of digital marketing and lead-tracking for childcare centers,
+    including analysis related thereto), such as contests, sweepstakes, other sales
+    promotions, and advertising.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertising
+- type: ACTOR
+  id: customer
+- type: ACTOR
+  id: fee
+- type: ACTOR
+  id: intellikid systems
+- type: ACTOR
+  id: intellikid systems llc
+- type: ACTOR
+  id: late fee equal
+- type: ACTOR
+  id: link
+- type: ACTOR
+  id: malicious software
+- type: ACTOR
+  id: malware
+- type: ACTOR
+  id: method
+- type: ACTOR
+  id: nevada liability company
+- type: ACTOR
+  id: sale
+- type: ACTOR
+  id: sale promotion
+- type: ACTOR
+  id: sweepstake
+- type: ACTOR
+  id: virus
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web technology
+- type: DATA
+  id: access
+- type: DATA
+  id: access credentials
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: attachment
+- type: DATA
+  id: commercial information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer data
+- type: DATA
+  id: customer data obtain through third party
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: google data
+- type: DATA
+  id: google datum
+- type: DATA
+  id: header
+- type: DATA
+  id: identifier
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: lead information
+- type: DATA
+  id: metadata
+- type: DATA
+  id: note regard potential client of customer
+- type: DATA
+  id: password
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: recording of phone call with potential client
+- type: DATA
+  id: registration detail
+- type: DATA
+  id: setting
+- type: DATA
+  id: sole control over operation of website
+- type: DATA
+  id: technical datum about use of services
+- type: DATA
+  id: username

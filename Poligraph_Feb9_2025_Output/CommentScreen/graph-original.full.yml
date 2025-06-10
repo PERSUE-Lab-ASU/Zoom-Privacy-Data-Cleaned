@@ -1,0 +1,79 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information acquire at time of registration of service
+  key: COLLECT
+  text:
+  - 'Article 2 (Method of Collecting Personal Information)
+
+
+    The Company may acquire the following pieces of information from users in the
+    Service: User authentication information, information acquired at the time of
+    the user''s registration of the Service or change of the registered data, and
+    information acquired through inquiries or communications from the users.'
+  purposes: {}
+- source: we
+  target: information acquire through inquiry from user
+  key: COLLECT
+  text:
+  - 'Article 2 (Method of Collecting Personal Information)
+
+
+    The Company may acquire the following pieces of information from users in the
+    Service: User authentication information, information acquired at the time of
+    the user''s registration of the Service or change of the registered data, and
+    information acquired through inquiries or communications from the users.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Article 3 (Purpose of Collecting and Using Personal Information)
+
+
+    The Company may collect and use Personal Information for the following reasons:'
+  - 'Article 6 (Disclosure of Personal Information)
+
+
+    The Company will disclose Personal Information to him/herself without delay when
+    requested by a person to disclose such his/her own Personal Information.'
+  purposes:
+    services:
+    - For the provision and operation of the Service
+- source: we
+  target: user authentication information
+  key: COLLECT
+  text:
+  - 'Article 2 (Method of Collecting Personal Information)
+
+
+    The Company may acquire the following pieces of information from users in the
+    Service: User authentication information, information acquired at the time of
+    the user''s registration of the Service or change of the registered data, and
+    information acquired through inquiries or communications from the users.'
+  purposes: {}
+- source: we
+  target: user information
+  key: COLLECT
+  text:
+  - 'Article 2 (Method of Collecting Personal Information)
+
+
+    The Company may obtain user information if a user allowed the Company through
+    third-party operated services to obtain it.'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: information acquire at time of registration of service
+- type: DATA
+  id: information acquire through inquiry from user
+- type: DATA
+  id: personal information
+- type: DATA
+  id: user authentication information
+- type: DATA
+  id: user information

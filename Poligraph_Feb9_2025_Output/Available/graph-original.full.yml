@@ -1,0 +1,148 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    1. Information we collect
+
+
+    We collect the following information when you use availabletimes.com :'
+  - 'Specifically, we may share your information with: Law enforcement authorities:
+    We may disclose your information to law enforcement authorities if required by
+    law or if we believe that disclosure is necessary to protect our rights or the
+    rights of others.'
+  - 'Specifically, we use your information to:'
+  - We may also retain your information for as long as necessary to resolve disputes,
+    enforce our agreements, or for other legitimate business purposes.
+  - We share your information with Google and Zoom to the extent necessary to provide
+    these services.
+  - We take your privacy and data protection seriously, and this privacy policy outlines
+    how we collect, use, and share your information.
+  - We will retain your information for as long as necessary to provide our services
+    to you and as required by applicable law.
+  purposes:
+    analytics:
+    - to read and create new events, as well as to read and create Zoom meetings associated
+      with those events
+    - 'to: Analyze usage patterns to improve availabletimes.com ''s functionality
+      and features'
+    legal:
+    - to resolve disputes, enforce our agreements, or for other legitimate business
+      purposes
+    services:
+    - to create and manage your calendar events and Zoom meetings
+    - to read and create new events, as well as to read and create Zoom meetings associated
+      with those events
+    - 'to: Analyze usage patterns to improve availabletimes.com ''s functionality
+      and features'
+    - 'to: Create and manage new calendar events and Zoom meetings on your behalf'
+    - 'to: Provide customer support and respond to your inquiries'
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - 'We collect the following information when you use availabletimes.com : availabletimes.com
+    usage data: We collect information about how you use availabletimes.com , such
+    as which features you use and how often you use them.'
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We use the information we collect to provide and improve availabletimes.com ,
+    as well as to personalize your experience.
+  purposes:
+    services:
+    - to provide and improve availabletimes.com , as well as to personalize your experience
+- source: we
+  target: zoom meeting detail
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    1. Information we collect
+
+
+    We collect the following information when you use availabletimes.com :'
+  - 'We collect the following information when you use availabletimes.com : Your Google
+    Calendar events and Zoom meeting details: We access your Google Calendar to read
+    and create new events, as well as to read and create Zoom meetings associated
+    with those events.'
+  purposes:
+    analytics:
+    - to read and create new events, as well as to read and create Zoom meetings associated
+      with those events
+    services:
+    - to read and create new events, as well as to read and create Zoom meetings associated
+      with those events
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    1. Information we collect
+
+
+    We collect the following information when you use availabletimes.com :'
+  - 'Specifically, we may share your information with: Google and Zoom: We use Google
+    Calendar and Zoom to create and manage your calendar events and Zoom meetings.'
+  - 'We collect the following information when you use availabletimes.com : Your Google
+    Calendar events and Zoom meeting details: We access your Google Calendar to read
+    and create new events, as well as to read and create Zoom meetings associated
+    with those events.'
+  - We share your information with Google and Zoom to the extent necessary to provide
+    these services.
+  purposes:
+    analytics:
+    - to read and create new events, as well as to read and create Zoom meetings associated
+      with those events
+    services:
+    - to create and manage your calendar events and Zoom meetings
+    - to read and create new events, as well as to read and create Zoom meetings associated
+      with those events
+- source: law enforcement authority
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Specifically, we may share your information with: Law enforcement authorities:
+    We may disclose your information to law enforcement authorities if required by
+    law or if we believe that disclosure is necessary to protect our rights or the
+    rights of others.'
+  purposes: {}
+- source: zoom
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Specifically, we may share your information with: Google and Zoom: We use Google
+    Calendar and Zoom to create and manage your calendar events and Zoom meetings.'
+  - We share your information with Google and Zoom to the extent necessary to provide
+    these services.
+  purposes:
+    services:
+    - to create and manage your calendar events and Zoom meetings
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: law enforcement authority
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: information about
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: zoom meeting detail

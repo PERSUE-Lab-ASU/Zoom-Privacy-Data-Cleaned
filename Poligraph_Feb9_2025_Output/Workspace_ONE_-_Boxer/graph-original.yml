@@ -1,0 +1,1286 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: crash report
+  key: COLLECT
+  text:
+  - The Software can collect crash reports, including those from the Omnissa Mobile
+    Apps ("Crash Reports").
+  purposes: {}
+- source: we
+  target: crash reports
+  key: COLLECT
+  text:
+  - The Software can collect crash reports, including those from the Omnissa Mobile
+    Apps ("Crash Reports").
+  purposes: {}
+- source: we
+  target: url
+  key: COLLECT
+  text:
+  - When an app uses the Workspace ONE SDK to provide tunneling functionality, the
+    app also transmits to Omnissa's systems the URLs of the sites accessed using that
+    tunneling functionality.
+  purposes: {}
+- source: Intel
+  target: datum collect
+  key: COLLECT
+  text:
+  - Intel uses the data collected not only to deliver the IDH threat analysis service,
+    but also to enhance its own threat intelligence and threat detection capabilities.
+  purposes:
+    analytics:
+    - not only to deliver the IDH threat analysis service, but also to enhance its
+      own threat intelligence and threat detection capabilities
+    security:
+    - not only to deliver the IDH threat analysis service, but also to enhance its
+      own threat intelligence and threat detection capabilities
+- source: app use workspace sdk
+  target: analytic datum
+  key: COLLECT
+  text:
+  - Apps that use the Workspace ONE SDK collect and transmit certain data back to
+    Omnissa, such as identity and authentication information and device information
+    as described above, as well as crash reporting data and analytics data as described
+    below.
+  purposes: {}
+- source: app use workspace sdk
+  target: crash reporting datum
+  key: COLLECT
+  text:
+  - Apps that use the Workspace ONE SDK collect and transmit certain data back to
+    Omnissa, such as identity and authentication information and device information
+    as described above, as well as crash reporting data and analytics data as described
+    below.
+  purposes: {}
+- source: app use workspace sdk
+  target: device information
+  key: COLLECT
+  text:
+  - Apps that use the Workspace ONE SDK collect and transmit certain data back to
+    Omnissa, such as identity and authentication information and device information
+    as described above, as well as crash reporting data and analytics data as described
+    below.
+  purposes: {}
+- source: app use workspace sdk
+  target: identity information
+  key: COLLECT
+  text:
+  - Apps that use the Workspace ONE SDK collect and transmit certain data back to
+    Omnissa, such as identity and authentication information and device information
+    as described above, as well as crash reporting data and analytics data as described
+    below.
+  purposes: {}
+- source: boxer
+  target: email header information
+  key: COLLECT
+  text:
+  - To operate, Boxer collects certain email header information (such as sender/recipient
+    name, date, time, subject line, etc.)
+  purposes:
+    services:
+    - To operate
+- source: boxer
+  target: user device calendar
+  key: COLLECT
+  text:
+  - If configured to do so, Boxer has access to User device calendars to overlay the
+    User's corporate calendar and access to User device contacts to display them in
+    Boxer as well as to write corporate contacts to the device contact app for call
+    identification purposes.
+  purposes: {}
+- source: boxer
+  target: user device contact
+  key: COLLECT
+  text:
+  - If configured to do so, Boxer has access to User device calendars to overlay the
+    User's corporate calendar and access to User device contacts to display them in
+    Boxer as well as to write corporate contacts to the device contact app for call
+    identification purposes.
+  purposes: {}
+- source: console
+  target: control
+  key: COLLECT
+  text:
+  - The Console provides Customers with controls to assist them in complying with
+    their legal obligations and internal compliance programs and requirements.
+  purposes: {}
+- source: content mobile application
+  target: geolocation
+  key: COLLECT
+  text:
+  - The geo-fencing feature does not transmit the User's geolocation data to the Console;
+    instead, the Content mobile application uses the geolocation data locally on the
+    device to perform the geo-fencing.
+  purposes:
+    security:
+    - to perform the geo-fencing
+    services:
+    - to perform the geo-fencing
+- source: hub service
+  target: device identifier
+  key: COLLECT
+  text:
+  - In addition to the notification content, Hub Service collects individual notification
+    acted on state, and target User device identifiers including UUID.
+  purposes: {}
+- source: hub service
+  target: individual notification act on state
+  key: COLLECT
+  text:
+  - In addition to the notification content, Hub Service collects individual notification
+    acted on state, and target User device identifiers including UUID.
+  purposes: {}
+- source: hub services
+  target: app i d
+  key: COLLECT
+  text:
+  - When User favorites/unfavorites an app, Hub Services stores app Id favorited/unfavorited
+    by User along with the device type to indicate the platform from which User has
+    favorited/unfavorited the app from.
+  purposes:
+    analytics:
+    - to indicate the platform from which User has favorited/unfavorited the app from
+    services:
+    - to indicate the platform from which User has favorited/unfavorited the app from
+- source: hub services
+  target: app i d favorite
+  key: COLLECT
+  text:
+  - When User favorites/unfavorites an app, Hub Services stores app Id favorited/unfavorited
+    by User along with the device type to indicate the platform from which User has
+    favorited/unfavorited the app from.
+  purposes:
+    analytics:
+    - to indicate the platform from which User has favorited/unfavorited the app from
+    services:
+    - to indicate the platform from which User has favorited/unfavorited the app from
+- source: hub services
+  target: external i
+  key: COLLECT
+  text:
+  - Hub Services logs the source of authentication (UEM or Access), username, external
+    Id and app Id.
+  - When enabled, Hub Services collects User's external Id and app Id.
+  purposes: {}
+- source: hub services
+  target: most recent search result for user
+  key: COLLECT
+  text:
+  - When User searches for a colleague using People tab, Hub Services stores the most
+    recent search result for that User.
+  purposes: {}
+- source: hub services
+  target: source of authentication
+  key: COLLECT
+  text:
+  - Hub Services logs the source of authentication (UEM or Access), username, external
+    Id and app Id.
+  purposes: {}
+- source: hub services
+  target: username
+  key: COLLECT
+  text:
+  - Hub Services logs the source of authentication (UEM or Access), username, external
+    Id and app Id.
+  purposes: {}
+- source: mobile application
+  target: file
+  key: COLLECT
+  text:
+  - Certain mobile applications (such as Workspace ONE Content, formerly known as
+    Omnissa Content Locker) may request file manager access from a User so that data
+    may be synced between the User's device and the Customer's systems, files could
+    be attached to emails that the User wants to send, etc.
+  purposes: {}
+- source: mobile application
+  target: file manager access
+  key: COLLECT
+  text:
+  - Certain mobile applications (such as Workspace ONE Content, formerly known as
+    Omnissa Content Locker) may request file manager access from a User so that data
+    may be synced between the User's device and the Customer's systems, files could
+    be attached to emails that the User wants to send, etc.
+  purposes: {}
+- source: mtd
+  target: control
+  key: COLLECT
+  text:
+  - MTD provides the Customer with controls which enable them to respond to threats
+    to enrolled mobile devices.
+  purposes: {}
+- source: omnissa
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Additionally, Omnissa and its service providers may collect data when the Software
+    is used, as well as Customer relationship data.
+  - If the Customer has chosen the Hosted Service, then Omnissa will also have access
+    to the data collected through the Console; however, Omnissa only uses that data
+    as stated in Omnissa's General Terms and this Privacy Notice.
+  - Omnissa uses this data in accordance with Omnissa's Privacy Notices and Omnissa's
+    General Terms.
+  - The collected data is available to the Customer via the Console and Omnissa has
+    no access to the data.
+  purposes: {}
+- source: omnissa
+  target: collect data
+  key: COLLECT
+  text:
+  - If the Customer has chosen the Hosted Service, then Omnissa will also have access
+    to the data collected through the Console; however, Omnissa only uses that data
+    as stated in Omnissa's General Terms and this Privacy Notice.
+  - The collected data is available to the Customer via the Console and Omnissa has
+    no access to the data.
+  purposes: {}
+- source: omnissa
+  target: configuration analytic datum
+  key: COLLECT
+  text:
+  - Omnissa collects certain configuration, performance, usage and other analytics
+    data from our Customers and our Customer's Users for a variety of purposes including
+    to improve our products and services, fix problems, help us understand better
+    how our Customers use our products and services, and advise our Customers on how
+    best to deploy and use our products and services.
+  purposes:
+    analytics:
+    - for a variety of purposes including to improve our products and services, fix
+      problems, help us understand better how our Customers use our products and services,
+      and advise our Customers on how best to deploy and use our products and services
+    services:
+    - for a variety of purposes including to improve our products and services, fix
+      problems, help us understand better how our Customers use our products and services,
+      and advise our Customers on how best to deploy and use our products and services
+- source: omnissa
+  target: configuration datum relate to customer use of software
+  key: COLLECT
+  text:
+  - Omnissa may monitor and collect configuration, performance, usage, and consumption
+    data relating to Customer's and its Users' use of the Software to facilitate the
+    delivery and operation of the products and services (collectively, "Service Operations
+    Data") as described in the Omnissa Products & Services Privacy Notices
+  purposes: {}
+- source: omnissa
+  target: customer relationship datum
+  key: COLLECT
+  text:
+  - Additionally, Omnissa and its service providers may collect data when the Software
+    is used, as well as Customer relationship data.
+  - Omnissa uses this data in accordance with Omnissa's Privacy Notices and Omnissa's
+    General Terms.
+  purposes: {}
+- source: omnissa
+  target: datum collect through console
+  key: COLLECT
+  text:
+  - If the Customer has chosen the Hosted Service, then Omnissa will also have access
+    to the data collected through the Console; however, Omnissa only uses that data
+    as stated in Omnissa's General Terms and this Privacy Notice.
+  purposes: {}
+- source: omnissa access
+  target: datum about user who use workspace platform
+  key: COLLECT
+  text:
+  - Omnissa Access collects data about Users who are using the Workspace ONE platform.
+  purposes: {}
+- source: omnissa mobile apps provide vpn functionality
+  target: url
+  key: COLLECT
+  text:
+  - For example, Omnissa Mobile Apps that provide VPN or internet browsing functionality
+    (such as Boxer and Web) collect the URLs visited through those Omnissa Mobile
+    Apps.
+  purposes: {}
+- source: omnissa workspace one launcher
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'The Omnissa Workspace ONE Launcher collects the following permissions and data:'
+  purposes: {}
+- source: omnissa workspace one launcher
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'The Omnissa Workspace ONE Launcher collects the following permissions and data:
+    Permission acquired automatically from the Device Policy Controller DPC/Workspace
+    ONE Hub a. Location access: depending on the customer configuration, this could
+    be coarse location or precise location b. Internet Usage, such as content download/upload,
+    API Calls, communication, etc. c.'
+  purposes: {}
+- source: omnissa workspace one launcher
+  target: permission
+  key: COLLECT
+  text:
+  - 'The Omnissa Workspace ONE Launcher collects the following permissions and data:'
+  purposes: {}
+- source: omnissa workspace one launcher
+  target: permission require
+  key: COLLECT
+  text:
+  - 'The Omnissa Workspace ONE Launcher collects the following permissions and data:
+    Permissions required to be granted by the user manually: a.'
+  purposes: {}
+- source: security events service
+  target: datum configure
+  key: COLLECT
+  text:
+  - 'The following data is temporarily processed by the Security Events Service and
+    is sent to Customer''s selected CAEP receiver: Other data configured by the Customer'
+  purposes: {}
+- source: security events service
+  target: device compliance status change detail
+  key: COLLECT
+  text:
+  - 'The following data is temporarily processed by the Security Events Service and
+    is sent to Customer''s selected CAEP receiver: Device compliance status change
+    details'
+  purposes: {}
+- source: security events service
+  target: device identifier
+  key: COLLECT
+  text:
+  - 'The following data is temporarily processed by the Security Events Service and
+    is sent to Customer''s selected CAEP receiver: Device ID'
+  purposes: {}
+- source: security events service
+  target: email address
+  key: COLLECT
+  text:
+  - 'The following data is temporarily processed by the Security Events Service and
+    is sent to Customer''s selected CAEP receiver: End-user email address'
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Additionally, Omnissa and its service providers may collect data when the Software
+    is used, as well as Customer relationship data.
+  purposes: {}
+- source: service provider
+  target: customer relationship datum
+  key: COLLECT
+  text:
+  - Additionally, Omnissa and its service providers may collect data when the Software
+    is used, as well as Customer relationship data.
+  purposes: {}
+- source: system
+  target: url
+  key: COLLECT
+  text:
+  - When an app uses the Workspace ONE SDK to provide tunneling functionality, the
+    app also transmits to Omnissa's systems the URLs of the sites accessed using that
+    tunneling functionality.
+  purposes: {}
+- source: tunnel
+  target: application bundle id
+  key: COLLECT
+  text:
+  - To operate, Tunnel collects certain additional information such as application
+    bundle IDs, URLs accessed through managed applications, device network information,
+    diagnostic information such as crash logs, service start/stop events, network
+    errors, and runtime exceptions.
+  purposes:
+    services:
+    - To operate
+- source: tunnel
+  target: device network information
+  key: COLLECT
+  text:
+  - To operate, Tunnel collects certain additional information such as application
+    bundle IDs, URLs accessed through managed applications, device network information,
+    diagnostic information such as crash logs, service start/stop events, network
+    errors, and runtime exceptions.
+  purposes:
+    services:
+    - To operate
+- source: tunnel
+  target: diagnostic information
+  key: COLLECT
+  text:
+  - To operate, Tunnel collects certain additional information such as application
+    bundle IDs, URLs accessed through managed applications, device network information,
+    diagnostic information such as crash logs, service start/stop events, network
+    errors, and runtime exceptions.
+  purposes:
+    services:
+    - To operate
+- source: tunnel
+  target: url access through manage application
+  key: COLLECT
+  text:
+  - To operate, Tunnel collects certain additional information such as application
+    bundle IDs, URLs accessed through managed applications, device network information,
+    diagnostic information such as crash logs, service start/stop events, network
+    errors, and runtime exceptions.
+  purposes:
+    services:
+    - To operate
+- source: uem
+  target: content of device storage
+  key: COLLECT
+  text:
+  - When enabled, UEM may collect the contents of the device storage, including the
+    SD card and locally stored files.
+  purposes: {}
+- source: uem
+  target: control
+  key: COLLECT
+  text:
+  - UEM provides the Customer with controls which enable them to manage the access
+    and security of its User's devices.
+  purposes: {}
+- source: uem
+  target: date
+  key: COLLECT
+  text:
+  - If Content is used, UEM will have access to data such as the date and times when
+    files are accessed and shared, file size, file names, a history of User actions
+    inside the Content, and details regarding with whom the User interacts through
+    Content.
+  purposes: {}
+- source: uem
+  target: detail about personal applications
+  key: COLLECT
+  text:
+  - Depending on how the Customer has configured UEM, UEM may collect limited details
+    about Personal Applications to assist the Customer in knowing/verifying that its
+    Users do not download Personal Applications which may pose a security threat.
+  purposes:
+    security:
+    - to assist the Customer in knowing/verifying that its Users do not download Personal
+      Applications which may pose a security threat
+- source: uem
+  target: detail regard
+  key: COLLECT
+  text:
+  - If Content is used, UEM will have access to data such as the date and times when
+    files are accessed and shared, file size, file names, a history of User actions
+    inside the Content, and details regarding with whom the User interacts through
+    Content.
+  purposes: {}
+- source: uem
+  target: file
+  key: COLLECT
+  text:
+  - If Content is used, UEM will have access to data such as the date and times when
+    files are accessed and shared, file size, file names, a history of User actions
+    inside the Content, and details regarding with whom the User interacts through
+    Content.
+  purposes: {}
+- source: uem
+  target: file name
+  key: COLLECT
+  text:
+  - If Content is used, UEM will have access to data such as the date and times when
+    files are accessed and shared, file size, file names, a history of User actions
+    inside the Content, and details regarding with whom the User interacts through
+    Content.
+  purposes: {}
+- source: uem
+  target: file size
+  key: COLLECT
+  text:
+  - If Content is used, UEM will have access to data such as the date and times when
+    files are accessed and shared, file size, file names, a history of User actions
+    inside the Content, and details regarding with whom the User interacts through
+    Content.
+  purposes: {}
+- source: uem
+  target: geolocation
+  key: COLLECT
+  text:
+  - Depending on how the Customer has configured UEM, UEM may collect geolocation
+    data.
+  purposes: {}
+- source: uem
+  target: history
+  key: COLLECT
+  text:
+  - If Content is used, UEM will have access to data such as the date and times when
+    files are accessed and shared, file size, file names, a history of User actions
+    inside the Content, and details regarding with whom the User interacts through
+    Content.
+  purposes: {}
+- source: uem
+  target: telecom datum
+  key: COLLECT
+  text:
+  - UEM may collect certain telecom data, such as carrier information, roaming status,
+    and networks being used.
+  purposes: {}
+- source: uem
+  target: user datum
+  key: COLLECT
+  text:
+  - 'PART I: Workspace ONE UEM and Omnissa Mobile Applications
+
+
+    UEM also may collect user and device data in connection with the following:'
+  purposes: {}
+- source: uem
+  target: user datum as
+  key: COLLECT
+  text:
+  - 'In connection with its core enterprise mobility management functions, UEM collects
+    user and device data such as the following:'
+  purposes: {}
+- source: web
+  target: browser information
+  key: COLLECT
+  text:
+  - To operate, Web collects certain additional information such as the browser information
+    and browsing history on the User's device.
+  purposes:
+    services:
+    - To operate
+- source: web
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - To operate, Web collects certain additional information such as the browser information
+    and browsing history on the User's device.
+  purposes:
+    services:
+    - To operate
+- source: web
+  target: url of website view
+  key: COLLECT
+  text:
+  - Web records the URLs of websites and web pages viewed using Web but Web does not
+    give Omnissa access to the content viewed using Web.
+  purposes: {}
+- source: we
+  target: omnissa workspace component describe
+  key: SUBSUM
+  text:
+  - This Privacy Disclosure covers Omnissa Workspace ONE Unified Endpoint Management
+    (UEM), Omnissa Access, Omnissa Intelligence as well as the additional Omnissa
+    Workspace ONE components described below (collectively, the "Software").
+- source: we
+  target: omnissa workspace unified endpoint management
+  key: SUBSUM
+  text:
+  - This Privacy Disclosure covers Omnissa Workspace ONE Unified Endpoint Management
+    (UEM), Omnissa Access, Omnissa Intelligence as well as the additional Omnissa
+    Workspace ONE components described below (collectively, the "Software").
+- source: we
+  target: uem
+  key: SUBSUM
+  text:
+  - This Privacy Disclosure covers Omnissa Workspace ONE Unified Endpoint Management
+    (UEM), Omnissa Access, Omnissa Intelligence as well as the additional Omnissa
+    Workspace ONE components described below (collectively, the "Software").
+- source: carrier information
+  target: carrier setting version
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this telecom and network information
+    may include the following: Carrier information (including carrier settings versions,
+    phone number, signal strength, roaming status, current and subscriber mobile country
+    code and country location, current and subscriber mobile network code, SIM Carrier
+    Network information, etc.)'
+- source: carrier information
+  target: coarse geolocation
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this telecom and network information
+    may include the following: Carrier information (including carrier settings versions,
+    phone number, signal strength, roaming status, current and subscriber mobile country
+    code and country location, current and subscriber mobile network code, SIM Carrier
+    Network information, etc.)'
+- source: carrier information
+  target: current mobile country code
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this telecom and network information
+    may include the following: Carrier information (including carrier settings versions,
+    phone number, signal strength, roaming status, current and subscriber mobile country
+    code and country location, current and subscriber mobile network code, SIM Carrier
+    Network information, etc.)'
+- source: carrier information
+  target: current mobile network code
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this telecom and network information
+    may include the following: Carrier information (including carrier settings versions,
+    phone number, signal strength, roaming status, current and subscriber mobile country
+    code and country location, current and subscriber mobile network code, SIM Carrier
+    Network information, etc.)'
+- source: carrier information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this telecom and network information
+    may include the following: Carrier information (including carrier settings versions,
+    phone number, signal strength, roaming status, current and subscriber mobile country
+    code and country location, current and subscriber mobile network code, SIM Carrier
+    Network information, etc.)'
+- source: carrier information
+  target: roaming status
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this telecom and network information
+    may include the following: Carrier information (including carrier settings versions,
+    phone number, signal strength, roaming status, current and subscriber mobile country
+    code and country location, current and subscriber mobile network code, SIM Carrier
+    Network information, etc.)'
+- source: carrier information
+  target: signal strength
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this telecom and network information
+    may include the following: Carrier information (including carrier settings versions,
+    phone number, signal strength, roaming status, current and subscriber mobile country
+    code and country location, current and subscriber mobile network code, SIM Carrier
+    Network information, etc.)'
+- source: carrier information
+  target: sim carrier network information
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this telecom and network information
+    may include the following: Carrier information (including carrier settings versions,
+    phone number, signal strength, roaming status, current and subscriber mobile country
+    code and country location, current and subscriber mobile network code, SIM Carrier
+    Network information, etc.)'
+- source: collect data
+  target: country
+  key: SUBSUM
+  text:
+  - Collected data includes information about installed operating system, Intel-based
+    applications, drivers and BIOS; information about the device such as manufacturer,
+    model number, serial number, SKU, and motherboard and CPU details; and country.
+- source: collect data
+  target: information about device
+  key: SUBSUM
+  text:
+  - Collected data includes information about installed operating system, Intel-based
+    applications, drivers and BIOS; information about the device such as manufacturer,
+    model number, serial number, SKU, and motherboard and CPU details; and country.
+- source: content of device storage
+  target: sd card
+  key: SUBSUM
+  text:
+  - When enabled, UEM may collect the contents of the device storage, including the
+    SD card and locally stored files.
+- source: content of device storage
+  target: store file
+  key: SUBSUM
+  text:
+  - When enabled, UEM may collect the contents of the device storage, including the
+    SD card and locally stored files.
+- source: device identifier
+  target: imei
+  key: SUBSUM
+  text:
+  - 'Device information : Device type, name, make, model, manufacturer, and device
+    identifiers such as universal unique identifier ("UUID"), International Mobile
+    Station Equipment Identity ("IMEI"), mobile equipment identifier ("MEID"), serial
+    number, International Mobile Subscriber Identity ("IMSI") number, Internet Protocol
+    ("IP") address and Media Access Control ("MAC") address'
+- source: device identifier
+  target: international mobile station equipment identity
+  key: SUBSUM
+  text:
+  - 'Device information : Device type, name, make, model, manufacturer, and device
+    identifiers such as universal unique identifier ("UUID"), International Mobile
+    Station Equipment Identity ("IMEI"), mobile equipment identifier ("MEID"), serial
+    number, International Mobile Subscriber Identity ("IMSI") number, Internet Protocol
+    ("IP") address and Media Access Control ("MAC") address'
+- source: device identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Device information : Device type, name, make, model, manufacturer, and device
+    identifiers such as universal unique identifier ("UUID"), International Mobile
+    Station Equipment Identity ("IMEI"), mobile equipment identifier ("MEID"), serial
+    number, International Mobile Subscriber Identity ("IMSI") number, Internet Protocol
+    ("IP") address and Media Access Control ("MAC") address'
+- source: device identifier
+  target: mac address
+  key: SUBSUM
+  text:
+  - 'Device information : Device type, name, make, model, manufacturer, and device
+    identifiers such as universal unique identifier ("UUID"), International Mobile
+    Station Equipment Identity ("IMEI"), mobile equipment identifier ("MEID"), serial
+    number, International Mobile Subscriber Identity ("IMSI") number, Internet Protocol
+    ("IP") address and Media Access Control ("MAC") address'
+- source: device identifier
+  target: meid
+  key: SUBSUM
+  text:
+  - 'Device information : Device type, name, make, model, manufacturer, and device
+    identifiers such as universal unique identifier ("UUID"), International Mobile
+    Station Equipment Identity ("IMEI"), mobile equipment identifier ("MEID"), serial
+    number, International Mobile Subscriber Identity ("IMSI") number, Internet Protocol
+    ("IP") address and Media Access Control ("MAC") address'
+- source: device identifier
+  target: serial number
+  key: SUBSUM
+  text:
+  - 'Device information : Device type, name, make, model, manufacturer, and device
+    identifiers such as universal unique identifier ("UUID"), International Mobile
+    Station Equipment Identity ("IMEI"), mobile equipment identifier ("MEID"), serial
+    number, International Mobile Subscriber Identity ("IMSI") number, Internet Protocol
+    ("IP") address and Media Access Control ("MAC") address'
+- source: device identifier
+  target: sim serial number
+  key: SUBSUM
+  text:
+  - 'Device information : Device type, name, make, model, manufacturer, and device
+    identifiers such as universal unique identifier ("UUID"), International Mobile
+    Station Equipment Identity ("IMEI"), mobile equipment identifier ("MEID"), serial
+    number, International Mobile Subscriber Identity ("IMSI") number, Internet Protocol
+    ("IP") address and Media Access Control ("MAC") address'
+- source: device identifier
+  target: universal unique identifier
+  key: SUBSUM
+  text:
+  - 'Device information : Device type, name, make, model, manufacturer, and device
+    identifiers such as universal unique identifier ("UUID"), International Mobile
+    Station Equipment Identity ("IMEI"), mobile equipment identifier ("MEID"), serial
+    number, International Mobile Subscriber Identity ("IMSI") number, Internet Protocol
+    ("IP") address and Media Access Control ("MAC") address'
+- source: device identifier
+  target: uuid
+  key: SUBSUM
+  text:
+  - 'Device information : Device type, name, make, model, manufacturer, and device
+    identifiers such as universal unique identifier ("UUID"), International Mobile
+    Station Equipment Identity ("IMEI"), mobile equipment identifier ("MEID"), serial
+    number, International Mobile Subscriber Identity ("IMSI") number, Internet Protocol
+    ("IP") address and Media Access Control ("MAC") address'
+- source: device information
+  target: device type
+  key: SUBSUM
+  text:
+  - Crash Reports may contain User data, such as IP/MAC address, device Information
+    (including unique identifiers, device type, carrier, operating system, model,
+    system, etc.), and geolocation information.
+- source: device information
+  target: identifier
+  key: SUBSUM
+  text:
+  - Crash Reports may contain User data, such as IP/MAC address, device Information
+    (including unique identifiers, device type, carrier, operating system, model,
+    system, etc.), and geolocation information.
+- source: device information
+  target: model
+  key: SUBSUM
+  text:
+  - Crash Reports may contain User data, such as IP/MAC address, device Information
+    (including unique identifiers, device type, carrier, operating system, model,
+    system, etc.), and geolocation information.
+- source: diagnostic information
+  target: crash log
+  key: SUBSUM
+  text:
+  - To operate, Tunnel collects certain additional information such as application
+    bundle IDs, URLs accessed through managed applications, device network information,
+    diagnostic information such as crash logs, service start/stop events, network
+    errors, and runtime exceptions.
+- source: diagnostic information
+  target: network error
+  key: SUBSUM
+  text:
+  - To operate, Tunnel collects certain additional information such as application
+    bundle IDs, URLs accessed through managed applications, device network information,
+    diagnostic information such as crash logs, service start/stop events, network
+    errors, and runtime exceptions.
+- source: diagnostic information
+  target: runtime exception
+  key: SUBSUM
+  text:
+  - To operate, Tunnel collects certain additional information such as application
+    bundle IDs, URLs accessed through managed applications, device network information,
+    diagnostic information such as crash logs, service start/stop events, network
+    errors, and runtime exceptions.
+- source: diagnostic information
+  target: service start stop event
+  key: SUBSUM
+  text:
+  - To operate, Tunnel collects certain additional information such as application
+    bundle IDs, URLs accessed through managed applications, device network information,
+    diagnostic information such as crash logs, service start/stop events, network
+    errors, and runtime exceptions.
+- source: email address
+  target: amount of datum use
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this communications data may
+    include: The amount of data used, the number of SMS sent or received, phone call
+    usage statistics (number of calls sent or received, duration of calls), broken
+    down on an enrolled device phone number basis'
+  - UEM does not collect or have access to the contents of text messages, phone calls,
+    or personal email accounts.
+- source: email address
+  target: date time
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this communications data may
+    include: Name of sender, name of recipient, date, time'
+  - UEM does not collect or have access to the contents of text messages, phone calls,
+    or personal email accounts.
+- source: email address
+  target: duration of call
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this communications data may
+    include: The amount of data used, the number of SMS sent or received, phone call
+    usage statistics (number of calls sent or received, duration of calls), broken
+    down on an enrolled device phone number basis'
+  - UEM does not collect or have access to the contents of text messages, phone calls,
+    or personal email accounts.
+- source: email address
+  target: name of recipient
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this communications data may
+    include: Name of sender, name of recipient, date, time'
+  - UEM does not collect or have access to the contents of text messages, phone calls,
+    or personal email accounts.
+- source: email address
+  target: name of sender
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this communications data may
+    include: Name of sender, name of recipient, date, time'
+  - UEM does not collect or have access to the contents of text messages, phone calls,
+    or personal email accounts.
+- source: email address
+  target: number
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this communications data may
+    include: The amount of data used, the number of SMS sent or received, phone call
+    usage statistics (number of calls sent or received, duration of calls), broken
+    down on an enrolled device phone number basis'
+  - UEM does not collect or have access to the contents of text messages, phone calls,
+    or personal email accounts.
+- source: email address
+  target: number of sms send
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this communications data may
+    include: The amount of data used, the number of SMS sent or received, phone call
+    usage statistics (number of calls sent or received, duration of calls), broken
+    down on an enrolled device phone number basis'
+  - UEM does not collect or have access to the contents of text messages, phone calls,
+    or personal email accounts.
+- source: email address
+  target: phone call usage statistic
+  key: SUBSUM
+  text:
+  - 'Depending on how the Customer has configured UEM, this communications data may
+    include: The amount of data used, the number of SMS sent or received, phone call
+    usage statistics (number of calls sent or received, duration of calls), broken
+    down on an enrolled device phone number basis'
+  - UEM does not collect or have access to the contents of text messages, phone calls,
+    or personal email accounts.
+- source: email header information
+  target: date
+  key: SUBSUM
+  text:
+  - To operate, Boxer collects certain email header information (such as sender/recipient
+    name, date, time, subject line, etc.)
+- source: email header information
+  target: sender recipient name
+  key: SUBSUM
+  text:
+  - To operate, Boxer collects certain email header information (such as sender/recipient
+    name, date, time, subject line, etc.)
+- source: email header information
+  target: subject line
+  key: SUBSUM
+  text:
+  - To operate, Boxer collects certain email header information (such as sender/recipient
+    name, date, time, subject line, etc.)
+- source: email header information
+  target: time
+  key: SUBSUM
+  text:
+  - To operate, Boxer collects certain email header information (such as sender/recipient
+    name, date, time, subject line, etc.)
+- source: information about device
+  target: manufacturer
+  key: SUBSUM
+  text:
+  - Collected data includes information about installed operating system, Intel-based
+    applications, drivers and BIOS; information about the device such as manufacturer,
+    model number, serial number, SKU, and motherboard and CPU details; and country.
+- source: information about device
+  target: model number
+  key: SUBSUM
+  text:
+  - Collected data includes information about installed operating system, Intel-based
+    applications, drivers and BIOS; information about the device such as manufacturer,
+    model number, serial number, SKU, and motherboard and CPU details; and country.
+- source: information about device
+  target: motherboard detail
+  key: SUBSUM
+  text:
+  - Collected data includes information about installed operating system, Intel-based
+    applications, drivers and BIOS; information about the device such as manufacturer,
+    model number, serial number, SKU, and motherboard and CPU details; and country.
+- source: information about device
+  target: serial number
+  key: SUBSUM
+  text:
+  - Collected data includes information about installed operating system, Intel-based
+    applications, drivers and BIOS; information about the device such as manufacturer,
+    model number, serial number, SKU, and motherboard and CPU details; and country.
+- source: information about device
+  target: sku
+  key: SUBSUM
+  text:
+  - Collected data includes information about installed operating system, Intel-based
+    applications, drivers and BIOS; information about the device such as manufacturer,
+    model number, serial number, SKU, and motherboard and CPU details; and country.
+- source: internet activity
+  target: api call
+  key: SUBSUM
+  text:
+  - 'The Omnissa Workspace ONE Launcher collects the following permissions and data:
+    Permission acquired automatically from the Device Policy Controller DPC/Workspace
+    ONE Hub a. Location access: depending on the customer configuration, this could
+    be coarse location or precise location b. Internet Usage, such as content download/upload,
+    API Calls, communication, etc. c.'
+- source: mobile application
+  target: approve application push to user device
+  key: SUBSUM
+  text:
+  - '"Customer-Managed Applications" are Customer approved applications that are either
+    pushed to User devices by the Customer or made available for download through
+    the Workspace ONE Intelligent Hub app (formerly the AirWatch Agent), Workspace
+    ONE App Catalog, or Customer application catalogues.'
+  - These mobile applications may be public applications or internally-created applications.
+- source: mobile application
+  target: customer managed applications
+  key: SUBSUM
+  text:
+  - '"Customer-Managed Applications" are Customer approved applications that are either
+    pushed to User devices by the Customer or made available for download through
+    the Workspace ONE Intelligent Hub app (formerly the AirWatch Agent), Workspace
+    ONE App Catalog, or Customer application catalogues.'
+  - These mobile applications may be public applications or internally-created applications.
+- source: mobile application
+  target: workspace content
+  key: SUBSUM
+  text:
+  - Certain mobile applications (such as Workspace ONE Content, formerly known as
+    Omnissa Content Locker) may request file manager access from a User so that data
+    may be synced between the User's device and the Customer's systems, files could
+    be attached to emails that the User wants to send, etc.
+- source: omnissa mobile apps provide vpn functionality
+  target: boxer
+  key: SUBSUM
+  text:
+  - For example, Omnissa Mobile Apps that provide VPN or internet browsing functionality
+    (such as Boxer and Web) collect the URLs visited through those Omnissa Mobile
+    Apps.
+- source: omnissa mobile apps provide vpn functionality
+  target: web
+  key: SUBSUM
+  text:
+  - For example, Omnissa Mobile Apps that provide VPN or internet browsing functionality
+    (such as Boxer and Web) collect the URLs visited through those Omnissa Mobile
+    Apps.
+- source: system
+  target: workspace uem
+  key: SUBSUM
+  text:
+  - The Security Events Service routes security events between systems such as Workspace
+    ONE UEM and Customer's third-party Continuous Access Evaluation Profile (CAEP)
+    receiver service, e.g. an IdP.
+- source: telecom datum
+  target: carrier information
+  key: SUBSUM
+  text:
+  - UEM may collect certain telecom data, such as carrier information, roaming status,
+    and networks being used.
+- source: telecom datum
+  target: roam status
+  key: SUBSUM
+  text:
+  - UEM may collect certain telecom data, such as carrier information, roaming status,
+    and networks being used.
+- source: user datum
+  target: device information
+  key: SUBSUM
+  text:
+  - Crash Reports may contain User data, such as IP/MAC address, device Information
+    (including unique identifiers, device type, carrier, operating system, model,
+    system, etc.), and geolocation information.
+- source: user datum
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Crash Reports may contain User data, such as IP/MAC address, device Information
+    (including unique identifiers, device type, carrier, operating system, model,
+    system, etc.), and geolocation information.
+- source: user datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - Crash Reports may contain User data, such as IP/MAC address, device Information
+    (including unique identifiers, device type, carrier, operating system, model,
+    system, etc.), and geolocation information.
+- source: user datum
+  target: mac address
+  key: SUBSUM
+  text:
+  - Crash Reports may contain User data, such as IP/MAC address, device Information
+    (including unique identifiers, device type, carrier, operating system, model,
+    system, etc.), and geolocation information.
+nodes:
+- type: ACTOR
+  id: Intel
+- type: ACTOR
+  id: app use workspace sdk
+- type: ACTOR
+  id: approve application push to user device
+- type: ACTOR
+  id: boxer
+- type: ACTOR
+  id: console
+- type: ACTOR
+  id: content mobile application
+- type: ACTOR
+  id: customer managed applications
+- type: ACTOR
+  id: hub service
+- type: ACTOR
+  id: hub services
+- type: ACTOR
+  id: mobile application
+- type: ACTOR
+  id: mtd
+- type: ACTOR
+  id: omnissa
+- type: ACTOR
+  id: omnissa access
+- type: ACTOR
+  id: omnissa mobile apps provide vpn functionality
+- type: ACTOR
+  id: omnissa workspace component describe
+- type: ACTOR
+  id: omnissa workspace one launcher
+- type: ACTOR
+  id: omnissa workspace unified endpoint management
+- type: ACTOR
+  id: security events service
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: system
+- type: ACTOR
+  id: tunnel
+- type: ACTOR
+  id: uem
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web
+- type: ACTOR
+  id: workspace content
+- type: ACTOR
+  id: workspace uem
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: amount of datum use
+- type: DATA
+  id: analytic datum
+- type: DATA
+  id: api call
+- type: DATA
+  id: app i d
+- type: DATA
+  id: app i d favorite
+- type: DATA
+  id: application bundle id
+- type: DATA
+  id: browser information
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: carrier information
+- type: DATA
+  id: carrier setting version
+- type: DATA
+  id: coarse geolocation
+- type: DATA
+  id: collect data
+- type: DATA
+  id: configuration analytic datum
+- type: DATA
+  id: configuration datum relate to customer use of software
+- type: DATA
+  id: content of device storage
+- type: DATA
+  id: control
+- type: DATA
+  id: country
+- type: DATA
+  id: crash log
+- type: DATA
+  id: crash report
+- type: DATA
+  id: crash reporting datum
+- type: DATA
+  id: crash reports
+- type: DATA
+  id: current mobile country code
+- type: DATA
+  id: current mobile network code
+- type: DATA
+  id: customer relationship datum
+- type: DATA
+  id: date
+- type: DATA
+  id: date time
+- type: DATA
+  id: datum about user who use workspace platform
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: datum collect through console
+- type: DATA
+  id: datum configure
+- type: DATA
+  id: detail about personal applications
+- type: DATA
+  id: detail regard
+- type: DATA
+  id: device compliance status change detail
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device information
+- type: DATA
+  id: device network information
+- type: DATA
+  id: device type
+- type: DATA
+  id: diagnostic information
+- type: DATA
+  id: duration of call
+- type: DATA
+  id: email address
+- type: DATA
+  id: email header information
+- type: DATA
+  id: external i
+- type: DATA
+  id: file
+- type: DATA
+  id: file manager access
+- type: DATA
+  id: file name
+- type: DATA
+  id: file size
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: history
+- type: DATA
+  id: identifier
+- type: DATA
+  id: identity information
+- type: DATA
+  id: imei
+- type: DATA
+  id: individual notification act on state
+- type: DATA
+  id: information about device
+- type: DATA
+  id: international mobile station equipment identity
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: mac address
+- type: DATA
+  id: manufacturer
+- type: DATA
+  id: meid
+- type: DATA
+  id: model
+- type: DATA
+  id: model number
+- type: DATA
+  id: most recent search result for user
+- type: DATA
+  id: motherboard detail
+- type: DATA
+  id: name of recipient
+- type: DATA
+  id: name of sender
+- type: DATA
+  id: network error
+- type: DATA
+  id: number
+- type: DATA
+  id: number of sms send
+- type: DATA
+  id: permission
+- type: DATA
+  id: permission require
+- type: DATA
+  id: phone call usage statistic
+- type: DATA
+  id: phone number
+- type: DATA
+  id: roam status
+- type: DATA
+  id: roaming status
+- type: DATA
+  id: runtime exception
+- type: DATA
+  id: sd card
+- type: DATA
+  id: sender recipient name
+- type: DATA
+  id: serial number
+- type: DATA
+  id: service start stop event
+- type: DATA
+  id: signal strength
+- type: DATA
+  id: sim carrier network information
+- type: DATA
+  id: sim serial number
+- type: DATA
+  id: sku
+- type: DATA
+  id: source of authentication
+- type: DATA
+  id: store file
+- type: DATA
+  id: subject line
+- type: DATA
+  id: telecom datum
+- type: DATA
+  id: time
+- type: DATA
+  id: universal unique identifier
+- type: DATA
+  id: url
+- type: DATA
+  id: url access through manage application
+- type: DATA
+  id: url of website view
+- type: DATA
+  id: user datum
+- type: DATA
+  id: user datum as
+- type: DATA
+  id: user device calendar
+- type: DATA
+  id: user device contact
+- type: DATA
+  id: username
+- type: DATA
+  id: uuid

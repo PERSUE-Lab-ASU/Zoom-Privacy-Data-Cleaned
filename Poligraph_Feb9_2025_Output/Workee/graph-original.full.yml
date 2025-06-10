@@ -1,0 +1,131 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Also, we can collect some data from cookies only if we obtain your consent.
+  - 'Sources of data
+
+
+    We receive your data when you visit the Platform and interact with it, depending
+    on your actions on it.'
+  - When you use the Platform as a Visitor, we collect some data automatically.
+  purposes: {}
+- source: we
+  target: client datum
+  key: COLLECT
+  text:
+  - This means that we process User's Clients data only on behalf of the Users.
+  purposes: {}
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - By using cookies, we receive automatically collected data.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Privacy Notice Workee platform
+
+
+    Related documents
+
+
+    Workee
+
+
+    This site uses cookies.'
+  - We use cookies that are needed for the Platform's operation.
+  purposes: {}
+- source: we
+  target: messenger
+  key: COLLECT
+  text:
+  - We use messengers to communicate with you in ways that are convenient for you.
+  purposes:
+    services:
+    - to communicate with you in ways that are convenient for you
+- source: we
+  target: personal datum of client of user
+  key: COLLECT
+  text:
+  - We may also process the personal data of the clients of Users ( "User's Clients"
+    ).
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We can share your personal data with third parties without any harm to you and
+    in full compliance with applicable law.
+  - 'We collect your personal data when you buy a "Workee PRO" subscription on the
+    Platform:'
+  - 'We collect your personal data when you configure profile settings on the Platform:'
+  - 'We collect your personal data when you register an account on the Platform:'
+  - 'We collect your personal data when you send feedback or support requests on the
+    Platform through the "Help Center" menu:'
+  - 'We collect your personal data when you use a "Bookings" webpage on the Platform:'
+  - 'We collect your personal data when you use a "Clients" webpage on the Platform:'
+  - 'We collect your personal data when you use a "Finances" webpage on the Platform:'
+  - 'We collect your personal data when you use a "Meetings" webpage on the Platform:'
+  - 'We collect your personal data when you use a "Payments" webpage on the Platform:'
+  - 'We collect your personal data when you use a "Shop Orders" webpage on the Platform:'
+  - 'We collect your personal data when you use a "Website" webpage on the Platform:'
+  - We may receive some personal data from third parties.
+  purposes: {}
+- source: we
+  target: product fruits
+  key: COLLECT
+  text:
+  - 'Data received from third parties
+
+
+    We use Product Fruits for feedback collection'
+  purposes:
+    analytics:
+    - for feedback collection
+    services:
+    - for feedback collection
+- source: we
+  target: technical datum
+  key: COLLECT
+  text:
+  - We need technical data to operate, support, and improve the Platform's functionality.
+  purposes:
+    services:
+    - to operate, support, and improve the Platform's functionality
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We can share your personal data with third parties without any harm to you and
+    in full compliance with applicable law.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: client datum
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: messenger
+- type: DATA
+  id: personal datum of client of user
+- type: DATA
+  id: personal information
+- type: DATA
+  id: product fruits
+- type: DATA
+  id: technical datum

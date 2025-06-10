@@ -1,0 +1,139 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We also may use the data to communicate with you, for example, informing you about
+    updates and product information we and our customers have to offer.
+  purposes:
+    services:
+    - to communicate with you, for example, informing you about updates and product
+      information we and our customers have to offer
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - In some special cases, we also use cookies provided by trusted third parties.
+  - We also use web beacons to help deliver cookies and gather usage and performance
+    data.
+  purposes:
+    analytics:
+    - to help deliver cookies and gather usage and performance data
+    services:
+    - to help deliver cookies and gather usage and performance data
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We also use web beacons to help deliver cookies and gather usage and performance
+    data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This privacy statement explains what personal data webinar.net collects from you,
+    through our interactions with you and through our products, and how we use that
+    data.
+  - 'We will also share personal information with companies, organizations or individuals
+    outside of webinar.net if we have a good-faith belief that access, use, preservation
+    or disclosure of the information is reasonably necessary to:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We will also share personal information with companies, organizations or individuals
+    outside of webinar.net if we have a good-faith belief that access, use, preservation
+    or disclosure of the information is reasonably necessary to:'
+  purposes: {}
+- source: webinar.net
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - webinar.net collects data to operate effectively and provide you the best experiences.
+  purposes:
+    services:
+    - to operate effectively and provide you the best experiences
+- source: webinar.net
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - webinar.net uses cookies (small text files placed on your device) and similar
+    technologies to provide our websites and online services and to help collect data.
+  purposes:
+    analytics:
+    - to provide our websites and online services and to help collect data
+    services:
+    - to provide our websites and online services and to help collect data
+- source: webinar.net
+  target: data we collect
+  key: COLLECT
+  text:
+  - webinar.net uses the data we collect to operate our business and provide you with
+    use of the products and services we and our business partners offer.
+  purposes:
+    services:
+    - to operate our business and provide you with use of the products and services
+      we and our business partners offer
+- source: webinar.net
+  target: personal information
+  key: COLLECT
+  text:
+  - This privacy statement explains what personal data webinar.net collects from you,
+    through our interactions with you and through our products, and how we use that
+    data.
+  - webinar.net stores and processes personal data in secure third party applications
+    for day to day business operations.
+  purposes:
+    services:
+    - for day to day business operations
+- source: webinar.net
+  target: small text file place on device
+  key: COLLECT
+  text:
+  - webinar.net uses cookies (small text files placed on your device) and similar
+    technologies to provide our websites and online services and to help collect data.
+  purposes:
+    analytics:
+    - to provide our websites and online services and to help collect data
+    services:
+    - to provide our websites and online services and to help collect data
+- source: device information
+  target: hardware
+  key: SUBSUM
+  text:
+  - Device Information - such as your hardware, operating version, etc.
+- source: device information
+  target: operate version
+  key: SUBSUM
+  text:
+  - Device Information - such as your hardware, operating version, etc.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: webinar.net
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: data we collect
+- type: DATA
+  id: device information
+- type: DATA
+  id: hardware
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: operate version
+- type: DATA
+  id: personal information
+- type: DATA
+  id: small text file place on device

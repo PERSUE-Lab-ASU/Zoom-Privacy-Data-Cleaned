@@ -1,0 +1,189 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalized ads or
+    content, and analyze our traffic.'
+  - Web browser cookies Our Site may use "cookies" to enhance your experience.
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    analytics:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    services:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    - to enhance your experience
+    - to help you navigate efficiently and perform certain functions
+- source: we
+  target: information in aggregate
+  key: COLLECT
+  text:
+  - We may use information in the aggregate to understand how Users, as a group, engage
+    with the Site resources, in order to make informed changes to content and user
+    interface.
+  purposes:
+    analytics:
+    - to understand how Users, as a group, engage with the Site resources, in order
+      to make informed changes to content and user interface
+- source: we
+  target: information you share with we
+  key: COLLECT
+  text:
+  - This "Privacy Policy" is designed to help you understand how UpHealth Inc., its
+    affiliates, and its partners ("we" or "us") collect and process the information
+    that you share with us when you use this website ("Site").
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may collect non-personal identification information about you whenever you
+    interact with our Site.
+  purposes: {}
+- source: we
+  target: personal identification information
+  key: COLLECT
+  text:
+  - We collect personal identification information from you in a variety of ways,
+    including, but not limited to, when you fill out and submit a form on our Site,
+    and in connection with other activities, services, features, or resources we make
+    available on our Site.
+  - We will only collect personal identification information from you if you voluntarily
+    submit such information to us.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We collect and use your personal information for the following purposes: To get
+    in touch with you.'
+  purposes:
+    services:
+    - 'for the following purposes: To get in touch with you'
+- source: UNSPECIFIED_ACTOR
+  target: information you share with we
+  key: COLLECT
+  text:
+  - This "Privacy Policy" is designed to help you understand how UpHealth Inc., its
+    affiliates, and its partners ("we" or "us") collect and process the information
+    that you share with us when you use this website ("Site").
+  purposes: {}
+- source: we
+  target: uphealth inc.
+  key: SUBSUM
+  text:
+  - This "Privacy Policy" is designed to help you understand how UpHealth Inc., its
+    affiliates, and its partners ("we" or "us") collect and process the information
+    that you share with us when you use this website ("Site").
+- source: email address
+  target: company news
+  key: SUBSUM
+  text:
+  - If you decide to opt-in to our mailing list, you will receive emails that may
+    include company news, updates, related service information, etc.
+- source: email address
+  target: related service information
+  key: SUBSUM
+  text:
+  - If you decide to opt-in to our mailing list, you will receive emails that may
+    include company news, updates, related service information, etc.
+- source: email address
+  target: update
+  key: SUBSUM
+  text:
+  - If you decide to opt-in to our mailing list, you will receive emails that may
+    include company news, updates, related service information, etc.
+- source: metric
+  target: bounce rate
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: number of visitor
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: traffic source
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: non-personal information
+  target: type of computer
+  key: SUBSUM
+  text:
+  - Non-personal identification information may include the browser name, the type
+    of computer and technical information about your means of connection to our Site,
+    such as the operating system and the Internet service providers used, and other
+    similar information.
+- source: type of computer
+  target: browser name
+  key: SUBSUM
+  text:
+  - Non-personal identification information may include the browser name, the type
+    of computer and technical information about your means of connection to our Site,
+    such as the operating system and the Internet service providers used, and other
+    similar information.
+- source: type of computer
+  target: technical information
+  key: SUBSUM
+  text:
+  - Non-personal identification information may include the browser name, the type
+    of computer and technical information about your means of connection to our Site,
+    such as the operating system and the Internet service providers used, and other
+    similar information.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: uphealth inc.
+- type: ACTOR
+  id: we
+- type: DATA
+  id: bounce rate
+- type: DATA
+  id: browser name
+- type: DATA
+  id: company news
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information in aggregate
+- type: DATA
+  id: information you share with we
+- type: DATA
+  id: metric
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: number of visitor
+- type: DATA
+  id: personal identification information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: related service information
+- type: DATA
+  id: technical information
+- type: DATA
+  id: traffic source
+- type: DATA
+  id: type of computer
+- type: DATA
+  id: update

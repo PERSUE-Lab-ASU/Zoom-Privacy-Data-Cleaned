@@ -1,0 +1,650 @@
+<!DOCTYPE html><html data-wf-domain="webflow.spinach.ai" data-wf-page="652ec67b39ac9daf36c7d2a0" data-wf-site="6464e9face9085a673d70327" class=" w-mod-js w-mod-ix"><head><meta charset="utf-8"><title>View Our Privacy Policy | Spinach AI</title><meta content="View Spinach.io full Privacy Policy" name="description"><meta content="View Our Privacy Policy | Spinach AI" property="og:title"><meta content="View Spinach.io full Privacy Policy" property="og:description"><meta content="https://cdn.prod.website-files.com/6464e9face9085a673d70327/674fa38b638c559e6c1ceeb5_Website%20Open%20graph%20Thumbnail%20-%20Meeting%20Assistant.png" property="og:image"><meta content="View Our Privacy Policy | Spinach AI" property="twitter:title"><meta content="View Spinach.io full Privacy Policy" property="twitter:description"><meta content="https://cdn.prod.website-files.com/6464e9face9085a673d70327/674fa38b638c559e6c1ceeb5_Website%20Open%20graph%20Thumbnail%20-%20Meeting%20Assistant.png" property="twitter:image"><meta property="og:type" content="website"><meta content="summary_large_image" name="twitter:card"><meta content="width=device-width, initial-scale=1" name="viewport"><!-- Please keep this css code to improve the font quality-->
+
+
+
+
+
+
+<!-- Environment Setup -->
+<!-- <script>
+  const currentUrl = window.location.href;
+  console.log('current url', currentUrl);
+  console.log('WINDOW LOCATION', window.location);
+  
+  var STAGE_MAP = {
+    Local: 'local',
+    Test: 'test',
+    Production: 'production',
+    Staging: 'staging'
+  };
+  
+  var ENVIRONMENT_CONFIG = {
+    ZAS_URL: {
+        [STAGE_MAP.Test]: 'https://auth.test.spinach.io',
+        [STAGE_MAP.Production]: 'https://zoom.auth.prod.spinach.io',
+    },
+    COOKIE_DOMAIN:  {
+        [STAGE_MAP.Test]: 'spinach-io-mb.webflow.io',
+        [STAGE_MAP.Production]: '.spinach.ai',
+    },
+    STAGE: {
+      [STAGE_MAP.Test]: STAGE_MAP.Test,
+      [STAGE_MAP.Production]: STAGE_MAP.Production
+    },
+    GOOGLE_OAUTH_URL: {
+      [STAGE_MAP.Test]: "https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&access_type=offline&prompt=consent&include_granted_scopes=true&response_type=code&redirect_uri=https%3A%2F%2Finternal.app.spinach.io%2Fverify-google-code&&client_id=996701566391-b1femim0q46l3sg2jenel6vjivdrdt8b.apps.googleusercontent.com&service=lso&o2v=2&flowName=GeneralOAuthFlow",
+      [STAGE_MAP.Production]: "https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile&access_type=offline&prompt=consent&include_granted_scopes=true&response_type=code&redirect_uri=https%3A%2F%2Fapp.spinach.io%2Fverify-google-code&client_id=202138718499-q8pt5phngv0bc8d9slk206lai2ucmtck.apps.googleusercontent.com&state=P3NvdXJjZT1haS1vbmJvYXJkaW5nJnV0bV9jYW1wYWlnbj1nb29nbGUtY2FsZW5kYXItY29ubmVjdA&service=lso&o2v=2&flowName=GeneralOAuthFlow"
+    },
+    MICROSOFT_OAUTH_URL: {
+      [STAGE_MAP.Test]: "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=1034f2a2-a8c7-42c7-80ac-b5e7d106cc7a&scope=https%3A%2F%2Fgraph.microsoft.com%2FCalendars.ReadWrite%20openid%20profile%20offline_access%20email&redirect_uri=https%3A%2F%2Finternal.app.spinach.io%2Fverify-microsoft-code&response_mode=query&response_type=code&state=dXRtX3NvdXJjZT1taWNyb3NmdC1zaWduLWluLWZyb20tY29tcGFueS13ZWJzaXRl",
+      [STAGE_MAP.Production]: "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=1d98ced9-052b-4418-9d31-8202fb8fb528&scope=https%3A%2F%2Fgraph.microsoft.com%2FCalendars.ReadWrite%20openid%20profile%20offline_access%20email&redirect_uri=https%3A%2F%2Fapp.spinach.io%2Fverify-microsoft-code&response_mode=query&response_type=code&state=dXRtX3NvdXJjZT1taWNyb3NmdC1zaWduLWluLWZyb20tY29tcGFueS13ZWJzaXRl"
+    }
+  }
+  
+  var STAGE = currentUrl.startsWith('https://spinach-io-mb') ? STAGE_MAP.Test : STAGE_MAP.Production;
+  
+  var getConfigValue = (key) => {
+    const stage = STAGE;
+
+    const value = ENVIRONMENT_CONFIG[key];
+    const finalValue = typeof value !== 'string' ? value[stage] : value;
+
+    return finalValue;
+  };
+  
+</script> -->
+<!-- End Environment Setup -->
+
+<!-- Shared Code Setup -->
+<!-- <script>
+var addDataToState = (href, stateKey, stateValue) => {
+   const url = new URL(href);
+   const existingState = url.searchParams.get('state');
+   let parsedState = existingState ? new URLSearchParams(atob(existingState)) : new URLSearchParams();
+   parsedState.set('stateKey', stateValue);
+   const newState = btoa(parsedState.toString());
+   url.searchParams.set('state', newState);
+   return url.toString();
+}
+
+var GOOGLE_LOGIN_BUTTON_ID = "google-login-button";
+var MICROSOFT_LOGIN_BUTTON_ID = "microsoft-login-button";
+var ALTERNATIVE_GOOGLE_LOGIN_BUTTON_ID = "google-login-button_temp";
+var ALTERNATIVE_MICROSOFT_LOGIN_BUTTON_ID = "microsoft-login-button_temp";
+
+var BUTTON_HREF_MAP = {
+  [GOOGLE_LOGIN_BUTTON_ID]: getConfigValue('GOOGLE_OAUTH_URL'),
+  [MICROSOFT_LOGIN_BUTTON_ID]: getConfigValue('MICROSOFT_OAUTH_URL'),
+  [ALTERNATIVE_GOOGLE_LOGIN_BUTTON_ID]: getConfigValue('GOOGLE_OAUTH_URL'),
+  [ALTERNATIVE_MICROSOFT_LOGIN_BUTTON_ID]: getConfigValue('MICROSOFT_OAUTH_URL'),
+}
+
+var addNewStateToButtonIdState = (elementId, stateKey, newStateValue) => {
+   const buttonElements = document.querySelectorAll(`[id=${elementId}]`);
+   if(!buttonElements.length) {
+     console.log('no button element');
+     return;
+   }
+
+   for (const buttonElement of buttonElements) {
+     let buttonHref = buttonElement.getAttribute('href');
+     if(!buttonHref) {
+       console.log("no button href");
+       buttonHref = BUTTON_HREF_MAP[elementId];
+     }
+   
+     const redirectUrlWithState = addNewValueToState(buttonHref, stateKey, newStateValue);
+  
+     buttonElement.setAttribute('href', redirectUrlWithState);
+   }
+}
+
+var getCookie = (subName) => {
+  let name = `${subName}=`
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i <ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+ 
+var setCookie = (name, value, days) => {
+    const expires = new Date();
+    expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/;domain=${getConfigValue('COOKIE_DOMAIN')}`;
+}
+
+var addNewValueToState = (href, key, stateValue) => {
+    const url = new URL(href);
+    const existingState = url.searchParams.get('state');
+    const parsedState = existingState ? new URLSearchParams(atob(existingState)) : new URLSearchParams();
+    parsedState.set(key, stateValue);
+    const newState = btoa(parsedState.toString());
+    url.searchParams.set('state', newState);
+    return url.toString();
+}
+
+var SpinachAPIPath = {
+  ExperienceEvent: '/experience-event',
+  AnonymousFeatureToggle: '/anonymous-feature-toggle',
+  CookieSync: '/cookies',
+};
+  
+var FeatureToggle = {
+  AnonymousIdFlowExperimentConfiguration: 'anonymous-id-flow-experiment-configuration',
+  CompanySiteExperimentConfiguration: 'company-site-experiment-configuration'
+}
+
+  
+var COOKIE_NAME_MAP = {
+  UTM_COOKIE_NAME: 'spinachSource',
+  ANONYMOUS_UUID_COOKIE_NAME: 'anonymousUserId',
+  CELLO_REFERRER_COOKIE_NAME: 'cello-referral',
+  CELLO_UCC_QUERY_PARAM_NAME: 'ucc',
+  SPINACH_REFERRER_COOKIE_NAME: 'referrer',
+}
+
+var UTM_COOKIE_NAME = COOKIE_NAME_MAP.UTM_COOKIE_NAME;
+var ANONYMOUS_UUID_COOKIE_NAME = COOKIE_NAME_MAP.ANONYMOUS_UUID_COOKIE_NAME;
+var CELLO_REFERRER_COOKIE_NAME = COOKIE_NAME_MAP.CELLO_REFERRER_COOKIE_NAME;
+var CELLO_UCC_QUERY_PARAM_NAME = COOKIE_NAME_MAP.CELLO_UCC_QUERY_PARAM_NAME;
+var SPINACH_REFERRER_COOKIE_NAME = COOKIE_NAME_MAP.SPINACH_REFERRER_COOKIE_NAME;
+
+  
+var GOOGLE_AUTH_URL = getConfigValue('GOOGLE_OAUTH_URL');
+  
+let uuid = getCookie(ANONYMOUS_UUID_COOKIE_NAME);
+if(!uuid) {
+  uuid = crypto.randomUUID();
+  setCookie(ANONYMOUS_UUID_COOKIE_NAME, uuid, 30);
+}
+var anonymousUserId = uuid;
+  
+</script> -->
+<!-- End Shared Code Setup -->
+
+<!-- UTM Tracking for Web App -->
+<!-- <script>
+var getUTMParams = () => {
+    const utmParams = {};
+    const queryParams = new URLSearchParams(window.location.search);
+    queryParams.forEach((value, key) => {
+        if (key.startsWith('utm_')) {
+            utmParams[key] = value;
+        }
+    });
+    return utmParams;
+}
+  
+var mergeUtmParams = (queryUtmParams, cookieUtmParams) => {
+  const mergedUtmParams = { ...cookieUtmParams };
+  Object.entries(queryUtmParams).map(([key, value]) => {
+    if(cookieUtmParams[key]) {
+      mergedUtmParams[key] = cookieUtmParams[key];
+      return;
+    }
+    mergedUtmParams[key] = value;
+    return;
+  })
+  return mergedUtmParams;
+}
+  
+const utmParams = getUTMParams();
+const cookieUtmParams = getCookie(UTM_COOKIE_NAME);
+let cookieUtmObject = {};
+if(cookieUtmParams) {
+  try {
+    cookieUtmObject = JSON.parse(cookieUtmParams);
+  } catch(e) {
+  }
+}
+  
+const mergedUtmParams = mergeUtmParams(utmParams, cookieUtmObject);
+var MERGED_UTM_PARAMS = mergedUtmParams;
+var utmSource = MERGED_UTM_PARAMS['utm_source'];
+var utmMedium = MERGED_UTM_PARAMS['utm_medium'];
+var utmCampaign = MERGED_UTM_PARAMS['utm_campaign'];
+var utmContent = MERGED_UTM_PARAMS['utm_content'];
+var utmTerm = MERGED_UTM_PARAMS['utm_term'];
+
+setCookie(UTM_COOKIE_NAME, JSON.stringify(mergedUtmParams), 30);
+var googleTagManagerDomReady = true;
+</script> -->
+<!-- End UTM Tracking for Web App -->
+
+<!-- Start Shared Google Analytics Code -->
+<!-- <script>
+/** @NOTE - using the STAGE in the event name itself as it's easier for the users of GA to use, rather than metadata */
+function getStageSuffix() {
+    /** @NOTE - event names can only be so long, ensuring production is prod */
+    const suffix = getConfigValue('STAGE').substring(0, 4);
+    return `_${suffix}`;
+}
+  
+function track(eventName, metadata) {
+   window.dataLayer.push({
+      event: eventName,
+      ...metadata
+   });
+}
+  
+var trackMicrosoftSigninButtonClick = () => {
+   track(`sign_up_with_microsoft_company_site${getStageSuffix()}`, {
+     UserId: anonymousUserId,
+     Origin: window.location.origin,
+     Pathname: window.location.pathname,
+     ...Object.keys(utmParams).reduce((acc, curr) => {
+          acc[curr.charAt(0).toUpperCase() + curr.slice(1)] = utmParams[curr];
+          return acc; 
+      }, {})
+    });
+}
+
+  
+var trackGoogleSigninButtonClick = () => {
+  track(`sign_up_with_google_company_site${getStageSuffix()}`, {
+    UserId: anonymousUserId,
+    Origin: window.location.origin,
+    Pathname: window.location.pathname,
+    ...Object.keys(utmParams).reduce((acc, curr) => {
+           acc[curr.charAt(0).toUpperCase() + curr.slice(1)] = utmParams[curr];
+           return acc; 
+        }, {})
+  });
+}
+  
+var trackUtmRedirectEvent = (metadata) => {
+    track(`utm_event${getStageSuffix()}`, metadata);
+}
+    
+</script> -->
+<!-- End Shared Google Analytics Code -->
+
+<!-- Shared Mixpanel Analytics Code-->
+<!-- <script>
+  function fireMixpanelAnalytic(eventName, payload) {
+      const xhr = new XMLHttpRequest();
+      const body = {
+        eventType: eventName,
+        payload: { ...payload, IsSuspectedBot: !!navigator.webdriver }
+      }
+      xhr.open("POST", `${getConfigValue('ZAS_URL')}${SpinachAPIPath.ExperienceEvent}`, false)
+      xhr.setRequestHeader("Content-Type", "application/json");
+      xhr.send(JSON.stringify(body));
+      return xhr.responseText;
+  }
+</script> -->
+<!-- End Shared Mixpanel Analytics Code-->
+
+<!-- Start Referrer cookie -->
+<!-- <script>
+  function setSpinachReferrerCookie(cookieValue) {
+    const existingCookie = getCookie(SPINACH_REFERRER_COOKIE_NAME);
+    if(existingCookie) {
+      return;
+    }
+
+    setCookie(SPINACH_REFERRER_COOKIE_NAME, cookieValue, 1);
+  }
+  
+</script> -->
+<!-- End Referrer cookie -->
+
+<!-- Launch Darkly Feature Flags XHR-->
+<!-- <script>
+  function trackABTest(cohort, isDefaultCohort, newPath) {
+     if(!cohort) {
+       setSpinachReferrerCookie(window.location.pathname);
+       return;
+     }
+     if(!newPath && !isDefaultCohort) {
+       setSpinachReferrerCookie(window.location.pathname);
+       return;
+     }
+     if(isDefaultCohort && window.location.pathname !== newPath) {
+       setSpinachReferrerCookie(window.location.pathname);
+       return;
+     }
+     
+     const payload = {
+          UserId: anonymousUserId,
+          Origin: window.location.origin,
+          Pathname: window.location.pathname,
+          NewPathname: newPath,
+          Cohort: cohort,
+          ...Object.keys(utmParams).reduce((acc, curr) => {
+              acc[curr.charAt(0).toUpperCase() + curr.slice(1)] = utmParams[curr];
+              return acc; 
+          }, {})
+      };
+
+      setSpinachReferrerCookie(cohort);
+       
+       fireMixpanelAnalytic('ABLandingPageEvent', payload);
+       return;
+  }
+  
+  function fetchLaunchDarklyFlags(anonUUID) {
+      const payload = {
+             key: FeatureToggle.CompanySiteExperimentConfiguration,
+             anonUUID
+      };
+      const xhr = new XMLHttpRequest();
+      xhr.open("POST", `${getConfigValue('ZAS_URL')}${SpinachAPIPath.AnonymousFeatureToggle}`, false);
+      xhr.setRequestHeader("Content-Type", "application/json");
+      xhr.send(JSON.stringify(payload));
+      const responseText = xhr.responseText;
+      try {
+      
+        if(responseText) {
+          const responseJSON = JSON.parse(responseText);
+          const value = responseJSON.value;
+          const pathname = window.location.pathname;
+          const cohort = value && value.cohort ? value.cohort : undefined;
+          const isDefaultCohort = value && value.isDefault ? value.isDefault : false;
+          const newPath = value && value.siteMapping && value.siteMapping[pathname] ? value.siteMapping[pathname] : undefined
+          trackABTest(cohort, isDefaultCohort,  newPath);
+          
+          if(newPath) {
+            if(newPath === window.location.pathname) {
+              return;
+            }
+            window.location.pathname = newPath;
+          }
+        }
+      } catch(e) {
+        console.log('CAUGHT AN ERROR', e);
+      }
+ };
+        
+fetchLaunchDarklyFlags(anonymousUserId); -->
+
+<!-- End Launch Darkly Feature Flag XHR -->
+
+
+<!-- Google Optimize -->
+
+
+<!-- Google Tag Manager -->
+
+<!-- End Google Tag Manager -->
+
+
+<!-- Random Scribe Email setting -->
+<!-- <script>
+      var emails = [       
+        "go@spinach.io",
+        "join@spinach.io",
+    ];
+
+    function getRandomEmail() {
+      var randomIndex = Math.floor(Math.random() * emails.length);
+      return emails[randomIndex];
+    }
+
+    var SCRIBE_EMAIL_FOR_DISPLAY = getRandomEmail();
+</script> -->
+<!-- End Random Scribe Email setting -->
+
+
+<!-- Start VWO Async SmartCode -->
+
+
+<!-- End VWO Async SmartCode -->
+
+<!-- Microsoftr fullstory -->
+
+
+<!-- Keak A/B testing tracker -->
+
+
+<!--Tooltip Styling-->
+</head><body><div class="page-wrapper"><div class="global-styles w-embed"></div><div data-animation="default" class="component_nav-novideo w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="30739ff5-8e34-8115-be44-f8646e45307c" role="banner" data-duration="400"><div class="navbar5_container"><a href="/" class="navbar5_logo-link w-nav-brand" aria-label="home"><img sizes="(max-width: 479px) 72vw, (max-width: 1439px) 144px, 10vw" srcset="https://cdn.prod.website-files.com/6464e9face9085a673d70327/66b156ca620573952ac9d2ad_Spinach_AI-analog-light-p-500.png 500w, https://cdn.prod.website-files.com/6464e9face9085a673d70327/66b156ca620573952ac9d2ad_Spinach_AI-analog-light-p-800.png 800w, https://cdn.prod.website-files.com/6464e9face9085a673d70327/66b156ca620573952ac9d2ad_Spinach_AI-analog-light.png 877w" src="https://cdn.prod.website-files.com/6464e9face9085a673d70327/66b156ca620573952ac9d2ad_Spinach_AI-analog-light.png" loading="lazy" alt="" class="navbar5_logo"></a><div class="navbar5_menu-button w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false"><div class="menu-icon"><div class="menu-icon_line-top"></div><div class="menu-icon_line-middle"><div class="menu-icon_line-middle-inner"></div></div><div class="menu-icon_line-bottom"></div></div></div></div><div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div></div><main class="main-wrapper"><section class="section_legal1-content"><div class="padding-global"><div class="container-small"><div><div class="legal1-content_component"><div class="text-rich-text w-richtext"><p><strong>Last Updated November 1, 2024<br></strong></p><p>StayIn, Inc. (“<strong>Spinach</strong>,” “<strong>we</strong>,” “<strong>us</strong>,” or “<strong>our</strong>”) has prepared this Privacy Policy to explain (1) what personal information we collect, (2) how we use and share that information, and (3) your choices concerning our privacy and information practices.&nbsp;&nbsp;</p><p><strong>Applicability of this Privacy Policy</strong></p><p>We provide an AI-powered collaboration and productivity tools, software and other related technology (the “<strong>Services</strong>”).&nbsp; This Privacy Policy applies to personal information that we collect in connection with the Services, our website(s), including <a href="https://spinach.ai/">https://spinach.ai/</a>, <a href="https://hypercontext.com/">https://hypercontext.com/</a> and products and/or services that link to this Privacy Policy.&nbsp;&nbsp;</p><p>If you are a customer of Spinach, this Privacy Policy does not apply to personal information that we process on your behalf (if any) as your service provider.&nbsp; Such personal information shall instead be governed by the terms and conditions of the separate customer agreement or terms of service that you have agreed to with Spinach.&nbsp; In addition, our Services are designed for businesses and are not intended for personal, family, or household use. Accordingly, we treat all personal information covered by this Privacy Policy as pertaining to individuals acting as business representatives, rather than in their personal capacity.&nbsp;&nbsp;</p><p><strong>Personal information we collect</strong></p><p><strong>Information you provide to us:</strong></p><ul role="list"><li><strong>Business Contact Information: </strong>If you are a representative of one of our actual or prospective customers, suppliers or business partners, we may collect personal information about you (such as your name, contact details and role) when entering into an agreement with your company and during the course of our relationship with your company.&nbsp;&nbsp;</li><li><strong>Account information, </strong>such as your name, email address, and other similar information when you register an account with us.</li><li><strong>Transaction information, </strong>such as your credit card or other payment information and authentication details when you purchase a subscription for the Services.&nbsp; We do not directly process your credit card information and instead rely on Stripe as our payment processor.</li><li><strong>Feedback or correspondence,</strong> such as information you provide when you contact us with questions, feedback, reviews, or otherwise correspond with us online.</li><li><strong>Usage information,</strong> such as information about how you use the Services and interact with us.</li><li><strong>Marketing information,</strong> such as your preferences for receiving communications about our activities, services, and publications, and details about how you engage with our communications.</li><li><strong>Other information</strong> that we may collect which is not specifically listed here, but which we will use in accordance with this Privacy Policy or as otherwise disclosed at the time of collection.</li></ul><p><strong>Information received from our users.&nbsp; </strong>We may receive your personal information if another user or customer adds you to meeting or otherwise provides us with your personal information through the service.&nbsp; In such an instance, we may use your personal information to contact you on behalf of the user who provided us with your personal information (such as to send you a reminder about the meeting) or as otherwise described in this Privacy Policy, to the extent permitted under applicable laws and regulations.&nbsp;&nbsp;</p><p><strong>Information we obtain from third parties. </strong>We may maintain pages on social media platforms, such as Facebook, Twitter, Instagram, and other third-party platforms. When you visit or interact with our pages on those platforms, the platform provider’s privacy policy will apply to your interactions and their collection, use and processing of your personal information.&nbsp; You or the platforms may provide us with information through the platform, and we will treat such information in accordance with this Privacy Policy. We may obtain your personal information from other third parties, such as marketing partners, publicly-available sources and data providers.</p><p><strong>Automatic data collection.</strong> We and our service providers may automatically log information about you, your computer or mobile device, and your interaction over time with our Services, our communications and other online services, such as:</p><ul role="list"><li><strong>Device data, </strong>such as your computer’s or mobile device’s operating system type and version, manufacturer and model, browser type, screen resolution, RAM and disk size, CPU usage, device type (e.g., phone, tablet), IP address, unique identifiers (including identifiers used for advertising purposes), language settings, mobile device carrier, radio/network information (e.g., WiFi, LTE, 4G), and general location information such as city, state or geographic area.</li><li><strong>Online activity data, </strong>such as pages or screens you viewed, how long you spent on a page or screen, browsing history, navigation paths between pages or screens, information about your activity on a page or screen, access times, and duration of access, and whether you have opened our marketing emails or clicked links within them.</li><li><strong>Email Open/Click Information.</strong> We may use pixels in our email campaigns that allow us to collect your email and IP address as well as the date and time you open an email or click on any links in the email that we may send to you.</li></ul><p><strong>We use the following tools for automatic data collection:</strong></p><ul role="list"><li><strong>Cookies</strong>, which are text files that websites store on a visitor’s device to uniquely identify the visitor’s browser or to store information or settings in the browser for the purpose of helping you navigate between pages efficiently, remembering your preferences, enabling functionality, helping us understand user activity and patterns, and facilitating online advertising.</li><li><strong>Local storage technologies</strong>, like HTML5, that provide cookie-equivalent functionality but can store larger amounts of data, including on your device outside of your browser in connection with specific applications.</li><li><strong>Web beacons, also known as pixel tags or clear GIFs, which are used to demonstrate that a webpage or email was accessed or opened, or that certain content was viewed or clicked.</strong></li></ul><p><strong>How we use your personal information</strong></p><p><strong>To operate our Services:</strong></p><ul role="list"><li>Provide, operate, maintain, secure and improve our Services.</li><li>Provide information about our Services.</li><li>Communicate with you about our Services, including by sending you announcements, updates, security alerts, and support and administrative messages.</li><li>Respond to your requests, questions and feedback.</li></ul><p><strong>Marketing and advertising.</strong> We may from time-to-time send you direct marketing communications as permitted by law, including, but not limited to, notifying you of special promotions, offers and events via email and in-app notifications. You may opt out of our marketing communications as described in the “<strong>Opt out of marketing communications</strong>” section below.</p><p><strong>For research and development. </strong>We may use your personal information for research and development purposes, including to analyze and improve our Services and our business. As part of these activities, we may create aggregated, de-identified, or other anonymous data from personal information we collect. We make personal information into anonymous data by removing information that makes the data personally identifiable to you. We may use this anonymous data and share it with third parties for our lawful business purposes, including to analyze and improve our Services and promote our business.</p><p><strong>Compliance and protection. </strong>We may use personal information to:</p><ul role="list"><li>Comply with applicable laws, lawful requests, and legal process, such as to respond to subpoenas or requests from government authorities.</li><li>Protect our, your or others’ rights, privacy, safety or property (including by making and defending legal claims).</li><li>Audit our internal processes for compliance with legal and contractual requirements and internal policies.</li><li>Enforce the terms and conditions that govern our Services.</li><li>Prevent, identify, investigate and deter fraudulent, harmful, unauthorized, unethical or illegal activity, including cyberattacks and identity theft.</li></ul><p><strong>Job Applicants</strong></p><p>When you visit the careers portion of our website, we collect personal information that you provide to us in connection with your job application. This includes business and personal contact information, professional credentials and skills, educational and work history, and other information of the type that may be included in a resume. This may also include diversity information that you voluntarily provide. We use this information to facilitate our recruitment activities and process employment applications, such as by evaluating a job candidate for an employment activity, and monitoring recruitment statistics. We may also use and share this information to provide improved administration of the website, and as otherwise necessary: (a) to comply with relevant laws or to respond to subpoenas or warrants served on us; (b) to protect and defend the rights or property of us or others; or (c) in connection with a legal investigation.</p><p><strong>How we share your personal information</strong></p><p><strong>Service providers.</strong> We may share your personal information with third party companies and individuals that provide services on our behalf or help us operate our Services (such as lawyers, bankers, auditors, insurers, and providers that assist with hosting, AI processing, analytics, email delivery, marketing, and database management).</p><p><strong>Authorities and others. </strong>We may disclose your personal information to law enforcement, government authorities, and private parties, as we believe in good faith to be necessary or appropriate for the compliance and protection purposes described above.</p><p><strong>Business transfers.</strong> We may sell, transfer or otherwise share some or all of our business or assets, including your personal information, in connection with a business transaction (or potential business transaction) such as a corporate divestiture, merger, consolidation, acquisition, reorganization or sale of assets, or in the event of bankruptcy or dissolution. In such a case, we will make reasonable efforts to require the recipient to honor this Privacy Policy.</p><p><strong>Affiliates:<em> </em></strong>We may share personal information with our current and future affiliates, meaning an entity that controls, is controlled by, or is under common control with us. Our affiliates may use the personal information we share in a manner consistent with this Privacy Policy.</p><p><strong>Cross-border processing of your personal information</strong></p><p>We are headquartered in the United States. To provide and operate our services, it is necessary for us to process your personal information in the United States.&nbsp; If we transfer personal information across borders such that we are required to apply appropriate safeguards to personal information under applicable data protection laws, we will do so. Please contact us for further information about any such transfers or the specific safeguards applied.</p><p><strong>Your choices</strong></p><p>In this section, we describe the rights and choices available to all users.</p><p><strong>Personal information requests</strong>:<em> </em>In certain circumstances (including based on where you are located), you may have the following rights in relation to your personal information:</p><ul role="list"><li>the right to learn more about what personal information of yours is being processed, how and why such information is processed and the third parties who have access to such personal information. We have made this information available to you without having to request it by including it in this Privacy Policy;</li><li>the right to access your personal information;</li><li>the right to rectify/correct your personal information;</li><li>the right to restrict the use of your personal information where permitted under applicable law;&nbsp;</li><li>the right to request that your personal information is erased/deleted where permitted under applicable law;&nbsp;</li><li>the right to data portability (i.e. receive your personal information or have it transferred to another controller in a structured, commonly-used, machine readable format) where permitted under applicable law; and</li><li>the right to object to processing of your personal information or to direct us not to share your personal information with a non-affiliated third party where permitted under applicable law.</li></ul><p>To make a request, please email us as provided in the “<strong>How to Contact Us</strong>” section below. We may ask for specific information from you to help us confirm your identity. We will require authorized agents to confirm their identity and authority, in accordance with applicable laws. You are entitled to exercise the rights described above free from discrimination.</p><p>Please note that in some circumstances, we may not be able to fully comply with your request, for example if we are required to retain certain information about you to comply with applicable laws and regulations or if the information is necessary in order for us to provide the services you requested. In particular, we, and our collection and processing of your personal information, may be governed by laws and regulations on anti-money laundering, fraud prevention, taxation and financial services. We will not discriminate against you for exercising your rights. We will not deny you access to our services, or provide you a lower quality of services if you exercise your rights.</p><p><strong>Opt out of marketing communications. </strong>You may opt out of email communications by following the opt-out or unsubscribe instructions at the bottom of the email. &nbsp;</p><p><strong>Online tracking opt-out.</strong> There are a number of ways to opt out of having your online activity and device data collected through our Services, which we have summarized below:<sup>&nbsp;</sup></p><ul role="list"><li><strong>Blocking cookies in your browser.</strong> Most browsers let you remove or reject cookies. To do this, follow the instructions in your browser settings. Many browsers accept cookies by default until you change your settings. For more information about cookies, including how to see what cookies have been set on your device and how to manage and delete them, visit <a href="https://www.tablethotels.com/en/www.allaboutcookies.org">www.allaboutcookies.org</a>.</li><li><strong>Using privacy plug-ins or browsers.</strong> You can block our Services from setting cookies used for interest-based ads by using a browser with privacy features or installing browser plugins like <a href="https://www.eff.org/privacybadger">Privacy Badger</a>, DuckDuckGo, <a href="https://www.ghostery.com/">Ghostery</a> or <a href="https://ublock.org/">uBlock Origin</a>, and configuring them to block third party cookies/trackers.</li><li><strong>Google Analytics. </strong>We use Google Analytics to help us better understand how people engage with the Services by collecting information and creating reports about how users use our Services. For more information on Google Analytics, click <a href="https://marketingplatform.google.com/about/analytics/">here</a>. For more information about Google’s privacy practices, click <a href="https://www.google.com/policies/privacy/partners/">here</a>. You can opt out of Google Analytics by downloading and installing the browser plug-in available at: <a href="https://tools.google.com/dlpage/gaoptout">https://tools.google.com/dlpage/gaoptout</a>.<strong>&nbsp;</strong></li></ul><p>Note that because these opt-out mechanisms are specific to the device or browser on which they are exercised, you will need to opt-out on every browser and device that you use.</p><p><strong>Do Not Track. </strong>Some Internet browsers may be configured to send “Do Not Track” signals to the online services that you visit. We currently do not respond to “Do Not Track” or similar signals. To find out more about “Do Not Track,” please visit <a href="http://www.allaboutdnt.com/">http://www.allaboutdnt.com</a>.</p><p><strong>Data Retention</strong></p><p>We may retain your personal information for as long as it is reasonably needed in order to maintain and expand our relationship and provide you with our services; in order to comply with our legal and contractual obligations; or to protect ourselves from any potential disputes.&nbsp; To determine the appropriate retention period for personal information, we consider the amount, nature, and sensitivity of such information, the potential risk of harm from unauthorized use or disclosure of such information, the purposes for which we process it, and the applicable legal requirements.&nbsp;&nbsp;</p><p>As a product user, we archive meetings recorded through the Services after one (1) year from creation, and we retain other personal information associated with your account as long as you have an active account with us, in each case, unless you have requested deletion of your data in accordance with this Privacy Policy or as otherwise specified in your user agreement with us.</p><p><strong>Other sites, mobile applications and services</strong></p><p>Our Services may contain links to other websites, mobile applications, and other online services operated by third parties. These links are not an endorsement of, or representation that we are affiliated with, any third party. In addition, our content may be included on web pages or in mobile applications or online services that are not associated with us. We do not control third party websites, mobile applications or online services, and we are not responsible for their actions. Other websites and services follow different rules regarding the collection, use and sharing of your personal information. We encourage you to read the privacy policies of the other websites and mobile applications and online services you use.</p><p><strong>Security practices</strong></p><p>We use reasonable organizational, technical and administrative measures designed to protect against unauthorized access, misuse, loss, disclosure, alteration and destruction of personal information we maintain. Unfortunately, data transmission over the Internet cannot be guaranteed as completely secure. Therefore, while we strive to protect your personal information, we cannot guarantee the security of personal information. In the event that we are required to notify you about a situation involving your data, we may do so by email or telephone to the extent permitted by law.</p><p><strong>Children </strong></p><p>Our Services are not intended for children, and we do not collect personal information from them. We define “children” as anyone under 18 years old. If we learn we have collected or received personal information from a child without verification of parental consent, we will delete the information. If you believe we might have any information from or about a child, please contact us at support@spinach.io.</p><p><strong>Changes to this Privacy Policy</strong></p><p>We reserve the right to modify this Privacy Policy at any time. If we make material changes to this Privacy Policy, we will notify you by updating the date of this Privacy Policy and posting it on our Services. We may also provide notification of changes in another way that we believe is reasonably likely to reach you, such as via e-mail (if you have an account where we have your contact information) or another manner through our Services.</p><p>Any modifications to this Privacy Policy will be effective upon our posting the new terms and/or upon implementation of the new changes on our Services (or as otherwise indicated at the time of posting). In all cases, your continued use of the Services after the posting of any modified Privacy Policy indicates your acceptance of the terms of the modified Privacy Policy.</p><p><strong>How to contact us</strong></p><p>If you have any questions or concerns, you can reach us by email at <a href="mailto:support@spinach.io">support@spinach.io</a>.</p><h1>‍</h1><p>‍</p></div></div></div></div></div></section></main></div>
+
+<!-- Auth Button Setup -->
+<!-- <script>
+  const googleButtons = [...document.querySelectorAll(`[id=${GOOGLE_LOGIN_BUTTON_ID}]`), ...document.querySelectorAll(`[id=${ALTERNATIVE_GOOGLE_LOGIN_BUTTON_ID}]`)];
+  const microsoftButtons = [...document.querySelectorAll(`[id=${MICROSOFT_LOGIN_BUTTON_ID}]`), ...document.querySelectorAll(`[id=${ALTERNATIVE_MICROSOFT_LOGIN_BUTTON_ID}]`)];
+  
+  for (const googleButton of googleButtons) {
+    googleButton.href = BUTTON_HREF_MAP[googleButton.id];
+  }
+  for (const microsoftButton of microsoftButtons) {
+    microsoftButton.href = BUTTON_HREF_MAP[microsoftButton.id];
+  }
+   
+  </script> -->
+  <!-- End Auth Button Setup -->
+  
+  <!-- Cello attribution library -->
+  
+  <!-- End Cello attribution library -->
+  
+  <!-- UTM Recirect Tracking -->
+  <!-- <script type="module">
+    async function fireUtmEvent(utmParams) {
+      const payload = {
+        UserId: anonymousUserId,
+        Origin: window.location.origin,
+        Pathname: window.location.pathname,
+        ...Object.keys(utmParams).reduce((acc, curr) => {
+          acc[curr.charAt(0).toUpperCase() + curr.slice(1)] = utmParams[curr];
+          return acc; 
+        }, {})
+      };
+      fireMixpanelAnalytic('UTMEvent', payload);
+    
+      trackUtmRedirectEvent(payload);
+      return true;
+    };
+    const utmQueryParams = getUTMParams();
+    
+    if(utmQueryParams && Object.keys(utmQueryParams).length) {
+      fireUtmEvent(utmQueryParams);
+    }
+  </script> -->
+  <!-- End UTM Redirect Tracking -->
+  
+  <!-- <script>
+for (const key of Object.values(COOKIE_NAME_MAP)) {
+    const cookieValue = getCookie(key);
+    if(cookieValue) {
+      addNewStateToButtonIdState(GOOGLE_LOGIN_BUTTON_ID, key, cookieValue);
+      addNewStateToButtonIdState(ALTERNATIVE_GOOGLE_LOGIN_BUTTON_ID, key, cookieValue);
+
+      addNewStateToButtonIdState(MICROSOFT_LOGIN_BUTTON_ID, key, cookieValue);
+      addNewStateToButtonIdState(ALTERNATIVE_MICROSOFT_LOGIN_BUTTON_ID, key, cookieValue);
+    }
+  }
+  addNewStateToButtonIdState(GOOGLE_LOGIN_BUTTON_ID, 'anonUUID', anonymousUserId);
+  addNewStateToButtonIdState(ALTERNATIVE_GOOGLE_LOGIN_BUTTON_ID, 'anonUUID', anonymousUserId);
+
+  addNewStateToButtonIdState(MICROSOFT_LOGIN_BUTTON_ID, 'anonUUID', anonymousUserId);
+  addNewStateToButtonIdState(ALTERNATIVE_MICROSOFT_LOGIN_BUTTON_ID, 'anonUUID', anonymousUserId);
+    // The anonUID value is what's actually used on the app side
+  addNewStateToButtonIdState(GOOGLE_LOGIN_BUTTON_ID, 'anonUID', anonymousUserId);
+  addNewStateToButtonIdState(ALTERNATIVE_GOOGLE_LOGIN_BUTTON_ID, 'anonUID', anonymousUserId);
+
+  addNewStateToButtonIdState(MICROSOFT_LOGIN_BUTTON_ID, 'anonUID', anonymousUserId);
+  addNewStateToButtonIdState(ALTERNATIVE_MICROSOFT_LOGIN_BUTTON_ID, 'anonUID', anonymousUserId);
+  </script> -->
+  
+  <!-- Start UTM Stateful Auth -->
+  <!-- <script>
+  const UTM_TRACKING_KEYS = ['utm_id', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+  
+  function getUtmTrackingFromQueryParams() {
+      const queryParams = new URLSearchParams(window.location.search);
+      const utmQueryParams = UTM_TRACKING_KEYS.reduce((acc, curr) => {
+          if (!queryParams.get(curr)) {
+              return acc;
+          }
+          acc[curr] = queryParams.get(curr);
+          return acc;
+      }, {});
+      return JSON.stringify({ spinachSource: utmQueryParams });
+  }
+  
+  function setUtmTracking() {
+      /**
+       * @NOTE This should be the merged values of the cookie and the query params
+       * since the merging of the two happens earlier in the page loading process
+       * */
+      const utmTracking = MERGED_UTM_PARAMS;
+  
+      if (!utmTracking) {
+          return;
+      }
+      addNewStateToButtonIdState(GOOGLE_LOGIN_BUTTON_ID, UTM_COOKIE_NAME, JSON.stringify(utmTracking));
+      addNewStateToButtonIdState(ALTERNATIVE_GOOGLE_LOGIN_BUTTON_ID, UTM_COOKIE_NAME, JSON.stringify(utmTracking));
+
+      addNewStateToButtonIdState(MICROSOFT_LOGIN_BUTTON_ID, UTM_COOKIE_NAME, JSON.stringify(utmTracking));
+      addNewStateToButtonIdState(ALTERNATIVE_MICROSOFT_LOGIN_BUTTON_ID, UTM_COOKIE_NAME, JSON.stringify(utmTracking));
+  }
+  
+  setUtmTracking();
+  </script> -->
+  <!-- End UTM Stateful Auth -->
+  
+  
+  <!-- Cello affiliate code -->
+  <!-- <script>
+  function setAffiliateCode() {
+     let referralCode = getCookie(CELLO_REFERRER_COOKIE_NAME);
+     if (!referralCode) {
+        const queryParams = new URLSearchParams(window.location.search);
+        referralCode = queryParams.get('ucc');
+     }
+     if(!referralCode) {
+       return;
+     }
+      addNewStateToButtonIdState(GOOGLE_LOGIN_BUTTON_ID, 'ucc', referralCode);
+      addNewStateToButtonIdState(ALTERNATIVE_GOOGLE_LOGIN_BUTTON_ID, 'ucc', referralCode);
+      
+      addNewStateToButtonIdState(MICROSOFT_LOGIN_BUTTON_ID, 'ucc', referralCode);
+      addNewStateToButtonIdState(ALTERNATIVE_MICROSOFT_LOGIN_BUTTON_ID, 'ucc', referralCode);
+  }
+  
+  setAffiliateCode();
+  </script> -->
+  <!-- End setting affiliate code -->
+
+  <!-- Button Click Tracking -->
+  <!-- <script>
+  function fireMixpanelClickEvent(href) {
+    return async (e) => {
+       try {
+          e.preventDefault();
+          let clickedOn = e.target.innerText;
+
+          if (!clickedOn && e.target.childElementCount) {
+            const elementArray = Array.from(e.target.childNodes);
+            const textElement = elementArray.find((element) => 
+              element.className.includes("text-block") || element.className.includes("clicked-on-target")
+            );
+            if (textElement && textElement.innerText) {
+              clickedOn = textElement.innerText;
+            }
+          }
+     
+          const payload = {
+            UserId: anonymousUserId,
+            ClickedOn: clickedOn,
+            Origin: window.location.origin,
+            Pathname: window.location.pathname,
+            anonymousUserId,
+            ...Object.keys(utmParams).reduce((acc, curr) => {
+              acc[curr.charAt(0).toUpperCase() + curr.slice(1)] = utmParams[curr];
+              return acc; 
+            }, {})
+          };
+
+          fireMixpanelAnalytic('CompanySiteClick', payload);
+         
+          let aTag = e.target;
+          let element = e.target;
+          while(element.localName !== 'a' || !element.parentElement) {
+            element = element.parentElement;
+            if(element && element.localName === 'a') {
+              aTag = element;
+            }
+          }
+          
+          if(aTag.id.includes(GOOGLE_LOGIN_BUTTON_ID)) {
+              trackGoogleSigninButtonClick();
+          }
+
+          if(aTag.id.includes(ALTERNATIVE_GOOGLE_LOGIN_BUTTON_ID)) {
+            trackGoogleSigninButtonClick();
+          }
+
+          if(aTag.id.includes(MICROSOFT_LOGIN_BUTTON_ID)) {
+            trackMicrosoftSigninButtonClick();
+          }
+
+          if(aTag.id.includes(ALTERNATIVE_MICROSOFT_LOGIN_BUTTON_ID)) {
+            trackMicrosoftSigninButtonClick();
+          }
+          
+          if(href) {
+            window.location.href = href;
+          }
+          return true;
+        } catch(error) {
+          if(href) {
+            window.location.href = href;
+          }
+          return true;
+      }
+    }
+}
+  
+  // All Webflow buttons are `a` tags
+  const buttons = document.querySelectorAll("a");
+  const buttonArray = Array.from(buttons ? buttons : []);
+  if(!buttonArray.length) {
+    console.log('no buttons to track');
+  }
+  for (const button of buttonArray) {
+    // Since these buttons are a tags, they do not have an onClick
+    button.onclick = fireMixpanelClickEvent(button.href);
+  }
+    
+  const calendarFaqs = document.querySelectorAll('.calendar-access-faq');
+  for (faq of calendarFaqs) {
+      // these have on clicks we need to combine
+      const existingOnClick = faq.onclick;
+      faq.onclick = function(e) {
+        if (existingOnClick) {
+          existingOnClick(e)
+        }
+        fireMixpanelClickEvent('')(e);
+      }
+  }
+  </script> -->
+  <!-- End Button Click Tracking -->
+  
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCRJHZV"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+  
+  <!--Tooltip Scripts & Settings-->
+  
+  
+  <div id="attribution-widget" style="all: initial;"></div>
+	
+	
+	
+	<iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;" aria-hidden="false" tabindex="-1" title="Intercom"></iframe><div class="intercom-lightweight-app"><div class="intercom-lightweight-app-launcher intercom-launcher" role="button" tabindex="0" aria-label="Open Intercom Messenger" aria-live="polite"><div class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-open"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32"><path d="M28 32s-4.714-1.855-8.527-3.34H3.437C1.54 28.66 0 27.026 0 25.013V3.644C0 1.633 1.54 0 3.437 0h21.125c1.898 0 3.437 1.632 3.437 3.645v18.404H28V32zm-4.139-11.982a.88.88 0 00-1.292-.105c-.03.026-3.015 2.681-8.57 2.681-5.486 0-8.517-2.636-8.571-2.684a.88.88 0 00-1.29.107 1.01 1.01 0 00-.219.708.992.992 0 00.318.664c.142.128 3.537 3.15 9.762 3.15 6.226 0 9.621-3.022 9.763-3.15a.992.992 0 00.317-.664 1.01 1.01 0 00-.218-.707z"></path></svg></div><div class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-minimize"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M18.601 8.39897C18.269 8.06702 17.7309 8.06702 17.3989 8.39897L12 13.7979L6.60099 8.39897C6.26904 8.06702 5.73086 8.06702 5.39891 8.39897C5.06696 8.73091 5.06696 9.2691 5.39891 9.60105L11.3989 15.601C11.7309 15.933 12.269 15.933 12.601 15.601L18.601 9.60105C18.9329 9.2691 18.9329 8.73091 18.601 8.39897Z" fill="white"></path>
+</svg>
+</div></div></div></body></html>

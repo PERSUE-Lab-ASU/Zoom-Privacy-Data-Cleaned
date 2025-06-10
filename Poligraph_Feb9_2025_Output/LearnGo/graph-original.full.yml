@@ -1,0 +1,268 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may share your information with trusted third parties in the following
+    cases: Google User Data Sharing: When authorized by you, we may share data with
+    Google services (e.g., for integrating Google Meet functionality).'
+  - This Privacy Policy explains how we collect, use, disclose, and safeguard your
+    information when you visit our Website.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalized ads or
+    content, and analyze our traffic.'
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    analytics:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    services:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: we
+  target: information collect
+  key: COLLECT
+  text:
+  - 'We use the information collected for various purposes, including:'
+  purposes:
+    advertising:
+    - Communicating with you about updates, promotions, and service-related issues
+    legal:
+    - Complying with legal obligations and enforcing our terms and policies
+    security:
+    - Enhancing the security and functionality of our Website
+    services:
+    - Communicating with you about updates, promotions, and service-related issues
+    - Integrating with third-party services such as Google Meet to enhance functionality
+    - Personalizing user experience
+    - Providing, operating, and maintaining our Website and services
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We retain your personal information, including Google user data, only for as long
+    as necessary to fulfill the purposes outlined in this Privacy Policy.
+  purposes: {}
+- source: we
+  target: specific google user datum authorize
+  key: COLLECT
+  text:
+  - 'When integrating with Google services such as Google Meet, we may access specific
+    Google user data authorized by you, including:'
+  purposes: {}
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may share your information with trusted third parties in the following
+    cases: Google User Data Sharing: When authorized by you, we may share data with
+    Google services (e.g., for integrating Google Meet functionality).'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may share your information with trusted third parties in the following
+    cases:'
+  purposes: {}
+- source: we
+  target: learngo
+  key: SUBSUM
+  text:
+  - Welcome to LearnGo ("we," "our," or "us").
+- source: basic profile information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'When integrating with Google services such as Google Meet, we may access specific
+    Google user data authorized by you, including: Basic profile information (e.g.,
+    name, email address).'
+- source: information you provide
+  target: detail submit through contact form
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    1. Information We Collect
+
+
+    Information you provide directly, such as your name, email address, phone number,
+    and any other details submitted through contact forms, account registration, or
+    subscription services'
+  - 'Privacy policy
+
+
+    1. Information We Collect
+
+
+    a. Personal Information
+
+
+    Information you provide directly, such as your name, email address, phone number,
+    and any other details submitted through contact forms, account registration, or
+    subscription services.'
+- source: information you provide
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    1. Information We Collect
+
+
+    Information you provide directly, such as your name, email address, phone number,
+    and any other details submitted through contact forms, account registration, or
+    subscription services'
+  - 'Privacy policy
+
+
+    1. Information We Collect
+
+
+    a. Personal Information
+
+
+    Information you provide directly, such as your name, email address, phone number,
+    and any other details submitted through contact forms, account registration, or
+    subscription services.'
+- source: information you provide
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    1. Information We Collect
+
+
+    Information you provide directly, such as your name, email address, phone number,
+    and any other details submitted through contact forms, account registration, or
+    subscription services'
+  - 'Privacy policy
+
+
+    1. Information We Collect
+
+
+    a. Personal Information
+
+
+    Information you provide directly, such as your name, email address, phone number,
+    and any other details submitted through contact forms, account registration, or
+    subscription services.'
+- source: information you provide
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    1. Information We Collect
+
+
+    Information you provide directly, such as your name, email address, phone number,
+    and any other details submitted through contact forms, account registration, or
+    subscription services'
+  - 'Privacy policy
+
+
+    1. Information We Collect
+
+
+    a. Personal Information
+
+
+    Information you provide directly, such as your name, email address, phone number,
+    and any other details submitted through contact forms, account registration, or
+    subscription services.'
+- source: metric
+  target: bounce rate
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: number of visitor
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: traffic source
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: personal information
+  target: google user datum
+  key: SUBSUM
+  text:
+  - We implement appropriate technical and organizational measures to protect your
+    personal information, including Google user data, from unauthorized access, alteration,
+    disclosure, or destruction.
+  - We retain your personal information, including Google user data, only for as long
+    as necessary to fulfill the purposes outlined in this Privacy Policy.
+- source: specific google user datum authorize
+  target: basic profile information
+  key: SUBSUM
+  text:
+  - 'When integrating with Google services such as Google Meet, we may access specific
+    Google user data authorized by you, including: Basic profile information (e.g.,
+    name, email address).'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: learngo
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: basic profile information
+- type: DATA
+  id: bounce rate
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: detail submit through contact form
+- type: DATA
+  id: email address
+- type: DATA
+  id: google user datum
+- type: DATA
+  id: information collect
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: metric
+- type: DATA
+  id: number of visitor
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: specific google user datum authorize
+- type: DATA
+  id: traffic source

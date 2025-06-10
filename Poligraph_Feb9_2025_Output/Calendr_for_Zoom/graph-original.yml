@@ -1,0 +1,489 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    With Whom We May Share Your Information'
+  - 'This Policy describes the following: What information we collect and how it is
+    collected;'
+  - 'This Policy describes the following: With whom we may share information;'
+  - We also may use your information to manage our business or perform functions as
+    otherwise described to you at the time of collection.
+  - 'We may share your data: if we believe that disclosure is reasonably necessary
+    to comply with a law, regulation, legal or governmental request; to respond to
+    a subpoena, court order, warrant, or other legal process; to enforce applicable
+    terms of use or this Policy, including investigation of potential violations thereof;
+    to protect the safety, rights, or property of the public, any person, or Calendr;
+    to detect, prevent, or otherwise address, security, or technical issues or illegal
+    or suspected illegal activities (including fraud); or as evidence in litigation
+    in which we are involved, as part of a judicial or regulatory proceeding.'
+  - 'We may use information that we collect about you, including personal information,
+    to: We will use your information to provide our Site, App, and Services to you;
+    to facilitate scheduling; to manage your account; to respond to your inquires;
+    and for other customer service and support purposes.'
+  - We may use your information to comply with applicable legal or regulatory obligations,
+    including informal requests from law enforcement or other governmental authorities.
+  - We process information on behalf of our customers who have legitimate interests
+    in operating their businesses.
+  - We will also use your information to respond to your questions or comments.
+  - 'We will share information we collect about you, including personal information,
+    in the following ways: We may disclose your information to current or future affiliates
+    or subsidiaries for research, marketing, and other purposes consistent with this
+    Privacy Policy.'
+  - We will use your information to protect our rights and interests as well as the
+    rights and interests of our users and any other person, as well as to enforce
+    this Policy or our Terms of Service.
+  - When a Calendr Guest comes to Calendr to schedule an event with a Calendr User,
+    you voluntarily give us certain information.
+  purposes:
+    advertising:
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+    analytics:
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+    legal:
+    - to comply with a law, regulation, legal or governmental request; to respond
+      to a subpoena, court order, warrant, or other legal process; to enforce applicable
+      terms of use or this Policy, including investigation of potential violations
+      thereof;
+    - to comply with applicable legal or regulatory obligations, including informal
+      requests from law enforcement or other governmental authorities
+    - to detect, prevent, or otherwise address, security, or technical issues or illegal
+      or suspected illegal activities (including fraud); or as evidence in litigation
+      in which we are involved, as part of a judicial or regulatory proceeding
+    security:
+    - to detect, prevent, or otherwise address, security, or technical issues or illegal
+      or suspected illegal activities (including fraud); or as evidence in litigation
+      in which we are involved, as part of a judicial or regulatory proceeding
+    - to protect our rights and interests as well as the rights and interests of our
+      users and any other person, as well as to enforce this Policy or our Terms of
+      Service
+    - to protect the safety, rights, or property of the public, any person, or Calendr;
+      to detect, prevent, or otherwise address, security, or technical issues or illegal
+      or suspected illegal activities (including fraud); or as evidence in litigation
+      in which we are involved, as part of a judicial or regulatory proceeding
+    services:
+    - to manage our business or perform functions as otherwise described to you at
+      the time of collection
+    - to provide our Site, App, and Services to you; to facilitate scheduling; to
+      manage your account; to respond to your inquires; and for other customer service
+      and support purposes
+    - to respond to your questions or comments
+- source: we
+  target: account information
+  key: COLLECT
+  text:
+  - Subject to applicable law, we will retain and use your account information as
+    necessary to comply with our legal obligations, resolve disputes and enforce our
+    agreements.
+  purposes:
+    legal:
+    - to comply with our legal obligations, resolve disputes and enforce our agreements
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'We will share information we collect about you, including personal information,
+    in the following ways: We may disclose aggregate, anonymous, or de-identified
+    information about users for marketing, advertising, research, compliance, or other
+    purposes.'
+  purposes:
+    advertising:
+    - for marketing, advertising, research, compliance, or other purposes
+    analytics:
+    - for marketing, advertising, research, compliance, or other purposes
+- source: we
+  target: basic profile
+  key: COLLECT
+  text:
+  - For example, with your consent, you may link your Calendr account with your Google,
+    Microsoft Office 365 account, or other similar service, which allows us to obtain
+    information from those accounts (like your basic profile or contacts).
+  purposes: {}
+- source: we
+  target: confirmation
+  key: COLLECT
+  text:
+  - To help us make emails more useful and interesting, we often receive a confirmation
+    when you open email from Calendr if your computer supports such capabilities.
+  purposes:
+    services:
+    - To help us make emails more useful and interesting
+- source: we
+  target: contact
+  key: COLLECT
+  text:
+  - For example, with your consent, you may link your Calendr account with your Google,
+    Microsoft Office 365 account, or other similar service, which allows us to obtain
+    information from those accounts (like your basic profile or contacts).
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Depending on how you're accessing our products, we may use "cookies" (a small
+    text file sent by your computer each time you visit our website, unique to your
+    Calendr account or your browser) or similar technologies to record log data.
+  - For example, we may use cookies to keep you logged in to Calendr.
+  - Like many websites, we and our service providers use cookies, web beacons and
+    other technologies to receive and store certain types of information when you
+    interact with us through your computer or mobile device.
+  - When we use cookies, we may use "session" cookies (that last until you close your
+    browser) or "persistent" cookies (that last until you or your browser delete them).
+  purposes:
+    analytics:
+    - to receive and store certain types of information when you interact with us
+      through your computer or mobile device
+    - to record log data
+    services:
+    - to keep you logged in to Calendr
+    - to receive and store certain types of information when you interact with us
+      through your computer or mobile device
+    - to record log data
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - We store the last four digits of your credit card number and the expiration date.
+  purposes: {}
+- source: we
+  target: date
+  key: COLLECT
+  text:
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    services:
+    - to schedule a meeting
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For Calendr users who are not Calendr Users, we may use the email address(es)
+    that you enter through email invitations to send any type of direct marketing
+    or other information about our services.
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    advertising:
+    - to send any type of direct marketing or other information about our services
+    services:
+    - to schedule a meeting
+- source: we
+  target: expiration date
+  key: COLLECT
+  text:
+  - We store the last four digits of your credit card number and the expiration date.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We collect information about you directly from you and automatically through your
+    use of our Platform.
+  purposes: {}
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - 'Here are some of the types of information we collect: When you use Calendr, our
+    servers automatically record information ("log data"), including information that
+    your browser sends whenever you visit our Website.'
+  purposes: {}
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - 'We may use information that we collect about you, including personal information,
+    to:'
+  - 'We will share information we collect about you, including personal information,
+    in the following ways:'
+  purposes:
+    advertising:
+    - for marketing, advertising, research, compliance, or other purposes
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+    analytics:
+    - for marketing, advertising, research, compliance, or other purposes
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+    - 'to: We will perform research and analysis about your use of, or interest in,
+      our products, services, or content, or products, services or content offered
+      by others'
+    services:
+    - 'to: Communicate with you'
+    - 'to: We will use your information to provide our Site, App, and Services to
+      you; to facilitate scheduling; to manage your account; to respond to your inquires;
+      and for other customer service and support purposes.'
+- source: we
+  target: information we obtain about user of website
+  key: COLLECT
+  text:
+  - We want you to feel confident using our services, and this privacy policy ("Policy")
+    is to help you understand and describe how we collect, use, and disclose information
+    that we obtain about users of our websites, services, plug-ins, software or other
+    Downloadable Tools (all of which we refer to as the "Platform").
+  purposes: {}
+- source: we
+  target: log datum
+  key: COLLECT
+  text:
+  - 'Here are some of the types of information we collect: When you use Calendr, our
+    servers automatically record information ("log data"), including information that
+    your browser sends whenever you visit our Website.'
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    services:
+    - to schedule a meeting
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may use technical information as described in this Policy and use personal
+    information for our marketing purposes consistent with our legitimate interests
+    and any choices that we offer or consents that may be required under applicable
+    law.
+  - 'We rely on the following legal grounds to process your personal information:
+    We may use your personal information as described in this Policy subject to your
+    consent.'
+  - 'We rely on the following legal grounds to process your personal information:
+    We may use your personal information for our legitimate interests to provide our
+    Platform and services and to improve our services and the content on our Platform.'
+  - We retain the personal data we collect for so long as reasonably necessary to
+    fulfill the purposes for which the data was collected, to perform our contractual
+    and legal obligations, and for any applicable statute of limitations periods for
+    the purposes of bringing and defending claims.
+  purposes:
+    advertising:
+    - for our marketing purposes consistent with our legitimate interests and any
+      choices that we offer or consents that may be required under applicable law
+    services:
+    - to provide our Platform and services and to improve our services and the content
+      on our Platform
+- source: we
+  target: personal information of calendlr users
+  key: COLLECT
+  text:
+  - 'We rely on the following legal grounds to process your personal information:
+    We may need to collect and use your personal information of Calendlr Users and
+    Calendr Guests, as applicable, to perform our contractual obligations.'
+  purposes:
+    legal:
+    - to perform our contractual obligations
+- source: we
+  target: small text file send
+  key: COLLECT
+  text:
+  - Depending on how you're accessing our products, we may use "cookies" (a small
+    text file sent by your computer each time you visit our website, unique to your
+    Calendr account or your browser) or similar technologies to record log data.
+  purposes:
+    analytics:
+    - to record log data
+    services:
+    - to record log data
+- source: we
+  target: technical information
+  key: COLLECT
+  text:
+  - We may use technical information as described in this Policy and use personal
+    information for our marketing purposes consistent with our legitimate interests
+    and any choices that we offer or consents that may be required under applicable
+    law.
+  purposes: {}
+- source: we
+  target: time
+  key: COLLECT
+  text:
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    services:
+    - to schedule a meeting
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We will share information we collect about you, including personal information,
+    in the following ways: We may disclose your information to current or future affiliates
+    or subsidiaries for research, marketing, and other purposes consistent with this
+    Privacy Policy.'
+  purposes:
+    advertising:
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+    analytics:
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+- source: UNSPECIFIED_ACTOR
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - 'We will share information we collect about you, including personal information,
+    in the following ways: With third party service providers, agents, or contractors.'
+  purposes:
+    advertising:
+    - for marketing, advertising, research, compliance, or other purposes
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+    analytics:
+    - for marketing, advertising, research, compliance, or other purposes
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+- source: contractor
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - 'We will share information we collect about you, including personal information,
+    in the following ways: With third party service providers, agents, or contractors.'
+  purposes:
+    advertising:
+    - for marketing, advertising, research, compliance, or other purposes
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+    analytics:
+    - for marketing, advertising, research, compliance, or other purposes
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+- source: current affiliate
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We will share information we collect about you, including personal information,
+    in the following ways: We may disclose your information to current or future affiliates
+    or subsidiaries for research, marketing, and other purposes consistent with this
+    Privacy Policy.'
+  purposes:
+    advertising:
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+    analytics:
+    - for research, marketing, and other purposes consistent with this Privacy Policy
+- source: service provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like many websites, we and our service providers use cookies, web beacons and
+    other technologies to receive and store certain types of information when you
+    interact with us through your computer or mobile device.
+  purposes:
+    analytics:
+    - to receive and store certain types of information when you interact with us
+      through your computer or mobile device
+    services:
+    - to receive and store certain types of information when you interact with us
+      through your computer or mobile device
+- source: service providers
+  target: personal information
+  key: COLLECT
+  text:
+  - Or, we may engage Service Providers to provide services such as marketing, advertising,
+    communications, infrastructure and IT services, to provide customer service, to
+    collect debts, and to analyze and enhance data (including data about users' interactions
+    with our service).
+  - These Service Providers may have access to your personal or other information
+    in order to provide these functions.
+  purposes:
+    services:
+    - in order to provide these functions
+- source: third party payment processor
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - If you purchase a premium version of Calendr, our third party payment processors
+    will collect and store your billing address and credit card information.
+  purposes: {}
+- source: third party payment processor
+  target: postal address
+  key: COLLECT
+  text:
+  - If you purchase a premium version of Calendr, our third party payment processors
+    will collect and store your billing address and credit card information.
+  purposes: {}
+- source: account information
+  target: contact information
+  key: SUBSUM
+  text:
+  - In order to keep your personal information accurate and complete, you can log
+    in to review and update your account information, including contact and billing
+    information.
+- source: information we collect about you
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'We may use information that we collect about you, including personal information,
+    to:'
+  - 'We will share information we collect about you, including personal information,
+    in the following ways:'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Some of the cookies we use are associated with your Calendr account (including
+    personal information about you, such as the email address you gave us), and other
+    cookies are not.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: current affiliate
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: service providers
+- type: ACTOR
+  id: third party payment processor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: basic profile
+- type: DATA
+  id: confirmation
+- type: DATA
+  id: contact
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: email address
+- type: DATA
+  id: expiration date
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: information we obtain about user of website
+- type: DATA
+  id: log datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information of calendlr users
+- type: DATA
+  id: postal address
+- type: DATA
+  id: small text file send
+- type: DATA
+  id: technical information
+- type: DATA
+  id: time

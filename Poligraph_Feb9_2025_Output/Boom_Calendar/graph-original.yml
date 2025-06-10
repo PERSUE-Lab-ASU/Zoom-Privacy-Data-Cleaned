@@ -1,0 +1,66 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Like many apps, we use "cookies" to collect information.
+  - We only keep logs/archives for 30 days, so that it can be reactivated in the future,
+    and it will not be processed for any other purpose.
+  - We use the Data solely for providing you services, forming reports for provided
+    services and sending periodic emails regarding provided or other services.
+  - While using our Service, we may ask you or your website users or visitors to provide
+    certain personally identifiable information or other data that can be used for
+    identifying and communicating with you, or providing the requested service.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like many apps, we use "cookies" to collect information.
+  purposes: {}
+- source: we
+  target: log archive
+  key: COLLECT
+  text:
+  - We only keep logs/archives for 30 days, so that it can be reactivated in the future,
+    and it will not be processed for any other purpose.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you or your website users or visitors to provide
+    certain personally identifiable information or other data that can be used for
+    identifying and communicating with you, or providing the requested service.
+  purposes: {}
+- source: boomtech
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - BoomTech provides any user with the Data and gives an easy way to search for,
+    export or delete it.
+  purposes: {}
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with small amount of data, which may include an anonymous unique
+    identifier.
+nodes:
+- type: ACTOR
+  id: boomtech
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: log archive
+- type: DATA
+  id: personal identifier

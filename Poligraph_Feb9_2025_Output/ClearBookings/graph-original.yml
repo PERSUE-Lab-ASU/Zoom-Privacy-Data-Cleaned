@@ -1,0 +1,321 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Statement
+
+
+    HOW LONG WE KEEP YOUR INFORMATION'
+  - 'We may disclose information to third parties if you consent to us doing so as
+    well as in the following circumstances:'
+  - We will need to verify your identity in such circumstances and may request more
+    information or clarifications from you if needed to help us locate and provide
+    you with the Personal Data requested.
+  - 'With regard to each of your visits to our Site, we may automatically collect
+    the following information:'
+  purposes:
+    analytics:
+    - to help us locate and provide you with the Personal Data requested
+    security:
+    - to verify your identity in such circumstances
+    services:
+    - to help us locate and provide you with the Personal Data requested
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may also use aggregated information and statistics for the purposes of monitoring
+    website usage and our products and/or services and we may also provide such aggregated
+    information to third parties for the purpose of managing or improving our product
+    and/or services.
+  purposes:
+    analytics:
+    - for the purposes of monitoring website usage and our products and/or services
+    services:
+    - for the purpose of managing or improving our product and/or services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Site may use cookies from time to time.
+  - We use so-called "cookies" to extend the operability of our Site and make its
+    use more convenient for you.
+  purposes:
+    services:
+    - to extend the operability of our Site and make its use more convenient for you
+- source: we
+  target: date
+  key: COLLECT
+  text:
+  - We collect and store data, such as the date and time of the website access and
+    the page from which you called up our Site etc., to optimise our Site.
+  purposes:
+    services:
+    - to optimise our Site
+- source: we
+  target: information about company
+  key: COLLECT
+  text:
+  - The information that you may be asked to provide enables us to supply you with
+    further information about our company, products and/or services.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - Here too, there is no link between the person behind the pseudonym and the usage
+    data collected.
+  - We only collect this data for statistical purposes to further enhance our Site
+    and make our online presence even more attractive.
+  purposes:
+    advertising:
+    - to further enhance our Site and make our online presence even more attractive
+    analytics:
+    - for statistical purposes
+    services:
+    - to further enhance our Site and make our online presence even more attractive
+- source: we
+  target: personal data we hold about you
+  key: COLLECT
+  text:
+  - With respect to Event Organisers, upon receipt of your written request and enough
+    information to permit us to identify your Personal Data, we will disclose to you
+    the Personal Data we hold about you.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Most commonly, we will use your Personal Data in the following circumstances:'
+  - Please note that we may process your Personal Data without your knowledge or consent,
+    in compliance with this Privacy Statement, where this is required or permitted
+    by law.
+  - Should you object, we will no longer process your Personal Data for these purposes
+    unless doing so is justified by a compelling legitimate ground.
+  - We adhere to the principle of the assigned use of data and only collect, process
+    and store your personal information for the purpose for which you have communicated
+    it to us.
+  - We may on occasion, collect additional personal information through our Site,
+    products and services.
+  - We will also only transmit your personal data to State institutions and authorities
+    authorised to access this information within the scope of our statutory duty of
+    disclosure or if we are obliged to disclose this personal data by a court judgement.
+  - 'We will disclose your personal information to third party recipients: in the
+    event that we sell or buy any business or assets, in which case we will disclose
+    your Personal Data to the prospective seller or buyer of our business or assets;'
+  - We will only retain your Personal Data for as long as necessary to fulfill the
+    purposes we collected it for, including for the purposes of satisfying any legal,
+    accounting, or reporting requirements.
+  - We will only use your Personal Data for the purposes for which we collected it,
+    unless we reasonably consider that we need to use it for another reason and that
+    reason is compatible with the original purpose.
+  - We will only use your personal information when the law allows us to.
+  purposes:
+    legal:
+    - to fulfill the purposes we collected it for, including for the purposes of satisfying
+      any legal, accounting, or reporting requirements
+    security:
+    - to protect our rights, property or the safety of our customers or others
+- source: we
+  target: statistic
+  key: COLLECT
+  text:
+  - We may also use aggregated information and statistics for the purposes of monitoring
+    website usage and our products and/or services and we may also provide such aggregated
+    information to third parties for the purpose of managing or improving our product
+    and/or services.
+  purposes:
+    analytics:
+    - for the purposes of monitoring website usage and our products and/or services
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Both Google and Google Analytics use "cookies".
+  purposes: {}
+- source: Google
+  target: information about use of site generate
+  key: COLLECT
+  text:
+  - Google passes this information onto third parties where this is statutorily prescribed
+    or where third parties process this data on behalf of Google.
+  - Google uses this information to analyse your use of our Site, to compile reports
+    on website activity for website operators and provide other services associated
+    with website use and internet use.
+  - Information about your use of our Site generated by this text file is transmitted
+    to a Google server in the USA and stored there.
+  purposes:
+    analytics:
+    - to analyse your use of our Site, to compile reports on website activity for
+      website operators and provide other services associated with website use and
+      internet use
+- source: Google
+  target: ip address
+  key: COLLECT
+  text:
+  - Google Analytics collects information on your operating system, browser, IP address,
+    the previous website visited (Referrer URL) and the date and time you visited
+    our Site.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may disclose information to third parties if you consent to us doing so as
+    well as in the following circumstances:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may also use aggregated information and statistics for the purposes of monitoring
+    website usage and our products and/or services and we may also provide such aggregated
+    information to third parties for the purpose of managing or improving our product
+    and/or services.
+  purposes:
+    analytics:
+    - for the purposes of monitoring website usage and our products and/or services
+    services:
+    - for the purpose of managing or improving our product and/or services
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We will disclose your personal information to third party recipients:'
+  purposes:
+    security:
+    - to protect our rights, property or the safety of our customers or others
+- source: authority
+  target: personal information
+  key: COLLECT
+  text:
+  - We will also only transmit your personal data to State institutions and authorities
+    authorised to access this information within the scope of our statutory duty of
+    disclosure or if we are obliged to disclose this personal data by a court judgement.
+  purposes: {}
+- source: employee
+  target: personal information
+  key: COLLECT
+  text:
+  - The employees, agents, contractors and other third parties who have access to
+    Personal Data have been trained to handle such data properly and in accordance
+    with our security protocols.
+  - They will only process your Personal Data on our instructions and they are subject
+    to a duty of confidentiality.
+  purposes: {}
+- source: event organisers
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The Event Organisers can obtain information free of charge at any time about the
+    personal data we have saved about them without the need to give a reason.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - Personal Data may be transferred to our trusted partners and service providers
+    who maintain their servers outside of the European Economic Area (the "EEA"),
+    where the privacy and data protection laws may not be as protective as those in
+    your jurisdiction.
+  purposes: {}
+- source: state institution
+  target: personal information
+  key: COLLECT
+  text:
+  - We will also only transmit your personal data to State institutions and authorities
+    authorised to access this information within the scope of our statutory duty of
+    disclosure or if we are obliged to disclose this personal data by a court judgement.
+  purposes: {}
+- source: trust partner
+  target: personal information
+  key: COLLECT
+  text:
+  - Personal Data may be transferred to our trusted partners and service providers
+    who maintain their servers outside of the European Economic Area (the "EEA"),
+    where the privacy and data protection laws may not be as protective as those in
+    your jurisdiction.
+  purposes: {}
+- source: we
+  target: asset
+  key: SUBSUM
+  text:
+  - 'We will disclose your personal information to third party recipients: if all
+    or substantially all of our business or assets are acquired by or transferred
+    to a third party whether in the event of a merger, reorganization, transfer of
+    undertakings, receivership, liquidation or other winding up or any other similar
+    circumstances, in which case Personal Data held by us will be one of the transferred
+    assets;'
+- source: we
+  target: hold company
+  key: SUBSUM
+  text:
+  - That said, we, our employees, agents, holding company and subsidiaries, accept
+    no liability howsoever arising for the content or reliability of any third party
+    materials or websites referenced by hyperlink or other means on the Site or for
+    the data collection and use practices or security measures used by such third
+    parties.
+- source: aggregate / deidentified / pseudonymized information
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'Privacy Statement
+
+
+    COLLECTION AND USE OF PERSONAL DATA
+
+
+    What We Do With Your Information:
+
+
+    To anonymise, and conduct statistical analysis or research using this anonymised
+    data and/or to appoint or collaborate with a third party to do so.'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: asset
+- type: ACTOR
+  id: authority
+- type: ACTOR
+  id: employee
+- type: ACTOR
+  id: event organisers
+- type: ACTOR
+  id: hold company
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: state institution
+- type: ACTOR
+  id: trust partner
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: information about company
+- type: DATA
+  id: information about use of site generate
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal data we hold about you
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistic

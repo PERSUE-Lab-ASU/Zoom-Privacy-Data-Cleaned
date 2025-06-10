@@ -1,0 +1,317 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '*  If you provide us personal information about others, or if others give us
+    your information, we will only use that information for the specific reason for
+    which it was provided to us.'
+  - 'We use this information to:'
+  - We will retain and use your information as necessary to comply with our legal
+    obligations, resolve disputes, and enforce our agreements.
+  - We will retain your information for as long as your account is active or as needed
+    to provide you services.
+  - We will share your information with third parties only in the ways that are described
+    in this privacy statement.
+  purposes:
+    legal:
+    - to comply with our legal obligations, resolve disputes, and enforce our agreements
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We use this aggregated information to understand and optimize how our site is
+    used, improve our marketing efforts, and provide content and features that are
+    of interest to you.
+  purposes:
+    advertising:
+    - to understand and optimize how our site is used, improve our marketing efforts,
+      and provide content and features that are of interest to you
+    analytics:
+    - to understand and optimize how our site is used, improve our marketing efforts,
+      and provide content and features that are of interest to you
+- source: we
+  target: cell id of tower close
+  key: COLLECT
+  text:
+  - If you allow these services, we will collect information about the WiFi routers
+    closest to you and the cell IDs of the towers closest to you.
+  - We use this information to provide the requested location-based service, not to
+    identify you.
+  purposes:
+    services:
+    - to provide the requested location-based service, not to identify you
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We or a third party contracted by us may use technologies such as cookies, Web
+    beacons, or scripts to gather information about how you and others interact with
+    our Web site.
+  purposes: {}
+- source: we
+  target: information about business
+  key: COLLECT
+  text:
+  - Information about your business such as company name, company size, business type
+  - 'We also collect the following information from you:'
+  purposes: {}
+- source: we
+  target: information about computer
+  key: COLLECT
+  text:
+  - As is true of most Web sites, we automatically gather information about your computer
+    such as your IP address, browser type, referring/exit pages, and operating system.
+  purposes: {}
+- source: we
+  target: information about mobile device
+  key: COLLECT
+  text:
+  - Information about your mobile device such as your mobile device ID (similar to
+    a website IP address), device type, and mobile service carrier.
+  - 'We also collect the following information from you:'
+  purposes: {}
+- source: we
+  target: information about wifi router close
+  key: COLLECT
+  text:
+  - If you allow these services, we will collect information about the WiFi routers
+    closest to you and the cell IDs of the towers closest to you.
+  - We use this information to provide the requested location-based service, not to
+    identify you.
+  purposes:
+    services:
+    - to provide the requested location-based service, not to identify you
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We collect the following personal information from you:'
+  - We may disclose your personal information
+  - We may provide your personal information to companies that provide services to
+    help us with our business activities such as shipping your order or offering customer
+    service.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will share your information with third parties only in the ways that are described
+    in this privacy statement.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about
+  key: COLLECT
+  text:
+  - We or a third party contracted by us may use technologies such as cookies, Web
+    beacons, or scripts to gather information about how you and others interact with
+    our Web site.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties are authorized to use your personal information only as necessary
+    to provide these services to us.
+  - We may provide your personal information to companies that provide services to
+    help us with our business activities such as shipping your order or offering customer
+    service.
+  purposes: {}
+- source: service on site
+  target: geolocation
+  key: COLLECT
+  text:
+  - Some services on this site make use of location-based data.
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - Contact Information such as name, email address, mailing address, phone number
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - Contact Information such as name, email address, mailing address, phone number
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Contact Information such as name, email address, mailing address, phone number
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Contact Information such as name, email address, mailing address, phone number
+- source: identifier
+  target: account number
+  key: SUBSUM
+  text:
+  - Unique Identifiers such as user name, account number, password
+- source: identifier
+  target: password
+  key: SUBSUM
+  text:
+  - Unique Identifiers such as user name, account number, password
+- source: identifier
+  target: user name
+  key: SUBSUM
+  text:
+  - Unique Identifiers such as user name, account number, password
+- source: information about business
+  target: business type
+  key: SUBSUM
+  text:
+  - Information about your business such as company name, company size, business type
+- source: information about business
+  target: company name
+  key: SUBSUM
+  text:
+  - Information about your business such as company name, company size, business type
+- source: information about business
+  target: company size
+  key: SUBSUM
+  text:
+  - Information about your business such as company name, company size, business type
+- source: information about computer
+  target: browser type
+  key: SUBSUM
+  text:
+  - As is true of most Web sites, we automatically gather information about your computer
+    such as your IP address, browser type, referring/exit pages, and operating system.
+- source: information about computer
+  target: ip address
+  key: SUBSUM
+  text:
+  - As is true of most Web sites, we automatically gather information about your computer
+    such as your IP address, browser type, referring/exit pages, and operating system.
+- source: information about computer
+  target: operate system
+  key: SUBSUM
+  text:
+  - As is true of most Web sites, we automatically gather information about your computer
+    such as your IP address, browser type, referring/exit pages, and operating system.
+- source: information about mobile device
+  target: device identifier
+  key: SUBSUM
+  text:
+  - Information about your mobile device such as your mobile device ID (similar to
+    a website IP address), device type, and mobile service carrier.
+- source: information about mobile device
+  target: device type
+  key: SUBSUM
+  text:
+  - Information about your mobile device such as your mobile device ID (similar to
+    a website IP address), device type, and mobile service carrier.
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - Contact Information such as name, email address, mailing address, phone number
+  - 'We collect the following personal information from you:'
+- source: personal information
+  target: device information
+  key: SUBSUM
+  text:
+  - Device Information
+  - 'We collect the following personal information from you:'
+- source: personal information
+  target: identifier
+  key: SUBSUM
+  text:
+  - Unique Identifiers such as user name, account number, password
+  - 'We collect the following personal information from you:'
+- source: personal information
+  target: usage activity about
+  key: SUBSUM
+  text:
+  - Usage activity about how you interact with us such as purchase history, what content
+    you viewed, and which areas of our site you visited.
+  - 'We collect the following personal information from you:'
+- source: technology
+  target: script
+  key: SUBSUM
+  text:
+  - We or a third party contracted by us may use technologies such as cookies, Web
+    beacons, or scripts to gather information about how you and others interact with
+    our Web site.
+- source: usage activity about
+  target: purchase history
+  key: SUBSUM
+  text:
+  - Usage activity about how you interact with us such as purchase history, what content
+    you viewed, and which areas of our site you visited.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: script
+- type: ACTOR
+  id: service on site
+- type: ACTOR
+  id: technology
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account number
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: business type
+- type: DATA
+  id: cell id of tower close
+- type: DATA
+  id: company name
+- type: DATA
+  id: company size
+- type: DATA
+  id: contact information
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device information
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about business
+- type: DATA
+  id: information about computer
+- type: DATA
+  id: information about mobile device
+- type: DATA
+  id: information about wifi router close
+- type: DATA
+  id: ip address
+- type: DATA
+  id: operate system
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: purchase history
+- type: DATA
+  id: usage activity about
+- type: DATA
+  id: user name

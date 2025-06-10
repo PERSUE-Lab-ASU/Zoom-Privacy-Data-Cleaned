@@ -1,0 +1,416 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    How long we retain your data'
+  - 'Privacy Policy
+
+
+    Who we share your data with'
+  - 'Pro America Meetings accesses certain Google user data to provide and enhance
+    our services: Google Calendar Events and Information : We access your Google Calendar
+    events and details to sync meeting events between Pro America Meetings and your
+    Google Calendar.'
+  purposes:
+    services:
+    - to sync meeting events between Pro America Meetings and your Google Calendar
+- source: we
+  target: access google user datum
+  key: COLLECT
+  text:
+  - 'We use the accessed Google user data & permissions for the following purposes
+    until disconnected via the Google Calendar Intergration page:'
+  purposes: {}
+- source: we
+  target: browser user agent string
+  key: COLLECT
+  text:
+  - When visitors leave comments on the site we collect the data shown in the comments
+    form, and also the visitor's IP address and browser user agent string to help
+    spam detection.
+  purposes:
+    security:
+    - to help spam detection
+- source: we
+  target: calendar syncing
+  key: COLLECT
+  text:
+  - 'Calendar Syncing : To retrieve your existing Google Calendar events to display
+    your availability, prevent scheduling conflicts, and ensure efficient meeting
+    scheduling.'
+  - 'We use the accessed Google user data & permissions for the following purposes
+    until disconnected via the Google Calendar Intergration page:'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalized ads or
+    content, and analyze our traffic.'
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    analytics:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    services:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: we
+  target: datum show in comment form
+  key: COLLECT
+  text:
+  - When visitors leave comments on the site we collect the data shown in the comments
+    form, and also the visitor's IP address and browser user agent string to help
+    spam detection.
+  purposes:
+    security:
+    - to help spam detection
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - When visitors leave comments on the site we collect the data shown in the comments
+    form, and also the visitor's IP address and browser user agent string to help
+    spam detection.
+  purposes:
+    security:
+    - to help spam detection
+- source: we
+  target: necessary information require
+  key: COLLECT
+  text:
+  - When you connect your Zoom account with Pro America Meetings, we access only the
+    necessary information required to create and manage meetings, such as your Zoom
+    user ID and meeting URLs.
+  purposes: {}
+- source: we
+  target: permission
+  key: COLLECT
+  text:
+  - 'We use the accessed Google user data & permissions for the following purposes
+    until disconnected via the Google Calendar Intergration page:'
+  purposes: {}
+- source: we
+  target: personal information they provide
+  key: COLLECT
+  text:
+  - For users that register on our website (if any), we also store the personal information
+    they provide in their user profile.
+  purposes:
+    services:
+    - For users that register on our website (if any
+- source: we
+  target: sync meeting event
+  key: COLLECT
+  text:
+  - 'We use the accessed Google user data & permissions for the following purposes
+    until disconnected via the Google Calendar Intergration page: Syncing Meeting
+    Events :'
+  purposes: {}
+- source: Automattic
+  target: email address
+  key: COLLECT
+  text:
+  - An anonymized string created from your email address (also called a hash) may
+    be provided to the Gravatar service to see if you are using it.
+  purposes: {}
+- source: Google
+  target: google user datum
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Google Data Access Disclosures
+
+
+    Pro America Meetings accesses certain Google user data to provide and enhance
+    our services:'
+  - 'Pro America Meetings accesses certain Google user data to provide and enhance
+    our services: Google Calendar Events and Information : We access your Google Calendar
+    events and details to sync meeting events between Pro America Meetings and your
+    Google Calendar.'
+  purposes:
+    services:
+    - primarily to link your Google account with Pro America Meetings, ensuring that
+      your account on our platform is properly synced with your Google identity for
+      authentication and operational purposes
+    - to facilitate convenient access to virtual meetings
+    - to provide and enhance our services
+    - to sync meeting events between Pro America Meetings and your Google Calendar
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Information is shared only with trusted third-party services as necessary for
+    the operation of specific features, like Zoom for meeting scheduling, under strict
+    privacy agreements that align with our commitment to safeguard your data.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Embedded content from other websites'
+  - These websites may collect data about you, use cookies, embed additional third-party
+    tracking, and monitor your interaction with that embedded content, including tracking
+    your interaction with the embedded content if you have an account and are logged
+    in to that website.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: datum about you
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Embedded content from other websites'
+  - These websites may collect data about you, use cookies, embed additional third-party
+    tracking, and monitor your interaction with that embedded content, including tracking
+    your interaction with the embedded content if you have an account and are logged
+    in to that website.
+  purposes: {}
+- source: embed content
+  target: datum about you
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Embedded content from other websites'
+  - These websites may collect data about you, use cookies, embed additional third-party
+    tracking, and monitor your interaction with that embedded content, including tracking
+    your interaction with the embedded content if you have an account and are logged
+    in to that website.
+  purposes: {}
+- source: pro america meetings
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Google Data Access Disclosures
+
+
+    Pro America Meetings accesses certain Google user data to provide and enhance
+    our services:'
+  - 'Pro America Meetings accesses certain Google user data to provide and enhance
+    our services: Google Calendar Events and Information : We access your Google Calendar
+    events and details to sync meeting events between Pro America Meetings and your
+    Google Calendar.'
+  purposes:
+    services:
+    - to provide and enhance our services
+    - to sync meeting events between Pro America Meetings and your Google Calendar
+- source: pro america meetings
+  target: email address
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Google Data Access Disclosures
+
+
+    Pro America Meetings accesses certain Google user data to provide and enhance
+    our services: User''s Email Address : We retrieve your email address primarily
+    to link your Google account with Pro America Meetings, ensuring that your account
+    on our platform is properly synced with your Google identity for authentication
+    and operational purposes.'
+  purposes:
+    services:
+    - primarily to link your Google account with Pro America Meetings, ensuring that
+      your account on our platform is properly synced with your Google identity for
+      authentication and operational purposes
+    - to provide and enhance our services
+- source: pro america meetings
+  target: google meet information
+  key: COLLECT
+  text:
+  - 'Google Meet Information :'
+  - 'Privacy Policy
+
+
+    Google Data Access Disclosures
+
+
+    Pro America Meetings accesses certain Google user data to provide and enhance
+    our services:'
+  purposes:
+    services:
+    - to provide and enhance our services
+- source: pro america meetings
+  target: google user datum
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Google Data Access Disclosures
+
+
+    Pro America Meetings accesses certain Google user data to provide and enhance
+    our services:'
+  purposes:
+    services:
+    - primarily to link your Google account with Pro America Meetings, ensuring that
+      your account on our platform is properly synced with your Google identity for
+      authentication and operational purposes
+    - to facilitate convenient access to virtual meetings
+    - to provide and enhance our services
+    - to sync meeting events between Pro America Meetings and your Google Calendar
+- source: cookie / pixel tag
+  target: personal information
+  key: SUBSUM
+  text:
+  - If you edit or publish an article, an additional cookie will be saved in your
+    browser.
+  - This cookie includes no personal data and simply indicates the post ID of the
+    article you just edited.
+- source: embed content
+  target: article
+  key: SUBSUM
+  text:
+  - Articles on this site may include embedded content (e.g., videos, images, articles,
+    etc.).
+- source: metric
+  target: bounce rate
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: number of visitor
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: traffic source
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: necessary information require
+  target: meeting url
+  key: SUBSUM
+  text:
+  - When you connect your Zoom account with Pro America Meetings, we access only the
+    necessary information required to create and manage meetings, such as your Zoom
+    user ID and meeting URLs.
+- source: necessary information require
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - When you connect your Zoom account with Pro America Meetings, we access only the
+    necessary information required to create and manage meetings, such as your Zoom
+    user ID and meeting URLs.
+- source: personal datum we hold about you
+  target: datum you provide to we
+  key: SUBSUM
+  text:
+  - If you have an account on this site, or have left comments, you can request to
+    receive an exported file of the personal data we hold about you, including any
+    data you have provided to us.
+- source: public authority
+  target: government agency
+  key: SUBSUM
+  text:
+  - 'Legal Requirements : We may disclose your Google user data if required to do
+    so by law or in response to valid requests by public authorities (e.g., a court
+    or a government agency).'
+- source: specific feature
+  target: zoom for meeting scheduling
+  key: SUBSUM
+  text:
+  - Information is shared only with trusted third-party services as necessary for
+    the operation of specific features, like Zoom for meeting scheduling, under strict
+    privacy agreements that align with our commitment to safeguard your data.
+nodes:
+- type: ACTOR
+  id: Automattic
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: article
+- type: ACTOR
+  id: embed content
+- type: ACTOR
+  id: government agency
+- type: ACTOR
+  id: pro america meetings
+- type: ACTOR
+  id: public authority
+- type: ACTOR
+  id: specific feature
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom for meeting scheduling
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access google user datum
+- type: DATA
+  id: bounce rate
+- type: DATA
+  id: browser user agent string
+- type: DATA
+  id: calendar syncing
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: datum show in comment form
+- type: DATA
+  id: datum you provide to we
+- type: DATA
+  id: email address
+- type: DATA
+  id: google meet information
+- type: DATA
+  id: google user datum
+- type: DATA
+  id: ip address
+- type: DATA
+  id: meeting url
+- type: DATA
+  id: metric
+- type: DATA
+  id: necessary information require
+- type: DATA
+  id: number of visitor
+- type: DATA
+  id: permission
+- type: DATA
+  id: personal datum we hold about you
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information they provide
+- type: DATA
+  id: sync meeting event
+- type: DATA
+  id: traffic source

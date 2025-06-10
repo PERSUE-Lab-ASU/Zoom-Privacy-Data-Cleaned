@@ -1,0 +1,131 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information for
+  key: COLLECT
+  text:
+  - To wit, we will use your information for, but not limited to, communicating with
+    you in relation to services and/or products you have requested from us.
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We also may gather additional personal or non-personal information in the future.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - However, you may be required to provide certain personal information to us when
+    you elect to use certain features or services available in the App.
+  purposes: {}
+- source: trust partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Vivoh may share data with trusted partners to help perform statistical analysis
+    All such third parties are prohibited from using your personal information except
+    to provide these services to Vivoh, and they are required to maintain the confidentiality
+    of your information.
+  purposes:
+    analytics:
+    - to help perform statistical analysis
+- source: vivoh
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Vivoh may share data with trusted partners to help perform statistical analysis
+    All such third parties are prohibited from using your personal information except
+    to provide these services to Vivoh, and they are required to maintain the confidentiality
+    of your information.
+  purposes:
+    analytics:
+    - to help perform statistical analysis
+- source: vivoh
+  target: information about computer hardware
+  key: COLLECT
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Vivoh.
+  purposes: {}
+- source: vivoh
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Vivoh may disclose your personal information, without notice, if required to
+    do so by law or in the good faith belief that such action is necessary to: (a)
+    conform to the edicts of the law or comply with legal process served by Vivoh
+    or the App; (b) protect and defend the rights or property of Vivoh; and/or (c)
+    act under exigent circumstances to protect the personal safety of users of the
+    App, or the public.'
+  purposes: {}
+- source: information about computer hardware
+  target: access time
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Vivoh.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: browser type
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Vivoh.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: domain name
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Vivoh.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: ip address
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Vivoh.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: refer website address
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Vivoh.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+nodes:
+- type: ACTOR
+  id: trust partner
+- type: ACTOR
+  id: vivoh
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: browser type
+- type: DATA
+  id: domain name
+- type: DATA
+  id: information about computer hardware
+- type: DATA
+  id: information for
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: refer website address

@@ -1,0 +1,100 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'How we use cookies
+
+
+    We use cookies to:'
+  purposes:
+    analytics:
+    - 'to: Generate website traffic reports in Google Analytics (GA)'
+    services:
+    - 'to: Store login information that persists across the user''s session'
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may use your phone number and email address to send appointment confirmations,
+    reminders, and other messages related to your visit.
+  purposes:
+    services:
+    - to send appointment confirmations, reminders, and other messages related to
+      your visit
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - We may use your phone number and email address to send appointment confirmations,
+    reminders, and other messages related to your visit.
+  purposes:
+    services:
+    - to send appointment confirmations, reminders, and other messages related to
+      your visit
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - However, non-personally identifiable visitor information may be provided to other
+    parties for marketing, advertising, or other uses.
+  purposes:
+    advertising:
+    - for marketing, advertising, or other uses
+- source: UNSPECIFIED_ACTOR
+  target: patient datum
+  key: COLLECT
+  text:
+  - 'What we collect and what we do with it
+
+
+    We do not: sell patient or practice data to third parties'
+  purposes: {}
+- source: ga
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - GA uses their own cookies to provide this information.
+  purposes:
+    analytics:
+    - to provide this information
+- source: nextpatient
+  target: audit log record
+  key: COLLECT
+  text:
+  - NextPatient will maintain audit logs recording which practice employees accessed
+    the NextPatient admin pages, and which patient records were viewed.
+  purposes: {}
+- source: nextpatient
+  target: practice datum
+  key: COLLECT
+  text:
+  - NextPatient will maintain practice data for at least as long as the practice is
+    a customer of NextPatient.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: ga
+- type: ACTOR
+  id: nextpatient
+- type: ACTOR
+  id: we
+- type: DATA
+  id: audit log record
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: patient datum
+- type: DATA
+  id: phone number
+- type: DATA
+  id: practice datum

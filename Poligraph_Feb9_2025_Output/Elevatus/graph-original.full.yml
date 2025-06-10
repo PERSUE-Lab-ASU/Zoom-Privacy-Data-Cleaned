@@ -1,0 +1,366 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'As a Company
+
+
+    We are your data processor and we process your information and the Applicant''s
+    information on your behalf.'
+  - 'As an Applicant
+
+
+    We process your information for the Company (the Controller) that you register
+    to.'
+  - Our products require certain information to perform predictions and to learn and
+    improve, and for that we encourage sharing more information as long as it is restricted
+    to our Legitimate Interests.
+  - Please note that some local laws may require or allow us to retain your data for
+    longer periods.
+  - We share your data only with necessary third-party service providers such as but
+    not limited to the provider of our video recording APIs, translation and speech-to-text
+    APIs.
+  - We store all data in Amazon S3/Google Cloud Storage until request for deletion
+    of the account.
+  - We store all the data until the request for deletion of the account.
+  - We track your progress through the system and keep your data safe and secure.
+  purposes:
+    analytics:
+    - to perform predictions and to learn and improve
+    services:
+    - for the Company (the Controller) that you register to
+- source: we
+  target: cold backup of datum store for year
+  key: COLLECT
+  text:
+  - We keep a cold backup of your data stored for up to one year (varies with regional
+    data protection regulations and laws).
+  purposes: {}
+- source: we
+  target: datum pertain to
+  key: COLLECT
+  text:
+  - As a Company, we save all data pertaining to managing and evaluating applicants
+    to your video assessments.
+  purposes: {}
+- source: we
+  target: datum pertain to tracking of applicant through own customize template
+  key: COLLECT
+  text:
+  - As a Company, we save all data pertaining to the tracking of applicants through
+    your own customized templates, questionnaires and pipelines.
+  purposes: {}
+- source: we
+  target: datum process
+  key: COLLECT
+  text:
+  - We must comply and retain data that is processed or kept for the purpose of legal
+    obligation.
+  purposes: {}
+- source: we
+  target: datum you use
+  key: COLLECT
+  text:
+  - As a Company, we store all data you use to edit and customize the branding of
+    your portal.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - As an Applicant, during video-based assessments and interviews, we collect and
+    store data consisting of your videos and your details when you register for the
+    assessment such as your email address and name.
+  purposes: {}
+- source: we
+  target: insight on user behavior on system
+  key: COLLECT
+  text:
+  - These data include cookies that allow us to obtain insights on user behavior on
+    the system in order to learn and optimize accordingly.
+  purposes:
+    analytics:
+    - in order to learn and optimize accordingly
+    services:
+    - in order to learn and optimize accordingly
+- source: we
+  target: personal datum regard network audit
+  key: COLLECT
+  text:
+  - We process personal data regarding network audits and security logging.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will keep your personal data if you take legal action against any Elevatus
+    entity.
+  - We will process your personal data to comply with legal obligations, such as answering
+    authority requests in the course of investigation proceedings.
+  - We will process your personal data to fulfil our duties towards our subscription
+    agreement.
+  purposes:
+    legal:
+    - to comply with legal obligations, such as answering authority requests in the
+      course of investigation proceedings
+    - to fulfil our duties towards our subscription agreement
+    services:
+    - to fulfil our duties towards our subscription agreement
+- source: we
+  target: personality report
+  key: COLLECT
+  text:
+  - A personality report is generated and shared with the Company.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share your data only with necessary third-party service providers such as but
+    not limited to the provider of our video recording APIs, translation and speech-to-text
+    APIs.
+  purposes: {}
+- source: court
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Your data may be shared with Government Authorities, Law Enforcement Officials
+    and Courts pursuant to conformity with Regulation (EU) 2016/679 (GDPR) when personal
+    data is required to be disclosed by Law Enforcement Authorities.
+  purposes: {}
+- source: elevatus
+  target: personal information
+  key: COLLECT
+  text:
+  - Where you have given consent regarding the usage of your personal data, Elevatus
+    will use your personal data as consented to.
+  purposes: {}
+- source: employer
+  target: professional identity
+  key: COLLECT
+  text:
+  - Our registered users, commonly referred to as recruiters, employers, headhunters,
+    managers, supervisors and applicants (" Users ", " you ") share their professional
+    identities, Automation processes are defined by the Company (Controller).
+  purposes: {}
+- source: government authorities
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Your data may be shared with Government Authorities, Law Enforcement Officials
+    and Courts pursuant to conformity with Regulation (EU) 2016/679 (GDPR) when personal
+    data is required to be disclosed by Law Enforcement Authorities.
+  purposes: {}
+- source: headhunter
+  target: professional identity
+  key: COLLECT
+  text:
+  - Our registered users, commonly referred to as recruiters, employers, headhunters,
+    managers, supervisors and applicants (" Users ", " you ") share their professional
+    identities, Automation processes are defined by the Company (Controller).
+  purposes: {}
+- source: law enforcement official
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Your data may be shared with Government Authorities, Law Enforcement Officials
+    and Courts pursuant to conformity with Regulation (EU) 2016/679 (GDPR) when personal
+    data is required to be disclosed by Law Enforcement Authorities.
+  purposes: {}
+- source: manager
+  target: professional identity
+  key: COLLECT
+  text:
+  - Our registered users, commonly referred to as recruiters, employers, headhunters,
+    managers, supervisors and applicants (" Users ", " you ") share their professional
+    identities, Automation processes are defined by the Company (Controller).
+  purposes: {}
+- source: recruiter
+  target: professional identity
+  key: COLLECT
+  text:
+  - Our registered users, commonly referred to as recruiters, employers, headhunters,
+    managers, supervisors and applicants (" Users ", " you ") share their professional
+    identities, Automation processes are defined by the Company (Controller).
+  purposes: {}
+- source: supervisor
+  target: professional identity
+  key: COLLECT
+  text:
+  - Our registered users, commonly referred to as recruiters, employers, headhunters,
+    managers, supervisors and applicants (" Users ", " you ") share their professional
+    identities, Automation processes are defined by the Company (Controller).
+  purposes: {}
+- source: we
+  target: elevatus
+  key: SUBSUM
+  text:
+  - Elevatus (" we " or " us ") can modify this Privacy Policy, and if we make material
+    changes to it, we will provide notice through our Products, or by other means,
+    to provide you with the opportunity to review the changes before they become effective.
+- source: identification information
+  target: company name
+  key: SUBSUM
+  text:
+  - Upon signing up as a " User ", you are required to enter your identification information
+    such as your first name, last name, company name, email address, and an encrypted
+    password (which is unknown to us).
+- source: identification information
+  target: email address
+  key: SUBSUM
+  text:
+  - Upon signing up as a " User ", you are required to enter your identification information
+    such as your first name, last name, company name, email address, and an encrypted
+    password (which is unknown to us).
+- source: identification information
+  target: encrypt password
+  key: SUBSUM
+  text:
+  - Upon signing up as a " User ", you are required to enter your identification information
+    such as your first name, last name, company name, email address, and an encrypted
+    password (which is unknown to us).
+- source: identification information
+  target: person name
+  key: SUBSUM
+  text:
+  - Upon signing up as a " User ", you are required to enter your identification information
+    such as your first name, last name, company name, email address, and an encrypted
+    password (which is unknown to us).
+- source: ingest log
+  target: network request
+  key: SUBSUM
+  text:
+  - The ingested logs are retained for a period of three months .
+  - These logs include network requests, system access logs, and monitoring of unusual
+    behavior and disallowed actions.
+- source: ingest log
+  target: system access log
+  key: SUBSUM
+  text:
+  - The ingested logs are retained for a period of three months .
+  - These logs include network requests, system access logs, and monitoring of unusual
+    behavior and disallowed actions.
+- source: link to profile
+  target: company on you sign
+  key: SUBSUM
+  text:
+  - These will be visible in your profile to those who have a link to your profile,
+    namely the Company on whose career portal you have signed up.
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - We do not share your personal information including but not limited to name, address,
+    contact information, credit card information, with third-party providers, except
+    for billing purposes and only what is required by the payment gateway provider.
+- source: personal information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Legal
+
+
+    Privacy Policy
+
+
+    Legal Basis - Processing your Personal Data'
+  - These data include cookies that allow us to obtain insights on user behavior on
+    the system in order to learn and optimize accordingly.
+- source: personal information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - We do not share your personal information including but not limited to name, address,
+    contact information, credit card information, with third-party providers, except
+    for billing purposes and only what is required by the payment gateway provider.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - We do not share your personal information including but not limited to name, address,
+    contact information, credit card information, with third-party providers, except
+    for billing purposes and only what is required by the payment gateway provider.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - We do not share your personal information including but not limited to name, address,
+    contact information, credit card information, with third-party providers, except
+    for billing purposes and only what is required by the payment gateway provider.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: company on you sign
+- type: ACTOR
+  id: court
+- type: ACTOR
+  id: elevatus
+- type: ACTOR
+  id: employer
+- type: ACTOR
+  id: government authorities
+- type: ACTOR
+  id: headhunter
+- type: ACTOR
+  id: law enforcement official
+- type: ACTOR
+  id: link to profile
+- type: ACTOR
+  id: manager
+- type: ACTOR
+  id: recruiter
+- type: ACTOR
+  id: supervisor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cold backup of datum store for year
+- type: DATA
+  id: company name
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: datum pertain to
+- type: DATA
+  id: datum pertain to tracking of applicant through own customize template
+- type: DATA
+  id: datum process
+- type: DATA
+  id: datum you use
+- type: DATA
+  id: email address
+- type: DATA
+  id: encrypt password
+- type: DATA
+  id: identification information
+- type: DATA
+  id: ingest log
+- type: DATA
+  id: insight on user behavior on system
+- type: DATA
+  id: network request
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum regard network audit
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personality report
+- type: DATA
+  id: postal address
+- type: DATA
+  id: professional identity
+- type: DATA
+  id: system access log

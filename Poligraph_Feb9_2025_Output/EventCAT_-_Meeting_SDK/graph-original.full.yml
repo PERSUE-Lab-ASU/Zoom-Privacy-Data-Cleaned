@@ -1,0 +1,575 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We also use your information to ensure that our services are working as intended,
+    such as tracking outages or troubleshooting issues that you report to us.
+  - We may provide information to other trusted businesses or persons to process it
+    for the services, based on our instructions and in compliance with our Privacy
+    Policy and any other appropriate confidentiality and security measures.
+  - We use data for analytics and measurement to understand how our services are used.
+  - We use data to build better services.
+  - We use information to help improve the safety and reliability of our services.
+  - We use your information to deliver our services.
+  - We, XL8 Inc., collect information to provide better services to all our users.
+  purposes:
+    analytics:
+    - to understand how our services are used
+    security:
+    - to help improve the safety and reliability of our services
+    services:
+    - to build better services
+    - to deliver our services
+    - to ensure that our services are working as intended, such as tracking outages
+      or troubleshooting issues that you report to us
+    - to help improve the safety and reliability of our services
+    - to process it for the services
+    - to provide better services to all our users
+- source: we
+  target: activity information
+  key: COLLECT
+  text:
+  - 'The activity information we collect may include:'
+  purposes: {}
+- source: we
+  target: datum about visit to site
+  key: COLLECT
+  text:
+  - For example, we analyze data about your visits to our sites to do things like
+    optimizing the product design.
+  purposes:
+    services:
+    - to do things like optimizing the product design
+- source: we
+  target: email notification of privacy policy change
+  key: COLLECT
+  text:
+  - If changes are significant, we'll provide a more prominent notice (including,
+    for certain services, email notification of Privacy Policy changes).
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We may collect the location information when you use our services, which helps
+    us offer the best user language of the UI.We use various technologies to collect
+    and store information, including cookies, pixel tags, local storage, such as browser
+    web storage or application data caches, databases, and server logs.
+  purposes: {}
+- source: we
+  target: information about environment of you as user of service
+  key: COLLECT
+  text:
+  - We may collect information about the environment of you as a user of our services
+    to improve the user experience.
+  purposes:
+    services:
+    - to improve the user experience
+- source: we
+  target: information about interaction of app with service
+  key: COLLECT
+  text:
+  - We may also collect information about the interaction of your apps, browsers,
+    and devices with our services, including IP address, crash reports, system activity,
+    and the date, time, and referrer URL of your request.
+  purposes: {}
+- source: we
+  target: information collect through use of tracking tool
+  key: COLLECT
+  text:
+  - When you're not signed in to an account, we store the information collected through
+    our use of tracking and analytics tools.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We may use the information we collect, like your email address, to interact with
+    you directly.
+  purposes:
+    services:
+    - to interact with you directly
+- source: we
+  target: information we collect from service
+  key: COLLECT
+  text:
+  - 'We use the information we collect from all our services for the following purposes:'
+  purposes: {}
+- source: we
+  target: information we store with account we treat as personal information
+  key: COLLECT
+  text:
+  - When you're signed in, we also collect information that we store with your account,
+    which we treat as personal information.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We collect information about your activities in our services.
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - '3. For legal reasons
+
+
+    We may share non-personally identifiable information publicly and with our partners
+    -- like publishers, advertisers, developers, or rights holders.'
+  purposes:
+    legal:
+    - 3. For legal reasons
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - '1. With your consent
+
+
+    We''ll share personal information outside of XL8 when we have your consent.'
+  - 'Sharing your personal information
+
+
+    3. For legal reasons
+
+
+    We will share personal information outside of XL8 if we have a good-faith belief
+    that disclosure of the information is reasonably necessary to:'
+  - We maintain servers around the world and your personal information may be processed
+    on servers located outside of the country where you live.
+  - When you create an account, you provide us with your personal information that
+    includes your name and a password.
+  purposes:
+    legal:
+    - 3. For legal reasons
+- source: we
+  target: record of request
+  key: COLLECT
+  text:
+  - And if you contact XL8, we'll keep a record of your request in order to help solve
+    any issues you might be facing.
+  purposes:
+    services:
+    - in order to help solve any issues you might be facing
+- source: we
+  target: server around world
+  key: COLLECT
+  text:
+  - We maintain servers around the world and your personal information may be processed
+    on servers located outside of the country where you live.
+  purposes: {}
+- source: advertiser
+  target: non-personal information
+  key: COLLECT
+  text:
+  - '3. For legal reasons
+
+
+    We may share non-personally identifiable information publicly and with our partners
+    -- like publishers, advertisers, developers, or rights holders.'
+  purposes:
+    legal:
+    - 3. For legal reasons
+- source: developer
+  target: non-personal information
+  key: COLLECT
+  text:
+  - '3. For legal reasons
+
+
+    We may share non-personally identifiable information publicly and with our partners
+    -- like publishers, advertisers, developers, or rights holders.'
+  purposes:
+    legal:
+    - 3. For legal reasons
+- source: publisher
+  target: non-personal information
+  key: COLLECT
+  text:
+  - '3. For legal reasons
+
+
+    We may share non-personally identifiable information publicly and with our partners
+    -- like publishers, advertisers, developers, or rights holders.'
+  purposes:
+    legal:
+    - 3. For legal reasons
+- source: trusted business
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may provide information to other trusted businesses or persons to process it
+    for the services, based on our instructions and in compliance with our Privacy
+    Policy and any other appropriate confidentiality and security measures.
+  purposes:
+    services:
+    - to process it for the services
+- source: we
+  target: page
+  key: SUBSUM
+  text:
+  - 'This information includes: Usage Data: How you interact with our services, such
+    as pages visited, time spent on each page, and actions taken (e.g., button clicks).'
+- source: we
+  target: xl8 inc.
+  key: SUBSUM
+  text:
+  - We, XL8 Inc., collect information to provide better services to all our users.
+- source: activity information
+  target: button
+  key: SUBSUM
+  text:
+  - 'The activity information we collect may include: Your activities of using the
+    UI, such as the buttons your click or text you type in, which may be stored in
+    texts, audio, video, or other types of debug information'
+- source: activity information
+  target: text you type in
+  key: SUBSUM
+  text:
+  - 'The activity information we collect may include: Your activities of using the
+    UI, such as the buttons your click or text you type in, which may be stored in
+    texts, audio, video, or other types of debug information'
+- source: appropriate regulatory authority
+  target: local datum protection authority
+  key: SUBSUM
+  text:
+  - We work with the appropriate regulatory authorities, including local data protection
+    authorities, to resolve any complaints regarding the transfer of your data that
+    we cannot resolve with you directly.
+- source: detail about device
+  target: browser version
+  key: SUBSUM
+  text:
+  - 'This information includes: Device Information: Details about your device, such
+    as the type, operating system, and browser version.'
+- source: information about environment of you as user of service
+  target: application version number
+  key: SUBSUM
+  text:
+  - This information may include unique identifiers, browser type and settings, device
+    type and settings, operating systems, mobile network information including carrier
+    names and phone numbers, and application version numbers.
+  - We may collect information about the environment of you as a user of our services
+    to improve the user experience.
+- source: information about environment of you as user of service
+  target: browser type
+  key: SUBSUM
+  text:
+  - This information may include unique identifiers, browser type and settings, device
+    type and settings, operating systems, mobile network information including carrier
+    names and phone numbers, and application version numbers.
+  - We may collect information about the environment of you as a user of our services
+    to improve the user experience.
+- source: information about environment of you as user of service
+  target: device type
+  key: SUBSUM
+  text:
+  - This information may include unique identifiers, browser type and settings, device
+    type and settings, operating systems, mobile network information including carrier
+    names and phone numbers, and application version numbers.
+  - We may collect information about the environment of you as a user of our services
+    to improve the user experience.
+- source: information about environment of you as user of service
+  target: identifier
+  key: SUBSUM
+  text:
+  - This information may include unique identifiers, browser type and settings, device
+    type and settings, operating systems, mobile network information including carrier
+    names and phone numbers, and application version numbers.
+  - We may collect information about the environment of you as a user of our services
+    to improve the user experience.
+- source: information about environment of you as user of service
+  target: mobile network information
+  key: SUBSUM
+  text:
+  - This information may include unique identifiers, browser type and settings, device
+    type and settings, operating systems, mobile network information including carrier
+    names and phone numbers, and application version numbers.
+  - We may collect information about the environment of you as a user of our services
+    to improve the user experience.
+- source: information about environment of you as user of service
+  target: setting
+  key: SUBSUM
+  text:
+  - This information may include unique identifiers, browser type and settings, device
+    type and settings, operating systems, mobile network information including carrier
+    names and phone numbers, and application version numbers.
+  - We may collect information about the environment of you as a user of our services
+    to improve the user experience.
+- source: information about interaction of app with service
+  target: crash report
+  key: SUBSUM
+  text:
+  - We may also collect information about the interaction of your apps, browsers,
+    and devices with our services, including IP address, crash reports, system activity,
+    and the date, time, and referrer URL of your request.
+- source: information about interaction of app with service
+  target: date
+  key: SUBSUM
+  text:
+  - We may also collect information about the interaction of your apps, browsers,
+    and devices with our services, including IP address, crash reports, system activity,
+    and the date, time, and referrer URL of your request.
+- source: information about interaction of app with service
+  target: internet activity
+  key: SUBSUM
+  text:
+  - We may also collect information about the interaction of your apps, browsers,
+    and devices with our services, including IP address, crash reports, system activity,
+    and the date, time, and referrer URL of your request.
+- source: information about interaction of app with service
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may also collect information about the interaction of your apps, browsers,
+    and devices with our services, including IP address, crash reports, system activity,
+    and the date, time, and referrer URL of your request.
+- source: information about interaction of app with service
+  target: time
+  key: SUBSUM
+  text:
+  - We may also collect information about the interaction of your apps, browsers,
+    and devices with our services, including IP address, crash reports, system activity,
+    and the date, time, and referrer URL of your request.
+- source: information collect through use of tracking tool
+  target: crash data
+  key: SUBSUM
+  text:
+  - 'This information includes: Crash and Performance Data: Information related to
+    technical errors, performance metrics, and crashes to improve service reliability
+    and performance.'
+  - When you're not signed in to an account, we store the information collected through
+    our use of tracking and analytics tools.
+- source: information collect through use of tracking tool
+  target: detail about device
+  key: SUBSUM
+  text:
+  - 'This information includes: Device Information: Details about your device, such
+    as the type, operating system, and browser version.'
+  - When you're not signed in to an account, we store the information collected through
+    our use of tracking and analytics tools.
+- source: information collect through use of tracking tool
+  target: device information
+  key: SUBSUM
+  text:
+  - 'This information includes: Device Information: Details about your device, such
+    as the type, operating system, and browser version.'
+  - When you're not signed in to an account, we store the information collected through
+    our use of tracking and analytics tools.
+- source: information collect through use of tracking tool
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'This information includes: IP Address and General Location: Your IP address,
+    which may be used to infer general location, such as the country or city level.'
+  - When you're not signed in to an account, we store the information collected through
+    our use of tracking and analytics tools.
+- source: information collect through use of tracking tool
+  target: information relate to technical error improve service reliability
+  key: SUBSUM
+  text:
+  - 'This information includes: Crash and Performance Data: Information related to
+    technical errors, performance metrics, and crashes to improve service reliability
+    and performance.'
+  - When you're not signed in to an account, we store the information collected through
+    our use of tracking and analytics tools.
+- source: information collect through use of tracking tool
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'This information includes: Usage Data: How you interact with our services, such
+    as pages visited, time spent on each page, and actions taken (e.g., button clicks).'
+  - When you're not signed in to an account, we store the information collected through
+    our use of tracking and analytics tools.
+- source: information collect through use of tracking tool
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'This information includes: IP Address and General Location: Your IP address,
+    which may be used to infer general location, such as the country or city level.'
+  - When you're not signed in to an account, we store the information collected through
+    our use of tracking and analytics tools.
+- source: information we collect
+  target: email address
+  key: SUBSUM
+  text:
+  - We may use the information we collect, like your email address, to interact with
+    you directly.
+- source: internet activity
+  target: time spend on page
+  key: SUBSUM
+  text:
+  - 'This information includes: Usage Data: How you interact with our services, such
+    as pages visited, time spent on each page, and actions taken (e.g., button clicks).'
+- source: local storage
+  target: browser web storage
+  key: SUBSUM
+  text:
+  - We may collect the location information when you use our services, which helps
+    us offer the best user language of the UI.We use various technologies to collect
+    and store information, including cookies, pixel tags, local storage, such as browser
+    web storage or application data caches, databases, and server logs.
+- source: local storage
+  target: server log
+  key: SUBSUM
+  text:
+  - We may collect the location information when you use our services, which helps
+    us offer the best user language of the UI.We use various technologies to collect
+    and store information, including cookies, pixel tags, local storage, such as browser
+    web storage or application data caches, databases, and server logs.
+- source: mobile network information
+  target: carrier name
+  key: SUBSUM
+  text:
+  - This information may include unique identifiers, browser type and settings, device
+    type and settings, operating systems, mobile network information including carrier
+    names and phone numbers, and application version numbers.
+- source: mobile network information
+  target: phone number
+  key: SUBSUM
+  text:
+  - This information may include unique identifiers, browser type and settings, device
+    type and settings, operating systems, mobile network information including carrier
+    names and phone numbers, and application version numbers.
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - When you create an account, you provide us with your personal information that
+    includes your name and a password.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you create an account, you provide us with your personal information that
+    includes your name and a password.
+- source: technology
+  target: application datum cache
+  key: SUBSUM
+  text:
+  - We may collect the location information when you use our services, which helps
+    us offer the best user language of the UI.We use various technologies to collect
+    and store information, including cookies, pixel tags, local storage, such as browser
+    web storage or application data caches, databases, and server logs.
+- source: technology
+  target: database
+  key: SUBSUM
+  text:
+  - We may collect the location information when you use our services, which helps
+    us offer the best user language of the UI.We use various technologies to collect
+    and store information, including cookies, pixel tags, local storage, such as browser
+    web storage or application data caches, databases, and server logs.
+nodes:
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: application datum cache
+- type: ACTOR
+  id: appropriate regulatory authority
+- type: ACTOR
+  id: database
+- type: ACTOR
+  id: developer
+- type: ACTOR
+  id: local datum protection authority
+- type: ACTOR
+  id: page
+- type: ACTOR
+  id: publisher
+- type: ACTOR
+  id: technology
+- type: ACTOR
+  id: trusted business
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: xl8 inc.
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: activity information
+- type: DATA
+  id: application version number
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: browser web storage
+- type: DATA
+  id: button
+- type: DATA
+  id: carrier name
+- type: DATA
+  id: crash data
+- type: DATA
+  id: crash report
+- type: DATA
+  id: date
+- type: DATA
+  id: datum about visit to site
+- type: DATA
+  id: detail about device
+- type: DATA
+  id: device information
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: email notification of privacy policy change
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about environment of you as user of service
+- type: DATA
+  id: information about interaction of app with service
+- type: DATA
+  id: information collect through use of tracking tool
+- type: DATA
+  id: information relate to technical error improve service reliability
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information we collect from service
+- type: DATA
+  id: information we store with account we treat as personal information
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: local storage
+- type: DATA
+  id: mobile network information
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: record of request
+- type: DATA
+  id: server around world
+- type: DATA
+  id: server log
+- type: DATA
+  id: setting
+- type: DATA
+  id: text you type in
+- type: DATA
+  id: time
+- type: DATA
+  id: time spend on page

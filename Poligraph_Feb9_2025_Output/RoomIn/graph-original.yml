@@ -1,0 +1,22 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: roomin
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    RoomIn may collect the following personal information from users:'
+  - 'Privacy Policy
+
+
+    RoomIn uses users'' personal information for the following purposes:'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: roomin
+- type: DATA
+  id: personal information

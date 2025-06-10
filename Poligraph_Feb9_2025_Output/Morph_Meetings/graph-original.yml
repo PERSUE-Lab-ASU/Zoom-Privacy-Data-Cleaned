@@ -1,0 +1,157 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may share your information with trusted third parties to provide
+    and enhance our services:'
+  - This Privacy Policy explains how we collect, use, and safeguard your information
+    when you visit any website using the morphdatastrategies.com domain (collectively
+    referred to as the "Website").
+  - We use cookies to enhance user experience and collect data for analytics purposes.
+  - 'We use your information for the following purposes:'
+  purposes:
+    advertising:
+    - 'Carrd: For landing pages and form submissions'
+    - 'MailChimp: For newsletters and marketing emails.'
+    - To manage customer relationships and send marketing materials where permitted
+    - To personalize user experiences and generate leads
+    analytics:
+    - 'Google Analytics: To monitor Website performance and usage trends'
+    - 'Recall.ai: For processing meeting-related data, such as transcription and analysis.'
+    - for analytics purposes
+    security:
+    - 'Stripe: For secure payment processing.'
+    services:
+    - 'Carrd: For landing pages and form submissions'
+    - 'Recall.ai: For processing meeting-related data, such as transcription and analysis.'
+    - 'Squarespace: For hosting and managing parts of our Website'
+    - 'Stripe: For secure payment processing.'
+    - To improve and optimize our Website and services
+    - To personalize user experiences and generate leads
+    - To respond to inquiries and provide information about our services
+    - to provide and enhance our services
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - 'Automatically Collected Information : When you use our Website, we may collect:
+    IP address, browser type, device type, and operating system.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to enhance user experience and collect data for analytics purposes.
+  purposes:
+    analytics:
+    - to enhance user experience and collect data for analytics purposes
+    services:
+    - to enhance user experience and collect data for analytics purposes
+- source: we
+  target: device type
+  key: COLLECT
+  text:
+  - 'Automatically Collected Information : When you use our Website, we may collect:
+    IP address, browser type, device type, and operating system.'
+  purposes: {}
+- source: we
+  target: interaction datum
+  key: COLLECT
+  text:
+  - 'Automatically Collected Information : When you use our Website, we may collect:
+    Interaction data, such as pages visited, time spent on pages, and referring URLs.'
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'Automatically Collected Information : When you use our Website, we may collect:
+    IP address, browser type, device type, and operating system.'
+  purposes: {}
+- source: we
+  target: meeting datum
+  key: COLLECT
+  text:
+  - For clients using the Morph Meetings platform, we collect and store meeting data
+    such as audio, transcripts, and summaries.
+  purposes:
+    services:
+    - For clients using the Morph Meetings platform
+- source: we
+  target: operate system
+  key: COLLECT
+  text:
+  - 'Automatically Collected Information : When you use our Website, we may collect:
+    IP address, browser type, device type, and operating system.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your personal information if required by law or to comply with
+    legal processes such as subpoenas or court orders.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may share your information with trusted third parties to provide
+    and enhance our services:'
+  purposes:
+    advertising:
+    - 'Carrd: For landing pages and form submissions'
+    - 'MailChimp: For newsletters and marketing emails.'
+    analytics:
+    - 'Google Analytics: To monitor Website performance and usage trends'
+    - 'Recall.ai: For processing meeting-related data, such as transcription and analysis.'
+    security:
+    - 'Stripe: For secure payment processing.'
+    services:
+    - 'Carrd: For landing pages and form submissions'
+    - 'Recall.ai: For processing meeting-related data, such as transcription and analysis.'
+    - 'Squarespace: For hosting and managing parts of our Website'
+    - 'Stripe: For secure payment processing.'
+    - to provide and enhance our services
+- source: interaction datum
+  target: refer url
+  key: SUBSUM
+  text:
+  - 'Automatically Collected Information : When you use our Website, we may collect:
+    Interaction data, such as pages visited, time spent on pages, and referring URLs.'
+- source: meeting datum
+  target: audio
+  key: SUBSUM
+  text:
+  - For clients using the Morph Meetings platform, we collect and store meeting data
+    such as audio, transcripts, and summaries.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: audio
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: device type
+- type: DATA
+  id: interaction datum
+- type: DATA
+  id: ip address
+- type: DATA
+  id: meeting datum
+- type: DATA
+  id: operate system
+- type: DATA
+  id: personal information
+- type: DATA
+  id: refer url

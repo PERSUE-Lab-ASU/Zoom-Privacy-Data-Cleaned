@@ -1,0 +1,180 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We only use this information for statistical analysis purposes and then the data
+    is removed from the system.
+  purposes:
+    analytics:
+    - for statistical analysis purposes
+- source: we
+  target: alert regard change in policy
+  key: COLLECT
+  text:
+  - We may provide you with alerts regarding any changes in this Policy by posting
+    information on our website and, if you are a customer by email.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We only use traffic log cookies to identify which pages are being used.
+  purposes:
+    analytics:
+    - to identify which pages are being used
+- source: we
+  target: datum about web page traffic
+  key: COLLECT
+  text:
+  - This helps us analyse data about web page traffic and improve our website in order
+    to tailor it to customer needs.
+  - We only use this information for statistical analysis purposes and then the data
+    is removed from the system.
+  purposes:
+    analytics:
+    - for statistical analysis purposes
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We collect information such as name and email address.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - A cookie in no way gives us access to your computer or any information about you,
+    other than the data you choose to share with us.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We collect information such as name and email address.
+  purposes: {}
+- source: we
+  target: personal data we maintain about you
+  key: COLLECT
+  text:
+  - We may transfer Personal Data that we maintain about you to recipients in countries
+    other than the country in which the Personal Data was originally collected, including
+    to the United States.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We collect and store your personal data: when you visit our website; when you
+    download ebooks or whitepapers; when you complete forms on our website to subscribe
+    to a service or newsletter; when you request assistance from our Support team
+    via the website, the chat or our platform; when you upload or watch a video via
+    our platform or our player.'
+  - We may share Personal Data to comply with applicable law, and to respond to requests
+    from courts and other public and government authorities, which may include authorities
+    outside your country of residence.
+  - We only share your Personal Data with a limited number of trusted service providers
+    to assist us in providing the Services to you such as website hosting, infrastructure
+    provider, content delivery networks, customer service, email delivery, banking
+    operation, credit card networks .
+  - We retain your Personal Data as long as we are providing the Services to you and
+    after we cease providing Services to you, even if you close your account, in order
+    to comply with our legal, tax and accounting obligations and/or in order to resolve
+    disputes.
+  - 'You are entitled to: request that we transfer your personal data to you or another
+    service provider in a simple, structured format;'
+  purposes:
+    legal:
+    - to comply with applicable law, and to respond to requests from courts and other
+      public and government authorities, which may include authorities outside your
+      country of residence
+    services:
+    - to assist us in providing the Services to you such as website hosting, infrastructure
+      provider, content delivery networks, customer service, email delivery, banking
+      operation, credit card networks
+- source: api.video
+  target: log file information
+  key: COLLECT
+  text:
+  - 'api.video may collect and store: personal information we request in order to
+    deliver our services, when you sign up or register for an account on our platform;
+    log file information each time you access our website.'
+  purposes: {}
+- source: api.video
+  target: personal information
+  key: COLLECT
+  text:
+  - 'How Personal Data is used api.video uses personal information that we collect
+    about you or that you provide to us, in order to: 1. to send you Newsletters,
+    White Papers, Ebooks; 2. to provide you with access to our services; 3. to maintain
+    access controls over secured areas of our websites and platform; 4. to communicate
+    with you and respond to your questions relating to usage of our platform; 5. to
+    process your payment; 6. to enhance your experience using our websites and services;
+    7. for analytics and research purposes, including to monitor and track usage of
+    the Service; 8. for marketing and advertising purposes, such as to offer you our
+    new products or services we think that you may be interested in.'
+  purposes:
+    advertising:
+    - 8. for marketing and advertising purposes, such as to offer you our new products
+      or services we think that you may be interested in
+    analytics:
+    - 7. for analytics and research purposes, including to monitor and track usage
+      of the Service;
+    security:
+    - 'in order to: 1. to send you Newsletters, White Papers, Ebooks; 2. to provide
+      you with access to our services; 3. to maintain access controls over secured
+      areas of our websites and platform;'
+    services:
+    - 'in order to: 1. to send you Newsletters, White Papers, Ebooks; 2. to provide
+      you with access to our services; 3. to maintain access controls over secured
+      areas of our websites and platform;'
+- source: api.video
+  target: personal information we request
+  key: COLLECT
+  text:
+  - 'api.video may collect and store: personal information we request in order to
+    deliver our services, when you sign up or register for an account on our platform;
+    log file information each time you access our website.'
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - These service providers may need to access Personal Data to perform their services.
+  - 'You are entitled to: request that we transfer your personal data to you or another
+    service provider in a simple, structured format;'
+  purposes:
+    services:
+    - to perform their services
+nodes:
+- type: ACTOR
+  id: api.video
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: alert regard change in policy
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about web page traffic
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: log file information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal data we maintain about you
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information we request

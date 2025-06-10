@@ -1,0 +1,741 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We collect this information:'
+  - We may also use your information to contact you about goods and services that
+    may be of interest to you, including through newsletters.
+  purposes:
+    advertising:
+    - to contact you about goods and services that may be of interest to you, including
+      through newsletters
+    services:
+    - to contact you about goods and services that may be of interest to you, including
+      through newsletters
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - However, we may disclose aggregated information about our users, and information
+    that does not identify any individual, without restriction.
+  purposes: {}
+- source: we
+  target: clickstream datum
+  key: COLLECT
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: that is about you but individually does not identify
+    you, such as traffic data, logs, referring/exit pages, date and time of your visit
+    to or use of our Digital Services, error information, clickstream data, and other
+    communication data and the resources that you access and use on or through our
+    Digital Services; or'
+  purposes: {}
+- source: we
+  target: communication datum
+  key: COLLECT
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: that is about you but individually does not identify
+    you, such as traffic data, logs, referring/exit pages, date and time of your visit
+    to or use of our Digital Services, error information, clickstream data, and other
+    communication data and the resources that you access and use on or through our
+    Digital Services; or'
+  purposes: {}
+- source: we
+  target: date
+  key: COLLECT
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: that is about you but individually does not identify
+    you, such as traffic data, logs, referring/exit pages, date and time of your visit
+    to or use of our Digital Services, error information, clickstream data, and other
+    communication data and the resources that you access and use on or through our
+    Digital Services; or'
+  purposes: {}
+- source: we
+  target: detail of visit to digital services
+  key: COLLECT
+  text:
+  - 'As you navigate through and interact with our Digital Services, we may use automatic
+    data collection technologies to collect certain information about your equipment,
+    browsing actions, and patterns, specifically: details of your visits to our Digital
+    Services, such as traffic data, location, logs, referring/exit pages, date and
+    time of your visit to or use of our Digital Services, error information, clickstream
+    data, and other communication data and the resources that you access and use on
+    or in the Digital Services; and'
+  purposes: {}
+- source: we
+  target: error information
+  key: COLLECT
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: that is about you but individually does not identify
+    you, such as traffic data, logs, referring/exit pages, date and time of your visit
+    to or use of our Digital Services, error information, clickstream data, and other
+    communication data and the resources that you access and use on or through our
+    Digital Services; or'
+  purposes: {}
+- source: we
+  target: information about computer
+  key: COLLECT
+  text:
+  - 'As you navigate through and interact with our Digital Services, we may use automatic
+    data collection technologies to collect certain information about your equipment,
+    browsing actions, and patterns, specifically: information about your computer,
+    mobile device, and Internet connection, specifically your IP address, operating
+    system, browser type, and App version information.'
+  purposes: {}
+- source: we
+  target: information about equipment
+  key: COLLECT
+  text:
+  - 'As you navigate through and interact with our Digital Services, we may use automatic
+    data collection technologies to collect certain information about your equipment,
+    browsing actions, and patterns, specifically:'
+  purposes:
+    analytics:
+    - details of your visits to our Digital Services, such as traffic data, location,
+      logs, referring/exit pages, date and time of your visit to or use of our Digital
+      Services, error information, clickstream data, and other communication data
+      and the resources that you access and use on or in the Digital Services; and
+    - 'specifically: information about your computer, mobile device, and Internet
+      connection, specifically your IP address, operating system, browser type, and
+      App version information'
+    services:
+    - details of your visits to our Digital Services, such as traffic data, location,
+      logs, referring/exit pages, date and time of your visit to or use of our Digital
+      Services, error information, clickstream data, and other communication data
+      and the resources that you access and use on or in the Digital Services; and
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - 'We use information that we collect about you or that you provide to us, including
+    any Personal Data:'
+  purposes:
+    advertising:
+    - to provide you with information, products, or services that you request from
+      us or that may be of interest to you
+    analytics:
+    - to provide you with information, products, or services that you request from
+      us or that may be of interest to you
+    legal:
+    - to carry out our obligations and enforce our rights arising from any contracts
+      entered into between you and us, including for billing and collection
+    services:
+    - to contact you in response to a request
+    - to process, fulfill, support, and administer transactions and orders for products
+      and services ordered by you
+    - to provide our App and its functionality, contents and services
+    - to provide our Website and its functionality, contents and services
+    - to provide products and services to you
+    - to provide you with information, products, or services that you request from
+      us or that may be of interest to you
+    - to provide you with notices about your ZymeBalanz account
+- source: we
+  target: log
+  key: COLLECT
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: that is about you but individually does not identify
+    you, such as traffic data, logs, referring/exit pages, date and time of your visit
+    to or use of our Digital Services, error information, clickstream data, and other
+    communication data and the resources that you access and use on or through our
+    Digital Services; or'
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - However, we may disclose aggregated information about our users, and information
+    that does not identify any individual, without restriction.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As described in more detail in other areas of our Privacy Policy, we collect and/or
+    disclose personal information about you when you visit use our Digital Services,
+    including information about you that you provide to us, and information that we
+    automatically collect from you or your computer or device as you use our Digital
+    Services.
+  - The information we collect automatically may include Personal Data or we may maintain
+    it or associate it with Personal Data we collect in other ways or receive from
+    third parties.
+  - We collect personal information directly from you, for example when you provide
+    it to us, when you contact us through our Digital Services, when you create a
+    ZymeBalanz account; and indirectly from you automatically through your computer
+    or device as you use our Digital Services.
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+  - We disclose your personal information to certain third parties such as our health
+    care Provider partners, service providers, including companies that assist us
+    with marketing and advertising.
+  - We may also collect personal information about you from our advertising partners
+    and service providers.
+  - 'We may also disclose your Personal Data:'
+  - 'We may disclose Personal Data that we collect or you provide as described in
+    this Privacy Policy:'
+  - We may disclose your personal information for our business purposes, such as your
+    contact information, other information you have provided to us and unique identifiers
+    that identify you to us or to our service providers, such as companies that assist
+    us with marketing and advertising.
+  - We may use or disclose the personal information we collect for our business purposes
+    described elsewhere in this Privacy Policy (for example, please refer to " How
+    We Use Your Information " and " Disclosure of Your Information ").
+  - We use Your Personal data to provide and improve the Service.
+  purposes:
+    advertising:
+    - to market their products or services to you
+    legal:
+    - to comply with any court order, law, or legal process, including to respond
+      to any government or regulatory request
+    - to enforce or apply our Terms of Use [INSERT LINK] and other agreements, including
+      for billing and collection purposes;
+    services:
+    - to enforce or apply our Terms of Use [INSERT LINK] and other agreements, including
+      for billing and collection purposes;
+    - to provide and improve the Service
+- source: we
+  target: phi
+  key: COLLECT
+  text:
+  - We may use and disclose your PHI to provide requested services, to contact you
+    to the extent permitted by law, to provide information to your Providers, to respond
+    to your inquiries and requests, and to respond to inquiries and requests from
+    your Providers, and for other purposes permitted by our BAA with your Provider.
+  purposes:
+    services:
+    - to provide requested services, to contact you to the extent permitted by law,
+      to provide information to your Providers, to respond to your inquiries and requests,
+      and to respond to inquiries and requests from your Providers, and for other
+      purposes permitted by our BAA with your Provider
+- source: we
+  target: several type
+  key: COLLECT
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information:'
+  purposes: {}
+- source: we
+  target: traffic datum
+  key: COLLECT
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: that is about you but individually does not identify
+    you, such as traffic data, logs, referring/exit pages, date and time of your visit
+    to or use of our Digital Services, error information, clickstream data, and other
+    communication data and the resources that you access and use on or through our
+    Digital Services; or'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'CALIFORNIA RESIDENTS
+
+
+    ZymeBalanz may disclose your personal information to a third party for one or
+    more business purposes.'
+  - 'We may also disclose your Personal Data: to affiliates and third parties to market
+    their products or services to you if you have not opted out of these disclosures.'
+  - 'We may disclose Personal Data that we collect or you provide as described in
+    this Privacy Policy: to affiliates, contractors, service providers, and other
+    third parties we use to support our business.'
+  purposes:
+    advertising:
+    - to market their products or services to you
+    legal:
+    - to comply with any court order, law, or legal process, including to respond
+      to any government or regulatory request
+    - to enforce or apply our Terms of Use [INSERT LINK] and other agreements, including
+      for billing and collection purposes;
+    services:
+    - to enforce or apply our Terms of Use [INSERT LINK] and other agreements, including
+      for billing and collection purposes;
+- source: contractor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose Personal Data that we collect or you provide as described in
+    this Privacy Policy: to affiliates, contractors, service providers, and other
+    third parties we use to support our business.'
+  purposes: {}
+- source: digital services
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - No one under age 18 may provide any information to or through the Digital Services.
+  purposes: {}
+- source: health care provider partner
+  target: personal information
+  key: COLLECT
+  text:
+  - We disclose your personal information to certain third parties such as our health
+    care Provider partners, service providers, including companies that assist us
+    with marketing and advertising.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - We disclose your personal information to certain third parties such as our health
+    care Provider partners, service providers, including companies that assist us
+    with marketing and advertising.
+  - 'We may disclose Personal Data that we collect or you provide as described in
+    this Privacy Policy: to affiliates, contractors, service providers, and other
+    third parties we use to support our business.'
+  purposes: {}
+- source: zymebalanz
+  target: personal information
+  key: COLLECT
+  text:
+  - 'CALIFORNIA RESIDENTS
+
+
+    ZymeBalanz may disclose your personal information to a third party for one or
+    more business purposes.'
+  purposes: {}
+- source: we
+  target: zymebalanz
+  key: SUBSUM
+  text:
+  - This Privacy Policy (our " Privacy Policy ") describes the types of information
+    we may collect from you or that you may provide when you visit or use our website
+    located at www.z-suite.net (our " Website ") or our mobile application including
+    Zymebalanz (our " App ") and our practices for collecting, using, maintaining,
+    protecting, and disclosing that information.
+- source: detail of visit to digital services
+  target: clickstream datum
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with our Digital Services, we may use automatic
+    data collection technologies to collect certain information about your equipment,
+    browsing actions, and patterns, specifically: details of your visits to our Digital
+    Services, such as traffic data, location, logs, referring/exit pages, date and
+    time of your visit to or use of our Digital Services, error information, clickstream
+    data, and other communication data and the resources that you access and use on
+    or in the Digital Services; and'
+- source: detail of visit to digital services
+  target: communication datum
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with our Digital Services, we may use automatic
+    data collection technologies to collect certain information about your equipment,
+    browsing actions, and patterns, specifically: details of your visits to our Digital
+    Services, such as traffic data, location, logs, referring/exit pages, date and
+    time of your visit to or use of our Digital Services, error information, clickstream
+    data, and other communication data and the resources that you access and use on
+    or in the Digital Services; and'
+- source: detail of visit to digital services
+  target: date
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with our Digital Services, we may use automatic
+    data collection technologies to collect certain information about your equipment,
+    browsing actions, and patterns, specifically: details of your visits to our Digital
+    Services, such as traffic data, location, logs, referring/exit pages, date and
+    time of your visit to or use of our Digital Services, error information, clickstream
+    data, and other communication data and the resources that you access and use on
+    or in the Digital Services; and'
+- source: detail of visit to digital services
+  target: error information
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with our Digital Services, we may use automatic
+    data collection technologies to collect certain information about your equipment,
+    browsing actions, and patterns, specifically: details of your visits to our Digital
+    Services, such as traffic data, location, logs, referring/exit pages, date and
+    time of your visit to or use of our Digital Services, error information, clickstream
+    data, and other communication data and the resources that you access and use on
+    or in the Digital Services; and'
+- source: detail of visit to digital services
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with our Digital Services, we may use automatic
+    data collection technologies to collect certain information about your equipment,
+    browsing actions, and patterns, specifically: details of your visits to our Digital
+    Services, such as traffic data, location, logs, referring/exit pages, date and
+    time of your visit to or use of our Digital Services, error information, clickstream
+    data, and other communication data and the resources that you access and use on
+    or in the Digital Services; and'
+- source: detail of visit to digital services
+  target: log
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with our Digital Services, we may use automatic
+    data collection technologies to collect certain information about your equipment,
+    browsing actions, and patterns, specifically: details of your visits to our Digital
+    Services, such as traffic data, location, logs, referring/exit pages, date and
+    time of your visit to or use of our Digital Services, error information, clickstream
+    data, and other communication data and the resources that you access and use on
+    or in the Digital Services; and'
+- source: detail of visit to digital services
+  target: traffic datum
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with our Digital Services, we may use automatic
+    data collection technologies to collect certain information about your equipment,
+    browsing actions, and patterns, specifically: details of your visits to our Digital
+    Services, such as traffic data, location, logs, referring/exit pages, date and
+    time of your visit to or use of our Digital Services, error information, clickstream
+    data, and other communication data and the resources that you access and use on
+    or in the Digital Services; and'
+- source: health care provider partner
+  target: company assist we with marketing
+  key: SUBSUM
+  text:
+  - We disclose your personal information to certain third parties such as our health
+    care Provider partners, service providers, including companies that assist us
+    with marketing and advertising.
+- source: information we collect about you
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'We use information that we collect about you or that you provide to us, including
+    any Personal Data:'
+- source: personal information
+  target: address of business with we share personal information with for immediately
+    prior calendar year
+  key: SUBSUM
+  text:
+  - '9. California Privacy Rights for California Residents
+
+
+    9.10 OTHER CALIFORNIA PRIVACY RIGHTS
+
+
+    California Civil Code Section 1798.83 (California''s " Shine the Light " law)
+    permits users of our Digital Services that are California residents and who provide
+    personal information in obtaining products and services for personal, family,
+    or household use to request certain information regarding our disclosure of personal
+    information to third parties for their own direct marketing purposes. If applicable,
+    this information would include the categories of personal information and the
+    names and addresses of those businesses with which we shared your personal information
+    with for the immediately prior calendar year (e.g. requests made in 2020 will
+    receive information regarding such activities in 2019).'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - We may disclose your personal information for our business purposes, such as your
+    contact information, other information you have provided to us and unique identifiers
+    that identify you to us or to our service providers, such as companies that assist
+    us with marketing and advertising.
+- source: personal information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: personal information
+  target: date of birth
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: personal information
+  target: government identifier
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: personal information
+  target: home
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: personal information
+  target: identifier
+  key: SUBSUM
+  text:
+  - We may disclose your personal information for our business purposes, such as your
+    contact information, other information you have provided to us and unique identifiers
+    that identify you to us or to our service providers, such as companies that assist
+    us with marketing and advertising.
+- source: personal information
+  target: individually identifiable relate personal information
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: personal information
+  target: information regard activity
+  key: SUBSUM
+  text:
+  - If applicable, this information would include the categories of Personal Data
+    and the names and addresses of those businesses with which we shared your Personal
+    Data for the immediately prior calendar year (e.g. requests made in 2020 will
+    receive information regarding such activities in 2019).
+- source: personal information
+  target: information regard activity in 2019
+  key: SUBSUM
+  text:
+  - '9. California Privacy Rights for California Residents
+
+
+    9.10 OTHER CALIFORNIA PRIVACY RIGHTS
+
+
+    California Civil Code Section 1798.83 (California''s " Shine the Light " law)
+    permits users of our Digital Services that are California residents and who provide
+    personal information in obtaining products and services for personal, family,
+    or household use to request certain information regarding our disclosure of personal
+    information to third parties for their own direct marketing purposes. If applicable,
+    this information would include the categories of personal information and the
+    names and addresses of those businesses with which we shared your personal information
+    with for the immediately prior calendar year (e.g. requests made in 2020 will
+    receive information regarding such activities in 2019).'
+- source: personal information
+  target: information you provide to we
+  key: SUBSUM
+  text:
+  - We may disclose your personal information for our business purposes, such as your
+    contact information, other information you have provided to us and unique identifiers
+    that identify you to us or to our service providers, such as companies that assist
+    us with marketing and advertising.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - '9. California Privacy Rights for California Residents
+
+
+    9.10 OTHER CALIFORNIA PRIVACY RIGHTS
+
+
+    California Civil Code Section 1798.83 (California''s " Shine the Light " law)
+    permits users of our Digital Services that are California residents and who provide
+    personal information in obtaining products and services for personal, family,
+    or household use to request certain information regarding our disclosure of personal
+    information to third parties for their own direct marketing purposes. If applicable,
+    this information would include the categories of personal information and the
+    names and addresses of those businesses with which we shared your personal information
+    with for the immediately prior calendar year (e.g. requests made in 2020 will
+    receive information regarding such activities in 2019).'
+  - If applicable, this information would include the categories of Personal Data
+    and the names and addresses of those businesses with which we shared your Personal
+    Data for the immediately prior calendar year (e.g. requests made in 2020 will
+    receive information regarding such activities in 2019).
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - If applicable, this information would include the categories of Personal Data
+    and the names and addresses of those businesses with which we shared your Personal
+    Data for the immediately prior calendar year (e.g. requests made in 2020 will
+    receive information regarding such activities in 2019).
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: personal information
+  target: preference
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: personal information
+  target: racial origin
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: personal information
+  target: sexual orientation
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of our Digital Services,
+    specifically information: by which you may be personally identified, such as name,
+    postal address, billing address, shipping address, email address, home, work,
+    and mobile telephone numbers, date of birth, credit or debit card number (for
+    payment purposes only), government, national, or national identification number,
+    racial or ethnic origin, sexual orientation and preferences, and certain individually
+    identifiable health-related personal information (collectively, " Personal Data
+    ");'
+- source: service provider
+  target: company assist we with marketing
+  key: SUBSUM
+  text:
+  - We may disclose your personal information for our business purposes, such as your
+    contact information, other information you have provided to us and unique identifiers
+    that identify you to us or to our service providers, such as companies that assist
+    us with marketing and advertising.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: company assist we with marketing
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: digital services
+- type: ACTOR
+  id: health care provider partner
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zymebalanz
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: address of business with we share personal information with for immediately
+    prior calendar year
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: communication datum
+- type: DATA
+  id: contact information
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: detail of visit to digital services
+- type: DATA
+  id: email address
+- type: DATA
+  id: error information
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: government identifier
+- type: DATA
+  id: home
+- type: DATA
+  id: identifier
+- type: DATA
+  id: individually identifiable relate personal information
+- type: DATA
+  id: information about computer
+- type: DATA
+  id: information about equipment
+- type: DATA
+  id: information regard activity
+- type: DATA
+  id: information regard activity in 2019
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: log
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phi
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: preference
+- type: DATA
+  id: racial origin
+- type: DATA
+  id: several type
+- type: DATA
+  id: sexual orientation
+- type: DATA
+  id: traffic datum

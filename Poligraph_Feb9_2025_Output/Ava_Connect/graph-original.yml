@@ -1,0 +1,403 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We process your data in order to fulfill one or more of the following purposes:
+    * manage your account, subscription and access and use of Ava Services, including
+    information about your account status, invoicing and your compliance with our
+    terms of use (the "Terms"); * provide you the Services, including Ava''s automatic
+    automatic sound, speech and speaker recognition technology, where your personal
+    data might be necessary in implementation of the Terms; * customize your experience
+    of Ava, its Site or Services based on your hearing profile, when you consent explicitly
+    to it, as such data may be considered as health data.'
+  - When you interact with us through the Services, we may collect Personal Information
+    and other information from you when you provide such information, such as when
+    you create an account ("Account"), complete and/or use one of our online forms,
+    tools or content items, contact us with inquiries, respond to one of our surveys,
+    or use certain Services.
+  purposes:
+    services:
+    - 'in order to fulfill one or more of the following purposes: * manage your account,
+      subscription and access and use of Ava Services, including information about
+      your account status, invoicing and your compliance with our terms of use (the
+      "Terms"); * provide you the Services, including Ava''s automatic automatic sound,
+      speech and speaker recognition technology, where your personal data might be
+      necessary in implementation of the Terms'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - In addition to Session Trackers, we may use web beacons (also known as "clear
+    GIFs"), which are transparent graphic images placed on a web page or in an email
+    and indicate that a page or email has been viewed or tell your browser to get
+    content from another server.
+  - We also use cookies to help us understand how people use our site and to serve
+    Ava ads when you visit other sites.
+  - We use web beacons to measure traffic to or from, or use of, our online forms,
+    tools or content items and related browsing behavior and to improve your experience
+    when using the Services.
+  purposes:
+    advertising:
+    - to help us understand how people use our site and to serve Ava ads when you
+      visit other sites
+    analytics:
+    - to help us understand how people use our site and to serve Ava ads when you
+      visit other sites
+    - to measure traffic to or from, or use of, our online forms, tools or content
+      items and related browsing behavior and to improve your experience when using
+      the Services
+- source: we
+  target: device identifier
+  key: COLLECT
+  text:
+  - We may use a Device Identifier to, among other things, administer the Services,
+    help diagnose problems with our servers, analyze trends, track users' web page
+    movements, monitor against theft and fraud, and gather broad demographic information
+    for aggregate use.
+  purposes:
+    analytics:
+    - to, among other things, administer the Services, help diagnose problems with
+      our servers, analyze trends, track users' web page movements, monitor against
+      theft and fraud, and gather broad demographic information for aggregate use
+    security:
+    - to, among other things, administer the Services, help diagnose problems with
+      our servers, analyze trends, track users' web page movements, monitor against
+      theft and fraud, and gather broad demographic information for aggregate use
+    services:
+    - to, among other things, administer the Services, help diagnose problems with
+      our servers, analyze trends, track users' web page movements, monitor against
+      theft and fraud, and gather broad demographic information for aggregate use
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may receive information about you from third parties.
+  purposes: {}
+- source: we
+  target: information necessary
+  key: COLLECT
+  text:
+  - We collect and process only the information necessary for communication access
+    for educational purposes and services, in accordance with FERPA guidelines.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Additionally, we may modify and combine Personal Information in a manner that
+    does not personally identify you or any other individual and thus, no longer constitutes
+    "Personal Information".
+  - If your employer is subsidizing your subscription to Ava Pro, we may share limited
+    Personal Information with that employer, including your name, employee email,
+    place of employment, along with non-Personal Information, such as your accessibility
+    needs, to facilitate processing of the employer's subsidy, for joint marketing
+    purposes, or to enhance your use of Ava's service.
+  - We may share your Personal Information with unaffiliated third parties that provide
+    certain services to us, including, but not limited to data analysis, payment processing.
+  - We may use this non-Personal Information, such as aggregate user statistics, demographic
+    information, and usage information, for any lawful purpose.
+  - We may use your Personal Information to provide you with marketing or other promotional
+    communications via SMS.
+  - We may use your Personal Information to provide you with marketing or other promotional
+    communications via email.
+  - 'We will retain your Personal Information for a period of time that does not exceed
+    the time necessary for the purposes for which the data were collected: If you
+    use our Site, Ava retains your Personal Information:
+
+    - for the duration required to process your request; - as long as you have not
+    withdrawn your consent to receive newsletters and information about Ava and its
+    Services.'
+  - When you interact with us through the Services, we may collect Personal Information
+    and other information from you when you provide such information, such as when
+    you create an account ("Account"), complete and/or use one of our online forms,
+    tools or content items, contact us with inquiries, respond to one of our surveys,
+    or use certain Services.
+  - You use the Services and provide us with your Personal Information at your own
+    risk.
+  purposes:
+    advertising:
+    - to facilitate processing of the employer's subsidy, for joint marketing purposes,
+      or to enhance your use of Ava's service
+    - to provide you with marketing or other promotional communications via SMS
+    - to provide you with marketing or other promotional communications via email
+    services:
+    - to facilitate processing of the employer's subsidy, for joint marketing purposes,
+      or to enhance your use of Ava's service
+- source: we
+  target: services usage
+  key: COLLECT
+  text:
+  - Session trackers help provide additional functionality to the Services, customize
+    users' experiences with the Services and help us analyze Services usage more accurately
+    for research and product development purposes.
+  purposes:
+    analytics:
+    - for research and product development purposes
+    services:
+    - for research and product development purposes
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Also if any bankruptcy or reorganization proceeding is brought by or against us,
+    all such information may be considered an asset of ours and as such may be sold
+    or transferred to third parties.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about
+  key: COLLECT
+  text:
+  - If another entity acquires us or our assets, or assets related to the Services,
+    Personal Information, information about how the Services are accessed and used,
+    and any other information that we have collected about the users of the Services
+    may be disclosed to such entity as one of the transferred assets.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information we collect about user of services
+  key: COLLECT
+  text:
+  - If another entity acquires us or our assets, or assets related to the Services,
+    Personal Information, information about how the Services are accessed and used,
+    and any other information that we have collected about the users of the Services
+    may be disclosed to such entity as one of the transferred assets.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - These third parties may have access to Personal Information or non-Personal Information
+    in order to perform their functions on our behalf.
+  - We may share your Personal Information with unaffiliated third parties that provide
+    certain services to us, including, but not limited to data analysis, payment processing.
+  purposes:
+    services:
+    - in order to perform their functions on our behalf
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - However, these third parties are only permitted to use your Personal Information
+    for the purpose for which it has been provided or to administer, service or process
+    transactions that you have authorized, and may not disclose it to any other third
+    party except at our express direction and in accordance with this Policy.
+  - If another entity acquires us or our assets, or assets related to the Services,
+    Personal Information, information about how the Services are accessed and used,
+    and any other information that we have collected about the users of the Services
+    may be disclosed to such entity as one of the transferred assets.
+  - These third parties may have access to Personal Information or non-Personal Information
+    in order to perform their functions on our behalf.
+  - We may share your Personal Information with unaffiliated third parties that provide
+    certain services to us, including, but not limited to data analysis, payment processing.
+  purposes:
+    services:
+    - for the purpose for which it has been provided or to administer, service or
+      process transactions that you have authorized
+    - in order to perform their functions on our behalf
+- source: ava
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Ava uses "cookies" to help personalize your use of our site, including for storing
+    user preferences, such as your language preference.
+  purposes:
+    services:
+    - to help personalize your use of our site, including for storing user preferences,
+      such as your language preference
+- source: ava
+  target: identifier
+  key: COLLECT
+  text:
+  - Ava also automatically collects an IP address or other unique identifier for the
+    computer, mobile device, technology or other device (collectively "Device") you
+    use to access the Services.
+  purposes: {}
+- source: ava
+  target: ip address
+  key: COLLECT
+  text:
+  - Ava also automatically collects an IP address or other unique identifier for the
+    computer, mobile device, technology or other device (collectively "Device") you
+    use to access the Services.
+  purposes: {}
+- source: ava
+  target: personal information
+  key: COLLECT
+  text:
+  - 'If you or your interlocutors are using our Services, Ava retains your Personal
+    Information: - as long as your Account has not been deactivated, in a maximum
+    limit of 5 years, or as needed to provide you services, comply with our legal
+    obligations, resolve disputes, or enforce our agreements.'
+  - 'We will retain your Personal Information for a period of time that does not exceed
+    the time necessary for the purposes for which the data were collected: If you
+    use our Site, Ava retains your Personal Information:
+
+    - for the duration required to process your request; - as long as you have not
+    withdrawn your consent to receive newsletters and information about Ava and its
+    Services.'
+  purposes: {}
+- source: feature
+  target: ip address
+  key: COLLECT
+  text:
+  - For example, the Services may include features from social media platforms such
+    as Facebook, and we may enable you to register or log-in to the Services through
+    a social media platform.
+  - These features use Session Trackers to collect information about your IP address,
+    and your use of the Services.
+  purposes: {}
+- source: we
+  target: automatic automatic sound recognition technology
+  key: SUBSUM
+  text:
+  - 'We process your data in order to fulfill one or more of the following purposes:
+    * manage your account, subscription and access and use of Ava Services, including
+    information about your account status, invoicing and your compliance with our
+    terms of use (the "Terms"); * provide you the Services, including Ava''s automatic
+    automatic sound, speech and speaker recognition technology, where your personal
+    data might be necessary in implementation of the Terms; * customize your experience
+    of Ava, its Site or Services based on your hearing profile, when you consent explicitly
+    to it, as such data may be considered as health data.'
+- source: we
+  target: ava
+  key: SUBSUM
+  text:
+  - 'General
+
+
+    Transcense, Inc. ("Ava," "we," "us" and/or "our") is dedicated to protecting your
+    personal information and informing you about how we use it.'
+- source: personal information
+  target: aggregate user statistic
+  key: SUBSUM
+  text:
+  - Additionally, we may modify and combine Personal Information in a manner that
+    does not personally identify you or any other individual and thus, no longer constitutes
+    "Personal Information".
+  - We may use this non-Personal Information, such as aggregate user statistics, demographic
+    information, and usage information, for any lawful purpose.
+- source: personal information
+  target: demographic information
+  key: SUBSUM
+  text:
+  - Additionally, we may modify and combine Personal Information in a manner that
+    does not personally identify you or any other individual and thus, no longer constitutes
+    "Personal Information".
+  - We may use this non-Personal Information, such as aggregate user statistics, demographic
+    information, and usage information, for any lawful purpose.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - If you sign up for the Services, you will be asked to provide Personal Information
+    such as your first and last name, email address or telephone number, and other
+    information that identifies you.
+- source: personal information
+  target: employee email
+  key: SUBSUM
+  text:
+  - If your employer is subsidizing your subscription to Ava Pro, we may share limited
+    Personal Information with that employer, including your name, employee email,
+    place of employment, along with non-Personal Information, such as your accessibility
+    needs, to facilitate processing of the employer's subsidy, for joint marketing
+    purposes, or to enhance your use of Ava's service.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - If you sign up for the Services, you will be asked to provide Personal Information
+    such as your first and last name, email address or telephone number, and other
+    information that identifies you.
+  - If your employer is subsidizing your subscription to Ava Pro, we may share limited
+    Personal Information with that employer, including your name, employee email,
+    place of employment, along with non-Personal Information, such as your accessibility
+    needs, to facilitate processing of the employer's subsidy, for joint marketing
+    purposes, or to enhance your use of Ava's service.
+- source: personal information
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - If you sign up for the Services, you will be asked to provide Personal Information
+    such as your first and last name, email address or telephone number, and other
+    information that identifies you.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - If you sign up for the Services, you will be asked to provide Personal Information
+    such as your first and last name, email address or telephone number, and other
+    information that identifies you.
+- source: personal information
+  target: place of employment
+  key: SUBSUM
+  text:
+  - If your employer is subsidizing your subscription to Ava Pro, we may share limited
+    Personal Information with that employer, including your name, employee email,
+    place of employment, along with non-Personal Information, such as your accessibility
+    needs, to facilitate processing of the employer's subsidy, for joint marketing
+    purposes, or to enhance your use of Ava's service.
+- source: personal information
+  target: usage information
+  key: SUBSUM
+  text:
+  - Additionally, we may modify and combine Personal Information in a manner that
+    does not personally identify you or any other individual and thus, no longer constitutes
+    "Personal Information".
+  - We may use this non-Personal Information, such as aggregate user statistics, demographic
+    information, and usage information, for any lawful purpose.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: automatic automatic sound recognition technology
+- type: ACTOR
+  id: ava
+- type: ACTOR
+  id: feature
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate user statistic
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: employee email
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information necessary
+- type: DATA
+  id: information we collect about user of services
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: place of employment
+- type: DATA
+  id: services usage
+- type: DATA
+  id: usage information

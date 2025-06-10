@@ -1,0 +1,346 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use your data to provide and improve the Service.
+  purposes:
+    services:
+    - to provide and improve the Service
+- source: we
+  target: access token
+  key: COLLECT
+  text:
+  - Once authorized with https://www.googleapis.com/auth/calendar.events.owned, we
+    shall store the access token on our servers and refresh this token to send your
+    business's yoga class information to your PRIMARY Google calendar and update these
+    events accordingly.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and similar tracking technologies to track the activity on our
+    Service and hold certain information.
+  purposes:
+    analytics:
+    - to track the activity on our Service and hold certain information
+- source: we
+  target: description
+  key: COLLECT
+  text:
+  - We shall store your Google business's description, opening hours and images on
+    our servers.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We shall store your Google account's email address, username and profile picture
+    on our servers.
+  - We store the name and email address as well as any social media ID, which is stored
+    on our secure servers in Europe for a period of 90 days.
+  purposes: {}
+- source: we
+  target: image
+  key: COLLECT
+  text:
+  - We shall store your Google business's description, opening hours and images on
+    our servers.
+  purposes: {}
+- source: we
+  target: information access
+  key: COLLECT
+  text:
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We store the name and email address as well as any social media ID, which is stored
+    on our secure servers in Europe for a period of 90 days.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If you are located outside Taiwan and choose to provide information to us, please
+    note that we transfer the data, including Personal Data, to Taiwan and process
+    it there.
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: preference cookies
+  key: COLLECT
+  text:
+  - We use Preference Cookies to remember your preferences and various settings.
+  purposes:
+    services:
+    - to remember your preferences and various settings
+- source: we
+  target: profile picture
+  key: COLLECT
+  text:
+  - We shall store your Google account's email address, username and profile picture
+    on our servers.
+  purposes: {}
+- source: we
+  target: security cookies
+  key: COLLECT
+  text:
+  - We use Security Cookies for security purposes.
+  purposes:
+    security:
+    - for security purposes
+- source: we
+  target: session cookies
+  key: COLLECT
+  text:
+  - We use Session Cookies to operate our Service.
+  purposes:
+    services:
+    - to operate our Service
+- source: we
+  target: several different type
+  key: COLLECT
+  text:
+  - We collect several different types of information for various purposes to provide
+    and improve our Service to you.
+  purposes: {}
+- source: we
+  target: social medium id
+  key: COLLECT
+  text:
+  - We store the name and email address as well as any social media ID, which is stored
+    on our secure servers in Europe for a period of 90 days.
+  purposes: {}
+- source: we
+  target: username
+  key: COLLECT
+  text:
+  - We shall store your Google account's email address, username and profile picture
+    on our servers.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties have access to your Personal Data only to perform these tasks
+    on our behalf and are obligated not to disclose or use it for any other purpose.
+  purposes:
+    services:
+    - only to perform these tasks on our behalf
+- source: omcean booking
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Omcean Booking may disclose your Personal Data in the good faith belief that
+    such action is necessary to: To comply with a legal obligation To protect and
+    defend the rights or property of Omcean Booking To prevent or investigate possible
+    wrongdoing in connection with the Service To protect the personal safety of users
+    of the Service or the public To protect against legal liability Data Retention'
+  purposes: {}
+- source: omcean booking online system
+  target: datum about individual
+  key: COLLECT
+  text:
+  - Omcean Booking online system stores data about individuals in order to create
+    an account.
+  purposes:
+    services:
+    - in order to create an account
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with small amount of data which may include an anonymous unique
+    identifier.
+- source: internet activity
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: device identifier
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: diagnostic datum
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: personal identifier
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Email
+    address First name and last name Phone number Address, State, Province, ZIP/Postal
+    code, City Cookies and Usage Data'
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Email
+    address First name and last name Phone number Address, State, Province, ZIP/Postal
+    code, City Cookies and Usage Data'
+- source: personal identifier
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Email
+    address First name and last name Phone number Address, State, Province, ZIP/Postal
+    code, City Cookies and Usage Data'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Email
+    address First name and last name Phone number Address, State, Province, ZIP/Postal
+    code, City Cookies and Usage Data'
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Email
+    address First name and last name Phone number Address, State, Province, ZIP/Postal
+    code, City Cookies and Usage Data'
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Email
+    address First name and last name Phone number Address, State, Province, ZIP/Postal
+    code, City Cookies and Usage Data'
+- source: personal identifier
+  target: state zip postal code
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Email
+    address First name and last name Phone number Address, State, Province, ZIP/Postal
+    code, City Cookies and Usage Data'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: omcean booking
+- type: ACTOR
+  id: omcean booking online system
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access token
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about individual
+- type: DATA
+  id: description
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: diagnostic datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: image
+- type: DATA
+  id: information access
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: preference cookies
+- type: DATA
+  id: profile picture
+- type: DATA
+  id: security cookies
+- type: DATA
+  id: session cookies
+- type: DATA
+  id: several different type
+- type: DATA
+  id: social medium id
+- type: DATA
+  id: state zip postal code
+- type: DATA
+  id: username

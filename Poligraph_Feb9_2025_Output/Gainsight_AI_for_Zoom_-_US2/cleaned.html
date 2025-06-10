@@ -1,0 +1,706 @@
+<!DOCTYPE html><html lang="en-US"><head>
+	<!--BE Head: Start-->
+	
+<!-- be_ixf, sdk, gho-->
+<meta name="be:sdk" content="php_sdk_1.5.3">
+<meta name="be:timer" content="16ms">
+<meta name="be:orig_url" content="https%3A%2F%2Fwww.gainsight.com%2Fpolicy%2Fprivacy%2F">
+<meta name="be:norm_url" content="https%3A%2F%2Fwww.gainsight.com%2Fpolicy%2Fprivacy%2F">
+<meta name="be:capsule_url" content="https%3A%2F%2Fixfd1-api.bc0a.com%2Fapi%2Fixf%2F1.0.0%2Fget_capsule%2Ff00000000052869%2F2007288288">
+<meta name="be:api_dt" content="py_2025;pm_01;pd_22;ph_20;pmh_53;p_epoch:1.73757919022E+12">
+<meta name="be:mod_dt" content="py_2025;pm_01;pd_22;ph_20;pmh_53;p_epoch:1.73757919022E+12">
+<meta name="be:diag" content="jksaZWqI0h5urkbpIMB52s0CA3IJuxfKZRd2cP9vic1Q8RWfa7/XaMONlyhuAU0RP3YYvxW9HPaD5VJUvkycX4TATm5ME8orqAJ4geeIlmQwGVtaQ0goYvUVvGiL1zjMPAP6PcBfK6DEWRt4WsjjRZxoHQciD7Roz+ip3Bq2abHxTZSDuN9offPmBPd/IJLJ+jivpRSou9joy0CwwYDjk8WRQL4gSrItxzp0uqosoOI0uog0A4p8ud7vXPpi3P3cysxEsKlb8Y7qkIIHK9hSn/+LKTpDIBSMmrQ8b+LuinNZhS6W9HhQoEfPvspRxnWpvhZIF02N0tZgwQjpqnekfOJF95PXJonH5XQFa5MOeTm+FfVmFGf9Wicd23t4T3MTVn0HjixRwopRiuTK71Xzg3flo75pOVr2d9YRZJkLtRZHBBdhA/DZCoZoTMgWlFyu7dmH3Ocl82v+EMGJq00LLo/8sPUVypF9QIV40FVcYhiORqN0lkH/OOyl0BdMSnHIwWBg7ZYEHg4XLK/0Y1XaB9JUiDunRrXrZwaDFa1DaKiagctTCAQpnlh40Pzt6yV5godYMy0Uxg/BOAw8PJiJjb7gG7/CLAqQt9NltFXneovEwBJHR9bqQ2+brnvHPq6OjAgzAqGjnPgB+2JjPEEEPxf6RrvCbiAalK76J5GpPQS5e2v5eUeGDrZNlmD4C31LLoB2i2AcJ58+iRi4w2J5FpWjfLkoUEqWdvxVmvud8yf/7M6YwCdNczofeQVbPzp/oRnjgA6V3kgsLoDp+dd1FNg4Sf/9la5qk6UWHJW7m1AIvPdH/erak8qq3SR87hdkunVE65nqiixScyZn/vuiIaOx3BKN89+54ITaKvr7DBZFKjezL1tYSYGi85jgbvfT4TlKlsIBFXy41DCDgNT+rPRG+r5vTWpL5zeCNQbZs8axHGhTOVquNiKtZZC7p2aawk3aFzMCil21I9C9bvZ5iC+GsHDTbWlBCmgVdRKSs3caV0TKDpRRfp0Gd7Wh+gDSI9DJN3sLEy00MaMx4lELfh1qFtK4Z486ciNkCPWDjfBUgEa4McJwEZigXTvwR0Dh8Bl7aUN1xxUMofGt55WXMvF+D+QPYR+KLzEEn6paZ6EqfN66cI1WgSTyswqTj3Ye4yXtE0fk2Gp9nGZO4j/pbGKgp/bqLH1gkwaVETAFAPVrEjLhXdCb1Xkcmc30CJ1+ZfEUQAjhrjohxzjJqQv66w0tfj6FfzhGnPhiGWb0DC1yZ74ZYV3rvjZwNlrDDl+bZj54vJJpzs1pmjTdZ1Rc5A0nkUTPrCz6UBRd9i3L+BDpFEqozdEBxjSopNMfjG7jzJAJwBt61KO1bjW7RVhrJ4xa+P5C33unakoOgsDIus2aZeBi5xgP+ARg8mQyX9d+AFVS9VXVFb5PrG0CblCiOff9+laVTZjuQ5ttdYJeaOCWLRxeGewu09ikNlxTqtocT9KgzGKmA/Ko3nDnIUHW6F5xdnc4/VG8rppvNMAfQzVEMmIQKssUrjiU8tRjKAJ/c4L+aJF3ZzfEvX8C4Fkvl66SSAvlCPE8MFlpCN9sziak+0I7hLsOaCE1idix60hyZXRQ/k+PhahAikV0Yejx2tS8OySFr5/Rt2jMlnzsQpNqOZLBt4X65xwK8v8U/0mKSmPDzPLj0ueGBeEse3fyNLQTHvaoFuwqlDJ4RHV/gMAsQEf5VE+VhREqANuyUwMUJOJDf92ARFOM7IkCJERc/4/lVkpdd+9VDPks1av4RyNbqxkubV2BoC6l77j8QMl4nKUNdln0rpuuPq2wl8PJ0dcygxKmoaG8JjalhPYd4UBEaW4ZMLSri94M0U++PXA3wRjlqpCPFvIBg7q9FucbiFph56+7vguRCeOP0hIw1T0uNw9ELSYHwk02snlfHzrp/eJPmNDRO0D+HEKvzagoSfHu7PbMIiHbmkeUz/X/OAcGs70LwntQFoGugl1ApobCPo9x4JIHBbTSzgvNXY0UXL1RVzyl6wIlhppGRBkgeGtRtDsMO7uTe6O+v//Z3On9VdHzwQQPpQmlxBdfEH5NeYBbx6XoXlqbgZBiiaSJ98VdxACJUhHzbhfqTKR8Ryn1DQc7YmN8BZ4QyzITsKp0rgbl7SxZXZEoZLkx/BaIGDOfhfQjNvgeHnAm2Sth+Oxms4n9PuVJyXzqDJWALkHG/xL0RITObIDjAnpfXK/07y8s8YuGIiDeGRHRGODkQPJMRpB9mhWO0r4sKjLQjmgl1oeT4Oxkqj9aaHOgww34bM68pi5SkznKo2oscnUHDkZSteN2YFNUjoGOyvKrMOUBBHU8JP//ydItS6OpE6wea8qmUnm6vyhlaDYtdMETZ3SBeoe1PLi6mLxV7MMw7T93kHrRhjiinC4jb1RZ0OaGCVmbq7IPf8Rfc/S49AXs/zuZKeIOeuMzKbwJTccIuljXkn7ggYDLnrGnQSIxg2tamdFBsnT0MNuLBUG2uVllnY3f">
+<meta name="be:messages" content="false">
+	<!--BE Head: End-->
+	<!-- Google Tag Manager -->
+	
+	<!-- End Google Tag Manager -->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Privacy Policy | Customer Success Software | Gainsight</title>
+	<!-- Mobile Specific Metas & Favicons -->
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">	
+	
+	<!-- 180×180 -->
+	
+	
+
+	<!-- WordPress Stuff -->
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	
+	
+	<!-- This site is optimized with the Yoast SEO plugin v24.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="The Official page of Gainsight's Services Privacy Notice. This Notice explains who we are, how we collect, share and use personal information about you, and how you can exercise your privacy rights.">
+	
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Privacy Policy | Customer Success Software | Gainsight">
+	<meta property="og:description" content="The Official page of Gainsight's Services Privacy Notice. This Notice explains who we are, how we collect, share and use personal information about you, and how you can exercise your privacy rights.">
+	<meta property="og:url" content="https://www.gainsight.com/policy/privacy/">
+	<meta property="og:site_name" content="Gainsight Software">
+	<meta property="article:publisher" content="https://www.facebook.com/gainsight">
+	<meta property="article:modified_time" content="2025-01-07T20:03:23+00:00">
+	<meta property="og:image" content="https://www.gainsight.com/wp-content/uploads/2018/05/privacypolicy.jpg">
+	<meta property="og:image:width" content="1600">
+	<meta property="og:image:height" content="900">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@GainsightHQ">
+	
+	<!-- / Yoast SEO plugin. -->
+
+
+
+
+
+
+
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+<meta name="generator" content="Redux 4.4.5.2">
+
+	
+
+	<meta name="google-site-verification" content="4R4s956s0mPH3F1ldXECibB9BysPCMQzxt5Ddwp89bA">
+	<meta name="facebook-domain-verification" content="9gaecba8qip4glp5oqrxzf7dfzd5gf">
+	<meta name="msvalidate.01" content="1B7EE7AC83A54C95C75AF2D9A02CF861">
+<style id="_6si-shortening">/* This stylesheet is created by 6sense */
+            .mktoForm .mktoFormRow:has(._6si_sff_filled) {
+                display: none;
+            }
+            .mktoForm .mktoFormRow ._6si_sff_filled {
+                display: none;
+            }
+            .hs-form .hs-form-field:has(._6si_sff_filled) {
+                display: none;
+            }
+            .hs-form .hs-form-field ._6si_sff_filled {
+                display: none;
+            }
+            form .form-field:not(.error):has(._6si_sff_filled) {
+                display: none;
+            }
+            form .form-field:not(.error) ._6si_sff_filled {
+                display: none;
+            }
+            .elq-form .row:has(._6si_sff_filled) {
+                display: none;
+            }
+            .elq-form .row ._6si_sff_filled {
+                display: none;
+            }
+            .elq-form .field-wrapper:has(._6si_sff_filled) {
+                display: none;
+            }
+            .elq-form .field-wrapper ._6si_sff_filled {
+                display: none;
+            }</style></head>
+
+<body class="policy-template-default single single-policy postid-20277 mega-menu-main-navigation"><div id="hs-web-interactives-top-push-anchor" class="go3670563033"></div>
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P79GRJD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<div class="site-wrapper wrapall">
+		
+
+
+
+
+
+<div id="mobile-header">
+	<div class="container">
+		<div class="mobile-left">
+							<div id="nav-toggle" data-bs-toggle="collapse" data-bs-target="#mobile-navigation" aria-expanded="false" aria-controls="mobile-navigation" class="collapsed">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+						<div id="mobile-logo" class="logo">
+				<a href="https://www.gainsight.com" title="Gainsight Software"><img src="https://www.gainsight.com/wp-content/themes/unicon-child/framework/images/logos/gainsight-color.svg" alt="Gainsight Software"></a>			</div>
+		</div>
+		<div class="mobile-right">
+							
+				<a class="cta" href="https://info.gainsight.com/demo.html" tabindex="0">Schedule a Demo</a>
+					</div>
+	</div>
+</div>
+<div id="mobile-navigation" class="collapse">
+	<ul>
+					<li class="child-item has-children">
+				<a class="child-title">
+					Products <i class="fas fa-chevron-down"></i>				</a>
+									<ul style="display: none;">
+													<li class="child-item ">
+								<a class="child-title" href="/staircase-ai/">
+									Staircase AI by Gainsight 								</a>
+															</li>
+													<li class="child-item ">
+								<a class="child-title" href="/customer-success/">
+									Customer Success 								</a>
+															</li>
+													<li class="child-item ">
+								<a class="child-title" href="/product-experience/">
+									Product Experience 								</a>
+															</li>
+													<li class="child-item ">
+								<a class="child-title" href="/customer-communities/">
+									Customer Communities 								</a>
+															</li>
+													<li class="child-item ">
+								<a class="child-title" href="/customer-education/">
+									Customer Education 								</a>
+															</li>
+													<li class="child-item has-children">
+								<a class="child-title">
+									Platform <i class="fas fa-chevron-down"></i>								</a>
+																	<ul style="display: none;">
+																					<li><a href="/platform/">Leverage Gainsight’s full platform</a></li>
+																					<li><a href="/marketplace/">Apps &amp; Integrations</a></li>
+																					<li><a href="/solutions/the-power-of-ai-at-gainsight/#">Unleash the Power of AI</a></li>
+																			</ul>
+															</li>
+											</ul>
+							</li>
+					<li class="child-item ">
+				<a class="child-title" href="/pricing/">
+					Pricing 				</a>
+							</li>
+					<li class="child-item has-children">
+				<a class="child-title">
+					Solutions <i class="fas fa-chevron-down"></i>				</a>
+									<ul style="display: none;">
+													<li class="child-item has-children">
+								<a class="child-title">
+									By Use Case <i class="fas fa-chevron-down"></i>								</a>
+																	<ul style="display: none;">
+																					<li><a href="/digital-customer-success/">Digital Customer Success</a></li>
+																					<li><a href="/partnerships/sap/">Gainsight CS for SAP Sales Cloud</a></li>
+																					<li><a href="https://essentials.gainsight.com/">Start and Scale Fast</a></li>
+																					<li><a href="/solutions/scale-efficiency/">Scale and Efficiency</a></li>
+																					<li><a href="/solutions/customer-retention/">Retention</a></li>
+																					<li><a href="/solutions/expansion/">Expansion</a></li>
+																					<li><a href="/solutions/product-adoption/">Product Adoption</a></li>
+																			</ul>
+															</li>
+													<li class="child-item has-children">
+								<a class="child-title">
+									By Team <i class="fas fa-chevron-down"></i>								</a>
+																	<ul style="display: none;">
+																					<li><a href="/solutions/gainsight-for-customer-success-teams/">Customer Success</a></li>
+																					<li><a href="/solutions/gainsight-for-product-experience-teams/">Product</a></li>
+																					<li><a href="/solutions/gainsight-for-customer-experience-teams/">Customer Experience</a></li>
+																					<li><a href="/solutions/gainsight-for-revenue-teams/">Revenue and Sales</a></li>
+																					<li><a href="/solutions/gainsight-for-it-analytics-teams/">IT and Analytics</a></li>
+																					<li><a href="/solutions/gainsight-for-executives/">Executives</a></li>
+																					<li><a href="/solutions/community-teams/">Community Teams</a></li>
+																			</ul>
+															</li>
+											</ul>
+							</li>
+					<li class="child-item ">
+				<a class="child-title" href="/customers/">
+					Customers 				</a>
+							</li>
+					<li class="child-item has-children">
+				<a class="child-title">
+					Resources <i class="fas fa-chevron-down"></i>				</a>
+									<ul style="display: none;">
+													<li class="child-item has-children">
+								<a class="child-title">
+									The Latest from Gainsight <i class="fas fa-chevron-down"></i>								</a>
+																	<ul style="display: none;">
+																					<li><a href="/resources/">Resource Library</a></li>
+																					<li><a href="/blog/">Gainsight Blog</a></li>
+																					<li><a href="/events/">Upcoming Events and Webinars</a></li>
+																					<li><a href="/events/?posttype=on-demand">On-Demand Webinars</a></li>
+																					<li><a href="/glossary/">Glossary</a></li>
+																					<li><a href="/resource-library/">Gainsight Essentials</a></li>
+																			</ul>
+															</li>
+													<li class="child-item has-children">
+								<a class="child-title">
+									By Topic <i class="fas fa-chevron-down"></i>								</a>
+																	<ul style="display: none;">
+																					<li><a href="https://ai.gainsight.com/">Human-First AI</a></li>
+																					<li><a href="/cs-ops-central/">CS Ops Central</a></li>
+																					<li><a href="/resources/customer-success-team-resources/">Customer Success Teams</a></li>
+																			</ul>
+															</li>
+													<li class="child-item has-children">
+								<a class="child-title">
+									Customer Resources <i class="fas fa-chevron-down"></i>								</a>
+																	<ul style="display: none;">
+																					<li><a href="https://community.gainsight.com/">Customer Community</a></li>
+																					<li><a href="https://education.gainsight.com/">Training &amp; Certifications</a></li>
+																					<li><a href="https://support.gainsight.com/">Product Support</a></li>
+																					<li><a href="https://support.gainsight.com/SFDC_Edition/API_and_Developer_Docs">API &amp; Developer Docs</a></li>
+																			</ul>
+															</li>
+													<li class="child-item has-children">
+								<a class="child-title">
+									Industry Resources <i class="fas fa-chevron-down"></i>								</a>
+																	<ul style="display: none;">
+																					<li><a href="/cs-ops-central/">CS Ops Central</a></li>
+																					<li><a href="/customer-success-career-hub/">Customer Success Job Board</a></li>
+																					<li><a href="/pulse-plus/">Pulse Plus</a></li>
+																					<li><a href="https://gainsightpulse.com/pulse-2022/?__hstc=30793952.91688b5ab1bc7c991a04713a4bf82060.1739308040642.1739308040642.1739308040642.1&amp;__hssc=30793952.1.1739308040642&amp;__hsfp=3618309378">Pulse Conference</a></li>
+																					<li><a href="https://pulselibrary.gainsight.com/">Pulse Library</a></li>
+																			</ul>
+															</li>
+													<li class="child-item has-children">
+								<a class="child-title">
+									Gainsight Essential Guides <i class="fas fa-chevron-down"></i>								</a>
+																	<ul style="display: none;">
+																					<li><a href="/guides/the-essential-guide-to-quarterly-business-reviews/">Quarterly Business Reviews (QBRs)</a></li>
+																					<li><a href="/guides/the-essential-guide-to-customer-success/">Customer Success</a></li>
+																					<li><a href="/guides/essential-guide-voice-customer/">Voice of the Customer</a></li>
+																					<li><a href="/guides/essential-guide-to-customer-success-management/">Customer Success Management</a></li>
+																					<li><a href="/guides/the-essential-guide-to-the-customer-journey-and-lifecycle/">Customer Journey and Lifecycle</a></li>
+																					<li><a href="/guides/essential-guide-professional-services-success/">Professional Services Success</a></li>
+																					<li><a href="/guides/essential-guide-high-touch-customer-success-management/">High Touch Customer Success Management</a></li>
+																					<li><a href="/guides/the-essential-guide-to-company-wide-customer-success/">Company-wide Customer Success</a></li>
+																					<li><a href="/guides/the-essential-guide-to-recurring-revenue/">Recurring Revenue</a></li>
+																					<li><a href="/guides/essential-guide-channel-partner-success/">Channel Partner Success</a></li>
+																					<li><a href="/guides/the-essential-guide-to-product-driven-customer-success/">Product-Driven Customer Success</a></li>
+																					<li><a href="/guides/the-essential-guide-to-churn/">Churn</a></li>
+																					<li><a href="/guides/essential-guide-budgeting-customer-success/">Budgeting for Customer Success</a></li>
+																					<li><a href="/guides/the-essential-guide-to-product-analytics/">Product Analytics</a></li>
+																					<li><a href="/guides/the-essential-guide-to-customer-experience/">Customer Experience</a></li>
+																					<li><a href="/guides/the-essential-guide-to-business-metrics/">Business Metrics</a></li>
+																					<li><a href="/guides/the-essential-guide-to-choosing-a-customer-success-solution/">Choosing a Customer Success Solution</a></li>
+																					<li><a href="/product-management-metrics/">Product Management Metrics</a></li>
+																					<li><a href="/essential-guides/leveraging-ai-as-a-customer-success-manager/">AI For Customer Success Managers</a></li>
+																					<li><a href="/essential-guides/whats-customer-education-strategies-best-practices-more/">Customer Education</a></li>
+																			</ul>
+															</li>
+											</ul>
+							</li>
+					<li class="child-item has-children">
+				<a class="child-title">
+					Company <i class="fas fa-chevron-down"></i>				</a>
+									<ul style="display: none;">
+													<li class="child-item ">
+								<a class="child-title" href="/company/">
+									Who We Are 								</a>
+															</li>
+													<li class="child-item ">
+								<a class="child-title" href="/company/leadership/">
+									Leadership 								</a>
+															</li>
+													<li class="child-item ">
+								<a class="child-title" href="/newsroom/">
+									Newsroom 								</a>
+															</li>
+													<li class="child-item ">
+								<a class="child-title" href="/partners/">
+									Partners 								</a>
+															</li>
+													<li class="child-item ">
+								<a class="child-title" href="/careers/">
+									Careers 								</a>
+															</li>
+											</ul>
+							</li>
+					<li class="child-item ">
+				<a class="child-title" href="https://www.gainsight.com/pulseimpact/">
+					Impact 				</a>
+							</li>
+					<li class="child-item has-children">
+				<a class="child-title">
+					Login <i class="fas fa-chevron-down"></i>				</a>
+									<ul style="display: none;">
+													<li class="child-item ">
+								<a class="child-title" href="https://auth.gainsightcloud.com/">
+									Login to Gainsight CS 								</a>
+															</li>
+													<li class="child-item ">
+								<a class="child-title" href="https://app.aptrinsic.com/authentication/login?_ga=2.33894177.1244444385.1669666258-162957675.1666807285&amp;_gac=1.115708404.1668094955.Cj0KCQiA37KbBhDgARIsAIzce16yBnnlqq0pb2M1ncAbEmaWjqj4ouaGUOeDB5EzWyhpPOJ2s7XU4noaAhoyEALw_wcB">
+									Login to Gainsight PX 								</a>
+															</li>
+											</ul>
+							</li>
+			</ul>
+
+	</div>
+	<div id="breadcrumbs">
+		<div class="container">
+					</div>
+	</div>
+<div id="policy" class="my-5">
+	<div class="container">
+		<div class="row">
+			<aside class="col-md-3">
+							</aside>
+			<main class="col-md-8 offset-md-1">
+				
+				<article>
+					<div class="gs-wysiwyg">
+						<p><em>Last Updated <em>January 2025</em></em></p>
+<p>Gainsight, Inc., including its affiliates Gainsight Israel Ltd. (f/k/a Aptrinsic Ltd.), Gainsight Software Private Limited, Gainsight UK LTD, inSided B.V., Northpass, Inc., Northpass Poland SP. z.o.o, Staircase Technologies Ltd., and Staircase AI, Inc. (collectively, “<strong>Gainsight</strong>“, “<strong>we,</strong>” “<strong>us,</strong>” or “<strong>our</strong>“) respect the privacy of individuals who interact with us, such as our website visitors, customers, leads and prospects, business partners, end users, event attendees, job applicants and recipients of marketing communications (“<strong>you</strong>” or “<strong>your</strong>“). This Privacy Policy explains who we are, how we collect, share and use personal information about you, and how you can exercise your privacy rights.</p>
+<p>This Privacy Policy only applies to personal information that is provided to or is collected by us (i) through our website <a href="https://www.gainsight.com">www.gainsight.com</a>, <a href="https://www.insided.com/?__hstc=30793952.91688b5ab1bc7c991a04713a4bf82060.1739308040642.1739308040642.1739308040642.1&amp;__hssc=30793952.1.1739308040642&amp;__hsfp=3618309378">www.insided.com</a> and <a href="https://www.northpass.com/?__hstc=30793952.91688b5ab1bc7c991a04713a4bf82060.1739308040642.1739308040642.1739308040642.1&amp;__hssc=30793952.1.1739308040642&amp;__hsfp=3618309378">www.northpass.com</a> (“<strong>Website</strong>“) and (ii) when you visit, interact with or use any of our offices, events, sales, marketing, and related online and offline activities. When we refer to any combination of the above in this Privacy Policy, we use the term “<strong>Services</strong>“.</p>
+<p>This Privacy Policy does not apply to personal information that we process on behalf of our individual and business customers in our role as a service provider, such as information that we receive through Gainsight’s customer success software services or other Gainsight services (collectively, the “<strong>Subscription Services</strong>“). Where a Gainsight business customer who purchases and uses the Subscription Services is the controller (e.g. you are the business customer account manager or any other individual authorized to use the Subscription Services under the business customer’s account, or your personal information is provided by the business customer through their use of the Subscription Services), please reach out to the respective business customer directly. We are not responsible for the privacy or data security practices of our business customers.</p>
+<p>This Privacy Policy also does not apply to websites, products, or services that display or link to different privacy statements or that are operated by companies other than Gainsight, or to business activities or practices of third parties.<br>
+The controller of the personal information addressed in the Privacy Policy is Gainsight, Inc.</p>
+<p>If you have any questions about this Privacy Policy, please contact our Privacy Team at privacy@gainsight.com.</p>
+<p><strong>When you access or use our Services, you acknowledge that you have read this Privacy Policy and understand its content. Your use of our Services and any dispute over privacy is subject to this Privacy Policy and any applicable service terms (including any applicable limitations on damages and the resolution of disputes).</strong></p>
+<h2>Quick links</h2>
+<p>We recommend that you read this Privacy Policy in full to ensure that you are fully informed. However, if you only want to access a particular section of this Privacy Policy, then you can click on the relevant link to jump to that section.</p>
+<ul>
+<li><a href="#one">Who we are</a></li>
+<li><a href="#two">What personal information do we collect?</a></li>
+<li><a href="#twohalf">How do we use information that we collect?</a></li>
+<li><a href="#three">Who do we share your personal information with?</a></li>
+<li><a href="#four">Cookies and similar tracking technology</a></li>
+<li><a href="#five">How do we keep your personal information secure?</a></li>
+<li><a href="#six">International data transfers</a></li>
+<li><a href="#seven">Legal basis for processing personal information (EEA visitors only)</a></li>
+<li><a href="#eight">EU-US Data Privacy Framework Program</a></li>
+<li><a href="#nine">Data Retention</a></li>
+<li><a href="#ten">Your data protection rights</a></li>
+<li><a href="#eleven">Children</a></li>
+<li><a href="#twelve">Notice to California Residents</a></li>
+<li><a href="#thirteen">Changes to our Privacy Policy</a></li>
+<li><a href="#fourteen">Contact Us</a></li>
+</ul>
+<h2 id="one">Who we are</h2>
+<p>Gainsight, Inc. is a company incorporated under the laws of the State of Delaware, USA and with an address at 350 Bay Street, Suite 100, San Francisco, CA 94133 USA. We own and operate a proprietary Customer Success platform and SaaS applications to enable our customers to better utilize their customer data. We have a global presence with offices in countries including India, the United Kingdom, Poland, Japan and the Netherlands, as well as employees working from countries including the USA and Canada.</p>
+<p>For more information about Gainsight, please see the <a href="https://gainsight.com/company/">About Us</a> section of our Website.</p>
+<h2 id="two">What personal information do we collect?</h2>
+<p>The personal information that we collect about you depends on the context of your interactions with Gainsight and the choices you make, the Services and features you use, your location, and applicable laws, but broadly falls into the following categories which in the preceding 12 months included:</p>
+<p><strong>Information that you provide voluntarily</strong></p>
+<p>When you subscribe to marketing or one of our newsletters, request a free trial or demo or any online training materials, apply for a position, request information about our products and services, create an account, fill out our forms, visit our offices, register for an event or webinar, complete a survey and/or otherwise communicate with us in any way, we ask you to provide certain personal information. This may include:</p>
+<ul>
+<li>Contact information: such as your name, email address, mailing address or telephone number.</li>
+<li>Professional information: such as your employer’s name, job title, department or job role.</li>
+<li>Marketing information: such as your contact preferences.</li>
+<li>Applicant information if you apply for a job with Gainsight: such as your resume, desired pay, education and work history, whether you are over the age of 18, and visa status. You also may choose to provide your gender, ethnicity, veteran status, disability status, and links to your website, blog, portfolio, or LinkedIn profile.</li>
+<li>Online content: which includes personal information disclosed by you on message boards, chat features, blogs, communications and/or requests to Gainsight and other services or platforms to which you are able to post information and materials, including third party services and platforms.</li>
+</ul>
+<p>We may also record or monitor our telephone or other communications with you, to the extent permitted by applicable law.</p>
+<p>Providing your personal information is optional, but it may be necessary for certain Services, such as to access content like whitepapers, to activate or access an app or a cloud service. In such cases, if you do not provide your information, we may not be able to provide you with the requested Services.</p>
+<p><strong>Information we automatically collect</strong></p>
+<p>We automatically collect certain device and usage information including when you use or interact with our Websites and emails we send you.</p>
+<p>The information we collect includes:</p>
+<ul>
+<li>Details about your computer, device, applications, and networks, including internet protocol (IP) address, cookie identifiers, mobile carrier, Bluetooth device IDs, mobile device ID, mobile advertising identifiers, MAC address, IMEI, Advertiser IDs, and other device identifiers that are automatically assigned to your computer or device when you access the Internet.</li>
+<li>Details about your internet, app, or network usage (including URLs or domain names of websites you visit before and after using the Services, the date and time of your visit, the amount of time you spend on each page, information about the links you click and pages you view within the Services, and other actions taken through use of the Services such as preferences).</li>
+<li>Geo-location (at country or city level only, not precise location).</li>
+<li>Performance information, crash logs, and other aggregate or statistical information.</li>
+</ul>
+<p>We collect this information through our Website, Services and through other technologies, such as cookies and similar technologies like single-pixel gifs and web beacons. For more information, please review our <a href="https://www.gainsight.com/policy/cookie-policy/">Cookie Policy</a>.</p>
+<p><strong>Information We Collect from Other Sources</strong></p>
+<p>We may receive information about you from other sources (including third parties from whom we have purchased personal information) and combine that information with the information we collect. For example, we collect personal information from joint marketing partners, channel partners, our affiliated companies, recruitment agencies, lead generation providers, public databases, data providers, and social media platforms.</p>
+<p>This information may include mailing addresses, current and former job titles, email addresses, phone numbers, employment history, intent data (or user behavior data), IP addresses, social media profiles, LinkedIn URLs, and custom profiles and resumes.</p>
+<h2 id="twohalf">How do we use the personal information that we collect?</h2>
+<p>We use the personal information that we collect about you for a variety of purposes and on the legal bases described in this Privacy Policy, which in the preceding 12 months included:</p>
+<ul>
+<li><strong>Handling contact and user requests:</strong> If you fill out a web form or request support, if you contact us by other means, including via a phone call, we use your data to perform our contract with you or if we do not have a contract directly with you, in reliance on our legitimate interests in fulfilling your requests and communicating with you.</li>
+<li><strong>Managing events:</strong> We use data to plan and host events or webinars for which you have registered or that you attend, including sending related communications to you, to perform our contract with you or in reliance on our legitimate interests in administering and promoting the event.</li>
+<li><strong>Sending marketing and promotional communications:</strong> We use data we collect to send promotional communications, including product recommendations, and other non-transactional communications (e.g. marketing newsletters, telemarketing calls, SMS, or push notifications) about Gainsight and our selected partners according to your marketing preferences. This may include information about our products, promotions, or events as necessary for our legitimate interest in conducting direct marketing, or to the extent you have provided your prior consent. Please see the <a href="#ten">Your Data Protection Rights</a> section below to learn how you can control the processing of your personal information by Gainsight for marketing purposes.</li>
+<li><strong>Displaying advertising and relevant offers:</strong> We use data we collect through our interactions with you to conduct marketing research, advertise to you, provide personalized information about us on and off our websites and to provide other personalized content based on your activities and interests to the extent it is necessary for our legitimate interest in advertising our Services, or where necessary, to the extent that you have provided your prior consent. Please see the <a href="#ten">Your Data Protection Rights</a> section below to learn how you can control the processing of your personal information by Gainsight for personalized advertising. For these purposes, we may link or combine information about you with other personal information we get from third parties, to help understand your needs and provide you with better and more personalized service or content.</li>
+<li><strong>Improving and developing the Services:</strong> We use data to analyze trends to identify future opportunities for the development, promotion, and improvement of our Services, in reliance on our legitimate interests in developing and improving our Services, or where required, with your consent. For example, we use data, often in a de-identified form, to develop new features, capabilities, or products, improve the user experience, assess capability requirements, and identify customer opportunities.</li>
+<li><strong>Processing job applications:</strong> We process your personal information if you apply for a job with Gainsight, to evaluate your application and make hiring decisions, communicate with you and inform you of current and future career opportunities (unless you tell us that you do not want us to keep your details for such purposes), manage and improve our recruiting and hiring processes, or to conduct reference and background checks where required or permitted by applicable local law. We perform this processing to the extent that it is necessary to comply with our legal obligations, for our legitimate interest in assessing the suitability of our candidates and managing our recruiting process, or, where required by applicable law, with your consent.</li>
+<li><strong>Securing the Services:</strong> We process data by tracking use of our Website and services for the purposes of maintaining the safety and security of our Services, including verifying accounts and activity, investigating suspicious activity, and enforcing our terms and policies, in reliance on our legitimate interest in promoting the safety and security of our Services, systems and applications and in protecting our rights and the rights of others.</li>
+<li><strong>Registering office visitors:</strong> We may process your personal information for security reasons, to register visitors to our offices and to manage non-disclosure agreements that visitors may be required to sign, to the extent such processing is necessary for our legitimate interest in protecting our offices and our confidential information against unauthorized access.</li>
+<li><strong>Complying with legal obligations:</strong> We process your personal information when cooperating with public and government authorities, courts or regulators in accordance with our legal obligations under applicable laws, to the extent this requires the processing or disclosure of personal information to protect our rights, or is necessary for our legitimate interest in protecting against misuse or abuse of our websites, protecting personal property or safety, pursuing remedies available to us and limiting our damages, complying with judicial proceedings, court orders or legal processes, or to respond to lawful requests.</li>
+<li><strong>For our business purposes:</strong> We may use data for other legitimate business purposes in reliance on our legitimate interests, such as to update, expand, and analyze our records, identify new customers, data analysis, to protect, investigate, and deter against fraudulent, unauthorized, or illegal activity, developing new products, enhancing, improving or modifying our Services, identifying usage trends, determining the effectiveness of our promotional campaigns, free trials and operating and expanding our business activities.</li>
+</ul>
+<p>In carrying out these purposes, we combine data we collect from different contexts or that we obtain from third parties to give you a more seamless, consistent, and personalized experience, to make informed business decisions, and for other legitimate purposes.</p>
+<h2 id="three">Who do we share your personal information with?</h2>
+<p>Whenever we share your personal information with a third party provider, we ensure that this is done so in accordance with applicable laws. The types of entities to whom we disclose and have disclosed information within the last 12 months, include:</p>
+<ul>
+<li>to our <strong>affiliates</strong> within the Gainsight corporate group and companies we may acquire in the future when they become part of the Gainsight corporate group, to the extent such sharing of data is necessary (for example, to fulfil a request you have submitted or for marketing or technical operations).</li>
+<li>to <strong>our contractors and third party service providers</strong> who provide services to us (for example, to support the delivery of, provide functionality on, or help to enhance the security of our Services), or who otherwise process personal information for purposes that are described in this Privacy Policy or notified to you when we collect your personal information.</li>
+<li>to our <strong>marketing partners</strong> of co-branded and/or co-sponsored marketing and promotional events (such as conference events or webinars) offered in conjunction with another company or companies.For example, if you attend an event or webinar organized by us, or download or access materials on our Website, we may share your data with sponsors of the event. If required by applicable law, you can consent to such sharing via the registration form or by allowing your attendee badge to be scanned at a sponsor booth. In these circumstances, your information will be subject to the sponsors’ privacy statements. If you do not want your information shared, you can choose to not opt in upon registration or elect to not have your badge scanned, or you can opt out according to the <a href="#ten">Your Data Protection Rights</a> section below.</li>
+<li>to <strong>analytics providers</strong>. We use Google Analytics, a service provided by Google, Inc. to gather information about how users engage with our Website. For more information about Google Analytics, please visit <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>. You can opt out of Google’s collection and processing of data generated by your use of the Services by going to <a href="https://tools.google.com/dlpage/gaoptout">https://tools.google.com/dlpage/gaoptout</a>.</li>
+<li>to <strong>any competent law enforcement body, regulatory, government agency, court or other third party</strong> where we believe disclosure is necessary (i) as a matter of applicable law or regulation, (ii) to exercise, establish or defend our legal rights, or (iii) to protect your vital interests or those of any other person;</li>
+<li>to a <strong>potential buyer</strong> (and its agents and advisers) in connection with any proposed purchase, merger or acquisition of any part of our business or similar transaction with a third party involving the sale, transfer, divestiture, or disclosure of all or a portion of our business or assets to another company. In accordance with applicable laws, we will use reasonable efforts to notify you of any transfer of personal information to an unaffiliated third party;</li>
+<li>to any <strong>other person with your consent</strong> to the disclosure.</li>
+</ul>
+<p>We may also share aggregated or deidentified usage data with third parties to help us perform analysis and make improvements. Additionally, we may share anonymous usage data on an aggregate basis in the normal course of operating our business; for example, we may share information publicly to show trends in the use of our Services.</p>
+<p>Any personal information or other information you choose to submit in communities, forums, blogs, or chat rooms on our websites may be read, collected, and used by others who visit these forums, depending on your account settings.</p>
+<p>For further information on the recipients of your personal information, please contact our Privacy Team at privacy@gainsight.com.</p>
+<p><strong>Links to Other Sites</strong></p>
+<p>Our Website may contain links to websites and services that are owned or operated by third parties (each, a “<strong>Third-party Service</strong>“). Any information that you provide on or to a Third-party Service or that is collected by a Third-party Service is provided directly to the owner or operator of the Third-party Service and is subject to the owner’s or operator’s privacy policy. We’re not responsible for the content, privacy or security practices and policies of any Third-party Service. To protect your information we recommend that you carefully review the privacy policies of all Third-party Services that you access.<br>
+For example, our Websites include plugins of social media platforms, such as Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, USA; X (formerly Twitter Inc.), 795 Folsom St., Suite 600, San Francisco CA 94107, USA; and LinkedIn Corporation, 1000 W. Maude Avenue, Sunnyvale, CA 94085, USA. You can identify the plugins by the respective network’s logo. Details about purpose and extent of data collection, as well as processing and use of the data by the social media networks can be obtained by reading the privacy policies of Facebook, X, and LinkedIn.</p>
+<h2 id="four">Cookies and similar tracking technology</h2>
+<p>We use cookies and similar tracking technology (collectively “<strong>Cookies</strong>”) to collect and use personal information about you. Please see Gainsight Cookie Policy <a href="https://www.gainsight.com/policy/cookie-policy/">here</a></p>
+<h2 id="five">How do we keep your personal information secure?</h2>
+<p>We use appropriate administrative, organizational, technical and physical safeguards to protect the personal information we collect and process about you. The measures we use are designed to provide a level of security appropriate to the risk of processing your personal information and to help ensure that your data is safe and secure. Specific measures we use include using encryption technologies and storage on physically and electronically secured servers. However, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure. Although we strive to use commercially acceptable means to protect your personal information, we cannot guarantee absolute security. You are solely responsible for protecting your password, limiting access to your devices, and signing out of websites after your sessions. If you have any questions about the security of our Website, please <a href="#fourteen">contact us</a> (see Contact Us below).</p>
+<h2 id="six">International data transfers</h2>
+<p>Your personal information may be collected, transferred to, and processed in, countries other than the country in which you are located, including the USA and other countries where we or our affiliates, subsidiaries or service providers (among others) maintain facilities. These countries may have data protection laws that are different to the laws of your country, and may not provide for the same level of data protection as your jurisdiction. We maintain primary data centers in the USA. Our group affiliates and our third party service providers and partners operate around the world. We take steps designed to ensure that the data we collect under this Privacy Policy is processed as described in this Privacy Policy and according to applicable law.</p>
+<p>We have implemented appropriate safeguards to ensure that the recipient of your personal information offers an adequate level of protection, including entering into the standard contractual clauses for the transfer of personal data, or where required, we will ask you for your prior written consent for such international data transfers.</p>
+<p>Where we transfer your personal information to countries and territories outside of Europe, Switzerland and the UK which have been formally recognized as providing an adequate level of protection for personal information, we rely on the relevant “adequacy decisions” and “adequacy regulations” from the European Commission, Swiss and UK authorities.</p>
+<p>Where the transfer is not subject to an adequacy decision, we take appropriate safeguards to ensure that your personal information will remain protected in accordance with this Privacy Policy and applicable laws. These safeguards include implementing the European Commission’s Standard Contractual Clauses as issued on 4 June 2021 under Article 46(2) GDPR for transfers originating in the EU and Switzerland; and the UK Addendum under Article 46(2) of the UK GDPR for the transfer of data originating in the UK.</p>
+<p>Our Standard Contractual Clauses entered into by our group companies and with our third party service providers and partners can be provided on request. Please note that some sensitive commercial information will be redacted. If you have any questions or concerns related to international data transfers, please contact us using the information set forth below.</p>
+<h2 id="seven">Legal basis for processing personal information (EEA visitors only)</h2>
+<p>If you are resident in or a visitor from the European Economic Area, our legal basis for collecting and using the personal information described above will depend on the personal information concerned and the specific context in which we collect it. In most cases we use personal information where we have your consent to do so, where we need it to perform a contract with you, or where the processing is in our legitimate business interests. In some cases, we have a legal obligation to collect personal information from you.</p>
+<p>If we ask you to provide personal Information to comply with a legal requirement or to enter into a contract with you, we will make this clear at the relevant time and advise you whether the provision of information is mandatory or not (as well as of the possible consequences if you do not provide your personal information). Similarly, if we collect and use your personal information in reliance on our legitimate interests, we will make clear to you at the relevant time what those legitimate interests are. Typically, our legitimate interests include: (i) improving our technology, products and services; (ii) for our marketing activities; and (iii) measuring the effectiveness of our marketing and promotional campaigns.</p>
+<p>If you have questions about or need further information concerning the legal basis on which we collect and use your personal information, please contact us using the contact details provided under the <a href="#fourteen">“Contact Us” heading below</a>.</p>
+<h2 id="eight">EU-U.S. Data Privacy Framework, UK Extension to the EU-U.S. Data Privacy Framework, and Swiss-U.S. Data Privacy Framework (for Gainsight, Inc. and Northpass, Inc. only – as used in this section the term “Gainsight” only means these two entities)</h2>
+<p>Gainsight complies with the EU-U.S. Data Privacy Framework (EU-U.S. DPF) and the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. Data Privacy Framework (Swiss-U.S. DPF) as set forth by the U.S. Department of Commerce. Gainsight has certified to the U.S. Department of Commerce that it adheres to the EU-U.S. Data Privacy Framework Principles (EU-U.S. DPF Principles) with regard to the processing of personal data received from the European Union and the United Kingdom in reliance on the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF. Gainsight has certified to the U.S. Department of Commerce that it adheres to the Swiss-U.S. Data Privacy Framework Principles (Swiss-U.S. DPF Principles) with regard to the processing of personal data received from Switzerland in reliance on the Swiss-U.S. DPF. If there is any conflict between the terms in this privacy policy and the EU-U.S. DPF Principles and/or the Swiss-U.S. DPF Principles, the Principles shall govern. To learn more about the Data Privacy Framework (DPF) Program, and to view our certification, please visit <a href="https://www.dataprivacyframework.gov/">https://www.dataprivacyframework.gov/</a></p>
+<p>The Federal Trade Commission has jurisdiction over Gainsight’s compliance with the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF.</p>
+<p>If there is any conflict between the terms in this section and the DPF Principles, the Principles shall govern. To learn more about the DPF, and to view our certification, please visit <a href="https://www.dataprivacyframework.gov/">https://www.dataprivacyframework.gov/</a>.</p>
+<p>The types of personal information we receive in the US, as well as the purposes for which we collect and use it, are set out in the Sections above titled “<a href="#two">What personal information do we collect?</a>” and “<a href="#twohalf">How do we use the personal information that we collect?</a>“. We will give you an opportunity to opt out where personal information we control about you is to be disclosed to an independent third party, or is to be used for a purpose that is materially different from those set out in this Privacy Policy. If you otherwise wish to limit the use or disclosure of your personal information, please <a href="#fourteen">contact us</a> via the contact details set out below.</p>
+<p>Information about the types of third parties to which we disclose personal information and the purposes for which we do so is described in the “<a href="#two">What personal information do we collect?</a>” section above [insert link]. If we have received your personal information in the US and subsequently transfer that information to a third party acting as an agent, and such third party agent processes your personal information in a manner inconsistent with the DPF Principles, we will remain liable unless we can prove we are not responsible for the event giving rise to the damage.</p>
+<p>Please note that, under certain circumstances, we may be required to disclose your personal information in response to lawful requests by public authorities, including to meet national security or law enforcement requirements.</p>
+<p>If you are located in the EU or Switzerland, you have the right to request access to the personal information that we hold about you and request that we correct, amend, or delete it if it is inaccurate or processed in violation of the DPF Principles. If you would like to exercise these rights, please write to us at the contact details provided below under <a href="#fourteen">Contact Us</a>. We may request specific information from you to confirm your identity and we will respond to your request in accordance with the DPF Principles and applicable data protection laws. You may also opt-out of receiving marketing communications from us by writing to us at the contact details provided below or by clicking on the “unsubscribe” or “opt-out” link in the marketing emails we send you.</p>
+<p>We commit to resolve DPF-related complaints about our collection and use of your personal information. EU and Swiss individuals with DPF inquiries or complaints regarding our handling of personal information received in reliance on the EU-U.S. DPF and the Swiss-U.S. DPF should first contact us using the contact details provided below under <a href="#fourteen">Contact Us</a>. We will investigate and attempt to resolve any DPF-related complaints or disputes within forty-five (45) days of receipt.</p>
+<p>If you have an unresolved DPF complaint that we have not addressed satisfactorily, we have further committed to refer unresolved complaints under the DPF Principles to an independent dispute resolution provider located in the US operated by BBB National Programs. For more information or to submit a complaint, please visit <a href="https://bbbprograms.org/programs/all-programs/dpf-consumers/ProcessForConsumers">https://bbbprograms.org/programs/all-programs/dpf-consumers/ProcessForConsumers</a>. This service is provided free of charge to you.</p>
+<p>Under certain conditions, more fully described on the DPF website, you may be entitled to invoke binding arbitration for some residual claims not resolved by other redress mechanisms. See <a href="https://www.dataprivacyframework.gov/s/article/ANNEX-I-introduction-dpf?tabset-35584=2">https://www.dataprivacyframework.gov/s/article/G-Arbitration-Procedures-dpf?tabset-35584=2</a></p>
+<p>In compliance with the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF and the Swiss-U.S. DPF, Gainsight commits to resolve DPF Principles-related complaints about our collection and use of your personal information. EU and UK individuals and Swiss individuals with inquiries or complaints regarding our handling of personal data received in reliance on the EU-U.S. DPF and the UK Extension to the EU-U.S. DPF, and the Swiss-U.S. DPF should first contact Gainsight at <a href="mailto:privacy@gainsight.com">privacy@gainsight.com</a></p>
+<p>We reserve the right to amend this section from time to time consistent with the EU-U.S. DPF and the Swiss-U.S. DPF requirements.</p>
+<h2 id="nine">Data Retention</h2>
+<p>We retain personal information we collect from you where we have an ongoing legitimate business need to do so (for example, to provide you with a service you have requested or to comply with applicable legal, tax or accounting requirements, to enforce our agreements or comply with our legal obligations). Because these needs can vary for different data types in the context of different services, actual retention periods can vary significantly. We determine the appropriate retention period for personal information based on the amount, nature and sensitivity of your personal information processed, the potential risk of harm from unauthorized use or disclosure of your personal information and whether we can achieve the purposes of the processing through other means, as well as applicable legal requirements (such as applicable statutes of limitation).</p>
+<p>When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize it or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.</p>
+<p>Please contact our Privacy Team at <a href="mailto:privacy@gainsight.com">privacy@gainsight.com</a> if you have any questions about the information we collect and/or how we use the information we collect.</p>
+<h2 id="ten">Your data protection rights</h2>
+<p>Where we are acting as a controller, and depending on your location and subject to applicable law, you may have the following rights regarding the personal information we control about you:</p>
+<ul>
+<li>You can <strong>access</strong>, <strong>review</strong>, <strong>change</strong>, <strong>update</strong> or <strong>delete</strong> your personal information at any time by contacting our Privacy Team at <a href="mailto:privacy@gainsight.com">privacy@gainsight.com</a>. Please note that we may impose a small fee for access and disclosure of your personal information where permitted under applicable law, which will be communicated to you. We do not charge you to update or remove your personal information.</li>
+<li>To remove your personal information from a Website testimonial or request removal of your personal information from our blog or community forum, please contact our Privacy Team at <a href="mailto:privacy@gainsight.com">privacy@gainsight.com</a>. In some cases, we may not be able to remove your personal information, in which case we will let you know if we are unable to do so and why.</li>
+<li>In addition, if you are a resident of the European Union, you can <strong>object to processing</strong> of your personal information, ask us to <strong>restrict processing</strong> of your personal information or <strong>request portability</strong> of your personal information. To exercise these rights please contact our Privacy Team at <a href="mailto:privacy@gainsight.com">privacy@gainsight.com</a>.</li>
+<li>You can <strong>opt out of receiving promotional emails</strong> from us by emailing our Privacy Team at <a href="mailto:privacy@gainsight.com">privacy@gainsight.com</a>. If you choose to no longer receive marketing information, we may still communicate with you regarding such things as your security updates, product functionality, responses to service requests, or other transactional, non-marketing/administrative related purposes.</li>
+<li>If you want your phone number to be added to our internal Do-Not-Call telemarketing register, please <a href="#fourteen">contact us</a> (see Contact Us below). Please include your first name, last name, company, and the phone number you wish to add to our Do-Not-Call register. Alternatively, you can always let us know during a telemarketing call that you do not want to be called again for marketing purposes.</li>
+<li>If we have collected and process your personal information with your consent, then you can <strong>withdraw your consent</strong> at any time. Withdrawing your consent will not affect the lawfulness of any processing we conducted prior to your withdrawal, nor will it affect processing of your personal information conducted in reliance on lawful processing grounds other than consent.</li>
+<li>You have the <strong>right to complain to a data protection authority</strong> about our collection and use of your personal information. For more information, please contact your local data protection authority. Contact details for data protection authorities in the European Economic Area (“<strong>EEA</strong>“), the United Kingdom, Switzerland and certain non-European countries (including the USA and Canada) are available <a href="http://ec.europa.eu/justice/data-protection/article-29/structure/data-protection-authorities/index_en.htm">here</a>.</li>
+</ul>
+<p>We respond to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable data protection laws. To protect your privacy and security, we take reasonable steps to verify your identity before granting you account access or making corrections to your personal information.</p>
+<h2 id="eleven">Children</h2>
+<p>The Website and its content, as well as our products and services, are not directed at children. We do not knowingly collect, use or disclose any information from anyone under 16 years of age and do not knowingly target our Websites, products or services to children under the age of 16. Persons under 16 years of age should not use or provide any personal information through our Websites, products or services. If we learn we have collected or received personal information from a child under the age of 16, we will delete that personal information in accordance with applicable law. If you are a parent or guardian and you learn that your children have provided us with personal information, please <a href="#fourteen">contact us</a> (see Contact Us below).</p>
+<h2 id="twelve">Notice to California Residents</h2>
+<p>The information in this section applies to residents of California. Please contact us at <a href="mailto:privacy@gainsight.com">privacy@gainsight.com</a> or by calling 1-888-623-8562 option 6 if you have any questions about this Privacy Policy, including this section specific to California residents, or if you would like a printed copy of this Privacy Policy. You may also print a copy of this Privacy Policy by selecting the “Print” button in your web browser.</p>
+<p>The controller or business of your personal information is the specific member of the Gainsight group of companies whose website you have visited.</p>
+<p><strong>Categories of personal information that we collect</strong></p>
+<p>The categories of personal information that we have collected about you in the preceding 12 months and the third parties to whom we disclose such personal information for a business purpose are set forth below:</p>
+<table>
+<tbody>
+<tr style="background-color: #f4f4f4;">
+<td><strong>Categories of Personal Information We Collect&nbsp;</strong></td>
+<td><strong>Examples&nbsp;</strong></td>
+</tr>
+<tr>
+<td><strong>Identifiers&nbsp;</strong></td>
+<td>Name, email address, phone number, IP address and unique personal identifiers associated with devices and browsers</td>
+</tr>
+<tr>
+<td><strong>Customer Records / Account Information&nbsp;</strong></td>
+<td>Name, address, phone number, organizational affiliation, position and billing information</td>
+</tr>
+<tr>
+<td><strong>Characteristics which may be protected classifications under California or Federal Law&nbsp;</strong></td>
+<td>Age, ethnicity, race, languages spoken and gender, to the extent such characteristics are voluntarily disclosed to us or contained in any content transmitted across or stored on our network</td>
+</tr>
+<tr>
+<td><strong>Commercial Information&nbsp;</strong></td>
+<td>Records and history of products or services purchased or considered by you</td>
+</tr>
+<tr>
+<td><strong>Internet or other electronic network activity information</strong></td>
+<td>Interaction with our Websites, products and services</td>
+</tr>
+<tr>
+<td><strong>Geolocation Data&nbsp;</strong></td>
+<td>Approximate physical location derived from an IP address or information you provide on our Websites</td>
+</tr>
+<tr>
+<td><strong>Audio, electronic, visual, thermal, olfactory, or similar information</strong></td>
+<td>Audio recordings of your marketing or customer relationship calls with us</td>
+</tr>
+<tr>
+<td><strong>Professional or employment-related information</strong></td>
+<td>Organizational affiliation and position and other information you may provide us as an applicant</td>
+</tr>
+<tr>
+<td><strong>Education</strong> <strong>Information</strong></td>
+<td>Information you may provide us as an applicant regarding your education</td>
+</tr>
+<tr>
+<td><strong>Inferences</strong> <strong>drawn to create a profile about a consumer</strong></td>
+<td>Information about your interests or preferences as can be inferred from the information you provide through our Websites</td>
+</tr>
+<tr>
+<td><strong>Sensitive Personal Information under the CCPA</strong></td>
+<td>Information that you may provide to us in the course of your interactions with us, or as an applicant, or otherwise information that is contained in data provided by a customer of us, which includes (as defined in the CCPA):<p></p>
+<ul>
+<li aria-level="1">Social Security number, driver’s license, state identification card, or passport number;</li>
+<li aria-level="1">Racial or ethnic origin, citizenship, or immigration status;</li>
+<li aria-level="1">The contents of mail, email, and text messages unless we are the intended recipient of the communication; and</li>
+<li aria-level="1">Precise geolocation.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>We collect sensitive personal information for various purposes, including:</p>
+<ul>
+<li>to uniquely identify you and for tax reporting purposes;</li>
+<li>to comply with our legal obligations pursuant to applicable federal and state employment laws and regulations, including collecting and disclosing personal information as required by law (e.g., for minimum wage, payroll tax, as well as to comply with equal opportunity and anti-discrimination laws);</li>
+<li>to facilitate and provide reasonable accommodations; and</li>
+<li>to facilitate other business purposes as enumerated under the CCPA.</li>
+</ul>
+<p>As defined by the CCPA, sensitive personal information shall be treated as personal information, except where it is collected or processed for “the purpose of inferring characteristics about a consumer.” We do not collect or process sensitive personal information for the purpose of inferring characteristics about individuals.</p>
+<p>Further information regarding the categories of personal information we collect and the sources from which we collect it are described in the section above titled “<a href="#two">What personal information do we collect?</a>“. The business and commercial purposes for which we collect this information are described in the section titled “<a href="#twohalf">How do we use the personal information we collect?</a>“. The categories of third parties to whom we “disclose” this personal information for a business purpose are described in the section titled “<a href="#three">Who do we share your personal information with</a>“.</p>
+<p>When we disclose personal information for a business purpose, we enter into a contract that describes the purpose and requires the recipient to keep that personal information confidential and use it only for performance of the contract, and not for any other purpose.</p>
+<p>Gainsight does not “sell” your personal information in exchange for any monetary consideration. We do share certain information for cross-context behavioral advertising purposes as defined by the CCPA under Cal. Civ. Code 1798.140(ad)(2). Some of our processing activities may also constitute “targeted advertising” as that term is defined under certain state laws.</p>
+<p>We have shared in the preceding 12 months personal information as necessary for business purposes, as defined by Cal. Civ. Code 1798.140. This includes sharing personal identifiers, commercial information, and internet or other electronic network activity with customer relationship management, consulting, e-mail, product feedback, helpdesk services, advertising networks and website analytics companies. You have a right to direct Gainsight not to sell or share your personal information. We do not have actual knowledge that we have sold or shared personal information of individuals under the age of 16 for targeted advertising or cross-context behavioral advertising purposes.</p>
+<p>For more information on how to opt out of the “sale” or “sharing” of your personal information, please see the subsection “<a href="#twelvehalf">Your Rights and How to Exercise Them</a>” below.<br>
+However, please note that your use of our Websites may still be tracked by us and our vendors or partners to perform functions that are necessary for our businesses, such as hosting our Website, products and services, ensuring there is no fraud (click-fraud, fraudulent or bot traffic), etc. These entities are contractually obligated to keep such information confidential, and will not use it for any purpose other than for the services they provide to us.<br>
+California law requires us to let you know how we respond to web browser Do Not Track (DNT) signals. Because there currently is not an industry or legal standard for recognizing or honoring DNT signals, we do not respond to them at this time. For more information on “Do Not Track,” visit <a href="http://www.allaboutdnt.com">http://www.allaboutdnt.com</a>.</p>
+<h2 id="#twelvehalf">Your Rights and How to Exercise Them</h2>
+<p>California residents have certain rights under the CCPA. Those rights may only apply in certain circumstances and may be subject to limitations or exceptions. A summary of those rights is provided below as well as information on how to exercise your rights. Please note that we will require certain identifying information about you as necessary for us to verify your request in accordance with applicable law.</p>
+<ul>
+<li><strong>Right to Know:</strong> You have the right to know what personal information we collect, use, disclose and/or sell about you. To exercise this right, please <a href="https://www.gainsight.com/policy/california-consumer-privacy-act-individual-rights-request-form/">click here</a> and complete the web form. You may also submit your request by calling 1-888-623-8562 option 6.</li>
+<li><strong>Right to Opt Out of Sale:</strong> You have the right to opt out or ask us not to sell your personal information. To exercise this right, please <a href="https://www.gainsight.com/policy/california-consumer-privacy-act-individual-rights-request-form/">click here</a> and complete the web form. You may also submit your request by calling 1-888-623-8562 option 6. We do not sell your personal information in exchange for money. We do share certain information with third parties to market products, services, and other offers we think may be of interest to you. The CCPA broadly defines the concept of “selling” information so we offer the opportunity for California residents to opt out of our sharing information with third parties in this manner. Please note that if you opt out of this information sharing with us, we will remove you from these activities; however, other companies may continue to use and disclose your information in the same manner. You should opt out of these practices with those other companies and websites, as applicable.</li>
+<li><strong>Right to Delete:</strong> You have the right to request us to delete the personal information we collect or maintain about you. To exercise this right, please click here and complete the web form. You may also submit your request by calling 1-888-623-8562 option 6. Please note that certain exceptions may apply to your right to delete information, such as when we must retain your information to comply with law. We will notify you if any such exceptions apply to your request.</li>
+<li><strong>Right to Non-Discrimination:</strong> You have the right not to receive discriminatory treatment by us for exercising any of your rights under the CCPA. However, we may offer certain financial incentives, charge reasonable fees related to your requests, or deny your right to know, right to opt out of sale or right to deletion in accordance with applicable law.</li>
+</ul>
+<p>We may ask you to provide information that will enable us to verify your identity in order to comply with your request to exercise your privacy rights. You can exercise these rights yourself or you can designate an authorized agent to make a request on your behalf. Your authorized agent must be able to demonstrate authority to act on your behalf when submitting a verifiable request on your behalf. In some instances, we may decline to honor your request if an exception applies under applicable law. We will respond to your request in accordance with the requirements of applicable law.</p>
+<p>You may have the right to appeal our decisions made with respect to your request. To appeal our decision on your request, you may contact us through one of the contact methods described under the <a href="#fourteen">Contact Us</a> section below).. Please enclose a copy of, or otherwise specifically reference, our decision on your request, so that we may adequately address your appeal. We will respond to your appeal in accordance with applicable law.</p>
+<p>If you are a California resident, you are entitled once a year, free of charge, to request and obtain certain information regarding our disclosure, if any, of certain categories of personal information to third parties for their direct marketing purposes in the preceding calendar year. To request the above information, please contact us using the contact details provided below [insert link] with a reference to “CA Disclosure Information” and include your name, street address, city, state, and ZIP code. In your request, please attest to the fact that you are a California resident and provide a current California address. We will reply to valid requests by sending a response to the email address or physical address from which you submitted your request. Please note that we are not required to respond to requests made by means other than through the provided email address or mail address. Please note that not all information sharing is covered by the “Shine the Light” requirements and only information on covered sharing and the relevant details required by the Shine the Light law will be included in our response.<br>
+You may also request information about our practices related to our disclosure of your Personal Information to certain third parties for their direct marketing purposes. As provided by California Civil Code Section 1798.83, a California resident who has provided information to Gainsight and with whom they have established a business relationship for personal, family, or household purposes (<strong>California customer</strong>) is entitled to request information about whether we have disclosed personal information to any third parties for the third parties’ direct marketing purposes. If applicable, this information would include the categories of customer information and the names and addresses of those businesses with which we shared customer information for the immediately prior calendar year. To request such information, please contact us through one of the contact methods described under the <a href="#fourteen">Contact Us</a> section below).</p>
+<p>Please allow 30 days for a response. Please note that we are only required to respond to one request per customer each year and you will not be charged for this request.</p>
+<h2 id="thirteen">Changes to our Privacy Policy</h2>
+<p>We will update this Privacy Policy from time to time in response to changing legal, technical or business developments. The most current version of this Privacy Policy will govern our use of your personal information. If we make a material update to our Privacy Policy, we may provide you with notice prior to the update taking effect, consistent with the significance of the updates we make. We encourage you to periodically review this Privacy Policy to stay informed about our collection, processing and sharing of your personal information. You can see when this Privacy Policy was last updated by checking the “last updated” date displayed at the top of this Privacy Policy.</p>
+<h2 id="fourteen">Contact Us</h2>
+<p>To exercise your rights regarding your personal information, or if you have any questions or concerns about our use of your personal information, please contact us by mail at: Attn: Gainsight, Inc., 350 Bay Street, Suite 100, San Francisco, CA 94133</p>
+<p>ATTN: Gainsight Privacy Team</p>
+<p>or by email at: <a href="mailto:privacy@gainsight.com">privacy@gainsight.com.</a></p>
+<p>In Europe, you can contact our United Kingdom and EEA representatives:</p>
+<p><strong>United Kingdom Representative:</strong></p>
+<p>Lionheart Squared Limited<br>
+17 Glasshouse Studios, Fryern Court Road<br>
+Fordingbridge, Hampshire SP6 1QX<br>
+U.K.<br>
+Email: <a href="mailto:privacy@lionheartsquared.com">privacy@lionheartsquared.com</a></p>
+<p><strong>EEA Representative:</strong></p>
+<p>Lionheart Squared (Europe) Ltd.<br>
+2 Pembroke House,<br>
+Upper Pembroke Street 28-32<br>
+Dublin D02 EK84<br>
+Ireland<br>
+Email: <a href="mailto:privacy@lionheartsquared.eu">privacy@lionheartsquared.eu</a></p>
+<p>You can also contact our Data Protection Officer (DPO) at <a href="mailto:privacy@gainsight.com">privacy@gainsight.com</a>.</p>
+
+					</div>
+					<div class="article-footer text-center mt-5 mb-5">
+						<hr class="mt-4">
+						<div class="article-badge">
+							<img src="https://www.gainsight.com/wp-content/themes/unicon-child/framework/images/g-logo-dark.svg" alt="Gainsight G icon">
+						</div>
+					</div>
+				</article>
+			</main>
+		</div>
+	</div>
+</div>
+
+
+
+	</div>
+
+
+<!-- end #footer-container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="search-filter-svg-template" aria-hidden="false" style="clip: rect(1px, 1px, 1px, 1px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute;	width: 1px !important; word-wrap: normal !important;"><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" style="background-color:red" viewBox="0 0 24 24" stroke="currentColor" version="1.1" id="sf-svg-spinner-circle">
+  
+    <g fill="none">
+      <g>
+        <circle stroke-opacity="0.5" cx="12.000001" cy="12.000001" r="10.601227" style="stroke-width:2.79755;stroke-miterlimit:4;stroke-dasharray:none"></circle>
+        <path d="M 22.601226,12.000001 C 22.601226,6.1457686 17.854233,1.398775 12,1.398775" style="stroke-width:2.79755;stroke-miterlimit:4;stroke-dasharray:none">
+		    <animateTransform attributeName="transform" type="rotate" from="0 12 12" to="360 12 12" dur="1s" repeatCount="indefinite"></animateTransform>
+		   </path>
+      </g>
+    </g>
+</svg>
+</div>		
+		
+		
+
+
+<div style="display: none; visibility: hidden;">
+
+
+
+</div>
+
+
+
+
+
+<iframe style="display: none; visibility: hidden;" owner="archetype" title="archetype"></iframe>
+<div class="go2933276541 go2369186930" id="hs-web-interactives-top-anchor"><div id="hs-interactives-modal-overlay" class="go1632949049"></div></div>
+<div class="go2933276541 go1348078617" id="hs-web-interactives-bottom-anchor"></div>
+<div id="hs-web-interactives-floating-container">
+  <div id="hs-web-interactives-floating-top-left-anchor" class="go2417249464 go613305155">
+  </div>
+  <div id="hs-web-interactives-floating-top-right-anchor" class="go2417249464 go471583506">
+  </div>
+  <div id="hs-web-interactives-floating-bottom-left-anchor" class="go2417249464 go3921366393">
+  </div>
+  <div id="hs-web-interactives-floating-bottom-right-anchor" class="go2417249464 go3967842156">
+  </div>
+</div>
+<div id="drift-frame-chat" class="drift-conductor-item drift-frame-chat drift-frame-chat-align-right with-transition" style="right: 12px; width: 400px !important; max-width: none; position: fixed; z-index: 2147483647; max-height: 0px; bottom: 88px; visibility: hidden; min-width: 320px; height: 100% !important;"><iframe class="drift-frame-chat" scrolling="no" title="Drift Widget Chat Window" allow="autoplay; encrypted-media; fullscreen;" style="background: transparent; width: 400px !important; max-width: 100%; height: 100%; border: medium none;" src="https://js.driftt.com/core/chat?d=1&amp;region=US&amp;driftEnableLog=false&amp;pageLoadStartTime=1739308039216" frameborder="0"></iframe></div><div id="drift-frame-controller" class="drift-conductor-item drift-frame-controller drift-frame-controller-align-right" style="right: 24px; width: 76px !important; max-width: none; position: fixed; z-index: 2147483647; height: 0px !important; bottom: 24px;"><iframe class="drift-frame-controller" scrolling="no" title="Drift Widget Chat Controller" allow="autoplay; encrypted-media; fullscreen;" style="background: transparent; width: 100%; max-width: 100%; height: 100%; border: medium none;" src="https://js.driftt.com/core?d=1&amp;embedId=ezkt3c3f8tvu&amp;eId=ezkt3c3f8tvu&amp;region=US&amp;forceShow=false&amp;skipCampaigns=false&amp;sessionId=86904aab-d446-4ea0-9e92-0027f01edb4a&amp;sessionStarted=1739308040.588&amp;campaignRefreshToken=9eddc96f-1231-412e-94e7-4510b43737e6&amp;hideController=false&amp;pageLoadStartTime=1739308039216&amp;mode=CHAT&amp;driftEnableLog=false&amp;secureIframe=false&amp;u=https%3A%2F%2Fwww.gainsight.com%2Fpolicy%2Fprivacy%2F" frameborder="0"></iframe></div><div class="apt-guide-overlay-top" style="display: none; visibility: hidden;"></div><div class="apt-guide-overlay-bottom" style="display: none; visibility: hidden;"></div><div class="apt-guide-overlay-left" style="display: none; visibility: hidden;"></div><div class="apt-guide-overlay-right" style="display: none; visibility: hidden;"></div><div style="display: none; visibility: hidden;"></div><div style="display: none; visibility: hidden;">        
+        
+</div>
+
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=844664549655187&amp;ev=PageView&amp;noscript=1"></noscript>
+<iframe id="universal_pixel_dzavd2v" style="display:none;" src="https://insight.adsrvr.org/track/up?adv=c9oyarn&amp;ref=https%3A%2F%2Fwww.gainsight.com%2Fpolicy%2Fprivacy%2F&amp;upid=dzavd2v&amp;upv=1.1.0" title="TTD Universal Pixel" width="0" height="0"></iframe><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div><div id="onetrust-pc-sdk" class="otPcTab ot-hide ot-fade-in ot-sdk-not-webkit" aria-label="Preference center" role="region" lang="en"><div role="alertdialog" aria-modal="true" aria-describedby="ot-pc-desc" style="height: 100%;" aria-label="Privacy Preference Center"><!-- pc header --><div class="ot-pc-header" role="presentation"><!-- Header logo --><div class="ot-pc-logo" role="img" aria-label="Gainsight"><img alt="Gainsight" src="https://cdn.cookielaw.org/logos/2fd73697-9aa5-4d0d-a7f5-be44a2c54da4/e9f62bab-f98b-4cca-930e-7a87906f41cf/186b54b2-5b78-4e8a-9a0f-4c633e480e57/Gainsight_Logo_GrayBlue.png"></div><div class="ot-title-cntr"><h2 id="ot-pc-title">Privacy Preference Center</h2><div class="ot-close-cntr"><button id="close-pc-btn-handler" class="ot-close-icon" aria-label="Close" style="background-image: url(&quot;https://cdn.cookielaw.org/logos/static/ot_close.svg&quot;);"></button></div></div></div><!-- content --><!-- Groups / Sub groups with cookies --><div id="ot-pc-content" class="ot-pc-scrollbar ot-sdk-row"><div class="ot-optout-signal ot-hide"><div class="ot-optout-icon"><svg xmlns="http://www.w3.org/2000/svg"><path class="ot-floating-button__svg-fill" d="M14.588 0l.445.328c1.807 1.303 3.961 2.533 6.461 3.688 2.015.93 4.576 1.746 7.682 2.446 0 14.178-4.73 24.133-14.19 29.864l-.398.236C4.863 30.87 0 20.837 0 6.462c3.107-.7 5.668-1.516 7.682-2.446 2.709-1.251 5.01-2.59 6.906-4.016zm5.87 13.88a.75.75 0 00-.974.159l-5.475 6.625-3.005-2.997-.077-.067a.75.75 0 00-.983 1.13l4.172 4.16 6.525-7.895.06-.083a.75.75 0 00-.16-.973z" fill="#FFF" fill-rule="evenodd"></path></svg></div><span></span></div><div class="ot-sdk-container ot-grps-cntr ot-sdk-column"><div class="ot-sdk-four ot-sdk-columns ot-tab-list" aria-label="Cookie Categories"><ul class="ot-cat-grp" role="tablist"><li class="ot-abt-tab" role="presentation"><!-- About Privacy container --><div class="ot-active-menu category-menu-switch-handler" role="tab" tabindex="0" aria-selected="true" aria-controls="ot-tab-desc"><h3 id="ot-pvcy-txt">Your Privacy</h3></div></li><li class="ot-cat-item ot-always-active-group ot-vs-config" role="presentation" data-optanongroupid="C0001"><div class="category-menu-switch-handler" role="tab" tabindex="-1" aria-selected="false" aria-controls="ot-desc-id-C0001"><h3 id="ot-header-id-C0001">Strictly Necessary Cookies</h3></div></li><li class="ot-cat-item ot-vs-config" role="presentation" data-optanongroupid="C0003"><div class="category-menu-switch-handler" role="tab" tabindex="-1" aria-selected="false" aria-controls="ot-desc-id-C0003"><h3 id="ot-header-id-C0003">Functional Cookies</h3></div></li><li class="ot-cat-item ot-vs-config" role="presentation" data-optanongroupid="C0002"><div class="category-menu-switch-handler" role="tab" tabindex="-1" aria-selected="false" aria-controls="ot-desc-id-C0002"><h3 id="ot-header-id-C0002">Performance Cookies</h3></div></li><li class="ot-cat-item ot-vs-config" role="presentation" data-optanongroupid="C0004"><div class="category-menu-switch-handler" role="tab" tabindex="-1" aria-selected="false" aria-controls="ot-desc-id-C0004"><h3 id="ot-header-id-C0004">Targeting Cookies</h3></div></li></ul></div><div class="ot-tab-desc ot-sdk-eight ot-sdk-columns"><div class="ot-desc-cntr" id="ot-tab-desc" tabindex="0" role="tabpanel" aria-labelledby="ot-pvcy-hdr"><h4 id="ot-pvcy-hdr">Your Privacy</h4><p id="ot-pc-desc" class="ot-grp-desc">When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer.
+            <br><a href="https://www.gainsight.com/policy/cookie-policy/" class="privacy-notice-link" rel="noopener" target="_blank" aria-label="More information about your privacy, opens in a new tab">More information</a><div class="ot-userid-title"><span>User ID: </span> d1ac9d25-eed9-427b-a958-72a8ff3cca77</div><div class="ot-userid-timestamp"><span>Timestamp: </span> --</div></p></div><div class="ot-desc-cntr ot-hide ot-always-active-group" role="tabpanel" tabindex="0" id="ot-desc-id-C0001"><div class="ot-grp-hdr1"><h4 class="ot-cat-header">Strictly Necessary Cookies</h4><div class="ot-tgl-cntr"><div class="ot-always-active">Always Active</div></div></div><p class="ot-grp-desc ot-category-desc">These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information.</p><div class="ot-hlst-cntr"><button class="ot-link-btn category-host-list-handler" aria-label="Cookie Details button opens Cookie List menu" data-parent-id="C0001">Cookies Details‎</button></div></div><div class="ot-desc-cntr ot-hide" role="tabpanel" tabindex="0" id="ot-desc-id-C0003"><div class="ot-grp-hdr1"><h4 class="ot-cat-header">Functional Cookies</h4><div class="ot-tgl"><input type="checkbox" name="ot-group-id-C0003" id="ot-group-id-C0003" aria-checked="true" role="switch" class="category-switch-handler" data-optanongroupid="C0003" checked="" aria-labelledby="ot-header-id-C0003"> <label class="ot-switch" for="ot-group-id-C0003"><span class="ot-switch-nob" aria-checked="false" role="switch"></span> <span class="ot-label-txt">Functional Cookies</span></label> </div><div class="ot-tgl-cntr"></div></div><p class="ot-grp-desc ot-category-desc">These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.</p><div class="ot-hlst-cntr"><button class="ot-link-btn category-host-list-handler" aria-label="Cookie Details button opens Cookie List menu" data-parent-id="C0003">Cookies Details‎</button></div></div><div class="ot-desc-cntr ot-hide" role="tabpanel" tabindex="0" id="ot-desc-id-C0002"><div class="ot-grp-hdr1"><h4 class="ot-cat-header">Performance Cookies</h4><div class="ot-tgl"><input type="checkbox" name="ot-group-id-C0002" id="ot-group-id-C0002" aria-checked="true" role="switch" class="category-switch-handler" data-optanongroupid="C0002" checked="" aria-labelledby="ot-header-id-C0002"> <label class="ot-switch" for="ot-group-id-C0002"><span class="ot-switch-nob" aria-checked="false" role="switch"></span> <span class="ot-label-txt">Performance Cookies</span></label> </div><div class="ot-tgl-cntr"></div></div><p class="ot-grp-desc ot-category-desc">These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.</p><div class="ot-hlst-cntr"><button class="ot-link-btn category-host-list-handler" aria-label="Cookie Details button opens Cookie List menu" data-parent-id="C0002">Cookies Details‎</button></div></div><div class="ot-desc-cntr ot-hide" role="tabpanel" tabindex="0" id="ot-desc-id-C0004"><div class="ot-grp-hdr1"><h4 class="ot-cat-header">Targeting Cookies</h4><div class="ot-tgl"><input type="checkbox" name="ot-group-id-C0004" id="ot-group-id-C0004" aria-checked="true" role="switch" class="category-switch-handler" data-optanongroupid="C0004" checked="" aria-labelledby="ot-header-id-C0004"> <label class="ot-switch" for="ot-group-id-C0004"><span class="ot-switch-nob" aria-checked="false" role="switch"></span> <span class="ot-label-txt">Targeting Cookies</span></label> </div><div class="ot-tgl-cntr"></div></div><p class="ot-grp-desc ot-category-desc">These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising.</p><div class="ot-hlst-cntr"><button class="ot-link-btn category-host-list-handler" aria-label="Cookie Details button opens Cookie List menu" data-parent-id="C0004">Cookies Details‎</button></div></div></div></div></div><!-- Vendors / Hosts --><section id="ot-pc-lst" class="ot-hide ot-enbl-chr"><div class="ot-lst-cntr ot-pc-scrollbar"><div id="ot-pc-hdr"><div id="ot-lst-title"><button class="ot-link-btn back-btn-handler" aria-label="Back"><svg id="ot-back-arw" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 444.531 444.531" xml:space="preserve"><title>Back Button</title><g><path fill="#656565" d="M213.13,222.409L351.88,83.653c7.05-7.043,10.567-15.657,10.567-25.841c0-10.183-3.518-18.793-10.567-25.835
+                  l-21.409-21.416C323.432,3.521,314.817,0,304.637,0s-18.791,3.521-25.841,10.561L92.649,196.425
+                  c-7.044,7.043-10.566,15.656-10.566,25.841s3.521,18.791,10.566,25.837l186.146,185.864c7.05,7.043,15.66,10.564,25.841,10.564
+                  s18.795-3.521,25.834-10.564l21.409-21.412c7.05-7.039,10.567-15.604,10.567-25.697c0-10.085-3.518-18.746-10.567-25.978
+                  L213.13,222.409z"></path></g></svg></button><h3>Cookie List</h3></div><div class="ot-lst-subhdr"><div id="ot-search-cntr"><p role="status" class="ot-scrn-rdr"></p><input id="vendor-search-handler" type="text" name="vendor-search-handler" placeholder="Search…" aria-label="Cookie list search"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 -30 110 110" aria-hidden="false"><path fill="#2e3644" d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
+              s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92
+              c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17
+              s-17-7.626-17-17S14.61,6,23.984,6z"></path></svg></div><div id="ot-fltr-cntr"><button id="filter-btn-handler" aria-label="Filter" aria-haspopup="true"><svg role="presentation" aria-hidden="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 402.577 402.577" xml:space="preserve"><title>Filter Button</title><g><path fill="#2c3643" d="M400.858,11.427c-3.241-7.421-8.85-11.132-16.854-11.136H18.564c-7.993,0-13.61,3.715-16.846,11.136
+                            c-3.234,7.801-1.903,14.467,3.999,19.985l140.757,140.753v138.755c0,4.955,1.809,9.232,5.424,12.854l73.085,73.083
+                            c3.429,3.614,7.71,5.428,12.851,5.428c2.282,0,4.66-0.479,7.135-1.43c7.426-3.238,11.14-8.851,11.14-16.845V172.166L396.861,31.413
+                            C402.765,25.895,404.093,19.231,400.858,11.427z"></path></g></svg></button></div></div></div><section id="ot-lst-cnt" class="ot-pc-scrollbar"><div class="ot-sdk-row"><div class="ot-sdk-column"><div id="ot-sel-blk"><div class="ot-sel-all"><div class="ot-sel-all-hdr"><span class="ot-consent-hdr">Consent</span> <span class="ot-li-hdr">Leg.Interest</span></div><div class="ot-sel-all-chkbox"><div class="ot-chkbox" id="ot-selall-hostcntr"><input id="select-all-hosts-groups-handler" type="checkbox" aria-checked="false"> <label for="select-all-hosts-groups-handler"><span class="ot-label-txt">checkbox label</span></label> <span class="ot-label-status">label</span></div><div class="ot-chkbox" id="ot-selall-vencntr"><input id="select-all-vendor-groups-handler" type="checkbox" aria-checked="false"> <label for="select-all-vendor-groups-handler"><span class="ot-label-txt">checkbox label</span></label> <span class="ot-label-status">label</span></div><div class="ot-chkbox" id="ot-selall-licntr"><input id="select-all-vendor-leg-handler" type="checkbox" aria-checked="false"> <label for="select-all-vendor-leg-handler"><span class="ot-label-txt">checkbox label</span></label> <span class="ot-label-status">label</span></div></div></div></div><ul id="ot-host-lst"></ul></div></div></section></div><div id="ot-anchor"></div><section id="ot-fltr-modal"><div id="ot-fltr-cnt"><button id="clear-filters-handler">Clear</button><div class="ot-fltr-scrlcnt ot-pc-scrollbar"><div class="ot-fltr-opts"><div class="ot-fltr-opt"><div class="ot-chkbox"><input id="chkbox-id" type="checkbox" aria-checked="false" class="category-filter-handler"> <label for="chkbox-id"><span class="ot-label-txt">checkbox label</span></label> <span class="ot-label-status">label</span></div></div></div><div class="ot-fltr-btns"><button id="filter-apply-handler">Apply</button> <button id="filter-cancel-handler">Cancel</button></div></div></div></section></section><!-- Footer buttons and logo --><div class="ot-pc-footer"><div class="ot-btn-container"><button class="save-preference-btn-handler onetrust-close-btn-handler">Confirm My Choices</button><div class="ot-btn-subcntr"> <button id="accept-recommended-btn-handler">Allow All</button></div></div><div class="ot-pc-footer-logo"><a href="https://www.onetrust.com/products/cookie-consent/" target="_blank" rel="noopener noreferrer" aria-label="Powered by OneTrust Opens in a new Tab"><img alt="Powered by Onetrust" src="https://cdn.cookielaw.org/logos/static/powered_by_logo.svg" title="Powered by OneTrust Opens in a new Tab"></a></div></div><!-- Cookie subgroup container --><!-- Vendor list link --><!-- Cookie lost link --><!-- Toggle HTML element --><!-- Checkbox HTML --><!-- Arrow SVG element --><!-- Accordion basic element --><span class="ot-scrn-rdr" aria-atomic="true" aria-live="polite"></span><!-- Vendor Service container and item template --></div><iframe class="ot-text-resize" sandbox="allow-same-origin" title="onetrust-text-resize" style="position: absolute; top: -50000px; width: 100em;" aria-hidden="false"></iframe></div></div><div style="width: 0px; height: 0px; display: none; visibility: hidden;" id="batBeacon628319162031"><img style="width: 0px; height: 0px; display: none; visibility: hidden;" id="batBeacon233109409333" alt="" src="https://bat.bing.com/action/0?ti=187028302&amp;tm=gtm002&amp;Ver=2&amp;mid=5f8b3b9d-d22f-4d9b-b294-48a9105e9868&amp;bo=1&amp;sid=308a4480e8bc11ef94980d5c6afa7089&amp;vid=308a6570e8bc11ef903aa39a38216fb6&amp;vids=1&amp;msclkid=N&amp;pi=0&amp;lg=en-US&amp;sw=1080&amp;sh=1920&amp;sc=24&amp;tl=Privacy%20Policy%20%7C%20Customer%20Success%20Software%20%7C%20Gainsight&amp;p=https%3A%2F%2Fwww.gainsight.com%2Fpolicy%2Fprivacy%2F&amp;r=&amp;lt=2441&amp;evt=pageLoad&amp;sv=1&amp;cdb=AQED&amp;rn=252808" width="0" height="0"></div><iframe id="_hjSafeContext_69633430" title="_hjSafeContext" tabindex="-1" aria-hidden="false" src="about:blank" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe></body></html>

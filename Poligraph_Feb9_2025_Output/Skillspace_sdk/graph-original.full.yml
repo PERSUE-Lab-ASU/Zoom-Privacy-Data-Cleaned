@@ -1,0 +1,246 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '* We may also collect the following information: device ID; location and language
+    information.'
+  - We will retain and use your information to the extent necessary to comply with
+    our legal obligations, resolve disputes, and enforce our policies.
+  purposes: {}
+- source: we
+  target: copy of personal datum in use electronic form
+  key: COLLECT
+  text:
+  - Upon request, we will provide a copy of your personal data in a commonly used
+    electronic form.
+  purposes: {}
+- source: we
+  target: device identifier
+  key: COLLECT
+  text:
+  - '* We may also collect the following information: device ID; location and language
+    information.'
+  purposes: {}
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - Similar to other commercial websites, our website utilizes a standard technology
+    called 'cookies' (see our cookies policy section for more information) and server
+    logs to collect information about how our site is used.
+  purposes: {}
+- source: we
+  target: information about use of site
+  key: COLLECT
+  text:
+  - We may automatically collect the following information about your use of our Site
+    via some software analytics including the length of time you visit our Site and
+    your movement through our Site.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may collect information about you directly from you, as well as automatically
+    through your use of our Site or Services.
+  purposes: {}
+- source: we
+  target: information you give we
+  key: COLLECT
+  text:
+  - In order to carry out our obligations under that contract we must process the
+    information you give us.
+  purposes:
+    legal:
+    - In order to carry out our obligations under that contract
+- source: we
+  target: server log
+  key: COLLECT
+  text:
+  - Similar to other commercial websites, our website utilizes a standard technology
+    called 'cookies' (see our cookies policy section for more information) and server
+    logs to collect information about how our site is used.
+  purposes: {}
+- source: skill space
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Skill Space may share data with trusted partners to help perform statistical analysis,
+    send you email or postal mail, and provide customer support.
+  - Skill Space shall continue to process this information until the contract between
+    us ends or is terminated by either party under the terms of the contract.
+  purposes:
+    analytics:
+    - to help perform statistical analysis
+- source: skill space
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like any other website, Skill Space uses 'cookies'.
+  purposes: {}
+- source: skill space
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'Skill Space may collect personally identifiable information such as your: Name,
+    and email Address when you purchase our course.'
+  purposes: {}
+- source: skill space
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Except as otherwise mentioned in this privacy notice, Skill Space keeps your
+    personal information only for as long as required by us:'
+  - Skill Space needs to perform a contract with you You have given Skill Space permission
+    to do so Processing your personal information is in Skill Space legitimate interests
+    Skill Space needs to comply with the law Skill Space will retain your personal
+    information only for as long as is necessary for the purposes set out in this
+    Privacy Policy.
+  - 'Skill Space will disclose your personal information, without notice, only if
+    required to do so by law or in the good faith belief that such action is necessary
+    to: (a) Conform to the edicts of the law or comply with the legal process served
+    on Skill Space or the site; (b) protect and defend the rights or property of Skill
+    Space; And, (c) act under exigent circumstances to protect the personal safety
+    of users of Skill Space, or the public.'
+  purposes: {}
+- source: skill space website
+  target: secure sockets layer certificate
+  key: COLLECT
+  text:
+  - Skill Space website use Secure Sockets Layer (SSL) certificates to verify our
+    identity to your browser and to encrypt any data you give us.
+  purposes:
+    security:
+    - to verify our identity to your browser and to encrypt any data you give us
+- source: trust partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Skill Space may share data with trusted partners to help perform statistical analysis,
+    send you email or postal mail, and provide customer support.
+  purposes:
+    analytics:
+    - to help perform statistical analysis
+- source: cookie / pixel tag
+  target: date
+  key: SUBSUM
+  text:
+  - Information gathered through cookies and server logs may include the date and
+    time of visits, the pages viewed, time spent at our site, and the websites visited
+    just before and just after our own, as well as your IP address.
+- source: cookie / pixel tag
+  target: ip address
+  key: SUBSUM
+  text:
+  - Information gathered through cookies and server logs may include the date and
+    time of visits, the pages viewed, time spent at our site, and the websites visited
+    just before and just after our own, as well as your IP address.
+- source: cookie / pixel tag
+  target: time spend at site
+  key: SUBSUM
+  text:
+  - Information gathered through cookies and server logs may include the date and
+    time of visits, the pages viewed, time spent at our site, and the websites visited
+    just before and just after our own, as well as your IP address.
+- source: information collect from log file
+  target: browser type
+  key: SUBSUM
+  text:
+  - The information collected from log files includes internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect from log file
+  target: date
+  key: SUBSUM
+  text:
+  - The information collected from log files includes internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect from log file
+  target: internet service provider
+  key: SUBSUM
+  text:
+  - The information collected from log files includes internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect from log file
+  target: ip address
+  key: SUBSUM
+  text:
+  - The information collected from log files includes internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect from log file
+  target: number of click
+  key: SUBSUM
+  text:
+  - The information collected from log files includes internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Skill Space may collect personally identifiable information such as your: Name,
+    and email Address when you purchase our course.'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Skill Space may collect personally identifiable information such as your: Name,
+    and email Address when you purchase our course.'
+nodes:
+- type: ACTOR
+  id: skill space
+- type: ACTOR
+  id: skill space website
+- type: ACTOR
+  id: trust partner
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: copy of personal datum in use electronic form
+- type: DATA
+  id: date
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about use of site
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information collect from log file
+- type: DATA
+  id: information you give we
+- type: DATA
+  id: internet service provider
+- type: DATA
+  id: ip address
+- type: DATA
+  id: number of click
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: secure sockets layer certificate
+- type: DATA
+  id: server log
+- type: DATA
+  id: time spend at site

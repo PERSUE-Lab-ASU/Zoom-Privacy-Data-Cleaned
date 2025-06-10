@@ -1,0 +1,94 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: functional collaboration
+  target: connect event
+  key: SUBSUM
+  text:
+  - Through functional collaborations like counselor-connect events, trade fairs,
+    workshops with parents, and meet-and-greet between post-secondary education institutes
+    and schools we create new relationships and build trust in the community.
+- source: functional collaboration
+  target: post - secondary education institute
+  key: SUBSUM
+  text:
+  - Through functional collaborations like counselor-connect events, trade fairs,
+    workshops with parents, and meet-and-greet between post-secondary education institutes
+    and schools we create new relationships and build trust in the community.
+- source: functional collaboration
+  target: school
+  key: SUBSUM
+  text:
+  - Through functional collaborations like counselor-connect events, trade fairs,
+    workshops with parents, and meet-and-greet between post-secondary education institutes
+    and schools we create new relationships and build trust in the community.
+- source: functional collaboration
+  target: trade fair
+  key: SUBSUM
+  text:
+  - Through functional collaborations like counselor-connect events, trade fairs,
+    workshops with parents, and meet-and-greet between post-secondary education institutes
+    and schools we create new relationships and build trust in the community.
+- source: functional collaboration
+  target: workshop with parent
+  key: SUBSUM
+  text:
+  - Through functional collaborations like counselor-connect events, trade fairs,
+    workshops with parents, and meet-and-greet between post-secondary education institutes
+    and schools we create new relationships and build trust in the community.
+- source: multi - stakeholder industry
+  target: high education
+  key: SUBSUM
+  text:
+  - In a multi-stakeholder industry like higher education, it is easy to lose sight
+    of who we are here to primarily serve.
+- source: service provider
+  target: banking
+  key: SUBSUM
+  text:
+  - Similarly, through innovative partnerships, with secondary and tertiary businesses
+    and service providers like visa issuance, scholarship funds, banking, and financial
+    services to name a few, we create deep interconnectedness among the community
+    players, which is essential to succeed at multiple levels.
+- source: service provider
+  target: scholarship fund
+  key: SUBSUM
+  text:
+  - Similarly, through innovative partnerships, with secondary and tertiary businesses
+    and service providers like visa issuance, scholarship funds, banking, and financial
+    services to name a few, we create deep interconnectedness among the community
+    players, which is essential to succeed at multiple levels.
+- source: service provider
+  target: visa issuance
+  key: SUBSUM
+  text:
+  - Similarly, through innovative partnerships, with secondary and tertiary businesses
+    and service providers like visa issuance, scholarship funds, banking, and financial
+    services to name a few, we create deep interconnectedness among the community
+    players, which is essential to succeed at multiple levels.
+nodes:
+- type: ACTOR
+  id: banking
+- type: ACTOR
+  id: connect event
+- type: ACTOR
+  id: functional collaboration
+- type: ACTOR
+  id: high education
+- type: ACTOR
+  id: multi - stakeholder industry
+- type: ACTOR
+  id: post - secondary education institute
+- type: ACTOR
+  id: scholarship fund
+- type: ACTOR
+  id: school
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: trade fair
+- type: ACTOR
+  id: visa issuance
+- type: ACTOR
+  id: workshop with parent

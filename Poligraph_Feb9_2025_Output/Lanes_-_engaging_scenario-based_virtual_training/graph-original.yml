@@ -1,0 +1,81 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will pass your data to a third party only with your willing consent.
+  - 'With your permission, we may collect and process the following data: first name
+    and last name, email address, company, and job title.'
+  purposes: {}
+- source: we
+  target: content generate
+  key: COLLECT
+  text:
+  - We store the content generated and submitted by participants for data analytics
+    purposes.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies for the correct display of the website's content and for the convenience
+    of browsing www.lanes.ai.
+  purposes:
+    services:
+    - for the correct display of the website's content and for the convenience of
+      browsing www.lanes.ai
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'With your permission, we may collect and process the following data: first name
+    and last name, email address, company, and job title.'
+  purposes: {}
+- source: we
+  target: job title
+  key: COLLECT
+  text:
+  - 'With your permission, we may collect and process the following data: first name
+    and last name, email address, company, and job title.'
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'With your permission, we may collect and process the following data: first name
+    and last name, email address, company, and job title.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We collect and process your personal data only with your willing consent.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will pass your data to a third party only with your willing consent.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: content generate
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: job title
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information

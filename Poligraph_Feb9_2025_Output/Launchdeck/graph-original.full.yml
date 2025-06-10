@@ -1,0 +1,117 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'We use cookies to:'
+  purposes: {}
+- source: we
+  target: datum you share with we
+  key: COLLECT
+  text:
+  - In particular, when you contact us by email, chat, telephone, or via a contact
+    form, we will store the data you share with us (your email address and possibly
+    your name and phone number) in order to respond to your questions as well as to
+    be able to provide you with the best possible service in the future.
+  purposes:
+    services:
+    - in order to respond to your questions as well as to be able to provide you with
+      the best possible service in the future
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - In particular, when you contact us by email, chat, telephone, or via a contact
+    form, we will store the data you share with us (your email address and possibly
+    your name and phone number) in order to respond to your questions as well as to
+    be able to provide you with the best possible service in the future.
+  purposes:
+    services:
+    - in order to respond to your questions as well as to be able to provide you with
+      the best possible service in the future
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - In particular, when you contact us by email, chat, telephone, or via a contact
+    form, we will store the data you share with us (your email address and possibly
+    your name and phone number) in order to respond to your questions as well as to
+    be able to provide you with the best possible service in the future.
+  purposes:
+    services:
+    - in order to respond to your questions as well as to be able to provide you with
+      the best possible service in the future
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 3. We may collect Personal Data without proactive consent through the utilization
+    of publicly available resources if it is in compliance with applicable regulatory
+    standards.
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - In particular, when you contact us by email, chat, telephone, or via a contact
+    form, we will store the data you share with us (your email address and possibly
+    your name and phone number) in order to respond to your questions as well as to
+    be able to provide you with the best possible service in the future.
+  purposes:
+    services:
+    - in order to respond to your questions as well as to be able to provide you with
+      the best possible service in the future
+- source: launchdeck
+  target: personal information
+  key: COLLECT
+  text:
+  - Launchdeck obtains Personal Data about you from various sources to provide our
+    Services and to manage our Sites.
+  purposes:
+    services:
+    - to provide our Services and to manage our Sites
+- source: template make
+  target: own information
+  key: COLLECT
+  text:
+  - The templates made available through Launchdeck, provide suggested boilerplate
+    content.
+  - They require you to read, understand, and provide your own information to meet
+    your own specific needs.
+  purposes:
+    services:
+    - to meet your own specific needs
+- source: template
+  target: provide content within
+  key: SUBSUM
+  text:
+  - The templates, including any provided content within, shall not be considered
+    as legal advice.
+nodes:
+- type: ACTOR
+  id: launchdeck
+- type: ACTOR
+  id: provide content within
+- type: ACTOR
+  id: template
+- type: ACTOR
+  id: template make
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum you share with we
+- type: DATA
+  id: email address
+- type: DATA
+  id: own information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number

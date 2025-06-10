@@ -1,0 +1,119 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: backup
+  key: COLLECT
+  text:
+  - For paid subscription accounts, We automatically back Your CRM instance data up
+    every day and keep backups for a rolling 30 days.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalized ads or
+    content, and analyze our traffic.'
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    analytics:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    services:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: analec
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Where Your use of Services includes the processing by ANALEC of Customer Personal
+    Data on your behalf, You consent and agree that ANALEC may process the data in
+    accordance with the terms of the data processing addendum ("DPA") linked here.
+  purposes: {}
+- source: analec
+  target: file
+  key: COLLECT
+  text:
+  - ANALEC may provide sample data and files for the purpose of demonstrating the
+    possibility of using the Services effectively for specific purposes.
+  purposes:
+    services:
+    - for the purpose of demonstrating the possibility of using the Services effectively
+      for specific purposes
+- source: analec
+  target: sample datum
+  key: COLLECT
+  text:
+  - ANALEC may provide sample data and files for the purpose of demonstrating the
+    possibility of using the Services effectively for specific purposes.
+  purposes:
+    services:
+    - for the purpose of demonstrating the possibility of using the Services effectively
+      for specific purposes
+- source: receiving party
+  target: confidential information of disclosing party
+  key: COLLECT
+  text:
+  - The Receiving Party may disclose Confidential Information of the Disclosing Party
+    to the extent compelled by law or a valid order of a governmental agency, legislative
+    body, or court of competent jurisdiction to do so, provided the Receiving Party
+    gives the Disclosing Party prior notice of the compelled disclosure (to the extent
+    legally permitted) and reasonable assistance, at the Disclosing Party's cost,
+    if the Disclosing Party wishes to contest the disclosure.
+  purposes: {}
+- source: youtube
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The cookie ytidb::LAST_RESULT_ENTRY_KEY is used by YouTube to store the last search
+    result entry that was clicked by the user.
+  - The yt-player-headers-readable cookie is used by YouTube to store user preferences
+    related to video playback and interface, enhancing the user's viewing experience.
+  - The yt-remote-fast-check-period cookie is used by YouTube to store the user's
+    video player preferences for embedded YouTube videos.
+  - The yt-remote-session-app cookie is used by YouTube to store user preferences
+    and information about the interface of the embedded YouTube video player.
+  - The yt-remote-session-name cookie is used by YouTube to store the user's video
+    player preferences using embedded YouTube video.
+  purposes:
+    analytics:
+    - to store the last search result entry that was clicked by the user
+    - to store the user's video player preferences using embedded YouTube video
+    - to store user preferences and information about the interface of the embedded
+      YouTube video player
+    services:
+    - to store the last search result entry that was clicked by the user
+    - to store the user's video player preferences for embedded YouTube videos
+    - to store the user's video player preferences using embedded YouTube video
+    - to store user preferences and information about the interface of the embedded
+      YouTube video player
+    - to store user preferences related to video playback and interface,
+nodes:
+- type: ACTOR
+  id: analec
+- type: ACTOR
+  id: receiving party
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: youtube
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: backup
+- type: DATA
+  id: confidential information of disclosing party
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: file
+- type: DATA
+  id: sample datum

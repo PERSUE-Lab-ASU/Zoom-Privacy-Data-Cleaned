@@ -1,0 +1,227 @@
+<!DOCTYPE html><html data-critters-container="" class="plt-desktop md hydrated" mode="md" lang="en"><head>
+  <meta charset="utf-8">
+  <title>Relax and Stretch Yoga - Demo</title>
+
+  <base href="/">
+
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- Apple add to home screen icon -->
+  
+
+  
+  <!-- Material Icons -->
+  
+  <!-- add to homescreen for ios -->
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+  <!-- Code Push -->
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src https://codepush.appcenter.ms 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *"/> -->
+  <!-- <link rel="manifest"> -->
+  <meta name="theme-color" content="#3880ff">
+
+<noscript><link rel="stylesheet" href="styles.3b515b090e910684.css"></noscript></head>
+
+<body onload="handleUnsupportedBrowsers()" class="backdrop-no-scroll">
+  <!-- Scanner -->
+  <div id="scanner-container" style="opacity:0; height: 0%;">
+    
+    <div style="position:absolute; right:20px; top:20px" id="scanner-close-button">
+      <div style="color: black; font-weight:bold; font-size:20px;">Close</div>
+    </div>
+    <div class="barcode-scanner--area--container">
+      <div class="relative">
+        <p>Aim your camera at a barcode</p>
+      </div>
+      <div class="square surround-cover">
+        <div class="barcode-scanner--area--outer surround-cover">
+          <div class="barcode-scanner--area--inner"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="loader">
+    
+    <div class="application-loading-container">
+      <img src="/assets/images/loading.gif" style="max-width:280px;">
+      <div class="application-loading-box saving"><h5 id="initializing-text"><div>Initializing app</div><span>.</span><span>.</span><span>.</span></h5></div>
+    </div>
+    
+  </div>
+  <!-- To hide for the scanner -->
+  <div id="app-wrapper">
+    <app-root _nghost-ng-c1697690640="" ng-version="17.3.12"><ion-app _ngcontent-ng-c1697690640="" class="md ion-page hydrated"><!----><!----><!----><app-title-bar-customer _ngcontent-ng-c1697690640="" _nghost-ng-c3043698982=""><div _ngcontent-ng-c3043698982="" style="position: absolute; left: 0; right: 0; top: 0;"><ion-header _ngcontent-ng-c3043698982="" mode="ios" translucent="false" role="banner" class="ios header-ios header-collapse-none hydrated primary-4"><!----><!----><ion-toolbar _ngcontent-ng-c3043698982="" class="toolbar-title-default ios in-toolbar hydrated primary-4"><ion-buttons _ngcontent-ng-c3043698982="" slot="start" class="buttons-first-slot sc-ion-buttons-ios-h sc-ion-buttons-ios-s ios hydrated"><app-title-bar-left-buttons _ngcontent-ng-c3043698982="" _nghost-ng-c3722713640=""><!----><ion-item _ngcontent-ng-c3722713640="" color="none" detail="false" lines="none" button="" class="ion-color ion-color-none item ios item-lines-none item-fill-none ion-activatable ion-focusable hydrated item-label"><div _ngcontent-ng-c3722713640="" tabindex="0"></div><ion-icon _ngcontent-ng-c3722713640="" name="chevron-back-outline" class="ml-n2 md flip-rtl hydrated" role="img"></ion-icon><ion-label _ngcontent-ng-c3722713640="" class="sc-ion-label-ios-h sc-ion-label-ios-s ios in-item-color hydrated"><ion-text _ngcontent-ng-c3722713640="" class="md hydrated"> Back </ion-text></ion-label></ion-item><!----></app-title-bar-left-buttons></ion-buttons><ion-title _ngcontent-ng-c3043698982="" class="ion-text-center ios title-default hydrated"><!----><ion-text _ngcontent-ng-c3043698982="" class="md hydrated"> Privacy policy </ion-text><!----></ion-title><ion-buttons _ngcontent-ng-c3043698982="" slot="end" class="buttons-last-slot sc-ion-buttons-ios-h sc-ion-buttons-ios-s ios hydrated"><!----><app-title-bar-search-button _ngcontent-ng-c3043698982="" _nghost-ng-c2404085580=""><!----></app-title-bar-search-button><app-title-bar-view-picker _ngcontent-ng-c3043698982="" _nghost-ng-c1575632356=""><!----></app-title-bar-view-picker><!----><app-title-bar-profile-picture _ngcontent-ng-c3043698982="" _nghost-ng-c3765148030=""><div _ngcontent-ng-c3765148030=""><img _ngcontent-ng-c3765148030="" class="profile-image" src="assets/images/customer-blank.png"><img _ngcontent-ng-c3765148030="" class="language-selector elevation-1" src="assets/images/flag-en.jpg"><!----></div><!----></app-title-bar-profile-picture><!----><!----><app-title-bar-ellipse-button _ngcontent-ng-c3043698982="" _nghost-ng-c1146876246=""><!----></app-title-bar-ellipse-button><!----><!----></ion-buttons></ion-toolbar><app-title-bar-secondary-header _ngcontent-ng-c3043698982="" _nghost-ng-c2549911962=""><!----><!----><!----></app-title-bar-secondary-header><!----></ion-header><!----><!----></div><!----><!----></app-title-bar-customer><!----><!----><!----><input _ngcontent-ng-c1697690640="" type="hidden" value="1"><app-customer-drawer _ngcontent-ng-c1697690640="" _nghost-ng-c1797291688=""><ion-menu _ngcontent-ng-c1797291688="" side="start" type="overlay" contentid="contentId" role="navigation" aria-label="menu" class="md menu-type-overlay menu-enabled menu-side-start hydrated" content-id="contentId" menu-id="customer-menu"><ion-content _ngcontent-ng-c1797291688="" class="no-bottom-margin md content-ltr hydrated" style="--offset-top: 0px; --offset-bottom: 0px;"><div _ngcontent-ng-c1797291688="" class="flex-container"><ion-list _ngcontent-ng-c1797291688="" class="ion-no-padding md list-md hydrated" role="list"><ion-menu-toggle _ngcontent-ng-c1797291688="" class="md hydrated"><app-drawer-header _ngcontent-ng-c1797291688="" _nghost-ng-c830474563=""><ion-grid _ngcontent-ng-c830474563="" class="mb-0 background-nav primary-4 md hydrated"><!----><ion-row _ngcontent-ng-c830474563="" class="ion-align-items-center cursor md hydrated"><ion-col _ngcontent-ng-c830474563="" size="3" class="ion-text-center md hydrated" style="flex: 0 0 calc(calc(3 / var(--ion-grid-columns, 12)) * 100%); width: calc(calc(3 / var(--ion-grid-columns, 12)) * 100%); max-width: calc(calc(3 / var(--ion-grid-columns, 12)) * 100%);"><img _ngcontent-ng-c830474563="" class="img-circle border" src="assets/images/customer-blank.png"></ion-col><ion-col _ngcontent-ng-c830474563="" size="8" id="intercom-1" class="md hydrated" style="flex: 0 0 calc(calc(8 / var(--ion-grid-columns, 12)) * 100%); width: calc(calc(8 / var(--ion-grid-columns, 12)) * 100%); max-width: calc(calc(8 / var(--ion-grid-columns, 12)) * 100%);"><p _ngcontent-ng-c830474563="" class="mb-0 bold text-m"><ion-text _ngcontent-ng-c830474563="" class="ion-color ion-color-white md hydrated" color="white"> Please Login </ion-text></p><!----><!----></ion-col><ion-col _ngcontent-ng-c830474563="" size="1" class="md hydrated" style="flex: 0 0 calc(calc(1 / var(--ion-grid-columns, 12)) * 100%); width: calc(calc(1 / var(--ion-grid-columns, 12)) * 100%); max-width: calc(calc(1 / var(--ion-grid-columns, 12)) * 100%);"><ion-icon _ngcontent-ng-c830474563="" name="chevron-forward-outline" role="img" class="md ion-color ion-color-white flip-rtl hydrated"></ion-icon></ion-col></ion-row></ion-grid></app-drawer-header><ion-list-header _ngcontent-ng-c1797291688="" class="md hydrated"> Relax and Stretch Yoga </ion-list-header><!----><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-custom-page" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="flag-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Pre-Class Instructions</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-blog" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="newspaper-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">News / Blog</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-photo-albums" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="images-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Photo albums</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-classrooms" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="storefront-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Class rooms</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-classes" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="easel-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Classes</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-passes" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="pricetags-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Passes</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-staff" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="school-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Instructors</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-shop" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="shirt-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Shop</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-reviews" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="star-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Reviews</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-facebook-news" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="logo-facebook"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Facebook News</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><!----><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-loyalty-rewards" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="sparkles-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Loyalty Rewards</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><!----><!----><div _ngcontent-ng-c1797291688="" class="background-nav divider primary-4"></div><ion-list-header _ngcontent-ng-c1797291688="" class="md hydrated"> Other </ion-list-header><app-drawer-component-item _ngcontent-ng-c1797291688="" icon="walk-outline" link="locations" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-locations" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="walk-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Change Location</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><app-drawer-component-item _ngcontent-ng-c1797291688="" icon="bookmarks-outline" _nghost-ng-c260363159=""><ion-item _ngcontent-ng-c260363159="" button="" detail="false" color="none" lines="none" class="item-has-start-slot ion-color ion-color-none item md item-lines-none item-fill-none in-list ion-activatable ion-focusable hydrated item-label" data-cy="drawer-undefined" role="listitem"><div _ngcontent-ng-c260363159="" tabindex="0"></div><ion-icon _ngcontent-ng-c260363159="" slot="start" class="mr-3 md ion-color ion-color-medium hydrated" role="img" name="bookmarks-outline"></ion-icon><ion-label _ngcontent-ng-c260363159="" class="capitalize sc-ion-label-md-h sc-ion-label-md-s md in-item-color hydrated">Favorites</ion-label><!----><!----></ion-item></app-drawer-component-item><!----><!----><!----><!----></ion-menu-toggle></ion-list><app-app-version _ngcontent-ng-c1797291688="" _nghost-ng-c3168614782=""><div _ngcontent-ng-c3168614782="" class="ion-text-center text-muted text-m footer"><hr _ngcontent-ng-c3168614782="" class="my-0"><div _ngcontent-ng-c3168614782="" class="admin-background-color py-3"><div _ngcontent-ng-c3168614782="">OmceanBooking</div><div _ngcontent-ng-c3168614782="" class="bold text-dark"> Version: 13.04 - 1<!----></div><div _ngcontent-ng-c3168614782="">Minor version: 2025-02-10|23:17</div><!----><!----><div _ngcontent-ng-c3168614782="">Copyright 2025</div></div></div><div _ngcontent-ng-c3168614782="" class="admin-background-color just-in-case"></div></app-app-version></div></ion-content></ion-menu></app-customer-drawer><!----><ion-menu _ngcontent-ng-c1697690640="" contentid="contentId" role="navigation" aria-label="menu" class="md menu-type-overlay menu-side-start hydrated" content-id="contentId" menu-id="admin-mobile-menu" side="start"><!----></ion-menu><!----><input _ngcontent-ng-c1697690640="" type="hidden" value="45"><ion-split-pane _ngcontent-ng-c1697690640="" contentid="contentId" style="margin-top: 45px;" class="hide-menu md split-pane-md split-pane-visible hydrated" content-id="contentId"><ion-menu _ngcontent-ng-c1697690640="" contentid="contentId" type="overlay" class="admin-menu split-pane-side md menu-type-overlay menu-side-start menu-pane-visible hydrated" role="navigation" aria-label="menu" content-id="contentId" menu-id="admin-menu" side="start"><!----></ion-menu><!----><!----><ion-router-outlet _ngcontent-ng-c1697690640="" id="contentId" class="split-pane-main hydrated menu-content menu-content-overlay" aria-hidden="false"><app-privacy-policy _nghost-ng-c695646354="" class="ion-page" style="z-index: 101;"><app-page-wrapper _ngcontent-ng-c695646354="" _nghost-ng-c1095279128=""><div _ngcontent-ng-c1095279128="" class="my-content-wrapper" style="top: 0px; bottom: 57px;"><ion-content _ngcontent-ng-c1095279128="" class="content-pages transparent ion-color ion-color-none md content-ltr hydrated background-6" style="--offset-top: 0px; --offset-bottom: 0px;" color="none"><ion-grid _ngcontent-ng-c1095279128="" class="md hydrated"><!----><!----><!----><ion-row _ngcontent-ng-c695646354="" class="mt-3 md hydrated"><ion-col _ngcontent-ng-c695646354="" size-sm="8" offset-sm="2" class="md hydrated" style="margin-left: calc(calc(2 / var(--ion-grid-columns, 12)) * 100%); flex: 0 0 calc(calc(8 / var(--ion-grid-columns, 12)) * 100%); width: calc(calc(8 / var(--ion-grid-columns, 12)) * 100%); max-width: calc(calc(8 / var(--ion-grid-columns, 12)) * 100%);"><div _ngcontent-ng-c695646354="" class="px-2"><p>Effective date: March 09, 2019</p>
+
+
+<p>Omcean Booking ("us", "we", or "our") operates the https://www.omceanbooking.com website (the "Service").</p>
+
+<p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
+
+<p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from https://www.omceanbooking.com</p>
+
+
+<h2>Information Collection And Use</h2>
+
+<p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+
+<h3>Types of Data Collected</h3>
+
+<h4>Personal Data</h4>
+
+<p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
+
+<ul>
+	<li>Email address</li>
+	<li>First name and last name</li>
+	<li>Phone number</li>
+	<li>Address, State, Province, ZIP/Postal code, City</li>
+	<li>Cookies and Usage Data</li>
+</ul>
+<p><b>
+	Your personal information will be uploaded to https://www.omceanbooking.com to verify your account OR to register you on our service.
+</b></p>
+<h4>Google User Data</h4>
+
+<p>We have integrated the following Google services; Google login, Google Business and Google Calendar.</p>
+
+<h6><b>What information do we collect?</b></h6>
+
+<p><b>Google Login:</b> We shall store your Google account's email address, username and profile picture on our servers.</p>
+<p><b>Google Business:</b> We shall store your Google business's description, opening hours and images on our servers.</p>
+<p><b>Google Calendar:</b> We shall store your Google account's email address, username and profile picture on our servers.</p>
+
+<h6><b>How do we use the information?</b></h6>
+
+<p><b>Google Login:</b> We display this information as your user profile information in your account.</p>
+<p><b>Google Business:</b> We display this information to your customers on your business's home page.</p>
+<p><b>Google Calendar:</b> We display this information to you only to verifiy which Google calendar account is linked. Once authorized with https://www.googleapis.com/auth/calendar.events.owned, we shall store the access token on our servers and refresh this token to send your business's yoga class information to your PRIMARY Google calendar and update these events accordingly.</p>
+
+<h6><b>What information do we share?</b></h6>
+
+<p><b>We do not share any information with third parties.</b></p>
+
+<h4>Usage Data</h4>
+
+<p>We may also collect information how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
+
+<h4>Tracking &amp; Cookies Data</h4>
+<p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
+<p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
+<p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
+<p>Examples of Cookies we use:</p>
+<ul>
+    <li><strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</li>
+    <li><strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</li>
+    <li><strong>Security Cookies.</strong> We use Security Cookies for security purposes.</li>
+</ul>
+
+<h2>Use of Data</h2>
+    
+<p>Omcean Booking uses the collected data for various purposes:</p>    
+<ul>
+    <li>To provide and maintain the Service</li>
+    <li>To notify you about changes to our Service</li>
+    <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+    <li>To provide customer care and support</li>
+    <li>To provide analysis or valuable information so that we can improve the Service</li>
+    <li>To monitor the usage of the Service</li>
+    <li>To detect, prevent and address technical issues</li>
+</ul>
+
+<h2>Transfer Of Data</h2>
+<p>Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
+<p>If you are located outside Taiwan and choose to provide information to us, please note that we transfer the data, including Personal Data, to Taiwan and process it there.</p>
+<p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
+<p>Omcean Booking will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+
+<h2>Disclosure Of Data</h2>
+
+<h3>Legal Requirements</h3>
+<p>Omcean Booking may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+<ul>
+    <li>To comply with a legal obligation</li>
+    <li>To protect and defend the rights or property of Omcean Booking</li>
+    <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
+    <li>To protect the personal safety of users of the Service or the public</li>
+    <li>To protect against legal liability</li>
+</ul>
+
+<h2>Data Retention</h2>
+<p>Our data retention policy is to ensure that necessary records and documents of are adequately protected and maintained and to ensure that records that are no longer needed by Omcean Booking or are of no value and are discarded at the proper time. The Personal Information stored will be of a time period necessary to fulfil the purposes outlined in this Privacy Policy unless it is required or permitted by law to a longer retention period.</p>
+
+<h2>Data Deletion Policy</h2>
+<p><b>Individual Rights</b></p>
+<p>An individual has the right to erasure, also known as ‘the right to be forgotten’. The principle underpinning this
+right is to enable an individual to request the deletion or removal of personal data where there is no compelling
+reason for its continued processing.</p>
+<p><b>When does the right to erasure apply?</b></p>
+<p>As stipulated in UK data protection law, individuals have a right to have personal data erased and to prevent
+processing in specific circumstances:
+• Where the personal data is no longer necessary in relation to the purpose for which it was originally
+collected/processed;
+• When the individual withdraws consent;
+• When the individual objects to the processing and there is no other legal ground for the relevant
+processing activity;
+• When the personal data was unlawfully processed;
+• Where the personal data has to be erased in order to comply with a legal obligation.</p>
+<p><b>What information does Omcean Booking retain?</b></p>
+<p>Omcean Booking online system stores data about individuals in order to create an account. We
+store the name and e-mail address as well as any social media id, which is stored on our secure servers in Europe for a period
+of 90 days. This data is stored and used in accordance with this Privacy Policy</p>
+<p><b>How can data be deleted?</b></p>
+<p>If you have purchased aan account with Omcean Booking, we
+will delete your personal data upon request (via email to hello@omceanbooking.com), upon closure of your
+account, or after three years.</p>
+
+<h2>Security Of Data</h2>
+<p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+
+<h2>Service Providers</h2>
+<p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
+<p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+
+<h3>Analytics</h3>
+<p>We may use third-party Service Providers to monitor and analyze the use of our Service.</p>    
+<ul>
+                <li>
+        <p><strong>Piwik or Matomo</strong></p>
+        <p>Piwik or Matomo is a web analytics service. You can visit their Privacy Policy page here: <a href="https://matomo.org/privacy-policy">https://matomo.org/privacy-policy</a></p>
+    </li>
+                    </ul>
+
+
+<h2>Links To Other Sites</h2>
+<p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+<p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+
+
+<h2>Children's Privacy</h2>
+<p>Our Service does not address anyone under the age of 18 ("Children").</p>
+<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+
+
+<h2>Changes To This Privacy Policy</h2>
+<p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+<p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>
+<p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+
+
+<h2>Contact Us</h2>
+<p>If you have any questions about this Privacy Policy, please contact us:</p>
+<ul>
+<li>By email: hello@omceanbooking.com</li>
+  
+</ul>
+</div><!----><div _ngcontent-ng-c695646354="" class="ion-text-center"><!----></div></ion-col></ion-row><!----><!----><!----><!----><!----></ion-grid></ion-content></div><!----></app-page-wrapper></app-privacy-policy></ion-router-outlet><!----></ion-split-pane><div _ngcontent-ng-c1697690640="" class="footer-container"><app-menu _ngcontent-ng-c1697690640="" _nghost-ng-c1016038697=""><div _ngcontent-ng-c1016038697=""><ion-tab-bar _ngcontent-ng-c1016038697="" slot="bottom" role="tablist" class="md hydrated"><ion-tab-button _ngcontent-ng-c1016038697="" data-cy="footer-home" class="primary-4 md tab-has-label tab-has-icon tab-layout-icon-top ion-activatable ion-selectable ion-focusable hydrated"><!----><ion-label _ngcontent-ng-c1016038697="" class="sc-ion-label-md-h sc-ion-label-md-s md hydrated">Home</ion-label><ion-icon _ngcontent-ng-c1016038697="" role="img" class="md hydrated" name="home-outline"></ion-icon></ion-tab-button><!----><!----><ion-tab-button _ngcontent-ng-c1016038697="" data-cy="footer-passes" class="primary-4 md tab-has-label tab-has-icon tab-layout-icon-top ion-activatable ion-selectable ion-focusable hydrated"><!----><ion-label _ngcontent-ng-c1016038697="" class="sc-ion-label-md-h sc-ion-label-md-s md hydrated">Passes</ion-label><ion-icon _ngcontent-ng-c1016038697="" role="img" class="md hydrated" name="pricetags-outline"></ion-icon></ion-tab-button><!----><!----><ion-tab-button _ngcontent-ng-c1016038697="" class="md tab-has-icon tab-has-icon-only tab-layout-icon-top ion-activatable ion-selectable ion-focusable hydrated"><ion-icon _ngcontent-ng-c1016038697="" name="calendar-outline" class="my-invisibility md hydrated" role="img"></ion-icon></ion-tab-button><!----><!----><ion-tab-button _ngcontent-ng-c1016038697="" data-cy="footer-checkout" class="primary-4 md tab-has-label tab-has-icon tab-layout-icon-top ion-activatable ion-selectable ion-focusable hydrated"><ion-badge _ngcontent-ng-c1016038697="" color="primary" class="ion-color ion-color-primary md hydrated"></ion-badge><!----><ion-label _ngcontent-ng-c1016038697="" class="sc-ion-label-md-h sc-ion-label-md-s md hydrated">Cart</ion-label><ion-icon _ngcontent-ng-c1016038697="" role="img" class="md hydrated" name="cart-outline"></ion-icon></ion-tab-button><!----><!----><ion-tab-button _ngcontent-ng-c1016038697="" data-cy="footer-login" class="primary-4 md tab-has-label tab-has-icon tab-layout-icon-top ion-activatable ion-selectable ion-focusable hydrated"><!----><ion-label _ngcontent-ng-c1016038697="" class="sc-ion-label-md-h sc-ion-label-md-s md hydrated">Login</ion-label><ion-icon _ngcontent-ng-c1016038697="" role="img" class="md hydrated" name="log-in-outline"></ion-icon></ion-tab-button><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ion-tab-bar><ion-fab _ngcontent-ng-c1016038697="" horizontal="center" style="top: -10px;" class="md fab-horizontal-center hydrated"><ion-fab-button _ngcontent-ng-c1016038697="" class="ion-color ion-color-primary-4 md ion-activatable ion-focusable hydrated" color="primary-4"><ion-icon _ngcontent-ng-c1016038697="" name="calendar-outline" role="img" class="md hydrated"></ion-icon></ion-fab-button></ion-fab><!----></div><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></app-menu><!----><!----><!----><!----></div><app-linebot-chat-bubble _ngcontent-ng-c1697690640="" _nghost-ng-c3294773635=""><!----></app-linebot-chat-bubble><!----><app-bootstrap-toast _ngcontent-ng-c1697690640="" _nghost-ng-c4040580696="" class="ngb-toasts"><span _ngcontent-ng-c4040580696="" class="toast-container"><!----></span><!----></app-bootstrap-toast><!----><!----><!----><ion-toast class="overlay-hidden ion-color ion-color-danger md toast-network hydrated" id="ion-overlay-1" tabindex="-1" style="z-index: 60001;" color="danger"></ion-toast><ion-modal class="md modal-default modal-admin hydrated show-modal" id="ion-overlay-2" no-router="" tabindex="-1" style="z-index: 20002;"><app-location-modal _nghost-ng-c545745823="" class="ion-page"><ion-content _ngcontent-ng-c545745823="" color="none" class="content-pages background-6 transparent ion-color ion-color-none md content-ltr hydrated" style="--offset-top: 0px; --offset-bottom: 0px;"><app-location-page _ngcontent-ng-c545745823="" _nghost-ng-c935896329=""><app-page-title _ngcontent-ng-c935896329="" _nghost-ng-c2967437688=""><ion-row _ngcontent-ng-c2967437688="" class="mt-3 md hydrated"><ion-col _ngcontent-ng-c2967437688="" size-sm="8" offset-sm="2" size="11" offset="1" class="md hydrated" style="margin-left: calc(calc(2 / var(--ion-grid-columns, 12)) * 100%); flex: 0 0 calc(calc(8 / var(--ion-grid-columns, 12)) * 100%); width: calc(calc(8 / var(--ion-grid-columns, 12)) * 100%); max-width: calc(calc(8 / var(--ion-grid-columns, 12)) * 100%);"><app-title _ngcontent-ng-c2967437688="" _nghost-ng-c2768072208=""><div _ngcontent-ng-c2768072208="" class="line primary-4"></div><div _ngcontent-ng-c2768072208="" class="mt-3"><!----><div _ngcontent-ng-c2768072208="" translate="no" class="notranslate bold text-xxl"><!----> Locations </div><!----></div></app-title><!----></ion-col></ion-row><!----><!----><!----><!----></app-page-title><!----><ion-row _ngcontent-ng-c935896329="" class="mt-3 md hydrated"><ion-col _ngcontent-ng-c935896329="" size-sm="6" size="12" class="md hydrated" style="flex: 0 0 calc(calc(6 / var(--ion-grid-columns, 12)) * 100%); width: calc(calc(6 / var(--ion-grid-columns, 12)) * 100%); max-width: calc(calc(6 / var(--ion-grid-columns, 12)) * 100%);"><ion-card _ngcontent-ng-c935896329="" color="white" class="ion-no-margin ion-color ion-color-white md hydrated"><div _ngcontent-ng-c935896329="" class="background-cover business-cover" style="background-image: url(&quot;https://assets.omceanbooking.com/0/u368045589_demo-1-cover-1.jpg&quot;);"></div><ion-card-content _ngcontent-ng-c935896329="" class="md card-content-md hydrated"><ion-card-header _ngcontent-ng-c935896329="" class="p-0 ion-inherit-color md hydrated"><ion-card-title _ngcontent-ng-c935896329="" style="height: 60px;" role="heading" aria-level="2" class="ion-inherit-color md hydrated"><ion-text _ngcontent-ng-c935896329="" class="overflow-2-lines md hydrated"> Relax and Stretch Yoga </ion-text></ion-card-title><ion-card-subtitle _ngcontent-ng-c935896329="" style="height: 50px;" role="heading" aria-level="3" class="ion-inherit-color md hydrated"><ion-text _ngcontent-ng-c935896329="" color="medium" class="overflow-2-lines ion-color ion-color-medium md hydrated"> No.188 Kaohsiung City </ion-text></ion-card-subtitle></ion-card-header><ion-row _ngcontent-ng-c935896329="" class="md hydrated"><ion-col _ngcontent-ng-c935896329="" class="ion-text-right margin-right md hydrated"><ion-button _ngcontent-ng-c935896329="" name="location-button" class="submit-width ion-color ion-color-primary-4 md button button-outline ion-activatable ion-focusable hydrated" color="primary-4" fill="outline"><!----><ion-text _ngcontent-ng-c935896329="" class="md hydrated"> Select </ion-text><!----><!----></ion-button></ion-col></ion-row></ion-card-content></ion-card><!----></ion-col><!----><!----><!----><!----><!----><ion-col _ngcontent-ng-c935896329="" size-sm="6" size="12" class="md hydrated" style="flex: 0 0 calc(calc(6 / var(--ion-grid-columns, 12)) * 100%); width: calc(calc(6 / var(--ion-grid-columns, 12)) * 100%); max-width: calc(calc(6 / var(--ion-grid-columns, 12)) * 100%);"><ion-card _ngcontent-ng-c935896329="" color="white" class="ion-no-margin ion-color ion-color-white md hydrated"><div _ngcontent-ng-c935896329="" class="background-cover business-cover" style="background-image: url(&quot;https://assets.omceanbooking.com/0/u368045589_demo-7-cover-1.jpg&quot;);"></div><ion-card-content _ngcontent-ng-c935896329="" class="md card-content-md hydrated"><ion-card-header _ngcontent-ng-c935896329="" class="p-0 ion-inherit-color md hydrated"><ion-card-title _ngcontent-ng-c935896329="" style="height: 60px;" role="heading" aria-level="2" class="ion-inherit-color md hydrated"><ion-text _ngcontent-ng-c935896329="" class="overflow-2-lines md hydrated"> Namaste分店 </ion-text></ion-card-title><ion-card-subtitle _ngcontent-ng-c935896329="" style="height: 50px;" role="heading" aria-level="3" class="ion-inherit-color md hydrated"><ion-text _ngcontent-ng-c935896329="" color="medium" class="overflow-2-lines ion-color ion-color-medium md hydrated"> No. 1201號, Zhonghua 5th Road, Qianzhen District, Kaohsiung City, 806 </ion-text></ion-card-subtitle></ion-card-header><ion-row _ngcontent-ng-c935896329="" class="md hydrated"><ion-col _ngcontent-ng-c935896329="" class="ion-text-right margin-right md hydrated"><ion-button _ngcontent-ng-c935896329="" name="location-button" class="submit-width ion-color ion-color-primary-4 md button button-outline ion-activatable ion-focusable hydrated" color="primary-4" fill="outline"><!----><ion-text _ngcontent-ng-c935896329="" class="md hydrated"> Select </ion-text><!----><!----></ion-button></ion-col></ion-row></ion-card-content></ion-card><!----></ion-col><!----><!----><!----><!----><!----><!----></ion-row><!----><!----><!----></app-location-page></ion-content></app-location-modal></ion-modal></ion-app><div _ngcontent-ng-c1697690640="" greeting_dialog_display="hide" class="fb-customerchat" ref="" page_id="293058374189189"></div><!----><div _ngcontent-ng-c1697690640="" id="fb-root"></div><div _ngcontent-ng-c1697690640="" class="primary-4"></div></app-root>
+  </div>
+
+  <noscript>Omceanbooking, take your business to the next level.</noscript>
+
+
+</body></html>

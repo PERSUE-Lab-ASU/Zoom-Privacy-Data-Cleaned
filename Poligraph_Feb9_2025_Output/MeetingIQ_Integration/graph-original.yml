@@ -1,0 +1,146 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: data regulate
+  key: COLLECT
+  text:
+  - Seeing the scope of the Products and Services (see FAQ B1), the Products and Services
+    are NOT intended or equipped to Process any data that is regulated by the Payment
+    Card Industry Security Standards Council (PCI SSC), nor do the Products and Services
+    offer features that are subject to the Payment Card Industry Data Security Standards
+    (PCI DSS).
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - The Products and Services process Personal Data for and on behalf of Showpad Customer.
+  purposes: {}
+- source: showpad
+  target: personal datum result from relationship between showpad
+  key: COLLECT
+  text:
+  - Notwithstanding the above, in the limited cases as explicitly stated in the Showpad
+    Privacy Policy (see FAQ A3), certain Personal Data resulting from the relationship
+    between Showpad and the Showpad Customer, may be processed by Showpad as being
+    the data " Controller" (e.g. as required for Showpad as a controller to administer
+    the (contractual) relationship between Showpad and its Customer, or, providing
+    support).
+  purposes: {}
+- source: showpad
+  target: personal information
+  key: COLLECT
+  text:
+  - Seeing the above, Showpad is only offering the means allowing the Showpad Customer
+    to interact with the Data Subject through the Products and Services, and as Showpad
+    is merely acting upon instructions of the Showpad Customer, this means that Showpad
+    is processing the Data Subject's Personal Data as a so-called data "Processor"
+    for and on behalf of the Showpad Customer.
+  - 'Showpad Privacy Principles
+
+
+    Showpad transfers Personal Data to third countries if and when required by: Its
+    and its affiliates'' employees and collaborators; Third-party technology and service
+    providers as used for the purposes described in this Privacy Policy (see Sub-Processors)
+    ; Third-party maintenance & support recipients (including related service/technology
+    providers); Other third parties to the extent Showpad has good faith belief that
+    such disclosure is reasonably necessary to (a) comply with a law, regulation or
+    compulsory legal request from a public or law enforcement authority; (b) national
+    security (c) protect the safety of any person from death or serious bodily injury;
+    (d) prevent fraud or abuse; (e) as necessary to protect or enforce our legal rights
+    & those of our collaborators as well as the integrity of our Product and Services.'
+  purposes: {}
+- source: showpad customer
+  target: proof of identity
+  key: COLLECT
+  text:
+  - In order to exercise such rights, You may be required by the Showpad Customer
+    to provide proof of Your identity by providing an official document (e.g. ID Card,
+    driver's license, ...).
+  purposes:
+    legal:
+    - In order to exercise such rights
+- source: showpad feature make use of ai service
+  target: third party ai model
+  key: COLLECT
+  text:
+  - Showpad features that make use of AI services may be using third party AI models.
+  purposes: {}
+- source: tool
+  target: granular option
+  key: COLLECT
+  text:
+  - Certain tools (e.g. "Ghostery", "Disconnect", ... ) may provide you with more
+    granular options in order to manage cookies.
+  purposes:
+    services:
+    - in order to manage cookies
+- source: we
+  target: shared spaces
+  key: SUBSUM
+  text:
+  - 'Under these Privacy Principles, Personal Data of Data Subjects may be made available:
+    within the functionality of the Products and Services (as determined by the Showpad
+    Customer) to: Users - Administrators - Privileged Users; and Third-Party Data
+    Subjects (e.g. in respect of collaborative functionalities of the Products and
+    Services such as Shared Spaces) within the functioning of the architectural set-up
+    (incl. maintenance & support) of the Products and Services, to: Showpad (including
+    its collaborators); and the respective Sub-Processors ((including their collaborators),
+    providing processing activities for the Products and Services (see FAQ B13).'
+- source: showpad
+  target: collaborator
+  key: SUBSUM
+  text:
+  - 'Under these Privacy Principles, Personal Data of Data Subjects may be made available:
+    within the functionality of the Products and Services (as determined by the Showpad
+    Customer) to: Users - Administrators - Privileged Users; and Third-Party Data
+    Subjects (e.g. in respect of collaborative functionalities of the Products and
+    Services such as Shared Spaces) within the functioning of the architectural set-up
+    (incl. maintenance & support) of the Products and Services, to: Showpad (including
+    its collaborators); and the respective Sub-Processors ((including their collaborators),
+    providing processing activities for the Products and Services (see FAQ B13).'
+- source: tool
+  target: disconnect
+  key: SUBSUM
+  text:
+  - Certain tools (e.g. "Ghostery", "Disconnect", ... ) may provide you with more
+    granular options in order to manage cookies.
+- source: tool
+  target: ghostery
+  key: SUBSUM
+  text:
+  - Certain tools (e.g. "Ghostery", "Disconnect", ... ) may provide you with more
+    granular options in order to manage cookies.
+nodes:
+- type: ACTOR
+  id: collaborator
+- type: ACTOR
+  id: disconnect
+- type: ACTOR
+  id: ghostery
+- type: ACTOR
+  id: shared spaces
+- type: ACTOR
+  id: showpad
+- type: ACTOR
+  id: showpad customer
+- type: ACTOR
+  id: showpad feature make use of ai service
+- type: ACTOR
+  id: tool
+- type: ACTOR
+  id: we
+- type: DATA
+  id: data regulate
+- type: DATA
+  id: granular option
+- type: DATA
+  id: personal datum result from relationship between showpad
+- type: DATA
+  id: personal information
+- type: DATA
+  id: proof of identity
+- type: DATA
+  id: third party ai model

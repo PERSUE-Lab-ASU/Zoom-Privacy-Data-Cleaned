@@ -1,0 +1,227 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Company uses cookies that save and frequently recall your information in order
+    to provide personalized and customized services.
+  - We utilize cookies to provide you with optimized and customized information including
+    advertisements based on the analysis of your patterns of visiting and using Classting
+    services and websites.
+  purposes:
+    advertising:
+    - to provide you with optimized and customized information including advertisements
+      based on the analysis of your patterns of visiting and using Classting services
+      and websites
+    analytics:
+    - to provide you with optimized and customized information including advertisements
+      based on the analysis of your patterns of visiting and using Classting services
+      and websites
+    services:
+    - in order to provide personalized and customized services
+- source: we
+  target: encrypt communication
+  key: COLLECT
+  text:
+  - The Company also frequently makes back-up copies of the personal information in
+    case of deterioration, prevents leakage or damage of the information by using
+    the latest vaccine programs, and uses encrypted communication to facilitate safe
+    transmission of personal information on the network.
+  purposes:
+    security:
+    - to facilitate safe transmission of personal information on the network
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If we learn we have collected personal information from a student under 13 without
+    parental consent being obtained by his or her school, district, and/or teacher,
+    or if we learn a student under 13 has provided us personal information beyond
+    what we request from him or her, we will delete that information as quickly as
+    possible.
+  - The Company collects the following personal information upon initial use of the
+    Classting service for purposes that include user registration (or service signup),
+    smooth customer consultation and provision of various services.
+  - The Company collects the following personal information.
+  - The Company stores and manages your personal information in encrypted form, according
+    to related legislation and internal policy for the purpose of safety acquisition
+    that will prevent loss, theft, leak, falsification or damage of personal information
+    while handling such information.
+  - The Company uses your personal information within the indicated scope in regards
+    to the purpose for collection and use of personal information.
+  - Therefore, we only collect personal information through the Services from a child
+    under 13 where that student's school, district, and/or teacher has agreed (via
+    the terms described in the following paragraph) to obtain parental consent for
+    that child to use the Services and disclose personal information to us, for the
+    use and benefit of the learning environment.
+  purposes:
+    security:
+    - for the purpose of safety acquisition that will prevent loss, theft, leak, falsification
+      or damage of personal information while handling such information
+    services:
+    - for purposes that include user registration (or service signup), smooth customer
+      consultation and provision of various services
+- source: we
+  target: personal information beyond
+  key: COLLECT
+  text:
+  - If we learn we have collected personal information from a student under 13 without
+    parental consent being obtained by his or her school, district, and/or teacher,
+    or if we learn a student under 13 has provided us personal information beyond
+    what we request from him or her, we will delete that information as quickly as
+    possible.
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Google Analytics uses cookies to help analyze the way Classting is used.
+  purposes:
+    analytics:
+    - to help analyze the way Classting is used
+- source: Google
+  target: internet activity
+  key: COLLECT
+  text:
+  - Google will evaluate and use website activity reports in order to improve Classting's
+    functionality and user experience.
+  purposes:
+    services:
+    - in order to improve Classting's functionality and user experience
+- source: research institute
+  target: datum of class activity
+  key: COLLECT
+  text:
+  - Data of class activities may be provided to the research institute during its
+    research, only after receiving agreement from the school or the teacher.
+  purposes: {}
+- source: separate database
+  target: personal information
+  key: COLLECT
+  text:
+  - The personal information is transferred to a separate database once the purpose
+    of collection and use is achieved (hard copies are moved to a separate cabinet),
+    saved for a certain period in accordance with the internal policy and the reason
+    of information protection stated by other relevant legislation (see period of
+    retention and use), and destroyed.
+  purposes: {}
+- source: cookie / pixel tag
+  target: ip address
+  key: SUBSUM
+  text:
+  - Information generated through cookies (including IP addresses) are transmitted
+    and stored on the Google servers in the US.
+- source: personal information
+  target: account information
+  key: SUBSUM
+  text:
+  - However, the Company does not take any responsibility for problems related to
+    leakage of personal information such as account information and password caused
+    by user's carelessness or internet connection.
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - However, the Company does not take any responsibility for problems related to
+    leakage of personal information such as account information and password caused
+    by user's carelessness or internet connection.
+- source: require information
+  target: device information
+  key: SUBSUM
+  text:
+  - Required information includes name, mobile phone number (if the registration is
+    made through mobile phone number), email address (if the registration is made
+    through email), username (if the registration is made through username), password,
+    role and device information.
+- source: require information
+  target: email address
+  key: SUBSUM
+  text:
+  - Required information includes name, mobile phone number (if the registration is
+    made through mobile phone number), email address (if the registration is made
+    through email), username (if the registration is made through username), password,
+    role and device information.
+- source: require information
+  target: password
+  key: SUBSUM
+  text:
+  - Required information includes name, mobile phone number (if the registration is
+    made through mobile phone number), email address (if the registration is made
+    through email), username (if the registration is made through username), password,
+    role and device information.
+- source: require information
+  target: person name
+  key: SUBSUM
+  text:
+  - Required information includes name, mobile phone number (if the registration is
+    made through mobile phone number), email address (if the registration is made
+    through email), username (if the registration is made through username), password,
+    role and device information.
+- source: require information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Required information includes name, mobile phone number (if the registration is
+    made through mobile phone number), email address (if the registration is made
+    through email), username (if the registration is made through username), password,
+    role and device information.
+- source: require information
+  target: role
+  key: SUBSUM
+  text:
+  - Required information includes name, mobile phone number (if the registration is
+    made through mobile phone number), email address (if the registration is made
+    through email), username (if the registration is made through username), password,
+    role and device information.
+- source: require information
+  target: username
+  key: SUBSUM
+  text:
+  - Required information includes name, mobile phone number (if the registration is
+    made through mobile phone number), email address (if the registration is made
+    through email), username (if the registration is made through username), password,
+    role and device information.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: research institute
+- type: ACTOR
+  id: separate database
+- type: ACTOR
+  id: we
+- type: DATA
+  id: account information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum of class activity
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: encrypt communication
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information beyond
+- type: DATA
+  id: phone number
+- type: DATA
+  id: require information
+- type: DATA
+  id: role
+- type: DATA
+  id: username

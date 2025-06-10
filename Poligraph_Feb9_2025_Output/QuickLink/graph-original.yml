@@ -1,0 +1,78 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: number of option access
+  key: COLLECT
+  text:
+  - 'We provide a number of options to access, correct, suppress, or delete your personal
+    information:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We collect personal information for a variety of reasons, such as:'
+  - We may collect data, including personal information, about you as you use our
+    websites and Solutions and interact with us.
+  - We may use your personal information for the purposes of operating our business,
+    delivering, improving, and customising our websites and Solutions, sending marketing
+    and other communications related to our business, and for other legitimate purposes
+    permitted by applicable law.
+  purposes:
+    advertising:
+    - Sending marketing communications
+    - for the purposes of operating our business, delivering, improving, and customising
+      our websites and Solutions, sending marketing and other communications related
+      to our business, and for other legitimate purposes permitted by applicable law
+    services:
+    - Creating an account
+    - Enabling the use of certain features of our Solutions
+    - Managing a job application
+    - Personalising your experience
+    - Processing your order, including payment transactions
+    - Providing customer service
+    - Providing you with a newsletter subscription
+    - for the purposes of operating our business, delivering, improving, and customising
+      our websites and Solutions, sending marketing and other communications related
+      to our business, and for other legitimate purposes permitted by applicable law
+- source: automatic data collection tool
+  target: standard information browser send to website
+  key: COLLECT
+  text:
+  - Like many websites, QuickLink may use automatic data collection tools, such as
+    cookies, embedded web links, and web beacons.
+  - These tools collect certain standard information that your browser sends to our
+    website.
+  purposes: {}
+- source: web technology
+  target: information about
+  key: COLLECT
+  text:
+  - 'They may also collect information about:'
+  - Use of Cookies and other Web Technologies
+  purposes: {}
+- source: automatic data collection tool
+  target: embed web link
+  key: SUBSUM
+  text:
+  - Like many websites, QuickLink may use automatic data collection tools, such as
+    cookies, embedded web links, and web beacons.
+nodes:
+- type: ACTOR
+  id: automatic data collection tool
+- type: ACTOR
+  id: embed web link
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web technology
+- type: DATA
+  id: information about
+- type: DATA
+  id: number of option access
+- type: DATA
+  id: personal information
+- type: DATA
+  id: standard information browser send to website

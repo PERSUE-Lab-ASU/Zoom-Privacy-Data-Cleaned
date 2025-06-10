@@ -1,0 +1,128 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, we ask visitors who comment on our blog to provide a username and
+    email address.
+  - Those who wish to receive WishList Member updates via email, we collect their
+    emails.
+  purposes: {}
+- source: we
+  target: username
+  key: COLLECT
+  text:
+  - For example, we ask visitors who comment on our blog to provide a username and
+    email address.
+  purposes: {}
+- source: wishlist member
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - WishList Member uses cookies to help WishList Member identify and track visitors,
+    their usage of WishList Member websites, and their website access preferences.
+  purposes:
+    analytics:
+    - to help WishList Member identify and track visitors, their usage of WishList
+      Member websites, and their website access preferences
+- source: wishlist member
+  target: ip address
+  key: COLLECT
+  text:
+  - WishList Member only discloses logged in user and commenter IP addresses under
+    the same circumstances that it uses and discloses personally-identifying information
+    as described below, except that blog commenter IP addresses are visible and disclosed
+    to the administrators of the blog where the comment was left.
+  purposes: {}
+- source: wishlist member
+  target: non-personal information
+  key: COLLECT
+  text:
+  - From time to time, WishList Member may release non-personally-identifying information
+    in the aggregate, e.g., by publishing a report on trends in the usage of its website.
+  - Like most website operators, WishList Member collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+  purposes: {}
+- source: wishlist member
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Other than to its employees, contractors and affiliated organizations, as described
+    above, WishList Member discloses potentially personally-identifying and personally-identifying
+    information only in response to a subpoena, court order or other governmental
+    request, or when WishList Member believes in good faith that disclosure is reasonably
+    necessary to protect the property or rights of WishList Member, third parties
+    or the public at large.
+  - WishList Member also collects potentially personally-identifying information like
+    Internet Protocol (IP) addresses for logged in users and for users leaving comments
+    on our blogs.
+  - WishList Member discloses potentially personally-identifying and personally-identifying
+    information only to those of its employees, contractors and affiliated organizations
+    that (i) need to know that information in order to process it on WishList Member's
+    behalf or to provide services available at WishList Member's websites, and (ii)
+    that have agreed not to disclose it to others.
+  - WishList Member only discloses logged in user and commenter IP addresses under
+    the same circumstances that it uses and discloses personally-identifying information
+    as described below, except that blog commenter IP addresses are visible and disclosed
+    to the administrators of the blog where the comment was left.
+  purposes: {}
+- source: wishlist member
+  target: spam screen
+  key: COLLECT
+  text:
+  - For instance, WishList Member may monitor the most popular pages on the wishlistmember.com
+    site or use spam screened by the Akismet service to help identify spam.
+  purposes:
+    security:
+    - to help identify spam
+- source: wishlist member
+  target: statistic about behavior of visitor to website
+  key: COLLECT
+  text:
+  - WishList Member may collect statistics about the behavior of visitors to its websites.
+  purposes: {}
+- source: wishlist member
+  target: wishlist member update
+  key: COLLECT
+  text:
+  - In each case, WishList Member collects such information only insofar as is necessary
+    or appropriate to fulfill the purpose of the visitor's interaction with WishList
+    Member.
+  - Those who wish to receive WishList Member updates via email, we collect their
+    emails.
+  purposes: {}
+- source: personal identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - WishList Member also collects potentially personally-identifying information like
+    Internet Protocol (IP) addresses for logged in users and for users leaving comments
+    on our blogs.
+nodes:
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: wishlist member
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: spam screen
+- type: DATA
+  id: statistic about behavior of visitor to website
+- type: DATA
+  id: username
+- type: DATA
+  id: wishlist member update

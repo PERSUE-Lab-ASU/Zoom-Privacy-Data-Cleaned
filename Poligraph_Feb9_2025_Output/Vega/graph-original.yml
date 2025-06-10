@@ -1,0 +1,250 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Under certain circumstances, we may disclose your Data:'
+  - 'We collect two types of information: information provided during the onboarding
+    process and information collected during product usage.'
+  - We use cookies and similar tracking technologies to track the activity on our
+    Service and we hold certain information.
+  - We will retain and use your Data to the extent necessary to comply with our legal
+    obligations (for example, if we are required to retain your data to comply with
+    applicable laws), resolve disputes, and enforce our legal agreements and policies.
+  - We will retain your Data only for as long as is necessary for the purposes set
+    out in this Privacy Policy.
+  purposes:
+    analytics:
+    - to track the activity on our Service
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and similar tracking technologies to track the activity on our
+    Service and we hold certain information.
+  purposes:
+    analytics:
+    - to track the activity on our Service
+- source: we
+  target: enterprise grade large language model
+  key: COLLECT
+  text:
+  - Our service utilizes enterprise-grade large language models (LLMs) from leading
+    cloud providers like Microsoft (Azure) and Amazon (AWS), ensuring user data is
+    not used to train third-party FMs or improve other products.
+  purposes: {}
+- source: we
+  target: information collect during product usage
+  key: COLLECT
+  text:
+  - 'We collect two types of information: information provided during the onboarding
+    process and information collected during product usage.'
+  purposes: {}
+- source: we
+  target: information provide during onboarding process
+  key: COLLECT
+  text:
+  - 'We collect two types of information: information provided during the onboarding
+    process and information collected during product usage.'
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - This Privacy Policy outlines how we collect, use, disclose, and protect the information
+    you provide to us when using our AI products and services ("Service").
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We will also retain usage data for internal analysis purposes.
+  purposes:
+    analytics:
+    - for internal analysis purposes
+- source: we
+  target: llms
+  key: COLLECT
+  text:
+  - Our service utilizes enterprise-grade large language models (LLMs) from leading
+    cloud providers like Microsoft (Azure) and Amazon (AWS), ensuring user data is
+    not used to train third-party FMs or improve other products.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Specifically, we transfer and process data, including personal data, within the
+    United States.
+  - 'To provide and maintain our Service: we use your personal data to offer a personalized
+    and efficient service;'
+  purposes:
+    services:
+    - To provide and maintain our Service
+    - to offer a personalized and efficient service
+- source: we
+  target: specific information
+  key: COLLECT
+  text:
+  - During the onboarding process, we collect specific information.
+  purposes: {}
+- source: we
+  target: specific piece
+  key: COLLECT
+  text:
+  - '10. User rights and choices
+
+
+    10.1 California Privacy Protection Act (CalOPPA)
+
+
+    Request that we disclose the categories and specific pieces of personal data that
+    a business has collected about consumers;'
+  purposes: {}
+- source: we
+  target: technical information
+  key: COLLECT
+  text:
+  - We may also collect technical information such as IP addresses, device information,
+    browser type, and operating system to ensure optimal functionality and provide
+    technical support.
+  purposes:
+    services:
+    - to ensure optimal functionality and provide technical support
+- source: we
+  target: usage pattern
+  key: COLLECT
+  text:
+  - 'Enhancement of Service: your data helps us analyze usage patterns, identify areas
+    for improvement, and refine our algorithms, ensuring a continually improving user
+    experience;'
+  purposes: {}
+- source: fm provider
+  target: essential information
+  key: COLLECT
+  text:
+  - Only essential information is shared with FM providers, and sensitive data is
+    encrypted before transmission to protect client privacy.
+  purposes: {}
+- source: we
+  target: firm
+  key: SUBSUM
+  text:
+  - Vega Minds ("Firm", "us") values your privacy as our user ("User", "you") and
+    is committed to protecting your personal information.
+- source: we
+  target: vega minds
+  key: SUBSUM
+  text:
+  - Vega Minds ("Firm", "us") values your privacy as our user ("User", "you") and
+    is committed to protecting your personal information.
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with a small amount of data which may include an anonymous unique
+    identifier.
+- source: cookie / pixel tag
+  target: preference
+  key: SUBSUM
+  text:
+  - 'Examples of cookies we use: session, preference, security and advertising.'
+- source: cookie / pixel tag
+  target: session
+  key: SUBSUM
+  text:
+  - 'Examples of cookies we use: session, preference, security and advertising.'
+- source: personal information
+  target: specific piece
+  key: SUBSUM
+  text:
+  - '10. User rights and choices
+
+
+    10.1 California Privacy Protection Act (CalOPPA)
+
+
+    Request that we disclose the categories and specific pieces of personal data that
+    a business has collected about consumers;'
+- source: technical information
+  target: browser type
+  key: SUBSUM
+  text:
+  - We may also collect technical information such as IP addresses, device information,
+    browser type, and operating system to ensure optimal functionality and provide
+    technical support.
+- source: technical information
+  target: device information
+  key: SUBSUM
+  text:
+  - We may also collect technical information such as IP addresses, device information,
+    browser type, and operating system to ensure optimal functionality and provide
+    technical support.
+- source: technical information
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may also collect technical information such as IP addresses, device information,
+    browser type, and operating system to ensure optimal functionality and provide
+    technical support.
+- source: technical information
+  target: operate system
+  key: SUBSUM
+  text:
+  - We may also collect technical information such as IP addresses, device information,
+    browser type, and operating system to ensure optimal functionality and provide
+    technical support.
+nodes:
+- type: ACTOR
+  id: firm
+- type: ACTOR
+  id: fm provider
+- type: ACTOR
+  id: vega minds
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: device information
+- type: DATA
+  id: enterprise grade large language model
+- type: DATA
+  id: essential information
+- type: DATA
+  id: information collect during product usage
+- type: DATA
+  id: information provide during onboarding process
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: llms
+- type: DATA
+  id: operate system
+- type: DATA
+  id: personal information
+- type: DATA
+  id: preference
+- type: DATA
+  id: session
+- type: DATA
+  id: specific information
+- type: DATA
+  id: specific piece
+- type: DATA
+  id: technical information
+- type: DATA
+  id: usage pattern

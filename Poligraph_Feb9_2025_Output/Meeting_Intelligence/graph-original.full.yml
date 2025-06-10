@@ -1,0 +1,97 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: access to account
+  key: COLLECT
+  text:
+  - We log all access to all accounts by IP address, so we can always verify that
+    no unauthorized access has happened for as long as the logs are kept.
+  purposes: {}
+- source: we
+  target: account
+  key: COLLECT
+  text:
+  - We'll only ever access your account to help you with a problem or squash a software
+    bug.
+  purposes:
+    services:
+    - to help you with a problem or squash a software bug
+- source: we
+  target: correspondence
+  key: COLLECT
+  text:
+  - When you write PixelMixer with a question or to ask for help, we'll keep that
+    correspondence, and the email address, for future reference.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - When you write PixelMixer with a question or to ask for help, we'll keep that
+    correspondence, and the email address, for future reference.
+  purposes: {}
+- source: we
+  target: information you volunteer
+  key: COLLECT
+  text:
+  - We also store any information you volunteer, like surveys, for as long as it makes
+    sense.
+  purposes: {}
+- source: pixelmixer
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Until the time at which your subscription is terminated, PixelMixer will retain
+    all videos, data and other information in its secure systems, make that information
+    only available to authorized users, and use that information only for the purposes
+    of providing services and support.
+  purposes: {}
+- source: pixelmixer
+  target: data transmit to pixelmixer on behalf
+  key: COLLECT
+  text:
+  - Data which is transmitted to PixelMixer on your behalf by 3rd party integrations
+    is only used by PixelMixer as part of delivering your user experience.
+  purposes: {}
+- source: pixelmixer
+  target: video
+  key: COLLECT
+  text:
+  - Until the time at which your subscription is terminated, PixelMixer will retain
+    all videos, data and other information in its secure systems, make that information
+    only available to authorized users, and use that information only for the purposes
+    of providing services and support.
+  purposes: {}
+- source: medium asset at rest
+  target: video file
+  key: SUBSUM
+  text:
+  - PixelMixer encrypts all media assets at rest (including video files) using AES-256
+    bit encryption, one of the strongest ciphers available for your data protection.
+nodes:
+- type: ACTOR
+  id: pixelmixer
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access to account
+- type: DATA
+  id: account
+- type: DATA
+  id: correspondence
+- type: DATA
+  id: data transmit to pixelmixer on behalf
+- type: DATA
+  id: email address
+- type: DATA
+  id: information you volunteer
+- type: DATA
+  id: medium asset at rest
+- type: DATA
+  id: video
+- type: DATA
+  id: video file

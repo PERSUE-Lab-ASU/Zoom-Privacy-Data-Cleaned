@@ -1,0 +1,55 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'By using our services : When you ask Tenali questions in our chat interface,
+    we collect the following information'
+  - We access data when needed, but these datavases cannot access or pull data from
+    our system.
+  purposes: {}
+- source: we
+  target: ingest datum
+  key: COLLECT
+  text:
+  - 'Sources of Personal Data
+
+
+    Files you upload : We use ingested data to help our Al learn and answer your questions'
+  purposes:
+    analytics:
+    - to help our Al learn and answer your questions
+    services:
+    - to help our Al learn and answer your questions
+- source: product team
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Anonymized data is shared with our product and engineering teams so they can make
+    Tenali better for you.
+  purposes: {}
+- source: tenali
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Security and Retention
+
+
+    Tenali stores data until the termination of the contract.'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: product team
+- type: ACTOR
+  id: tenali
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: ingest datum

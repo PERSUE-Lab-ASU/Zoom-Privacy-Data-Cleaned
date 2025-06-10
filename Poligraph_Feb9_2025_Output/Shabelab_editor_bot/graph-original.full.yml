@@ -1,0 +1,171 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Acts that infringe the copyright, trademark rights, and other intellectual property
+    rights included in the content of this Service : When personal information is
+    jointly used with specific persons, and the Company notifies the person in advance
+    or places the person in a situation where they can easily learn of the following
+    matters: the fact of joint use, items of personal information to be jointly used,
+    the scope of persons who will jointly use, the purpose of use of the persons who
+    will use, and the name or title of the person responsible for the management of
+    the said personal information'
+  - The Company will disclose personal information to the individual without delay
+    upon their request.
+  purposes: {}
+- source: information define as personal information under personal information protection
+    law
+  target: contact information
+  key: SUBSUM
+  text:
+  - '"Personal information" refers to information defined as "personal information"
+    under the Personal Information Protection Law, which includes information about
+    a living individual that can identify the specific individual by name, date of
+    birth, address, telephone number, contact details, and other descriptions, as
+    well as data related to physical appearance, fingerprints, voice prints, and information
+    that can identify a specific individual from that information alone, such as insurer
+    numbers on health insurance cards (personal identification information).'
+- source: information define as personal information under personal information protection
+    law
+  target: date of birth
+  key: SUBSUM
+  text:
+  - '"Personal information" refers to information defined as "personal information"
+    under the Personal Information Protection Law, which includes information about
+    a living individual that can identify the specific individual by name, date of
+    birth, address, telephone number, contact details, and other descriptions, as
+    well as data related to physical appearance, fingerprints, voice prints, and information
+    that can identify a specific individual from that information alone, such as insurer
+    numbers on health insurance cards (personal identification information).'
+- source: information define as personal information under personal information protection
+    law
+  target: description
+  key: SUBSUM
+  text:
+  - '"Personal information" refers to information defined as "personal information"
+    under the Personal Information Protection Law, which includes information about
+    a living individual that can identify the specific individual by name, date of
+    birth, address, telephone number, contact details, and other descriptions, as
+    well as data related to physical appearance, fingerprints, voice prints, and information
+    that can identify a specific individual from that information alone, such as insurer
+    numbers on health insurance cards (personal identification information).'
+- source: information define as personal information under personal information protection
+    law
+  target: information about live individual
+  key: SUBSUM
+  text:
+  - '"Personal information" refers to information defined as "personal information"
+    under the Personal Information Protection Law, which includes information about
+    a living individual that can identify the specific individual by name, date of
+    birth, address, telephone number, contact details, and other descriptions, as
+    well as data related to physical appearance, fingerprints, voice prints, and information
+    that can identify a specific individual from that information alone, such as insurer
+    numbers on health insurance cards (personal identification information).'
+- source: information define as personal information under personal information protection
+    law
+  target: person name
+  key: SUBSUM
+  text:
+  - '"Personal information" refers to information defined as "personal information"
+    under the Personal Information Protection Law, which includes information about
+    a living individual that can identify the specific individual by name, date of
+    birth, address, telephone number, contact details, and other descriptions, as
+    well as data related to physical appearance, fingerprints, voice prints, and information
+    that can identify a specific individual from that information alone, such as insurer
+    numbers on health insurance cards (personal identification information).'
+- source: information define as personal information under personal information protection
+    law
+  target: phone number
+  key: SUBSUM
+  text:
+  - '"Personal information" refers to information defined as "personal information"
+    under the Personal Information Protection Law, which includes information about
+    a living individual that can identify the specific individual by name, date of
+    birth, address, telephone number, contact details, and other descriptions, as
+    well as data related to physical appearance, fingerprints, voice prints, and information
+    that can identify a specific individual from that information alone, such as insurer
+    numbers on health insurance cards (personal identification information).'
+- source: information define as personal information under personal information protection
+    law
+  target: postal address
+  key: SUBSUM
+  text:
+  - '"Personal information" refers to information defined as "personal information"
+    under the Personal Information Protection Law, which includes information about
+    a living individual that can identify the specific individual by name, date of
+    birth, address, telephone number, contact details, and other descriptions, as
+    well as data related to physical appearance, fingerprints, voice prints, and information
+    that can identify a specific individual from that information alone, such as insurer
+    numbers on health insurance cards (personal identification information).'
+- source: information define as personal information under personal information protection
+    law
+  target: specific individual
+  key: SUBSUM
+  text:
+  - '"Personal information" refers to information defined as "personal information"
+    under the Personal Information Protection Law, which includes information about
+    a living individual that can identify the specific individual by name, date of
+    birth, address, telephone number, contact details, and other descriptions, as
+    well as data related to physical appearance, fingerprints, voice prints, and information
+    that can identify a specific individual from that information alone, such as insurer
+    numbers on health insurance cards (personal identification information).'
+- source: personal information
+  target: date of birth
+  key: SUBSUM
+  text:
+  - The Company may ask for personal information such as name, date of birth, address,
+    telephone number, email address, etc., when users register for use.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - The Company may ask for personal information such as name, date of birth, address,
+    telephone number, email address, etc., when users register for use.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - The Company may ask for personal information such as name, date of birth, address,
+    telephone number, email address, etc., when users register for use.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - The Company may ask for personal information such as name, date of birth, address,
+    telephone number, email address, etc., when users register for use.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - The Company may ask for personal information such as name, date of birth, address,
+    telephone number, email address, etc., when users register for use.
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: contact information
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: description
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about live individual
+- type: DATA
+  id: information define as personal information under personal information protection
+    law
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: specific individual

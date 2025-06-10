@@ -1,0 +1,37 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Residency Program Fair Secretariat("Secretariat", "we", "us" or "our") will keep
+    your personal information, but we are trying to protect it by stipulating the
+    handling of the personal information we have kept as follows.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Residency Program Fair Secretariat("Secretariat", "we", "us" or "our") will keep
+    your personal information, but we are trying to protect it by stipulating the
+    handling of the personal information we have kept as follows.
+  purposes: {}
+- source: residency program fair secretariat("secretariat
+  target: personal information
+  key: COLLECT
+  text:
+  - Residency Program Fair Secretariat("Secretariat", "we", "us" or "our") will keep
+    your personal information, but we are trying to protect it by stipulating the
+    handling of the personal information we have kept as follows.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: residency program fair secretariat("secretariat
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal information

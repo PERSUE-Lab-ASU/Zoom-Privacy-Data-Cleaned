@@ -1,0 +1,288 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By using the www.spiro.ai website ("Site") or any of our applications (together
+    with the Site, the "Service") you acknowledge that you accept the practices and
+    policies outlined in this Privacy Policy, and you consent that we will collect,
+    use, and share your information as set forth below.
+  - To the limited extent we collect Information - we neither rent nor sell your Information
+    to anyone.
+  - We may release Information when we believe in good faith that release is necessary
+    to comply with the law; enforce or apply our Terms of Service and other agreements;
+    or protect the rights, property, or safety of Spiro, our employees, our users,
+    or others.
+  - We share your Information only as described below.
+  purposes: {}
+- source: we
+  target: anonymous type of information
+  key: COLLECT
+  text:
+  - We may automatically receive and store certain, anonymous types of information
+    whenever you interact with the Service.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - 'Spiro uses your Information as follows: We will use your contact information
+    (such as, your email address) to provide you with promotional and marketing emails.'
+  - 'Spiro uses your Information as follows: We will use your contact information
+    to provide you with notices related to your use of the Service.'
+  purposes:
+    advertising:
+    - to provide you with promotional and marketing emails
+    services:
+    - to provide you with notices related to your use of the Service
+- source: we
+  target: information on server log
+  key: COLLECT
+  text:
+  - Whenever you interact with Spiro's website, we may automatically receive and record
+    information on our server logs from your browser or device, which may include
+    your IP address, device identification, "cookie" information, the type of browser
+    and/or device you're using to access our website, and the pages you visited.
+  purposes: {}
+- source: we
+  target: trend
+  key: COLLECT
+  text:
+  - This information helps us, among other things, analyze trends and administer the
+    Service.
+  purposes: {}
+- source: partner employee
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Your information may be accessed by these partners/employees, in the event that
+    we need to share your Information with them to provide our services or customer
+    support to you.
+  purposes: {}
+- source: payment processor
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - 'Spiro uses your Information as follows: Our payment processor will use your credit
+    card information to process charges in accordance with your paid subscription
+    to the Service.'
+  purposes:
+    services:
+    - to process charges in accordance with your paid subscription to the Service
+- source: spiro
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By using the Service, you acknowledge that any Personal Data about you, regardless
+    of whether provided by you or obtained from a third party, is being provided to
+    Spiro in the U.S. and will be hosted on U.S. servers, and you authorize Spiro
+    to transfer, store and process your information to and in the U.S., and possibly
+    other countries.
+  - 'Spiro uses your Information as follows:'
+  purposes:
+    advertising:
+    - to provide you with promotional and marketing emails
+    security:
+    - To operate and maintain the Service (such as, for the purposes of fixing malfunctions,
+      testing our security systems, etc.)
+    services:
+    - To enhance, improve and further develop the Service (such as, creating new features
+      or functions, refining the user experience, increasing Service technical performance,
+      etc.)
+    - To operate and maintain the Service (such as, for the purposes of fixing malfunctions,
+      testing our security systems, etc.)
+    - To provide you with the features, functions and benefits of the Service
+- source: spiro
+  target: encrypt version of password be
+  key: COLLECT
+  text:
+  - In the case of Microsoft Exchange, Spiro stores an encrypted version of your password
+    which is never accessible in its original form, even to Spiro personnel.
+  purposes: {}
+- source: spiro
+  target: password
+  key: COLLECT
+  text:
+  - By requesting that Spiro import such information - you authorize Spiro to use
+    your Third Party Service username and password to access the applicable Third
+    Party Service Account.
+  purposes:
+    services:
+    - to access the applicable Third Party Service Account
+- source: spiro
+  target: personal information
+  key: COLLECT
+  text:
+  - By using the Service, you acknowledge that any Personal Data about you, regardless
+    of whether provided by you or obtained from a third party, is being provided to
+    Spiro in the U.S. and will be hosted on U.S. servers, and you authorize Spiro
+    to transfer, store and process your information to and in the U.S., and possibly
+    other countries.
+  purposes: {}
+- source: spiro
+  target: third party service username
+  key: COLLECT
+  text:
+  - By requesting that Spiro import such information - you authorize Spiro to use
+    your Third Party Service username and password to access the applicable Third
+    Party Service Account.
+  purposes:
+    services:
+    - to access the applicable Third Party Service Account
+- source: we
+  target: www.spiro.ai website
+  key: SUBSUM
+  text:
+  - By using the www.spiro.ai website ("Site") or any of our applications (together
+    with the Site, the "Service") you acknowledge that you accept the practices and
+    policies outlined in this Privacy Policy, and you consent that we will collect,
+    use, and share your information as set forth below.
+- source: anonymous type of information
+  target: type of internet browser
+  key: SUBSUM
+  text:
+  - Such information may include the your IP address, domain server, and type of Internet
+    browser.
+  - We may automatically receive and store certain, anonymous types of information
+    whenever you interact with the Service.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Spiro uses your Information as follows: We will use your contact information
+    (such as, your email address) to provide you with promotional and marketing emails.'
+- source: information on server log
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Whenever you interact with Spiro's website, we may automatically receive and record
+    information on our server logs from your browser or device, which may include
+    your IP address, device identification, "cookie" information, the type of browser
+    and/or device you're using to access our website, and the pages you visited.
+- source: information on server log
+  target: device identification
+  key: SUBSUM
+  text:
+  - Whenever you interact with Spiro's website, we may automatically receive and record
+    information on our server logs from your browser or device, which may include
+    your IP address, device identification, "cookie" information, the type of browser
+    and/or device you're using to access our website, and the pages you visited.
+- source: information on server log
+  target: ip address
+  key: SUBSUM
+  text:
+  - Whenever you interact with Spiro's website, we may automatically receive and record
+    information on our server logs from your browser or device, which may include
+    your IP address, device identification, "cookie" information, the type of browser
+    and/or device you're using to access our website, and the pages you visited.
+- source: personal information
+  target: contact
+  key: SUBSUM
+  text:
+  - 'By downloading and enabling the Service, or by using the Service in your web
+    browser, you are authorizing Spiro to access and store all of the foregoing types
+    of Information: Information that Spiro may obtain from third-party services (both
+    Personal and Enterprise Information, such as CRM data, files, email/calendar information,
+    and contacts) that Spiro requires for the operation of the Service.'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - Under California Civil Code Sections 1798.83-1798.84, California residents are
+    entitled to ask us for a notice that, with respect to the immediately preceding
+    calendar year, identifies the categories of Personal Information which we share
+    with our affiliates and/or third parties for marketing purposes, including contact
+    information for such affiliates and/or third parties.
+- source: personal information
+  target: crm datum
+  key: SUBSUM
+  text:
+  - 'By downloading and enabling the Service, or by using the Service in your web
+    browser, you are authorizing Spiro to access and store all of the foregoing types
+    of Information: Information that Spiro may obtain from third-party services (both
+    Personal and Enterprise Information, such as CRM data, files, email/calendar information,
+    and contacts) that Spiro requires for the operation of the Service.'
+- source: personal information
+  target: email calendar information
+  key: SUBSUM
+  text:
+  - 'By downloading and enabling the Service, or by using the Service in your web
+    browser, you are authorizing Spiro to access and store all of the foregoing types
+    of Information: Information that Spiro may obtain from third-party services (both
+    Personal and Enterprise Information, such as CRM data, files, email/calendar information,
+    and contacts) that Spiro requires for the operation of the Service.'
+- source: personal information
+  target: file
+  key: SUBSUM
+  text:
+  - 'By downloading and enabling the Service, or by using the Service in your web
+    browser, you are authorizing Spiro to access and store all of the foregoing types
+    of Information: Information that Spiro may obtain from third-party services (both
+    Personal and Enterprise Information, such as CRM data, files, email/calendar information,
+    and contacts) that Spiro requires for the operation of the Service.'
+- source: type of internet browser
+  target: domain server
+  key: SUBSUM
+  text:
+  - Such information may include the your IP address, domain server, and type of Internet
+    browser.
+- source: type of internet browser
+  target: ip address
+  key: SUBSUM
+  text:
+  - Such information may include the your IP address, domain server, and type of Internet
+    browser.
+nodes:
+- type: ACTOR
+  id: partner employee
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: spiro
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: www.spiro.ai website
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous type of information
+- type: DATA
+  id: contact
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: crm datum
+- type: DATA
+  id: device identification
+- type: DATA
+  id: domain server
+- type: DATA
+  id: email address
+- type: DATA
+  id: email calendar information
+- type: DATA
+  id: encrypt version of password be
+- type: DATA
+  id: file
+- type: DATA
+  id: information on server log
+- type: DATA
+  id: ip address
+- type: DATA
+  id: password
+- type: DATA
+  id: personal information
+- type: DATA
+  id: third party service username
+- type: DATA
+  id: trend
+- type: DATA
+  id: type of internet browser

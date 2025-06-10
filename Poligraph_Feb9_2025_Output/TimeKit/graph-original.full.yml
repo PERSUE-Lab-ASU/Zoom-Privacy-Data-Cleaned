@@ -1,0 +1,464 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By visiting or using the Timekit website and domain name, platform, and any other
+    linked pages, features, content, or any other services we offer from time to time
+    in connection therewith (collectively, the "Website"), you acknowledge that you
+    accept the practices and policies outlined in this Privacy Policy, and you hereby
+    consent that we will collect, use, and share your information in the following
+    ways.
+  - This Sync enables us to identify your calendars and allows you to set which calendars
+    we transmit data from.
+  - 'We collect the following types of information from our customers:'
+  purposes:
+    services:
+    - us to identify your calendars
+- source: we
+  target: browser information
+  key: COLLECT
+  text:
+  - The types of Personal Information collected may include your name, user name,
+    email address, IP address, phone number, browser information, and third-party
+    account credentials (for example, your log-in credentials for Google or other
+    third party sites that we may allow you to use to sign into the Services).   If
+    you provide your third-party account credentials to us or otherwise sign in to
+    the Services through a third party site or service, you understand some content
+    and/or information in those accounts ("Third Party Account Information") may be
+    transmitted into your account with us, and that Third Party Account Information
+    transmitted to our Services is covered by this Privacy Policy; for example, if
+    you sign up with your Google account, we collect Third Party Account Information
+    from your Google profile (including your name and profile photo), calendar (including
+    information about the events  in your Google calendar and what time zone you are
+    located in), and your contact information ("Google Data").
+  - We access your Third Party Account Information both upon sign up and during "Syncs"
+    (defined below), and we only store this information until you delete your Timekit
+    account.
+  purposes: {}
+- source: we
+  target: confirmation
+  key: COLLECT
+  text:
+  - We may receive a confirmation when you open an email from us.
+  purposes: {}
+- source: we
+  target: copy of unrevised information
+  key: COLLECT
+  text:
+  - When you update information, however, we may maintain a copy of the unrevised
+    information in our records.
+  purposes: {}
+- source: we
+  target: datum from google calendar
+  key: COLLECT
+  text:
+  - 'For example, we use the Google Data as follows: We use data from your Google
+    calendars to calculate and display your availability in the Timekit Calendar.'
+  purposes:
+    analytics:
+    - to calculate and display your availability in the Timekit Calendar
+    services:
+    - to calculate and display your availability in the Timekit Calendar
+- source: we
+  target: datum from google calendars
+  key: COLLECT
+  text:
+  - Note that we also automatically access data from your Google Calendars every time
+    a "Sync" takes place.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - Furthermore, when customers book you via Timekit we share your name and email
+    with them.
+  purposes: {}
+- source: we
+  target: google data
+  key: COLLECT
+  text:
+  - 'For example, we use the Google Data as follows:'
+  purposes:
+    analytics:
+    - to calculate and display your availability in the Timekit Calendar
+    services:
+    - to calculate and display your availability in the Timekit Calendar
+    - to reserve the relevant time-slots
+- source: we
+  target: information on server log
+  key: COLLECT
+  text:
+  - Whenever you interact with our Website, we automatically receive and record information
+    on our server logs from your browser including your IP address, "cookie" information,
+    and the page you requested.
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - We receive and store any information you provide to us.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - Furthermore, when customers book you via Timekit we share your name and email
+    with them.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may release Personal Information when we believe in good faith that release
+    is necessary to comply with that law; enforce or apply our conditions of use and
+    other agreements; or protect the rights, property, or safety of Timekit, our employees,
+    our users, or others.
+  - We neither rent nor sell your Personal Information to anyone.
+  - We share your Personal Information in personally identifiable form only as described
+    below.
+  - We use the Third Party Account Information and Personal Information you provide
+    to enhance your Website experience.
+  - You can recognize when an affiliated business is associated with such a transaction,
+    and we will share your Personal Information with that affiliated business only
+    to the extent that it is related to such transaction.
+  purposes:
+    services:
+    - to enhance your Website experience
+- source: we
+  target: third party account information
+  key: COLLECT
+  text:
+  - The types of Personal Information collected may include your name, user name,
+    email address, IP address, phone number, browser information, and third-party
+    account credentials (for example, your log-in credentials for Google or other
+    third party sites that we may allow you to use to sign into the Services).   If
+    you provide your third-party account credentials to us or otherwise sign in to
+    the Services through a third party site or service, you understand some content
+    and/or information in those accounts ("Third Party Account Information") may be
+    transmitted into your account with us, and that Third Party Account Information
+    transmitted to our Services is covered by this Privacy Policy; for example, if
+    you sign up with your Google account, we collect Third Party Account Information
+    from your Google profile (including your name and profile photo), calendar (including
+    information about the events  in your Google calendar and what time zone you are
+    located in), and your contact information ("Google Data").
+  - We access your Third Party Account Information both upon sign up and during "Syncs"
+    (defined below), and we only store this information until you delete your Timekit
+    account.
+  - We use the Third Party Account Information and Personal Information you provide
+    to enhance your Website experience.
+  purposes:
+    services:
+    - to enhance your Website experience
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - We also may collect usage information (such as the numbers and frequency of visitors
+    to our site).  For example, this aggregate data tells us how often customers use
+    parts of the Website, so that we can make the Website appealing to as many customers
+    as possible.
+  - We may also provide this aggregate information to our partners, so that they can
+    understand how often people use their services and our Website, so that they,
+    too, can provide you with an optimal online experience.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We employ other companies and people to perform tasks on our behalf and need to
+    share your information with them to provide products or services to you.
+  purposes:
+    services:
+    - to perform tasks on our behalf
+    - to provide products or services to you
+- source: UNSPECIFIED_ACTOR
+  target: usage information
+  key: COLLECT
+  text:
+  - We also may collect usage information (such as the numbers and frequency of visitors
+    to our site).  For example, this aggregate data tells us how often customers use
+    parts of the Website, so that we can make the Website appealing to as many customers
+    as possible.
+  - We may also provide this aggregate information to our partners, so that they can
+    understand how often people use their services and our Website, so that they,
+    too, can provide you with an optimal online experience.
+  purposes: {}
+- source: affiliate business
+  target: personal information
+  key: COLLECT
+  text:
+  - You can recognize when an affiliated business is associated with such a transaction,
+    and we will share your Personal Information with that affiliated business only
+    to the extent that it is related to such transaction.
+  purposes: {}
+- source: calendar
+  target: information about event
+  key: SUBSUM
+  text:
+  - The types of Personal Information collected may include your name, user name,
+    email address, IP address, phone number, browser information, and third-party
+    account credentials (for example, your log-in credentials for Google or other
+    third party sites that we may allow you to use to sign into the Services).   If
+    you provide your third-party account credentials to us or otherwise sign in to
+    the Services through a third party site or service, you understand some content
+    and/or information in those accounts ("Third Party Account Information") may be
+    transmitted into your account with us, and that Third Party Account Information
+    transmitted to our Services is covered by this Privacy Policy; for example, if
+    you sign up with your Google account, we collect Third Party Account Information
+    from your Google profile (including your name and profile photo), calendar (including
+    information about the events  in your Google calendar and what time zone you are
+    located in), and your contact information ("Google Data").
+- source: information on server log
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Whenever you interact with our Website, we automatically receive and record information
+    on our server logs from your browser including your IP address, "cookie" information,
+    and the page you requested.
+- source: information on server log
+  target: ip address
+  key: SUBSUM
+  text:
+  - Whenever you interact with our Website, we automatically receive and record information
+    on our server logs from your browser including your IP address, "cookie" information,
+    and the page you requested.
+- source: information you choose
+  target: information be
+  key: SUBSUM
+  text:
+  - This policy also does not apply to information you choose to disclose publicly
+    on the Website (i.e., information which is viewable to other Website users), which
+    will not be considered Personal Information.
+- source: third party account credential
+  target: for log credential for google we allow
+  key: SUBSUM
+  text:
+  - The types of Personal Information collected may include your name, user name,
+    email address, IP address, phone number, browser information, and third-party
+    account credentials (for example, your log-in credentials for Google or other
+    third party sites that we may allow you to use to sign into the Services).   If
+    you provide your third-party account credentials to us or otherwise sign in to
+    the Services through a third party site or service, you understand some content
+    and/or information in those accounts ("Third Party Account Information") may be
+    transmitted into your account with us, and that Third Party Account Information
+    transmitted to our Services is covered by this Privacy Policy; for example, if
+    you sign up with your Google account, we collect Third Party Account Information
+    from your Google profile (including your name and profile photo), calendar (including
+    information about the events  in your Google calendar and what time zone you are
+    located in), and your contact information ("Google Data").
+- source: type of personal information collect
+  target: browser information
+  key: SUBSUM
+  text:
+  - The types of Personal Information collected may include your name, user name,
+    email address, IP address, phone number, browser information, and third-party
+    account credentials (for example, your log-in credentials for Google or other
+    third party sites that we may allow you to use to sign into the Services).   If
+    you provide your third-party account credentials to us or otherwise sign in to
+    the Services through a third party site or service, you understand some content
+    and/or information in those accounts ("Third Party Account Information") may be
+    transmitted into your account with us, and that Third Party Account Information
+    transmitted to our Services is covered by this Privacy Policy; for example, if
+    you sign up with your Google account, we collect Third Party Account Information
+    from your Google profile (including your name and profile photo), calendar (including
+    information about the events  in your Google calendar and what time zone you are
+    located in), and your contact information ("Google Data").
+- source: type of personal information collect
+  target: email address
+  key: SUBSUM
+  text:
+  - The types of Personal Information collected may include your name, user name,
+    email address, IP address, phone number, browser information, and third-party
+    account credentials (for example, your log-in credentials for Google or other
+    third party sites that we may allow you to use to sign into the Services).   If
+    you provide your third-party account credentials to us or otherwise sign in to
+    the Services through a third party site or service, you understand some content
+    and/or information in those accounts ("Third Party Account Information") may be
+    transmitted into your account with us, and that Third Party Account Information
+    transmitted to our Services is covered by this Privacy Policy; for example, if
+    you sign up with your Google account, we collect Third Party Account Information
+    from your Google profile (including your name and profile photo), calendar (including
+    information about the events  in your Google calendar and what time zone you are
+    located in), and your contact information ("Google Data").
+- source: type of personal information collect
+  target: ip address
+  key: SUBSUM
+  text:
+  - The types of Personal Information collected may include your name, user name,
+    email address, IP address, phone number, browser information, and third-party
+    account credentials (for example, your log-in credentials for Google or other
+    third party sites that we may allow you to use to sign into the Services).   If
+    you provide your third-party account credentials to us or otherwise sign in to
+    the Services through a third party site or service, you understand some content
+    and/or information in those accounts ("Third Party Account Information") may be
+    transmitted into your account with us, and that Third Party Account Information
+    transmitted to our Services is covered by this Privacy Policy; for example, if
+    you sign up with your Google account, we collect Third Party Account Information
+    from your Google profile (including your name and profile photo), calendar (including
+    information about the events  in your Google calendar and what time zone you are
+    located in), and your contact information ("Google Data").
+- source: type of personal information collect
+  target: person name
+  key: SUBSUM
+  text:
+  - The types of Personal Information collected may include your name, user name,
+    email address, IP address, phone number, browser information, and third-party
+    account credentials (for example, your log-in credentials for Google or other
+    third party sites that we may allow you to use to sign into the Services).   If
+    you provide your third-party account credentials to us or otherwise sign in to
+    the Services through a third party site or service, you understand some content
+    and/or information in those accounts ("Third Party Account Information") may be
+    transmitted into your account with us, and that Third Party Account Information
+    transmitted to our Services is covered by this Privacy Policy; for example, if
+    you sign up with your Google account, we collect Third Party Account Information
+    from your Google profile (including your name and profile photo), calendar (including
+    information about the events  in your Google calendar and what time zone you are
+    located in), and your contact information ("Google Data").
+- source: type of personal information collect
+  target: phone number
+  key: SUBSUM
+  text:
+  - The types of Personal Information collected may include your name, user name,
+    email address, IP address, phone number, browser information, and third-party
+    account credentials (for example, your log-in credentials for Google or other
+    third party sites that we may allow you to use to sign into the Services).   If
+    you provide your third-party account credentials to us or otherwise sign in to
+    the Services through a third party site or service, you understand some content
+    and/or information in those accounts ("Third Party Account Information") may be
+    transmitted into your account with us, and that Third Party Account Information
+    transmitted to our Services is covered by this Privacy Policy; for example, if
+    you sign up with your Google account, we collect Third Party Account Information
+    from your Google profile (including your name and profile photo), calendar (including
+    information about the events  in your Google calendar and what time zone you are
+    located in), and your contact information ("Google Data").
+- source: type of personal information collect
+  target: third party account credential
+  key: SUBSUM
+  text:
+  - The types of Personal Information collected may include your name, user name,
+    email address, IP address, phone number, browser information, and third-party
+    account credentials (for example, your log-in credentials for Google or other
+    third party sites that we may allow you to use to sign into the Services).   If
+    you provide your third-party account credentials to us or otherwise sign in to
+    the Services through a third party site or service, you understand some content
+    and/or information in those accounts ("Third Party Account Information") may be
+    transmitted into your account with us, and that Third Party Account Information
+    transmitted to our Services is covered by this Privacy Policy; for example, if
+    you sign up with your Google account, we collect Third Party Account Information
+    from your Google profile (including your name and profile photo), calendar (including
+    information about the events  in your Google calendar and what time zone you are
+    located in), and your contact information ("Google Data").
+- source: type of personal information collect
+  target: user name
+  key: SUBSUM
+  text:
+  - The types of Personal Information collected may include your name, user name,
+    email address, IP address, phone number, browser information, and third-party
+    account credentials (for example, your log-in credentials for Google or other
+    third party sites that we may allow you to use to sign into the Services).   If
+    you provide your third-party account credentials to us or otherwise sign in to
+    the Services through a third party site or service, you understand some content
+    and/or information in those accounts ("Third Party Account Information") may be
+    transmitted into your account with us, and that Third Party Account Information
+    transmitted to our Services is covered by this Privacy Policy; for example, if
+    you sign up with your Google account, we collect Third Party Account Information
+    from your Google profile (including your name and profile photo), calendar (including
+    information about the events  in your Google calendar and what time zone you are
+    located in), and your contact information ("Google Data").
+- source: usage information
+  target: frequency
+  key: SUBSUM
+  text:
+  - We also may collect usage information (such as the numbers and frequency of visitors
+    to our site).  For example, this aggregate data tells us how often customers use
+    parts of the Website, so that we can make the Website appealing to as many customers
+    as possible.
+- source: usage information
+  target: number
+  key: SUBSUM
+  text:
+  - We also may collect usage information (such as the numbers and frequency of visitors
+    to our site).  For example, this aggregate data tells us how often customers use
+    parts of the Website, so that we can make the Website appealing to as many customers
+    as possible.
+- source: user profile information
+  target: email address
+  key: SUBSUM
+  text:
+  - User Profile information, including your name, email address, and other information
+    ("User Submissions") may be displayed to other users if you have chosen to enter
+    such information on your User Profile.
+- source: user profile information
+  target: person name
+  key: SUBSUM
+  text:
+  - User Profile information, including your name, email address, and other information
+    ("User Submissions") may be displayed to other users if you have chosen to enter
+    such information on your User Profile.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: affiliate business
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser information
+- type: DATA
+  id: calendar
+- type: DATA
+  id: confirmation
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: copy of unrevised information
+- type: DATA
+  id: datum from google calendar
+- type: DATA
+  id: datum from google calendars
+- type: DATA
+  id: email address
+- type: DATA
+  id: for log credential for google we allow
+- type: DATA
+  id: frequency
+- type: DATA
+  id: google data
+- type: DATA
+  id: information about event
+- type: DATA
+  id: information be
+- type: DATA
+  id: information on server log
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: number
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: third party account credential
+- type: DATA
+  id: third party account information
+- type: DATA
+  id: type of personal information collect
+- type: DATA
+  id: usage information
+- type: DATA
+  id: user name
+- type: DATA
+  id: user profile information

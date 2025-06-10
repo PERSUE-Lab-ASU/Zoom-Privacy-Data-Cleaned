@@ -1,0 +1,211 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '5. With Your Consent
+
+
+    We may share your information with others if you provide explicit consent to do
+    so.'
+  - 'Privacy Policy
+
+
+    With Whom We May Share Your Information'
+  - This Privacy Policy explains how we collect, use, disclose, and safeguard your
+    information when you use our scheduling service, NovaCal.
+  - We may disclose your information if required to do so by law or if we believe
+    that such action is necessary to comply with a legal obligation, protect our rights
+    or property, or ensure the safety of our users or others.
+  - We may share your information with trusted third-party service providers who assist
+    us in operating our platform and delivering services to you.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to improve your experience across Novacal services.
+  purposes:
+    services:
+    - to improve your experience across Novacal services
+- source: we
+  target: essential information
+  key: COLLECT
+  text:
+  - When you connect calendars from services like Google Calendar, Apple Calendar,
+    or Microsoft Outlook, we access and use essential information such as event names,
+    times, descriptions, and participant details.
+  purposes: {}
+- source: we
+  target: information necessary
+  key: COLLECT
+  text:
+  - We collect and store only the information necessary to provide our services.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - At NovaCal, we use the information we collect to provide, improve, and customize
+    our scheduling services.
+  purposes:
+    services:
+    - to provide, improve, and customize our scheduling services
+- source: we
+  target: necessary information
+  key: COLLECT
+  text:
+  - If you choose to integrate your account with third-party services such as Google
+    Calendar, Google Meet, Apple Calendar, Microsoft Outlook, or Zoom, we may share
+    the necessary information with these providers to enable seamless synchronization
+    and scheduling.
+  purposes:
+    services:
+    - to enable seamless synchronization and scheduling
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We retain your personal data for as long as your account is active, or as long
+    as necessary to provide our services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These providers are authorized to use your information only as necessary to perform
+    their functions, such as payment processing, email communications, or hosting
+    services.
+  - We may share your information with trusted third-party service providers who assist
+    us in operating our platform and delivering services to you.
+  purposes:
+    services:
+    - only as necessary to perform their functions, such as payment processing, email
+      communications, or hosting services
+- source: UNSPECIFIED_ACTOR
+  target: necessary information
+  key: COLLECT
+  text:
+  - If you choose to integrate your account with third-party services such as Google
+    Calendar, Google Meet, Apple Calendar, Microsoft Outlook, or Zoom, we may share
+    the necessary information with these providers to enable seamless synchronization
+    and scheduling.
+  purposes:
+    services:
+    - to enable seamless synchronization and scheduling
+- source: essential information
+  target: description
+  key: SUBSUM
+  text:
+  - When you connect calendars from services like Google Calendar, Apple Calendar,
+    or Microsoft Outlook, we access and use essential information such as event names,
+    times, descriptions, and participant details.
+- source: essential information
+  target: event name
+  key: SUBSUM
+  text:
+  - When you connect calendars from services like Google Calendar, Apple Calendar,
+    or Microsoft Outlook, we access and use essential information such as event names,
+    times, descriptions, and participant details.
+- source: essential information
+  target: participant detail
+  key: SUBSUM
+  text:
+  - When you connect calendars from services like Google Calendar, Apple Calendar,
+    or Microsoft Outlook, we access and use essential information such as event names,
+    times, descriptions, and participant details.
+- source: essential information
+  target: time
+  key: SUBSUM
+  text:
+  - When you connect calendars from services like Google Calendar, Apple Calendar,
+    or Microsoft Outlook, we access and use essential information such as event names,
+    times, descriptions, and participant details.
+- source: function
+  target: email communication
+  key: SUBSUM
+  text:
+  - These providers are authorized to use your information only as necessary to perform
+    their functions, such as payment processing, email communications, or hosting
+    services.
+- source: function
+  target: hosting service
+  key: SUBSUM
+  text:
+  - These providers are authorized to use your information only as necessary to perform
+    their functions, such as payment processing, email communications, or hosting
+    services.
+- source: function
+  target: payment processing
+  key: SUBSUM
+  text:
+  - These providers are authorized to use your information only as necessary to perform
+    their functions, such as payment processing, email communications, or hosting
+    services.
+- source: relate notification
+  target: meeting confirmation
+  key: SUBSUM
+  text:
+  - Send service-related notifications, such as meeting confirmations, reminders,
+    or updates.
+- source: secure third party payment processor
+  target: PayPal
+  key: SUBSUM
+  text:
+  - For users who make payments, we partner with secure third-party payment processors
+    (such as PayPal) to handle payment information.
+- source: sensitive payment detail
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - We do not store sensitive payment details (like credit card numbers) on our servers.
+nodes:
+- type: ACTOR
+  id: PayPal
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: email communication
+- type: ACTOR
+  id: function
+- type: ACTOR
+  id: hosting service
+- type: ACTOR
+  id: payment processing
+- type: ACTOR
+  id: secure third party payment processor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: description
+- type: DATA
+  id: essential information
+- type: DATA
+  id: event name
+- type: DATA
+  id: information necessary
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: meeting confirmation
+- type: DATA
+  id: necessary information
+- type: DATA
+  id: participant detail
+- type: DATA
+  id: personal information
+- type: DATA
+  id: relate notification
+- type: DATA
+  id: sensitive payment detail
+- type: DATA
+  id: time

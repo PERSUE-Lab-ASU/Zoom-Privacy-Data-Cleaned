@@ -1,0 +1,25 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: supply datum
+  target: driving record
+  key: SUBSUM
+  text:
+  - SkillMil has not conducted any verifications of candidate-supplied data (e.g.,
+    background checks, criminal or drug screenings, employment verifications, driving
+    records, reference checks).
+- source: supply datum
+  target: employment verification
+  key: SUBSUM
+  text:
+  - SkillMil has not conducted any verifications of candidate-supplied data (e.g.,
+    background checks, criminal or drug screenings, employment verifications, driving
+    records, reference checks).
+nodes:
+- type: DATA
+  id: driving record
+- type: DATA
+  id: employment verification
+- type: DATA
+  id: supply datum

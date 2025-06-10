@@ -1,0 +1,244 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We automatically receive certain types of information whenever you interact with
+    us.
+  - We may also use cookie technology to collect information.
+  purposes: {}
+- source: we
+  target: access information
+  key: COLLECT
+  text:
+  - We use such information to help manage the effectiveness of our online advertising
+    and to gather access information, for purposes such as compiling aggregated statistics
+    about Product usage.
+  purposes:
+    analytics:
+    - for purposes such as compiling aggregated statistics about Product usage
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - This policy in no way restricts or limits our collection and use of aggregate
+    information, and we may share aggregate information about our users with third
+    parties for various purposes, including to help us better understand and improve
+    our Product, and for advertising and marketing purposes.
+  - We collect two basic types of information with our Product, namely personal information
+    and aggregate information.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - Upon registration with Cincopa.com, we will share names and other contact information
+    as necessary for the applicable third parties to provide these services.
+  purposes: {}
+- source: we
+  target: demographic information you provide to we
+  key: COLLECT
+  text:
+  - We may also collect demographic information that you provide to us.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - When you register to use the Product, we may collect various kinds of contact
+    information about you including, for example, your name and email address.
+  purposes: {}
+- source: we
+  target: information pertain to account activity
+  key: COLLECT
+  text:
+  - We may also collect information pertaining to your account activity, information
+    pertaining to the files accessed or used by you, and standard access information,
+    such as the time and date of accessing the Product, and usage of the Product.
+  - We use such information to help manage the effectiveness of our online advertising
+    and to gather access information, for purposes such as compiling aggregated statistics
+    about Product usage.
+  purposes:
+    advertising:
+    - to help manage the effectiveness of our online advertising and to gather access
+      information, for purposes such as compiling aggregated statistics about Product
+      usage
+    analytics:
+    - to help manage the effectiveness of our online advertising and to gather access
+      information, for purposes such as compiling aggregated statistics about Product
+      usage
+- source: we
+  target: information pertain to file access
+  key: COLLECT
+  text:
+  - We may also collect information pertaining to your account activity, information
+    pertaining to the files accessed or used by you, and standard access information,
+    such as the time and date of accessing the Product, and usage of the Product.
+  - We use such information to help manage the effectiveness of our online advertising
+    and to gather access information, for purposes such as compiling aggregated statistics
+    about Product usage.
+  purposes:
+    advertising:
+    - to help manage the effectiveness of our online advertising and to gather access
+      information, for purposes such as compiling aggregated statistics about Product
+      usage
+    analytics:
+    - to help manage the effectiveness of our online advertising and to gather access
+      information, for purposes such as compiling aggregated statistics about Product
+      usage
+- source: we
+  target: information you give we at time you register with we
+  key: COLLECT
+  text:
+  - We collect information you give us at various times when you register with us
+    and use our Product.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - For example, when you use the Product, our systems may automatically collect your
+    IP address and the type of operating system or browser you use.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - Upon registration with Cincopa.com, we will share names and other contact information
+    as necessary for the applicable third parties to provide these services.
+  - When you register to use the Product, we may collect various kinds of contact
+    information about you including, for example, your name and email address.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In general, we use personal information internally to process your requests or
+    transactions, to provide you with information or support you request, to inform
+    you about other information, events, promotions or products we think will be of
+    interest to you, to facilitate your use of, and our administration and operation
+    of, the Site and to otherwise serve our users and enable them to take maximum
+    advantage of our Product.
+  - We collect two basic types of information with our Product, namely personal information
+    and aggregate information.
+  purposes:
+    advertising:
+    - to process your requests or transactions, to provide you with information or
+      support you request, to inform you about other information, events, promotions
+      or products we think will be of interest to you, to facilitate your use of,
+      and our administration and operation of, the Site and to otherwise serve our
+      users and enable them to take maximum advantage of our Product
+    analytics:
+    - to process your requests or transactions, to provide you with information or
+      support you request, to inform you about other information, events, promotions
+      or products we think will be of interest to you, to facilitate your use of,
+      and our administration and operation of, the Site and to otherwise serve our
+      users and enable them to take maximum advantage of our Product
+    services:
+    - to process your requests or transactions, to provide you with information or
+      support you request, to inform you about other information, events, promotions
+      or products we think will be of interest to you, to facilitate your use of,
+      and our administration and operation of, the Site and to otherwise serve our
+      users and enable them to take maximum advantage of our Product
+- source: we
+  target: preference
+  key: COLLECT
+  text:
+  - Among other things, the use of cookies enables us to improve our Site by seeing
+    which areas and features are most popular; to count the number of computers accessing
+    the Site; to personalize the Site and improve the Site experience; to record your
+    preferences; and to allow you to visit the Site without re-entering your member
+    ID and/or password.
+  purposes: {}
+- source: we
+  target: standard access information
+  key: COLLECT
+  text:
+  - We may also collect information pertaining to your account activity, information
+    pertaining to the files accessed or used by you, and standard access information,
+    such as the time and date of accessing the Product, and usage of the Product.
+  purposes: {}
+- source: we
+  target: type of operating system you use
+  key: COLLECT
+  text:
+  - For example, when you use the Product, our systems may automatically collect your
+    IP address and the type of operating system or browser you use.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - This policy in no way restricts or limits our collection and use of aggregate
+    information, and we may share aggregate information about our users with third
+    parties for various purposes, including to help us better understand and improve
+    our Product, and for advertising and marketing purposes.
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you register to use the Product, we may collect various kinds of contact
+    information about you including, for example, your name and email address.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you register to use the Product, we may collect various kinds of contact
+    information about you including, for example, your name and email address.
+- source: standard access information
+  target: date
+  key: SUBSUM
+  text:
+  - We may also collect information pertaining to your account activity, information
+    pertaining to the files accessed or used by you, and standard access information,
+    such as the time and date of accessing the Product, and usage of the Product.
+- source: standard access information
+  target: time
+  key: SUBSUM
+  text:
+  - We may also collect information pertaining to your account activity, information
+    pertaining to the files accessed or used by you, and standard access information,
+    such as the time and date of accessing the Product, and usage of the Product.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access information
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: date
+- type: DATA
+  id: demographic information you provide to we
+- type: DATA
+  id: email address
+- type: DATA
+  id: information pertain to account activity
+- type: DATA
+  id: information pertain to file access
+- type: DATA
+  id: information you give we at time you register with we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: preference
+- type: DATA
+  id: standard access information
+- type: DATA
+  id: time
+- type: DATA
+  id: type of operating system you use

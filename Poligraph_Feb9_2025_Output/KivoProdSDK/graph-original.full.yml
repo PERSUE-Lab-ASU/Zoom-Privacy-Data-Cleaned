@@ -1,0 +1,487 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Depending on the requested Services or as necessary to complete any transaction
+    or provide any Service you have requested, we may share your information with
+    our trusted subsidiaries and joint venture partners, affiliates, contracted companies,
+    and service providers (collectively, "Service Providers") we rely upon to assist
+    in the operation of the Services available to you and whose privacy policies are
+    consistent with ours or who agree to abide by our policies with respect to Personal
+    Information.
+  - Note that under some legislation we may be allowed to process information until
+    you object to such processing by opting out, without having to rely on consent
+    or any other of the legal bases.
+  - Service Providers are given the information they need only in order to perform
+    their designated functions, and we do not authorize them to use or disclose any
+    of the provided information for their own marketing or other purposes.
+  purposes:
+    services:
+    - Depending on the requested Services or as necessary to complete any transaction
+      or provide any Service you have requested
+    - only in order to perform their designated functions
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may use any aggregated data derived from or incorporating your Personal Information
+    after you update or delete it, but not in a manner that would identify you personally.
+  purposes: {}
+- source: we
+  target: evidence
+  key: COLLECT
+  text:
+  - If we receive your request from an authorized representative, we may request evidence
+    that you have provided such an authorized representative with power of attorney
+    or that the authorized representative otherwise has valid written authority to
+    submit requests on your behalf.
+  purposes: {}
+- source: we
+  target: health information
+  key: COLLECT
+  text:
+  - 'As described in this Policy in the information collection section above, we have
+    collected the categories of Personal Information listed below in the past twelve
+    (12) months: Health information'
+  purposes: {}
+- source: we
+  target: information device send
+  key: COLLECT
+  text:
+  - When you use the Services, our servers automatically record information that your
+    device sends.
+  purposes: {}
+- source: we
+  target: information obtain from analytic tool
+  key: COLLECT
+  text:
+  - We use the information obtained from these analytics tools to monitor the performance
+    and improve our Services.
+  purposes:
+    analytics:
+    - to monitor the performance and improve our Services
+    services:
+    - to monitor the performance and improve our Services
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - We receive and store any information you knowingly provide to us when you create
+    an account, or fill any forms in the Services.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'As described in this Policy in the information collection section above, we have
+    collected the categories of Personal Information listed below in the past twelve
+    (12) months: Personal identifiers (such as email address, phone number, etc)'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - However, we may also collect Personal Information about you via our Electronic
+    Health Record system, or from a health system that has medical records relevant
+    to your care.
+  - In order to make the Services available to you, or to meet a legal obligation,
+    we may need to collect and use certain Personal Information.
+  - We may also disclose any Personal Information we collect, use or receive if required
+    or permitted by law, such as to comply with a subpoena or similar legal process,
+    and when we believe in good faith that disclosure is necessary to protect our
+    rights, protect your safety or the safety of others, investigate fraud, or respond
+    to a government request.
+  - We will retain and use your Personal Information for the period necessary to comply
+    with our legal obligations, to enforce our agreements, resolve disputes, and unless
+    a longer retention period is required or permitted by law.
+  purposes:
+    legal:
+    - In order to make the Services available to you, or to meet a legal obligation
+    - to comply with our legal obligations, to enforce our agreements, resolve disputes,
+    services:
+    - In order to make the Services available to you, or to meet a legal obligation
+- source: we
+  target: relate datum
+  key: COLLECT
+  text:
+  - We receive, transmit and store certain health related data with the Services.
+  purposes: {}
+- source: request
+  target: sufficient information allow
+  key: COLLECT
+  text:
+  - Your request must provide sufficient information that allows us to verify that
+    you are the person you are claiming to be or that you are the authorized representative
+    of such person.
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Service Providers are not authorized to use or disclose your information except
+    as necessary to perform services on our behalf or comply with legal requirements.
+  purposes:
+    legal:
+    - to perform services on our behalf or comply with legal requirements
+    services:
+    - to perform services on our behalf or comply with legal requirements
+- source: service providers
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Depending on the requested Services or as necessary to complete any transaction
+    or provide any Service you have requested, we may share your information with
+    our trusted subsidiaries and joint venture partners, affiliates, contracted companies,
+    and service providers (collectively, "Service Providers") we rely upon to assist
+    in the operation of the Services available to you and whose privacy policies are
+    consistent with ours or who agree to abide by our policies with respect to Personal
+    Information.
+  purposes:
+    services:
+    - Depending on the requested Services or as necessary to complete any transaction
+      or provide any Service you have requested
+- source: we
+  target: kivo health mobile application
+  key: SUBSUM
+  text:
+  - This Policy describes the types of information we may collect from you or that
+    you may provide ("Personal Information") in the "Kivo Health" mobile application
+    ("Mobile Application") and any of its related products and services (collectively,
+    "Services"), and our practices for collecting, using, maintaining, protecting,
+    and disclosing that Personal Information.
+- source: we
+  target: mobile application
+  key: SUBSUM
+  text:
+  - This Policy describes the types of information we may collect from you or that
+    you may provide ("Personal Information") in the "Kivo Health" mobile application
+    ("Mobile Application") and any of its related products and services (collectively,
+    "Services"), and our practices for collecting, using, maintaining, protecting,
+    and disclosing that Personal Information.
+- source: account detail
+  target: password
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following: Account details (such
+    as user name, unique user ID, password, etc)'
+- source: account detail
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following: Account details (such
+    as user name, unique user ID, password, etc)'
+- source: account detail
+  target: user name
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following: Account details (such
+    as user name, unique user ID, password, etc)'
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following: Contact information
+    (such as email address, phone number, etc)'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following: Contact information
+    (such as email address, phone number, etc)'
+- source: information device send
+  target: access time
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    device name and version, operating system type and version, language preferences,
+    information you search for in the Services, access times and dates, and other
+    statistics.
+  - When you use the Services, our servers automatically record information that your
+    device sends.
+- source: information device send
+  target: date
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    device name and version, operating system type and version, language preferences,
+    information you search for in the Services, access times and dates, and other
+    statistics.
+  - When you use the Services, our servers automatically record information that your
+    device sends.
+- source: information device send
+  target: device name
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    device name and version, operating system type and version, language preferences,
+    information you search for in the Services, access times and dates, and other
+    statistics.
+  - When you use the Services, our servers automatically record information that your
+    device sends.
+- source: information device send
+  target: geolocation
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    device name and version, operating system type and version, language preferences,
+    information you search for in the Services, access times and dates, and other
+    statistics.
+  - When you use the Services, our servers automatically record information that your
+    device sends.
+- source: information device send
+  target: information you search for in services
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    device name and version, operating system type and version, language preferences,
+    information you search for in the Services, access times and dates, and other
+    statistics.
+  - When you use the Services, our servers automatically record information that your
+    device sends.
+- source: information device send
+  target: ip address
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    device name and version, operating system type and version, language preferences,
+    information you search for in the Services, access times and dates, and other
+    statistics.
+  - When you use the Services, our servers automatically record information that your
+    device sends.
+- source: information device send
+  target: language preference
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    device name and version, operating system type and version, language preferences,
+    information you search for in the Services, access times and dates, and other
+    statistics.
+  - When you use the Services, our servers automatically record information that your
+    device sends.
+- source: information device send
+  target: operating system type
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    device name and version, operating system type and version, language preferences,
+    information you search for in the Services, access times and dates, and other
+    statistics.
+  - When you use the Services, our servers automatically record information that your
+    device sends.
+- source: information device send
+  target: statistic
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    device name and version, operating system type and version, language preferences,
+    information you search for in the Services, access times and dates, and other
+    statistics.
+  - When you use the Services, our servers automatically record information that your
+    device sends.
+- source: information device send
+  target: version
+  key: SUBSUM
+  text:
+  - This data may include information such as your device's IP address and location,
+    device name and version, operating system type and version, language preferences,
+    information you search for in the Services, access times and dates, and other
+    statistics.
+  - When you use the Services, our servers automatically record information that your
+    device sends.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'As described in this Policy in the information collection section above, we have
+    collected the categories of Personal Information listed below in the past twelve
+    (12) months: Personal identifiers (such as email address, phone number, etc)'
+- source: personal identifier
+  target: mobile information
+  key: SUBSUM
+  text:
+  - We will not share your Personally Identifiable Information, including mobile information,
+    with 3rd parties or affiliates for marketing or promotional purposes.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'As described in this Policy in the information collection section above, we have
+    collected the categories of Personal Information listed below in the past twelve
+    (12) months: Personal identifiers (such as email address, phone number, etc)'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - If, however, you wish to use some of the features offered in the Services, you
+    may be asked to provide certain Personal Information (for example, your name and
+    email address).
+- source: personal information
+  target: health information
+  key: SUBSUM
+  text:
+  - 'As described in this Policy in the information collection section above, we have
+    collected the categories of Personal Information listed below in the past twelve
+    (12) months: Health information'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - If, however, you wish to use some of the features offered in the Services, you
+    may be asked to provide certain Personal Information (for example, your name and
+    email address).
+- source: personal information
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - 'As described in this Policy in the information collection section above, we have
+    collected the categories of Personal Information listed below in the past twelve
+    (12) months: Personal identifiers (such as email address, phone number, etc)'
+- source: personal information
+  target: specific piece
+  key: SUBSUM
+  text:
+  - In addition to the rights as explained in this Policy, California residents who
+    provide Personal Information as defined in the statute to obtain Services for
+    personal, family, or household use are entitled to request and obtain from us,
+    once a calendar year, information about the categories and specific pieces of
+    Personal Information we have collected and disclosed.
+- source: sensitive personal information
+  target: mental health
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following: Sensitive personal
+    information (such as ethnicity, religious beliefs, mental health, etc)'
+- source: sensitive personal information
+  target: race / ethnicity
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following: Sensitive personal
+    information (such as ethnicity, religious beliefs, mental health, etc)'
+- source: sensitive personal information
+  target: religious belief
+  key: SUBSUM
+  text:
+  - 'When required, this information may include the following: Sensitive personal
+    information (such as ethnicity, religious beliefs, mental health, etc)'
+- source: service providers
+  target: contract company
+  key: SUBSUM
+  text:
+  - Depending on the requested Services or as necessary to complete any transaction
+    or provide any Service you have requested, we may share your information with
+    our trusted subsidiaries and joint venture partners, affiliates, contracted companies,
+    and service providers (collectively, "Service Providers") we rely upon to assist
+    in the operation of the Services available to you and whose privacy policies are
+    consistent with ours or who agree to abide by our policies with respect to Personal
+    Information.
+- source: service providers
+  target: joint venture partner
+  key: SUBSUM
+  text:
+  - Depending on the requested Services or as necessary to complete any transaction
+    or provide any Service you have requested, we may share your information with
+    our trusted subsidiaries and joint venture partners, affiliates, contracted companies,
+    and service providers (collectively, "Service Providers") we rely upon to assist
+    in the operation of the Services available to you and whose privacy policies are
+    consistent with ours or who agree to abide by our policies with respect to Personal
+    Information.
+- source: service providers
+  target: service provider
+  key: SUBSUM
+  text:
+  - Depending on the requested Services or as necessary to complete any transaction
+    or provide any Service you have requested, we may share your information with
+    our trusted subsidiaries and joint venture partners, affiliates, contracted companies,
+    and service providers (collectively, "Service Providers") we rely upon to assist
+    in the operation of the Services available to you and whose privacy policies are
+    consistent with ours or who agree to abide by our policies with respect to Personal
+    Information.
+nodes:
+- type: ACTOR
+  id: contract company
+- type: ACTOR
+  id: joint venture partner
+- type: ACTOR
+  id: kivo health mobile application
+- type: ACTOR
+  id: mobile application
+- type: ACTOR
+  id: request
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: service providers
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: account detail
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: date
+- type: DATA
+  id: device name
+- type: DATA
+  id: email address
+- type: DATA
+  id: evidence
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: health information
+- type: DATA
+  id: information device send
+- type: DATA
+  id: information obtain from analytic tool
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: information you search for in services
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: mental health
+- type: DATA
+  id: mobile information
+- type: DATA
+  id: operating system type
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: race / ethnicity
+- type: DATA
+  id: relate datum
+- type: DATA
+  id: religious belief
+- type: DATA
+  id: sensitive personal information
+- type: DATA
+  id: specific piece
+- type: DATA
+  id: statistic
+- type: DATA
+  id: sufficient information allow
+- type: DATA
+  id: user name
+- type: DATA
+  id: version

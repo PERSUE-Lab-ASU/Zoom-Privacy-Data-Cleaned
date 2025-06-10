@@ -1,0 +1,161 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: client datum
+  key: COLLECT
+  text:
+  - This means that we will retain client data for as long as the client has a current
+    and active account with WaitWell Inc.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Cookies are sent to your browser from a website and stored on your computer's
+    hard drive.  We use "cookies" to allow certain features to work as required.
+  purposes:
+    services:
+    - to allow certain features to work as required
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+  purposes: {}
+- source: we
+  target: log datum
+  key: COLLECT
+  text:
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+  purposes: {}
+- source: secure payment gateway
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - The Credit Card information is not stored by WaitWell Inc., but instead is only
+    used by the Secure Payment Gateway.
+  purposes: {}
+- source: waitwell inc.
+  target: client datum
+  key: COLLECT
+  text:
+  - Once a client's term has expired or has been terminated, then WaitWell Inc. will
+    no longer retain the client data nor any personal information.
+  - 'WaitWell Inc. operates the following websites covered under this Privacy Policy:
+
+
+    WaitWell Inc. will only retain client data for as long as needed.'
+  purposes: {}
+- source: waitwell inc.
+  target: personal information
+  key: COLLECT
+  text:
+  - Once a client's term has expired or has been terminated, then WaitWell Inc. will
+    no longer retain the client data nor any personal information.
+  purposes: {}
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - 'WaitWell Inc. operates the following websites covered under this Privacy Policy:
+
+
+    Cookies are files with small amounts of data, which may include an anonymous unique
+    identifier.'
+- source: log datum
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our website that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+- source: log datum
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our website that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+- source: log datum
+  target: date
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our website that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+- source: log datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our website that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+- source: log datum
+  target: statistic
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our website that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+- source: log datum
+  target: time
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our website that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+nodes:
+- type: ACTOR
+  id: secure payment gateway
+- type: ACTOR
+  id: waitwell inc.
+- type: ACTOR
+  id: we
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: client datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log datum
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistic
+- type: DATA
+  id: time

@@ -1,0 +1,514 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    How long we retain your information'
+  - 'Privacy Policy
+
+
+    In what ways we may disclose your information to other parties'
+  - We may also retain some information we believe in good faith is necessary for
+    legal and regulatory compliance, research and development, business matters, and
+    improvement of our Services, in which case we would anonymize and encrypt such
+    information until complete deletion.
+  - We store your information securely, using industry-compliant encryption technology.
+  - We use "cookies" to collect information and improve our Services.
+  - What information we collect from or about you
+  - What we use your information for
+  purposes: {}
+- source: we
+  target: anonymous user information
+  key: COLLECT
+  text:
+  - For example, we share anonymous user information with advertisers and advertising
+    networks to enable the display of targeted, relevant advertisements.
+  purposes:
+    advertising:
+    - to enable the display of targeted, relevant advertisements
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use "persistent cookies" to save your user ID and password for future logins
+    to the Service.
+  - We may use "session ID cookies" to enable certain features of the Service, to
+    better understand how you interact with the Service and to monitor aggregate usage
+    and web traffic routing on the Service.
+  - We use "cookies" to collect information and improve our Services.
+  purposes:
+    analytics:
+    - to enable certain features of the Service, to better understand how you interact
+      with the Service and to monitor aggregate usage and web traffic routing on the
+      Service
+    services:
+    - to enable certain features of the Service, to better understand how you interact
+      with the Service and to monitor aggregate usage and web traffic routing on the
+      Service
+    - to save your user ID and password for future logins to the Service
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may use or distribute information about you and your use of the Services in
+    ways that do not reveal Personally Identifiable Information.
+  purposes: {}
+- source: we
+  target: internal log of usage of service
+  key: COLLECT
+  text:
+  - Company maintains internal logs of usage of the Services.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may also provide anonymous usage data or summary characteristics of our audience
+    to potential partners and advertisers or post such information on publicly accessible
+    areas of the Website.
+  purposes: {}
+- source: we
+  target: log
+  key: COLLECT
+  text:
+  - Company uses logs mainly for internal systems administration and diagnostic purposes,
+    and to detect improper use of the site.
+  - Logs may also be used to generate aggregate, non-Personally Identifiable Information
+    for advertisers or other third parties.
+  - The Company may collect such usage logs even if the App is not open on your device,
+    or you do not have the Website open.
+  purposes:
+    analytics:
+    - mainly for internal systems administration and diagnostic purposes, and to detect
+      improper use of the site
+    security:
+    - mainly for internal systems administration and diagnostic purposes, and to detect
+      improper use of the site
+    services:
+    - mainly for internal systems administration and diagnostic purposes, and to detect
+      improper use of the site
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - The Company collects only the PII that you voluntarily provide to us, such as
+    when you register to use the Services, set up a profile, create content, sign
+    up for a special offer, enter a sweepstakes or promotion, or complete a survey.
+  - We may also share Personally Identifiable Information in order to investigate,
+    prevent, or take action regarding illegal activities, suspected fraud, situations
+    involving potential threats to the physical safety of any person, or to prevent
+    harm to the Website.
+  - We may disclose Personally Identifiable Information, including to local, state,
+    or federal law enforcement officials, when we believe in good faith that the law
+    requires such action, or when required to do so by order of a court or other compulsory
+    legal or regulatory process.
+  - We may disclose your Personally Identifiable Information to vendors who help us
+    operate the Website, conduct our business or provide the Services to you, such
+    as customer service centers or email marketing providers.
+  - We may transfer your Personally Identifiable Information if we are acquired by
+    or merge with another company.
+  purposes:
+    security:
+    - in order to investigate, prevent, or take action regarding illegal activities,
+      suspected fraud, situations involving potential threats to the physical safety
+      of any person, or to prevent harm to the Website
+- source: we
+  target: summary characteristic
+  key: COLLECT
+  text:
+  - We may also provide anonymous usage data or summary characteristics of our audience
+    to potential partners and advertisers or post such information on publicly accessible
+    areas of the Website.
+  purposes: {}
+- source: we
+  target: technical information
+  key: COLLECT
+  text:
+  - Company may also automatically collect other types of non-Personally Identifiable
+    Information as you use the Services, including technical information (such as
+    your internet protocol ("IP") address, mobile device ID, or browser type) and
+    usage information (such as location data, preferred language, the parts of the
+    Services you have visited, which links you have clicked and other information
+    about how you interact with the Services).
+  purposes: {}
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - Company may also automatically collect other types of non-Personally Identifiable
+    Information as you use the Services, including technical information (such as
+    your internet protocol ("IP") address, mobile device ID, or browser type) and
+    usage information (such as location data, preferred language, the parts of the
+    Services you have visited, which links you have clicked and other information
+    about how you interact with the Services).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    In what ways we may disclose your information to other parties'
+  purposes: {}
+- source: advertiser
+  target: anonymous user information
+  key: COLLECT
+  text:
+  - For example, we share anonymous user information with advertisers and advertising
+    networks to enable the display of targeted, relevant advertisements.
+  purposes:
+    advertising:
+    - to enable the display of targeted, relevant advertisements
+- source: advertiser
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may also provide anonymous usage data or summary characteristics of our audience
+    to potential partners and advertisers or post such information on publicly accessible
+    areas of the Website.
+  purposes: {}
+- source: advertiser
+  target: summary characteristic
+  key: COLLECT
+  text:
+  - We may also provide anonymous usage data or summary characteristics of our audience
+    to potential partners and advertisers or post such information on publicly accessible
+    areas of the Website.
+  purposes: {}
+- source: email service provider
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may disclose your Personally Identifiable Information to vendors who help us
+    operate the Website, conduct our business or provide the Services to you, such
+    as customer service centers or email marketing providers.
+  purposes: {}
+- source: potential partner
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may also provide anonymous usage data or summary characteristics of our audience
+    to potential partners and advertisers or post such information on publicly accessible
+    areas of the Website.
+  purposes: {}
+- source: potential partner
+  target: summary characteristic
+  key: COLLECT
+  text:
+  - We may also provide anonymous usage data or summary characteristics of our audience
+    to potential partners and advertisers or post such information on publicly accessible
+    areas of the Website.
+  purposes: {}
+- source: social media
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These companies may use cookies or other tracking technologies in order to recognize
+    you when you use their tools in the future.
+  - We may integrate with tools made available by social media companies such as Facebook,
+    Instagram and Twitter, in order to offer social features such as content sharing.
+  purposes:
+    services:
+    - in order to recognize you when you use their tools in the future
+- source: information of kind
+  target: age
+  key: SUBSUM
+  text:
+  - However, some information of this kind, such as your age, gender, geographic location
+    and shopping preferences may be required (or merely requested) when you register
+    for the Services, and may be associated with your PII.
+- source: information of kind
+  target: gender
+  key: SUBSUM
+  text:
+  - However, some information of this kind, such as your age, gender, geographic location
+    and shopping preferences may be required (or merely requested) when you register
+    for the Services, and may be associated with your PII.
+- source: information of kind
+  target: geolocation
+  key: SUBSUM
+  text:
+  - However, some information of this kind, such as your age, gender, geographic location
+    and shopping preferences may be required (or merely requested) when you register
+    for the Services, and may be associated with your PII.
+- source: information of kind
+  target: shopping preference
+  key: SUBSUM
+  text:
+  - However, some information of this kind, such as your age, gender, geographic location
+    and shopping preferences may be required (or merely requested) when you register
+    for the Services, and may be associated with your PII.
+- source: log
+  target: browser type
+  key: SUBSUM
+  text:
+  - Logs include information such as IP address, browser type and version, computer
+    processing speed, connection speed, clickstream data, and computer operating system.
+- source: log
+  target: clickstream datum
+  key: SUBSUM
+  text:
+  - Logs include information such as IP address, browser type and version, computer
+    processing speed, connection speed, clickstream data, and computer operating system.
+- source: log
+  target: computer operate system
+  key: SUBSUM
+  text:
+  - Logs include information such as IP address, browser type and version, computer
+    processing speed, connection speed, clickstream data, and computer operating system.
+- source: log
+  target: computer processing speed
+  key: SUBSUM
+  text:
+  - Logs include information such as IP address, browser type and version, computer
+    processing speed, connection speed, clickstream data, and computer operating system.
+- source: log
+  target: connection speed
+  key: SUBSUM
+  text:
+  - Logs include information such as IP address, browser type and version, computer
+    processing speed, connection speed, clickstream data, and computer operating system.
+- source: log
+  target: ip address
+  key: SUBSUM
+  text:
+  - Logs include information such as IP address, browser type and version, computer
+    processing speed, connection speed, clickstream data, and computer operating system.
+- source: log
+  target: version
+  key: SUBSUM
+  text:
+  - Logs include information such as IP address, browser type and version, computer
+    processing speed, connection speed, clickstream data, and computer operating system.
+- source: non-personal information
+  target: technical information
+  key: SUBSUM
+  text:
+  - Company may also automatically collect other types of non-Personally Identifiable
+    Information as you use the Services, including technical information (such as
+    your internet protocol ("IP") address, mobile device ID, or browser type) and
+    usage information (such as location data, preferred language, the parts of the
+    Services you have visited, which links you have clicked and other information
+    about how you interact with the Services).
+- source: non-personal information
+  target: usage information
+  key: SUBSUM
+  text:
+  - Company may also automatically collect other types of non-Personally Identifiable
+    Information as you use the Services, including technical information (such as
+    your internet protocol ("IP") address, mobile device ID, or browser type) and
+    usage information (such as location data, preferred language, the parts of the
+    Services you have visited, which links you have clicked and other information
+    about how you interact with the Services).
+- source: personal identifier
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - Examples of Personally Identifiable Information include a name, physical address,
+    email address, telephone number, date of birth, or a credit card number.
+- source: personal identifier
+  target: date of birth
+  key: SUBSUM
+  text:
+  - Examples of Personally Identifiable Information include a name, physical address,
+    email address, telephone number, date of birth, or a credit card number.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - Examples of Personally Identifiable Information include a name, physical address,
+    email address, telephone number, date of birth, or a credit card number.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Examples of Personally Identifiable Information include a name, physical address,
+    email address, telephone number, date of birth, or a credit card number.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - Examples of Personally Identifiable Information include a name, physical address,
+    email address, telephone number, date of birth, or a credit card number.
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - Examples of Personally Identifiable Information include a name, physical address,
+    email address, telephone number, date of birth, or a credit card number.
+- source: social media
+  target: Facebook
+  key: SUBSUM
+  text:
+  - We may integrate with tools made available by social media companies such as Facebook,
+    Instagram and Twitter, in order to offer social features such as content sharing.
+- source: social media
+  target: Twitter
+  key: SUBSUM
+  text:
+  - We may integrate with tools made available by social media companies such as Facebook,
+    Instagram and Twitter, in order to offer social features such as content sharing.
+- source: technical information
+  target: browser type
+  key: SUBSUM
+  text:
+  - Company may also automatically collect other types of non-Personally Identifiable
+    Information as you use the Services, including technical information (such as
+    your internet protocol ("IP") address, mobile device ID, or browser type) and
+    usage information (such as location data, preferred language, the parts of the
+    Services you have visited, which links you have clicked and other information
+    about how you interact with the Services).
+- source: technical information
+  target: device identifier
+  key: SUBSUM
+  text:
+  - Company may also automatically collect other types of non-Personally Identifiable
+    Information as you use the Services, including technical information (such as
+    your internet protocol ("IP") address, mobile device ID, or browser type) and
+    usage information (such as location data, preferred language, the parts of the
+    Services you have visited, which links you have clicked and other information
+    about how you interact with the Services).
+- source: technical information
+  target: ip address
+  key: SUBSUM
+  text:
+  - Company may also automatically collect other types of non-Personally Identifiable
+    Information as you use the Services, including technical information (such as
+    your internet protocol ("IP") address, mobile device ID, or browser type) and
+    usage information (such as location data, preferred language, the parts of the
+    Services you have visited, which links you have clicked and other information
+    about how you interact with the Services).
+- source: usage information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Company may also automatically collect other types of non-Personally Identifiable
+    Information as you use the Services, including technical information (such as
+    your internet protocol ("IP") address, mobile device ID, or browser type) and
+    usage information (such as location data, preferred language, the parts of the
+    Services you have visited, which links you have clicked and other information
+    about how you interact with the Services).
+- source: usage information
+  target: information about
+  key: SUBSUM
+  text:
+  - Company may also automatically collect other types of non-Personally Identifiable
+    Information as you use the Services, including technical information (such as
+    your internet protocol ("IP") address, mobile device ID, or browser type) and
+    usage information (such as location data, preferred language, the parts of the
+    Services you have visited, which links you have clicked and other information
+    about how you interact with the Services).
+- source: usage information
+  target: prefer language
+  key: SUBSUM
+  text:
+  - Company may also automatically collect other types of non-Personally Identifiable
+    Information as you use the Services, including technical information (such as
+    your internet protocol ("IP") address, mobile device ID, or browser type) and
+    usage information (such as location data, preferred language, the parts of the
+    Services you have visited, which links you have clicked and other information
+    about how you interact with the Services).
+- source: user information
+  target: non-personal information
+  key: SUBSUM
+  text:
+  - 'In this Policy, we refer to two types of user information: Personally Identifiable
+    Information (sometimes referred to as "PII") and non-Personally Identifiable Information.'
+- source: user information
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - 'In this Policy, we refer to two types of user information: Personally Identifiable
+    Information (sometimes referred to as "PII") and non-Personally Identifiable Information.'
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: email service provider
+- type: ACTOR
+  id: potential partner
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: age
+- type: DATA
+  id: anonymous user information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: computer operate system
+- type: DATA
+  id: computer processing speed
+- type: DATA
+  id: connection speed
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: gender
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information of kind
+- type: DATA
+  id: internal log of usage of service
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: prefer language
+- type: DATA
+  id: shopping preference
+- type: DATA
+  id: summary characteristic
+- type: DATA
+  id: technical information
+- type: DATA
+  id: usage information
+- type: DATA
+  id: user information
+- type: DATA
+  id: version

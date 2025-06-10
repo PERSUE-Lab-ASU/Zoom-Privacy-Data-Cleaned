@@ -1,0 +1,109 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - (which means we decide what information we collect and how it is used).
+  - 1.2 This notice sets out what information we collect about you, what we use it
+    for and whom we share it with.
+  - 6 WHO WE SHARE YOUR INFORMATION WITH
+  - 9 HOW LONG WE KEEP YOUR INFORMATION
+  - 9.3 We may keep Identity Data, Contact Data and certain other data (specifically,
+    any exchanges between us by email or any other means) for up to seven years after
+    the end of our contractual relationship with you.
+  - 9.5 If you have asked for information from us or you have subscribed to our mailing
+    list, we keep your details until you ask us to stop contacting you.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - 9.3 We may keep Identity Data, Contact Data and certain other data (specifically,
+    any exchanges between us by email or any other means) for up to seven years after
+    the end of our contractual relationship with you.
+  purposes: {}
+- source: we
+  target: identity data
+  key: COLLECT
+  text:
+  - 9.3 We may keep Identity Data, Contact Data and certain other data (specifically,
+    any exchanges between us by email or any other means) for up to seven years after
+    the end of our contractual relationship with you.
+  purposes: {}
+- source: we
+  target: information about timing of payment
+  key: COLLECT
+  text:
+  - We only receive and process information about the timing and amount of your payment.
+  purposes: {}
+- source: we
+  target: personal datum collect through analytic tool
+  key: COLLECT
+  text:
+  - 9.4 If you browse our Website, we keep personal data collected through our analytics
+    tools for only as long as necessary to fulfil the purposes we collected it for.
+  purposes:
+    legal:
+    - to fulfil the purposes we collected it for
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - '6.1 We share (or may share) your personal data with:'
+  - 7.1 We store your personal data on our servers in the UK
+  - 9.1 Where we act as the controller, we will only retain your personal data for
+    as long as necessary to fulfil the purposes we collected it for.
+  purposes:
+    legal:
+    - to fulfil the purposes we collected it for
+- source: Stripe
+  target: payment card datum
+  key: COLLECT
+  text:
+  - 4.3 Please note that we do not collect any payment card data or similar data relating
+    to your method of payment.
+  - You provide this data directly to Stripe who processes payments on our behalf.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These service providers have access to your data exclusively to perform tasks
+    on our behalf and are obligated not to disclose or use it for any other purpose.
+  - we employ third-party service providers (sub-processors in GDPR parlance) to provide
+    several product features available in the Posterity app.
+  purposes:
+    services:
+    - to perform tasks on our behalf
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The service providers temporarily store and process your data but
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: identity data
+- type: DATA
+  id: information about timing of payment
+- type: DATA
+  id: payment card datum
+- type: DATA
+  id: personal datum collect through analytic tool
+- type: DATA
+  id: personal information

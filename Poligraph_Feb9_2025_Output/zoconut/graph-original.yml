@@ -1,0 +1,259 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Security and contractual purposes:we use your data to perform behavior analysis
+    in order to prevent or address suspicious or fraudulent conducts and to ensure
+    that the contractual relationship between Zoconut and the Professional is timely
+    met.
+  - 'The use of the mobile application is intended for use by patients and is, of
+    course, optional and, in cases where it is used, we collect the following data:
+    Local files, notifications and other data:on certain occasions the mobile application
+    may access, with the Patient prior consent and by their order, to local files
+    or information stored in other applications.'
+  - We strictly adhere to a policy of prohibiting the sale of user data, and your
+    information is used only for the purposes outlined in this Privacy Policy.
+  - we may use your data to send you emails, notifications, text messages and postal
+    mail.
+  purposes:
+    security:
+    - to perform behavior analysis in order to prevent or address suspicious or fraudulent
+      conducts and to ensure that the contractual relationship between Zoconut and
+      the Professional is timely met
+    services:
+    - for use by patients
+    - to send you emails, notifications, text messages and postal mail
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - In addition, we may use your non-anonymized data in the context of the communication
+    of a bug or error in the software by the user and always with the purpose of solving
+    it.
+  purposes: {}
+- source: we
+  target: datum enter
+  key: COLLECT
+  text:
+  - 'The use of the mobile application is intended for use by patients and is, of
+    course, optional and, in cases where it is used, we collect the following data:
+    Data entered by the patient: all data entered by the Patient, be it when logging
+    in into the mobile application or posteriorly, is stored and processed.'
+  purposes:
+    services:
+    - for use by patients
+- source: we
+  target: datum we collect
+  key: COLLECT
+  text:
+  - We use the data we collect for a series of purposes that we want to make known.
+  purposes: {}
+- source: we
+  target: i.p. address
+  key: COLLECT
+  text:
+  - In addition to this information we also collected other data such as the I.P.
+    address, the browser you use to access and its version, the language, your device
+    operating system, among others.
+  purposes: {}
+- source: we
+  target: local file
+  key: COLLECT
+  text:
+  - 'The use of the mobile application is intended for use by patients and is, of
+    course, optional and, in cases where it is used, we collect the following data:
+    Local files, notifications and other data:on certain occasions the mobile application
+    may access, with the Patient prior consent and by their order, to local files
+    or information stored in other applications.'
+  purposes:
+    services:
+    - for use by patients
+- source: we
+  target: notification
+  key: COLLECT
+  text:
+  - 'The use of the mobile application is intended for use by patients and is, of
+    course, optional and, in cases where it is used, we collect the following data:
+    Local files, notifications and other data:on certain occasions the mobile application
+    may access, with the Patient prior consent and by their order, to local files
+    or information stored in other applications.'
+  purposes:
+    services:
+    - for use by patients
+- source: we
+  target: number of step you take
+  key: COLLECT
+  text:
+  - The App records the number of steps you take each day.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Legal matters:we may use your personal data to comply with court orders and tax
+    and administrative inspections, among other legal requirements.
+  purposes:
+    legal:
+    - to comply with court orders and tax and administrative inspections, among other
+      legal requirements
+- source: we
+  target: precise geolocation
+  key: COLLECT
+  text:
+  - 'Location data: with the use of the mobile application we may access information
+    contained in the GPS of your mobile device.'
+  purposes: {}
+- source: we
+  target: set
+  key: COLLECT
+  text:
+  - in addition to the data mentioned above, we also automatically collect, through
+    cookies and other methods and services, a set of data that allows us to know precisely
+    how you use the platform, the country, the date and time of the login, among other
+    information.
+  purposes: {}
+- source: we
+  target: step datum
+  key: COLLECT
+  text:
+  - 'Steps Data:'
+  - 'The eDiet - Your Diet Companion ("the App") collects and processes the following
+    information solely for the purpose of providing you with a personalized experience
+    and tracking your daily progress:'
+  purposes: {}
+- source: we
+  target: usage statistic of platform
+  key: COLLECT
+  text:
+  - In addition to this data and with the same purpose, we may collect usage statistics
+    of our platforms.
+  purposes: {}
+- source: we
+  target: version
+  key: COLLECT
+  text:
+  - In addition to this information we also collected other data such as the I.P.
+    address, the browser you use to access and its version, the language, your device
+    operating system, among others.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: contact
+  key: COLLECT
+  text:
+  - 'To know more about our subprocessors contact us to info@Zoconut.com Email marketing:
+    our newsletters and contacts are sent, managed and processed by third parties
+    specialized in mass mailing and advertising campaigns such as Mailjet.'
+  purposes: {}
+- source: external payment service
+  target: payment data
+  key: COLLECT
+  text:
+  - payment data is fully processed by external payment services such as Paypal.
+  purposes: {}
+- source: professional
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Like the Patients' data, Secretaries' data is also directly collected, for the
+    most part, by the Professional.
+  - Patients' data is directly collected, for the most part, by the Professional.
+  purposes: {}
+- source: zoconut
+  target: datum list in relation to professional as collect datum
+  key: COLLECT
+  text:
+  - However, when using the platform, and in addition to the treatment performed on
+    the data entered directly by the Professional, Zoconut also collects some data
+    which was already listed in relation to the Professional as "Automatically collected
+    data", and so, we ask you to check this section.
+  purposes: {}
+- source: zoconut
+  target: payment datum of monthly payment
+  key: COLLECT
+  text:
+  - 'Payment data: the payment data of your monthly payment are also processed by
+    Zoconut, although for this purpose a processor is used.'
+  purposes: {}
+- source: we
+  target: Google
+  key: SUBSUM
+  text:
+  - 'Analysis of the use of software: we resort to applications in order to analyze
+    the use of our software, such as Google Analytics.'
+- source: external payment service
+  target: paypal
+  key: SUBSUM
+  text:
+  - payment data is fully processed by external payment services such as Paypal.
+- source: personal information
+  target: tax identification number
+  key: SUBSUM
+  text:
+  - It is only for this purpose that we collect, at the time of payment, personal
+    data such as the tax identification number, among others already listed above.
+- source: zoconut
+  target: zoconut pvt ltd
+  key: SUBSUM
+  text:
+  - Zoconut Pvt Ltd (hereinafter, "Zoconut"), dedicates itself to the development
+    of software, namely in the health area, being, in particular, the company responsible
+    for the creation and development of the Zoconut software, in its various aspects.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: external payment service
+- type: ACTOR
+  id: paypal
+- type: ACTOR
+  id: professional
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoconut
+- type: ACTOR
+  id: zoconut pvt ltd
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: contact
+- type: DATA
+  id: datum enter
+- type: DATA
+  id: datum list in relation to professional as collect datum
+- type: DATA
+  id: datum we collect
+- type: DATA
+  id: i.p. address
+- type: DATA
+  id: local file
+- type: DATA
+  id: notification
+- type: DATA
+  id: number of step you take
+- type: DATA
+  id: payment data
+- type: DATA
+  id: payment datum of monthly payment
+- type: DATA
+  id: personal information
+- type: DATA
+  id: precise geolocation
+- type: DATA
+  id: set
+- type: DATA
+  id: step datum
+- type: DATA
+  id: tax identification number
+- type: DATA
+  id: usage statistic of platform
+- type: DATA
+  id: version

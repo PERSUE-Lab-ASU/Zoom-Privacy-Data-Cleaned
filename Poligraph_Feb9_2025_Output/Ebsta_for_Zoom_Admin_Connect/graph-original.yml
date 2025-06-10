@@ -1,0 +1,232 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect that data, as a data controller, in order to allow us to create and
+    administer users' accounts with us, to set up the business they work for as our
+    customer, to enable us to communicate with our customer about our services, to
+    assess the correct licensing levels for our customer, to ensure compliance with
+    our terms of service and to enable us to provide our services effectively.
+  - We retain this data throughout the period that the customer remains a customer
+    or active product user and for two years following termination of the customer
+    contract or the user ceasing use (as the case may be).
+  purposes:
+    services:
+    - in order to allow us to create and administer users' accounts with us, to set
+      up the business they work for as our customer, to enable us to communicate with
+      our customer about our services, to assess the correct licensing levels for
+      our customer, to ensure compliance with our terms of service and to enable us
+      to provide our services effectively
+    - to allow us to create and administer users' accounts with us, to set up the
+      business they work for as our customer, to enable us to communicate with our
+      customer about our services, to assess the correct licensing levels for our
+      customer, to ensure compliance with our terms of service and to enable us to
+      provide our services effectively
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - As part of our account creation process, we collect contact details and related
+    data from each Ebsta user's CRM system account.
+  - We also use the contact details we collect in the course of account administration
+    to inform users from time to time about the solutions or services which we offer.
+  purposes:
+    analytics:
+    - to inform users from time to time about the solutions or services which we offer
+    services:
+    - to inform users from time to time about the solutions or services which we offer
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like most web services, we use cookies to allow our services to work properly,
+    and to provide us with feedback on how people use our services and our website
+    so we can make them better.
+  purposes:
+    analytics:
+    - to allow our services to work properly, and to provide us with feedback on how
+      people use our services and our website so we can make them better
+    services:
+    - to allow our services to work properly, and to provide us with feedback on how
+      people use our services and our website so we can make them better
+- source: we
+  target: copy
+  key: COLLECT
+  text:
+  - Copies of emails/documents are passed to Ebsta servers for processing, but we
+    do not retain copies once they have been processed.
+  - We retain copies of emails which we analyse as part of providing the 360 degree
+    customer view and because it is necessary in order to provide that service for
+    performance reasons.
+  purposes:
+    analytics:
+    - for processing
+    services:
+    - for performance reasons
+- source: we
+  target: copy of datum
+  key: COLLECT
+  text:
+  - 'The information we collect, how we collect it, why we collect it, and what we
+    do with it
+
+
+    Providing our services
+
+
+    We may retain copies of this data on our systems dependant on configuration options
+    and the services used for delivery of the services.'
+  - We retain this data for 60 days beyond contract termination.
+  purposes: {}
+- source: we
+  target: copy of email document
+  key: COLLECT
+  text:
+  - Copies of emails/documents are passed to Ebsta servers for processing, but we
+    do not retain copies once they have been processed.
+  purposes:
+    analytics:
+    - for processing
+- source: we
+  target: email tracking
+  key: COLLECT
+  text:
+  - Email Tracking - persons with relationships with our customers
+  - We retain this data for 60 days beyond the date on which our customer ends their
+    contract.
+  purposes: {}
+- source: we
+  target: email we analyse as part of
+  key: COLLECT
+  text:
+  - However, we do so as data processor and only retain these emails for 60 days beyond
+    the date on which our customer ends their contract or trial.
+  - We retain copies of emails which we analyse as part of providing the 360 degree
+    customer view and because it is necessary in order to provide that service for
+    performance reasons.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - The information we collect, how we collect it, why we collect it, and what we
+    do with it
+  - We retain this data for 60 days beyond contract termination.
+  - We retain this data throughout the period that the customer remains a customer
+    or active product user and for two years following termination of the customer
+    contract or the user ceasing use (as the case may be).
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, we process personal data on Amazon's AWS platform at a number of
+    geographical locations around the world in order to improve the speed and resilience
+    of our service for our customers.
+  - We share personal data with some of our suppliers to the extent necessary to allow
+    us to provide and market our own services.
+  - Who we share personal information with and why
+  purposes:
+    services:
+    - in order to improve the speed and resilience of our service for our customers
+- source: we
+  target: related datum
+  key: COLLECT
+  text:
+  - As part of our account creation process, we collect contact details and related
+    data from each Ebsta user's CRM system account.
+  purposes: {}
+- source: ebsta
+  target: least amount of information scope
+  key: COLLECT
+  text:
+  - Where the customer chooses to connect other systems to Ebsta, Ebsta will process
+    the least amount of information/scope from that system in order to provide the
+    integrated service.
+  purposes:
+    services:
+    - in order to provide the integrated service
+- source: ebsta product
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Who controls your information and who to contact in relation to your information
+
+
+    If your information is collected by an Ebsta product'
+  purposes: {}
+- source: ebsta server
+  target: copy
+  key: COLLECT
+  text:
+  - Copies of emails/documents are passed to Ebsta servers for processing, but we
+    do not retain copies once they have been processed.
+  purposes:
+    analytics:
+    - for processing
+- source: ebsta server
+  target: copy of email document
+  key: COLLECT
+  text:
+  - Copies of emails/documents are passed to Ebsta servers for processing, but we
+    do not retain copies once they have been processed.
+  purposes:
+    analytics:
+    - for processing
+- source: host provider
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, personal data will be stored by our hosting providers, and payment
+    information will be processed by our payment processor.
+  purposes: {}
+- source: payment processor
+  target: payment information
+  key: COLLECT
+  text:
+  - For example, personal data will be stored by our hosting providers, and payment
+    information will be processed by our payment processor.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: ebsta
+- type: ACTOR
+  id: ebsta product
+- type: ACTOR
+  id: ebsta server
+- type: ACTOR
+  id: host provider
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: copy
+- type: DATA
+  id: copy of datum
+- type: DATA
+  id: copy of email document
+- type: DATA
+  id: email tracking
+- type: DATA
+  id: email we analyse as part of
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: least amount of information scope
+- type: DATA
+  id: payment information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: related datum

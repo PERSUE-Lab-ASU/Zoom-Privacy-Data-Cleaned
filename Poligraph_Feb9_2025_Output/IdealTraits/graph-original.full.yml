@@ -1,0 +1,163 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'The following outlines our privacy policy : We will collect personal information
+    by lawful and fair means and, where appropriate, with the knowledge or consent
+    of the individual concerned.'
+  - 'The following outlines our privacy policy : We will only retain personal information
+    as long as necessary for the fulfillment of those purposes.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - However, it is understood that, without your formal consent, third parties may
+    have access to aggregated database information from IdealTraits's users that will
+    show your Personally Identifiable Information.
+  purposes: {}
+- source: content
+  target: graphic
+  key: SUBSUM
+  text:
+  - The contents of the Platform, such as text, graphics, images, logos, button icons,
+    software and other material including, without limitation, compilations, surveys,
+    comparison reports or other data aggregation conducted on the Platform (collectively,
+    the "Content"), are protected under United States copyright, trademark, and other
+    laws.
+- source: content
+  target: logo
+  key: SUBSUM
+  text:
+  - The contents of the Platform, such as text, graphics, images, logos, button icons,
+    software and other material including, without limitation, compilations, surveys,
+    comparison reports or other data aggregation conducted on the Platform (collectively,
+    the "Content"), are protected under United States copyright, trademark, and other
+    laws.
+- source: content
+  target: material
+  key: SUBSUM
+  text:
+  - The contents of the Platform, such as text, graphics, images, logos, button icons,
+    software and other material including, without limitation, compilations, surveys,
+    comparison reports or other data aggregation conducted on the Platform (collectively,
+    the "Content"), are protected under United States copyright, trademark, and other
+    laws.
+- source: distributor
+  target: job board
+  key: SUBSUM
+  text:
+  - When posting a job opening, IdealTraits will make reasonable efforts to distribute
+    your job posting to third-party services or job boards (collectively, "Distributors").
+- source: domestic role
+  target: personal assistant
+  key: SUBSUM
+  text:
+  - 'Terms of Use
+
+
+    Some of the reasons your job postings might be removed from Distributors include,
+    but are not limited to: Domestic roles such as personal assistant, nanny, housekeeper,
+    etc.'
+- source: duplication
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Some of the reasons your job postings might be removed from Distributors include,
+    but are not limited to: Duplication, including excessive replication of jobs between
+    locations in close proximity'
+- source: malicious software
+  target: malware
+  key: SUBSUM
+  text:
+  - You  may not store or transmit any viruses, malware, or other types of malicious
+    software, or links to such software through the Services.
+- source: malicious software
+  target: virus
+  key: SUBSUM
+  text:
+  - You  may not store or transmit any viruses, malware, or other types of malicious
+    software, or links to such software through the Services.
+- source: reproductive service
+  target: surrogacy
+  key: SUBSUM
+  text:
+  - 'Terms of Use
+
+
+    Some of the reasons your job postings might be removed from Distributors include,
+    but are not limited to: Requests for the use of human body parts or the donation
+    of human body parts, including, without limitation, reproductive services such
+    as egg donation and surrogacy'
+- source: source
+  target: advertiser
+  key: SUBSUM
+  text:
+  - As a result of the nature of the Services provided through IdealTraits, you will
+    have access to information ("Third Party Information") from various sources including
+    our suppliers, employers, and advertisers through the Platform.
+- source: source
+  target: employer
+  key: SUBSUM
+  text:
+  - As a result of the nature of the Services provided through IdealTraits, you will
+    have access to information ("Third Party Information") from various sources including
+    our suppliers, employers, and advertisers through the Platform.
+- source: source
+  target: supplier
+  key: SUBSUM
+  text:
+  - As a result of the nature of the Services provided through IdealTraits, you will
+    have access to information ("Third Party Information") from various sources including
+    our suppliers, employers, and advertisers through the Platform.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: content
+- type: ACTOR
+  id: distributor
+- type: ACTOR
+  id: employer
+- type: ACTOR
+  id: graphic
+- type: ACTOR
+  id: job board
+- type: ACTOR
+  id: logo
+- type: ACTOR
+  id: malicious software
+- type: ACTOR
+  id: malware
+- type: ACTOR
+  id: material
+- type: ACTOR
+  id: reproductive service
+- type: ACTOR
+  id: source
+- type: ACTOR
+  id: supplier
+- type: ACTOR
+  id: surrogacy
+- type: ACTOR
+  id: virus
+- type: ACTOR
+  id: we
+- type: DATA
+  id: domestic role
+- type: DATA
+  id: duplication
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: personal assistant
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information

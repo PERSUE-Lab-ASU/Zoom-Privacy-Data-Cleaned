@@ -1,0 +1,206 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We use your IP address to help diagnose problems with our server, and to administer
+    the Site.
+  purposes:
+    services:
+    - to help diagnose problems with our server, and to administer the Site
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, if you submit your email address and other information required to
+    subscribe to our newsletter, we will use that Personal Information to send you
+    our newsletter.
+  - For instance, we may retain and use your Personal Data as necessary to comply
+    with our legal obligations, resolve disputes, prevent fraud and abuse and fulfill
+    and enforce our agreements.
+  - Personal Information is used by the Company for the purpose for which it was submitted.
+  - We may retain your Personal Data, which we collect via our company websites or
+    third party sites and applications to fulfill the purposes outlined in this privacy
+    policy for as long as needed, as allowed or as required by law.
+  - We will share your personal information with third parties only in the ways that
+    are described in this privacy policy.
+  purposes:
+    advertising:
+    - to send you our newsletter
+    legal:
+    - to comply with our legal obligations, resolve disputes, prevent fraud and abuse
+      and fulfill and enforce our agreements
+    security:
+    - to comply with our legal obligations, resolve disputes, prevent fraud and abuse
+      and fulfill and enforce our agreements
+    services:
+    - to send you our newsletter
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We will share your personal information with third parties only in the ways that
+    are described in this privacy policy.
+  purposes: {}
+- source: credentialing activity
+  target: accreditation
+  key: SUBSUM
+  text:
+  - Preferred Systems, Inc. achieves its mission by providing personalized services
+    and by making affiliations, which produce quality educational programs in support
+    of credentialing activities that include licensure and certification, competency
+    assurance, accreditation, and training-related certification.
+- source: credentialing activity
+  target: relate certification
+  key: SUBSUM
+  text:
+  - Preferred Systems, Inc. achieves its mission by providing personalized services
+    and by making affiliations, which produce quality educational programs in support
+    of credentialing activities that include licensure and certification, competency
+    assurance, accreditation, and training-related certification.
+- source: dramatic work
+  target: accompany music
+  key: SUBSUM
+  text:
+  - 'Policies and Procedures
+
+
+    Dramatic works, including any accompanying music;'
+- source: literary work as book
+  target: computer program
+  key: SUBSUM
+  text:
+  - 'Policies and Procedures
+
+
+    Literary works such as books, journal articles, poems, manuals, memorandum, tests,
+    computer programs, instructional material, databases, bibliographies;'
+- source: literary work as book
+  target: database
+  key: SUBSUM
+  text:
+  - 'Policies and Procedures
+
+
+    Literary works such as books, journal articles, poems, manuals, memorandum, tests,
+    computer programs, instructional material, databases, bibliographies;'
+- source: literary work as book
+  target: journal article
+  key: SUBSUM
+  text:
+  - 'Policies and Procedures
+
+
+    Literary works such as books, journal articles, poems, manuals, memorandum, tests,
+    computer programs, instructional material, databases, bibliographies;'
+- source: literary work as book
+  target: manual
+  key: SUBSUM
+  text:
+  - 'Policies and Procedures
+
+
+    Literary works such as books, journal articles, poems, manuals, memorandum, tests,
+    computer programs, instructional material, databases, bibliographies;'
+- source: literary work as book
+  target: memorandum
+  key: SUBSUM
+  text:
+  - 'Policies and Procedures
+
+
+    Literary works such as books, journal articles, poems, manuals, memorandum, tests,
+    computer programs, instructional material, databases, bibliographies;'
+- source: proprietary information arise out
+  target: confidential business information
+  key: SUBSUM
+  text:
+  - Proprietary information arising out of Preferred Systems, Inc. work (e.g., actual
+    and proposed terms of research agreements, financial arrangements, or confidential
+    business information) shall be owned by Preferred Systems, Inc.
+- source: proprietary information arise out
+  target: financial arrangement
+  key: SUBSUM
+  text:
+  - Proprietary information arising out of Preferred Systems, Inc. work (e.g., actual
+    and proposed terms of research agreements, financial arrangements, or confidential
+    business information) shall be owned by Preferred Systems, Inc.
+- source: relationship of person involve in activity
+  target: financial relationship of family member
+  key: SUBSUM
+  text:
+  - Preferred Systems, Inc. considers relationships of the person involved in the
+    activity to include financial relationships of a family member.
+- source: work
+  target: unpatentable software
+  key: SUBSUM
+  text:
+  - BOOKS, ARTICLES, AND SIMILAR WORKS, INCLUDING UNPATENTABLE SOFTWARE
+- source: work of non - employee
+  target: consultant
+  key: SUBSUM
+  text:
+  - Under the Copyright Act, works of non-employees such as consultants, independent
+    contractors, etc. generally are owned by the creator and not by Preferred Systems,
+    Inc., unless there is a written agreement to the contrary.
+- source: work of non - employee
+  target: independent contractor
+  key: SUBSUM
+  text:
+  - Under the Copyright Act, works of non-employees such as consultants, independent
+    contractors, etc. generally are owned by the creator and not by Preferred Systems,
+    Inc., unless there is a written agreement to the contrary.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: accompany music
+- type: ACTOR
+  id: accreditation
+- type: ACTOR
+  id: computer program
+- type: ACTOR
+  id: consultant
+- type: ACTOR
+  id: credentialing activity
+- type: ACTOR
+  id: database
+- type: ACTOR
+  id: dramatic work
+- type: ACTOR
+  id: independent contractor
+- type: ACTOR
+  id: journal article
+- type: ACTOR
+  id: literary work as book
+- type: ACTOR
+  id: manual
+- type: ACTOR
+  id: memorandum
+- type: ACTOR
+  id: relate certification
+- type: ACTOR
+  id: unpatentable software
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: work
+- type: ACTOR
+  id: work of non - employee
+- type: DATA
+  id: confidential business information
+- type: DATA
+  id: financial arrangement
+- type: DATA
+  id: financial relationship of family member
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal information
+- type: DATA
+  id: proprietary information arise out
+- type: DATA
+  id: relationship of person involve in activity

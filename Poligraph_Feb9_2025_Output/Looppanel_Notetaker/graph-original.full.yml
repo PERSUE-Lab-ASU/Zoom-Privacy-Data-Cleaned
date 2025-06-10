@@ -1,0 +1,333 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our Company uses these cookies to collect information about your visit to our
+    website, the content you viewed, the links you followed and information about
+    your browser, device, and your IP address.
+  - 'Privacy Policy
+
+
+    1.  Information We Collect
+
+
+    We collect the following data:'
+  - 'Privacy Policy
+
+
+    5. How Long We Store Your Information'
+  - We may use data to improve the quality of products and services offered to users.
+  - When you visit our websites, we may collect information from you automatically
+    through cookies or similar technology.
+  purposes:
+    services:
+    - To Improve Looppanel's Product & Services
+    - to improve the quality of products and services offered to users
+- source: we
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - We and our third party partners use Cookies, pixel tags, and similar technologies
+    to collect information about your browsing activities and to distinguish you from
+    other users of our Services in order to aid your experience using our product.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our Company uses these cookies so that we recognize you on our website and remember
+    your previously selected preferences.
+  - Our Company uses these cookies to collect information about your visit to our
+    website, the content you viewed, the links you followed and information about
+    your browser, device, and your IP address.
+  - We and our third party partners use Cookies, pixel tags, and similar technologies
+    to collect information about your browsing activities and to distinguish you from
+    other users of our Services in order to aid your experience using our product.
+  - We may also share online data collected through cookies with our advertising partners.
+  - We use these cookies to count visits and traffic sources to the website, so that
+    we can measure and improve the performance of our site.
+  purposes:
+    analytics:
+    - to count visits and traffic sources to the website, so that we can measure and
+      improve the performance of our site
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may use product usage or user content data in the process of providing users
+    access to services.
+  purposes:
+    services:
+    - To Provide Access to Services
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - Our Company uses these cookies to collect information about your visit to our
+    website, the content you viewed, the links you followed and information about
+    your browser, device, and your IP address.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    4. With Whom We Share Your Personal Information'
+  - This includes Personal Information you provide or generate when you access and
+    use the website (the "Site"), services, software, content, and all other products
+    and services (all of the foregoing collectively, the "Services").  When you use
+    the Services, you accept and understand that we collect, process, use, and store
+    your Personal Information as described in this Policy.
+  - 'We share your Personal Information with selected third parties, including:'
+  - 'We use your Personal Information:'
+  purposes: {}
+- source: we
+  target: personal information relevant
+  key: COLLECT
+  text:
+  - When doing so, we will process the Personal Information relevant in such a case,
+    including information you provide us, information we automatically collect about
+    you, and information which is provided to us by third parties.
+  purposes: {}
+- source: we
+  target: product analytic datum
+  key: COLLECT
+  text:
+  - 'For Internal Record Keeping: We may store user data logs, product analytics data,
+    and user feedback for internal record keeping.'
+  purposes:
+    legal:
+    - 'For Internal Record Keeping:'
+    services:
+    - 'For Internal Record Keeping:'
+    - for internal record keeping
+- source: we
+  target: user datum
+  key: COLLECT
+  text:
+  - 'For Customer Communication: We may use user data such as email addresses, phone
+    numbers, or social media accounts to contact users and communicate with them.'
+  - 'For Customer Support: We may access user data to provide appropriate customer
+    support services.'
+  - 'For Troubleshooting Purposes: We may use user data to troubleshoot and resolve
+    technical concerns or issues.'
+  - In case of product integrations, we may share user data with other organizations
+    such as Slack, Miro, and Google in order to transfer user data into said tools
+    as required by users.
+  purposes:
+    advertising:
+    - 'For Customer Communication:'
+    services:
+    - 'For Customer Communication:'
+    - 'For Customer Support:'
+    - 'For Troubleshooting Purposes:'
+    - in order to transfer user data into said tools as required by users
+    - to contact users and communicate with them
+    - to provide appropriate customer support services
+    - to troubleshoot and resolve technical concerns or issues
+- source: we
+  target: user datum log
+  key: COLLECT
+  text:
+  - 'For Internal Record Keeping: We may store user data logs, product analytics data,
+    and user feedback for internal record keeping.'
+  purposes:
+    legal:
+    - 'For Internal Record Keeping:'
+    services:
+    - 'For Internal Record Keeping:'
+    - for internal record keeping
+- source: we
+  target: user feedback
+  key: COLLECT
+  text:
+  - 'For Internal Record Keeping: We may store user data logs, product analytics data,
+    and user feedback for internal record keeping.'
+  purposes:
+    legal:
+    - 'For Internal Record Keeping:'
+    services:
+    - 'For Internal Record Keeping:'
+    - for internal record keeping
+- source: Google
+  target: user datum
+  key: COLLECT
+  text:
+  - In case of product integrations, we may share user data with other organizations
+    such as Slack, Miro, and Google in order to transfer user data into said tools
+    as required by users.
+  purposes:
+    services:
+    - in order to transfer user data into said tools as required by users
+- source: Slack
+  target: user datum
+  key: COLLECT
+  text:
+  - In case of product integrations, we may share user data with other organizations
+    such as Slack, Miro, and Google in order to transfer user data into said tools
+    as required by users.
+  purposes:
+    services:
+    - in order to transfer user data into said tools as required by users
+- source: UNSPECIFIED_ACTOR
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - We and our third party partners use Cookies, pixel tags, and similar technologies
+    to collect information about your browsing activities and to distinguish you from
+    other users of our Services in order to aid your experience using our product.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We and our third party partners use Cookies, pixel tags, and similar technologies
+    to collect information about your browsing activities and to distinguish you from
+    other users of our Services in order to aid your experience using our product.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We share your Personal Information with selected third parties, including:'
+  purposes: {}
+- source: advertiser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may also share online data collected through cookies with our advertising partners.
+  purposes: {}
+- source: looppanel
+  target: personal information
+  key: COLLECT
+  text:
+  - Looppanel stores all Personal Information for as long as necessary to fulfill
+    the purposes set out in this Policy, or for as long as we are required to do so
+    by law or in order to comply with a regulatory obligation.
+  purposes: {}
+- source: miro
+  target: user datum
+  key: COLLECT
+  text:
+  - In case of product integrations, we may share user data with other organizations
+    such as Slack, Miro, and Google in order to transfer user data into said tools
+    as required by users.
+  purposes:
+    services:
+    - in order to transfer user data into said tools as required by users
+- source: datum delete from looppanel
+  target: note
+  key: SUBSUM
+  text:
+  - Data deleted from Looppanel (such as recordings, transcripts, tags, notes, etc.)
+    are marked for permanent deletion from our servers within 15 days, during which
+    time they can be restored.
+- source: datum delete from looppanel
+  target: recording
+  key: SUBSUM
+  text:
+  - Data deleted from Looppanel (such as recordings, transcripts, tags, notes, etc.)
+    are marked for permanent deletion from our servers within 15 days, during which
+    time they can be restored.
+- source: datum delete from looppanel
+  target: tag
+  key: SUBSUM
+  text:
+  - Data deleted from Looppanel (such as recordings, transcripts, tags, notes, etc.)
+    are marked for permanent deletion from our servers within 15 days, during which
+    time they can be restored.
+- source: medium file
+  target: audio file
+  key: SUBSUM
+  text:
+  - This consists of content users upload onto the Looppanel product, such as project
+    data, notes, tags, media files including audio and video files, or any other information
+    voluntarily uploaded by users onto the Looppanel platform.
+- source: personal information relevant
+  target: information provide to we
+  key: SUBSUM
+  text:
+  - When doing so, we will process the Personal Information relevant in such a case,
+    including information you provide us, information we automatically collect about
+    you, and information which is provided to us by third parties.
+- source: user datum
+  target: email address
+  key: SUBSUM
+  text:
+  - 'For Customer Communication: We may use user data such as email addresses, phone
+    numbers, or social media accounts to contact users and communicate with them.'
+- source: user datum
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'For Customer Communication: We may use user data such as email addresses, phone
+    numbers, or social media accounts to contact users and communicate with them.'
+- source: user datum
+  target: social media account
+  key: SUBSUM
+  text:
+  - 'For Customer Communication: We may use user data such as email addresses, phone
+    numbers, or social media accounts to contact users and communicate with them.'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Slack
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: looppanel
+- type: ACTOR
+  id: miro
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: audio file
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum delete from looppanel
+- type: DATA
+  id: email address
+- type: DATA
+  id: information provide to we
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: medium file
+- type: DATA
+  id: note
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information relevant
+- type: DATA
+  id: phone number
+- type: DATA
+  id: product analytic datum
+- type: DATA
+  id: recording
+- type: DATA
+  id: social media account
+- type: DATA
+  id: tag
+- type: DATA
+  id: user datum
+- type: DATA
+  id: user datum log
+- type: DATA
+  id: user feedback

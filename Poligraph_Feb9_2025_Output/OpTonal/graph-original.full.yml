@@ -1,0 +1,891 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We make personal information into de-identified or anonymized data by removing
+    information that makes the data personally identifiable to you.
+  - We may use this aggregated, de-identified or otherwise anonymized data and share
+    it with third parties for our lawful business purposes, including to analyze and
+    improve the Site and promote our business and will not attempt to reidentify any
+    such data.
+  purposes: {}
+- source: we
+  target: call transcript recording
+  key: COLLECT
+  text:
+  - Third parties that provide services on our behalf or help us operate the Site,
+    the OpTonal Service or our business (such as helping us analyze call transcripts/recordings),
+    and who may use the data in accordance with their own privacy policies.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - For example, we receive contact data about prospective customers from Apollo.io
+    for the purposes of lead generation.
+  purposes:
+    advertising:
+    - for the purposes of lead generation
+    analytics:
+    - for the purposes of lead generation
+    services:
+    - for the purposes of lead generation
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'In addition to the other uses included in this section, we may use the Cookies
+    and similar technologies described above for the following purposes:'
+  purposes:
+    analytics:
+    - Analytics
+    services:
+    - Functionality.
+    - Technical operation
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We generally retain personal information to fulfill the purposes for which we
+    collected it, including for the purposes of satisfying any legal, accounting,
+    or reporting requirements, to establish or defend legal claims, or for fraud prevention
+    purposes.
+  - We may also disclose your personal information to an acquirer, successor, or assignee
+    of OpTonal as part of any merger, acquisition, sale of assets, or similar transaction,
+    and/or in the event of an insolvency, bankruptcy, or receivership in which personal
+    information is transferred to one or more third parties as one of our business
+    assets.
+  - We may disclose personal information in the context of actual or prospective business
+    transactions (e.g., investments in OpTonal, financing of OpTonal, public stock
+    offerings, or the sale, transfer or merger of all or part of our business, assets
+    or shares), for example, we may need to share certain personal information with
+    prospective counterparties and their advisers.
+  - We may share your personal information with the following parties and as otherwise
+    described in this Privacy Policy, in other applicable notices, or at the time
+    of collection.
+  - We may use your personal information for research and development purposes, including
+    to analyze and improve the Site and our business and to develop new products and
+    services.
+  - 'We may use your personal information for the following purposes or as otherwise
+    described at the time of collection:'
+  - 'We may use your personal information to:'
+  - We need to collect personal information to provide certain services.
+  purposes:
+    analytics:
+    - for research and development purposes, including to analyze and improve the
+      Site and our business and to develop new products and services
+    - to share certain personal information with prospective counterparties and their
+      advisers
+    - 'to: understand your needs and interests, and personalize your experience with
+      the Site and our communications; and'
+    legal:
+    - to fulfill the purposes for which we collected it, including for the purposes
+      of satisfying any legal, accounting, or reporting requirements, to establish
+      or defend legal claims, or for fraud prevention purposes
+    - 'to: audit our internal processes for compliance with legal and contractual
+      requirements or our internal policies;'
+    - 'to: comply with applicable laws, lawful requests, and legal process, such as
+      to respond to subpoenas, investigations or requests from government authorities'
+    - 'to: enforce the terms and conditions that govern the Site or the OpTonal Service;
+      and'
+    security:
+    - to share certain personal information with prospective counterparties and their
+      advisers
+    - 'to: enable security features of the Site, such as by sending you security codes
+      via email or SMS, and remembering devices from which you have previously logged
+      in'
+    - 'to: prevent, identify, investigate and deter fraudulent, harmful, unauthorized,
+      unethical or illegal activity, including cyberattacks and identity theft'
+    - 'to: protect our, your or others'' rights, privacy, safety or property (including
+      by making and defending legal claims);'
+    services:
+    - for research and development purposes, including to analyze and improve the
+      Site and our business and to develop new products and services
+    - to provide certain services
+    - to share certain personal information with prospective counterparties and their
+      advisers
+    - 'to: communicate with you about the Site, including by sending Site-related
+      announcements, updates, security alerts, and support and administrative messages'
+    - 'to: enable security features of the Site, such as by sending you security codes
+      via email or SMS, and remembering devices from which you have previously logged
+      in'
+    - 'to: enforce the terms and conditions that govern the Site or the OpTonal Service;
+      and'
+    - 'to: establish and maintain your user profile on the Site'
+    - 'to: provide support for the Site, and respond to your requests, questions and
+      feedback'
+    - 'to: provide, operate and improve the Site or the OpTonal Service and our business'
+    - 'to: understand your needs and interests, and personalize your experience with
+      the Site and our communications; and'
+- source: Stripe
+  target: payment data
+  key: COLLECT
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Payment data , needed to complete transactions, such as payment card information,
+    is collected and processed directly by our payment processor Stripe, as further
+    described below in the "How We Share Your Personal Information" section.'
+  purposes: {}
+- source: Stripe
+  target: payment datum
+  key: COLLECT
+  text:
+  - Stripe may use your payment data in accordance with its privacy policy, https://stripe.com/privacy
+    .
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal information with the following parties and as otherwise
+    described in this Privacy Policy, in other applicable notices, or at the time
+    of collection.
+  purposes: {}
+- source: acquirer
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also disclose your personal information to an acquirer, successor, or assignee
+    of OpTonal as part of any merger, acquisition, sale of assets, or similar transaction,
+    and/or in the event of an insolvency, bankruptcy, or receivership in which personal
+    information is transferred to one or more third parties as one of our business
+    assets.
+  purposes: {}
+- source: adviser
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information in the context of actual or prospective business
+    transactions (e.g., investments in OpTonal, financing of OpTonal, public stock
+    offerings, or the sale, transfer or merger of all or part of our business, assets
+    or shares), for example, we may need to share certain personal information with
+    prospective counterparties and their advisers.
+  purposes:
+    analytics:
+    - to share certain personal information with prospective counterparties and their
+      advisers
+    security:
+    - to share certain personal information with prospective counterparties and their
+      advisers
+    services:
+    - to share certain personal information with prospective counterparties and their
+      advisers
+- source: assignee of optonal
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also disclose your personal information to an acquirer, successor, or assignee
+    of OpTonal as part of any merger, acquisition, sale of assets, or similar transaction,
+    and/or in the event of an insolvency, bankruptcy, or receivership in which personal
+    information is transferred to one or more third parties as one of our business
+    assets.
+  purposes: {}
+- source: business partner
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as:'
+  purposes: {}
+- source: payment processor
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - Any payment card information you use to make a purchase on the OpTonal Service
+    is collected and processed directly by our payment processors, such as Stripe.
+  purposes: {}
+- source: payment processor
+  target: payment data
+  key: COLLECT
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Payment data , needed to complete transactions, such as payment card information,
+    is collected and processed directly by our payment processor Stripe, as further
+    described below in the "How We Share Your Personal Information" section.'
+  purposes: {}
+- source: prospective counterpartie
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information in the context of actual or prospective business
+    transactions (e.g., investments in OpTonal, financing of OpTonal, public stock
+    offerings, or the sale, transfer or merger of all or part of our business, assets
+    or shares), for example, we may need to share certain personal information with
+    prospective counterparties and their advisers.
+  purposes:
+    analytics:
+    - to share certain personal information with prospective counterparties and their
+      advisers
+    security:
+    - to share certain personal information with prospective counterparties and their
+      advisers
+    services:
+    - to share certain personal information with prospective counterparties and their
+      advisers
+- source: service provider
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as:'
+  purposes: {}
+- source: we
+  target: activity describe in privacy policy
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how OpTonal Inc. (" OpTonal ", " we ", " us", "our"
+    ) processes personal information that we collect through our website located at
+    https://optonal.com/ , social media pages, marketing activities and other activities
+    described in this Privacy Policy (collectively, the " Site ").
+- source: we
+  target: consumer research
+  key: SUBSUM
+  text:
+  - Third parties that provide services on our behalf or help us operate the Site,
+    the OpTonal Service or our business (such as hosting, information technology,
+    customer support, online chat functionality providers, email delivery, marketing,
+    consumer research and website analytics).
+- source: we
+  target: email delivery
+  key: SUBSUM
+  text:
+  - Third parties that provide services on our behalf or help us operate the Site,
+    the OpTonal Service or our business (such as hosting, information technology,
+    customer support, online chat functionality providers, email delivery, marketing,
+    consumer research and website analytics).
+- source: we
+  target: hosting
+  key: SUBSUM
+  text:
+  - Third parties that provide services on our behalf or help us operate the Site,
+    the OpTonal Service or our business (such as hosting, information technology,
+    customer support, online chat functionality providers, email delivery, marketing,
+    consumer research and website analytics).
+- source: we
+  target: information technology
+  key: SUBSUM
+  text:
+  - Third parties that provide services on our behalf or help us operate the Site,
+    the OpTonal Service or our business (such as hosting, information technology,
+    customer support, online chat functionality providers, email delivery, marketing,
+    consumer research and website analytics).
+- source: we
+  target: marketing
+  key: SUBSUM
+  text:
+  - Third parties that provide services on our behalf or help us operate the Site,
+    the OpTonal Service or our business (such as hosting, information technology,
+    customer support, online chat functionality providers, email delivery, marketing,
+    consumer research and website analytics).
+- source: we
+  target: marketing activity
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how OpTonal Inc. (" OpTonal ", " we ", " us", "our"
+    ) processes personal information that we collect through our website located at
+    https://optonal.com/ , social media pages, marketing activities and other activities
+    described in this Privacy Policy (collectively, the " Site ").
+- source: we
+  target: online chat functionality provider
+  key: SUBSUM
+  text:
+  - Third parties that provide services on our behalf or help us operate the Site,
+    the OpTonal Service or our business (such as hosting, information technology,
+    customer support, online chat functionality providers, email delivery, marketing,
+    consumer research and website analytics).
+- source: we
+  target: optonal
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how OpTonal Inc. (" OpTonal ", " we ", " us", "our"
+    ) processes personal information that we collect through our website located at
+    https://optonal.com/ , social media pages, marketing activities and other activities
+    described in this Privacy Policy (collectively, the " Site ").
+- source: we
+  target: optonal inc.
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how OpTonal Inc. (" OpTonal ", " we ", " us", "our"
+    ) processes personal information that we collect through our website located at
+    https://optonal.com/ , social media pages, marketing activities and other activities
+    described in this Privacy Policy (collectively, the " Site ").
+- source: we
+  target: social media
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how OpTonal Inc. (" OpTonal ", " we ", " us", "our"
+    ) processes personal information that we collect through our website located at
+    https://optonal.com/ , social media pages, marketing activities and other activities
+    described in this Privacy Policy (collectively, the " Site ").
+- source: we
+  target: website analytic
+  key: SUBSUM
+  text:
+  - Third parties that provide services on our behalf or help us operate the Site,
+    the OpTonal Service or our business (such as hosting, information technology,
+    customer support, online chat functionality providers, email delivery, marketing,
+    consumer research and website analytics).
+- source: we
+  target: website locate at https://optonal.com/
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how OpTonal Inc. (" OpTonal ", " we ", " us", "our"
+    ) processes personal information that we collect through our website located at
+    https://optonal.com/ , social media pages, marketing activities and other activities
+    described in this Privacy Policy (collectively, the " Site ").
+- source: browsing / search history
+  target: navigation path
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Online activity
+    data , such as pages or screens you viewed, how long you spent on a page or screen,
+    the website you visited before browsing to the Site, navigation paths between
+    pages or screens, information about your activity on a page or screen, access
+    times and duration of access, and whether you have opened our emails or clicked
+    links within them.'
+- source: contact information
+  target: company name
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Business contact data , such as your first and last name, salutation, business
+    email address, business billing and mailing addresses, professional title and
+    company name, and phone number.'
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Business contact data , such as your first and last name, salutation, business
+    email address, business billing and mailing addresses, professional title and
+    company name, and phone number.'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Business contact data , such as your first and last name, salutation, business
+    email address, business billing and mailing addresses, professional title and
+    company name, and phone number.'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Business contact data , such as your first and last name, salutation, business
+    email address, business billing and mailing addresses, professional title and
+    company name, and phone number.'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Business contact data , such as your first and last name, salutation, business
+    email address, business billing and mailing addresses, professional title and
+    company name, and phone number.'
+- source: contact information
+  target: professional title
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Business contact data , such as your first and last name, salutation, business
+    email address, business billing and mailing addresses, professional title and
+    company name, and phone number.'
+- source: contact information
+  target: salutation
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Business contact data , such as your first and last name, salutation, business
+    email address, business billing and mailing addresses, professional title and
+    company name, and phone number.'
+- source: device datum
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: device datum
+  target: device type
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: device datum
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: device datum
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: device datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: device datum
+  target: language setting
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: device datum
+  target: manufacturer
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: device datum
+  target: model
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: device datum
+  target: radio network information
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: device datum
+  target: ram cpu usage
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: device datum
+  target: screen resolution
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: device datum
+  target: version
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: factor
+  target: amount
+  key: SUBSUM
+  text:
+  - To determine the appropriate retention period for personal information, we may
+    consider factors such as the amount, nature, and sensitivity of the personal information,
+    the potential risk of harm from unauthorized use or disclosure of your personal
+    information, the purposes for which we process your personal information and whether
+    we can achieve those purposes through other means, and the applicable legal requirements.
+- source: factor
+  target: personal information
+  key: SUBSUM
+  text:
+  - To determine the appropriate retention period for personal information, we may
+    consider factors such as the amount, nature, and sensitivity of the personal information,
+    the potential risk of harm from unauthorized use or disclosure of your personal
+    information, the purposes for which we process your personal information and whether
+    we can achieve those purposes through other means, and the applicable legal requirements.
+- source: geolocation
+  target: city
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: information about you
+  target: browsing / search history
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Online activity
+    data , such as pages or screens you viewed, how long you spent on a page or screen,
+    the website you visited before browsing to the Site, navigation paths between
+    pages or screens, information about your activity on a page or screen, access
+    times and duration of access, and whether you have opened our emails or clicked
+    links within them.'
+- source: information about you
+  target: device datum
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Device data ,
+    such as your computer or mobile device''s operating system type and version, manufacturer
+    and model, browser type, screen resolution, RAM and disk size, CPU usage, device
+    type (e.g., phone, tablet), IP address, unique identifiers, language settings,
+    mobile device carrier, radio/network information (e.g., WiFi, LTE, 3G), and general
+    location information such as city, state or geographic area.'
+- source: information about you
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Online activity
+    data , such as pages or screens you viewed, how long you spent on a page or screen,
+    the website you visited before browsing to the Site, navigation paths between
+    pages or screens, information about your activity on a page or screen, access
+    times and duration of access, and whether you have opened our emails or clicked
+    links within them.'
+- source: internet activity
+  target: navigation path
+  key: SUBSUM
+  text:
+  - 'We, our service providers, and our business partners may automatically log information
+    about you, your computer or mobile device, and your interaction over time with
+    the Site, our communications and other online services, such as: Online activity
+    data , such as pages or screens you viewed, how long you spent on a page or screen,
+    the website you visited before browsing to the Site, navigation paths between
+    pages or screens, information about your activity on a page or screen, access
+    times and duration of access, and whether you have opened our emails or clicked
+    links within them.'
+- source: local storage technology
+  target: html5
+  key: SUBSUM
+  text:
+  - 'Some of the automatic collection described above is facilitated by the following
+    technologies: Local storage technologies , like HTML5, that provide cookie-equivalent
+    functionality but can store larger amounts of data on your device outside of your
+    browser in connection with specific applications.'
+- source: marketing datum
+  target: detail about engagement with they
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Marketing data , such as your preferences for receiving our marketing communications
+    and details about your engagement with them.'
+- source: marketing datum
+  target: preference for
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Marketing data , such as your preferences for receiving our marketing communications
+    and details about your engagement with them.'
+- source: payment data
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Payment data , needed to complete transactions, such as payment card information,
+    is collected and processed directly by our payment processor Stripe, as further
+    described below in the "How We Share Your Personal Information" section.'
+- source: payment processor
+  target: Stripe
+  key: SUBSUM
+  text:
+  - Any payment card information you use to make a purchase on the OpTonal Service
+    is collected and processed directly by our payment processors, such as Stripe.
+- source: personal information
+  target: communication datum
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Communications data , based on our exchanges with you, including when you contact
+    us through the Site, social media, phone, or otherwise.'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Business contact data , such as your first and last name, salutation, business
+    email address, business billing and mailing addresses, professional title and
+    company name, and phone number.'
+- source: personal information
+  target: marketing datum
+  key: SUBSUM
+  text:
+  - 'Personal information you may provide to us through the Site or otherwise includes:
+    Marketing data , such as your preferences for receiving our marketing communications
+    and details about your engagement with them.'
+- source: professional advisor
+  target: auditor
+  key: SUBSUM
+  text:
+  - Professional advisors, such as lawyers, auditors, bankers and insurers, where
+    necessary in the course of the professional services that they render to us.
+- source: professional advisor
+  target: banker
+  key: SUBSUM
+  text:
+  - Professional advisors, such as lawyers, auditors, bankers and insurers, where
+    necessary in the course of the professional services that they render to us.
+- source: professional advisor
+  target: insurer
+  key: SUBSUM
+  text:
+  - Professional advisors, such as lawyers, auditors, bankers and insurers, where
+    necessary in the course of the professional services that they render to us.
+- source: professional advisor
+  target: lawyer
+  key: SUBSUM
+  text:
+  - Professional advisors, such as lawyers, auditors, bankers and insurers, where
+    necessary in the course of the professional services that they render to us.
+- source: public source
+  target: public record
+  key: SUBSUM
+  text:
+  - 'We may combine personal information we receive from you with personal information
+    we obtain from other sources, such as: Public sources , such as government agencies,
+    public records, social media platforms, and other publicly available sources.'
+- source: technology
+  target: local storage technology
+  key: SUBSUM
+  text:
+  - 'Some of the automatic collection described above is facilitated by the following
+    technologies: Local storage technologies , like HTML5, that provide cookie-equivalent
+    functionality but can store larger amounts of data on your device outside of your
+    browser in connection with specific applications.'
+- source: technology
+  target: session replay technology
+  key: SUBSUM
+  text:
+  - 'Some of the automatic collection described above is facilitated by the following
+    technologies: Session-replay technologies , such as those provided by Posthog
+    that employ software code to record users'' interactions with the Site in a manner
+    that allows us to watch DVR-like replays of those user sessions.'
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: acquirer
+- type: ACTOR
+  id: activity describe in privacy policy
+- type: ACTOR
+  id: adviser
+- type: ACTOR
+  id: assignee of optonal
+- type: ACTOR
+  id: auditor
+- type: ACTOR
+  id: banker
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: consumer research
+- type: ACTOR
+  id: email delivery
+- type: ACTOR
+  id: hosting
+- type: ACTOR
+  id: html5
+- type: ACTOR
+  id: information technology
+- type: ACTOR
+  id: insurer
+- type: ACTOR
+  id: lawyer
+- type: ACTOR
+  id: local storage technology
+- type: ACTOR
+  id: marketing
+- type: ACTOR
+  id: marketing activity
+- type: ACTOR
+  id: online chat functionality provider
+- type: ACTOR
+  id: optonal
+- type: ACTOR
+  id: optonal inc.
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: professional advisor
+- type: ACTOR
+  id: prospective counterpartie
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: session replay technology
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: technology
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website analytic
+- type: ACTOR
+  id: website locate at https://optonal.com/
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: amount
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: call transcript recording
+- type: DATA
+  id: city
+- type: DATA
+  id: communication datum
+- type: DATA
+  id: company name
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: detail about engagement with they
+- type: DATA
+  id: device datum
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: factor
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about you
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language setting
+- type: DATA
+  id: manufacturer
+- type: DATA
+  id: marketing datum
+- type: DATA
+  id: model
+- type: DATA
+  id: navigation path
+- type: DATA
+  id: payment data
+- type: DATA
+  id: payment datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: preference for
+- type: DATA
+  id: professional title
+- type: DATA
+  id: public record
+- type: DATA
+  id: public source
+- type: DATA
+  id: radio network information
+- type: DATA
+  id: ram cpu usage
+- type: DATA
+  id: salutation
+- type: DATA
+  id: screen resolution
+- type: DATA
+  id: version

@@ -1,0 +1,596 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We also use contact details for users of Clients to advise Clients regarding updates
+    and new features of the Martian Logic Platform.
+  - You must provide us with your name and contact details and a description of your
+    complaint.
+  purposes:
+    services:
+    - for users of Clients to advise Clients regarding updates and new features of
+      the Martian Logic Platform
+- source: we
+  target: information from you
+  key: COLLECT
+  text:
+  - When you request access, we may need further information from you to verify your
+    identity.
+  purposes:
+    security:
+    - to verify your identity
+- source: we
+  target: information martian logic require
+  key: COLLECT
+  text:
+  - If you submit an application for employment to Martian Logic (that is, you apply
+    for Martian Logic to employ you, as opposed to seeking employment with a Client),
+    we collect information that Martian Logic reasonably requires to assess your suitability
+    for employment with Martian Logic.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - You must provide us with your name and contact details and a description of your
+    complaint.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 11.2 We work with Candidates, Clients and Referees in a number of countries and
+    we may be required to disclose your Personal Information to entities outside of
+    the jurisdiction in which you live.
+  - 'In this regard, we may collect Personal Information to:'
+  purposes: {}
+- source: we
+  target: sufficient detail be
+  key: COLLECT
+  text:
+  - When making a complaint to Martian Logic about privacy, please give us sufficient
+    detail to be able to identify your concerns and respond appropriately.
+  purposes: {}
+- source: we
+  target: write reason
+  key: COLLECT
+  text:
+  - If we are not able to provide access to your information, we will provide you
+    with our written reasons.
+  - If we refuse to correct your Personal Information, we will give you written reasons.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 11.2 We work with Candidates, Clients and Referees in a number of countries and
+    we may be required to disclose your Personal Information to entities outside of
+    the jurisdiction in which you live.
+  purposes: {}
+- source: candidate
+  target: personal information from candidate
+  key: COLLECT
+  text:
+  - 3.5 Martian Logic may also collect and use Personal Information from a Candidate
+    for the purpose of conducting a Nationally Coordinated Criminal History Check
+    through the National Police Checking Service on behalf of a Client.
+  - Candidates
+  purposes:
+    analytics:
+    - for the purpose of conducting a Nationally Coordinated Criminal History Check
+      through the National Police Checking Service on behalf of a Client
+    security:
+    - for the purpose of conducting a Nationally Coordinated Criminal History Check
+      through the National Police Checking Service on behalf of a Client
+    services:
+    - for the purpose of conducting a Nationally Coordinated Criminal History Check
+      through the National Police Checking Service on behalf of a Client
+- source: martian logic
+  target: base storage on server locate in australia
+  key: COLLECT
+  text:
+  - 11.1 Martian Logic uses cloud-based storage on servers located in Australia to
+    store Personal Information.
+  purposes:
+    security:
+    - to store Personal Information
+    services:
+    - to store Personal Information
+- source: martian logic
+  target: information relate to specific service
+  key: COLLECT
+  text:
+  - From time to time, Martian Logic may collect additional information related to
+    specific services or activities.
+  purposes: {}
+- source: martian logic
+  target: personal information
+  key: COLLECT
+  text:
+  - 3.2 Martian Logic may also collect Personal Information from you if you contact
+    Martian Logic (for example, through our website, by phone or by email) and do
+    not fall into one of the categories identified below (i.e., a Candidate, Client,
+    Client Employee, Referee or a potential employee of Martian Logic).
+  - '4.1  Martian Logic may collect your Personal Information:'
+  - 4.2 If you are a Candidate, Client Employee or a Referee, Martian Logic may hold
+    your Personal Information as a result of a Client collecting that Personal Information
+    through the Martian Logic Platform.
+  - 5.1 Martian Logic collects, holds, uses and discloses Personal Information to
+    provide the functions which comprise the Martian Logic Platform and to comply
+    with our legal obligations.
+  - 8.1 Martian Logic holds your Personal Information electronically and, on occasion,
+    in hard copy.
+  - If you are a Client Employee, Martian Logic may hold Personal Information about
+    you that a Client collects from you or that you submit to the Client via the Martian
+    Logic Platform during the recruitment and onboarding process and in the course
+    of your employment with the Client, or that the Client creates (such as employment
+    records) that contain Personal Information relating to you.
+  - Martian Logic will only disclose Personal Information with the individual's consent
+    or if required to do so by law.
+  - 'Nationally Coordinated Criminal History Checks (Australia only)
+
+
+    5.4 Martian Logic treats Personal Information obtained for or a result from a
+    Nationally Coordinated Criminal History Check with the utmost confidence and will
+    only disclose this information in accordance with consent given by the Candidate
+    or as required by law.'
+  - 'PRIVACY POLICY
+
+
+    5. WHY DOES MARTIAN LOGIC COLLECT, HOLD, USE AND DISCLOSE YOUR PERSONAL INFORMATION?'
+  purposes:
+    legal:
+    - to provide the functions which comprise the Martian Logic Platform and to comply
+      with our legal obligations
+    services:
+    - to provide the functions which comprise the Martian Logic Platform and to comply
+      with our legal obligations
+- source: martian logic
+  target: personal information be
+  key: COLLECT
+  text:
+  - 3.7 If you are a Client, Martian Logic may collect Personal Information that is
+    reasonably necessary for Martian Logic to allow you to use the Martian Logic Platform.
+  purposes: {}
+- source: martian logic
+  target: personal information client collect from you be
+  key: COLLECT
+  text:
+  - 3.11 If you are a Referee, Martian Logic may hold Personal Information that a
+    Client collects from you that is reasonably necessary for a Client to determine
+    a Candidate's suitability for work.
+  purposes: {}
+- source: martian logic
+  target: personal information from candidate
+  key: COLLECT
+  text:
+  - 3.5 Martian Logic may also collect and use Personal Information from a Candidate
+    for the purpose of conducting a Nationally Coordinated Criminal History Check
+    through the National Police Checking Service on behalf of a Client.
+  purposes:
+    analytics:
+    - for the purpose of conducting a Nationally Coordinated Criminal History Check
+      through the National Police Checking Service on behalf of a Client
+    security:
+    - for the purpose of conducting a Nationally Coordinated Criminal History Check
+      through the National Police Checking Service on behalf of a Client
+    services:
+    - for the purpose of conducting a Nationally Coordinated Criminal History Check
+      through the National Police Checking Service on behalf of a Client
+- source: martian logic
+  target: personal information obtain for
+  key: COLLECT
+  text:
+  - 'Nationally Coordinated Criminal History Checks (Australia only)
+
+
+    5.4 Martian Logic treats Personal Information obtained for or a result from a
+    Nationally Coordinated Criminal History Check with the utmost confidence and will
+    only disclose this information in accordance with consent given by the Candidate
+    or as required by law.'
+  purposes: {}
+- source: martian logic
+  target: personal information obtain from candidate conduct coordinate criminal history
+    check through national police checking service
+  key: COLLECT
+  text:
+  - Martian Logic also collects, holds, uses, and discloses Personal Information obtained
+    from Candidates to conduct Nationally Coordinated Criminal History Checks through
+    the National Police Checking Service.
+  purposes: {}
+- source: martin logic
+  target: personal information
+  key: COLLECT
+  text:
+  - Martin Logic uses your Personal Information primarily to allow Clients to have
+    full use of the functions of the Martian Logic Platform.
+  purposes:
+    services:
+    - primarily to allow Clients to have full use of the functions of the Martian
+      Logic Platform
+- source: website operate
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The websites operated by Martian Logic may collect Personal Information for the
+    purposes outlined in this Policy and may also use cookies to track your activity.
+  purposes:
+    analytics:
+    - to track your activity
+- source: website operate
+  target: personal information
+  key: COLLECT
+  text:
+  - The websites operated by Martian Logic may collect Personal Information for the
+    purposes outlined in this Policy and may also use cookies to track your activity.
+  purposes: {}
+- source: biometric information
+  target: image
+  key: SUBSUM
+  text:
+  - '3. APPLICATION OF THIS POLICY
+
+
+    Candidates
+
+
+    your biometric information including your signature and image;'
+- source: biometric information
+  target: signature
+  key: SUBSUM
+  text:
+  - '3. APPLICATION OF THIS POLICY
+
+
+    Candidates
+
+
+    your biometric information including your signature and image;'
+- source: component
+  target: automated reference checking
+  key: SUBSUM
+  text:
+  - '"Martian Logic Platform" means the human resources information system platform
+    which Martian Logic provides, which includes components such as recruitment, onboarding
+    of new employees, change of employment conditions of existing employees, off-boarding
+    employees, organisational chart, employee database/dashboard, position and remuneration
+    library, employee self-service, automated reference checking, video interviewing,
+    compliance document collection and management.'
+- source: component
+  target: compliance document collection
+  key: SUBSUM
+  text:
+  - '"Martian Logic Platform" means the human resources information system platform
+    which Martian Logic provides, which includes components such as recruitment, onboarding
+    of new employees, change of employment conditions of existing employees, off-boarding
+    employees, organisational chart, employee database/dashboard, position and remuneration
+    library, employee self-service, automated reference checking, video interviewing,
+    compliance document collection and management.'
+- source: component
+  target: employee database dashboard
+  key: SUBSUM
+  text:
+  - '"Martian Logic Platform" means the human resources information system platform
+    which Martian Logic provides, which includes components such as recruitment, onboarding
+    of new employees, change of employment conditions of existing employees, off-boarding
+    employees, organisational chart, employee database/dashboard, position and remuneration
+    library, employee self-service, automated reference checking, video interviewing,
+    compliance document collection and management.'
+- source: component
+  target: employee self service
+  key: SUBSUM
+  text:
+  - '"Martian Logic Platform" means the human resources information system platform
+    which Martian Logic provides, which includes components such as recruitment, onboarding
+    of new employees, change of employment conditions of existing employees, off-boarding
+    employees, organisational chart, employee database/dashboard, position and remuneration
+    library, employee self-service, automated reference checking, video interviewing,
+    compliance document collection and management.'
+- source: component
+  target: off employee
+  key: SUBSUM
+  text:
+  - '"Martian Logic Platform" means the human resources information system platform
+    which Martian Logic provides, which includes components such as recruitment, onboarding
+    of new employees, change of employment conditions of existing employees, off-boarding
+    employees, organisational chart, employee database/dashboard, position and remuneration
+    library, employee self-service, automated reference checking, video interviewing,
+    compliance document collection and management.'
+- source: component
+  target: position library
+  key: SUBSUM
+  text:
+  - '"Martian Logic Platform" means the human resources information system platform
+    which Martian Logic provides, which includes components such as recruitment, onboarding
+    of new employees, change of employment conditions of existing employees, off-boarding
+    employees, organisational chart, employee database/dashboard, position and remuneration
+    library, employee self-service, automated reference checking, video interviewing,
+    compliance document collection and management.'
+- source: component
+  target: video interviewing
+  key: SUBSUM
+  text:
+  - '"Martian Logic Platform" means the human resources information system platform
+    which Martian Logic provides, which includes components such as recruitment, onboarding
+    of new employees, change of employment conditions of existing employees, off-boarding
+    employees, organisational chart, employee database/dashboard, position and remuneration
+    library, employee self-service, automated reference checking, video interviewing,
+    compliance document collection and management.'
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Referees
+
+
+    your contact details, including your name, email address, and telephone numbers;'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Referees
+
+
+    your contact details, including your name, email address, and telephone numbers;'
+  - your contact details, including your name, address, and telephone numbers;
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Candidates
+
+
+    your contact details, including your addresses (present and past) and telephone
+    numbers;'
+  - 'Referees
+
+
+    your contact details, including your name, email address, and telephone numbers;'
+  - your contact details, including your name, address, and telephone numbers;
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Candidates
+
+
+    your contact details, including your addresses (present and past) and telephone
+    numbers;'
+  - your contact details, including your name, address, and telephone numbers;
+- source: criminal history
+  target: information contain in result of coordinate criminal history check
+  key: SUBSUM
+  text:
+  - 'Candidates
+
+
+    your criminal history including (for Australian residents) any information contained
+    in the results of a Nationally Coordinated Criminal History Check;'
+- source: current employment detail
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Candidates
+
+
+    your current and former employment details, including the identity and contact
+    details of any current and former employers;'
+  - 'Referees
+
+
+    your current and former employment details, including the identity and contact
+    details of any current or former employers and your current or former job titles
+    or descriptions;'
+- source: current employment detail
+  target: current job title
+  key: SUBSUM
+  text:
+  - 'Referees
+
+
+    your current and former employment details, including the identity and contact
+    details of any current or former employers and your current or former job titles
+    or descriptions;'
+- source: current employment detail
+  target: description
+  key: SUBSUM
+  text:
+  - 'Referees
+
+
+    your current and former employment details, including the identity and contact
+    details of any current or former employers and your current or former job titles
+    or descriptions;'
+- source: current employment detail
+  target: identity
+  key: SUBSUM
+  text:
+  - 'Candidates
+
+
+    your current and former employment details, including the identity and contact
+    details of any current and former employers;'
+  - 'Referees
+
+
+    your current and former employment details, including the identity and contact
+    details of any current or former employers and your current or former job titles
+    or descriptions;'
+- source: human resource information system platform martian logic provide
+  target: component
+  key: SUBSUM
+  text:
+  - '"Martian Logic Platform" means the human resources information system platform
+    which Martian Logic provides, which includes components such as recruitment, onboarding
+    of new employees, change of employment conditions of existing employees, off-boarding
+    employees, organisational chart, employee database/dashboard, position and remuneration
+    library, employee self-service, automated reference checking, video interviewing,
+    compliance document collection and management.'
+- source: identity document
+  target: identity card
+  key: SUBSUM
+  text:
+  - 'Candidates
+
+
+    copies of your identity documents including your driver''s licence, identity card,
+    or passport;'
+- source: identity document
+  target: licence
+  key: SUBSUM
+  text:
+  - 'Candidates
+
+
+    copies of your identity documents including your driver''s licence, identity card,
+    or passport;'
+- source: identity document
+  target: passport
+  key: SUBSUM
+  text:
+  - 'Candidates
+
+
+    copies of your identity documents including your driver''s licence, identity card,
+    or passport;'
+- source: information in covering letter
+  target: skill
+  key: SUBSUM
+  text:
+  - information in your covering letter, resume, and application forms, including
+    your skills, qualifications, work history, references, goals, and interests;
+- source: information in covering letter
+  target: work history
+  key: SUBSUM
+  text:
+  - information in your covering letter, resume, and application forms, including
+    your skills, qualifications, work history, references, goals, and interests;
+- source: personal information
+  target: information you provide through martian logic platform
+  key: SUBSUM
+  text:
+  - when you submit your Personal Information to Martian Logic, including any information
+    you provide through the Martian Logic Platform and as a result of your dealings
+    with Martian Logic;
+- source: type of employment
+  target: position
+  key: SUBSUM
+  text:
+  - changes to your role or position and type of employment.
+- source: type of employment
+  target: role
+  key: SUBSUM
+  text:
+  - changes to your role or position and type of employment.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: automated reference checking
+- type: ACTOR
+  id: candidate
+- type: ACTOR
+  id: compliance document collection
+- type: ACTOR
+  id: component
+- type: ACTOR
+  id: employee database dashboard
+- type: ACTOR
+  id: employee self service
+- type: ACTOR
+  id: human resource information system platform martian logic provide
+- type: ACTOR
+  id: martian logic
+- type: ACTOR
+  id: martin logic
+- type: ACTOR
+  id: off employee
+- type: ACTOR
+  id: position library
+- type: ACTOR
+  id: video interviewing
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website operate
+- type: DATA
+  id: base storage on server locate in australia
+- type: DATA
+  id: biometric information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: criminal history
+- type: DATA
+  id: current employment detail
+- type: DATA
+  id: current job title
+- type: DATA
+  id: description
+- type: DATA
+  id: email address
+- type: DATA
+  id: identity
+- type: DATA
+  id: identity card
+- type: DATA
+  id: identity document
+- type: DATA
+  id: image
+- type: DATA
+  id: information contain in result of coordinate criminal history check
+- type: DATA
+  id: information from you
+- type: DATA
+  id: information in covering letter
+- type: DATA
+  id: information martian logic require
+- type: DATA
+  id: information relate to specific service
+- type: DATA
+  id: information you provide through martian logic platform
+- type: DATA
+  id: licence
+- type: DATA
+  id: passport
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information be
+- type: DATA
+  id: personal information client collect from you be
+- type: DATA
+  id: personal information from candidate
+- type: DATA
+  id: personal information obtain for
+- type: DATA
+  id: personal information obtain from candidate conduct coordinate criminal history
+    check through national police checking service
+- type: DATA
+  id: phone number
+- type: DATA
+  id: position
+- type: DATA
+  id: postal address
+- type: DATA
+  id: role
+- type: DATA
+  id: signature
+- type: DATA
+  id: skill
+- type: DATA
+  id: sufficient detail be
+- type: DATA
+  id: type of employment
+- type: DATA
+  id: work history
+- type: DATA
+  id: write reason

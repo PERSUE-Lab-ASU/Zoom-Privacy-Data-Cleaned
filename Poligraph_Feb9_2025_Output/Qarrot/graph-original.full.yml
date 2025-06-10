@@ -1,0 +1,410 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use "cookies" to collect information.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use "cookies" to collect information.
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  - 'We value your privacy
+
+
+    We use cookies to enhance your browsing experience, serve personalised ads or
+    content, and analyse our traffic.'
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalised ads or content, and
+      analyse our traffic
+    analytics:
+    - to enhance your browsing experience, serve personalised ads or content, and
+      analyse our traffic
+    services:
+    - to enhance your browsing experience, serve personalised ads or content, and
+      analyse our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: we
+  target: encryption
+  key: COLLECT
+  text:
+  - We are committed to ensuring the security of your Personal Information and may
+    use passwords, encryption, firewalls, restricted employee access or other methods,
+    in our discretion.
+  purposes: {}
+- source: we
+  target: firewall
+  key: COLLECT
+  text:
+  - We are committed to ensuring the security of your Personal Information and may
+    use passwords, encryption, firewalls, restricted employee access or other methods,
+    in our discretion.
+  purposes: {}
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - We may also collect information that your browser sends whenever you visit our
+    Service ("Log Data").
+  purposes: {}
+- source: we
+  target: log data
+  key: COLLECT
+  text:
+  - We may also collect information that your browser sends whenever you visit our
+    Service ("Log Data").
+  purposes: {}
+- source: we
+  target: password
+  key: COLLECT
+  text:
+  - We are committed to ensuring the security of your Personal Information and may
+    use passwords, encryption, firewalls, restricted employee access or other methods,
+    in our discretion.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As previously expressed herein, we may use your Personal Information to contact
+    you with newsletters, marketing or promotional materials and other information
+    that may be of interest to you.
+  - As set out above, and for clarity, we will disclose your Personal Information
+    where required to do so by law or subpoena or if we believe that such action is
+    necessary to comply with the law and the reasonable requests of law enforcement
+    or to protect the security or integrity of our Service.
+  - If you are located outside Canada or the United States of America and choose to
+    provide information to us, please note that we transfer the information, including
+    Personal Information, to Canada and the United States of America and process it
+    there.
+  - 'Privacy policy
+
+
+    Personal information collect, use, disclosure and consent
+
+
+    We may collect, use or disclose Personal Information without the consent:'
+  - We retain your Personal Information for the time necessary to fulfill the identified
+    purposes or a legal or business purpose.
+  purposes:
+    advertising:
+    - to contact you with newsletters, marketing or promotional materials and other
+      information that may be of interest to you
+    legal:
+    - For the purposes of collecting a debt or protection from fraud
+    security:
+    - For the purposes of collecting a debt or protection from fraud
+- source: we
+  target: personal information be
+  key: COLLECT
+  text:
+  - 'We will only collect Personal Information that is necessary to fulfill the following
+    purposes:'
+  purposes: {}
+- source: we
+  target: restricted employee access
+  key: COLLECT
+  text:
+  - We are committed to ensuring the security of your Personal Information and may
+    use passwords, encryption, firewalls, restricted employee access or other methods,
+    in our discretion.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties have access to your Personal Information only to perform these
+    tasks on our behalf and are obligated not to disclose or use it for any other
+    purpose.
+  purposes:
+    services:
+    - only to perform these tasks on our behalf
+- source: amazon pay
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Amazon Pay uses this cookie to maintain a "session" that spans multiple days and
+    beyond reboots.
+  purposes:
+    services:
+    - to maintain a "session" that spans multiple days and beyond reboots
+- source: we
+  target: app.qarrot.com web application
+  key: SUBSUM
+  text:
+  - Friendefi Inc. ("us", "we", or "our") operates Qarrot, the www.qarrot.com website,
+    the app.qarrot.com web application, and the Qarrot iOS and Android mobile applications
+    (collectively, the "Service").
+- source: we
+  target: friendefi inc.
+  key: SUBSUM
+  text:
+  - Friendefi Inc. ("us", "we", or "our") operates Qarrot, the www.qarrot.com website,
+    the app.qarrot.com web application, and the Qarrot iOS and Android mobile applications
+    (collectively, the "Service").
+- source: we
+  target: qarrot
+  key: SUBSUM
+  text:
+  - Friendefi Inc. ("us", "we", or "our") operates Qarrot, the www.qarrot.com website,
+    the app.qarrot.com web application, and the Qarrot iOS and Android mobile applications
+    (collectively, the "Service").
+- source: we
+  target: qarrot ios mobile application
+  key: SUBSUM
+  text:
+  - Friendefi Inc. ("us", "we", or "our") operates Qarrot, the www.qarrot.com website,
+    the app.qarrot.com web application, and the Qarrot iOS and Android mobile applications
+    (collectively, the "Service").
+- source: we
+  target: www.qarrot.com website
+  key: SUBSUM
+  text:
+  - Friendefi Inc. ("us", "we", or "our") operates Qarrot, the www.qarrot.com website,
+    the app.qarrot.com web application, and the Qarrot iOS and Android mobile applications
+    (collectively, the "Service").
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with small amount of data, which may include an anonymous unique
+    identifier.
+- source: data collection
+  target: number of visitor
+  key: SUBSUM
+  text:
+  - The data collection includes the number of visitors, where they visit the website,
+    and the pages visited.
+- source: log data
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may also collect information that your browser sends whenever you visit our
+    Service ("Log Data").
+- source: log data
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may also collect information that your browser sends whenever you visit our
+    Service ("Log Data").
+- source: log data
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may also collect information that your browser sends whenever you visit our
+    Service ("Log Data").
+- source: log data
+  target: statistic
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may also collect information that your browser sends whenever you visit our
+    Service ("Log Data").
+- source: log data
+  target: time
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may also collect information that your browser sends whenever you visit our
+    Service ("Log Data").
+- source: metric
+  target: bounce rate
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: number of visitor
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: metric
+  target: traffic source
+  key: SUBSUM
+  text:
+  - These cookies help provide information on metrics such as the number of visitors,
+    bounce rate, traffic source, etc.
+- source: personal information
+  target: age
+  key: SUBSUM
+  text:
+  - Personal Information may include your name, email address, age, home address,
+    phone number, income, credit history, education, employment information and social
+    registration numbers.
+- source: personal information
+  target: credit history
+  key: SUBSUM
+  text:
+  - Personal Information may include your name, email address, age, home address,
+    phone number, income, credit history, education, employment information and social
+    registration numbers.
+- source: personal information
+  target: education
+  key: SUBSUM
+  text:
+  - Personal Information may include your name, email address, age, home address,
+    phone number, income, credit history, education, employment information and social
+    registration numbers.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Personal Information may include your name, email address, age, home address,
+    phone number, income, credit history, education, employment information and social
+    registration numbers.
+- source: personal information
+  target: employment information
+  key: SUBSUM
+  text:
+  - Personal Information may include your name, email address, age, home address,
+    phone number, income, credit history, education, employment information and social
+    registration numbers.
+- source: personal information
+  target: income
+  key: SUBSUM
+  text:
+  - Personal Information may include your name, email address, age, home address,
+    phone number, income, credit history, education, employment information and social
+    registration numbers.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Personal Information may include your name, email address, age, home address,
+    phone number, income, credit history, education, employment information and social
+    registration numbers.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Personal Information may include your name, email address, age, home address,
+    phone number, income, credit history, education, employment information and social
+    registration numbers.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Personal Information may include your name, email address, age, home address,
+    phone number, income, credit history, education, employment information and social
+    registration numbers.
+- source: personal information
+  target: social registration number
+  key: SUBSUM
+  text:
+  - Personal Information may include your name, email address, age, home address,
+    phone number, income, credit history, education, employment information and social
+    registration numbers.
+- source: session information
+  target: identity of user
+  key: SUBSUM
+  text:
+  - The session information includes the identity of the user, recently visited links
+    and the duration of inactivity.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: amazon pay
+- type: ACTOR
+  id: app.qarrot.com web application
+- type: ACTOR
+  id: friendefi inc.
+- type: ACTOR
+  id: qarrot
+- type: ACTOR
+  id: qarrot ios mobile application
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: www.qarrot.com website
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: age
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: bounce rate
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit history
+- type: DATA
+  id: data collection
+- type: DATA
+  id: education
+- type: DATA
+  id: email address
+- type: DATA
+  id: employment information
+- type: DATA
+  id: encryption
+- type: DATA
+  id: firewall
+- type: DATA
+  id: identity of user
+- type: DATA
+  id: income
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log data
+- type: DATA
+  id: metric
+- type: DATA
+  id: number of visitor
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information be
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: restricted employee access
+- type: DATA
+  id: session information
+- type: DATA
+  id: social registration number
+- type: DATA
+  id: statistic
+- type: DATA
+  id: time
+- type: DATA
+  id: traffic source

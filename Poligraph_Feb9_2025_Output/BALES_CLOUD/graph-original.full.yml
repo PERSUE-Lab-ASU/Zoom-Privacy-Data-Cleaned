@@ -1,0 +1,16 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - The Company will appropriately acquire, use, and provide personal information
+    in consideration of the contents and size of the business.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal information

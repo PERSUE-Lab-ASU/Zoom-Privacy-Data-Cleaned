@@ -1,0 +1,55 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We retain your data only for as long as necessary to fulfill the purposes outlined
+    in this Privacy Policy and as required by applicable laws and regulations.
+  - We store your data on secure servers and take reasonable precautions to protect
+    it from unauthorized access, disclosure, alteration, or destruction.
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may collect non-personal data about you in order to provide and improve our
+    Services.
+  purposes:
+    services:
+    - in order to provide and improve our Services
+    - to provide and improve our Services
+- source: we
+  target: user datum
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how we collect, use, store, retain, and delete user
+    data, and outlines the security controls we have implemented to protect your data.
+  purposes: {}
+- source: non-personal information
+  target: anonymous usage statistic
+  key: SUBSUM
+  text:
+  - Non-personal data includes anonymous usage statistics and technical information
+    about your device.
+- source: non-personal information
+  target: technical information about device
+  key: SUBSUM
+  text:
+  - Non-personal data includes anonymous usage statistics and technical information
+    about your device.
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous usage statistic
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: technical information about device
+- type: DATA
+  id: user datum

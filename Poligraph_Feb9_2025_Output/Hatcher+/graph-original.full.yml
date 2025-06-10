@@ -1,0 +1,81 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may transfer your data to USA under Privacy Shield Agreement (Google) and similar
+    standard contractual clauses.
+  purposes: {}
+- source: we
+  target: accurate information
+  key: COLLECT
+  text:
+  - When you create your account on the Platform, you must provide us with accurate
+    and complete information.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We also use cookies to provide super-powers for our users and serve them up personalised
+    content, to analyse our website traffic, to understand where our visitors are
+    coming from, and, most importantly, when our blood sugar is low.
+  - We use cookies and similar technologies to improve your browsing experience on
+    our website.
+  purposes:
+    analytics:
+    - to provide super-powers for our users and serve them up personalised content,
+      to analyse our website traffic, to understand where our visitors are coming
+      from, and, most importantly, when our blood sugar is low
+    services:
+    - to improve your browsing experience on our website
+    - to provide super-powers for our users and serve them up personalised content,
+      to analyse our website traffic, to understand where our visitors are coming
+      from, and, most importantly, when our blood sugar is low
+- source: we
+  target: user content
+  key: COLLECT
+  text:
+  - Following termination or deactivation of your account, or if you remove any User
+    Content from the Platform, we may retain your User Content for a commercially
+    reasonable period of time for backup, archival, or audit purposes.
+  purposes:
+    legal:
+    - for backup, archival, or audit purposes
+    security:
+    - for backup, archival, or audit purposes
+- source: we
+  target: platform
+  key: SUBSUM
+  text:
+  - By accessing or using the Platform or any of our products and services on, through
+    or in connection with the Platform ("Products"), you acknowledge that you have
+    read, understood, and agree to be bound by, these Terms and our Privacy Policy
+    .
+- source: recipient of datum
+  target: personal information
+  key: SUBSUM
+  text:
+  - The recipients of your data may include entities which process personal data on
+    our behalf as long as it is necessary to provide services to us and only to the
+    extent corresponding to that purpose (e.g. AWS, Google, Mailchimp).
+nodes:
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: accurate information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: personal information
+- type: DATA
+  id: recipient of datum
+- type: DATA
+  id: user content

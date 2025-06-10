@@ -1,0 +1,91 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We then use the information to compile reports and to help us improve our site.
+  - We will continue to process your information under this basis until you withdraw
+    consent or it is determined your consent no longer exists.
+  purposes:
+    analytics:
+    - to compile reports and to help us improve our site
+- source: we
+  target: information about computer
+  key: COLLECT
+  text:
+  - We may also collect information about your computer, including your IP address,
+    operating system and browser type, for system administration and in order to create
+    reports.
+  purposes:
+    analytics:
+    - for system administration and in order to create reports
+    services:
+    - for system administration and in order to create reports
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain your Personal Information for the period necessary to fulfil the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Google Analytics collects information anonymously.
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like many services, Google Analytics uses first-party cookies to track visitor
+    interactions as in our case, where they are used to collect information about
+    how visitors use our site.
+  purposes:
+    analytics:
+    - to track visitor interactions as in our case, where they are used to collect
+      information about how visitors use our site
+- source: information about computer
+  target: browser type
+  key: SUBSUM
+  text:
+  - We may also collect information about your computer, including your IP address,
+    operating system and browser type, for system administration and in order to create
+    reports.
+- source: information about computer
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may also collect information about your computer, including your IP address,
+    operating system and browser type, for system administration and in order to create
+    reports.
+- source: information about computer
+  target: operating system
+  key: SUBSUM
+  text:
+  - We may also collect information about your computer, including your IP address,
+    operating system and browser type, for system administration and in order to create
+    reports.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information about computer
+- type: DATA
+  id: ip address
+- type: DATA
+  id: operating system
+- type: DATA
+  id: personal information

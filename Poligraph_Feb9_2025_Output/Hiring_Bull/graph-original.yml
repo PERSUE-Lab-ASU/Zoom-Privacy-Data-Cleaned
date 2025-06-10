@@ -1,0 +1,212 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In addition to the personal information you supply, we collect certain information
+    to evaluate how visitors, guests, and members use the Site.
+  - This document explains our information practices, defines your privacy options
+    and describes how your information is collected and used by us, Human Enablers,
+    Inc through www.HiringBull.com ("Website") and associated web apps, mobile apps
+    and other services.
+  - 'We collect data to make our service work better for you in the following ways:
+    to improve the design of the Site, to provide personalization on the Site and
+    to evaluate the performance of our marketing programs.'
+  purposes:
+    advertising:
+    - 'to make our service work better for you in the following ways: to improve the
+      design of the Site, to provide personalization on the Site and to evaluate the
+      performance of our marketing programs'
+    analytics:
+    - to evaluate how visitors, guests, and members use the Site
+    - 'to make our service work better for you in the following ways: to improve the
+      design of the Site, to provide personalization on the Site and to evaluate the
+      performance of our marketing programs'
+    services:
+    - 'to make our service work better for you in the following ways: to improve the
+      design of the Site, to provide personalization on the Site and to evaluate the
+      performance of our marketing programs'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website uses cookies to improve your web experience.
+  purposes:
+    services:
+    - to improve your web experience
+- source: we
+  target: information collect from survey
+  key: COLLECT
+  text:
+  - We use information collected from surveys to learn about our customers in order
+    to improve our services and develop new products and services of interest to our
+    customers.
+  purposes:
+    analytics:
+    - to learn about our customers in order to improve our services and develop new
+      products and services of interest to our customers
+    services:
+    - to learn about our customers in order to improve our services and develop new
+      products and services of interest to our customers
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We will share your personally identifiable information with these third parties,
+    but only to the extent necessary to perform these functions and provide such services,
+    and only pursuant to binding contractual obligations requiring such third parties
+    to maintain the privacy and security of your data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'The personal information we collect may include: user ID, password, your name,
+    your address, your email address and your phone number.'
+  - You will most likely provide personal information to us when you register as a
+    Site user, participate in certain Hiring Bull promotions or use certain Hiring
+    Bull services (collectively the "Services").
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We engage certain trusted third parties to perform functions and provide services
+    to us, including, without limitation, website hosting and maintenance, customer
+    relationship management, database storage and management, and direct marketing
+    campaigns.
+  - We will share your personally identifiable information with these third parties,
+    but only to the extent necessary to perform these functions and provide such services,
+    and only pursuant to binding contractual obligations requiring such third parties
+    to maintain the privacy and security of your data.
+  purposes: {}
+- source: hiring bull
+  target: browser detection
+  key: COLLECT
+  text:
+  - 'How We Use Information
+
+
+    Hiring Bull may use IP addresses, cookies, clear gifs, browser detection, and
+    weblogs to provide a better experience on our website and to give us useful business
+    information.'
+  purposes:
+    analytics:
+    - to provide a better experience on our website and to give us useful business
+      information
+    services:
+    - to provide a better experience on our website and to give us useful business
+      information
+- source: hiring bull
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'How We Use Information
+
+
+    Hiring Bull may use IP addresses, cookies, clear gifs, browser detection, and
+    weblogs to provide a better experience on our website and to give us useful business
+    information.'
+  purposes:
+    analytics:
+    - to provide a better experience on our website and to give us useful business
+      information
+    services:
+    - to provide a better experience on our website and to give us useful business
+      information
+- source: hiring bull
+  target: ip address
+  key: COLLECT
+  text:
+  - 'How We Use Information
+
+
+    Hiring Bull may use IP addresses, cookies, clear gifs, browser detection, and
+    weblogs to provide a better experience on our website and to give us useful business
+    information.'
+  purposes:
+    analytics:
+    - to provide a better experience on our website and to give us useful business
+      information
+    services:
+    - to provide a better experience on our website and to give us useful business
+      information
+- source: we
+  target: hiring bull service
+  key: SUBSUM
+  text:
+  - You will most likely provide personal information to us when you register as a
+    Site user, participate in certain Hiring Bull promotions or use certain Hiring
+    Bull services (collectively the "Services").
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'The personal information we collect may include: user ID, password, your name,
+    your address, your email address and your phone number.'
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - 'The personal information we collect may include: user ID, password, your name,
+    your address, your email address and your phone number.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'The personal information we collect may include: user ID, password, your name,
+    your address, your email address and your phone number.'
+- source: personal information
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - 'The personal information we collect may include: user ID, password, your name,
+    your address, your email address and your phone number.'
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'The personal information we collect may include: user ID, password, your name,
+    your address, your email address and your phone number.'
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'The personal information we collect may include: user ID, password, your name,
+    your address, your email address and your phone number.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: hiring bull
+- type: ACTOR
+  id: hiring bull service
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser detection
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information collect from survey
+- type: DATA
+  id: ip address
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

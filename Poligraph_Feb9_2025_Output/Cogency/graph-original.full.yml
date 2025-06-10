@@ -1,0 +1,233 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We will transfer information about you if Cogency.io is acquired by or merged
+    with another company.
+  purposes: {}
+- source: business partner
+  target: demographic information
+  key: COLLECT
+  text:
+  - Cogency.io may share demographic information with business partners, such as "53%
+    of users who regularly use Cogency.io video service are between 18 and 24" or
+    the like.
+  purposes: {}
+- source: cogency.io
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'General Information : Cogency.io uses information for the following general purposes:
+    products and services provision, billing, identification and authentication, services
+    improvement, contact, research, and anonymous reporting.'
+  purposes:
+    analytics:
+    - 'for the following general purposes: products and services provision, billing,
+      identification and authentication, services improvement, contact, research,
+      and anonymous reporting'
+    services:
+    - 'for the following general purposes: products and services provision, billing,
+      identification and authentication, services improvement, contact, research,
+      and anonymous reporting'
+- source: cogency.io
+  target: bit ssl encryption
+  key: COLLECT
+  text:
+  - 'Privacy
+
+
+    Editing and Deleting Account Information : Cogency.io uses 256-bit SSL-encryption
+    to protect data transmissions.'
+  purposes:
+    security:
+    - to protect data transmissions
+- source: cogency.io
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Cogency.io uses its own cookies for a number of purposes, including to:'
+  purposes:
+    advertising:
+    - 'to: Display the most appropriate advertising banners, based on your interests
+      and activity on Cogency.io'
+    analytics:
+    - 'to: Conduct research to improve Cogency.io''s content and services'
+    - 'to: Estimate and report our total audience size and traffic'
+    services:
+    - Access your information when you "sign in
+    - 'to: Conduct research to improve Cogency.io''s content and services'
+    - 'to: Keep track of preferences you specify while you are using Cogency.io''s
+      services'
+- source: cogency.io
+  target: demographic information
+  key: COLLECT
+  text:
+  - Cogency.io may share demographic information with business partners, such as "53%
+    of users who regularly use Cogency.io video service are between 18 and 24" or
+    the like.
+  purposes: {}
+- source: cogency.io
+  target: information on server log from browser
+  key: COLLECT
+  text:
+  - 'General Information : Cogency.io automatically receives and records information
+    on our server logs from your browser, including your IP address, cookie, and the
+    page you request.'
+  purposes: {}
+- source: cogency.io
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Cogency.io may be required to disclose personally identifiable information under
+    special circumstances, such as to comply with subpoenas or when your actions violate
+    the Cogency.io Terms of Service.
+  purposes: {}
+- source: cogency.io
+  target: personal information
+  key: COLLECT
+  text:
+  - 'General Information : Cogency.io collects personal information when you register
+    with Cogency.io to use Cogency.io services or to post content on Cogency.io.'
+  purposes: {}
+- source: report
+  target: usage trend
+  key: COLLECT
+  text:
+  - The reports disclose usage trends without identifying individual users.
+  purposes: {}
+- source: cogency.io service
+  target: ex
+  key: SUBSUM
+  text:
+  - If you would like to exercise any rights in respect of any of your personal data
+    in a user account of a customer of the Cogency.io service (e.g. your employer
+    or ex-employer), please contact the customer.
+- source: communication relate to cogency.io service
+  target: administrative message
+  key: SUBSUM
+  text:
+  - We may send you certain communications relating to the Cogency.io service, such
+    as service announcements and administrative messages, that are considered part
+    of your Cogency.io account.
+- source: communication relate to cogency.io service
+  target: service announcement
+  key: SUBSUM
+  text:
+  - We may send you certain communications relating to the Cogency.io service, such
+    as service announcements and administrative messages, that are considered part
+    of your Cogency.io account.
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - 'Cookies : A cookie is a small amount of data, which often includes an anonymous
+    unique identifier, that is sent to your browser from a web site''s computers and
+    stored on your computer''s hard drive.'
+- source: information on server log from browser
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'General Information : Cogency.io automatically receives and records information
+    on our server logs from your browser, including your IP address, cookie, and the
+    page you request.'
+- source: information on server log from browser
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'General Information : Cogency.io automatically receives and records information
+    on our server logs from your browser, including your IP address, cookie, and the
+    page you request.'
+- source: information on server log from browser
+  target: page you request
+  key: SUBSUM
+  text:
+  - 'General Information : Cogency.io automatically receives and records information
+    on our server logs from your browser, including your IP address, cookie, and the
+    page you request.'
+- source: optional information
+  target: country of residence
+  key: SUBSUM
+  text:
+  - 'General Information : When you register we ask for your email address and certain
+    optional information such as your country of residence and possibly your zipcode.'
+- source: optional information
+  target: zipcode
+  key: SUBSUM
+  text:
+  - 'General Information : When you register we ask for your email address and certain
+    optional information such as your country of residence and possibly your zipcode.'
+- source: personal information
+  target: date of birth
+  key: SUBSUM
+  text:
+  - Personal information is information about you that is personally identifiable
+    like your email address, your date of birth, or your zipcode.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Personal information is information about you that is personally identifiable
+    like your email address, your date of birth, or your zipcode.
+- source: personal information
+  target: zipcode
+  key: SUBSUM
+  text:
+  - Personal information is information about you that is personally identifiable
+    like your email address, your date of birth, or your zipcode.
+nodes:
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: cogency.io
+- type: ACTOR
+  id: cogency.io service
+- type: ACTOR
+  id: ex
+- type: ACTOR
+  id: report
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: administrative message
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: bit ssl encryption
+- type: DATA
+  id: communication relate to cogency.io service
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: country of residence
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information on server log from browser
+- type: DATA
+  id: ip address
+- type: DATA
+  id: optional information
+- type: DATA
+  id: page you request
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: service announcement
+- type: DATA
+  id: usage trend
+- type: DATA
+  id: zipcode

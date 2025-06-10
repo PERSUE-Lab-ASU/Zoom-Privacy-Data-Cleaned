@@ -1,0 +1,156 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: event start time
+  key: COLLECT
+  text:
+  - 'For the Justin application, here is an explanation of how it accesses, uses,
+    stores, and/or shares Google user data: We securely store the event start and
+    end times and participant identifiers for all calendar events that users have
+    given us permission to read.'
+  purposes:
+    services:
+    - for all calendar events that users have given us permission to read
+- source: we
+  target: participant identifier
+  key: COLLECT
+  text:
+  - 'For the Justin application, here is an explanation of how it accesses, uses,
+    stores, and/or shares Google user data: We securely store the event start and
+    end times and participant identifiers for all calendar events that users have
+    given us permission to read.'
+  purposes:
+    services:
+    - for all calendar events that users have given us permission to read
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'The Company shall acquire Personal Information from Users to the extent necessary
+    to:'
+  purposes: {}
+- source: we
+  target: statistical information
+  key: COLLECT
+  text:
+  - The Company may, based on the Personal Information provided by Users, create statistical
+    information from data that has been processed so that individuals cannot be identified,
+    and use such information without limitation.
+  purposes: {}
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Google Analytics uses Cookies or technology similar to Cookies to collect and
+    process data.
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Google Analytics uses Cookies or technology similar to Cookies to collect and
+    process data.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - When you visit or log in to our website, Cookies and similar technologies may
+    also be used by our online data partners or vendors to associate these activities
+    with other personal information they or others have about you, including your
+    email or home address.
+  purposes:
+    analytics:
+    - to associate these activities with other personal information they or others
+      have about you, including your email or home address
+    security:
+    - to associate these activities with other personal information they or others
+      have about you, including your email or home address
+    services:
+    - to associate these activities with other personal information they or others
+      have about you, including your email or home address
+- source: online datum partner
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - When you visit or log in to our website, Cookies and similar technologies may
+    also be used by our online data partners or vendors to associate these activities
+    with other personal information they or others have about you, including your
+    email or home address.
+  purposes:
+    analytics:
+    - to associate these activities with other personal information they or others
+      have about you, including your email or home address
+    security:
+    - to associate these activities with other personal information they or others
+      have about you, including your email or home address
+    services:
+    - to associate these activities with other personal information they or others
+      have about you, including your email or home address
+- source: website for attuned
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The website for Attuned may use information called Cookies, which are used to
+    make access more convenient.
+  purposes: {}
+- source: we
+  target: eqiq k.k.
+  key: SUBSUM
+  text:
+  - 'Attuned Privacy Policy
+
+
+    EQIQ K.K. (hereinafter, the "Company") provides services related to (i) having
+    individuals (hereinafter, the "Subjects") answer questions and provide the results
+    thereof to the Company''s customers (hereinafter, the "Customers") to for the
+    use of, among others, improve human resource management and conduct analyses to
+    improve the working environment, and (ii) providing various information through
+    email services accompanying thereto.'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you visit or log in to our website, Cookies and similar technologies may
+    also be used by our online data partners or vendors to associate these activities
+    with other personal information they or others have about you, including your
+    email or home address.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - When you visit or log in to our website, Cookies and similar technologies may
+    also be used by our online data partners or vendors to associate these activities
+    with other personal information they or others have about you, including your
+    email or home address.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: eqiq k.k.
+- type: ACTOR
+  id: online datum partner
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website for attuned
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: event start time
+- type: DATA
+  id: participant identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: statistical information

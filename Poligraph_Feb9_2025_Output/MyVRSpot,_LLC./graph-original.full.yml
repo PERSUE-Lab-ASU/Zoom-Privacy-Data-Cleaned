@@ -1,0 +1,164 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - But as mentioned above we may share aggregated information regarding the overall
+    use of MyVideoSpot.
+  purposes: {}
+- source: we
+  target: assign access level
+  key: COLLECT
+  text:
+  - We use your assigned access level to deliver content specific to your interests
+    or position.
+  purposes:
+    advertising:
+    - to deliver content specific to your interests or position
+    services:
+    - to deliver content specific to your interests or position
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - During a teacher or administrator's registration for MyVideoSpot, we ask for some
+    contact information.
+  - We use this contact information from the registration form to verify your status
+    as a teacher or school district employee and affiliation with a particular school,
+    district or educational institution.
+  purposes:
+    analytics:
+    - to verify your status as a teacher or school district employee and affiliation
+      with a particular school, district or educational institution
+    security:
+    - to verify your status as a teacher or school district employee and affiliation
+      with a particular school, district or educational institution
+    services:
+    - to verify your status as a teacher or school district employee and affiliation
+      with a particular school, district or educational institution
+- source: we
+  target: datum in google directory services
+  key: COLLECT
+  text:
+  - We only use the data in Google Directory Services as it pertains to building,
+    updating and authenticating user accounts.
+  purposes: {}
+- source: we
+  target: file choose
+  key: COLLECT
+  text:
+  - When launching this tool, an end user must give permission for our service to
+    access a user's Google drive, and we can access the file chosen by the end user.
+  purposes: {}
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - In general, MyVideoSpot automatically gathers usage information like frequency
+    of users to certain areas, number of log-ins, number of reports completed, etc.
+  - We only use such data in the aggregate.
+  purposes: {}
+- source: myvideospot
+  target: usage information
+  key: COLLECT
+  text:
+  - In general, MyVideoSpot automatically gathers usage information like frequency
+    of users to certain areas, number of log-ins, number of reports completed, etc.
+  purposes: {}
+- source: school
+  target: master account
+  key: COLLECT
+  text:
+  - Schools receive a master account which enables them to create accounts for student
+    users.
+  purposes: {}
+- source: school
+  target: parental permission
+  key: COLLECT
+  text:
+  - Schools should obtain parental permission before issuing accounts to students.
+  purposes: {}
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - We do not disclose personal information such as your name, address, email address
+    or telephone number to any outside companies.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - We do not disclose personal information such as your name, address, email address
+    or telephone number to any outside companies.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - We do not disclose personal information such as your name, address, email address
+    or telephone number to any outside companies.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - We do not disclose personal information such as your name, address, email address
+    or telephone number to any outside companies.
+- source: usage information
+  target: frequency of user to area
+  key: SUBSUM
+  text:
+  - In general, MyVideoSpot automatically gathers usage information like frequency
+    of users to certain areas, number of log-ins, number of reports completed, etc.
+- source: usage information
+  target: number
+  key: SUBSUM
+  text:
+  - In general, MyVideoSpot automatically gathers usage information like frequency
+    of users to certain areas, number of log-ins, number of reports completed, etc.
+- source: usage information
+  target: number of report complete
+  key: SUBSUM
+  text:
+  - In general, MyVideoSpot automatically gathers usage information like frequency
+    of users to certain areas, number of log-ins, number of reports completed, etc.
+nodes:
+- type: ACTOR
+  id: myvideospot
+- type: ACTOR
+  id: school
+- type: ACTOR
+  id: we
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: assign access level
+- type: DATA
+  id: contact information
+- type: DATA
+  id: datum in google directory services
+- type: DATA
+  id: email address
+- type: DATA
+  id: file choose
+- type: DATA
+  id: frequency of user to area
+- type: DATA
+  id: master account
+- type: DATA
+  id: number
+- type: DATA
+  id: number of report complete
+- type: DATA
+  id: parental permission
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: usage information

@@ -1,0 +1,31 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how we collect, use, share, and process your personal
+    information when you use our Zoom App Marketplace application ("App").
+  purposes: {}
+- source: we
+  target: relate content
+  key: COLLECT
+  text:
+  - The App processes meeting-related content solely for the purpose of generating
+    real-time insights and suggestions during your Zoom meeting.
+  purposes:
+    analytics:
+    - solely for the purpose of generating real-time insights and suggestions during
+      your Zoom meeting
+    services:
+    - solely for the purpose of generating real-time insights and suggestions during
+      your Zoom meeting
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal information
+- type: DATA
+  id: relate content

@@ -1,0 +1,180 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - How long we retain your data
+  - Who we share your data with
+  purposes: {}
+- source: we
+  target: basic datum store
+  key: COLLECT
+  text:
+  - Likewise, the application itself has no access to this storage, nor the basic
+    data that is stored.
+  purposes: {}
+- source: we
+  target: browser user agent string
+  key: COLLECT
+  text:
+  - When visitors leave comments on this site we collect the data shown in the comments
+    form, and also the visitor's IP address and browser user agent string to help
+    spam detection.
+  purposes:
+    security:
+    - to help spam detection
+- source: we
+  target: datum show in comment form
+  key: COLLECT
+  text:
+  - When visitors leave comments on this site we collect the data shown in the comments
+    form, and also the visitor's IP address and browser user agent string to help
+    spam detection.
+  purposes:
+    security:
+    - to help spam detection
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - When visitors leave comments on this site we collect the data shown in the comments
+    form, and also the visitor's IP address and browser user agent string to help
+    spam detection.
+  purposes:
+    security:
+    - to help spam detection
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - No personal data is ever collected by Zoom, or our website, and the data stored
+    is simply time-stamp based info on the meeting .
+  purposes: {}
+- source: we
+  target: personal information they provide in user profile
+  key: COLLECT
+  text:
+  - For users that register on our website (if any), we also store the personal information
+    they provide in their user profile.
+  purposes:
+    services:
+    - For users that register on our website (if any
+- source: Automattic
+  target: email address
+  key: COLLECT
+  text:
+  - An anonymized string created from your email address (also called a hash) may
+    be provided to the Gravatar service to see if you are using it.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: basic datum store
+  key: COLLECT
+  text:
+  - Likewise, the application itself has no access to this storage, nor the basic
+    data that is stored.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Embedded content from other websites
+
+
+    These websites may collect data about you, use cookies, embed additional third-party
+    tracking, and monitor your interaction with that embedded content, including tracking
+    your interaction with the embedded content if you have an account and are logged
+    in to that website.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: datum about you
+  key: COLLECT
+  text:
+  - 'Embedded content from other websites
+
+
+    These websites may collect data about you, use cookies, embed additional third-party
+    tracking, and monitor your interaction with that embedded content, including tracking
+    your interaction with the embedded content if you have an account and are logged
+    in to that website.'
+  purposes: {}
+- source: embed content
+  target: datum about you
+  key: COLLECT
+  text:
+  - 'Embedded content from other websites
+
+
+    These websites may collect data about you, use cookies, embed additional third-party
+    tracking, and monitor your interaction with that embedded content, including tracking
+    your interaction with the embedded content if you have an account and are logged
+    in to that website.'
+  purposes: {}
+- source: single client
+  target: ownership of license
+  key: COLLECT
+  text:
+  - You may transfer ownership of this license to a single client, though in doing
+    so you agree to the fact that you forfeit your right over the license and must
+    repurchase another in order to continue using the product.
+  purposes: {}
+- source: zoom
+  target: personal information
+  key: COLLECT
+  text:
+  - No personal data is ever collected by Zoom, or our website, and the data stored
+    is simply time-stamp based info on the meeting .
+  purposes: {}
+- source: cookie / pixel tag
+  target: personal information
+  key: SUBSUM
+  text:
+  - If you edit or publish an article, an additional cookie will be saved in your
+    browser.
+  - This cookie includes no personal data and simply indicates the post ID of the
+    article you just edited.
+- source: embed content
+  target: article
+  key: SUBSUM
+  text:
+  - Articles on this site may include embedded content (e.g. videos, images, articles,
+    etc.).
+nodes:
+- type: ACTOR
+  id: Automattic
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: article
+- type: ACTOR
+  id: embed content
+- type: ACTOR
+  id: single client
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: basic datum store
+- type: DATA
+  id: browser user agent string
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: datum show in comment form
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: ownership of license
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information they provide in user profile

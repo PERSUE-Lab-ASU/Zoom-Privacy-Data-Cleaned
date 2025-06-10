@@ -1,0 +1,174 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Third parties who are in labor relations with the Service Owner (employees of
+    the Service Owner) may have access to the personal data of Users for the purposes
+    established in this Policy.
+  purposes: {}
+- source: authorized body
+  target: necessary information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    4. Basic Rights and Obligations of the Service Owner
+
+
+    4.2. The Service Owner is obliged to: provide the authorized body for the protection
+    of the rights of personal data subjects with the necessary information within
+    30 days from the date of receipt of such a request.'
+  purposes:
+    security:
+    - for the protection of the rights of personal data subjects
+- source: service owner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The information is provided to the personal data subject by the Service Owner
+    in an accessible form and should not contain personal data relating to other personal
+    data subjects, except in cases where there are legal grounds for disclosing such
+    personal data.
+  purposes: {}
+- source: service owner
+  target: personal datum relate to personal datum subject
+  key: COLLECT
+  text:
+  - The information is provided to the personal data subject by the Service Owner
+    in an accessible form and should not contain personal data relating to other personal
+    data subjects, except in cases where there are legal grounds for disclosing such
+    personal data.
+  purposes: {}
+- source: service owner
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    The Service Owner processes the Personal Data of Users of the Service and the
+    Site with their consent, provided by Users through the process of registration/authorization
+    in the Service, i.e., by performing conclusive actions confirming their agreement
+    with this Policy.'
+  - The Service Owner stores personal data in a form that allows identifying the subject
+    of personal data no longer than the purposes of personal data processing require
+    unless the period of personal data storage is established by federal law, a contract.
+  purposes: {}
+- source: datum transmit to service of site during use with help of software instal
+    on device
+  target: address of request page
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    6. Procedure and Conditions for Processing Personal Data
+
+
+    6.8. Data that is automatically transmitted to the services of the Site during
+    their use with the help of software installed on the User''s device, including
+    IP address, cookie data, information about the User''s browser (or other programs
+    used to access the services), technical characteristics of the equipment and software
+    used by the User, date and time of access to the services, addresses of the requested
+    pages, and other similar information.'
+- source: datum transmit to service of site during use with help of software instal
+    on device
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    6. Procedure and Conditions for Processing Personal Data
+
+
+    6.8. Data that is automatically transmitted to the services of the Site during
+    their use with the help of software installed on the User''s device, including
+    IP address, cookie data, information about the User''s browser (or other programs
+    used to access the services), technical characteristics of the equipment and software
+    used by the User, date and time of access to the services, addresses of the requested
+    pages, and other similar information.'
+- source: datum transmit to service of site during use with help of software instal
+    on device
+  target: date
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    6. Procedure and Conditions for Processing Personal Data
+
+
+    6.8. Data that is automatically transmitted to the services of the Site during
+    their use with the help of software installed on the User''s device, including
+    IP address, cookie data, information about the User''s browser (or other programs
+    used to access the services), technical characteristics of the equipment and software
+    used by the User, date and time of access to the services, addresses of the requested
+    pages, and other similar information.'
+- source: datum transmit to service of site during use with help of software instal
+    on device
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    6. Procedure and Conditions for Processing Personal Data
+
+
+    6.8. Data that is automatically transmitted to the services of the Site during
+    their use with the help of software installed on the User''s device, including
+    IP address, cookie data, information about the User''s browser (or other programs
+    used to access the services), technical characteristics of the equipment and software
+    used by the User, date and time of access to the services, addresses of the requested
+    pages, and other similar information.'
+- source: datum transmit to service of site during use with help of software instal
+    on device
+  target: technical characteristic of equipment use
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    6. Procedure and Conditions for Processing Personal Data
+
+
+    6.8. Data that is automatically transmitted to the services of the Site during
+    their use with the help of software installed on the User''s device, including
+    IP address, cookie data, information about the User''s browser (or other programs
+    used to access the services), technical characteristics of the equipment and software
+    used by the User, date and time of access to the services, addresses of the requested
+    pages, and other similar information.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: authorized body
+- type: ACTOR
+  id: service owner
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: address of request page
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: datum transmit to service of site during use with help of software instal on
+    device
+- type: DATA
+  id: ip address
+- type: DATA
+  id: necessary information
+- type: DATA
+  id: personal datum relate to personal datum subject
+- type: DATA
+  id: personal information
+- type: DATA
+  id: technical characteristic of equipment use

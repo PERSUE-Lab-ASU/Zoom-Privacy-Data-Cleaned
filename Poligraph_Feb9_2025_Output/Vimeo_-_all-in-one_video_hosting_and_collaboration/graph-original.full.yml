@@ -1,0 +1,666 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 5. With Whom We Share Your Data
+  - For example, we may need to gather your data to respond to a subpoena or court
+    order.
+  - If the request originates from a foreign jurisdiction, we will typically disclose
+    information where we in good faith believe that disclosure is permitted by both
+    U.S. law and local law.
+  - If we receive legal process pertaining to your account, we will retain your data
+    for as long as we in good faith believe is necessary to comply with the legal
+    process.
+  - Similarly, if we believe that your account has been involved in wrongdoing, we
+    may preserve your data to defend or assert our rights.
+  - We may disclose your data in response to official requests (e.g., court orders,
+    subpoenas, search warrants, national security requests, etc.) (" requests ") that
+    we receive from government authorities or parties to legal proceedings.
+  - We may obtain data from third parties about you.
+  - We may share your data with analytics providers which help us understand how customers
+    are using our services.
+  - We may share your data with our affiliates to the extent necessary to provide
+    you with the services ordered.
+  - We may share your data with our auditors and advisors for planning, financial
+    reporting, accounting, auditing, tax filings, and legal compliance.
+  - We may share your data with persons to whom you have granted account-level access.
+  - We may share your data with potential transaction partners, advisors, and others
+    in the event our company is, in whole or part, acquired by a third party.
+  - 'We may use your data for the following purposes: Communicating with you: We use
+    your data when we communicate with you (e.g., when we respond to a customer support
+    or other inquiry).'
+  - 'We may use your data for the following purposes: Customizing your experience:
+    We use your data to personalize the service to you.'
+  - 'We may use your data for the following purposes: Identification and authentication:
+    We use your data to verify you when you access your account, and to uphold the
+    security of our services.'
+  - 'We may use your data for the following purposes: Improving our services: We use
+    your data to understand how our services are being used and how we can improve
+    them.'
+  - 'We may use your data for the following purposes: Legal compliance: We use your
+    data where we are legally required to do so.'
+  - 'We may use your data for the following purposes: Marketing and advertising: We
+    use your data to show you ads on third-party sites, and to measure the effectiveness
+    of those ads.'
+  - 'We may use your data for the following purposes: Operating our services: We use
+    your data to provide our services, process and fulfill orders, provide customer
+    support, and to otherwise comply with our contractual obligations to you.'
+  - 'We may use your data for the following purposes: Protecting our services: We
+    use your data to prevent abuse of our services and enforce our Terms of Service.'
+  - We retain your data for as long as you have an account.
+  - 'We share data with third parties as follows: Advertising: We may share your data
+    with advertising companies to display relevant ads to you, and to measure the
+    effectiveness of those ads.'
+  - 'We share data with third parties as follows: Authorized vendors: We may share
+    your data with third-party vendors that help us operate and improve our services,
+    process orders, and comply with your instructions and our contractual obligations.'
+  - 'We share data with third parties as follows: Certain legal situations: We may
+    share your data where we believe disclosure is necessary to comply with a legal
+    obligation or in connection with a corporate transaction as discussed in Section
+    6 .'
+  - 'We share data with third parties as follows: With your consent: We may share
+    your data with third parties where we have obtained your express consent to do
+    so.'
+  - You may submit data to us for limited purposes, such as requesting customer support;
+    participating in a study or survey; entering contests or sweepstakes; applying
+    for a job; or signing up to receive communications from us or another user.
+  purposes:
+    advertising:
+    - Marketing and advertising
+    - to display relevant ads to you, and to measure the effectiveness of those ads
+    - to show you ads on third-party sites, and to measure the effectiveness of those
+      ads
+    analytics:
+    - to display relevant ads to you, and to measure the effectiveness of those ads
+    - to understand how our services are being used and how we can improve them
+    legal:
+    - Legal compliance
+    - for planning, financial reporting, accounting, auditing, tax filings, and legal
+      compliance
+    - to defend or assert our rights
+    - to provide our services, process and fulfill orders, provide customer support,
+      and to otherwise comply with our contractual obligations to you
+    - to respond to a subpoena or court order
+    security:
+    - Identification and authentication
+    - Protecting your information
+    - to defend or assert our rights
+    - to prevent abuse of our services and enforce our Terms of Service
+    - to verify you when you access your account, and to uphold the security of our
+      services
+    services:
+    - Communicating with you
+    - Customizing your experience
+    - Improving our services
+    - Operating our services
+    - for limited purposes, such as requesting customer support; participating in
+      a study or survey; entering contests or sweepstakes; applying for a job; or
+      signing up to receive communications from us or another user
+    - to personalize the service to you
+    - to provide our services, process and fulfill orders, provide customer support,
+      and to otherwise comply with our contractual obligations to you
+- source: we
+  target: account information
+  key: COLLECT
+  text:
+  - If you choose to sign-up and/or authenticate using a third-party account (e.g.,
+    Facebook, Google), you authorize us to obtain account information from the third-party
+    platform.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'We share data with third parties as follows: Aggregated or anonymized information:
+    We may publicly disclose non-personal aggregated or anonymized information such
+    as our number of visitors and registered users.'
+  purposes: {}
+- source: we
+  target: communication with you
+  key: COLLECT
+  text:
+  - We may retain logs of automatically collected information (for internal analytics
+    and security purposes); your email address; your tax information; communications
+    with you; and your transactional information (for auditing, tax, and financial
+    purposes).
+  purposes: {}
+- source: we
+  target: delete video
+  key: COLLECT
+  text:
+  - We retain deleted videos on our servers for a short period in case you wish to
+    reverse deletion.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may retain logs of automatically collected information (for internal analytics
+    and security purposes); your email address; your tax information; communications
+    with you; and your transactional information (for auditing, tax, and financial
+    purposes).
+  purposes: {}
+- source: we
+  target: financial information
+  key: COLLECT
+  text:
+  - We (and/or our third-party vendors) use your financial information to process
+    purchases made by you and to pay you amounts you have earned.
+  purposes:
+    services:
+    - to process purchases made by you and to pay you amounts you have earned
+- source: we
+  target: identify analytic information
+  key: COLLECT
+  text:
+  - We may also share individually identifying analytics information with the hosts
+    of live events you attend, the owners of recorded video you view (where you have
+    provided your consent to share such information), and the administrators of your
+    Enterprise Account (see below for more details).
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We collect information about you when you use our services.
+  purposes: {}
+- source: we
+  target: log of collect information
+  key: COLLECT
+  text:
+  - We may retain logs of automatically collected information (for internal analytics
+    and security purposes); your email address; your tax information; communications
+    with you; and your transactional information (for auditing, tax, and financial
+    purposes).
+  purposes: {}
+- source: we
+  target: machine learning
+  key: COLLECT
+  text:
+  - We may use algorithms, machine learning, and other automated means to implement
+    any of the above.
+  purposes:
+    services:
+    - to implement any of the above
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - 'We share data with third parties as follows: Aggregated or anonymized information:
+    We may publicly disclose non-personal aggregated or anonymized information such
+    as our number of visitors and registered users.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'In accordance with International Data Protection Laws, we may transfer your personal
+    information from your home country to the U.S. (or other countries) based upon
+    the following legal bases:'
+  purposes: {}
+- source: we
+  target: response
+  key: COLLECT
+  text:
+  - If you challenge such a notice, we may share your response with the complainant.
+  purposes: {}
+- source: we
+  target: tax information
+  key: COLLECT
+  text:
+  - We may retain logs of automatically collected information (for internal analytics
+    and security purposes); your email address; your tax information; communications
+    with you; and your transactional information (for auditing, tax, and financial
+    purposes).
+  purposes: {}
+- source: we
+  target: transactional information
+  key: COLLECT
+  text:
+  - We may retain logs of automatically collected information (for internal analytics
+    and security purposes); your email address; your tax information; communications
+    with you; and your transactional information (for auditing, tax, and financial
+    purposes).
+  purposes: {}
+- source: we
+  target: type of datum
+  key: COLLECT
+  text:
+  - We automatically collect certain types of data when you use our services, regardless
+    of whether you have an account.
+  purposes: {}
+- source: we
+  target: user datum
+  key: COLLECT
+  text:
+  - For example, if we become aware of a person threatening to commit suicide, we
+    may share that person's data with appropriate entities that may have the ability
+    to help.
+  - We may disclose user data in situations involving legal claims against us or one
+    of our users.
+  - We may disclose user data to report suspected crimes.
+  - We may disclose user data where we reasonably believe that someone's life is at
+    risk.
+  purposes:
+    security:
+    - to report suspected crimes
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We share data with third parties as follows: Authorized vendors: We may share
+    your data with third-party vendors that help us operate and improve our services,
+    process orders, and comply with your instructions and our contractual obligations.'
+  - 'We share data with third parties as follows: With your consent: We may share
+    your data with third parties where we have obtained your express consent to do
+    so.'
+  purposes:
+    advertising:
+    - to display relevant ads to you, and to measure the effectiveness of those ads
+    analytics:
+    - to display relevant ads to you, and to measure the effectiveness of those ads
+- source: UNSPECIFIED_ACTOR
+  target: datum about you
+  key: COLLECT
+  text:
+  - Some third parties may collect data about you when you use our services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: financial information
+  key: COLLECT
+  text:
+  - We (and/or our third-party vendors) use your financial information to process
+    purchases made by you and to pay you amounts you have earned.
+  purposes:
+    services:
+    - to process purchases made by you and to pay you amounts you have earned
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - In addition, third parties may collect information about you when you use our
+    services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'If you create a Vimeo account using an email address provided or assigned to
+    you by an organization (such as your work email address): Vimeo may share your
+    personal information (e.g., name, email address) with such organization; and'
+  purposes: {}
+- source: Vimeo
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This information will be received by both Vimeo and the video owner and is subject
+    to both Vimeo's Privacy Policy as well as the video owner's privacy policy.
+  - You may submit information through a registration form set up by a video owner
+    or event host.
+  purposes: {}
+- source: Vimeo
+  target: personal information
+  key: COLLECT
+  text:
+  - 'If you create a Vimeo account using an email address provided or assigned to
+    you by an organization (such as your work email address): Vimeo may share your
+    personal information (e.g., name, email address) with such organization; and'
+  purposes: {}
+- source: administrator of enterprise account
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'When you use an Enterprise Account, the administrators of the Enterprise Account
+    may: Access information about your Enterprise Account activity, including your
+    video viewing history;'
+  purposes: {}
+- source: administrator of enterprise account
+  target: identify analytic information
+  key: COLLECT
+  text:
+  - We may also share individually identifying analytics information with the hosts
+    of live events you attend, the owners of recorded video you view (where you have
+    provided your consent to share such information), and the administrators of your
+    Enterprise Account (see below for more details).
+  purposes: {}
+- source: advertiser
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We share data with third parties as follows: Advertising: We may share your data
+    with advertising companies to display relevant ads to you, and to measure the
+    effectiveness of those ads.'
+  purposes:
+    advertising:
+    - to display relevant ads to you, and to measure the effectiveness of those ads
+    analytics:
+    - to display relevant ads to you, and to measure the effectiveness of those ads
+- source: advisor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your data with our auditors and advisors for planning, financial
+    reporting, accounting, auditing, tax filings, and legal compliance.
+  - We may share your data with potential transaction partners, advisors, and others
+    in the event our company is, in whole or part, acquired by a third party.
+  purposes:
+    legal:
+    - for planning, financial reporting, accounting, auditing, tax filings, and legal
+      compliance
+- source: analytic provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your data with analytics providers which help us understand how customers
+    are using our services.
+  purposes: {}
+- source: appropriate entity have ability help
+  target: user datum
+  key: COLLECT
+  text:
+  - For example, if we become aware of a person threatening to commit suicide, we
+    may share that person's data with appropriate entities that may have the ability
+    to help.
+  - We may disclose user data where we reasonably believe that someone's life is at
+    risk.
+  purposes: {}
+- source: auditor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your data with our auditors and advisors for planning, financial
+    reporting, accounting, auditing, tax filings, and legal compliance.
+  purposes:
+    legal:
+    - for planning, financial reporting, accounting, auditing, tax filings, and legal
+      compliance
+- source: authorized payment vendor
+  target: payment information
+  key: COLLECT
+  text:
+  - Your payment information will be collected and processed by our authorized payment
+    vendors.
+  purposes: {}
+- source: host of live event you attend
+  target: identify analytic information
+  key: COLLECT
+  text:
+  - We may also share individually identifying analytics information with the hosts
+    of live events you attend, the owners of recorded video you view (where you have
+    provided your consent to share such information), and the administrators of your
+    Enterprise Account (see below for more details).
+  purposes: {}
+- source: owner of record video you view
+  target: identify analytic information
+  key: COLLECT
+  text:
+  - We may also share individually identifying analytics information with the hosts
+    of live events you attend, the owners of recorded video you view (where you have
+    provided your consent to share such information), and the administrators of your
+    Enterprise Account (see below for more details).
+  purposes: {}
+- source: potential transaction partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your data with potential transaction partners, advisors, and others
+    in the event our company is, in whole or part, acquired by a third party.
+  purposes: {}
+- source: aggregate / deidentified / pseudonymized information
+  target: number
+  key: SUBSUM
+  text:
+  - 'We share data with third parties as follows: Aggregated or anonymized information:
+    We may publicly disclose non-personal aggregated or anonymized information such
+    as our number of visitors and registered users.'
+- source: associate metadata
+  target: close caption
+  key: SUBSUM
+  text:
+  - Your videos may be viewed and otherwise accessed by others, and associated metadata
+    (e.g., titles, closed captions, descriptions, tags, etc.) may be viewable by others.
+- source: associate metadata
+  target: description
+  key: SUBSUM
+  text:
+  - Your videos may be viewed and otherwise accessed by others, and associated metadata
+    (e.g., titles, closed captions, descriptions, tags, etc.) may be viewable by others.
+- source: associate metadata
+  target: tag
+  key: SUBSUM
+  text:
+  - Your videos may be viewed and otherwise accessed by others, and associated metadata
+    (e.g., titles, closed captions, descriptions, tags, etc.) may be viewable by others.
+- source: content
+  target: photograph
+  key: SUBSUM
+  text:
+  - You may upload and create content such as videos, text, photographs, and artwork.
+- source: content
+  target: text
+  key: SUBSUM
+  text:
+  - You may upload and create content such as videos, text, photographs, and artwork.
+- source: content within account
+  target: profile information
+  key: SUBSUM
+  text:
+  - 'When you use an Enterprise Account, the administrators of the Enterprise Account
+    may: Manage and change the content within your account, including profile information;'
+- source: datum you submit
+  target: payment information
+  key: SUBSUM
+  text:
+  - This may include data you submit (such as payment information) or automatically
+    collected information (in the case of third-party analytics providers and advertising
+    partners).
+- source: non-personal information
+  target: number
+  key: SUBSUM
+  text:
+  - 'We share data with third parties as follows: Aggregated or anonymized information:
+    We may publicly disclose non-personal aggregated or anonymized information such
+    as our number of visitors and registered users.'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'If you create a Vimeo account using an email address provided or assigned to
+    you by an organization (such as your work email address): Vimeo may share your
+    personal information (e.g., name, email address) with such organization; and'
+- source: tax information
+  target: person name
+  key: SUBSUM
+  text:
+  - If you sell items or earn money from advertising through our services, you must
+    provide an account to receive funds and tax information, which may include your
+    name, address, and taxpayer identification number.
+- source: tax information
+  target: postal address
+  key: SUBSUM
+  text:
+  - If you sell items or earn money from advertising through our services, you must
+    provide an account to receive funds and tax information, which may include your
+    name, address, and taxpayer identification number.
+- source: tax information
+  target: taxpayer identification number
+  key: SUBSUM
+  text:
+  - If you sell items or earn money from advertising through our services, you must
+    provide an account to receive funds and tax information, which may include your
+    name, address, and taxpayer identification number.
+- source: technical information about device
+  target: basic device information
+  key: SUBSUM
+  text:
+  - This data includes your IP address, technical information about your device (e.g.,
+    browser type, operating system, basic device information), the web page you visited
+    or search query you entered before reaching us, and your activities.
+- source: technical information about device
+  target: browser type
+  key: SUBSUM
+  text:
+  - This data includes your IP address, technical information about your device (e.g.,
+    browser type, operating system, basic device information), the web page you visited
+    or search query you entered before reaching us, and your activities.
+- source: technical information about device
+  target: operating system
+  key: SUBSUM
+  text:
+  - This data includes your IP address, technical information about your device (e.g.,
+    browser type, operating system, basic device information), the web page you visited
+    or search query you entered before reaching us, and your activities.
+- source: transactional email
+  target: email address
+  key: SUBSUM
+  text:
+  - Please note that any opt-out request may take several days to process and you
+    will continue to receive transactional emails from us (e.g., emails confirming
+    transactions and/or providing information about your account).
+- source: type of datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - This data includes your IP address, technical information about your device (e.g.,
+    browser type, operating system, basic device information), the web page you visited
+    or search query you entered before reaching us, and your activities.
+  - We automatically collect certain types of data when you use our services, regardless
+    of whether you have an account.
+- source: type of datum
+  target: technical information about device
+  key: SUBSUM
+  text:
+  - This data includes your IP address, technical information about your device (e.g.,
+    browser type, operating system, basic device information), the web page you visited
+    or search query you entered before reaching us, and your activities.
+  - We automatically collect certain types of data when you use our services, regardless
+    of whether you have an account.
+- source: valid payment method
+  target: credit card
+  key: SUBSUM
+  text:
+  - To make a purchase, you may need to provide a valid payment method (e.g., credit
+    card or PayPal account) and billing address.
+- source: valid payment method
+  target: paypal account
+  key: SUBSUM
+  text:
+  - To make a purchase, you may need to provide a valid payment method (e.g., credit
+    card or PayPal account) and billing address.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: Vimeo
+- type: ACTOR
+  id: administrator of enterprise account
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: advisor
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: appropriate entity have ability help
+- type: ACTOR
+  id: auditor
+- type: ACTOR
+  id: authorized payment vendor
+- type: ACTOR
+  id: host of live event you attend
+- type: ACTOR
+  id: owner of record video you view
+- type: ACTOR
+  id: potential transaction partner
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: associate metadata
+- type: DATA
+  id: basic device information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: close caption
+- type: DATA
+  id: communication with you
+- type: DATA
+  id: content
+- type: DATA
+  id: content within account
+- type: DATA
+  id: credit card
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: datum you submit
+- type: DATA
+  id: delete video
+- type: DATA
+  id: description
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial information
+- type: DATA
+  id: identify analytic information
+- type: DATA
+  id: information about you
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log of collect information
+- type: DATA
+  id: machine learning
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: number
+- type: DATA
+  id: operating system
+- type: DATA
+  id: payment information
+- type: DATA
+  id: paypal account
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: photograph
+- type: DATA
+  id: postal address
+- type: DATA
+  id: profile information
+- type: DATA
+  id: response
+- type: DATA
+  id: tag
+- type: DATA
+  id: tax information
+- type: DATA
+  id: taxpayer identification number
+- type: DATA
+  id: technical information about device
+- type: DATA
+  id: text
+- type: DATA
+  id: transactional email
+- type: DATA
+  id: transactional information
+- type: DATA
+  id: type of datum
+- type: DATA
+  id: user datum
+- type: DATA
+  id: valid payment method

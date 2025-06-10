@@ -1,0 +1,16 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: operator
+  target: personal information
+  key: COLLECT
+  text:
+  - 'The operator processes personal data if at least one of the following conditions
+    is met:'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: operator
+- type: DATA
+  id: personal information

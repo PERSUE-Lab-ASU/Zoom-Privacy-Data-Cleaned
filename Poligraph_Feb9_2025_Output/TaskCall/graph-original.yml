@@ -1,0 +1,404 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - As you download and use our Apps, we collect information about the type of mobile
+    device you're using and its operating system version.
+  - If a customer has registered for our Services, and your PII has been collected
+    as a result of their use of our Services, we will process your information under
+    the direction of the relevant customer.
+  - If you contact us via email, we will collect your name and email address, as well
+    as any other content or information included in or attached to your email, in
+    order to respond to you.
+  - We use your data to provide and improve the Service.
+  - We will otherwise retain your information for as long as your account is active,
+    as needed to provide you with the Online Services you have requested, or as necessary
+    to comply with our legal obligations, resolve disputes, and enforce our agreements.
+  purposes:
+    legal:
+    - to comply with our legal obligations, resolve disputes, and enforce our agreements
+    services:
+    - in order to respond to you
+    - to provide and improve the Service
+    - to respond to you
+- source: we
+  target: analytic datum
+  key: COLLECT
+  text:
+  - Additionally, we may collect analytics data directly or through third-party tools
+    to help us understand traffic and usage trends of our Online Services.
+  - We collect and use this analytics data in an aggregate form, which means it cannot
+    be used to identify any specific user.
+  purposes:
+    analytics:
+    - to help us understand traffic and usage trends of our Online Services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use both session cookies (which expire when you close your browser) and persistent
+    cookies (which !!remain on your computer until you delete them) to provide you
+    with a personalized and interactive experience on our Online Services.
+  - 'We use or may use cookies for the following purposes: Functional cookies:'
+  - 'We use or may use cookies for the following purposes: Strictly necessary cookies:'
+  - 'We use or may use cookies for the following purposes: Targeting cookies:'
+  purposes:
+    services:
+    - to provide you with a personalized and interactive experience on our Online
+      Services
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - If you contact us via email, we will collect your name and email address, as well
+    as any other content or information included in or attached to your email, in
+    order to respond to you.
+  purposes:
+    services:
+    - in order to respond to you
+    - to respond to you
+- source: we
+  target: individual report base on use of technology by company
+  key: COLLECT
+  text:
+  - We may receive individual and aggregated reports based on the use of certain technologies
+    by these companies.
+  purposes: {}
+- source: we
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - We may also combine the information we collect directly from you with information
+    obtained from public sources, partners, and other third parties and use such combined
+    information in accordance with this Privacy Policy.
+  purposes: {}
+- source: we
+  target: payment account
+  key: COLLECT
+  text:
+  - If you purchase services or products from us, we will also collect payment account
+    and other financial information.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - If you contact us via email, we will collect your name and email address, as well
+    as any other content or information included in or attached to your email, in
+    order to respond to you.
+  purposes:
+    services:
+    - in order to respond to you
+    - to respond to you
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - If you choose to sign up for information from TaskCall, schedule a demo, attend
+    a virtual event, or create an account to use the Service, we may collect certain
+    personally identifiable information (PII) from you, including your first and last
+    name, organization name, job title, email address, phone number, location information
+    (such as state/province and country).
+  - This Privacy Policy outlines how we collect, utilize and disclose your personally
+    identifiable information, also known as personal data or PII, when you use our
+    Software-as-a-Service Information Technology on-call schedule management, alerting,
+    and incident tracking Services, participate in our events or use our Websites
+    or mobile applications that link to this policy.
+  - We may also disclose your PII if we determine it is necessary to enforce our terms
+    and conditions or protect our operations or users.
+  - We may also disclose your PII with your prior informed consent.
+  - We may be required to disclose your PII by law, legal process, litigation, or
+    requests from public and governmental authorities, within or outside your country
+    of residence.
+  - We may share your PII in the event of a merger, acquisition, bankruptcy, dissolution,
+    reorganization, sale of some or all of TaskCall's assets, financing acquisition
+    of all or a portion of our business, a similar transaction or proceeding, or steps
+    in contemplation of such activities (e.g. due diligence).
+  - We may transfer PII, including personal data about residents of the EEA and Switzerland,
+    to our vendors, consultants, and other service providers who require access to
+    such PII to perform work on our behalf.
+  - We use your Personally Identifiable Information (PII) for various purposes such
+    as responding to your requests, securing and enhancing our Online Services, and
+    complying with legal obligations.
+  purposes: {}
+- source: we
+  target: technical datum about device
+  key: COLLECT
+  text:
+  - Our servers, which may be hosted by a third-party service provider, collect technical
+    data about your device and software when you use our Online Services.
+  - We automatically collect and store this data in log files each time you access
+    our website or your account on our network.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our partners, affiliates, and service providers may also use cookies and other
+    technologies to enhance your experience while interacting with our Online Services,
+    and to deliver or target advertising.
+  purposes:
+    advertising:
+    - to enhance your experience while interacting with our Online Services, and to
+      deliver or target advertising
+    services:
+    - to enhance your experience while interacting with our Online Services, and to
+      deliver or target advertising
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may transfer PII, including personal data about residents of the EEA and Switzerland,
+    to our vendors, consultants, and other service providers who require access to
+    such PII to perform work on our behalf.
+  purposes: {}
+- source: consultant
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may transfer PII, including personal data about residents of the EEA and Switzerland,
+    to our vendors, consultants, and other service providers who require access to
+    such PII to perform work on our behalf.
+  purposes: {}
+- source: service provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our partners, affiliates, and service providers may also use cookies and other
+    technologies to enhance your experience while interacting with our Online Services,
+    and to deliver or target advertising.
+  purposes:
+    advertising:
+    - to enhance your experience while interacting with our Online Services, and to
+      deliver or target advertising
+    services:
+    - to enhance your experience while interacting with our Online Services, and to
+      deliver or target advertising
+- source: service provider
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may transfer PII, including personal data about residents of the EEA and Switzerland,
+    to our vendors, consultants, and other service providers who require access to
+    such PII to perform work on our behalf.
+  purposes: {}
+- source: taskcall
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'TaskCall may disclose your PII in certain situations as follows:'
+  - 'TaskCall uses your PII for the following purposes as necessary and permitted
+    by applicable law:'
+  purposes:
+    advertising:
+    - Determining which of our products and services may be of interest to you or
+      your business
+    - Providing you with newsletters or surveys, either electronically or in hardcopy
+    - Sending you information about upgrades and special offers related to our Online
+      Services
+    analytics:
+    - Determining which of our products and services may be of interest to you or
+      your business
+    - Providing you with newsletters or surveys, either electronically or in hardcopy
+    legal:
+    - Complying with applicable laws and regulations
+    - Protecting our legal interests or those with whom we do business
+    - Responding to lawful requests, court orders, and legal processes
+    security:
+    - Creating and securing your account on our Online Services
+    - Protecting our legal interests or those with whom we do business
+    - Sending you administrative email notifications related to security, support,
+      and maintenance
+    - Verifying ownership of the email address provided during account creation
+    services:
+    - Determining which of our products and services may be of interest to you or
+      your business
+    - Identifying you as a user of our Online Services
+    - Personalizing and improving the quality of your experience on our Online Services
+    - Providing and administering your use of the Online Services
+    - Providing you with newsletters or surveys, either electronically or in hardcopy
+    - Responding to your inquiries and requests
+    - Sending you administrative email notifications related to security, support,
+      and maintenance
+    - Sending you information about upgrades and special offers related to our Online
+      Services
+    - Verifying ownership of the email address provided during account creation
+- source: personal identifier
+  target: contact information
+  key: SUBSUM
+  text:
+  - You can also edit or delete your PII in your account on the Online Services, including
+    your contact information and notification settings, by accessing your account
+    profile.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - If you choose to sign up for information from TaskCall, schedule a demo, attend
+    a virtual event, or create an account to use the Service, we may collect certain
+    personally identifiable information (PII) from you, including your first and last
+    name, organization name, job title, email address, phone number, location information
+    (such as state/province and country).
+- source: personal identifier
+  target: geolocation
+  key: SUBSUM
+  text:
+  - If you choose to sign up for information from TaskCall, schedule a demo, attend
+    a virtual event, or create an account to use the Service, we may collect certain
+    personally identifiable information (PII) from you, including your first and last
+    name, organization name, job title, email address, phone number, location information
+    (such as state/province and country).
+- source: personal identifier
+  target: job title
+  key: SUBSUM
+  text:
+  - If you choose to sign up for information from TaskCall, schedule a demo, attend
+    a virtual event, or create an account to use the Service, we may collect certain
+    personally identifiable information (PII) from you, including your first and last
+    name, organization name, job title, email address, phone number, location information
+    (such as state/province and country).
+- source: personal identifier
+  target: notification setting
+  key: SUBSUM
+  text:
+  - You can also edit or delete your PII in your account on the Online Services, including
+    your contact information and notification settings, by accessing your account
+    profile.
+- source: personal identifier
+  target: organization name
+  key: SUBSUM
+  text:
+  - If you choose to sign up for information from TaskCall, schedule a demo, attend
+    a virtual event, or create an account to use the Service, we may collect certain
+    personally identifiable information (PII) from you, including your first and last
+    name, organization name, job title, email address, phone number, location information
+    (such as state/province and country).
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - If you choose to sign up for information from TaskCall, schedule a demo, attend
+    a virtual event, or create an account to use the Service, we may collect certain
+    personally identifiable information (PII) from you, including your first and last
+    name, organization name, job title, email address, phone number, location information
+    (such as state/province and country).
+- source: personal identifier
+  target: personal information
+  key: SUBSUM
+  text:
+  - We may transfer PII, including personal data about residents of the EEA and Switzerland,
+    to our vendors, consultants, and other service providers who require access to
+    such PII to perform work on our behalf.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - If you choose to sign up for information from TaskCall, schedule a demo, attend
+    a virtual event, or create an account to use the Service, we may collect certain
+    personally identifiable information (PII) from you, including your first and last
+    name, organization name, job title, email address, phone number, location information
+    (such as state/province and country).
+- source: technical datum about device
+  target: browser type
+  key: SUBSUM
+  text:
+  - Our servers, which may be hosted by a third-party service provider, collect technical
+    data about your device and software when you use our Online Services.
+  - This data includes information about your browser type, operating system, IP address
+    (a unique number assigned to your device when you connect to the Internet), domain
+    name, and a time stamp of your visit.
+- source: technical datum about device
+  target: domain name
+  key: SUBSUM
+  text:
+  - Our servers, which may be hosted by a third-party service provider, collect technical
+    data about your device and software when you use our Online Services.
+  - This data includes information about your browser type, operating system, IP address
+    (a unique number assigned to your device when you connect to the Internet), domain
+    name, and a time stamp of your visit.
+- source: technical datum about device
+  target: ip address
+  key: SUBSUM
+  text:
+  - Our servers, which may be hosted by a third-party service provider, collect technical
+    data about your device and software when you use our Online Services.
+  - This data includes information about your browser type, operating system, IP address
+    (a unique number assigned to your device when you connect to the Internet), domain
+    name, and a time stamp of your visit.
+- source: technical datum about device
+  target: time stamp of visit
+  key: SUBSUM
+  text:
+  - Our servers, which may be hosted by a third-party service provider, collect technical
+    data about your device and software when you use our Online Services.
+  - This data includes information about your browser type, operating system, IP address
+    (a unique number assigned to your device when you connect to the Internet), domain
+    name, and a time stamp of your visit.
+- source: technical datum about device
+  target: unique number assign to device
+  key: SUBSUM
+  text:
+  - Our servers, which may be hosted by a third-party service provider, collect technical
+    data about your device and software when you use our Online Services.
+  - This data includes information about your browser type, operating system, IP address
+    (a unique number assigned to your device when you connect to the Internet), domain
+    name, and a time stamp of your visit.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: consultant
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: taskcall
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: analytic datum
+- type: DATA
+  id: browser type
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: domain name
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: individual report base on use of technology by company
+- type: DATA
+  id: information we collect from you
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job title
+- type: DATA
+  id: notification setting
+- type: DATA
+  id: organization name
+- type: DATA
+  id: payment account
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: technical datum about device
+- type: DATA
+  id: time stamp of visit
+- type: DATA
+  id: unique number assign to device

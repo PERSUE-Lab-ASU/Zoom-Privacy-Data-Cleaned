@@ -1,0 +1,252 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies on this site to enhance your user experience.
+  purposes:
+    services:
+    - to enhance your user experience
+- source: we
+  target: datum obtain from current activity
+  key: COLLECT
+  text:
+  - We may use your Personal Information and other data obtained from your current
+    and past activities, to resolve disputes and troubleshoot problems.
+  purposes:
+    security:
+    - to resolve disputes and troubleshoot problems
+    services:
+    - to resolve disputes and troubleshoot problems
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may use your email address to contact you regarding Site notices from time
+    to time.
+  purposes:
+    advertising:
+    - to contact you regarding Site notices from time to time
+    services:
+    - to contact you regarding Site notices from time to time
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - In addition, we may collect other information from you (such as location-based
+    data) that have been stripped of Personal Information.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - You thus authorize us to disclose any information about you to law enforcement
+    or other government officials if we, in our sole and absolute discretion, believe
+    that such disclosure is necessary or appropriate.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your Personal Information and other related information in the
+    event we reasonably believe such disclosure is necessary to protect the Services,
+    our rights or property, or the rights of any third party.
+  - We may disclose your Personal Information and other related information, in special
+    cases when we have reason to believe that disclosing such information is necessary
+    to identify, contact or bring legal action against someone who may be violating
+    this Privacy Policy or may be causing injury to or interference with (either intentionally
+    or unintentionally), our rights or property, other users, or anyone else that
+    could be harmed by such activities.
+  - We may provide your Personal Information to these third-party service providers
+    when the information is necessary for them to perform their duties.
+  - We may use your Personal Information and other data obtained from your current
+    and past activities, to resolve disputes and troubleshoot problems.
+  - We use Personal Information for internal purposes only, to improve our Site and
+    to better tailor the Site to meet your needs.
+  purposes:
+    security:
+    - to resolve disputes and troubleshoot problems
+    services:
+    - to improve our Site and to better tailor the Site to meet your needs
+    - to resolve disputes and troubleshoot problems
+- source: we
+  target: personal information collect
+  key: COLLECT
+  text:
+  - In addition, we use the Personal Information collected to analyze Site usage and
+    to deliver information to you about certain promotions, services or items that
+    might interest you.
+  purposes:
+    advertising:
+    - to analyze Site usage and to deliver information to you about certain promotions,
+      services or items that might interest you
+    analytics:
+    - to analyze Site usage and to deliver information to you about certain promotions,
+      services or items that might interest you
+- source: we
+  target: personal information deliver to we as part of registration to site
+  key: COLLECT
+  text:
+  - As a result of your use of the Services, you may supply us with such Personal
+    Information as your name, email address, uploaded content and metadata such as
+    the source of that content.
+  - During your use of the Site, we may collect certain Personal Information delivered
+    by you to us either as part of your registration to the Site or in any other way.
+  purposes: {}
+- source: we
+  target: related information
+  key: COLLECT
+  text:
+  - We may disclose your Personal Information and other related information in the
+    event we reasonably believe such disclosure is necessary to protect the Services,
+    our rights or property, or the rights of any third party.
+  - We may disclose your Personal Information and other related information, in special
+    cases when we have reason to believe that disclosing such information is necessary
+    to identify, contact or bring legal action against someone who may be violating
+    this Privacy Policy or may be causing injury to or interference with (either intentionally
+    or unintentionally), our rights or property, other users, or anyone else that
+    could be harmed by such activities.
+  purposes: {}
+- source: we
+  target: standard personal information browser send to website you visit
+  key: COLLECT
+  text:
+  - When using our Site, we may also collect certain standard Personal Information
+    that your browser sends to every website you visit, such as your IP address, your
+    browser information (including browser type, capabilities and language), your
+    operating system, the date and time you accessed the website, and the website
+    from which you linked to our Site.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may provide your Personal Information to these third-party service providers
+    when the information is necessary for them to perform their duties.
+  - We use third-party service providers to perform certain services on our behalf.
+  purposes: {}
+- source: browser information
+  target: browser type
+  key: SUBSUM
+  text:
+  - When using our Site, we may also collect certain standard Personal Information
+    that your browser sends to every website you visit, such as your IP address, your
+    browser information (including browser type, capabilities and language), your
+    operating system, the date and time you accessed the website, and the website
+    from which you linked to our Site.
+- source: browser information
+  target: language
+  key: SUBSUM
+  text:
+  - When using our Site, we may also collect certain standard Personal Information
+    that your browser sends to every website you visit, such as your IP address, your
+    browser information (including browser type, capabilities and language), your
+    operating system, the date and time you accessed the website, and the website
+    from which you linked to our Site.
+- source: personal information deliver to we as part of registration to site
+  target: email address
+  key: SUBSUM
+  text:
+  - As a result of your use of the Services, you may supply us with such Personal
+    Information as your name, email address, uploaded content and metadata such as
+    the source of that content.
+  - During your use of the Site, we may collect certain Personal Information delivered
+    by you to us either as part of your registration to the Site or in any other way.
+- source: personal information deliver to we as part of registration to site
+  target: metadata as source of content
+  key: SUBSUM
+  text:
+  - As a result of your use of the Services, you may supply us with such Personal
+    Information as your name, email address, uploaded content and metadata such as
+    the source of that content.
+  - During your use of the Site, we may collect certain Personal Information delivered
+    by you to us either as part of your registration to the Site or in any other way.
+- source: personal information deliver to we as part of registration to site
+  target: person name
+  key: SUBSUM
+  text:
+  - As a result of your use of the Services, you may supply us with such Personal
+    Information as your name, email address, uploaded content and metadata such as
+    the source of that content.
+  - During your use of the Site, we may collect certain Personal Information delivered
+    by you to us either as part of your registration to the Site or in any other way.
+- source: personal information deliver to we as part of registration to site
+  target: upload content
+  key: SUBSUM
+  text:
+  - As a result of your use of the Services, you may supply us with such Personal
+    Information as your name, email address, uploaded content and metadata such as
+    the source of that content.
+  - During your use of the Site, we may collect certain Personal Information delivered
+    by you to us either as part of your registration to the Site or in any other way.
+- source: standard personal information browser send to website you visit
+  target: browser information
+  key: SUBSUM
+  text:
+  - When using our Site, we may also collect certain standard Personal Information
+    that your browser sends to every website you visit, such as your IP address, your
+    browser information (including browser type, capabilities and language), your
+    operating system, the date and time you accessed the website, and the website
+    from which you linked to our Site.
+- source: standard personal information browser send to website you visit
+  target: date
+  key: SUBSUM
+  text:
+  - When using our Site, we may also collect certain standard Personal Information
+    that your browser sends to every website you visit, such as your IP address, your
+    browser information (including browser type, capabilities and language), your
+    operating system, the date and time you accessed the website, and the website
+    from which you linked to our Site.
+- source: standard personal information browser send to website you visit
+  target: ip address
+  key: SUBSUM
+  text:
+  - When using our Site, we may also collect certain standard Personal Information
+    that your browser sends to every website you visit, such as your IP address, your
+    browser information (including browser type, capabilities and language), your
+    operating system, the date and time you accessed the website, and the website
+    from which you linked to our Site.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: browser information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: datum obtain from current activity
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about you
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language
+- type: DATA
+  id: metadata as source of content
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information collect
+- type: DATA
+  id: personal information deliver to we as part of registration to site
+- type: DATA
+  id: related information
+- type: DATA
+  id: standard personal information browser send to website you visit
+- type: DATA
+  id: upload content

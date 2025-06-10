@@ -1,0 +1,186 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also use or disclose your information to family members that are directly
+    involved in your treatment with your verbal permission.
+  - We may disclose information to close family members or friends directly involved
+    in your treatment based on your consent or as necessary to prevent serious harm.
+  - We use your information for the HealtheMed health services you have registered
+    with us.
+  purposes:
+    services:
+    - for the HealtheMed health services you have registered with us
+- source: we
+  target: dispense detail
+  key: COLLECT
+  text:
+  - The Application obtains information related to client RPM device readings and
+    medication dispensed details.
+  purposes: {}
+- source: we
+  target: health information about you
+  key: COLLECT
+  text:
+  - HOW WE MAY USE AND DISCLOSE HEALTH INFORMATION ABOUT YOU
+  purposes: {}
+- source: we
+  target: information about device
+  key: COLLECT
+  text:
+  - Each time you use our application, we automatically collect certain information
+    about your device and your interaction with the Service.
+  purposes: {}
+- source: we
+  target: information relate to client rpm device reading
+  key: COLLECT
+  text:
+  - The Application obtains information related to client RPM device readings and
+    medication dispensed details.
+  purposes: {}
+- source: we
+  target: minimum amount of phi necessary
+  key: COLLECT
+  text:
+  - If it becomes necessary to use collection processes due to lack of payment for
+    services, we will only disclose the minimum amount of PHI necessary for purposes
+    of collection.
+  purposes: {}
+- source: we
+  target: phi
+  key: COLLECT
+  text:
+  - If required,  we may disclose PHI to a health oversight agency for activities
+    authorized by law, such as audits, investigations, and inspections.
+  - If required, we may use or disclose your PHI for mandatory public health activities
+    to a public health authority authorized by law to collect or receive such information
+    for the purpose of preventing or controlling disease, injury, or disability, or
+    if directed by a public health authority, to a government agency that is collaborating
+    with that public health authority.
+  - This Notice of Privacy Practices describes how we may use and disclose your PHI
+    in accordance with applicable law, including the Health Insurance Portability
+    and Accountability Act ("HIPAA"), regulations promulgated under HIPAA including
+    the HIPAA Privacy and Security Rules, and the NASW Code of Ethics .  It also describes
+    your rights regarding how you may gain access to and control your PHI.
+  - We may disclose PHI to a law enforcement official as required by law, in compliance
+    with a subpoena (with your written consent), court order, administrative order
+    or similar document, for the purpose of identifying a suspect, material witness
+    or missing person, in connection with the victim of a crime, in connection with
+    a deceased person, in connection with the reporting of a crime in an emergency,
+    or in connection with a crime on the premises.
+  - We may disclose your PHI if  necessary to prevent or lessen a serious and imminent
+    threat to the health or safety of a person or the public.
+  - We may review requests from U.S. military command authorities if you have served
+    as a member of the armed forces, authorized officials for national security and
+    intelligence reasons and to the Department of State for medical suitability determinations,
+    and disclose your PHI based on your written consent, mandatory disclosure laws
+    and the need to prevent serious harm.
+  - We may use and disclose PHI so that we can receive payment for the treatment services
+    provided to you.
+  purposes:
+    legal:
+    - for activities authorized by law, such as audits, investigations, and inspections
+    - for mandatory public health activities
+    - for the purpose of identifying a suspect, material witness or missing person,
+      in connection with the victim of a crime, in connection with a deceased person,
+      in connection with the reporting of a crime in an emergency, or in connection
+      with a crime on the premises
+    security:
+    - for the purpose of identifying a suspect, material witness or missing person,
+      in connection with the victim of a crime, in connection with a deceased person,
+      in connection with the reporting of a crime in an emergency, or in connection
+      with a crime on the premises
+- source: The Advisory Board Company
+  target: information involve in treatment
+  key: COLLECT
+  text:
+  - HealtheMed Care Team may have access to your information directly involved in
+    your treatment based on your ROI Consent signature.
+  purposes: {}
+- source: government agency
+  target: phi
+  key: COLLECT
+  text:
+  - If required, we may use or disclose your PHI for mandatory public health activities
+    to a public health authority authorized by law to collect or receive such information
+    for the purpose of preventing or controlling disease, injury, or disability, or
+    if directed by a public health authority, to a government agency that is collaborating
+    with that public health authority.
+  purposes:
+    legal:
+    - for mandatory public health activities
+- source: health oversight agency
+  target: phi
+  key: COLLECT
+  text:
+  - If required,  we may disclose PHI to a health oversight agency for activities
+    authorized by law, such as audits, investigations, and inspections.
+  purposes:
+    legal:
+    - for activities authorized by law, such as audits, investigations, and inspections
+- source: law enforcement official
+  target: phi
+  key: COLLECT
+  text:
+  - We may disclose PHI to a law enforcement official as required by law, in compliance
+    with a subpoena (with your written consent), court order, administrative order
+    or similar document, for the purpose of identifying a suspect, material witness
+    or missing person, in connection with the victim of a crime, in connection with
+    a deceased person, in connection with the reporting of a crime in an emergency,
+    or in connection with a crime on the premises.
+  purposes:
+    legal:
+    - for the purpose of identifying a suspect, material witness or missing person,
+      in connection with the victim of a crime, in connection with a deceased person,
+      in connection with the reporting of a crime in an emergency, or in connection
+      with a crime on the premises
+    security:
+    - for the purpose of identifying a suspect, material witness or missing person,
+      in connection with the victim of a crime, in connection with a deceased person,
+      in connection with the reporting of a crime in an emergency, or in connection
+      with a crime on the premises
+- source: public health authority
+  target: phi
+  key: COLLECT
+  text:
+  - If required, we may use or disclose your PHI for mandatory public health activities
+    to a public health authority authorized by law to collect or receive such information
+    for the purpose of preventing or controlling disease, injury, or disability, or
+    if directed by a public health authority, to a government agency that is collaborating
+    with that public health authority.
+  purposes:
+    legal:
+    - for mandatory public health activities
+nodes:
+- type: ACTOR
+  id: The Advisory Board Company
+- type: ACTOR
+  id: government agency
+- type: ACTOR
+  id: health oversight agency
+- type: ACTOR
+  id: law enforcement official
+- type: ACTOR
+  id: public health authority
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: dispense detail
+- type: DATA
+  id: health information about you
+- type: DATA
+  id: information about device
+- type: DATA
+  id: information involve in treatment
+- type: DATA
+  id: information relate to client rpm device reading
+- type: DATA
+  id: minimum amount of phi necessary
+- type: DATA
+  id: phi

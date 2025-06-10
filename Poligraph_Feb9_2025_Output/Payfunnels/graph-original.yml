@@ -1,0 +1,86 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Payfunnels may share PII with Payfunnels affiliates and third parties contracting
+    with Payfunnels to provide services to you, e.g., financial institutions.
+  purposes: {}
+- source: payfunnels
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Payfunnels also collects information via cookies; blocking cookies may render
+    you unable to access certain Payfunnels products, services, or websites.
+  purposes: {}
+- source: payfunnels
+  target: datum from stripe
+  key: COLLECT
+  text:
+  - Payfunnels uses data from Stripe for the connected user's account.
+  purposes:
+    services:
+    - for the connected user's account
+- source: payfunnels
+  target: non
+  key: COLLECT
+  text:
+  - PII and Non-PII may also be collected by Payfunnels during in-person discussions,
+    telephone conversations, and electronic or other written communications.
+  purposes: {}
+- source: payfunnels
+  target: personal identifier
+  key: COLLECT
+  text:
+  - PII and Non-PII may also be collected by Payfunnels during in-person discussions,
+    telephone conversations, and electronic or other written communications.
+  - Payfunnels may also share PII when required by law, or when you have expressly
+    requested Payfunnels to do so.
+  - Payfunnels may share PII with Payfunnels affiliates and third parties contracting
+    with Payfunnels to provide services to you, e.g., financial institutions.
+  purposes: {}
+- source: payfunnels affiliate
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Payfunnels may share PII with Payfunnels affiliates and third parties contracting
+    with Payfunnels to provide services to you, e.g., financial institutions.
+  purposes: {}
+- source: payfunnels llc refer to as payfunnels
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Payfunnels, LLC (also referred to herein as "Payfunnels") may collect two different
+    types of information, Personally Identifiable Information ("PII") and Non-Personally
+    Identifiable Information ("Non-PII").
+  purposes: {}
+- source: payfunnels llc refer to as payfunnels
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Payfunnels, LLC (also referred to herein as "Payfunnels") may collect two different
+    types of information, Personally Identifiable Information ("PII") and Non-Personally
+    Identifiable Information ("Non-PII").
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: payfunnels
+- type: ACTOR
+  id: payfunnels affiliate
+- type: ACTOR
+  id: payfunnels llc refer to as payfunnels
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: datum from stripe
+- type: DATA
+  id: non
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identifier

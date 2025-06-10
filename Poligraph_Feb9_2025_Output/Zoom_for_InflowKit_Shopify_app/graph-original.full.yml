@@ -1,0 +1,390 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This Privacy Policy outlines how we collect, use, and safeguard your data, taking
+    into consideration the principles and requirements set forth in these regulations.
+  purposes: {}
+- source: we
+  target: access log
+  key: COLLECT
+  text:
+  - We maintain access logs for a defined retention period as required by applicable
+    laws and regulations.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'Some of the uses of the collected personal data included but not limited to:
+    We may use anonymized and aggregated data for statistical purposes, market research,
+    and to improve the App''s performance and features'
+  purposes:
+    analytics:
+    - for statistical purposes, market research, and to improve the App's performance
+      and features
+    services:
+    - for statistical purposes, market research, and to improve the App's performance
+      and features
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - We retain all collected data only for as long as necessary to fulfill the purposes
+    outlined in this privacy policy, unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use cookies and other tracking technologies to collect information about
+    your usage of the App and improve your experience.
+  purposes: {}
+- source: we
+  target: file
+  key: COLLECT
+  text:
+  - 'The types of data we may collect include: Files:'
+  purposes: {}
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We may collect information about how you interact with the App, including your
+    access times, pages viewed, features used, and other analytical data.
+  purposes: {}
+- source: we
+  target: information about device you use
+  key: COLLECT
+  text:
+  - We may collect certain information about the device you use to access our non-Shopify
+    app, such as device type, operating system, IP address, and browser type.
+  purposes: {}
+- source: we
+  target: information about interaction within app
+  key: COLLECT
+  text:
+  - When you use our non-Shopify app, we may collect information about your interactions,
+    preferences, and activities within the app.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may use cookies and other tracking technologies to collect information about
+    your usage of the App and improve your experience.
+  purposes: {}
+- source: we
+  target: metadata relate to meeting
+  key: COLLECT
+  text:
+  - While we do not directly collect the content of these meetings, we may collect
+    metadata related to the meetings, such as meeting times, participants, and meeting
+    durations.
+  purposes: {}
+- source: we
+  target: option upload video
+  key: COLLECT
+  text:
+  - In such cases, we may collect and store this additional data to enable the functionality
+    of these features.
+  - When merchants install our app, they may have the option to upload videos, conduct
+    Zoom meetings, and upload files through our app.
+  purposes:
+    services:
+    - to enable the functionality of these features
+- source: we
+  target: personal datum provide
+  key: COLLECT
+  text:
+  - 'For our non-Shopify apps, we disclose the personal data provided by the merchant
+    directly or generated through their interactions with the app, including but not
+    limited to the following information:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We disclose the following personal data to our users:'
+  - When you create an account for our non-Shopify app, we may collect personal information
+    such as your name, email address, and password.
+  purposes: {}
+- source: we
+  target: personal information be
+  key: COLLECT
+  text:
+  - We only collect personal information that is necessary to provide and improve
+    the functionality of our app.
+  purposes: {}
+- source: comprehensive access logging system track
+  target: date
+  key: COLLECT
+  text:
+  - 'This logging system records the following information: Date and time of access'
+  - We maintain a comprehensive access logging system to track and monitor access
+    to personal data.
+  purposes: {}
+- source: comprehensive access logging system track
+  target: device information of access party
+  key: COLLECT
+  text:
+  - 'This logging system records the following information: IP address or device information
+    of the accessing party'
+  - We maintain a comprehensive access logging system to track and monitor access
+    to personal data.
+  purposes: {}
+- source: comprehensive access logging system track
+  target: ip address
+  key: COLLECT
+  text:
+  - 'This logging system records the following information: IP address or device information
+    of the accessing party'
+  - We maintain a comprehensive access logging system to track and monitor access
+    to personal data.
+  purposes: {}
+- source: comprehensive access logging system track
+  target: time
+  key: COLLECT
+  text:
+  - 'This logging system records the following information: Date and time of access'
+  - We maintain a comprehensive access logging system to track and monitor access
+    to personal data.
+  purposes: {}
+- source: comprehensive access logging system track
+  target: type of datum access
+  key: COLLECT
+  text:
+  - 'This logging system records the following information: Type of data accessed'
+  - We maintain a comprehensive access logging system to track and monitor access
+    to personal data.
+  purposes: {}
+- source: merchant
+  target: customer usage statistic
+  key: COLLECT
+  text:
+  - 'Some of the uses of the collected personal data included but not limited to:
+    Provide customer usage statistics to merchants'
+  purposes: {}
+- source: collect personal information
+  target: upload file
+  key: SUBSUM
+  text:
+  - All collected personal information, including videos, Zoom meeting metadata, and
+    uploaded files, is treated with utmost confidentiality and is used solely for
+    the purposes outlined in this Privacy Policy.
+- source: collect personal information
+  target: zoom meeting metadata
+  key: SUBSUM
+  text:
+  - All collected personal information, including videos, Zoom meeting metadata, and
+    uploaded files, is treated with utmost confidentiality and is used solely for
+    the purposes outlined in this Privacy Policy.
+- source: document
+  target: course material
+  key: SUBSUM
+  text:
+  - Merchants may upload media files, such as MP3, MP4, AVI, PDFs, ePUBs, DOCX, JPEG,
+    GIF, JPG, PNG and such as may constitute course materials, other types of documents,
+    or presentations, while using the app.
+- source: document
+  target: presentation
+  key: SUBSUM
+  text:
+  - Merchants may upload media files, such as MP3, MP4, AVI, PDFs, ePUBs, DOCX, JPEG,
+    GIF, JPG, PNG and such as may constitute course materials, other types of documents,
+    or presentations, while using the app.
+- source: information about
+  target: access time
+  key: SUBSUM
+  text:
+  - We may collect information about how you interact with the App, including your
+    access times, pages viewed, features used, and other analytical data.
+- source: information about
+  target: analytical datum
+  key: SUBSUM
+  text:
+  - We may collect information about how you interact with the App, including your
+    access times, pages viewed, features used, and other analytical data.
+- source: information about device you use
+  target: browser type
+  key: SUBSUM
+  text:
+  - We may collect certain information about the device you use to access our non-Shopify
+    app, such as device type, operating system, IP address, and browser type.
+- source: information about device you use
+  target: device type
+  key: SUBSUM
+  text:
+  - We may collect certain information about the device you use to access our non-Shopify
+    app, such as device type, operating system, IP address, and browser type.
+- source: information about device you use
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may collect certain information about the device you use to access our non-Shopify
+    app, such as device type, operating system, IP address, and browser type.
+- source: information about device you use
+  target: operating system
+  key: SUBSUM
+  text:
+  - We may collect certain information about the device you use to access our non-Shopify
+    app, such as device type, operating system, IP address, and browser type.
+- source: personal datum provide
+  target: device information
+  key: SUBSUM
+  text:
+  - 'For our non-Shopify apps, we disclose the personal data provided by the merchant
+    directly or generated through their interactions with the app, including but not
+    limited to the following information: Device Information:'
+- source: personal datum provide
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'For our non-Shopify apps, we disclose the personal data provided by the merchant
+    directly or generated through their interactions with the app, including but not
+    limited to the following information: App Usage Information:'
+- source: personal datum provide
+  target: user account information
+  key: SUBSUM
+  text:
+  - 'For our non-Shopify apps, we disclose the personal data provided by the merchant
+    directly or generated through their interactions with the app, including but not
+    limited to the following information: User Account Information:'
+- source: personal information
+  target: datum process
+  key: SUBSUM
+  text:
+  - By disclosing this personal data to our users, we aim to ensure transparency and
+    provide users with a clear understanding of the data that is processed and the
+    purposes for processing it.
+  - We are committed to maintaining the confidentiality and security of this personal
+    data in accordance with this privacy policy.
+- source: personal information
+  target: datum we collect
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1 Data We Collect'
+  - We are committed to maintaining the confidentiality and security of this personal
+    data in accordance with this privacy policy.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you create an account for our non-Shopify app, we may collect personal information
+    such as your name, email address, and password.
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - When you create an account for our non-Shopify app, we may collect personal information
+    such as your name, email address, and password.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you create an account for our non-Shopify app, we may collect personal information
+    such as your name, email address, and password.
+- source: personal information associate with account
+  target: datum collect from customer
+  key: SUBSUM
+  text:
+  - If a merchant chooses to delete or uninstall our app, we will promptly delete
+    all personal information associated with their account, including any data collected
+    from their customers.
+nodes:
+- type: ACTOR
+  id: comprehensive access logging system track
+- type: ACTOR
+  id: course material
+- type: ACTOR
+  id: document
+- type: ACTOR
+  id: merchant
+- type: ACTOR
+  id: presentation
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access log
+- type: DATA
+  id: access time
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: analytical datum
+- type: DATA
+  id: browser type
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: collect personal information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer usage statistic
+- type: DATA
+  id: date
+- type: DATA
+  id: datum collect from customer
+- type: DATA
+  id: datum process
+- type: DATA
+  id: datum we collect
+- type: DATA
+  id: device information
+- type: DATA
+  id: device information of access party
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: file
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about device you use
+- type: DATA
+  id: information about interaction within app
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: metadata relate to meeting
+- type: DATA
+  id: operating system
+- type: DATA
+  id: option upload video
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum provide
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information associate with account
+- type: DATA
+  id: personal information be
+- type: DATA
+  id: time
+- type: DATA
+  id: type of datum access
+- type: DATA
+  id: upload file
+- type: DATA
+  id: user account information
+- type: DATA
+  id: zoom meeting metadata

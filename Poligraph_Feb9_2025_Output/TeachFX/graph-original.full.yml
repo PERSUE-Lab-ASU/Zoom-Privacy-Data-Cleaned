@@ -1,0 +1,196 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    How We Store and Use Data:'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - In in-person instructional settings, we collect and store teacher names and emails
+    for the purpose of creating and providing access to TeachFX accounts.
+  - We also collect student display names (as provided by the virtual instructional
+    platform) and student email addresses and/or platform IDs (e.g. Zoom IDs).
+  - We use that data only to provide teachers with information about equity of student
+    voice in their virtual classrooms.
+  purposes:
+    services:
+    - for the purpose of creating and providing access to TeachFX accounts
+    - only to provide teachers with information about equity of student voice in their
+      virtual classrooms
+- source: we
+  target: platform id
+  key: COLLECT
+  text:
+  - We also collect student display names (as provided by the virtual instructional
+    platform) and student email addresses and/or platform IDs (e.g. Zoom IDs).
+  - We use that data only to provide teachers with information about equity of student
+    voice in their virtual classrooms.
+  purposes:
+    services:
+    - only to provide teachers with information about equity of student voice in their
+      virtual classrooms
+- source: we
+  target: same datum as
+  key: COLLECT
+  text:
+  - In virtual learning settings, we collect and store the same data as in in-person
+    instructional settings.
+  purposes: {}
+- source: we
+  target: student display name
+  key: COLLECT
+  text:
+  - We also collect student display names (as provided by the virtual instructional
+    platform) and student email addresses and/or platform IDs (e.g. Zoom IDs).
+  - We use that data only to provide teachers with information about equity of student
+    voice in their virtual classrooms.
+  purposes:
+    services:
+    - only to provide teachers with information about equity of student voice in their
+      virtual classrooms
+- source: we
+  target: teacher name
+  key: COLLECT
+  text:
+  - In in-person instructional settings, we collect and store teacher names and emails
+    for the purpose of creating and providing access to TeachFX accounts.
+  purposes:
+    services:
+    - for the purpose of creating and providing access to TeachFX accounts
+- source: we
+  target: zoom id
+  key: COLLECT
+  text:
+  - We also collect student display names (as provided by the virtual instructional
+    platform) and student email addresses and/or platform IDs (e.g. Zoom IDs).
+  purposes: {}
+- source: successor entity
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We Commit To: Allow a successor entity to maintain the personal information, in
+    the case of our merger or acquisition by another entity, provided the successor
+    entity is subject to these same commitments for the previously collected personal
+    information.'
+  purposes: {}
+- source: teachfx
+  target: classroom recording teacher make through teachfx app
+  key: COLLECT
+  text:
+  - Classroom recordings that teachers make through the TeachFX app include teacher
+    and student voices and language spoken in the classroom.
+  - This data is proactively collected by teachers to support their professional growth
+    as educators, and is securely stored by TeachFX.
+  purposes:
+    analytics:
+    - to support their professional growth as educators
+    services:
+    - to support their professional growth as educators
+- source: classroom recording teacher make through teachfx app
+  target: teacher voice
+  key: SUBSUM
+  text:
+  - Classroom recordings that teachers make through the TeachFX app include teacher
+    and student voices and language spoken in the classroom.
+- source: customer datum
+  target: teacher datum
+  key: SUBSUM
+  text:
+  - Customer data (including teacher and student data) will be securely deleted and
+    disposed of in accordance with company policy, contractual commitments and all
+    relevant laws and regulations.
+- source: educational activity
+  target: administration
+  key: SUBSUM
+  text:
+  - 'Definitions: ''Educational/School purposes'' are services or functions that customarily
+    take place at the direction of the educational institution/agency or their teacher/employee,
+    for which the institutions or agency would otherwise use its own employees, and
+    that aid in the administration or improvement of educational and school activities
+    (e.g., instruction, administration, and development and improvement of products/services
+    intended for educational/school use).'
+- source: educational activity
+  target: product service
+  key: SUBSUM
+  text:
+  - 'Definitions: ''Educational/School purposes'' are services or functions that customarily
+    take place at the direction of the educational institution/agency or their teacher/employee,
+    for which the institutions or agency would otherwise use its own employees, and
+    that aid in the administration or improvement of educational and school activities
+    (e.g., instruction, administration, and development and improvement of products/services
+    intended for educational/school use).'
+- source: personal information
+  target: student personal information
+  key: SUBSUM
+  text:
+  - We pledge to carry out responsible stewardship and appropriate use of personal
+    information, including student personal information where applicable, according
+    to the commitments below and in adherence to all laws applicable to us as school
+    service providers.
+- source: platform id
+  target: zoom id
+  key: SUBSUM
+  text:
+  - We also collect student display names (as provided by the virtual instructional
+    platform) and student email addresses and/or platform IDs (e.g. Zoom IDs).
+- source: virtual instructional platform
+  target: zoom
+  key: SUBSUM
+  text:
+  - We serve virtual learning partners through integrations with virtual instructional
+    platforms, such as Zoom.
+nodes:
+- type: ACTOR
+  id: administration
+- type: ACTOR
+  id: educational activity
+- type: ACTOR
+  id: product service
+- type: ACTOR
+  id: successor entity
+- type: ACTOR
+  id: teachfx
+- type: ACTOR
+  id: virtual instructional platform
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: classroom recording teacher make through teachfx app
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: personal information
+- type: DATA
+  id: platform id
+- type: DATA
+  id: same datum as
+- type: DATA
+  id: student display name
+- type: DATA
+  id: student personal information
+- type: DATA
+  id: teacher datum
+- type: DATA
+  id: teacher name
+- type: DATA
+  id: teacher voice
+- type: DATA
+  id: zoom id

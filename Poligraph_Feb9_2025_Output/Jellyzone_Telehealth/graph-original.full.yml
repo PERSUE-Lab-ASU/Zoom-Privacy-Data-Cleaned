@@ -1,0 +1,53 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: account
+  key: COLLECT
+  text:
+  - We will maintain our accounts and records with your business details and operate
+    our online hosting service where we will act as your authorised data processor
+    which is compliant with the Data protection act 2018.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may use Aggregated Data such as statistical or system usage data for any purpose.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We process personal information to enable us to provide health services to our
+    clients and their patients.
+  purposes:
+    services:
+    - to enable us to provide health services to our clients and their patients
+- source: we
+  target: record
+  key: COLLECT
+  text:
+  - We will maintain our accounts and records with your business details and operate
+    our online hosting service where we will act as your authorised data processor
+    which is compliant with the Data protection act 2018.
+  purposes: {}
+- source: aggregate / deidentified / pseudonymized information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - We may use Aggregated Data such as statistical or system usage data for any purpose.
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: account
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: personal information
+- type: DATA
+  id: record

@@ -1,0 +1,272 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This Privacy Policy explains how we collect, use, disclose, and safeguard your
+    information when you use our mobile application and related services.
+  - We collect this data only when you sign in with your Google account.
+  - 'We may share your information with: Service providers : Who assist us in delivering
+    our app (e.g., cloud hosting, analytics).'
+  - 'We may use your information for various purposes, including: Providing, maintaining,
+    and improving our app.'
+  purposes: {}
+- source: we
+  target: detail of google calendar meeting
+  key: COLLECT
+  text:
+  - We access details of your Google Calendar meetings, including meeting titles,
+    attendees, date, time, and other related information, to assist with managing
+    your meetings.
+  purposes:
+    services:
+    - to assist with managing your meetings
+- source: we
+  target: detail of zoom meeting
+  key: COLLECT
+  text:
+  - We access details of your Zoom meetings, including meeting titles, attendees,
+    date, time, and other relevant information, to assist with managing your meetings
+    and tasks.
+  purposes:
+    services:
+    - to assist with managing your meetings and tasks
+- source: we
+  target: device information
+  key: COLLECT
+  text:
+  - We may collect certain information automatically, such as device information,
+    usage information, and analytics.
+  purposes: {}
+- source: we
+  target: encrypted oauth token
+  key: COLLECT
+  text:
+  - We store an encrypted OAuth token to maintain access to your Slack account, allowing
+    us to retrieve and manage meeting data.
+  - We store an encrypted OAuth token to maintain access to your Zoom account, allowing
+    us to retrieve and manage meeting data.
+  purposes:
+    services:
+    - to maintain access to your Slack account
+    - to maintain access to your Zoom account
+- source: we
+  target: google user datum
+  key: COLLECT
+  text:
+  - 'When you sign in to our app using your Google account, we collect and process
+    the following Google user data, with your consent:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'For users in the EU/EEA , we process your personal data under the following legal
+    bases:'
+  - We retain your personal information for as long as necessary to provide our services
+    and fulfill the purposes outlined in this Privacy Policy.
+  purposes:
+    services:
+    - to provide our services and fulfill the purposes outlined in this Privacy Policy
+- source: we
+  target: slack data
+  key: COLLECT
+  text:
+  - 'Purpose of Data Collection : Data obtained through the Zoom API is used solely
+    to provide the specific functionality of our app, such as managing meetings, and
+    is not shared with third parties for any purpose unrelated to the direct delivery
+    of services.  Slack Data What Slack User Data We Collect :'
+  purposes: {}
+- source: we
+  target: slack user datum
+  key: COLLECT
+  text:
+  - 'When you integrate your Zoom account with our app, we collect and process the
+    following Slack user data, with your consent:'
+  purposes: {}
+- source: we
+  target: text feedback
+  key: COLLECT
+  text:
+  - 'Information We Collect Information You Provide : When you use our app, you may
+    provide us with information, including but not limited to voice recordings and
+    text feedback.'
+  purposes: {}
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - We may collect certain information automatically, such as device information,
+    usage information, and analytics.
+  purposes: {}
+- source: we
+  target: voiceprint
+  key: COLLECT
+  text:
+  - 'Information We Collect Information You Provide : When you use our app, you may
+    provide us with information, including but not limited to voice recordings and
+    text feedback.'
+  purposes: {}
+- source: we
+  target: zoom meeting recording
+  key: COLLECT
+  text:
+  - If enabled, we access your Zoom meeting recordings, including the transcript,
+    to provide additional functionality within our app.
+  purposes:
+    services:
+    - to provide additional functionality within our app
+- source: we
+  target: zoom user datum
+  key: COLLECT
+  text:
+  - 'When you integrate your Zoom account with our app, we collect and process the
+    following Zoom user data, with your consent: Meeting Data :'
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may share your information with: Service providers : Who assist us in delivering
+    our app (e.g., cloud hosting, analytics).'
+  purposes: {}
+- source: we
+  target: analytic provider
+  key: SUBSUM
+  text:
+  - 'We may share your information with: Service providers : Who assist us in delivering
+    our app (e.g., cloud hosting, analytics).'
+- source: basic account detail
+  target: email address
+  key: SUBSUM
+  text:
+  - Basic account details such as your Slack user ID and email address are collected
+    for identification purposes.
+  - Basic account details such as your Zoom user ID and email address are collected
+    for identification purposes.
+- source: basic account detail
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - Basic account details such as your Slack user ID and email address are collected
+    for identification purposes.
+  - Basic account details such as your Zoom user ID and email address are collected
+    for identification purposes.
+- source: detail of google calendar meeting
+  target: date
+  key: SUBSUM
+  text:
+  - We access details of your Google Calendar meetings, including meeting titles,
+    attendees, date, time, and other related information, to assist with managing
+    your meetings.
+- source: detail of google calendar meeting
+  target: meeting title
+  key: SUBSUM
+  text:
+  - We access details of your Google Calendar meetings, including meeting titles,
+    attendees, date, time, and other related information, to assist with managing
+    your meetings.
+- source: detail of google calendar meeting
+  target: related information
+  key: SUBSUM
+  text:
+  - We access details of your Google Calendar meetings, including meeting titles,
+    attendees, date, time, and other related information, to assist with managing
+    your meetings.
+- source: detail of google calendar meeting
+  target: time
+  key: SUBSUM
+  text:
+  - We access details of your Google Calendar meetings, including meeting titles,
+    attendees, date, time, and other related information, to assist with managing
+    your meetings.
+- source: detail of zoom meeting
+  target: date
+  key: SUBSUM
+  text:
+  - We access details of your Zoom meetings, including meeting titles, attendees,
+    date, time, and other relevant information, to assist with managing your meetings
+    and tasks.
+- source: detail of zoom meeting
+  target: meeting title
+  key: SUBSUM
+  text:
+  - We access details of your Zoom meetings, including meeting titles, attendees,
+    date, time, and other relevant information, to assist with managing your meetings
+    and tasks.
+- source: detail of zoom meeting
+  target: relevant information
+  key: SUBSUM
+  text:
+  - We access details of your Zoom meetings, including meeting titles, attendees,
+    date, time, and other relevant information, to assist with managing your meetings
+    and tasks.
+- source: detail of zoom meeting
+  target: time
+  key: SUBSUM
+  text:
+  - We access details of your Zoom meetings, including meeting titles, attendees,
+    date, time, and other relevant information, to assist with managing your meetings
+    and tasks.
+- source: zoom meeting recording
+  target: transcript
+  key: SUBSUM
+  text:
+  - If enabled, we access your Zoom meeting recordings, including the transcript,
+    to provide additional functionality within our app.
+nodes:
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: basic account detail
+- type: DATA
+  id: date
+- type: DATA
+  id: detail of google calendar meeting
+- type: DATA
+  id: detail of zoom meeting
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: encrypted oauth token
+- type: DATA
+  id: google user datum
+- type: DATA
+  id: meeting title
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: related information
+- type: DATA
+  id: relevant information
+- type: DATA
+  id: slack data
+- type: DATA
+  id: slack user datum
+- type: DATA
+  id: text feedback
+- type: DATA
+  id: time
+- type: DATA
+  id: transcript
+- type: DATA
+  id: usage information
+- type: DATA
+  id: voiceprint
+- type: DATA
+  id: zoom meeting recording
+- type: DATA
+  id: zoom user datum

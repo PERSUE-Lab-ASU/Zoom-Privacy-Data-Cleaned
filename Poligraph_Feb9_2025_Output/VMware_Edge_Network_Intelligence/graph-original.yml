@@ -1,0 +1,41 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - The Privacy Notice and Policy describes how we collect, use and disclose personal
+    data for Broadcom's business purposes.
+  purposes: {}
+- source: Broadcom
+  target: information about use of on premise product
+  key: COLLECT
+  text:
+  - 'Data Usage Programs
+
+
+    Broadcom collects information about customer organizations'' use of our on-premise
+    products and hosted services for a variety of purposes such as improving our products
+    and services.'
+  purposes: {}
+- source: Broadcom
+  target: personal datum of job applicant
+  key: COLLECT
+  text:
+  - The Privacy Notices for Candidates describe how Broadcom collects, stores, uses
+    and discloses personal data of job applicants during the recruitment process in
+    the applicable regions and countries.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Broadcom
+- type: ACTOR
+  id: we
+- type: DATA
+  id: information about use of on premise product
+- type: DATA
+  id: personal datum of job applicant
+- type: DATA
+  id: personal information

@@ -1,0 +1,199 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We will use your:'
+  purposes: {}
+- source: we
+  target: google user data
+  key: COLLECT
+  text:
+  - 'Restrictions apply to this use of this data include: We will use your Google
+    User Data only to provide user-facing features of the services that are prominent
+    in the services'' user interface.'
+  - We will only transfer your Google User Data to unaffiliated third parties (a)
+    if necessary to provide or improve user-facing features that are prominent in
+    the services' user interface, (b) as necessary to comply with applicable law or
+    (c) as part of a merger, acquisition or sale of assets with notice to you.
+  purposes:
+    services:
+    - only to provide user-facing features of the services that are prominent in the
+      services' user interface
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We also collect your usage data on the Platform including your session date and
+    time, log data, clicks, error logging and feature usage including but not limited
+    to your note customization, generation inputs or preferences.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - What personal data do we process?
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: google user data
+  key: COLLECT
+  text:
+  - We will only transfer your Google User Data to unaffiliated third parties (a)
+    if necessary to provide or improve user-facing features that are prominent in
+    the services' user interface, (b) as necessary to comply with applicable law or
+    (c) as part of a merger, acquisition or sale of assets with notice to you.
+  purposes: {}
+- source: copy of personal datum
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Moreover, you can receive a copy of your personal data or ask Upheal to transmit
+    that data to another controller, where technically feasible.
+  purposes: {}
+- source: supplier outside european economic area
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you use our services from the EU, Switzerland or the UK, we inform you that
+    your data is transferred to our suppliers outside the European Economic Area and
+    the UK, in particular in the U.S.
+  purposes: {}
+- source: upheal
+  target: personal information
+  key: COLLECT
+  text:
+  - Upheal will disclose your personal data outside the scope of these provisions
+    only as required to do so by law or compelled by court, government or administrative
+    agency of competent jurisdiction.
+  purposes: {}
+- source: we
+  target: upheal
+  key: SUBSUM
+  text:
+  - 'Healing professionals, group practices and organizations
+
+
+    Upheal Inc.,  a Delaware corporation, https://upheal.io ,  ( ''Upheal'', "us")  informs
+    you that your personal data will be processed in the ways specified below.'
+- source: feature usage
+  target: generation input
+  key: SUBSUM
+  text:
+  - We also collect your usage data on the Platform including your session date and
+    time, log data, clicks, error logging and feature usage including but not limited
+    to your note customization, generation inputs or preferences.
+- source: feature usage
+  target: note customization
+  key: SUBSUM
+  text:
+  - We also collect your usage data on the Platform including your session date and
+    time, log data, clicks, error logging and feature usage including but not limited
+    to your note customization, generation inputs or preferences.
+- source: feature usage
+  target: preference
+  key: SUBSUM
+  text:
+  - We also collect your usage data on the Platform including your session date and
+    time, log data, clicks, error logging and feature usage including but not limited
+    to your note customization, generation inputs or preferences.
+- source: google user datum contain in google account
+  target: google user data
+  key: SUBSUM
+  text:
+  - To provide this connection, we obtain, process and store a copy of the Google
+    user data contained in your Google account including your Gmail and Google Calendar
+    (Google User Data).
+- source: internet activity
+  target: click
+  key: SUBSUM
+  text:
+  - We also collect your usage data on the Platform including your session date and
+    time, log data, clicks, error logging and feature usage including but not limited
+    to your note customization, generation inputs or preferences.
+- source: internet activity
+  target: error logging
+  key: SUBSUM
+  text:
+  - We also collect your usage data on the Platform including your session date and
+    time, log data, clicks, error logging and feature usage including but not limited
+    to your note customization, generation inputs or preferences.
+- source: internet activity
+  target: feature usage
+  key: SUBSUM
+  text:
+  - We also collect your usage data on the Platform including your session date and
+    time, log data, clicks, error logging and feature usage including but not limited
+    to your note customization, generation inputs or preferences.
+- source: internet activity
+  target: log datum
+  key: SUBSUM
+  text:
+  - We also collect your usage data on the Platform including your session date and
+    time, log data, clicks, error logging and feature usage including but not limited
+    to your note customization, generation inputs or preferences.
+- source: internet activity
+  target: session date
+  key: SUBSUM
+  text:
+  - We also collect your usage data on the Platform including your session date and
+    time, log data, clicks, error logging and feature usage including but not limited
+    to your note customization, generation inputs or preferences.
+- source: internet activity
+  target: time
+  key: SUBSUM
+  text:
+  - We also collect your usage data on the Platform including your session date and
+    time, log data, clicks, error logging and feature usage including but not limited
+    to your note customization, generation inputs or preferences.
+- source: provider for integration
+  target: Nylas
+  key: SUBSUM
+  text:
+  - 'Your data will be communicated to: providers for our integrations, including
+    Nylas Inc., who facilitate our connection to Google Calendar;'
+nodes:
+- type: ACTOR
+  id: Nylas
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: copy of personal datum
+- type: ACTOR
+  id: provider for integration
+- type: ACTOR
+  id: supplier outside european economic area
+- type: ACTOR
+  id: upheal
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: click
+- type: DATA
+  id: error logging
+- type: DATA
+  id: feature usage
+- type: DATA
+  id: generation input
+- type: DATA
+  id: google user data
+- type: DATA
+  id: google user datum contain in google account
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: log datum
+- type: DATA
+  id: note customization
+- type: DATA
+  id: personal information
+- type: DATA
+  id: preference
+- type: DATA
+  id: session date
+- type: DATA
+  id: time

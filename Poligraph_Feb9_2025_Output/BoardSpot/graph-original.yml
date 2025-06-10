@@ -1,0 +1,128 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    What information we collect and store, where we get this information, and how
+    we use this information'
+  - 'To verify your identity, you will need to provide us with the following information
+    with your request:'
+  purposes:
+    security:
+    - To verify your identity
+    services:
+    - Email address
+    - IP address
+    - Phone number;
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - This Website uses Google Analytics to collect information about you and your behaviors.
+  - 'We collect and store the following information about you:'
+  purposes: {}
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - We use the information that we collect about you for direct marketing purposes.
+  purposes:
+    advertising:
+    - for direct marketing purposes
+- source: we
+  target: information you enter on website
+  key: COLLECT
+  text:
+  - We collect and store any and all information that you enter on this Website.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'To verify your identity, you will need to provide us with the following information
+    with your request: IP address;'
+  purposes:
+    security:
+    - To verify your identity
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'To verify your identity, you will need to provide us with the following information
+    with your request: Name;'
+  purposes:
+    security:
+    - To verify your identity
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    With whom we share your personal information'
+  - Should a child whom we know to be under 18 send personal information to us, we
+    will use that information only to respond to that child to inform him or her that
+    they cannot use this Website.
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - 'To verify your identity, you will need to provide us with the following information
+    with your request: Phone number;'
+  purposes:
+    security:
+    - To verify your identity
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - A cookie is a small piece of data sent from a website and stored on your device
+    by your browser.
+  - 'This Website collects cookies and may use cookies for reasons including, but
+    not limited to:'
+  purposes:
+    advertising:
+    - Analyzing your interactions with advertisements
+    analytics:
+    - Analyzing our Website traffic
+    - Analyzing your interactions with advertisements
+    - Testing content on the Website
+    security:
+    - Identifying if you are signed in to the Website
+    - Storing information about your preferences
+    services:
+    - Identifying if you are signed in to the Website
+    - Recognizing when you return to the Website
+    - Storing information about your preferences
+    - Testing content on the Website
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: information you enter on website
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number

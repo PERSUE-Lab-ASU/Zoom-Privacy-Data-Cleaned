@@ -1,0 +1,218 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'JotCast may collect and use Users personal information for the following purposes:
+    To personalize user experience We may use information in the aggregate to understand
+    how our Users as a group use the services and resources provided on our Site.'
+  purposes:
+    analytics:
+    - to understand how our Users as a group use the services and resources provided
+      on our Site
+    services:
+    - To personalize user experience
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our Site may use "cookies" to enhance User experience.
+  purposes:
+    services:
+    - to enhance User experience
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'JotCast may collect and use Users personal information for the following purposes:
+    To send periodic emails We may use the email address to send User information
+    and updates pertaining to their order.'
+  purposes:
+    services:
+    - To send periodic emails
+    - to send User information and updates pertaining to their order
+- source: we
+  target: feedback you provide
+  key: COLLECT
+  text:
+  - 'JotCast may collect and use Users personal information for the following purposes:
+    To improve our Site We may use feedback you provide to improve our products and
+    services.'
+  purposes:
+    services:
+    - To improve our Site
+    - to improve our products and services
+- source: we
+  target: generic aggregate demographic information not link to personal identification
+    information regard visitor
+  key: COLLECT
+  text:
+  - We may share generic aggregated demographic information not linked to any personal
+    identification information regarding visitors and users with our business partners,
+    trusted affiliates, and advertisers for the purposes outlined above.
+  purposes: {}
+- source: we
+  target: information user provide about themselves
+  key: COLLECT
+  text:
+  - 'JotCast may collect and use Users personal information for the following purposes:
+    To process payments We may use the information Users provide about themselves
+    when placing an order only to provide service to that order.'
+  purposes:
+    services:
+    - To process payments
+    - only to provide service to that order
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may collect non-personal identification information about Users whenever they
+    interact with our Site.
+  purposes: {}
+- source: we
+  target: personal identification information
+  key: COLLECT
+  text:
+  - We may collect personal identification information from Users in a variety of
+    ways, including, but not limited to, when Users visit our site, register on the
+    site, place an order, and in connection with other activities, services, features
+    or resources we make available on our Site.
+  - We will collect personal identification information from Users only if they voluntarily
+    submit such information to us.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This means that we can only continue to store your personal data and will not
+    be able to carry out any further processing activities until the issue is resolved.
+  purposes: {}
+- source: we
+  target: specific information
+  key: COLLECT
+  text:
+  - Please note that we may need to request specific information from you to help
+    us confirm your identity and ensure your right to access the information (or to
+    exercise any of your other rights).
+  purposes:
+    security:
+    - to help us confirm your identity and ensure your right to access the information
+      (or to exercise any of your other rights)
+- source: advertiser
+  target: generic aggregate demographic information not link to personal identification
+    information regard visitor
+  key: COLLECT
+  text:
+  - We may share generic aggregated demographic information not linked to any personal
+    identification information regarding visitors and users with our business partners,
+    trusted affiliates, and advertisers for the purposes outlined above.
+  purposes: {}
+- source: business partner
+  target: generic aggregate demographic information not link to personal identification
+    information regard visitor
+  key: COLLECT
+  text:
+  - We may share generic aggregated demographic information not linked to any personal
+    identification information regarding visitors and users with our business partners,
+    trusted affiliates, and advertisers for the purposes outlined above.
+  purposes: {}
+- source: jotcast
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    JotCast may collect and use Users personal information for the following purposes:'
+  purposes:
+    analytics:
+    - To improve customer service Information you provide helps us respond to your
+      customer service requests and support needs more efficiently
+    - To improve our Site We may use feedback you provide to improve our products
+      and services
+    - to understand how our Users as a group use the services and resources provided
+      on our Site
+    services:
+    - To improve customer service Information you provide helps us respond to your
+      customer service requests and support needs more efficiently
+    - To improve our Site We may use feedback you provide to improve our products
+      and services
+    - To personalize user experience
+    - To process payments
+    - To send periodic emails We may use the email address to send User information
+      and updates pertaining to their order
+    - only to provide service to that order
+- source: trusted affiliate
+  target: generic aggregate demographic information not link to personal identification
+    information regard visitor
+  key: COLLECT
+  text:
+  - We may share generic aggregated demographic information not linked to any personal
+    identification information regarding visitors and users with our business partners,
+    trusted affiliates, and advertisers for the purposes outlined above.
+  purposes: {}
+- source: non-personal information
+  target: type of computer
+  key: SUBSUM
+  text:
+  - Non-personal identification information may include the browser name, the type
+    of computer and technical information about Users means of connection to our Site,
+    such as the operating system and the Internet service providers utilized and other
+    similar information.
+- source: type of computer
+  target: browser name
+  key: SUBSUM
+  text:
+  - Non-personal identification information may include the browser name, the type
+    of computer and technical information about Users means of connection to our Site,
+    such as the operating system and the Internet service providers utilized and other
+    similar information.
+- source: type of computer
+  target: technical information
+  key: SUBSUM
+  text:
+  - Non-personal identification information may include the browser name, the type
+    of computer and technical information about Users means of connection to our Site,
+    such as the operating system and the Internet service providers utilized and other
+    similar information.
+nodes:
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: jotcast
+- type: ACTOR
+  id: trusted affiliate
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser name
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: feedback you provide
+- type: DATA
+  id: generic aggregate demographic information not link to personal identification
+    information regard visitor
+- type: DATA
+  id: information user provide about themselves
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identification information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: specific information
+- type: DATA
+  id: technical information
+- type: DATA
+  id: type of computer

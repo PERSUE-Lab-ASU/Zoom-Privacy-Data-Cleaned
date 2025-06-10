@@ -1,0 +1,402 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We automatically collect certain information when you visit, use or navigate the
+    platform.
+  purposes: {}
+- source: we
+  target: browser datum
+  key: COLLECT
+  text:
+  - We may also use browser data such as cookies, Flash cookies (also known as Flash
+    Local Shared Objects) or similar data on certain parts of our Website for fraud
+    prevention and other purposes.
+  purposes:
+    security:
+    - for fraud prevention and other purposes
+- source: we
+  target: conversation
+  key: COLLECT
+  text:
+  - We do store all conversation and personal data for up to 6 years unless your account
+    is deleted.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use Cookies to enhance the performance and functionality of our website but
+    are non-essential to their use.
+  purposes:
+    services:
+    - to enhance the performance and functionality of our website
+- source: we
+  target: information collect
+  key: COLLECT
+  text:
+  - We use the information collected for Human Resources purposes in order to administer
+    benefits to workers and screen applicants.
+  purposes:
+    services:
+    - for Human Resources purposes
+    - in order to administer benefits to workers and screen applicants
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - If you are a Mindbeat worker or applicant, we collect information you voluntarily
+    provide to us.
+  purposes: {}
+- source: we
+  target: information you provide to we during course of
+  key: COLLECT
+  text:
+  - We will collect information that you provide to us during the course of your communicating
+    with and accessing our coaches.
+  purposes: {}
+- source: we
+  target: personal datum relate to user of service
+  key: COLLECT
+  text:
+  - We collect, store and process personal data relating to users of our services
+    in order to ensure that our services can be provided properly and to the benefit
+    of users.
+  purposes:
+    services:
+    - in order to ensure that our services can be provided properly and to the benefit
+      of users
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This privacy notice sets down how we collect and use personal information about
+    you during and after your engagement with us.
+  - We do store all conversation and personal data for up to 6 years unless your account
+    is deleted.
+  - We may disclose information (including personal information) about you to our
+    Corporate Affiliates.
+  purposes: {}
+- source: we
+  target: session information
+  key: COLLECT
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+  purposes: {}
+- source: we
+  target: technical information
+  key: COLLECT
+  text:
+  - We may also collect technical information to help us identify your device for
+    fraud prevention and diagnostic purposes.
+  purposes:
+    security:
+    - to help us identify your device for fraud prevention and diagnostic purposes
+- source: Facebook
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Facebook pixel may collect information from your device when you use the service.
+  purposes: {}
+- source: Facebook
+  target: information hold in accordance with privacy policy
+  key: COLLECT
+  text:
+  - Facebook pixel collects information that is held in accordance with its Privacy
+    Policy.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Such third parties may use their own cookies or other methods to collect information
+    about you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - Such third parties may use their own cookies or other methods to collect information
+    about you.
+  purposes: {}
+- source: corporate affiliates
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose information (including personal information) about you to our
+    Corporate Affiliates.
+  purposes: {}
+- source: mindbeat
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Mindbeat uses "Cookies" to identify the areas of our website that you have visited.
+  purposes:
+    analytics:
+    - to identify the areas of our website that you have visited
+- source: mindbeat
+  target: personal information
+  key: COLLECT
+  text:
+  - Mindbeat processes or stores all personal data in fully vetted, DPA compliant
+    vendors.
+  - This Privacy Policy explains how your personal information is collected, used,
+    and disclosed by Mindbeat.
+  purposes: {}
+- source: we
+  target: associated subdomain
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to our website, and its associated subdomains (collectively,
+    our "Service") alongside our application, Mindbeat.
+- source: we
+  target: mindbeat
+  key: SUBSUM
+  text:
+  - Mindbeat ("we," "our," or "us") is committed to protecting your privacy.
+- source: browser datum
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - We may also use browser data such as cookies, Flash cookies (also known as Flash
+    Local Shared Objects) or similar data on certain parts of our Website for fraud
+    prevention and other purposes.
+- source: browser datum
+  target: datum on part of website
+  key: SUBSUM
+  text:
+  - We may also use browser data such as cookies, Flash cookies (also known as Flash
+    Local Shared Objects) or similar data on certain parts of our Website for fraud
+    prevention and other purposes.
+- source: corporate affiliates
+  target: mindbeat
+  key: SUBSUM
+  text:
+  - We reserve the right to transfer information to a third party in the event of
+    a sale, merger or other transfer of all or substantially all of the assets of
+    Mindbeat or any of its Corporate Affiliates (as defined herein), or that portion
+    of Mindbeat or any of its Corporate Affiliates to which the Service relates, or
+    in the event that we discontinue our business or file a petition or have filed
+    against us a petition in bankruptcy, reorganization or similar proceeding, provided
+    that the third party agrees to adhere to the terms of this Privacy Policy.
+- source: email address
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: email address
+  target: date
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: email address
+  target: phone number
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: email address
+  target: time
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: information about you
+  target: language preference
+  key: SUBSUM
+  text:
+  - It is used to identify your browser, provide analytics, remember information about
+    you such as your language preference or login information.
+- source: information about you
+  target: login information
+  key: SUBSUM
+  text:
+  - It is used to identify your browser, provide analytics, remember information about
+    you such as your language preference or login information.
+- source: information collect
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: information collect
+  target: date
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: information collect
+  target: email address
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: information collect
+  target: phone number
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: information collect
+  target: time
+  key: SUBSUM
+  text:
+  - Other information collected automatically could be a login, email address, password,
+    computer and connection information such as browser plug-in types and versions
+    and time zone setting, operating systems and platforms, purchase history, (we
+    sometimes aggregate with similar information from other Users), the full Uniform
+    Resource Locator (URL) clickstream to, through and from our Website that may include
+    date and time; cookie number; parts of the site you viewed or searched for; and
+    the phone number you used to call our Customer Services.
+- source: page interaction information
+  target: mouse over
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: session information
+  target: download error
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: session information
+  target: length
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: session information
+  target: page interaction information
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: session information
+  target: page response time
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: associated subdomain
+- type: ACTOR
+  id: corporate affiliates
+- type: ACTOR
+  id: mindbeat
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser datum
+- type: DATA
+  id: conversation
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: datum on part of website
+- type: DATA
+  id: download error
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information collect
+- type: DATA
+  id: information hold in accordance with privacy policy
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: information you provide to we during course of
+- type: DATA
+  id: language preference
+- type: DATA
+  id: length
+- type: DATA
+  id: login information
+- type: DATA
+  id: mouse over
+- type: DATA
+  id: page interaction information
+- type: DATA
+  id: page response time
+- type: DATA
+  id: personal datum relate to user of service
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: session information
+- type: DATA
+  id: technical information
+- type: DATA
+  id: time

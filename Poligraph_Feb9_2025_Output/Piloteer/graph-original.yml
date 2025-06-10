@@ -1,0 +1,147 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Here''s a clear breakdown of our Privacy Policy to inspire trust at every step:
+    How We Use Your Information : We use your information to provide and enhance our
+    Services, analyze user behavior, and offer personalized features.'
+  - We gather data about how you use our Services to improve them and personalize
+    your experience.
+  - We may disclose your information as required by law or to protect our rights and
+    safety.
+  purposes:
+    analytics:
+    - to provide and enhance our Services, analyze user behavior, and offer personalized
+      features
+    services:
+    - to provide and enhance our Services, analyze user behavior, and offer personalized
+      features
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'Here''s a clear breakdown of our Privacy Policy to inspire trust at every step:
+    Information Sharing and Disclosure : Your Privacy Matters:  We only share anonymized
+    data with third-party service providers who assist us in delivering and improving
+    our Services.'
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - 'Here''s a clear breakdown of our Privacy Policy to inspire trust at every step:
+    How We Use Your Information : We may also use your contact information to send
+    you necessary messages about our Services and promotional materials, which you
+    can opt out of at any time.'
+  - We collect information like your name, email address, and contact details when
+    you create an account or use our Services.
+  purposes:
+    advertising:
+    - to send you necessary messages about our Services and promotional materials,
+      which you can opt out of at any time
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and similar tech to understand your browsing behavior and preferences,
+    but you can control this through your browser settings.
+  purposes:
+    analytics:
+    - to understand your browsing behavior and preferences
+- source: we
+  target: datum relate to meeting
+  key: COLLECT
+  text:
+  - Additionally, we collect data related to your meetings, like transcripts and participant
+    information, to provide analytics and coaching services.
+  purposes:
+    analytics:
+    - to provide analytics and coaching services
+    services:
+    - to provide analytics and coaching services
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We collect information like your name, email address, and contact details when
+    you create an account or use our Services.
+  purposes: {}
+- source: we
+  target: log of access relate to datum
+  key: COLLECT
+  text:
+  - 'Data Security : Access Controls and Monitoring:  We implement robust access controls
+    and maintain detailed logs of access and activities related to your data, ensuring
+    only authorized personnel can access it.'
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We collect information like your name, email address, and contact details when
+    you create an account or use our Services.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Data Retention : Responsible Data Handling:  We keep your personal information
+    for as long as necessary to fulfill the purposes outlined in this Policy, ensuring
+    responsible handling of your data.'
+  - 'Termination : Legal Basis for Processing : We process your personal data based
+    on the following legal grounds:'
+  purposes:
+    legal:
+    - to fulfill the purposes outlined in this Policy
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'Here''s a clear breakdown of our Privacy Policy to inspire trust at every step:
+    Information Sharing and Disclosure : Your Privacy Matters:  We only share anonymized
+    data with third-party service providers who assist us in delivering and improving
+    our Services.'
+  purposes: {}
+- source: datum relate to meeting
+  target: participant information
+  key: SUBSUM
+  text:
+  - Additionally, we collect data related to your meetings, like transcripts and participant
+    information, to provide analytics and coaching services.
+- source: datum relate to meeting
+  target: transcript
+  key: SUBSUM
+  text:
+  - Additionally, we collect data related to your meetings, like transcripts and participant
+    information, to provide analytics and coaching services.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum relate to meeting
+- type: DATA
+  id: email address
+- type: DATA
+  id: log of access relate to datum
+- type: DATA
+  id: participant information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: transcript

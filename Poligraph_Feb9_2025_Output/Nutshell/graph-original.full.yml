@@ -1,0 +1,341 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'We use cookies as part of our Services for purposes including the following:'
+  purposes:
+    advertising:
+    - In addition to Nutshell's use of cookies on our clients' websites, our clients
+      may utilize cookies themselves, or our clients may utilize other third-party
+      service providers, including advertisers, ad networks and servers, content providers,
+      and application providers
+    analytics:
+    - Identify visitors to our clients' websites and allow our clients to fulfill
+      requests or offer goods or services to those visitors
+    security:
+    - Protect those websites from malicious activity
+    services:
+    - Customize content offered by those websites
+    - Help the websites work more efficiently
+    - Identify visitors to our clients' websites and allow our clients to fulfill
+      requests or offer goods or services to those visitors
+- source: we
+  target: minimal amount
+  key: COLLECT
+  text:
+  - For example, when you file a support ticket, we will transmit a minimal amount
+    of your Personal Data (e.g. your email address) to our support software provider.
+  purposes: {}
+- source: nutshell
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'User Information Nutshell Collects
+
+
+    Personal Data'
+  purposes: {}
+- source: nutshell
+  target: anonymized demographic datum from visitor
+  key: COLLECT
+  text:
+  - Nutshell may use anonymized demographic and interest-based data from visitors
+    to influence how we purchase advertising.
+  purposes:
+    advertising:
+    - to influence how we purchase advertising
+- source: nutshell
+  target: available information on third party
+  key: COLLECT
+  text:
+  - Should such an attack be perpetrated, Nutshell will supply authorities with available
+    information on the third party when such event comes under prosecution.
+  purposes: {}
+- source: nutshell
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Nutshell may also use cookies to provide retargeting advertising on other sites
+    based on your previous interaction with the Product.
+  - Nutshell uses cookie, IP address, GPS location, URL information and other technical
+    connection details to improve and further develop the Product, and to provide
+    enhanced or geographically differentiated features and Product levels to Users,
+    where available.
+  - Nutshell uses cookies to save User screen names, session validators, and on Users'
+    browsers and hard drives, and may use them to provide tailored Product features
+    to those Users, as they become available.
+  - 'User Information Nutshell Collects
+
+
+    Cookies and Passive Data Collection'
+  purposes:
+    advertising:
+    - to provide retargeting advertising on other sites based on your previous interaction
+      with the Product
+    security:
+    - to save User screen names, session validators, and on Users' browsers and hard
+      drives
+    services:
+    - to improve and further develop the Product, and to provide enhanced or geographically
+      differentiated features and Product levels to Users, where available
+    - to save User screen names, session validators, and on Users' browsers and hard
+      drives
+- source: nutshell
+  target: information on server log from browser
+  key: COLLECT
+  text:
+  - Nutshell automatically receives and records information on our server logs from
+    your browser, including your IP address, cookie information, and the page you
+    request.
+  purposes: {}
+- source: nutshell
+  target: ip address
+  key: COLLECT
+  text:
+  - Nutshell may also record your IP address when you submit information.
+  - Nutshell uses cookie, IP address, GPS location, URL information and other technical
+    connection details to improve and further develop the Product, and to provide
+    enhanced or geographically differentiated features and Product levels to Users,
+    where available.
+  purposes:
+    services:
+    - to improve and further develop the Product, and to provide enhanced or geographically
+      differentiated features and Product levels to Users, where available
+- source: nutshell
+  target: passive data collection
+  key: COLLECT
+  text:
+  - 'User Information Nutshell Collects
+
+
+    Cookies and Passive Data Collection'
+  purposes: {}
+- source: nutshell
+  target: personal information
+  key: COLLECT
+  text:
+  - Learn how Nutshell collects, uses, and protects your personal data with our comprehensive
+    privacy policy.
+  - Personal Data may be processed by Nutshell in the country where it was collected
+    as well as other countries (including the United States).
+  purposes: {}
+- source: nutshell
+  target: precise geolocation
+  key: COLLECT
+  text:
+  - Nutshell uses cookie, IP address, GPS location, URL information and other technical
+    connection details to improve and further develop the Product, and to provide
+    enhanced or geographically differentiated features and Product levels to Users,
+    where available.
+  purposes:
+    services:
+    - to improve and further develop the Product, and to provide enhanced or geographically
+      differentiated features and Product levels to Users, where available
+- source: nutshell
+  target: preference information
+  key: COLLECT
+  text:
+  - Nutshell also may collect, at your option, certain preference and demographic
+    information from you.
+  purposes: {}
+- source: nutshell
+  target: technical connection detail
+  key: COLLECT
+  text:
+  - Nutshell uses cookie, IP address, GPS location, URL information and other technical
+    connection details to improve and further develop the Product, and to provide
+    enhanced or geographically differentiated features and Product levels to Users,
+    where available.
+  purposes:
+    services:
+    - to improve and further develop the Product, and to provide enhanced or geographically
+      differentiated features and Product levels to Users, where available
+- source: nutshell
+  target: url information
+  key: COLLECT
+  text:
+  - Nutshell uses cookie, IP address, GPS location, URL information and other technical
+    connection details to improve and further develop the Product, and to provide
+    enhanced or geographically differentiated features and Product levels to Users,
+    where available.
+  purposes:
+    services:
+    - to improve and further develop the Product, and to provide enhanced or geographically
+      differentiated features and Product levels to Users, where available
+- source: support software provider
+  target: minimal amount
+  key: COLLECT
+  text:
+  - For example, when you file a support ticket, we will transmit a minimal amount
+    of your Personal Data (e.g. your email address) to our support software provider.
+  purposes: {}
+- source: we
+  target: nutshell
+  key: SUBSUM
+  text:
+  - This Cookie Statement explains how Nutshell uses cookies to provide our software,
+    Nutshell, and other services (collectively, our "Services") to business clients,
+    including when those clients' customers visit websites operated by our clients.
+- source: information on server log from browser
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Nutshell automatically receives and records information on our server logs from
+    your browser, including your IP address, cookie information, and the page you
+    request.
+- source: information on server log from browser
+  target: ip address
+  key: SUBSUM
+  text:
+  - Nutshell automatically receives and records information on our server logs from
+    your browser, including your IP address, cookie information, and the page you
+    request.
+- source: personal information
+  target: company name
+  key: SUBSUM
+  text:
+  - When registering with Nutshell, you provide Personal Data, which may include company
+    name, industry, number of employees, phone number, your title, city, state, country,
+    zip code, a user name, confirmed email address, and a password.
+- source: personal information
+  target: datum you enter
+  key: SUBSUM
+  text:
+  - Nutshell does not disclose Personal Data, including the data you enter or upload
+    into the Product, unless disclosure is necessary to comply with an enforceable
+    government request such as a warrant.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - For example, when you file a support ticket, we will transmit a minimal amount
+    of your Personal Data (e.g. your email address) to our support software provider.
+  - We promise that our retargeting partners will never collect personal information
+    such as your name, email address, postal address, or telephone number.
+  - When registering with Nutshell, you provide Personal Data, which may include company
+    name, industry, number of employees, phone number, your title, city, state, country,
+    zip code, a user name, confirmed email address, and a password.
+- source: personal information
+  target: industry
+  key: SUBSUM
+  text:
+  - When registering with Nutshell, you provide Personal Data, which may include company
+    name, industry, number of employees, phone number, your title, city, state, country,
+    zip code, a user name, confirmed email address, and a password.
+- source: personal information
+  target: number of employee
+  key: SUBSUM
+  text:
+  - When registering with Nutshell, you provide Personal Data, which may include company
+    name, industry, number of employees, phone number, your title, city, state, country,
+    zip code, a user name, confirmed email address, and a password.
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - When registering with Nutshell, you provide Personal Data, which may include company
+    name, industry, number of employees, phone number, your title, city, state, country,
+    zip code, a user name, confirmed email address, and a password.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - We promise that our retargeting partners will never collect personal information
+    such as your name, email address, postal address, or telephone number.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - We promise that our retargeting partners will never collect personal information
+    such as your name, email address, postal address, or telephone number.
+  - When registering with Nutshell, you provide Personal Data, which may include company
+    name, industry, number of employees, phone number, your title, city, state, country,
+    zip code, a user name, confirmed email address, and a password.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - We promise that our retargeting partners will never collect personal information
+    such as your name, email address, postal address, or telephone number.
+- source: personal information
+  target: title
+  key: SUBSUM
+  text:
+  - When registering with Nutshell, you provide Personal Data, which may include company
+    name, industry, number of employees, phone number, your title, city, state, country,
+    zip code, a user name, confirmed email address, and a password.
+- source: personal information
+  target: user name
+  key: SUBSUM
+  text:
+  - When registering with Nutshell, you provide Personal Data, which may include company
+    name, industry, number of employees, phone number, your title, city, state, country,
+    zip code, a user name, confirmed email address, and a password.
+- source: personal information
+  target: zip code
+  key: SUBSUM
+  text:
+  - When registering with Nutshell, you provide Personal Data, which may include company
+    name, industry, number of employees, phone number, your title, city, state, country,
+    zip code, a user name, confirmed email address, and a password.
+nodes:
+- type: ACTOR
+  id: nutshell
+- type: ACTOR
+  id: support software provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymized demographic datum from visitor
+- type: DATA
+  id: available information on third party
+- type: DATA
+  id: company name
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum you enter
+- type: DATA
+  id: email address
+- type: DATA
+  id: industry
+- type: DATA
+  id: information on server log from browser
+- type: DATA
+  id: ip address
+- type: DATA
+  id: minimal amount
+- type: DATA
+  id: number of employee
+- type: DATA
+  id: passive data collection
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: precise geolocation
+- type: DATA
+  id: preference information
+- type: DATA
+  id: technical connection detail
+- type: DATA
+  id: title
+- type: DATA
+  id: url information
+- type: DATA
+  id: user name
+- type: DATA
+  id: zip code

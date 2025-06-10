@@ -1,0 +1,120 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our website automatically collects certain data and stores it in log files.
+  - We utilize this information to improve user experience and tailor our website
+    to your preferences.
+  purposes:
+    services:
+    - to improve user experience and tailor our website to your preferences
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In the Heartpace application, we gather personal information to enable personalized
+    features like displaying names and enhancing user experience.
+  - It's important to note that we never sell your personal information to any third
+    parties.
+  - We share this information solely with trusted third parties that assist us in
+    delivering our services.
+  purposes:
+    services:
+    - to enable personalized features like displaying names and enhancing user experience
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    5. Sharing Information with Trusted Third Parties'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - It's important to note that we never sell your personal information to any third
+    parties.
+  - We share this information solely with trusted third parties that assist us in
+    delivering our services.
+  purposes: {}
+- source: heartpace
+  target: access
+  key: COLLECT
+  text:
+  - 'Using Google API
+
+
+    Heartpace will only use access to allow you to write and send Gmail messages and
+    attachments from your Heartpace account.'
+  purposes:
+    services:
+    - to allow you to write and send Gmail messages and attachments from your Heartpace
+      account
+- source: heartpace
+  target: datum about visitor
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    4. What Heartpace may use data about its visitors for'
+  purposes:
+    advertising:
+    - For marketing purposes (i.e. retargeting, email campaigns)
+    services:
+    - To personalize the website when a visitor returns (i.e. language preference,
+      customizations)
+- source: heartpace
+  target: personal information
+  key: COLLECT
+  text:
+  - Heartpace collects personal information about the users of the Heartpace application.
+  purposes: {}
+- source: heartpace.com
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Heartpace.com may use cookies to collect and use data from its visitors in the
+    manners explained below.
+  purposes: {}
+- source: heartpace.com
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Heartpace.com may use cookies to collect and use data from its visitors in the
+    manners explained below.
+  purposes: {}
+- source: we
+  target: heartpace
+  key: SUBSUM
+  text:
+  - Heartpace ("we, our or us") provides this Privacy Policy to inform you of our
+    policies and procedures regarding the collection, use and disclosure of personal
+    information we receive when you visit (including any subdomains of this site or
+    other sites owned by or operated on behalf, the "Site") and when you use any part
+    of our service or software via our Site (collectively, the "Service").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: heartpace
+- type: ACTOR
+  id: heartpace.com
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about visitor
+- type: DATA
+  id: personal information

@@ -1,0 +1,285 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For example, we collect information when you: provide information to sign up
+    for an account with the Services; provide information in your Account Profile;
+    login and operate your account within the Services; or communicate with us by
+    email for any purpose.'
+  - When you register to use the Services, communicate with a member of our ILUMA
+    team, or send us an email, you're giving us information ("Personal Information")
+    that we collect.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use those cookies to collect information about when you visit our Website,
+    when you use the Services, your browser type and version, your operating system,
+    and other similar information.
+  - When you register to use ILUMA, we store "cookies," which are strings of code,
+    on your computer.
+  purposes: {}
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We may get information about how and when you use the Services.
+  - We use those cookies to collect information about when you visit our Website,
+    when you use the Services, your browser type and version, your operating system,
+    and other similar information.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may use and disclose your Personal Information only as follows:'
+  - When you register to use the Services, communicate with a member of our ILUMA
+    team, or send us an email, you're giving us information ("Personal Information")
+    that we collect.
+  purposes: {}
+- source: advisor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - To provide information to representatives and advisors, like attorneys and accountants,
+    to help us comply with legal, accounting, or security requirements.
+  purposes:
+    legal:
+    - to help us comply with legal, accounting, or security requirements
+- source: iluma
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - ILUMA will delete or transfer a User's data at the request of that individual.
+  purposes: {}
+- source: iluma
+  target: information you provide
+  key: COLLECT
+  text:
+  - ILUMA receives and stores the information you provide when you use the Services.
+  purposes: {}
+- source: iluma
+  target: personal information
+  key: COLLECT
+  text:
+  - 'ILUMA collects Personal Information from Users that is accessible through any
+    of its third-party integrations, such as but not limited to: Slack, Zoom, or Google.'
+  - ILUMA will only store User Personal Information for as long as is necessary for
+    the purpose of maintaining the User's ILUMA account or as long as there are any
+    applicable legal retention obligati ons.
+  purposes: {}
+- source: we
+  target: iluma
+  key: SUBSUM
+  text:
+  - Welcome to the Privacy Policy of ILUMA, Inc. ("ILUMA", "we", "us", "our").
+- source: we
+  target: iluma product
+  key: SUBSUM
+  text:
+  - 'ILUMA products and services (hereinafter: the "Service" or  "Services") are accessed
+    by Users through our website: www.getiluma.ai , and through our web app: app.getiluma.ai
+    .'
+- source: advisor
+  target: accountant
+  key: SUBSUM
+  text:
+  - To provide information to representatives and advisors, like attorneys and accountants,
+    to help us comply with legal, accounting, or security requirements.
+- source: advisor
+  target: attorney
+  key: SUBSUM
+  text:
+  - To provide information to representatives and advisors, like attorneys and accountants,
+    to help us comply with legal, accounting, or security requirements.
+- source: information about
+  target: date
+  key: SUBSUM
+  text:
+  - This information may include your IP address, time, date, browser used, and actions
+    taken by you within the application.
+  - We may get information about how and when you use the Services.
+- source: information about
+  target: ip address
+  key: SUBSUM
+  text:
+  - This information may include your IP address, time, date, browser used, and actions
+    taken by you within the application.
+  - We may get information about how and when you use the Services.
+- source: information about
+  target: time
+  key: SUBSUM
+  text:
+  - This information may include your IP address, time, date, browser used, and actions
+    taken by you within the application.
+  - We may get information about how and when you use the Services.
+- source: personal information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - That Personal Information may include your IP address, name, physical address,
+    email address, phone number, credit card information, and other details like gender,
+    occupation, and other demographic information.
+  - When you register to use the Services, communicate with a member of our ILUMA
+    team, or send us an email, you're giving us information ("Personal Information")
+    that we collect.
+- source: personal information
+  target: demographic information
+  key: SUBSUM
+  text:
+  - That Personal Information may include your IP address, name, physical address,
+    email address, phone number, credit card information, and other details like gender,
+    occupation, and other demographic information.
+  - When you register to use the Services, communicate with a member of our ILUMA
+    team, or send us an email, you're giving us information ("Personal Information")
+    that we collect.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - That Personal Information may include your IP address, name, physical address,
+    email address, phone number, credit card information, and other details like gender,
+    occupation, and other demographic information.
+  - When you register to use the Services, communicate with a member of our ILUMA
+    team, or send us an email, you're giving us information ("Personal Information")
+    that we collect.
+- source: personal information
+  target: gender
+  key: SUBSUM
+  text:
+  - That Personal Information may include your IP address, name, physical address,
+    email address, phone number, credit card information, and other details like gender,
+    occupation, and other demographic information.
+  - When you register to use the Services, communicate with a member of our ILUMA
+    team, or send us an email, you're giving us information ("Personal Information")
+    that we collect.
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - That Personal Information may include your IP address, name, physical address,
+    email address, phone number, credit card information, and other details like gender,
+    occupation, and other demographic information.
+  - When you register to use the Services, communicate with a member of our ILUMA
+    team, or send us an email, you're giving us information ("Personal Information")
+    that we collect.
+- source: personal information
+  target: occupation
+  key: SUBSUM
+  text:
+  - That Personal Information may include your IP address, name, physical address,
+    email address, phone number, credit card information, and other details like gender,
+    occupation, and other demographic information.
+  - When you register to use the Services, communicate with a member of our ILUMA
+    team, or send us an email, you're giving us information ("Personal Information")
+    that we collect.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - That Personal Information may include your IP address, name, physical address,
+    email address, phone number, credit card information, and other details like gender,
+    occupation, and other demographic information.
+  - When you register to use the Services, communicate with a member of our ILUMA
+    team, or send us an email, you're giving us information ("Personal Information")
+    that we collect.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - That Personal Information may include your IP address, name, physical address,
+    email address, phone number, credit card information, and other details like gender,
+    occupation, and other demographic information.
+  - When you register to use the Services, communicate with a member of our ILUMA
+    team, or send us an email, you're giving us information ("Personal Information")
+    that we collect.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - That Personal Information may include your IP address, name, physical address,
+    email address, phone number, credit card information, and other details like gender,
+    occupation, and other demographic information.
+  - When you register to use the Services, communicate with a member of our ILUMA
+    team, or send us an email, you're giving us information ("Personal Information")
+    that we collect.
+- source: type of datum collect
+  target: email address
+  key: SUBSUM
+  text:
+  - The type of data collected includes platform username, first name, last name,
+    email address, and professional title.
+- source: type of datum collect
+  target: person name
+  key: SUBSUM
+  text:
+  - The type of data collected includes platform username, first name, last name,
+    email address, and professional title.
+- source: type of datum collect
+  target: platform username
+  key: SUBSUM
+  text:
+  - The type of data collected includes platform username, first name, last name,
+    email address, and professional title.
+- source: type of datum collect
+  target: professional title
+  key: SUBSUM
+  text:
+  - The type of data collected includes platform username, first name, last name,
+    email address, and professional title.
+nodes:
+- type: ACTOR
+  id: accountant
+- type: ACTOR
+  id: advisor
+- type: ACTOR
+  id: attorney
+- type: ACTOR
+  id: iluma
+- type: ACTOR
+  id: iluma product
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: email address
+- type: DATA
+  id: gender
+- type: DATA
+  id: information about
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: ip address
+- type: DATA
+  id: occupation
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: platform username
+- type: DATA
+  id: postal address
+- type: DATA
+  id: professional title
+- type: DATA
+  id: time
+- type: DATA
+  id: type of datum collect

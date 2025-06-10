@@ -1,0 +1,560 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use this data for the sole purpose of obtaining anonymous statistical information
+    concerning the use of the App.
+  - We use this data for the sole purpose of obtaining anonymous statistical information
+    concerning the use of the Platform and to check its correct operation.
+  - We use this information solely for the purpose of providing you with health-related
+    feedback and self-care suggestions.
+  purposes:
+    analytics:
+    - for the sole purpose of obtaining anonymous statistical information concerning
+      the use of the App
+    - for the sole purpose of obtaining anonymous statistical information concerning
+      the use of the Platform and to check its correct operation
+    services:
+    - solely for the purpose of providing you with health-related feedback and self-care
+      suggestions
+- source: we
+  target: age
+  key: COLLECT
+  text:
+  - In such a case, we will use the location, the age range, and any other relevant
+    Wellness Information you provided during the usage of our App.
+  - When you start using the App, we might collect your nickname, gender and age range,
+    preferred language, city on which you want to see therapists
+  purposes: {}
+- source: we
+  target: apple id
+  key: COLLECT
+  text:
+  - 'The connection automatically causes the App to receive from Apple the information
+    you agreed to: Apple ID, email, first name, last name.'
+  purposes: {}
+- source: we
+  target: bank card detail
+  key: COLLECT
+  text:
+  - When you pay the subscription fee, we will process your bank card details (first
+    and last name, card number, CCV, expiring date).
+  purposes: {}
+- source: we
+  target: education
+  key: COLLECT
+  text:
+  - In this case, we will need your first name, last name, phone number, email address,
+    education (studies, certifications).
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - During the provision of our services, we will use your email address and your
+    phone number to notify you of any changes in the Terms and in connection with
+    any other issues related to the performance of the contract between you and Ascendio.
+  - During the provision of our services, we will use your email address and your
+    phone number to notify you of any changes in the Terms of the App and in connection
+    with any other issues related to the performance of the contract between you and
+    Ascendio.
+  - If you opt to receive such marketing messages, we will use your email to send
+    you marketing messages about our activities and promotions.
+  - 'In this case, in general, we will process the following Personal Data: first
+    name, last name, email and any other information you voluntarily provide when
+    you contact us.'
+  - In this case, we will need your email address.
+  - In this case, we will need your first name, last name, phone number, email address,
+    education (studies, certifications).
+  - 'The connection automatically causes the App to receive from Google the information
+    you agreed to: email, first name, last name, profile picture.'
+  purposes:
+    advertising:
+    - to send you marketing messages about our activities and promotions
+    services:
+    - to notify you of any changes in the Terms and in connection with any other issues
+      related to the performance of the contract between you and Ascendio
+    - to notify you of any changes in the Terms of the App and in connection with
+      any other issues related to the performance of the contract between you and
+      Ascendio
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - In such a case, we will use the location, the age range, and any other relevant
+    Wellness Information you provided during the usage of our App.
+  purposes: {}
+- source: we
+  target: image
+  key: COLLECT
+  text:
+  - In such a case, we will use your nickname and image which, in case you consent,
+    be displayed in your review and/or rating.
+  purposes: {}
+- source: we
+  target: information regard activity
+  key: COLLECT
+  text:
+  - When using our App, we process certain information regarding your activity in
+    order to analyze the use of our App.
+  purposes:
+    analytics:
+    - in order to analyze the use of our App
+- source: we
+  target: information you agree to
+  key: COLLECT
+  text:
+  - 'The connection automatically causes the App to receive from Apple the information
+    you agreed to: Apple ID, email, first name, last name.'
+  - 'The connection automatically causes the App to receive from Google the information
+    you agreed to: email, first name, last name, profile picture.'
+  - 'The connection automatically causes the Platform to receive from Google the information
+    you agreed to: email, first name, last name, profile picture.'
+  - This information will be processed by us in order to offer you the possibility
+    of creating the account and to the extent necessary to identify you in the context
+    of the features offered by the App and to offer you the various features on our
+    App.
+  - This information will be processed by us in order to offer you the possibility
+    of creating the account and to the extent necessary to identify you in the context
+    of the features offered by the Platform and to offer you the various features
+    on our Platform.
+  purposes:
+    services:
+    - in order to offer you the possibility of creating the account and to the extent
+      necessary to identify you in the context of the features offered by the App
+      and to offer you the various features on our App
+    - in order to offer you the possibility of creating the account and to the extent
+      necessary to identify you in the context of the features offered by the Platform
+      and to offer you the various features on our Platform
+    - to the extent necessary to identify you in the context of the features offered
+      by the App and to offer you the various features on our App
+    - to the extent necessary to identify you in the context of the features offered
+      by the Platform and to offer you the various features on our Platform
+- source: we
+  target: information you provide
+  key: COLLECT
+  text:
+  - 'In this case, in general, we will process the following Personal Data: first
+    name, last name, email and any other information you voluntarily provide when
+    you contact us.'
+  purposes: {}
+- source: we
+  target: meeting detail
+  key: COLLECT
+  text:
+  - In such a case, we will need your name, telephone number and meeting details.
+  purposes: {}
+- source: we
+  target: nickname
+  key: COLLECT
+  text:
+  - In such a case, we will use your nickname and image which, in case you consent,
+    be displayed in your review and/or rating.
+  - When you start using the App, we might collect your nickname, gender and age range,
+    preferred language, city on which you want to see therapists
+  purposes: {}
+- source: we
+  target: option let
+  key: COLLECT
+  text:
+  - We may also give you the option to let us know whether you are working with a
+    mental health professional.
+  purposes: {}
+- source: we
+  target: option of
+  key: COLLECT
+  text:
+  - In order to improve the value of the Services for you, we may give you the option
+    of providing certain information about your mood and goals for using the Services
+    when you register and as you use the Services.
+  purposes:
+    services:
+    - In order to improve the value of the Services for you
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - In such a case, we will need your name, telephone number and meeting details.
+  - 'In this case, in general, we will process the following Personal Data: first
+    name, last name, email and any other information you voluntarily provide when
+    you contact us.'
+  - In this case, we will need your first name, last name, phone number, email address,
+    education (studies, certifications).
+  - In this case, we will process your first name, last name and address.
+  - When you pay the subscription fee, we will process your bank card details (first
+    and last name, card number, CCV, expiring date).
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As a rule, we will process your Personal Data as long as you use the App/Platform
+    and/or during the existence of your account in our App/Platform.
+  - By expressing your consent, you agree that we can collect, use, reveal, process
+    and transfer your Personal Data in accordance with this Policy.
+  - However, we can continue to process your Personal Data (i) when you consent; (ii)
+    for the establishment, exercise or defense of legal claims or (iii) for the protection
+    of the rights of another natural or legal person.
+  - In certain circumstances, we may retain your Personal Data for longer periods
+    of time, for example if we are obliged to do so in accordance with the legal,
+    regulatory, tax or accounting requirements.
+  - 'In this case, in general, we will process the following Personal Data: first
+    name, last name, email and any other information you voluntarily provide when
+    you contact us.'
+  - In this situation, we will use your Personal Data only to contact you in connection
+    with the requested offer or in connection with the resolution of the problem.
+  - 'Privacy Policy
+
+
+    We may transfer Personal Data, as far as necessary, to the following categories
+    of recipients:'
+  - We may also keep your Personal Data for longer periods of time so that we have
+    accurate records of your dealings with us in the event of any complaints or challenges,
+    or if we reasonably believe there is a prospect of litigation relating to your
+    Personal Data or dealings.
+  purposes:
+    legal:
+    - (i) when you consent; (ii) for the establishment, exercise or defense of legal
+      claims or (iii) for the protection of the rights of another natural or legal
+      person
+    services:
+    - only to contact you in connection with the requested offer or in connection
+      with the resolution of the problem
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - During the provision of our services, we will use your email address and your
+    phone number to notify you of any changes in the Terms and in connection with
+    any other issues related to the performance of the contract between you and Ascendio.
+  - During the provision of our services, we will use your email address and your
+    phone number to notify you of any changes in the Terms of the App and in connection
+    with any other issues related to the performance of the contract between you and
+    Ascendio.
+  - In such a case, we will need your name, telephone number and meeting details.
+  - In this case, we will need your first name, last name, phone number, email address,
+    education (studies, certifications).
+  purposes:
+    services:
+    - to notify you of any changes in the Terms and in connection with any other issues
+      related to the performance of the contract between you and Ascendio
+    - to notify you of any changes in the Terms of the App and in connection with
+      any other issues related to the performance of the contract between you and
+      Ascendio
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - In this case, we will process your first name, last name and address.
+  purposes: {}
+- source: we
+  target: prefer language
+  key: COLLECT
+  text:
+  - When you start using the App, we might collect your nickname, gender and age range,
+    preferred language, city on which you want to see therapists
+  purposes: {}
+- source: we
+  target: relevant wellness information you provide during usage of app
+  key: COLLECT
+  text:
+  - In such a case, we will use the location, the age range, and any other relevant
+    Wellness Information you provided during the usage of our App.
+  purposes: {}
+- source: we
+  target: study certification
+  key: COLLECT
+  text:
+  - In this case, we will need your first name, last name, phone number, email address,
+    education (studies, certifications).
+  purposes: {}
+- source: we
+  target: wellness information
+  key: COLLECT
+  text:
+  - In case you consent to the anonymization of your Personal Data, we might use the
+    Wellness Information for research purposes.
+  purposes:
+    analytics:
+    - for research purposes
+- source: authority competent
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We may transfer Personal Data, as far as necessary, to the following categories
+    of recipients:'
+  - 'We may transfer Personal Data, as far as necessary, to the following categories
+    of recipients: public authorities, courts of law or arbitral tribunals, and authorities
+    competent to investigate criminal offence.'
+  purposes: {}
+- source: company offer it service
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We may transfer Personal Data, as far as necessary, to the following categories
+    of recipients: companies offering IT services;'
+  purposes: {}
+- source: computer system
+  target: call log file
+  key: COLLECT
+  text:
+  - Computer systems and software procedures used for the Platform's operation acquire,
+    during their normal operation, some Personal Data (so-called log files ), the
+    transmission of which is implicit in the use of internet communication protocols.
+  purposes: {}
+- source: computer system
+  target: personal information
+  key: COLLECT
+  text:
+  - Computer systems and software procedures used for the Platform's operation acquire,
+    during their normal operation, some Personal Data (so-called log files ), the
+    transmission of which is implicit in the use of internet communication protocols.
+  purposes: {}
+- source: court of law
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We may transfer Personal Data, as far as necessary, to the following categories
+    of recipients:'
+  - 'We may transfer Personal Data, as far as necessary, to the following categories
+    of recipients: public authorities, courts of law or arbitral tribunals, and authorities
+    competent to investigate criminal offence.'
+  purposes: {}
+- source: marketing company
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We may transfer Personal Data, as far as necessary, to the following categories
+    of recipients: marketing companies;'
+  purposes: {}
+- source: payment processor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We may transfer Personal Data, as far as necessary, to the following categories
+    of recipients: payment processors;'
+  purposes: {}
+- source: platform
+  target: email address
+  key: COLLECT
+  text:
+  - 'The connection automatically causes the Platform to receive from Google the information
+    you agreed to: email, first name, last name, profile picture.'
+  purposes: {}
+- source: platform
+  target: information you agree to
+  key: COLLECT
+  text:
+  - 'The connection automatically causes the Platform to receive from Google the information
+    you agreed to: email, first name, last name, profile picture.'
+  purposes: {}
+- source: public authority
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We may transfer Personal Data, as far as necessary, to the following categories
+    of recipients:'
+  - 'We may transfer Personal Data, as far as necessary, to the following categories
+    of recipients: public authorities, courts of law or arbitral tribunals, and authorities
+    competent to investigate criminal offence.'
+  purposes: {}
+- source: subcontractor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We may transfer Personal Data, as far as necessary, to the following categories
+    of recipients: subcontractors;'
+  purposes: {}
+- source: we
+  target: ascendio
+  key: SUBSUM
+  text:
+  - We recognize the importance of maintaining the confidentiality, integrity and
+    security of your personal information (" Personal Data ") and have written this
+    privacy policy (" Policy ") to explain how your Personal Data is collected, stored,
+    used and disclosed by Ascendio TechVision S.R.L., a company incorporated under
+    the Romanian law, having its headquarters at 202K Splaiul Independentei, Bldg.
+    B3, Entr. B, 4th floor, suite 26, District 6, Bucharest, Romania, sole identification
+    number 38091006, registered with the Trade Registry under no. J40/14259/2017 ("
+    Ascendio ", " Us "), as a data controller, with respect to (i) your access to
+    and use of our application (,, App "), (ii) the access to, and use of our therapist
+    platform available at the URL https://specialist.im-fine.app (,, Platform "),
+    (iii) the access to, and use of our web database of healthcare professionals (as
+    defined below) available at the URL https://im-fine.app/ro/psihologi-psihoterapeuti
+    (" Web Database "), (iv) the access to, and use of our clinic platform available
+    at the URL http://clinic.im-fine.app/ (" Clinic Platform "), (v) and the access
+    to, and use of the content of the App, the Platform and the Web Database including
+    of the services provided by Ascendio (collectively, " Services ").
+- source: category of process personal data
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'Access right : You have the right to obtain from us confirmation that your Personal
+    Data is processed by us, as well as information on the specific processing, such
+    as: the purposes of processing, categories of processed Personal Data, recipients
+    of Personal Data, the period for which Personal Data is stored, if we transfer
+    the Personal Data abroad and how we protect it, your rights, the right to lodge
+    a complaint before the supervisory authority, the source of your Personal Data.'
+- source: category of process personal data
+  target: recipient of personal data
+  key: SUBSUM
+  text:
+  - 'Access right : You have the right to obtain from us confirmation that your Personal
+    Data is processed by us, as well as information on the specific processing, such
+    as: the purposes of processing, categories of processed Personal Data, recipients
+    of Personal Data, the period for which Personal Data is stored, if we transfer
+    the Personal Data abroad and how we protect it, your rights, the right to lodge
+    a complaint before the supervisory authority, the source of your Personal Data.'
+- source: information on specific processing
+  target: category of process personal data
+  key: SUBSUM
+  text:
+  - 'Access right : You have the right to obtain from us confirmation that your Personal
+    Data is processed by us, as well as information on the specific processing, such
+    as: the purposes of processing, categories of processed Personal Data, recipients
+    of Personal Data, the period for which Personal Data is stored, if we transfer
+    the Personal Data abroad and how we protect it, your rights, the right to lodge
+    a complaint before the supervisory authority, the source of your Personal Data.'
+- source: information regard activity
+  target: navigation
+  key: SUBSUM
+  text:
+  - Such information includes, for example, your navigation.
+  - When using our App, we process certain information regarding your activity in
+    order to analyze the use of our App.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - For example, please do not share any information that other App Users could use
+    to identify you personally, such as your real name, email address, telephone number,
+    or social security number.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - For example, please do not share any information that other App Users could use
+    to identify you personally, such as your real name, email address, telephone number,
+    or social security number.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - For example, please do not share any information that other App Users could use
+    to identify you personally, such as your real name, email address, telephone number,
+    or social security number.
+- source: personal identifier
+  target: ssn
+  key: SUBSUM
+  text:
+  - For example, please do not share any information that other App Users could use
+    to identify you personally, such as your real name, email address, telephone number,
+    or social security number.
+nodes:
+- type: ACTOR
+  id: ascendio
+- type: ACTOR
+  id: authority competent
+- type: ACTOR
+  id: company offer it service
+- type: ACTOR
+  id: computer system
+- type: ACTOR
+  id: court of law
+- type: ACTOR
+  id: marketing company
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: public authority
+- type: ACTOR
+  id: subcontractor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: age
+- type: DATA
+  id: apple id
+- type: DATA
+  id: bank card detail
+- type: DATA
+  id: call log file
+- type: DATA
+  id: category of process personal data
+- type: DATA
+  id: education
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: image
+- type: DATA
+  id: information on specific processing
+- type: DATA
+  id: information regard activity
+- type: DATA
+  id: information you agree to
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: meeting detail
+- type: DATA
+  id: navigation
+- type: DATA
+  id: nickname
+- type: DATA
+  id: option let
+- type: DATA
+  id: option of
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: prefer language
+- type: DATA
+  id: recipient of personal data
+- type: DATA
+  id: relevant wellness information you provide during usage of app
+- type: DATA
+  id: ssn
+- type: DATA
+  id: study certification
+- type: DATA
+  id: wellness information

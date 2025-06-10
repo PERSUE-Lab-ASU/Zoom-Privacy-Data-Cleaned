@@ -1,0 +1,41 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The policy is meant to help explain what information we collect, how we use and
+    how we don't use it.
+  purposes: {}
+- source: multinet
+  target: bit tls encryption
+  key: COLLECT
+  text:
+  - MultiNet uses 256-bit TLS 1.2+ encryption, with 2048-bit RSA keys.
+  purposes: {}
+- source: multinet
+  target: personal information
+  key: COLLECT
+  text:
+  - MultiNet processes personal data to communicate, provide support, deliver training,
+    do marketing campaigns, and measure marketing performance.
+  purposes:
+    advertising:
+    - to communicate, provide support, deliver training, do marketing campaigns, and
+      measure marketing performance
+    analytics:
+    - to communicate, provide support, deliver training, do marketing campaigns, and
+      measure marketing performance
+nodes:
+- type: ACTOR
+  id: multinet
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: bit tls encryption
+- type: DATA
+  id: personal information

@@ -1,0 +1,194 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'We use the collected data for:'
+  purposes:
+    legal:
+    - Obligation fulfillment and rights enforcement under contracts with you
+    services:
+    - Account notifications
+    - Interactive feature facilitation on our Websites
+    - Notifications about changes to our services or Websites
+    - Service and information provision
+    - Website operation and content presentation
+- source: we
+  target: information relate to internet use
+  key: COLLECT
+  text:
+  - 'We gather various kinds of information from users of our Websites, which include:
+    Information related to your internet use, devices used for website access, and
+    usage specifics.'
+  purposes: {}
+- source: we
+  target: non - identify individual datum
+  key: COLLECT
+  text:
+  - 'We gather various kinds of information from users of our Websites, which include:
+    Non-identifying individual data.'
+  purposes: {}
+- source: we
+  target: personal identification datum
+  key: COLLECT
+  text:
+  - 'We gather various kinds of information from users of our Websites, which include:
+    Personal identification data (e.g., name, address, email, phone number, financial
+    details, demographics, and other information provided by you).'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose your personal information as described in this privacy notice:
+    To our affiliates and subsidiaries.'
+  purposes: {}
+- source: we
+  target: usage specific
+  key: COLLECT
+  text:
+  - 'We gather various kinds of information from users of our Websites, which include:
+    Information related to your internet use, devices used for website access, and
+    usage specifics.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose your personal information as described in this privacy notice:
+    To our affiliates and subsidiaries.'
+  - 'We may disclose your personal information as described in this privacy notice:
+    To third-party service providers and business partners.'
+  purposes: {}
+- source: advertiser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Third-party entities, including advertisers and content providers, may use cookies
+    on our Websites to gather data about you.
+  purposes:
+    analytics:
+    - to gather data about you
+- source: advertiser
+  target: datum about you
+  key: COLLECT
+  text:
+  - Third-party entities, including advertisers and content providers, may use cookies
+    on our Websites to gather data about you.
+  purposes: {}
+- source: business partner
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose your personal information as described in this privacy notice:
+    To third-party service providers and business partners.'
+  purposes: {}
+- source: content provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Third-party entities, including advertisers and content providers, may use cookies
+    on our Websites to gather data about you.
+  purposes:
+    analytics:
+    - to gather data about you
+- source: content provider
+  target: datum about you
+  key: COLLECT
+  text:
+  - Third-party entities, including advertisers and content providers, may use cookies
+    on our Websites to gather data about you.
+  purposes: {}
+- source: personal identification datum
+  target: demographic
+  key: SUBSUM
+  text:
+  - 'We gather various kinds of information from users of our Websites, which include:
+    Personal identification data (e.g., name, address, email, phone number, financial
+    details, demographics, and other information provided by you).'
+- source: personal identification datum
+  target: email address
+  key: SUBSUM
+  text:
+  - 'We gather various kinds of information from users of our Websites, which include:
+    Personal identification data (e.g., name, address, email, phone number, financial
+    details, demographics, and other information provided by you).'
+- source: personal identification datum
+  target: financial detail
+  key: SUBSUM
+  text:
+  - 'We gather various kinds of information from users of our Websites, which include:
+    Personal identification data (e.g., name, address, email, phone number, financial
+    details, demographics, and other information provided by you).'
+- source: personal identification datum
+  target: information provide
+  key: SUBSUM
+  text:
+  - 'We gather various kinds of information from users of our Websites, which include:
+    Personal identification data (e.g., name, address, email, phone number, financial
+    details, demographics, and other information provided by you).'
+- source: personal identification datum
+  target: person name
+  key: SUBSUM
+  text:
+  - 'We gather various kinds of information from users of our Websites, which include:
+    Personal identification data (e.g., name, address, email, phone number, financial
+    details, demographics, and other information provided by you).'
+- source: personal identification datum
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'We gather various kinds of information from users of our Websites, which include:
+    Personal identification data (e.g., name, address, email, phone number, financial
+    details, demographics, and other information provided by you).'
+- source: personal identification datum
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'We gather various kinds of information from users of our Websites, which include:
+    Personal identification data (e.g., name, address, email, phone number, financial
+    details, demographics, and other information provided by you).'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: content provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: demographic
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial detail
+- type: DATA
+  id: information provide
+- type: DATA
+  id: information relate to internet use
+- type: DATA
+  id: non - identify individual datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identification datum
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: usage specific

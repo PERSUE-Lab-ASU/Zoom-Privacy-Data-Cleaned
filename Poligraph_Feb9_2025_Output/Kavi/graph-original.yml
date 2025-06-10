@@ -1,0 +1,330 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may disclose your information also:'
+  - We use cookies and similar tracking technologies to track the activity on our
+    Service and we hold certain information.
+  - We use your data to provide and improve Service.
+  purposes:
+    analytics:
+    - to track the activity on our Service
+    services:
+    - to provide and improve Service
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Session Cookies: We use Session Cookies to operate our Service.'
+  - We use Security Cookies for security purposes.
+  - We use cookies and similar tracking technologies to track the activity on our
+    Service and we hold certain information.
+  purposes:
+    analytics:
+    - to track the activity on our Service
+    security:
+    - for security purposes
+    services:
+    - to operate our Service
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We may use and store information about your location if you give us permission
+    to do so ("Location Data").
+  - We use this data to provide features of our Service, to improve and customise
+    our Service.
+  purposes:
+    services:
+    - to provide features of our Service, to improve and customise our Service
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - We may also collect information that your browser sends whenever you visit our
+    Service or when you access Service by or through a mobile device ("Usage Data").
+  purposes: {}
+- source: we
+  target: information result from use of service
+  key: COLLECT
+  text:
+  - Our Privacy Policy governs your visit to www.holakavi.com and Kavi mobile application,
+    and explains how we collect, safeguard and disclose information that results from
+    your use of our Service.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may also collect information that your browser sends whenever you visit our
+    Service or when you access Service by or through a mobile device ("Usage Data").
+  - We will also retain Usage Data for internal analysis purposes.
+  purposes:
+    analytics:
+    - for internal analysis purposes
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If you are located outside the United States and choose to provide information
+    to us, please note that we transfer the data, including Personal Data, to the
+    United States and process it there.
+  - 'We may disclose personal information that we collect, or you provide:'
+  - We may use your Personal Data to contact you with newsletters, marketing or promotional
+    materials and other information that may be of interest to you.
+  - We will retain and use your Personal Data to the extent necessary to comply with
+    our legal obligations (for example, if we are required to retain your data to
+    comply with applicable laws), resolve disputes, and enforce our legal agreements
+    and policies.
+  - We will retain your Personal Data only for as long as is necessary for the purposes
+    set out in this Privacy Policy.
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes:
+    advertising:
+    - to contact you with newsletters, marketing or promotional materials and other
+      information that may be of interest to you
+- source: we
+  target: preference cookies
+  key: COLLECT
+  text:
+  - We use Preference Cookies to remember your preferences and various settings.
+  purposes:
+    services:
+    - to remember your preferences and various settings
+- source: we
+  target: several different type of information
+  key: COLLECT
+  text:
+  - We collect several different types of information for various purposes to provide
+    and improve our Service to you.
+  purposes: {}
+- source: Google
+  target: collect datum
+  key: COLLECT
+  text:
+  - Google may use the collected data to contextualise and personalise the ads of
+    its own advertising network.
+  purposes:
+    advertising:
+    - to contextualise and personalise the ads of its own advertising network
+- source: Google
+  target: datum collect
+  key: COLLECT
+  text:
+  - Google uses the data collected to track and monitor the use of our Service.
+  - This data is shared with other Google services.
+  purposes:
+    analytics:
+    - to track and monitor the use of our Service
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties have access to your Personal Data only to perform these tasks
+    on our behalf and are obligated not to disclose or use it for any other purpose.
+  purposes:
+    services:
+    - only to perform these tasks on our behalf
+- source: kavi
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'Kavi uses the collected data for various purposes:'
+  purposes: {}
+- source: third party payment processor govern
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - That information is provided directly to our third-party payment processors whose
+    use of your personal information is governed by their Privacy Policy.
+  - We will not store or collect your payment card details.
+  purposes: {}
+- source: we
+  target: kavi
+  key: SUBSUM
+  text:
+  - Kavi ("us", "we", or "our") operates www.holakavi.com and Kavi mobile application
+    (hereinafter referred to as "Service").
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with a small amount of data which may include an anonymous unique
+    identifier.
+- source: internet activity
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+- source: internet activity
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+- source: internet activity
+  target: device identifier
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+- source: internet activity
+  target: diagnostic datum
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+- source: internet activity
+  target: time
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+- source: internet activity
+  target: type of mobile internet browser you use
+  key: SUBSUM
+  text:
+  - When you access Service with a mobile device, this Usage Data may include information
+    such as the type of mobile device you use, your mobile device unique ID, the IP
+    address of your mobile device, your mobile operating system, the type of mobile
+    Internet browser you use, unique device identifiers and other diagnostic data.
+- source: type of mobile device you use
+  target: device identifier
+  key: SUBSUM
+  text:
+  - When you access Service with a mobile device, this Usage Data may include information
+    such as the type of mobile device you use, your mobile device unique ID, the IP
+    address of your mobile device, your mobile operating system, the type of mobile
+    Internet browser you use, unique device identifiers and other diagnostic data.
+- source: type of mobile device you use
+  target: diagnostic datum
+  key: SUBSUM
+  text:
+  - When you access Service with a mobile device, this Usage Data may include information
+    such as the type of mobile device you use, your mobile device unique ID, the IP
+    address of your mobile device, your mobile operating system, the type of mobile
+    Internet browser you use, unique device identifiers and other diagnostic data.
+- source: type of mobile device you use
+  target: ip address
+  key: SUBSUM
+  text:
+  - When you access Service with a mobile device, this Usage Data may include information
+    such as the type of mobile device you use, your mobile device unique ID, the IP
+    address of your mobile device, your mobile operating system, the type of mobile
+    Internet browser you use, unique device identifiers and other diagnostic data.
+- source: type of mobile device you use
+  target: mobile operate system
+  key: SUBSUM
+  text:
+  - When you access Service with a mobile device, this Usage Data may include information
+    such as the type of mobile device you use, your mobile device unique ID, the IP
+    address of your mobile device, your mobile operating system, the type of mobile
+    Internet browser you use, unique device identifiers and other diagnostic data.
+- source: type of mobile internet browser you use
+  target: type of mobile device you use
+  key: SUBSUM
+  text:
+  - When you access Service with a mobile device, this Usage Data may include information
+    such as the type of mobile device you use, your mobile device unique ID, the IP
+    address of your mobile device, your mobile operating system, the type of mobile
+    Internet browser you use, unique device identifiers and other diagnostic data.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: kavi
+- type: ACTOR
+  id: third party payment processor govern
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: diagnostic datum
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: information result from use of service
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: mobile operate system
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: preference cookies
+- type: DATA
+  id: several different type of information
+- type: DATA
+  id: time
+- type: DATA
+  id: type of mobile device you use
+- type: DATA
+  id: type of mobile internet browser you use

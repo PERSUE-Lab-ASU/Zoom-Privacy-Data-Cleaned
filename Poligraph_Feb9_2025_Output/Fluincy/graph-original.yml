@@ -1,0 +1,128 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: conversational datum
+  key: COLLECT
+  text:
+  - These AI tools allow us to efficiently analyze conversational data, identify key
+    topics, and capture contextual information, enabling us to tailor our services
+    to your specific needs.
+  purposes: {}
+- source: we
+  target: datum use
+  key: COLLECT
+  text:
+  - All data used is processed in real-time within the Google Drive environment, and
+    we do not maintain a copy of your data outside of Google Drive.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We access your primary Google Account email address.
+  purposes: {}
+- source: we
+  target: google account
+  key: COLLECT
+  text:
+  - We strictly access and use this information in accordance with this privacy policy
+    and Google's privacy standards.
+  - When you choose to log in using your Google account, we request access to specific
+    information from your Google profile to authenticate you and provide a personalized
+    experience on our platform.
+  purposes: {}
+- source: we
+  target: google user datum
+  key: COLLECT
+  text:
+  - By choosing to log in with Google, you consent to allow us to access and use your
+    Google user data as specified above.
+  - Data Retention We retain your Google user data only for as long as necessary to
+    provide our services to you, comply with our legal obligations, resolve disputes,
+    and enforce our agreements.
+  purposes:
+    legal:
+    - to provide our services to you, comply with our legal obligations, resolve disputes,
+      and enforce our agreements
+    services:
+    - to provide our services to you, comply with our legal obligations, resolve disputes,
+      and enforce our agreements
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We access your personal information, including any details you have made publicly
+    available, such as your name and profile picture.
+  purposes: {}
+- source: Slack
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Data Retention Fluincy only transmits data to Slack and does not receive any data
+    from Slack.
+  purposes: {}
+- source: data retention fluincy
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Data Retention Fluincy only transmits data to Slack and does not receive any data
+    from Slack.
+  purposes: {}
+- source: fluincy
+  target: textual datum
+  key: COLLECT
+  text:
+  - Fluincy processes textual data from transcripts or other similar customer communications
+    through either the OpenAI or Anthropic API.
+  purposes: {}
+- source: detail you make
+  target: person name
+  key: SUBSUM
+  text:
+  - We access your personal information, including any details you have made publicly
+    available, such as your name and profile picture.
+- source: detail you make
+  target: profile picture
+  key: SUBSUM
+  text:
+  - We access your personal information, including any details you have made publicly
+    available, such as your name and profile picture.
+- source: personal information
+  target: detail you make
+  key: SUBSUM
+  text:
+  - We access your personal information, including any details you have made publicly
+    available, such as your name and profile picture.
+nodes:
+- type: ACTOR
+  id: Slack
+- type: ACTOR
+  id: data retention fluincy
+- type: ACTOR
+  id: fluincy
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: conversational datum
+- type: DATA
+  id: datum use
+- type: DATA
+  id: detail you make
+- type: DATA
+  id: email address
+- type: DATA
+  id: google account
+- type: DATA
+  id: google user datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: profile picture
+- type: DATA
+  id: textual datum

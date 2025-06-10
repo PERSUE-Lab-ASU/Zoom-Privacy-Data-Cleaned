@@ -1,0 +1,231 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use cookies and similar tracking technologies to track the activity on our
+    Service and we hold certain information.
+  - We use your data to provide and improve the Service.
+  purposes:
+    analytics:
+    - to track the activity on our Service
+    services:
+    - to provide and improve the Service
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use Security Cookies for security purposes.
+  - We use cookies and similar tracking technologies to track the activity on our
+    Service and we hold certain information.
+  purposes:
+    analytics:
+    - to track the activity on our Service
+    security:
+    - for security purposes
+- source: we
+  target: information access
+  key: COLLECT
+  text:
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If you are located outside Spain and choose to provide information to us, please
+    note that we transfer the data, including Personal Data, to Spain and process
+    it there.
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: preference cookies
+  key: COLLECT
+  text:
+  - We use Preference Cookies to remember your preferences and various settings.
+  purposes:
+    services:
+    - to remember your preferences and various settings
+- source: we
+  target: session cookies
+  key: COLLECT
+  text:
+  - We use Session Cookies to operate our Service.
+  purposes:
+    services:
+    - to operate our Service
+- source: we
+  target: several different type
+  key: COLLECT
+  text:
+  - We collect several different types of information for various purposes to provide
+    and improve our Service to you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties have access to your Personal Data only to perform these tasks
+    on our behalf and are obligated not to disclose or use it for any other purpose.
+  purposes:
+    services:
+    - only to perform these tasks on our behalf
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with a small amount of data which may include an anonymous unique
+    identifier.
+- source: internet activity
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: date
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: device identifier
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: diagnostic datum
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: time
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: personal identifier
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Cookies
+    and Usage Data'
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Email
+    address'
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Phone
+    number'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: diagnostic datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: information access
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: preference cookies
+- type: DATA
+  id: session cookies
+- type: DATA
+  id: several different type
+- type: DATA
+  id: time

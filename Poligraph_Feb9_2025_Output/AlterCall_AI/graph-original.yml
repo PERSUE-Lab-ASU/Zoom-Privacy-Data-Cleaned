@@ -1,0 +1,335 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These permissions allow us to access certain information from your google account,
+    as authorized by you.
+  - We may use the information to provide you with the requested services, including
+    personalized features, support, and updates related to our application.
+  purposes:
+    services:
+    - to provide you with the requested services, including personalized features,
+      support, and updates related to our application
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may use aggregated and anonymized data for analytical purposes to improve our
+    application, understand user preferences, and optimize our services.
+  purposes:
+    analytics:
+    - for analytical purposes
+    - to improve our application, understand user preferences, and optimize our services
+    services:
+    - to improve our application, understand user preferences, and optimize our services
+- source: we
+  target: associate permission
+  key: COLLECT
+  text:
+  - We use your google email address and associated permissions to authenticate your
+    identity and provide you with access to our altercall.ai application.
+  purposes:
+    security:
+    - to authenticate your identity and provide you with access to our altercall.ai
+      application
+    services:
+    - to authenticate your identity and provide you with access to our altercall.ai
+      application
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We may collect your name, email address, and other contact details associated
+    with your google account.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may collect your name, email address, and other contact details associated
+    with your google account.
+  - We may use your email address to send you important notifications, updates, and
+    information related to your use of our application.
+  - We use your google email address and associated permissions to authenticate your
+    identity and provide you with access to our altercall.ai application.
+  purposes:
+    security:
+    - to authenticate your identity and provide you with access to our altercall.ai
+      application
+    services:
+    - to authenticate your identity and provide you with access to our altercall.ai
+      application
+    - to send you important notifications, updates, and information related to your
+      use of our application
+- source: we
+  target: information we receive
+  key: COLLECT
+  text:
+  - We will use the information we receive only for the purposes that are described
+    in this privacy policy or that are otherwise made clear to you on the Services.
+  purposes: {}
+- source: we
+  target: permission you grant to application
+  key: COLLECT
+  text:
+  - We may collect and store the permissions you grant to our application during the
+    OAuth consent process.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We may collect your name, email address, and other contact details associated
+    with your google account.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Disclosure of Information We do not sell, trade, or otherwise transfer your personal
+    information to third parties without your explicit consent, except in the following
+    circumstances:
+
+
+    b. Legal Compliance: We may disclose your personal information if required by
+    law, governmental or regulatory authorities, or to protect our rights, property,
+    or safety, or that of our users or the public.'
+  - In the case we discover that a child under 13 has provided us with personal information,
+    we immediately delete this from our servers.
+  - We may share your personal information with trusted third-party service providers
+    who assist us in operating our application and providing services to you.
+  - We retain your personal information for as long as necessary to fulfill the purposes
+    outlined in this Privacy Policy, unless a longer retention period is required
+    or permitted by law.
+  - 'When you use the OAuth consent screen to sign up or log in to our application
+    using your personal google account, we may collect the following types of personal
+    information:
+
+
+    a. Personal Information:'
+  purposes: {}
+- source: we
+  target: personal information collect through oauth consent screen
+  key: COLLECT
+  text:
+  - 'Use of Information We use the personal information collected through the OAuth
+    consent screen for the following purposes:'
+  purposes: {}
+- source: we
+  target: personal information provide
+  key: COLLECT
+  text:
+  - We will use the personal information provided by the third party service to create
+    your AlterCall account.
+  purposes:
+    services:
+    - to create your AlterCall account
+- source: we
+  target: profile information
+  key: COLLECT
+  text:
+  - The profile Information we receive may vary depending on the social media provider
+    concerned, but will often include your name, email address, friends list, profile
+    picture as well as other information you choose to make public.
+  purposes: {}
+- source: we
+  target: profile information about you
+  key: COLLECT
+  text:
+  - Where you choose to do this, we will receive certain profile information about
+    you from your social media provider.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal information with trusted third-party service providers
+    who assist us in operating our application and providing services to you.
+  purposes: {}
+- source: affiliate contributor
+  target: communication provide
+  key: COLLECT
+  text:
+  - 'As a part of your participation in any Programs provided by AlterCall, LLC subject
+    to the terms of this agreement, You hereby irrevocably authorize AlterCall, LLC
+    and its affiliates/contributors to record, collect, or otherwise capture and store
+    indefinitely any and all communications provided or otherwise produced during
+    the course of the Programs including but not limited to: teleconference calls;
+    video conferencing calls; transcriptions; emails; chat sessions; and/or SMS messages
+    (hereinafter, "recorded materials").'
+  purposes: {}
+- source: affiliate contributor
+  target: record material
+  key: COLLECT
+  text:
+  - The recorded materials may be stored in their original form or in modified form,
+    including de-identified form or form where personally identifiable information
+    (PII) has been scrubbed or otherwise removed, in perpetuity by AlterCall, LLC
+    and its affiliates/contributors in accordance with any data privacy and security
+    policies as implemented by AlterCall, LLC.
+  purposes: {}
+- source: altercall
+  target: personal information
+  key: COLLECT
+  text:
+  - In the latter case, personal information you provide to that third party (such
+    as your name, email address, and other information) will be provided to AlterCall
+    through the third party service in accordance with your privacy settings on that
+    third party service.
+  purposes: {}
+- source: altercall llc
+  target: communication provide
+  key: COLLECT
+  text:
+  - 'As a part of your participation in any Programs provided by AlterCall, LLC subject
+    to the terms of this agreement, You hereby irrevocably authorize AlterCall, LLC
+    and its affiliates/contributors to record, collect, or otherwise capture and store
+    indefinitely any and all communications provided or otherwise produced during
+    the course of the Programs including but not limited to: teleconference calls;
+    video conferencing calls; transcriptions; emails; chat sessions; and/or SMS messages
+    (hereinafter, "recorded materials").'
+  purposes: {}
+- source: altercall llc
+  target: record material
+  key: COLLECT
+  text:
+  - The recorded materials may be stored in their original form or in modified form,
+    including de-identified form or form where personally identifiable information
+    (PII) has been scrubbed or otherwise removed, in perpetuity by AlterCall, LLC
+    and its affiliates/contributors in accordance with any data privacy and security
+    policies as implemented by AlterCall, LLC.
+  purposes: {}
+- source: altercall.ai
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how altercall.ai collects, uses, and discloses personal
+    information when you use the OAuth consent screen provided by Google to log in
+    to our application using your google email address.
+  purposes: {}
+- source: communication provide
+  target: chat session
+  key: SUBSUM
+  text:
+  - 'As a part of your participation in any Programs provided by AlterCall, LLC subject
+    to the terms of this agreement, You hereby irrevocably authorize AlterCall, LLC
+    and its affiliates/contributors to record, collect, or otherwise capture and store
+    indefinitely any and all communications provided or otherwise produced during
+    the course of the Programs including but not limited to: teleconference calls;
+    video conferencing calls; transcriptions; emails; chat sessions; and/or SMS messages
+    (hereinafter, "recorded materials").'
+- source: communication provide
+  target: email address
+  key: SUBSUM
+  text:
+  - 'As a part of your participation in any Programs provided by AlterCall, LLC subject
+    to the terms of this agreement, You hereby irrevocably authorize AlterCall, LLC
+    and its affiliates/contributors to record, collect, or otherwise capture and store
+    indefinitely any and all communications provided or otherwise produced during
+    the course of the Programs including but not limited to: teleconference calls;
+    video conferencing calls; transcriptions; emails; chat sessions; and/or SMS messages
+    (hereinafter, "recorded materials").'
+- source: communication provide
+  target: sms message
+  key: SUBSUM
+  text:
+  - 'As a part of your participation in any Programs provided by AlterCall, LLC subject
+    to the terms of this agreement, You hereby irrevocably authorize AlterCall, LLC
+    and its affiliates/contributors to record, collect, or otherwise capture and store
+    indefinitely any and all communications provided or otherwise produced during
+    the course of the Programs including but not limited to: teleconference calls;
+    video conferencing calls; transcriptions; emails; chat sessions; and/or SMS messages
+    (hereinafter, "recorded materials").'
+- source: communication provide
+  target: teleconference call
+  key: SUBSUM
+  text:
+  - 'As a part of your participation in any Programs provided by AlterCall, LLC subject
+    to the terms of this agreement, You hereby irrevocably authorize AlterCall, LLC
+    and its affiliates/contributors to record, collect, or otherwise capture and store
+    indefinitely any and all communications provided or otherwise produced during
+    the course of the Programs including but not limited to: teleconference calls;
+    video conferencing calls; transcriptions; emails; chat sessions; and/or SMS messages
+    (hereinafter, "recorded materials").'
+- source: communication provide
+  target: transcription
+  key: SUBSUM
+  text:
+  - 'As a part of your participation in any Programs provided by AlterCall, LLC subject
+    to the terms of this agreement, You hereby irrevocably authorize AlterCall, LLC
+    and its affiliates/contributors to record, collect, or otherwise capture and store
+    indefinitely any and all communications provided or otherwise produced during
+    the course of the Programs including but not limited to: teleconference calls;
+    video conferencing calls; transcriptions; emails; chat sessions; and/or SMS messages
+    (hereinafter, "recorded materials").'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - In the latter case, personal information you provide to that third party (such
+    as your name, email address, and other information) will be provided to AlterCall
+    through the third party service in accordance with your privacy settings on that
+    third party service.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - In the latter case, personal information you provide to that third party (such
+    as your name, email address, and other information) will be provided to AlterCall
+    through the third party service in accordance with your privacy settings on that
+    third party service.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: affiliate contributor
+- type: ACTOR
+  id: altercall
+- type: ACTOR
+  id: altercall llc
+- type: ACTOR
+  id: altercall.ai
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: associate permission
+- type: DATA
+  id: chat session
+- type: DATA
+  id: communication provide
+- type: DATA
+  id: contact information
+- type: DATA
+  id: email address
+- type: DATA
+  id: information we receive
+- type: DATA
+  id: permission you grant to application
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information collect through oauth consent screen
+- type: DATA
+  id: personal information provide
+- type: DATA
+  id: profile information
+- type: DATA
+  id: profile information about you
+- type: DATA
+  id: record material
+- type: DATA
+  id: sms message
+- type: DATA
+  id: teleconference call
+- type: DATA
+  id: transcription

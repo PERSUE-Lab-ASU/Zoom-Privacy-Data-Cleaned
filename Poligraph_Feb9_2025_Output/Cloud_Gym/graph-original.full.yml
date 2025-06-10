@@ -1,0 +1,419 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By authorizing us to access your TPS account, you authorize us to obtain certain
+    information from your TPS account, which may including your name, email address,
+    birthday, work history, education history, current city, share media, and the
+    names, profile pictures, relationship status, and current cities of your TPS contacts.
+  - 'Our Privacy Policy
+
+
+    General
+
+
+    We only obtain information from your TPS account that you specifically authorize
+    and grant us permission to obtain.'
+  - 'Our Privacy Policy
+
+
+    Security and storage
+
+
+    Account information
+
+
+    We collect the following data from your connected Social Networks and 3rd Party
+    partners:'
+  - Please note, however, that we may need to retain certain information for record
+    keeping purposes, to complete transactions or to comply with our legal obligations.
+  - What data we store, we'll protect within commercially acceptable means to prevent
+    loss and theft, as well as unauthorised access, disclosure, copying, use or modification.
+  purposes:
+    legal:
+    - for record keeping purposes, to complete transactions or to comply with our
+      legal obligations
+    services:
+    - for record keeping purposes, to complete transactions or to comply with our
+      legal obligations
+- source: we
+  target: account information
+  key: COLLECT
+  text:
+  - 'Our Privacy Policy
+
+
+    Security and storage
+
+
+    Account information'
+  - We may also obtain this information if you choose to use a social login service,
+    such as Facebook Login or Google Login.
+  purposes: {}
+- source: we
+  target: collect information
+  key: COLLECT
+  text:
+  - We only retain collected information for as long as necessary to provide you with
+    your requested service.
+  purposes:
+    services:
+    - to provide you with your requested service
+- source: we
+  target: collect social network datum
+  key: COLLECT
+  text:
+  - We use the collected social network data (Google, Youtube, Instagram, Facebook,
+    Twitter) to show you the information consolidated in our maketing dashboard
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We use your contact information and information related to your request to respond
+    to your inquiries, manage our contract with you, respond to your questions and
+    requests, and send you updates and information about the Services.
+  purposes:
+    services:
+    - to respond to your inquiries, manage our contract with you, respond to your
+      questions and requests, and send you updates and information about the Services
+- source: we
+  target: feedback
+  key: COLLECT
+  text:
+  - We analyze usage information, your feedback, support queries, and survey responses
+    to help us understand and make improvements to our Services.
+  purposes:
+    analytics:
+    - to help us understand and make improvements to our Services
+    services:
+    - to help us understand and make improvements to our Services
+- source: we
+  target: google gmail access
+  key: COLLECT
+  text:
+  - We use your google GMail access to automate email send to your customers, using
+    our plataform
+  purposes:
+    services:
+    - to automate email send to your customers, using our plataform
+- source: we
+  target: information relate to request
+  key: COLLECT
+  text:
+  - We use your contact information and information related to your request to respond
+    to your inquiries, manage our contract with you, respond to your questions and
+    requests, and send you updates and information about the Services.
+  purposes:
+    services:
+    - to respond to your inquiries, manage our contract with you, respond to your
+      questions and requests, and send you updates and information about the Services
+- source: we
+  target: information you provide
+  key: COLLECT
+  text:
+  - We use information that you provide when signing up to set up your account, process
+    payments, contact you regarding the Services, and manage your account.
+  purposes:
+    services:
+    - to set up your account, process payments, contact you regarding the Services,
+      and manage your account
+- source: we
+  target: support query
+  key: COLLECT
+  text:
+  - We analyze usage information, your feedback, support queries, and survey responses
+    to help us understand and make improvements to our Services.
+  purposes:
+    analytics:
+    - to help us understand and make improvements to our Services
+    services:
+    - to help us understand and make improvements to our Services
+- source: we
+  target: survey response
+  key: COLLECT
+  text:
+  - We analyze usage information, your feedback, support queries, and survey responses
+    to help us understand and make improvements to our Services.
+  purposes:
+    analytics:
+    - to help us understand and make improvements to our Services
+    services:
+    - to help us understand and make improvements to our Services
+- source: we
+  target: time
+  key: COLLECT
+  text:
+  - When you make such requests, we may need time to investigate and facilitate your
+    request.
+  purposes:
+    analytics:
+    - to investigate and facilitate your request
+    security:
+    - to investigate and facilitate your request
+    services:
+    - to investigate and facilitate your request
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - We analyze usage information, your feedback, support queries, and survey responses
+    to help us understand and make improvements to our Services.
+  purposes:
+    analytics:
+    - to help us understand and make improvements to our Services
+    services:
+    - to help us understand and make improvements to our Services
+- source: we
+  target: youtube access
+  key: COLLECT
+  text:
+  - We use your youtube access to automate the creation of live events, we request
+    access to create on your behalf broadcast, stream and bind them on youtube API.
+  purposes:
+    services:
+    - to automate the creation of live events
+    - to create on your behalf broadcast, stream and bind them on youtube API
+- source: we
+  target: mobile application
+  key: SUBSUM
+  text:
+  - Cloud Gym offers a suite of fitness and health facilities management tools that
+    are accessible via our websites and mobile applications (collectively, the "Services").
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Our Privacy Policy
+
+
+    Security and storage
+
+
+    Account information
+
+
+    Your contact and profile information including your name, email address, organization
+    name, and address; your preferences such as language, time zone, and the types
+    of communication you would like to receive from us and image (if you choose to
+    provide this).'
+- source: contact information
+  target: organization name
+  key: SUBSUM
+  text:
+  - 'Our Privacy Policy
+
+
+    Security and storage
+
+
+    Account information
+
+
+    Your contact and profile information including your name, email address, organization
+    name, and address; your preferences such as language, time zone, and the types
+    of communication you would like to receive from us and image (if you choose to
+    provide this).'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Our Privacy Policy
+
+
+    Security and storage
+
+
+    Account information
+
+
+    Your contact and profile information including your name, email address, organization
+    name, and address; your preferences such as language, time zone, and the types
+    of communication you would like to receive from us and image (if you choose to
+    provide this).'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Our Privacy Policy
+
+
+    Security and storage
+
+
+    Account information
+
+
+    Your contact and profile information including your name, email address, organization
+    name, and address; your preferences such as language, time zone, and the types
+    of communication you would like to receive from us and image (if you choose to
+    provide this).'
+- source: several departament of business
+  target: control access
+  key: SUBSUM
+  text:
+  - 'These tools allow you to manage several departaments of your business such as:
+    Control Access, Financial, Customer Relationship and Marketing, through our marketing
+    tool you can manage your social media networks and gather data like number of
+    likes, followers and subscribers from each of them.'
+- source: several departament of business
+  target: marketing
+  key: SUBSUM
+  text:
+  - 'These tools allow you to manage several departaments of your business such as:
+    Control Access, Financial, Customer Relationship and Marketing, through our marketing
+    tool you can manage your social media networks and gather data like number of
+    likes, followers and subscribers from each of them.'
+- source: social login service
+  target: Facebook
+  key: SUBSUM
+  text:
+  - We may also obtain this information if you choose to use a social login service,
+    such as Facebook Login or Google Login.
+- source: social login service
+  target: Google
+  key: SUBSUM
+  text:
+  - We may also obtain this information if you choose to use a social login service,
+    such as Facebook Login or Google Login.
+- source: social media
+  target: Facebook
+  key: SUBSUM
+  text:
+  - Any collection use and management of personal information by the social networks,
+    including Google, Youtube, Facebook, Instagram, Twitter, LinkedIn (collectively,
+    the "Social Networks") are governed by their respective privacy policies and terms.
+- source: social media
+  target: Google
+  key: SUBSUM
+  text:
+  - Any collection use and management of personal information by the social networks,
+    including Google, Youtube, Facebook, Instagram, Twitter, LinkedIn (collectively,
+    the "Social Networks") are governed by their respective privacy policies and terms.
+- source: social media
+  target: Microsoft
+  key: SUBSUM
+  text:
+  - Any collection use and management of personal information by the social networks,
+    including Google, Youtube, Facebook, Instagram, Twitter, LinkedIn (collectively,
+    the "Social Networks") are governed by their respective privacy policies and terms.
+- source: social media
+  target: Twitter
+  key: SUBSUM
+  text:
+  - Any collection use and management of personal information by the social networks,
+    including Google, Youtube, Facebook, Instagram, Twitter, LinkedIn (collectively,
+    the "Social Networks") are governed by their respective privacy policies and terms.
+- source: social media
+  target: youtube
+  key: SUBSUM
+  text:
+  - Any collection use and management of personal information by the social networks,
+    including Google, Youtube, Facebook, Instagram, Twitter, LinkedIn (collectively,
+    the "Social Networks") are governed by their respective privacy policies and terms.
+- source: tps
+  target: Facebook
+  key: SUBSUM
+  text:
+  - You may have the option to register an account with us using a TPS, and you may
+    connect your account to a TPS such as Instagram, Facebook, Twitter or YouTube.
+- source: tps
+  target: Twitter
+  key: SUBSUM
+  text:
+  - You may have the option to register an account with us using a TPS, and you may
+    connect your account to a TPS such as Instagram, Facebook, Twitter or YouTube.
+- source: tps
+  target: youtube
+  key: SUBSUM
+  text:
+  - You may have the option to register an account with us using a TPS, and you may
+    connect your account to a TPS such as Instagram, Facebook, Twitter or YouTube.
+- source: type of communication you like
+  target: time zone
+  key: SUBSUM
+  text:
+  - 'Our Privacy Policy
+
+
+    Security and storage
+
+
+    Account information
+
+
+    Your contact and profile information including your name, email address, organization
+    name, and address; your preferences such as language, time zone, and the types
+    of communication you would like to receive from us and image (if you choose to
+    provide this).'
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Microsoft
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: control access
+- type: ACTOR
+  id: marketing
+- type: ACTOR
+  id: mobile application
+- type: ACTOR
+  id: several departament of business
+- type: ACTOR
+  id: social login service
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: tps
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: youtube
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information
+- type: DATA
+  id: collect information
+- type: DATA
+  id: collect social network datum
+- type: DATA
+  id: contact information
+- type: DATA
+  id: email address
+- type: DATA
+  id: feedback
+- type: DATA
+  id: google gmail access
+- type: DATA
+  id: information relate to request
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: organization name
+- type: DATA
+  id: person name
+- type: DATA
+  id: postal address
+- type: DATA
+  id: support query
+- type: DATA
+  id: survey response
+- type: DATA
+  id: time
+- type: DATA
+  id: time zone
+- type: DATA
+  id: type of communication you like
+- type: DATA
+  id: usage information
+- type: DATA
+  id: youtube access

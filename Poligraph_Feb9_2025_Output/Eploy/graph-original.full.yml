@@ -1,0 +1,438 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For example, we may use your data to:'
+  - We use UK datacentres and your data is protected by multiple tiers of security
+    .
+  - We will only process your data in a manner you would expect and in accordance
+    with this privacy statement.
+  purposes:
+    advertising:
+    - To keep you informed of job opportunities as they arise, 'job alerts', which
+      you can opt in or out of at any time
+    analytics:
+    - 'to: To find out more about your skills and experience and assess your suitability
+      for employment at Eploy'
+    services:
+    - To keep you informed of job opportunities as they arise, 'job alerts', which
+      you can opt in or out of at any time
+    - 'to: To find out more about your skills and experience and assess your suitability
+      for employment at Eploy'
+    - 'to: To help make an offer of employment or enter into a working relationship
+      with you'
+- source: we
+  target: datum about you
+  key: COLLECT
+  text:
+  - 'Privacy Statement
+
+
+    1. For visitors to our corporate website www.eploy.com
+
+
+    Information we may collect from you when using our website www.eploy.com
+
+
+    We may collect and process the following data about you:'
+  purposes: {}
+- source: we
+  target: information as
+  key: COLLECT
+  text:
+  - 'If we make an offer of employment, we may request further information such as:'
+  purposes: {}
+- source: we
+  target: information hold about you
+  key: COLLECT
+  text:
+  - 'We use information held about you in the following ways:'
+  purposes:
+    advertising:
+    - To provide you with information, products or services that you request from
+      us or which we feel may interest you
+    analytics:
+    - To provide you with information, products or services that you request from
+      us or which we feel may interest you
+    services:
+    - To provide you with information, products or services that you request from
+      us or which we feel may interest you
+- source: we
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - How we use the information we may collect from you when using www.eploy.com
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - '2. For job applicants and candidates using our careers site careers.eploy.com
+
+
+    Information we may collect from you if you apply for a job with us via our careers
+    site careers.eploy.com
+
+
+    If you apply for a job with us, we will need to collect personal data from you
+    such as:'
+  - 'We may disclose your personal information to third parties:'
+  purposes:
+    legal:
+    - Whether you need permission to work in the UK
+    services:
+    - CV/work history
+    - Job preferences including role, geographical areas and salary
+    - Whether you need permission to work in the UK
+    - Your email address
+    - Your telephone number
+- source: we
+  target: record of correspondence
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: If you contact us, we
+    may keep a record of that correspondence.'
+  purposes: {}
+- source: we
+  target: specific information
+  key: COLLECT
+  text:
+  - We may need to request specific information from you to help us confirm your identity
+    and ensure your right to access the information (or to exercise any of your other
+    rights).
+  purposes:
+    security:
+    - to help us confirm your identity and ensure your right to access the information
+      (or to exercise any of your other rights)
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose your personal information to third parties:'
+  purposes: {}
+- source: app call
+  target: very basic information
+  key: COLLECT
+  text:
+  - 'If you choose to use these apps they collect very basic information such as name
+    and email address, this information is not used for anything other than the purposes
+    described below:'
+  - If you use this feature you might find an app called Eploy as a list of 3rd party
+    tools you've downloaded.
+  purposes:
+    services:
+    - to let you register on careers sites
+- source: eploy
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Eploy processes your data under legitimate interests as a lawful basis.
+  purposes: {}
+- source: multiple tier of security
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use UK datacentres and your data is protected by multiple tiers of security
+    .
+  purposes: {}
+- source: datum about you
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Privacy Statement
+
+
+    1. For visitors to our corporate website www.eploy.com
+
+
+    Information we may collect from you when using our website www.eploy.com
+
+
+    We may collect and process the following data about you:'
+  - 'We may collect and process the following data about you: Details of your visits
+    to our site including, but not limited to, traffic data, location data, weblogs
+    and other communication data, whether this is required for our own billing purposes
+    or otherwise and the resources that you access.'
+- source: datum about you
+  target: information you provide by
+  key: SUBSUM
+  text:
+  - '1. For visitors to our corporate website www.eploy.com
+
+
+    Information we may collect from you when using our website www.eploy.com
+
+
+    We may collect and process the following data about you: Information that you
+    provide by filling in forms on this site.'
+  - 'Privacy Statement
+
+
+    1. For visitors to our corporate website www.eploy.com
+
+
+    Information we may collect from you when using our website www.eploy.com
+
+
+    We may collect and process the following data about you:'
+- source: file
+  target: cv
+  key: SUBSUM
+  text:
+  - In this process, you can choose to upload your files (such as CV) stored on your
+    Google drive.
+- source: information as
+  target: bank detail
+  key: SUBSUM
+  text:
+  - 'If we make an offer of employment, we may request further information such as:
+    Bank details'
+- source: information as
+  target: employment reference
+  key: SUBSUM
+  text:
+  - 'If we make an offer of employment, we may request further information such as:
+    Employment references'
+- source: information as
+  target: proof of identity
+  key: SUBSUM
+  text:
+  - 'If we make an offer of employment, we may request further information such as:
+    Proof of identity and any relevant professional or academic certifications or
+    qualifications'
+- source: information as
+  target: relevant professional certification
+  key: SUBSUM
+  text:
+  - 'If we make an offer of employment, we may request further information such as:
+    Proof of identity and any relevant professional or academic certifications or
+    qualifications'
+- source: job preference
+  target: geographical area
+  key: SUBSUM
+  text:
+  - '2. For job applicants and candidates using our careers site careers.eploy.com
+
+
+    Information we may collect from you if you apply for a job with us via our careers
+    site careers.eploy.com
+
+
+    If you apply for a job with us, we will need to collect personal data from you
+    such as: Job preferences including role, geographical areas and salary'
+- source: job preference
+  target: role
+  key: SUBSUM
+  text:
+  - '2. For job applicants and candidates using our careers site careers.eploy.com
+
+
+    Information we may collect from you if you apply for a job with us via our careers
+    site careers.eploy.com
+
+
+    If you apply for a job with us, we will need to collect personal data from you
+    such as: Job preferences including role, geographical areas and salary'
+- source: job preference
+  target: salary
+  key: SUBSUM
+  text:
+  - '2. For job applicants and candidates using our careers site careers.eploy.com
+
+
+    Information we may collect from you if you apply for a job with us via our careers
+    site careers.eploy.com
+
+
+    If you apply for a job with us, we will need to collect personal data from you
+    such as: Job preferences including role, geographical areas and salary'
+- source: personal information
+  target: cv work history
+  key: SUBSUM
+  text:
+  - '2. For job applicants and candidates using our careers site careers.eploy.com
+
+
+    Information we may collect from you if you apply for a job with us via our careers
+    site careers.eploy.com
+
+
+    If you apply for a job with us, we will need to collect personal data from you
+    such as:'
+  - 'If you apply for a job with us, we will need to collect personal data from you
+    such as: CV/work history'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - '2. For job applicants and candidates using our careers site careers.eploy.com
+
+
+    Information we may collect from you if you apply for a job with us via our careers
+    site careers.eploy.com
+
+
+    If you apply for a job with us, we will need to collect personal data from you
+    such as: Your email address'
+- source: personal information
+  target: job preference
+  key: SUBSUM
+  text:
+  - '2. For job applicants and candidates using our careers site careers.eploy.com
+
+
+    Information we may collect from you if you apply for a job with us via our careers
+    site careers.eploy.com
+
+
+    If you apply for a job with us, we will need to collect personal data from you
+    such as: Job preferences including role, geographical areas and salary'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - '2. For job applicants and candidates using our careers site careers.eploy.com
+
+
+    Information we may collect from you if you apply for a job with us via our careers
+    site careers.eploy.com
+
+
+    If you apply for a job with us, we will need to collect personal data from you
+    such as: Your name'
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - '2. For job applicants and candidates using our careers site careers.eploy.com
+
+
+    Information we may collect from you if you apply for a job with us via our careers
+    site careers.eploy.com
+
+
+    If you apply for a job with us, we will need to collect personal data from you
+    such as: Your telephone number'
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - '2. For job applicants and candidates using our careers site careers.eploy.com
+
+
+    Information we may collect from you if you apply for a job with us via our careers
+    site careers.eploy.com
+
+
+    If you apply for a job with us, we will need to collect personal data from you
+    such as: Your address'
+- source: resource
+  target: brochure
+  key: SUBSUM
+  text:
+  - For example, if you request a resource such as a brochure, whitepaper or ebook
+    from our resources , we require your name and email address so that we can send
+    it to you.
+- source: resource
+  target: ebook
+  key: SUBSUM
+  text:
+  - For example, if you request a resource such as a brochure, whitepaper or ebook
+    from our resources , we require your name and email address so that we can send
+    it to you.
+- source: resource
+  target: whitepaper
+  key: SUBSUM
+  text:
+  - For example, if you request a resource such as a brochure, whitepaper or ebook
+    from our resources , we require your name and email address so that we can send
+    it to you.
+- source: very basic information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'If you choose to use these apps they collect very basic information such as name
+    and email address, this information is not used for anything other than the purposes
+    described below:'
+- source: very basic information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'If you choose to use these apps they collect very basic information such as name
+    and email address, this information is not used for anything other than the purposes
+    described below:'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: app call
+- type: ACTOR
+  id: brochure
+- type: ACTOR
+  id: ebook
+- type: ACTOR
+  id: eploy
+- type: ACTOR
+  id: multiple tier of security
+- type: ACTOR
+  id: resource
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: whitepaper
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: bank detail
+- type: DATA
+  id: cv
+- type: DATA
+  id: cv work history
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: email address
+- type: DATA
+  id: employment reference
+- type: DATA
+  id: file
+- type: DATA
+  id: geographical area
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information as
+- type: DATA
+  id: information hold about you
+- type: DATA
+  id: information we collect from you
+- type: DATA
+  id: information you provide by
+- type: DATA
+  id: job preference
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: proof of identity
+- type: DATA
+  id: record of correspondence
+- type: DATA
+  id: relevant professional certification
+- type: DATA
+  id: role
+- type: DATA
+  id: salary
+- type: DATA
+  id: specific information
+- type: DATA
+  id: very basic information
