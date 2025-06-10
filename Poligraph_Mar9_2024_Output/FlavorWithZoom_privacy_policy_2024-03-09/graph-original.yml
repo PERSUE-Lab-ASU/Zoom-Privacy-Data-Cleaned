@@ -1,0 +1,564 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to:'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'Collection of information : For the purposes outlined in Clause II, we may collect
+    and process the following information about you:'
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we receive from third parties - We work with
+    third parties and we may receive information about you from them, for example,
+    business partners, sub-contractors in technical, payment and delivery services,
+    advertising networks, analytics providers, search information providers, or credit
+    reference agencies.'
+  purposes:
+    analytics:
+    - when you complete any survey or questionnaire we send you
+    services:
+    - when you complete any survey or questionnaire we send you
+    - when you request any support from us
+- source: we
+  target: information hold about you
+  key: COLLECT
+  text:
+  - 'Uses made of the information : We use information held about you for the following
+    purposes:'
+  purposes:
+    advertising:
+    - for direct marketing purposes
+    analytics:
+    - presenting content and information in our Site and our App in the most effective
+      manner for you and for the device you use
+    - researching, designing and launching new features or products
+    legal:
+    - responding or taking part in legal proceedings, including seeking professional
+      advice
+    services:
+    - communicating with you and responding to your questions or requests
+    - presenting content and information in our Site and our App in the most effective
+      manner for you and for the device you use
+    - providing you with alerts, updates, materials or information about our services
+      or other types of information that you requested or signed up to
+    - providing, improving and developing our services
+    - researching, designing and launching new features or products
+- source: we
+  target: personal datum we hold
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Collection of information : We only retain personal data for so long as it is
+    necessary.'
+  - We intend to use your personal data in direct marketing (i.e. offering or advertising
+    products or services by sending the relevant information directly to you).
+  - 'Your rights : You have the right to: check whether we hold personal data about
+    you;'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to: our overseas offices, affiliates,
+    business partners and counterparts (on a need-to-know basis only);'
+  - 'We will keep your personal data we hold confidential but you agree we may provide
+    information to: personnel, agents, advisers, auditors, contractors, financial
+    institutions, and service providers in connection with our operations or services
+    (for example staff engaged in the provision of support services);'
+  purposes: {}
+- source: actual transferee of operation in part of world
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to: actual or proposed transferees of
+    our operations (or a substantial part thereof) in any part of the world.'
+  purposes: {}
+- source: adviser
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to:'
+  - 'We will keep your personal data we hold confidential but you agree we may provide
+    information to: personnel, agents, advisers, auditors, contractors, financial
+    institutions, and service providers in connection with our operations or services
+    (for example staff engaged in the provision of support services);'
+  purposes: {}
+- source: analytic provider
+  target: datum collect
+  key: COLLECT
+  text:
+  - These analytics services may use the data collected to contextualise and personalise
+    the marketing materials of their own advertising network.
+  purposes:
+    advertising:
+    - to contextualise and personalise the marketing materials of their own advertising
+      network
+- source: auditor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to:'
+  - 'We will keep your personal data we hold confidential but you agree we may provide
+    information to: personnel, agents, advisers, auditors, contractors, financial
+    institutions, and service providers in connection with our operations or services
+    (for example staff engaged in the provision of support services);'
+  purposes: {}
+- source: business partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to: our overseas offices, affiliates,
+    business partners and counterparts (on a need-to-know basis only);'
+  purposes: {}
+- source: contractor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to:'
+  - 'We will keep your personal data we hold confidential but you agree we may provide
+    information to: personnel, agents, advisers, auditors, contractors, financial
+    institutions, and service providers in connection with our operations or services
+    (for example staff engaged in the provision of support services);'
+  purposes: {}
+- source: counterpart
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to: our overseas offices, affiliates,
+    business partners and counterparts (on a need-to-know basis only);'
+  purposes: {}
+- source: financial institution
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to:'
+  - 'We will keep your personal data we hold confidential but you agree we may provide
+    information to: personnel, agents, advisers, auditors, contractors, financial
+    institutions, and service providers in connection with our operations or services
+    (for example staff engaged in the provision of support services);'
+  purposes: {}
+- source: overseas office
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to: our overseas offices, affiliates,
+    business partners and counterparts (on a need-to-know basis only);'
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We will keep your personal data we hold confidential
+    but you agree we may provide information to:'
+  - The information collected through these means (including IP addresses) is disclosed
+    to these service providers.
+  - The service providers that administer these services use technologies such as
+    cookies (which are likely to be analytical/performance cookies or targeting cookies),
+    web server logs and web beacons to help us analyse how visitors use our Site and
+    make the information displayed on it more relevant to your interests.
+  - 'We will keep your personal data we hold confidential but you agree we may provide
+    information to: personnel, agents, advisers, auditors, contractors, financial
+    institutions, and service providers in connection with our operations or services
+    (for example staff engaged in the provision of support services);'
+  purposes: {}
+- source: information about visit
+  target: date
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: information about
+    your visit, including the full Uniform Resource Locators (URLs), clickstream to,
+    through and from our site (including date and time), products you viewed or searched
+    for, page response times, download errors, length of visits to certain pages,
+    page interaction information (such as scrolling, clicks, and mouse-overs), methods
+    used to browse away from the page, and any phone number used to call our customer
+    service number; and'
+- source: information about visit
+  target: download error
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: information about
+    your visit, including the full Uniform Resource Locators (URLs), clickstream to,
+    through and from our site (including date and time), products you viewed or searched
+    for, page response times, download errors, length of visits to certain pages,
+    page interaction information (such as scrolling, clicks, and mouse-overs), methods
+    used to browse away from the page, and any phone number used to call our customer
+    service number; and'
+- source: information about visit
+  target: full uniform resource locators
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: information about
+    your visit, including the full Uniform Resource Locators (URLs), clickstream to,
+    through and from our site (including date and time), products you viewed or searched
+    for, page response times, download errors, length of visits to certain pages,
+    page interaction information (such as scrolling, clicks, and mouse-overs), methods
+    used to browse away from the page, and any phone number used to call our customer
+    service number; and'
+- source: information about visit
+  target: length of visit to page
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: information about
+    your visit, including the full Uniform Resource Locators (URLs), clickstream to,
+    through and from our site (including date and time), products you viewed or searched
+    for, page response times, download errors, length of visits to certain pages,
+    page interaction information (such as scrolling, clicks, and mouse-overs), methods
+    used to browse away from the page, and any phone number used to call our customer
+    service number; and'
+- source: information about visit
+  target: method use
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: information about
+    your visit, including the full Uniform Resource Locators (URLs), clickstream to,
+    through and from our site (including date and time), products you viewed or searched
+    for, page response times, download errors, length of visits to certain pages,
+    page interaction information (such as scrolling, clicks, and mouse-overs), methods
+    used to browse away from the page, and any phone number used to call our customer
+    service number; and'
+- source: information about visit
+  target: page interaction information
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: information about
+    your visit, including the full Uniform Resource Locators (URLs), clickstream to,
+    through and from our site (including date and time), products you viewed or searched
+    for, page response times, download errors, length of visits to certain pages,
+    page interaction information (such as scrolling, clicks, and mouse-overs), methods
+    used to browse away from the page, and any phone number used to call our customer
+    service number; and'
+- source: information about visit
+  target: page response time
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: information about
+    your visit, including the full Uniform Resource Locators (URLs), clickstream to,
+    through and from our site (including date and time), products you viewed or searched
+    for, page response times, download errors, length of visits to certain pages,
+    page interaction information (such as scrolling, clicks, and mouse-overs), methods
+    used to browse away from the page, and any phone number used to call our customer
+    service number; and'
+- source: information about visit
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: information about
+    your visit, including the full Uniform Resource Locators (URLs), clickstream to,
+    through and from our site (including date and time), products you viewed or searched
+    for, page response times, download errors, length of visits to certain pages,
+    page interaction information (such as scrolling, clicks, and mouse-overs), methods
+    used to browse away from the page, and any phone number used to call our customer
+    service number; and'
+- source: information about visit
+  target: time
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: information about
+    your visit, including the full Uniform Resource Locators (URLs), clickstream to,
+    through and from our site (including date and time), products you viewed or searched
+    for, page response times, download errors, length of visits to certain pages,
+    page interaction information (such as scrolling, clicks, and mouse-overs), methods
+    used to browse away from the page, and any phone number used to call our customer
+    service number; and'
+- source: information about visit
+  target: url
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: information about
+    your visit, including the full Uniform Resource Locators (URLs), clickstream to,
+    through and from our site (including date and time), products you viewed or searched
+    for, page response times, download errors, length of visits to certain pages,
+    page interaction information (such as scrolling, clicks, and mouse-overs), methods
+    used to browse away from the page, and any phone number used to call our customer
+    service number; and'
+- source: information about you
+  target: information about visit
+  key: SUBSUM
+  text:
+  - 'Collection of information : For the purposes outlined in Clause II, we may collect
+    and process the following information about you:'
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: information about
+    your visit, including the full Uniform Resource Locators (URLs), clickstream to,
+    through and from our site (including date and time), products you viewed or searched
+    for, page response times, download errors, length of visits to certain pages,
+    page interaction information (such as scrolling, clicks, and mouse-overs), methods
+    used to browse away from the page, and any phone number used to call our customer
+    service number; and'
+- source: information about you
+  target: information you give we
+  key: SUBSUM
+  text:
+  - 'Collection of information : For the purposes outlined in Clause II, we may collect
+    and process the following information about you:'
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information you give us - information that you provide
+    us (which may include your name, address, email address, telephone number, credit
+    card information and other personal description) by filling in forms on our Site
+    or our App, or by corresponding with us (by phone, email or otherwise), for example:'
+- source: information about you
+  target: technical information
+  key: SUBSUM
+  text:
+  - 'Collection of information : For the purposes outlined in Clause II, we may collect
+    and process the following information about you:'
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: technical information,
+    including the Internet protocol (IP) address used to connect your computer to
+    the Internet and your log-in information, browser type and version, time zone
+    setting, browser plug-in types and versions, operating system and platform;'
+- source: information you give we
+  target: information you provide we
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information you give us - information that you provide
+    us (which may include your name, address, email address, telephone number, credit
+    card information and other personal description) by filling in forms on our Site
+    or our App, or by corresponding with us (by phone, email or otherwise), for example:'
+- source: information you provide we
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information you give us - information that you provide
+    us (which may include your name, address, email address, telephone number, credit
+    card information and other personal description) by filling in forms on our Site
+    or our App, or by corresponding with us (by phone, email or otherwise), for example:'
+- source: information you provide we
+  target: email address
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information you give us - information that you provide
+    us (which may include your name, address, email address, telephone number, credit
+    card information and other personal description) by filling in forms on our Site
+    or our App, or by corresponding with us (by phone, email or otherwise), for example:'
+- source: information you provide we
+  target: person name
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information you give us - information that you provide
+    us (which may include your name, address, email address, telephone number, credit
+    card information and other personal description) by filling in forms on our Site
+    or our App, or by corresponding with us (by phone, email or otherwise), for example:'
+- source: information you provide we
+  target: personal description
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information you give us - information that you provide
+    us (which may include your name, address, email address, telephone number, credit
+    card information and other personal description) by filling in forms on our Site
+    or our App, or by corresponding with us (by phone, email or otherwise), for example:'
+- source: information you provide we
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information you give us - information that you provide
+    us (which may include your name, address, email address, telephone number, credit
+    card information and other personal description) by filling in forms on our Site
+    or our App, or by corresponding with us (by phone, email or otherwise), for example:'
+- source: information you provide we
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information you give us - information that you provide
+    us (which may include your name, address, email address, telephone number, credit
+    card information and other personal description) by filling in forms on our Site
+    or our App, or by corresponding with us (by phone, email or otherwise), for example:'
+- source: technical information
+  target: browser plug in type
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: technical information,
+    including the Internet protocol (IP) address used to connect your computer to
+    the Internet and your log-in information, browser type and version, time zone
+    setting, browser plug-in types and versions, operating system and platform;'
+- source: technical information
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: technical information,
+    including the Internet protocol (IP) address used to connect your computer to
+    the Internet and your log-in information, browser type and version, time zone
+    setting, browser plug-in types and versions, operating system and platform;'
+- source: technical information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: technical information,
+    including the Internet protocol (IP) address used to connect your computer to
+    the Internet and your log-in information, browser type and version, time zone
+    setting, browser plug-in types and versions, operating system and platform;'
+- source: technical information
+  target: log in information
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: technical information,
+    including the Internet protocol (IP) address used to connect your computer to
+    the Internet and your log-in information, browser type and version, time zone
+    setting, browser plug-in types and versions, operating system and platform;'
+- source: technical information
+  target: time zone setting
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: technical information,
+    including the Internet protocol (IP) address used to connect your computer to
+    the Internet and your log-in information, browser type and version, time zone
+    setting, browser plug-in types and versions, operating system and platform;'
+- source: technical information
+  target: version
+  key: SUBSUM
+  text:
+  - 'For the purposes outlined in Clause II, we may collect and process the following
+    information about you: Information we collect about you - information automatically
+    collected when you visit our Site or use our App, for example: technical information,
+    including the Internet protocol (IP) address used to connect your computer to
+    the Internet and your log-in information, browser type and version, time zone
+    setting, browser plug-in types and versions, operating system and platform;'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: actual transferee of operation in part of world
+- type: ACTOR
+  id: adviser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: auditor
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: counterpart
+- type: ACTOR
+  id: financial institution
+- type: ACTOR
+  id: overseas office
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser plug in type
+- type: DATA
+  id: browser type
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: download error
+- type: DATA
+  id: email address
+- type: DATA
+  id: full uniform resource locators
+- type: DATA
+  id: information about visit
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information hold about you
+- type: DATA
+  id: information you give we
+- type: DATA
+  id: information you provide we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: length of visit to page
+- type: DATA
+  id: log in information
+- type: DATA
+  id: method use
+- type: DATA
+  id: page interaction information
+- type: DATA
+  id: page response time
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum we hold
+- type: DATA
+  id: personal description
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: technical information
+- type: DATA
+  id: time
+- type: DATA
+  id: time zone setting
+- type: DATA
+  id: url
+- type: DATA
+  id: version

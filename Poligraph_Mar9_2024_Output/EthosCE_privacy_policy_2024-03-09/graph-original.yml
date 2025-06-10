@@ -1,0 +1,229 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use personal information in the file we maintain about you, and other information
+    we obtain from your current and past activities on the Site, to provide to you
+    the services offered by the Site; troubleshoot problems; deliver information to
+    you that, in some cases, is relevant to your interests, such as new courses; customize
+    your experience; enforce our Terms of Use ; provide you with system or administrative
+    messages.
+  purposes:
+    services:
+    - to provide to you the services offered by the Site; troubleshoot problems; deliver
+      information to you that, in some cases, is relevant to your interests, such
+      as new courses; customize your experience; enforce our Terms of Use ; provide
+      you with system or administrative messages
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - On occasion we use email addresses or other contact information to contact our
+    Users to ask them for their input on our services.
+  - Once you become a User, we require you to provide various contact and identity
+    information, and other personal information as indicated on the relevant forms
+    on the Site (which vary, depending on what kind of User you are), and you are
+    no longer anonymous to us.
+  purposes:
+    services:
+    - to contact our Users to ask them for their input on our services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to allow you to enter your password less frequently during a session,
+    to offer certain features that are only available through the use of a cookie
+    and to allow us to provide information that is targeted to your interests.
+  purposes:
+    services:
+    - to allow you to enter your password less frequently during a session, to offer
+      certain features that are only available through the use of a cookie and to
+      allow us to provide information that is targeted to your interests
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - On occasion we use email addresses or other contact information to contact our
+    Users to ask them for their input on our services.
+  purposes:
+    services:
+    - to contact our Users to ask them for their input on our services
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'If you visit our site to read or download information on our pages, we collect
+    and store only the following information about you:'
+  purposes: {}
+- source: we
+  target: information target to interest
+  key: COLLECT
+  text:
+  - We use cookies to allow you to enter your password less frequently during a session,
+    to offer certain features that are only available through the use of a cookie
+    and to allow us to provide information that is targeted to your interests.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Once you become a User, we require you to provide various contact and identity
+    information, and other personal information as indicated on the relevant forms
+    on the Site (which vary, depending on what kind of User you are), and you are
+    no longer anonymous to us.
+  - Therefore, we may provide personal information to law enforcement agencies in
+    what we believe to be emergency situations, we may provide personal information
+    where required by court order, legal process or lawful authority, and we may provide
+    it to our legal counsel in connection with the foregoing.
+  - We may also use personal information about you to improve our marketing and promotional
+    efforts, to analyze Site usage, to improve our content and product offerings,
+    and to customize the Site's content, layout, and services.
+  - We only collect personal information about you that we consider necessary for
+    achieving this purpose.
+  purposes:
+    advertising:
+    - to improve our marketing and promotional efforts, to analyze Site usage, to
+      improve our content and product offerings, and to customize the Site's content,
+      layout, and services
+    analytics:
+    - to improve our marketing and promotional efforts, to analyze Site usage, to
+      improve our content and product offerings, and to customize the Site's content,
+      layout, and services
+    services:
+    - to improve our marketing and promotional efforts, to analyze Site usage, to
+      improve our content and product offerings, and to customize the Site's content,
+      layout, and services
+- source: we
+  target: personal information in file we maintain about you
+  key: COLLECT
+  text:
+  - We use personal information in the file we maintain about you, and other information
+    we obtain from your current and past activities on the Site, to provide to you
+    the services offered by the Site; troubleshoot problems; deliver information to
+    you that, in some cases, is relevant to your interests, such as new courses; customize
+    your experience; enforce our Terms of Use ; provide you with system or administrative
+    messages.
+  purposes:
+    services:
+    - to provide to you the services offered by the Site; troubleshoot problems; deliver
+      information to you that, in some cases, is relevant to your interests, such
+      as new courses; customize your experience; enforce our Terms of Use ; provide
+      you with system or administrative messages
+- source: applicable subscriber
+  target: end user information
+  key: COLLECT
+  text:
+  - In the normal operation of the Site, End-User information is disclosed to the
+    applicable Subscriber, for example contact information used in the recording of
+    training completions.
+  purposes: {}
+- source: law enforcement agency
+  target: personal information
+  key: COLLECT
+  text:
+  - Therefore, we may provide personal information to law enforcement agencies in
+    what we believe to be emergency situations, we may provide personal information
+    where required by court order, legal process or lawful authority, and we may provide
+    it to our legal counsel in connection with the foregoing.
+  purposes: {}
+- source: legal counsel
+  target: personal information
+  key: COLLECT
+  text:
+  - Therefore, we may provide personal information to law enforcement agencies in
+    what we believe to be emergency situations, we may provide personal information
+    where required by court order, legal process or lawful authority, and we may provide
+    it to our legal counsel in connection with the foregoing.
+  purposes: {}
+- source: browser environment detail
+  target: internet speed connection
+  key: SUBSUM
+  text:
+  - 'If you visit our site to read or download information on our pages, we collect
+    and store only the following information about you: Browser environment details,
+    such as internet speed connection and screen resolution'
+- source: browser environment detail
+  target: screen resolution
+  key: SUBSUM
+  text:
+  - 'If you visit our site to read or download information on our pages, we collect
+    and store only the following information about you: Browser environment details,
+    such as internet speed connection and screen resolution'
+- source: end user information
+  target: contact information
+  key: SUBSUM
+  text:
+  - In the normal operation of the Site, End-User information is disclosed to the
+    applicable Subscriber, for example contact information used in the recording of
+    training completions.
+- source: information about you
+  target: browser environment detail
+  key: SUBSUM
+  text:
+  - 'If you visit our site to read or download information on our pages, we collect
+    and store only the following information about you: Browser environment details,
+    such as internet speed connection and screen resolution'
+- source: information about you
+  target: internet address of website you use
+  key: SUBSUM
+  text:
+  - 'If you visit our site to read or download information on our pages, we collect
+    and store only the following information about you: The Internet address of the
+    website you used to link directly to our site.'
+- source: information about you
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'If you visit our site to read or download information on our pages, we collect
+    and store only the following information about you: The IP address you access
+    our site from'
+- source: information about you
+  target: name of domain from you access internet
+  key: SUBSUM
+  text:
+  - 'If you visit our site to read or download information on our pages, we collect
+    and store only the following information about you: The name of the domain from
+    which you access the Internet'
+nodes:
+- type: ACTOR
+  id: applicable subscriber
+- type: ACTOR
+  id: law enforcement agency
+- type: ACTOR
+  id: legal counsel
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser environment detail
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: end user information
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information target to interest
+- type: DATA
+  id: internet address of website you use
+- type: DATA
+  id: internet speed connection
+- type: DATA
+  id: ip address
+- type: DATA
+  id: name of domain from you access internet
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information in file we maintain about you
+- type: DATA
+  id: screen resolution

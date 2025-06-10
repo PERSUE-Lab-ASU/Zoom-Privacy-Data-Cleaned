@@ -1,0 +1,162 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use a variety of industry-standard security technologies and procedures to
+    help protect your Personal Information from unauthorized access, use, or disclosure.
+  purposes:
+    security:
+    - protect your Personal Information from unauthorized access, use, or disclosure
+    - to help protect your Personal Information from unauthorized access, use, or
+      disclosure
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We also use Cookies and navigational data like Uniform Resource Locators (URL)
+    to gather information regarding the date and time of your visit and the solutions
+    and information for which you searched and viewed.
+  purposes:
+    analytics:
+    - to gather information regarding the date and time of your visit and the solutions
+      and information for which you searched and viewed
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - If you communicate with us by email, we may keep your email, together with your
+    email address and our reply, for our business records.
+  purposes: {}
+- source: we
+  target: feedback
+  key: COLLECT
+  text:
+  - If you provide feedback to us, we may use and disclose such feedback for any purpose,
+    provided we do not associate such feedback with your Personal Information.
+  purposes: {}
+- source: we
+  target: general statistic about customer
+  key: COLLECT
+  text:
+  - We may give general statistics about our customers, sales, and related site information
+    to other companies, however these statistics will not include any information
+    that personally identifies you.
+  purposes: {}
+- source: we
+  target: information contain in feedback
+  key: COLLECT
+  text:
+  - We will collect any information contained in such feedback and will treat the
+    Personal Information in it in accordance with this Privacy Policy.
+  purposes: {}
+- source: we
+  target: information regard date of visit
+  key: COLLECT
+  text:
+  - We also use Cookies and navigational data like Uniform Resource Locators (URL)
+    to gather information regarding the date and time of your visit and the solutions
+    and information for which you searched and viewed.
+  purposes: {}
+- source: we
+  target: navigational datum
+  key: COLLECT
+  text:
+  - We also use Cookies and navigational data like Uniform Resource Locators (URL)
+    to gather information regarding the date and time of your visit and the solutions
+    and information for which you searched and viewed.
+  purposes:
+    analytics:
+    - to gather information regarding the date and time of your visit and the solutions
+      and information for which you searched and viewed
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'Information we collect
+
+
+    When you visit our website we may collect the following information from you:
+    Name and email address'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may provide your Personal Information to third-party service providers who
+    work on behalf of or with us to provide some of the services and features of RegisterBlast
+    and to help us communicate with you.
+  - We may receive Personal Information about you from other sources with which you
+    have registered, companies who we have partnered with (collectively, "Partners")
+    or other third parties.
+  - When you use our website, you agree to us collecting and using personal information
+    and this privacy policy explains how we collect and use your personal information.
+  purposes:
+    services:
+    - to provide some of the services and features of RegisterBlast and to help us
+      communicate with you
+- source: UNSPECIFIED_ACTOR
+  target: general statistic about customer
+  key: COLLECT
+  text:
+  - We may give general statistics about our customers, sales, and related site information
+    to other companies, however these statistics will not include any information
+    that personally identifies you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may provide your Personal Information to third-party service providers who
+    work on behalf of or with us to provide some of the services and features of RegisterBlast
+    and to help us communicate with you.
+  purposes:
+    services:
+    - to provide some of the services and features of RegisterBlast and to help us
+      communicate with you
+- source: navigational datum
+  target: uniform resource locators
+  key: SUBSUM
+  text:
+  - We also use Cookies and navigational data like Uniform Resource Locators (URL)
+    to gather information regarding the date and time of your visit and the solutions
+    and information for which you searched and viewed.
+- source: navigational datum
+  target: url
+  key: SUBSUM
+  text:
+  - We also use Cookies and navigational data like Uniform Resource Locators (URL)
+    to gather information regarding the date and time of your visit and the solutions
+    and information for which you searched and viewed.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: feedback
+- type: DATA
+  id: general statistic about customer
+- type: DATA
+  id: information contain in feedback
+- type: DATA
+  id: information regard date of visit
+- type: DATA
+  id: navigational datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: uniform resource locators
+- type: DATA
+  id: url

@@ -1,0 +1,507 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our Privacy Policy is designed to help you understand what information we collect
+    and how we use and share that information.
+  - We may collect information when you interact with our advertisements and other
+    content on third-party sites or platforms, such as social networking sites.
+  - We may collect other information from you that is not specifically listed here.
+  - We may use any such information in accordance with this Privacy Policy or as otherwise
+    permitted by you.
+  - 'We use your information in the following ways:'
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Otherwise we may disclose such information for any reason.
+  - We may also share aggregated or anonymized information with third parties for
+    other purposes.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and similar technologies to collect some of this information.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We may also collect location information, including location information automatically
+    provided by your computer or device.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We collect information about you when you (a) register to use the Services and
+    (b) otherwise provide contact information to us via email, mail, or through our
+    Offerings.
+  purposes: {}
+- source: we
+  target: information on
+  key: COLLECT
+  text:
+  - We automatically collect information on how you interact with the Offerings, such
+    as the IP address from which you access the Offerings, date and time, information
+    about your browser, operating system and computer or device, pages viewed and
+    items clicked.
+  purposes: {}
+- source: we
+  target: payment information
+  key: COLLECT
+  text:
+  - 'Sharing Your Information with Third Parties
+
+
+    We may share your Payment Information to process your payments;'
+  - When you purchase the Services, we will also collect transaction information,
+    which may include your credit card information, billing and mailing address, and
+    other payment-related information (" Payment Information ").
+  purposes:
+    services:
+    - to process your payments
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, we may provide personal information to our service providers for
+    direct emailing of our newsletters or notifications of our product/service offerings;
+  - We may share and/or transfer your personal information if we become involved in
+    a merger, acquisition, bankruptcy, or any form of sale of some or all of our assets;
+    and
+  - We may share your personal information when we have a good faith belief that access,
+    use, preservation or disclosure of such information is reasonably necessary to
+    (a) satisfy any applicable law, regulation, legal process or enforceable governmental
+    request, (b) enforce a Customer Agreement, including investigation of potential
+    violations thereof, or (c) protect against imminent harm to our rights, property
+    or safety, or that of our users or the public as required or permitted by law;
+  - We may share your personal information with a third party if we have your consent
+    to do so.
+  - We may share your personal information with our business partners who offer a
+    service to you jointly with us, for example when running a cross-promotion;
+  - We may share your personal information with our parent companies, subsidiaries
+    and affiliates;
+  - We may share your personal information with third-party service providers to permit
+    such parties to provide services that help us with our business activities, which
+    may include assisting us with marketing, advertising our product/service offerings,
+    or providing, maintaining and improving the features and functionality of the
+    Offerings, among other things.
+  purposes:
+    advertising:
+    - to permit such parties to provide services that help us with our business activities,
+      which may include assisting us with marketing, advertising our product/service
+      offerings, or providing, maintaining and improving the features and functionality
+      of the Offerings, among other things
+    services:
+    - to permit such parties to provide services that help us with our business activities,
+      which may include assisting us with marketing, advertising our product/service
+      offerings, or providing, maintaining and improving the features and functionality
+      of the Offerings, among other things
+- source: we
+  target: transaction information
+  key: COLLECT
+  text:
+  - When you purchase the Services, we will also collect transaction information,
+    which may include your credit card information, billing and mailing address, and
+    other payment-related information (" Payment Information ").
+  purposes: {}
+- source: Stripe
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - When you make a purchase on the Offerings, any credit card information you provide
+    as part of your Payment Information is collected and processed directly by our
+    payment processor Stripe through their Stripe Checkout service.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Sharing Your Information with Third Parties
+  purposes:
+    services:
+    - to process your payments
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may also share aggregated or anonymized information with third parties for
+    other purposes.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: choice
+  key: COLLECT
+  text:
+  - 'Sharing Your Information with Third Parties
+
+
+    Your Controls and Choice'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: control
+  key: COLLECT
+  text:
+  - 'Sharing Your Information with Third Parties
+
+
+    Your Controls and Choice'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal information with a third party if we have your consent
+    to do so.
+  - We may share your personal information with our parent companies, subsidiaries
+    and affiliates;
+  - We may share your personal information with third-party service providers to permit
+    such parties to provide services that help us with our business activities, which
+    may include assisting us with marketing, advertising our product/service offerings,
+    or providing, maintaining and improving the features and functionality of the
+    Offerings, among other things.
+  - 'trade, share or transfer your personal information to third parties except in
+    the following limited circumstances:'
+  purposes:
+    advertising:
+    - to permit such parties to provide services that help us with our business activities,
+      which may include assisting us with marketing, advertising our product/service
+      offerings, or providing, maintaining and improving the features and functionality
+      of the Offerings, among other things
+    services:
+    - to permit such parties to provide services that help us with our business activities,
+      which may include assisting us with marketing, advertising our product/service
+      offerings, or providing, maintaining and improving the features and functionality
+      of the Offerings, among other things
+- source: business partner who offer service to you with we for
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal information with our business partners who offer a
+    service to you jointly with us, for example when running a cross-promotion;
+  purposes: {}
+- source: payment processor
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - When you make a purchase on the Offerings, any credit card information you provide
+    as part of your Payment Information is collected and processed directly by our
+    payment processor Stripe through their Stripe Checkout service.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, we may provide personal information to our service providers for
+    direct emailing of our newsletters or notifications of our product/service offerings;
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - This information you provide may include your username, first and last name, email
+    address, mailing address or phone number.
+  - We collect information about you when you (a) register to use the Services and
+    (b) otherwise provide contact information to us via email, mail, or through our
+    Offerings.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - This information you provide may include your username, first and last name, email
+    address, mailing address or phone number.
+  - We collect information about you when you (a) register to use the Services and
+    (b) otherwise provide contact information to us via email, mail, or through our
+    Offerings.
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - This information you provide may include your username, first and last name, email
+    address, mailing address or phone number.
+  - We collect information about you when you (a) register to use the Services and
+    (b) otherwise provide contact information to us via email, mail, or through our
+    Offerings.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - This information you provide may include your username, first and last name, email
+    address, mailing address or phone number.
+  - We collect information about you when you (a) register to use the Services and
+    (b) otherwise provide contact information to us via email, mail, or through our
+    Offerings.
+- source: contact information
+  target: username
+  key: SUBSUM
+  text:
+  - This information you provide may include your username, first and last name, email
+    address, mailing address or phone number.
+  - We collect information about you when you (a) register to use the Services and
+    (b) otherwise provide contact information to us via email, mail, or through our
+    Offerings.
+- source: cozycal scheduling inc product
+  target: cozycal booking page
+  key: SUBSUM
+  text:
+  - If you are a visitor to or user of a third-party website or service ("Third-Party
+    Property") that utilizes any CozyCal Scheduling Inc products (such as the CozyCal
+    booking page), then any information you submit to such Third-Party Property (including
+    via the CozyCal product) is collected under the privacy policy of the owner of
+    such Third-Party Property, and you should contact such owner with any related
+    requests or inquiries you may have.
+- source: customer data
+  target: information contain in communication between you use messaging feature of
+    services
+  key: SUBSUM
+  text:
+  - Customer Data may include, without limitation, (a) personal information such as
+    names, email addresses and phone numbers of your end user customers, potential
+    customers and other users of and visitors to your websites, apps and other properties
+    (" People "), which information may be input into the Services by you or collected
+    by the Services using CozyCal Scheduling Inc tags, scripts and other code implemented
+    on such properties, and (b) information contained in communications between you
+    and People using the messaging features of the Services.
+- source: customer data
+  target: personal information
+  key: SUBSUM
+  text:
+  - Customer Data may include, without limitation, (a) personal information such as
+    names, email addresses and phone numbers of your end user customers, potential
+    customers and other users of and visitors to your websites, apps and other properties
+    (" People "), which information may be input into the Services by you or collected
+    by the Services using CozyCal Scheduling Inc tags, scripts and other code implemented
+    on such properties, and (b) information contained in communications between you
+    and People using the messaging features of the Services.
+- source: information about yourself
+  target: email address
+  key: SUBSUM
+  text:
+  - If you are under 13, you may not attempt to register for the Offerings or send
+    any information about yourself to us, including your name, address, telephone
+    number, or email address.
+- source: information about yourself
+  target: person name
+  key: SUBSUM
+  text:
+  - If you are under 13, you may not attempt to register for the Offerings or send
+    any information about yourself to us, including your name, address, telephone
+    number, or email address.
+- source: information about yourself
+  target: phone number
+  key: SUBSUM
+  text:
+  - If you are under 13, you may not attempt to register for the Offerings or send
+    any information about yourself to us, including your name, address, telephone
+    number, or email address.
+- source: information about yourself
+  target: postal address
+  key: SUBSUM
+  text:
+  - If you are under 13, you may not attempt to register for the Offerings or send
+    any information about yourself to us, including your name, address, telephone
+    number, or email address.
+- source: information on
+  target: date
+  key: SUBSUM
+  text:
+  - We automatically collect information on how you interact with the Offerings, such
+    as the IP address from which you access the Offerings, date and time, information
+    about your browser, operating system and computer or device, pages viewed and
+    items clicked.
+- source: information on
+  target: ip address
+  key: SUBSUM
+  text:
+  - We automatically collect information on how you interact with the Offerings, such
+    as the IP address from which you access the Offerings, date and time, information
+    about your browser, operating system and computer or device, pages viewed and
+    items clicked.
+- source: information on
+  target: item click
+  key: SUBSUM
+  text:
+  - We automatically collect information on how you interact with the Offerings, such
+    as the IP address from which you access the Offerings, date and time, information
+    about your browser, operating system and computer or device, pages viewed and
+    items clicked.
+- source: information on
+  target: time
+  key: SUBSUM
+  text:
+  - We automatically collect information on how you interact with the Offerings, such
+    as the IP address from which you access the Offerings, date and time, information
+    about your browser, operating system and computer or device, pages viewed and
+    items clicked.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Customer Data may include, without limitation, (a) personal information such as
+    names, email addresses and phone numbers of your end user customers, potential
+    customers and other users of and visitors to your websites, apps and other properties
+    (" People "), which information may be input into the Services by you or collected
+    by the Services using CozyCal Scheduling Inc tags, scripts and other code implemented
+    on such properties, and (b) information contained in communications between you
+    and People using the messaging features of the Services.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Customer Data may include, without limitation, (a) personal information such as
+    names, email addresses and phone numbers of your end user customers, potential
+    customers and other users of and visitors to your websites, apps and other properties
+    (" People "), which information may be input into the Services by you or collected
+    by the Services using CozyCal Scheduling Inc tags, scripts and other code implemented
+    on such properties, and (b) information contained in communications between you
+    and People using the messaging features of the Services.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Customer Data may include, without limitation, (a) personal information such as
+    names, email addresses and phone numbers of your end user customers, potential
+    customers and other users of and visitors to your websites, apps and other properties
+    (" People "), which information may be input into the Services by you or collected
+    by the Services using CozyCal Scheduling Inc tags, scripts and other code implemented
+    on such properties, and (b) information contained in communications between you
+    and People using the messaging features of the Services.
+- source: platform
+  target: social media
+  key: SUBSUM
+  text:
+  - We may collect information when you interact with our advertisements and other
+    content on third-party sites or platforms, such as social networking sites.
+- source: sensitive information
+  target: password
+  key: SUBSUM
+  text:
+  - When you enter sensitive information (such as your password), we encrypt that
+    information in transit using industry-standard Transport Layer Security (TLS)
+    encryption technology.
+- source: transaction information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - When you purchase the Services, we will also collect transaction information,
+    which may include your credit card information, billing and mailing address, and
+    other payment-related information (" Payment Information ").
+- source: transaction information
+  target: postal address
+  key: SUBSUM
+  text:
+  - When you purchase the Services, we will also collect transaction information,
+    which may include your credit card information, billing and mailing address, and
+    other payment-related information (" Payment Information ").
+- source: transaction information
+  target: relate information
+  key: SUBSUM
+  text:
+  - When you purchase the Services, we will also collect transaction information,
+    which may include your credit card information, billing and mailing address, and
+    other payment-related information (" Payment Information ").
+- source: usage information
+  target: configuration of computer
+  key: SUBSUM
+  text:
+  - Such information does not identify you individually, but may include usage, viewing
+    and technical information such as the types of Offerings our customers and users
+    generally use, the configuration of their computers, and performance metrics related
+    to the use of Offerings which we collected through our technology.
+- source: usage information
+  target: performance metric relate to use of offerings we collect through technology
+  key: SUBSUM
+  text:
+  - Such information does not identify you individually, but may include usage, viewing
+    and technical information such as the types of Offerings our customers and users
+    generally use, the configuration of their computers, and performance metrics related
+    to the use of Offerings which we collected through our technology.
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: business partner who offer service to you with we for
+- type: ACTOR
+  id: cozycal booking page
+- type: ACTOR
+  id: cozycal scheduling inc product
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: choice
+- type: DATA
+  id: configuration of computer
+- type: DATA
+  id: contact information
+- type: DATA
+  id: control
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer data
+- type: DATA
+  id: date
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information about yourself
+- type: DATA
+  id: information contain in communication between you use messaging feature of services
+- type: DATA
+  id: information on
+- type: DATA
+  id: ip address
+- type: DATA
+  id: item click
+- type: DATA
+  id: password
+- type: DATA
+  id: payment information
+- type: DATA
+  id: performance metric relate to use of offerings we collect through technology
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: relate information
+- type: DATA
+  id: sensitive information
+- type: DATA
+  id: time
+- type: DATA
+  id: transaction information
+- type: DATA
+  id: usage information
+- type: DATA
+  id: username

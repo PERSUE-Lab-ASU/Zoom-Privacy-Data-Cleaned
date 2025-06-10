@@ -1,0 +1,81 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: analytic provider
+  target: Google
+  key: SUBSUM
+  text:
+  - Splain uses analytics tools such as Google Analytics, New Relic, Opbeat, Mixpanel
+    and Keen to monitor performance and to improve the user experience.
+- source: analytic provider
+  target: Mixpanel
+  key: SUBSUM
+  text:
+  - Splain uses analytics tools such as Google Analytics, New Relic, Opbeat, Mixpanel
+    and Keen to monitor performance and to improve the user experience.
+- source: analytic provider
+  target: New Relic
+  key: SUBSUM
+  text:
+  - Splain uses analytics tools such as Google Analytics, New Relic, Opbeat, Mixpanel
+    and Keen to monitor performance and to improve the user experience.
+- source: analytic provider
+  target: keen
+  key: SUBSUM
+  text:
+  - Splain uses analytics tools such as Google Analytics, New Relic, Opbeat, Mixpanel
+    and Keen to monitor performance and to improve the user experience.
+- source: analytic provider
+  target: opbeat
+  key: SUBSUM
+  text:
+  - Splain uses analytics tools such as Google Analytics, New Relic, Opbeat, Mixpanel
+    and Keen to monitor performance and to improve the user experience.
+- source: datum store in splain
+  target: access token
+  key: SUBSUM
+  text:
+  - The data that is stored in Splain include the access token, recording and transcript
+    metadata, account ID and the end user Email.
+- source: datum store in splain
+  target: account id
+  key: SUBSUM
+  text:
+  - The data that is stored in Splain include the access token, recording and transcript
+    metadata, account ID and the end user Email.
+- source: datum store in splain
+  target: end user email
+  key: SUBSUM
+  text:
+  - The data that is stored in Splain include the access token, recording and transcript
+    metadata, account ID and the end user Email.
+- source: datum store in splain
+  target: recording metadata
+  key: SUBSUM
+  text:
+  - The data that is stored in Splain include the access token, recording and transcript
+    metadata, account ID and the end user Email.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Mixpanel
+- type: ACTOR
+  id: New Relic
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: keen
+- type: ACTOR
+  id: opbeat
+- type: DATA
+  id: access token
+- type: DATA
+  id: account id
+- type: DATA
+  id: datum store in splain
+- type: DATA
+  id: end user email
+- type: DATA
+  id: recording metadata

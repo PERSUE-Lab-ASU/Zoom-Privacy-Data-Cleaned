@@ -1,0 +1,123 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - No other information or data is passed to our servers.
+  purposes: {}
+- source: we
+  target: browser user agent string
+  key: COLLECT
+  text:
+  - When visitors leave comments on the site we collect the data shown in the comments
+    form, and also the visitor's IP address and browser user agent string to help
+    spam detection.
+  purposes:
+    security:
+    - to help spam detection
+- source: we
+  target: datum show in comment form
+  key: COLLECT
+  text:
+  - When visitors leave comments on the site we collect the data shown in the comments
+    form, and also the visitor's IP address and browser user agent string to help
+    spam detection.
+  purposes:
+    security:
+    - to help spam detection
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We automatically collect your IP address as traffic data so that we can send information
+    back to you when requested.
+  - When visitors leave comments on the site we collect the data shown in the comments
+    form, and also the visitor's IP address and browser user agent string to help
+    spam detection.
+  purposes:
+    security:
+    - to help spam detection
+- source: we
+  target: referrer browser send as part of traffic datum
+  key: COLLECT
+  text:
+  - We collect referrers your browser sends as part of traffic data.
+  purposes: {}
+- source: Automattic
+  target: email address
+  key: COLLECT
+  text:
+  - An anonymized string created from your email address (also called a hash) may
+    be provided to the Gravatar service to see if you are using it.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - No other information is shared with any other third-party company for any purpose,
+    under any circumstance.
+  purposes: {}
+- source: n squared
+  target: personal information
+  key: COLLECT
+  text:
+  - N Squared only shares personal information to billing companies for completing
+    transactions and for no other purpose.
+  purposes: {}
+- source: plugin
+  target: license key
+  key: COLLECT
+  text:
+  - If you purchase a license for a premium edition of the plugin, the plugin will
+    pass your license key to our servers periodically in order to provide you information
+    about the status of your license key (active, inactive, or expired).
+  purposes:
+    services:
+    - in order to provide you information about the status of your license key (active,
+      inactive, or expired)
+- source: we
+  target: n squared
+  key: SUBSUM
+  text:
+  - Please be aware that we, N Squared, are not responsible for the privacy practices
+    of such other sites.
+- source: system information
+  target: type of web browser you use
+  key: SUBSUM
+  text:
+  - System information such as your operating system/platform, and the type of web
+    browser you use.
+nodes:
+- type: ACTOR
+  id: Automattic
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: n squared
+- type: ACTOR
+  id: plugin
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser user agent string
+- type: DATA
+  id: datum show in comment form
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: license key
+- type: DATA
+  id: personal information
+- type: DATA
+  id: referrer browser send as part of traffic datum
+- type: DATA
+  id: system information
+- type: DATA
+  id: type of web browser you use

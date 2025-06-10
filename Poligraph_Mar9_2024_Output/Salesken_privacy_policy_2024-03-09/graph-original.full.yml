@@ -1,0 +1,508 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: UNSPECIFIED_ACTOR
+  target: hard copy of information
+  key: COLLECT
+  text:
+  - The organization will keep hard copies of information in a locked filing cabinet.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal datum hold
+  key: COLLECT
+  text:
+  - No third party may access personal data held by Salesken without having first
+    entered into a data confidentiality agreement , which imposes on the third-party
+    obligations no less onerous than those to which Salesken is committed, and which
+    gives Salesken the right to audit compliance with the agreement.
+  purposes: {}
+- source: processor
+  target: necessary information
+  key: COLLECT
+  text:
+  - The Processor is required to provide the necessary information, demonstrate the
+    policies and provide the necessary documentation for carrying out inspections.
+  purposes: {}
+- source: salesken
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 10.1 The Salesken may store data for longer periods if the personal data will
+    be processed solely for archiving purposes in the public interest, scientific
+    or historical research purposes or marketing purposes or statistical purposes,
+    subject to the implementation of appropriate technical and organizational measures
+    to safeguard the rights and freedoms of the data subject.
+  purposes: {}
+- source: salesken
+  target: datum subject
+  key: COLLECT
+  text:
+  - The Salesken may collect (if applicable) relevant personal information from employees
+    or customers or data subject for equal opportunities monitoring purposes.
+  purposes: {}
+- source: salesken
+  target: personal information of people
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    2. Policy statement
+
+
+    2.4 Salesken needs to obtain and process personal information of people (in paper
+    and electronic form, if applicable) that serves its business purposes.'
+  purposes: {}
+- source: salesken
+  target: relevant personal information from employee
+  key: COLLECT
+  text:
+  - The Salesken may collect (if applicable) relevant personal information from employees
+    or customers or data subject for equal opportunities monitoring purposes.
+  purposes: {}
+- source: identifier
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Personal data - any information relating to an identified or identifiable natural
+    person ('data subject'); an identifiable natural person is one who can be identified,
+    directly or indirectly, in particular by reference to an identifier such as a
+    name, an identification number, location data, an online identifier or to one
+    or more factors specific to the physical, physiological, genetic, mental, economic,
+    cultural or social identity of that natural person.
+- source: identifier
+  target: identification number
+  key: SUBSUM
+  text:
+  - Personal data - any information relating to an identified or identifiable natural
+    person ('data subject'); an identifiable natural person is one who can be identified,
+    directly or indirectly, in particular by reference to an identifier such as a
+    name, an identification number, location data, an online identifier or to one
+    or more factors specific to the physical, physiological, genetic, mental, economic,
+    cultural or social identity of that natural person.
+- source: identifier
+  target: online identifier
+  key: SUBSUM
+  text:
+  - Personal data - any information relating to an identified or identifiable natural
+    person ('data subject'); an identifiable natural person is one who can be identified,
+    directly or indirectly, in particular by reference to an identifier such as a
+    name, an identification number, location data, an online identifier or to one
+    or more factors specific to the physical, physiological, genetic, mental, economic,
+    cultural or social identity of that natural person.
+- source: identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Personal data - any information relating to an identified or identifiable natural
+    person ('data subject'); an identifiable natural person is one who can be identified,
+    directly or indirectly, in particular by reference to an identifier such as a
+    name, an identification number, location data, an online identifier or to one
+    or more factors specific to the physical, physiological, genetic, mental, economic,
+    cultural or social identity of that natural person.
+- source: information be
+  target: medical information
+  key: SUBSUM
+  text:
+  - '5. Personal data/Files
+
+
+    Personally Identifiable Information (PII)/Personal Data is/are  any information
+    about individuals maintained by Salesken, including any information that can be
+    used to distinguish or trace an individual''s identity, such as name, social security
+    number, date and place of birth, contact no., mother''s maiden name, or biometric
+    records; and any other information that is linked or linkable to an individual,
+    such as medical, educational, financial, and employment information etc.'
+- source: information use
+  target: biometric record
+  key: SUBSUM
+  text:
+  - '5. Personal data/Files
+
+
+    Personally Identifiable Information (PII)/Personal Data is/are  any information
+    about individuals maintained by Salesken, including any information that can be
+    used to distinguish or trace an individual''s identity, such as name, social security
+    number, date and place of birth, contact no., mother''s maiden name, or biometric
+    records; and any other information that is linked or linkable to an individual,
+    such as medical, educational, financial, and employment information etc.'
+- source: information use
+  target: contact no
+  key: SUBSUM
+  text:
+  - '5. Personal data/Files
+
+
+    Personally Identifiable Information (PII)/Personal Data is/are  any information
+    about individuals maintained by Salesken, including any information that can be
+    used to distinguish or trace an individual''s identity, such as name, social security
+    number, date and place of birth, contact no., mother''s maiden name, or biometric
+    records; and any other information that is linked or linkable to an individual,
+    such as medical, educational, financial, and employment information etc.'
+- source: information use
+  target: date
+  key: SUBSUM
+  text:
+  - '5. Personal data/Files
+
+
+    Personally Identifiable Information (PII)/Personal Data is/are  any information
+    about individuals maintained by Salesken, including any information that can be
+    used to distinguish or trace an individual''s identity, such as name, social security
+    number, date and place of birth, contact no., mother''s maiden name, or biometric
+    records; and any other information that is linked or linkable to an individual,
+    such as medical, educational, financial, and employment information etc.'
+- source: information use
+  target: person name
+  key: SUBSUM
+  text:
+  - '5. Personal data/Files
+
+
+    Personally Identifiable Information (PII)/Personal Data is/are  any information
+    about individuals maintained by Salesken, including any information that can be
+    used to distinguish or trace an individual''s identity, such as name, social security
+    number, date and place of birth, contact no., mother''s maiden name, or biometric
+    records; and any other information that is linked or linkable to an individual,
+    such as medical, educational, financial, and employment information etc.'
+- source: information use
+  target: place
+  key: SUBSUM
+  text:
+  - '5. Personal data/Files
+
+
+    Personally Identifiable Information (PII)/Personal Data is/are  any information
+    about individuals maintained by Salesken, including any information that can be
+    used to distinguish or trace an individual''s identity, such as name, social security
+    number, date and place of birth, contact no., mother''s maiden name, or biometric
+    records; and any other information that is linked or linkable to an individual,
+    such as medical, educational, financial, and employment information etc.'
+- source: information use
+  target: ssn
+  key: SUBSUM
+  text:
+  - '5. Personal data/Files
+
+
+    Personally Identifiable Information (PII)/Personal Data is/are  any information
+    about individuals maintained by Salesken, including any information that can be
+    used to distinguish or trace an individual''s identity, such as name, social security
+    number, date and place of birth, contact no., mother''s maiden name, or biometric
+    records; and any other information that is linked or linkable to an individual,
+    such as medical, educational, financial, and employment information etc.'
+- source: offline information make
+  target: customer photo
+  key: SUBSUM
+  text:
+  - The information may refer to any offline or online information that makes a person
+    identifiable such as names, email address, mailing addresses, customer photos,
+    financial data, medical data, age etc.
+- source: offline information make
+  target: email address
+  key: SUBSUM
+  text:
+  - The information may refer to any offline or online information that makes a person
+    identifiable such as names, email address, mailing addresses, customer photos,
+    financial data, medical data, age etc.
+- source: offline information make
+  target: financial datum
+  key: SUBSUM
+  text:
+  - The information may refer to any offline or online information that makes a person
+    identifiable such as names, email address, mailing addresses, customer photos,
+    financial data, medical data, age etc.
+- source: offline information make
+  target: medical datum
+  key: SUBSUM
+  text:
+  - The information may refer to any offline or online information that makes a person
+    identifiable such as names, email address, mailing addresses, customer photos,
+    financial data, medical data, age etc.
+- source: offline information make
+  target: person name
+  key: SUBSUM
+  text:
+  - The information may refer to any offline or online information that makes a person
+    identifiable such as names, email address, mailing addresses, customer photos,
+    financial data, medical data, age etc.
+- source: offline information make
+  target: postal address
+  key: SUBSUM
+  text:
+  - The information may refer to any offline or online information that makes a person
+    identifiable such as names, email address, mailing addresses, customer photos,
+    financial data, medical data, age etc.
+- source: personal information
+  target: biometric information
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. Introduction
+
+
+    1.3 Definitions
+
+
+    Special categories of personal data - personal data revealing racial or ethnic
+    origin, political opinions, religious or philosophical beliefs, or trade-union
+    membership, and the processing of genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person''s sex life or sexual orientation'
+- source: personal information
+  target: datum concern health
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. Introduction
+
+
+    1.3 Definitions
+
+
+    Special categories of personal data - personal data revealing racial or ethnic
+    origin, political opinions, religious or philosophical beliefs, or trade-union
+    membership, and the processing of genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person''s sex life or sexual orientation'
+- source: personal information
+  target: datum concern sex life
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. Introduction
+
+
+    1.3 Definitions
+
+
+    Special categories of personal data - personal data revealing racial or ethnic
+    origin, political opinions, religious or philosophical beliefs, or trade-union
+    membership, and the processing of genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person''s sex life or sexual orientation'
+- source: personal information
+  target: genetic datum
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. Introduction
+
+
+    1.3 Definitions
+
+
+    Special categories of personal data - personal data revealing racial or ethnic
+    origin, political opinions, religious or philosophical beliefs, or trade-union
+    membership, and the processing of genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person''s sex life or sexual orientation'
+- source: personal information
+  target: personal file
+  key: SUBSUM
+  text:
+  - This policy sets out how the organization deals with personal data, including
+    Customer's personal files and data subject access requests, and employees' obligations
+    about personal data.
+- source: personal information
+  target: political opinion
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. Introduction
+
+
+    1.3 Definitions
+
+
+    Special categories of personal data - personal data revealing racial or ethnic
+    origin, political opinions, religious or philosophical beliefs, or trade-union
+    membership, and the processing of genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person''s sex life or sexual orientation'
+- source: personal information
+  target: racial origin
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. Introduction
+
+
+    1.3 Definitions
+
+
+    Special categories of personal data - personal data revealing racial or ethnic
+    origin, political opinions, religious or philosophical beliefs, or trade-union
+    membership, and the processing of genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person''s sex life or sexual orientation'
+- source: personal information
+  target: religious belief
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. Introduction
+
+
+    1.3 Definitions
+
+
+    Special categories of personal data - personal data revealing racial or ethnic
+    origin, political opinions, religious or philosophical beliefs, or trade-union
+    membership, and the processing of genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person''s sex life or sexual orientation'
+- source: personal information
+  target: trade union membership
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. Introduction
+
+
+    1.3 Definitions
+
+
+    Special categories of personal data - personal data revealing racial or ethnic
+    origin, political opinions, religious or philosophical beliefs, or trade-union
+    membership, and the processing of genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person''s sex life or sexual orientation'
+- source: personal information about datum subject
+  target: information in personnel file
+  key: SUBSUM
+  text:
+  - The Salesken will ensure that personal information about a data subject, including
+    information in personnel files, is securely retained.
+- source: sensitive datum
+  target: bank account detail
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    7. Consent
+
+
+    7.3 For sensitive data (such as Credit card information, Bank account details
+    etc.), explicit written consent (Consent Procedure) of data subjects should be
+    obtained unless an alternative legitimate basis for processing exists.'
+- source: sensitive datum
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    7. Consent
+
+
+    7.3 For sensitive data (such as Credit card information, Bank account details
+    etc.), explicit written consent (Consent Procedure) of data subjects should be
+    obtained unless an alternative legitimate basis for processing exists.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: processor
+- type: ACTOR
+  id: salesken
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: bank account detail
+- type: DATA
+  id: biometric information
+- type: DATA
+  id: biometric record
+- type: DATA
+  id: contact no
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer photo
+- type: DATA
+  id: date
+- type: DATA
+  id: datum concern health
+- type: DATA
+  id: datum concern sex life
+- type: DATA
+  id: datum subject
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial datum
+- type: DATA
+  id: genetic datum
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: hard copy of information
+- type: DATA
+  id: identification number
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information be
+- type: DATA
+  id: information in personnel file
+- type: DATA
+  id: information use
+- type: DATA
+  id: medical datum
+- type: DATA
+  id: medical information
+- type: DATA
+  id: necessary information
+- type: DATA
+  id: offline information make
+- type: DATA
+  id: online identifier
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum hold
+- type: DATA
+  id: personal file
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information about datum subject
+- type: DATA
+  id: personal information of people
+- type: DATA
+  id: place
+- type: DATA
+  id: political opinion
+- type: DATA
+  id: postal address
+- type: DATA
+  id: racial origin
+- type: DATA
+  id: relevant personal information from employee
+- type: DATA
+  id: religious belief
+- type: DATA
+  id: sensitive datum
+- type: DATA
+  id: ssn
+- type: DATA
+  id: trade union membership

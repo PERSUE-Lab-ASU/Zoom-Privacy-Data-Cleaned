@@ -1,0 +1,502 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - As there is an annual seasonality in our business, we will retain data for analytics
+    purposes for 3 years.
+  - We share this data with organizations that run services critical to our Platform
+    for analytics and error tracking purposes.
+  - We share this data with organizations that run services critical to our Platform
+    to ensure secure access to the Platform.
+  - We share this data with organizations that run services critical to our Platform
+    to help store user account information.
+  - We share this data with organizations that run services critical to our Platform
+    to help us store transcriptions.
+  - We share this data with organizations that run services critical to our Platform
+    to identify web application crashes that affect a given user, to provide user
+    behaviour tracking and in-app messaging, and to provide user session debugging.
+  purposes:
+    analytics:
+    - for analytics and error tracking purposes
+    - for analytics purposes
+    - to help us store transcriptions
+    - to identify web application crashes that affect a given user, to provide user
+      behaviour tracking and in-app messaging, and to provide user session debugging
+    security:
+    - to ensure secure access to the Platform
+    - to identify web application crashes that affect a given user, to provide user
+      behaviour tracking and in-app messaging, and to provide user session debugging
+    services:
+    - to help store user account information
+    - to help us store transcriptions
+    - to identify web application crashes that affect a given user, to provide user
+      behaviour tracking and in-app messaging, and to provide user session debugging
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We also collect, use and share Aggregated Data such as statistical or demographic
+    data for any purpose.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We will share your email address with our payment processor so that payment receipts
+    can be sent to you by email.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We may also disclose your personal information
+    to third parties in the following circumstances:'
+  - We may disclose your personal information to third parties, the courts and/or
+    regulators or law enforcement agencies in connection with proceedings or investigations
+    anywhere in the world where we are compelled or believe it is reasonable to do
+    so.
+  - 'We may obtain personal data about you in two main ways:'
+  - You may, for example, provide us with your personal data by filling in forms on
+    our Website.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Trint collects and processes various data for the purpose of providing, monitoring
+    and maintaining the service.
+  - Where necessary Trint will share this data with third parties used to provide
+    the service.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Disclosure of your information We may also disclose your personal information
+    to third parties in the following circumstances:'
+  - Please note that third parties may collect personal data from you directly.
+  - We may disclose your personal information to third parties, the courts and/or
+    regulators or law enforcement agencies in connection with proceedings or investigations
+    anywhere in the world where we are compelled or believe it is reasonable to do
+    so.
+  purposes: {}
+- source: court
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your personal information to third parties, the courts and/or
+    regulators or law enforcement agencies in connection with proceedings or investigations
+    anywhere in the world where we are compelled or believe it is reasonable to do
+    so.
+  purposes: {}
+- source: law enforcement agency
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your personal information to third parties, the courts and/or
+    regulators or law enforcement agencies in connection with proceedings or investigations
+    anywhere in the world where we are compelled or believe it is reasonable to do
+    so.
+  purposes: {}
+- source: organization run service critical
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share this data with organizations that run services critical to our Platform
+    to ensure secure access to the Platform.
+  - We share this data with organizations that run services critical to our Platform
+    to help store user account information.
+  - We share this data with organizations that run services critical to our Platform
+    to help us store transcriptions.
+  - We share this data with organizations that run services critical to our Platform
+    to identify web application crashes that affect a given user, to provide user
+    behaviour tracking and in-app messaging, and to provide user session debugging.
+  purposes:
+    analytics:
+    - to help us store transcriptions
+    - to identify web application crashes that affect a given user, to provide user
+      behaviour tracking and in-app messaging, and to provide user session debugging
+    security:
+    - to ensure secure access to the Platform
+    - to identify web application crashes that affect a given user, to provide user
+      behaviour tracking and in-app messaging, and to provide user session debugging
+    services:
+    - to help store user account information
+    - to help us store transcriptions
+    - to identify web application crashes that affect a given user, to provide user
+      behaviour tracking and in-app messaging, and to provide user session debugging
+- source: organization run service critical for analytic purpose
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share this data with organizations that run services critical to our Platform
+    for analytics and error tracking purposes.
+  purposes:
+    analytics:
+    - for analytics and error tracking purposes
+- source: payment processor
+  target: email address
+  key: COLLECT
+  text:
+  - We will share your email address with our payment processor so that payment receipts
+    can be sent to you by email.
+  purposes: {}
+- source: payment processor
+  target: financial datum
+  key: COLLECT
+  text:
+  - For example, payment processors collect financial data (such as your payment card
+    details) when you make payment to us on the Platform.
+  purposes: {}
+- source: regulator
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your personal information to third parties, the courts and/or
+    regulators or law enforcement agencies in connection with proceedings or investigations
+    anywhere in the world where we are compelled or believe it is reasonable to do
+    so.
+  purposes: {}
+- source: staff operate who work for we
+  target: personal information
+  key: COLLECT
+  text:
+  - The personal data that we collect from you will be transferred to and stored at
+    a destination outside of the European Economic Area (" EEA ").
+  - This data may also be processed by staff operating outside of the EEA who work
+    for us or for one of our business partners or service providers.
+  purposes: {}
+- source: trint
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Trint collects and processes various data for the purpose of providing, monitoring
+    and maintaining the service.
+  - Where necessary Trint will share this data with third parties used to provide
+    the service.
+  purposes:
+    analytics:
+    - for the purpose of providing, monitoring and maintaining the service
+    services:
+    - for the purpose of providing, monitoring and maintaining the service
+- source: trint limited
+  target: personal information
+  key: COLLECT
+  text:
+  - Trint Limited is the data processor and merely processes personal data in accordance
+    with the instructions given to us by the account holder.
+  purposes: {}
+- source: 3rd party source
+  target: Google
+  key: SUBSUM
+  text:
+  - Allows optimised uploading of media from the local machine, or from 3rd party
+    sources such as DropBox, Google Drive, etc.
+- source: 3rd party source
+  target: dropbox
+  key: SUBSUM
+  text:
+  - Allows optimised uploading of media from the local machine, or from 3rd party
+    sources such as DropBox, Google Drive, etc.
+- source: aggregate / deidentified / pseudonymized information
+  target: statistical datum
+  key: SUBSUM
+  text:
+  - We also collect, use and share Aggregated Data such as statistical or demographic
+    data for any purpose.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Contact Data , which includes your email address and postal address.'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Contact Data , which includes your email address and postal address.'
+- source: financial datum
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - For example, payment processors collect financial data (such as your payment card
+    details) when you make payment to us on the Platform.
+- source: identity data
+  target: company department
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Identity Data , which includes your first name, last name, social media
+    profile, user ID, company name, job position and company department.'
+- source: identity data
+  target: company name
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Identity Data , which includes your first name, last name, social media
+    profile, user ID, company name, job position and company department.'
+- source: identity data
+  target: job position
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Identity Data , which includes your first name, last name, social media
+    profile, user ID, company name, job position and company department.'
+- source: identity data
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Identity Data , which includes your first name, last name, social media
+    profile, user ID, company name, job position and company department.'
+- source: identity data
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Identity Data , which includes your first name, last name, social media
+    profile, user ID, company name, job position and company department.'
+- source: identity data
+  target: social media profile
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Identity Data , which includes your first name, last name, social media
+    profile, user ID, company name, job position and company department.'
+- source: internet activity
+  target: information about
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Usage Data, which includes information about how you use our Platform.'
+- source: personal information
+  target: different kind
+  key: SUBSUM
+  text:
+  - 'Questions, comments and requests regarding this privacy policy are welcome and
+    should be addressed to support@trint.com .  Personal information we may process
+    about you We may collect, use, store and transfer different kinds of personal
+    data about you which we have grouped together follows:'
+- source: profile data
+  target: feedback
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Profile Data , which includes your password, subscriptions purchased
+    by you, your preferences, feedback and survey responses.'
+- source: profile data
+  target: password
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Profile Data , which includes your password, subscriptions purchased
+    by you, your preferences, feedback and survey responses.'
+- source: profile data
+  target: preference
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Profile Data , which includes your password, subscriptions purchased
+    by you, your preferences, feedback and survey responses.'
+- source: profile data
+  target: subscription purchase
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Profile Data , which includes your password, subscriptions purchased
+    by you, your preferences, feedback and survey responses.'
+- source: profile data
+  target: survey response
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Profile Data , which includes your password, subscriptions purchased
+    by you, your preferences, feedback and survey responses.'
+- source: supervisory authority
+  target: office in uk
+  key: SUBSUM
+  text:
+  - You have the right to lodge a complaint to a supervisory authority such as the
+    Information Commissioner's Office in the UK (see www.ico.org.uk).
+- source: technical data
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Technical Data , which includes your internet protocol (IP) address,
+    your login data, browser type and version, time zone setting and location you
+    use to access the Platform.'
+- source: technical data
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Technical Data , which includes your internet protocol (IP) address,
+    your login data, browser type and version, time zone setting and location you
+    use to access the Platform.'
+- source: technical data
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Technical Data , which includes your internet protocol (IP) address,
+    your login data, browser type and version, time zone setting and location you
+    use to access the Platform.'
+- source: technical data
+  target: login datum
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Technical Data , which includes your internet protocol (IP) address,
+    your login data, browser type and version, time zone setting and location you
+    use to access the Platform.'
+- source: technical data
+  target: time zone setting
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Technical Data , which includes your internet protocol (IP) address,
+    your login data, browser type and version, time zone setting and location you
+    use to access the Platform.'
+- source: technical data
+  target: version
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Technical Data , which includes your internet protocol (IP) address,
+    your login data, browser type and version, time zone setting and location you
+    use to access the Platform.'
+- source: transaction data
+  target: detail of service you purchase from we
+  key: SUBSUM
+  text:
+  - 'Personal information we may process about you We may collect, use, store and
+    transfer different kinds of personal data about you which we have grouped together
+    follows: Transaction Data , which includes details about payments to and from
+    you and other details of services you have purchased from us.'
+nodes:
+- type: ACTOR
+  id: 3rd party source
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: court
+- type: ACTOR
+  id: dropbox
+- type: ACTOR
+  id: law enforcement agency
+- type: ACTOR
+  id: office in uk
+- type: ACTOR
+  id: organization run service critical
+- type: ACTOR
+  id: organization run service critical for analytic purpose
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: regulator
+- type: ACTOR
+  id: staff operate who work for we
+- type: ACTOR
+  id: supervisory authority
+- type: ACTOR
+  id: trint
+- type: ACTOR
+  id: trint limited
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: company department
+- type: DATA
+  id: company name
+- type: DATA
+  id: contact information
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: detail of service you purchase from we
+- type: DATA
+  id: different kind
+- type: DATA
+  id: email address
+- type: DATA
+  id: feedback
+- type: DATA
+  id: financial datum
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identity data
+- type: DATA
+  id: information about
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job position
+- type: DATA
+  id: login datum
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: preference
+- type: DATA
+  id: profile data
+- type: DATA
+  id: social media profile
+- type: DATA
+  id: statistical datum
+- type: DATA
+  id: subscription purchase
+- type: DATA
+  id: survey response
+- type: DATA
+  id: technical data
+- type: DATA
+  id: time zone setting
+- type: DATA
+  id: transaction data
+- type: DATA
+  id: version

@@ -1,0 +1,231 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your information with third-party integrations that you choose to
+    connect with our service.
+  - We only use your data for the purposes of enabling and maintaining the integrations
+    that you choose to activate.
+  - We process our data in the United States and store it in Canada at rest.
+  - We store your data in a secure database and encrypt the most sensitive information
+    such as third-party integrations authentication.
+  - We use your data to calculate your availability based on your calendar events
+    and preferences, and to simplify scheduling meetings by sending invitations and
+    reminders to you and your invitees.
+  purposes:
+    analytics:
+    - to calculate your availability based on your calendar events and preferences,
+      and to simplify scheduling meetings by sending invitations and reminders to
+      you and your invitees
+    services:
+    - for the purposes of enabling and maintaining the integrations that you choose
+      to activate
+    - to calculate your availability based on your calendar events and preferences,
+      and to simplify scheduling meetings by sending invitations and reminders to
+      you and your invitees
+- source: we
+  target: calendar event datum
+  key: COLLECT
+  text:
+  - We use your calendar events data to show you an aggregated view of your events
+    and to calculate your availability for scheduling meetings with your invitees.
+  purposes:
+    analytics:
+    - to show you an aggregated view of your events and to calculate your availability
+      for scheduling meetings with your invitees
+    services:
+    - to show you an aggregated view of your events and to calculate your availability
+      for scheduling meetings with your invitees
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and other ad technology such as web beacons, pixels, and tags to
+    compile information about your usage of our Websites or Services and give you
+    a personalized experience in a faster and more secure way.
+  purposes:
+    analytics:
+    - to compile information about your usage of our Websites or Services and give
+      you a personalized experience in a faster and more secure way
+    security:
+    - to compile information about your usage of our Websites or Services and give
+      you a personalized experience in a faster and more secure way
+    services:
+    - to compile information about your usage of our Websites or Services and give
+      you a personalized experience in a faster and more secure way
+- source: we
+  target: datum necessary
+  key: COLLECT
+  text:
+  - We only store the data necessary for providing our services.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, if you authorize us to share your information with a calendar provider,
+    we may share your name, email address, and contacts with that platform.
+  purposes: {}
+- source: we
+  target: information require for
+  key: COLLECT
+  text:
+  - We only store information required for offering our services.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - For example, if you authorize us to share your information with a calendar provider,
+    we may share your name, email address, and contacts with that platform.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Depending on the context and purpose of the processing, we rely on one or more
+    of the following legal bases: Compliance with legal obligations : We may process
+    your personal data when it is necessary to comply with our legal obligations under
+    applicable laws and regulations, such as responding to requests from authorities,
+    disclosing information for tax purposes, or protecting the health and safety of
+    our employees and customers.'
+  - 'Depending on the context and purpose of the processing, we rely on one or more
+    of the following legal bases: Our legitimate interests : We may process your personal
+    data when it is necessary for our legitimate interests, such as providing and
+    improving our products and services, protecting our rights and interests, conducting
+    market research and analysis, preventing fraud and abuse, and maintaining our
+    relationship with you.'
+  - 'Depending on the context and purpose of the processing, we rely on one or more
+    of the following legal bases: Performance of a contract : We may process your
+    personal data when it is necessary to perform a contract that you have entered
+    into with us or to take steps at your request before entering into a contract,
+    such as fulfilling your orders, delivering our services, or providing customer
+    support.'
+  - These integrations may require us to access, collect, store, process, and share
+    your personal data with the respective third-party providers.
+  - We collect and use your personal data from third-party providers (e.g. Google
+    or Microsoft) with your authorization.
+  - We only store your personal data for as long as we need it to provide you with
+    our service.
+  - We process your personal data for the purpose of providing you with our service
+    of finding the best time to meet with others.
+  - We process your personal data in accordance with the applicable data protection
+    laws and regulations.
+  purposes:
+    services:
+    - for the purpose of providing you with our service of finding the best time to
+      meet with others
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your information with third-party integrations that you choose to
+    connect with our service.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These integrations may require us to access, collect, store, process, and share
+    your personal data with the respective third-party providers.
+  purposes: {}
+- source: algorithm
+  target: availability
+  key: COLLECT
+  text:
+  - Our algorithms analyze your availability and preferences to suggest optimal meeting
+    times.
+  purposes:
+    services:
+    - to suggest optimal meeting times
+- source: algorithm
+  target: preference
+  key: COLLECT
+  text:
+  - Our algorithms analyze your availability and preferences to suggest optimal meeting
+    times.
+  purposes:
+    services:
+    - to suggest optimal meeting times
+- source: calendarhero
+  target: contact information
+  key: COLLECT
+  text:
+  - CalendarHero uses your contact data (e.g. name and email) to help you choose who
+    you want to meet with and to notify them about the meetings.
+  purposes:
+    advertising:
+    - to help you choose who you want to meet with and to notify them about the meetings
+    services:
+    - to help you choose who you want to meet with and to notify them about the meetings
+- source: platform
+  target: email address
+  key: COLLECT
+  text:
+  - For example, if you authorize us to share your information with a calendar provider,
+    we may share your name, email address, and contacts with that platform.
+  purposes: {}
+- source: platform
+  target: person name
+  key: COLLECT
+  text:
+  - For example, if you authorize us to share your information with a calendar provider,
+    we may share your name, email address, and contacts with that platform.
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - CalendarHero uses your contact data (e.g. name and email) to help you choose who
+    you want to meet with and to notify them about the meetings.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - CalendarHero uses your contact data (e.g. name and email) to help you choose who
+    you want to meet with and to notify them about the meetings.
+- source: personal information
+  target: choice
+  key: SUBSUM
+  text:
+  - We respect and value your privacy and want you to know exactly how we use your
+    personal information including your choices and rights.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: algorithm
+- type: ACTOR
+  id: calendarhero
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: availability
+- type: DATA
+  id: calendar event datum
+- type: DATA
+  id: choice
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum necessary
+- type: DATA
+  id: email address
+- type: DATA
+  id: information require for
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: preference

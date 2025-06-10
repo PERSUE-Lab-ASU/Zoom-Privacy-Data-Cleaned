@@ -1,0 +1,133 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If the user requests disclosure of his or her personal information in accordance
+    with the provisions of the Personal Information Protection Law, the Company will
+    disclose the information to the user without delay after confirming that the request
+    was made by the user himself or herself.
+  purposes: {}
+- source: we
+  target: business information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Purpose of Use of Personal Information
+
+
+    1. The Company uses personal information obtained from Users for the following
+    purposes : 2. Communication from the Company regarding the Service, etc., business
+    information (including email newsletters and advertisements from the Company)'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Services and others provided by the Company use cookies and other similar
+    technologies.
+  purposes: {}
+- source: we
+  target: history of use of service
+  key: COLLECT
+  text:
+  - 4. In order to improve the quality of the Service, etc., the Company may obtain
+    the history of the user's use of the Service, etc.
+  purposes:
+    services:
+    - In order to improve the quality of the Service, etc.
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 1. The Company shall acquire the User's personal information through legal and
+    fair means, such as asking the User to enter his or her own personal information
+    for the Services, etc., and shall not acquire such information through deception
+    or other improper means.
+  - However, in this case, we will provide the third party with the personal data
+    in accordance with this privacy policy or equivalent.
+  - We will disclose, correct, or delete your personal information within a reasonable
+    period of time after we confirm that the request is made by you.
+  purposes: {}
+- source: we
+  target: personal information obtain from user
+  key: COLLECT
+  text:
+  - 1. The Company uses personal information obtained from Users for the following
+    purposes
+  purposes:
+    advertising:
+    - 2. Communication from the Company regarding the Service, etc., business information
+      (including email newsletters and advertisements from the Company
+    - 3. To provide information on various events, campaigns and other information
+      conducted by the Company
+    - 5. For the purpose of conducting marketing research, statistics and analysis
+      related to the Service
+    analytics:
+    - 3. To provide information on various events, campaigns and other information
+      conducted by the Company
+    - 4. Purpose of conducting surveys related to the Service
+    - 5. For the purpose of conducting marketing research, statistics and analysis
+      related to the Service
+    - 6. For the purpose of using information about payment in order to charge for
+      the use of the Service,
+    security:
+    - 1. For the purpose of verifying the identity of the User on the Service
+    services:
+    - 10. To carry out smooth cooperation with external services linked to this service
+    - 11. To resolve problems and disputes that arise between users or between us
+      and users
+    - 2. Communication from the Company regarding the Service, etc., business information
+      (including email newsletters and advertisements from the Company
+    - 6. For the purpose of using information about payment in order to charge for
+      the use of the Service,
+    - 7. Purpose of the Company's operation and development of the Service
+    - 8. For smooth communication and transaction execution between users
+    - 9. For the calculation, billing, settlement, and credit management of fees (including
+      the provision of payment services to the settlement agent)
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - However, in this case, we will provide the third party with the personal data
+    in accordance with this privacy policy or equivalent.
+  - In this case, the personal data may be provided to the third party without the
+    prior consent of the user There is.
+  purposes: {}
+- source: business information
+  target: email newsletter
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Purpose of Use of Personal Information
+
+
+    1. The Company uses personal information obtained from Users for the following
+    purposes : 2. Communication from the Company regarding the Service, etc., business
+    information (including email newsletters and advertisements from the Company)'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: business information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email newsletter
+- type: DATA
+  id: history of use of service
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information obtain from user

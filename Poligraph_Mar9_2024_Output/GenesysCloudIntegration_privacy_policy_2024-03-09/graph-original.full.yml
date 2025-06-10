@@ -1,0 +1,28 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: careers
+  key: SUBSUM
+  text:
+  - 'Company : Careers'
+- source: we
+  target: leadership
+  key: SUBSUM
+  text:
+  - 'Company : Leadership'
+- source: we
+  target: newsroom
+  key: SUBSUM
+  text:
+  - 'Company : Newsroom'
+nodes:
+- type: ACTOR
+  id: careers
+- type: ACTOR
+  id: leadership
+- type: ACTOR
+  id: newsroom
+- type: ACTOR
+  id: we

@@ -1,0 +1,66 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: calendar datum from connect account
+  key: COLLECT
+  text:
+  - We use your calendar data from your connected accounts to determine your schedule
+    and prevent double bookings.
+  purposes:
+    services:
+    - to determine your schedule and prevent double bookings
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may from time to time collect non personally identifiable information to analyze
+    the usage of our product to make it better.
+  purposes:
+    analytics:
+    - to analyze the usage of our product to make it better
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We collect personally identifiable information such as Name, Email and for the
+    proper functioning of our product and making the booking process smooth.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - This information may be disclosed to our Partners and Advertisers.
+  - We may from time to time collect non personally identifiable information to analyze
+    the usage of our product to make it better.
+  purposes: {}
+- source: advertiser
+  target: non-personal information
+  key: COLLECT
+  text:
+  - This information may be disclosed to our Partners and Advertisers.
+  - We may from time to time collect non personally identifiable information to analyze
+    the usage of our product to make it better.
+  purposes: {}
+- source: personal identifier
+  target: name email
+  key: SUBSUM
+  text:
+  - We collect personally identifiable information such as Name, Email and for the
+    proper functioning of our product and making the booking process smooth.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: we
+- type: DATA
+  id: calendar datum from connect account
+- type: DATA
+  id: name email
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identifier

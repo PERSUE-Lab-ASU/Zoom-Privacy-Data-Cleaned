@@ -1,0 +1,226 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'In our Privacy Notice, you will learn about: What Information We Process'
+  - In these instances, we will transfer your data only to such countries as approved
+    by the European Commission as providing adequate level of data protection or enter
+    into legal agreements ensuring an adequate level of data protection.
+  - 'Privacy Policy
+
+
+    What Information We Process?'
+  - This Privacy Policy is designed to help you decide whether to use the Service
+    and in what manner, and it describes how we collect, store and use information
+    on individuals who use the Service.
+  purposes:
+    services:
+    - to help you decide whether to use the Service and in what manner
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may collect and process certain information that identifies an individual or
+    may with reasonable effort identify an individual ("Personal Information").
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - "Privacy Policy\n\nRetention of Data\n\n  Profile and personal information (e.g.
+    identification data, professionals, contact, image)"
+  - 'Privacy Policy
+
+
+    What Information We Process?'
+  - We may also disclose Personal Information we have collected with our service providers
+    for a business purpose (as further detailed in "Business/Commercial Purpose for
+    Collection" section below), subject to a contract that describes the purpose and
+    restricts the use of Personal Information disclosed, or with other third parties
+    for a commercial purpose, which may be considered a sale under the CCPA.
+  - We may share or transfer Personal Information to third parties as assets that
+    are part of a merger, acquisition, bankruptcy or other transaction in which the
+    third party assumes control of all or part of the Company.
+  purposes: {}
+- source: we
+  target: profile
+  key: COLLECT
+  text:
+  - "Privacy Policy\n\nRetention of Data\n\n  Profile and personal information (e.g.
+    identification data, professionals, contact, image)"
+  - 'Privacy Policy
+
+
+    What Information We Process?'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'However, the User is informed that third parties (Ex: Google) may use data storage
+    and retrieval devices (cookies), which allow certain categories of information
+    to be obtained from users of the Service, for analytical purposes, for activity
+    measurement or to generate statistics.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share or transfer Personal Information to third parties as assets that
+    are part of a merger, acquisition, bankruptcy or other transaction in which the
+    third party assumes control of all or part of the Company.
+  purposes: {}
+- source: country
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In these instances, we will transfer your data only to such countries as approved
+    by the European Commission as providing adequate level of data protection or enter
+    into legal agreements ensuring an adequate level of data protection.
+  purposes: {}
+- source: data controller
+  target: personal datum provide
+  key: COLLECT
+  text:
+  - 'The personal data provided by the user, in the different phases of registration,
+    access and use of the Service, shall be processed by the Data Controller to fulfill
+    the following specific purposes:'
+  purposes:
+    services:
+    - Access to the service provided to the User through the Service and use of the
+      functionalities of the same (configuration of user profile, chat conversations,
+      generation of surveys, synchronization of contacts, notifications about notifications
+      and information of interest)
+- source: data controller
+  target: personal information
+  key: COLLECT
+  text:
+  - 'As User of the Service, both during the registration process and in the subsequent
+    use of the Service, as well as in questionnaires of additional information, the
+    Data Controller shall request and have access to personal data, such as:'
+  purposes: {}
+- source: data processors
+  target: personal information
+  key: COLLECT
+  text:
+  - On the other hand, certain service providers subcontracted by the Data Controller
+    (hereinafter, the "Data Processors"), such as hosting, system providers and IT
+    media, or cloud services, may have potential access to the personal information
+    of Users, for the sole purpose of fulfilling the services contracted by the Data
+    Controller.
+  purposes:
+    services:
+    - for the sole purpose of fulfilling the services contracted by the Data Controller
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - On the other hand, certain service providers subcontracted by the Data Controller
+    (hereinafter, the "Data Processors"), such as hosting, system providers and IT
+    media, or cloud services, may have potential access to the personal information
+    of Users, for the sole purpose of fulfilling the services contracted by the Data
+    Controller.
+  purposes:
+    services:
+    - for the sole purpose of fulfilling the services contracted by the Data Controller
+- source: data processors
+  target: data controller
+  key: SUBSUM
+  text:
+  - On the other hand, certain service providers subcontracted by the Data Controller
+    (hereinafter, the "Data Processors"), such as hosting, system providers and IT
+    media, or cloud services, may have potential access to the personal information
+    of Users, for the sole purpose of fulfilling the services contracted by the Data
+    Controller.
+- source: data processors
+  target: service provider
+  key: SUBSUM
+  text:
+  - On the other hand, certain service providers subcontracted by the Data Controller
+    (hereinafter, the "Data Processors"), such as hosting, system providers and IT
+    media, or cloud services, may have potential access to the personal information
+    of Users, for the sole purpose of fulfilling the services contracted by the Data
+    Controller.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'As User of the Service, both during the registration process and in the subsequent
+    use of the Service, as well as in questionnaires of additional information, the
+    Data Controller shall request and have access to personal data, such as: Identifying
+    data (e.g. name, surname)'
+- source: service provider
+  target: cloud service
+  key: SUBSUM
+  text:
+  - On the other hand, certain service providers subcontracted by the Data Controller
+    (hereinafter, the "Data Processors"), such as hosting, system providers and IT
+    media, or cloud services, may have potential access to the personal information
+    of Users, for the sole purpose of fulfilling the services contracted by the Data
+    Controller.
+- source: service provider
+  target: hosting
+  key: SUBSUM
+  text:
+  - On the other hand, certain service providers subcontracted by the Data Controller
+    (hereinafter, the "Data Processors"), such as hosting, system providers and IT
+    media, or cloud services, may have potential access to the personal information
+    of Users, for the sole purpose of fulfilling the services contracted by the Data
+    Controller.
+- source: service provider
+  target: it medium
+  key: SUBSUM
+  text:
+  - On the other hand, certain service providers subcontracted by the Data Controller
+    (hereinafter, the "Data Processors"), such as hosting, system providers and IT
+    media, or cloud services, may have potential access to the personal information
+    of Users, for the sole purpose of fulfilling the services contracted by the Data
+    Controller.
+- source: service provider
+  target: system provider
+  key: SUBSUM
+  text:
+  - On the other hand, certain service providers subcontracted by the Data Controller
+    (hereinafter, the "Data Processors"), such as hosting, system providers and IT
+    media, or cloud services, may have potential access to the personal information
+    of Users, for the sole purpose of fulfilling the services contracted by the Data
+    Controller.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: cloud service
+- type: ACTOR
+  id: country
+- type: ACTOR
+  id: data controller
+- type: ACTOR
+  id: data processors
+- type: ACTOR
+  id: hosting
+- type: ACTOR
+  id: it medium
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: system provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum provide
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: profile

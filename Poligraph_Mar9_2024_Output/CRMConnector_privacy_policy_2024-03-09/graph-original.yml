@@ -1,0 +1,167 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Complete CRM(r) may share Personal Information with third-party vendors who assist
+    Complete CRM(r) in performing functions necessary to operate Complete CRM(r)'s
+    own business.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information user provide on link page
+  key: COLLECT
+  text:
+  - Any Personal Information User provides on the linked pages is provided directly
+    to that third party and is subject to that third party's privacy policy.
+  purposes: {}
+- source: complete
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition, Complete CRM(r) may disclose Personal Information in the good faith
+    belief that Complete CRM(r) are lawfully authorized to do so, or that doing so
+    is reasonably necessary to comply with legal process or authorities, respond to
+    any claims, or to protect the rights, property or personal safety of Complete
+    CRM(r), its users, its employees or the public.
+  purposes: {}
+- source: complete crm(r
+  target: entry point for site
+  key: COLLECT
+  text:
+  - Complete CRM(r) also collects various types of information called 'clickstream
+    information', which is information about Users browsing behavior, such as IP address
+    information, entry and exit points for the Site, search terms, web site addresses
+    User visits, page views, and impressions.
+  purposes: {}
+- source: complete crm(r
+  target: impression
+  key: COLLECT
+  text:
+  - Complete CRM(r) also collects various types of information called 'clickstream
+    information', which is information about Users browsing behavior, such as IP address
+    information, entry and exit points for the Site, search terms, web site addresses
+    User visits, page views, and impressions.
+  purposes: {}
+- source: complete crm(r
+  target: ip address
+  key: COLLECT
+  text:
+  - Complete CRM(r) also collects various types of information called 'clickstream
+    information', which is information about Users browsing behavior, such as IP address
+    information, entry and exit points for the Site, search terms, web site addresses
+    User visits, page views, and impressions.
+  - For example, when a User visits the Site, Complete CRM(r) automatically collects
+    the User IP address and the type of browser the User uses.
+  purposes: {}
+- source: complete crm(r
+  target: option
+  key: COLLECT
+  text:
+  - When Complete CRM(r) uses User Personal Information in its own marketing efforts,
+    Complete CRM(r) provides Users with options and do not disclose the User's Personal
+    Information to third parties, except as described in this Policy.
+  purposes: {}
+- source: complete crm(r
+  target: page view
+  key: COLLECT
+  text:
+  - Complete CRM(r) also collects various types of information called 'clickstream
+    information', which is information about Users browsing behavior, such as IP address
+    information, entry and exit points for the Site, search terms, web site addresses
+    User visits, page views, and impressions.
+  purposes: {}
+- source: complete crm(r
+  target: personal information
+  key: COLLECT
+  text:
+  - Complete CRM(r) also uses User Personal Information to send Users informational
+    email, including without limitation to newsletters, notifications by account owners,
+    project managers, forum moderators, league managers, group members, and reminders
+    of event schedules and attendance.
+  - Complete CRM(r) may share Personal Information with third-party vendors who assist
+    Complete CRM(r) in performing functions necessary to operate Complete CRM(r)'s
+    own business.
+  - Complete CRM(r) may use User Personal Information for new, unanticipated uses
+    not previously disclosed in this Policy.
+  - Complete CRM(r) uses Personal Information to process User requests and provide
+    Users with services, to inform Users about other products, to provide Users with
+    products and/or services Complete CRM(r) believes may be of interest to the User.
+  purposes:
+    advertising:
+    - to send Users informational email, including without limitation to newsletters,
+      notifications by account owners, project managers, forum moderators, league
+      managers, group members, and reminders of event schedules and attendance
+    analytics:
+    - to process User requests and provide Users with services, to inform Users about
+      other products, to provide Users with products and/or services Complete CRM(r)
+      believes may be of interest to the User
+    services:
+    - to process User requests and provide Users with services, to inform Users about
+      other products, to provide Users with products and/or services Complete CRM(r)
+      believes may be of interest to the User
+    - to send Users informational email, including without limitation to newsletters,
+      notifications by account owners, project managers, forum moderators, league
+      managers, group members, and reminders of event schedules and attendance
+- source: complete crm(r
+  target: type of browser user use
+  key: COLLECT
+  text:
+  - For example, when a User visits the Site, Complete CRM(r) automatically collects
+    the User IP address and the type of browser the User uses.
+  purposes: {}
+- source: complete crm(r
+  target: web site address
+  key: COLLECT
+  text:
+  - Complete CRM(r) also collects various types of information called 'clickstream
+    information', which is information about Users browsing behavior, such as IP address
+    information, entry and exit points for the Site, search terms, web site addresses
+    User visits, page views, and impressions.
+  purposes: {}
+- source: user
+  target: password
+  key: COLLECT
+  text:
+  - To protect the confidentiality of Personal Information, User must keep its password
+    confidential and not disclose it to any other person.
+  purposes:
+    security:
+    - To protect the confidentiality of Personal Information
+- source: type of browser user use
+  target: ip address
+  key: SUBSUM
+  text:
+  - For example, when a User visits the Site, Complete CRM(r) automatically collects
+    the User IP address and the type of browser the User uses.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: complete
+- type: ACTOR
+  id: complete crm(r
+- type: ACTOR
+  id: user
+- type: DATA
+  id: entry point for site
+- type: DATA
+  id: impression
+- type: DATA
+  id: ip address
+- type: DATA
+  id: option
+- type: DATA
+  id: page view
+- type: DATA
+  id: password
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information user provide on link page
+- type: DATA
+  id: type of browser user use
+- type: DATA
+  id: web site address

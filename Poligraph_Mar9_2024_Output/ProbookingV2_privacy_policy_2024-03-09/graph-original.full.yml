@@ -1,0 +1,227 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'We use the information we collect in various ways, including to:'
+  purposes: {}
+- source: business collect personal datum
+  target: specific piece
+  key: COLLECT
+  text:
+  - 'CCPA Privacy Rights (Do Not Sell My Personal Information)
+
+
+    Request that a business that collects a consumer''s personal data disclose the
+    categories and specific pieces of personal data that a business has collected
+    about consumers.'
+  purposes: {}
+- source: probooking
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like any other website, Probooking uses 'cookies'.
+  purposes: {}
+- source: app you love
+  target: Google
+  key: SUBSUM
+  text:
+  - 'Features : Integrations With apps you love like Google Cal, Zoom'
+- source: app you love
+  target: zoom
+  key: SUBSUM
+  text:
+  - 'Features : Integrations With apps you love like Google Cal, Zoom'
+- source: contact information
+  target: company name
+  key: SUBSUM
+  text:
+  - When you register for an Account, we may ask for your contact information, including
+    items such as name, company name, address, email address, and telephone number.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you register for an Account, we may ask for your contact information, including
+    items such as name, company name, address, email address, and telephone number.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you register for an Account, we may ask for your contact information, including
+    items such as name, company name, address, email address, and telephone number.
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - When you register for an Account, we may ask for your contact information, including
+    items such as name, company name, address, email address, and telephone number.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - When you register for an Account, we may ask for your contact information, including
+    items such as name, company name, address, email address, and telephone number.
+- source: information about you
+  target: attachment
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: content
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: email address
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: information you choose
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: message
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: person name
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: phone number
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information collect
+  target: browser type
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: internet service provider date stamp
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: ip address
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: number of click
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: integration
+  target: Google
+  key: SUBSUM
+  text:
+  - 'Features : Integrations With apps you love like Google Cal, Zoom'
+- source: integration
+  target: zoom
+  key: SUBSUM
+  text:
+  - 'Features : Integrations With apps you love like Google Cal, Zoom'
+- source: personal information
+  target: specific piece
+  key: SUBSUM
+  text:
+  - 'CCPA Privacy Rights (Do Not Sell My Personal Information)
+
+
+    Request that a business that collects a consumer''s personal data disclose the
+    categories and specific pieces of personal data that a business has collected
+    about consumers.'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: app you love
+- type: ACTOR
+  id: business collect personal datum
+- type: ACTOR
+  id: integration
+- type: ACTOR
+  id: probooking
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: attachment
+- type: DATA
+  id: browser type
+- type: DATA
+  id: company name
+- type: DATA
+  id: contact information
+- type: DATA
+  id: content
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information collect
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: internet service provider date stamp
+- type: DATA
+  id: ip address
+- type: DATA
+  id: message
+- type: DATA
+  id: number of click
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: specific piece

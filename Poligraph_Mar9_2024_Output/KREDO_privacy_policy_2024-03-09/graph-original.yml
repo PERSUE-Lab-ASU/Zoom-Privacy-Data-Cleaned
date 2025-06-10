@@ -1,0 +1,121 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your Personal Information within Tesseract Learning or with any of
+    its subsidiaries, business partners, service vendors, authorized third-party agents,
+    or contractors located in any part of the world for the purposes of data processing,
+    storage, or to provide a requested service or transaction, after ensuring that
+    such entities are contractually bound by data privacy obligations.
+  - We share your Personal Information with third parties for marketing purposes.
+  - When required, we may disclose Personal Information to external law enforcement
+    bodies or regulatory authorities, in order to comply with legal obligations.
+  - 'When you register on our website or would like to comment on our content, we
+    may require you to provide us with certain Personal Information such as your name,
+    email address, designation, company, country and telephone number, for one or
+    more of the following purposes: user ID creation, identifying you, contacting
+    you and provide access to desirable content based on your preferences.'
+  purposes:
+    advertising:
+    - for marketing purposes
+    legal:
+    - in order to comply with legal obligations
+    services:
+    - for the purposes of data processing, storage, or to provide a requested service
+      or transaction
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We share your Personal Information with third parties for marketing purposes.
+  purposes:
+    advertising:
+    - for marketing purposes
+- source: external law enforcement body
+  target: personal information
+  key: COLLECT
+  text:
+  - When required, we may disclose Personal Information to external law enforcement
+    bodies or regulatory authorities, in order to comply with legal obligations.
+  purposes:
+    legal:
+    - in order to comply with legal obligations
+- source: regulatory authority
+  target: personal information
+  key: COLLECT
+  text:
+  - When required, we may disclose Personal Information to external law enforcement
+    bodies or regulatory authorities, in order to comply with legal obligations.
+  purposes:
+    legal:
+    - in order to comply with legal obligations
+- source: personal information
+  target: country
+  key: SUBSUM
+  text:
+  - 'When you register on our website or would like to comment on our content, we
+    may require you to provide us with certain Personal Information such as your name,
+    email address, designation, company, country and telephone number, for one or
+    more of the following purposes: user ID creation, identifying you, contacting
+    you and provide access to desirable content based on your preferences.'
+- source: personal information
+  target: designation
+  key: SUBSUM
+  text:
+  - 'When you register on our website or would like to comment on our content, we
+    may require you to provide us with certain Personal Information such as your name,
+    email address, designation, company, country and telephone number, for one or
+    more of the following purposes: user ID creation, identifying you, contacting
+    you and provide access to desirable content based on your preferences.'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'When you register on our website or would like to comment on our content, we
+    may require you to provide us with certain Personal Information such as your name,
+    email address, designation, company, country and telephone number, for one or
+    more of the following purposes: user ID creation, identifying you, contacting
+    you and provide access to desirable content based on your preferences.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'When you register on our website or would like to comment on our content, we
+    may require you to provide us with certain Personal Information such as your name,
+    email address, designation, company, country and telephone number, for one or
+    more of the following purposes: user ID creation, identifying you, contacting
+    you and provide access to desirable content based on your preferences.'
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'When you register on our website or would like to comment on our content, we
+    may require you to provide us with certain Personal Information such as your name,
+    email address, designation, company, country and telephone number, for one or
+    more of the following purposes: user ID creation, identifying you, contacting
+    you and provide access to desirable content based on your preferences.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: external law enforcement body
+- type: ACTOR
+  id: regulatory authority
+- type: ACTOR
+  id: we
+- type: DATA
+  id: country
+- type: DATA
+  id: designation
+- type: DATA
+  id: email address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number

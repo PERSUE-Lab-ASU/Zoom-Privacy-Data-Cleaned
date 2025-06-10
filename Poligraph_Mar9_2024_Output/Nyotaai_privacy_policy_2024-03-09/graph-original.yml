@@ -1,0 +1,255 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In order to work with integrations such as Google Calendar, we need to access
+    your data.
+  - 'The main avenues we rely on are: " Legitimate Interest ": We might need to collect
+    certain information from you to be able to meet our legitimate interests - this
+    covers aspects that can be reasonably expected as part of running our business,
+    that will not have a material impact on your rights, freedom or interests.'
+  - This Privacy Policy explains how we collect, process and keep your data safe.
+  - We are currently storing data in the EU and so, by using Nyota AI Ltd, you are
+    permitting and consenting to the transfer of information, including Personal Data,
+    outside of the US.
+  purposes:
+    services:
+    - In order to work with integrations such as Google Calendar
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We also collect, use and share Aggregated Data such as how often engineers prepare
+    their agenda, what topics get discussed repeatedly, employee engagement score
+    over time.
+  purposes: {}
+- source: we
+  target: data be
+  key: COLLECT
+  text:
+  - We will only access the data that is necessary for the integration to work.
+  purposes: {}
+- source: we
+  target: different kind
+  key: COLLECT
+  text:
+  - We may collect, use, store and transfer different kinds of Personal Data about
+    you which we have grouped together below.
+  purposes: {}
+- source: we
+  target: individual
+  key: COLLECT
+  text:
+  - 'The individuals from which we may gather and use data can include:'
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may share non-Personal Data with third parties.
+  purposes: {}
+- source: we
+  target: personal data provide to we as result of interaction with we not relate
+    to marketing preference
+  key: COLLECT
+  text:
+  - Where you opt out of receiving these marketing messages, we will continue to retain
+    other Personal Data provided to us as a result of interactions with us not related
+    to your marketing preferences.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If Nyota AI Ltd is sold or makes a sale or transfer, we may, in our sole discretion,
+    transfer, sell or assign your Personal Data to a third party as part of or in
+    connection with that transaction.
+  - Please note that we may process your Personal Data without your knowledge or consent,
+    in compliance with the above rules, where this is required or permitted by law.
+  - 'The main avenues we rely on are: " Consent ": Certain situations allow us to
+    collect your Personal Data, such as when you tick a box that confirms you are
+    happy to receive email newsletters from us, or ''opt in'' to a service.'
+  - We may also share Personal Data with interested parties in the event that Nyota
+    AI Ltd anticipates a change in control or the acquisition of all or part of our
+    business or assets or with interested parties in connection with the licensing
+    of our technology.
+  - We may share your Personal Data at any time if required for legal reasons or in
+    order to enforce our terms or this Privacy Policy.
+  - We may share your Personal Data with subcontractors or affiliates (subject to
+    confidentiality obligations to use it only for the purposes for which we disclose
+    it to them and pursuant to our instructions).
+  - We will only retain your Personal Data for as long as reasonably necessary to
+    fulfil the purposes we collected it for, to provide our services, to deal with
+    possible legal claims, to comply with our business interests, or if we reasonably
+    believe there is a prospect of litigation in respect to our relationship with
+    you.
+  - We will only use your Personal Data for the purposes for which we collected it,
+    unless we reasonably consider that we need to use it for another reason and that
+    reason is compatible with the original purpose.
+  - We will only use your Personal Data when the law allows us to.
+  purposes:
+    legal:
+    - to fulfil the purposes we collected it for, to provide our services, to deal
+      with possible legal claims, to comply with our business interests, or if we
+      reasonably believe there is a prospect of litigation in respect to our relationship
+      with you
+- source: we
+  target: specific information
+  key: COLLECT
+  text:
+  - We may need to request specific information from you to help us confirm your identity
+    and ensure you have the right to access your Personal Data (or to exercise any
+    of your other rights).
+  purposes:
+    security:
+    - to help us confirm your identity and ensure you have the right to access your
+      Personal Data (or to exercise any of your other rights)
+- source: UNSPECIFIED_ACTOR
+  target: datum about you
+  key: COLLECT
+  text:
+  - Clicking on those links or enabling those connections may allow third parties
+    to collect or share data about you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may share non-Personal Data with third parties.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - If Nyota AI Ltd is sold or makes a sale or transfer, we may, in our sole discretion,
+    transfer, sell or assign your Personal Data to a third party as part of or in
+    connection with that transaction.
+  - We may share your Personal Data with subcontractors or affiliates (subject to
+    confidentiality obligations to use it only for the purposes for which we disclose
+    it to them and pursuant to our instructions).
+  purposes: {}
+- source: interested party
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also share Personal Data with interested parties in the event that Nyota
+    AI Ltd anticipates a change in control or the acquisition of all or part of our
+    business or assets or with interested parties in connection with the licensing
+    of our technology.
+  purposes: {}
+- source: interested party in connection with licensing of technology
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also share Personal Data with interested parties in the event that Nyota
+    AI Ltd anticipates a change in control or the acquisition of all or part of our
+    business or assets or with interested parties in connection with the licensing
+    of our technology.
+  purposes: {}
+- source: subcontractor
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your Personal Data with subcontractors or affiliates (subject to
+    confidentiality obligations to use it only for the purposes for which we disclose
+    it to them and pursuant to our instructions).
+  purposes: {}
+- source: aggregate / deidentified / pseudonymized information
+  target: demographic
+  key: SUBSUM
+  text:
+  - Although this aggregated data may be based in part on Personal Data, it does not
+    identify you personally.
+  - For example, we may conduct research on your demographics and usage.
+- source: aggregate / deidentified / pseudonymized information
+  target: employee engagement score over time
+  key: SUBSUM
+  text:
+  - We also collect, use and share Aggregated Data such as how often engineers prepare
+    their agenda, what topics get discussed repeatedly, employee engagement score
+    over time.
+- source: aggregate / deidentified / pseudonymized information
+  target: usage
+  key: SUBSUM
+  text:
+  - Although this aggregated data may be based in part on Personal Data, it does not
+    identify you personally.
+  - For example, we may conduct research on your demographics and usage.
+- source: individual
+  target: business contact
+  key: SUBSUM
+  text:
+  - 'The individuals from which we may gather and use data can include: Business contacts'
+- source: individual
+  target: employee
+  key: SUBSUM
+  text:
+  - 'The individuals from which we may gather and use data can include: Employees/Staff
+    Members'
+- source: individual
+  target: supplier
+  key: SUBSUM
+  text:
+  - 'The individuals from which we may gather and use data can include: Suppliers'
+- source: personal information
+  target: different kind
+  key: SUBSUM
+  text:
+  - We may collect, use, store and transfer different kinds of Personal Data about
+    you which we have grouped together below.
+- source: personal information
+  target: different type
+  key: SUBSUM
+  text:
+  - Set out below is a table containing the different types of Personal Data we collect
+    and the lawful basis for processing that data.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: interested party
+- type: ACTOR
+  id: interested party in connection with licensing of technology
+- type: ACTOR
+  id: subcontractor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: business contact
+- type: DATA
+  id: data be
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: demographic
+- type: DATA
+  id: different kind
+- type: DATA
+  id: different type
+- type: DATA
+  id: employee
+- type: DATA
+  id: employee engagement score over time
+- type: DATA
+  id: individual
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal data provide to we as result of interaction with we not relate to marketing
+    preference
+- type: DATA
+  id: personal information
+- type: DATA
+  id: specific information
+- type: DATA
+  id: supplier
+- type: DATA
+  id: usage

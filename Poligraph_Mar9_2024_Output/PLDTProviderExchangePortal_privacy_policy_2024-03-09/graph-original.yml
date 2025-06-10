@@ -1,0 +1,166 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Read how we collect, secure, use, and disclose your information.
+  - This means we might share your information with; Our partner companies, organizations,
+    or agencies including their sub-contractors or prospective business partners that
+    act as our service providers, contractors, professional advisers who help us provide
+    our products and services.
+  - We also collect information from commercially or publicly available sources like
+    published directories and public documents.
+  - 'We also put in effect safeguards such as: We keep and protect your information
+    using a secured server behind a firewall, encryption and security controls.'
+  - 'We also put in effect safeguards such as: We keep your information only for as
+    long as necessary for the fulfillment of the purposes for which the information
+    was obtained or for the establishment, exercise or defense of legal claims, or
+    for legitimate business purposes, or as provided by law.'
+  purposes:
+    legal:
+    - for the fulfillment of the purposes for which the information was obtained or
+      for the establishment, exercise or defense of legal claims, or for legitimate
+      business purposes, or as provided by law
+- source: we
+  target: basic information about you
+  key: COLLECT
+  text:
+  - If you are a customer of a PLDT Group Company or Subsidiary, we collect and maintain
+    some basic information about you.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - Depending on your interaction with PLDT, we may collect the following information
+    about you.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In some instances, we may be required to disclose your personal information to
+    our agents, subsidiaries, affiliates, partners and other third-party agencies
+    as part of our regular business operations and for the provision of our products
+    and services.
+  - We may also obtain your personal information from third parties and from other
+    sources whom you have authorized to disclose your information or are otherwise
+    lawfully permitted to share your information.
+  - We process your personal information as you make use of our products and services
+    so that we may assist you whenever you require after-sales customer care .
+  - When you apply for any of our services, we collect personal information about
+    you that will allow us to validate your identity and credit history for purposes
+    of billing and collection of fees for the products and services that you avail
+    from us .
+  - 'You provide us personal information when you:'
+  purposes: {}
+- source: we
+  target: usage of network
+  key: COLLECT
+  text:
+  - For example, we analyze your usage of our network and facilities to help us manage
+    your account, monitor the quality and security of the network, train our staff,
+    and plan for future growth .
+  purposes:
+    security:
+    - to help us manage your account, monitor the quality and security of the network,
+      train our staff, and plan for future growth
+    services:
+    - to help us manage your account, monitor the quality and security of the network,
+      train our staff, and plan for future growth
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This means we might share your information with; Our partner companies, organizations,
+    or agencies including their sub-contractors or prospective business partners that
+    act as our service providers, contractors, professional advisers who help us provide
+    our products and services.
+  - This means we might share your information with; PLDT Group Companies, Subsidiaries,
+    and Affiliates ;
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - In some instances, we may be required to disclose your personal information to
+    our agents, subsidiaries, affiliates, partners and other third-party agencies
+    as part of our regular business operations and for the provision of our products
+    and services.
+  purposes: {}
+- source: agency
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This means we might share your information with; Our partner companies, organizations,
+    or agencies including their sub-contractors or prospective business partners that
+    act as our service providers, contractors, professional advisers who help us provide
+    our products and services.
+  purposes: {}
+- source: company you give consent share information
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This means we might share your information with; Other companies whom you have
+    also given consent to share your information.
+  purposes: {}
+- source: pldt group companies
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This means we might share your information with; PLDT Group Companies, Subsidiaries,
+    and Affiliates ;
+  purposes: {}
+- source: subsidiaries
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This means we might share your information with; PLDT Group Companies, Subsidiaries,
+    and Affiliates ;
+  purposes: {}
+- source: agency
+  target: prospective business partner
+  key: SUBSUM
+  text:
+  - This means we might share your information with; Our partner companies, organizations,
+    or agencies including their sub-contractors or prospective business partners that
+    act as our service providers, contractors, professional advisers who help us provide
+    our products and services.
+- source: agency
+  target: sub
+  key: SUBSUM
+  text:
+  - This means we might share your information with; Our partner companies, organizations,
+    or agencies including their sub-contractors or prospective business partners that
+    act as our service providers, contractors, professional advisers who help us provide
+    our products and services.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: agency
+- type: ACTOR
+  id: company you give consent share information
+- type: ACTOR
+  id: pldt group companies
+- type: ACTOR
+  id: prospective business partner
+- type: ACTOR
+  id: sub
+- type: ACTOR
+  id: subsidiaries
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: basic information about you
+- type: DATA
+  id: information about you
+- type: DATA
+  id: personal information
+- type: DATA
+  id: usage of network

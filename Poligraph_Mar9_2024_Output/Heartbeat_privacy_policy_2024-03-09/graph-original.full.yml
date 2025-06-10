@@ -1,0 +1,142 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - The Company will provide only aggregated data from these analyses to third parties.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We retain your personal data for enough time to fulfill the purposes outlined
+    in this Privacy Policy unless a longer retention period is required or permitted
+    by law.
+  purposes: {}
+- source: we
+  target: user information
+  key: COLLECT
+  text:
+  - The Company may disclose user information in special cases when we have reason
+    to believe that disclosing this information is necessary to identify, contact
+    or bring legal action against someone who may be causing injury to or interference
+    with (either intentionally or unintentionally) the Company's rights or property,
+    other Company users, or anyone else that could be harmed by such activities.
+  - The Company may disclose user information when we believe in good faith that the
+    law requires it.
+  purposes: {}
+- source: Google
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Heartbeat.chat is sharing personally identifiable information with Google Analytics,
+    Mixpanel, and Fullstory (acting as its site traffic gathering agents for this
+    limited purpose) for the sole purpose of gathering statistical data on visitors
+    to the site and the pages viewed by those visitors.
+  purposes:
+    analytics:
+    - for the sole purpose of gathering statistical data on visitors to the site and
+      the pages viewed by those visitors
+- source: Mixpanel
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Heartbeat.chat is sharing personally identifiable information with Google Analytics,
+    Mixpanel, and Fullstory (acting as its site traffic gathering agents for this
+    limited purpose) for the sole purpose of gathering statistical data on visitors
+    to the site and the pages viewed by those visitors.
+  purposes:
+    analytics:
+    - for the sole purpose of gathering statistical data on visitors to the site and
+      the pages viewed by those visitors
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - The Company will provide only aggregated data from these analyses to third parties.
+  purposes: {}
+- source: fullstory
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Heartbeat.chat is sharing personally identifiable information with Google Analytics,
+    Mixpanel, and Fullstory (acting as its site traffic gathering agents for this
+    limited purpose) for the sole purpose of gathering statistical data on visitors
+    to the site and the pages viewed by those visitors.
+  purposes:
+    analytics:
+    - for the sole purpose of gathering statistical data on visitors to the site and
+      the pages viewed by those visitors
+- source: heartbeat
+  target: google calendar datum
+  key: COLLECT
+  text:
+  - Heartbeat only uses Google Calendar data to sync event data between Heartbeat
+    & the user's Google Calendar.
+  purposes:
+    services:
+    - to sync event data between Heartbeat & the user's Google Calendar
+- source: heartbeat.chat
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Heartbeat.chat is sharing personally identifiable information with Google Analytics,
+    Mixpanel, and Fullstory (acting as its site traffic gathering agents for this
+    limited purpose) for the sole purpose of gathering statistical data on visitors
+    to the site and the pages viewed by those visitors.
+  purposes:
+    analytics:
+    - for the sole purpose of gathering statistical data on visitors to the site and
+      the pages viewed by those visitors
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - Additionally, users should be aware that when they voluntarily disclose personally
+    identifiable information (e.g., user name, email address) on the bulletin boards
+    or in the chat areas of the Company's sites, that information, along with any
+    substantive information disclosed in the user's communication, can be collected
+    and correlated and used by third parties and may result in unsolicited messages
+    from other posters or third parties.
+- source: personal identifier
+  target: user name
+  key: SUBSUM
+  text:
+  - Additionally, users should be aware that when they voluntarily disclose personally
+    identifiable information (e.g., user name, email address) on the bulletin boards
+    or in the chat areas of the Company's sites, that information, along with any
+    substantive information disclosed in the user's communication, can be collected
+    and correlated and used by third parties and may result in unsolicited messages
+    from other posters or third parties.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Mixpanel
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: fullstory
+- type: ACTOR
+  id: heartbeat
+- type: ACTOR
+  id: heartbeat.chat
+- type: ACTOR
+  id: we
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: email address
+- type: DATA
+  id: google calendar datum
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: user information
+- type: DATA
+  id: user name

@@ -1,0 +1,202 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: flowteams
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'FlowTeams: Privacy Policy & Terms of Use
+
+
+    Using your Data for Research'
+  - Other than the connection and current presence state, no data is stored or accessed
+    by FlowTeams.
+  - The following data is collected by FlowTeams.
+  purposes:
+    analytics:
+    - for Research
+- source: flowteams
+  target: datum it ask you
+  key: COLLECT
+  text:
+  - 'In order to function, FlowTeams needs additional data that it asks you to enter
+    through the app interface: work location* (no exact location, only whether you''re
+    working at the office, from home, remotely or not at all), planned work days and
+    hours* (only approximate start and end time), and planned personal focus and interaction
+    sessions* (planned daily through FlowTeams).'
+  purposes:
+    services:
+    - In order to function
+- source: flowteams
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'In order to function, FlowTeams needs additional data that it asks you to enter
+    through the app interface: work location* (no exact location, only whether you''re
+    working at the office, from home, remotely or not at all), planned work days and
+    hours* (only approximate start and end time), and planned personal focus and interaction
+    sessions* (planned daily through FlowTeams).'
+  purposes:
+    services:
+    - In order to function
+- source: flowteams
+  target: internet activity
+  key: COLLECT
+  text:
+  - For research purposes, FlowTeams collects usage data on the computer it is installed,
+    including your app usage data (start/end times of app in foreground, app name
+    and current window title, NO app contents), user input data (aggregated to 1 minute
+    from mouse and keyboard, NO key logging) and telemetry data (e.g. starting/stopping
+    FlowTeams, opening/closing the FlowTeams window, changing the settings, connecting/disconnecting
+    the physical LED light, answering post-session questionnaire, errors in the app).
+  purposes:
+    analytics:
+    - For research purposes
+- source: flowteams
+  target: own datum
+  key: COLLECT
+  text:
+  - 'FlowTeams: Privacy Policy & Terms of Use
+
+
+    Accessing your own Data'
+  purposes: {}
+- source: flowteams
+  target: teh collect datum
+  key: COLLECT
+  text:
+  - When using FlowTeams during a research study, the researchers might ask you to
+    share teh collected data with them.
+  purposes: {}
+- source: only approved team member within same company
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Only approved team members within the same company can access the data.
+  purposes: {}
+- source: internet activity
+  target: app content
+  key: SUBSUM
+  text:
+  - For research purposes, FlowTeams collects usage data on the computer it is installed,
+    including your app usage data (start/end times of app in foreground, app name
+    and current window title, NO app contents), user input data (aggregated to 1 minute
+    from mouse and keyboard, NO key logging) and telemetry data (e.g. starting/stopping
+    FlowTeams, opening/closing the FlowTeams window, changing the settings, connecting/disconnecting
+    the physical LED light, answering post-session questionnaire, errors in the app).
+- source: internet activity
+  target: app name
+  key: SUBSUM
+  text:
+  - For research purposes, FlowTeams collects usage data on the computer it is installed,
+    including your app usage data (start/end times of app in foreground, app name
+    and current window title, NO app contents), user input data (aggregated to 1 minute
+    from mouse and keyboard, NO key logging) and telemetry data (e.g. starting/stopping
+    FlowTeams, opening/closing the FlowTeams window, changing the settings, connecting/disconnecting
+    the physical LED light, answering post-session questionnaire, errors in the app).
+- source: internet activity
+  target: current window title
+  key: SUBSUM
+  text:
+  - For research purposes, FlowTeams collects usage data on the computer it is installed,
+    including your app usage data (start/end times of app in foreground, app name
+    and current window title, NO app contents), user input data (aggregated to 1 minute
+    from mouse and keyboard, NO key logging) and telemetry data (e.g. starting/stopping
+    FlowTeams, opening/closing the FlowTeams window, changing the settings, connecting/disconnecting
+    the physical LED light, answering post-session questionnaire, errors in the app).
+- source: internet activity
+  target: key logging
+  key: SUBSUM
+  text:
+  - For research purposes, FlowTeams collects usage data on the computer it is installed,
+    including your app usage data (start/end times of app in foreground, app name
+    and current window title, NO app contents), user input data (aggregated to 1 minute
+    from mouse and keyboard, NO key logging) and telemetry data (e.g. starting/stopping
+    FlowTeams, opening/closing the FlowTeams window, changing the settings, connecting/disconnecting
+    the physical LED light, answering post-session questionnaire, errors in the app).
+- source: internet activity
+  target: post - session questionnaire
+  key: SUBSUM
+  text:
+  - For research purposes, FlowTeams collects usage data on the computer it is installed,
+    including your app usage data (start/end times of app in foreground, app name
+    and current window title, NO app contents), user input data (aggregated to 1 minute
+    from mouse and keyboard, NO key logging) and telemetry data (e.g. starting/stopping
+    FlowTeams, opening/closing the FlowTeams window, changing the settings, connecting/disconnecting
+    the physical LED light, answering post-session questionnaire, errors in the app).
+- source: internet activity
+  target: setting
+  key: SUBSUM
+  text:
+  - For research purposes, FlowTeams collects usage data on the computer it is installed,
+    including your app usage data (start/end times of app in foreground, app name
+    and current window title, NO app contents), user input data (aggregated to 1 minute
+    from mouse and keyboard, NO key logging) and telemetry data (e.g. starting/stopping
+    FlowTeams, opening/closing the FlowTeams window, changing the settings, connecting/disconnecting
+    the physical LED light, answering post-session questionnaire, errors in the app).
+- source: internet activity
+  target: start end time of app in foreground
+  key: SUBSUM
+  text:
+  - For research purposes, FlowTeams collects usage data on the computer it is installed,
+    including your app usage data (start/end times of app in foreground, app name
+    and current window title, NO app contents), user input data (aggregated to 1 minute
+    from mouse and keyboard, NO key logging) and telemetry data (e.g. starting/stopping
+    FlowTeams, opening/closing the FlowTeams window, changing the settings, connecting/disconnecting
+    the physical LED light, answering post-session questionnaire, errors in the app).
+- source: internet activity
+  target: telemetry datum
+  key: SUBSUM
+  text:
+  - For research purposes, FlowTeams collects usage data on the computer it is installed,
+    including your app usage data (start/end times of app in foreground, app name
+    and current window title, NO app contents), user input data (aggregated to 1 minute
+    from mouse and keyboard, NO key logging) and telemetry data (e.g. starting/stopping
+    FlowTeams, opening/closing the FlowTeams window, changing the settings, connecting/disconnecting
+    the physical LED light, answering post-session questionnaire, errors in the app).
+- source: internet activity
+  target: user input datum
+  key: SUBSUM
+  text:
+  - For research purposes, FlowTeams collects usage data on the computer it is installed,
+    including your app usage data (start/end times of app in foreground, app name
+    and current window title, NO app contents), user input data (aggregated to 1 minute
+    from mouse and keyboard, NO key logging) and telemetry data (e.g. starting/stopping
+    FlowTeams, opening/closing the FlowTeams window, changing the settings, connecting/disconnecting
+    the physical LED light, answering post-session questionnaire, errors in the app).
+nodes:
+- type: ACTOR
+  id: flowteams
+- type: ACTOR
+  id: only approved team member within same company
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: app content
+- type: DATA
+  id: app name
+- type: DATA
+  id: current window title
+- type: DATA
+  id: datum it ask you
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: key logging
+- type: DATA
+  id: own datum
+- type: DATA
+  id: post - session questionnaire
+- type: DATA
+  id: setting
+- type: DATA
+  id: start end time of app in foreground
+- type: DATA
+  id: teh collect datum
+- type: DATA
+  id: telemetry datum
+- type: DATA
+  id: user input datum

@@ -1,0 +1,147 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'This means we collect and use your information only where:'
+  - We may use Google Analytics to collect and process data.
+  - we need to process your data to comply with a legal obligation.
+  purposes:
+    legal:
+    - to comply with a legal obligation
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use cookies on our Site from time to time.
+  - We may use web beacons on our Site from time to time.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - If you are an individual in the European Economic Area (EEA), we collect and process
+    information about you only where we have legal bases for doing so under applicable
+    European Union laws.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may collect, hold, use and disclose personal information for the following
+    purposes:'
+  - 'We may disclose personal information to:'
+  purposes: {}
+- source: we
+  target: personal information we hold about you
+  key: COLLECT
+  text:
+  - Where possible, we will provide this information in CSV format or other easily
+    readable machine format.
+  - You may also request that we transfer this personal information to another third
+    party (data portability).
+  - You may request a copy of the personal information we hold about you.
+  - You may request that we erase the personal information we hold about you at any
+    time.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - The third party will only process your personal information in accordance with
+    written instructions from us.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information we hold about you
+  key: COLLECT
+  text:
+  - You may also request that we transfer this personal information to another third
+    party (data portability).
+  - You may request that we erase the personal information we hold about you at any
+    time.
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - your contact details, including email address, mailing address, street address
+    and/or telephone number;
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - your contact details, including email address, mailing address, street address
+    and/or telephone number;
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - your contact details, including email address, mailing address, street address
+    and/or telephone number;
+- source: demographic information
+  target: postcode
+  key: SUBSUM
+  text:
+  - your demographic information, such as postcode;
+- source: operating system
+  target: communication
+  key: SUBSUM
+  text:
+  - information about your access and use of our Site, including through the use of
+    Internet cookies, your communications with our Site, the type of browser you are
+    using, the type of operating system you are using and the domain name of your
+    Internet service provider;
+- source: type of browser you use
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - information about your access and use of our Site, including through the use of
+    Internet cookies, your communications with our Site, the type of browser you are
+    using, the type of operating system you are using and the domain name of your
+    Internet service provider;
+- source: type of browser you use
+  target: domain name of internet service provider
+  key: SUBSUM
+  text:
+  - information about your access and use of our Site, including through the use of
+    Internet cookies, your communications with our Site, the type of browser you are
+    using, the type of operating system you are using and the domain name of your
+    Internet service provider;
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: communication
+- type: ACTOR
+  id: operating system
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: domain name of internet service provider
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information we hold about you
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: postcode
+- type: DATA
+  id: type of browser you use

@@ -1,0 +1,70 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - In addition, we use third party cookies, like Google Analytics.
+  - We use both session-based and persistent cookies.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - When you communicate with us via email we collect your email address.
+  purposes: {}
+- source: we
+  target: information provide to we
+  key: COLLECT
+  text:
+  - We collect other information voluntarily provided to us (such as survey information).
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We process personal data in United States of America.
+  - We will retain your Personal data for as long as needed or permitted in light
+    of the purposes for which it was obtained and consistent with applicable law.
+  - 'We will share your personal data in the circumstances set out below:'
+  purposes: {}
+- source: law enforcement
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We will share your personal data in the circumstances set out below: With law
+    enforcement and regulatory bodies, or as required by law.'
+  purposes: {}
+- source: om scheduling
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - OM scheduling sets and accesses our own cookies on the domains operated by OM
+    scheduling and its corporate affiliates.
+  - OM scheduling uses cookies and similar technologies like single-pixel gifs and
+    web beacons.
+  purposes: {}
+- source: information provide to we
+  target: survey information
+  key: SUBSUM
+  text:
+  - We collect other information voluntarily provided to us (such as survey information).
+nodes:
+- type: ACTOR
+  id: law enforcement
+- type: ACTOR
+  id: om scheduling
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information provide to we
+- type: DATA
+  id: personal information
+- type: DATA
+  id: survey information

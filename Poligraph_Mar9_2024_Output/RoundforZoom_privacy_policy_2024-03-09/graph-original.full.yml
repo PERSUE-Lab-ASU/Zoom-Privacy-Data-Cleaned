@@ -1,0 +1,676 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Accordingly, we use your information to:'
+  - If you do this, we may share certain information with these partners.
+  - We may provide information to a third party if we are required to do so by law
+    or we believe in good faith that such action is necessary.
+  - We may share Personal Information when we have your permission, for instance if
+    you sign up for programs offered by us or any of our partners.
+  - Whenever you use our Services, in a case of an error, bug or crash in the Services
+    we collect data and information (through third party products) on your Device
+    called Log Data.
+  purposes: {}
+- source: we
+  target: aggregated user datum
+  key: COLLECT
+  text:
+  - Please note we may also share non-personal information (aggregated or anonymized
+    user data) publicly and with service providers for research or marketing purposes,
+    for example, we may share trends in use of the Services and Content.
+  purposes:
+    advertising:
+    - for research or marketing purposes
+    analytics:
+    - for research or marketing purposes
+- source: we
+  target: behavioral information about you
+  key: COLLECT
+  text:
+  - We do collect behavioral information about you when you are using the free versions
+    of our Apps or some of our websites.
+  purposes: {}
+- source: we
+  target: coarse geolocation
+  key: COLLECT
+  text:
+  - In some cases, we may collect and store information about your approximate location,
+    by converting your IP address into a rough, non-specific, proxy location, e. g.
+    town/city level.
+  - We may use such anonymized information for operational and improvement analytics.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We can also use this behavior linked to the anonymous cookie ID as part of real-time
+    bidding (RTB).
+  - We collect mobile identifiers such as Android's Advertising ID (AAID/IFA) or Apple's
+    Identifier for Advertising and cookies to conduct interest-based advertising,
+    also referred to as targeted advertising or behavioral advertising.
+  purposes:
+    advertising:
+    - to conduct interest-based advertising, also referred to as targeted advertising
+      or behavioral advertising
+- source: we
+  target: datum about behavior on free app
+  key: COLLECT
+  text:
+  - We collect data about your behavior on our free Apps - such as how long you spend
+    watching, and how often.
+  purposes: {}
+- source: we
+  target: device identifier
+  key: COLLECT
+  text:
+  - We collect mobile identifiers such as Android's Advertising ID (AAID/IFA) or Apple's
+    Identifier for Advertising and cookies to conduct interest-based advertising,
+    also referred to as targeted advertising or behavioral advertising.
+  purposes:
+    advertising:
+    - to conduct interest-based advertising, also referred to as targeted advertising
+      or behavioral advertising
+- source: we
+  target: information transmit through device
+  key: COLLECT
+  text:
+  - 'As is common practice for most websites and mobile applications, we gather certain
+    information that is automatically transmitted through your Device, as detailed
+    below:'
+  - 'As is common practice, we also gather certain information that is automatically
+    transmitted through your Device, as detailed below:'
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - This information allows us to securely enable you to access your account, to ensure
+    that the Services are presented in the most effective manner for you on your Device,
+    to enable you to enjoy and easily navigate the Services and to enable us to gather
+    anonymized usage data to understand how we can improve the Services.
+  purposes:
+    analytics:
+    - to understand how we can improve the Services
+    services:
+    - to access your account
+    - to enjoy and easily navigate the Services
+    - to understand how we can improve the Services
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Please note we may also share non-personal information (aggregated or anonymized
+    user data) publicly and with service providers for research or marketing purposes,
+    for example, we may share trends in use of the Services and Content.
+  purposes:
+    advertising:
+    - for research or marketing purposes
+    analytics:
+    - for research or marketing purposes
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Simply put, we collect personal information about you which we or our partners
+    use to provide you with ads which are relevant to you.
+  - We may share Personal Information when we have your permission, for instance if
+    you sign up for programs offered by us or any of our partners.
+  - We share your personal data with third parties to measure our performance and
+    increase our conversion rates, such as Facebook Analytics and Clevertap.
+  - We use your Personal Information with the sole purpose of delivering you the best
+    possible experience of our Services.
+  - 'When you use our Services, you may voluntarily provide us with Personal Information
+    through the following means:'
+  purposes:
+    analytics:
+    - to measure our performance and increase our conversion rates, such as Facebook
+      Analytics and Clevertap
+- source: Apple
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Apple collect all payment data and information with respect to purchases made
+    through the App or via Apple's App Store.
+  - Apple or Google collect all payment data and information with respect to purchases
+    made through the App or via Apple's App Store or Google's Play Store.
+  purposes: {}
+- source: Apple
+  target: payment datum
+  key: COLLECT
+  text:
+  - Apple collect all payment data and information with respect to purchases made
+    through the App or via Apple's App Store.
+  - Apple or Google collect all payment data and information with respect to purchases
+    made through the App or via Apple's App Store or Google's Play Store.
+  purposes: {}
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Apple or Google collect all payment data and information with respect to purchases
+    made through the App or via Apple's App Store or Google's Play Store.
+  purposes: {}
+- source: Google
+  target: payment datum
+  key: COLLECT
+  text:
+  - Apple or Google collect all payment data and information with respect to purchases
+    made through the App or via Apple's App Store or Google's Play Store.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may provide information to a third party if we are required to do so by law
+    or we believe in good faith that such action is necessary.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: advertising id
+  key: COLLECT
+  text:
+  - These third parties have access to mobile advertising identifiers which are then
+    used to serve the ads.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: behavioral information about you
+  key: COLLECT
+  text:
+  - This behavioral information is shared with third-party partners to conduct interest-based
+    advertising.
+  - We do collect behavioral information about you when you are using the free versions
+    of our Apps or some of our websites.
+  purposes:
+    advertising:
+    - to conduct interest-based advertising
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We share your personal data with third parties to measure our performance and
+    increase our conversion rates, such as Facebook Analytics and Clevertap.
+  purposes:
+    analytics:
+    - to measure our performance and increase our conversion rates, such as Facebook
+      Analytics and Clevertap
+- source: co
+  target: personal information
+  key: COLLECT
+  text:
+  - Upon the sale or transfer of the company and/or all or part of its assets, your
+    Personal Information may be transferred to a subsequent owner or co-owner of the
+    business.
+  purposes: {}
+- source: service provider
+  target: aggregated user datum
+  key: COLLECT
+  text:
+  - Please note we may also share non-personal information (aggregated or anonymized
+    user data) publicly and with service providers for research or marketing purposes,
+    for example, we may share trends in use of the Services and Content.
+  purposes:
+    advertising:
+    - for research or marketing purposes
+    analytics:
+    - for research or marketing purposes
+- source: service provider
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Please note we may also share non-personal information (aggregated or anonymized
+    user data) publicly and with service providers for research or marketing purposes,
+    for example, we may share trends in use of the Services and Content.
+  purposes:
+    advertising:
+    - for research or marketing purposes
+    analytics:
+    - for research or marketing purposes
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - These service providers may have access to your Personal Information in the performance
+    of the tasks assigned to them on our behalf.
+  purposes: {}
+- source: whattime
+  target: third party code
+  key: COLLECT
+  text:
+  - However, Whattime may use third party code and libraries that use "cookies" to
+    collect information and improve the performance of the Services.
+  purposes: {}
+- source: we
+  target: speaker
+  key: SUBSUM
+  text:
+  - The term Device refers to the device which is used to access the Services including
+    but not limited to computers, smart phones, tablets, headphones, wearable smart
+    devices, and speakers.
+- source: account registration information
+  target: age
+  key: SUBSUM
+  text:
+  - Account/registration information (such as username and password, age, gender and
+    email address).
+- source: account registration information
+  target: email address
+  key: SUBSUM
+  text:
+  - Account/registration information (such as username and password, age, gender and
+    email address).
+- source: account registration information
+  target: gender
+  key: SUBSUM
+  text:
+  - Account/registration information (such as username and password, age, gender and
+    email address).
+- source: account registration information
+  target: password
+  key: SUBSUM
+  text:
+  - Account/registration information (such as username and password, age, gender and
+    email address).
+- source: account registration information
+  target: username
+  key: SUBSUM
+  text:
+  - Account/registration information (such as username and password, age, gender and
+    email address).
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - Contact information (such as your name, phone number, postal address or email
+    address).
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - Contact information (such as your name, phone number, postal address or email
+    address).
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Contact information (such as your name, phone number, postal address or email
+    address).
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Contact information (such as your name, phone number, postal address or email
+    address).
+- source: device identifier
+  target: advertising id
+  key: SUBSUM
+  text:
+  - We collect mobile identifiers such as Android's Advertising ID (AAID/IFA) or Apple's
+    Identifier for Advertising and cookies to conduct interest-based advertising,
+    also referred to as targeted advertising or behavioral advertising.
+- source: device identifier
+  target: ifa
+  key: SUBSUM
+  text:
+  - We collect mobile identifiers such as Android's Advertising ID (AAID/IFA) or Apple's
+    Identifier for Advertising and cookies to conduct interest-based advertising,
+    also referred to as targeted advertising or behavioral advertising.
+- source: information send
+  target: device identifier
+  key: SUBSUM
+  text:
+  - Information that is sent by your Device when you use our Services, such as device
+    identifier, user settings, mobile carrier, and the operating system of your Device.
+- source: information send
+  target: user setting
+  key: SUBSUM
+  text:
+  - Information that is sent by your Device when you use our Services, such as device
+    identifier, user settings, mobile carrier, and the operating system of your Device.
+- source: log data
+  target: configuration of app
+  key: SUBSUM
+  text:
+  - Log Data may include information such as your Device Internet Protocol ("IP")
+    address, device name, operating system version, the configuration of the App when
+    utilizing our Service, the time and date of your use of the Services, and other
+    statistics.
+- source: log data
+  target: date
+  key: SUBSUM
+  text:
+  - Log Data may include information such as your Device Internet Protocol ("IP")
+    address, device name, operating system version, the configuration of the App when
+    utilizing our Service, the time and date of your use of the Services, and other
+    statistics.
+- source: log data
+  target: device name
+  key: SUBSUM
+  text:
+  - Log Data may include information such as your Device Internet Protocol ("IP")
+    address, device name, operating system version, the configuration of the App when
+    utilizing our Service, the time and date of your use of the Services, and other
+    statistics.
+- source: log data
+  target: ip address
+  key: SUBSUM
+  text:
+  - Log Data may include information such as your Device Internet Protocol ("IP")
+    address, device name, operating system version, the configuration of the App when
+    utilizing our Service, the time and date of your use of the Services, and other
+    statistics.
+- source: log data
+  target: operating system version
+  key: SUBSUM
+  text:
+  - Log Data may include information such as your Device Internet Protocol ("IP")
+    address, device name, operating system version, the configuration of the App when
+    utilizing our Service, the time and date of your use of the Services, and other
+    statistics.
+- source: log data
+  target: statistic
+  key: SUBSUM
+  text:
+  - Log Data may include information such as your Device Internet Protocol ("IP")
+    address, device name, operating system version, the configuration of the App when
+    utilizing our Service, the time and date of your use of the Services, and other
+    statistics.
+- source: log data
+  target: time
+  key: SUBSUM
+  text:
+  - Log Data may include information such as your Device Internet Protocol ("IP")
+    address, device name, operating system version, the configuration of the App when
+    utilizing our Service, the time and date of your use of the Services, and other
+    statistics.
+- source: log information
+  target: coarse geolocation
+  key: SUBSUM
+  text:
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, broad non-specific geographical location, the time and date of your
+    use of our Services and other statistical data.
+- source: log information
+  target: configuration of app
+  key: SUBSUM
+  text:
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, broad non-specific geographical location, the time and date of your
+    use of our Services and other statistical data.
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, the time and date of your use of our Services and other statistical
+    data.
+- source: log information
+  target: date
+  key: SUBSUM
+  text:
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, broad non-specific geographical location, the time and date of your
+    use of our Services and other statistical data.
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, the time and date of your use of our Services and other statistical
+    data.
+- source: log information
+  target: device name
+  key: SUBSUM
+  text:
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, broad non-specific geographical location, the time and date of your
+    use of our Services and other statistical data.
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, the time and date of your use of our Services and other statistical
+    data.
+- source: log information
+  target: ip address
+  key: SUBSUM
+  text:
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, broad non-specific geographical location, the time and date of your
+    use of our Services and other statistical data.
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, the time and date of your use of our Services and other statistical
+    data.
+- source: log information
+  target: operating system version
+  key: SUBSUM
+  text:
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, broad non-specific geographical location, the time and date of your
+    use of our Services and other statistical data.
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, the time and date of your use of our Services and other statistical
+    data.
+- source: log information
+  target: statistical datum
+  key: SUBSUM
+  text:
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, broad non-specific geographical location, the time and date of your
+    use of our Services and other statistical data.
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, the time and date of your use of our Services and other statistical
+    data.
+- source: log information
+  target: time
+  key: SUBSUM
+  text:
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, broad non-specific geographical location, the time and date of your
+    use of our Services and other statistical data.
+  - Log information, such as your Device Internet Protocol ("IP") address, device
+    name, operating system version, the configuration of the App when utilizing our
+    Services, the time and date of your use of our Services and other statistical
+    data.
+- source: personal identifier
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - It's important to understand that this behavior is linked to an anonymous cookie
+    ID, and not to directly identifying information such as your name, address or
+    credit card number.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - It's important to understand that this behavior is linked to an anonymous cookie
+    ID, and not to directly identifying information such as your name, address or
+    credit card number.
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - It's important to understand that this behavior is linked to an anonymous cookie
+    ID, and not to directly identifying information such as your name, address or
+    credit card number.
+- source: public platform
+  target: blog
+  key: SUBSUM
+  text:
+  - Through information you submit on Whattime's public platforms which may include
+    but are not limited to forums, community areas, social media sites and blogs.
+- source: public platform
+  target: forum
+  key: SUBSUM
+  text:
+  - Through information you submit on Whattime's public platforms which may include
+    but are not limited to forums, community areas, social media sites and blogs.
+- source: public platform
+  target: social media
+  key: SUBSUM
+  text:
+  - Through information you submit on Whattime's public platforms which may include
+    but are not limited to forums, community areas, social media sites and blogs.
+- source: publicly available information
+  target: community area
+  key: SUBSUM
+  text:
+  - Publicly available information (such as forums, community areas and blogs).
+- source: service activity information
+  target: account
+  key: SUBSUM
+  text:
+  - Service activity information (such as account and user settings).
+- source: service activity information
+  target: account setting
+  key: SUBSUM
+  text:
+  - Service activity information (such as account and user settings).
+- source: transactional communication
+  target: account notification
+  key: SUBSUM
+  text:
+  - Sending you transactional or service communications, such as receipts, account
+    and update notifications, customer service responses, and other administrative
+    communications.
+- source: transactional communication
+  target: customer service response
+  key: SUBSUM
+  text:
+  - Sending you transactional or service communications, such as receipts, account
+    and update notifications, customer service responses, and other administrative
+    communications.
+- source: transactional communication
+  target: receipt
+  key: SUBSUM
+  text:
+  - Sending you transactional or service communications, such as receipts, account
+    and update notifications, customer service responses, and other administrative
+    communications.
+nodes:
+- type: ACTOR
+  id: Apple
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: blog
+- type: ACTOR
+  id: co
+- type: ACTOR
+  id: forum
+- type: ACTOR
+  id: public platform
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: speaker
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: whattime
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account
+- type: DATA
+  id: account notification
+- type: DATA
+  id: account registration information
+- type: DATA
+  id: account setting
+- type: DATA
+  id: advertising id
+- type: DATA
+  id: age
+- type: DATA
+  id: aggregated user datum
+- type: DATA
+  id: behavioral information about you
+- type: DATA
+  id: coarse geolocation
+- type: DATA
+  id: community area
+- type: DATA
+  id: configuration of app
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer service response
+- type: DATA
+  id: date
+- type: DATA
+  id: datum about behavior on free app
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device name
+- type: DATA
+  id: email address
+- type: DATA
+  id: gender
+- type: DATA
+  id: ifa
+- type: DATA
+  id: information send
+- type: DATA
+  id: information transmit through device
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log data
+- type: DATA
+  id: log information
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: operating system version
+- type: DATA
+  id: password
+- type: DATA
+  id: payment datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: publicly available information
+- type: DATA
+  id: receipt
+- type: DATA
+  id: service activity information
+- type: DATA
+  id: statistic
+- type: DATA
+  id: statistical datum
+- type: DATA
+  id: third party code
+- type: DATA
+  id: time
+- type: DATA
+  id: transactional communication
+- type: DATA
+  id: user setting
+- type: DATA
+  id: username

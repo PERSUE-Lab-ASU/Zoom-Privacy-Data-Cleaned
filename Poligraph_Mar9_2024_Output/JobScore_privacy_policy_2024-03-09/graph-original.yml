@@ -1,0 +1,438 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will retain and use your information as necessary to comply with our legal
+    obligations, resolve disputes, and enforce our agreements.
+  - We will retain your information for as long as your account is active or as needed
+    to provide you services.
+  purposes:
+    legal:
+    - to comply with our legal obligations, resolve disputes, and enforce our agreements
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: clickstream datum
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: date time stamp
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: education history
+  key: COLLECT
+  text:
+  - 'We may collect the following personal information from you about your contacts
+    or friends: email address, mailing address, phone number, education history, and
+    job history.'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'We may collect the following personal information from you about your contacts
+    or friends: email address, mailing address, phone number, education history, and
+    job history.'
+  purposes: {}
+- source: we
+  target: information we collect from you about contact
+  key: COLLECT
+  text:
+  - We also use this collected information to respond to you when you contact us.
+  - 'We use the information we collect from you about your contacts or friends: to
+    deliver the Services to you whether you are an Employer or Jobseeker, to send
+    you marketing communications when appropriate, to communicate with you about changes
+    to the Services, and to notify you about any changes to our policies and Terms.'
+  purposes:
+    advertising:
+    - to deliver the Services to you whether you are an Employer or Jobseeker, to
+      send you marketing communications when appropriate, to communicate with you
+      about changes to the Services, and to notify you about any changes to our policies
+      and Terms
+    services:
+    - to deliver the Services to you whether you are an Employer or Jobseeker, to
+      send you marketing communications when appropriate, to communicate with you
+      about changes to the Services, and to notify you about any changes to our policies
+      and Terms
+    - to respond to you when you contact us
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - As is true of most web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, operating system, date/time stamp,
+    and/or clickstream data.
+  purposes: {}
+- source: we
+  target: job history
+  key: COLLECT
+  text:
+  - 'We may collect the following personal information from you about your contacts
+    or friends: email address, mailing address, phone number, education history, and
+    job history.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may collect the following personal information from you about your contacts
+    or friends: email address, mailing address, phone number, education history, and
+    job history.'
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - 'We may collect the following personal information from you about your contacts
+    or friends: email address, mailing address, phone number, education history, and
+    job history.'
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - 'We may collect the following personal information from you about your contacts
+    or friends: email address, mailing address, phone number, education history, and
+    job history.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our third party partner may use technologies such as cookies to gather information
+    about your activities on this site and other sites in order to provide you advertising
+    based upon your browsing activities and interests.
+  purposes:
+    advertising:
+    - in order to provide you advertising based upon your browsing activities and
+      interests
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our third party partner may use technologies such as cookies to gather information
+    about your activities on this site and other sites in order to provide you advertising
+    based upon your browsing activities and interests.
+  - We JobScore and our partners use cookies or similar technologies to analyze trends,
+    administer the website, track users' movements around the website, and to gather
+    demographic information about our user base as a whole.
+  purposes:
+    advertising:
+    - in order to provide you advertising based upon your browsing activities and
+      interests
+    - to gather information about your activities on this site and other sites in
+      order to provide you advertising based upon your browsing activities and interests
+    analytics:
+    - to analyze trends, administer the website, track users' movements around the
+      website, and to gather demographic information about our user base as a whole
+    - to gather information about your activities on this site and other sites in
+      order to provide you advertising based upon your browsing activities and interests
+- source: UNSPECIFIED_ACTOR
+  target: demographic information about user base as whole
+  key: COLLECT
+  text:
+  - We JobScore and our partners use cookies or similar technologies to analyze trends,
+    administer the website, track users' movements around the website, and to gather
+    demographic information about our user base as a whole.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non - financial information
+  key: COLLECT
+  text:
+  - In addition, JobScore may enter into partnerships with third parties that provide
+    products and services related to JobScore's Services that may be of interest to
+    you ("Partners") and would therefore share non-financial information with such
+    Partners.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: option
+  key: COLLECT
+  text:
+  - For certain Services, you can log in using sign-in services such as an Open ID
+    provider.
+  - These services will authenticate your identity and provide you the option to share
+    certain personal information with us such as your name and email address to pre-populate
+    our sign up form.
+  purposes: {}
+- source: credit card processor
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - JobScore will only share your credit card information with a credit card and/or
+    shipping processor for the limited purpose of processing your credit card transaction.
+  purposes:
+    services:
+    - for the limited purpose of processing your credit card transaction
+- source: employer
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When an individual applies to a job at a JobScore Network employer, JobScore will
+    share a Jobseeker's information with the Employer.
+  purposes: {}
+- source: employer
+  target: personal information
+  key: COLLECT
+  text:
+  - JobScore will then no longer share your personal information with any Employers
+    and will remove you from and its further communications in accordance with JobScore's
+    standard removal schedules.
+  purposes: {}
+- source: jobscore
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When an individual applies to a job at a JobScore Network employer, JobScore will
+    share a Jobseeker's information with the Employer.
+  purposes: {}
+- source: jobscore
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - JobScore will only share your credit card information with a credit card and/or
+    shipping processor for the limited purpose of processing your credit card transaction.
+  purposes:
+    services:
+    - for the limited purpose of processing your credit card transaction
+- source: jobscore
+  target: information about
+  key: COLLECT
+  text:
+  - Upon request JobScore will provide you with information about whether we hold
+    any of your personal information.
+  purposes: {}
+- source: jobscore
+  target: information it collect
+  key: COLLECT
+  text:
+  - JobScore may also use any information it collects to improve the Services.
+  purposes:
+    services:
+    - to improve the Services
+- source: jobscore
+  target: information it collect from you
+  key: COLLECT
+  text:
+  - JobScore may also use any information it collects from you for summary and statistical
+    purposes and may share the foregoing to third parties, even if an Employer or
+    Jobseeker Opts-Out.
+  purposes:
+    analytics:
+    - for summary and statistical purposes
+- source: jobscore
+  target: information relate to discussion
+  key: COLLECT
+  text:
+  - JobScore also collects information related to discussions, chats, and other correspondence
+    through the JobScore website.
+  purposes: {}
+- source: jobscore
+  target: information relate to overall use of service
+  key: COLLECT
+  text:
+  - JobScore also collects information related to your overall use of the Services.
+  purposes: {}
+- source: jobscore
+  target: information you provide
+  key: COLLECT
+  text:
+  - Though JobScore makes every effort to preserve your privacy, JobScore may disclose
+    information you provide if required to do so by law, such as to comply with a
+    subpoena, bankruptcy proceedings, or other legal process or if JobScore has a
+    good faith belief that disclosure is necessary to (1) comply with the law or with
+    legal process served on us or (2) protect and defend JobScore's rights or property.
+  purposes: {}
+- source: jobscore
+  target: ip address
+  key: COLLECT
+  text:
+  - JobScore may also log IP addresses for systems administration purposes.
+  purposes:
+    services:
+    - for systems administration purposes
+- source: jobscore
+  target: non - financial information
+  key: COLLECT
+  text:
+  - In addition, JobScore may enter into partnerships with third parties that provide
+    products and services related to JobScore's Services that may be of interest to
+    you ("Partners") and would therefore share non-financial information with such
+    Partners.
+  purposes: {}
+- source: jobscore
+  target: personal information
+  key: COLLECT
+  text:
+  - In certain situations, JobScore may be required to disclose personal data in response
+    to lawful requests by public authorities, including to meet national security
+    or law enforcement requirements.
+  - JobScore will then no longer share your personal information with any Employers
+    and will remove you from and its further communications in accordance with JobScore's
+    standard removal schedules.
+  - This privacy policy describes how JobScore collects and uses personal information
+    you provide on our web site https://www.jobscore.com.
+  purposes: {}
+- source: jobscore
+  target: preference datum
+  key: COLLECT
+  text:
+  - JobScore may also use preference data to tailor your experience at JobScore's
+    website, showing you content that JobScore thinks you might be interested in,
+    and displaying content according to preferences.
+  purposes:
+    services:
+    - to tailor your experience at JobScore's website
+- source: jobscore
+  target: wide variety
+  key: COLLECT
+  text:
+  - JobScore collects a wide variety of Information as described in this Section that
+    it uses to provide its membership services and general information services on
+    its website ("Services").
+  purposes: {}
+- source: social media
+  target: ip address
+  key: COLLECT
+  text:
+  - Our Web site includes Social Media Features, such as the Facebook Like button
+    and Widgets, such as the Share this button or interactive mini-programs that run
+    on our site.
+  - These Features may collect your IP address, which page you are visiting on our
+    site, and may set a cookie to enable the Feature to function properly.
+  purposes: {}
+- source: we jobscore
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We JobScore and our partners use cookies or similar technologies to analyze trends,
+    administer the website, track users' movements around the website, and to gather
+    demographic information about our user base as a whole.
+  purposes:
+    analytics:
+    - to analyze trends, administer the website, track users' movements around the
+      website, and to gather demographic information about our user base as a whole
+- source: we jobscore
+  target: demographic information about user base as whole
+  key: COLLECT
+  text:
+  - We JobScore and our partners use cookies or similar technologies to analyze trends,
+    administer the website, track users' movements around the website, and to gather
+    demographic information about our user base as a whole.
+  purposes: {}
+- source: we
+  target: Facebook
+  key: SUBSUM
+  text:
+  - Services like Facebook Connect give you the option to post information about your
+    activities on this Web site to your profile page to share with others within your
+    network.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - These services will authenticate your identity and provide you the option to share
+    certain personal information with us such as your name and email address to pre-populate
+    our sign up form.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - These services will authenticate your identity and provide you the option to share
+    certain personal information with us such as your name and email address to pre-populate
+    our sign up form.
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: credit card processor
+- type: ACTOR
+  id: employer
+- type: ACTOR
+  id: jobscore
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: we jobscore
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date time stamp
+- type: DATA
+  id: demographic information about user base as whole
+- type: DATA
+  id: education history
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about
+- type: DATA
+  id: information it collect
+- type: DATA
+  id: information it collect from you
+- type: DATA
+  id: information relate to discussion
+- type: DATA
+  id: information relate to overall use of service
+- type: DATA
+  id: information we collect from you about contact
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job history
+- type: DATA
+  id: non - financial information
+- type: DATA
+  id: option
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: preference datum
+- type: DATA
+  id: wide variety

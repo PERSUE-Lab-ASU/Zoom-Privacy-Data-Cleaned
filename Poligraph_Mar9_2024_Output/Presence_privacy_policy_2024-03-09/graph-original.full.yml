@@ -1,0 +1,28 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: big well datum
+  key: COLLECT
+  text:
+  - And because so many students are trying it out and then using it all the time,
+    we get access to bigger, better data and can really streamline our processes for
+    student orgs and engagement all across the board."
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies on this website to enhance your experience and improve our services
+    and our website's functionality.
+  purposes:
+    services:
+    - to enhance your experience and improve our services and our website's functionality
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: big well datum
+- type: DATA
+  id: cookie / pixel tag

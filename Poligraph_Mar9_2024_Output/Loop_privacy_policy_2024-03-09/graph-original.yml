@@ -1,0 +1,214 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'In this policy, we lay out: what data we collect and why; how your data is handled;
+    and your rights with respect to your data.'
+  - We may also access your data if required in order to respond to legal processes
+    (see "When required under applicable law" below).
+  - 'When we access or share your information
+
+
+    We may share your information at your direction if you integrate a third-party
+    service into your use of our products.'
+  purposes:
+    legal:
+    - in order to respond to legal processes
+- source: we
+  target: aggregate billing information
+  key: COLLECT
+  text:
+  - We occasionally use aggregate billing information to guide our marketing efforts.
+  purposes:
+    advertising:
+    - to guide our marketing efforts
+- source: we
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - We collect information about your browsing activity for analytics and statistical
+    purposes such as conversion rate testing and experimenting with new product designs.
+  purposes:
+    analytics:
+    - for analytics and statistical purposes such as conversion rate testing and experimenting
+      with new product designs
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - Where permissible by law and if you have a Loop account, we may share a one-way
+    hash of your email address with ad companies to exclude you from seeing our ads.
+  purposes:
+    advertising:
+    - to exclude you from seeing our ads
+- source: we
+  target: information you volunteer
+  key: COLLECT
+  text:
+  - We also store information you may volunteer, for example, written responses to
+    surveys.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - For most of our products, we log the full IP address used to sign up a product
+    account and retain that for use in mitigating future spammy signups.
+  - We also log all account access by full IP address for security and fraud prevention
+    purposes, and we keep this login data for as long as your product account is active.
+  purposes:
+    security:
+    - for security and fraud prevention purposes
+- source: we
+  target: option add profile picture display in product
+  key: COLLECT
+  text:
+  - We may also give you the option to add a profile picture that displays in our
+    products.
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - If that happens, we will share only the minimum needed, such as billing addresses
+    and tax exemption information.
+  - We store your billing address so we can charge you for service, calculate any
+    sales tax due, send you invoices, and detect fraudulent credit card transactions.
+  purposes: {}
+- source: we
+  target: record of payment transaction
+  key: COLLECT
+  text:
+  - We store a record of the payment transaction, including the last 4 digits of the
+    credit card number, for purposes of account history, invoicing, and billing support.
+  purposes:
+    services:
+    - for purposes of account history, invoicing, and billing support
+- source: we
+  target: relate information
+  key: COLLECT
+  text:
+  - If we are audited by a tax authority, we may be required to share billing-related
+    information.
+  purposes: {}
+- source: we
+  target: tax exemption information
+  key: COLLECT
+  text:
+  - If that happens, we will share only the minimum needed, such as billing addresses
+    and tax exemption information.
+  purposes: {}
+- source: we
+  target: voluntary correspondence
+  key: COLLECT
+  text:
+  - Voluntary correspondence
+  - When you email Loop with a question or to ask for help, we keep that correspondence,
+    including your email address, so that we have a history of past correspondence
+    to reference if you reach out in the future.
+  purposes: {}
+- source: Google
+  target: email you receive from loop
+  key: COLLECT
+  text:
+  - Email that you receive from Loop will be stored by both Loop and Google and will
+    be available to you from your Gmail account.
+  purposes: {}
+- source: advertiser
+  target: email address
+  key: COLLECT
+  text:
+  - Where permissible by law and if you have a Loop account, we may share a one-way
+    hash of your email address with ad companies to exclude you from seeing our ads.
+  purposes:
+    advertising:
+    - to exclude you from seeing our ads
+- source: captcha service
+  target: spam score result
+  key: COLLECT
+  text:
+  - The CAPTCHA service then provides Loop with the spam score results; we do not
+    have access to the evaluated information.
+  purposes: {}
+- source: loop
+  target: email you receive from loop
+  key: COLLECT
+  text:
+  - Email that you receive from Loop will be stored by both Loop and Google and will
+    be available to you from your Gmail account.
+  purposes: {}
+- source: loop
+  target: spam score result
+  key: COLLECT
+  text:
+  - The CAPTCHA service then provides Loop with the spam score results; we do not
+    have access to the evaluated information.
+  purposes: {}
+- source: payment processor
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - Credit card information is submitted directly to our payment processor and doesn't
+    hit Loop servers.
+  purposes: {}
+- source: record of payment transaction
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - We store a record of the payment transaction, including the last 4 digits of the
+    credit card number, for purposes of account history, invoicing, and billing support.
+- source: voluntary correspondence
+  target: email address
+  key: SUBSUM
+  text:
+  - Voluntary correspondence
+  - When you email Loop with a question or to ask for help, we keep that correspondence,
+    including your email address, so that we have a history of past correspondence
+    to reference if you reach out in the future.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: captcha service
+- type: ACTOR
+  id: loop
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate billing information
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: email address
+- type: DATA
+  id: email you receive from loop
+- type: DATA
+  id: information you volunteer
+- type: DATA
+  id: ip address
+- type: DATA
+  id: option add profile picture display in product
+- type: DATA
+  id: postal address
+- type: DATA
+  id: record of payment transaction
+- type: DATA
+  id: relate information
+- type: DATA
+  id: spam score result
+- type: DATA
+  id: tax exemption information
+- type: DATA
+  id: voluntary correspondence

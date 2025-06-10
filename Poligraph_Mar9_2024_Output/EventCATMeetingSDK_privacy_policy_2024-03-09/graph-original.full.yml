@@ -1,0 +1,208 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If we believe the release of information about you is necessary to respond to
+    legal process, to investigate or remedy potential violations of our policies,
+    or to protect the rights, property, and safety of others, we may share your information
+    as permitted or required by any applicable law, rule, or regulation.
+  - 'Privacy Policy
+
+
+    DISCLOSURE OF YOUR INFORMATION
+
+
+    Business Partners
+
+
+    We may share your information with our business partners to offer you certain
+    products, services or promotions.'
+  - 'The information we may collect on the service Includes:'
+  - This Privacy Policy explains how we collect, use, disclose, and safeguard your
+    information when you visit our service.
+  - We may share your data with third party vendors, service providers, contractors
+    or agents who perform services for us or on our behalf and require access to such
+    information to do that work.
+  - We may share your information with our affiliates, in which case we will require
+    those affiliates to honor this Privacy Policy.
+  - With your consent, or with an opportunity for you to withdraw consent, we may
+    share your information with third parties for marketing purposes, as permitted
+    by law.
+  purposes:
+    advertising:
+    - for marketing purposes
+    - to offer you certain products, services or promotions
+- source: we
+  target: financial information
+  key: COLLECT
+  text:
+  - We store only very limited, if any, financial information.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may collect information about you in a variety of ways.
+  purposes: {}
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - We may share information we have collected about you in certain situations.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your personal information for any other purpose with your consent.
+  purposes: {}
+- source: we
+  target: supply information
+  key: COLLECT
+  text:
+  - We may use your supplied information in a variety of ways.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your data with third party vendors, service providers, contractors
+    or agents who perform services for us or on our behalf and require access to such
+    information to do that work.
+  - With your consent, or with an opportunity for you to withdraw consent, we may
+    share your information with third parties for marketing purposes, as permitted
+    by law.
+  purposes:
+    advertising:
+    - for marketing purposes
+- source: business partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    DISCLOSURE OF YOUR INFORMATION
+
+
+    Business Partners
+
+
+    We may share your information with our business partners to offer you certain
+    products, services or promotions.'
+  purposes:
+    advertising:
+    - to offer you certain products, services or promotions
+- source: contractor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your data with third party vendors, service providers, contractors
+    or agents who perform services for us or on our behalf and require access to such
+    information to do that work.
+  purposes: {}
+- source: payment processor
+  target: financial information
+  key: COLLECT
+  text:
+  - Otherwise, all financial information is stored by our payment processor.
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your data with third party vendors, service providers, contractors
+    or agents who perform services for us or on our behalf and require access to such
+    information to do that work.
+  purposes: {}
+- source: xl8
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - XL8 may use cookies, web beacons, tracking pixels, and other tracking technologies
+    on the service to help and improve your experience.
+  purposes:
+    services:
+    - to help and improve your experience
+- source: xl8
+  target: track pixel
+  key: COLLECT
+  text:
+  - XL8 may use cookies, web beacons, tracking pixels, and other tracking technologies
+    on the service to help and improve your experience.
+  purposes:
+    services:
+    - to help and improve your experience
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - Personally identifiable information, such as your first and last name and email
+    address that you give when you sign up to our service.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Personally identifiable information, such as your first and last name and email
+    address that you give when you sign up to our service.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - permits our users who are California residents to request and obtain from us,
+    once a year and free of charge, information about categories of personal information
+    (if any) we disclosed to third parties for direct marketing purposes and the names
+    and addresses of all third parties with which we shared personal information in
+    the immediately preceding calendar year.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - permits our users who are California residents to request and obtain from us,
+    once a year and free of charge, information about categories of personal information
+    (if any) we disclosed to third parties for direct marketing purposes and the names
+    and addresses of all third parties with which we shared personal information in
+    the immediately preceding calendar year.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: xl8
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial information
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: supply information
+- type: DATA
+  id: track pixel

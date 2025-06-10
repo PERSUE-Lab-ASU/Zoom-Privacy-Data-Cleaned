@@ -1,0 +1,32 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Cookies are used by our website to enable the functionality of certain areas to
+    make it easier for people visiting our website.
+  purposes:
+    services:
+    - to enable the functionality of certain areas to make it easier for people visiting
+      our website
+- source: most interactive website
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Most interactive websites use cookies to let us retrieve the user's details for
+    each visit.
+  purposes:
+    analytics:
+    - to let us retrieve the user's details for each visit
+    services:
+    - to let us retrieve the user's details for each visit
+nodes:
+- type: ACTOR
+  id: most interactive website
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag

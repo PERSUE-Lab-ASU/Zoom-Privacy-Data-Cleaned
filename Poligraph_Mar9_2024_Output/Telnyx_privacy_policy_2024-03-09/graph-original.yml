@@ -1,0 +1,16 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: detail on privacy policy
+  key: COLLECT
+  text:
+  - In this article we will provide details on Telnyx's privacy policy so you can
+    have peace of mind.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: detail on privacy policy

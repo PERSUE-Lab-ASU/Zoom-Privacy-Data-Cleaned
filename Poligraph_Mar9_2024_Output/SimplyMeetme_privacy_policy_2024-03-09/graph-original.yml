@@ -1,0 +1,195 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'IV. Storage of your personal data:
+
+
+    How long do you keep my personal data for?: We will keep your data as long as
+    necessary to provide you the SimplyMeet.me Software Solution and make sure you
+    can use your SimplyMeet.me Account.'
+  purposes:
+    services:
+    - to provide you the SimplyMeet.me Software Solution
+- source: we
+  target: amount
+  key: COLLECT
+  text:
+  - 'Additional clarifications:
+
+
+    When you activate the SPBay.me Solution in Your Account, you hereby agree and
+    understand that we will collect and store : all processing data, time, name of
+    Your client, amount, item being purchased, if recurring or not, IP address, payment
+    processor.'
+  purposes: {}
+- source: we
+  target: backup
+  key: COLLECT
+  text:
+  - We only keep backups in our systems for 30 days - after which your personal data,
+    and all your clients bookings data will be deleted completely from your records.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We collect cookies for user experience, analytical and own advertising purposes.
+  purposes:
+    advertising:
+    - for user experience, analytical and own advertising purposes
+    analytics:
+    - for user experience, analytical and own advertising purposes
+- source: we
+  target: information relate to website domain of simplymeet.me software solution
+  key: COLLECT
+  text:
+  - 'III. Your personal data we keep:
+
+
+    Usage Data: information that relates to the website domains of SimplyMeet.me Software
+    Solution'
+  - we need this information for the purposes of understanding which sub-websites
+    best suit your needs, to improve our services and offer you usage suggestions
+    that might suit your needs
+  purposes:
+    analytics:
+    - for the purposes of understanding which sub-websites best suit your needs,
+    services:
+    - to improve our services and offer you usage suggestions that might suit your
+      needs
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'Additional clarifications:
+
+
+    When you activate the SPBay.me Solution in Your Account, you hereby agree and
+    understand that we will collect and store : all processing data, time, name of
+    Your client, amount, item being purchased, if recurring or not, IP address, payment
+    processor.'
+  purposes: {}
+- source: we
+  target: item purchase
+  key: COLLECT
+  text:
+  - 'Additional clarifications:
+
+
+    When you activate the SPBay.me Solution in Your Account, you hereby agree and
+    understand that we will collect and store : all processing data, time, name of
+    Your client, amount, item being purchased, if recurring or not, IP address, payment
+    processor.'
+  purposes: {}
+- source: we
+  target: name of client
+  key: COLLECT
+  text:
+  - 'Additional clarifications:
+
+
+    When you activate the SPBay.me Solution in Your Account, you hereby agree and
+    understand that we will collect and store : all processing data, time, name of
+    Your client, amount, item being purchased, if recurring or not, IP address, payment
+    processor.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We share your personal data for the purposes of providing the SimplyMeet.me Software
+    Solution and making sure you can operate your SimplyMeet.me Account with the below
+    sup-processors.
+  - p.s. we may retain your personal data where such retention is necessary for compliance
+    with a legal obligation to which we are subject to such as accounting laws, or
+    in order to protect your vital interests or the vital interests of another natural
+    person.
+  purposes:
+    services:
+    - for the purposes of providing the SimplyMeet.me Software Solution and making
+      sure you can operate your SimplyMeet.me Account with the below sup-processors
+- source: we
+  target: processing datum
+  key: COLLECT
+  text:
+  - 'Additional clarifications:
+
+
+    When you activate the SPBay.me Solution in Your Account, you hereby agree and
+    understand that we will collect and store : all processing data, time, name of
+    Your client, amount, item being purchased, if recurring or not, IP address, payment
+    processor.'
+  purposes: {}
+- source: we
+  target: record demonstrate compliance with gdpr
+  key: COLLECT
+  text:
+  - For our compliance, we have implemented appropriate measures and keep records
+    demonstrating compliance with the GDPR and responsibility for the processing of
+    your personal data.
+  purposes:
+    legal:
+    - For our compliance
+- source: we
+  target: time
+  key: COLLECT
+  text:
+  - 'Additional clarifications:
+
+
+    When you activate the SPBay.me Solution in Your Account, you hereby agree and
+    understand that we will collect and store : all processing data, time, name of
+    Your client, amount, item being purchased, if recurring or not, IP address, payment
+    processor.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Additional clarifications:
+
+
+    Data is shared with: no third party.'
+  purposes: {}
+- source: we
+  target: simplybook.me ltd
+  key: SUBSUM
+  text:
+  - This document illustrates the privacy practices of SimplyBook.me Ltd (" We ",
+    " Us " or otherwise) when offering You (" User ") the SimplyMeet.me Software Solution.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: simplybook.me ltd
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: amount
+- type: DATA
+  id: backup
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information relate to website domain of simplymeet.me software solution
+- type: DATA
+  id: ip address
+- type: DATA
+  id: item purchase
+- type: DATA
+  id: name of client
+- type: DATA
+  id: personal information
+- type: DATA
+  id: processing datum
+- type: DATA
+  id: record demonstrate compliance with gdpr
+- type: DATA
+  id: time

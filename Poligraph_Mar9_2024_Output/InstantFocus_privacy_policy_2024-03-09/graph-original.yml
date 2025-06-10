@@ -1,0 +1,358 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website uses cookies.
+  - We use cookies to analyze website traffic and optimize your website experience.
+  purposes:
+    analytics:
+    - to analyze website traffic and optimize your website experience
+- source: UNSPECIFIED_ACTOR
+  target: collect datum
+  key: COLLECT
+  text:
+  - Instant Focus may share collected data with third-party service providers, business
+    partners, or affiliates for purposes such as data processing, analytics, marketing,
+    and customer support.
+  purposes:
+    advertising:
+    - for purposes such as data processing, analytics, marketing, and customer support
+    analytics:
+    - for purposes such as data processing, analytics, marketing, and customer support
+    services:
+    - for purposes such as data processing, analytics, marketing, and customer support
+- source: business partner
+  target: collect datum
+  key: COLLECT
+  text:
+  - Instant Focus may share collected data with third-party service providers, business
+    partners, or affiliates for purposes such as data processing, analytics, marketing,
+    and customer support.
+  purposes:
+    advertising:
+    - for purposes such as data processing, analytics, marketing, and customer support
+    analytics:
+    - for purposes such as data processing, analytics, marketing, and customer support
+    services:
+    - for purposes such as data processing, analytics, marketing, and customer support
+- source: feature
+  target: identifiable information
+  key: COLLECT
+  text:
+  - While Instant Focus prioritizes user privacy, certain features or functionalities
+    may require users to provide identifiable information for account verification
+    or security purposes.
+  purposes:
+    security:
+    - for account verification or security purposes
+    services:
+    - for account verification or security purposes
+- source: functionality
+  target: identifiable information
+  key: COLLECT
+  text:
+  - While Instant Focus prioritizes user privacy, certain features or functionalities
+    may require users to provide identifiable information for account verification
+    or security purposes.
+  purposes:
+    security:
+    - for account verification or security purposes
+    services:
+    - for account verification or security purposes
+- source: instant focus
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Instant Focus may request additional information or cooperation from the user
+    during the suspension period.
+  purposes: {}
+- source: instant focus
+  target: account credential
+  key: COLLECT
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Account credentials (e.g., username, password)'
+  purposes: {}
+- source: instant focus
+  target: collect datum
+  key: COLLECT
+  text:
+  - Instant Focus may share collected data with third-party service providers, business
+    partners, or affiliates for purposes such as data processing, analytics, marketing,
+    and customer support.
+  - 'Instant Focus may utilize collected data in the following ways:'
+  purposes:
+    advertising:
+    - for purposes such as data processing, analytics, marketing, and customer support
+    analytics:
+    - for purposes such as data processing, analytics, marketing, and customer support
+    services:
+    - for purposes such as data processing, analytics, marketing, and customer support
+- source: instant focus
+  target: device information
+  key: COLLECT
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Device information (e.g., IP address, browser type, operating
+    system)'
+  purposes: {}
+- source: instant focus
+  target: information regard reason for termination
+  key: COLLECT
+  text:
+  - In the event of a termination, Instant Focus will notify the user of the termination
+    and provide information regarding the reasons for termination.
+  purposes: {}
+- source: instant focus
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Usage data (e.g., interaction with the platform, preferences,
+    settings)'
+  purposes: {}
+- source: instant focus
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+  purposes: {}
+- source: account credential
+  target: username password
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Account credentials (e.g., username, password)'
+- source: demographic
+  target: belief
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+- source: demographic
+  target: political opinion
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+- source: demographic
+  target: race / ethnicity
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+- source: demographic
+  target: trade union membership
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+- source: device information
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Device information (e.g., IP address, browser type, operating
+    system)'
+- source: device information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Device information (e.g., IP address, browser type, operating
+    system)'
+- source: device information
+  target: operating system
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Device information (e.g., IP address, browser type, operating
+    system)'
+- source: internet activity
+  target: interaction
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Usage data (e.g., interaction with the platform, preferences,
+    settings)'
+- source: internet activity
+  target: platform preference setting
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Usage data (e.g., interaction with the platform, preferences,
+    settings)'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+- source: personal information
+  target: criminal history
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+- source: personal information
+  target: demographic
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+  - Users can create an account on Instant Focus by completing the registration process,
+    which typically involves providing certain personal information such as name,
+    email address, and password.
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - Users can create an account on Instant Focus by completing the registration process,
+    which typically involves providing certain personal information such as name,
+    email address, and password.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+  - Users can create an account on Instant Focus by completing the registration process,
+    which typically involves providing certain personal information such as name,
+    email address, and password.
+- source: personal information
+  target: personal health
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+- source: personal information
+  target: sexual activity
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+- source: personal information
+  target: sexual orientation
+  key: SUBSUM
+  text:
+  - 'Instant Focus may collect various types of information from users, including
+    but not limited to: Personal information (e.g., name, email address, contact information,
+    demographics such as race/ethnicity, political, religious, or philosophical opinions
+    or beliefs, trade union membership, information about personal health, sexual
+    activity, or sexual orientation or criminal history)'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: feature
+- type: ACTOR
+  id: functionality
+- type: ACTOR
+  id: instant focus
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account credential
+- type: DATA
+  id: belief
+- type: DATA
+  id: browser type
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: criminal history
+- type: DATA
+  id: demographic
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: identifiable information
+- type: DATA
+  id: information regard reason for termination
+- type: DATA
+  id: interaction
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: operating system
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal health
+- type: DATA
+  id: personal information
+- type: DATA
+  id: platform preference setting
+- type: DATA
+  id: political opinion
+- type: DATA
+  id: race / ethnicity
+- type: DATA
+  id: sexual activity
+- type: DATA
+  id: sexual orientation
+- type: DATA
+  id: trade union membership
+- type: DATA
+  id: username password

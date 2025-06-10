@@ -1,0 +1,215 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We collect certain information during exchanges between the User's computer and
+    our server (hereinafter " Cookies ").
+  purposes: {}
+- source: we
+  target: gender
+  key: COLLECT
+  text:
+  - 'We collect the following User information, upon registration: Genre, sex;'
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    Collection of personal information
+
+
+    We collect the following User information, upon registration: Last name and first
+    name;'
+  purposes: {}
+- source: we
+  target: user information
+  key: COLLECT
+  text:
+  - 'We collect the following User information, upon registration:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - No information will be retained by the Organization.
+  - The Organization may also keep a record of the User's product interests and obtain
+    his information from divisions or current or future companies belonging to the
+    Organization.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: canadian server
+  key: COLLECT
+  text:
+  - 'In order to ensure the security of the User''s personal information, the Organization
+    uses the following measures: Canadian server.'
+  purposes:
+    security:
+    - In order to ensure the security of the User's personal information
+    - to ensure the security of the User's personal information
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Forms and interactions
+
+
+    The Organization also uses cookies, as indicated in the " Automatically Exchanged
+    Data " section.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: encrypt electronic communication
+  key: COLLECT
+  text:
+  - 'In order to ensure the security of the User''s personal information, the Organization
+    uses the following measures: Encrypted and secured electronic communications;
+    and'
+  purposes:
+    security:
+    - In order to ensure the security of the User's personal information
+    - to ensure the security of the User's personal information
+- source: UNSPECIFIED_ACTOR
+  target: form
+  key: COLLECT
+  text:
+  - 'Forms and interactions
+
+
+    The Organization also uses cookies, as indicated in the " Automatically Exchanged
+    Data " section.'
+  - 'The Organization may use the User''s personal information in order to:'
+  purposes:
+    analytics:
+    - to evaluate customer service and measure the performance of the Organization
+    services:
+    - to evaluate customer service and measure the performance of the Organization
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - The Organization may obtain personal information from the User when he saves this
+    personal information on the Platform, or where appropriate, when he discloses
+    this personal information otherwise, such as creating a User account and choosing
+    a password, by logging in as a registered User to the Platform, by requesting
+    a service, by providing information in his account, by contacting us by phone,
+    email or otherwise, or by completing a form to enter a contest, inventory request,
+    special offer or survey.
+  - 'The Organization may use the User''s personal information in order to:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: record of product interest
+  key: COLLECT
+  text:
+  - The Organization may also keep a record of the User's product interests and obtain
+    his information from divisions or current or future companies belonging to the
+    Organization.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: ssl protocol
+  key: COLLECT
+  text:
+  - 'In order to ensure the security of the User''s personal information, the Organization
+    uses the following measures: SSL (Secure Sockets Layer) Protocol;'
+  purposes:
+    security:
+    - In order to ensure the security of the User's personal information
+    - to ensure the security of the User's personal information
+- source: we
+  target: equiterre
+  key: SUBSUM
+  text:
+  - That is why we, Equiterre (hereinafter the " Organization "), are seriously concerned
+    about the privacy of your personal information and we are committed to respecting
+    of the information we collect.
+- source: form
+  target: deposit of ad form
+  key: SUBSUM
+  text:
+  - 'The User''s personal information may be collected through forms, namely: Deposit
+    of ads form.'
+- source: form
+  target: registration to platform form
+  key: SUBSUM
+  text:
+  - 'The User''s personal information may be collected through forms, namely: Registration
+    to the Platform form;'
+- source: form
+  target: survey
+  key: SUBSUM
+  text:
+  - 'The User''s personal information may be collected through forms, namely: Survey;'
+- source: user information
+  target: car insurance information
+  key: SUBSUM
+  text:
+  - 'We collect the following User information, upon registration: Car insurance information
+    (number); and'
+- source: user information
+  target: level of education
+  key: SUBSUM
+  text:
+  - 'We collect the following User information, upon registration: Level of education;'
+- source: user information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Privacy policy
+
+
+    Collection of personal information
+
+
+    We collect the following User information, upon registration: Last name and first
+    name;'
+- source: user information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'We collect the following User information, upon registration: Telephone number;'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: equiterre
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: canadian server
+- type: DATA
+  id: car insurance information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: deposit of ad form
+- type: DATA
+  id: encrypt electronic communication
+- type: DATA
+  id: form
+- type: DATA
+  id: gender
+- type: DATA
+  id: level of education
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: record of product interest
+- type: DATA
+  id: registration to platform form
+- type: DATA
+  id: ssl protocol
+- type: DATA
+  id: survey
+- type: DATA
+  id: user information

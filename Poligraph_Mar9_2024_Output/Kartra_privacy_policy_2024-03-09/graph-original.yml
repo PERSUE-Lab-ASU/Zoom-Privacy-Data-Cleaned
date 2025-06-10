@@ -1,0 +1,183 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: accurate information
+  key: COLLECT
+  text:
+  - If Client is using a pseudonym, nickname, assumed name or the like (where permitted),
+    Client agrees that you will nonetheless provide accurate information to our processing
+    company where required (e.g., your real name in connection with a credit card
+    account) so that Client can be billed for one-time or recurring fees.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: client data
+  key: COLLECT
+  text:
+  - Client Data may be disclosed to third parties in accordance with the Privacy Policy,
+    including but not limited to instances where disclosure is legally required.
+  - GENESIS DIGITAL may share Client Data, including but not limited to Aggregated
+    Data, with any third party in accordance with the Privacy Policy.
+  purposes: {}
+- source: client
+  target: geolocation
+  key: COLLECT
+  text:
+  - During the term of Client's GENESIS DIGITAL Agreement (and for one year after
+    the expiration of the Term), Client shall maintain complete, accurate and detailed
+    records regarding usage, the number, location, and identity of all users, servers,
+    and installations of GENESIS DIGITAL Products.
+  purposes: {}
+- source: client
+  target: login credential
+  key: COLLECT
+  text:
+  - In most cases, Client must provide login credentials to gain access.
+  purposes:
+    security:
+    - to gain access
+    services:
+    - to gain access
+- source: client
+  target: true information
+  key: COLLECT
+  text:
+  - When enrolling in, subscribing to, or purchasing any GENESIS DIGITAL Products,
+    Client must provide only true and accurate information, which client agrees to
+    keep current, complete, and functional.
+  purposes: {}
+- source: client
+  target: user content
+  key: COLLECT
+  text:
+  - Client retains all right, title, and interest in and to Client's Data, including
+    User Content.
+  purposes: {}
+- source: genesis digital
+  target: client data
+  key: COLLECT
+  text:
+  - Client hereby represents and warrants that Client has provided all necessary and
+    appropriate notices and opt-outs, and has obtained all necessary and appropriate
+    consents, approvals and rights to collect, process, use, store, enhance and disclose
+    the Client Data and allows GENESIS DIGITAL to use, store, disclose and otherwise
+    process such Client Data as contemplated by these Terms, including to and from
+    End Users wherever required under applicable law.
+  - GENESIS DIGITAL may share Client Data, including but not limited to Aggregated
+    Data, with any third party in accordance with the Privacy Policy.
+  purposes: {}
+- source: genesis digital
+  target: dynamic marketplace pricing
+  key: COLLECT
+  text:
+  - Client understands and agrees that GENESIS DIGITAL uses dynamic marketplace pricing.
+  purposes: {}
+- source: genesis digital
+  target: input
+  key: COLLECT
+  text:
+  - Client may also provide feedback or input to GENESIS DIGITAL directly in certain
+    areas of the Sites, such as where comments are permitted.
+  purposes: {}
+- source: genesis digital
+  target: logo
+  key: COLLECT
+  text:
+  - GENESIS DIGITAL may disclose Client as a customer of GENESIS DIGITAL and may use
+    Client's company's name and logo on the GENESIS DIGITAL's websites and in GENESIS
+    DIGITAL's promotional content in accordance with Client's brand guidelines or
+    related documentation if provided by Client.
+  purposes: {}
+- source: genesis digital
+  target: ownership
+  key: COLLECT
+  text:
+  - Specifically, regarding all GENESIS DIGITAL Software, GENESIS DIGITAL retains
+    all ownership including all right, title, and interest in and to the Software,
+    the underlying code, and any copies thereof.
+  purposes: {}
+- source: genesis digital
+  target: payment
+  key: COLLECT
+  text:
+  - Payment must be received by GENESIS DIGITAL before any billable product or service
+    is provided/activated.
+  purposes: {}
+- source: genesis digital
+  target: person name
+  key: COLLECT
+  text:
+  - GENESIS DIGITAL may disclose Client as a customer of GENESIS DIGITAL and may use
+    Client's company's name and logo on the GENESIS DIGITAL's websites and in GENESIS
+    DIGITAL's promotional content in accordance with Client's brand guidelines or
+    related documentation if provided by Client.
+  purposes: {}
+- source: quiz
+  target: customer feedback
+  key: COLLECT
+  text:
+  - Surveys & Quizzes Collect customer feedback
+  purposes: {}
+- source: survey
+  target: customer feedback
+  key: COLLECT
+  text:
+  - Surveys & Quizzes Collect customer feedback
+  purposes: {}
+- source: client data
+  target: aggregate / deidentified / pseudonymized information
+  key: SUBSUM
+  text:
+  - GENESIS DIGITAL may share Client Data, including but not limited to Aggregated
+    Data, with any third party in accordance with the Privacy Policy.
+- source: ownership
+  target: underlie code
+  key: SUBSUM
+  text:
+  - Specifically, regarding all GENESIS DIGITAL Software, GENESIS DIGITAL retains
+    all ownership including all right, title, and interest in and to the Software,
+    the underlying code, and any copies thereof.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: client
+- type: ACTOR
+  id: genesis digital
+- type: ACTOR
+  id: quiz
+- type: ACTOR
+  id: survey
+- type: ACTOR
+  id: we
+- type: DATA
+  id: accurate information
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: client data
+- type: DATA
+  id: customer feedback
+- type: DATA
+  id: dynamic marketplace pricing
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: input
+- type: DATA
+  id: login credential
+- type: DATA
+  id: logo
+- type: DATA
+  id: ownership
+- type: DATA
+  id: payment
+- type: DATA
+  id: person name
+- type: DATA
+  id: true information
+- type: DATA
+  id: underlie code
+- type: DATA
+  id: user content

@@ -1,0 +1,80 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'We may use non-identifying and aggregate information to better design and promote
+    our website but we would
+
+    not disclose anything that could be used to identify any individual.'
+  purposes:
+    advertising:
+    - to better design and promote our website
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - "We use the email address to send you important information related to your\nreservations
+    such as reservation notifications and updated reservation\nstatus (configured
+    by the site admin), or, if you are a site admin, \nimportant information related
+    to your Planyo site in general."
+  purposes:
+    services:
+    - "to send you important information related to your\nreservations such as reservation
+      notifications and updated reservation\nstatus (configured by the site admin),
+      or, if you are a site admin, \nimportant information related to your Planyo
+      site in general"
+- source: we
+  target: information at website
+  key: COLLECT
+  text:
+  - 'For that reason, we never
+
+    collect or maintain information at our website from those we actually know are
+    under 16, and
+
+    no part of our website is structured to attract anyone under 16.'
+  purposes: {}
+- source: we
+  target: information you provide about yourself
+  key: COLLECT
+  text:
+  - 'We use the information you provide about yourself when making a reservation only
+    to complete the reservation
+
+    details.'
+  purposes:
+    services:
+    - 'only to complete the reservation
+
+      details'
+- source: site admin
+  target: phone number
+  key: COLLECT
+  text:
+  - 'Some site admins can use your mobile phone number to send SMS messages
+
+    related to your reservations.'
+  purposes:
+    services:
+    - 'to send SMS messages
+
+      related to your reservations'
+nodes:
+- type: ACTOR
+  id: site admin
+- type: ACTOR
+  id: we
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: email address
+- type: DATA
+  id: information at website
+- type: DATA
+  id: information you provide about yourself
+- type: DATA
+  id: phone number

@@ -1,0 +1,211 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy & Terms of Use
+
+
+    Last Revised November 2021
+
+
+    1. Collection and Use of Personal Information
+
+
+    We may share your information with third-party vendors as necessary to carry out
+    Young Invincibles'' activities.'
+  - We may also obtain information from outside sources and add it to or combine it
+    with the information we collect through the Site.
+  purposes: {}
+- source: we
+  target: information about use of site
+  key: COLLECT
+  text:
+  - We use a tool called "Google Analytics" to collect information about use of the
+    Site.
+  purposes: {}
+- source: we
+  target: information we get from google analytics
+  key: COLLECT
+  text:
+  - We use the information we get from Google Analytics only to improve the Site.
+  purposes:
+    services:
+    - only to improve the Site
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Additionally, we may disclose personal information where we, in good faith, deem
+    it appropriate or necessary to identify, contact, or bring legal action against
+    someone who may be causing injury to or interference with (either intentionally
+    or unintentionally) the rights or property of Young Invincibles, any individual,
+    or the general public; maintain and protect the security and integrity of our
+    services or infrastructure; protect ourselves and our services from fraudulent,
+    abusive, or unlawful uses; investigate and defend ourselves against third-party
+    claims or allegations; or assist government enforcement agencies.
+  - 'Privacy Policy & Terms of Use
+
+
+    Last Revised November 2021
+
+
+    1. Collection and Use of Personal Information'
+  - We use this information to operate the Site, to send you news and information
+    about Young Invincibles and the issues that we work on, to acknowledge those who
+    provide support for Young Invincibles, and for other purposes in support of our
+    mission.
+  purposes:
+    services:
+    - to operate the Site, to send you news and information about Young Invincibles
+      and the issues that we work on, to acknowledge those who provide support for
+      Young Invincibles, and for other purposes in support of our mission
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Google Analytics collects information such as how often users visit the Site,
+    what pages they visit when they do so, and what other sites they used prior to
+    coming to the Site.
+  purposes: {}
+- source: Google
+  target: identifying information
+  key: COLLECT
+  text:
+  - Google Analytics collects only the IP address assigned to you on the date you
+    visit these sites, rather than your name or other identifying information.
+  purposes: {}
+- source: Google
+  target: ip address
+  key: COLLECT
+  text:
+  - Google Analytics collects only the IP address assigned to you on the date you
+    visit these sites, rather than your name or other identifying information.
+  purposes: {}
+- source: Google
+  target: person name
+  key: COLLECT
+  text:
+  - Google Analytics collects only the IP address assigned to you on the date you
+    visit these sites, rather than your name or other identifying information.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy & Terms of Use
+
+
+    Last Revised November 2021
+
+
+    1. Collection and Use of Personal Information
+
+
+    We may share your information with third-party vendors as necessary to carry out
+    Young Invincibles'' activities.'
+  purposes: {}
+- source: link site
+  target: personal information
+  key: COLLECT
+  text:
+  - Linked sites may collect personal information from you when you link to their
+    site, and such collecting of information is not subject to the control of Young
+    Invincibles.
+  purposes: {}
+- source: web site
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Web sites can use cookies to recognize repeat visitors, facilitate the visitor's
+    ongoing access to and use of the site, and allow a site to track usage behavior
+    and compile aggregate data that will allow content improvements.
+  purposes:
+    analytics:
+    - to recognize repeat visitors, facilitate the visitor's ongoing access to and
+      use of the site, and allow a site to track usage behavior and compile aggregate
+      data that will allow content improvements
+    services:
+    - to recognize repeat visitors, facilitate the visitor's ongoing access to and
+      use of the site, and allow a site to track usage behavior and compile aggregate
+      data that will allow content improvements
+- source: young invincibles
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition to the disclosures otherwise permitted by this Agreement, Young Invincibles
+    may disclose personal information if we have a good-faith belief that doing so
+    is required by a subpoena or other judicial or administrative order or otherwise
+    required by law.
+  - Young Invincibles may collect certain personal information from you if you choose
+    to give it to us through the Site.
+  purposes: {}
+- source: young invincibles
+  target: personal information collect from user of site
+  key: COLLECT
+  text:
+  - 'Privacy Policy & Terms of Use
+
+
+    Last Revised November 2021
+
+
+    8. Storage and Retention of Personal Information
+
+
+    Young Invincibles retains the personal information collected from users of the
+    Site unless and until a user asks us to delete their information by sending a
+    message to members@younginvincibles.org.'
+  purposes: {}
+- source: young invincibles
+  target: web server traffic pattern information generate
+  key: COLLECT
+  text:
+  - In addition to your personal information, Young Invincibles also collects Web
+    server traffic pattern information generated by your use of the Site.
+  purposes: {}
+- source: personal information
+  target: personal information collect through site
+  key: SUBSUM
+  text:
+  - Young Invincibles does not collect personal information collected through the
+    Site or share such personal information with any third parties except in the circumstances
+    described in this Agreement.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: link site
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web site
+- type: ACTOR
+  id: young invincibles
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: identifying information
+- type: DATA
+  id: information about use of site
+- type: DATA
+  id: information we get from google analytics
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information collect from user of site
+- type: DATA
+  id: personal information collect through site
+- type: DATA
+  id: web server traffic pattern information generate

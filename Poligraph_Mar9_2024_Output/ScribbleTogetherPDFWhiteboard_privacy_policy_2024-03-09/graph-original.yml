@@ -1,0 +1,528 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: commercial information
+  key: COLLECT
+  text:
+  - 'We have collected the following categories of personal data: identifiers, commercial
+    information, internet information and geolocation data'
+  - 'We have collected the following categories of personal information about you:
+    identifiers, commercial information, internet information and geolocation data.'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may retain your email address to respond to your request.
+  purposes:
+    services:
+    - to respond to your request
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'We have collected the following categories of personal data: identifiers, commercial
+    information, internet information and geolocation data'
+  - 'We have collected the following categories of personal information about you:
+    identifiers, commercial information, internet information and geolocation data.'
+  purposes: {}
+- source: we
+  target: identifier
+  key: COLLECT
+  text:
+  - 'We have collected the following categories of personal data: identifiers, commercial
+    information, internet information and geolocation data'
+  - 'We have collected the following categories of personal information about you:
+    identifiers, commercial information, internet information and geolocation data.'
+  purposes: {}
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We will confirm receipt of your verifiable request within 10 days and provide
+    information about how we will process your request.
+  purposes: {}
+- source: we
+  target: internet information
+  key: COLLECT
+  text:
+  - 'We have collected the following categories of personal data: identifiers, commercial
+    information, internet information and geolocation data'
+  - 'We have collected the following categories of personal information about you:
+    identifiers, commercial information, internet information and geolocation data.'
+  purposes: {}
+- source: we
+  target: payment datum
+  key: COLLECT
+  text:
+  - 'We have collected the following categories of sensitive personal information:
+    username, payment data and username'
+  purposes: {}
+- source: we
+  target: personal datum collect from you
+  key: COLLECT
+  text:
+  - We use any personal data collected from you in connection with the submission
+    of your opt-out request solely for the purpose of complying with the request.
+  - We will use any personal data collected from you in connection with your request
+    solely for the purposes of authentication, without further disclosing the personal
+    data, retaining it longer than necessary for purposes of authentication, or using
+    it for unrelated purposes.
+  purposes:
+    legal:
+    - solely for the purpose of complying with the request
+    security:
+    - solely for the purposes of authentication
+    services:
+    - solely for the purposes of authentication
+- source: we
+  target: personal datum collect from you in connection with request
+  key: COLLECT
+  text:
+  - We will use any personal data collected from you in connection with your request
+    solely for the purposes of authentication, without further disclosing the personal
+    data, retaining it longer than necessary for purposes of authentication, or using
+    it for unrelated purposes.
+  purposes:
+    security:
+    - solely for the purposes of authentication
+    services:
+    - solely for the purposes of authentication
+- source: we
+  target: personal datum collect from you in connection with submission of opt request
+  key: COLLECT
+  text:
+  - We use any personal data collected from you in connection with the submission
+    of your opt-out request solely for the purposes of complying with the opt-out
+    request.
+  purposes:
+    legal:
+    - solely for the purposes of complying with the opt-out request
+- source: we
+  target: personal datum relate to user
+  key: COLLECT
+  text:
+  - 'The Owner may process Personal Data relating to Users if one of the following
+    applies:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As specified in the "Detailed information on the processing of Personal Data"
+    section of this document, we may use your personal data for targeted advertising
+    purposes.
+  - Finally, we may collect your personal information from third parties that work
+    with us in connection with the Service or with the functioning of this Application
+    and features thereof.
+  - We can process your personal information solely if we have a legal basis for such
+    processing.
+  - We disclose your personal information with the third parties listed in detail
+    in the section titled "Detailed information on the processing of Personal Data"
+    within this document.
+  - We may also use your personal information for other reasons such as for commercial
+    purposes (as indicated within the section "Detailed information on the processing
+    of Personal Data" within this document), as well as for complying with the law
+    and defending our rights before the competent authorities where our rights and
+    interests are threatened or we suffer an actual damage.
+  - We may use your personal information to allow the operational functioning of Scribble,
+    LLC and features thereof ("business purposes").
+  - We sell or share your personal information with the third parties listed in detail
+    in the section titled "Detailed information on the processing of Personal Data"
+    within this document.
+  - We share your personal data with the third parties listed in detail in the section
+    titled "Detailed information on the processing of Personal Data" within this document
+    .
+  - We will provide your personal data in a portable and usable format that allows
+    you to transfer data easily to another entity - provided that this is technically
+    feasible.
+  - We will provide your personal data in a portable and usable format that allows
+    you to transfer data easily to another entity -- provided that this is technically
+    feasible.
+  purposes:
+    advertising:
+    - for targeted advertising purposes
+    legal:
+    - for other reasons such as for commercial purposes (as indicated within the section
+      "Detailed information on the processing of Personal Data" within this document),
+      as well as for complying with the law and defending our rights before the competent
+      authorities where our rights and interests are threatened or we suffer an actual
+      damage
+    security:
+    - for other reasons such as for commercial purposes (as indicated within the section
+      "Detailed information on the processing of Personal Data" within this document),
+      as well as for complying with the law and defending our rights before the competent
+      authorities where our rights and interests are threatened or we suffer an actual
+      damage
+    services:
+    - to allow the operational functioning of Scribble, LLC and features thereof
+- source: we
+  target: personal information collect from you
+  key: COLLECT
+  text:
+  - We will use any personal information collected from you in connection with the
+    verification of your request solely for the purposes of verification and shall
+    not further disclose the personal information, retain it longer than necessary
+    for purposes of verification, or use it for unrelated purposes.
+  purposes:
+    analytics:
+    - solely for the purposes of verification
+- source: we
+  target: personal information collect from you in connection with submission of opt
+    request
+  key: COLLECT
+  text:
+  - We use any personal information collected from you in connection with the submission
+    of your opt-out request solely for the purposes of complying with the opt-out
+    request.
+  purposes:
+    legal:
+    - solely for the purposes of complying with the opt-out request
+- source: we
+  target: personal information collect from you in connection with submission of request
+  key: COLLECT
+  text:
+  - We use any personal information collected from you in connection with the submission
+    of your request solely for the purposes of complying with the request.
+  purposes:
+    legal:
+    - solely for the purposes of complying with the request
+- source: we
+  target: request
+  key: COLLECT
+  text:
+  - To exercise the rights described above, you need to submit your request to us
+    by contacting us via the contact details provided in this document.
+  purposes:
+    legal:
+    - To exercise the rights described above
+- source: we
+  target: sensitive personal information
+  key: COLLECT
+  text:
+  - We can also use your sensitive personal information to perform specific purposes
+    set forth by the law (such as, including but not limited to, helping to ensure
+    security and integrity; undertaking activities to verify or maintain the quality
+    or safety of our service) and as authorized by the relevant regulations.
+  purposes:
+    legal:
+    - to perform specific purposes set forth by the law (such as, including but not
+      limited to, helping to ensure security and integrity; undertaking activities
+      to verify or maintain the quality or safety of our service) and as authorized
+      by the relevant regulations
+    security:
+    - to perform specific purposes set forth by the law (such as, including but not
+      limited to, helping to ensure security and integrity; undertaking activities
+      to verify or maintain the quality or safety of our service) and as authorized
+      by the relevant regulations
+    services:
+    - to perform specific purposes set forth by the law (such as, including but not
+      limited to, helping to ensure security and integrity; undertaking activities
+      to verify or maintain the quality or safety of our service) and as authorized
+      by the relevant regulations
+- source: we
+  target: username
+  key: COLLECT
+  text:
+  - 'We have collected the following categories of sensitive personal information:
+    username, payment data and username'
+  purposes: {}
+- source: we
+  target: verifiable request
+  key: COLLECT
+  text:
+  - To exercise the rights described above, you need to submit your verifiable request
+    to us by contacting us via the details provided in this document.
+  purposes:
+    legal:
+    - To exercise the rights described above
+- source: Apple
+  target: personal datum process
+  key: COLLECT
+  text:
+  - Personal Data processed to complete the purchases are processed by Apple, as described
+    in the privacy policy for the App Store .
+  purposes: {}
+- source: Google
+  target: datum collect
+  key: COLLECT
+  text:
+  - Google may use the Data collected to contextualize and personalize the ads of
+    its own advertising network.
+  - Google utilizes the Data collected to track and examine the use of Scribble, LLC,
+    to prepare reports on its activities and share them with other Google services.
+  purposes:
+    advertising:
+    - to contextualize and personalize the ads of its own advertising network
+    analytics:
+    - to track and examine the use of Scribble, LLC, to prepare reports on its activities
+      and share them with other Google services
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will provide your personal data in a portable and usable format that allows
+    you to transfer data easily to another entity - provided that this is technically
+    feasible.
+  - We will provide your personal data in a portable and usable format that allows
+    you to transfer data easily to another entity -- provided that this is technically
+    feasible.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: file record interaction with scribble llc
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Scribble, LLC and any third-party services
+    may collect files that record interaction with Scribble, LLC (System logs) or
+    use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Scribble, LLC and any third-party services
+    may collect files that record interaction with Scribble, LLC (System logs) or
+    use other Personal Data (such as the IP Address) for this purpose.
+  - We disclose your personal information with the third parties listed in detail
+    in the section titled "Detailed information on the processing of Personal Data"
+    within this document.
+  - We sell or share your personal information with the third parties listed in detail
+    in the section titled "Detailed information on the processing of Personal Data"
+    within this document.
+  - We share your personal data with the third parties listed in detail in the section
+    titled "Detailed information on the processing of Personal Data" within this document
+    .
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Scribble, LLC and any third-party services
+    may collect files that record interaction with Scribble, LLC (System logs) or
+    use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: firebase analytics
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Firebase Analytics may share Data with other tools provided by Firebase, such
+    as Crash Reporting, Authentication, Remote Config or Notifications.
+  purposes: {}
+- source: iubenda
+  target: personal data strictly necessary
+  key: COLLECT
+  text:
+  - iubenda hosts this content and only collects the Personal Data strictly necessary
+    for it to be provided.
+  purposes: {}
+- source: scribble llc
+  target: file record interaction with scribble llc
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Scribble, LLC and any third-party services
+    may collect files that record interaction with Scribble, LLC (System logs) or
+    use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: scribble llc
+  target: identifier
+  key: COLLECT
+  text:
+  - Scribble, LLC uses identifiers for mobile devices and technologies similar to
+    cookies to run the Firebase Analytics service.
+  purposes:
+    analytics:
+    - to run the Firebase Analytics service
+- source: scribble llc
+  target: information concern particular service upon
+  key: COLLECT
+  text:
+  - In addition to the information contained in this privacy policy, Scribble, LLC
+    may provide the User with additional and contextual information concerning particular
+    Services or the collection and processing of Personal Data upon request.
+  purposes: {}
+- source: scribble llc
+  target: payment
+  key: COLLECT
+  text:
+  - 'Personal Data is collected for the following purposes and using the following
+    services: Handling payments Unless otherwise specified, Scribble, LLC processes
+    any payments by credit card, bank transfer or other means via external payment
+    service providers.'
+  purposes: {}
+- source: scribble llc
+  target: personal information
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Scribble, LLC and any third-party services
+    may collect files that record interaction with Scribble, LLC (System logs) or
+    use other Personal Data (such as the IP Address) for this purpose.
+  - Scribble, LLC collects some Personal Data from its Users.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: scribble llc
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, Scribble, LLC and any third-party services
+    may collect files that record interaction with Scribble, LLC (System logs) or
+    use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: tool provide
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Firebase Analytics may share Data with other tools provided by Firebase, such
+    as Crash Reporting, Authentication, Remote Config or Notifications.
+  purposes: {}
+- source: type of service
+  target: datum concern date view as
+  key: COLLECT
+  text:
+  - These services may also collect data concerning the date and time when the message
+    was viewed by the User, as well as when the User interacted with it, such as by
+    clicking on links included in the message.
+  - This type of service makes it possible to manage a database of email contacts,
+    phone contacts or any other contact information to communicate with the User.
+  purposes: {}
+- source: personal information
+  target: commercial information
+  key: SUBSUM
+  text:
+  - 'We have collected the following categories of personal data: identifiers, commercial
+    information, internet information and geolocation data'
+  - 'We have collected the following categories of personal information about you:
+    identifiers, commercial information, internet information and geolocation data.'
+- source: personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'We have collected the following categories of personal data: identifiers, commercial
+    information, internet information and geolocation data'
+  - 'We have collected the following categories of personal information about you:
+    identifiers, commercial information, internet information and geolocation data.'
+- source: personal information
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'Category of personal information collected according to the CCPA: identifiers.'
+  - 'We have collected the following categories of personal data: identifiers, commercial
+    information, internet information and geolocation data'
+  - 'We have collected the following categories of personal information about you:
+    identifiers, commercial information, internet information and geolocation data.'
+- source: personal information
+  target: internet information
+  key: SUBSUM
+  text:
+  - 'We have collected the following categories of personal data: identifiers, commercial
+    information, internet information and geolocation data'
+  - 'We have collected the following categories of personal information about you:
+    identifiers, commercial information, internet information and geolocation data.'
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - For operation and maintenance purposes, Scribble, LLC and any third-party services
+    may collect files that record interaction with Scribble, LLC (System logs) or
+    use other Personal Data (such as the IP Address) for this purpose.
+- source: sensitive personal information
+  target: payment datum
+  key: SUBSUM
+  text:
+  - 'We have collected the following categories of sensitive personal information:
+    username, payment data and username'
+- source: sensitive personal information
+  target: username
+  key: SUBSUM
+  text:
+  - 'We have collected the following categories of sensitive personal information:
+    username, payment data and username'
+nodes:
+- type: ACTOR
+  id: Apple
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: firebase analytics
+- type: ACTOR
+  id: iubenda
+- type: ACTOR
+  id: scribble llc
+- type: ACTOR
+  id: tool provide
+- type: ACTOR
+  id: type of service
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: commercial information
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: datum concern date view as
+- type: DATA
+  id: email address
+- type: DATA
+  id: file record interaction with scribble llc
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about
+- type: DATA
+  id: information concern particular service upon
+- type: DATA
+  id: internet information
+- type: DATA
+  id: ip address
+- type: DATA
+  id: payment
+- type: DATA
+  id: payment datum
+- type: DATA
+  id: personal data strictly necessary
+- type: DATA
+  id: personal datum collect from you
+- type: DATA
+  id: personal datum collect from you in connection with request
+- type: DATA
+  id: personal datum collect from you in connection with submission of opt request
+- type: DATA
+  id: personal datum process
+- type: DATA
+  id: personal datum relate to user
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information collect from you
+- type: DATA
+  id: personal information collect from you in connection with submission of opt request
+- type: DATA
+  id: personal information collect from you in connection with submission of request
+- type: DATA
+  id: request
+- type: DATA
+  id: sensitive personal information
+- type: DATA
+  id: system log
+- type: DATA
+  id: username
+- type: DATA
+  id: verifiable request

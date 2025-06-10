@@ -1,0 +1,202 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The Service operates on and all data is stored on computers physically located
+    within the United States.
+  - This document will outline what information we collect, why we collect it, and
+    who we share it with.
+  purposes: {}
+- source: we
+  target: backup of database
+  key: COLLECT
+  text:
+  - We use industry standard backup procedures and will retain backups of our database
+    for 30 days, which means that once a piece of data has been deleted from our system,
+    it will take 30 days before it is cleared from our backups.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like most websites, we utilize Cookies, which are small text files that are saved
+    by your browser when you access our Service.
+  - We use cookies to identify when you've logged into the Service, to prevent against
+    abuse, and to generally provide the Service.
+  purposes:
+    security:
+    - to identify when you've logged into the Service, to prevent against abuse, and
+      to generally provide the Service
+    services:
+    - to identify when you've logged into the Service, to prevent against abuse, and
+      to generally provide the Service
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - During normal operations, we collect information about how Users interact with
+    the Service, such as IP address, browser, operating system, referral source, length
+    of visit, and clickstream data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As described in our Privacy Policy, we collect personal information from your
+    interactions with us and our website, including through cookies and similar technologies.
+  - We also may be required to disclose an individual's personal information in response
+    to a lawful request by public authorities, including to meet national security
+    or law enforcement requirements.
+  - We may also share this personal information with third parties, including advertising
+    partners.
+  - We may sell, transfer, or share some or all personal information in connection
+    with a business deal, such as a merger, financing, acquisition, or sale.
+  - We will also use personal information to help improve the Service, such as by
+    analyzing data to prioritize features relevant to our Users.
+  purposes:
+    analytics:
+    - to help improve the Service, such as by analyzing data to prioritize features
+      relevant to our Users
+    services:
+    - to help improve the Service, such as by analyzing data to prioritize features
+      relevant to our Users
+- source: The Business of Fashion
+  target: date of birth
+  key: COLLECT
+  text:
+  - The Business may use TeamUp to collect information such as name, email address,
+    date of birth, or payment details.
+  purposes: {}
+- source: The Business of Fashion
+  target: email address
+  key: COLLECT
+  text:
+  - The Business may use TeamUp to collect information such as name, email address,
+    date of birth, or payment details.
+  purposes: {}
+- source: The Business of Fashion
+  target: payment detail
+  key: COLLECT
+  text:
+  - The Business may use TeamUp to collect information such as name, email address,
+    date of birth, or payment details.
+  purposes: {}
+- source: The Business of Fashion
+  target: person name
+  key: COLLECT
+  text:
+  - The Business may use TeamUp to collect information such as name, email address,
+    date of birth, or payment details.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Business may provide information on behalf of a User if they are switching to
+    TeamUp from an alternate system, or if they are setting up a User's account for
+    them.
+  purposes: {}
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - As described in our Privacy Policy, we collect personal information from your
+    interactions with us and our website, including through cookies and similar technologies.
+  - We may also share this personal information with third parties, including advertising
+    partners.
+  purposes: {}
+- source: teamup
+  target: personal information
+  key: COLLECT
+  text:
+  - Additionally, TeamUp may use this information to help troubleshoot issues, such
+    as looking up a User by name or email address.
+  - It may sound obvious, but TeamUp uses a User's personal information to operate
+    by displaying this data to that User as well as to Businesses they are associated
+    with.
+  purposes:
+    analytics:
+    - to operate by displaying this data to that User as well as to Businesses they
+      are associated with
+    services:
+    - to help troubleshoot issues, such as looking up a User by name or email address
+    - to operate by displaying this data to that User as well as to Businesses they
+      are associated with
+- source: information about
+  target: clickstream datum
+  key: SUBSUM
+  text:
+  - During normal operations, we collect information about how Users interact with
+    the Service, such as IP address, browser, operating system, referral source, length
+    of visit, and clickstream data.
+- source: information about
+  target: ip address
+  key: SUBSUM
+  text:
+  - During normal operations, we collect information about how Users interact with
+    the Service, such as IP address, browser, operating system, referral source, length
+    of visit, and clickstream data.
+- source: information about
+  target: length of visit
+  key: SUBSUM
+  text:
+  - During normal operations, we collect information about how Users interact with
+    the Service, such as IP address, browser, operating system, referral source, length
+    of visit, and clickstream data.
+- source: information about
+  target: operate system
+  key: SUBSUM
+  text:
+  - During normal operations, we collect information about how Users interact with
+    the Service, such as IP address, browser, operating system, referral source, length
+    of visit, and clickstream data.
+- source: information about
+  target: referral source
+  key: SUBSUM
+  text:
+  - During normal operations, we collect information about how Users interact with
+    the Service, such as IP address, browser, operating system, referral source, length
+    of visit, and clickstream data.
+nodes:
+- type: ACTOR
+  id: The Business of Fashion
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: teamup
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: backup of database
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about
+- type: DATA
+  id: ip address
+- type: DATA
+  id: length of visit
+- type: DATA
+  id: operate system
+- type: DATA
+  id: payment detail
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: referral source

@@ -1,0 +1,85 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Google Analytics makes use of cookies, and creates logs that do not contain information
+    which identifies specific persons.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - However, based on the provisions of Article 23, paragraph 1 of the Personal Information
+    Protection Act of Japan, personal information may be provided to third parties
+    in the following cases without the consent of the persons involved.
+  purposes: {}
+- source: group
+  target: personal information it obtain from customer
+  key: COLLECT
+  text:
+  - Our group may share personal information which it has obtained from customers
+    only for the following purposes and within the following scopes.
+  purposes: {}
+- source: personal information
+  target: correct to date
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    2.Basic policy for personal data protection management
+
+
+    2. We will endeavor to ensure that personal data only includes correct and up-to-date
+    information.'
+- source: user information send from smartphone application
+  target: device identifier
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    3.Purpose of use of personal information
+
+
+    User information sent from smartphone applications (apps) including location info;
+    information related to identification of the communication device such as device
+    ID, etc.; referrer; communication device OS information and IP address.'
+- source: user information send from smartphone application
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    3.Purpose of use of personal information
+
+
+    User information sent from smartphone applications (apps) including location info;
+    information related to identification of the communication device such as device
+    ID, etc.; referrer; communication device OS information and IP address.'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: group
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: correct to date
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information it obtain from customer
+- type: DATA
+  id: user information send from smartphone application

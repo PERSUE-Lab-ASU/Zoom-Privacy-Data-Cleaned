@@ -1,0 +1,86 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: board
+  target: financial tracking
+  key: COLLECT
+  text:
+  - Manage fundraising campaigns for both pledge-based and non-pledge donations; provide
+    reporting and financial tracking to your staff and board.
+  purposes: {}
+- source: board
+  target: reporting
+  key: COLLECT
+  text:
+  - Manage fundraising campaigns for both pledge-based and non-pledge donations; provide
+    reporting and financial tracking to your staff and board.
+  purposes: {}
+- source: power website
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This GrowthZone-powered website uses cookies to optimize functionality and give
+    users the best possible experience.
+  purposes:
+    services:
+    - to optimize functionality and give users the best possible experience
+- source: staff
+  target: financial tracking
+  key: COLLECT
+  text:
+  - Manage fundraising campaigns for both pledge-based and non-pledge donations; provide
+    reporting and financial tracking to your staff and board.
+  purposes: {}
+- source: staff
+  target: reporting
+  key: COLLECT
+  text:
+  - Manage fundraising campaigns for both pledge-based and non-pledge donations; provide
+    reporting and financial tracking to your staff and board.
+  purposes: {}
+- source: web content
+  target: hot deal
+  key: SUBSUM
+  text:
+  - 'WEB CONTENT MANAGEMENT
+
+
+    Web Content (Including Hot Deals, Job Postings, and News Releases)'
+- source: web content
+  target: job posting
+  key: SUBSUM
+  text:
+  - 'WEB CONTENT MANAGEMENT
+
+
+    Web Content (Including Hot Deals, Job Postings, and News Releases)'
+- source: web content
+  target: news release
+  key: SUBSUM
+  text:
+  - 'WEB CONTENT MANAGEMENT
+
+
+    Web Content (Including Hot Deals, Job Postings, and News Releases)'
+nodes:
+- type: ACTOR
+  id: board
+- type: ACTOR
+  id: power website
+- type: ACTOR
+  id: staff
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: financial tracking
+- type: DATA
+  id: hot deal
+- type: DATA
+  id: job posting
+- type: DATA
+  id: news release
+- type: DATA
+  id: reporting
+- type: DATA
+  id: web content

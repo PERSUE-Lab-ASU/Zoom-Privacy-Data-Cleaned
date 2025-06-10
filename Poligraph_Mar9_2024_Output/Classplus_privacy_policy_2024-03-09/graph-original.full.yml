@@ -1,0 +1,317 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information of user
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    1. COLLECTION OF INFORMATION
+
+
+    1.5 The Website may share the Information of a User with any third party entities
+    subject to such entities adopting reasonable safety standards with respect to
+    the use of such Information.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information collect from user
+  key: COLLECT
+  text:
+  - Every User hereby expressly agrees that Bunch may share the Information collected
+    from such User with its affiliates, employees, and such other individuals and
+    institutions located within or outside India from time to time to ensure efficient
+    management of Website traffic, to detect and prevent identity theft and other
+    illegal acts, and to respond to legal, judicial, quasi-judicial law enforcement
+    agencies or in connection with an investigation on matters related to public safety,
+    as required and permitted by law and for such other purposes that Bunch may deem
+    fit from time to time.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information of user
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    1. COLLECTION OF INFORMATION
+
+
+    1.5 The Website may share the Information of a User with any third party entities
+    subject to such entities adopting reasonable safety standards with respect to
+    the use of such Information.'
+  purposes: {}
+- source: bunch
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 1.4 The Information may be collected and/or stored in electronic form, however,
+    Bunch is hereby authorized by the User to collect/store such information in physical
+    form as well.
+  - Bunch may during the course of the User's usage of the Website collect the following
+    personal and nonpersonal information and such other information from the Users
+    for accessing the Website ("Information"), as part of the voluntary registration
+    process, any on-line survey or interaction on the Website or combination thereof,
+    as may be required from time to time.
+  - 'Privacy Policy
+
+
+    6. PROTECTION OF INFORMATION
+
+
+    6.4 Bunch shall use the Information collected from the Users in accordance with
+    applicable laws including but not limited to the IT Act and the rules made thereunder
+    and use the Information only for the purpose for which it was furnished.'
+  purposes: {}
+- source: bunch
+  target: information collect from user
+  key: COLLECT
+  text:
+  - Every User hereby expressly agrees that Bunch may share the Information collected
+    from such User with its affiliates, employees, and such other individuals and
+    institutions located within or outside India from time to time to ensure efficient
+    management of Website traffic, to detect and prevent identity theft and other
+    illegal acts, and to respond to legal, judicial, quasi-judicial law enforcement
+    agencies or in connection with an investigation on matters related to public safety,
+    as required and permitted by law and for such other purposes that Bunch may deem
+    fit from time to time.
+  - 'Privacy Policy
+
+
+    6. PROTECTION OF INFORMATION
+
+
+    6.4 Bunch shall use the Information collected from the Users in accordance with
+    applicable laws including but not limited to the IT Act and the rules made thereunder
+    and use the Information only for the purpose for which it was furnished.'
+  purposes: {}
+- source: bunch
+  target: personal information
+  key: COLLECT
+  text:
+  - Bunch may during the course of the User's usage of the Website collect the following
+    personal and nonpersonal information and such other information from the Users
+    for accessing the Website ("Information"), as part of the voluntary registration
+    process, any on-line survey or interaction on the Website or combination thereof,
+    as may be required from time to time.
+  purposes: {}
+- source: employee
+  target: information collect from user
+  key: COLLECT
+  text:
+  - Every User hereby expressly agrees that Bunch may share the Information collected
+    from such User with its affiliates, employees, and such other individuals and
+    institutions located within or outside India from time to time to ensure efficient
+    management of Website traffic, to detect and prevent identity theft and other
+    illegal acts, and to respond to legal, judicial, quasi-judicial law enforcement
+    agencies or in connection with an investigation on matters related to public safety,
+    as required and permitted by law and for such other purposes that Bunch may deem
+    fit from time to time.
+  purposes: {}
+- source: individual
+  target: information collect from user
+  key: COLLECT
+  text:
+  - Every User hereby expressly agrees that Bunch may share the Information collected
+    from such User with its affiliates, employees, and such other individuals and
+    institutions located within or outside India from time to time to ensure efficient
+    management of Website traffic, to detect and prevent identity theft and other
+    illegal acts, and to respond to legal, judicial, quasi-judicial law enforcement
+    agencies or in connection with an investigation on matters related to public safety,
+    as required and permitted by law and for such other purposes that Bunch may deem
+    fit from time to time.
+  purposes: {}
+- source: institution
+  target: information collect from user
+  key: COLLECT
+  text:
+  - Every User hereby expressly agrees that Bunch may share the Information collected
+    from such User with its affiliates, employees, and such other individuals and
+    institutions located within or outside India from time to time to ensure efficient
+    management of Website traffic, to detect and prevent identity theft and other
+    illegal acts, and to respond to legal, judicial, quasi-judicial law enforcement
+    agencies or in connection with an investigation on matters related to public safety,
+    as required and permitted by law and for such other purposes that Bunch may deem
+    fit from time to time.
+  purposes: {}
+- source: server of website
+  target: information of user
+  key: COLLECT
+  text:
+  - The servers of the Website are accessible only to the authorized personnel and
+    any Information of the User shall be shared with the authorized personnel only
+    on a need to know basis to facilitate the services requested by the User.
+  purposes:
+    services:
+    - to facilitate the services requested by the User
+- source: contact list
+  target: email address
+  key: SUBSUM
+  text:
+  - (viii) Personal information from the mobile device of the User such as their contact
+    list including the name, phone number and the email address of the contact;
+- source: contact list
+  target: person name
+  key: SUBSUM
+  text:
+  - (viii) Personal information from the mobile device of the User such as their contact
+    list including the name, phone number and the email address of the contact;
+- source: contact list
+  target: phone number
+  key: SUBSUM
+  text:
+  - (viii) Personal information from the mobile device of the User such as their contact
+    list including the name, phone number and the email address of the contact;
+- source: personal information from mobile device of user
+  target: contact list
+  key: SUBSUM
+  text:
+  - (viii) Personal information from the mobile device of the User such as their contact
+    list including the name, phone number and the email address of the contact;
+- source: personal information receive from social networking site through user register
+    to website
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. COLLECTION OF INFORMATION
+
+
+    (vii) Personal information received from social networking sites through which
+    the User has registered to the Website including name, profile picture, email
+    address or friends list, and any information made public in connection with that
+    social media service;'
+- source: personal information receive from social networking site through user register
+    to website
+  target: friend list
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. COLLECTION OF INFORMATION
+
+
+    (vii) Personal information received from social networking sites through which
+    the User has registered to the Website including name, profile picture, email
+    address or friends list, and any information made public in connection with that
+    social media service;'
+- source: personal information receive from social networking site through user register
+    to website
+  target: information make
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. COLLECTION OF INFORMATION
+
+
+    (vii) Personal information received from social networking sites through which
+    the User has registered to the Website including name, profile picture, email
+    address or friends list, and any information made public in connection with that
+    social media service;'
+- source: personal information receive from social networking site through user register
+    to website
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. COLLECTION OF INFORMATION
+
+
+    (vii) Personal information received from social networking sites through which
+    the User has registered to the Website including name, profile picture, email
+    address or friends list, and any information made public in connection with that
+    social media service;'
+- source: personal information receive from social networking site through user register
+    to website
+  target: profile picture
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. COLLECTION OF INFORMATION
+
+
+    (vii) Personal information received from social networking sites through which
+    the User has registered to the Website including name, profile picture, email
+    address or friends list, and any information made public in connection with that
+    social media service;'
+- source: sensitive personal datum
+  target: password
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. COLLECTION OF INFORMATION
+
+
+    (x) Sensitive personal data such as passwords and payment details.'
+- source: sensitive personal datum
+  target: payment detail
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. COLLECTION OF INFORMATION
+
+
+    (x) Sensitive personal data such as passwords and payment details.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: bunch
+- type: ACTOR
+  id: employee
+- type: ACTOR
+  id: individual
+- type: ACTOR
+  id: institution
+- type: ACTOR
+  id: server of website
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact list
+- type: DATA
+  id: email address
+- type: DATA
+  id: friend list
+- type: DATA
+  id: information collect from user
+- type: DATA
+  id: information make
+- type: DATA
+  id: information of user
+- type: DATA
+  id: password
+- type: DATA
+  id: payment detail
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information from mobile device of user
+- type: DATA
+  id: personal information receive from social networking site through user register
+    to website
+- type: DATA
+  id: phone number
+- type: DATA
+  id: profile picture
+- type: DATA
+  id: sensitive personal datum

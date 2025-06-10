@@ -1,0 +1,356 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The information we collect automatically is statistical data and may include personal
+    information.
+  - We may also use your information to contact you about our own products and services
+    that may be of interest to you.
+  purposes:
+    advertising:
+    - to contact you about our own products and services that may be of interest to
+      you
+    services:
+    - to contact you about our own products and services that may be of interest to
+      you
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may disclose aggregated, anonymized information about our users without restriction.
+  purposes: {}
+- source: we
+  target: information about equipment
+  key: COLLECT
+  text:
+  - 'As you navigate through and interact with the Site, we may use automatic data
+    collection technologies to collect certain information about your equipment, browsing
+    actions, and patterns, including:'
+  purposes: {}
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - Information We Collect About You
+  - 'We collect this information:'
+  - 'We use information that we collect about you or that you provide to us:'
+  purposes:
+    services:
+    - to present the Site and its contents to you
+- source: we
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - We may use the information we have collected from you to enable us to display
+    advertisements for our products and services.
+  purposes:
+    advertising:
+    - to enable us to display advertisements for our products and services
+- source: we
+  target: information you provide by
+  key: COLLECT
+  text:
+  - 'The information we collect on or through the Site may include: information that
+    you provide by filling in forms on the Site, including information you provide
+    when you register to use the Site or send us a request or report a problem with
+    the Site; and'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information that we collect or you provide as described
+    in this notice:'
+  - We only retain personal information for as long as your (or your organization's)
+    account is active or as necessary to provide services to you or your organization
+    under our Terms and Conditions of Service or other agreement between you or your
+    organization and Swivvel.
+  purposes:
+    services:
+    - to fulfill the purpose for which you provide it, such as to notify another user
+      in your organization of an action taken, to activate an integration that you
+      select with a third-party service, or to report on usage to your organization
+- source: we
+  target: several type
+  key: COLLECT
+  text:
+  - 'We collect several types of information from and about users of the Site, including
+    information:'
+  purposes: {}
+- source: application provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Some content or features on the Site are served by third-parties, such as content
+    providers, and application providers.
+  - These third parties may use cookies or other tracking technologies to collect
+    information about you when you use the Site.
+  purposes: {}
+- source: application provider
+  target: information about you
+  key: COLLECT
+  text:
+  - Some content or features on the Site are served by third-parties, such as content
+    providers, and application providers.
+  - These third parties may use cookies or other tracking technologies to collect
+    information about you when you use the Site.
+  purposes: {}
+- source: content provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Some content or features on the Site are served by third-parties, such as content
+    providers, and application providers.
+  - These third parties may use cookies or other tracking technologies to collect
+    information about you when you use the Site.
+  purposes: {}
+- source: content provider
+  target: information about you
+  key: COLLECT
+  text:
+  - Some content or features on the Site are served by third-parties, such as content
+    providers, and application providers.
+  - These third parties may use cookies or other tracking technologies to collect
+    information about you when you use the Site.
+  purposes: {}
+- source: detail of visit to site
+  target: communication datum
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with the Site, we may use automatic data
+    collection technologies to collect certain information about your equipment, browsing
+    actions, and patterns, including: details of your visits to the Site, such as
+    traffic data, logs, navigation data and other communication data and the resources
+    that you access and use on Site; and'
+- source: detail of visit to site
+  target: log
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with the Site, we may use automatic data
+    collection technologies to collect certain information about your equipment, browsing
+    actions, and patterns, including: details of your visits to the Site, such as
+    traffic data, logs, navigation data and other communication data and the resources
+    that you access and use on Site; and'
+- source: detail of visit to site
+  target: navigation datum
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with the Site, we may use automatic data
+    collection technologies to collect certain information about your equipment, browsing
+    actions, and patterns, including: details of your visits to the Site, such as
+    traffic data, logs, navigation data and other communication data and the resources
+    that you access and use on Site; and'
+- source: detail of visit to site
+  target: traffic datum
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with the Site, we may use automatic data
+    collection technologies to collect certain information about your equipment, browsing
+    actions, and patterns, including: details of your visits to the Site, such as
+    traffic data, logs, navigation data and other communication data and the resources
+    that you access and use on Site; and'
+- source: information about equipment
+  target: detail of visit to site
+  key: SUBSUM
+  text:
+  - 'As you navigate through and interact with the Site, we may use automatic data
+    collection technologies to collect certain information about your equipment, browsing
+    actions, and patterns, including: details of your visits to the Site, such as
+    traffic data, logs, navigation data and other communication data and the resources
+    that you access and use on Site; and'
+- source: information we collect about you
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Information We Collect About You
+
+
+    automatically as you navigate through the Site, such as usage details, IP addresses,
+    and information collected through cookies and other tracking technologies; and'
+- source: information we collect about you
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Information We Collect About You
+
+
+    automatically as you navigate through the Site, such as usage details, IP addresses,
+    and information collected through cookies and other tracking technologies; and'
+- source: information we collect about you
+  target: usage detail
+  key: SUBSUM
+  text:
+  - 'Information We Collect About You
+
+
+    automatically as you navigate through the Site, such as usage details, IP addresses,
+    and information collected through cookies and other tracking technologies; and'
+- source: information we collect through automatic data collection technology
+  target: browser type
+  key: SUBSUM
+  text:
+  - Information We Collect Through Automatic Data Collection Technologies
+  - information about your computer and internet connection, including your IP address,
+    operating system, and browser type.
+- source: information we collect through automatic data collection technology
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Information We Collect Through Automatic Data Collection Technologies
+  - Web beacons.
+- source: information we collect through automatic data collection technology
+  target: ip address
+  key: SUBSUM
+  text:
+  - Information We Collect Through Automatic Data Collection Technologies
+  - information about your computer and internet connection, including your IP address,
+    operating system, and browser type.
+- source: information we collect through automatic data collection technology
+  target: operating system
+  key: SUBSUM
+  text:
+  - Information We Collect Through Automatic Data Collection Technologies
+  - information about your computer and internet connection, including your IP address,
+    operating system, and browser type.
+- source: information we collect through automatic data collection technology
+  target: store information about preference
+  key: SUBSUM
+  text:
+  - 'Information We Collect Through Automatic Data Collection Technologies
+
+
+    store information about your preferences, allowing us to customize our Site;'
+- source: information you provide by
+  target: information you provide
+  key: SUBSUM
+  text:
+  - 'The information we collect on or through the Site may include: information that
+    you provide by filling in forms on the Site, including information you provide
+    when you register to use the Site or send us a request or report a problem with
+    the Site; and'
+- source: information you provide to we
+  target: detail of transaction you carry through site
+  key: SUBSUM
+  text:
+  - 'Information You Provide to Us
+
+
+    details of transactions you carry out through the Site.'
+- source: service provider
+  target: payment processor
+  key: SUBSUM
+  text:
+  - to service providers, such as payment processors, we use to support our business
+    and who are bound by contractual obligations to keep personal information confidential
+    and use it only for the purposes for which we disclose it to them;
+- source: several type
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of the Site, including
+    information: by which you may be personally identified, such as name, email address
+    or other contact information, or any other identifier by which you may be contacted
+    online or offline (" personal information "); and'
+- source: several type
+  target: email address
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of the Site, including
+    information: by which you may be personally identified, such as name, email address
+    or other contact information, or any other identifier by which you may be contacted
+    online or offline (" personal information "); and'
+- source: several type
+  target: identifier by contact
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of the Site, including
+    information: by which you may be personally identified, such as name, email address
+    or other contact information, or any other identifier by which you may be contacted
+    online or offline (" personal information "); and'
+- source: several type
+  target: person name
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of the Site, including
+    information: by which you may be personally identified, such as name, email address
+    or other contact information, or any other identifier by which you may be contacted
+    online or offline (" personal information "); and'
+- source: several type
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'We collect several types of information from and about users of the Site, including
+    information: by which you may be personally identified, such as name, email address
+    or other contact information, or any other identifier by which you may be contacted
+    online or offline (" personal information "); and'
+nodes:
+- type: ACTOR
+  id: application provider
+- type: ACTOR
+  id: content provider
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: communication datum
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: detail of transaction you carry through site
+- type: DATA
+  id: detail of visit to site
+- type: DATA
+  id: email address
+- type: DATA
+  id: identifier by contact
+- type: DATA
+  id: information about equipment
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: information we collect from you
+- type: DATA
+  id: information we collect through automatic data collection technology
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: information you provide by
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log
+- type: DATA
+  id: navigation datum
+- type: DATA
+  id: operating system
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: several type
+- type: DATA
+  id: store information about preference
+- type: DATA
+  id: traffic datum
+- type: DATA
+  id: usage detail

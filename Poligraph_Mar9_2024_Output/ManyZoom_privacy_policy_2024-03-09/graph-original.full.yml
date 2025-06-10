@@ -1,0 +1,44 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect information from you when you register on our site, place an order
+    or subscribe to our newsletter.
+  - We may also release your information when we believe release is appropriate to
+    comply with the law, enforce our site policies, or protect ours or others rights,
+    property, or safety.
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Google, as a third party vendor, uses cookies to serve ads on sites you visit.
+  purposes:
+    advertising:
+    - to serve ads on sites you visit
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - However, non-personally identifiable visitor information may be provided to other
+    parties for marketing, advertising, or other uses.
+  purposes:
+    advertising:
+    - for marketing, advertising, or other uses
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: non-personal information

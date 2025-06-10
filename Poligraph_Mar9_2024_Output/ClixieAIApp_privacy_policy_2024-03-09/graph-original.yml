@@ -1,0 +1,138 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may set and access cookies on your computer and use web tools to provide us
+    with information about your browsing experience.
+  purposes: {}
+- source: we
+  target: information collect
+  key: COLLECT
+  text:
+  - We use the information collected to deliver the Services, help diagnose problems
+    with our server and to administer our Site and/or Services, as well as to save
+    your password so you don't have to reenter it each time you visit our Site.
+  purposes:
+    services:
+    - to deliver the Services, help diagnose problems with our server and to administer
+      our Site and/or Services, as well as to save your password so you don't have
+      to reenter it each time you visit our Site
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - As you use our Site and/or the Services, we may collect and store IP addresses,
+    the website address that brought you to our Site, the website address where videos
+    you create using our Services are displayed, the interactions with those videos,
+    including the website address to which each viewer goes when they stop viewing
+    such videos, the video viewing duration and the number of times each video is
+    viewed.
+  purposes: {}
+- source: we
+  target: number of time view
+  key: COLLECT
+  text:
+  - As you use our Site and/or the Services, we may collect and store IP addresses,
+    the website address that brought you to our Site, the website address where videos
+    you create using our Services are displayed, the interactions with those videos,
+    including the website address to which each viewer goes when they stop viewing
+    such videos, the video viewing duration and the number of times each video is
+    viewed.
+  purposes: {}
+- source: we
+  target: type of information
+  key: COLLECT
+  text:
+  - We also receive and store certain types of information whenever you access the
+    Site.
+  purposes: {}
+- source: we
+  target: website address
+  key: COLLECT
+  text:
+  - As you use our Site and/or the Services, we may collect and store IP addresses,
+    the website address that brought you to our Site, the website address where videos
+    you create using our Services are displayed, the interactions with those videos,
+    including the website address to which each viewer goes when they stop viewing
+    such videos, the video viewing duration and the number of times each video is
+    viewed.
+  purposes: {}
+- source: we
+  target: website address bring you to site
+  key: COLLECT
+  text:
+  - As you use our Site and/or the Services, we may collect and store IP addresses,
+    the website address that brought you to our Site, the website address where videos
+    you create using our Services are displayed, the interactions with those videos,
+    including the website address to which each viewer goes when they stop viewing
+    such videos, the video viewing duration and the number of times each video is
+    viewed.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These other third party websites may also use cookies or similar technologies
+    in accordance with their own separate polices.
+  - We may link to other websites owned and operated by certain third parties.
+  purposes: {}
+- source: clixie
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This Privacy Policy states what information Clixie collects from users of its
+    website (the "Site"), Clixie interactive media platform , and associated analytics
+    services (the platform and analytics services, collectively the "Services"), and
+    how this information is used.
+  purposes: {}
+- source: clixie
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Clixie may release personal information when we: (1) respond to subpoenas, court
+    orders or legal process, and we exercise our legal rights or defend against legal
+    claims; (2) believe it is necessary to share information in order to investigate,
+    prevent or take action regarding illegal activities, suspected fraud, situations
+    involving potential threats to the physical safety of any person, violations of
+    the Terms of Service or as otherwise required by law; or (3) transfer information
+    about you if Clixie is acquired by or merged with another entity.'
+  purposes: {}
+- source: we
+  target: analytic provider
+  key: SUBSUM
+  text:
+  - This Privacy Policy states what information Clixie collects from users of its
+    website (the "Site"), Clixie interactive media platform , and associated analytics
+    services (the platform and analytics services, collectively the "Services"), and
+    how this information is used.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: clixie
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information collect
+- type: DATA
+  id: ip address
+- type: DATA
+  id: number of time view
+- type: DATA
+  id: personal information
+- type: DATA
+  id: type of information
+- type: DATA
+  id: website address
+- type: DATA
+  id: website address bring you to site

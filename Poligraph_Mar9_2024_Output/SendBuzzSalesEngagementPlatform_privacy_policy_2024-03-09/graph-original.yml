@@ -1,0 +1,342 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: company name
+  key: COLLECT
+  text:
+  - While using the platform we may collect your name, email, address, telephone number,
+    company name and address, organization information, and other identifying details.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - While using the platform we may collect your name, email, address, telephone number,
+    company name and address, organization information, and other identifying details.
+  purposes: {}
+- source: we
+  target: identify detail
+  key: COLLECT
+  text:
+  - While using the platform we may collect your name, email, address, telephone number,
+    company name and address, organization information, and other identifying details.
+  purposes: {}
+- source: we
+  target: non - identifying information
+  key: COLLECT
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+  purposes: {}
+- source: we
+  target: organization information
+  key: COLLECT
+  text:
+  - While using the platform we may collect your name, email, address, telephone number,
+    company name and address, organization information, and other identifying details.
+  purposes: {}
+- source: we
+  target: payment information you make
+  key: COLLECT
+  text:
+  - We may also collect payment information that you make available to us for your
+    use of the platform.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - While using the platform we may collect your name, email, address, telephone number,
+    company name and address, organization information, and other identifying details.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'In order to use our Platform or Site, you agree that we may use your personally
+    identifiable information:'
+  - To fully make use of the platform we may collect personally identifiable information,
+    including your name, username, password (not in human-readable format), login
+    information, and contact information.
+  - We may also collect this information from your personal information that you make
+    available to us from third parties for the use of the platform.
+  purposes:
+    advertising:
+    - To email you newsletters and marketing as required
+    analytics:
+    - To ask for ratings and reviews of services or products
+    - To understand how you communicate and use our Platform or Site
+    services:
+    - In order to use our Platform or Site
+    - To ask for ratings and reviews of services or products
+    - To contact and correspond with you and to respond to your inquiries
+    - To enhance or improve your user experience
+    - To have follow-up correspondence (live chat, email, voice, screen share)
+    - To improve the Site and Platform
+    - To quickly process your transactions
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may transfer personal information to the US or elsewhere and process it there.
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - While using the platform we may collect your name, email, address, telephone number,
+    company name and address, organization information, and other identifying details.
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - While using the platform we may collect your name, email, address, telephone number,
+    company name and address, organization information, and other identifying details.
+  purposes: {}
+- source: current site
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our current site or platform uses cookies to track your preferences, your cart,
+    and to remember your logins.
+  purposes:
+    analytics:
+    - to track your preferences, your cart, and to remember your logins
+    services:
+    - to track your preferences, your cart, and to remember your logins
+- source: platform
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our current site or platform uses cookies to track your preferences, your cart,
+    and to remember your logins.
+  purposes:
+    analytics:
+    - to track your preferences, your cart, and to remember your logins
+    services:
+    - to track your preferences, your cart, and to remember your logins
+- source: non - identifying information
+  target: application interaction
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: non - identifying information
+  target: data usage
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: non - identifying information
+  target: datum transfer
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: non - identifying information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: non - identifying information
+  target: ip address
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: non - identifying information
+  target: mobile provider information
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: non - identifying information
+  target: operating system
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: non - identifying information
+  target: precise geolocation
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: non - identifying information
+  target: pricing datum
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: non - identifying information
+  target: query information
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: non - identifying information
+  target: refer url
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: non - identifying information
+  target: research history
+  key: SUBSUM
+  text:
+  - Whenever you use our Site or Platform, we may collect non-identifying information
+    from you, such as your IP address, interactions with the Site and Platform, query
+    information, location information, pricing data, research history, location, and
+    GPS information, referring URL, browser, application interaction, mobile provider
+    information, operating system, data usage, data transferred, and Internet Service
+    Provider.
+- source: personal identifier
+  target: contact information
+  key: SUBSUM
+  text:
+  - To fully make use of the platform we may collect personally identifiable information,
+    including your name, username, password (not in human-readable format), login
+    information, and contact information.
+- source: personal identifier
+  target: login information
+  key: SUBSUM
+  text:
+  - To fully make use of the platform we may collect personally identifiable information,
+    including your name, username, password (not in human-readable format), login
+    information, and contact information.
+- source: personal identifier
+  target: password
+  key: SUBSUM
+  text:
+  - To fully make use of the platform we may collect personally identifiable information,
+    including your name, username, password (not in human-readable format), login
+    information, and contact information.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - To fully make use of the platform we may collect personally identifiable information,
+    including your name, username, password (not in human-readable format), login
+    information, and contact information.
+- source: personal identifier
+  target: username
+  key: SUBSUM
+  text:
+  - To fully make use of the platform we may collect personally identifiable information,
+    including your name, username, password (not in human-readable format), login
+    information, and contact information.
+nodes:
+- type: ACTOR
+  id: current site
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: we
+- type: DATA
+  id: application interaction
+- type: DATA
+  id: company name
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: data usage
+- type: DATA
+  id: datum transfer
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identify detail
+- type: DATA
+  id: ip address
+- type: DATA
+  id: login information
+- type: DATA
+  id: mobile provider information
+- type: DATA
+  id: non - identifying information
+- type: DATA
+  id: operating system
+- type: DATA
+  id: organization information
+- type: DATA
+  id: password
+- type: DATA
+  id: payment information you make
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: precise geolocation
+- type: DATA
+  id: pricing datum
+- type: DATA
+  id: query information
+- type: DATA
+  id: refer url
+- type: DATA
+  id: research history
+- type: DATA
+  id: username

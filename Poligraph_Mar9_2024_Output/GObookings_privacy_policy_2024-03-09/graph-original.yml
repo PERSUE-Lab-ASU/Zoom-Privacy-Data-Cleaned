@@ -1,0 +1,292 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If your personal details change, please help us to keep your information up to
+    date by notifying us.
+  - We collect information from your devices when you visit our website or use our
+    platform to make a booking using our platforms.
+  - We may also use your information to comply with legislative or regulatory requirements,
+    and to investigate and prevent fraud, crime or other activity that may cause harm
+    in relation to our platforms or services.
+  purposes:
+    legal:
+    - to comply with legislative or regulatory requirements, and to investigate and
+      prevent fraud, crime or other activity that may cause harm in relation to our
+      platforms or services
+    security:
+    - to comply with legislative or regulatory requirements, and to investigate and
+      prevent fraud, crime or other activity that may cause harm in relation to our
+      platforms or services
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - If your Bookings System Owner accepts payment via our platform, we may collect
+    your credit card details so you can make payment at the time of booking.
+  - Where a Bookings System Owner requires a prepayment or credit card pre-authorisation,
+    we will provide your credit card details to a secure payment processing provider
+    in order to process the payment.
+  purposes:
+    services:
+    - in order to process the payment
+- source: we
+  target: form of identification
+  key: COLLECT
+  text:
+  - If you make a personal information access request, we will require you to provide
+    some form of identification (for example a driver license or passport) so we can
+    verify that you are the person to whom the information relates.
+  purposes: {}
+- source: we
+  target: information on access of platform
+  key: COLLECT
+  text:
+  - Where you have a registered 1stGroup account, we collect information on your access
+    and use of our platform.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We collect general information about your access to and use of the Platform, for
+    example, web browsing information, IP address information, devices used to make
+    a booking, and GPS location.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As far as possible, we collect personal information directly from you when you
+    make a booking via the Platform, or otherwise provide with information to the
+    Platform.
+  - As far as possible, we collect personal information directly from you.
+  - In the course of providing services through the Platform, we collect personal
+    information.
+  - We also disclose personal information to our service providers, but only in the
+    manner described in this policy.
+  - We collect personal information about you to enable you to make a booking with
+    a Bookings System Owner.
+  - 'We collect, hold, use and disclose your personal information to:'
+  - We may also disclose your personal information if required by law (for example
+    to government bodies and law enforcement agencies).
+  - We may receive Personal Information directly from you, and in some circumstances
+    from third parties, including third parties with applications integrated with
+    our platform or website.
+  - We only use your personal and sensitive information for the purposes set out in
+    this policy.
+  - We share your personal information with the Bookings System Owner, to facilitate
+    that booking.
+  purposes:
+    advertising:
+    - 'to: report to Bookings Systems Owners about user activity in relation to the
+      Platform'
+    analytics:
+    - 'to: evaluate and improve our service to you'
+    - 'to: report to Bookings Systems Owners about user activity in relation to the
+      Platform'
+    services:
+    - process
+    - to enable you to make a booking with a Bookings System Owner
+    - to facilitate that booking
+    - 'to: administer the Platforms; and'
+    - 'to: contact you about your use of the Platform, to confirm a booking, or send
+      booking reminders by email or SMS;'
+    - 'to: create an account for you if you register with us'
+    - 'to: evaluate and improve our service to you'
+    - 'to: provide you with our bookings service, and any other products, information
+      or services you have requested from our website'
+    - 'to: report to Bookings Systems Owners about user activity in relation to the
+      Platform'
+- source: UNSPECIFIED_ACTOR
+  target: information on computer
+  key: COLLECT
+  text:
+  - The use of cookies does not allow websites to access any information on your computer.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - At present all service providers are based in Australia, so it is unlikely that
+    we will need to provide your personal information to any persons or organisations
+    located outside of Australia, unless required by your Booking System Owner.
+  purposes: {}
+- source: bookings system owner
+  target: information be
+  key: COLLECT
+  text:
+  - The Bookings System Owner will only have access to information that is relevant
+    to your booking with them.
+  purposes: {}
+- source: bookings system owner
+  target: personal information
+  key: COLLECT
+  text:
+  - We share your personal information with the Bookings System Owner, to facilitate
+    that booking.
+  purposes:
+    services:
+    - to facilitate that booking
+- source: government body
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also disclose your personal information if required by law (for example
+    to government bodies and law enforcement agencies).
+  purposes: {}
+- source: law enforcement agency
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also disclose your personal information if required by law (for example
+    to government bodies and law enforcement agencies).
+  purposes: {}
+- source: secure payment processing provider
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - Where a Bookings System Owner requires a prepayment or credit card pre-authorisation,
+    we will provide your credit card details to a secure payment processing provider
+    in order to process the payment.
+  purposes:
+    services:
+    - in order to process the payment
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - We also disclose personal information to our service providers, but only in the
+    manner described in this policy.
+  purposes: {}
+- source: form of identification
+  target: passport
+  key: SUBSUM
+  text:
+  - If you make a personal information access request, we will require you to provide
+    some form of identification (for example a driver license or passport) so we can
+    verify that you are the person to whom the information relates.
+- source: internet activity
+  target: for web browsing information
+  key: SUBSUM
+  text:
+  - We collect general information about your access to and use of the Platform, for
+    example, web browsing information, IP address information, devices used to make
+    a booking, and GPS location.
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - We collect general information about your access to and use of the Platform, for
+    example, web browsing information, IP address information, devices used to make
+    a booking, and GPS location.
+- source: internet activity
+  target: precise geolocation
+  key: SUBSUM
+  text:
+  - We collect general information about your access to and use of the Platform, for
+    example, web browsing information, IP address information, devices used to make
+    a booking, and GPS location.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Examples of personal information might include your name, address or phone number,
+    or even an opinion about you.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Examples of personal information might include your name, address or phone number,
+    or even an opinion about you.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Examples of personal information might include your name, address or phone number,
+    or even an opinion about you.
+- source: service provider
+  target: for it service provider
+  key: SUBSUM
+  text:
+  - We also use a range of service providers (for example, IT service providers, web
+    hosting providers, secure SMS service providers and secure payment gateway providers)
+    to help us deliver  services through the Platform.
+- source: service provider
+  target: secure payment gateway provider
+  key: SUBSUM
+  text:
+  - We also use a range of service providers (for example, IT service providers, web
+    hosting providers, secure SMS service providers and secure payment gateway providers)
+    to help us deliver  services through the Platform.
+- source: service provider
+  target: secure sms service provider
+  key: SUBSUM
+  text:
+  - We also use a range of service providers (for example, IT service providers, web
+    hosting providers, secure SMS service providers and secure payment gateway providers)
+    to help us deliver  services through the Platform.
+- source: service provider
+  target: web hosting provider
+  key: SUBSUM
+  text:
+  - We also use a range of service providers (for example, IT service providers, web
+    hosting providers, secure SMS service providers and secure payment gateway providers)
+    to help us deliver  services through the Platform.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: bookings system owner
+- type: ACTOR
+  id: for it service provider
+- type: ACTOR
+  id: government body
+- type: ACTOR
+  id: law enforcement agency
+- type: ACTOR
+  id: secure payment gateway provider
+- type: ACTOR
+  id: secure payment processing provider
+- type: ACTOR
+  id: secure sms service provider
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web hosting provider
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: for web browsing information
+- type: DATA
+  id: form of identification
+- type: DATA
+  id: information be
+- type: DATA
+  id: information on access of platform
+- type: DATA
+  id: information on computer
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: passport
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: precise geolocation

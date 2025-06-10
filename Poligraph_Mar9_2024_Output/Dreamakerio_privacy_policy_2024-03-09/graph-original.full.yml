@@ -1,0 +1,820 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we share your information with Intercom (www.intercom.com) to provide
+    you with our Support and Help Center.
+  - 'Privacy Policy
+
+
+    How and why we use your information'
+  - 'Privacy Policy
+
+
+    Who we share your data with'
+  - This Privacy Policy is meant to help you understand what data we collect, why
+    we collect it, and what we do with it.
+  - To process your payments, we share and use your information as described in the
+    section Payment Information .
+  - 'We collect information in the following ways:'
+  - We collect information to provide better Services to all of our users.
+  - We may collect information when you interact with our advertisements and other
+    content on third-party sites or platforms, such as social networking sites.
+  - We may collect other information from you that is not specifically listed here.
+  - We may use any such information in accordance with this Privacy Policy or as otherwise
+    permitted by you.
+  - We share your data with third-party companies who perform services on our behalf,
+    like messaging, communication, marketing and advertising services, email and hosting
+    services, and customer services and support.
+  - We will only use, disclose and otherwise process your information for the purposes
+    set forth in this Policy.
+  - When you use our Services or view content provided by Dreamaker, we automatically
+    collect and store certain information in server logs.
+  purposes:
+    services:
+    - To process your payments
+    - to provide better Services to all of our users
+    - to provide you with our Support and Help Center
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - As part of our use of third-party analytics tools like Google Analytics and data
+    enrichment services like Heap, we share certain de-identified data as needed.
+  purposes: {}
+- source: we
+  target: backup copy of record
+  key: COLLECT
+  text:
+  - As indicated above however, we will retain a backup copy of your records as required
+    by law or for legitimate business purposes.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - Our Services's registration system requires users to give us contact information
+    such as their name and email address.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our Services uses cookies.
+  - 'This information includes: cookies that may uniquely identify your browser.'
+  - We collect information about the functionalities that you use and how you use
+    them, like when you watch a video, visit a page or add a comment.
+  - We use both session-based and persistent cookies.
+  purposes: {}
+- source: we
+  target: demographic datum
+  key: COLLECT
+  text:
+  - Demographic and profile data are also collected by our Services.
+  - We use this data to tailor the visitor's experience at our web site, showing the
+    visitor content that reflects their stated preferences.
+  purposes:
+    advertising:
+    - to tailor the visitor's experience at our web site, showing the visitor content
+      that reflects their stated preferences
+    services:
+    - to tailor the visitor's experience at our web site, showing the visitor content
+      that reflects their stated preferences
+- source: we
+  target: detail of
+  key: COLLECT
+  text:
+  - 'This information includes: details of how you used our service, such as your
+    search queries, pages you visit, time spent on those pages, access times and dates
+    and other statistics.'
+  - We collect information about the functionalities that you use and how you use
+    them, like when you watch a video, visit a page or add a comment.
+  purposes: {}
+- source: we
+  target: device event information as crash
+  key: COLLECT
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+  - We collect information about the functionalities that you use and how you use
+    them, like when you watch a video, visit a page or add a comment.
+  purposes: {}
+- source: we
+  target: device information
+  key: COLLECT
+  text:
+  - 'This information includes: Device information.'
+  - We collect information about the functionalities that you use and how you use
+    them, like when you watch a video, visit a page or add a comment.
+  purposes: {}
+- source: we
+  target: device specific information
+  key: COLLECT
+  text:
+  - We collect device-specific information (such as your hardware model, operating
+    system version, unique device identifiers).
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We share your name, email address and location with people you invite to collaborate
+    in your projects or with whom you share media to let them know who has invited
+    them.
+  purposes:
+    services:
+    - to let them know who has invited them
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'This information includes: Location information.'
+  - We collect information about the functionalities that you use and how you use
+    them, like when you watch a video, visit a page or add a comment.
+  - We may collect and process information about your actual location.
+  - We share your name, email address and location with people you invite to collaborate
+    in your projects or with whom you share media to let them know who has invited
+    them.
+  purposes:
+    services:
+    - to let them know who has invited them
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'We may use the information we collect in the following ways:'
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'This information includes: Internet protocol address.'
+  - We collect information about the functionalities that you use and how you use
+    them, like when you watch a video, visit a page or add a comment.
+  purposes: {}
+- source: we
+  target: local storage
+  key: COLLECT
+  text:
+  - 'This information includes: Local storage.'
+  - We collect information about the functionalities that you use and how you use
+    them, like when you watch a video, visit a page or add a comment.
+  purposes: {}
+- source: we
+  target: log information
+  key: COLLECT
+  text:
+  - 'This information includes: Log information.'
+  - We collect information about the functionalities that you use and how you use
+    them, like when you watch a video, visit a page or add a comment.
+  purposes: {}
+- source: we
+  target: payment information
+  key: COLLECT
+  text:
+  - We share your Payment Information to process your payments, as further described
+    in Payment Information .
+  purposes:
+    services:
+    - to process your payments
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We share your name, email address and location with people you invite to collaborate
+    in your projects or with whom you share media to let them know who has invited
+    them.
+  purposes:
+    services:
+    - to let them know who has invited them
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We generally retain Personal Information for so long as it may be relevant to
+    the purposes identified herein.
+  - We may collect and store information (including personal information) locally
+    on your device using mechanisms such as browser web storage and application data
+    caches.
+  - We may share your personal information when we have a good faith belief that access,
+    use, preservation or disclosure of such information is reasonably necessary to
+    (a) satisfy any applicable law, regulation, legal process or enforceable governmental
+    request, (b) enforce a Customer Agreement, including investigation of potential
+    violations thereof, or (c) protect against imminent harm to our rights, property
+    or safety, or that of our users or the public as required or permitted by law.
+  - We may share your personal information with a third party if we have your consent
+    to do so.
+  - We may share your personal information with our parent companies, subsidiaries
+    and affiliates.
+  - We may share your personal information with third parties (including our service
+    providers and government entities) to detect, prevent, or otherwise address fraud
+    or security or technical issues.
+  purposes:
+    security:
+    - to detect, prevent, or otherwise address fraud or security or technical issues
+- source: we
+  target: publicly available information
+  key: COLLECT
+  text:
+  - 'This information includes: Publicly available information.'
+  - We collect information about the functionalities that you use and how you use
+    them, like when you watch a video, visit a page or add a comment.
+  purposes: {}
+- source: we
+  target: social medium information
+  key: COLLECT
+  text:
+  - Based on your email addresses input into the Services, Intercom may provide publicly-available
+    information about you including without limitation social media information, profile
+    information, gender, company, job titles, photos, physical addresses, and website
+    URLs ("Customer Data").
+  - We use this information to communicate with you in a more effective and customized
+    manner.
+  purposes:
+    services:
+    - to communicate with you in a more effective and customized manner
+- source: Intercom
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we share your information with Intercom (www.intercom.com) to provide
+    you with our Support and Help Center.
+  purposes:
+    services:
+    - to provide you with our Support and Help Center
+- source: Intercom
+  target: customer data
+  key: COLLECT
+  text:
+  - Intercom uses Customer Data as described in its privacy policy, available at,
+    www.intercom.com/terms-and-policies .
+  purposes: {}
+- source: Intercom
+  target: publicly available information about you
+  key: COLLECT
+  text:
+  - Based on your email addresses input into the Services, Intercom may provide publicly-available
+    information about you including without limitation social media information, profile
+    information, gender, company, job titles, photos, physical addresses, and website
+    URLs ("Customer Data").
+  purposes: {}
+- source: Stripe
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - When you make a purchase on the Services, any credit card information you provide
+    as part of your Payment Information is processed and collected directly by our
+    payment processor Stripe through their Stripe Checkout service.
+  purposes: {}
+- source: Stripe
+  target: payment information
+  key: COLLECT
+  text:
+  - Stripe may use your Payment Information in accordance with their own Privacy Policy
+    .
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal information with a third party if we have your consent
+    to do so.
+  - We may share your personal information with our parent companies, subsidiaries
+    and affiliates.
+  purposes: {}
+- source: advertiser
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share your data with third-party companies who perform services on our behalf,
+    like messaging, communication, marketing and advertising services, email and hosting
+    services, and customer services and support.
+  purposes: {}
+- source: customer service
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share your data with third-party companies who perform services on our behalf,
+    like messaging, communication, marketing and advertising services, email and hosting
+    services, and customer services and support.
+  purposes: {}
+- source: email service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share your data with third-party companies who perform services on our behalf,
+    like messaging, communication, marketing and advertising services, email and hosting
+    services, and customer services and support.
+  purposes: {}
+- source: government entity
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share your personal information with third parties (including our service
+    providers and government entities) to detect, prevent, or otherwise address fraud
+    or security or technical issues.
+  purposes:
+    security:
+    - to detect, prevent, or otherwise address fraud or security or technical issues
+- source: payment processor
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - When you make a purchase on the Services, any credit card information you provide
+    as part of your Payment Information is processed and collected directly by our
+    payment processor Stripe through their Stripe Checkout service.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - These service providers may access your personal data and are required to use
+    it solely as we direct, to provide our requested service.
+  - We may share your personal information with third parties (including our service
+    providers and government entities) to detect, prevent, or otherwise address fraud
+    or security or technical issues.
+  purposes:
+    security:
+    - to detect, prevent, or otherwise address fraud or security or technical issues
+- source: support
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share your data with third-party companies who perform services on our behalf,
+    like messaging, communication, marketing and advertising services, email and hosting
+    services, and customer services and support.
+  purposes: {}
+- source: we
+  target: dreamaker
+  key: SUBSUM
+  text:
+  - Dreamaker.io, LLC ("Dreamaker.io", "Dreamaker", "we", "our", "us") is strongly
+    committed to protecting your privacy online when using our platform, tools, applications,
+    site and services ("Services").
+- source: we
+  target: dreamaker.io
+  key: SUBSUM
+  text:
+  - Dreamaker.io, LLC ("Dreamaker.io", "Dreamaker", "we", "our", "us") is strongly
+    committed to protecting your privacy online when using our platform, tools, applications,
+    site and services ("Services").
+- source: we
+  target: dreamaker.io llc
+  key: SUBSUM
+  text:
+  - Dreamaker.io, LLC ("Dreamaker.io", "Dreamaker", "we", "our", "us") is strongly
+    committed to protecting your privacy online when using our platform, tools, applications,
+    site and services ("Services").
+- source: analytic provider
+  target: Google
+  key: SUBSUM
+  text:
+  - As part of our use of third-party analytics tools like Google Analytics and data
+    enrichment services like Heap, we share certain de-identified data as needed.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - Our Services's registration system requires users to give us contact information
+    such as their name and email address.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - Our Services's registration system requires users to give us contact information
+    such as their name and email address.
+- source: datum enrichment service
+  target: Heap
+  key: SUBSUM
+  text:
+  - As part of our use of third-party analytics tools like Google Analytics and data
+    enrichment services like Heap, we share certain de-identified data as needed.
+- source: detail of
+  target: access time
+  key: SUBSUM
+  text:
+  - 'This information includes: details of how you used our service, such as your
+    search queries, pages you visit, time spent on those pages, access times and dates
+    and other statistics.'
+- source: detail of
+  target: date
+  key: SUBSUM
+  text:
+  - 'This information includes: details of how you used our service, such as your
+    search queries, pages you visit, time spent on those pages, access times and dates
+    and other statistics.'
+- source: detail of
+  target: statistic
+  key: SUBSUM
+  text:
+  - 'This information includes: details of how you used our service, such as your
+    search queries, pages you visit, time spent on those pages, access times and dates
+    and other statistics.'
+- source: device event information as crash
+  target: access time
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: agent version
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: api key for app
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: app version
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: browser language
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: date
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: hardware setting
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: manufacturer
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: mobile device model
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: network status
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: referral url
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: sdk version
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: subscription information
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: time zone
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device event information as crash
+  target: version
+  key: SUBSUM
+  text:
+  - 'This information includes: device event information such as crashes, system activity,
+    hardware settings, browser type, browser language, referral URL, agent version,
+    platform, SDK version, API key for the App, App version, subscription and plan
+    information, mobile device model, manufacturer and version, access times and dates,
+    time zones and network status.'
+- source: device specific information
+  target: device identifier
+  key: SUBSUM
+  text:
+  - We collect device-specific information (such as your hardware model, operating
+    system version, unique device identifiers).
+- source: device specific information
+  target: hardware model
+  key: SUBSUM
+  text:
+  - We collect device-specific information (such as your hardware model, operating
+    system version, unique device identifiers).
+- source: device specific information
+  target: operate system version
+  key: SUBSUM
+  text:
+  - We collect device-specific information (such as your hardware model, operating
+    system version, unique device identifiers).
+- source: geolocation
+  target: ip address
+  key: SUBSUM
+  text:
+  - We use various technologies to determine location, including IP address.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - -identified data means data where we've removed personal information like your
+    name and email address and replaced it with a token ID.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - -identified data means data where we've removed personal information like your
+    name and email address and replaced it with a token ID.
+- source: platform
+  target: social media
+  key: SUBSUM
+  text:
+  - We may collect information when you interact with our advertisements and other
+    content on third-party sites or platforms, such as social networking sites.
+- source: publicly available information about you
+  target: customer data
+  key: SUBSUM
+  text:
+  - Based on your email addresses input into the Services, Intercom may provide publicly-available
+    information about you including without limitation social media information, profile
+    information, gender, company, job titles, photos, physical addresses, and website
+    URLs ("Customer Data").
+- source: publicly available information about you
+  target: gender
+  key: SUBSUM
+  text:
+  - Based on your email addresses input into the Services, Intercom may provide publicly-available
+    information about you including without limitation social media information, profile
+    information, gender, company, job titles, photos, physical addresses, and website
+    URLs ("Customer Data").
+- source: publicly available information about you
+  target: job title
+  key: SUBSUM
+  text:
+  - Based on your email addresses input into the Services, Intercom may provide publicly-available
+    information about you including without limitation social media information, profile
+    information, gender, company, job titles, photos, physical addresses, and website
+    URLs ("Customer Data").
+- source: publicly available information about you
+  target: photo
+  key: SUBSUM
+  text:
+  - Based on your email addresses input into the Services, Intercom may provide publicly-available
+    information about you including without limitation social media information, profile
+    information, gender, company, job titles, photos, physical addresses, and website
+    URLs ("Customer Data").
+- source: publicly available information about you
+  target: postal address
+  key: SUBSUM
+  text:
+  - Based on your email addresses input into the Services, Intercom may provide publicly-available
+    information about you including without limitation social media information, profile
+    information, gender, company, job titles, photos, physical addresses, and website
+    URLs ("Customer Data").
+- source: publicly available information about you
+  target: profile information
+  key: SUBSUM
+  text:
+  - Based on your email addresses input into the Services, Intercom may provide publicly-available
+    information about you including without limitation social media information, profile
+    information, gender, company, job titles, photos, physical addresses, and website
+    URLs ("Customer Data").
+- source: publicly available information about you
+  target: social medium information
+  key: SUBSUM
+  text:
+  - Based on your email addresses input into the Services, Intercom may provide publicly-available
+    information about you including without limitation social media information, profile
+    information, gender, company, job titles, photos, physical addresses, and website
+    URLs ("Customer Data").
+- source: publicly available information about you
+  target: website url
+  key: SUBSUM
+  text:
+  - Based on your email addresses input into the Services, Intercom may provide publicly-available
+    information about you including without limitation social media information, profile
+    information, gender, company, job titles, photos, physical addresses, and website
+    URLs ("Customer Data").
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Heap
+- type: ACTOR
+  id: Intercom
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: customer service
+- type: ACTOR
+  id: datum enrichment service
+- type: ACTOR
+  id: dreamaker
+- type: ACTOR
+  id: dreamaker.io
+- type: ACTOR
+  id: dreamaker.io llc
+- type: ACTOR
+  id: email service provider
+- type: ACTOR
+  id: government entity
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: support
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: agent version
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: api key for app
+- type: DATA
+  id: app version
+- type: DATA
+  id: backup copy of record
+- type: DATA
+  id: browser language
+- type: DATA
+  id: browser type
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer data
+- type: DATA
+  id: date
+- type: DATA
+  id: demographic datum
+- type: DATA
+  id: detail of
+- type: DATA
+  id: device event information as crash
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device information
+- type: DATA
+  id: device specific information
+- type: DATA
+  id: email address
+- type: DATA
+  id: gender
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: hardware model
+- type: DATA
+  id: hardware setting
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job title
+- type: DATA
+  id: local storage
+- type: DATA
+  id: log information
+- type: DATA
+  id: manufacturer
+- type: DATA
+  id: mobile device model
+- type: DATA
+  id: network status
+- type: DATA
+  id: operate system version
+- type: DATA
+  id: payment information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: photo
+- type: DATA
+  id: postal address
+- type: DATA
+  id: profile information
+- type: DATA
+  id: publicly available information
+- type: DATA
+  id: publicly available information about you
+- type: DATA
+  id: referral url
+- type: DATA
+  id: sdk version
+- type: DATA
+  id: social medium information
+- type: DATA
+  id: statistic
+- type: DATA
+  id: subscription information
+- type: DATA
+  id: time zone
+- type: DATA
+  id: version
+- type: DATA
+  id: website url

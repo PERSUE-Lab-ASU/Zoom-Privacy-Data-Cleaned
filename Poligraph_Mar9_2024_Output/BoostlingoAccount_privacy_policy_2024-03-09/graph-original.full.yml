@@ -1,0 +1,165 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: UNSPECIFIED_ACTOR
+  target: confidential information
+  key: COLLECT
+  text:
+  - During the Term of this Agreement, each party may disclose to the other certain
+    Confidential Information to the other party.
+  purposes: {}
+- source: boostlingo
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - LSP shall provide Boostlingo, upon Boostlingo's written request, with information
+    regarding the number of Customers, Partners and End Users of the Products on any
+    given date during the Term of this Agreement or over any given period during the
+    Term of this Agreement and other non-personally identifiable information reasonably
+    requested by Boostlingo during the Term of this Agreement to monitor usage of
+    the Products and the applicable fees for such Products.
+  purposes: {}
+- source: boostlingo
+  target: information request
+  key: COLLECT
+  text:
+  - In the event of an audit by the Oregon Health Authority ("OHA") to verify the
+    parties' compliance with HB2359, LSP shall promptly provide any information requested
+    by the OHA to Boostlingo, including interpreter data.
+  purposes: {}
+- source: customer
+  target: accurate financial record sufficient
+  key: COLLECT
+  text:
+  - For the term of this Agreement and one year after Customer shall maintain accurate
+    and complete financial records sufficient to justify its compliance with the provisions
+    of this Agreement.
+  purposes: {}
+- source: lsp
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - LSP shall provide Boostlingo, upon Boostlingo's written request, with information
+    regarding the number of Customers, Partners and End Users of the Products on any
+    given date during the Term of this Agreement or over any given period during the
+    Term of this Agreement and other non-personally identifiable information reasonably
+    requested by Boostlingo during the Term of this Agreement to monitor usage of
+    the Products and the applicable fees for such Products.
+  purposes: {}
+- source: lsp
+  target: confidential information
+  key: COLLECT
+  text:
+  - No title to or ownership of the intellectual property contained in the Products
+    or any part of the Products or Boostlingo's confidential information is transferred
+    to LSP.
+  purposes: {}
+- source: lsp
+  target: information request
+  key: COLLECT
+  text:
+  - In the event of an audit by the Oregon Health Authority ("OHA") to verify the
+    parties' compliance with HB2359, LSP shall promptly provide any information requested
+    by the OHA to Boostlingo, including interpreter data.
+  purposes: {}
+- source: cost of collection
+  target: reasonable fee
+  key: SUBSUM
+  text:
+  - LSP shall reimburse Boostlingo's costs of collection including, but not limited
+    to reasonable attorneys' fees.
+- source: information request
+  target: interpreter datum
+  key: SUBSUM
+  text:
+  - In the event of an audit by the Oregon Health Authority ("OHA") to verify the
+    parties' compliance with HB2359, LSP shall promptly provide any information requested
+    by the OHA to Boostlingo, including interpreter data.
+- source: product provide enter into between boostlingo
+  target: addenda
+  key: SUBSUM
+  text:
+  - '"Order Form" shall mean a purchasing document or other similar document, such
+    as a purchase order or statement of work, specifying the Products to be provided
+    hereunder that is entered into between Boostlingo and LSP, including any addenda
+    and supplements thereto.'
+- source: product provide enter into between boostlingo
+  target: supplement
+  key: SUBSUM
+  text:
+  - '"Order Form" shall mean a purchasing document or other similar document, such
+    as a purchase order or statement of work, specifying the Products to be provided
+    hereunder that is entered into between Boostlingo and LSP, including any addenda
+    and supplements thereto.'
+- source: professional service
+  target: consultancy service
+  key: SUBSUM
+  text:
+  - '"Services" means any professional services, including implementation and installation
+    services, consultancy services, or services agreed upon by the parties and set
+    forth in an Order Form or any additional Product Support purchased pursuant to
+    an Order Form.'
+- source: professional service
+  target: implementation service
+  key: SUBSUM
+  text:
+  - '"Services" means any professional services, including implementation and installation
+    services, consultancy services, or services agreed upon by the parties and set
+    forth in an Order Form or any additional Product Support purchased pursuant to
+    an Order Form.'
+- source: professional service
+  target: service agree upon
+  key: SUBSUM
+  text:
+  - '"Services" means any professional services, including implementation and installation
+    services, consultancy services, or services agreed upon by the parties and set
+    forth in an Order Form or any additional Product Support purchased pursuant to
+    an Order Form.'
+- source: web hosted service
+  target: documentation
+  key: SUBSUM
+  text:
+  - '"Products" means any Software, Services and/or Web Hosted Services that Boostlingo
+    offers to Customer, including any Documentation.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: addenda
+- type: ACTOR
+  id: boostlingo
+- type: ACTOR
+  id: consultancy service
+- type: ACTOR
+  id: cost of collection
+- type: ACTOR
+  id: customer
+- type: ACTOR
+  id: documentation
+- type: ACTOR
+  id: implementation service
+- type: ACTOR
+  id: lsp
+- type: ACTOR
+  id: product provide enter into between boostlingo
+- type: ACTOR
+  id: professional service
+- type: ACTOR
+  id: reasonable fee
+- type: ACTOR
+  id: service agree upon
+- type: ACTOR
+  id: supplement
+- type: ACTOR
+  id: web hosted service
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: accurate financial record sufficient
+- type: DATA
+  id: confidential information
+- type: DATA
+  id: information request
+- type: DATA
+  id: interpreter datum

@@ -1,0 +1,37 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: permission allow
+  key: COLLECT
+  text:
+  - Depending on the User's specific device, this Application may request certain
+    permissions that allow it to access the User's device Data as described below.
+  purposes: {}
+- source: we
+  target: respective personal datum
+  key: COLLECT
+  text:
+  - If User grants any of the permissions listed below, the respective Personal Data
+    may be processed (i.e accessed to, modified or removed) by this Application.
+  purposes: {}
+- source: presults
+  target: private information be
+  key: COLLECT
+  text:
+  - In general, Presults may collect, process, store,  transmit, and disseminate only
+    that private information that is necessary for the proper  functioning of its
+    business.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: presults
+- type: ACTOR
+  id: we
+- type: DATA
+  id: permission allow
+- type: DATA
+  id: private information be
+- type: DATA
+  id: respective personal datum

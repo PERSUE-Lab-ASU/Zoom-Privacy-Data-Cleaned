@@ -1,0 +1,275 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 1. The Company shall obtain the personal name, email address, telephone number,
+    and other information that user fills in the form prepared by the Company.
+  - 2. The Company, with the consent of the user, acquires the name of the individual
+    acquired by the user, the email address, and other information designated by the
+    Company about the individual acquired and held by the user.
+  purposes: {}
+- source: we
+  target: information designate about individual acquire
+  key: COLLECT
+  text:
+  - 2. The Company, with the consent of the user, acquires the name of the individual
+    acquired by the user, the email address, and other information designated by the
+    Company about the individual acquired and held by the user.
+  purposes: {}
+- source: we
+  target: information user fill in form prepare
+  key: COLLECT
+  text:
+  - 1. The Company shall obtain the personal name, email address, telephone number,
+    and other information that user fills in the form prepared by the Company.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - In order to maintain and improve the Service or to prevent fraud, the Company
+    may collect information about the IP addresses automatically generated and stored
+    when using the Service, the date and time of requests requested by users, information
+    on the operation history within the Service, and the usage of the Service (including
+    information entered and recorded by the user in the Service).
+  purposes:
+    security:
+    - In order to maintain and improve the Service or to prevent fraud
+    services:
+    - In order to maintain and improve the Service or to prevent fraud
+- source: we
+  target: name of individual acquire
+  key: COLLECT
+  text:
+  - 2. The Company, with the consent of the user, acquires the name of the individual
+    acquired by the user, the email address, and other information designated by the
+    Company about the individual acquired and held by the user.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 1. The Company shall obtain the personal name, email address, telephone number,
+    and other information that user fills in the form prepared by the Company.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Notwithstanding the paragraph 1, the Company may provide personal information
+    such as User Information, terminal information, cookies, and anonymous IDs to
+    third parties by email, etc. when reported to the Personal Information Protection
+    Commission.
+  - We will retain your personal information for as long as necessary to achieve the
+    purposes set forth in this Policy.
+  purposes:
+    legal:
+    - to achieve the purposes set forth in this Policy
+- source: we
+  target: personal information obtain from user
+  key: COLLECT
+  text:
+  - The Company may share personal information obtained from users with partner business
+    and other third parties to the extent necessary for the provision of affiliated
+    services, etc.
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - 1. The Company shall obtain the personal name, email address, telephone number,
+    and other information that user fills in the form prepared by the Company.
+  purposes: {}
+- source: we
+  target: record of matter
+  key: COLLECT
+  text:
+  - 'When we provide personal information to a third party based on the user''s consent,
+    we will create and store records of the following matters:'
+  purposes: {}
+- source: we
+  target: record on matter
+  key: COLLECT
+  text:
+  - 'If the Company provides personal information to a third party in accordance with
+    the provisions of the preceding paragraph, the Company will make and keep records
+    on the following matters:'
+  purposes: {}
+- source: we
+  target: terminal information
+  key: COLLECT
+  text:
+  - When a user uses the Service on a terminal or mobile terminal, the Company may
+    collect terminal information (such as ID information that can identify the terminal)
+    used by the User in order to maintain and improve the Service or prevent fraud.
+  purposes:
+    security:
+    - in order to maintain and improve the Service or prevent fraud
+    services:
+    - in order to maintain and improve the Service or prevent fraud
+- source: we
+  target: user information
+  key: COLLECT
+  text:
+  - In the Service, the Company shall obtain User Information, which includes personal
+    information, as defined in Article 2, paragraph 1 of the Act on the Protection
+    of Personal Information, as follows,
+  - When acquiring User Information, etc., the Company will acquire User Information
+    appropriately, without false or other fraudulent means.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Notwithstanding the paragraph 1, the Company may provide personal information
+    such as User Information, terminal information, cookies, and anonymous IDs to
+    third parties by email, etc. when reported to the Personal Information Protection
+    Commission.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information obtain from user
+  key: COLLECT
+  text:
+  - The Company may share personal information obtained from users with partner business
+    and other third parties to the extent necessary for the provision of affiliated
+    services, etc.
+  purposes: {}
+- source: partner business
+  target: personal information obtain from user
+  key: COLLECT
+  text:
+  - The Company may share personal information obtained from users with partner business
+    and other third parties to the extent necessary for the provision of affiliated
+    services, etc.
+  purposes: {}
+- source: personal information
+  target: anonymous id
+  key: SUBSUM
+  text:
+  - Notwithstanding the paragraph 1, the Company may provide personal information
+    such as User Information, terminal information, cookies, and anonymous IDs to
+    third parties by email, etc. when reported to the Personal Information Protection
+    Commission.
+- source: personal information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Notwithstanding the paragraph 1, the Company may provide personal information
+    such as User Information, terminal information, cookies, and anonymous IDs to
+    third parties by email, etc. when reported to the Personal Information Protection
+    Commission.
+- source: personal information
+  target: terminal information
+  key: SUBSUM
+  text:
+  - Notwithstanding the paragraph 1, the Company may provide personal information
+    such as User Information, terminal information, cookies, and anonymous IDs to
+    third parties by email, etc. when reported to the Personal Information Protection
+    Commission.
+- source: record of matter
+  target: item of personal information
+  key: SUBSUM
+  text:
+  - Items of personal information
+  - 'When we provide personal information to a third party based on the user''s consent,
+    we will create and store records of the following matters:'
+- source: record of matter
+  target: name of person identify
+  key: SUBSUM
+  text:
+  - The name of the person identified by the personal information and other information
+    sufficient to identify the person
+  - 'When we provide personal information to a third party based on the user''s consent,
+    we will create and store records of the following matters:'
+- source: record on matter
+  target: date of provision of personal information
+  key: SUBSUM
+  text:
+  - Date of provision of such personal information
+  - 'If the Company provides personal information to a third party in accordance with
+    the provisions of the preceding paragraph, the Company will make and keep records
+    on the following matters:'
+- source: record on matter
+  target: item of personal information
+  key: SUBSUM
+  text:
+  - 'If the Company provides personal information to a third party in accordance with
+    the provisions of the preceding paragraph, the Company will make and keep records
+    on the following matters:'
+  - Items of personal information
+- source: record on matter
+  target: name of person identify
+  key: SUBSUM
+  text:
+  - 'If the Company provides personal information to a third party in accordance with
+    the provisions of the preceding paragraph, the Company will make and keep records
+    on the following matters:'
+  - The name of the person identified by the personal information and other information
+    sufficient to identify the person
+- source: terminal information
+  target: id information identify terminal
+  key: SUBSUM
+  text:
+  - When a user uses the Service on a terminal or mobile terminal, the Company may
+    collect terminal information (such as ID information that can identify the terminal)
+    used by the User in order to maintain and improve the Service or prevent fraud.
+- source: user information
+  target: personal information
+  key: SUBSUM
+  text:
+  - In order to realize the protection of User Information, etc., the Company will
+    comply with the Personal Information Protection Act and other related laws and
+    regulations, and will strive to appropriately handle and protect User Information,
+    including personal information.
+  - In the Service, the Company shall obtain User Information, which includes personal
+    information, as defined in Article 2, paragraph 1 of the Act on the Protection
+    of Personal Information, as follows,
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: partner business
+- type: ACTOR
+  id: we
+- type: DATA
+  id: anonymous id
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date of provision of personal information
+- type: DATA
+  id: email address
+- type: DATA
+  id: id information identify terminal
+- type: DATA
+  id: information designate about individual acquire
+- type: DATA
+  id: information user fill in form prepare
+- type: DATA
+  id: ip address
+- type: DATA
+  id: item of personal information
+- type: DATA
+  id: name of individual acquire
+- type: DATA
+  id: name of person identify
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information obtain from user
+- type: DATA
+  id: phone number
+- type: DATA
+  id: record of matter
+- type: DATA
+  id: record on matter
+- type: DATA
+  id: terminal information
+- type: DATA
+  id: user information

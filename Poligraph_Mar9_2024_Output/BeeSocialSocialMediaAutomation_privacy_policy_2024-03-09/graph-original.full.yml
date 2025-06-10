@@ -1,0 +1,233 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our Retention and Disposal Policy (copy available on request) details how long
+    we hold data for and how we dispose of it when it no longer needs to be held.
+  - 'This Privacy Notice was last modified on 2021-12-31.
+
+
+    Our Lawful Basis for processing your information
+
+
+    We use your information to:'
+  purposes:
+    advertising:
+    - 'to: Communicate with you about products, services, promotions, studies, surveys,
+      news and updates relating to our service'
+    - 'to: Process promotions/competitions, including prizes, and send you information
+      about our services'
+    analytics:
+    - 'to: Investigate and address your concerns'
+    legal:
+    - 'to: Investigate or address legal proceedings relating to your use of our services/products,
+      or as otherwise allowed by applicable law'
+    security:
+    - 'to: Ensure access to your data is safe and secure'
+    - 'to: Investigate and address your concerns'
+    services:
+    - 'to: Direct your enquiries to the appropriate customer support staff'
+    - 'to: Process payments'
+    - 'to: Provide you with access to our Service'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'This Privacy Notice was last modified on 2021-12-31.
+
+
+    Cookies
+
+
+    We use cookies to:'
+  purposes:
+    advertising:
+    - 'to: Measure the effectiveness of advertising campaigns'
+    analytics:
+    - 'to: Analyse site visits and trends'
+    - 'to: Determine frequency of accessing our content'
+    - 'to: Measure the effectiveness of advertising campaigns'
+    security:
+    - 'to: Validate users'
+    services:
+    - 'to: Remember user preferences and settings'
+    - 'to: Validate users'
+- source: we
+  target: information we hold about you
+  key: COLLECT
+  text:
+  - All the information that we hold about you is provided to us by yourself when
+    you use our SERVICE.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'This Privacy Notice was last modified on 2021-12-31.
+
+
+    Our Lawful Basis for processing your information
+
+
+    We may share your personal data with:'
+  - We collect and process both personal data and special categories of personal data
+    as defined in the GDPR.
+  - We retain your personal data while you remain a customer, unless you ask us to
+    delete it.
+  - We transfer personal data to the following third countries or international organizations
+    using the identified safeguards because we rely on third-party services to deliver
+    our Service.
+  purposes:
+    legal:
+    - to meet our legal obligations
+- source: we
+  target: special category
+  key: COLLECT
+  text:
+  - We collect and process both personal data and special categories of personal data
+    as defined in the GDPR.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'This Privacy Notice was last modified on 2021-12-31.
+
+
+    Our Lawful Basis for processing your information
+
+
+    We may share your personal data with: Any other party where we ask you and you
+    consent to the sharing'
+  - 'We may share your personal data with: Law enforcement officials, government authorities,
+    or other third parties to meet our legal obligations'
+  purposes:
+    legal:
+    - to meet our legal obligations
+- source: government authority
+  target: personal information
+  key: COLLECT
+  text:
+  - 'This Privacy Notice was last modified on 2021-12-31.
+
+
+    Our Lawful Basis for processing your information
+
+
+    We may share your personal data with:'
+  - 'We may share your personal data with: Law enforcement officials, government authorities,
+    or other third parties to meet our legal obligations'
+  purposes:
+    legal:
+    - to meet our legal obligations
+- source: law enforcement official
+  target: personal information
+  key: COLLECT
+  text:
+  - 'This Privacy Notice was last modified on 2021-12-31.
+
+
+    Our Lawful Basis for processing your information
+
+
+    We may share your personal data with:'
+  - 'We may share your personal data with: Law enforcement officials, government authorities,
+    or other third parties to meet our legal obligations'
+  purposes:
+    legal:
+    - to meet our legal obligations
+- source: legal advisor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'This Privacy Notice was last modified on 2021-12-31.
+
+
+    Our Lawful Basis for processing your information
+
+
+    We may share your personal data with:'
+  - 'We may share your personal data with: Our legal advisors in the event of a dispute
+    or other legal matter'
+  purposes:
+    legal:
+    - to meet our legal obligations
+- source: payment processor for
+  target: personal information
+  key: COLLECT
+  text:
+  - 'This Privacy Notice was last modified on 2021-12-31.
+
+
+    Our Lawful Basis for processing your information
+
+
+    We may share your personal data with:'
+  - 'We may share your personal data with: Our payment processor for processing card
+    payments'
+  purposes:
+    legal:
+    - to meet our legal obligations
+- source: third country
+  target: personal information
+  key: COLLECT
+  text:
+  - We transfer personal data to the following third countries or international organizations
+    using the identified safeguards because we rely on third-party services to deliver
+    our Service.
+  purposes: {}
+- source: personal information
+  target: special category
+  key: SUBSUM
+  text:
+  - We collect and process both personal data and special categories of personal data
+    as defined in the GDPR.
+- source: third country
+  target: Stripe
+  key: SUBSUM
+  text:
+  - Stripe (USA)
+  - We transfer personal data to the following third countries or international organizations
+    using the identified safeguards because we rely on third-party services to deliver
+    our Service.
+- source: third country
+  target: zapier
+  key: SUBSUM
+  text:
+  - We transfer personal data to the following third countries or international organizations
+    using the identified safeguards because we rely on third-party services to deliver
+    our Service.
+  - Zapier (USA)
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: government authority
+- type: ACTOR
+  id: law enforcement official
+- type: ACTOR
+  id: legal advisor
+- type: ACTOR
+  id: payment processor for
+- type: ACTOR
+  id: third country
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zapier
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information we hold about you
+- type: DATA
+  id: personal information
+- type: DATA
+  id: special category

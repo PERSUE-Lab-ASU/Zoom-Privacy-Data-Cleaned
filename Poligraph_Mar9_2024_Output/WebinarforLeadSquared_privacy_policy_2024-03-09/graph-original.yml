@@ -1,0 +1,144 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Additionally, we may process your data to serve legitimate interests.
+  - If you submit your details and give us your consent, we may use your data to send
+    you email/newsletters, re-target LeadSquared advertisements or re-market our Services
+    using services from third-parties like Facebook and Google.
+  - The data provided by you as a Visitor, or when you sign up as a Customer / User
+    or register for our Services will be processed by us for the purpose of rendering
+    Services to you or in order to take steps prior to rendering such Services, at
+    your request.
+  - WHAT DATA WE MAY COLLECT
+  - We also use this data to enable you to make payments for our Services.
+  - We collect this data in order to facilitate provision of our Services.
+  - We collect this data in order to help you register for and facilitate provision
+    of our Services.
+  - We use this information to analyse and identify your behaviour and enhance the
+    interactions you have with the Website.
+  purposes:
+    advertising:
+    - to send you email/newsletters, re-target LeadSquared advertisements or re-
+    analytics:
+    - to analyse and identify your behaviour and enhance the interactions you have
+      with the Website
+    services:
+    - for the purpose of rendering Services to you or in order to take steps prior
+      to rendering such Services, at your request
+    - in order to facilitate provision of our Services
+    - in order to help you register for and facilitate provision of our Services
+    - to enable you to make payments for our Services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Upon receiving your specific consent, we may share the data we collect from Cookies
+    or Web Beacons with our advertisement partners to track your visits, establish
+    your non-personal identity and present you with targeted advertisements about
+    our Services.
+  purposes:
+    advertising:
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+    analytics:
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+    services:
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+- source: we
+  target: datum we collect
+  key: COLLECT
+  text:
+  - 'In addition to the purposes set out in the Policy, we may disclose any data we
+    collected or processed from you if it is required:'
+  - In order for us to facilitate our global operations, we may transfer and access
+    the data we collect and process in accordance with this Policy, to our group companies
+    around the world.
+  purposes:
+    services:
+    - In order for us to facilitate our global operations
+- source: we
+  target: device
+  key: COLLECT
+  text:
+  - In the event you report an issue with a Service, we may also screen/video record
+    your Device only when you use the App for a limited time period to help us better
+    understand how to address the issue.
+  purposes:
+    analytics:
+    - to help us better understand how to address the issue
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As a business service, we neither target our Services toward nor knowingly collect
+    any personal information from any individuals under the age of 13.
+  - We may need to retain your personal data even if you seek deletion thereof, if
+    it is needed to comply with our legal obligations, resolve disputes and enforce
+    our agreements.
+  - We will store any personal data we collect from you as long as it is necessary
+    in order to facilitate your use of the Services and for ancillary legitimate and
+    essential business purposes - these include, without limitation, for improving
+    our Services, attending to technical issues, and dealing with disputes.
+  purposes:
+    services:
+    - in order to facilitate your use of the Services and for ancillary legitimate
+      and essential business purposes
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Further, in the ordinary course of business, we may employ other companies and
+    people to assist us in providing certain components of our Services in compliance
+    with the provisions of this Policy.
+  - To do so, we may need to share your data with them.
+  purposes: {}
+- source: advertiser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Upon receiving your specific consent, we may share the data we collect from Cookies
+    or Web Beacons with our advertisement partners to track your visits, establish
+    your non-personal identity and present you with targeted advertisements about
+    our Services.
+  purposes:
+    advertising:
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+    analytics:
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+    services:
+    - to track your visits, establish your non-personal identity and present you with
+      targeted advertisements about our Services
+- source: we
+  target: leadsquared mobile application platform
+  key: SUBSUM
+  text:
+  - If you do not agree with the Policy, we would advise you to not visit/use the
+    Website or the LeadSquared mobile applications/platforms (collectively " App ").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: leadsquared mobile application platform
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum we collect
+- type: DATA
+  id: device
+- type: DATA
+  id: personal information

@@ -1,0 +1,185 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In this case, the company uses the information to be preserved only for the purpose
+    of preservation, and the retention period is as follows.
+  purposes: {}
+- source: we
+  target: collect personal information
+  key: COLLECT
+  text:
+  - The company uses the collected personal information for the following purposes.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, if a cloud storage application is enabled to permit files to be imported
+    to a Space, we may receive the user name and email address of Authorized Users,
+    along with additional information that the application has elected to make available
+    to JoyCollab to facilitate the integration.
+  purposes: {}
+- source: we
+  target: member information
+  key: COLLECT
+  text:
+  - If it is necessary to preserve in accordance with the provisions of related laws,
+    such as the Commercial Act and the Consumer Protection Act in Electronic Commerce,
+    the company preserves member information for a certain period of time as stipulated
+    by the relevant laws and regulations.
+  purposes: {}
+- source: we
+  target: minimum necessary information
+  key: COLLECT
+  text:
+  - When providing or sharing customer personal information with affiliates with which
+    the company has entered into a partnership, the company must obtain the consent
+    of the customer and provide and share the minimum necessary information to the
+    affiliates.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - The company collects the following personal information for membership registration,
+    customer support, and service application.
+  purposes:
+    services:
+    - for membership registration, customer support, and service application
+- source: we
+  target: user name
+  key: COLLECT
+  text:
+  - For example, if a cloud storage application is enabled to permit files to be imported
+    to a Space, we may receive the user name and email address of Authorized Users,
+    along with additional information that the application has elected to make available
+    to JoyCollab to facilitate the integration.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Once enabled, the provider of a Third-Party Service may share certain information
+    with JoyCollab.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: minimum necessary information
+  key: COLLECT
+  text:
+  - When providing or sharing customer personal information with affiliates with which
+    the company has entered into a partnership, the company must obtain the consent
+    of the customer and provide and share the minimum necessary information to the
+    affiliates.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - However, in the following cases, personal information may be provided to a third
+    party with the customer's consent.
+  purposes: {}
+- source: db
+  target: personal information
+  key: COLLECT
+  text:
+  - However, in the case of obtaining a separate consent for the storage period of
+    personal information or in the case of an obligation to keep information for a
+    certain period of time by laws and regulations, the personal information is transferred
+    to a separate database (DB) for that period and stored safely and then destroyed.
+  purposes: {}
+- source: event organizer
+  target: personal information of customer participate in event within service
+  key: COLLECT
+  text:
+  - '- Personal information of customers participating in various events within the
+    service may be provided to the event organizer.'
+  purposes: {}
+- source: joycollab
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Once enabled, the provider of a Third-Party Service may share certain information
+    with JoyCollab.
+  purposes: {}
+- source: joycollab
+  target: customer data
+  key: COLLECT
+  text:
+  - JoyCollab will retain Customer Data in accordance with a Customer's instructions,
+    including any applicable terms in the Customer Agreement and Customer's use of
+    Services functionality, and as required by applicable law.
+  purposes: {}
+- source: joycollab
+  target: information make
+  key: COLLECT
+  text:
+  - When a Third-Party Service is enabled, JoyCollab is authorized to connect and
+    access Other Information made available to JoyCollab in accordance with our agreement
+    with the Third-Party Provider and any permissions granted by Customer (including,
+    by its Authorized Users).
+  purposes: {}
+- source: joycollab
+  target: information pertain to you
+  key: COLLECT
+  text:
+  - JoyCollab may retain Other Information pertaining to you for as long as necessary
+    for the purposes described in this Privacy Policy.
+  purposes: {}
+- source: separate database
+  target: personal information
+  key: COLLECT
+  text:
+  - However, in the case of obtaining a separate consent for the storage period of
+    personal information or in the case of an obligation to keep information for a
+    certain period of time by laws and regulations, the personal information is transferred
+    to a separate database (DB) for that period and stored safely and then destroyed.
+  purposes: {}
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - Customer's personal information is basically protected by password, and customer's
+    personal information, including password, is managed through a separate system
+    that is protected by various security devices.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: db
+- type: ACTOR
+  id: event organizer
+- type: ACTOR
+  id: joycollab
+- type: ACTOR
+  id: separate database
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: collect personal information
+- type: DATA
+  id: customer data
+- type: DATA
+  id: email address
+- type: DATA
+  id: information make
+- type: DATA
+  id: information pertain to you
+- type: DATA
+  id: member information
+- type: DATA
+  id: minimum necessary information
+- type: DATA
+  id: password
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information of customer participate in event within service
+- type: DATA
+  id: user name

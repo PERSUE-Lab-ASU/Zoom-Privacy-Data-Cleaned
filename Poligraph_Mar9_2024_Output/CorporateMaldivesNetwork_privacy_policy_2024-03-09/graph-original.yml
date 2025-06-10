@@ -1,0 +1,167 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'The personal information that we may collect about you through the Services broadly
+    falls into the following categories: Information that we collect automatically
+    When you use our Services, we may collect certain information automatically from
+    your device.'
+  - We have implemented similar appropriate safeguards with our third party service
+    providers and partners and further details can be provided upon request.
+  - We will process your information for the purposes of operating our Website, Scheduling
+    Meetings and communicating with you as necessary for those purposes and in our
+    legitimate commercial interests, for instance, when responding to your queries,
+    undertaking marketing activities, improving our portal, Website or for the purposes
+    of detecting or preventing illegal activities.
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - Specifically, the information we collect automatically may include information
+    like your IP address, device type, unique device identification numbers, browser-type,
+    broad geographic location (e.g. country or city-level location) and other technical
+    information.
+  - We use this information for our internal analytics purposes and to improve the
+    quality and relevance of our Website to our visitors.
+  purposes:
+    analytics:
+    - for our internal analytics purposes and to improve the quality and relevance
+      of our Website to our visitors
+- source: we
+  target: coarse geolocation
+  key: COLLECT
+  text:
+  - Specifically, the information we collect automatically may include information
+    like your IP address, device type, unique device identification numbers, browser-type,
+    broad geographic location (e.g. country or city-level location) and other technical
+    information.
+  - We use this information for our internal analytics purposes and to improve the
+    quality and relevance of our Website to our visitors.
+  purposes:
+    analytics:
+    - for our internal analytics purposes and to improve the quality and relevance
+      of our Website to our visitors
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - 'Information that you provide voluntarily parts of our Services may ask you to
+    provide personal information voluntarily: for example, we may ask you to provide
+    your contact details in order to register an account with us, to schedule a meeting,
+    and/or to submit enquiries to us.'
+  purposes:
+    services:
+    - in order to register an account with us, to schedule a meeting, and/or to submit
+      enquiries to us
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to provide authentication and session management functions on our
+    website.
+  purposes:
+    security:
+    - to provide authentication and session management functions on our website
+    services:
+    - to provide authentication and session management functions on our website
+- source: we
+  target: device type
+  key: COLLECT
+  text:
+  - Specifically, the information we collect automatically may include information
+    like your IP address, device type, unique device identification numbers, browser-type,
+    broad geographic location (e.g. country or city-level location) and other technical
+    information.
+  - We use this information for our internal analytics purposes and to improve the
+    quality and relevance of our Website to our visitors.
+  purposes:
+    analytics:
+    - for our internal analytics purposes and to improve the quality and relevance
+      of our Website to our visitors
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - Specifically, the information we collect automatically may include information
+    like your IP address, device type, unique device identification numbers, browser-type,
+    broad geographic location (e.g. country or city-level location) and other technical
+    information.
+  - We use this information for our internal analytics purposes and to improve the
+    quality and relevance of our Website to our visitors.
+  purposes:
+    analytics:
+    - for our internal analytics purposes and to improve the quality and relevance
+      of our Website to our visitors
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - However, we will normally collect personal information from you only (i) where
+    we need the personal information to perform a contract with you, (ii) where the
+    processing is in our legitimate interests and not overridden by your rights, or
+    (iii) where we have your consent to do so.
+  - We retain personal information we collect from you where we have an ongoing legitimate
+    business need to do so (for example, to provide you with a service you have requested
+    or to comply with applicable legal, tax or accounting requirements).
+  - When we have no ongoing legitimate business need to process your personal information,
+    we will either delete or anonymise it or, if this is not possible (for example,
+    because your personal information has been stored in backup archives), then we
+    will securely store your personal information and isolate it from any further
+    processing until deletion is possible.
+  purposes: {}
+- source: we
+  target: technical information
+  key: COLLECT
+  text:
+  - Specifically, the information we collect automatically may include information
+    like your IP address, device type, unique device identification numbers, browser-type,
+    broad geographic location (e.g. country or city-level location) and other technical
+    information.
+  - We use this information for our internal analytics purposes and to improve the
+    quality and relevance of our Website to our visitors.
+  purposes:
+    analytics:
+    - for our internal analytics purposes and to improve the quality and relevance
+      of our Website to our visitors
+- source: we
+  target: unique device identification number
+  key: COLLECT
+  text:
+  - Specifically, the information we collect automatically may include information
+    like your IP address, device type, unique device identification numbers, browser-type,
+    broad geographic location (e.g. country or city-level location) and other technical
+    information.
+  - We use this information for our internal analytics purposes and to improve the
+    quality and relevance of our Website to our visitors.
+  purposes:
+    analytics:
+    - for our internal analytics purposes and to improve the quality and relevance
+      of our Website to our visitors
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: coarse geolocation
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: device type
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal information
+- type: DATA
+  id: technical information
+- type: DATA
+  id: unique device identification number

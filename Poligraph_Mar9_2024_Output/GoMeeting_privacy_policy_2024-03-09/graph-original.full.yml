@@ -1,0 +1,136 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may disclose your information as required by law, regulation, or legal process.
+  - We retain your information only for as long as necessary to fulfill the purposes
+    outlined in this Privacy Policy and as required by law.
+  purposes:
+    legal:
+    - to fulfill the purposes outlined in this Privacy Policy and as required by law
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may use aggregated and anonymized data for analytical purposes to improve the
+    Platform's performance and user experience.
+  purposes:
+    analytics:
+    - for analytical purposes
+    services:
+    - to improve the Platform's performance and user experience
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - '3.2 Communication: We may use your contact information to send you updates, announcements,
+    and promotional materials related to our services.'
+  purposes:
+    advertising:
+    - to send you updates, announcements, and promotional materials related to our
+      services
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We may collect information about how you interact with the Platform, such as your
+    IP address, browser type, device information, and usage patterns.
+  purposes: {}
+- source: we
+  target: information you provide
+  key: COLLECT
+  text:
+  - '3.1 Service Provision: We use the information you provide to deliver and improve
+    our services.'
+  purposes:
+    services:
+    - to deliver and improve our services
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy outlines how we collect, use, disclose, and protect your personal
+    information when you use our AI auto speech recognition platform ("the Platform").
+  - When you create an account or use our Platform, we may collect personal information
+    such as your name, email address, and other contact details.
+  purposes: {}
+- source: we
+  target: gowajee.ai
+  key: SUBSUM
+  text:
+  - Welcome to Gowajee.ai ("we," "us," "our").
+- source: information about
+  target: browser type
+  key: SUBSUM
+  text:
+  - We may collect information about how you interact with the Platform, such as your
+    IP address, browser type, device information, and usage patterns.
+- source: information about
+  target: device information
+  key: SUBSUM
+  text:
+  - We may collect information about how you interact with the Platform, such as your
+    IP address, browser type, device information, and usage patterns.
+- source: information about
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may collect information about how you interact with the Platform, such as your
+    IP address, browser type, device information, and usage patterns.
+- source: information about
+  target: usage pattern
+  key: SUBSUM
+  text:
+  - We may collect information about how you interact with the Platform, such as your
+    IP address, browser type, device information, and usage patterns.
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - When you create an account or use our Platform, we may collect personal information
+    such as your name, email address, and other contact details.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you create an account or use our Platform, we may collect personal information
+    such as your name, email address, and other contact details.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you create an account or use our Platform, we may collect personal information
+    such as your name, email address, and other contact details.
+nodes:
+- type: ACTOR
+  id: gowajee.ai
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: contact information
+- type: DATA
+  id: device information
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: usage pattern

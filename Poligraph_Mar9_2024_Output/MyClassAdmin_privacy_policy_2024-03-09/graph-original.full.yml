@@ -1,0 +1,156 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'MYCLASSADMIN PRIVACY POLICY
+
+
+    1. What Data we collect'
+  - We store the data relating to tests& templatescreated by you and also the new
+    questions that you add while creating these tests.
+  purposes: {}
+- source: we
+  target: date of birth
+  key: COLLECT
+  text:
+  - We collect from you, data relating to your name, surname, address, telephone number
+    , email address, date of birth& name of your institution.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We collect from you, data relating to your name, surname, address, telephone number
+    , email address, date of birth& name of your institution.
+  purposes: {}
+- source: we
+  target: log datum
+  key: COLLECT
+  text:
+  - Apart from this we also collect log data while you are using our website directly
+    through the web pages.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We collect from you, data relating to your name, surname, address, telephone number
+    , email address, date of birth& name of your institution.
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - We collect from you, data relating to your name, surname, address, telephone number
+    , email address, date of birth& name of your institution.
+  purposes: {}
+- source: we
+  target: android app
+  key: SUBSUM
+  text:
+  - 'Products : Android Apps'
+- source: we
+  target: assignment
+  key: SUBSUM
+  text:
+  - 'Products : Assignments'
+- source: we
+  target: attendance management software
+  key: SUBSUM
+  text:
+  - 'Products : Attendance Management Software'
+- source: we
+  target: chat system software
+  key: SUBSUM
+  text:
+  - 'Products : Chat System Software'
+- source: we
+  target: coaching class management software
+  key: SUBSUM
+  text:
+  - 'Products : Coaching Class Management Software'
+- source: we
+  target: fee management system
+  key: SUBSUM
+  text:
+  - 'Products : Fee Management System'
+- source: we
+  target: live interactive lectures with recording
+  key: SUBSUM
+  text:
+  - 'Products : Live Interactive Lectures with Recording'
+- source: we
+  target: omr paper correction
+  key: SUBSUM
+  text:
+  - 'Products : OMR Paper Correction'
+- source: we
+  target: online exam software
+  key: SUBSUM
+  text:
+  - 'Products : Online Exam Software'
+- source: we
+  target: paper generator
+  key: SUBSUM
+  text:
+  - 'Products : Paper Generator'
+- source: we
+  target: school management software
+  key: SUBSUM
+  text:
+  - 'Products : School Management Software'
+- source: we
+  target: student class management software
+  key: SUBSUM
+  text:
+  - 'Products : Student / Class Management Software'
+- source: we
+  target: student parent app
+  key: SUBSUM
+  text:
+  - 'Products : Student Parent App & Notification'
+nodes:
+- type: ACTOR
+  id: android app
+- type: ACTOR
+  id: assignment
+- type: ACTOR
+  id: attendance management software
+- type: ACTOR
+  id: chat system software
+- type: ACTOR
+  id: coaching class management software
+- type: ACTOR
+  id: fee management system
+- type: ACTOR
+  id: live interactive lectures with recording
+- type: ACTOR
+  id: omr paper correction
+- type: ACTOR
+  id: online exam software
+- type: ACTOR
+  id: paper generator
+- type: ACTOR
+  id: school management software
+- type: ACTOR
+  id: student class management software
+- type: ACTOR
+  id: student parent app
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: email address
+- type: DATA
+  id: log datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: phone number

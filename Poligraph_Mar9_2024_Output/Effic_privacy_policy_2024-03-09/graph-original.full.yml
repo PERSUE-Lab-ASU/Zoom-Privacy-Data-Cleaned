@@ -1,0 +1,24 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: user information
+  key: COLLECT
+  text:
+  - In this service, our company acquires user information, including personal information,
+    as specified below.
+  purposes: {}
+- source: user information
+  target: personal information
+  key: SUBSUM
+  text:
+  - In this service, our company acquires user information, including personal information,
+    as specified below.
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal information
+- type: DATA
+  id: user information

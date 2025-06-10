@@ -1,0 +1,166 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Like many sites, we use "cookies" to collect information.
+  - We may need to request information from you to confirm your identity.
+  purposes:
+    security:
+    - to confirm your identity
+    services:
+    - to confirm your identity
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like many sites, we use "cookies" to collect information.
+  purposes: {}
+- source: we
+  target: different type of datum
+  key: COLLECT
+  text:
+  - We retain different types of data for different lengths depending on the type
+    of data and what it is used for.
+  purposes: {}
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - Like many site operators, we collect information that your browser sends whenever
+    you visit our Service ("Log Data").
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal data with third-parties to provide necessary services,
+    including: if you are the host of a reading event, we will share your personal
+    data with your guests;'
+  - 'We may share your personal data with third-parties to provide necessary services,
+    including: when you register for a reading event, we will share your personal
+    data with the reading event host'
+  - We retain your personal data in order to provide a consistent service.
+  - We use your Personal Information only for providing and improving the Service.
+  - We will retain your Personal Information for the period necessary to fulfil obligations
+    to the law.
+  purposes:
+    analytics:
+    - if you are the host of a reading event, we will share your personal data with
+      your guests
+    - when you register for a reading event, we will share your personal data with
+      the reading event host
+    services:
+    - if you are the host of a reading event, we will share your personal data with
+      your guests
+    - in order to provide a consistent service
+    - when you register for a reading event, we will share your personal data with
+      the reading event host
+- source: UNSPECIFIED_ACTOR
+  target: datum about you
+  key: COLLECT
+  text:
+  - Clicking on these links may allow those third parties to collect data about you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal data with third-parties to provide necessary services,
+    including:'
+  purposes:
+    analytics:
+    - if you are the host of a reading event, we will share your personal data with
+      your guests
+    - when you register for a reading event, we will share your personal data with
+      the reading event host
+    services:
+    - if you are the host of a reading event, we will share your personal data with
+      your guests
+    - when you register for a reading event, we will share your personal data with
+      the reading event host
+- source: reading event host
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal data with third-parties to provide necessary services,
+    including: when you register for a reading event, we will share your personal
+    data with the reading event host'
+  purposes: {}
+- source: we
+  target: bookhive
+  key: SUBSUM
+  text:
+  - Bookhive ("us", "we", or "our") operates Bookhive.me (the "Service").
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with a small amount of data, which may include an anonymous
+    unique identifier.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - Personally identifiable information may include, but is not limited to your name
+    and email address ("Personal Information").
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Personally identifiable information may include, but is not limited to your name
+    and email address ("Personal Information").
+- source: personal identifier
+  target: personal information
+  key: SUBSUM
+  text:
+  - Personally identifiable information may include, but is not limited to your name
+    and email address ("Personal Information").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: bookhive
+- type: ACTOR
+  id: reading event host
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: different type of datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information

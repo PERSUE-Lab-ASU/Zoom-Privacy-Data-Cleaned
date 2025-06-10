@@ -1,0 +1,450 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you subscribe to one of our mailing lists, we generally collect your name,
+    email address, and optionally your telephone or other information if you provide
+    it to us so we can customize your experience and better serve your needs.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - For example, we may use session and persistent "cookies," session logs, web beacons,
+    GIF/pixel tags, banner ads, third-party click tracking analytics tools (such as
+    Google Analytics), third party retargeting networks that may display our advertisements
+    to you on other sites that you visit to remind you about us, and third party networks
+    that serve user-requested emails (e.g., for a refer-a-friend email) to collect
+    non-personally identifiable or other aggregated information about site visitors.
+  purposes: {}
+- source: we
+  target: banner ad
+  key: COLLECT
+  text:
+  - For example, we may use session and persistent "cookies," session logs, web beacons,
+    GIF/pixel tags, banner ads, third-party click tracking analytics tools (such as
+    Google Analytics), third party retargeting networks that may display our advertisements
+    to you on other sites that you visit to remind you about us, and third party networks
+    that serve user-requested emails (e.g., for a refer-a-friend email) to collect
+    non-personally identifiable or other aggregated information about site visitors.
+  purposes: {}
+- source: we
+  target: broad demographic information
+  key: COLLECT
+  text:
+  - We may use your IP address to help prevent fraud, to help diagnose problems with
+    our server, to gather broad demographic information, and to offer you products
+    and services.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For example, we may use session and persistent "cookies," session logs, web beacons,
+    GIF/pixel tags, banner ads, third-party click tracking analytics tools (such as
+    Google Analytics), third party retargeting networks that may display our advertisements
+    to you on other sites that you visit to remind you about us, and third party networks
+    that serve user-requested emails (e.g., for a refer-a-friend email) to collect
+    non-personally identifiable or other aggregated information about site visitors.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - By submitting your email address, you also agree to allow us to use your email
+    address for custom audience targeting on sites like Facebook, where we display
+    custom advertising to specific people who have opted-in to receive communications
+    from us.
+  - If you subscribe to one of our mailing lists, we generally collect your name,
+    email address, and optionally your telephone or other information if you provide
+    it to us so we can customize your experience and better serve your needs.
+  purposes: {}
+- source: we
+  target: information about customer
+  key: COLLECT
+  text:
+  - We also may store limited information about our customer's customer on some software
+    features in an audit log, so we can validate the address in order to re-run the
+    transaction if it results in an error for some reason.
+  purposes: {}
+- source: we
+  target: information on
+  key: COLLECT
+  text:
+  - Alternatively, the law provides that if a company has a Privacy Policy that gives
+    either an opt-out (often referred to as "unsubscribe") or opt-in choice for use
+    of your Personal Information by third parties (such as advertisers or affiliated
+    companies) for marketing purposes, that the company may instead provide you with
+    information on how to exercise your disclosure choice options.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We may use your IP address to help prevent fraud, to help diagnose problems with
+    our server, to gather broad demographic information, and to offer you products
+    and services.
+  purposes:
+    analytics:
+    - to help prevent fraud, to help diagnose problems with our server, to gather
+      broad demographic information, and to offer you products and services
+    security:
+    - prevent fraud
+    - to help prevent fraud, to help diagnose problems with our server, to gather
+      broad demographic information, and to offer you products and services
+    services:
+    - to help prevent fraud, to help diagnose problems with our server, to gather
+      broad demographic information, and to offer you products and services
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - For example, we may use session and persistent "cookies," session logs, web beacons,
+    GIF/pixel tags, banner ads, third-party click tracking analytics tools (such as
+    Google Analytics), third party retargeting networks that may display our advertisements
+    to you on other sites that you visit to remind you about us, and third party networks
+    that serve user-requested emails (e.g., for a refer-a-friend email) to collect
+    non-personally identifiable or other aggregated information about site visitors.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - If you subscribe to one of our mailing lists, we generally collect your name,
+    email address, and optionally your telephone or other information if you provide
+    it to us so we can customize your experience and better serve your needs.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - In order to serve our customers, we collect personally identifiable information,
+    like names, addresses, phone numbers, email addresses, and sometimes credit card
+    information when such information is voluntarily submitted by our visitors.
+  purposes:
+    services:
+    - In order to serve our customers
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Though we make every effort to preserve user privacy, we may be required to disclose
+    personal information in some instances, such as: (a) when required by law wherein
+    we have a good faith belief that such action is necessary to comply with a judicial
+    proceeding, court order, and/or subpoena; (b) in the event that Company is sold
+    or acquired; or (c) in the event that we believe that the web site is being, or
+    has been, used in violation of our terms and conditions or to commit unlawful
+    acts.'
+  - 'We will only use your personal information for the following purposes: (1) to
+    deliver the products and/or services to you that you have requested; (2) to validate
+    your compliance with the terms and conditions; (3) for content improvement and
+    feedback purposes; (4) to reach you, when necessary, regarding your use of the
+    web site or products; and (5) for the few situations described below to better
+    serve you.'
+  purposes:
+    services:
+    - 'for the following purposes: (1) to deliver the products and/or services to
+      you that you have requested; (2) to validate your compliance with the terms
+      and conditions; (3) for content improvement and feedback purposes; (4) to reach
+      you, when necessary, regarding your use of the web site or products; and (5)
+      for the few situations described below to better serve you'
+- source: we
+  target: session log
+  key: COLLECT
+  text:
+  - For example, we may use session and persistent "cookies," session logs, web beacons,
+    GIF/pixel tags, banner ads, third-party click tracking analytics tools (such as
+    Google Analytics), third party retargeting networks that may display our advertisements
+    to you on other sites that you visit to remind you about us, and third party networks
+    that serve user-requested emails (e.g., for a refer-a-friend email) to collect
+    non-personally identifiable or other aggregated information about site visitors.
+  purposes: {}
+- source: we
+  target: ssl encryption
+  key: COLLECT
+  text:
+  - We use SSL encryption to protect sensitive information online, and we do everything
+    we can to protect user information offline.
+  purposes:
+    security:
+    - to protect sensitive information online
+- source: we
+  target: telephone
+  key: COLLECT
+  text:
+  - If you subscribe to one of our mailing lists, we generally collect your name,
+    email address, and optionally your telephone or other information if you provide
+    it to us so we can customize your experience and better serve your needs.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Third party retargeting networks may also use cookies to display our advertisements
+    to you on other sites.
+  purposes:
+    advertising:
+    - to display our advertisements to you on other sites
+- source: advertiser
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - Other parties such as advertising partners and analytics companies may also be
+    collecting information about your online activity across various websites over
+    time.
+  purposes: {}
+- source: advertiser
+  target: internet activity
+  key: COLLECT
+  text:
+  - Other parties such as advertising partners and analytics companies may also be
+    collecting information about your online activity across various websites over
+    time.
+  purposes: {}
+- source: analytic provider
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - Other parties such as advertising partners and analytics companies may also be
+    collecting information about your online activity across various websites over
+    time.
+  purposes: {}
+- source: analytic provider
+  target: internet activity
+  key: COLLECT
+  text:
+  - Other parties such as advertising partners and analytics companies may also be
+    collecting information about your online activity across various websites over
+    time.
+  purposes: {}
+- source: email
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Emails or newsletters that we send electronically may use techniques such as web
+    beacons or pixel tags to gather email metrics and information to improve the reader's
+    experience, such as the number of emails that are opened, whether they were forwarded
+    or printed, the type of device from which they were opened, and the location (e.g.
+    city, state, and county) associated with the applicable IP address.
+  purposes:
+    analytics:
+    - to gather email metrics and information to improve the reader's experience,
+      such as the number of emails that are opened, whether they were forwarded or
+      printed, the type of device from which they were opened, and the location (e.g.
+      city, state, and county) associated with the applicable IP address
+- source: email
+  target: email metric
+  key: COLLECT
+  text:
+  - Emails or newsletters that we send electronically may use techniques such as web
+    beacons or pixel tags to gather email metrics and information to improve the reader's
+    experience, such as the number of emails that are opened, whether they were forwarded
+    or printed, the type of device from which they were opened, and the location (e.g.
+    city, state, and county) associated with the applicable IP address.
+  purposes:
+    services:
+    - to improve the reader's experience
+- source: email
+  target: type of device
+  key: COLLECT
+  text:
+  - Emails or newsletters that we send electronically may use techniques such as web
+    beacons or pixel tags to gather email metrics and information to improve the reader's
+    experience, such as the number of emails that are opened, whether they were forwarded
+    or printed, the type of device from which they were opened, and the location (e.g.
+    city, state, and county) associated with the applicable IP address.
+  purposes:
+    services:
+    - to improve the reader's experience
+- source: newsletter
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Emails or newsletters that we send electronically may use techniques such as web
+    beacons or pixel tags to gather email metrics and information to improve the reader's
+    experience, such as the number of emails that are opened, whether they were forwarded
+    or printed, the type of device from which they were opened, and the location (e.g.
+    city, state, and county) associated with the applicable IP address.
+  purposes:
+    analytics:
+    - to gather email metrics and information to improve the reader's experience,
+      such as the number of emails that are opened, whether they were forwarded or
+      printed, the type of device from which they were opened, and the location (e.g.
+      city, state, and county) associated with the applicable IP address
+- source: newsletter
+  target: email metric
+  key: COLLECT
+  text:
+  - Emails or newsletters that we send electronically may use techniques such as web
+    beacons or pixel tags to gather email metrics and information to improve the reader's
+    experience, such as the number of emails that are opened, whether they were forwarded
+    or printed, the type of device from which they were opened, and the location (e.g.
+    city, state, and county) associated with the applicable IP address.
+  purposes:
+    services:
+    - to improve the reader's experience
+- source: newsletter
+  target: type of device
+  key: COLLECT
+  text:
+  - Emails or newsletters that we send electronically may use techniques such as web
+    beacons or pixel tags to gather email metrics and information to improve the reader's
+    experience, such as the number of emails that are opened, whether they were forwarded
+    or printed, the type of device from which they were opened, and the location (e.g.
+    city, state, and county) associated with the applicable IP address.
+  purposes:
+    services:
+    - to improve the reader's experience
+- source: social media
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you visit this site with an open ID (such as Facebook), you may also be sharing
+    and integrating data with third-party social media sites, and we may track aggregate
+    data about the number of visits to this site with an open ID, the number of items
+    "liked" on this site, or items on this site that you choose to share with a third-party
+    social media site.
+  purposes: {}
+- source: we
+  target: Sixth Division
+  key: SUBSUM
+  text:
+  - PlusThis LLC (hereinafter "We", or "Company") understands the importance that
+    Internet users place on privacy, and this Privacy Policy describes how we use
+    personal information that is collected at this web site.
+- source: analytic provider
+  target: Google
+  key: SUBSUM
+  text:
+  - For example, we may use session and persistent "cookies," session logs, web beacons,
+    GIF/pixel tags, banner ads, third-party click tracking analytics tools (such as
+    Google Analytics), third party retargeting networks that may display our advertisements
+    to you on other sites that you visit to remind you about us, and third party networks
+    that serve user-requested emails (e.g., for a refer-a-friend email) to collect
+    non-personally identifiable or other aggregated information about site visitors.
+- source: personal identifier
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - In order to serve our customers, we collect personally identifiable information,
+    like names, addresses, phone numbers, email addresses, and sometimes credit card
+    information when such information is voluntarily submitted by our visitors.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - In order to serve our customers, we collect personally identifiable information,
+    like names, addresses, phone numbers, email addresses, and sometimes credit card
+    information when such information is voluntarily submitted by our visitors.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - In order to serve our customers, we collect personally identifiable information,
+    like names, addresses, phone numbers, email addresses, and sometimes credit card
+    information when such information is voluntarily submitted by our visitors.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - In order to serve our customers, we collect personally identifiable information,
+    like names, addresses, phone numbers, email addresses, and sometimes credit card
+    information when such information is voluntarily submitted by our visitors.
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - In order to serve our customers, we collect personally identifiable information,
+    like names, addresses, phone numbers, email addresses, and sometimes credit card
+    information when such information is voluntarily submitted by our visitors.
+- source: type of device
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Emails or newsletters that we send electronically may use techniques such as web
+    beacons or pixel tags to gather email metrics and information to improve the reader's
+    experience, such as the number of emails that are opened, whether they were forwarded
+    or printed, the type of device from which they were opened, and the location (e.g.
+    city, state, and county) associated with the applicable IP address.
+- source: type of device
+  target: number of email open
+  key: SUBSUM
+  text:
+  - Emails or newsletters that we send electronically may use techniques such as web
+    beacons or pixel tags to gather email metrics and information to improve the reader's
+    experience, such as the number of emails that are opened, whether they were forwarded
+    or printed, the type of device from which they were opened, and the location (e.g.
+    city, state, and county) associated with the applicable IP address.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Sixth Division
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: email
+- type: ACTOR
+  id: newsletter
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: banner ad
+- type: DATA
+  id: broad demographic information
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: email address
+- type: DATA
+  id: email metric
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about customer
+- type: DATA
+  id: information on
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: number of email open
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: session log
+- type: DATA
+  id: ssl encryption
+- type: DATA
+  id: telephone
+- type: DATA
+  id: type of device

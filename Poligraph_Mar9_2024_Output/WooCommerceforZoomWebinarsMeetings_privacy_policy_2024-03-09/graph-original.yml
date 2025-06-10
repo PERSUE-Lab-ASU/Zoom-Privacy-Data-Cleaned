@@ -1,0 +1,153 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect data from form entries on our website.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website uses cookies so we can evaluate the success of our website and to
+    help us better serve our customer requirements.
+  - We also use cookies on form information so that you may partially enter a form
+    and come back to it later with the information still being retrievable.
+  purposes: {}
+- source: we
+  target: datum use
+  key: COLLECT
+  text:
+  - Any data used by our plugin is stored on your server and we can't access this
+    data unless you give us explicit permission and credentials to do so.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We ask for, collect and store only the bare minimum necessary to identify and
+    contact you including your name and email address.
+  purposes: {}
+- source: we
+  target: file we send
+  key: COLLECT
+  text:
+  - Any files we send online are fully encrypted and we store our local files on raid
+    systems with an encrypted online backup so your files are always safe.
+  purposes: {}
+- source: we
+  target: initial purchase order datum
+  key: COLLECT
+  text:
+  - Any data used by our plugin is stored on your server and we can't access this
+    data unless you give us explicit permission and credentials to do so.
+  - In regards to our Zoom plugin, and any plugins developed by Northern Beaches Websites,
+    no data is stored on our servers except for your initial purchase order data.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We do not keep a record of IP addresses from visitors except if you have specifically
+    provided us with information about yourself, in which case we record your IP address
+    for security reasons.
+  - We may also use this anonymous data to make improvements on our website by reviewing
+    page views and other logs.
+  purposes:
+    analytics:
+    - to make improvements on our website by reviewing page views and other logs
+    services:
+    - to make improvements on our website by reviewing page views and other logs
+- source: we
+  target: local file
+  key: COLLECT
+  text:
+  - Any files we send online are fully encrypted and we store our local files on raid
+    systems with an encrypted online backup so your files are always safe.
+  purposes: {}
+- source: we
+  target: order information
+  key: COLLECT
+  text:
+  - When you make a purchase on Northern Beaches Websites we store your order information
+    on our servers.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We ask for, collect and store only the bare minimum necessary to identify and
+    contact you including your name and email address.
+  purposes: {}
+- source: northern beaches website
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Northern Beaches websites uses cookies.
+  purposes: {}
+- source: northern beaches websites
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However Northern Beaches Websites may be required by law to disclose information
+    to relevant government authorities at their request.
+  purposes: {}
+- source: northern beaches websites
+  target: geolocation
+  key: COLLECT
+  text:
+  - Only Northern Beaches Websites and our server administrators have access to this
+    information.
+  - The servers are located in a secure location in Sydney, Australia.
+  purposes: {}
+- source: relevant government authority
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However Northern Beaches Websites may be required by law to disclose information
+    to relevant government authorities at their request.
+  purposes: {}
+- source: server administrator
+  target: geolocation
+  key: COLLECT
+  text:
+  - Only Northern Beaches Websites and our server administrators have access to this
+    information.
+  - The servers are located in a secure location in Sydney, Australia.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: northern beaches website
+- type: ACTOR
+  id: northern beaches websites
+- type: ACTOR
+  id: relevant government authority
+- type: ACTOR
+  id: server administrator
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum use
+- type: DATA
+  id: email address
+- type: DATA
+  id: file we send
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: initial purchase order datum
+- type: DATA
+  id: ip address
+- type: DATA
+  id: local file
+- type: DATA
+  id: order information
+- type: DATA
+  id: person name

@@ -1,0 +1,110 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We also may use the data to communicate with you, for example, informing you about
+    your account, security updates and Product information.
+  - We may share data with vendors working on our behalf, when required by law, to
+    respond to legal process, to protect our customers, to protect lives, to maintain
+    the security of our Products, and to protect the rights or property of Timefluence.
+  purposes:
+    security:
+    - to communicate with you, for example, informing you about your account, security
+      updates and Product information
+    - to respond to legal process, to protect our customers, to protect lives, to
+      maintain the security of our Products, and to protect the rights or property
+      of Timefluence
+    services:
+    - to communicate with you, for example, informing you about your account, security
+      updates and Product information
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help with signing in to your account or third-party integrated
+    web sites that you authorize.
+  purposes:
+    services:
+    - to help with signing in to your account or third-party integrated web sites
+      that you authorize
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This privacy statement explains what personal data we collect from you and how
+    we use it.
+  - We share your personal data with your consent or as necessary to complete any
+    transaction or provide any Product you have requested or authorized.
+  purposes:
+    services:
+    - to complete any transaction or provide any Product you have requested or authorized
+- source: associated direct customer
+  target: information submit
+  key: COLLECT
+  text:
+  - The information submitted by Indirect Customers is saved and can be viewed and
+    modified by the associated Direct Customer.
+  purposes: {}
+- source: timefluence
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Timefluence collects data to operate effectively and provide you the best experiences
+    with our Products.
+  purposes:
+    services:
+    - to operate effectively and provide you the best experiences with our Products
+- source: timefluence
+  target: data we collect
+  key: COLLECT
+  text:
+  - Timefluence uses the data we collect to provide you the Products we offer, which
+    include using data to improve and personalize your experiences.
+  purposes:
+    services:
+    - to provide you the Products we offer, which include using data to improve and
+      personalize your experiences
+- source: timefluence products
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Timefluence Products use "cookies", small text files that can be read by a web
+    server in the domain that put the cookie on your hard drive.
+  purposes: {}
+- source: vendor work on behalf
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share data with vendors working on our behalf, when required by law, to
+    respond to legal process, to protect our customers, to protect lives, to maintain
+    the security of our Products, and to protect the rights or property of Timefluence.
+  purposes:
+    security:
+    - to respond to legal process, to protect our customers, to protect lives, to
+      maintain the security of our Products, and to protect the rights or property
+      of Timefluence
+nodes:
+- type: ACTOR
+  id: associated direct customer
+- type: ACTOR
+  id: timefluence
+- type: ACTOR
+  id: timefluence products
+- type: ACTOR
+  id: vendor work on behalf
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: data we collect
+- type: DATA
+  id: information submit
+- type: DATA
+  id: personal information

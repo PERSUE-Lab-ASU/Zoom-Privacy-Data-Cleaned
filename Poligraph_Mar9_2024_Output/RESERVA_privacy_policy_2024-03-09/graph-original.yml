@@ -1,0 +1,87 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may collect access log and other data as the statistical information that cannot
+    identify individuals to improve Services in the future and investigate the use
+    trend of Services.
+  - We obtain the following information.
+  purposes:
+    analytics:
+    - to improve Services in the future and investigate the use trend of Services
+    services:
+    - to improve Services in the future and investigate the use trend of Services
+- source: we
+  target: access log
+  key: COLLECT
+  text:
+  - We may collect access log and other data as the statistical information that cannot
+    identify individuals to improve Services in the future and investigate the use
+    trend of Services.
+  purposes:
+    analytics:
+    - to improve Services in the future and investigate the use trend of Services
+    services:
+    - to improve Services in the future and investigate the use trend of Services
+- source: we
+  target: acquire personal information
+  key: COLLECT
+  text:
+  - 'Privacy  Policy
+
+
+    Article 4 (Purpose of Use of Personal Information)
+
+
+    We use acquired Personal Information for the following purposes.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Services uses cookie, web beacon, and other technologies to understand the use
+    trend, efficiently operate the advertisement, inflow from search engines, and
+    maintain temporary information.
+  purposes:
+    advertising:
+    - to understand the use trend, efficiently operate the advertisement, inflow from
+      search engines, and maintain temporary information
+    analytics:
+    - to understand the use trend, efficiently operate the advertisement, inflow from
+      search engines, and maintain temporary information
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in Privacy Policy unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - On websites or services provided by companies other than ours linked from Services,
+    such companies may acquire Personal Information, but this does not apply to Privacy
+    Policy, and we do not assume any obligations or responsibilities for these business
+    to acquire information.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access log
+- type: DATA
+  id: acquire personal information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: personal information

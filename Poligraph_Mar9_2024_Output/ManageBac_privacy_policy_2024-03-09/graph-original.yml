@@ -1,0 +1,32 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information on website
+  key: COLLECT
+  text:
+  - We provide all information on our Website free of any access charge other than
+    our charges to Schools.
+  purposes: {}
+- source: we
+  target: content
+  key: SUBSUM
+  text:
+  - 'Terms of Service
+
+
+    9. General Conditions
+
+
+    9.3 You understand that the technical processing and transmission of the Service,
+    including Content, may occur in an unencrypted form if SSL is not enabled on your
+    computer, and result in transmissions over the Internet, which may be intercepted
+    by others.'
+nodes:
+- type: ACTOR
+  id: content
+- type: ACTOR
+  id: we
+- type: DATA
+  id: information on website

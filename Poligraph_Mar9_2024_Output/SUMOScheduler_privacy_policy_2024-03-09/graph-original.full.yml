@@ -1,0 +1,186 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Moreover, we may still use and share certain information as permitted by this
+    Privacy Policy or as required by applicable law.
+  - We collect information from you when you register on our site, place an order,
+    subscribe to our newsletter, respond to a survey, fill out a form or visit us
+    at an event.
+  - We collect information under the direction of our customers and often have no
+    direct relationship with the individuals whose personal information we process.
+  - We may also release your information when we believe release is appropriate to
+    comply with the law, enforce our site policies, or protect ours or others rights,
+    property, or safety.
+  - We will retain your information for as long as your account is active, or as reasonably
+    necessary to fulfill the purposes outlined in this Policy unless a longer retention
+    period is required or permitted by law.
+  purposes: {}
+- source: we
+  target: content you create
+  key: COLLECT
+  text:
+  - We collect and store content that you create, submit, post, upload, transmit,
+    store or display in the process of using SUMO or our websites.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to understand and save your preferences for future visits and compile
+    aggregate data about site traffic and site interaction so that we can offer better
+    site experiences and tools in the future.
+  purposes:
+    analytics:
+    - to understand and save your preferences for future visits
+    services:
+    - to understand and save your preferences for future visits
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your information, including your personal data, to a third party
+    if (a) we believe that disclosure is reasonably necessary to comply with any applicable
+    laws and regulation or governmental request, (b) to enforce our contracts, policies,
+    and terms of service, (c) to protect the security or integrity of our services
+    (d) to protect SUMO, our customers or the public from harm or illegal activities,
+    or (e) to respond to an emergency which we believe in the good faith requires
+    us to disclose information.
+  purposes: {}
+- source: we
+  target: standard information
+  key: COLLECT
+  text:
+  - As you navigate our sites, we may also collect standard information from your
+    Web browser through the use of commonly-used information-gathering tools.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - However, non-personally identifiable visitor information may be provided to other
+    parties for marketing, advertising, or other uses.
+  purposes:
+    advertising:
+    - for marketing, advertising, or other uses
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your information, including your personal data, to a third party
+    if (a) we believe that disclosure is reasonably necessary to comply with any applicable
+    laws and regulation or governmental request, (b) to enforce our contracts, policies,
+    and terms of service, (c) to protect the security or integrity of our services
+    (d) to protect SUMO, our customers or the public from harm or illegal activities,
+    or (e) to respond to an emergency which we believe in the good faith requires
+    us to disclose information.
+  purposes: {}
+- source: system admin
+  target: personal information
+  key: COLLECT
+  text:
+  - A system admin or another user may create an account on your behalf and may provide
+    your information, including personal Information.
+  purposes: {}
+- source: access privilege to content
+  target: personal information
+  key: SUBSUM
+  text:
+  - These third-party add-ons are software owned and provided by third parties to
+    which you grant access privileges to your content, which may include your personal
+    data.
+- source: action you take on site
+  target: web page view
+  key: SUBSUM
+  text:
+  - This information may include browser type and browser language preferences, your
+    Internet Protocol ("IP") address, the actions you take on our sites (such as the
+    web pages viewed and the links clicked), and other content you send via the chat
+    feature.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Personal Data: information that may be used to readily identify or contact you
+    as an individual person, such as: name, address, email address, or phone number.'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Personal Data: information that may be used to readily identify or contact you
+    as an individual person, such as: name, address, email address, or phone number.'
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Personal Data: information that may be used to readily identify or contact you
+    as an individual person, such as: name, address, email address, or phone number.'
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Personal Data: information that may be used to readily identify or contact you
+    as an individual person, such as: name, address, email address, or phone number.'
+- source: standard information
+  target: browser type preference
+  key: SUBSUM
+  text:
+  - As you navigate our sites, we may also collect standard information from your
+    Web browser through the use of commonly-used information-gathering tools.
+  - This information may include browser type and browser language preferences, your
+    Internet Protocol ("IP") address, the actions you take on our sites (such as the
+    web pages viewed and the links clicked), and other content you send via the chat
+    feature.
+- source: standard information
+  target: ip address
+  key: SUBSUM
+  text:
+  - As you navigate our sites, we may also collect standard information from your
+    Web browser through the use of commonly-used information-gathering tools.
+  - This information may include browser type and browser language preferences, your
+    Internet Protocol ("IP") address, the actions you take on our sites (such as the
+    web pages viewed and the links clicked), and other content you send via the chat
+    feature.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: action you take on site
+- type: ACTOR
+  id: system admin
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web page view
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access privilege to content
+- type: DATA
+  id: browser type preference
+- type: DATA
+  id: content you create
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: standard information

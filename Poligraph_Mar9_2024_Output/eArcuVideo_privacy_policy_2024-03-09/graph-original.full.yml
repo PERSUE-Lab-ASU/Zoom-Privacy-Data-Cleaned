@@ -1,0 +1,121 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will retain and use your information to the extent necessary to comply with
+    our legal obligations, resolve disputes, and enforce our policies.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - eArcu LTD will retain such personal information collected as part of any competition,
+    promotion or survey and we will use your contact details to send marketing communications
+    about eArcu to you after the competition or promotion has ended.
+  purposes:
+    advertising:
+    - to send marketing communications about eArcu to you after the competition or
+      promotion has ended
+- source: earcu
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like any other website, eArcu uses 'cookies'.
+  purposes: {}
+- source: earcu ltd
+  target: personal information
+  key: COLLECT
+  text:
+  - eArcu LTD will collect and process personal information (including but not limited
+    to your name, job title, work email address and employer's name) that you voluntarily
+    provide to us when entering any competitions, promotions or surveys we run.
+  - eArcu LTD will retain such personal information collected as part of any competition,
+    promotion or survey and we will use your contact details to send marketing communications
+    about eArcu to you after the competition or promotion has ended.
+  - eArcu LTD will retain your personal information only for as long as is necessary
+    for the purposes set out in this Privacy Policy.
+  purposes: {}
+- source: information collect
+  target: browser type
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: date
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: ip address
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: number of click
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - eArcu LTD will collect and process personal information (including but not limited
+    to your name, job title, work email address and employer's name) that you voluntarily
+    provide to us when entering any competitions, promotions or surveys we run.
+- source: personal information
+  target: job title
+  key: SUBSUM
+  text:
+  - eArcu LTD will collect and process personal information (including but not limited
+    to your name, job title, work email address and employer's name) that you voluntarily
+    provide to us when entering any competitions, promotions or surveys we run.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - eArcu LTD will collect and process personal information (including but not limited
+    to your name, job title, work email address and employer's name) that you voluntarily
+    provide to us when entering any competitions, promotions or surveys we run.
+nodes:
+- type: ACTOR
+  id: earcu
+- type: ACTOR
+  id: earcu ltd
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: email address
+- type: DATA
+  id: information collect
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job title
+- type: DATA
+  id: number of click
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information

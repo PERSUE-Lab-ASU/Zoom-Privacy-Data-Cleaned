@@ -1,0 +1,241 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, sometimes this is not possible, and we need to transfer your data internationally.
+  - Once we receive your request, we will contact you to provide acknowledgement and
+    request further information if required.
+  - We process your information to fulfill our obligations to you as part of your
+    contract with Sellular
+  purposes:
+    legal:
+    - to fulfill our obligations to you as part of your contract with Sellular
+    - to provide acknowledgement and request further information if required
+    services:
+    - to provide acknowledgement and request further information if required
+- source: we
+  target: activity
+  key: COLLECT
+  text:
+  - We collect your activity such as areas of the console and app that you visit or
+    click on
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to provide you with a better web experience and to serve you with
+    relevant ads.
+  purposes:
+    advertising:
+    - to provide you with a better web experience and to serve you with relevant ads
+    services:
+    - to provide you with a better web experience and to serve you with relevant ads
+- source: we
+  target: datum you generate as part of relationship with sellular
+  key: COLLECT
+  text:
+  - Due to telecommunications and other regulations, we need to retain all the data
+    that you generate as part of your relationship with Sellular for seven (7) years
+    after you close your account.
+  purposes: {}
+- source: we
+  target: google contact
+  key: COLLECT
+  text:
+  - If you choose to do so, we access your Google contacts so that you may call them
+    from Sellular
+  purposes: {}
+- source: we
+  target: history of usage
+  key: COLLECT
+  text:
+  - We also keep history of your usage and payments for you to be able to verify our
+    charges and if necessary, dispute any billing
+  purposes: {}
+- source: we
+  target: information about payment method
+  key: COLLECT
+  text:
+  - In order to pay for our services, we need information about your payment method.
+  purposes:
+    services:
+    - In order to pay for our services
+- source: we
+  target: information you look for
+  key: COLLECT
+  text:
+  - We will provide you with the information you are looking for and will send you
+    relevant marketing information.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We collect your IP address to provide you with more relevant services based on
+    your location, time zone and country
+  purposes:
+    services:
+    - to provide you with more relevant services based on your location, time zone
+      and country
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In order to provide you with an optimal web experience and also great products
+    and services, we need to collect and process your personal data.
+  - The following table explains what personal data we collect from you, how we process
+    it, how we classify your personal data and, according to personal data protection
+    regulations, what is the legal basis for the processing of your personal data.
+  - We also transmit your personal data to the applications that we interface with
+    such as Salesforce.com.
+  purposes:
+    services:
+    - In order to provide you with an optimal web experience and also great products
+      and services
+- source: we
+  target: voice call
+  key: COLLECT
+  text:
+  - We access your voice calls and convert them to text in order to load this information
+    to your CRM system
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - As part of the products and services that Sellular offers to you, we need to share
+    your personal data with our employees and some other third-parties that help Sellular
+    deliver our products and services.
+  purposes: {}
+- source: application we interface with
+  target: personal information
+  key: COLLECT
+  text:
+  - We also transmit your personal data to the applications that we interface with
+    such as Salesforce.com.
+  purposes: {}
+- source: sellular
+  target: personal information
+  key: COLLECT
+  text:
+  - As a controller, Sellular collects and processes personal data from visitors to
+    the Sellular's website and from customers that sign up for our services.
+  - As a data processor, Sellular collects and processes personal data from registered
+    customers' users and only does so as per customers' requirements.
+  - Sellular stores your personal data with third-party providers that have locations
+    around the globe.
+  purposes: {}
+- source: activity
+  target: area of console you visit
+  key: SUBSUM
+  text:
+  - We collect your activity such as areas of the console and app that you visit or
+    click on
+- source: application we interface with
+  target: Salesforce.com
+  key: SUBSUM
+  text:
+  - We also transmit your personal data to the applications that we interface with
+    such as Salesforce.com.
+- source: cookie / pixel tag
+  target: device type
+  key: SUBSUM
+  text:
+  - Cookie tracking including IP address, device type, location
+- source: cookie / pixel tag
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Cookie tracking including IP address, device type, location
+- source: cookie / pixel tag
+  target: ip address
+  key: SUBSUM
+  text:
+  - Cookie tracking including IP address, device type, location
+- source: personal data sellular maintain about you
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'These are the requests you may contact Sellular about: You have the right to
+    access the personal data that Sellular maintains about you, including the categories
+    of data and how Sellular collects, processes and shares your personal data.'
+- source: personal information
+  target: factor specific
+  key: SUBSUM
+  text:
+  - Examples of personal data include your name, identification numbers, location,
+    factors specific to your physical, mental, economic or social identity, among
+    others.
+- source: personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Examples of personal data include your name, identification numbers, location,
+    factors specific to your physical, mental, economic or social identity, among
+    others.
+- source: personal information
+  target: identification number
+  key: SUBSUM
+  text:
+  - Examples of personal data include your name, identification numbers, location,
+    factors specific to your physical, mental, economic or social identity, among
+    others.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Examples of personal data include your name, identification numbers, location,
+    factors specific to your physical, mental, economic or social identity, among
+    others.
+nodes:
+- type: ACTOR
+  id: Salesforce.com
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: application we interface with
+- type: ACTOR
+  id: sellular
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: activity
+- type: DATA
+  id: area of console you visit
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum you generate as part of relationship with sellular
+- type: DATA
+  id: device type
+- type: DATA
+  id: factor specific
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: google contact
+- type: DATA
+  id: history of usage
+- type: DATA
+  id: identification number
+- type: DATA
+  id: information about payment method
+- type: DATA
+  id: information you look for
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal data sellular maintain about you
+- type: DATA
+  id: personal information
+- type: DATA
+  id: voice call

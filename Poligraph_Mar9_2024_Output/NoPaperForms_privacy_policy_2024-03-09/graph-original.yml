@@ -1,0 +1,119 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to deliver content specific to your interests, to save your password
+    so that you do not have to re-enter it each time that you visit our Website (if
+    you choose), and for other purposes.
+  purposes:
+    services:
+    - to deliver content specific to your interests
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We collect information about you when you provide us your information through
+    forms, requests for information, applications for a school (i.e., Apply Online
+    Program), use our service to store your data on the NOPAPERFORMS.com profile,
+    or through other communications and interactions you have with us via our website,
+    email or telephone.
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - We use security features to collect the information you provide to us via our
+    Website in a secure manner.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - In addition, we use your IP address to help diagnose problems with our server,
+    and to administer our Website.
+  - We collect IP addresses.
+  purposes:
+    services:
+    - to help diagnose problems with our server, and to administer our Website
+- source: we
+  target: length of user session
+  key: COLLECT
+  text:
+  - The capture of your domain name is a common practice among websites for measuring
+    the number of hits, pages visited, and length of user session.
+  - We use this information to measure the effectiveness of the Website offerings
+    in order to service you better.
+  purposes:
+    analytics:
+    - to measure the effectiveness of the Website offerings in order to service you
+      better
+    services:
+    - in order to service you better
+- source: we
+  target: number of hit
+  key: COLLECT
+  text:
+  - The capture of your domain name is a common practice among websites for measuring
+    the number of hits, pages visited, and length of user session.
+  - We use this information to measure the effectiveness of the Website offerings
+    in order to service you better.
+  purposes:
+    analytics:
+    - to measure the effectiveness of the Website offerings in order to service you
+      better
+    services:
+    - in order to service you better
+- source: we
+  target: password
+  key: COLLECT
+  text:
+  - We use cookies to deliver content specific to your interests, to save your password
+    so that you do not have to re-enter it each time that you visit our Website (if
+    you choose), and for other purposes.
+  purposes:
+    services:
+    - to deliver content specific to your interests
+- source: partner who request it
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Field Force Location Tracking on NoPaperForms Mobile App'
+  - This information is exclusively shared with our partners who have requested it
+    and will be used only for mapping user locations.
+  purposes: {}
+- source: we
+  target: analytic provider
+  key: SUBSUM
+  text:
+  - 'We use the following services to monitor any data you input to our site: Web
+    analytics and Web hosting.'
+nodes:
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: partner who request it
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: length of user session
+- type: DATA
+  id: number of hit
+- type: DATA
+  id: password

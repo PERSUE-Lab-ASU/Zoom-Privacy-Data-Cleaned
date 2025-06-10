@@ -1,0 +1,116 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - FlightPath Academics, at your request, can confirm what information we hold about
+    you and how it is processed.
+  - In order for FlightPath Academics to provide users with access to our advising,
+    student success, or faculty activities software, we must collect and retain data
+    relating to student courses, grades, etc., as well as faculty information and
+    data.
+  purposes:
+    services:
+    - In order for FlightPath Academics to provide users with access to our advising,
+      student success, or faculty activities software
+- source: we
+  target: customization
+  key: COLLECT
+  text:
+  - We provide hosting and support on cloud-based environments, as well as custom
+    software development and customization for all of our products.
+  purposes: {}
+- source: we
+  target: datum relate to student course
+  key: COLLECT
+  text:
+  - In order for FlightPath Academics to provide users with access to our advising,
+    student success, or faculty activities software, we must collect and retain data
+    relating to student courses, grades, etc., as well as faculty information and
+    data.
+  purposes:
+    services:
+    - In order for FlightPath Academics to provide users with access to our advising,
+      student success, or faculty activities software
+- source: we
+  target: faculty information
+  key: COLLECT
+  text:
+  - In order for FlightPath Academics to provide users with access to our advising,
+    student success, or faculty activities software, we must collect and retain data
+    relating to student courses, grades, etc., as well as faculty information and
+    data.
+  purposes:
+    services:
+    - In order for FlightPath Academics to provide users with access to our advising,
+      student success, or faculty activities software
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy tells you how we, FlightPath Academics, will collect and use
+    your personal & student data to provide our service which allows faculty, staff,
+    administrators and students of Higher Education, to access the various features
+    of our software offerings (eg, FlightPath, Faculty Atlas, etc).
+  purposes:
+    services:
+    - to provide our service which allows faculty, staff, administrators and students
+      of Higher Education, to access the various features of our software offerings
+      (eg, FlightPath, Faculty Atlas, etc
+- source: flightpath academics
+  target: different form of personal datum
+  key: COLLECT
+  text:
+  - FlightPath Academics will processes different forms of personal data for as long
+    as is necessary and proportionate for the purpose for which it has been supplied
+    and will store the personal data for the shortest amount of time possible, taking
+    into account legal and service requirements.
+  purposes: {}
+- source: flightpath academics
+  target: faculty personal datum
+  key: COLLECT
+  text:
+  - FlightPath Academics collects faculty, staff, and student personal data from the
+    institutions of Higher Education we work with.
+  purposes: {}
+- source: flightpath academics
+  target: personal information
+  key: COLLECT
+  text:
+  - FlightPath Academics will processes different forms of personal data for as long
+    as is necessary and proportionate for the purpose for which it has been supplied
+    and will store the personal data for the shortest amount of time possible, taking
+    into account legal and service requirements.
+  purposes:
+    services:
+    - for the shortest amount of time possible
+- source: we
+  target: flightpath academics
+  key: SUBSUM
+  text:
+  - This Privacy Policy tells you how we, FlightPath Academics, will collect and use
+    your personal & student data to provide our service which allows faculty, staff,
+    administrators and students of Higher Education, to access the various features
+    of our software offerings (eg, FlightPath, Faculty Atlas, etc).
+nodes:
+- type: ACTOR
+  id: flightpath academics
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: customization
+- type: DATA
+  id: datum relate to student course
+- type: DATA
+  id: different form of personal datum
+- type: DATA
+  id: faculty information
+- type: DATA
+  id: faculty personal datum
+- type: DATA
+  id: personal information

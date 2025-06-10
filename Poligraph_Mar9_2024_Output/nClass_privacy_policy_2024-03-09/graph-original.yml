@@ -1,0 +1,170 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - A*  If you provide us personal information about others, or if others give us
+    your information, we will only use that information for the specific reason for
+    which it was provided to us.
+  - 'We also collect the following information from you:'
+  - 'We use this information to:'
+  - We will retain and use your information as necessary to comply with our legal
+    obligations, resolve disputes, and enforce our agreements.
+  - We will retain your information for as long as your account is active or as needed
+    to provide you services.
+  - We will share your information with third parties only in the ways that are described
+    in this privacy statement.
+  purposes:
+    legal:
+    - to comply with our legal obligations, resolve disputes, and enforce our agreements
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We use this aggregated information to understand and optimize how our site is
+    used, improve our marketing efforts, and provide content and features that are
+    of interest to you.
+  purposes:
+    advertising:
+    - to understand and optimize how our site is used, improve our marketing efforts,
+      and provide content and features that are of interest to you
+    analytics:
+    - to understand and optimize how our site is used, improve our marketing efforts,
+      and provide content and features that are of interest to you
+- source: we
+  target: cell id of tower close
+  key: COLLECT
+  text:
+  - If you allow these services, we will collect information about the WiFi routers
+    closest to you and the cell IDs of the towers closest to you.
+  - We use this information to provide the requested location-based service, not to
+    identify you.
+  purposes:
+    services:
+    - to provide the requested location-based service, not to identify you
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - We or a third party contracted by us may use technologies such as cookies, Web
+    beacons, or scripts to gather information about how you and others interact with
+    our Web site.
+  purposes: {}
+- source: we
+  target: information about computer
+  key: COLLECT
+  text:
+  - As is true of most Web sites, we automatically gather information about your computer
+    such as your IP address, browser type, referring/exit pages, and operating system.
+  purposes: {}
+- source: we
+  target: information about wifi router close
+  key: COLLECT
+  text:
+  - If you allow these services, we will collect information about the WiFi routers
+    closest to you and the cell IDs of the towers closest to you.
+  - We use this information to provide the requested location-based service, not to
+    identify you.
+  purposes:
+    services:
+    - to provide the requested location-based service, not to identify you
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We collect the following personal information from you:'
+  - We may disclose your personal information
+  - We may provide your personal information to companies that provide services to
+    help us with our business activities such as shipping your order or offering customer
+    service.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will share your information with third parties only in the ways that are described
+    in this privacy statement.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about
+  key: COLLECT
+  text:
+  - We or a third party contracted by us may use technologies such as cookies, Web
+    beacons, or scripts to gather information about how you and others interact with
+    our Web site.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties are authorized to use your personal information only as necessary
+    to provide these services to us.
+  - We may provide your personal information to companies that provide services to
+    help us with our business activities such as shipping your order or offering customer
+    service.
+  purposes: {}
+- source: product own
+  target: personal information
+  key: COLLECT
+  text:
+  - This privacy statement describes how nClass a,,C/ a product owned by NorthCanal
+    Group LLC  collects and uses the personal information you provide.
+  purposes: {}
+- source: service on site
+  target: geolocation
+  key: COLLECT
+  text:
+  - Some services on this site make use of location-based data.
+  purposes: {}
+- source: information about computer
+  target: browser type
+  key: SUBSUM
+  text:
+  - As is true of most Web sites, we automatically gather information about your computer
+    such as your IP address, browser type, referring/exit pages, and operating system.
+- source: information about computer
+  target: ip address
+  key: SUBSUM
+  text:
+  - As is true of most Web sites, we automatically gather information about your computer
+    such as your IP address, browser type, referring/exit pages, and operating system.
+- source: information about computer
+  target: operate system
+  key: SUBSUM
+  text:
+  - As is true of most Web sites, we automatically gather information about your computer
+    such as your IP address, browser type, referring/exit pages, and operating system.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: product own
+- type: ACTOR
+  id: service on site
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cell id of tower close
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about computer
+- type: DATA
+  id: information about wifi router close
+- type: DATA
+  id: ip address
+- type: DATA
+  id: operate system
+- type: DATA
+  id: personal information

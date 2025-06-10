@@ -1,0 +1,65 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: careers
+  key: SUBSUM
+  text:
+  - Careers
+  - Company
+- source: we
+  target: csr
+  key: SUBSUM
+  text:
+  - CSR
+  - Company
+- source: resource
+  target: blog
+  key: SUBSUM
+  text:
+  - 'Resources
+
+
+    Blog'
+- source: resource
+  target: customer support
+  key: SUBSUM
+  text:
+  - 'Resources
+
+
+    Customer Support'
+- source: resource
+  target: event
+  key: SUBSUM
+  text:
+  - 'Resources
+
+
+    Events'
+- source: resource
+  target: training academy
+  key: SUBSUM
+  text:
+  - 'Resources
+
+
+    Training Academy'
+nodes:
+- type: ACTOR
+  id: blog
+- type: ACTOR
+  id: careers
+- type: ACTOR
+  id: csr
+- type: ACTOR
+  id: customer support
+- type: ACTOR
+  id: event
+- type: ACTOR
+  id: resource
+- type: ACTOR
+  id: training academy
+- type: ACTOR
+  id: we

@@ -1,0 +1,234 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: acquire user information
+  key: COLLECT
+  text:
+  - 'Article 4 (Purpose of Use of User Information)
+
+
+    We use acquired User Information for the following purposes.'
+  purposes:
+    advertising:
+    - To announce information regarding the Services and respond to inquiries
+    services:
+    - To announce information regarding the Services and respond to inquiries
+- source: we
+  target: information process
+  key: COLLECT
+  text:
+  - 'Article 15 (Information Usage for Service Improvement)
+
+
+    In order for function development and quality improvement of the Service, we may
+    use the following information that has been statistically processed or anonymized
+    in order to prevent identification of individual User.'
+  purposes:
+    security:
+    - in order to prevent identification of individual User
+    - to prevent identification of individual User
+- source: we
+  target: personal date
+  key: COLLECT
+  text:
+  - We shall keep Personal Data accurate and up-to-date to the extent necessary to
+    achieve the purpose of use and when the retention period prescribed by law has
+    expired, or when Personal Date is no longer required to be used for achieving
+    the purpose of use stipulated in Article 4, we will strive to delete Personal
+    Data without delay.
+  purposes:
+    security:
+    - to delete Personal Data without delay
+- source: we
+  target: personal datum among acquire use information
+  key: COLLECT
+  text:
+  - 'Article 5 (Provision of Information to a Third Party)
+
+
+    1) We may provide Personal Data among the acquired Use Information to a third
+    party in the following cases:'
+  purposes:
+    analytics:
+    - in order to provide services in response to customers' requests, such as payment
+      processing, data analysis, and customer service
+    services:
+    - in order to provide services in response to customers' requests, such as payment
+      processing, data analysis, and customer service
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Article 6 (Joint Use of Acquired Personal Data)
+
+
+    If we need a business partner who works with us to provide the Services to you,
+    we may use your Personal Data jointly with our business partner.'
+  - We shall keep Personal Data accurate and up-to-date to the extent necessary to
+    achieve the purpose of use and when the retention period prescribed by law has
+    expired, or when Personal Date is no longer required to be used for achieving
+    the purpose of use stipulated in Article 4, we will strive to delete Personal
+    Data without delay.
+  purposes:
+    security:
+    - to delete Personal Data without delay
+- source: we
+  target: user information
+  key: COLLECT
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    We may obtain the following User Information from the Users.'
+  - 'Article 9 (Deletion of User Information)
+
+
+    We may retain User Information during and after expiration of our contractual
+    relationships with us, but we will not keep it unnecessarily.'
+  - If you permit us to obtain the User Information through a service operated by
+    a third party, we may obtain the User Information.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal datum among acquire use information
+  key: COLLECT
+  text:
+  - 'Article 5 (Provision of Information to a Third Party)
+
+
+    1) We may provide Personal Data among the acquired Use Information to a third
+    party in the following cases:'
+  purposes:
+    analytics:
+    - in order to provide services in response to customers' requests, such as payment
+      processing, data analysis, and customer service
+    services:
+    - in order to provide services in response to customers' requests, such as payment
+      processing, data analysis, and customer service
+- source: UNSPECIFIED_ACTOR
+  target: user information
+  key: COLLECT
+  text:
+  - 'Article 16 (Link)
+
+
+    On websites provided by companies other than ours linked from the Services, such
+    companies may acquire User Information, but this does not apply to this Privacy
+    Policy, and we do not assume any obligations or responsibilities for the business
+    to acquire customer information.'
+  purposes: {}
+- source: advertiser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Article 14 (Cookie)
+
+
+    Advertising Provider may use Cookie, access data, our identifiers, and customer
+    attributes to distribute advertisements that match your hobbies and preferences.'
+  - 'Article 14 (Cookie)
+
+
+    If the Cookie is set to be acceptable to the User, the Advertising Provider may
+    obtain Cookie information such as the browsing history of the User who uses the
+    services and distribute our advertisements on the Advertising provider media.'
+  purposes:
+    advertising:
+    - to distribute advertisements that match your hobbies and preferences
+- source: advertiser
+  target: customer attribute
+  key: COLLECT
+  text:
+  - 'Article 14 (Cookie)
+
+
+    Advertising Provider may use Cookie, access data, our identifiers, and customer
+    attributes to distribute advertisements that match your hobbies and preferences.'
+  purposes:
+    advertising:
+    - to distribute advertisements that match your hobbies and preferences
+- source: advertiser
+  target: identifier
+  key: COLLECT
+  text:
+  - 'Article 14 (Cookie)
+
+
+    Advertising Provider may use Cookie, access data, our identifiers, and customer
+    attributes to distribute advertisements that match your hobbies and preferences.'
+  purposes:
+    advertising:
+    - to distribute advertisements that match your hobbies and preferences
+- source: advertiser
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'Article 14 (Cookie)
+
+
+    Advertising Provider may use Cookie, access data, our identifiers, and customer
+    attributes to distribute advertisements that match your hobbies and preferences.'
+  purposes:
+    advertising:
+    - to distribute advertisements that match your hobbies and preferences
+- source: chatwork
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Chatwork uses Cookies to provide its services.
+  purposes:
+    services:
+    - to provide its services
+- source: cookie / pixel tag
+  target: browsing / search history
+  key: SUBSUM
+  text:
+  - 'Article 14 (Cookie)
+
+
+    If the Cookie is set to be acceptable to the User, the Advertising Provider may
+    obtain Cookie information such as the browsing history of the User who uses the
+    services and distribute our advertisements on the Advertising provider media.'
+- source: information process
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'Article 15 (Information Usage for Service Improvement)
+
+
+    In order for function development and quality improvement of the Service, we may
+    use the following information that has been statistically processed or anonymized
+    in order to prevent identification of individual User.'
+  - Information about Usage Plan
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: chatwork
+- type: ACTOR
+  id: we
+- type: DATA
+  id: acquire user information
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer attribute
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information process
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: personal date
+- type: DATA
+  id: personal datum among acquire use information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: user information

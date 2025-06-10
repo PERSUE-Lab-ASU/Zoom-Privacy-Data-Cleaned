@@ -1,0 +1,139 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use "cookies" to collect information.
+  purposes: {}
+- source: we
+  target: client datum
+  key: COLLECT
+  text:
+  - This means, we will retain client data for as long as the client has a current
+    and active account with ScheduleHouse.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use "cookies" to collect information.
+  purposes: {}
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+  purposes: {}
+- source: we
+  target: log data
+  key: COLLECT
+  text:
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+  purposes: {}
+- source: schedulehouse
+  target: client datum
+  key: COLLECT
+  text:
+  - As outlined in our standard contract terms, once a client's term has expired or
+    has been terminated, then ScheduleHouse will no longer retain the client data.
+  - ScheduleHouse will only retain client data for as long as needed.
+  purposes: {}
+- source: secure payment gateway
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - If paying by Credit Card, the credit card number asked for is not stored by ScheduleHouse,
+    but instead is only used by the Secure Payment Gateway.
+  purposes: {}
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with small amount of data, which may include an anonymous unique
+    identifier.
+- source: log data
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our website that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+- source: log data
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our website that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+- source: log data
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our website that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+- source: log data
+  target: statistic
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our website that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+- source: log data
+  target: time
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our website that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We may collect information that your browser sends whenever you visit our website
+    ("Log Data").
+nodes:
+- type: ACTOR
+  id: schedulehouse
+- type: ACTOR
+  id: secure payment gateway
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: client datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log data
+- type: DATA
+  id: statistic
+- type: DATA
+  id: time

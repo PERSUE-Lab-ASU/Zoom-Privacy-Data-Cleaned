@@ -1,0 +1,596 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'This enables you to ask us to suspend the processing of your personal data in
+    the following scenarios: (a) if you want us to establish the data''s accuracy;
+    (b) where our use of the data is unlawful but you do not want us to erase it;
+    (c) where you need us to hold the data even if we no longer require it as you
+    need it to establish, exercise or defend legal claims; or (d) you have objected
+    to our use of your data but we need to verify whether we have overriding legitimate
+    grounds to use it.'
+  - 'We may collect and process the following data about you: When we engage you to
+    provide us with your goods or services, we may collect data as follows: your name,
+    your email address, your phone number, your quotes, transaction details about
+    payments made to you, your bank details and other details of services or goods
+    we have purchased from you.'
+  - 'We may collect and process the following data about you: When you visit Our Site,
+    we may collect data such as information about your geolocation, weblogs and other
+    communication that is available from the browser.'
+  purposes: {}
+- source: we
+  target: bank detail
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When we engage you to
+    provide us with your goods or services, we may collect data as follows: your name,
+    your email address, your phone number, your quotes, transaction details about
+    payments made to you, your bank details and other details of services or goods
+    we have purchased from you.'
+  purposes: {}
+- source: we
+  target: communication
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When you visit Our Site,
+    we may collect data such as information about your geolocation, weblogs and other
+    communication that is available from the browser.'
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: If you submit a job
+    application to us, we will collect your contact details and any other information
+    that you provide in the application.'
+  - 'We may collect and process the following data about you: When you contact us
+    by any other means (e.g. email or telephone), we may keep a record of that contact
+    and the information you provide us with at the time.'
+  - 'We may collect and process the following data about you: When you fill in a form
+    on our website to request a demo, we will collect your contact details and the
+    information you provide in the form.'
+  purposes: {}
+- source: we
+  target: datum about you
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When you engage us to
+    provide you with our services, we may collect data about you as follows: your
+    name, your email address, your password, your telephone number, including your
+    mobile number, your company billing address and your company''s banking details.'
+  purposes:
+    analytics:
+    - for research purposes
+    - in order to develop our business and our customer relationship list
+    security:
+    - to be removed from our service at any time
+    services:
+    - in order to develop our business and our customer relationship list
+    - to be removed from our service at any time
+- source: we
+  target: datum relate to usage of service
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When you use our services,
+    we may collect information provided at the time of registering with www.glasscubes.com
+    ("Our Site"), or requesting services or information from us as follows: your name,
+    your email address, your phone number, and any data relating to your usage of
+    our services.'
+  purposes: {}
+- source: we
+  target: detail of service we purchase from you
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When we engage you to
+    provide us with your goods or services, we may collect data as follows: your name,
+    your email address, your phone number, your quotes, transaction details about
+    payments made to you, your bank details and other details of services or goods
+    we have purchased from you.'
+  purposes: {}
+- source: we
+  target: detail of service you purchase from we
+  key: COLLECT
+  text:
+  - We may also collect information about your assets, transaction details about payments
+    made to and from you and other details of services you have purchased from us.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When we engage you to
+    provide us with your goods or services, we may collect data as follows: your name,
+    your email address, your phone number, your quotes, transaction details about
+    payments made to you, your bank details and other details of services or goods
+    we have purchased from you.'
+  - 'We may collect and process the following data about you: When you use our services,
+    we may collect information provided at the time of registering with www.glasscubes.com
+    ("Our Site"), or requesting services or information from us as follows: your name,
+    your email address, your phone number, and any data relating to your usage of
+    our services.'
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When you visit Our Site,
+    we may collect data such as information about your geolocation, weblogs and other
+    communication that is available from the browser.'
+  purposes: {}
+- source: we
+  target: information about asset
+  key: COLLECT
+  text:
+  - We may also collect information about your assets, transaction details about payments
+    made to and from you and other details of services you have purchased from us.
+  purposes: {}
+- source: we
+  target: information about preference
+  key: COLLECT
+  text:
+  - 'They enable us: to store information about your preferences, and so allow us
+    to customise Our Site according to your individual interests;'
+  purposes: {}
+- source: we
+  target: information provide at time of
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When you use our services,
+    we may collect information provided at the time of registering with www.glasscubes.com
+    ("Our Site"), or requesting services or information from us as follows: your name,
+    your email address, your phone number, and any data relating to your usage of
+    our services.'
+  purposes: {}
+- source: we
+  target: information you provide in application
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: If you submit a job
+    application to us, we will collect your contact details and any other information
+    that you provide in the application.'
+  purposes: {}
+- source: we
+  target: information you provide in form
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When you fill in a form
+    on our website to request a demo, we will collect your contact details and the
+    information you provide in the form.'
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When you complete a
+    survey or participate in competitions, we may collect the information that you
+    provide to us for research purposes.'
+  purposes:
+    analytics:
+    - for research purposes
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - As you interact with our website, we may automatically collect information about
+    your website usage such as information about your equipment, your IP address,
+    operating system and browser type for system administration.
+  - For the same reason and like most websites, we may obtain information about your
+    general internet usage by using a cookie file which is stored on the hard drive
+    of your computer.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When we engage you to
+    provide us with your goods or services, we may collect data as follows: your name,
+    your email address, your phone number, your quotes, transaction details about
+    payments made to you, your bank details and other details of services or goods
+    we have purchased from you.'
+  - 'We may collect and process the following data about you: When you use our services,
+    we may collect information provided at the time of registering with www.glasscubes.com
+    ("Our Site"), or requesting services or information from us as follows: your name,
+    your email address, your phone number, and any data relating to your usage of
+    our services.'
+  purposes: {}
+- source: we
+  target: personal datum in structured use machine readable format
+  key: COLLECT
+  text:
+  - We will provide to you, or a third party you have chosen, your personal data in
+    a structured, commonly used, machine-readable format.
+  purposes: {}
+- source: we
+  target: personal datum of prospect customer
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: We may collect personal
+    data of prospect customers from third-parties in order to develop our business
+    and our customer relationship list.'
+  purposes:
+    analytics:
+    - in order to develop our business and our customer relationship list
+    services:
+    - in order to develop our business and our customer relationship list
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'PRIVACY POLICY
+
+
+    WHO WE SHARE YOUR PERSONAL DATA WITH'
+  - Please note that we may process your personal data without your knowledge or consent,
+    in compliance with the above rules, where this is required or permitted by law.
+  - WHERE WE STORE YOUR PERSONAL DATA AND HOW IT IS KEPT SECURE
+  - 'We may collect and process the following data about you: If your personal data
+    is on publicly available sources (such as LinkedIn and Companies House) then we
+    may collect your personal data that is available on these sources.'
+  - 'We may collect and process the following data about you: When you have consented
+    to receive marketing and technical information from us, we collect personal data
+    such as your name, your email address and your account URL.'
+  - 'We may collect and process the following data about you: When you provide a review
+    of our services and our performance on a third-party platform (such as on Capterra
+    or TrustPilot), we may collect personal data such as your name and email address.'
+  - 'We may disclose your personal data with third-parties as follows:'
+  - We only retain your personal data for as long as necessary to fulfil the purposes
+    we collected it for, including for the purposes of satisfying any legal, accounting
+    or reporting requirements.
+  - We will only use your personal data for the purposes for which we collected it,
+    unless we reasonably consider that we need to use it for another reason and that
+    reason is compatible with the original purpose.
+  - 'Whenever we transfer your personal data out of the UK, we ensure a similar degree
+    of protection is afforded to it by ensuring at least one of the following safeguards
+    is implemented: We will only transfer your personal data to countries that have
+    been deemed to provide an adequate level of protection for personal data;'
+  purposes:
+    legal:
+    - in order to comply with our contractual obligations as set out in our terms
+      of service and other agreements in place
+    - to fulfil the purposes we collected it for
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When we engage you to
+    provide us with your goods or services, we may collect data as follows: your name,
+    your email address, your phone number, your quotes, transaction details about
+    payments made to you, your bank details and other details of services or goods
+    we have purchased from you.'
+  - 'We may collect and process the following data about you: When you use our services,
+    we may collect information provided at the time of registering with www.glasscubes.com
+    ("Our Site"), or requesting services or information from us as follows: your name,
+    your email address, your phone number, and any data relating to your usage of
+    our services.'
+  purposes: {}
+- source: we
+  target: quote
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When we engage you to
+    provide us with your goods or services, we may collect data as follows: your name,
+    your email address, your phone number, your quotes, transaction details about
+    payments made to you, your bank details and other details of services or goods
+    we have purchased from you.'
+  purposes: {}
+- source: we
+  target: transaction detail about payment make to
+  key: COLLECT
+  text:
+  - We may also collect information about your assets, transaction details about payments
+    made to and from you and other details of services you have purchased from us.
+  purposes: {}
+- source: we
+  target: transaction detail about payment make to you
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: When we engage you to
+    provide us with your goods or services, we may collect data as follows: your name,
+    your email address, your phone number, your quotes, transaction details about
+    payments made to you, your bank details and other details of services or goods
+    we have purchased from you.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal datum in structured use machine readable format
+  key: COLLECT
+  text:
+  - We will provide to you, or a third party you have chosen, your personal data in
+    a structured, commonly used, machine-readable format.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose your personal data with third-parties as follows:'
+  purposes:
+    legal:
+    - in order to comply with our contractual obligations as set out in our terms
+      of service and other agreements in place
+- source: credit reference agency
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose your personal data with third-parties as follows: With other
+    organisations, such as credit reference agencies and fraud prevention agencies
+    on the basis that we have a legitimate interest in preventing and protection ourselves
+    and our customers against fraud.'
+  purposes:
+    legal:
+    - in order to comply with our contractual obligations as set out in our terms
+      of service and other agreements in place
+- source: employee
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition, we limit access to your personal data to those employees, agents,
+    contractors and other third-parties who have a business need to know.
+  - They will only process your personal data on our instructions and they are subject
+    to a duty of confidentiality.
+  purposes: {}
+- source: fraud prevention agency
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose your personal data with third-parties as follows: With other
+    organisations, such as credit reference agencies and fraud prevention agencies
+    on the basis that we have a legitimate interest in preventing and protection ourselves
+    and our customers against fraud.'
+  purposes:
+    legal:
+    - in order to comply with our contractual obligations as set out in our terms
+      of service and other agreements in place
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose your personal data with third-parties as follows: With other
+    service providers who we engage to assist us in providing our services (such as
+    hosting partners which host our servers, with a customer success tool provider
+    that helps us improve your experience when using our services, emails broadcaster
+    that helps us in sending you monthly marketing and technical information, forum
+    providers which enable our users to exchange ideas on how to improve our services,
+    and financial services providers which process payments made to and from us) in
+    order to comply with our contractual obligations as set out in our terms of service
+    and other agreements in place.'
+  purposes:
+    legal:
+    - in order to comply with our contractual obligations as set out in our terms
+      of service and other agreements in place
+- source: we
+  target: customer success tool provider help
+  key: SUBSUM
+  text:
+  - 'We may disclose your personal data with third-parties as follows: With other
+    service providers who we engage to assist us in providing our services (such as
+    hosting partners which host our servers, with a customer success tool provider
+    that helps us improve your experience when using our services, emails broadcaster
+    that helps us in sending you monthly marketing and technical information, forum
+    providers which enable our users to exchange ideas on how to improve our services,
+    and financial services providers which process payments made to and from us) in
+    order to comply with our contractual obligations as set out in our terms of service
+    and other agreements in place.'
+- source: we
+  target: financial service provider process payment make to
+  key: SUBSUM
+  text:
+  - 'We may disclose your personal data with third-parties as follows: With other
+    service providers who we engage to assist us in providing our services (such as
+    hosting partners which host our servers, with a customer success tool provider
+    that helps us improve your experience when using our services, emails broadcaster
+    that helps us in sending you monthly marketing and technical information, forum
+    providers which enable our users to exchange ideas on how to improve our services,
+    and financial services providers which process payments made to and from us) in
+    order to comply with our contractual obligations as set out in our terms of service
+    and other agreements in place.'
+- source: we
+  target: forum provider
+  key: SUBSUM
+  text:
+  - 'We may disclose your personal data with third-parties as follows: With other
+    service providers who we engage to assist us in providing our services (such as
+    hosting partners which host our servers, with a customer success tool provider
+    that helps us improve your experience when using our services, emails broadcaster
+    that helps us in sending you monthly marketing and technical information, forum
+    providers which enable our users to exchange ideas on how to improve our services,
+    and financial services providers which process payments made to and from us) in
+    order to comply with our contractual obligations as set out in our terms of service
+    and other agreements in place.'
+- source: we
+  target: glasscubes limited
+  key: SUBSUM
+  text:
+  - 'PRIVACY POLICY
+
+
+    Glasscubes Limited (" we ", " us ") are committed to protecting and respecting
+    your privacy and personal data.'
+- source: we
+  target: hosting partner
+  key: SUBSUM
+  text:
+  - 'We may disclose your personal data with third-parties as follows: With other
+    service providers who we engage to assist us in providing our services (such as
+    hosting partners which host our servers, with a customer success tool provider
+    that helps us improve your experience when using our services, emails broadcaster
+    that helps us in sending you monthly marketing and technical information, forum
+    providers which enable our users to exchange ideas on how to improve our services,
+    and financial services providers which process payments made to and from us) in
+    order to comply with our contractual obligations as set out in our terms of service
+    and other agreements in place.'
+- source: we
+  target: support
+  key: SUBSUM
+  text:
+  - To administer and protect our business and the services we provide to you (including
+    troubleshooting, data analysis, testing, system maintenance, support, reporting
+    and hosting of data) on the basis that it is necessary to comply with our contractual
+    obligation to you and that we have a legitimate interest to do so (for running
+    the services you use, the provision of administration and IT services, network
+    security and to prevent fraud).
+- source: we
+  target: system maintenance
+  key: SUBSUM
+  text:
+  - To administer and protect our business and the services we provide to you (including
+    troubleshooting, data analysis, testing, system maintenance, support, reporting
+    and hosting of data) on the basis that it is necessary to comply with our contractual
+    obligation to you and that we have a legitimate interest to do so (for running
+    the services you use, the provision of administration and IT services, network
+    security and to prevent fraud).
+- source: internet activity
+  target: browser type
+  key: SUBSUM
+  text:
+  - As you interact with our website, we may automatically collect information about
+    your website usage such as information about your equipment, your IP address,
+    operating system and browser type for system administration.
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - As you interact with our website, we may automatically collect information about
+    your website usage such as information about your equipment, your IP address,
+    operating system and browser type for system administration.
+- source: internet activity
+  target: operating system
+  key: SUBSUM
+  text:
+  - As you interact with our website, we may automatically collect information about
+    your website usage such as information about your equipment, your IP address,
+    operating system and browser type for system administration.
+- source: personal information
+  target: account url
+  key: SUBSUM
+  text:
+  - 'We may collect and process the following data about you: When you have consented
+    to receive marketing and technical information from us, we collect personal data
+    such as your name, your email address and your account URL.'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'We may collect and process the following data about you: When you have consented
+    to receive marketing and technical information from us, we collect personal data
+    such as your name, your email address and your account URL.'
+  - 'We may collect and process the following data about you: When you provide a review
+    of our services and our performance on a third-party platform (such as on Capterra
+    or TrustPilot), we may collect personal data such as your name and email address.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'We may collect and process the following data about you: When you have consented
+    to receive marketing and technical information from us, we collect personal data
+    such as your name, your email address and your account URL.'
+  - 'We may collect and process the following data about you: When you provide a review
+    of our services and our performance on a third-party platform (such as on Capterra
+    or TrustPilot), we may collect personal data such as your name and email address.'
+- source: phone number
+  target: banking detail
+  key: SUBSUM
+  text:
+  - 'We may collect and process the following data about you: When you engage us to
+    provide you with our services, we may collect data about you as follows: your
+    name, your email address, your password, your telephone number, including your
+    mobile number, your company billing address and your company''s banking details.'
+- source: phone number
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'We may collect and process the following data about you: When you engage us to
+    provide you with our services, we may collect data about you as follows: your
+    name, your email address, your password, your telephone number, including your
+    mobile number, your company billing address and your company''s banking details.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: credit reference agency
+- type: ACTOR
+  id: customer success tool provider help
+- type: ACTOR
+  id: employee
+- type: ACTOR
+  id: financial service provider process payment make to
+- type: ACTOR
+  id: forum provider
+- type: ACTOR
+  id: fraud prevention agency
+- type: ACTOR
+  id: glasscubes limited
+- type: ACTOR
+  id: hosting partner
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: support
+- type: ACTOR
+  id: system maintenance
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account url
+- type: DATA
+  id: bank detail
+- type: DATA
+  id: banking detail
+- type: DATA
+  id: browser type
+- type: DATA
+  id: communication
+- type: DATA
+  id: contact information
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: datum relate to usage of service
+- type: DATA
+  id: detail of service we purchase from you
+- type: DATA
+  id: detail of service you purchase from we
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about asset
+- type: DATA
+  id: information about preference
+- type: DATA
+  id: information provide at time of
+- type: DATA
+  id: information you provide in application
+- type: DATA
+  id: information you provide in form
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: operating system
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum in structured use machine readable format
+- type: DATA
+  id: personal datum of prospect customer
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: quote
+- type: DATA
+  id: transaction detail about payment make to
+- type: DATA
+  id: transaction detail about payment make to you

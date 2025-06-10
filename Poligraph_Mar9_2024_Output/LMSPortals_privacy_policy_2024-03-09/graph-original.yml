@@ -1,0 +1,29 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - And so we have developed a Privacy Policy that addresses how we collect, use,
+    disclose, transfer, and store your personal information [1] .
+  - We will retain your personal information for the period necessary to fulfill the
+    purposes outlined in this Privacy Policy and our service specific privacy summaries.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - You may be asked to provide your personal information anytime you are in contact
+    with LMS Portals, LLC.
+  - and its affiliates may share this personal information with each other and use
+    it consistent with this Privacy Policy.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal information

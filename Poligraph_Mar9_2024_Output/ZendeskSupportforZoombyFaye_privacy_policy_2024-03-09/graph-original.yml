@@ -1,0 +1,74 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - At times we may request that you voluntarily supply us with personal information.
+  purposes: {}
+- source: service provider for it
+  target: personal information
+  key: COLLECT
+  text:
+  - 'FBSG, Inc., the service providers for it, and all vendors providing products
+    or services through our web site use your personal information: to operate our
+    web site and/or effect your transactions; to create and share reports about your
+    transactions among themselves.'
+  - 'FBSG, Inc., the service providers for it, and all vendors providing products
+    or services through our website use your personal information: to operate our
+    website and/or effect your transactions; to create and share reports about your
+    transactions among themselves.'
+  purposes:
+    analytics:
+    - to operate our web site and/or effect your transactions; to create and share
+      reports about your transactions among themselves
+    - to operate our website and/or effect your transactions; to create and share
+      reports about your transactions among themselves
+    services:
+    - to operate our web site and/or effect your transactions; to create and share
+      reports about your transactions among themselves
+    - to operate our website and/or effect your transactions; to create and share
+      reports about your transactions among themselves
+- source: vendor provide product through web site
+  target: personal information
+  key: COLLECT
+  text:
+  - 'FBSG, Inc., the service providers for it, and all vendors providing products
+    or services through our web site use your personal information: to operate our
+    web site and/or effect your transactions; to create and share reports about your
+    transactions among themselves.'
+  purposes:
+    analytics:
+    - to operate our web site and/or effect your transactions; to create and share
+      reports about your transactions among themselves
+    services:
+    - to operate our web site and/or effect your transactions; to create and share
+      reports about your transactions among themselves
+- source: vendor provide product through website
+  target: personal information
+  key: COLLECT
+  text:
+  - 'FBSG, Inc., the service providers for it, and all vendors providing products
+    or services through our website use your personal information: to operate our
+    website and/or effect your transactions; to create and share reports about your
+    transactions among themselves.'
+  purposes:
+    analytics:
+    - to operate our website and/or effect your transactions; to create and share
+      reports about your transactions among themselves
+    services:
+    - to operate our website and/or effect your transactions; to create and share
+      reports about your transactions among themselves
+nodes:
+- type: ACTOR
+  id: service provider for it
+- type: ACTOR
+  id: vendor provide product through web site
+- type: ACTOR
+  id: vendor provide product through website
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal information

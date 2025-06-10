@@ -1,0 +1,59 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - Once you decide to subscribe, we need you to provide your credit card details,
+    number of Agents (operators) seats, and subscription period.
+  purposes: {}
+- source: we
+  target: information gather from user of services
+  key: COLLECT
+  text:
+  - The Privacy Policy describes how we collect and handle any information gathered
+    from users of the Services.
+  purposes: {}
+- source: we
+  target: number of agent seat
+  key: COLLECT
+  text:
+  - Once you decide to subscribe, we need you to provide your credit card details,
+    number of Agents (operators) seats, and subscription period.
+  purposes: {}
+- source: novocall pte ltd
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Customer agrees that Novocall Pte Ltd gathers anonymous information about the
+    functioning of Novocall Pte Ltd Service for Customer.
+  - Novocall Pte Ltd may process this information and publish the data for marketing
+    purposes for current and prospective customers.
+  purposes: {}
+- source: independent contractor
+  target: sub
+  key: SUBSUM
+  text:
+  - '"Third Party Service Provider" means any third party that collects, process,
+    and/or uses Personal Information under the instruction of Novocall Pte Ltd including
+    any consultant, representative, advisor, or independent contractor (including
+    Sub-processors) who renders services to the Company, a subsidiary, or an affiliate.'
+nodes:
+- type: ACTOR
+  id: independent contractor
+- type: ACTOR
+  id: novocall pte ltd
+- type: ACTOR
+  id: sub
+- type: ACTOR
+  id: we
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: information gather from user of services
+- type: DATA
+  id: number of agent seat

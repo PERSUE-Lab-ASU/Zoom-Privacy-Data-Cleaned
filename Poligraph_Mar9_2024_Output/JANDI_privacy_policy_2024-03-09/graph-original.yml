@@ -1,0 +1,174 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 1 Upon registration - We use your information to verify, authorize your identification,
+    prevent fraudulent use of JANDI, notify any change on JANDI, or comply with applicable
+    laws and legal obligations.
+  - 2 While you're using JANDI - We use your information to confirm identity and age
+    verification, provide JANDI, send invoices and contents, and process payments.
+  - 3 For marketing and ads - We use your information to provide few features on JANDI,
+    offer event participation, and process your usage analysis.
+  - We automatically collect information on the type of device you use, operating
+    system version, and device-specific identifiers when you use JANDI.
+  purposes:
+    advertising:
+    - For marketing and ads
+    analytics:
+    - to provide few features on JANDI, offer event participation, and process your
+      usage analysis
+    security:
+    - to confirm identity and age verification, provide JANDI, send invoices and contents,
+      and process payments
+    - to verify, authorize your identification, prevent fraudulent use of JANDI, notify
+      any change on JANDI, or comply with applicable laws and legal obligations
+    services:
+    - to confirm identity and age verification, provide JANDI, send invoices and contents,
+      and process payments
+    - to provide few features on JANDI, offer event participation, and process your
+      usage analysis
+- source: we
+  target: access record
+  key: COLLECT
+  text:
+  - 6 Retention and Forgery Prevention of Access Records - We retain your access records
+    for 2 years at least to prevent forgery, theft, or loss.
+  purposes:
+    security:
+    - to prevent forgery, theft, or loss
+- source: we
+  target: carrier information
+  key: COLLECT
+  text:
+  - We may also collect your credit card information, carrier information, promotional
+    code or gift certificate numbers, or other information required for payment processing
+    when you use paid Services.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - To provide you with JANDI, we use Cookies saved on your personal computer ("PC")
+    and retrieved whenever required for any PC-based services.
+  purposes:
+    services:
+    - To provide you with JANDI
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - We may also collect your credit card information, carrier information, promotional
+    code or gift certificate numbers, or other information required for payment processing
+    when you use paid Services.
+  purposes: {}
+- source: we
+  target: important datum
+  key: COLLECT
+  text:
+  - We store and manage your password and Important Data defined under the Personal
+    Information Protection Act by encryption, which allows only you to have access.
+  purposes: {}
+- source: we
+  target: information require for payment processing
+  key: COLLECT
+  text:
+  - We may also collect your credit card information, carrier information, promotional
+    code or gift certificate numbers, or other information required for payment processing
+    when you use paid Services.
+  purposes: {}
+- source: we
+  target: information we receive from visitor to jandi website
+  key: COLLECT
+  text:
+  - This privacy policy ("Privacy Policy") is designed to help you understand how
+    we collect, use, and protect the information we receive from visitors to the JANDI
+    website ("Website") and users of JANDI ("JANDI").
+  purposes: {}
+- source: we
+  target: password
+  key: COLLECT
+  text:
+  - We store and manage your password and Important Data defined under the Personal
+    Information Protection Act by encryption, which allows only you to have access.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may collect and use your personal information for the following purposes only.
+  purposes: {}
+- source: we
+  target: promotional code number
+  key: COLLECT
+  text:
+  - We may also collect your credit card information, carrier information, promotional
+    code or gift certificate numbers, or other information required for payment processing
+    when you use paid Services.
+  purposes: {}
+- source: analytic provider
+  target: information as
+  key: COLLECT
+  text:
+  - This software may record information such as how often you use the application,
+    the events that occur within the application, aggregated usage, performance data,
+    and technical issues.
+  - We use mobile analytics software to allow us to better understand the functionality
+    of our application on your phone.
+  purposes: {}
+- source: jandi
+  target: information you agree
+  key: COLLECT
+  text:
+  - 1 JANDI will use and archive the information that you have agreed to provide to
+    us by relevant laws and regulations.
+  purposes: {}
+- source: separate db
+  target: information enter
+  key: COLLECT
+  text:
+  - The information entered by the user is transferred to a separate DB after the
+    purpose is achieved (separate documents in the case of paper) and stored for a
+    certain period or immediately destroyed according to internal policies and other
+    related laws.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: jandi
+- type: ACTOR
+  id: separate db
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access record
+- type: DATA
+  id: carrier information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: important datum
+- type: DATA
+  id: information as
+- type: DATA
+  id: information enter
+- type: DATA
+  id: information require for payment processing
+- type: DATA
+  id: information we receive from visitor to jandi website
+- type: DATA
+  id: information you agree
+- type: DATA
+  id: password
+- type: DATA
+  id: personal information
+- type: DATA
+  id: promotional code number

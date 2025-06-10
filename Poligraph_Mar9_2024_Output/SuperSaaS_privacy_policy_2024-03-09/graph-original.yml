@@ -1,0 +1,282 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'SuperSaaS processes personal information for the purposes described above, and
+    in addition to the above we use the information to:'
+  purposes:
+    advertising:
+    - 'to: provide our products and services to users, including the display of customized
+      content and advertising'
+    analytics:
+    - 'to: audit, research and analyze'
+    security:
+    - in order to maintain, protect and improve our services
+    - to maintain, protect and improve our services
+    services:
+    - in order to maintain, protect and improve our services
+    - to maintain, protect and improve our services
+    - 'to: develop new services'
+    - 'to: ensure the technical functioning of our network'
+    - 'to: provide our products and services to users, including the display of customized
+      content and advertising'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'In order to provide our full range of services, we may collect the following
+    types of information: SuperSaaS cookies -'
+  - We use cookies to improve the quality of our service by storing user preferences
+    and tracking visitor trends.
+  purposes:
+    analytics:
+    - to improve the quality of our service by storing user preferences and tracking
+      visitor trends
+    security:
+    - for personal information (such as your name, email address and an account password)
+    services:
+    - In order to provide our full range of services
+    - for personal information (such as your name, email address and an account password)
+    - in order to process your inquiries, respond to your requests and improve our
+      services
+    - to improve the quality of our service by storing user preferences and tracking
+      visitor trends
+    - to process your inquiries, respond to your requests and improve our services
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - 'In order to provide our full range of services, we may collect the following
+    types of information: Log information - When you use SuperSaaS services, our servers
+    automatically record information that your browser sends whenever you use a web
+    application.'
+  purposes:
+    services:
+    - In order to provide our full range of services
+- source: we
+  target: information you provide
+  key: COLLECT
+  text:
+  - 'In order to provide our full range of services, we may collect the following
+    types of information: Information you provide - When you sign up for a SuperSaaS
+    account we ask you for personal information (such as your name, email address
+    and an account password).'
+  purposes:
+    security:
+    - for personal information (such as your name, email address and an account password)
+    services:
+    - In order to provide our full range of services
+    - for personal information (such as your name, email address and an account password)
+    - in order to process your inquiries, respond to your requests and improve our
+      services
+    - to process your inquiries, respond to your requests and improve our services
+- source: we
+  target: log information
+  key: COLLECT
+  text:
+  - 'In order to provide our full range of services, we may collect the following
+    types of information: Log information - When you use SuperSaaS services, our servers
+    automatically record information that your browser sends whenever you use a web
+    application.'
+  purposes:
+    services:
+    - In order to provide our full range of services
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In some cases, we may process personal information on behalf of and according
+    to the instructions of a third party, such as our advertising partners.
+  - In some cases, we process personal information on a server outside your own country
+    but we do not process information on servers outside the European Union.
+  - 'Information sharing
+
+
+    SuperSaaS only shares personal information with other companies or individuals
+    outside SuperSaaS in the following limited circumstances:'
+  - 'SuperSaaS only shares personal information with other companies or individuals
+    outside SuperSaaS in the following limited circumstances: We may provide such
+    information to affiliated companies or other trusted businesses or persons for
+    the purpose of processing personal information on our behalf.'
+  - We may process your personal information to provide our own services.
+  - When you sign up for a particular service that requires registration, we ask you
+    to provide personal information.
+  purposes:
+    analytics:
+    - for the purpose of processing personal information on our behalf
+    services:
+    - for the purpose of processing personal information on our behalf
+    - to provide our own services
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - On some pages of the free service, Google AdSense uses cookies to serve these
+    ads.
+  purposes:
+    advertising:
+    - to serve these ads
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Information sharing
+
+
+    SuperSaaS only shares personal information with other companies or individuals
+    outside SuperSaaS in the following limited circumstances:'
+  purposes:
+    analytics:
+    - for the purpose of processing personal information on our behalf
+    services:
+    - for the purpose of processing personal information on our behalf
+- source: affiliated company
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Information sharing
+
+
+    SuperSaaS only shares personal information with other companies or individuals
+    outside SuperSaaS in the following limited circumstances:'
+  - 'SuperSaaS only shares personal information with other companies or individuals
+    outside SuperSaaS in the following limited circumstances: We may provide such
+    information to affiliated companies or other trusted businesses or persons for
+    the purpose of processing personal information on our behalf.'
+  purposes:
+    analytics:
+    - for the purpose of processing personal information on our behalf
+    services:
+    - for the purpose of processing personal information on our behalf
+- source: site who provide supersaas service as part of own offering
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These other sites may place their own cookies or other files on your computer,
+    collect data or solicit personal information from you.
+  - We do not exercise control over the sites who provide SuperSaaS services as part
+    of their own offering.
+  purposes: {}
+- source: site who provide supersaas service as part of own offering
+  target: personal information
+  key: COLLECT
+  text:
+  - These other sites may place their own cookies or other files on your computer,
+    collect data or solicit personal information from you.
+  - We do not exercise control over the sites who provide SuperSaaS services as part
+    of their own offering.
+  purposes: {}
+- source: supersaas
+  target: appointment datum
+  key: COLLECT
+  text:
+  - SuperSaaS processes personal information and appointment and booking data on our
+    servers in the Netherlands and in other countries.
+  purposes: {}
+- source: supersaas
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Data integrity
+
+
+    SuperSaaS processes personal information only for the purposes for which it was
+    collected and in accordance with this Policy or any applicable service-specific
+    privacy notice.'
+  - 'Information sharing
+
+
+    SuperSaaS only shares personal information with other companies or individuals
+    outside SuperSaaS in the following limited circumstances:'
+  - SuperSaaS processes personal information and appointment and booking data on our
+    servers in the Netherlands and in other countries.
+  - 'SuperSaaS processes personal information for the purposes described above, and
+    in addition to the above we use the information to:'
+  purposes:
+    analytics:
+    - for the purpose of processing personal information on our behalf
+    - only for the purposes for which it was collected and in accordance with this
+      Policy or any applicable service-specific privacy notice
+    services:
+    - for the purpose of processing personal information on our behalf
+- source: trusted business
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Information sharing
+
+
+    SuperSaaS only shares personal information with other companies or individuals
+    outside SuperSaaS in the following limited circumstances:'
+  - 'SuperSaaS only shares personal information with other companies or individuals
+    outside SuperSaaS in the following limited circumstances: We may provide such
+    information to affiliated companies or other trusted businesses or persons for
+    the purpose of processing personal information on our behalf.'
+  purposes:
+    analytics:
+    - for the purpose of processing personal information on our behalf
+    services:
+    - for the purpose of processing personal information on our behalf
+- source: personal information
+  target: account password
+  key: SUBSUM
+  text:
+  - 'In order to provide our full range of services, we may collect the following
+    types of information: Information you provide - When you sign up for a SuperSaaS
+    account we ask you for personal information (such as your name, email address
+    and an account password).'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'In order to provide our full range of services, we may collect the following
+    types of information: Information you provide - When you sign up for a SuperSaaS
+    account we ask you for personal information (such as your name, email address
+    and an account password).'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'In order to provide our full range of services, we may collect the following
+    types of information: Information you provide - When you sign up for a SuperSaaS
+    account we ask you for personal information (such as your name, email address
+    and an account password).'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: affiliated company
+- type: ACTOR
+  id: site who provide supersaas service as part of own offering
+- type: ACTOR
+  id: supersaas
+- type: ACTOR
+  id: trusted business
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account password
+- type: DATA
+  id: appointment datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: log information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information

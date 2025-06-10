@@ -1,0 +1,57 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal datum collect through website
+  key: COLLECT
+  text:
+  - 'At Optonet Ltd, we will process your personal data collected through the Website:
+    https://optonet.online/, with the following purposes:'
+  purposes: {}
+- source: July Systems
+  target: information necessary
+  key: COLLECT
+  text:
+  - Optonet Ltd informs that, as a provider of data hosting services and in accordance
+    with the provisions of Law 34/2002 of July 11, 2002 on Information Society Services
+    and Electronic Commerce (LSSI), Optonet Ltd. 34/2002 of July 11,, retains for
+    a maximum period of 12 months the information necessary to identify the origin
+    of the hosted data and the time at which the service was provided.
+  purposes: {}
+- source: entity be
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    These data will only be transferred to those entities that are necessary for the
+    sole purpose of complying with the above mentioned purpose.'
+  purposes:
+    legal:
+    - for the sole purpose of complying with the above mentioned purpose
+- source: web page
+  target: information about browsing habit of user
+  key: COLLECT
+  text:
+  - Among others,allow a web page to store and retrieve information about the browsing
+    habits of a user or his or her computer and, depending on the information obtained
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: July Systems
+- type: ACTOR
+  id: entity be
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web page
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: information about browsing habit of user
+- type: DATA
+  id: information necessary
+- type: DATA
+  id: personal datum collect through website

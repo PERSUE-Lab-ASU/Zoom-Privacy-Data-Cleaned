@@ -1,0 +1,304 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For each purpose, we are required to confirm the ''legal basis'' that allows
+    us to use your information, as follows:'
+  - Please note that we may continue to store your information, or use your information
+    for the purpose of legal proceedings or for protecting the rights of any other
+    person.
+  - 'You may give us information (such as your names, address, email address, phone
+    number and other information, plus information about your business, employees,
+    candidates and any associated third party) by:'
+  purposes:
+    legal:
+    - for the purpose of legal proceedings or for protecting the rights of any other
+      person
+    security:
+    - to store your information
+    services:
+    - to store your information
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'You may give us information (such as your names, address, email address, phone
+    number and other information, plus information about your business, employees,
+    candidates and any associated third party) by:'
+  purposes: {}
+- source: we
+  target: information about business
+  key: COLLECT
+  text:
+  - 'You may give us information (such as your names, address, email address, phone
+    number and other information, plus information about your business, employees,
+    candidates and any associated third party) by:'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+  purposes: {}
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - We may use the information we collect about you for a number of different purposes.
+  purposes: {}
+- source: we
+  target: information you give to we
+  key: COLLECT
+  text:
+  - We may use the information you give to us for a number of different purposes.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'You may give us information (such as your names, address, email address, phone
+    number and other information, plus information about your business, employees,
+    candidates and any associated third party) by:'
+  purposes: {}
+- source: we
+  target: personal datum about customer
+  key: COLLECT
+  text:
+  - During the course of our activities we will collect, store and process personal
+    data about our customers, suppliers and other third parties, and we recognise
+    that the correct and lawful treatment of this data will maintain confidence in
+    the organisation and will provide for successful business operations.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - How long we will store your personal data
+  - 'We will disclose your personal information to third parties:'
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - 'You may give us information (such as your names, address, email address, phone
+    number and other information, plus information about your business, employees,
+    candidates and any associated third party) by:'
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - 'You may give us information (such as your names, address, email address, phone
+    number and other information, plus information about your business, employees,
+    candidates and any associated third party) by:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We will disclose your personal information to third parties:'
+  purposes: {}
+- source: device identifier
+  target: imei
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: device identifier
+  target: mac address
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: device identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: information about you
+  target: browser plug in type
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: information about you
+  target: browser type
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: information about you
+  target: device identifier
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: information about you
+  target: internet service provider isp information
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: information about you
+  target: ip address
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: information about you
+  target: login information
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: information about you
+  target: operating system information
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: information about you
+  target: precise geolocation
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: information about you
+  target: time zone setting
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+- source: information about you
+  target: version
+  key: SUBSUM
+  text:
+  - When you visit our website, we may collect information about you (such as the
+    Internet protocol (IP) address used to connect your computer to the Internet,
+    your login information, browser type and version, time zone setting, browser plug-in
+    types and versions, Internet Service Provider (ISP) Information, GPS and location
+    information, operating system and platform information, the unique device identifier
+    (for example, your device's IMEI number, the MAC address of the device's wireless
+    network interface, or the mobile phone number used by the device).
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser plug in type
+- type: DATA
+  id: browser type
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: imei
+- type: DATA
+  id: information about business
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: information you give to we
+- type: DATA
+  id: internet service provider isp information
+- type: DATA
+  id: ip address
+- type: DATA
+  id: login information
+- type: DATA
+  id: mac address
+- type: DATA
+  id: operating system information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum about customer
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: precise geolocation
+- type: DATA
+  id: time zone setting
+- type: DATA
+  id: version

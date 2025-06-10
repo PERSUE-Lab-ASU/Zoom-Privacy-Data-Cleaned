@@ -1,0 +1,155 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Data shared for the purpose of security and/or legal compliance:  We must share
+    your data with authorized third parties if it is required by law, requested by
+    judiciary, government, necessary to enforce any legal regulation, legal agreements,
+    terms and conditions, privacy policy, etc.'
+  - LiveBoard provides with services worldwide, so we may move, process, and store
+    your data in the United States and any other countries where we operate, which
+    may be outside the country of your residence.
+  - We collect information, which is necessary for us to be able to provide you with
+    our Services.
+  - We collect your data using different types of data collection tools like analytics
+    services or cookies.
+  - We may provide your data to analytics services, which helps us understand your
+    activity and choices you make on our platform, the features you like and use.
+  - We must also share your data if required to prevent or detect fraud, violation,
+    as well as potential violation, abuse, any harm to rights, property, or legal
+    interest of LiveBoard, its users and affiliates.
+  - We only cooperate with businesses we believe are trustworthy and who have confirmed
+    their privacy practices are consistent with ours, and we provide the information,
+    which is only necessary for them to perform these services on our behalf.
+  - We use this information to personalize and customize our Services and ensure the
+    best experience for you.
+  purposes:
+    security:
+    - to prevent or detect fraud, violation, as well as potential violation, abuse,
+      any harm to rights, property, or legal interest of LiveBoard, its users and
+      affiliates
+    services:
+    - to personalize and customize our Services and ensure the best experience for
+      you
+- source: we
+  target: access
+  key: COLLECT
+  text:
+  - 'Analytics Services help us analyze your access and use of our Services: such
+    as how often you visit our website or use our Services, we gather information
+    about your usage or performance on our platform and we may disclose your site
+    use information to these analytics providers to help us learn more about how you
+    and others use our services.'
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'Analytics Services help us analyze your access and use of our Services: such
+    as how often you visit our website or use our Services, we gather information
+    about your usage or performance on our platform and we may disclose your site
+    use information to these analytics providers to help us learn more about how you
+    and others use our services.'
+  purposes: {}
+- source: we
+  target: personal datum of eu resident
+  key: COLLECT
+  text:
+  - LiveBoard provides services to international community, so we may transfer the
+    personal data of EU residents to a country outside of The EU.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'If you are a California resident, you have the following rights under CCPA: To
+    confirm we process your personal data, and ask for the personal data we collect
+    about you;'
+  - 'If you are a California resident, you have the following rights under CCPA: to
+    know what personal information we have collected from you in the previous 12 months;'
+  - 'Under the GDPR, you have the right to request us: To confirm we process your
+    personal data, and ask for the personal data we collect about you;'
+  purposes:
+    analytics:
+    - To confirm we process your personal data, and ask for the personal data we collect
+      about you
+    services:
+    - To confirm we process your personal data, and ask for the personal data we collect
+      about you
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Data shared for the purpose of security and/or legal compliance:  We must share
+    your data with authorized third parties if it is required by law, requested by
+    judiciary, government, necessary to enforce any legal regulation, legal agreements,
+    terms and conditions, privacy policy, etc.'
+  purposes: {}
+- source: analytic provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may provide your data to analytics services, which helps us understand your
+    activity and choices you make on our platform, the features you like and use.
+  purposes: {}
+- source: country
+  target: personal datum of eu resident
+  key: COLLECT
+  text:
+  - LiveBoard provides services to international community, so we may transfer the
+    personal data of EU residents to a country outside of The EU.
+  purposes: {}
+- source: liveboard
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'LiveBoard Privacy Policy
+
+
+    2. Reasons we use your data for
+
+
+    LiveBoard collects and uses your data for a number of reasons:'
+  purposes: {}
+- source: social media
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When you share that content, your data is also shared with the social media companies
+    (like Facebook).
+  purposes: {}
+- source: social media
+  target: Facebook
+  key: SUBSUM
+  text:
+  - When you share that content, your data is also shared with the social media companies
+    (like Facebook).
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: country
+- type: ACTOR
+  id: liveboard
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: personal datum of eu resident
+- type: DATA
+  id: personal information

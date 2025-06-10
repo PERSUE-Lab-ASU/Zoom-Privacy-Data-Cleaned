@@ -1,0 +1,54 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When you visit our site, our servers may record data from your browser.
+  purposes: {}
+- source: we
+  target: owner account of zoom account
+  key: COLLECT
+  text:
+  - When you link your account to Zoom, we request the scope to view information about
+    the profile, this allows us to display your name and profile picture in the application
+    as well as to get the owner account of the Zoom account.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may transmit personal information to:'
+  purposes:
+    services:
+    - for the purpose of providing their service
+- source: we
+  target: zoom datum we need
+  key: COLLECT
+  text:
+  - We only store Zoom data we need to make sendbloop functionnal.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may transmit personal information to: third party service providers for the
+    purpose of providing their service.'
+  purposes:
+    services:
+    - for the purpose of providing their service
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: owner account of zoom account
+- type: DATA
+  id: personal information
+- type: DATA
+  id: zoom datum we need

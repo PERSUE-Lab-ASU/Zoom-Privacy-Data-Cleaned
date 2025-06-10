@@ -1,0 +1,226 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - As you interact with our website, we will automatically collect information about
+    your device, browsing actions and patterns, IP address, time zone and some of
+    the cookies that are installed on your device.
+  - 'Organisations that we may share your data with:'
+  - We collect this personal data by using cookies, server logs, web beacons, tags,
+    pixels and other similar technologies.
+  - We may share data with other third party providers on occasion to provide additional
+    services.
+  purposes:
+    services:
+    - to provide additional services
+    - to support our website, our software, our accounts and our CRM
+- source: we
+  target: abstract
+  key: COLLECT
+  text:
+  - We collect abstracts (including authors' details) submitted for events on behalf
+    of the event organiser in order to collate them.
+  purposes:
+    analytics:
+    - in order to collate them
+- source: we
+  target: conference datum
+  key: COLLECT
+  text:
+  - We will store conference data for at least a year after the conference start date
+    unless the customer deletes the event.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - But in order to comply with your preferences, we'll have to use just one tiny
+    cookie so that you're not asked to make this choice again.
+  - This website stores cookies on your computer.
+  purposes:
+    legal:
+    - in order to comply with your preferences
+    services:
+    - in order to comply with your preferences
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Keeping your data secure is our priority
+
+
+    We are allowed to process your personal data based on the following legal bases
+    for the purposes explained in this Website Privacy Notice:'
+  - 'Privacy policy
+
+
+    Keeping your data secure is our priority
+
+
+    What personal data we collect as controller and what we use it for:'
+  - 'Privacy policy
+
+
+    Keeping your data secure is our priority
+
+
+    What personal data we collect as processor and what we use it for:'
+  - 'We are allowed to process your personal data based on the following legal bases
+    for the purposes explained in this Website Privacy Notice: Legitimate interests
+    - We are permitted to process your personal data if it is based on our ''legitimate
+    interests'' i.e. we have good, sensible, practical reasons for processing your
+    personal data which is in our interests.'
+  - We only retain your personal data for as long as we need it by law.
+  - You provide us with your personal data (including name, email address, billing
+    address or payment information) to register for our services.
+  purposes:
+    legal:
+    - to process your personal data based on the following legal bases for the purposes
+      explained in this Website Privacy Notice
+    services:
+    - to process your personal data based on the following legal bases for the purposes
+      explained in this Website Privacy Notice
+    - to register for our services
+- source: we
+  target: specific information
+  key: COLLECT
+  text:
+  - We may need to request specific information from you to help us confirm your identity
+    and ensure your right to access your personal data (or to exercise any of your
+    other rights).
+  purposes:
+    security:
+    - to help us confirm your identity and ensure your right to access your personal
+      data (or to exercise any of your other rights)
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share data with other third party providers on occasion to provide additional
+    services.
+  purposes:
+    services:
+    - to provide additional services
+- source: committee member
+  target: payment detail
+  key: COLLECT
+  text:
+  - Users who sign up for a free account (e.g. submitters, reviewers, committee members
+    and delegates) are not required to provide any payment details on registration
+    but may be required to provide payment details if they purchase conference tickets.
+  purposes:
+    services:
+    - to provide any payment details on registration
+- source: reviewer
+  target: payment detail
+  key: COLLECT
+  text:
+  - Users who sign up for a free account (e.g. submitters, reviewers, committee members
+    and delegates) are not required to provide any payment details on registration
+    but may be required to provide payment details if they purchase conference tickets.
+  purposes:
+    services:
+    - to provide any payment details on registration
+- source: we
+  target: oxford abstracts
+  key: SUBSUM
+  text:
+  - This Privacy Notice is provided by Oxford Abstracts (" Oxford Abstracts ", " we
+    " or " us ").
+- source: cookie / pixel tag
+  target: browsing action
+  key: SUBSUM
+  text:
+  - As you interact with our website, we will automatically collect information about
+    your device, browsing actions and patterns, IP address, time zone and some of
+    the cookies that are installed on your device.
+- source: cookie / pixel tag
+  target: ip address
+  key: SUBSUM
+  text:
+  - As you interact with our website, we will automatically collect information about
+    your device, browsing actions and patterns, IP address, time zone and some of
+    the cookies that are installed on your device.
+- source: cookie / pixel tag
+  target: pattern
+  key: SUBSUM
+  text:
+  - As you interact with our website, we will automatically collect information about
+    your device, browsing actions and patterns, IP address, time zone and some of
+    the cookies that are installed on your device.
+- source: cookie / pixel tag
+  target: time zone
+  key: SUBSUM
+  text:
+  - As you interact with our website, we will automatically collect information about
+    your device, browsing actions and patterns, IP address, time zone and some of
+    the cookies that are installed on your device.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - You provide us with your personal data (including name, email address, billing
+    address or payment information) to register for our services.
+- source: personal information
+  target: payment information
+  key: SUBSUM
+  text:
+  - You provide us with your personal data (including name, email address, billing
+    address or payment information) to register for our services.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - You provide us with your personal data (including name, email address, billing
+    address or payment information) to register for our services.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - You provide us with your personal data (including name, email address, billing
+    address or payment information) to register for our services.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: committee member
+- type: ACTOR
+  id: oxford abstracts
+- type: ACTOR
+  id: reviewer
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: abstract
+- type: DATA
+  id: browsing action
+- type: DATA
+  id: conference datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: pattern
+- type: DATA
+  id: payment detail
+- type: DATA
+  id: payment information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: specific information
+- type: DATA
+  id: time zone

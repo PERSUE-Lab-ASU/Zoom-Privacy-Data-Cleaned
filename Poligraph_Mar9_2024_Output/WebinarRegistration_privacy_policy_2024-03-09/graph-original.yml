@@ -1,0 +1,78 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will clearly define the purpose of use of personal information within the scope
+    necessary for our business activities, and collect, use, and provide personal
+    information in an appropriate manner.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Publication of information based on the "Act on the Protection of Personal Information"
+
+
+    2. "Sharing" of Personal Information
+
+
+    (2) Ltd. shares personal data in the Medical Database (MDB) managed and operated
+    by Nihon Ultmarc, Inc. with certain companies.'
+  purposes: {}
+- source: h.u.group
+  target: personal information of customer
+  key: COLLECT
+  text:
+  - 'Publication of information based on the "Act on the Protection of Personal Information"
+
+
+    2. "Sharing" of Personal Information
+
+
+    (1) H.U.Group will jointly use the personal information of customers, etc. held
+    by H.U.Group with the following specified parties.'
+  purposes: {}
+- source: personal information
+  target: personal information of customer
+  key: SUBSUM
+  text:
+  - 'Publication of information based on the "Act on the Protection of Personal Information"
+
+
+    2. "Sharing" of Personal Information
+
+
+    (1) H.U.Group will jointly use the personal information of customers, etc. held
+    by H.U.Group with the following specified parties.'
+  - The joint users will use such personal information for the purposes stated in
+    "1. Purposes of Use of Personal Information" above, as well as for the introduction,
+    development, and improvement of H.U. Group products and services.
+- source: personal information
+  target: specify personal information
+  key: SUBSUM
+  text:
+  - (hereinafter referred to as "the Company") believes that it is the Company's social
+    responsibility to appropriately protect personal information (including specified
+    personal information, hereinafter the same shall apply), and the Company shall
+    work to protect personal information based on the following policy and strive
+    to continuously improve and enhance its personal information protection system.
+  - H.U. Frontier Inc. (hereinafter referred to as "the Company") believes that it
+    is the Company's social responsibility to appropriately protect personal information
+    (including specified personal information, hereinafter the same shall apply).
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: h.u.group
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information of customer
+- type: DATA
+  id: specify personal information

@@ -1,0 +1,608 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For the purposes of the Services, we use automated data collection tools such
+    as Cookies and Web Beacons to collect certain information.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share aggregated information and non-identifying information with third
+    parties for industry research and analysis, demographic profiling and other similar
+    purposes.
+  purposes:
+    analytics:
+    - for industry research and analysis, demographic profiling and other similar
+      purposes
+- source: we
+  target: billing information
+  key: COLLECT
+  text:
+  - If you create an Account, on behalf of an organization, we'll collect your organization's
+    corporate name, email address, postal address, phone number and billing information.
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - Log Data may include information such as a User's Internet Protocol (IP) address,
+    browser type, operating system, the pages or features of our Services to which
+    a User browsed and the time spent on those pages or features, frequency with which
+    of our Services are used by a User, search terms, the links on our Services that
+    a User clicked on, the ads that User clicked on and other statistics.
+  - We use this information to administer the Services and we analyze (and may engage
+    third parties to analyze) this information to improve and enhance the Services
+    by expanding their features and functionality and tailoring them to our Users'
+    needs and preferences.
+  purposes:
+    services:
+    - to administer the Services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to allow us to remember you.
+  - With your consent, we may also use Cookies to monitor aggregate usage and web
+    traffic routing on our Services and to customize and improve our Services.
+  - With your consent, we may use both session Cookies and persistent Cookies to identify
+    that you have logged in to the Services and to tell us how and when you interact
+    with our Services.
+  purposes:
+    analytics:
+    - to identify that you have logged in to the Services and to tell us how and when
+      you interact with our Services
+    - to monitor aggregate usage and web traffic routing on our Services and to customize
+      and improve our Services
+    services:
+    - to allow us to remember you
+    - to identify that you have logged in to the Services and to tell us how and when
+      you interact with our Services
+    - to monitor aggregate usage and web traffic routing on our Services and to customize
+      and improve our Services
+- source: we
+  target: corporate name
+  key: COLLECT
+  text:
+  - If you create an Account, on behalf of an organization, we'll collect your organization's
+    corporate name, email address, postal address, phone number and billing information.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - If you create an Account, on behalf of an organization, we'll collect your organization's
+    corporate name, email address, postal address, phone number and billing information.
+  purposes: {}
+- source: we
+  target: frequency with use
+  key: COLLECT
+  text:
+  - Log Data may include information such as a User's Internet Protocol (IP) address,
+    browser type, operating system, the pages or features of our Services to which
+    a User browsed and the time spent on those pages or features, frequency with which
+    of our Services are used by a User, search terms, the links on our Services that
+    a User clicked on, the ads that User clicked on and other statistics.
+  - We use this information to administer the Services and we analyze (and may engage
+    third parties to analyze) this information to improve and enhance the Services
+    by expanding their features and functionality and tailoring them to our Users'
+    needs and preferences.
+  purposes:
+    services:
+    - to administer the Services
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We may use location information to improve and personalize our Services for you.
+  purposes:
+    services:
+    - to improve and personalize our Services for you
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - In some cases we collect and store information about where you are located, such
+    as by converting your IP address into a rough geolocation or through GPS or sensor
+    data from your device that provides information on nearby WiFi access points and
+    cell towers to locate your mobile device.
+  - Our servers automatically record certain information about how a person uses our
+    Services (we refer to this information as "Log Data"), including both Account
+    holders and non-Account holders (either, a "User").
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may disclose any information about you to government or law enforcement officials
+    or private parties as we, in our sole discretion, believe necessary or appropriate:
+    (i) to respond to claims, legal process (including subpoenas); (ii) to protect
+    our property, rights and safety and the property, rights and safety of a third
+    party or the public in general; and (iii) to stop any activity that we consider
+    illegal, unethical or legally actionable activity.'
+  purposes: {}
+- source: we
+  target: information mobile device send
+  key: COLLECT
+  text:
+  - We collect certain information that your mobile device sends when you use our
+    Services, like a device identifier, user settings and the operating system of
+    your device, as well as information about your use of our Services.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - Log Data may include information such as a User's Internet Protocol (IP) address,
+    browser type, operating system, the pages or features of our Services to which
+    a User browsed and the time spent on those pages or features, frequency with which
+    of our Services are used by a User, search terms, the links on our Services that
+    a User clicked on, the ads that User clicked on and other statistics.
+  - We also use the IP Address to generate aggregate, non-identifying information
+    about how our Services are used.
+  - We use this information to administer the Services and we analyze (and may engage
+    third parties to analyze) this information to improve and enhance the Services
+    by expanding their features and functionality and tailoring them to our Users'
+    needs and preferences.
+  purposes:
+    analytics:
+    - to generate aggregate, non-identifying information about how our Services are
+      used
+    services:
+    - to administer the Services
+- source: we
+  target: non - identifying information
+  key: COLLECT
+  text:
+  - We may share aggregated information and non-identifying information with third
+    parties for industry research and analysis, demographic profiling and other similar
+    purposes.
+  purposes:
+    analytics:
+    - for industry research and analysis, demographic profiling and other similar
+      purposes
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may also collect certain information that is not PII because it cannot be used
+    by itself to identify you, such as business postal address, employer, and job
+    title.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - If you join our waitlist for future features or for receiving updates from our
+    Services, we'll collect your PII, such as your name and email address.
+  - If you're located outside the United States and choose to provide your PII to
+    us, we may transfer your PII to the United States and process it there.
+  - We may use your PII to contact you by email any time we release a new feature
+    or updates.
+  - We may use your PII to contact you with newsletters, marketing or promotional
+    materials and other information that may be of interest to you.
+  - We will share your PII with third-party sites or platforms, such as social networking
+    sites, if you have expressly requested that we do so.
+  - When you create an Account we will collect certain information that can be used
+    to identify you, such as your name, email address, phone number, profile photo
+    and credit card information, if applicable ("Personally Identifiable Information"
+    or "PII").
+  purposes:
+    advertising:
+    - to contact you with newsletters, marketing or promotional materials and other
+      information that may be of interest to you
+    services:
+    - to contact you by email any time we release a new feature or updates
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - If you create an Account, on behalf of an organization, we'll collect your organization's
+    corporate name, email address, postal address, phone number and billing information.
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - If you create an Account, on behalf of an organization, we'll collect your organization's
+    corporate name, email address, postal address, phone number and billing information.
+  purposes: {}
+- source: we
+  target: statistic
+  key: COLLECT
+  text:
+  - Log Data may include information such as a User's Internet Protocol (IP) address,
+    browser type, operating system, the pages or features of our Services to which
+    a User browsed and the time spent on those pages or features, frequency with which
+    of our Services are used by a User, search terms, the links on our Services that
+    a User clicked on, the ads that User clicked on and other statistics.
+  - We use this information to administer the Services and we analyze (and may engage
+    third parties to analyze) this information to improve and enhance the Services
+    by expanding their features and functionality and tailoring them to our Users'
+    needs and preferences.
+  purposes:
+    services:
+    - to administer the Services
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share aggregated information and non-identifying information with third
+    parties for industry research and analysis, demographic profiling and other similar
+    purposes.
+  purposes:
+    analytics:
+    - for industry research and analysis, demographic profiling and other similar
+      purposes
+- source: UNSPECIFIED_ACTOR
+  target: non - identifying information
+  key: COLLECT
+  text:
+  - We may share aggregated information and non-identifying information with third
+    parties for industry research and analysis, demographic profiling and other similar
+    purposes.
+  purposes:
+    analytics:
+    - for industry research and analysis, demographic profiling and other similar
+      purposes
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - As a result, if we go out of business or enter bankruptcy or if we are acquired
+    as a result of a transaction such as a merger, acquisition or asset sale, your
+    PII may be disclosed or transferred to the third-party acquirer in connection
+    with the transaction.
+  - We will share your PII with third-party sites or platforms, such as social networking
+    sites, if you have expressly requested that we do so.
+  purposes: {}
+- source: data processor
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Information shared with Data processor - Your PII shall be shared with our Data
+    Processor, Hubspot, in accordance with the applicable laws, including, for European
+    Union member countries residents, with GDPR requirements.'
+  purposes: {}
+- source: government official
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may disclose any information about you to government or law enforcement officials
+    or private parties as we, in our sole discretion, believe necessary or appropriate:
+    (i) to respond to claims, legal process (including subpoenas); (ii) to protect
+    our property, rights and safety and the property, rights and safety of a third
+    party or the public in general; and (iii) to stop any activity that we consider
+    illegal, unethical or legally actionable activity.'
+  purposes: {}
+- source: hubspot
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Information shared with Data processor - Your PII shall be shared with our Data
+    Processor, Hubspot, in accordance with the applicable laws, including, for European
+    Union member countries residents, with GDPR requirements.'
+  purposes: {}
+- source: platform
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We will share your PII with third-party sites or platforms, such as social networking
+    sites, if you have expressly requested that we do so.
+  purposes: {}
+- source: private party
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may disclose any information about you to government or law enforcement officials
+    or private parties as we, in our sole discretion, believe necessary or appropriate:
+    (i) to respond to claims, legal process (including subpoenas); (ii) to protect
+    our property, rights and safety and the property, rights and safety of a third
+    party or the public in general; and (iii) to stop any activity that we consider
+    illegal, unethical or legally actionable activity.'
+  purposes: {}
+- source: information about
+  target: non - account holder
+  key: SUBSUM
+  text:
+  - Our servers automatically record certain information about how a person uses our
+    Services (we refer to this information as "Log Data"), including both Account
+    holders and non-Account holders (either, a "User").
+- source: information about you
+  target: person name
+  key: SUBSUM
+  text:
+  - As part of our Services, Account holders may communicate with other Account holders
+    through the use of our direct messaging functionality or via forums and when this
+    happens those other Account holders will be able to see certain information about
+    you, such as your name or photo - this will depend on how your privacy settings
+    are selected via the Services.
+- source: information about you
+  target: photo
+  key: SUBSUM
+  text:
+  - As part of our Services, Account holders may communicate with other Account holders
+    through the use of our direct messaging functionality or via forums and when this
+    happens those other Account holders will be able to see certain information about
+    you, such as your name or photo - this will depend on how your privacy settings
+    are selected via the Services.
+- source: information mobile device send
+  target: device identifier
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device sends when you use our
+    Services, like a device identifier, user settings and the operating system of
+    your device, as well as information about your use of our Services.
+- source: information mobile device send
+  target: information about use of services
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device sends when you use our
+    Services, like a device identifier, user settings and the operating system of
+    your device, as well as information about your use of our Services.
+- source: information mobile device send
+  target: operate system of device
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device sends when you use our
+    Services, like a device identifier, user settings and the operating system of
+    your device, as well as information about your use of our Services.
+- source: information mobile device send
+  target: user setting
+  key: SUBSUM
+  text:
+  - We collect certain information that your mobile device sends when you use our
+    Services, like a device identifier, user settings and the operating system of
+    your device, as well as information about your use of our Services.
+- source: information we collect from
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - We take reasonable measures to protect the information that we collect from or
+    about you (including your PII) from unauthorized access, use or disclosure by
+    encrypting all data while stored and in transit via our Services, including User's
+    information, messages and any Content attached to the messages.
+- source: log datum
+  target: browser type
+  key: SUBSUM
+  text:
+  - Log Data may include information such as a User's Internet Protocol (IP) address,
+    browser type, operating system, the pages or features of our Services to which
+    a User browsed and the time spent on those pages or features, frequency with which
+    of our Services are used by a User, search terms, the links on our Services that
+    a User clicked on, the ads that User clicked on and other statistics.
+- source: log datum
+  target: frequency with use
+  key: SUBSUM
+  text:
+  - Log Data may include information such as a User's Internet Protocol (IP) address,
+    browser type, operating system, the pages or features of our Services to which
+    a User browsed and the time spent on those pages or features, frequency with which
+    of our Services are used by a User, search terms, the links on our Services that
+    a User clicked on, the ads that User clicked on and other statistics.
+- source: log datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - Log Data may include information such as a User's Internet Protocol (IP) address,
+    browser type, operating system, the pages or features of our Services to which
+    a User browsed and the time spent on those pages or features, frequency with which
+    of our Services are used by a User, search terms, the links on our Services that
+    a User clicked on, the ads that User clicked on and other statistics.
+- source: log datum
+  target: statistic
+  key: SUBSUM
+  text:
+  - Log Data may include information such as a User's Internet Protocol (IP) address,
+    browser type, operating system, the pages or features of our Services to which
+    a User browsed and the time spent on those pages or features, frequency with which
+    of our Services are used by a User, search terms, the links on our Services that
+    a User clicked on, the ads that User clicked on and other statistics.
+- source: non-personal information
+  target: job title
+  key: SUBSUM
+  text:
+  - We may also collect certain information that is not PII because it cannot be used
+    by itself to identify you, such as business postal address, employer, and job
+    title.
+- source: non-personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - We may also collect certain information that is not PII because it cannot be used
+    by itself to identify you, such as business postal address, employer, and job
+    title.
+- source: personal identifier
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - When you create an Account we will collect certain information that can be used
+    to identify you, such as your name, email address, phone number, profile photo
+    and credit card information, if applicable ("Personally Identifiable Information"
+    or "PII").
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - If you join our waitlist for future features or for receiving updates from our
+    Services, we'll collect your PII, such as your name and email address.
+  - When you create an Account we will collect certain information that can be used
+    to identify you, such as your name, email address, phone number, profile photo
+    and credit card information, if applicable ("Personally Identifiable Information"
+    or "PII").
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - If you join our waitlist for future features or for receiving updates from our
+    Services, we'll collect your PII, such as your name and email address.
+  - When you create an Account we will collect certain information that can be used
+    to identify you, such as your name, email address, phone number, profile photo
+    and credit card information, if applicable ("Personally Identifiable Information"
+    or "PII").
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - When you create an Account we will collect certain information that can be used
+    to identify you, such as your name, email address, phone number, profile photo
+    and credit card information, if applicable ("Personally Identifiable Information"
+    or "PII").
+- source: personal identifier
+  target: profile photo
+  key: SUBSUM
+  text:
+  - When you create an Account we will collect certain information that can be used
+    to identify you, such as your name, email address, phone number, profile photo
+    and credit card information, if applicable ("Personally Identifiable Information"
+    or "PII").
+- source: platform
+  target: social media
+  key: SUBSUM
+  text:
+  - We will share your PII with third-party sites or platforms, such as social networking
+    sites, if you have expressly requested that we do so.
+- source: service available
+  target: bot
+  key: SUBSUM
+  text:
+  - Accordingly, we are providing this Privacy Policy to explain our practices regarding
+    the collection, use and disclosure of information that we receive when you use
+    our websites located at www.kore.ai (the "Sites"), our mobile device application
+    ("App"), and our services available via the Sites or App, which include (i) bots;
+    (ii) instant messaging sharing, networking and collaboration between individual
+    consumer users and between individuals and among members of teams within an organization;
+    and (iii) other services made available via the Sites or App from time to time.
+- source: service available
+  target: instant messaging sharing
+  key: SUBSUM
+  text:
+  - Accordingly, we are providing this Privacy Policy to explain our practices regarding
+    the collection, use and disclosure of information that we receive when you use
+    our websites located at www.kore.ai (the "Sites"), our mobile device application
+    ("App"), and our services available via the Sites or App, which include (i) bots;
+    (ii) instant messaging sharing, networking and collaboration between individual
+    consumer users and between individuals and among members of teams within an organization;
+    and (iii) other services made available via the Sites or App from time to time.
+- source: service available
+  target: member of team within organization
+  key: SUBSUM
+  text:
+  - Accordingly, we are providing this Privacy Policy to explain our practices regarding
+    the collection, use and disclosure of information that we receive when you use
+    our websites located at www.kore.ai (the "Sites"), our mobile device application
+    ("App"), and our services available via the Sites or App, which include (i) bots;
+    (ii) instant messaging sharing, networking and collaboration between individual
+    consumer users and between individuals and among members of teams within an organization;
+    and (iii) other services made available via the Sites or App from time to time.
+- source: service available
+  target: service make
+  key: SUBSUM
+  text:
+  - Accordingly, we are providing this Privacy Policy to explain our practices regarding
+    the collection, use and disclosure of information that we receive when you use
+    our websites located at www.kore.ai (the "Sites"), our mobile device application
+    ("App"), and our services available via the Sites or App, which include (i) bots;
+    (ii) instant messaging sharing, networking and collaboration between individual
+    consumer users and between individuals and among members of teams within an organization;
+    and (iii) other services made available via the Sites or App from time to time.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: bot
+- type: ACTOR
+  id: data processor
+- type: ACTOR
+  id: government official
+- type: ACTOR
+  id: hubspot
+- type: ACTOR
+  id: instant messaging sharing
+- type: ACTOR
+  id: member of team within organization
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: private party
+- type: ACTOR
+  id: service available
+- type: ACTOR
+  id: service make
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: billing information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: corporate name
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: frequency with use
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about use of services
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information mobile device send
+- type: DATA
+  id: information we collect from
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job title
+- type: DATA
+  id: log datum
+- type: DATA
+  id: non - account holder
+- type: DATA
+  id: non - identifying information
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: operate system of device
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: phone number
+- type: DATA
+  id: photo
+- type: DATA
+  id: postal address
+- type: DATA
+  id: profile photo
+- type: DATA
+  id: statistic
+- type: DATA
+  id: user setting

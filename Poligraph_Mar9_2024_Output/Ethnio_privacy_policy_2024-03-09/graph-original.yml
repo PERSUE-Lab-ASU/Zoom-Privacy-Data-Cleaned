@@ -1,0 +1,51 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: Ethnio
+  target: personal information
+  key: COLLECT
+  text:
+  - Ethnio may disclose Personal Data to subcontractors and third-party agents who
+    assist us in providing Services to our customers and prospects.
+  - 'Onward Transfers
+
+
+    Ethnio may also be required to disclose, and may disclose, Personal Data in response
+    to lawful requests by public authorities, including for the purpose of meeting
+    national security or law enforcement requirements.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Ethnio may disclose Personal Data to subcontractors and third-party agents who
+    assist us in providing Services to our customers and prospects.
+  purposes: {}
+- source: data subject
+  target: truthful information
+  key: COLLECT
+  text:
+  - In making modifications to their Personal Data, Data Subjects must provide only
+    truthful, complete, and accurate information.
+  purposes: {}
+- source: subcontractor
+  target: personal information
+  key: COLLECT
+  text:
+  - Ethnio may disclose Personal Data to subcontractors and third-party agents who
+    assist us in providing Services to our customers and prospects.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Ethnio
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: data subject
+- type: ACTOR
+  id: subcontractor
+- type: DATA
+  id: personal information
+- type: DATA
+  id: truthful information

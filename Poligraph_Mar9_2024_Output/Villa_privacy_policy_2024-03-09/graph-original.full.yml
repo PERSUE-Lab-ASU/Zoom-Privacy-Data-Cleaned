@@ -1,0 +1,1090 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our service incorporates videoconferencing functionalities, such as Zoom, to facilitate
+    communication from and to virtual reality (VR) environments.
+  - These third-party services may collect and process your data in accordance with
+    their own privacy policies.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We use service providers such as Google Analytics and may use others to collect
+    anonymized or aggregate information regarding user behavior and user demographics
+    on the Services.
+  purposes: {}
+- source: we
+  target: basic information tie to account
+  key: COLLECT
+  text:
+  - If you use our Services with a Third-Party Account, we will receive basic information
+    tied to the account such as your email address, full name, profile photo and unique
+    user IDs or tokens used by the third party service.
+  purposes: {}
+- source: we
+  target: biometric information
+  key: COLLECT
+  text:
+  - We use certain biometric and audio data provided by the microphone, front and
+    rear facing cameras, and TrueDepth and ARKit to locate and transmit the user's
+    voice, camera video feed, 3D physical position and facial expression.
+  purposes:
+    services:
+    - to locate and transmit the user's voice, camera video feed, 3D physical position
+      and facial expression
+- source: we
+  target: camera information
+  key: COLLECT
+  text:
+  - We automatically collect camera, microphone, and telemetry information from your
+    VR device when you use the Services.
+  purposes: {}
+- source: we
+  target: collect personal information
+  key: COLLECT
+  text:
+  - 'We use the collected personal information for the following commercial and business
+    purposes: (1) to provide and improve the Services; (2) for marketing purposes;
+    (3) for fraud prevention and legal purposes; (4) to secure the Services; and (5)
+    for audit purposes.'
+  purposes:
+    advertising:
+    - 'for the following commercial and business purposes: (1) to provide and improve
+      the Services; (2) for marketing purposes; (3) for fraud prevention and legal
+      purposes; (4) to secure the Services; and (5) for audit purposes'
+    security:
+    - 'for the following commercial and business purposes: (1) to provide and improve
+      the Services; (2) for marketing purposes; (3) for fraud prevention and legal
+      purposes; (4) to secure the Services; and (5) for audit purposes'
+    services:
+    - 'for the following commercial and business purposes: (1) to provide and improve
+      the Services; (2) for marketing purposes; (3) for fraud prevention and legal
+      purposes; (4) to secure the Services; and (5) for audit purposes'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We, as well as third parties that provide content, advertising, or other functionality
+    on the Services, may use cookies, pixel tags, local storage, and other technologies
+    ("Technologies") to automatically collect personal information through the Services.
+  purposes: {}
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - We may receive payment information allowing you to pay us for the Services, but
+    sensitive personal information such as your credit card information cannot be
+    accessed by us.
+  purposes: {}
+- source: we
+  target: datum describe villas
+  key: COLLECT
+  text:
+  - We collect and store data describing the Villas and the Content uploaded to the
+    Villas.
+  purposes: {}
+- source: we
+  target: file
+  key: COLLECT
+  text:
+  - We will also receive files and other information from these third party services
+    that you specifically link to while using the Services, such as files from Google
+    Drive, Google Docs or Dropbox.
+  purposes: {}
+- source: we
+  target: file from google drive
+  key: COLLECT
+  text:
+  - We will also receive files and other information from these third party services
+    that you specifically link to while using the Services, such as files from Google
+    Drive, Google Docs or Dropbox.
+  purposes: {}
+- source: we
+  target: information about winner
+  key: COLLECT
+  text:
+  - In some jurisdictions, we are required to publicly share information about winners.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may use personal information and other information about you to create de-identified
+    and/or aggregated information, such as de-identified demographic information,
+    de-identified location information, de-identified or aggregated trends, reports,
+    or statistics, or other analyses we create., and we may use and disclose such
+    information in a number of ways, including research, internal analysis, analytics,
+    and any other legally permissible purposes.
+  purposes:
+    analytics:
+    - to create de-identified and/or aggregated information, such as de-identified
+      demographic information, de-identified location information, de-identified or
+      aggregated trends, reports, or statistics, or other analyses we create
+- source: we
+  target: information contain
+  key: COLLECT
+  text:
+  - If you reply to one of these postings by submitting your application, CV and/or
+    cover letter to us, we will collect and process the information contained therein,
+    which includes personal information, to assess your suitability, aptitude, skills,
+    and qualifications for employment.
+  purposes:
+    analytics:
+    - to assess your suitability, aptitude, skills, and qualifications for employment
+    services:
+    - to assess your suitability, aptitude, skills, and qualifications for employment
+- source: we
+  target: information you submit
+  key: COLLECT
+  text:
+  - We and others who use our Services may collect the information you submit or make
+    available through these interactive features.
+  purposes: {}
+- source: we
+  target: local storage
+  key: COLLECT
+  text:
+  - We, as well as third parties that provide content, advertising, or other functionality
+    on the Services, may use cookies, pixel tags, local storage, and other technologies
+    ("Technologies") to automatically collect personal information through the Services.
+  purposes: {}
+- source: we
+  target: necessary personal information about authorize user whom you authorize
+  key: COLLECT
+  text:
+  - We may further collect necessary personal information about authorized users whom
+    you authorize to use the Services on behalf of your business.
+  purposes: {}
+- source: we
+  target: non - sensitive personal information associate with payment information
+  key: COLLECT
+  text:
+  - We may receive non-sensitive personal information associated with your payment
+    information, such as billing address and transaction information, but we do not
+    store payment information on the Services.
+  purposes: {}
+- source: we
+  target: payment information allow
+  key: COLLECT
+  text:
+  - We may receive payment information allowing you to pay us for the Services, but
+    sensitive personal information such as your credit card information cannot be
+    accessed by us.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We collect personal information from you such as your email address, name, employer
+    or other company with which you are associated, VR device type, and purchasing
+    plans when you request information about our Services, register for our newsletter,
+    request customer or technical support, or otherwise communicate with us.
+  - We may also provide personal information to business partners with whom we jointly
+    offer products or services.
+  - We may collect certain personal information automatically when you use the Services.
+  - We may collect personal information from individuals and third parties to assess
+    and pursue potential business opportunities.
+  - We may obtain personal information about you from other sources, including through
+    third party services.
+  - We may provide personal information to business partners to provide you with a
+    product or service you have requested.
+  - We may share any personal information we collect about you with our third-party
+    service providers.
+  - 'We may share your personal information with the following categories of third
+    parties:'
+  - We may use personal information and other information about you to create de-identified
+    and/or aggregated information, such as de-identified demographic information,
+    de-identified location information, de-identified or aggregated trends, reports,
+    or statistics, or other analyses we create., and we may use and disclose such
+    information in a number of ways, including research, internal analysis, analytics,
+    and any other legally permissible purposes.
+  - We may use personal information for other purposes that are clearly disclosed
+    to you at the time you provide personal information or with your consent.
+  - We may use personal information to tailor and provide you with content and advertisements.
+  - We retain the personal information we receive as described in this Privacy Policy
+    for as long as you use our Services or as necessary to fulfill the purposes for
+    which it was collected, provide our Services, resolve disputes, establish legal
+    defenses, conduct audits, pursue legitimate business purposes, enforce our agreements,
+    and comply with applicable laws.
+  - 'We use your personal information for a variety of business purposes, including
+    to: Provide the Services or Requested Information, such as:'
+  - We, as well as third parties that provide content, advertising, or other functionality
+    on the Services, may use cookies, pixel tags, local storage, and other technologies
+    ("Technologies") to automatically collect personal information through the Services.
+  - When you sign up for an account with our Services, you will provide us with personal
+    information (also known as "personally identifiable information" or "personal
+    data" under applicable laws).
+  purposes:
+    advertising:
+    - 'Serve administrative purposes, such as: pursuing legitimate interests, such
+      as direct marketing, research and development (including marketing research),
+      network and information security, and fraud prevention'
+    - to assess and pursue potential business opportunities
+    - to tailor and provide you with content and advertisements
+    analytics:
+    - Carrying out audits
+    - Measuring interest and engagement in the Services
+    - 'Serve administrative purposes, such as: pursuing legitimate interests, such
+      as direct marketing, research and development (including marketing research),
+      network and information security, and fraud prevention'
+    - to assess and pursue potential business opportunities
+    - to create de-identified and/or aggregated information, such as de-identified
+      demographic information, de-identified location information, de-identified or
+      aggregated trends, reports, or statistics, or other analyses we create
+    legal:
+    - Carrying out audits
+    - Complying with our legal obligations
+    - Fulfilling our contract with you
+    - for other purposes that are clearly disclosed to you at the time you provide
+      personal information or with your consent
+    - to fulfill the purposes for which it was collected, provide our Services, resolve
+      disputes, establish legal defenses, conduct audits, pursue legitimate business
+      purposes, enforce our agreements, and comply with applicable laws
+    security:
+    - Authenticating and verifying individual identities
+    - Carrying out audits
+    - Ensuring internal quality control and safety
+    - Managing your information
+    - Preventing and prosecuting potentially prohibited or illegal activities
+    - 'Serve administrative purposes, such as: pursuing legitimate interests, such
+      as direct marketing, research and development (including marketing research),
+      network and information security, and fraud prevention'
+    services:
+    - Allowing you to register for events
+    - Communicating with you about your account, activities on the Services and Privacy
+      Policy changes
+    - Developing new products and services
+    - Improving our products and Services
+    - Managing your information
+    - Processing payment card and/or other financial information to facilitate your
+      use of the Services
+    - Providing access to certain areas, functionalities, and features of the Services
+    - Responding to questions, comments, and other requests
+    - for other purposes that are clearly disclosed to you at the time you provide
+      personal information or with your consent
+    - to provide you with a product or service you have requested
+- source: we
+  target: personal information from you
+  key: COLLECT
+  text:
+  - For enterprise users, we may collect additional personal information from you
+    including the name and address of your business and your role at the business.
+  purposes:
+    services:
+    - For enterprise users
+- source: we
+  target: personal information we store in association with you
+  key: COLLECT
+  text:
+  - 'We may access, preserve, and disclose any personal information we store in association
+    with you to external parties if we, in good faith, believe doing so is required
+    or appropriate to: (i) comply with law enforcement or national security requests
+    and legal process, such as a court order or subpoena; (ii) protect your, our,
+    or others'' rights, property, or safety; (iii) enforce our policies or contracts;
+    (iv) collect amounts owed to us; or (v) assist with an investigation and prosecution
+    of suspected or actual illegal activity.'
+  purposes: {}
+- source: we
+  target: precise geolocation
+  key: COLLECT
+  text:
+  - With your consent, we may also collect precise location information if you use
+    our Apps.
+  - With your consent, we may collect personal information describing your precise
+    location using a GPS or other sensor on the VR device or other device used in
+    connection with the VR device.
+  purposes: {}
+- source: we
+  target: request
+  key: COLLECT
+  text:
+  - We will process such requests in accordance with applicable laws.
+  purposes: {}
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - We also collect and store usage information describing teleconferencing activities
+    within the Villas, such as the number of files uploaded, times and durations of
+    the teleconferences, and the identities of the users who participated in the teleconferences.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'RealVR Privacy Policy
+
+
+    DISCLOSING YOUR INFORMATION TO THIRD PARTIES'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - APIs and SDKs may allow third parties to collect your personal information, subject
+    to applicable law, to provide Content that is more relevant to you.
+  - We may share any personal information we collect about you with our third-party
+    service providers.
+  purposes:
+    advertising:
+    - to provide Content that is more relevant to you
+    services:
+    - to provide Content that is more relevant to you
+- source: UNSPECIFIED_ACTOR
+  target: personal information we store in association with you
+  key: COLLECT
+  text:
+  - 'We may access, preserve, and disclose any personal information we store in association
+    with you to external parties if we, in good faith, believe doing so is required
+    or appropriate to: (i) comply with law enforcement or national security requests
+    and legal process, such as a court order or subpoena; (ii) protect your, our,
+    or others'' rights, property, or safety; (iii) enforce our policies or contracts;
+    (iv) collect amounts owed to us; or (v) assist with an investigation and prosecution
+    of suspected or actual illegal activity.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information within each of
+  key: COLLECT
+  text:
+  - 'Personal information within each of the categories may be shared with the following
+    categories of third parties: (1) service providers; (2) business partners; (3)
+    advertising partners; and (4) other users.'
+  purposes: {}
+- source: advertiser
+  target: information collect from website
+  key: COLLECT
+  text:
+  - These advertising partners may use this information (and similar information collected
+    from other websites) for purposes of delivering targeted advertisements to you
+    when you visit third party services within their networks.
+  - Through our Services, we may allow third party advertising partners to set Technologies
+    and other tracking tools to collect personal information regarding your activities
+    and your device (e.g., your IP address, cookie identifiers, pages visited, location,
+    time of day).
+  purposes:
+    advertising:
+    - for purposes of delivering targeted advertisements to you when you visit third
+      party services within their networks
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - Through our Services, we may allow third party advertising partners to set Technologies
+    and other tracking tools to collect personal information regarding your activities
+    and your device (e.g., your IP address, cookie identifiers, pages visited, location,
+    time of day).
+  purposes:
+    advertising:
+    - for purposes of delivering targeted advertisements to you when you visit third
+      party services within their networks
+- source: advertiser
+  target: personal information within each of
+  key: COLLECT
+  text:
+  - 'Personal information within each of the categories may be shared with the following
+    categories of third parties: (1) service providers; (2) business partners; (3)
+    advertising partners; and (4) other users.'
+  purposes: {}
+- source: business partner
+  target: personal information
+  key: COLLECT
+  text:
+  - We may provide personal information to business partners to provide you with a
+    product or service you have requested.
+  purposes:
+    services:
+    - to provide you with a product or service you have requested
+- source: business partner
+  target: personal information within each of
+  key: COLLECT
+  text:
+  - 'Personal information within each of the categories may be shared with the following
+    categories of third parties: (1) service providers; (2) business partners; (3)
+    advertising partners; and (4) other users.'
+  purposes: {}
+- source: business partner with whom we offer product
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also provide personal information to business partners with whom we jointly
+    offer products or services.
+  purposes: {}
+- source: model
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These models generate human-like text and images based on the input they receive.
+  - While these models do not store personal data provided during the interaction,
+    they do process the data in order to generate the necessary responses.
+  purposes:
+    analytics:
+    - in order to generate the necessary responses
+    - to generate the necessary responses
+    services:
+    - in order to generate the necessary responses
+    - to generate the necessary responses
+- source: realvr
+  target: content
+  key: COLLECT
+  text:
+  - RealVR only accesses and stores the Content and personal information on your behalf
+    that you specifically import into the Services, and we do not share this data
+    outside of the context of your use, i.e., your use in Villas with other individuals
+    of your choosing, except for certain special cases listed herein (e.g., law enforcement
+    requirement).
+  purposes: {}
+- source: realvr
+  target: personal information
+  key: COLLECT
+  text:
+  - RealVR only accesses and stores the Content and personal information on your behalf
+    that you specifically import into the Services, and we do not share this data
+    outside of the context of your use, i.e., your use in Villas with other individuals
+    of your choosing, except for certain special cases listed herein (e.g., law enforcement
+    requirement).
+  purposes: {}
+- source: service provider
+  target: personal information within each of
+  key: COLLECT
+  text:
+  - 'Personal information within each of the categories may be shared with the following
+    categories of third parties: (1) service providers; (2) business partners; (3)
+    advertising partners; and (4) other users.'
+  purposes: {}
+- source: technology partner
+  target: browsing pattern
+  key: COLLECT
+  text:
+  - To do this our technology partners may share data, such as your browsing patterns,
+    geolocation and device identifiers, and will match the personal information of
+    the browser and devices that appear to be used by the same person.
+  purposes: {}
+- source: technology partner
+  target: device identifier
+  key: COLLECT
+  text:
+  - To do this our technology partners may share data, such as your browsing patterns,
+    geolocation and device identifiers, and will match the personal information of
+    the browser and devices that appear to be used by the same person.
+  purposes: {}
+- source: technology partner
+  target: geolocation
+  key: COLLECT
+  text:
+  - To do this our technology partners may share data, such as your browsing patterns,
+    geolocation and device identifiers, and will match the personal information of
+    the browser and devices that appear to be used by the same person.
+  purposes: {}
+- source: third party provide content on services
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We, as well as third parties that provide content, advertising, or other functionality
+    on the Services, may use cookies, pixel tags, local storage, and other technologies
+    ("Technologies") to automatically collect personal information through the Services.
+  purposes: {}
+- source: third party provide content on services
+  target: local storage
+  key: COLLECT
+  text:
+  - We, as well as third parties that provide content, advertising, or other functionality
+    on the Services, may use cookies, pixel tags, local storage, and other technologies
+    ("Technologies") to automatically collect personal information through the Services.
+  purposes: {}
+- source: third party provide content on services
+  target: personal information
+  key: COLLECT
+  text:
+  - We, as well as third parties that provide content, advertising, or other functionality
+    on the Services, may use cookies, pixel tags, local storage, and other technologies
+    ("Technologies") to automatically collect personal information through the Services.
+  purposes: {}
+- source: we
+  target: platform
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to information processed by us in the course of our
+    business, including on our websites (the "Sites"), our mobile applications (the
+    "Apps"), the Platform, and our related online and offline offerings (collectively,
+    the "Services").
+- source: we
+  target: related online offering
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to information processed by us in the course of our
+    business, including on our websites (the "Sites"), our mobile applications (the
+    "Apps"), the Platform, and our related online and offline offerings (collectively,
+    the "Services").
+- source: account information
+  target: avatar
+  key: SUBSUM
+  text:
+  - This personal information may include your account information (such as your name
+    and your profile picture or avatar), Content you choose to present, including
+    any audio or images of you or your surroundings that your VR device sensors capture
+    while you engage in teleconferencing.
+- source: account information
+  target: person name
+  key: SUBSUM
+  text:
+  - This personal information may include your account information (such as your name
+    and your profile picture or avatar), Content you choose to present, including
+    any audio or images of you or your surroundings that your VR device sensors capture
+    while you engage in teleconferencing.
+- source: account information
+  target: profile picture
+  key: SUBSUM
+  text:
+  - This personal information may include your account information (such as your name
+    and your profile picture or avatar), Content you choose to present, including
+    any audio or images of you or your surroundings that your VR device sensors capture
+    while you engage in teleconferencing.
+- source: aggregate / deidentified / pseudonymized information
+  target: de - identify demographic information
+  key: SUBSUM
+  text:
+  - We may use personal information and other information about you to create de-identified
+    and/or aggregated information, such as de-identified demographic information,
+    de-identified location information, de-identified or aggregated trends, reports,
+    or statistics, or other analyses we create., and we may use and disclose such
+    information in a number of ways, including research, internal analysis, analytics,
+    and any other legally permissible purposes.
+- source: aggregate / deidentified / pseudonymized information
+  target: de - identify trend
+  key: SUBSUM
+  text:
+  - We may use personal information and other information about you to create de-identified
+    and/or aggregated information, such as de-identified demographic information,
+    de-identified location information, de-identified or aggregated trends, reports,
+    or statistics, or other analyses we create., and we may use and disclose such
+    information in a number of ways, including research, internal analysis, analytics,
+    and any other legally permissible purposes.
+- source: aggregate / deidentified / pseudonymized information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We may use personal information and other information about you to create de-identified
+    and/or aggregated information, such as de-identified demographic information,
+    de-identified location information, de-identified or aggregated trends, reports,
+    or statistics, or other analyses we create., and we may use and disclose such
+    information in a number of ways, including research, internal analysis, analytics,
+    and any other legally permissible purposes.
+- source: aggregate / deidentified / pseudonymized information
+  target: report
+  key: SUBSUM
+  text:
+  - We may use personal information and other information about you to create de-identified
+    and/or aggregated information, such as de-identified demographic information,
+    de-identified location information, de-identified or aggregated trends, reports,
+    or statistics, or other analyses we create., and we may use and disclose such
+    information in a number of ways, including research, internal analysis, analytics,
+    and any other legally permissible purposes.
+- source: aggregate / deidentified / pseudonymized information
+  target: statistic
+  key: SUBSUM
+  text:
+  - We may use personal information and other information about you to create de-identified
+    and/or aggregated information, such as de-identified demographic information,
+    de-identified location information, de-identified or aggregated trends, reports,
+    or statistics, or other analyses we create., and we may use and disclose such
+    information in a number of ways, including research, internal analysis, analytics,
+    and any other legally permissible purposes.
+- source: basic information tie to account
+  target: email address
+  key: SUBSUM
+  text:
+  - If you use our Services with a Third-Party Account, we will receive basic information
+    tied to the account such as your email address, full name, profile photo and unique
+    user IDs or tokens used by the third party service.
+- source: basic information tie to account
+  target: person name
+  key: SUBSUM
+  text:
+  - If you use our Services with a Third-Party Account, we will receive basic information
+    tied to the account such as your email address, full name, profile photo and unique
+    user IDs or tokens used by the third party service.
+- source: basic information tie to account
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - If you use our Services with a Third-Party Account, we will receive basic information
+    tied to the account such as your email address, full name, profile photo and unique
+    user IDs or tokens used by the third party service.
+- source: basic information tie to account
+  target: profile photo
+  key: SUBSUM
+  text:
+  - If you use our Services with a Third-Party Account, we will receive basic information
+    tied to the account such as your email address, full name, profile photo and unique
+    user IDs or tokens used by the third party service.
+- source: basic information tie to account
+  target: token
+  key: SUBSUM
+  text:
+  - If you use our Services with a Third-Party Account, we will receive basic information
+    tied to the account such as your email address, full name, profile photo and unique
+    user IDs or tokens used by the third party service.
+- source: geolocation
+  target: ip address
+  key: SUBSUM
+  text:
+  - This personal information may include your Internet protocol (IP) address, user
+    settings, MAC address, cookie identifiers, mobile carrier, mobile advertising
+    and other unique identifiers, details about your browser, operating system or
+    device, location information (including inferred location based on your IP address),
+    Internet service provider, pages that you visit before, during and after using
+    the Services, information about the links you click, information about how you
+    interact with the Services, including the frequency and duration of your activities,
+    and other information about how you use the Services.
+- source: information about
+  target: frequency
+  key: SUBSUM
+  text:
+  - This personal information may include your Internet protocol (IP) address, user
+    settings, MAC address, cookie identifiers, mobile carrier, mobile advertising
+    and other unique identifiers, details about your browser, operating system or
+    device, location information (including inferred location based on your IP address),
+    Internet service provider, pages that you visit before, during and after using
+    the Services, information about the links you click, information about how you
+    interact with the Services, including the frequency and duration of your activities,
+    and other information about how you use the Services.
+- source: information contain
+  target: personal information
+  key: SUBSUM
+  text:
+  - If you reply to one of these postings by submitting your application, CV and/or
+    cover letter to us, we will collect and process the information contained therein,
+    which includes personal information, to assess your suitability, aptitude, skills,
+    and qualifications for employment.
+- source: interactive feature
+  target: blog
+  key: SUBSUM
+  text:
+  - We may offer interactive features such as forums, blogs, chat and messaging services,
+    and social media pages on the Services.
+- source: interactive feature
+  target: chat service
+  key: SUBSUM
+  text:
+  - We may offer interactive features such as forums, blogs, chat and messaging services,
+    and social media pages on the Services.
+- source: interactive feature
+  target: forum
+  key: SUBSUM
+  text:
+  - We may offer interactive features such as forums, blogs, chat and messaging services,
+    and social media pages on the Services.
+- source: interactive feature
+  target: social media
+  key: SUBSUM
+  text:
+  - We may offer interactive features such as forums, blogs, chat and messaging services,
+    and social media pages on the Services.
+- source: it
+  target: payment processing
+  key: SUBSUM
+  text:
+  - 'The types of service providers to whom we entrust information include service
+    providers for: (i) the provision of the Services; (ii) the provision of information,
+    products, and other services you have requested; (iii) marketing and advertising;
+    (iv) payment and transaction processing; (v) customer service activities; and
+    (vi) the provision of IT and related services.'
+- source: it
+  target: provision of service
+  key: SUBSUM
+  text:
+  - 'The types of service providers to whom we entrust information include service
+    providers for: (i) the provision of the Services; (ii) the provision of information,
+    products, and other services you have requested; (iii) marketing and advertising;
+    (iv) payment and transaction processing; (v) customer service activities; and
+    (vi) the provision of IT and related services.'
+- source: non - sensitive personal information associate with payment information
+  target: postal address
+  key: SUBSUM
+  text:
+  - We may receive non-sensitive personal information associated with your payment
+    information, such as billing address and transaction information, but we do not
+    store payment information on the Services.
+- source: non - sensitive personal information associate with payment information
+  target: transaction information
+  key: SUBSUM
+  text:
+  - We may receive non-sensitive personal information associated with your payment
+    information, such as billing address and transaction information, but we do not
+    store payment information on the Services.
+- source: personal information
+  target: account information
+  key: SUBSUM
+  text:
+  - This personal information may include your account information (such as your name
+    and your profile picture or avatar), Content you choose to present, including
+    any audio or images of you or your surroundings that your VR device sensors capture
+    while you engage in teleconferencing.
+  - When you use the Services, including when you use our teleconferencing services,
+    certain personal information may be shared with other users.
+- source: personal information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - This personal information may include your Internet protocol (IP) address, user
+    settings, MAC address, cookie identifiers, mobile carrier, mobile advertising
+    and other unique identifiers, details about your browser, operating system or
+    device, location information (including inferred location based on your IP address),
+    Internet service provider, pages that you visit before, during and after using
+    the Services, information about the links you click, information about how you
+    interact with the Services, including the frequency and duration of your activities,
+    and other information about how you use the Services.
+  - We may collect certain personal information automatically when you use the Services.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - We collect personal information from you such as your email address, name, employer
+    or other company with which you are associated, VR device type, and purchasing
+    plans when you request information about our Services, register for our newsletter,
+    request customer or technical support, or otherwise communicate with us.
+- source: personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - This personal information may include your Internet protocol (IP) address, user
+    settings, MAC address, cookie identifiers, mobile carrier, mobile advertising
+    and other unique identifiers, details about your browser, operating system or
+    device, location information (including inferred location based on your IP address),
+    Internet service provider, pages that you visit before, during and after using
+    the Services, information about the links you click, information about how you
+    interact with the Services, including the frequency and duration of your activities,
+    and other information about how you use the Services.
+  - We may collect certain personal information automatically when you use the Services.
+- source: personal information
+  target: identifier
+  key: SUBSUM
+  text:
+  - This personal information may include your Internet protocol (IP) address, user
+    settings, MAC address, cookie identifiers, mobile carrier, mobile advertising
+    and other unique identifiers, details about your browser, operating system or
+    device, location information (including inferred location based on your IP address),
+    Internet service provider, pages that you visit before, during and after using
+    the Services, information about the links you click, information about how you
+    interact with the Services, including the frequency and duration of your activities,
+    and other information about how you use the Services.
+  - We may collect certain personal information automatically when you use the Services.
+- source: personal information
+  target: information about
+  key: SUBSUM
+  text:
+  - This personal information may include your Internet protocol (IP) address, user
+    settings, MAC address, cookie identifiers, mobile carrier, mobile advertising
+    and other unique identifiers, details about your browser, operating system or
+    device, location information (including inferred location based on your IP address),
+    Internet service provider, pages that you visit before, during and after using
+    the Services, information about the links you click, information about how you
+    interact with the Services, including the frequency and duration of your activities,
+    and other information about how you use the Services.
+  - We may collect certain personal information automatically when you use the Services.
+- source: personal information
+  target: information about link you click
+  key: SUBSUM
+  text:
+  - This personal information may include your Internet protocol (IP) address, user
+    settings, MAC address, cookie identifiers, mobile carrier, mobile advertising
+    and other unique identifiers, details about your browser, operating system or
+    device, location information (including inferred location based on your IP address),
+    Internet service provider, pages that you visit before, during and after using
+    the Services, information about the links you click, information about how you
+    interact with the Services, including the frequency and duration of your activities,
+    and other information about how you use the Services.
+  - We may collect certain personal information automatically when you use the Services.
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - This personal information may include your Internet protocol (IP) address, user
+    settings, MAC address, cookie identifiers, mobile carrier, mobile advertising
+    and other unique identifiers, details about your browser, operating system or
+    device, location information (including inferred location based on your IP address),
+    Internet service provider, pages that you visit before, during and after using
+    the Services, information about the links you click, information about how you
+    interact with the Services, including the frequency and duration of your activities,
+    and other information about how you use the Services.
+  - We may collect certain personal information automatically when you use the Services.
+- source: personal information
+  target: mac address
+  key: SUBSUM
+  text:
+  - This personal information may include your Internet protocol (IP) address, user
+    settings, MAC address, cookie identifiers, mobile carrier, mobile advertising
+    and other unique identifiers, details about your browser, operating system or
+    device, location information (including inferred location based on your IP address),
+    Internet service provider, pages that you visit before, during and after using
+    the Services, information about the links you click, information about how you
+    interact with the Services, including the frequency and duration of your activities,
+    and other information about how you use the Services.
+  - We may collect certain personal information automatically when you use the Services.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - We collect personal information from you such as your email address, name, employer
+    or other company with which you are associated, VR device type, and purchasing
+    plans when you request information about our Services, register for our newsletter,
+    request customer or technical support, or otherwise communicate with us.
+- source: personal information
+  target: purchasing plan
+  key: SUBSUM
+  text:
+  - We collect personal information from you such as your email address, name, employer
+    or other company with which you are associated, VR device type, and purchasing
+    plans when you request information about our Services, register for our newsletter,
+    request customer or technical support, or otherwise communicate with us.
+- source: personal information
+  target: user setting
+  key: SUBSUM
+  text:
+  - This personal information may include your Internet protocol (IP) address, user
+    settings, MAC address, cookie identifiers, mobile carrier, mobile advertising
+    and other unique identifiers, details about your browser, operating system or
+    device, location information (including inferred location based on your IP address),
+    Internet service provider, pages that you visit before, during and after using
+    the Services, information about the links you click, information about how you
+    interact with the Services, including the frequency and duration of your activities,
+    and other information about how you use the Services.
+  - We may collect certain personal information automatically when you use the Services.
+- source: personal information
+  target: vr device type
+  key: SUBSUM
+  text:
+  - We collect personal information from you such as your email address, name, employer
+    or other company with which you are associated, VR device type, and purchasing
+    plans when you request information about our Services, register for our newsletter,
+    request customer or technical support, or otherwise communicate with us.
+- source: personal information from you
+  target: person name
+  key: SUBSUM
+  text:
+  - For enterprise users, we may collect additional personal information from you
+    including the name and address of your business and your role at the business.
+- source: personal information from you
+  target: postal address
+  key: SUBSUM
+  text:
+  - For enterprise users, we may collect additional personal information from you
+    including the name and address of your business and your role at the business.
+- source: popular business tool
+  target: Google
+  key: SUBSUM
+  text:
+  - For example, we allow you to integrate RealVR with popular business tools such
+    as Google Drive and Slack, and to upload Content from applications into Villas
+    to enhance your use of the Services.
+- source: popular business tool
+  target: Slack
+  key: SUBSUM
+  text:
+  - For example, we allow you to integrate RealVR with popular business tools such
+    as Google Drive and Slack, and to upload Content from applications into Villas
+    to enhance your use of the Services.
+- source: service provider
+  target: FullStory
+  key: SUBSUM
+  text:
+  - We use service providers such as FullStory for session replay analytics.
+- source: service provider
+  target: Google
+  key: SUBSUM
+  text:
+  - We use service providers such as Google Analytics and may use others to collect
+    anonymized or aggregate information regarding user behavior and user demographics
+    on the Services.
+- source: telemetry information
+  target: movement within environment
+  key: SUBSUM
+  text:
+  - The telemetry information may additionally include information about your physical
+    environment and movements within the environment.
+- source: type of use
+  target: geolocation
+  key: SUBSUM
+  text:
+  - You may have the right to opt into certain uses of your personal information,
+    or based on type of use and/or your geographic location, to object to or opt out
+    of certain uses of your personal information.
+- source: videoconferencing functionality
+  target: zoom
+  key: SUBSUM
+  text:
+  - Our service incorporates videoconferencing functionalities, such as Zoom, to facilitate
+    communication from and to virtual reality (VR) environments.
+nodes:
+- type: ACTOR
+  id: FullStory
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Slack
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: blog
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: business partner with whom we offer product
+- type: ACTOR
+  id: chat service
+- type: ACTOR
+  id: forum
+- type: ACTOR
+  id: interactive feature
+- type: ACTOR
+  id: it
+- type: ACTOR
+  id: model
+- type: ACTOR
+  id: payment processing
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: popular business tool
+- type: ACTOR
+  id: provision of service
+- type: ACTOR
+  id: realvr
+- type: ACTOR
+  id: related online offering
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: technology partner
+- type: ACTOR
+  id: third party provide content on services
+- type: ACTOR
+  id: videoconferencing functionality
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: avatar
+- type: DATA
+  id: basic information tie to account
+- type: DATA
+  id: biometric information
+- type: DATA
+  id: browsing pattern
+- type: DATA
+  id: camera information
+- type: DATA
+  id: collect personal information
+- type: DATA
+  id: content
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: datum describe villas
+- type: DATA
+  id: de - identify demographic information
+- type: DATA
+  id: de - identify trend
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: file
+- type: DATA
+  id: file from google drive
+- type: DATA
+  id: frequency
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about link you click
+- type: DATA
+  id: information about winner
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information collect from website
+- type: DATA
+  id: information contain
+- type: DATA
+  id: information you submit
+- type: DATA
+  id: ip address
+- type: DATA
+  id: local storage
+- type: DATA
+  id: mac address
+- type: DATA
+  id: movement within environment
+- type: DATA
+  id: necessary personal information about authorize user whom you authorize
+- type: DATA
+  id: non - sensitive personal information associate with payment information
+- type: DATA
+  id: payment information allow
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information from you
+- type: DATA
+  id: personal information we store in association with you
+- type: DATA
+  id: personal information within each of
+- type: DATA
+  id: postal address
+- type: DATA
+  id: precise geolocation
+- type: DATA
+  id: profile photo
+- type: DATA
+  id: profile picture
+- type: DATA
+  id: purchasing plan
+- type: DATA
+  id: report
+- type: DATA
+  id: request
+- type: DATA
+  id: statistic
+- type: DATA
+  id: telemetry information
+- type: DATA
+  id: token
+- type: DATA
+  id: transaction information
+- type: DATA
+  id: type of use
+- type: DATA
+  id: usage information
+- type: DATA
+  id: user setting
+- type: DATA
+  id: vr device type

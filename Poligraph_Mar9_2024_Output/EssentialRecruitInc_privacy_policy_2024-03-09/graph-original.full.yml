@@ -1,0 +1,129 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We also collect information through job application submissions, such as resume
+    and cover letter, as well as information from social media profiles if users choose
+    to connect their accounts.
+  purposes: {}
+- source: we
+  target: job
+  key: COLLECT
+  text:
+  - 'Contact Information
+
+
+    I need a job'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share personal information with our partners, such as employment agencies
+    and healthcare organizations, for the purpose of facilitating the recruitment
+    process.
+  purposes:
+    advertising:
+    - for the purpose of facilitating the recruitment process
+    services:
+    - for the purpose of facilitating the recruitment process
+- source: employment agency
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share personal information with our partners, such as employment agencies
+    and healthcare organizations, for the purpose of facilitating the recruitment
+    process.
+  purposes:
+    advertising:
+    - for the purpose of facilitating the recruitment process
+    services:
+    - for the purpose of facilitating the recruitment process
+- source: er
+  target: personal information
+  key: COLLECT
+  text:
+  - ER collects personal information when users register on our web application, including
+    name, email address, and employment history.
+  - ER uses personal information to facilitate the recruitment process for both job
+    seekers and employers.
+  purposes:
+    advertising:
+    - to facilitate the recruitment process for both job seekers and employers
+    services:
+    - to facilitate the recruitment process for both job seekers and employers
+- source: healthcare organization
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share personal information with our partners, such as employment agencies
+    and healthcare organizations, for the purpose of facilitating the recruitment
+    process.
+  purposes:
+    advertising:
+    - for the purpose of facilitating the recruitment process
+    services:
+    - for the purpose of facilitating the recruitment process
+- source: job application submission
+  target: cover letter
+  key: SUBSUM
+  text:
+  - We also collect information through job application submissions, such as resume
+    and cover letter, as well as information from social media profiles if users choose
+    to connect their accounts.
+- source: job application submission
+  target: resume
+  key: SUBSUM
+  text:
+  - We also collect information through job application submissions, such as resume
+    and cover letter, as well as information from social media profiles if users choose
+    to connect their accounts.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - ER collects personal information when users register on our web application, including
+    name, email address, and employment history.
+- source: personal information
+  target: employment history
+  key: SUBSUM
+  text:
+  - ER collects personal information when users register on our web application, including
+    name, email address, and employment history.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - ER collects personal information when users register on our web application, including
+    name, email address, and employment history.
+nodes:
+- type: ACTOR
+  id: employment agency
+- type: ACTOR
+  id: er
+- type: ACTOR
+  id: healthcare organization
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cover letter
+- type: DATA
+  id: email address
+- type: DATA
+  id: employment history
+- type: DATA
+  id: job
+- type: DATA
+  id: job application submission
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: resume

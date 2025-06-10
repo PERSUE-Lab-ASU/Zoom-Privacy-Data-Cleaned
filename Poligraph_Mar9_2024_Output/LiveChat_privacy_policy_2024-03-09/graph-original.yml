@@ -1,0 +1,48 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'It will notify you of the following: What information we collect;'
+  - We will use your information to respond to you, regarding the reason you contacted
+    us.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Cookies  We use "cookies" on this site.
+  purposes: {}
+- source: we
+  target: information you give we via email
+  key: COLLECT
+  text:
+  - We only have access to/collect information that you voluntarily give us via email
+    or other direct contact from you.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will collect and use personal information solely with the objective of fulfilling
+    those purposes specified by us and for other compatible purposes, unless we obtain
+    the consent of the individual concerned or as required by law.
+  - We will collect personal information by lawful and fair means and, where appropriate,
+    with the knowledge or consent of the individual concerned.
+  - We will only retain personal information as long as necessary for the fulfillment
+    of those purposes.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information you give we via email
+- type: DATA
+  id: personal information

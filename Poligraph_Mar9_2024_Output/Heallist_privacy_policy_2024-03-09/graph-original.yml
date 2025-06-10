@@ -1,0 +1,848 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '* We may obtain information from other sources, including through third-party
+    information providers or through transactions such as mergers and acquisitions.'
+  - For example, we collect information about your device and its software, such as
+    your IP address, browser type, Internet service provider, platform type, device
+    type, operating system, date and time stamp, a unique ID (that allows us to uniquely
+    identify your browser, mobile device, or your account), and other such information.
+  - For example, we use your information to set up your account, verify your phone
+    number, and deliver the Service to you; send you transactional information, including
+    confirmations, invoices, technical notices, product and services information,
+    updates, security alerts, support and administrative messages, and information
+    about your account with us; communicate with you such as to respond to your comments
+    and questions, provide customer service or feedback, or for any other purposes
+    in connection with the Service; provide you with news about products and services
+    offered by us; operate, maintain, test, enhance, update, monitor, diagnose, fix
+    and improve our Service;  prevent, investigate or provide notice of fraud or unlawful
+    or criminal activity, unauthorized access to or use of personal information, our
+    data system services, and to meet governmental and institutional policy obligations;
+    enforce and carry out contracts and agreements with our customers; investigate
+    and resolve disputes and security issues and to enforce our Terms of Service;
+    comply with legal obligations; and for any other lawful business purpose.
+  - Our app may create Zoom meetings for appointments scheduled through our platform
+    and may also access and retrieve information from your Zoom Account.
+  purposes:
+    security:
+    - to set up your account, verify your phone number, and deliver the Service to
+      you
+    services:
+    - to set up your account, verify your phone number, and deliver the Service to
+      you
+- source: we
+  target: account credential
+  key: COLLECT
+  text:
+  - '* If you create an account or a profile on our Service, we may collect your full
+    name, phone number, email address, home or business address, state of residence,
+    date of birth, gender, account credentials such as username and password, payment
+    card information, licensure information, photos, videos, and we may display this
+    information on your profile page and use it to provide you with our Service.'
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - As such, when you access the Site, we will automatically collect information such
+    as your browser type and version, device and connection information, the Internet
+    Protocol (IP) address used to connect your device to the Internet, and standard
+    web log information.
+  - For example, we collect information about your device and its software, such as
+    your IP address, browser type, Internet service provider, platform type, device
+    type, operating system, date and time stamp, a unique ID (that allows us to uniquely
+    identify your browser, mobile device, or your account), and other such information.
+  purposes: {}
+- source: we
+  target: combine personal information
+  key: COLLECT
+  text:
+  - In these cases, our Privacy Policy governs the handling of the combined personal
+    information.
+  - We use this information to operate, maintain, and provide to you the features
+    and functionality of the Service, as well as to communicate directly with you,
+    such as to send you email messages about products and services that may be of
+    interest to you.
+  purposes:
+    services:
+    - to operate, maintain, and provide to you the features and functionality of the
+      Service, as well as to communicate directly with you, such as to send you email
+      messages about products and services that may be of interest to you
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - '* If you create an account or a profile on our Service, we may collect your full
+    name, phone number, email address, home or business address, state of residence,
+    date of birth, gender, account credentials such as username and password, payment
+    card information, licensure information, photos, videos, and we may display this
+    information on your profile page and use it to provide you with our Service.'
+  purposes: {}
+- source: we
+  target: date
+  key: COLLECT
+  text:
+  - For example, we collect information about your device and its software, such as
+    your IP address, browser type, Internet service provider, platform type, device
+    type, operating system, date and time stamp, a unique ID (that allows us to uniquely
+    identify your browser, mobile device, or your account), and other such information.
+  purposes: {}
+- source: we
+  target: date of birth
+  key: COLLECT
+  text:
+  - '* If you create an account or a profile on our Service, we may collect your full
+    name, phone number, email address, home or business address, state of residence,
+    date of birth, gender, account credentials such as username and password, payment
+    card information, licensure information, photos, videos, and we may display this
+    information on your profile page and use it to provide you with our Service.'
+  purposes: {}
+- source: we
+  target: device information
+  key: COLLECT
+  text:
+  - As such, when you access the Site, we will automatically collect information such
+    as your browser type and version, device and connection information, the Internet
+    Protocol (IP) address used to connect your device to the Internet, and standard
+    web log information.
+  purposes: {}
+- source: we
+  target: device type
+  key: COLLECT
+  text:
+  - '* When you access our Service from a mobile device, we may collect unique identification
+    numbers associated with your device or our Apps (including, for example, a UDID),
+    mobile carrier, device type, model and manufacturer, mobile device operating system
+    brand and model, phone number, and, depending on your mobile device settings,
+    your geographical location data (with your permission), including GPS coordinates
+    (e.g., latitude and/or longitude) or similar information regarding the location
+    of your mobile device, or we may be able to approximate a device''s location by
+    analyzing other information, like an IP address.'
+  - For example, we collect information about your device and its software, such as
+    your IP address, browser type, Internet service provider, platform type, device
+    type, operating system, date and time stamp, a unique ID (that allows us to uniquely
+    identify your browser, mobile device, or your account), and other such information.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - '* If you contact us, we may collect your name, email address, mailing address,
+    phone number, or any other personal information you provide to us, and use it
+    to communicate with you, to enhance our Service, and to manage and grow our organization.'
+  - '* If you create an account or a profile on our Service, we may collect your full
+    name, phone number, email address, home or business address, state of residence,
+    date of birth, gender, account credentials such as username and password, payment
+    card information, licensure information, photos, videos, and we may display this
+    information on your profile page and use it to provide you with our Service.'
+  purposes: {}
+- source: we
+  target: gender
+  key: COLLECT
+  text:
+  - '* If you create an account or a profile on our Service, we may collect your full
+    name, phone number, email address, home or business address, state of residence,
+    date of birth, gender, account credentials such as username and password, payment
+    card information, licensure information, photos, videos, and we may display this
+    information on your profile page and use it to provide you with our Service.'
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - '* When you access our Service from a mobile device, we may collect unique identification
+    numbers associated with your device or our Apps (including, for example, a UDID),
+    mobile carrier, device type, model and manufacturer, mobile device operating system
+    brand and model, phone number, and, depending on your mobile device settings,
+    your geographical location data (with your permission), including GPS coordinates
+    (e.g., latitude and/or longitude) or similar information regarding the location
+    of your mobile device, or we may be able to approximate a device''s location by
+    analyzing other information, like an IP address.'
+  purposes: {}
+- source: we
+  target: identifier
+  key: COLLECT
+  text:
+  - We share a unique identifier, like a user ID or hashed email address, with Google
+    to facilitate the service.
+  purposes:
+    services:
+    - to facilitate the service
+- source: we
+  target: information about way you use service for
+  key: COLLECT
+  text:
+  - We also collect information about the way you use our Service, for example, the
+    site from which you came and the site to which you are going when you leave our
+    website, the pages you visit, the links you click, how frequently you access the
+    Service, whether you open emails or click the links contained in emails, and other
+    actions you take on the Service.
+  purposes: {}
+- source: we
+  target: information about you be
+  key: COLLECT
+  text:
+  - We may also collect information about you that is publicly available.
+  purposes: {}
+- source: we
+  target: information from google calendar
+  key: COLLECT
+  text:
+  - Upon connection, our platform may access and retrieve information from your Google
+    Calendar, including but not limited to events, reminders, calendar availability,
+    and other calendar-related data.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We use the information we collect for purposes described in this Privacy Policy
+    or as otherwise disclosed to you on our Service or in connection with our Service.
+  purposes:
+    legal:
+    - for purposes described in this Privacy Policy or as otherwise disclosed to you
+      on our Service or in connection with our Service
+- source: we
+  target: information you permit
+  key: COLLECT
+  text:
+  - For example, when you interact with us through a social media site or third-party
+    service, such as when you like, follow, or share Heallist content on Facebook,
+    Twitter, Instagram, or other sites, we may receive information from the social
+    network, including your profile information, picture, user ID associated with
+    your social media account, and any other information you permit the social network
+    to share with third parties.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - As such, when you access the Site, we will automatically collect information such
+    as your browser type and version, device and connection information, the Internet
+    Protocol (IP) address used to connect your device to the Internet, and standard
+    web log information.
+  - For example, we collect information about your device and its software, such as
+    your IP address, browser type, Internet service provider, platform type, device
+    type, operating system, date and time stamp, a unique ID (that allows us to uniquely
+    identify your browser, mobile device, or your account), and other such information.
+  - We may collect general geographic location based on your IP address or more precise
+    geolocation with your permission when accessing our Service through a mobile device.
+  purposes: {}
+- source: we
+  target: manufacturer
+  key: COLLECT
+  text:
+  - '* When you access our Service from a mobile device, we may collect unique identification
+    numbers associated with your device or our Apps (including, for example, a UDID),
+    mobile carrier, device type, model and manufacturer, mobile device operating system
+    brand and model, phone number, and, depending on your mobile device settings,
+    your geographical location data (with your permission), including GPS coordinates
+    (e.g., latitude and/or longitude) or similar information regarding the location
+    of your mobile device, or we may be able to approximate a device''s location by
+    analyzing other information, like an IP address.'
+  purposes: {}
+- source: we
+  target: mobile device operating system brand
+  key: COLLECT
+  text:
+  - '* When you access our Service from a mobile device, we may collect unique identification
+    numbers associated with your device or our Apps (including, for example, a UDID),
+    mobile carrier, device type, model and manufacturer, mobile device operating system
+    brand and model, phone number, and, depending on your mobile device settings,
+    your geographical location data (with your permission), including GPS coordinates
+    (e.g., latitude and/or longitude) or similar information regarding the location
+    of your mobile device, or we may be able to approximate a device''s location by
+    analyzing other information, like an IP address.'
+  purposes: {}
+- source: we
+  target: model
+  key: COLLECT
+  text:
+  - '* When you access our Service from a mobile device, we may collect unique identification
+    numbers associated with your device or our Apps (including, for example, a UDID),
+    mobile carrier, device type, model and manufacturer, mobile device operating system
+    brand and model, phone number, and, depending on your mobile device settings,
+    your geographical location data (with your permission), including GPS coordinates
+    (e.g., latitude and/or longitude) or similar information regarding the location
+    of your mobile device, or we may be able to approximate a device''s location by
+    analyzing other information, like an IP address.'
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - '* If you contact us, we may collect your name, email address, mailing address,
+    phone number, or any other personal information you provide to us, and use it
+    to communicate with you, to enhance our Service, and to manage and grow our organization.'
+  - '* If you create an account or a profile on our Service, we may collect your full
+    name, phone number, email address, home or business address, state of residence,
+    date of birth, gender, account credentials such as username and password, payment
+    card information, licensure information, photos, videos, and we may display this
+    information on your profile page and use it to provide you with our Service.'
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - For example, when you interact with us through a social media site or third-party
+    service, such as when you like, follow, or share Heallist content on Facebook,
+    Twitter, Instagram, or other sites, we may receive information from the social
+    network, including your profile information, picture, user ID associated with
+    your social media account, and any other information you permit the social network
+    to share with third parties.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - '* If you contact us, we may collect your name, email address, mailing address,
+    phone number, or any other personal information you provide to us, and use it
+    to communicate with you, to enhance our Service, and to manage and grow our organization.'
+  - This Privacy Policy explains how we collect, use and disclose personal information
+    of the users of our Service, including practitioners who use the Service to list
+    their services and/or to offer treatment (" Practitioners ") and customers who
+    are interested in obtaining such services and/or treatments (" Customers ").
+  - We collect personal information in connection with your visits to and use of the
+    Service.
+  - We may receive personal information about you from third parties and combine that
+    with information we collect through our Service.
+  - 'We may share personal information with:'
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - '* If you contact us, we may collect your name, email address, mailing address,
+    phone number, or any other personal information you provide to us, and use it
+    to communicate with you, to enhance our Service, and to manage and grow our organization.'
+  - '* If you create an account or a profile on our Service, we may collect your full
+    name, phone number, email address, home or business address, state of residence,
+    date of birth, gender, account credentials such as username and password, payment
+    card information, licensure information, photos, videos, and we may display this
+    information on your profile page and use it to provide you with our Service.'
+  - '* When you access our Service from a mobile device, we may collect unique identification
+    numbers associated with your device or our Apps (including, for example, a UDID),
+    mobile carrier, device type, model and manufacturer, mobile device operating system
+    brand and model, phone number, and, depending on your mobile device settings,
+    your geographical location data (with your permission), including GPS coordinates
+    (e.g., latitude and/or longitude) or similar information regarding the location
+    of your mobile device, or we may be able to approximate a device''s location by
+    analyzing other information, like an IP address.'
+  purposes: {}
+- source: we
+  target: picture
+  key: COLLECT
+  text:
+  - For example, when you interact with us through a social media site or third-party
+    service, such as when you like, follow, or share Heallist content on Facebook,
+    Twitter, Instagram, or other sites, we may receive information from the social
+    network, including your profile information, picture, user ID associated with
+    your social media account, and any other information you permit the social network
+    to share with third parties.
+  purposes: {}
+- source: we
+  target: platform type
+  key: COLLECT
+  text:
+  - For example, we collect information about your device and its software, such as
+    your IP address, browser type, Internet service provider, platform type, device
+    type, operating system, date and time stamp, a unique ID (that allows us to uniquely
+    identify your browser, mobile device, or your account), and other such information.
+  purposes: {}
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - '* If you contact us, we may collect your name, email address, mailing address,
+    phone number, or any other personal information you provide to us, and use it
+    to communicate with you, to enhance our Service, and to manage and grow our organization.'
+  - '* If you create an account or a profile on our Service, we may collect your full
+    name, phone number, email address, home or business address, state of residence,
+    date of birth, gender, account credentials such as username and password, payment
+    card information, licensure information, photos, videos, and we may display this
+    information on your profile page and use it to provide you with our Service.'
+  purposes: {}
+- source: we
+  target: precise geolocation
+  key: COLLECT
+  text:
+  - We may collect general geographic location based on your IP address or more precise
+    geolocation with your permission when accessing our Service through a mobile device.
+  purposes: {}
+- source: we
+  target: profile information
+  key: COLLECT
+  text:
+  - For example, when you interact with us through a social media site or third-party
+    service, such as when you like, follow, or share Heallist content on Facebook,
+    Twitter, Instagram, or other sites, we may receive information from the social
+    network, including your profile information, picture, user ID associated with
+    your social media account, and any other information you permit the social network
+    to share with third parties.
+  purposes: {}
+- source: we
+  target: standard web log information
+  key: COLLECT
+  text:
+  - As such, when you access the Site, we will automatically collect information such
+    as your browser type and version, device and connection information, the Internet
+    Protocol (IP) address used to connect your device to the Internet, and standard
+    web log information.
+  purposes: {}
+- source: we
+  target: state of residence
+  key: COLLECT
+  text:
+  - '* If you create an account or a profile on our Service, we may collect your full
+    name, phone number, email address, home or business address, state of residence,
+    date of birth, gender, account credentials such as username and password, payment
+    card information, licensure information, photos, videos, and we may display this
+    information on your profile page and use it to provide you with our Service.'
+  purposes: {}
+- source: we
+  target: time stamp
+  key: COLLECT
+  text:
+  - For example, we collect information about your device and its software, such as
+    your IP address, browser type, Internet service provider, platform type, device
+    type, operating system, date and time stamp, a unique ID (that allows us to uniquely
+    identify your browser, mobile device, or your account), and other such information.
+  purposes: {}
+- source: we
+  target: type of usage information
+  key: COLLECT
+  text:
+  - '* We, and our third-party partners, automatically collect certain types of usage
+    information when you visit our Service, read our emails, or otherwise engage with
+    us.'
+  - We typically collect this information through a variety of tracking technologies,
+    including cookies, web beacons, embedded scripts, location-identifying technologies,
+    file information, and similar technology (collectively, "tracking technologies").
+  purposes: {}
+- source: we
+  target: unique id
+  key: COLLECT
+  text:
+  - For example, we collect information about your device and its software, such as
+    your IP address, browser type, Internet service provider, platform type, device
+    type, operating system, date and time stamp, a unique ID (that allows us to uniquely
+    identify your browser, mobile device, or your account), and other such information.
+  purposes: {}
+- source: we
+  target: unique identification number
+  key: COLLECT
+  text:
+  - '* When you access our Service from a mobile device, we may collect unique identification
+    numbers associated with your device or our Apps (including, for example, a UDID),
+    mobile carrier, device type, model and manufacturer, mobile device operating system
+    brand and model, phone number, and, depending on your mobile device settings,
+    your geographical location data (with your permission), including GPS coordinates
+    (e.g., latitude and/or longitude) or similar information regarding the location
+    of your mobile device, or we may be able to approximate a device''s location by
+    analyzing other information, like an IP address.'
+  purposes: {}
+- source: we
+  target: version
+  key: COLLECT
+  text:
+  - As such, when you access the Site, we will automatically collect information such
+    as your browser type and version, device and connection information, the Internet
+    Protocol (IP) address used to connect your device to the Internet, and standard
+    web log information.
+  purposes: {}
+- source: Google
+  target: identifier
+  key: COLLECT
+  text:
+  - We share a unique identifier, like a user ID or hashed email address, with Google
+    to facilitate the service.
+  purposes:
+    services:
+    - to facilitate the service
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These companies will use your personal information in the same way as we can under
+    this Privacy Policy.
+  - other companies and brands owned or controlled by Heallist and other companies
+    owned by or under common ownership with Heallist, which also includes our subsidiaries
+    (i.e., any organization we own or control) or our ultimate holding company (i.e.,
+    any organization that owns or controls us) and any subsidiaries it owns.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: type of usage information
+  key: COLLECT
+  text:
+  - '* We, and our third-party partners, automatically collect certain types of usage
+    information when you visit our Service, read our emails, or otherwise engage with
+    us.'
+  purposes: {}
+- source: heallist
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '* As our Service includes, among other features, a video calling/conferencing
+    feature, either provided by us or through a third party, which transmits and which
+    may capture screen activity, Heallist may inadvertently collect information while
+    you use this feature.'
+  - This information may include physical addresses, email address, phone number,
+    information related to contacts, photos, videos, web browsing history and other
+    information visible on your screen while using this feature, which could also
+    include personal data about you and/or others including without limitation data
+    revealing racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic or biometric data, health data, or data
+    concerning a person's sex life or sexual orientation.
+  purposes: {}
+- source: heallist
+  target: browsing / search history
+  key: COLLECT
+  text:
+  - '* As our Service includes, among other features, a video calling/conferencing
+    feature, either provided by us or through a third party, which transmits and which
+    may capture screen activity, Heallist may inadvertently collect information while
+    you use this feature.'
+  - This information may include physical addresses, email address, phone number,
+    information related to contacts, photos, videos, web browsing history and other
+    information visible on your screen while using this feature, which could also
+    include personal data about you and/or others including without limitation data
+    revealing racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic or biometric data, health data, or data
+    concerning a person's sex life or sexual orientation.
+  purposes: {}
+- source: heallist
+  target: email address
+  key: COLLECT
+  text:
+  - '* As our Service includes, among other features, a video calling/conferencing
+    feature, either provided by us or through a third party, which transmits and which
+    may capture screen activity, Heallist may inadvertently collect information while
+    you use this feature.'
+  - This information may include physical addresses, email address, phone number,
+    information related to contacts, photos, videos, web browsing history and other
+    information visible on your screen while using this feature, which could also
+    include personal data about you and/or others including without limitation data
+    revealing racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic or biometric data, health data, or data
+    concerning a person's sex life or sexual orientation.
+  purposes: {}
+- source: heallist
+  target: information relate to contact
+  key: COLLECT
+  text:
+  - '* As our Service includes, among other features, a video calling/conferencing
+    feature, either provided by us or through a third party, which transmits and which
+    may capture screen activity, Heallist may inadvertently collect information while
+    you use this feature.'
+  - This information may include physical addresses, email address, phone number,
+    information related to contacts, photos, videos, web browsing history and other
+    information visible on your screen while using this feature, which could also
+    include personal data about you and/or others including without limitation data
+    revealing racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic or biometric data, health data, or data
+    concerning a person's sex life or sexual orientation.
+  purposes: {}
+- source: heallist
+  target: personal information
+  key: COLLECT
+  text:
+  - '* As our Service includes, among other features, a video calling/conferencing
+    feature, either provided by us or through a third party, which transmits and which
+    may capture screen activity, Heallist may inadvertently collect information while
+    you use this feature.'
+  - This information may include physical addresses, email address, phone number,
+    information related to contacts, photos, videos, web browsing history and other
+    information visible on your screen while using this feature, which could also
+    include personal data about you and/or others including without limitation data
+    revealing racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic or biometric data, health data, or data
+    concerning a person's sex life or sexual orientation.
+  purposes: {}
+- source: heallist
+  target: phone number
+  key: COLLECT
+  text:
+  - '* As our Service includes, among other features, a video calling/conferencing
+    feature, either provided by us or through a third party, which transmits and which
+    may capture screen activity, Heallist may inadvertently collect information while
+    you use this feature.'
+  - This information may include physical addresses, email address, phone number,
+    information related to contacts, photos, videos, web browsing history and other
+    information visible on your screen while using this feature, which could also
+    include personal data about you and/or others including without limitation data
+    revealing racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic or biometric data, health data, or data
+    concerning a person's sex life or sexual orientation.
+  purposes: {}
+- source: heallist
+  target: photo
+  key: COLLECT
+  text:
+  - '* As our Service includes, among other features, a video calling/conferencing
+    feature, either provided by us or through a third party, which transmits and which
+    may capture screen activity, Heallist may inadvertently collect information while
+    you use this feature.'
+  - This information may include physical addresses, email address, phone number,
+    information related to contacts, photos, videos, web browsing history and other
+    information visible on your screen while using this feature, which could also
+    include personal data about you and/or others including without limitation data
+    revealing racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic or biometric data, health data, or data
+    concerning a person's sex life or sexual orientation.
+  purposes: {}
+- source: heallist
+  target: postal address
+  key: COLLECT
+  text:
+  - '* As our Service includes, among other features, a video calling/conferencing
+    feature, either provided by us or through a third party, which transmits and which
+    may capture screen activity, Heallist may inadvertently collect information while
+    you use this feature.'
+  - This information may include physical addresses, email address, phone number,
+    information related to contacts, photos, videos, web browsing history and other
+    information visible on your screen while using this feature, which could also
+    include personal data about you and/or others including without limitation data
+    revealing racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic or biometric data, health data, or data
+    concerning a person's sex life or sexual orientation.
+  purposes: {}
+- source: heallist
+  target: video
+  key: COLLECT
+  text:
+  - '* As our Service includes, among other features, a video calling/conferencing
+    feature, either provided by us or through a third party, which transmits and which
+    may capture screen activity, Heallist may inadvertently collect information while
+    you use this feature.'
+  - This information may include physical addresses, email address, phone number,
+    information related to contacts, photos, videos, web browsing history and other
+    information visible on your screen while using this feature, which could also
+    include personal data about you and/or others including without limitation data
+    revealing racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic or biometric data, health data, or data
+    concerning a person's sex life or sexual orientation.
+  purposes: {}
+- source: web server
+  target: log file
+  key: COLLECT
+  text:
+  - '* Our web servers keep log files that record data every time a device accesses
+    those servers.'
+  purposes: {}
+- source: we
+  target: organization own
+  key: SUBSUM
+  text:
+  - other companies and brands owned or controlled by Heallist and other companies
+    owned by or under common ownership with Heallist, which also includes our subsidiaries
+    (i.e., any organization we own or control) or our ultimate holding company (i.e.,
+    any organization that owns or controls us) and any subsidiaries it owns.
+- source: we
+  target: organization we own
+  key: SUBSUM
+  text:
+  - other companies and brands owned or controlled by Heallist and other companies
+    owned by or under common ownership with Heallist, which also includes our subsidiaries
+    (i.e., any organization we own or control) or our ultimate holding company (i.e.,
+    any organization that owns or controls us) and any subsidiaries it owns.
+- source: account credential
+  target: password
+  key: SUBSUM
+  text:
+  - '* If you create an account or a profile on our Service, we may collect your full
+    name, phone number, email address, home or business address, state of residence,
+    date of birth, gender, account credentials such as username and password, payment
+    card information, licensure information, photos, videos, and we may display this
+    information on your profile page and use it to provide you with our Service.'
+- source: account credential
+  target: username
+  key: SUBSUM
+  text:
+  - '* If you create an account or a profile on our Service, we may collect your full
+    name, phone number, email address, home or business address, state of residence,
+    date of birth, gender, account credentials such as username and password, payment
+    card information, licensure information, photos, videos, and we may display this
+    information on your profile page and use it to provide you with our Service.'
+- source: geolocation
+  target: precise geolocation
+  key: SUBSUM
+  text:
+  - '* When you access our Service from a mobile device, we may collect unique identification
+    numbers associated with your device or our Apps (including, for example, a UDID),
+    mobile carrier, device type, model and manufacturer, mobile device operating system
+    brand and model, phone number, and, depending on your mobile device settings,
+    your geographical location data (with your permission), including GPS coordinates
+    (e.g., latitude and/or longitude) or similar information regarding the location
+    of your mobile device, or we may be able to approximate a device''s location by
+    analyzing other information, like an IP address.'
+- source: identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - We share a unique identifier, like a user ID or hashed email address, with Google
+    to facilitate the service.
+- source: identifier
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - We share a unique identifier, like a user ID or hashed email address, with Google
+    to facilitate the service.
+- source: information from google calendar
+  target: calendar availability
+  key: SUBSUM
+  text:
+  - Upon connection, our platform may access and retrieve information from your Google
+    Calendar, including but not limited to events, reminders, calendar availability,
+    and other calendar-related data.
+- source: information from google calendar
+  target: event
+  key: SUBSUM
+  text:
+  - Upon connection, our platform may access and retrieve information from your Google
+    Calendar, including but not limited to events, reminders, calendar availability,
+    and other calendar-related data.
+- source: information from google calendar
+  target: relate datum
+  key: SUBSUM
+  text:
+  - Upon connection, our platform may access and retrieve information from your Google
+    Calendar, including but not limited to events, reminders, calendar availability,
+    and other calendar-related data.
+- source: information from google calendar
+  target: reminder
+  key: SUBSUM
+  text:
+  - Upon connection, our platform may access and retrieve information from your Google
+    Calendar, including but not limited to events, reminders, calendar availability,
+    and other calendar-related data.
+- source: personal information
+  target: biometric information
+  key: SUBSUM
+  text:
+  - This information may include physical addresses, email address, phone number,
+    information related to contacts, photos, videos, web browsing history and other
+    information visible on your screen while using this feature, which could also
+    include personal data about you and/or others including without limitation data
+    revealing racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic or biometric data, health data, or data
+    concerning a person's sex life or sexual orientation.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: heallist
+- type: ACTOR
+  id: organization own
+- type: ACTOR
+  id: organization we own
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web server
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account credential
+- type: DATA
+  id: biometric information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: calendar availability
+- type: DATA
+  id: combine personal information
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: device information
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: event
+- type: DATA
+  id: gender
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information about way you use service for
+- type: DATA
+  id: information about you be
+- type: DATA
+  id: information from google calendar
+- type: DATA
+  id: information relate to contact
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you permit
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log file
+- type: DATA
+  id: manufacturer
+- type: DATA
+  id: mobile device operating system brand
+- type: DATA
+  id: model
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: photo
+- type: DATA
+  id: picture
+- type: DATA
+  id: platform type
+- type: DATA
+  id: postal address
+- type: DATA
+  id: precise geolocation
+- type: DATA
+  id: profile information
+- type: DATA
+  id: relate datum
+- type: DATA
+  id: reminder
+- type: DATA
+  id: standard web log information
+- type: DATA
+  id: state of residence
+- type: DATA
+  id: time stamp
+- type: DATA
+  id: type of usage information
+- type: DATA
+  id: unique id
+- type: DATA
+  id: unique identification number
+- type: DATA
+  id: username
+- type: DATA
+  id: version
+- type: DATA
+  id: video

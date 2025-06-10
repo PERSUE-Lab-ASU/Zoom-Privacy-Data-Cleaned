@@ -1,0 +1,65 @@
+<!DOCTYPE html><html class="plt-tablet plt-desktop md hydrated" mode="md" lang="en"><head>
+  <meta charset="utf-8">
+  <title>Demo</title>
+
+  <base href="/">
+
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <!-- Apple add to home screen icon -->
+  
+
+  
+  <!-- Material Icons -->
+  
+  <!-- add to homescreen for ios -->
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+  <!-- Code Push -->
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src https://codepush.appcenter.ms 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *"/> -->
+  <!-- <link rel="manifest"> -->
+  <meta name="theme-color" content="#1976d2">
+
+<noscript><link rel="stylesheet" href="styles.5fc308f4354b92f7.css"></noscript><meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"></head>
+
+<body onload="handleUnsupportedBrowsers()">
+  <!-- Scanner -->
+  <div id="scanner-container" style="opacity:0; height: 0%;">
+    
+    <div style="position:absolute; right:20px; top:20px" id="scanner-close-button">
+      <div style="color: black; font-weight:bold; font-size:20px;">Close</div>
+    </div>
+    <div class="barcode-scanner--area--container">
+      <div class="relative">
+        <p>Aim your camera at a barcode</p>
+      </div>
+      <div class="square surround-cover">
+        <div class="barcode-scanner--area--outer surround-cover">
+          <div class="barcode-scanner--area--inner"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="loader">
+    
+    <div class="application-loading-container">
+      <img src="/assets/images/loading.gif" style="max-width:280px;">
+      <div class="application-loading-box saving"><h5 id="initializing-text"><div>Initializing app</div><span>.</span><span>.</span><span>.</span></h5></div>
+    </div>
+    
+  </div>
+  <!-- To hide for the scanner -->
+  <div id="app-wrapper">
+    <app-root _nghost-rwy-c187="" ng-version="14.3.0"><ion-app _ngcontent-rwy-c187="" class="md ion-page hydrated"><!----><!----><app-title-bar-customer _ngcontent-rwy-c187="" _nghost-rwy-c150=""><div _ngcontent-rwy-c150="" style="position: absolute; left: 0; right: 0; top: 0;"><ion-header _ngcontent-rwy-c150="" mode="ios" translucent="false" role="banner" class="ios header-ios header-collapse-none hydrated"><!----><!----><ion-toolbar _ngcontent-rwy-c150="" class="toolbar-title-default ios in-toolbar hydrated"><ion-buttons _ngcontent-rwy-c150="" slot="start" class="buttons-first-slot sc-ion-buttons-ios-h sc-ion-buttons-ios-s ios hydrated"><app-title-bar-left-buttons _ngcontent-rwy-c150="" _nghost-rwy-c136=""><!----><ion-item _ngcontent-rwy-c136="" color="none" detail="false" lines="none" button="" class="ion-color ion-color-none item ios item-lines-none item-fill-none ion-activatable ion-focusable hydrated item-label"><div _ngcontent-rwy-c136="" tabindex="0"></div><ion-icon _ngcontent-rwy-c136="" name="chevron-back-outline" class="ml-n2 md hydrated" aria-label="chevron back outline" role="img"></ion-icon><ion-label _ngcontent-rwy-c136="" class="sc-ion-label-ios-h sc-ion-label-ios-s ios in-item-color hydrated"><ion-text _ngcontent-rwy-c136="" class="md hydrated"> Back </ion-text></ion-label></ion-item><!----></app-title-bar-left-buttons></ion-buttons><ion-title _ngcontent-rwy-c150="" class="ion-text-center ios title-default hydrated"><!----><ion-text _ngcontent-rwy-c150="" class="md hydrated"> Privacy policy </ion-text><!----></ion-title><ion-buttons _ngcontent-rwy-c150="" slot="end" class="buttons-last-slot sc-ion-buttons-ios-h sc-ion-buttons-ios-s ios hydrated"><app-update-available-button _ngcontent-rwy-c150="" _nghost-rwy-c134=""><!----></app-update-available-button><!----><app-title-bar-search-button _ngcontent-rwy-c150="" _nghost-rwy-c145=""><!----></app-title-bar-search-button><app-title-bar-view-picker _ngcontent-rwy-c150="" _nghost-rwy-c144=""><!----></app-title-bar-view-picker><!----><app-title-bar-profile-picture _ngcontent-rwy-c150="" _nghost-rwy-c131=""><div _ngcontent-rwy-c131=""><img _ngcontent-rwy-c131="" class="profile-image" src="assets/images/customer-blank.png"><img _ngcontent-rwy-c131="" class="language-selector elevation-1" src="assets/images/flag-en.jpg"><!----></div><!----></app-title-bar-profile-picture><!----><!----><!----></ion-buttons></ion-toolbar><app-title-bar-secondary-header _ngcontent-rwy-c150="" _nghost-rwy-c147=""><!----><!----><!----></app-title-bar-secondary-header><!----></ion-header><!----><!----></div><!----><!----></app-title-bar-customer><!----><!----><!----><input _ngcontent-rwy-c187="" type="hidden" value="0"><!----><ion-menu _ngcontent-rwy-c187="" contentid="contentId" role="navigation" aria-label="menu" class="md menu-type-overlay menu-side-start hydrated" content-id="contentId" menu-id="admin-mobile-menu" side="start"><!----></ion-menu><!----><input _ngcontent-rwy-c187="" type="hidden" value="45"><ion-split-pane _ngcontent-rwy-c187="" contentid="contentId" class="hide-menu md split-pane-md hydrated" content-id="contentId" style="margin-top: 45px;"><ion-menu _ngcontent-rwy-c187="" contentid="contentId" type="overlay" class="admin-menu split-pane-side md menu-type-overlay menu-enabled menu-side-start hydrated" role="navigation" aria-label="menu" content-id="contentId" menu-id="admin-menu" side="start"><!----></ion-menu><!----><!----><ion-router-outlet _ngcontent-rwy-c187="" id="contentId" class="split-pane-main menu-content menu-content-overlay hydrated"><app-privacy-policy _nghost-rwy-c275="" class="ion-page" style="z-index: 101;"><app-page-wrapper _ngcontent-rwy-c275="" _nghost-rwy-c274=""><div _ngcontent-rwy-c274="" class="my-content-wrapper" style="top: 0px; bottom: 0px;"><ion-content _ngcontent-rwy-c274="" class="content-pages transparent ion-color ion-color-none md content-ltr hydrated" color="none" style="--offset-top: 0px; --offset-bottom: 0px;"><ion-grid _ngcontent-rwy-c274="" class="md hydrated"><!----><!----><app-page-loading _ngcontent-rwy-c275="" _nghost-rwy-c123=""><ion-grid _ngcontent-rwy-c123="" class="md hydrated"><ion-row _ngcontent-rwy-c123="" class="mt-5 md hydrated"><ion-col _ngcontent-rwy-c123="" size="12" class="ion-text-center md hydrated" style="flex: 0 0 calc(calc(12 / var(--ion-grid-columns, 12)) * 100%); width: calc(calc(12 / var(--ion-grid-columns, 12)) * 100%); max-width: calc(calc(12 / var(--ion-grid-columns, 12)) * 100%);"><ion-spinner _ngcontent-rwy-c123="" name="crescent" color="dark" class="ion-color ion-color-dark md spinner-crescent hydrated" role="progressbar"></ion-spinner></ion-col></ion-row></ion-grid></app-page-loading><!----><!----><!----><!----><!----></ion-grid></ion-content></div><!----></app-page-wrapper></app-privacy-policy></ion-router-outlet><!----></ion-split-pane><div _ngcontent-rwy-c187="" class="footer-container"><!----><!----><!----><!----></div><app-linebot-chat-bubble _ngcontent-rwy-c187="" _nghost-rwy-c183=""><!----></app-linebot-chat-bubble><!----><app-bootstrap-toast _ngcontent-rwy-c187="" _nghost-rwy-c158="" class="ngb-toasts"><!----></app-bootstrap-toast><!----><!----><ion-content _ngcontent-rwy-c187="" class="md content-ltr hydrated" style="--offset-top: 0px; --offset-bottom: 0px;"><app-refresher _ngcontent-rwy-c187="" _nghost-rwy-c127=""></app-refresher><ion-grid _ngcontent-rwy-c187="" class="app-loader md hydrated"><ion-row _ngcontent-rwy-c187="" class="ion-align-items-center md hydrated"><ion-col _ngcontent-rwy-c187="" size="12" class="ion-text-center md hydrated" style="flex: 0 0 calc(calc(12 / var(--ion-grid-columns, 12)) * 100%); width: calc(calc(12 / var(--ion-grid-columns, 12)) * 100%); max-width: calc(calc(12 / var(--ion-grid-columns, 12)) * 100%);"><ion-spinner _ngcontent-rwy-c187="" name="crescent" class="md spinner-crescent hydrated" role="progressbar"></ion-spinner></ion-col></ion-row></ion-grid></ion-content><!----><ion-toast class="overlay-hidden ion-color ion-color-danger md toast-network hydrated" id="ion-overlay-1" aria-live="polite" aria-atomic="true" role="status" tabindex="-1" color="danger" style="z-index: 60001;"></ion-toast></ion-app><!----><div _ngcontent-rwy-c187="" id="fb-root"></div><div _ngcontent-rwy-c187="" class="my-hide"></div></app-root>
+  </div>
+
+  <noscript>Omceanbooking, take your business to the next level.</noscript>
+
+
+<iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;" aria-hidden="false" tabindex="-1" title="Intercom"></iframe><div class="intercom-lightweight-app"></div><iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important; pointer-events: none;" aria-hidden="false" tabindex="-1" title="Intercom"></iframe></body></html>

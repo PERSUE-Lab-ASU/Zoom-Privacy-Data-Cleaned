@@ -1,0 +1,180 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We collect data and process data when you:'
+  - When you visit our websites, we may collect information from you automatically
+    through cookies or similar technology.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Our Company uses cookies in a range of ways to improve your experience on our
+    website, including:'
+  - Our Company uses these cookies so that we recognize you on our website and remember
+    your previously selected preferences.
+  - 'There are a number of different types of cookies, however, our website uses:'
+  purposes:
+    services:
+    - Keeping you signed in
+    - to improve your experience on our website
+- source: vmix
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'vMix collects your data so that we can:'
+  - vMix securely stores your data on Google Cloud infrastructure.
+  purposes: {}
+- source: vmix
+  target: email address
+  key: COLLECT
+  text:
+  - 'vMix collects the following data: Name and Email address (for vMix software registration)'
+  - vMix will keep IP Address, Name and Email address data for as long as you are
+    a customer with us.
+  purposes: {}
+- source: vmix
+  target: ip address
+  key: COLLECT
+  text:
+  - 'vMix collects the following data: IP address and Name of computer running the
+    vMix software'
+  - vMix will keep IP Address, Name and Email address data for as long as you are
+    a customer with us.
+  purposes: {}
+- source: vmix
+  target: name of computer run vmix software
+  key: COLLECT
+  text:
+  - 'vMix collects the following data: IP address and Name of computer running the
+    vMix software'
+  purposes: {}
+- source: vmix
+  target: non-personal information
+  key: COLLECT
+  text:
+  - 'vMix collects the following data: When you submit a support or error report from
+    within the vMix Software, non-personally identifiable data such as the vMix user
+    interface, vMix settings, system specifications (such as make and model of computer
+    components), streaming/recording logs and error messages or reports contained
+    within the Windows event logs.'
+  purposes: {}
+- source: vmix
+  target: person name
+  key: COLLECT
+  text:
+  - 'vMix collects the following data: Name and Email address (for vMix software registration)'
+  purposes: {}
+- source: vmix
+  target: support error report datum
+  key: COLLECT
+  text:
+  - vMix will keep your support/error report data for a maximum of 3 months.
+  purposes:
+    legal:
+    - for a maximum of 3 months
+    services:
+    - for a maximum of 3 months
+- source: non-personal information
+  target: error message
+  key: SUBSUM
+  text:
+  - 'vMix collects the following data: When you submit a support or error report from
+    within the vMix Software, non-personally identifiable data such as the vMix user
+    interface, vMix settings, system specifications (such as make and model of computer
+    components), streaming/recording logs and error messages or reports contained
+    within the Windows event logs.'
+- source: non-personal information
+  target: report
+  key: SUBSUM
+  text:
+  - 'vMix collects the following data: When you submit a support or error report from
+    within the vMix Software, non-personally identifiable data such as the vMix user
+    interface, vMix settings, system specifications (such as make and model of computer
+    components), streaming/recording logs and error messages or reports contained
+    within the Windows event logs.'
+- source: non-personal information
+  target: streaming recording log
+  key: SUBSUM
+  text:
+  - 'vMix collects the following data: When you submit a support or error report from
+    within the vMix Software, non-personally identifiable data such as the vMix user
+    interface, vMix settings, system specifications (such as make and model of computer
+    components), streaming/recording logs and error messages or reports contained
+    within the Windows event logs.'
+- source: non-personal information
+  target: system specification
+  key: SUBSUM
+  text:
+  - 'vMix collects the following data: When you submit a support or error report from
+    within the vMix Software, non-personally identifiable data such as the vMix user
+    interface, vMix settings, system specifications (such as make and model of computer
+    components), streaming/recording logs and error messages or reports contained
+    within the Windows event logs.'
+- source: non-personal information
+  target: vmix setting
+  key: SUBSUM
+  text:
+  - 'vMix collects the following data: When you submit a support or error report from
+    within the vMix Software, non-personally identifiable data such as the vMix user
+    interface, vMix settings, system specifications (such as make and model of computer
+    components), streaming/recording logs and error messages or reports contained
+    within the Windows event logs.'
+- source: non-personal information
+  target: vmix user interface
+  key: SUBSUM
+  text:
+  - 'vMix collects the following data: When you submit a support or error report from
+    within the vMix Software, non-personally identifiable data such as the vMix user
+    interface, vMix settings, system specifications (such as make and model of computer
+    components), streaming/recording logs and error messages or reports contained
+    within the Windows event logs.'
+- source: system specification
+  target: make
+  key: SUBSUM
+  text:
+  - 'vMix collects the following data: When you submit a support or error report from
+    within the vMix Software, non-personally identifiable data such as the vMix user
+    interface, vMix settings, system specifications (such as make and model of computer
+    components), streaming/recording logs and error messages or reports contained
+    within the Windows event logs.'
+nodes:
+- type: ACTOR
+  id: vmix
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: error message
+- type: DATA
+  id: ip address
+- type: DATA
+  id: make
+- type: DATA
+  id: name of computer run vmix software
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: person name
+- type: DATA
+  id: report
+- type: DATA
+  id: streaming recording log
+- type: DATA
+  id: support error report datum
+- type: DATA
+  id: system specification
+- type: DATA
+  id: vmix setting
+- type: DATA
+  id: vmix user interface

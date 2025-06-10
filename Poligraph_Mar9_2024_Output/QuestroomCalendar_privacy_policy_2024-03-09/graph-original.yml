@@ -1,0 +1,69 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    6. Use of cookies and other technologies used by third parties : We use cookies
+    to:'
+  purposes: {}
+- source: we
+  target: information receive
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    3. How We Use Personal Information : We use the information received for the following
+    purposes:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 2. What Personal Information we collect
+  - 'Privacy Policy
+
+
+    3. How We Use Personal Information'
+  purposes:
+    security:
+    - 'Privacy Policy
+
+
+      3. How We Use Personal Information : to contact a partner.'
+    - 'Privacy Policy
+
+
+      3. How We Use Personal Information : to provide access to service settings.'
+    - 'Privacy Policy
+
+
+      3. How We Use Personal Information : to provide and manage reservations.'
+    services:
+    - 'Privacy Policy
+
+
+      3. How We Use Personal Information : to contact a partner.'
+    - 'Privacy Policy
+
+
+      3. How We Use Personal Information : to provide access to service settings.'
+    - 'Privacy Policy
+
+
+      3. How We Use Personal Information : to provide and manage reservations.'
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information receive
+- type: DATA
+  id: personal information

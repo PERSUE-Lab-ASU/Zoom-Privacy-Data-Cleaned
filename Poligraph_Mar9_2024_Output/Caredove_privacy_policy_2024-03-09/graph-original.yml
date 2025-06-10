@@ -1,0 +1,66 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: caredove
+  target: browser information for performance analytic
+  key: COLLECT
+  text:
+  - Caredove collects browser information for performance and usage analytics.
+  purposes: {}
+- source: caredove
+  target: personal information
+  key: COLLECT
+  text:
+  - Caredove will collect only the amount of PI that we require to achieve the purposes
+    identified in (Principle 2) above, unless we receive consent from the individual
+    or agency to collect it for another purpose.
+  - 'Principle 2: Identifying Purposes
+
+
+    Caredove collects Personal Information (PI)  about users of Caredove with the
+    intention of helping users find and connect with health care and community care
+    services.'
+  purposes: {}
+- source: caredove
+  target: phi
+  key: COLLECT
+  text:
+  - Caredove may store Protected Health Information (PHI) while providing an electronic
+    service that allows HICs to streamline patient referrals.
+  purposes: {}
+- source: caredove
+  target: phi collect
+  key: COLLECT
+  text:
+  - Caredove may manage and temporarily store PHI collected and entered by the Health
+    Information Custodian (HIC).
+  purposes: {}
+- source: caredove
+  target: procedure for own personnel
+  key: COLLECT
+  text:
+  - 'Caredove maintains procedures for its own personnel that:'
+  purposes: {}
+- source: caredove
+  target: protected health information
+  key: COLLECT
+  text:
+  - Caredove may store Protected Health Information (PHI) while providing an electronic
+    service that allows HICs to streamline patient referrals.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: caredove
+- type: DATA
+  id: browser information for performance analytic
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phi
+- type: DATA
+  id: phi collect
+- type: DATA
+  id: procedure for own personnel
+- type: DATA
+  id: protected health information

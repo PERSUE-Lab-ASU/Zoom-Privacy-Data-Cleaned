@@ -1,0 +1,156 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate site information
+  key: COLLECT
+  text:
+  - Personal Information - We collect email addresses of those who communicate with
+    Us via email, aggregate site information, and information you volunteer (such
+    as your name, email address, company name, etc).
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - Personal Information - We collect email addresses of those who communicate with
+    Us via email, aggregate site information, and information you volunteer (such
+    as your name, email address, company name, etc).
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We transfer information about you if Easy Insight is acquired by or merged with
+    another company.
+  purposes: {}
+- source: we
+  target: information you volunteer
+  key: COLLECT
+  text:
+  - Personal Information - We collect email addresses of those who communicate with
+    Us via email, aggregate site information, and information you volunteer (such
+    as your name, email address, company name, etc).
+  purposes: {}
+- source: easy insight
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - As part of Our Online Service, Easy Insight imports, stores and organizes data
+    under the direction of its Customers.
+  purposes: {}
+- source: easy insight
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Easy Insight is subject to the investigatory and enforcement powers of the Federal
+    Trade Commission (FTC) and may disclose personally identifiable information under
+    special circumstances, such as to comply with subpoenas or when your actions violate
+    the Terms of Service.
+  purposes: {}
+- source: easy insight
+  target: user content
+  key: COLLECT
+  text:
+  - If you do not delete your User Content prior to account closure, Easy Insight
+    may retain User Content for a commercially reasonable amount of time.
+  purposes:
+    services:
+    - for a commercially reasonable amount of time
+- source: billing information
+  target: billing detail
+  key: SUBSUM
+  text:
+  - Billing information - (e.g., billing details and financial information associated
+    with your selected payment method like credit card number and expiration date).
+- source: billing information
+  target: financial information
+  key: SUBSUM
+  text:
+  - Billing information - (e.g., billing details and financial information associated
+    with your selected payment method like credit card number and expiration date).
+- source: course of business
+  target: product provision
+  key: SUBSUM
+  text:
+  - 'User Content is only used as a course of business that includes: products and
+    services provision, identification and authentication, and technical support.'
+- source: course of business
+  target: technical support
+  key: SUBSUM
+  text:
+  - 'User Content is only used as a course of business that includes: products and
+    services provision, identification and authentication, and technical support.'
+- source: financial information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - Billing information - (e.g., billing details and financial information associated
+    with your selected payment method like credit card number and expiration date).
+- source: financial information
+  target: expiration date
+  key: SUBSUM
+  text:
+  - Billing information - (e.g., billing details and financial information associated
+    with your selected payment method like credit card number and expiration date).
+- source: information you volunteer
+  target: company name
+  key: SUBSUM
+  text:
+  - Personal Information - We collect email addresses of those who communicate with
+    Us via email, aggregate site information, and information you volunteer (such
+    as your name, email address, company name, etc).
+- source: information you volunteer
+  target: email address
+  key: SUBSUM
+  text:
+  - Personal Information - We collect email addresses of those who communicate with
+    Us via email, aggregate site information, and information you volunteer (such
+    as your name, email address, company name, etc).
+- source: information you volunteer
+  target: person name
+  key: SUBSUM
+  text:
+  - Personal Information - We collect email addresses of those who communicate with
+    Us via email, aggregate site information, and information you volunteer (such
+    as your name, email address, company name, etc).
+nodes:
+- type: ACTOR
+  id: course of business
+- type: ACTOR
+  id: easy insight
+- type: ACTOR
+  id: product provision
+- type: ACTOR
+  id: technical support
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate site information
+- type: DATA
+  id: billing detail
+- type: DATA
+  id: billing information
+- type: DATA
+  id: company name
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: email address
+- type: DATA
+  id: expiration date
+- type: DATA
+  id: financial information
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information you volunteer
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: user content

@@ -1,0 +1,124 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: copy of datum
+  key: COLLECT
+  text:
+  - All data used is processed in real-time within the Google Drive environment, and
+    we do not maintain a copy of your data outside of Google Drive.
+  purposes: {}
+- source: we
+  target: datum use
+  key: COLLECT
+  text:
+  - All data used is processed in real-time within the Google Drive environment, and
+    we do not maintain a copy of your data outside of Google Drive.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We access your primary Google Account email address.
+  purposes: {}
+- source: we
+  target: google account
+  key: COLLECT
+  text:
+  - We strictly access and use this information in accordance with this privacy policy
+    and Google's privacy standards.
+  - When you choose to log in using your Google account, we request access to specific
+    information from your Google profile to authenticate you and provide a personalized
+    experience on our platform.
+  purposes: {}
+- source: we
+  target: google user data
+  key: COLLECT
+  text:
+  - Data Retention We retain your Google user data only for as long as necessary to
+    provide our services to you, comply with our legal obligations, resolve disputes,
+    and enforce our agreements.
+  purposes:
+    legal:
+    - to provide our services to you, comply with our legal obligations, resolve disputes,
+      and enforce our agreements
+    services:
+    - to provide our services to you, comply with our legal obligations, resolve disputes,
+      and enforce our agreements
+- source: we
+  target: google user datum
+  key: COLLECT
+  text:
+  - By choosing to log in with Google, you consent to allow us to access and use your
+    Google user data as specified above.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We access your personal information, including any details you have made publicly
+    available, such as your name and profile picture.
+  purposes: {}
+- source: advanced artificial intelligence technology
+  target: openai api
+  key: SUBSUM
+  text:
+  - In our pursuit to provide top-notch services, we incorporate the use of advanced
+    artificial intelligence technologies, including the OpenAI API.
+- source: datum process through openai api
+  target: textual content from transcript provide
+  key: SUBSUM
+  text:
+  - 3. Nature of the Data Processed The data processed through the OpenAI API may
+    include textual content from transcripts and other related communications provided
+    by you, the customer.
+- source: detail you make
+  target: person name
+  key: SUBSUM
+  text:
+  - We access your personal information, including any details you have made publicly
+    available, such as your name and profile picture.
+- source: detail you make
+  target: profile picture
+  key: SUBSUM
+  text:
+  - We access your personal information, including any details you have made publicly
+    available, such as your name and profile picture.
+- source: personal information
+  target: detail you make
+  key: SUBSUM
+  text:
+  - We access your personal information, including any details you have made publicly
+    available, such as your name and profile picture.
+nodes:
+- type: ACTOR
+  id: advanced artificial intelligence technology
+- type: ACTOR
+  id: openai api
+- type: ACTOR
+  id: we
+- type: DATA
+  id: copy of datum
+- type: DATA
+  id: datum process through openai api
+- type: DATA
+  id: datum use
+- type: DATA
+  id: detail you make
+- type: DATA
+  id: email address
+- type: DATA
+  id: google account
+- type: DATA
+  id: google user data
+- type: DATA
+  id: google user datum
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: profile picture
+- type: DATA
+  id: textual content from transcript provide

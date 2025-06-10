@@ -1,0 +1,156 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Contact with sales
+
+
+    Privacy Policy IC Project
+
+
+    3. We gather the following personal data on our Website: f) other data can possibly
+    be downloaded due to certain cases being run or they can be provided by you as
+    users of our Website (including as clients or prospective clients) via electronic
+    mail, the contact form available on our Website, the traditional mail or telephone.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our Website uses Cookies to adapts its functioning to your individual needs.
+  purposes:
+    services:
+    - to adapts its functioning to your individual needs
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - '3. We gather the following personal data on our Website: b) email address - it
+    can be processed when you, as users of our Website (including clients or prospective
+    clients), provide us with it when contacting us via electronic mail, the contact
+    form available on our Website as well as traditional mail or telephone; we use
+    your email to send you confirmation of orders you have placed, to contact you
+    when it is necessary in the course of execution of your order and to answer your
+    questions regarding our products or services; if you have agreed to receiving
+    marketing content and you have subscribed to our newsletter, we will also send
+    you marketing information several times a month,'
+  purposes:
+    services:
+    - to send you confirmation of orders you have placed, to contact you when it is
+      necessary in the course of execution of your order and to answer your questions
+      regarding our products or services
+- source: we
+  target: personal datum category be
+  key: COLLECT
+  text:
+  - According to the data minimisation principle, we process only these personal data
+    categories that are necessary for achievement of the purposes specified in Points
+    3 and 4 above.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Contact with sales
+
+
+    Privacy Policy IC Project
+
+
+    3. We gather the following personal data on our Website:'
+  - 'Contact with sales
+
+
+    Privacy Policy IC Project
+
+
+    4. The provision of the data specified in the previous point is necessary in the
+    cases it specifies, notably: b) for your registration in our database by creation
+    of an Account, which is voluntary; in such a case, we store the personal data
+    you have provided in our database to facilitate your future use of the services
+    on our Website'
+  - We process your personal data for the period necessary to satisfy the purposes
+    specified in Points 3 and 4 above.
+  purposes:
+    services:
+    - 'notably: b) for your registration in our database by creation of an Account,
+      which is voluntary'
+    - to facilitate your future use of the services on our Website
+- source: we
+  target: tax identification number
+  key: COLLECT
+  text:
+  - 'Contact with sales
+
+
+    Privacy Policy IC Project
+
+
+    3. We gather the following personal data on our Website: d) NIP - we obtain the
+    Tax Identification Number from entrepreneurs and the persons who request issuance
+    of invoices and hold a NIP number,'
+  purposes: {}
+- source: processor
+  target: entrust personal datum
+  key: COLLECT
+  text:
+  - The processor processes the entrusted personal data only for the purposes and
+    in the scope specified in the agreement specified in the previous sentence.
+  purposes: {}
+- source: we
+  target: integration
+  key: SUBSUM
+  text:
+  - 'Product : Integrations'
+- source: we
+  target: product product
+  key: SUBSUM
+  text:
+  - 'Product : Product'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - '3. We gather the following personal data on our Website: b) email address - it
+    can be processed when you, as users of our Website (including clients or prospective
+    clients), provide us with it when contacting us via electronic mail, the contact
+    form available on our Website as well as traditional mail or telephone; we use
+    your email to send you confirmation of orders you have placed, to contact you
+    when it is necessary in the course of execution of your order and to answer your
+    questions regarding our products or services; if you have agreed to receiving
+    marketing content and you have subscribed to our newsletter, we will also send
+    you marketing information several times a month,'
+  - 'Contact with sales
+
+
+    Privacy Policy IC Project
+
+
+    3. We gather the following personal data on our Website:'
+nodes:
+- type: ACTOR
+  id: integration
+- type: ACTOR
+  id: processor
+- type: ACTOR
+  id: product product
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: entrust personal datum
+- type: DATA
+  id: personal datum category be
+- type: DATA
+  id: personal information
+- type: DATA
+  id: tax identification number

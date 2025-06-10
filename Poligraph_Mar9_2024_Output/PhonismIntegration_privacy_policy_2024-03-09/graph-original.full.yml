@@ -1,0 +1,184 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect this information for the purpose of providing the Service, identifying
+    and communicating with you, responding to your requests/inquiries, servicing your
+    purchase orders, and improving our services.
+  - We use cookies to collect information in order to improve our services for you.
+  purposes:
+    services:
+    - for the purpose of providing the Service, identifying and communicating with
+      you, responding to your requests/inquiries, servicing your purchase orders,
+      and improving our services
+    - in order to improve our services for you
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to collect information in order to improve our services for you.
+  purposes: {}
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+  purposes: {}
+- source: we
+  target: log data
+  key: COLLECT
+  text:
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If you are located outside United States and choose to provide information to
+    us, please note that we transfer the information, including Personal Information,
+    to United States and process it there.
+  - We use your Personal Information for providing and improving the Service.
+  - We will disclose your Personal Information where required to do so by law or subpoena
+    or if we believe that such action is necessary to comply with the law and the
+    reasonable requests of law enforcement or to protect the security or integrity
+    of our Service.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties have access to your Personal Information only to perform specific
+    tasks on our behalf and are obligated not to disclose or use your information
+    for any other purpose.
+  purposes:
+    services:
+    - only to perform specific tasks on our behalf
+- source: help feature on most browser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Help feature on most browsers provide information on how to accept cookies,
+    disable cookies or to notify you when receiving a new cookie.
+  purposes: {}
+- source: we
+  target: phonism
+  key: SUBSUM
+  text:
+  - Phonism ("us", "we", or "our") operates the phonism.com web service (the "Service").
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with a small amount of data, which may include an anonymous
+    unique identifier.
+- source: log data
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+- source: log data
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+- source: log data
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+- source: log data
+  target: statistic
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+- source: log data
+  target: time
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+- source: personal identifier
+  target: personal information
+  key: SUBSUM
+  text:
+  - Personally identifiable information may include, but is not limited to, your email
+    address, name, phone number, postal address ("Personal Information").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: help feature on most browser
+- type: ACTOR
+  id: phonism
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log data
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistic
+- type: DATA
+  id: time

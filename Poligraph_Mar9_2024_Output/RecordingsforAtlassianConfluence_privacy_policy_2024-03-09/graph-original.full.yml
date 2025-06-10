@@ -1,0 +1,349 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use cookies on our Site from time to time.
+  - We may use web beacons on our Site from time to time.
+  purposes: {}
+- source: we
+  target: full detail of allege breach
+  key: COLLECT
+  text:
+  - If you believe that we have breached the Australian Privacy Principles or an article
+    of the GDPR and wish to make a complaint, please contact us using the details
+    below and provide us with full details of the alleged breach.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'If you are an EU citizen, your personal data will: be processed lawfully, fairly
+    and in a transparent manner by us;'
+  - 'We may disclose personal information to: third parties, including agents or sub-contractors,
+    who assist us in providing information, products, services or direct marketing
+    to you.'
+  - We will always keep your personal data in accordance with applicable legal and
+    regulatory requirements.
+  purposes:
+    analytics:
+    - for the specific purposes we have identified in the 'collection and use of personal
+      information' clause above
+- source: we
+  target: personal information we hold about you
+  key: COLLECT
+  text:
+  - Where possible, we will provide this information in CSV format or other easily
+    readable machine format.
+  - You may also request that we transfer this personal information to another third
+    party (data portability).
+  - You may request a copy of the personal information we hold about you.
+  - You may request that we erase the personal information we hold about you at any
+    time.
+  purposes: {}
+- source: Google
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: third parties to collect and process
+    data, such as Google Analytics or other relevant businesses.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - The third party will only process your personal information in accordance with
+    written instructions from us and we require that the third party either complies
+    with the privacy shield principles set out in the GDPR or another mechanism set
+    out by applicable EU & Swiss data protection laws for the transfer and processing
+    of personal information.
+  - 'We may disclose personal information to: anyone to whom our business or assets
+    (or any part of them) are, or may (in good faith) be, transferred;'
+  - 'We may disclose personal information to: third parties, including agents or sub-contractors,
+    who assist us in providing information, products, services or direct marketing
+    to you.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information we hold about you
+  key: COLLECT
+  text:
+  - You may also request that we transfer this personal information to another third
+    party (data portability).
+  - You may request that we erase the personal information we hold about you at any
+    time.
+  purposes: {}
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: third party service providers for the
+    purpose of enabling them to provide their services, including (without limitation)
+    IT service providers, data storage, web-hosting and server providers, debt collectors,
+    maintenance or problem-solving providers, marketing or advertising providers,
+    professional advisors and payment systems operators;'
+  purposes: {}
+- source: business partner
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: our existing or potential agents or
+    business partners;'
+  purposes: {}
+- source: contractor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: our employees, contractors and/or related
+    entities;'
+  purposes: {}
+- source: court
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: courts, tribunals, regulatory authorities
+    and law enforcement officers, as required by law, in connection with any actual
+    or prospective legal proceedings, or in order to establish, exercise or defend
+    our legal rights;'
+  - 'We may disclose personal information to: credit reporting agencies, courts, tribunals
+    and regulatory authorities, in the event you fail to pay for goods or services
+    we have provided to you;'
+  purposes: {}
+- source: credit reporting agency
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: credit reporting agencies, courts, tribunals
+    and regulatory authorities, in the event you fail to pay for goods or services
+    we have provided to you;'
+  purposes: {}
+- source: data storage
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: third party service providers for the
+    purpose of enabling them to provide their services, including (without limitation)
+    IT service providers, data storage, web-hosting and server providers, debt collectors,
+    maintenance or problem-solving providers, marketing or advertising providers,
+    professional advisors and payment systems operators;'
+  purposes: {}
+- source: debt collector
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: third party service providers for the
+    purpose of enabling them to provide their services, including (without limitation)
+    IT service providers, data storage, web-hosting and server providers, debt collectors,
+    maintenance or problem-solving providers, marketing or advertising providers,
+    professional advisors and payment systems operators;'
+  purposes: {}
+- source: employee
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: our employees, contractors and/or related
+    entities;'
+  purposes: {}
+- source: exist agent
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: our existing or potential agents or
+    business partners;'
+  purposes: {}
+- source: it service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: third party service providers for the
+    purpose of enabling them to provide their services, including (without limitation)
+    IT service providers, data storage, web-hosting and server providers, debt collectors,
+    maintenance or problem-solving providers, marketing or advertising providers,
+    professional advisors and payment systems operators;'
+  purposes: {}
+- source: law enforcement officer
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: courts, tribunals, regulatory authorities
+    and law enforcement officers, as required by law, in connection with any actual
+    or prospective legal proceedings, or in order to establish, exercise or defend
+    our legal rights;'
+  purposes: {}
+- source: maintenance provider
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: third party service providers for the
+    purpose of enabling them to provide their services, including (without limitation)
+    IT service providers, data storage, web-hosting and server providers, debt collectors,
+    maintenance or problem-solving providers, marketing or advertising providers,
+    professional advisors and payment systems operators;'
+  purposes: {}
+- source: payment system operator
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: third party service providers for the
+    purpose of enabling them to provide their services, including (without limitation)
+    IT service providers, data storage, web-hosting and server providers, debt collectors,
+    maintenance or problem-solving providers, marketing or advertising providers,
+    professional advisors and payment systems operators;'
+  purposes: {}
+- source: professional advisor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: third party service providers for the
+    purpose of enabling them to provide their services, including (without limitation)
+    IT service providers, data storage, web-hosting and server providers, debt collectors,
+    maintenance or problem-solving providers, marketing or advertising providers,
+    professional advisors and payment systems operators;'
+  purposes: {}
+- source: promoter
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: sponsors or promoters of any competition
+    we run;'
+  purposes: {}
+- source: regulatory authority
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: courts, tribunals, regulatory authorities
+    and law enforcement officers, as required by law, in connection with any actual
+    or prospective legal proceedings, or in order to establish, exercise or defend
+    our legal rights;'
+  - 'We may disclose personal information to: credit reporting agencies, courts, tribunals
+    and regulatory authorities, in the event you fail to pay for goods or services
+    we have provided to you;'
+  purposes: {}
+- source: related entity
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: our employees, contractors and/or related
+    entities;'
+  purposes: {}
+- source: relevant business
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: third parties to collect and process
+    data, such as Google Analytics or other relevant businesses.'
+  purposes: {}
+- source: sponsor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: sponsors or promoters of any competition
+    we run;'
+  purposes: {}
+- source: sub
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: third parties, including agents or sub-contractors,
+    who assist us in providing information, products, services or direct marketing
+    to you.'
+  purposes: {}
+- source: tribunal
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: courts, tribunals, regulatory authorities
+    and law enforcement officers, as required by law, in connection with any actual
+    or prospective legal proceedings, or in order to establish, exercise or defend
+    our legal rights;'
+  - 'We may disclose personal information to: credit reporting agencies, courts, tribunals
+    and regulatory authorities, in the event you fail to pay for goods or services
+    we have provided to you;'
+  purposes: {}
+- source: web hosting provider
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose personal information to: third party service providers for the
+    purpose of enabling them to provide their services, including (without limitation)
+    IT service providers, data storage, web-hosting and server providers, debt collectors,
+    maintenance or problem-solving providers, marketing or advertising providers,
+    professional advisors and payment systems operators;'
+  purposes: {}
+- source: we
+  target: gamea pty ltd
+  key: SUBSUM
+  text:
+  - In this Privacy Policy we , us or our means GameA Pty Ltd ACN 639 675 282 (trading
+    as " AppsPlus ").
+- source: we
+  target: in privacy policy we
+  key: SUBSUM
+  text:
+  - In this Privacy Policy we , us or our means GameA Pty Ltd ACN 639 675 282 (trading
+    as " AppsPlus ").
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: court
+- type: ACTOR
+  id: credit reporting agency
+- type: ACTOR
+  id: data storage
+- type: ACTOR
+  id: debt collector
+- type: ACTOR
+  id: employee
+- type: ACTOR
+  id: exist agent
+- type: ACTOR
+  id: gamea pty ltd
+- type: ACTOR
+  id: in privacy policy we
+- type: ACTOR
+  id: it service provider
+- type: ACTOR
+  id: law enforcement officer
+- type: ACTOR
+  id: maintenance provider
+- type: ACTOR
+  id: payment system operator
+- type: ACTOR
+  id: professional advisor
+- type: ACTOR
+  id: promoter
+- type: ACTOR
+  id: regulatory authority
+- type: ACTOR
+  id: related entity
+- type: ACTOR
+  id: relevant business
+- type: ACTOR
+  id: sponsor
+- type: ACTOR
+  id: sub
+- type: ACTOR
+  id: tribunal
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web hosting provider
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: full detail of allege breach
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information we hold about you

@@ -1,0 +1,416 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: access to account
+  key: COLLECT
+  text:
+  - We log all access to all accounts by IP address, so we can always verify that
+    no unauthorized access has happened for as long as the logs are kept.
+  purposes: {}
+- source: we
+  target: account
+  key: COLLECT
+  text:
+  - We'll only ever access your account to help you with a problem or fix a software
+    bug.
+  purposes:
+    services:
+    - to help you with a problem or fix a software bug
+- source: we
+  target: collect information
+  key: COLLECT
+  text:
+  - 'We use collected information for the following general purposes: products and
+    services provision, billing, identification and authentication, services improvement,
+    contact, and research.'
+  purposes:
+    analytics:
+    - 'for the following general purposes: products and services provision, billing,
+      identification and authentication, services improvement, contact, and research'
+    services:
+    - 'for the following general purposes: products and services provision, billing,
+      identification and authentication, services improvement, contact, and research'
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - You may give us your Identity, Contact and Financial Data by filling in forms
+    or by corresponding with us by mail, phone, email or through chat or social media.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to record current session information, but do not require permanent
+    cookies.
+  purposes:
+    analytics:
+    - to record current session information
+    services:
+    - to record current session information
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We transfer information about you if My Portal App is acquired by or merged with
+    another company.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may receive personal data about you from various types of third parties, including:
+    Technical Data and/or Tracking Data from analytics providers, advertising networks
+    and search information providers; Contact, Financial and Transaction Data from
+    providers of payment and fraud prevention services; Identity and Contact Data
+    from data partners; and Data from any third parties who are permitted by law or
+    have your permission to share your personal data with us, such as via social media
+    or review sites We will only use your personal data when the law allows us to.'
+  purposes: {}
+- source: we
+  target: specific information
+  key: COLLECT
+  text:
+  - We may need to request specific information from you to help us confirm your identity
+    and ensure your right to access your personal data (or to exercise any of your
+    other rights).
+  purposes:
+    security:
+    - to help us confirm your identity and ensure your right to access your personal
+      data (or to exercise any of your other rights)
+- source: we
+  target: technical data about equipment
+  key: COLLECT
+  text:
+  - As you interact with us, including via the myportalapp.com website, we may automatically
+    collect Technical Data about your equipment, browsing actions and patterns.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - These service providers may have access to your personal information.
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - Contact Data includes billing address, delivery address, and email address.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Contact Data includes billing address, delivery address, and email address.
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - A cookie is a small amount of data, which often includes an anonymous unique identifier,
+    that is sent to your browser from a web site's computers and stored on your computer's
+    hard drive.
+- source: financial data
+  target: encrypted token datum link account to billing method detail store
+  key: SUBSUM
+  text:
+  - Financial Data includes encrypted token data that links your account to your billing
+    method details, which are stored by our 3rd party payment processor, Braintree.
+- source: identity data
+  target: encrypt version of login password
+  key: SUBSUM
+  text:
+  - 'This personal data falls into these categories: Identity Data includes title,
+    first name, last name, username or similar identifier and an encrypted version
+    of your login/password.'
+- source: identity data
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'This personal data falls into these categories: Identity Data includes title,
+    first name, last name, username or similar identifier and an encrypted version
+    of your login/password.'
+- source: identity data
+  target: person name
+  key: SUBSUM
+  text:
+  - 'This personal data falls into these categories: Identity Data includes title,
+    first name, last name, username or similar identifier and an encrypted version
+    of your login/password.'
+- source: identity data
+  target: title
+  key: SUBSUM
+  text:
+  - 'This personal data falls into these categories: Identity Data includes title,
+    first name, last name, username or similar identifier and an encrypted version
+    of your login/password.'
+- source: identity data
+  target: username
+  key: SUBSUM
+  text:
+  - 'This personal data falls into these categories: Identity Data includes title,
+    first name, last name, username or similar identifier and an encrypted version
+    of your login/password.'
+- source: internet activity
+  target: information about
+  key: SUBSUM
+  text:
+  - Usage Data includes information about how you use our website, products and services.
+- source: marketing data
+  target: communication preference
+  key: SUBSUM
+  text:
+  - Marketing and Communications Data includes your preferences in receiving direct
+    marketing from us and our third parties and your communication preferences.
+- source: marketing data
+  target: preference in
+  key: SUBSUM
+  text:
+  - Marketing and Communications Data includes your preferences in receiving direct
+    marketing from us and our third parties and your communication preferences.
+- source: profile data
+  target: password
+  key: SUBSUM
+  text:
+  - Profile Data includes your username and password, purchases or orders made by
+    you, preferences, feedback and survey responses, as well as any profile data which
+    we have added (for example, using analytics and profiling).
+- source: profile data
+  target: preference
+  key: SUBSUM
+  text:
+  - Profile Data includes your username and password, purchases or orders made by
+    you, preferences, feedback and survey responses, as well as any profile data which
+    we have added (for example, using analytics and profiling).
+- source: profile data
+  target: profile datum we add for
+  key: SUBSUM
+  text:
+  - Profile Data includes your username and password, purchases or orders made by
+    you, preferences, feedback and survey responses, as well as any profile data which
+    we have added (for example, using analytics and profiling).
+- source: profile data
+  target: survey response
+  key: SUBSUM
+  text:
+  - Profile Data includes your username and password, purchases or orders made by
+    you, preferences, feedback and survey responses, as well as any profile data which
+    we have added (for example, using analytics and profiling).
+- source: profile data
+  target: username
+  key: SUBSUM
+  text:
+  - Profile Data includes your username and password, purchases or orders made by
+    you, preferences, feedback and survey responses, as well as any profile data which
+    we have added (for example, using analytics and profiling).
+- source: technical data
+  target: browser plug in type
+  key: SUBSUM
+  text:
+  - Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform and other technology on the devices you use to access
+    this website.
+- source: technical data
+  target: browser type
+  key: SUBSUM
+  text:
+  - Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform and other technology on the devices you use to access
+    this website.
+- source: technical data
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform and other technology on the devices you use to access
+    this website.
+- source: technical data
+  target: ip address
+  key: SUBSUM
+  text:
+  - Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform and other technology on the devices you use to access
+    this website.
+- source: technical data
+  target: login datum
+  key: SUBSUM
+  text:
+  - Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform and other technology on the devices you use to access
+    this website.
+- source: technical data
+  target: time zone setting
+  key: SUBSUM
+  text:
+  - Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform and other technology on the devices you use to access
+    this website.
+- source: technical data
+  target: version
+  key: SUBSUM
+  text:
+  - Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform and other technology on the devices you use to access
+    this website.
+- source: tracking data
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Tracking Data includes information we or others collect about you from cookies
+    and similar tracking technologies, such as web beacons, pixels, and mobile identifiers.
+- source: tracking data
+  target: device identifier
+  key: SUBSUM
+  text:
+  - Tracking Data includes information we or others collect about you from cookies
+    and similar tracking technologies, such as web beacons, pixels, and mobile identifiers.
+- source: transaction data
+  target: detail of product you purchase from we
+  key: SUBSUM
+  text:
+  - Transaction Data includes details about payments to and from you and other details
+    of products and services you have purchased from us.
+- source: type of third party
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'We may receive personal data about you from various types of third parties, including:
+    Technical Data and/or Tracking Data from analytics providers, advertising networks
+    and search information providers; Contact, Financial and Transaction Data from
+    providers of payment and fraud prevention services; Identity and Contact Data
+    from data partners; and Data from any third parties who are permitted by law or
+    have your permission to share your personal data with us, such as via social media
+    or review sites We will only use your personal data when the law allows us to.'
+- source: type of third party
+  target: data from third party permit
+  key: SUBSUM
+  text:
+  - 'We may receive personal data about you from various types of third parties, including:
+    Technical Data and/or Tracking Data from analytics providers, advertising networks
+    and search information providers; Contact, Financial and Transaction Data from
+    providers of payment and fraud prevention services; Identity and Contact Data
+    from data partners; and Data from any third parties who are permitted by law or
+    have your permission to share your personal data with us, such as via social media
+    or review sites We will only use your personal data when the law allows us to.'
+- source: type of third party
+  target: technical data
+  key: SUBSUM
+  text:
+  - 'We may receive personal data about you from various types of third parties, including:
+    Technical Data and/or Tracking Data from analytics providers, advertising networks
+    and search information providers; Contact, Financial and Transaction Data from
+    providers of payment and fraud prevention services; Identity and Contact Data
+    from data partners; and Data from any third parties who are permitted by law or
+    have your permission to share your personal data with us, such as via social media
+    or review sites We will only use your personal data when the law allows us to.'
+- source: type of third party
+  target: tracking data
+  key: SUBSUM
+  text:
+  - 'We may receive personal data about you from various types of third parties, including:
+    Technical Data and/or Tracking Data from analytics providers, advertising networks
+    and search information providers; Contact, Financial and Transaction Data from
+    providers of payment and fraud prevention services; Identity and Contact Data
+    from data partners; and Data from any third parties who are permitted by law or
+    have your permission to share your personal data with us, such as via social media
+    or review sites We will only use your personal data when the law allows us to.'
+nodes:
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: access to account
+- type: DATA
+  id: account
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser plug in type
+- type: DATA
+  id: browser type
+- type: DATA
+  id: collect information
+- type: DATA
+  id: communication preference
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: data from third party permit
+- type: DATA
+  id: detail of product you purchase from we
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: encrypt version of login password
+- type: DATA
+  id: encrypted token datum link account to billing method detail store
+- type: DATA
+  id: financial data
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: identity data
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about you
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: login datum
+- type: DATA
+  id: marketing data
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: preference
+- type: DATA
+  id: preference in
+- type: DATA
+  id: profile data
+- type: DATA
+  id: profile datum we add for
+- type: DATA
+  id: specific information
+- type: DATA
+  id: survey response
+- type: DATA
+  id: technical data
+- type: DATA
+  id: technical data about equipment
+- type: DATA
+  id: time zone setting
+- type: DATA
+  id: title
+- type: DATA
+  id: tracking data
+- type: DATA
+  id: transaction data
+- type: DATA
+  id: type of third party
+- type: DATA
+  id: username
+- type: DATA
+  id: version

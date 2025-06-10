@@ -1,0 +1,383 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Also, we only collect and use individual's information where we are legally entitled
+    to do so.
+  - Although we don't intend to sell, in case the ownership of any or all of our business
+    changes, we may transfer your information to the new owner so that the Services
+    can continue to operate.
+  - We may provide access to or share your information with select third parties who
+    perform services on our behalf.
+  purposes: {}
+- source: we
+  target: browser use
+  key: COLLECT
+  text:
+  - When you are on Nifty, we log additional information like browser used, your latency
+    to remote VM, your plan information, integration used, local, performance numbers
+    etc.
+  purposes: {}
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - If you subscribe to one of Nifty's plans of services, we collect billing and credit
+    card information in order to complete the purchase transaction.
+  purposes:
+    services:
+    - in order to complete the purchase transaction
+- source: we
+  target: information about you require
+  key: COLLECT
+  text:
+  - When you initiate a connection with a third-party integration through the Services
+    (e.g., Google Drive, Dropbox, Slack), we will share information about you that
+    is required to enable your use of the third-party integration through the Services.
+  purposes: {}
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - When you log into the Service, our servers automatically record information that
+    your browser sends whenever you visit a website.
+  purposes: {}
+- source: we
+  target: information discuss
+  key: COLLECT
+  text:
+  - We use third-party analytics services such as Google Analytics and/or MixPanel
+    within our products and services to collect and analyze the information discussed
+    above.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'We use your information (including any information that we collect, as described
+    in this Privacy Policy) for various purposes depending on the types of information
+    we have collected from and about you and the specific Nifty products you use,
+    including to:'
+  purposes:
+    advertising:
+    - 'to: Provide you with product updates and information about products you have
+      purchased from us'
+    analytics:
+    - 'to: Analyze and resolve app crashes and other bugs and issues'
+    - 'to: Provide you with product updates and information about products you have
+      purchased from us'
+    security:
+    - 'to: Analyze and resolve app crashes and other bugs and issues'
+    services:
+    - 'to: Analyze and resolve app crashes and other bugs and issues'
+    - 'to: Complete a purchase transaction or provide the services you have requested'
+    - 'to: Provide you with notifications via email and push notifications within
+      and through the Nifty product based on your notification selections'
+    - 'to: Provide you with product updates and information about products you have
+      purchased from us'
+    - 'to: Respond to your request for information and provide you with better customer
+      service'
+- source: we
+  target: integration use
+  key: COLLECT
+  text:
+  - When you are on Nifty, we log additional information like browser used, your latency
+    to remote VM, your plan information, integration used, local, performance numbers
+    etc.
+  purposes: {}
+- source: we
+  target: latency to remote vm
+  key: COLLECT
+  text:
+  - When you are on Nifty, we log additional information like browser used, your latency
+    to remote VM, your plan information, integration used, local, performance numbers
+    etc.
+  purposes: {}
+- source: we
+  target: local performance number
+  key: COLLECT
+  text:
+  - When you are on Nifty, we log additional information like browser used, your latency
+    to remote VM, your plan information, integration used, local, performance numbers
+    etc.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - When you send email or other communication to Nifty (other than in respect of
+    personal data included in support requests), we may retain those communications
+    in order to process your inquiries, respond to your requests and improve our Service
+    (any Personal Data that we collect from you for these purposes is hereinafter
+    referred to together as " Your Data ").
+  purposes:
+    services:
+    - in order to process your inquiries, respond to your requests and improve our
+      Service (
+- source: we
+  target: plan information
+  key: COLLECT
+  text:
+  - When you are on Nifty, we log additional information like browser used, your latency
+    to remote VM, your plan information, integration used, local, performance numbers
+    etc.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you choose to use these sites or integrations, you may disclose your information
+    not just to those third-parties, but also to their users and the public more generally
+    depending on how their services function.
+  - We may provide access to or share your information with select third parties who
+    perform services on our behalf.
+  purposes: {}
+- source: nifty
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Nifty will share your information in the following ways:'
+  purposes: {}
+- source: nifty
+  target: statistic about usage of website
+  key: COLLECT
+  text:
+  - By the nature of our Service, Nifty will gather statistics about the usage of
+    your website and store that information.
+  purposes: {}
+- source: we
+  target: Dropbox
+  key: SUBSUM
+  text:
+  - When you initiate a connection with a third-party integration through the Services
+    (e.g., Google Drive, Dropbox, Slack), we will share information about you that
+    is required to enable your use of the third-party integration through the Services.
+- source: we
+  target: Google
+  key: SUBSUM
+  text:
+  - When you initiate a connection with a third-party integration through the Services
+    (e.g., Google Drive, Dropbox, Slack), we will share information about you that
+    is required to enable your use of the third-party integration through the Services.
+- source: we
+  target: Slack
+  key: SUBSUM
+  text:
+  - When you initiate a connection with a third-party integration through the Services
+    (e.g., Google Drive, Dropbox, Slack), we will share information about you that
+    is required to enable your use of the third-party integration through the Services.
+- source: analytic provider
+  target: Google
+  key: SUBSUM
+  text:
+  - We use third-party analytics services such as Google Analytics and/or MixPanel
+    within our products and services to collect and analyze the information discussed
+    above.
+- source: analytic provider
+  target: mixpanel
+  key: SUBSUM
+  text:
+  - We use third-party analytics services such as Google Analytics and/or MixPanel
+    within our products and services to collect and analyze the information discussed
+    above.
+- source: facility
+  target: internet
+  key: SUBSUM
+  text:
+  - To the extent permitted by law, we are not responsible for any delays, delivery
+    failures, or any other loss or damage resulting from (i) the transfer of data
+    over communications networks and facilities, including the internet, or (ii) any
+    delay or delivery failure on the part of any other service provider not contracted
+    by us, and you acknowledge that the Service may be subject to limitations, delays
+    and other problems inherent in the use of such communications facilities.
+- source: material
+  target: actual test you run
+  key: SUBSUM
+  text:
+  - '" User Uploaded Data" is data (which may include Personal Data) uploaded by you
+    or others through Your Account, and may be any information, data or materials
+    provided or utilized by you or others in connection with the Service, including,
+    without limitation, user credentials, and any data contained in your or others''
+    websites, applications or in tests created by you or a party authorized by you
+    in connection with the Service, and/or any personal data provided by you during
+    a support request, and/or actual tests you run, their text logs, video logs etc.'
+- source: server log
+  target: browser configuration
+  key: SUBSUM
+  text:
+  - These server logs may include information such as your web request, Internet Protocol
+    address, browser type and settings, browser language, the address of the web page
+    visited before using the Service, the date and time the Service was used, information
+    about browser configuration and plugins, language preferences and one or more
+    cookies that may uniquely identify your browser.
+- source: server log
+  target: browser language
+  key: SUBSUM
+  text:
+  - These server logs may include information such as your web request, Internet Protocol
+    address, browser type and settings, browser language, the address of the web page
+    visited before using the Service, the date and time the Service was used, information
+    about browser configuration and plugins, language preferences and one or more
+    cookies that may uniquely identify your browser.
+- source: server log
+  target: browser type
+  key: SUBSUM
+  text:
+  - These server logs may include information such as your web request, Internet Protocol
+    address, browser type and settings, browser language, the address of the web page
+    visited before using the Service, the date and time the Service was used, information
+    about browser configuration and plugins, language preferences and one or more
+    cookies that may uniquely identify your browser.
+- source: server log
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - These server logs may include information such as your web request, Internet Protocol
+    address, browser type and settings, browser language, the address of the web page
+    visited before using the Service, the date and time the Service was used, information
+    about browser configuration and plugins, language preferences and one or more
+    cookies that may uniquely identify your browser.
+- source: server log
+  target: date
+  key: SUBSUM
+  text:
+  - These server logs may include information such as your web request, Internet Protocol
+    address, browser type and settings, browser language, the address of the web page
+    visited before using the Service, the date and time the Service was used, information
+    about browser configuration and plugins, language preferences and one or more
+    cookies that may uniquely identify your browser.
+- source: server log
+  target: ip address
+  key: SUBSUM
+  text:
+  - These server logs may include information such as your web request, Internet Protocol
+    address, browser type and settings, browser language, the address of the web page
+    visited before using the Service, the date and time the Service was used, information
+    about browser configuration and plugins, language preferences and one or more
+    cookies that may uniquely identify your browser.
+- source: server log
+  target: language preference
+  key: SUBSUM
+  text:
+  - These server logs may include information such as your web request, Internet Protocol
+    address, browser type and settings, browser language, the address of the web page
+    visited before using the Service, the date and time the Service was used, information
+    about browser configuration and plugins, language preferences and one or more
+    cookies that may uniquely identify your browser.
+- source: server log
+  target: postal address
+  key: SUBSUM
+  text:
+  - These server logs may include information such as your web request, Internet Protocol
+    address, browser type and settings, browser language, the address of the web page
+    visited before using the Service, the date and time the Service was used, information
+    about browser configuration and plugins, language preferences and one or more
+    cookies that may uniquely identify your browser.
+- source: server log
+  target: setting
+  key: SUBSUM
+  text:
+  - These server logs may include information such as your web request, Internet Protocol
+    address, browser type and settings, browser language, the address of the web page
+    visited before using the Service, the date and time the Service was used, information
+    about browser configuration and plugins, language preferences and one or more
+    cookies that may uniquely identify your browser.
+- source: server log
+  target: web request
+  key: SUBSUM
+  text:
+  - These server logs may include information such as your web request, Internet Protocol
+    address, browser type and settings, browser language, the address of the web page
+    visited before using the Service, the date and time the Service was used, information
+    about browser configuration and plugins, language preferences and one or more
+    cookies that may uniquely identify your browser.
+- source: user uploaded data
+  target: personal information
+  key: SUBSUM
+  text:
+  - '" User Uploaded Data" is data (which may include Personal Data) uploaded by you
+    or others through Your Account, and may be any information, data or materials
+    provided or utilized by you or others in connection with the Service, including,
+    without limitation, user credentials, and any data contained in your or others''
+    websites, applications or in tests created by you or a party authorized by you
+    in connection with the Service, and/or any personal data provided by you during
+    a support request, and/or actual tests you run, their text logs, video logs etc.'
+nodes:
+- type: ACTOR
+  id: Dropbox
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Slack
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: actual test you run
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: facility
+- type: ACTOR
+  id: internet
+- type: ACTOR
+  id: material
+- type: ACTOR
+  id: mixpanel
+- type: ACTOR
+  id: nifty
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser configuration
+- type: DATA
+  id: browser language
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser use
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: information about you require
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: information discuss
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: integration use
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: latency to remote vm
+- type: DATA
+  id: local performance number
+- type: DATA
+  id: personal information
+- type: DATA
+  id: plan information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: server log
+- type: DATA
+  id: setting
+- type: DATA
+  id: statistic about usage of website
+- type: DATA
+  id: user uploaded data
+- type: DATA
+  id: web request

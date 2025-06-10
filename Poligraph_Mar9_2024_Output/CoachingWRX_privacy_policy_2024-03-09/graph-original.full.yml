@@ -1,0 +1,189 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website uses these "cookies" to collection information and to improve our
+    Service.
+  purposes:
+    analytics:
+    - to collection information and to improve our Service
+    services:
+    - to collection information and to improve our Service
+- source: we
+  target: influence
+  key: COLLECT
+  text:
+  - We will also use our influence to promote the principles in other companies where
+    WRX Company has ownership interests.
+  purposes:
+    advertising:
+    - to promote the principles in other companies where WRX Company has ownership
+      interests
+- source: we
+  target: information browser send to we
+  key: COLLECT
+  text:
+  - Whenever you visit our Service, we collect information that your browser sends
+    to us that is called Log Data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In the case we discover that a user under 18 has provided us with personal information,
+    we immediately delete this from our servers.
+  - 'We may collect personal information about you from different sources, including:'
+  - We use your personal information in a way that is fair and worthy of your trust.
+  purposes: {}
+- source: coaching wrx support team
+  target: personal information
+  key: COLLECT
+  text:
+  - In a rare case of you having a problem using the service, that can not be solved
+    without your data, Coaching WRX support team can, with your permission, access
+    your personal data.
+  purposes: {}
+- source: datum need
+  target: purchase history datum
+  key: SUBSUM
+  text:
+  - Other data still needed is anonymized (like purchase orders and purchase history
+    data) is anonymized and cannot be linked to user nor Tribe anymore.
+- source: log datum
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser version, pages of our Service that you visit, the time
+    and date of your visit, the time spent on those pages, and other statistics.
+  - Whenever you visit our Service, we collect information that your browser sends
+    to us that is called Log Data.
+- source: log datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser version, pages of our Service that you visit, the time
+    and date of your visit, the time spent on those pages, and other statistics.
+  - Whenever you visit our Service, we collect information that your browser sends
+    to us that is called Log Data.
+- source: log datum
+  target: statistic
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser version, pages of our Service that you visit, the time
+    and date of your visit, the time spent on those pages, and other statistics.
+  - Whenever you visit our Service, we collect information that your browser sends
+    to us that is called Log Data.
+- source: log datum
+  target: time
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser version, pages of our Service that you visit, the time
+    and date of your visit, the time spent on those pages, and other statistics.
+  - Whenever you visit our Service, we collect information that your browser sends
+    to us that is called Log Data.
+- source: need email
+  target: booking confirmation
+  key: SUBSUM
+  text:
+  - To identify you, to allow you to login and to send you needed emails like purchases
+    orders, booking confirmations and calendar invitations with the virtual link or
+    physical address or other relevant to the use of Coaching WRX information.
+- source: need email
+  target: calendar invitation
+  key: SUBSUM
+  text:
+  - To identify you, to allow you to login and to send you needed emails like purchases
+    orders, booking confirmations and calendar invitations with the virtual link or
+    physical address or other relevant to the use of Coaching WRX information.
+- source: need email
+  target: purchase order
+  key: SUBSUM
+  text:
+  - To identify you, to allow you to login and to send you needed emails like purchases
+    orders, booking confirmations and calendar invitations with the virtual link or
+    physical address or other relevant to the use of Coaching WRX information.
+- source: personal datum lifecycle
+  target: corporate tribe sso input
+  key: SUBSUM
+  text:
+  - '5.1.1 - PERSONAL DATA LIFECYCLE
+
+
+    - INPUT: Corporate Tribe SSO input'
+- source: personal datum lifecycle
+  target: facebook google input
+  key: SUBSUM
+  text:
+  - '5.1.1 - PERSONAL DATA LIFECYCLE
+
+
+    - INPUT: Facebook/Google input'
+- source: personal datum lifecycle
+  target: own datum input
+  key: SUBSUM
+  text:
+  - '5.1.1 - PERSONAL DATA LIFECYCLE
+
+
+    - INPUT: Client''s own data input'
+- source: wrx company operation
+  target: coaching wrx service
+  key: SUBSUM
+  text:
+  - Strong values together with high moral and ethics leads all WRX Company operations
+    including Coaching WRX service.
+nodes:
+- type: ACTOR
+  id: coaching wrx service
+- type: ACTOR
+  id: coaching wrx support team
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: wrx company operation
+- type: DATA
+  id: booking confirmation
+- type: DATA
+  id: browser version
+- type: DATA
+  id: calendar invitation
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: corporate tribe sso input
+- type: DATA
+  id: datum need
+- type: DATA
+  id: facebook google input
+- type: DATA
+  id: influence
+- type: DATA
+  id: information browser send to we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log datum
+- type: DATA
+  id: need email
+- type: DATA
+  id: own datum input
+- type: DATA
+  id: personal datum lifecycle
+- type: DATA
+  id: personal information
+- type: DATA
+  id: purchase history datum
+- type: DATA
+  id: purchase order
+- type: DATA
+  id: statistic
+- type: DATA
+  id: time

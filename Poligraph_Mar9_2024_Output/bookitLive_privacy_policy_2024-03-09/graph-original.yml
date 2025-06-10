@@ -1,0 +1,153 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate statistic about sale
+  key: COLLECT
+  text:
+  - 'Your privacy is important to us
+
+
+    Sharing
+
+
+    bookitLive will not, without your consent, divulge your personal information to
+    a third party except in the following circumstances: We may provide aggregate
+    statistics about our sales, clients, traffic patterns and other site information
+    to third parties, but these statistics will not include any information that could
+    personally identify you'
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We log IP addresses for security reasons and log file/system activity to administer
+    the system.
+  purposes:
+    security:
+    - for security reasons
+    services:
+    - to administer the system
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We log IP addresses for security reasons and log file/system activity to administer
+    the system.
+  purposes:
+    security:
+    - for security reasons
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'This privacy policy sets out how we collect, use and handle Personal Information
+    that we collect from: Visitors, people who visit or browse our website, Service
+    Provider, business who establish an account with us, Clients, people who access
+    our services to make a booking or product purchase or otherwise access our services.'
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Policy unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate statistic about sale
+  key: COLLECT
+  text:
+  - 'Your privacy is important to us
+
+
+    Sharing
+
+
+    bookitLive will not, without your consent, divulge your personal information to
+    a third party except in the following circumstances: We may provide aggregate
+    statistics about our sales, clients, traffic patterns and other site information
+    to third parties, but these statistics will not include any information that could
+    personally identify you'
+  purposes: {}
+- source: bookitlive
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - bookitLive collects information from users at various points during the booking
+    process.
+  purposes: {}
+- source: bookitlive
+  target: customer datum
+  key: COLLECT
+  text:
+  - 'Customer data
+
+
+    bookitLive uses customer data only in connection with providing the booking services
+    - we do not monitor, sell or use customer data for any other purposes.'
+  purposes: {}
+- source: bookitlive
+  target: non-personal information
+  key: COLLECT
+  text:
+  - 'Log Files
+
+
+    bookitLive uses log files comprising of non-personally identifiable information
+    to analyse trends, administer the website and web application, track movements
+    throughout the website and web application'
+  purposes:
+    analytics:
+    - to analyse trends, administer the website and web application, track movements
+      throughout the website and web application
+- source: establish service provider
+  target: information on upgrade available
+  key: COLLECT
+  text:
+  - Established service providers will occasionally receive information on upgrades
+    and modifications available.
+  purposes: {}
+- source: secure payment service provider
+  target: credit card payment for service
+  key: COLLECT
+  text:
+  - Credit card payment for our services is processed by our secure payment service
+    provider.
+  purposes: {}
+- source: service provider
+  target: information particular
+  key: COLLECT
+  text:
+  - Each service provider only receives the information particular to your bookings
+    with them.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: bookitlive
+- type: ACTOR
+  id: establish service provider
+- type: ACTOR
+  id: secure payment service provider
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate statistic about sale
+- type: DATA
+  id: credit card payment for service
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: information on upgrade available
+- type: DATA
+  id: information particular
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal information

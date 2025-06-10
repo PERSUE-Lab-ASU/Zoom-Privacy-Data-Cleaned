@@ -1,0 +1,74 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: capability
+  target: video creation
+  key: SUBSUM
+  text:
+  - 'Capabilities : Video Creation'
+- source: modality
+  target: vbrick ecdn for microsoft teams
+  key: SUBSUM
+  text:
+  - 'Modalities : Vbrick eCDN for Microsoft Teams'
+- source: modality
+  target: vbrick edge caching
+  key: SUBSUM
+  text:
+  - 'Modalities : Vbrick Edge Caching'
+- source: modality
+  target: vbrick universal ecdn for webex webinars
+  key: SUBSUM
+  text:
+  - 'Modalities : Vbrick Universal eCDN for Webex Webinars'
+- source: resource
+  target: blog
+  key: SUBSUM
+  text:
+  - 'Resources : Blogs'
+- source: resource
+  target: event
+  key: SUBSUM
+  text:
+  - 'Resources : Events'
+- source: resource
+  target: glossary
+  key: SUBSUM
+  text:
+  - 'Resources : Glossary'
+- source: resource
+  target: knowledge base
+  key: SUBSUM
+  text:
+  - 'Resources : Knowledge Base'
+- source: resource
+  target: video
+  key: SUBSUM
+  text:
+  - 'Resources : Videos'
+nodes:
+- type: ACTOR
+  id: blog
+- type: ACTOR
+  id: event
+- type: ACTOR
+  id: glossary
+- type: ACTOR
+  id: knowledge base
+- type: ACTOR
+  id: resource
+- type: ACTOR
+  id: video
+- type: DATA
+  id: capability
+- type: DATA
+  id: modality
+- type: DATA
+  id: vbrick ecdn for microsoft teams
+- type: DATA
+  id: vbrick edge caching
+- type: DATA
+  id: vbrick universal ecdn for webex webinars
+- type: DATA
+  id: video creation

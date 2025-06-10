@@ -1,0 +1,215 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: conversation
+  key: COLLECT
+  text:
+  - We do store all conversation and personal data for up to 1 year.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may disclose information about you to our Corporate Affiliates.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We neither ask for nor proactively collect any PII information.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    How long we keep your personal data'
+  - We do store all conversation and personal data for up to 1 year.
+  - We will keep your personal data only for the period necessary to fulfil the purposes
+    unless the law tells us to keep it for longer.
+  purposes: {}
+- source: we
+  target: session information
+  key: COLLECT
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Such third parties may use their own cookies or other methods to collect information
+    about you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - Such third parties may use their own cookies or other methods to collect information
+    about you.
+  purposes: {}
+- source: aaandboom
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Aaandboom uses "Cookies" solely to provide you with the service - in order to
+    provide in-app multi-player experience.
+  purposes:
+    services:
+    - in order to provide in-app multi-player experience
+    - solely to provide you with the service -
+- source: aaandboom
+  target: personal information
+  key: COLLECT
+  text:
+  - Aaandboom processes or stores all personal data in fully vetted, DPA compliant
+    vendors.
+  - This Privacy Policy explains how your personal information is collected, used,
+    and disclosed by Aaandboom.
+  purposes: {}
+- source: aaandboom
+  target: update
+  key: COLLECT
+  text:
+  - Aaandboom may from time to time provide enhancements or improvements to the features/
+    functionality of the app, which may include patches, bug fixes, updates, upgrades
+    and other modifications ("Updates").
+  purposes: {}
+- source: corporate affiliates
+  target: information about you
+  key: COLLECT
+  text:
+  - We may disclose information about you to our Corporate Affiliates.
+  purposes: {}
+- source: we
+  target: aaandboom
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to our website, and its associated subdomains (collectively,
+    our "Service") alongside our application, Aaandboom.
+- source: we
+  target: associated subdomain
+  key: SUBSUM
+  text:
+  - This Privacy Policy applies to our website, and its associated subdomains (collectively,
+    our "Service") alongside our application, Aaandboom.
+- source: corporate affiliates
+  target: aaandboom
+  key: SUBSUM
+  text:
+  - We reserve the right to transfer information to a third party in the event of
+    a sale, merger or other transfer of all or substantially all of the assets of
+    Aaandboom or any of its Corporate Affiliates (as defined herein), or that portion
+    of Aaandboom or any of its Corporate Affiliates to which the Service relates,
+    or in the event that we discontinue our business or file a petition or have filed
+    against us a petition in bankruptcy, reorganization or similar proceeding, provided
+    that the third party agrees to adhere to the terms of this Privacy Policy.
+- source: information about you
+  target: language preference
+  key: SUBSUM
+  text:
+  - It is used to identify your browser, provide analytics, remember information about
+    you such as your language preference or login information.
+- source: information about you
+  target: login information
+  key: SUBSUM
+  text:
+  - It is used to identify your browser, provide analytics, remember information about
+    you such as your language preference or login information.
+- source: personal information
+  target: specific piece of personal information we collect about you
+  key: SUBSUM
+  text:
+  - 'You may submit a verifiable request for information regarding the: (1) categories
+    of Personal Information we collect, use, or share; (2) purposes for which categories
+    of Personal Information are collected or used by us; (3) categories of sources
+    from which we collect Personal Information; and (4) specific pieces of Personal
+    Information we have collected about you.'
+- source: session information
+  target: download error
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: session information
+  target: length of visit to page
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: session information
+  target: method use
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: session information
+  target: page interaction information
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+- source: session information
+  target: page response time
+  key: SUBSUM
+  text:
+  - During your visits, we may use software tools such as JavaScript to measure and
+    collect session information including page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs), and methods used to browse away from the page.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: aaandboom
+- type: ACTOR
+  id: associated subdomain
+- type: ACTOR
+  id: corporate affiliates
+- type: ACTOR
+  id: we
+- type: DATA
+  id: conversation
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: download error
+- type: DATA
+  id: information about you
+- type: DATA
+  id: language preference
+- type: DATA
+  id: length of visit to page
+- type: DATA
+  id: login information
+- type: DATA
+  id: method use
+- type: DATA
+  id: page interaction information
+- type: DATA
+  id: page response time
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: session information
+- type: DATA
+  id: specific piece of personal information we collect about you
+- type: DATA
+  id: update

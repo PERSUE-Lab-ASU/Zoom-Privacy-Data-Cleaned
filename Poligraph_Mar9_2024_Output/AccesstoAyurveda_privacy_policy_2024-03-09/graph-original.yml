@@ -1,0 +1,255 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Please note, however, that we may need to retain certain information for record
+    keeping purposes, to complete transactions or to comply with our legal obligations.
+  - 'Privacy Policy
+
+
+    How we store, use, and access, your information.'
+  - The Company also collects information regarding the type of personal computer/mobile
+    devices & tablets/ any other digital device use to access our services or application
+    being used to access the Services.
+  - This information will be used by us to address your query, to provide and improve
+    the services.
+  purposes:
+    analytics:
+    - for record keeping purposes
+    legal:
+    - for record keeping purposes
+    services:
+    - for record keeping purposes
+    - to address your query, to provide and improve the services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our Company uses "Cookies" to collect information which includes, without limitation,
+    third-party cookies like Google and Facebook.
+  - 'Our services use three categories of Cookies: Necessary Cookies: These Cookies
+    are required for optimal navigation and operation of the Site.'
+  - 'Our services use three categories of Cookies: Statistical Cookies: These Cookies
+    collect device and access data to analyze the use of the Site, such as which areas
+    of the Site are used how (so-called surfing behavior), how fast content is loaded
+    and whether errors occur.'
+  purposes:
+    analytics:
+    - to analyze the use of the Site, such as which areas of the Site are used how
+      (so-called surfing behavior), how fast content is loaded and whether errors
+      occur
+    services:
+    - for optimal navigation and operation of the Site
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may share information about you with a third party if we believe that sharing
+    is reasonably necessary to (a) comply with any applicable law, regulation, legal
+    process or governmental request, including to meet national security requirements,
+    (b) enforce our agreements, policies and terms of service, (c) protect the security
+    or integrity of our products and services, (d) protect, our users or the public
+    from harm or illegal activities, or (e) prevent, detect, mitigate, and investigate
+    fraudulent or illegal activities related to the Site.
+  - 'With your consent : We share information about you with third parties when you
+    give us consent to do so.'
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We will store your usage data as long as is necessary for the purposes named in
+    the Policy, especially for the fulfilment of our contractual and legal obligations,
+    or until such time when you request for its deletion.
+  purposes:
+    legal:
+    - especially for the fulfilment of our contractual and legal obligations, or until
+      such time when you request for its deletion
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also store your personal data for other purposes if or as long as the law
+    allows us store it for particular purposes, including for defense against legal
+    claims.
+  - We transmit your personal data securely using encryption.
+  - We view the protection of your privacy as extremely important and we store and
+    process your personal information including any financial or medical information
+    in accordance with applicable law,  the rules made thereunder, and this Privacy
+    Policy.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - We may share information about you with a third party if we believe that sharing
+    is reasonably necessary to (a) comply with any applicable law, regulation, legal
+    process or governmental request, including to meet national security requirements,
+    (b) enforce our agreements, policies and terms of service, (c) protect the security
+    or integrity of our products and services, (d) protect, our users or the public
+    from harm or illegal activities, or (e) prevent, detect, mitigate, and investigate
+    fraudulent or illegal activities related to the Site.
+  - 'With your consent : We share information about you with third parties when you
+    give us consent to do so.'
+  purposes: {}
+- source: country with low data protection standard than european union
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If they process your data outside the European Union, this may mean that your
+    data is transmitted to a country with a lower data protection standard than the
+    European Union.
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These service providers may generally only process your data on our behalf under
+    special conditions.
+  - We work particularly closely with certain service providers, for example with
+    technical service providers (e.g. running computer centers, cloud platform for
+    storing the data) or with logistics companies or payment gateway service provider.
+  purposes: {}
+- source: billing information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - Users will be required to provide certain personal information when they sign
+    up for Services including their name, address, email, telephone number, billing
+    information (such as a credit card number).
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'The types of personal information you may provide to us includes: Personal or
+    business contact information (such as name, address and email address, social
+    media, name of your company or department, and your business function or title);'
+- source: contact information
+  target: name of company
+  key: SUBSUM
+  text:
+  - 'The types of personal information you may provide to us includes: Personal or
+    business contact information (such as name, address and email address, social
+    media, name of your company or department, and your business function or title);'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'The types of personal information you may provide to us includes: Personal or
+    business contact information (such as name, address and email address, social
+    media, name of your company or department, and your business function or title);'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'The types of personal information you may provide to us includes: Personal or
+    business contact information (such as name, address and email address, social
+    media, name of your company or department, and your business function or title);'
+- source: contact information
+  target: social medium
+  key: SUBSUM
+  text:
+  - 'The types of personal information you may provide to us includes: Personal or
+    business contact information (such as name, address and email address, social
+    media, name of your company or department, and your business function or title);'
+- source: personal information
+  target: billing information
+  key: SUBSUM
+  text:
+  - Users will be required to provide certain personal information when they sign
+    up for Services including their name, address, email, telephone number, billing
+    information (such as a credit card number).
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'The types of personal information you may provide to us includes: Personal or
+    business contact information (such as name, address and email address, social
+    media, name of your company or department, and your business function or title);'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Users will be required to provide certain personal information when they sign
+    up for Services including their name, address, email, telephone number, billing
+    information (such as a credit card number).
+- source: personal information
+  target: financial information in accordance with applicable law
+  key: SUBSUM
+  text:
+  - We view the protection of your privacy as extremely important and we store and
+    process your personal information including any financial or medical information
+    in accordance with applicable law,  the rules made thereunder, and this Privacy
+    Policy.
+- source: personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'The types of personal information you may provide to us includes: A general geographic
+    location (such as country and city) from which a visitor accesses our sites;'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Users will be required to provide certain personal information when they sign
+    up for Services including their name, address, email, telephone number, billing
+    information (such as a credit card number).
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Users will be required to provide certain personal information when they sign
+    up for Services including their name, address, email, telephone number, billing
+    information (such as a credit card number).
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Users will be required to provide certain personal information when they sign
+    up for Services including their name, address, email, telephone number, billing
+    information (such as a credit card number).
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: country with low data protection standard than european union
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: billing information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial information in accordance with applicable law
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about you
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: name of company
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: social medium

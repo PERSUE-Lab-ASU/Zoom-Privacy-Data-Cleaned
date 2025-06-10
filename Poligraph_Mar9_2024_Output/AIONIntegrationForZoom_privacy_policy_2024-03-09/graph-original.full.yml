@@ -1,0 +1,149 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information about yourself
+  key: COLLECT
+  text:
+  - When requesting information from us, or entering secure areas of our website,
+    we do require that you provide some information about yourself by "registering"
+    or completing an online form.
+  purposes: {}
+- source: we
+  target: information meet need
+  key: COLLECT
+  text:
+  - This allows us to provide information that will meet your needs and make your
+    experience easier.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Some portions of the site may require you to give us personal information, which
+    enables us to identify you, such as your name, email or other address.
+  purposes: {}
+- source: we
+  target: personally non - identifiable information about use of site
+  key: COLLECT
+  text:
+  - For example, we may use this information in conjunction with other information
+    to track the total number of site visitors.
+  - VCS may collect some personally non-identifiable information about your use of
+    the Site to better understand our audience.
+  purposes:
+    analytics:
+    - to track the total number of site visitors
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Google uses this information to personalize targeted advertisements to its audiences
+    on non-VCS websites.
+  - VCS also uses third party cookies in online advertising efforts through specified
+    Google tools.
+  purposes:
+    advertising:
+    - to personalize targeted advertisements to its audiences on non-VCS websites
+- source: vcs
+  target: client data
+  key: COLLECT
+  text:
+  - In accordance with the VCS Subscription Agreement, VCS may access Client Data
+    only for the purpose of providing professional services, preventing or addressing
+    service or technical problems, at a Client's request in connection with customer
+    support matters.
+  purposes:
+    services:
+    - only for the purpose of providing professional services, preventing or addressing
+      service or technical problems, at a Client's request in connection with customer
+      support matters
+- source: vcs
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For example, VCS may use cookies on its download page to speed up users' activities
+    in not having to register more than once.
+  - VCS also uses third party cookies in online advertising efforts through specified
+    Google tools.
+  - VCS may also use cookies in other areas on its web site now and in the future.
+  purposes:
+    services:
+    - to speed up users' activities in not having to register more than once
+- source: vcs
+  target: domain name
+  key: COLLECT
+  text:
+  - VCS uses this information only to scale technical implementation to match our
+    audience's browser capabilities.
+  - When you enter our website we can determine your domain name and what browser
+    and operating system you are using, but we cannot determine any personal information
+    about you.
+  purposes:
+    services:
+    - only to scale technical implementation to match our audience's browser capabilities
+- source: vcs
+  target: personally non - identifiable information about use of site
+  key: COLLECT
+  text:
+  - VCS may collect some personally non-identifiable information about your use of
+    the Site to better understand our audience.
+  purposes:
+    analytics:
+    - to better understand our audience
+- source: vcs client
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - VCS Clients may electronically submit data or information for hosting and processing
+    purposes ("Client Data").
+  purposes:
+    services:
+    - for hosting and processing purposes
+- source: vcs client
+  target: client data
+  key: COLLECT
+  text:
+  - VCS Clients may electronically submit data or information for hosting and processing
+    purposes ("Client Data").
+  purposes:
+    services:
+    - for hosting and processing purposes
+- source: access premium portion of website
+  target: customer support knowledge base
+  key: SUBSUM
+  text:
+  - 'For example, situations where we will ask you to provide information include,
+    but are not limited to: When entering a limited-access, premium portion of our
+    website, such as our customer support knowledge base, you must "register" to receive
+    a username and password.'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: access premium portion of website
+- type: ACTOR
+  id: customer support knowledge base
+- type: ACTOR
+  id: vcs
+- type: ACTOR
+  id: vcs client
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: client data
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: domain name
+- type: DATA
+  id: information about yourself
+- type: DATA
+  id: information meet need
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personally non - identifiable information about use of site

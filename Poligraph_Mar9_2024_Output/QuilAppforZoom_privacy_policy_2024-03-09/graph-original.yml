@@ -1,0 +1,211 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect your data for several reasons.
+  - We use this additional information to facilitate automatic call scheduling and
+    enable bots to join automatically.
+  purposes:
+    services:
+    - to facilitate automatic call scheduling and enable bots to join automatically
+- source: we
+  target: authorized user datum
+  key: COLLECT
+  text:
+  - We will optionally request authorized user data from Google services.
+  purposes: {}
+- source: we
+  target: behavior information
+  key: COLLECT
+  text:
+  - We collect behavior information while on our website.
+  purposes: {}
+- source: we
+  target: datum you submit
+  key: COLLECT
+  text:
+  - We retain the data you submit.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - Why do we require "Your name, email address and voice biometrics (opt-in)" We
+    collect names and email addresses as required identifiers for an account.
+  purposes: {}
+- source: we
+  target: hardware identifier
+  key: COLLECT
+  text:
+  - We collect hardware identifiers for analytics.
+  purposes:
+    analytics:
+    - for analytics
+- source: we
+  target: information relate to system functioning
+  key: COLLECT
+  text:
+  - 'Logs
+
+
+    We will log information related to system functioning, including but not limited
+    to system metrics, timestamps, IP addresses, and requested routes.'
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - Why do we require "Your IP address and hardware identifiers" We collect IP address
+    information to improve session security, and flag suspicious activity.
+  purposes:
+    security:
+    - to improve session security, and flag suspicious activity
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - Why do we require "Your name, email address and voice biometrics (opt-in)" We
+    collect names and email addresses as required identifiers for an account.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may use or share your personal information with any other parties.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: datum obtain from
+  key: COLLECT
+  text:
+  - Data obtained from allowing the Google integration will be shared with a trusted
+    third party (Recall AI) for the sole purpose of scheduling future calls and allowing
+    call bots to join automatically.
+  purposes:
+    services:
+    - for the sole purpose of scheduling future calls and allowing call bots to join
+      automatically
+- source: UNSPECIFIED_ACTOR
+  target: datum obtain from google service
+  key: COLLECT
+  text:
+  - Data obtained from Google services may also be shared with relevant, trusted third
+    parties (As mentioned in section "third party policies") for the purpose of transcription,
+    recording, note summarization / categorization or other product features.
+  purposes:
+    services:
+    - for the purpose of transcription, recording, note summarization / categorization
+      or other product features
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may use or share your personal information with any other parties.
+  purposes: {}
+- source: recall ai
+  target: datum obtain from
+  key: COLLECT
+  text:
+  - Data obtained from allowing the Google integration will be shared with a trusted
+    third party (Recall AI) for the sole purpose of scheduling future calls and allowing
+    call bots to join automatically.
+  purposes:
+    services:
+    - for the sole purpose of scheduling future calls and allowing call bots to join
+      automatically
+- source: we
+  target: quil
+  key: SUBSUM
+  text:
+  - This privacy policy ("policy") will help you understand how Quil (Formerly SalesQ)
+    ("us", "we",  "our") uses and protects the data you provide to us when you visit
+    and use salesq.app, salesq.ai, zoom.salesq.app, quil.ai, quil.app and zoom.quil.app
+    ("website", "service").
+- source: we
+  target: salesq
+  key: SUBSUM
+  text:
+  - This privacy policy ("policy") will help you understand how Quil (Formerly SalesQ)
+    ("us", "we",  "our") uses and protects the data you provide to us when you visit
+    and use salesq.app, salesq.ai, zoom.salesq.app, quil.ai, quil.app and zoom.quil.app
+    ("website", "service").
+- source: information relate to system functioning
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Logs
+
+
+    We will log information related to system functioning, including but not limited
+    to system metrics, timestamps, IP addresses, and requested routes.'
+- source: information relate to system functioning
+  target: request route
+  key: SUBSUM
+  text:
+  - 'Logs
+
+
+    We will log information related to system functioning, including but not limited
+    to system metrics, timestamps, IP addresses, and requested routes.'
+- source: information relate to system functioning
+  target: system metric
+  key: SUBSUM
+  text:
+  - 'Logs
+
+
+    We will log information related to system functioning, including but not limited
+    to system metrics, timestamps, IP addresses, and requested routes.'
+- source: information relate to system functioning
+  target: timestamp
+  key: SUBSUM
+  text:
+  - 'Logs
+
+
+    We will log information related to system functioning, including but not limited
+    to system metrics, timestamps, IP addresses, and requested routes.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: quil
+- type: ACTOR
+  id: recall ai
+- type: ACTOR
+  id: salesq
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: authorized user datum
+- type: DATA
+  id: behavior information
+- type: DATA
+  id: datum obtain from
+- type: DATA
+  id: datum obtain from google service
+- type: DATA
+  id: datum you submit
+- type: DATA
+  id: email address
+- type: DATA
+  id: hardware identifier
+- type: DATA
+  id: information relate to system functioning
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: request route
+- type: DATA
+  id: system metric
+- type: DATA
+  id: timestamp

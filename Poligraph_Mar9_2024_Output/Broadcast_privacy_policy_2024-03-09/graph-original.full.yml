@@ -1,0 +1,194 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If required for mergers, acquisitions, or sale of the company assets, we may transfer
+    data to the new party, subject to the agreements in place.
+  - We retain your data only as long as required to provide you with the Services
+    or as necessary to comply with legal obligations.
+  - We use your data to provide, maintain, and improve the Services.
+  purposes:
+    services:
+    - to provide, maintain, and improve the Services
+- source: we
+  target: basic profile information
+  key: COLLECT
+  text:
+  - We may obtain some data from third-party services, such as your basic profile
+    information when authenticating through Google or other single sign-on providers.
+  purposes: {}
+- source: we
+  target: datum you submit through service
+  key: COLLECT
+  text:
+  - We also collect any data you submit through the service, such as content, comments,
+    messages, etc. You choose what information to provide or make public through the
+    service.
+  purposes:
+    analytics:
+    - what information to provide or make public through the service
+    services:
+    - what information to provide or make public through the service
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - When creating an account, we collect your name, email address, username, profile
+    photo, and any other information you choose to provide.
+  purposes: {}
+- source: we
+  target: information you choose
+  key: COLLECT
+  text:
+  - When creating an account, we collect your name, email address, username, profile
+    photo, and any other information you choose to provide.
+  purposes: {}
+- source: we
+  target: large language model
+  key: COLLECT
+  text:
+  - To provide certain features in our service, we may utilize large language models
+    (LLMs) - AI systems trained on large datasets.
+  purposes:
+    services:
+    - To provide certain features in our service
+- source: we
+  target: llms
+  key: COLLECT
+  text:
+  - To provide certain features in our service, we may utilize large language models
+    (LLMs) - AI systems trained on large datasets.
+  purposes:
+    services:
+    - To provide certain features in our service
+- source: we
+  target: payment detail
+  key: COLLECT
+  text:
+  - If you use paid services, we collect payment details to process your purchase.
+  purposes:
+    services:
+    - to process your purchase
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - When creating an account, we collect your name, email address, username, profile
+    photo, and any other information you choose to provide.
+  purposes: {}
+- source: we
+  target: profile photo
+  key: COLLECT
+  text:
+  - When creating an account, we collect your name, email address, username, profile
+    photo, and any other information you choose to provide.
+  purposes: {}
+- source: we
+  target: technical datum
+  key: COLLECT
+  text:
+  - We automatically collect certain technical data from your device when you use
+    the Services, such as your IP address, device type, operating system version,
+    and usage data.
+  purposes: {}
+- source: we
+  target: username
+  key: COLLECT
+  text:
+  - When creating an account, we collect your name, email address, username, profile
+    photo, and any other information you choose to provide.
+  purposes: {}
+- source: new party
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If required for mergers, acquisitions, or sale of the company assets, we may transfer
+    data to the new party, subject to the agreements in place.
+  purposes: {}
+- source: datum you submit through service
+  target: content
+  key: SUBSUM
+  text:
+  - We also collect any data you submit through the service, such as content, comments,
+    messages, etc. You choose what information to provide or make public through the
+    service.
+- source: datum you submit through service
+  target: message
+  key: SUBSUM
+  text:
+  - We also collect any data you submit through the service, such as content, comments,
+    messages, etc. You choose what information to provide or make public through the
+    service.
+- source: technical datum
+  target: device type
+  key: SUBSUM
+  text:
+  - We automatically collect certain technical data from your device when you use
+    the Services, such as your IP address, device type, operating system version,
+    and usage data.
+- source: technical datum
+  target: internet activity
+  key: SUBSUM
+  text:
+  - We automatically collect certain technical data from your device when you use
+    the Services, such as your IP address, device type, operating system version,
+    and usage data.
+- source: technical datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - We automatically collect certain technical data from your device when you use
+    the Services, such as your IP address, device type, operating system version,
+    and usage data.
+- source: technical datum
+  target: operate system version
+  key: SUBSUM
+  text:
+  - We automatically collect certain technical data from your device when you use
+    the Services, such as your IP address, device type, operating system version,
+    and usage data.
+nodes:
+- type: ACTOR
+  id: new party
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: basic profile information
+- type: DATA
+  id: content
+- type: DATA
+  id: datum you submit through service
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: large language model
+- type: DATA
+  id: llms
+- type: DATA
+  id: message
+- type: DATA
+  id: operate system version
+- type: DATA
+  id: payment detail
+- type: DATA
+  id: person name
+- type: DATA
+  id: profile photo
+- type: DATA
+  id: technical datum
+- type: DATA
+  id: username

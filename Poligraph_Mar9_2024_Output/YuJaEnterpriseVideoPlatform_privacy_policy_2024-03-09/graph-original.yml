@@ -1,0 +1,148 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website uses cookies to improve your experience.
+  purposes:
+    services:
+    - to improve your experience
+- source: we
+  target: cookies
+  key: COLLECT
+  text:
+  - 'Use of Cookies:
+
+
+    In order to improve Services of YuJa, we may use ''Cookies".'
+  - We may use Cookies to provide us information on how you use our products and services
+    to better our Services.
+  purposes:
+    analytics:
+    - to provide us information on how you use our products and services to better
+      our Services
+    services:
+    - In order to improve Services of YuJa
+    - to provide us information on how you use our products and services to better
+      our Services
+- source: we
+  target: opt choice
+  key: COLLECT
+  text:
+  - We will also provide an EU individuals with opt-out or opt-in choice before we
+    share their data with third parties other than our agents, or before we use it
+    for a purpose other than which it was originally collected or subsequently authorized.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Personal Information:
+
+
+    Content Collected during the Course of Providing Services to Educational Institutions
+    ("Content"):
+
+
+    YuJa collects certain personal data from users during the course of providing
+    our Services.'
+  - We consider such data as strictly confidential and generally use this data only
+    for providing and improving Services.
+  - We will only use the Personal information to (a) understand and meet your product
+    needs and preferences (b) develop new services and product offerings (c) enhance
+    existing service and product offerings (d) manage our day-to-day business and
+    internal operations, (e) meet legal and regulatory requirements in the jurisdictions
+    in which we operate.
+  purposes:
+    analytics:
+    - to (a) understand and meet your product needs and preferences (b) develop new
+      services and product offerings
+    - understand and meet your product needs and preferences
+    services:
+    - to (a) understand and meet your product needs and preferences (b) develop new
+      services and product offerings
+    - understand and meet your product needs and preferences
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - To be able to serve you, Personal information may be collected, stored, or processed
+    on our behalf by highly trusted third-party service providers.
+  purposes: {}
+- source: yuja
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Personal Information:
+
+
+    Content Collected during the Course of Providing Services to Educational Institutions
+    ("Content"):
+
+
+    YuJa collects certain personal data from users during the course of providing
+    our Services.'
+  purposes: {}
+- source: personal information
+  target: academic information
+  key: SUBSUM
+  text:
+  - Any personal information, e.g., name, address, telephone number, academic information
+    and credit cards, (Personal information") that you provide to YuJa is used to
+    provide you with more personalized educational services and experience.
+- source: personal information
+  target: credit card
+  key: SUBSUM
+  text:
+  - Any personal information, e.g., name, address, telephone number, academic information
+    and credit cards, (Personal information") that you provide to YuJa is used to
+    provide you with more personalized educational services and experience.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Any personal information, e.g., name, address, telephone number, academic information
+    and credit cards, (Personal information") that you provide to YuJa is used to
+    provide you with more personalized educational services and experience.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Any personal information, e.g., name, address, telephone number, academic information
+    and credit cards, (Personal information") that you provide to YuJa is used to
+    provide you with more personalized educational services and experience.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Any personal information, e.g., name, address, telephone number, academic information
+    and credit cards, (Personal information") that you provide to YuJa is used to
+    provide you with more personalized educational services and experience.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: yuja
+- type: DATA
+  id: academic information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: cookies
+- type: DATA
+  id: credit card
+- type: DATA
+  id: opt choice
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

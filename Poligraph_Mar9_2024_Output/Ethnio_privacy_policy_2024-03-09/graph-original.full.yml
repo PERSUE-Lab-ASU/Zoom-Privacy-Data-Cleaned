@@ -1,0 +1,86 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: Ethnio
+  target: personal information
+  key: COLLECT
+  text:
+  - Ethnio may disclose Personal Data to subcontractors and third-party agents who
+    assist us in providing Services to our customers and prospects.
+  - 'Onward Transfers
+
+
+    Ethnio may also be required to disclose, and may disclose, Personal Data in response
+    to lawful requests by public authorities, including for the purpose of meeting
+    national security or law enforcement requirements.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Ethnio may disclose Personal Data to subcontractors and third-party agents who
+    assist us in providing Services to our customers and prospects.
+  purposes: {}
+- source: data subject
+  target: truthful information
+  key: COLLECT
+  text:
+  - In making modifications to their Personal Data, Data Subjects must provide only
+    truthful, complete, and accurate information.
+  purposes: {}
+- source: subcontractor
+  target: personal information
+  key: COLLECT
+  text:
+  - Ethnio may disclose Personal Data to subcontractors and third-party agents who
+    assist us in providing Services to our customers and prospects.
+  purposes: {}
+- source: we
+  target: Ethnio
+  key: SUBSUM
+  text:
+  - Ethnio, Inc. ("we" or "Ethnio") is committed to respecting the privacy rights
+    of users of Ethnio's Website and Services, whether they are Participants or Customers,
+    as those terms are defined in Ethnio's Terms and Conditions .
+- source: standard web log entry for page serve
+  target: ip address
+  key: SUBSUM
+  text:
+  - Our web logs collect standard web log entries for each page served, including
+    Your IP address, page URL, and time stamp.
+- source: standard web log entry for page serve
+  target: page url
+  key: SUBSUM
+  text:
+  - Our web logs collect standard web log entries for each page served, including
+    Your IP address, page URL, and time stamp.
+- source: standard web log entry for page serve
+  target: time stamp
+  key: SUBSUM
+  text:
+  - Our web logs collect standard web log entries for each page served, including
+    Your IP address, page URL, and time stamp.
+nodes:
+- type: ACTOR
+  id: Ethnio
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: data subject
+- type: ACTOR
+  id: subcontractor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: page url
+- type: DATA
+  id: personal information
+- type: DATA
+  id: standard web log entry for page serve
+- type: DATA
+  id: time stamp
+- type: DATA
+  id: truthful information

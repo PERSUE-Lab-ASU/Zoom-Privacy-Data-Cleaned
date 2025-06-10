@@ -1,0 +1,308 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: account
+  key: COLLECT
+  text:
+  - Member may be required to provide a credit card or other form of payment in order
+    to keep your account in good standing.
+  - This payment information will only be provided to the company or companies that
+    TimeCloud is contracted with to process payments, and will never be shared with
+    an unrelated third-party.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: account
+  key: COLLECT
+  text:
+  - Member may be required to provide a credit card or other form of payment in order
+    to keep your account in good standing.
+  - This payment information will only be provided to the company or companies that
+    TimeCloud is contracted with to process payments, and will never be shared with
+    an unrelated third-party.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - In this case, your personally identifiable information will be disclosed to a
+    third-party credit agency or financial institution for the sole purpose of this
+    credit check;
+  purposes:
+    services:
+    - for the sole purpose of this credit check
+- source: advertiser
+  target: demographic information
+  key: COLLECT
+  text:
+  - 'The Members'' non-personally identifiable information may be used in the following
+    ways: Demographic information may be provided to our advertisers to determine
+    placement;'
+  purposes:
+    analytics:
+    - to determine placement
+    services:
+    - to determine placement
+- source: financial institution
+  target: personal identifier
+  key: COLLECT
+  text:
+  - In this case, your personally identifiable information will be disclosed to a
+    third-party credit agency or financial institution for the sole purpose of this
+    credit check;
+  purposes:
+    services:
+    - for the sole purpose of this credit check
+- source: member
+  target: personal detail use for internal timecloud analysis
+  key: COLLECT
+  text:
+  - Additionally, Member may be asked to provide various personal details which would
+    be used solely for internal TimeCloud analyses.
+  purposes: {}
+- source: member
+  target: personal information
+  key: COLLECT
+  text:
+  - 'When Member signs up for a TimeCloud account, Member must provide certain personal
+    information, such as: name, email address, phone numbers, payment information,
+    and an account password.'
+  purposes: {}
+- source: timecloud
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - TimeCloud may use cookies to deliver content to Member coinciding with personal
+    interests, to track ad click rates and impressions, and they may be analyzed to
+    help us improve your experience.
+  purposes:
+    advertising:
+    - to deliver content to Member coinciding with personal interests, to track ad
+      click rates and impressions
+    analytics:
+    - to deliver content to Member coinciding with personal interests, to track ad
+      click rates and impressions
+    services:
+    - to deliver content to Member coinciding with personal interests, to track ad
+      click rates and impressions
+    - to help us improve your experience
+- source: timecloud
+  target: access
+  key: COLLECT
+  text:
+  - TimeCloud will hold your payment information securely and confidentially, and
+    access to such information will be limited to TimeCloud team members who work
+    with payment processing companies.
+  purposes: {}
+- source: timecloud
+  target: account
+  key: COLLECT
+  text:
+  - TimeCloud will access Members' accounts for the purpose of determining causes
+    and solutions to technical issues, and to conduct research in relation to the
+    continued development of our state-of-the-art technology.
+  purposes:
+    analytics:
+    - for the purpose of determining causes and solutions to technical issues, and
+      to conduct research in relation to the continued development of our state-of-the-art
+      technology
+- source: timecloud
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - TimeCloud may use cookies to deliver content to Member coinciding with personal
+    interests, to track ad click rates and impressions, and they may be analyzed to
+    help us improve your experience.
+  purposes:
+    advertising:
+    - to deliver content to Member coinciding with personal interests, to track ad
+      click rates and impressions
+    analytics:
+    - to deliver content to Member coinciding with personal interests, to track ad
+      click rates and impressions
+    services:
+    - to deliver content to Member coinciding with personal interests, to track ad
+      click rates and impressions
+- source: timecloud
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'Once Member''s account has been established and is in use, TimeCloud may record
+    information about your usage, such as: frequency of access to account, the size
+    of Member-generated content/storage capacity, the frequency of content sharing,
+    and other activity in conjunction with Member''s use of TimeCloud.'
+  purposes: {}
+- source: timecloud
+  target: payment information
+  key: COLLECT
+  text:
+  - TimeCloud will hold your payment information securely and confidentially, and
+    access to such information will be limited to TimeCloud team members who work
+    with payment processing companies.
+  purposes: {}
+- source: timecloud
+  target: personal information
+  key: COLLECT
+  text:
+  - TimeCloud may be required by a governmental or legal request to access and/or
+    disclose your personal information and the content of your communications in the
+    case of a search warrant, subpoena, court order, or other legal process.
+  purposes: {}
+- source: create content
+  target: medium transcript
+  key: SUBSUM
+  text:
+  - Access to personal information, Members' accounts, and Member-created content
+    (e.g. audio recordings, video recordings, media transcripts, etc.) is restricted
+    to a limited number of TimeCloud employees, contractors and agents who require
+    access in order to conduct TimeCloud business.
+- source: create content
+  target: video recording
+  key: SUBSUM
+  text:
+  - Access to personal information, Members' accounts, and Member-created content
+    (e.g. audio recordings, video recordings, media transcripts, etc.) is restricted
+    to a limited number of TimeCloud employees, contractors and agents who require
+    access in order to conduct TimeCloud business.
+- source: information collect
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Additional information collected by TimeCloud may include information provided
+    by Member's computer browser as a result of cookies placed by TimeCloud.
+- source: internet activity
+  target: activity in conjunction with use of timecloud
+  key: SUBSUM
+  text:
+  - 'Once Member''s account has been established and is in use, TimeCloud may record
+    information about your usage, such as: frequency of access to account, the size
+    of Member-generated content/storage capacity, the frequency of content sharing,
+    and other activity in conjunction with Member''s use of TimeCloud.'
+- source: internet activity
+  target: frequency of access to account
+  key: SUBSUM
+  text:
+  - 'Once Member''s account has been established and is in use, TimeCloud may record
+    information about your usage, such as: frequency of access to account, the size
+    of Member-generated content/storage capacity, the frequency of content sharing,
+    and other activity in conjunction with Member''s use of TimeCloud.'
+- source: internet activity
+  target: frequency of content sharing
+  key: SUBSUM
+  text:
+  - 'Once Member''s account has been established and is in use, TimeCloud may record
+    information about your usage, such as: frequency of access to account, the size
+    of Member-generated content/storage capacity, the frequency of content sharing,
+    and other activity in conjunction with Member''s use of TimeCloud.'
+- source: internet activity
+  target: size
+  key: SUBSUM
+  text:
+  - 'Once Member''s account has been established and is in use, TimeCloud may record
+    information about your usage, such as: frequency of access to account, the size
+    of Member-generated content/storage capacity, the frequency of content sharing,
+    and other activity in conjunction with Member''s use of TimeCloud.'
+- source: personal information
+  target: account password
+  key: SUBSUM
+  text:
+  - 'When Member signs up for a TimeCloud account, Member must provide certain personal
+    information, such as: name, email address, phone numbers, payment information,
+    and an account password.'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'When Member signs up for a TimeCloud account, Member must provide certain personal
+    information, such as: name, email address, phone numbers, payment information,
+    and an account password.'
+- source: personal information
+  target: payment information
+  key: SUBSUM
+  text:
+  - 'When Member signs up for a TimeCloud account, Member must provide certain personal
+    information, such as: name, email address, phone numbers, payment information,
+    and an account password.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'When Member signs up for a TimeCloud account, Member must provide certain personal
+    information, such as: name, email address, phone numbers, payment information,
+    and an account password.'
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'When Member signs up for a TimeCloud account, Member must provide certain personal
+    information, such as: name, email address, phone numbers, payment information,
+    and an account password.'
+- source: timecloud datum center
+  target: intrusion detection system
+  key: SUBSUM
+  text:
+  - This security involves limiting access to key representatives, firewalls, encryption
+    of communication and data transmissions, and other physical security procedures
+    at all TimeCloud data centers, such as intrusion detection systems.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: financial institution
+- type: ACTOR
+  id: intrusion detection system
+- type: ACTOR
+  id: member
+- type: ACTOR
+  id: timecloud
+- type: ACTOR
+  id: timecloud datum center
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access
+- type: DATA
+  id: account
+- type: DATA
+  id: account password
+- type: DATA
+  id: activity in conjunction with use of timecloud
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: create content
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: email address
+- type: DATA
+  id: frequency of access to account
+- type: DATA
+  id: frequency of content sharing
+- type: DATA
+  id: information collect
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: medium transcript
+- type: DATA
+  id: payment information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal detail use for internal timecloud analysis
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: size
+- type: DATA
+  id: video recording

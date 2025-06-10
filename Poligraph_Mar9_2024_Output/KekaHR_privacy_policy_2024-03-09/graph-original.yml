@@ -1,0 +1,367 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - You agree, consent and acknowledge that we may share your information with third
+    parties who provide services to us.
+  - 'You may request to know if we have collected, sold, or shared with third parties
+    for a business purpose the following information:'
+  purposes: {}
+- source: we
+  target: above category
+  key: COLLECT
+  text:
+  - We have collected the above categories and types of personal information directly
+    from individuals through our website or during customer support contact, directly
+    from our business customers, and through business documents such as our contracts
+    and other shared documents.
+  purposes: {}
+- source: we
+  target: biometric device log of user
+  key: COLLECT
+  text:
+  - If our Customer (Employer) chose to utilize the optional Time and Attendance Software
+    , we shall retain and process biometric device logs of the users for the purposes
+    of calculating attendance and payroll using the rules configured by the Customer.
+  purposes:
+    analytics:
+    - for the purposes of calculating attendance and payroll using the rules configured
+      by the Customer
+    services:
+    - for the purposes of calculating attendance and payroll using the rules configured
+      by the Customer
+- source: we
+  target: datum about you
+  key: COLLECT
+  text:
+  - We may hold data on you in our role as a service provider to a client company,
+    and we may hold data about you on our own behalf.
+  purposes: {}
+- source: we
+  target: datum on you
+  key: COLLECT
+  text:
+  - We may hold data on you in our role as a service provider to a client company,
+    and we may hold data about you on our own behalf.
+  purposes: {}
+- source: we
+  target: device information
+  key: COLLECT
+  text:
+  - When you download and use the Mobile Apps, we automatically collect your device
+    information such as operating system version, type, hardware usage statistics,
+    etc.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - If you apply for a job at Keka through the Site, you may provide us with your
+    location information by selecting the "Locate me" button.
+  - You agree, consent and acknowledge that we use this information to present to
+    you available jobs near your current location.
+  purposes:
+    advertising:
+    - to present to you available jobs near your current location
+    services:
+    - to present to you available jobs near your current location
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Given the nature of the services that we provide we may have shared your personal
+    information with employers and other third parties.
+  - In certain situations, we may be required to disclose Personal Information in
+    response to lawful requests by public authorities, including to meet national
+    security or law enforcement requirements.
+  - 'Privacy Policy
+
+
+    Sharing of your Information
+
+
+    THE FOLLOWING IS ONLY APPLICABLE TO USERS LOCATED IN CALIFORNIA, NEVADA AND DELAWARE
+
+
+    Whether we have sold your personal information and if so the categories of personal
+    information that each category of recipient purchased; and'
+  - 'THE FOLLOWING IS ONLY APPLICABLE TO USERS LOCATED IN CALIFORNIA, NEVADA AND DELAWARE
+
+
+    Whether we have disclosed your personal information for a business purpose and
+    if so, the categories of personal information that each category of recipient
+    received.'
+  - Unless We otherwise have your consent, we will only share your Personal Information
+    in the ways that are described in this Privacy Policy.
+  - We also collect personal information automatically using cookies and similar trackers.
+  - 'We collect, use, and disclose personal information as follows:'
+  - We may also disclose your personal information to government entities or other
+    third parties associated with legal or tax requirements, or in the case of a proposed
+    merger, acquisition, asset sale, or other corporate transaction.
+  - We may disclose your personal information with third parties for a business purpose.
+  - 'We may use your personal information for the following business purposes: providing
+    the Service to our business customers.'
+  purposes:
+    services:
+    - 'for the following business purposes: providing the Service to our business
+      customers'
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - You agree, consent and acknowledge that we may share your information with third
+    parties who provide services to us.
+  - 'You may request to know if we have collected, sold, or shared with third parties
+    for a business purpose the following information:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Given the nature of the services that we provide we may have shared your personal
+    information with employers and other third parties.
+  - These third parties are authorized to use your Personal Information only as necessary
+    to provide these services to us.
+  - We do not allow third party service providers and Sub-Processors We share your
+    Personal Information with to use it for their own purposes and only permit them
+    to process your Personal Information for specified purposes in accordance with
+    our instructions.
+  - We may also disclose your personal information to government entities or other
+    third parties associated with legal or tax requirements, or in the case of a proposed
+    merger, acquisition, asset sale, or other corporate transaction.
+  - We may disclose your personal information with third parties for a business purpose.
+  - You agree, consent and acknowledge that we may share your information with third
+    parties who provide services to us.
+  purposes: {}
+- source: analytic provider
+  target: information as
+  key: COLLECT
+  text:
+  - This software may record information such as how often you use the application,
+    the events that occur within the application, aggregated usage, performance data,
+    and where the application was downloaded from.
+  - We use mobile analytics software to allow us to better understand the functionality
+    of our Mobile Apps on your phone.
+  purposes: {}
+- source: employer
+  target: personal information
+  key: COLLECT
+  text:
+  - Given the nature of the services that we provide we may have shared your personal
+    information with employers and other third parties.
+  purposes: {}
+- source: government entity
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also disclose your personal information to government entities or other
+    third parties associated with legal or tax requirements, or in the case of a proposed
+    merger, acquisition, asset sale, or other corporate transaction.
+  purposes: {}
+- source: keka
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Anonymized aggregated data may be retained by Keka for as long it is required
+    to provided its services.
+  purposes: {}
+- source: keka
+  target: contact information
+  key: COLLECT
+  text:
+  - When you express an interest in obtaining additional information about the Services,
+    the Site, or Mobile Apps, Keka may ask you to provide your personal contact information,
+    such as your name, email address, and phone number.
+  purposes: {}
+- source: keka
+  target: customer datum
+  key: COLLECT
+  text:
+  - Customer data shall be used by Keka in accordance with the Customer's instructions,
+    applicable terms in the Master Service Agreement, Customer's use of Services functionality,
+    and as required by applicable law.
+  purposes: {}
+- source: keka
+  target: datum it process on behalf of customer
+  key: COLLECT
+  text:
+  - Keka will retain data it processes on behalf of its customers only for as long
+    as required to provide the Service to its Customers and as necessary to comply
+    with its legal obligations, resolve disputes and enforce its agreements.
+  purposes: {}
+- source: keka
+  target: documentation regard compliance with requirement of law
+  key: COLLECT
+  text:
+  - Keka maintains documentation regarding compliance with the requirements of the
+    law, including without limitation documentation of any known breaches and holds
+    reasonable insurance policies in connection with data security.
+  purposes: {}
+- source: keka
+  target: metadata
+  key: COLLECT
+  text:
+  - You agree, consent and acknowledge that Keka collects and retains metadata and
+    statistical information concerning the use of the service which are not subject
+    to the deletion procedures in this policy and may be retained by Keka for no more
+    than required to conduct its business.
+  purposes: {}
+- source: keka
+  target: service data
+  key: COLLECT
+  text:
+  - Connecting your Google account to your Keka products allows Keka to view your
+    personal information mentioned in your Google Account and to transmit the Service
+    Data to Keka products that you integrate with your G-Account.
+  purposes: {}
+- source: keka
+  target: statistical information
+  key: COLLECT
+  text:
+  - You agree, consent and acknowledge that Keka collects and retains metadata and
+    statistical information concerning the use of the service which are not subject
+    to the deletion procedures in this policy and may be retained by Keka for no more
+    than required to conduct its business.
+  purposes: {}
+- source: keka product you integrate with g account
+  target: service data
+  key: COLLECT
+  text:
+  - Connecting your Google account to your Keka products allows Keka to view your
+    personal information mentioned in your Google Account and to transmit the Service
+    Data to Keka products that you integrate with your G-Account.
+  purposes: {}
+- source: keka system
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - As a service provider, Keka systems only collects information as per the Customer
+    (employer's) requirement.
+  purposes: {}
+- source: sub
+  target: personal information
+  key: COLLECT
+  text:
+  - We may need to share Personal Information with our Sub-Processors in order to
+    provide Services to you.
+  purposes:
+    services:
+    - in order to provide Services to you
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you express an interest in obtaining additional information about the Services,
+    the Site, or Mobile Apps, Keka may ask you to provide your personal contact information,
+    such as your name, email address, and phone number.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you express an interest in obtaining additional information about the Services,
+    the Site, or Mobile Apps, Keka may ask you to provide your personal contact information,
+    such as your name, email address, and phone number.
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - When you express an interest in obtaining additional information about the Services,
+    the Site, or Mobile Apps, Keka may ask you to provide your personal contact information,
+    such as your name, email address, and phone number.
+- source: device information
+  target: hardware usage statistic
+  key: SUBSUM
+  text:
+  - When you download and use the Mobile Apps, we automatically collect your device
+    information such as operating system version, type, hardware usage statistics,
+    etc.
+- source: device information
+  target: operating system version
+  key: SUBSUM
+  text:
+  - When you download and use the Mobile Apps, we automatically collect your device
+    information such as operating system version, type, hardware usage statistics,
+    etc.
+- source: personal information
+  target: above category
+  key: SUBSUM
+  text:
+  - We have collected the above categories and types of personal information directly
+    from individuals through our website or during customer support contact, directly
+    from our business customers, and through business documents such as our contracts
+    and other shared documents.
+- source: personal information
+  target: information with datum be
+  key: SUBSUM
+  text:
+  - Your personal information will include any information which, either alone or
+    with other data, is reasonably available to us and relates to you ("Personal Information").
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: employer
+- type: ACTOR
+  id: government entity
+- type: ACTOR
+  id: keka
+- type: ACTOR
+  id: keka product you integrate with g account
+- type: ACTOR
+  id: keka system
+- type: ACTOR
+  id: sub
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: above category
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: biometric device log of user
+- type: DATA
+  id: contact information
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: datum it process on behalf of customer
+- type: DATA
+  id: datum on you
+- type: DATA
+  id: device information
+- type: DATA
+  id: documentation regard compliance with requirement of law
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: hardware usage statistic
+- type: DATA
+  id: information as
+- type: DATA
+  id: information with datum be
+- type: DATA
+  id: metadata
+- type: DATA
+  id: operating system version
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: service data
+- type: DATA
+  id: statistical information

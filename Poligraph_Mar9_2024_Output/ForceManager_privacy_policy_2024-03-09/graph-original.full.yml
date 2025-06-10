@@ -1,0 +1,161 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The Data will be retained until the end of any liability for legal, accounting,
+    tax and administrative obligations and we will restrict access to specific individuals
+    or functions.
+  purposes: {}
+- source: entity list
+  target: datum provide
+  key: COLLECT
+  text:
+  - To the extent necessary for the purposes described above, the Data provided by
+    the Data Subject may be transferred to the entities listed below, and with which
+    TRITIUM SOFTWARE, S.L. has signed the corresponding data processing agreements
+    in order to ensure the security of Data in accordance with the requirements and
+    standards demanded by European regulations on the protection of personal data.
+  purposes: {}
+- source: s.l.
+  target: third party datum
+  key: COLLECT
+  text:
+  - The Client will be responsible for this data and TRITIUM SOFTWARE, S.L. will process
+    this data on behalf of the Client as the processor.
+  - 'Third-party data: third-party information collected by the Client and/or User
+    in using the ForceManager Product.'
+  purposes: {}
+- source: tritium software
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Notwithstanding the above, TRITIUM SOFTWARE, S.L. may keep anonymised information
+    and data relating to the use of the Services, with the aim of improving their
+    quality.
+  purposes: {}
+- source: tritium software
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Notwithstanding the above, TRITIUM SOFTWARE, S.L. may keep anonymised information
+    and data relating to the use of the Services, with the aim of improving their
+    quality.
+  purposes: {}
+- source: tritium software
+  target: datum necessary
+  key: COLLECT
+  text:
+  - TRITIUM SOFTWARE, S.L. will only collect the Data necessary to achieve the purposes
+    for which they are collected and it will keep them for as long as they are necessary
+    to fulfil these purposes or as long as the Data Subject does not exercise the
+    rights of deletion, cancellation and/or restriction of the processing of their
+    Data.
+  purposes: {}
+- source: tritium software
+  target: third party datum
+  key: COLLECT
+  text:
+  - The Client will be responsible for this data and TRITIUM SOFTWARE, S.L. will process
+    this data on behalf of the Client as the processor.
+  - 'Third-party data: third-party information collected by the Client and/or User
+    in using the ForceManager Product.'
+  purposes: {}
+- source: we
+  target: custom version
+  key: SUBSUM
+  text:
+  - 'Product : Custom Versions'
+- source: we
+  target: forcemanager product
+  key: SUBSUM
+  text:
+  - This Privacy Policy will be applicable to the use of the services offered by TRITIUM
+    SOFTWARE, S.L. in relation to the ForceManager Product (hereinafter "Services"),
+    regardless of the means of access.
+- source: resource
+  target: education resource
+  key: SUBSUM
+  text:
+  - 'Resources : Education Resources'
+- source: resource
+  target: product support
+  key: SUBSUM
+  text:
+  - 'Resources : Product Support'
+- source: service hire
+  target: content
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. Managing the contractual relationship with the Data Subject and provision of
+    the services hired : Managing the services hired, including the management, administration,
+    documentation, invoicing, provision, monitoring, expansion and improvement of
+    the content, information and services offered by TRITIUM SOFTWARE, S.L. and/or
+    by other companies in the ForceManager Group to which TRITIUM SOFTWARE, S.L. belongs.'
+- source: service hire
+  target: documentation
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. Managing the contractual relationship with the Data Subject and provision of
+    the services hired : Managing the services hired, including the management, administration,
+    documentation, invoicing, provision, monitoring, expansion and improvement of
+    the content, information and services offered by TRITIUM SOFTWARE, S.L. and/or
+    by other companies in the ForceManager Group to which TRITIUM SOFTWARE, S.L. belongs.'
+- source: service hire
+  target: management
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    1. Managing the contractual relationship with the Data Subject and provision of
+    the services hired : Managing the services hired, including the management, administration,
+    documentation, invoicing, provision, monitoring, expansion and improvement of
+    the content, information and services offered by TRITIUM SOFTWARE, S.L. and/or
+    by other companies in the ForceManager Group to which TRITIUM SOFTWARE, S.L. belongs.'
+nodes:
+- type: ACTOR
+  id: content
+- type: ACTOR
+  id: custom version
+- type: ACTOR
+  id: documentation
+- type: ACTOR
+  id: education resource
+- type: ACTOR
+  id: entity list
+- type: ACTOR
+  id: forcemanager product
+- type: ACTOR
+  id: management
+- type: ACTOR
+  id: product support
+- type: ACTOR
+  id: resource
+- type: ACTOR
+  id: s.l.
+- type: ACTOR
+  id: service hire
+- type: ACTOR
+  id: tritium software
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: datum necessary
+- type: DATA
+  id: datum provide
+- type: DATA
+  id: third party datum

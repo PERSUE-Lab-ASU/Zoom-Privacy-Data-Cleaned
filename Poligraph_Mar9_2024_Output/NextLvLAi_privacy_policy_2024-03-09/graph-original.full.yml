@@ -1,0 +1,34 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: link
+  key: COLLECT
+  text:
+  - For users integrating with Google, we collect and store links to your Google Meet
+    transcript Google Doc files, then analyze these files with artificial intelligence
+    to provide you with key insights.
+  purposes:
+    services:
+    - For users integrating with Google
+- source: we
+  target: link to meeting phone call transcript
+  key: COLLECT
+  text:
+  - For users integrating with Zoom, we collect and store links to your meeting/phone
+    call transcripts, analyzing these to provide you with valuable insights regarding
+    those meetings and associating these insights with your contacts in HubSpot based
+    on the attendee email addresses for that meeting.
+  purposes:
+    analytics:
+    - For users integrating with Zoom
+    services:
+    - For users integrating with Zoom
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: link
+- type: DATA
+  id: link to meeting phone call transcript

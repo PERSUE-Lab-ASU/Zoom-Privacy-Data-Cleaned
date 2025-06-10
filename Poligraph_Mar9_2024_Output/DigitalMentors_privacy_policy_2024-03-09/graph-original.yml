@@ -1,0 +1,365 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may disclose aggregated information about our users without restriction.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and similar technologies.
+  purposes: {}
+- source: we
+  target: customer information
+  key: COLLECT
+  text:
+  - For example, we may need to share Customer Information for customer relationship
+    management purposes.
+  purposes:
+    services:
+    - for customer relationship management purposes
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We share you name and email address with the person or company, if any, who referred
+    you to our website.
+  purposes: {}
+- source: we
+  target: eu personal data
+  key: COLLECT
+  text:
+  - Subject to applicable law, we retain EU Personal Data in a form that identifies
+    or renders you identifiable only for as long as it serves a purpose that is compatible
+    with the purposes for which it was collected or subsequently authorized by you.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may also disclose information about you if we determine that for purposes of
+    national security, law enforcement, or other issues of public importance, disclosure
+    is necessary or appropriate.
+  purposes: {}
+- source: we
+  target: non - identifying usage volume statistical information
+  key: COLLECT
+  text:
+  - We also track and analyze non-identifying and aggregate usage and volume statistical
+    information from our Site Visitors and Customers.
+  - 'We collect this information:'
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We share you name and email address with the person or company, if any, who referred
+    you to our website.
+  purposes: {}
+- source: we
+  target: personal data collect in connection with purchase
+  key: COLLECT
+  text:
+  - If you purchase or specifically express interest in a jointly offered product
+    or service from us, we may share Personal Data collected in connection with your
+    purchase or expression of interest with our partners.
+  purposes: {}
+- source: we
+  target: personal datum regard site visitor
+  key: COLLECT
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Additionally, we share and transfer your personal information only in the ways
+    set forth in this privacy policy.
+  - Service Providers We may share Personal Data with our contracted service providers,
+    such as billing or payment processors, so that these service providers can provide
+    services on our behalf; traffic tracking and targeted advertising services, which
+    may enable us to show you ads after you leave our site; and technical providers
+    who help us diagnose technical problems and administer our site so that we can
+    constantly improve our services.
+  - 'The Personal Data we collect is used and disclosed as is necessary to provide
+    services to you and as reasonably required for our business purposes, including:
+    In any other way we may describe when you provide the information; and'
+  - We may also disclose Personal Data if we determine that disclosure is reasonably
+    necessary to enforce our terms and conditions or protect our operations or users.
+  - We may also transfer Personal Data in the event of an audit or if we sell or transfer
+    all or a portion of our business or assets (including in the event of a merger,
+    acquisition, joint venture, reorganization, dissolution, or liquidation).
+  - 'We may disclose Personal Data to the following types of third parties: Referrals'
+  - We may disclose your Personal Data without offering an opportunity to opt out,
+    when (i) we retain third-party processors to perform services on our behalf and
+    pursuant to our instructions, (ii) required by law or legal process, or (iii)
+    responding to lawful requests from public authorities, including to meet national
+    security, public interest, or law enforcement requirements.
+  - We may share Personal Data with our members of our corporate group and affiliates
+    in order to work with them.
+  - 'With respect to transfers of your Personal Data to third-party data processors,
+    we will: transfer Personal Data to each such data processor only for limited and
+    specified purposes;'
+  purposes:
+    services:
+    - in order to work with them
+- source: we
+  target: reasonable access to personal datum we maintain about you
+  key: COLLECT
+  text:
+  - Accordingly, where appropriate, we provide you with reasonable access to the Personal
+    Data we maintain about you.
+  purposes: {}
+- source: we
+  target: relevant record of
+  key: COLLECT
+  text:
+  - 'As required by applicable law, we will maintain relevant records of:'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: email address
+  key: COLLECT
+  text:
+  - We share you name and email address with the person or company, if any, who referred
+    you to our website.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: person name
+  key: COLLECT
+  text:
+  - We share you name and email address with the person or company, if any, who referred
+    you to our website.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal data collect in connection with purchase
+  key: COLLECT
+  text:
+  - If you purchase or specifically express interest in a jointly offered product
+    or service from us, we may share Personal Data collected in connection with your
+    purchase or expression of interest with our partners.
+  purposes: {}
+- source: contract service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - Service Providers We may share Personal Data with our contracted service providers,
+    such as billing or payment processors, so that these service providers can provide
+    services on our behalf; traffic tracking and targeted advertising services, which
+    may enable us to show you ads after you leave our site; and technical providers
+    who help us diagnose technical problems and administer our site so that we can
+    constantly improve our services.
+  purposes: {}
+- source: data processor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'With respect to transfers of your Personal Data to third-party data processors,
+    we will: transfer Personal Data to each such data processor only for limited and
+    specified purposes;'
+  purposes: {}
+- source: data protection authority
+  target: record
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    5. Record-keeping
+
+
+    These records shall be provided to data protection authorities upon request.'
+  purposes: {}
+- source: we
+  target: referral
+  key: SUBSUM
+  text:
+  - 'We may disclose Personal Data to the following types of third parties: Referrals'
+- source: contract service provider
+  target: billing processor
+  key: SUBSUM
+  text:
+  - Service Providers We may share Personal Data with our contracted service providers,
+    such as billing or payment processors, so that these service providers can provide
+    services on our behalf; traffic tracking and targeted advertising services, which
+    may enable us to show you ads after you leave our site; and technical providers
+    who help us diagnose technical problems and administer our site so that we can
+    constantly improve our services.
+- source: personal datum regard site visitor
+  target: age
+  key: SUBSUM
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+- source: personal datum regard site visitor
+  target: credit information
+  key: SUBSUM
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+- source: personal datum regard site visitor
+  target: date of birth
+  key: SUBSUM
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+- source: personal datum regard site visitor
+  target: email address
+  key: SUBSUM
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+- source: personal datum regard site visitor
+  target: financial account information
+  key: SUBSUM
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+- source: personal datum regard site visitor
+  target: government identifier
+  key: SUBSUM
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+- source: personal datum regard site visitor
+  target: person name
+  key: SUBSUM
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+- source: personal datum regard site visitor
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+- source: personal datum regard site visitor
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+- source: personal datum regard site visitor
+  target: social medium connector
+  key: SUBSUM
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+- source: personal datum regard site visitor
+  target: ssn
+  key: SUBSUM
+  text:
+  - 'We may collect and maintain Personal Data regarding Site Visitors and Customers,
+    including information: by which you may be personally identified, such as your
+    name, phone number, email address, mailing address, age, date of birth, financial
+    account information (credit or debit card or bank routing information), Social
+    Security Number or other government identifier, and social media connectors;'
+- source: personal information
+  target: sensitive data
+  key: SUBSUM
+  text:
+  - 'For the purposes of this Privacy Policy, Personal Data is information, including
+    Sensitive Data, that is: (i) about an identified or identifiable individual, (ii)
+    received by us, and (iii) recorded in any form.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: billing processor
+- type: ACTOR
+  id: contract service provider
+- type: ACTOR
+  id: data processor
+- type: ACTOR
+  id: data protection authority
+- type: ACTOR
+  id: referral
+- type: ACTOR
+  id: we
+- type: DATA
+  id: age
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit information
+- type: DATA
+  id: customer information
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: email address
+- type: DATA
+  id: eu personal data
+- type: DATA
+  id: financial account information
+- type: DATA
+  id: government identifier
+- type: DATA
+  id: information about you
+- type: DATA
+  id: non - identifying usage volume statistical information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal data collect in connection with purchase
+- type: DATA
+  id: personal datum regard site visitor
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: reasonable access to personal datum we maintain about you
+- type: DATA
+  id: record
+- type: DATA
+  id: relevant record of
+- type: DATA
+  id: sensitive data
+- type: DATA
+  id: social medium connector
+- type: DATA
+  id: ssn

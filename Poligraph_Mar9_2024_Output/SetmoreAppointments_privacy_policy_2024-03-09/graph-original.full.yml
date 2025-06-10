@@ -1,0 +1,580 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Those colleagues or members may voluntarily give us certain information.
+  - We may use your information to meet legal or regulatory requirements, including
+    the reporting of financial information (such as payments submitted to Setmore)
+    for tax purposes.
+  - We may use your information when it is reasonably necessary to comply with legal
+    process, respond to claims, or protect the rights, property or safety of our company,
+    employees, customers, or the public.
+  - We will use your information when responding to your questions, comments, feedback,
+    or requests for technical support.
+  purposes:
+    legal:
+    - to meet legal or regulatory requirements, including the reporting of financial
+      information (such as payments submitted to Setmore) for tax purposes
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may also use cookies to keep track of the ways in which customers find us and
+    navigate through our website.
+  purposes:
+    analytics:
+    - to keep track of the ways in which customers find us and navigate through our
+      website
+- source: setmore
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Setmore may share your data if we believe disclosure is reasonable and necessary
+    to comply with laws, regulations, legal requests, judicial requests, or governmental
+    requests, and to enforce or investigate possible violations of our Terms of Use
+    or this Privacy Policy, or otherwise address security or technical issues that
+    may lead to possible violations.
+  - Setmore will generally retain your information for as long as reasonably necessary
+    to provide services to you, and to comply with applicable laws.
+  - This notice explains how your data will be used and shared by Setmore.
+  - When you visit Setmore.com or use the Setmore platform, Setmore may automatically
+    record information that includes the web address that you came from and are going
+    to, your device model and unique identifier, operating system type and version,
+    browser type and version, IP address, mobile network carrier, timezone and location.
+  - Whether or not Setmore collects some or all of this information depends on what
+    type of device you use and your device settings.
+  purposes:
+    legal:
+    - to provide services to you, and to comply with applicable laws
+    services:
+    - to provide services to you, and to comply with applicable laws
+- source: setmore
+  target: browser type
+  key: COLLECT
+  text:
+  - When you visit Setmore.com or use the Setmore platform, Setmore may automatically
+    record information that includes the web address that you came from and are going
+    to, your device model and unique identifier, operating system type and version,
+    browser type and version, IP address, mobile network carrier, timezone and location.
+  purposes: {}
+- source: setmore
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Setmore uses cookies to give you a personalized experience.
+  purposes: {}
+- source: setmore
+  target: copy of information
+  key: COLLECT
+  text:
+  - After you deactivate your account, Setmore will continue to retain copies of information
+    to comply with our legal obligations (for example, maintaining records of payments
+    made to Setmore for tax and financial auditing purposes).
+  purposes:
+    legal:
+    - to comply with our legal obligations (for example, maintaining records of payments
+      made to Setmore for tax and financial auditing purposes)
+- source: setmore
+  target: device model
+  key: COLLECT
+  text:
+  - When you visit Setmore.com or use the Setmore platform, Setmore may automatically
+    record information that includes the web address that you came from and are going
+    to, your device model and unique identifier, operating system type and version,
+    browser type and version, IP address, mobile network carrier, timezone and location.
+  purposes: {}
+- source: setmore
+  target: geolocation
+  key: COLLECT
+  text:
+  - When you visit Setmore.com or use the Setmore platform, Setmore may automatically
+    record information that includes the web address that you came from and are going
+    to, your device model and unique identifier, operating system type and version,
+    browser type and version, IP address, mobile network carrier, timezone and location.
+  purposes: {}
+- source: setmore
+  target: identifier
+  key: COLLECT
+  text:
+  - When you visit Setmore.com or use the Setmore platform, Setmore may automatically
+    record information that includes the web address that you came from and are going
+    to, your device model and unique identifier, operating system type and version,
+    browser type and version, IP address, mobile network carrier, timezone and location.
+  purposes: {}
+- source: setmore
+  target: ip address
+  key: COLLECT
+  text:
+  - When you visit Setmore.com or use the Setmore platform, Setmore may automatically
+    record information that includes the web address that you came from and are going
+    to, your device model and unique identifier, operating system type and version,
+    browser type and version, IP address, mobile network carrier, timezone and location.
+  purposes: {}
+- source: setmore
+  target: operating system type
+  key: COLLECT
+  text:
+  - When you visit Setmore.com or use the Setmore platform, Setmore may automatically
+    record information that includes the web address that you came from and are going
+    to, your device model and unique identifier, operating system type and version,
+    browser type and version, IP address, mobile network carrier, timezone and location.
+  purposes: {}
+- source: setmore
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, with your consent, you may link your Setmore account with your Google
+    Contacts account, or other similar service, which allows Setmore to obtain personal
+    information from that account.
+  - If you call, email, or otherwise contact Setmore for technical support, you may
+    provide personal information such as your name, email address, or phone number
+    to Setmore.
+  - 'Setmore may use personal information about you to provide Platform-related services,
+    including:'
+  purposes: {}
+- source: setmore
+  target: timezone
+  key: COLLECT
+  text:
+  - When you visit Setmore.com or use the Setmore platform, Setmore may automatically
+    record information that includes the web address that you came from and are going
+    to, your device model and unique identifier, operating system type and version,
+    browser type and version, IP address, mobile network carrier, timezone and location.
+  purposes: {}
+- source: setmore
+  target: version
+  key: COLLECT
+  text:
+  - When you visit Setmore.com or use the Setmore platform, Setmore may automatically
+    record information that includes the web address that you came from and are going
+    to, your device model and unique identifier, operating system type and version,
+    browser type and version, IP address, mobile network carrier, timezone and location.
+  purposes: {}
+- source: setmore
+  target: web address
+  key: COLLECT
+  text:
+  - When you visit Setmore.com or use the Setmore platform, Setmore may automatically
+    record information that includes the web address that you came from and are going
+    to, your device model and unique identifier, operating system type and version,
+    browser type and version, IP address, mobile network carrier, timezone and location.
+  purposes: {}
+- source: third party payment processor
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - If you purchase a paid subscription to Setmore Pro, Setmore Team or Setmore Live
+    Booking, our third-party payment processors will collect and store your billing
+    address and credit card information.
+  purposes: {}
+- source: third party payment processor
+  target: postal address
+  key: COLLECT
+  text:
+  - If you purchase a paid subscription to Setmore Pro, Setmore Team or Setmore Live
+    Booking, our third-party payment processors will collect and store your billing
+    address and credit card information.
+  purposes: {}
+- source: we
+  target: comment
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes the type of personal data that Setmore ("Setmore,"
+    "we," or "us") collects through your use of our website, our products, support,
+    payment and mobile apps, our marketing, demonstrations, and promotions, and our
+    communications with you through our website or by phone, email, or live chat and
+    online services, including your comments and feedback (collectively, the "Services").
+- source: we
+  target: feedback
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes the type of personal data that Setmore ("Setmore,"
+    "we," or "us") collects through your use of our website, our products, support,
+    payment and mobile apps, our marketing, demonstrations, and promotions, and our
+    communications with you through our website or by phone, email, or live chat and
+    online services, including your comments and feedback (collectively, the "Services").
+- source: we
+  target: setmore
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes the type of personal data that Setmore ("Setmore,"
+    "we," or "us") collects through your use of our website, our products, support,
+    payment and mobile apps, our marketing, demonstrations, and promotions, and our
+    communications with you through our website or by phone, email, or live chat and
+    online services, including your comments and feedback (collectively, the "Services").
+- source: branding element
+  target: business logo
+  key: SUBSUM
+  text:
+  - This may also include information about your business, including your business
+    name, industry type, contact information, physical location, branding elements
+    including but not limited to your business logo, and any service offerings and
+    their associated costs.
+- source: characteristic
+  target: activity
+  key: SUBSUM
+  text:
+  - This includes the collection and tracking of data regarding the characteristics,
+    including demographic information such as male/female gender, and activities,
+    such as time spent viewing a specific webpage, of visitors and users.
+- source: characteristic
+  target: demographic information
+  key: SUBSUM
+  text:
+  - This includes the collection and tracking of data regarding the characteristics,
+    including demographic information such as male/female gender, and activities,
+    such as time spent viewing a specific webpage, of visitors and users.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - This information includes the staff or customer's name, phone number, email address,
+    physical or mailing address, and an image of their likeness.
+  - With your consent, you may import staff or customer contact information to Setmore
+    for the purposes of scheduling appointments, events, or classes with staff or
+    customers.
+- source: contact information
+  target: image of likeness
+  key: SUBSUM
+  text:
+  - This information includes the staff or customer's name, phone number, email address,
+    physical or mailing address, and an image of their likeness.
+  - With your consent, you may import staff or customer contact information to Setmore
+    for the purposes of scheduling appointments, events, or classes with staff or
+    customers.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - This information includes the staff or customer's name, phone number, email address,
+    physical or mailing address, and an image of their likeness.
+  - With your consent, you may import staff or customer contact information to Setmore
+    for the purposes of scheduling appointments, events, or classes with staff or
+    customers.
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - This information includes the staff or customer's name, phone number, email address,
+    physical or mailing address, and an image of their likeness.
+  - With your consent, you may import staff or customer contact information to Setmore
+    for the purposes of scheduling appointments, events, or classes with staff or
+    customers.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - This information includes the staff or customer's name, phone number, email address,
+    physical or mailing address, and an image of their likeness.
+  - With your consent, you may import staff or customer contact information to Setmore
+    for the purposes of scheduling appointments, events, or classes with staff or
+    customers.
+- source: demographic information
+  target: female gender
+  key: SUBSUM
+  text:
+  - This includes the collection and tracking of data regarding the characteristics,
+    including demographic information such as male/female gender, and activities,
+    such as time spent viewing a specific webpage, of visitors and users.
+- source: device information
+  target: device type
+  key: SUBSUM
+  text:
+  - The tracking of account-related information such as sign-up date and date the
+    user last accessed the Setmore Platform, the tracking of device information such
+    as browser, operating system, and device type, the sending of educational or promotional
+    content through email or in-app messages, and facilitating one-on-one instant
+    chat sessions between the Setmore user and a Setmore support staff.
+- source: device information
+  target: operating system
+  key: SUBSUM
+  text:
+  - The tracking of account-related information such as sign-up date and date the
+    user last accessed the Setmore Platform, the tracking of device information such
+    as browser, operating system, and device type, the sending of educational or promotional
+    content through email or in-app messages, and facilitating one-on-one instant
+    chat sessions between the Setmore user and a Setmore support staff.
+- source: information about business
+  target: branding element
+  key: SUBSUM
+  text:
+  - This may also include information about your business, including your business
+    name, industry type, contact information, physical location, branding elements
+    including but not limited to your business logo, and any service offerings and
+    their associated costs.
+- source: information about business
+  target: business name
+  key: SUBSUM
+  text:
+  - This may also include information about your business, including your business
+    name, industry type, contact information, physical location, branding elements
+    including but not limited to your business logo, and any service offerings and
+    their associated costs.
+- source: information about business
+  target: contact information
+  key: SUBSUM
+  text:
+  - This may also include information about your business, including your business
+    name, industry type, contact information, physical location, branding elements
+    including but not limited to your business logo, and any service offerings and
+    their associated costs.
+- source: information about business
+  target: geolocation
+  key: SUBSUM
+  text:
+  - This may also include information about your business, including your business
+    name, industry type, contact information, physical location, branding elements
+    including but not limited to your business logo, and any service offerings and
+    their associated costs.
+- source: information about business
+  target: industry type
+  key: SUBSUM
+  text:
+  - This may also include information about your business, including your business
+    name, industry type, contact information, physical location, branding elements
+    including but not limited to your business logo, and any service offerings and
+    their associated costs.
+- source: information you provide
+  target: business name
+  key: SUBSUM
+  text:
+  - Information you provide may include your name, phone number, email address, business
+    name, and industry type.
+- source: information you provide
+  target: email address
+  key: SUBSUM
+  text:
+  - Information you provide may include your name, phone number, email address, business
+    name, and industry type.
+- source: information you provide
+  target: industry type
+  key: SUBSUM
+  text:
+  - Information you provide may include your name, phone number, email address, business
+    name, and industry type.
+- source: information you provide
+  target: person name
+  key: SUBSUM
+  text:
+  - Information you provide may include your name, phone number, email address, business
+    name, and industry type.
+- source: information you provide
+  target: phone number
+  key: SUBSUM
+  text:
+  - Information you provide may include your name, phone number, email address, business
+    name, and industry type.
+- source: personal identifier
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - These cookies may contain information used to record the websites you visit, but
+    do not contain any personally identifiable information such as your name, address,
+    or credit card information.
+- source: personal identifier
+  target: date of birth
+  key: SUBSUM
+  text:
+  - Personal Data includes, without limitation, personally identifiable information
+    about you, such as your name, date of birth, email address or postal address,
+    and payment information.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - Personal Data includes, without limitation, personally identifiable information
+    about you, such as your name, date of birth, email address or postal address,
+    and payment information.
+- source: personal identifier
+  target: payment information
+  key: SUBSUM
+  text:
+  - Personal Data includes, without limitation, personally identifiable information
+    about you, such as your name, date of birth, email address or postal address,
+    and payment information.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Personal Data includes, without limitation, personally identifiable information
+    about you, such as your name, date of birth, email address or postal address,
+    and payment information.
+  - These cookies may contain information used to record the websites you visit, but
+    do not contain any personally identifiable information such as your name, address,
+    or credit card information.
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - Personal Data includes, without limitation, personally identifiable information
+    about you, such as your name, date of birth, email address or postal address,
+    and payment information.
+  - These cookies may contain information used to record the websites you visit, but
+    do not contain any personally identifiable information such as your name, address,
+    or credit card information.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - If you call, email, or otherwise contact Setmore for technical support, you may
+    provide personal information such as your name, email address, or phone number
+    to Setmore.
+  - This may include personal information about you, including your name, phone number,
+    email address, links to social media profiles, and images depicting your likeness
+    that you provide willingly to Setmore.
+- source: personal information
+  target: image depict likeness you provide to setmore
+  key: SUBSUM
+  text:
+  - This may include personal information about you, including your name, phone number,
+    email address, links to social media profiles, and images depicting your likeness
+    that you provide willingly to Setmore.
+- source: personal information
+  target: link to social medium profile
+  key: SUBSUM
+  text:
+  - This may include personal information about you, including your name, phone number,
+    email address, links to social media profiles, and images depicting your likeness
+    that you provide willingly to Setmore.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - If you call, email, or otherwise contact Setmore for technical support, you may
+    provide personal information such as your name, email address, or phone number
+    to Setmore.
+  - This may include personal information about you, including your name, phone number,
+    email address, links to social media profiles, and images depicting your likeness
+    that you provide willingly to Setmore.
+- source: personal information
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - Personal Data includes, without limitation, personally identifiable information
+    about you, such as your name, date of birth, email address or postal address,
+    and payment information.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - If you call, email, or otherwise contact Setmore for technical support, you may
+    provide personal information such as your name, email address, or phone number
+    to Setmore.
+  - This may include personal information about you, including your name, phone number,
+    email address, links to social media profiles, and images depicting your likeness
+    that you provide willingly to Setmore.
+- source: relate information
+  target: date
+  key: SUBSUM
+  text:
+  - The tracking of account-related information such as sign-up date and date the
+    user last accessed the Setmore Platform, the tracking of device information such
+    as browser, operating system, and device type, the sending of educational or promotional
+    content through email or in-app messages, and facilitating one-on-one instant
+    chat sessions between the Setmore user and a Setmore support staff.
+- source: relate information
+  target: sign date
+  key: SUBSUM
+  text:
+  - The tracking of account-related information such as sign-up date and date the
+    user last accessed the Setmore Platform, the tracking of device information such
+    as browser, operating system, and device type, the sending of educational or promotional
+    content through email or in-app messages, and facilitating one-on-one instant
+    chat sessions between the Setmore user and a Setmore support staff.
+nodes:
+- type: ACTOR
+  id: comment
+- type: ACTOR
+  id: feedback
+- type: ACTOR
+  id: setmore
+- type: ACTOR
+  id: third party payment processor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: activity
+- type: DATA
+  id: branding element
+- type: DATA
+  id: browser type
+- type: DATA
+  id: business logo
+- type: DATA
+  id: business name
+- type: DATA
+  id: characteristic
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: copy of information
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: device information
+- type: DATA
+  id: device model
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: female gender
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: image depict likeness you provide to setmore
+- type: DATA
+  id: image of likeness
+- type: DATA
+  id: industry type
+- type: DATA
+  id: information about business
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: ip address
+- type: DATA
+  id: link to social medium profile
+- type: DATA
+  id: operating system
+- type: DATA
+  id: operating system type
+- type: DATA
+  id: payment information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: relate information
+- type: DATA
+  id: sign date
+- type: DATA
+  id: timezone
+- type: DATA
+  id: version
+- type: DATA
+  id: web address

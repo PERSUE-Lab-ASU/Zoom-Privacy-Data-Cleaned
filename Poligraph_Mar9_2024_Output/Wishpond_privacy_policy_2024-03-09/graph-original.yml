@@ -1,0 +1,181 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we may keep certain information even after you close your account
+    if it is necessary to comply with our legal obligations, meet regulatory requirements,
+    resolve disputes, prevent fraud and abuse, enforce our agreements or as part of
+    our Website data backup process.
+  - 'Information about you may be shared for the following purposes: We may share
+    your information with third-party vendors or business partners who provide services
+    on our behalf, which may include analytics, customer service, survey providers,
+    payment processing, marketing, and fraud prevention.'
+  - We collect information from you when you register on our site or subscribe to
+    our newsletter.
+  - We may keep your data in a published or unpublished format on the Services or
+    in backups of the Website.
+  purposes: {}
+- source: we
+  target: accurate personal information
+  key: COLLECT
+  text:
+  - We keep your accurate, complete and up-to-date personal information for as long
+    as your account is active or as needed.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to understand and save your preferences for future visits and compile
+    aggregate data about site traffic and site interaction so that we can offer better
+    site experiences and tools in the future.
+  purposes:
+    analytics:
+    - to understand and save your preferences for future visits and compile aggregate
+      data about site traffic and site interaction so that we can offer better site
+      experiences and tools in the future
+    services:
+    - to understand and save your preferences for future visits and compile aggregate
+      data about site traffic and site interaction so that we can offer better site
+      experiences and tools in the future
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We and third parties may use automated means to collect information about you,
+    your computer or other device, and your use of the Services.
+  - We collect information about you when you use our Services in several ways.
+  purposes: {}
+- source: we
+  target: information associate with social medium account
+  key: COLLECT
+  text:
+  - We may collect, process and store your information associated with any social
+    media account (such as happens when you enter a promotion or interact with a social
+    application and agree to allow Wishpond to access your Facebook information.
+  purposes: {}
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - 'We use the information we collect about you to:'
+  purposes:
+    advertising:
+    - For marketing purposes
+    - 'to: Provide our customers'' marketing analytics'
+    analytics:
+    - 'to: Provide our customers'' marketing analytics'
+    security:
+    - 'to: Investigate, prevent, or take action regarding unlawful or harmful activities,
+      including potential threats to the physical safety of a person, potential fraud,
+      and violations of our Terms of Service'
+    services:
+    - 'to: Establish your account and provide the Services'
+    - 'to: Fulfill your requests and provide customized content to you'
+    - 'to: Improve the Services, customer service and to research and develop innovative
+      features and new services'
+    - 'to: To send periodic emails'
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - In addition, we use your public IP address to detect your location.
+  purposes:
+    analytics:
+    - to detect your location
+    security:
+    - to detect your location
+    services:
+    - to detect your location
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Information about you may be shared for the following purposes: We may share
+    your information with third-party vendors or business partners who provide services
+    on our behalf, which may include analytics, customer service, survey providers,
+    payment processing, marketing, and fraud prevention.'
+  - We may also authorize third-party vendors to collect information on our behalf,
+    including as necessary to operate features of our Services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - We and third parties may use automated means to collect information about you,
+    your computer or other device, and your use of the Services.
+  purposes: {}
+- source: business partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Information about you may be shared for the following purposes: We may share
+    your information with third-party vendors or business partners who provide services
+    on our behalf, which may include analytics, customer service, survey providers,
+    payment processing, marketing, and fraud prevention.'
+  purposes: {}
+- source: business partner
+  target: analytic provider
+  key: SUBSUM
+  text:
+  - 'Information about you may be shared for the following purposes: We may share
+    your information with third-party vendors or business partners who provide services
+    on our behalf, which may include analytics, customer service, survey providers,
+    payment processing, marketing, and fraud prevention.'
+- source: business partner
+  target: customer service
+  key: SUBSUM
+  text:
+  - 'Information about you may be shared for the following purposes: We may share
+    your information with third-party vendors or business partners who provide services
+    on our behalf, which may include analytics, customer service, survey providers,
+    payment processing, marketing, and fraud prevention.'
+- source: business partner
+  target: payment processing
+  key: SUBSUM
+  text:
+  - 'Information about you may be shared for the following purposes: We may share
+    your information with third-party vendors or business partners who provide services
+    on our behalf, which may include analytics, customer service, survey providers,
+    payment processing, marketing, and fraud prevention.'
+- source: business partner
+  target: survey provider
+  key: SUBSUM
+  text:
+  - 'Information about you may be shared for the following purposes: We may share
+    your information with third-party vendors or business partners who provide services
+    on our behalf, which may include analytics, customer service, survey providers,
+    payment processing, marketing, and fraud prevention.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: customer service
+- type: ACTOR
+  id: payment processing
+- type: ACTOR
+  id: survey provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: accurate personal information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information associate with social medium account
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: ip address

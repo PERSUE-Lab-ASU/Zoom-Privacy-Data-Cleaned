@@ -1,0 +1,205 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We keep contact information (such as mailing list information) until a user unsubscribes
+    or requests that we delete that information from our live systems.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, we ask visitors who use our forums to provide a username and email
+    address.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - If you choose to unsubscribe from a mailing list, we may keep certain limited
+    information about you so that we may honor your request.
+  purposes: {}
+- source: we
+  target: information you provide
+  key: COLLECT
+  text:
+  - We use the information you provide to register for an account, attend our events,
+    receive newsletters, use certain other services, or participate in the WordPress
+    open source project in any other way.
+  purposes:
+    services:
+    - to register for an account, attend our events, receive newsletters, use certain
+      other services, or participate in the WordPress open source project in any other
+      way
+- source: we
+  target: personal information on system
+  key: COLLECT
+  text:
+  - We will retain your personal information on our systems only for as long as we
+    need to, for the programs that support Pillar.hr.
+  purposes:
+    services:
+    - for the programs that support Pillar.hr
+- source: we
+  target: username
+  key: COLLECT
+  text:
+  - For example, we ask visitors who use our forums to provide a username and email
+    address.
+  purposes: {}
+- source: nextroll
+  target: internet activity
+  key: COLLECT
+  text:
+  - Our site uses technologies of  third-party partners [such as NextRoll] to help
+    us recognize your device and understand how you use our sites so that we can improve
+    our services to reflect your interests and serve you advertisements about the
+    [products and/or services] that are likely to be of more interest to you.
+  - 'Specifically, [NextRoll/these partners] collect information about your activity
+    on our sites to enable us to:'
+  purposes:
+    advertising:
+    - 'to: [Optional: if you are using our Media Services to run campaigns include
+      this disclosure] show advertisements for our products and/or services to you
+      on third-party sites'
+    analytics:
+    - 'to: measure and analyze traffic and browsing activity on our sites'
+- source: pillar.hr
+  target: email address
+  key: COLLECT
+  text:
+  - For example, we ask visitors who use our forums to provide a username and email
+    address.
+  - In each case, Pillar.hr collects such information only insofar as is necessary
+    or appropriate to fulfill the purpose of the visitor's interaction with Pillar.hr.
+  purposes: {}
+- source: pillar.hr
+  target: information you give we
+  key: COLLECT
+  text:
+  - This privacy policy describes how Pillar.hr uses and protects any information
+    that you give us.
+  purposes: {}
+- source: pillar.hr
+  target: non-personal information
+  key: COLLECT
+  text:
+  - From time to time, Pillar.hr may release non-personally-identifying information
+    in the aggregate, e.g., by publishing a report on trends in the usage of its website.
+  - Like most website operators, Pillar.hr collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+  purposes: {}
+- source: pillar.hr
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Other than to project administrators, employees, contractors, and affiliated organizations,
+    as described above, Pillar.hr discloses potentially personally-identifying and
+    personally-identifying information only when required to do so by law, if you
+    give permission to have your information shared, or when Pillar.hr believes in
+    good faith that disclosure is reasonably necessary to protect the property or
+    rights of Pillar.hr, third parties, or the public at large.
+  - Pillar.hr also collects potentially personally-identifying information like Internet
+    Protocol (IP) addresses.
+  - Pillar.hr discloses potentially personally-identifying and personally-identifying
+    information only to those of project administrators, employees, contractors, and
+    affiliated organizations that (i) need to know that information in order to process
+    it on Pillar.hr's behalf or to provide services available through Pillar.hr, and
+    (ii) that have agreed not to disclose it to others.
+  purposes: {}
+- source: pillar.hr
+  target: username
+  key: COLLECT
+  text:
+  - For example, we ask visitors who use our forums to provide a username and email
+    address.
+  - In each case, Pillar.hr collects such information only insofar as is necessary
+    or appropriate to fulfill the purpose of the visitor's interaction with Pillar.hr.
+  purposes: {}
+- source: contact information
+  target: mailing list information
+  key: SUBSUM
+  text:
+  - We keep contact information (such as mailing list information) until a user unsubscribes
+    or requests that we delete that information from our live systems.
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - Like most website operators, Pillar.hr collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+- source: non-personal information
+  target: date
+  key: SUBSUM
+  text:
+  - Like most website operators, Pillar.hr collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+- source: non-personal information
+  target: language preference
+  key: SUBSUM
+  text:
+  - Like most website operators, Pillar.hr collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+- source: personal identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - Pillar.hr also collects potentially personally-identifying information like Internet
+    Protocol (IP) addresses.
+- source: pillar.hr
+  target: pillar.hr website
+  key: SUBSUM
+  text:
+  - Pillar.hr websites (collectively "Pillar.hr" in this document) refer to sites
+    hosted on the Pillar.hr, and other related domains and subdomains thereof.
+nodes:
+- type: ACTOR
+  id: nextroll
+- type: ACTOR
+  id: pillar.hr
+- type: ACTOR
+  id: pillar.hr website
+- type: ACTOR
+  id: we
+- type: DATA
+  id: browser type
+- type: DATA
+  id: contact information
+- type: DATA
+  id: date
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information you give we
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: mailing list information
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information on system
+- type: DATA
+  id: username

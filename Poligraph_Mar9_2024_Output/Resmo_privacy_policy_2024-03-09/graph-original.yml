@@ -1,0 +1,22 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use essential cookies to make our site work.
+  - With your consent, we may also use non-essential cookies to improve user experience
+    and analyze website traffic.
+  purposes:
+    analytics:
+    - to improve user experience and analyze website traffic
+    services:
+    - to improve user experience and analyze website traffic
+    - to make our site work
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag

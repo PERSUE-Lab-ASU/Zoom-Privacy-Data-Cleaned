@@ -1,0 +1,21 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - But in order to comply with your preferences, we'll have to use just one tiny
+    cookie so that you're not asked to make this choice again.
+  - This website stores cookies on your computer.
+  purposes:
+    legal:
+    - in order to comply with your preferences
+    services:
+    - in order to comply with your preferences
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag

@@ -1,0 +1,754 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For example: if you subscribe to our updates or consent to receiving marketing
+    communications, we will hold your data for that purpose until you unsubscribe
+    or otherwise tell us that you no longer wish to receive such communications.'
+  - However, we may also collect information from other sources.
+  - 'Privacy Policy
+
+
+    8. Who we share personal data with
+
+
+    8.2 Other sharing
+
+
+    We may also: disclose and exchange certain information with law enforcement agencies
+    and regulatory bodies to comply with our legal obligations; and'
+  - 'We also share data with providers of cloud-based tools and services, which we
+    use to operate our business:'
+  - 'We may process your data based on your consent to:'
+  - We may share your information with third parties for the purposes set out in this
+    notice.
+  - We share data with our contractors based in the United Kingdom ( UK ), European
+    Economic Area ( EEA ) and Australia, who work for us as part of the Subly Team.
+  purposes:
+    advertising:
+    - 'to: send you invites to our marketing events and seminars;'
+    legal:
+    - to comply with our legal obligations
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may also collect, use, and share anonymised, aggregated data such as statistical
+    or demographic data for any purpose.
+  purposes: {}
+- source: we
+  target: content contain personal information
+  key: COLLECT
+  text:
+  - 'For example: if you agree for us to publish your content containing personal
+    information on our website, we will keep that content for the duration corresponding
+    with the permission you give us; and'
+  purposes: {}
+- source: we
+  target: financial datum
+  key: COLLECT
+  text:
+  - 'For example: if you sign up to Subly, we will usually keep most of your personal
+    data for up to 30 days after you delete your Subly account, but you may choose
+    to delete items of your content at any time prior to deleting your account, and
+    we may keep financial and transaction data for tax purposes for seven years after
+    you cease being our customer;'
+  purposes:
+    legal:
+    - for tax purposes
+    security:
+    - to delete items of your content at any time prior to deleting your account
+    services:
+    - to delete items of your content at any time prior to deleting your account
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - '8.2 Other sharing
+
+
+    We may also: disclose your personal data to certain third parties if specifically
+    requested or agreed with you (e.g. if you ask us to introduce you to a third party);'
+  - 'Privacy Policy
+
+
+    7. How and why we use personal data'
+  - 'Privacy Policy
+
+
+    8. Who we share personal data with'
+  - 'Privacy Policy
+
+
+    9. How long we keep personal data'
+  - 'Under the Data Protection Legislation, we can only use your personal data if
+    we have a lawful basis for doing so, for example: consent, contact, legitimate
+    interests, or legal obligation.'
+  - 'We may also: disclose your personal data to professional advisers (e.g. lawyers,
+    accountants, auditors or insurers) who provide professional services to us;'
+  - 'We may also: disclose your personal data to third party partners and/or suppliers
+    who assist us in administering our promotions and events;'
+  - 'We may also: share some personal data with other parties, such as potential and
+    actual investors or buyers of some or all of our business or during a restructuring.'
+  - We may process your personal data to comply with our legal obligation.
+  - We may process your personal data when we (or third party) have a legitimate reason
+    to use it, so long as this is not overridden by your own rights and interests.
+  - We may retain your personal data for a longer period in the event of a complaint
+    or if we reasonably believe there is a prospect of litigation in respect to our
+    relationship with you.
+  - We will only retain your personal data for as long as reasonably necessary to
+    fulfil the purposes we collected it for, including for the purposes of satisfying
+    any legal, regulatory, tax, accounting or reporting requirements.
+  - We will use your personal data if we need to do it to perform our obligations
+    under a contract with you, or if it is necessary for a contract which we are about
+    to enter with you.
+  purposes:
+    legal:
+    - to comply with our legal obligation
+    - to fulfil the purposes we collected it for, including for the purposes of satisfying
+      any legal, regulatory, tax, accounting or reporting requirements
+- source: we
+  target: technical datum about equipment
+  key: COLLECT
+  text:
+  - 'Automated technologies or interactions: as you interact with our website and
+    advertisements, we may automatically collect technical data about your equipment,
+    browsing actions and patterns.'
+  - We collect this personal data by using cookies, server logs and other similar
+    technologies.
+  purposes: {}
+- source: Facebook
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We also share data with providers of cloud-based tools and services, which we
+    use to operate our business: Facebook , based in the USA, who provides us with
+    Facebook Pixel, an advertisement optimisation service.'
+  purposes: {}
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We also share data with providers of cloud-based tools and services, which we
+    use to operate our business: Google , based in the USA, who provide Google Analytics
+    web analytics services to us.'
+  - 'We also share data with providers of cloud-based tools and services, which we
+    use to operate our business: Google , based in the USA, who provides us with Google
+    Ads Pixel, an advertisement optimisation service.'
+  purposes: {}
+- source: HubSpot
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We also share data with providers of cloud-based tools and services, which we
+    use to operate our business: HubSpot , based in the USA, who provide customer
+    relationship management services to us.'
+  purposes: {}
+- source: Microsoft
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We also share data with providers of cloud-based tools and services, which we
+    use to operate our business: LinkedIn, based in the USA, who provides us with
+    LinkedIn Pixel  and advertising optimisation services .'
+  purposes: {}
+- source: Stripe
+  target: personal information
+  key: COLLECT
+  text:
+  - If you pay for our products through our website, you will be providing your personal
+    data (for example, details of your payment card and billing address) to Stripe.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For example, if we need to: share your data with our partner in order to provide
+    you with a service funded by that partner;'
+  - 'We may process your data based on your consent to: share your details with a
+    third party for marketing purposes;'
+  - We may share your information with third parties for the purposes set out in this
+    notice.
+  purposes:
+    advertising:
+    - for marketing purposes
+    services:
+    - in order to provide you with a service funded by that partner
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - '8.2 Other sharing
+
+
+    We may also: disclose your personal data to certain third parties if specifically
+    requested or agreed with you (e.g. if you ask us to introduce you to a third party);'
+  - 'We may also: disclose your personal data to third party partners and/or suppliers
+    who assist us in administering our promotions and events;'
+  purposes: {}
+- source: amazon web services
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We also share data with providers of cloud-based tools and services, which we
+    use to operate our business: Amazon Web Services (AWS), a US company who provides
+    web hosting services to us.'
+  purposes: {}
+- source: contractor base in united kingdom who work for we as part of subly team
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We share data with our contractors based in the United Kingdom ( UK ), European
+    Economic Area ( EEA ) and Australia, who work for us as part of the Subly Team.
+  purposes: {}
+- source: law enforcement agency
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    8. Who we share personal data with
+
+
+    8.2 Other sharing
+
+
+    We may also: disclose and exchange certain information with law enforcement agencies
+    and regulatory bodies to comply with our legal obligations; and'
+  purposes:
+    legal:
+    - to comply with our legal obligations
+- source: professional adviser
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may also: disclose your personal data to professional advisers (e.g. lawyers,
+    accountants, auditors or insurers) who provide professional services to us;'
+  purposes: {}
+- source: provider of base tool we use
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We also share data with providers of cloud-based tools and services, which we
+    use to operate our business:'
+  purposes: {}
+- source: regulatory body
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    8. Who we share personal data with
+
+
+    8.2 Other sharing
+
+
+    We may also: disclose and exchange certain information with law enforcement agencies
+    and regulatory bodies to comply with our legal obligations; and'
+  purposes:
+    legal:
+    - to comply with our legal obligations
+- source: supplier who assist we in
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may also: disclose your personal data to third party partners and/or suppliers
+    who assist us in administering our promotions and events;'
+  purposes: {}
+- source: we
+  target: datum analysis
+  key: SUBSUM
+  text:
+  - 'For example: to administer and protect our business and our website (including
+    troubleshooting, data analysis, testing, system maintenance, support, reporting
+    and hosting of data);'
+- source: we
+  target: support
+  key: SUBSUM
+  text:
+  - 'For example: to administer and protect our business and our website (including
+    troubleshooting, data analysis, testing, system maintenance, support, reporting
+    and hosting of data);'
+- source: we
+  target: system maintenance
+  key: SUBSUM
+  text:
+  - 'For example: to administer and protect our business and our website (including
+    troubleshooting, data analysis, testing, system maintenance, support, reporting
+    and hosting of data);'
+- source: after sale care service
+  target: technical support
+  key: SUBSUM
+  text:
+  - 'For example, if we need to: provide after sale care services (e.g. technical
+    support);'
+- source: contract datum
+  target: detail of contract with we
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Contract data: details of your contracts
+    with us (e.g. the terms and conditions governing your use of Subly, the start
+    and end date of the contract, and details of the pricing package selected by you);'
+- source: contract datum
+  target: detail of pricing package select
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Contract data: details of your contracts
+    with us (e.g. the terms and conditions governing your use of Subly, the start
+    and end date of the contract, and details of the pricing package selected by you);'
+- source: contract datum
+  target: start date of contract
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Contract data: details of your contracts
+    with us (e.g. the terms and conditions governing your use of Subly, the start
+    and end date of the contract, and details of the pricing package selected by you);'
+- source: free service
+  target: free version
+  key: SUBSUM
+  text:
+  - 'For example: to provide you with a free service (e.g. a free version of Subly
+    or other functionalities of our website);'
+- source: free service
+  target: functionality of website
+  key: SUBSUM
+  text:
+  - 'For example: to provide you with a free service (e.g. a free version of Subly
+    or other functionalities of our website);'
+- source: free service
+  target: subly
+  key: SUBSUM
+  text:
+  - 'For example: to provide you with a free service (e.g. a free version of Subly
+    or other functionalities of our website);'
+- source: interaction with you
+  target: marketing activity
+  key: SUBSUM
+  text:
+  - This privacy notice explains how we will process your personal information obtained
+    through your use of our website at getsubly.com , your use of Subly as a registered
+    users of our website at my.getsubly.com , and through other interactions with
+    you (for example, networking events, marketing activities, and user research activities).
+- source: interaction with you
+  target: user research activity
+  key: SUBSUM
+  text:
+  - This privacy notice explains how we will process your personal information obtained
+    through your use of our website at getsubly.com , your use of Subly as a registered
+    users of our website at my.getsubly.com , and through other interactions with
+    you (for example, networking events, marketing activities, and user research activities).
+- source: internet activity
+  target: detail of free material you download from website
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Usage data: products and services purchased
+    and prices paid; free services you signed up to (e.g. our blogs); events you attended
+    or expressed interest in; details of free materials you have downloaded from our
+    website; details of the products and services you have purchased from our website
+    with their associated purchase prices; video details (including the number of
+    videos produced or uploaded, if the video was edited and if you chose to distribute
+    the video);'
+- source: internet activity
+  target: detail of product you purchase from website with associate purchase price
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Usage data: products and services purchased
+    and prices paid; free services you signed up to (e.g. our blogs); events you attended
+    or expressed interest in; details of free materials you have downloaded from our
+    website; details of the products and services you have purchased from our website
+    with their associated purchase prices; video details (including the number of
+    videos produced or uploaded, if the video was edited and if you chose to distribute
+    the video);'
+- source: personal information
+  target: browser plug in type
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Technical data: IP address, login data,
+    browser type and version, time zone setting and location, browser plug-in types
+    and versions, operating system and platform and other technology on the devices
+    used to access our website).'
+- source: personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Technical data: IP address, login data,
+    browser type and version, time zone setting and location, browser plug-in types
+    and versions, operating system and platform and other technology on the devices
+    used to access our website).'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Contact data: address; email; telephone
+    number;'
+  - 'Types of personal data we may collect: Professional data: job title; name of
+    business or organisation; professional credentials; professional contact details;'
+- source: personal information
+  target: contract datum
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Contract data: details of your contracts
+    with us (e.g. the terms and conditions governing your use of Subly, the start
+    and end date of the contract, and details of the pricing package selected by you);'
+- source: personal information
+  target: detail of enquiry submit through website
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Enquiries data: details of enquiries submitted
+    by you through our website or emailed to us;'
+- source: personal information
+  target: detail of invoice receive
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Financial and transactional data: details
+    of orders made and processed; details of payment received/made; details of invoices
+    received/issued;'
+- source: personal information
+  target: detail of payment receive
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Financial and transactional data: details
+    of orders made and processed; details of payment received/made; details of invoices
+    received/issued;'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Contact data: address; email; telephone
+    number;'
+- source: personal information
+  target: enquiry datum
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Enquiries data: details of enquiries submitted
+    by you through our website or emailed to us;'
+- source: personal information
+  target: financial datum
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Financial and transactional data: details
+    of orders made and processed; details of payment received/made; details of invoices
+    received/issued;'
+- source: personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Technical data: IP address, login data,
+    browser type and version, time zone setting and location, browser plug-in types
+    and versions, operating system and platform and other technology on the devices
+    used to access our website).'
+- source: personal information
+  target: identity datum
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Identity data : name; title;'
+- source: personal information
+  target: interest
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Profile data: interests; preferences;
+    user interviews, feedback and survey responses; posts and materials uploaded onto
+    our website; profile type (e.g. creator, agency, company etc.);'
+- source: personal information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Usage data: products and services purchased
+    and prices paid; free services you signed up to (e.g. our blogs); events you attended
+    or expressed interest in; details of free materials you have downloaded from our
+    website; details of the products and services you have purchased from our website
+    with their associated purchase prices; video details (including the number of
+    videos produced or uploaded, if the video was edited and if you chose to distribute
+    the video);'
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Technical data: IP address, login data,
+    browser type and version, time zone setting and location, browser plug-in types
+    and versions, operating system and platform and other technology on the devices
+    used to access our website).'
+- source: personal information
+  target: job title
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Professional data: job title; name of
+    business or organisation; professional credentials; professional contact details;'
+- source: personal information
+  target: login datum
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Technical data: IP address, login data,
+    browser type and version, time zone setting and location, browser plug-in types
+    and versions, operating system and platform and other technology on the devices
+    used to access our website).'
+- source: personal information
+  target: name of business
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Professional data: job title; name of
+    business or organisation; professional credentials; professional contact details;'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Identity data : name; title;'
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Contact data: address; email; telephone
+    number;'
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - If you pay for our products through our website, you will be providing your personal
+    data (for example, details of your payment card and billing address) to Stripe.
+  - 'Types of personal data we may collect: Contact data: address; email; telephone
+    number;'
+- source: personal information
+  target: preference
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Profile data: interests; preferences;
+    user interviews, feedback and survey responses; posts and materials uploaded onto
+    our website; profile type (e.g. creator, agency, company etc.);'
+- source: personal information
+  target: professional credential
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Professional data: job title; name of
+    business or organisation; professional credentials; professional contact details;'
+- source: personal information
+  target: professional datum
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Professional data: job title; name of
+    business or organisation; professional credentials; professional contact details;'
+- source: personal information
+  target: profile datum
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Profile data: interests; preferences;
+    user interviews, feedback and survey responses; posts and materials uploaded onto
+    our website; profile type (e.g. creator, agency, company etc.);'
+- source: personal information
+  target: profile type
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Profile data: interests; preferences;
+    user interviews, feedback and survey responses; posts and materials uploaded onto
+    our website; profile type (e.g. creator, agency, company etc.);'
+- source: personal information
+  target: technical datum
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Technical data: IP address, login data,
+    browser type and version, time zone setting and location, browser plug-in types
+    and versions, operating system and platform and other technology on the devices
+    used to access our website).'
+- source: personal information
+  target: time zone setting
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Technical data: IP address, login data,
+    browser type and version, time zone setting and location, browser plug-in types
+    and versions, operating system and platform and other technology on the devices
+    used to access our website).'
+- source: personal information
+  target: version
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Technical data: IP address, login data,
+    browser type and version, time zone setting and location, browser plug-in types
+    and versions, operating system and platform and other technology on the devices
+    used to access our website).'
+- source: personal information
+  target: video detail
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Usage data: products and services purchased
+    and prices paid; free services you signed up to (e.g. our blogs); events you attended
+    or expressed interest in; details of free materials you have downloaded from our
+    website; details of the products and services you have purchased from our website
+    with their associated purchase prices; video details (including the number of
+    videos produced or uploaded, if the video was edited and if you chose to distribute
+    the video);'
+- source: professional adviser
+  target: accountant
+  key: SUBSUM
+  text:
+  - 'We may also: disclose your personal data to professional advisers (e.g. lawyers,
+    accountants, auditors or insurers) who provide professional services to us;'
+- source: professional adviser
+  target: auditor
+  key: SUBSUM
+  text:
+  - 'We may also: disclose your personal data to professional advisers (e.g. lawyers,
+    accountants, auditors or insurers) who provide professional services to us;'
+- source: professional adviser
+  target: insurer
+  key: SUBSUM
+  text:
+  - 'We may also: disclose your personal data to professional advisers (e.g. lawyers,
+    accountants, auditors or insurers) who provide professional services to us;'
+- source: video detail
+  target: number of video produce
+  key: SUBSUM
+  text:
+  - 'Types of personal data we may collect: Usage data: products and services purchased
+    and prices paid; free services you signed up to (e.g. our blogs); events you attended
+    or expressed interest in; details of free materials you have downloaded from our
+    website; details of the products and services you have purchased from our website
+    with their associated purchase prices; video details (including the number of
+    videos produced or uploaded, if the video was edited and if you chose to distribute
+    the video);'
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: HubSpot
+- type: ACTOR
+  id: Microsoft
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: accountant
+- type: ACTOR
+  id: after sale care service
+- type: ACTOR
+  id: amazon web services
+- type: ACTOR
+  id: auditor
+- type: ACTOR
+  id: contractor base in united kingdom who work for we as part of subly team
+- type: ACTOR
+  id: datum analysis
+- type: ACTOR
+  id: free service
+- type: ACTOR
+  id: free version
+- type: ACTOR
+  id: functionality of website
+- type: ACTOR
+  id: insurer
+- type: ACTOR
+  id: interaction with you
+- type: ACTOR
+  id: law enforcement agency
+- type: ACTOR
+  id: marketing activity
+- type: ACTOR
+  id: professional adviser
+- type: ACTOR
+  id: provider of base tool we use
+- type: ACTOR
+  id: regulatory body
+- type: ACTOR
+  id: subly
+- type: ACTOR
+  id: supplier who assist we in
+- type: ACTOR
+  id: support
+- type: ACTOR
+  id: system maintenance
+- type: ACTOR
+  id: technical support
+- type: ACTOR
+  id: user research activity
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser plug in type
+- type: DATA
+  id: browser type
+- type: DATA
+  id: contact information
+- type: DATA
+  id: content contain personal information
+- type: DATA
+  id: contract datum
+- type: DATA
+  id: detail of contract with we
+- type: DATA
+  id: detail of enquiry submit through website
+- type: DATA
+  id: detail of free material you download from website
+- type: DATA
+  id: detail of invoice receive
+- type: DATA
+  id: detail of payment receive
+- type: DATA
+  id: detail of pricing package select
+- type: DATA
+  id: detail of product you purchase from website with associate purchase price
+- type: DATA
+  id: email address
+- type: DATA
+  id: enquiry datum
+- type: DATA
+  id: financial datum
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identity datum
+- type: DATA
+  id: interest
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job title
+- type: DATA
+  id: login datum
+- type: DATA
+  id: name of business
+- type: DATA
+  id: number of video produce
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: preference
+- type: DATA
+  id: professional credential
+- type: DATA
+  id: professional datum
+- type: DATA
+  id: profile datum
+- type: DATA
+  id: profile type
+- type: DATA
+  id: start date of contract
+- type: DATA
+  id: technical datum
+- type: DATA
+  id: technical datum about equipment
+- type: DATA
+  id: time zone setting
+- type: DATA
+  id: version
+- type: DATA
+  id: video detail

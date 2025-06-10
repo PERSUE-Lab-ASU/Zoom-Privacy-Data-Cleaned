@@ -1,0 +1,118 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: coarse geolocation
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: signup source
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: we
+  target: time of registration
+  key: COLLECT
+  text:
+  - When registering as a user we collect data such as your email address and name,
+    as well as the time of registration, your approximate location, IP address, information
+    about your browser and computer, signup source, and more.
+  purposes: {}
+- source: Zoom Video Communications
+  target: information you submit
+  key: COLLECT
+  text:
+  - When registering for any events or webinars on nomadgate.com organized by one
+    of our partners, in order to facilitate the registration the information you submit
+    will be shared both with Nomad Gate and the relavant partner, as well as with
+    Zoom Video Communications, Inc.
+  purposes:
+    services:
+    - in order to facilitate the registration
+- source: nomad gate
+  target: information you submit
+  key: COLLECT
+  text:
+  - When registering for any events or webinars on nomadgate.com organized by one
+    of our partners, in order to facilitate the registration the information you submit
+    will be shared both with Nomad Gate and the relavant partner, as well as with
+    Zoom Video Communications, Inc.
+  purposes:
+    services:
+    - in order to facilitate the registration
+- source: relavant partner
+  target: information you submit
+  key: COLLECT
+  text:
+  - When registering for any events or webinars on nomadgate.com organized by one
+    of our partners, in order to facilitate the registration the information you submit
+    will be shared both with Nomad Gate and the relavant partner, as well as with
+    Zoom Video Communications, Inc.
+  purposes:
+    services:
+    - in order to facilitate the registration
+nodes:
+- type: ACTOR
+  id: Zoom Video Communications
+- type: ACTOR
+  id: nomad gate
+- type: ACTOR
+  id: relavant partner
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: coarse geolocation
+- type: DATA
+  id: email address
+- type: DATA
+  id: information you submit
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: signup source
+- type: DATA
+  id: time of registration

@@ -1,0 +1,210 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may use your information to contact you regarding a transaction you have made
+    on our Site.
+  - We only use this information for statistical analysis purposes and then the data
+    is removed from the system.
+  - 'What we collect We may collect the following information:'
+  purposes:
+    advertising:
+    - to contact you regarding a transaction you have made on our Site
+    analytics:
+    - for statistical analysis purposes
+    services:
+    - to contact you regarding a transaction you have made on our Site
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use our cookie collected information to make your visit to our Site more enjoyable.
+  - We use traffic log cookies to identify which pages are being used.
+  purposes:
+    analytics:
+    - to identify which pages are being used
+    services:
+    - to make your visit to our Site more enjoyable
+- source: we
+  target: datum about web page traffic
+  key: COLLECT
+  text:
+  - This helps us analyze data about web page traffic and improve our website in order
+    to tailor it to customer needs.
+  - We only use this information for statistical analysis purposes and then the data
+    is removed from the system.
+  purposes:
+    analytics:
+    - for statistical analysis purposes
+- source: we
+  target: general datum
+  key: COLLECT
+  text:
+  - 'We also collect general data to analyze statistics on our Site''s user visits,
+    purchases (if any), backgrounds and demographics, which we only release to others
+    on an aggregate basis that does not reveal your personal information without your
+    approval, except to: (1) the Companies; (2) the Contractors; (3) a company that
+    may acquire our Site or controlling equity shares in our company, and (4) others
+    when necessary to enforce the Terms of Use, any agreement we may have with you,
+    or when we believe we are required to do so by law.'
+  - We use this data to enhance our provision of services to you and our users, to
+    improve our Site to best meet your interests, to measure visits to different areas
+    of our Site, to contact you regarding updates to EventMobi features that you use
+    and to verify the number of users that have seen or clicked advertising on our
+    Site.
+  purposes:
+    analytics:
+    - to analyze statistics on our Site's user visits, purchases (if any), backgrounds
+      and demographics, which we only release to others on an aggregate basis
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - A cookie in no way gives us access to your computer or any information about you,
+    other than the data you choose to share with us.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may provide these contractors with your personally identifiable information
+    solely for the purpose of providing these services to us or on our behalf.
+  purposes:
+    services:
+    - solely for the purpose of providing these services to us or on our behalf
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may provide these contractors with your personally identifiable information
+    solely for the purpose of providing these services to us or on our behalf.
+  - We may use third party web site management and advertising contractors (the "Contractors")
+    to deliver advertisements to you on our behalf, contact you on our behalf, facilitate
+    our site's services, fulfill your purchase requests, or to otherwise help us in
+    providing the site.
+  purposes:
+    services:
+    - solely for the purpose of providing these services to us or on our behalf
+- source: companies
+  target: personal identifier
+  key: COLLECT
+  text:
+  - You may be asked to provide information that can personally identify you in order
+    to engage in these activities, and that information will be shared with the Companies,
+    whose identity we will disclose to you at the time you provide your information.
+  purposes:
+    analytics:
+    - to provide information that can personally identify you in order to engage in
+      these activities
+    security:
+    - to provide information that can personally identify you in order to engage in
+      these activities
+    services:
+    - to provide information that can personally identify you in order to engage in
+      these activities
+- source: eventmobi
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - EventMobi will collect general anonymous data on site usage statistics such as
+    page access, duration of stay, browser or device type.
+  - This data is provided by default by your operating internet browser or phone carrier
+    and is collected directly by EventMobi or through other 3-rd party tools such
+    as Google Analytics.
+  purposes: {}
+- source: operate internet browser
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - EventMobi will collect general anonymous data on site usage statistics such as
+    page access, duration of stay, browser or device type.
+  - This data is provided by default by your operating internet browser or phone carrier
+    and is collected directly by EventMobi or through other 3-rd party tools such
+    as Google Analytics.
+  purposes: {}
+- source: phone carrier
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - EventMobi will collect general anonymous data on site usage statistics such as
+    page access, duration of stay, browser or device type.
+  - This data is provided by default by your operating internet browser or phone carrier
+    and is collected directly by EventMobi or through other 3-rd party tools such
+    as Google Analytics.
+  purposes: {}
+- source: rd party tool
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - EventMobi will collect general anonymous data on site usage statistics such as
+    page access, duration of stay, browser or device type.
+  - This data is provided by default by your operating internet browser or phone carrier
+    and is collected directly by EventMobi or through other 3-rd party tools such
+    as Google Analytics.
+  purposes: {}
+- source: aggregate / deidentified / pseudonymized information
+  target: browser
+  key: SUBSUM
+  text:
+  - EventMobi will collect general anonymous data on site usage statistics such as
+    page access, duration of stay, browser or device type.
+- source: aggregate / deidentified / pseudonymized information
+  target: duration of stay
+  key: SUBSUM
+  text:
+  - EventMobi will collect general anonymous data on site usage statistics such as
+    page access, duration of stay, browser or device type.
+- source: aggregate / deidentified / pseudonymized information
+  target: page access
+  key: SUBSUM
+  text:
+  - EventMobi will collect general anonymous data on site usage statistics such as
+    page access, duration of stay, browser or device type.
+- source: rd party tool
+  target: Google
+  key: SUBSUM
+  text:
+  - This data is provided by default by your operating internet browser or phone carrier
+    and is collected directly by EventMobi or through other 3-rd party tools such
+    as Google Analytics.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: companies
+- type: ACTOR
+  id: eventmobi
+- type: ACTOR
+  id: operate internet browser
+- type: ACTOR
+  id: phone carrier
+- type: ACTOR
+  id: rd party tool
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about web page traffic
+- type: DATA
+  id: duration of stay
+- type: DATA
+  id: general datum
+- type: DATA
+  id: information about you
+- type: DATA
+  id: page access
+- type: DATA
+  id: personal identifier

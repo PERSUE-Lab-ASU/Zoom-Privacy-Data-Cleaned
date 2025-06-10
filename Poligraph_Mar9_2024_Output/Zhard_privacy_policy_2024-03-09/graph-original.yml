@@ -1,0 +1,86 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This Service uses these "cookies" to collection information and to improve our
+    Service.
+  purposes:
+    analytics:
+    - to collection information and to improve our Service
+    services:
+    - to collection information and to improve our Service
+- source: we
+  target: datum browser send to we
+  key: COLLECT
+  text:
+  - We want to inform you that whenever you use our Service, we collect data that
+    your browser sends to us that is called Log Data.
+  purposes: {}
+- source: we
+  target: information we request
+  key: COLLECT
+  text:
+  - The information that we request will be retained by us and used as described in
+    this privacy policy unless you uninstall our Service.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to user profile, user meetings.
+  purposes:
+    services:
+    - For a better experience
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In the case we discover that a child under 13 has provided us with personal information,
+    we immediately delete this from our servers.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We want to inform users of this Service that these third parties have access to
+    your Personal Information.
+  purposes: {}
+- source: personal identifier
+  target: user meeting
+  key: SUBSUM
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to user profile, user meetings.
+- source: personal identifier
+  target: user profile
+  key: SUBSUM
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to user profile, user meetings.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum browser send to we
+- type: DATA
+  id: information we request
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: user meeting
+- type: DATA
+  id: user profile

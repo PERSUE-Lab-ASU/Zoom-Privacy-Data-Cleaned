@@ -1,0 +1,136 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also share your information with trusted third-party service providers,
+    payment processors, or for legal compliance.
+  - We may share your information with coaches and users on the Platform as necessary
+    for the services provided.
+  - We use your information to provide, maintain, and improve our services.
+  purposes:
+    services:
+    - to provide, maintain, and improve our services
+- source: we
+  target: communication
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    2. Information We Collect
+
+
+    : We may collect and store any communication or feedback you send us, as well
+    as your interactions with other users.'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - ': When you create an account, we collect your name, email address, and other
+    necessary information to provide our services.'
+  purposes:
+    services:
+    - to provide our services
+- source: we
+  target: feedback about coachfellas service
+  key: COLLECT
+  text:
+  - We collect personal data from Direct Users when they register to use Coachfellas
+    Service, or communicate with us (e.g., through the "Contact" page on our site,
+    or when requesting customer service or technical support), make purchases through
+    the Coachfellas Service, or provide us with feedback about the Coachfellas Service.
+  purposes: {}
+- source: we
+  target: information create
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    2. Information We Collect
+
+
+    : Our servers automatically record information created by your use of our services.'
+  purposes: {}
+- source: we
+  target: necessary information
+  key: COLLECT
+  text:
+  - ': When you create an account, we collect your name, email address, and other
+    necessary information to provide our services.'
+  purposes:
+    services:
+    - to provide our services
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - ': When you create an account, we collect your name, email address, and other
+    necessary information to provide our services.'
+  purposes:
+    services:
+    - to provide our services
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy is designed to help you understand how we collect, use, disclose,
+    and safeguard your personal information.
+  - We collect personal data from Direct Users when they register to use Coachfellas
+    Service, or communicate with us (e.g., through the "Contact" page on our site,
+    or when requesting customer service or technical support), make purchases through
+    the Coachfellas Service, or provide us with feedback about the Coachfellas Service.
+  - We will only retain your personal data as long as reasonably required for you
+    to use Coachfellas service and/or to provide you with Coachfellas service.
+  purposes: {}
+- source: Stripe
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - All such information is provided directly to Stripe, whose use of your personal
+    data is governed by their privacy policy, which may be viewed at https://stripe.com/us/privacy.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also share your information with trusted third-party service providers,
+    payment processors, or for legal compliance.
+  purposes: {}
+- source: payment processor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also share your information with trusted third-party service providers,
+    payment processors, or for legal compliance.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: communication
+- type: DATA
+  id: email address
+- type: DATA
+  id: feedback about coachfellas service
+- type: DATA
+  id: information create
+- type: DATA
+  id: necessary information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information

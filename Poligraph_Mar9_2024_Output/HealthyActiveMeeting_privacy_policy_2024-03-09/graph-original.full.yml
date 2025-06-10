@@ -1,0 +1,33 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information collect
+  key: COLLECT
+  text:
+  - We use the information collected to provide, maintain, and enhance our services.
+  purposes:
+    services:
+    - to provide, maintain, and enhance our services
+- source: we
+  target: information relate to meeting
+  key: COLLECT
+  text:
+  - In the course of using the App, we may collect information related to your meetings.
+  purposes: {}
+- source: we
+  target: request
+  key: COLLECT
+  text:
+  - We will process your request promptly.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: information collect
+- type: DATA
+  id: information relate to meeting
+- type: DATA
+  id: request

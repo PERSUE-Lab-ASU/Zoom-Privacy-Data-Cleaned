@@ -1,0 +1,105 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These cookies are used to collect information about how you interact with our
+    website and allow us to remember you.
+  - We may also release information when its release is appropriate to comply with
+    the law, enforce our site policies, or protect our or others' rights, property,
+    or safety.
+  - We need your information to deliver our services.
+  - We use this information in order to improve and customize your browsing experience
+    and for analytics and metrics about our visitors both on this website and other
+    media.
+  - We use this information to personalize your experience with our products and to
+    deliver the type of content and product offerings that you are most interested
+    in.
+  - What kind of data we collect, for what purposes we may use the data, how data
+    is protected and what are your rights over your personal data collected by Tutor
+    Platform.
+  - What types of information we collect
+  purposes:
+    analytics:
+    - in order to improve and customize your browsing experience and for analytics
+      and metrics about our visitors both on this website and other media
+    services:
+    - in order to improve and customize your browsing experience and for analytics
+      and metrics about our visitors both on this website and other media
+    - to deliver our services
+    - to personalize your experience with our products and to deliver the type of
+      content and product offerings that you are most interested in
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For instance, we use cookies to help us compile aggregate data about site traffic
+    and site interaction so that we can offer better site experiences and tools in
+    the future.
+  - This website stores cookies on your computer.
+  purposes:
+    analytics:
+    - to help us compile aggregate data about site traffic and site interaction so
+      that we can offer better site experiences and tools in the future
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - We collect only the information you voluntarily provided to us.
+  purposes: {}
+- source: we
+  target: information you provide we on website
+  key: COLLECT
+  text:
+  - We collect the information you voluntarily provide us on our website and web or
+    mobile applications or we automatically collect this information from social media
+    platforms when you interact with us.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - When interacting with our website we may also automatically collect information
+    about you such as what device you use, your IP address, or the operation system
+    you use.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - However, non-personally identifiable visitor information may be provided to other
+    parties for marketing, advertising, or other uses.
+  purposes:
+    advertising:
+    - for marketing, advertising, or other uses
+- source: content
+  target: product offering
+  key: SUBSUM
+  text:
+  - We use this information to personalize your experience with our products and to
+    deliver the type of content and product offerings that you are most interested
+    in.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: content
+- type: ACTOR
+  id: product offering
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: information you provide we on website
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information

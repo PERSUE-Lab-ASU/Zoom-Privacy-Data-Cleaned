@@ -1,0 +1,409 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use your data to provide and improve the Service.
+  purposes:
+    services:
+    - to provide and improve the Service
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use Security Cookies for security purposes.
+  - We use cookies and similar tracking technologies to track the activity on our
+    Service and hold certain information.
+  purposes:
+    analytics:
+    - to track the activity on our Service and hold certain information
+    security:
+    - for security purposes
+- source: we
+  target: datum collect
+  key: COLLECT
+  text:
+  - These services use the data collected to track and monitor the use of our Service.
+  - We may use third-party Service Providers to monitor and analyse the use of our
+    Service.
+  purposes:
+    analytics:
+    - to track and monitor the use of our Service
+- source: we
+  target: information access
+  key: COLLECT
+  text:
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If you are located outside United Kingdom and choose to provide information to
+    us, please note that we transfer the data, including Personal Data, to United
+    Kingdom and process it there.
+  - If you opt in to receive marking and update information, we may use your Personal
+    Data to contact you with newsletters, marketing or promotional materials and other
+    information that may be of interest.
+  - We will retain and use your Personal Data to the extent necessary to comply with
+    our legal obligations (for example, if we are required to retain your data to
+    comply with applicable laws), resolve disputes, and enforce our legal agreements
+    and policies.
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes:
+    advertising:
+    - to contact you with newsletters, marketing or promotional materials and other
+      information that may be of interest
+- source: we
+  target: preference cookies
+  key: COLLECT
+  text:
+  - We use Preference Cookies to remember your preferences and various settings.
+  purposes:
+    services:
+    - to remember your preferences and various settings
+- source: we
+  target: session cookies
+  key: COLLECT
+  text:
+  - We use Session Cookies to operate our Service.
+  purposes:
+    services:
+    - to operate our Service
+- source: we
+  target: several different type of information
+  key: COLLECT
+  text:
+  - We collect several different types of information for various purposes to provide
+    and improve our Service to you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties have access to your Personal Data only to perform these tasks
+    on our behalf and are obligated not to disclose or use it for any other purpose.
+  purposes:
+    services:
+    - only to perform these tasks on our behalf
+- source: rehab guru ltd
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'Rehab Guru Ltd uses the collected data for various purposes:'
+  purposes:
+    advertising:
+    - To provide you with news, special offers and general information about other
+      goods, services and events which we offer that are similar to those that you
+      have already purchased or enquired about unless you have opted not to receive
+      such information
+    analytics:
+    - To gather analysis or valuable information so that we can improve our Service
+    - To monitor the usage of our Service
+    security:
+    - To detect, prevent and address technical issues
+    services:
+    - To allow you to participate in interactive features of our Service when you
+      choose to do so
+    - To gather analysis or valuable information so that we can improve our Service
+    - To notify you about changes to our Service
+    - To provide and maintain our Service
+    - To provide customer support
+    - To provide you with news, special offers and general information about other
+      goods, services and events which we offer that are similar to those that you
+      have already purchased or enquired about unless you have opted not to receive
+      such information
+- source: rehab guru ltd
+  target: internet activity
+  key: COLLECT
+  text:
+  - Rehab Guru Ltd will also retain Usage Data for internal analysis purposes.
+  purposes:
+    analytics:
+    - for internal analysis purposes
+- source: rehab guru ltd
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Rehab Guru Ltd may disclose your Personal Data in the good faith belief that
+    such action is necessary to:'
+  - 'Rehab Guru Ltd may process your Personal Data because:'
+  - Rehab Guru Ltd will retain your Personal Data only for as long as is necessary
+    for the purposes set out in this Privacy Policy.
+  - Under certain circumstances, Rehab Guru Ltd may be required to disclose your Personal
+    Data if required to do so by law or in response to valid requests by public authorities
+    (e.g. a court or a government agency).
+  purposes:
+    legal:
+    - To comply with the law
+- source: service within company
+  target: collect data
+  key: COLLECT
+  text:
+  - They may use the collected data to contextualise and personalise the ads of its
+    own advertising network.
+  - This data is shared with other services within their company.
+  purposes:
+    advertising:
+    - to contextualise and personalise the ads of its own advertising network
+- source: service within company
+  target: datum collect
+  key: COLLECT
+  text:
+  - These services use the data collected to track and monitor the use of our Service.
+  - This data is shared with other services within their company.
+  purposes: {}
+- source: third party payment processor govern
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - That information is provided directly to our third-party payment processors whose
+    use of your personal information is governed by their Privacy Policy.
+  - We will not store or collect your payment card details.
+  purposes: {}
+- source: we
+  target: rehab guru ltd
+  key: SUBSUM
+  text:
+  - Rehab Guru Ltd ("us",  "we", or  "our") operates the https:// www .rehabgu ru
+    .com website, https:// app .rehabgu ru .com, and iOS and Android Apps (collectively
+    the  "Service").
+- source: brand
+  target: american express
+  key: SUBSUM
+  text:
+  - These payment processors adhere to the standards set by PCI-DSS as managed by
+    the PCI Security Standards Council, which is a joint effort of brands like Visa,
+    Mastercard, American Express and Discover.
+- source: brand
+  target: discover
+  key: SUBSUM
+  text:
+  - These payment processors adhere to the standards set by PCI-DSS as managed by
+    the PCI Security Standards Council, which is a joint effort of brands like Visa,
+    Mastercard, American Express and Discover.
+- source: brand
+  target: mastercard
+  key: SUBSUM
+  text:
+  - These payment processors adhere to the standards set by PCI-DSS as managed by
+    the PCI Security Standards Council, which is a joint effort of brands like Visa,
+    Mastercard, American Express and Discover.
+- source: brand
+  target: visa
+  key: SUBSUM
+  text:
+  - These payment processors adhere to the standards set by PCI-DSS as managed by
+    the PCI Security Standards Council, which is a joint effort of brands like Visa,
+    Mastercard, American Express and Discover.
+- source: browser
+  target: brave
+  key: SUBSUM
+  text:
+  - All others will honour  "Do Not Track" headers from browsers such as Firefox,
+    and Brave.
+- source: browser
+  target: firefox
+  key: SUBSUM
+  text:
+  - All others will honour  "Do Not Track" headers from browsers such as Firefox,
+    and Brave.
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with small amount of data which may include an anonymous unique
+    identifier.
+- source: internet activity
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: date
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: device identifier
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: diagnostic datum
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: internet activity
+  target: time
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information how the Service is accessed and used ("Usage Data").
+- source: payment processing
+  target: payment processor
+  key: SUBSUM
+  text:
+  - In that case, we use third-party services for payment processing (e.g. payment
+    processors).
+- source: personal identifier
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Cookies
+    and usage data'
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: Email
+    address'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Personally identifiable information may include, but is not limited to: First
+    name and last name'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: american express
+- type: ACTOR
+  id: brand
+- type: ACTOR
+  id: brave
+- type: ACTOR
+  id: browser
+- type: ACTOR
+  id: discover
+- type: ACTOR
+  id: firefox
+- type: ACTOR
+  id: mastercard
+- type: ACTOR
+  id: payment processing
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: rehab guru ltd
+- type: ACTOR
+  id: service within company
+- type: ACTOR
+  id: third party payment processor govern
+- type: ACTOR
+  id: visa
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: collect data
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: diagnostic datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: information access
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: preference cookies
+- type: DATA
+  id: session cookies
+- type: DATA
+  id: several different type of information
+- type: DATA
+  id: time

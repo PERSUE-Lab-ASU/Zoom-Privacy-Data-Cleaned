@@ -1,0 +1,631 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: activity type
+  key: COLLECT
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Usage Data being information about how you use our products and services (for
+    example, through metadata, we log the areas, activity types, people, features,
+    content and links you interact with, the type of files you share and what third
+    party services you use, if any).'
+  purposes: {}
+- source: we
+  target: area
+  key: COLLECT
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Usage Data being information about how you use our products and services (for
+    example, through metadata, we log the areas, activity types, people, features,
+    content and links you interact with, the type of files you share and what third
+    party services you use, if any).'
+  purposes: {}
+- source: we
+  target: basic information about customer
+  key: COLLECT
+  text:
+  - By law we have to keep basic information about our customers (including Contact,
+    Identity, Financial and Transaction Data) for six years after they cease being
+    customers for tax and legal purposes.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - For example, you may submit your personal data(including identity data and contact
+    data) to us as part of submitting an enquiry form on our website or to set up
+    an account for one of our products or services or we may send marketing materials
+    and promotions to you (in accordance with your marketing preferences).
+  - We may receive your name and contact details from an existing customer who invites
+    you to use a product or service, messages you through a product or service or
+    through a referral arrangement with our business partners.
+  - We may use your identity, contact, technical, usage and profile data to form a
+    view on what we think you may want or need, or what may be of interest to you.
+  purposes:
+    advertising:
+    - to form a view on what we think you may want or need, or what may be of interest
+      to you
+- source: we
+  target: different kind
+  key: COLLECT
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):'
+  purposes: {}
+- source: we
+  target: identity datum
+  key: COLLECT
+  text:
+  - For example, you may submit your personal data(including identity data and contact
+    data) to us as part of submitting an enquiry form on our website or to set up
+    an account for one of our products or services or we may send marketing materials
+    and promotions to you (in accordance with your marketing preferences).
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - We may receive your name and contact details from an existing customer who invites
+    you to use a product or service, messages you through a product or service or
+    through a referral arrangement with our business partners.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Data retention:
+
+
+    We will only retain your personal data for as long as necessary to fulfil the
+    purposes we collected it for, including for the purposes of satisfying any legal,
+    accounting, or reporting requirements.'
+  - In line with our obligations under relevant data protection laws, this privacy
+    notice sets out how we will collect, hold and use your personal data where we
+    are a data controller.
+  - 'Note: We may process your personal data using more than one lawful ground depending
+    on the specific purpose for which we are using your personal data.'
+  - 'Terms, Policies & Notices
+
+
+    International transfers:
+
+
+    Where you are based in the European Economic Area ("EEA") we will transfer your
+    personal data outside of the European Economic Area ("EEA") when we share the
+    personal data with:'
+  - This privacy notice describes how we collect, use and disclose your personal data,
+    and what rights you have with respect to the use of it.
+  - This privacy notice sets what personal data, we hold about you, how we collect
+    and use that data and other key information about your rights in respect of our
+    use of your personal data.
+  - We may hold your personal data either for our own purposes or on behalf of our
+    customers.
+  - Where we hold this data solely on behalf of our customers and do not use it for
+    our own purposes, under UK and European data protection laws we will be acting
+    as a "data processor" and will hold that personal data in accordance with the
+    terms of our contracts with our customers.
+  purposes:
+    legal:
+    - to fulfil the purposes we collected it for, including for the purposes of satisfying
+      any legal, accounting, or reporting requirements
+- source: we
+  target: specific information
+  key: COLLECT
+  text:
+  - 'Data retention:
+
+
+    We may need to request specific information from you to help us confirm your identity
+    and ensure your right to access your personal data (or to exercise any of your
+    other rights).'
+  purposes:
+    security:
+    - to help us confirm your identity and ensure your right to access your personal
+      data (or to exercise any of your other rights
+- source: we
+  target: technical datum about equipment
+  key: COLLECT
+  text:
+  - As you interact with our products and/or services, we may automatically collect
+    technical data about your equipment, browsing actions and patterns.
+  - We collect this data by using cookies, server logs and other similar technologies.
+  purposes: {}
+- source: amazon web services
+  target: personal information
+  key: COLLECT
+  text:
+  - Your personal data is securely stored either in our own servers hosted at our
+    UK Office or hosted by Amazon Web Services (AWS) in the UK, Republic of Ireland,
+    Australia, and USA depending on the product or service and where you are based.
+  purposes: {}
+- source: aws
+  target: personal information
+  key: COLLECT
+  text:
+  - Your personal data is securely stored either in our own servers hosted at our
+    UK Office or hosted by Amazon Web Services (AWS) in the UK, Republic of Ireland,
+    Australia, and USA depending on the product or service and where you are based.
+  purposes: {}
+- source: contractor
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition, we limit access to your personal data to those employees, agents,
+    contractors and other third-party service providers who have a business need to
+    know.
+  - They will only process your personal data on our instructions, and they are subject
+    to a duty of confidentiality.
+  purposes: {}
+- source: basic information about customer
+  target: contact information
+  key: SUBSUM
+  text:
+  - By law we have to keep basic information about our customers (including Contact,
+    Identity, Financial and Transaction Data) for six years after they cease being
+    customers for tax and legal purposes.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - Contact Data including postal address, email address and telephone numbers.
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Contact Data including postal address, email address and telephone numbers.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Contact Data including postal address, email address and telephone numbers.
+- source: datum about yourself
+  target: special category
+  key: SUBSUM
+  text:
+  - This will only be the case if you upload or otherwise transmit these types of
+    data about yourself when using our products or services (for example, if you upload
+    documents or send messages that contain special categories of data about yourself).
+  - Where you are an Individual Customer, we will also ask for your explicit consent
+    to process any special categories of data about yourself that you upload to or
+    otherwise transmit through our products and services.
+- source: different kind
+  target: contact information
+  key: SUBSUM
+  text:
+  - Contact Data including postal address, email address and telephone numbers.
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):'
+- source: different kind
+  target: financial datum
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Financial and Transaction Data including bank account, payment card details, billing
+    address and other payment details.'
+- source: different kind
+  target: identity datum
+  key: SUBSUM
+  text:
+  - 'What types of personal data we have:
+
+
+    We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Identity Data including first name, last name, username or similar identifier,
+    title, data of birth and gender.'
+- source: different kind
+  target: marketing datum
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Marketing Data including your marketing preferences in relation to receiving marketing
+    communications from us and, where relevant, third parties.'
+- source: different kind
+  target: profile datum
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Profile Data including your username and password, user preferences, comments
+    feedback and other information that you submit to our products and/or services.'
+- source: different kind
+  target: technical datum
+  key: SUBSUM
+  text:
+  - Technical Data including unique user identifier, internet protocol(IP) address,
+    login data, browser type and version, time zone setting and location, browser
+    plug in types and versions, operating system and platform and other technology
+    on the devices you use to access our products and services.
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):'
+- source: file
+  target: activity type
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Usage Data being information about how you use our products and services (for
+    example, through metadata, we log the areas, activity types, people, features,
+    content and links you interact with, the type of files you share and what third
+    party services you use, if any).'
+- source: file
+  target: area
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Usage Data being information about how you use our products and services (for
+    example, through metadata, we log the areas, activity types, people, features,
+    content and links you interact with, the type of files you share and what third
+    party services you use, if any).'
+- source: financial datum
+  target: bank account
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Financial and Transaction Data including bank account, payment card details, billing
+    address and other payment details.'
+- source: financial datum
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Financial and Transaction Data including bank account, payment card details, billing
+    address and other payment details.'
+- source: financial datum
+  target: payment detail
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Financial and Transaction Data including bank account, payment card details, billing
+    address and other payment details.'
+- source: financial datum
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Financial and Transaction Data including bank account, payment card details, billing
+    address and other payment details.'
+- source: identity datum
+  target: datum of birth
+  key: SUBSUM
+  text:
+  - 'What types of personal data we have:
+
+
+    We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Identity Data including first name, last name, username or similar identifier,
+    title, data of birth and gender.'
+- source: identity datum
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'What types of personal data we have:
+
+
+    We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Identity Data including first name, last name, username or similar identifier,
+    title, data of birth and gender.'
+- source: identity datum
+  target: person name
+  key: SUBSUM
+  text:
+  - 'What types of personal data we have:
+
+
+    We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Identity Data including first name, last name, username or similar identifier,
+    title, data of birth and gender.'
+- source: identity datum
+  target: title
+  key: SUBSUM
+  text:
+  - 'What types of personal data we have:
+
+
+    We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Identity Data including first name, last name, username or similar identifier,
+    title, data of birth and gender.'
+- source: identity datum
+  target: username
+  key: SUBSUM
+  text:
+  - 'What types of personal data we have:
+
+
+    We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Identity Data including first name, last name, username or similar identifier,
+    title, data of birth and gender.'
+- source: marketing datum
+  target: marketing preference in relation to
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Marketing Data including your marketing preferences in relation to receiving marketing
+    communications from us and, where relevant, third parties.'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - We may also source marketing lists from third parties which contain personal data
+    (i.e. identity data and contact data) about those that might be interested in
+    our products and services.
+- source: personal information
+  target: data controller in respect of personal datum
+  key: SUBSUM
+  text:
+  - 'Terms, Policies & Notices
+
+
+    What we do with personal data:
+
+
+    Where we are a data controller in respect of your personal data, we are required
+    by UK and EU data protection law to be clear about the purposes for which we are
+    processing that personal data and our lawful basis for doing so.'
+- source: personal information
+  target: different kind
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):'
+- source: personal information
+  target: identity datum
+  key: SUBSUM
+  text:
+  - We may also source marketing lists from third parties which contain personal data
+    (i.e. identity data and contact data) about those that might be interested in
+    our products and services.
+- source: personal information
+  target: personal datum we hold on behalf of customer
+  key: SUBSUM
+  text:
+  - 'Terms, Policies & Notices
+
+
+    Personal data that we hold on behalf of our Customers:'
+  - Where we hold this data solely on behalf of our customers and do not use it for
+    our own purposes, under UK and European data protection laws we will be acting
+    as a "data processor" and will hold that personal data in accordance with the
+    terms of our contracts with our customers.
+- source: profile datum
+  target: comment feedback
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Profile Data including your username and password, user preferences, comments
+    feedback and other information that you submit to our products and/or services.'
+- source: profile datum
+  target: password
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Profile Data including your username and password, user preferences, comments
+    feedback and other information that you submit to our products and/or services.'
+- source: profile datum
+  target: user preference
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Profile Data including your username and password, user preferences, comments
+    feedback and other information that you submit to our products and/or services.'
+- source: profile datum
+  target: username
+  key: SUBSUM
+  text:
+  - 'We may collect, use and hold the following different kinds of personal data about
+    you (depending on whether you are an Individual Customer, or an individual user
+    of our products and/or services employed by one of our Customer Organisations):
+    Profile Data including your username and password, user preferences, comments
+    feedback and other information that you submit to our products and/or services.'
+- source: technical datum
+  target: browser plug in type
+  key: SUBSUM
+  text:
+  - Technical Data including unique user identifier, internet protocol(IP) address,
+    login data, browser type and version, time zone setting and location, browser
+    plug in types and versions, operating system and platform and other technology
+    on the devices you use to access our products and services.
+- source: technical datum
+  target: browser type
+  key: SUBSUM
+  text:
+  - Technical Data including unique user identifier, internet protocol(IP) address,
+    login data, browser type and version, time zone setting and location, browser
+    plug in types and versions, operating system and platform and other technology
+    on the devices you use to access our products and services.
+- source: technical datum
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Technical Data including unique user identifier, internet protocol(IP) address,
+    login data, browser type and version, time zone setting and location, browser
+    plug in types and versions, operating system and platform and other technology
+    on the devices you use to access our products and services.
+- source: technical datum
+  target: login datum
+  key: SUBSUM
+  text:
+  - Technical Data including unique user identifier, internet protocol(IP) address,
+    login data, browser type and version, time zone setting and location, browser
+    plug in types and versions, operating system and platform and other technology
+    on the devices you use to access our products and services.
+- source: technical datum
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - Technical Data including unique user identifier, internet protocol(IP) address,
+    login data, browser type and version, time zone setting and location, browser
+    plug in types and versions, operating system and platform and other technology
+    on the devices you use to access our products and services.
+- source: technical datum
+  target: postal address
+  key: SUBSUM
+  text:
+  - Technical Data including unique user identifier, internet protocol(IP) address,
+    login data, browser type and version, time zone setting and location, browser
+    plug in types and versions, operating system and platform and other technology
+    on the devices you use to access our products and services.
+- source: technical datum
+  target: time zone setting
+  key: SUBSUM
+  text:
+  - Technical Data including unique user identifier, internet protocol(IP) address,
+    login data, browser type and version, time zone setting and location, browser
+    plug in types and versions, operating system and platform and other technology
+    on the devices you use to access our products and services.
+- source: technical datum
+  target: version
+  key: SUBSUM
+  text:
+  - Technical Data including unique user identifier, internet protocol(IP) address,
+    login data, browser type and version, time zone setting and location, browser
+    plug in types and versions, operating system and platform and other technology
+    on the devices you use to access our products and services.
+- source: type of customer
+  target: type of customer for product
+  key: SUBSUM
+  text:
+  - 'What we do with personal data:
+
+
+    Necessary for our legitimate interests to define types of customers for our products
+    and services, to keep our website updated and relevant, to develop our business
+    and to inform our marketing strategy'
+nodes:
+- type: ACTOR
+  id: amazon web services
+- type: ACTOR
+  id: aws
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: activity type
+- type: DATA
+  id: area
+- type: DATA
+  id: bank account
+- type: DATA
+  id: basic information about customer
+- type: DATA
+  id: browser plug in type
+- type: DATA
+  id: browser type
+- type: DATA
+  id: comment feedback
+- type: DATA
+  id: contact information
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: data controller in respect of personal datum
+- type: DATA
+  id: datum about yourself
+- type: DATA
+  id: datum of birth
+- type: DATA
+  id: different kind
+- type: DATA
+  id: email address
+- type: DATA
+  id: file
+- type: DATA
+  id: financial datum
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: identity datum
+- type: DATA
+  id: login datum
+- type: DATA
+  id: marketing datum
+- type: DATA
+  id: marketing preference in relation to
+- type: DATA
+  id: password
+- type: DATA
+  id: payment detail
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum we hold on behalf of customer
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: profile datum
+- type: DATA
+  id: special category
+- type: DATA
+  id: specific information
+- type: DATA
+  id: technical datum
+- type: DATA
+  id: technical datum about equipment
+- type: DATA
+  id: time zone setting
+- type: DATA
+  id: title
+- type: DATA
+  id: type of customer
+- type: DATA
+  id: type of customer for product
+- type: DATA
+  id: user preference
+- type: DATA
+  id: username
+- type: DATA
+  id: version

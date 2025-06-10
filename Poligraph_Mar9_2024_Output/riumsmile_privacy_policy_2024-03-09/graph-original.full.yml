@@ -1,0 +1,16 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - "Privacy Policy \n\nWe will use personal information to the extent necessary to
+    achieve the following purposes of use."
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: personal information

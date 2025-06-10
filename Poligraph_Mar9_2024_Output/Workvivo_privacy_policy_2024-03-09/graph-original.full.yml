@@ -1,0 +1,151 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how Workvivo Limited ("us", "we", or "our") collects,
+    uses, discloses, transfers, stores, retains or otherwise processes your information
+    and the ways that you can manage how your personal data is used, including the
+    right to object to certain types of processing (see Your Rights below for more
+    information on your rights as a data subject).
+  - 'We also collect data from other sources as follows:'
+  purposes: {}
+- source: we
+  target: datum you provide we
+  key: COLLECT
+  text:
+  - 'We collect the following data which you provide us or which is automatically
+    collected:'
+  purposes: {}
+- source: we
+  target: de - identified aggregate usage statistic
+  key: COLLECT
+  text:
+  - As outlined above, we do create and use de-identified aggregated usage statistics
+    and performance metrics to provide, operate and improve our services (such as
+    our website or Workvivo) for Workvivo's internal use and other lawful purposes.
+  purposes:
+    services:
+    - to provide, operate and improve our services (such as our website or Workvivo)
+      for Workvivo's internal use and other lawful purposes
+- source: we
+  target: performance metric
+  key: COLLECT
+  text:
+  - As outlined above, we do create and use de-identified aggregated usage statistics
+    and performance metrics to provide, operate and improve our services (such as
+    our website or Workvivo) for Workvivo's internal use and other lawful purposes.
+  purposes:
+    services:
+    - to provide, operate and improve our services (such as our website or Workvivo)
+      for Workvivo's internal use and other lawful purposes
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For instance, we have offices in the United Kingdom and the United States, and
+    also use service providers in those countries, and accordingly some personal data
+    may be transferred to these countries.
+  - 'We process your personal data in the following ways:'
+  - We will retain your personal data only for as long as is necessary for the purposes
+    set out in this Privacy Policy.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how Workvivo Limited ("us", "we", or "our") collects,
+    uses, discloses, transfers, stores, retains or otherwise processes your information
+    and the ways that you can manage how your personal data is used, including the
+    right to object to certain types of processing (see Your Rights below for more
+    information on your rights as a data subject).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties have access to your personal data only to perform these tasks
+    on our behalf and are obligated not to disclose or use it for any other purpose.
+  purposes:
+    services:
+    - only to perform these tasks on our behalf
+- source: service provider in country
+  target: personal information
+  key: COLLECT
+  text:
+  - For instance, we have offices in the United Kingdom and the United States, and
+    also use service providers in those countries, and accordingly some personal data
+    may be transferred to these countries.
+  purposes: {}
+- source: we
+  target: workvivo
+  key: SUBSUM
+  text:
+  - As outlined above, we do create and use de-identified aggregated usage statistics
+    and performance metrics to provide, operate and improve our services (such as
+    our website or Workvivo) for Workvivo's internal use and other lawful purposes.
+- source: we
+  target: workvivo limited
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how Workvivo Limited ("us", "we", or "our") collects,
+    uses, discloses, transfers, stores, retains or otherwise processes your information
+    and the ways that you can manage how your personal data is used, including the
+    right to object to certain types of processing (see Your Rights below for more
+    information on your rights as a data subject).
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Personal data is information that can identify you, such as your name, email address
+    or home address, or information that could reasonably be linked back to you.
+- source: personal information
+  target: information link
+  key: SUBSUM
+  text:
+  - Personal data is information that can identify you, such as your name, email address
+    or home address, or information that could reasonably be linked back to you.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Personal data is information that can identify you, such as your name, email address
+    or home address, or information that could reasonably be linked back to you.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Personal data is information that can identify you, such as your name, email address
+    or home address, or information that could reasonably be linked back to you.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: service provider in country
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: workvivo
+- type: ACTOR
+  id: workvivo limited
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: datum you provide we
+- type: DATA
+  id: de - identified aggregate usage statistic
+- type: DATA
+  id: email address
+- type: DATA
+  id: information link
+- type: DATA
+  id: performance metric
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address

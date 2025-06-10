@@ -1,0 +1,80 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'This means we collect and use your information only where:'
+  - We may use Google Analytics to collect and process data.
+  - we need to process your data to comply with a legal obligation.
+  purposes:
+    legal:
+    - to comply with a legal obligation
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use cookies on our Site from time to time.
+  - We may use web beacons on our Site from time to time.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - If you are an individual in the European Economic Area (EEA), we collect and process
+    information about you only where we have legal bases for doing so under applicable
+    European Union laws.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may collect, hold, use and disclose personal information for the following
+    purposes:'
+  - 'We may disclose personal information to:'
+  purposes: {}
+- source: we
+  target: personal information we hold about you
+  key: COLLECT
+  text:
+  - Where possible, we will provide this information in CSV format or other easily
+    readable machine format.
+  - You may also request that we transfer this personal information to another third
+    party (data portability).
+  - You may request a copy of the personal information we hold about you.
+  - You may request that we erase the personal information we hold about you at any
+    time.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - The third party will only process your personal information in accordance with
+    written instructions from us.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information we hold about you
+  key: COLLECT
+  text:
+  - You may also request that we transfer this personal information to another third
+    party (data portability).
+  - You may request that we erase the personal information we hold about you at any
+    time.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information about you
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information we hold about you

@@ -1,0 +1,136 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: account
+  key: COLLECT
+  text:
+  - They also allow us to keep your account secure and prevent fraud.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We therefore use specialized cookies to measure criteria on our visitors.
+  - 'We use different kinds of cookies:'
+  - We use these cookies to ensure the correct function of the site.
+  purposes:
+    analytics:
+    - to measure criteria on our visitors
+    services:
+    - to ensure the correct function of the site
+- source: we
+  target: information about use of website
+  key: COLLECT
+  text:
+  - 'We also share information about your use of the website with our social media,
+    advertising, and web analytics partners, who may combine it with other information
+    you have provided to them or that they have collected from your use of their services:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy and Cookie Usage Policy
+
+
+    2. What personal data do we collect, purposes and legal basis?'
+  purposes: {}
+- source: advertiser
+  target: information about use of website
+  key: COLLECT
+  text:
+  - 'We also share information about your use of the website with our social media,
+    advertising, and web analytics partners, who may combine it with other information
+    you have provided to them or that they have collected from your use of their services:'
+  purposes: {}
+- source: analytic provider
+  target: information about use of website
+  key: COLLECT
+  text:
+  - 'We also share information about your use of the website with our social media,
+    advertising, and web analytics partners, who may combine it with other information
+    you have provided to them or that they have collected from your use of their services:'
+  purposes: {}
+- source: operator of platform
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition to the processing of personal information by us, personal data is
+    also processed by the operator of the platform.
+  purposes: {}
+- source: ringover
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Where required by law, RINGOVER retains certain information for a period of time
+    necessary to comply with the legal and regulatory provisions applicable to its
+    activities.
+  purposes: {}
+- source: social media
+  target: information about use of website
+  key: COLLECT
+  text:
+  - 'We also share information about your use of the website with our social media,
+    advertising, and web analytics partners, who may combine it with other information
+    you have provided to them or that they have collected from your use of their services:'
+  purposes: {}
+- source: tcr
+  target: person name
+  key: COLLECT
+  text:
+  - In order to comply with American legislation, some of your data, for example your
+    phone numbers, first and last names, will be transferred to TCR, based in the
+    United States of America, so that you can conduct your prospecting and commercial
+    campaigns.
+  purposes:
+    legal:
+    - In order to comply with American legislation
+- source: tcr
+  target: phone number
+  key: COLLECT
+  text:
+  - In order to comply with American legislation, some of your data, for example your
+    phone numbers, first and last names, will be transferred to TCR, based in the
+    United States of America, so that you can conduct your prospecting and commercial
+    campaigns.
+  purposes:
+    legal:
+    - In order to comply with American legislation
+- source: cookie / pixel tag
+  target: audience measurement
+  key: SUBSUM
+  text:
+  - 'We use different kinds of cookies: Analytics and audience measurement:'
+nodes:
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: operator of platform
+- type: ACTOR
+  id: ringover
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: tcr
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account
+- type: DATA
+  id: audience measurement
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information about use of website
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number

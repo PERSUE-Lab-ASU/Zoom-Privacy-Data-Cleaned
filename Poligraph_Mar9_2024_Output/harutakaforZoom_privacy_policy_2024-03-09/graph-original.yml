@@ -1,0 +1,217 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for mock interviews, the Analysis Results Data will
+    be provided by us only to the customers and the interviewers of mock interviews,
+    and will not be provided or shared with other third parties (including companies
+    using our services).'
+  - '* When our services are used for the Other Interviews conducted by the companies
+    using our services, the Analysis Results Data will be provided by us only to companies
+    using our services, and will not be provided or shared with other companies.'
+  - '* When our services are used for the improvement of working environment, etc.
+    by the companies using our services, the Analysis Results Data will be provided
+    by us only to companies using our services, and will not be provided or shared
+    with other companies.'
+  - '* When our services are used for the recruitment selection by the companies using
+    our services, the Analysis Results Data will be provided by us only to companies
+    using our services of which customers has undergone recruitment selection, and
+    will not be provided or shared with other companies.'
+  purposes: {}
+- source: we
+  target: information disclose
+  key: COLLECT
+  text:
+  - Except for cases set forth in (2), we input into our AI program and analyze personal
+    information obtained directly from customers through our services by companies
+    using our services and customers' information disclosed or provided by companies
+    using our services based on request from the companies using our services, and
+    then provide the results of the analysis to the companies using our services.
+  purposes: {}
+- source: we
+  target: information obtain from company use service
+  key: COLLECT
+  text:
+  - (2) We input into our AI program and analyze personal information obtained directly
+    from customers through our services and information indirectly obtained from companies
+    using our services, third parties to which we entrust certain works or interviewers
+    of mock interviews based on request from customers and interviewers of mock interviews,
+    and then provide the results of the analysis to the customers and the interviewers
+    of mock interviews.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - (2) When using our services for the purpose of conducting mock interviews, customers
+    will provide personal information to us and interviewers of the mock interviews
+    through our services.
+  - '*Cases where it is necessary to cooperate with a state organ, a local government,
+    or a person commissioned thereby in performing the work prescribed by laws and
+    regulations and where obtaining consent of the person is likely to hinder the
+    performance of the work *Cases where consent from the relevant person is not required
+    under laws and regulations 5. CAUTION (1) When using our services (expect for
+    cases set forth in (2)), customers will provide personal information to us and
+    companies using our services through our services.'
+  purposes: {}
+- source: we
+  target: personal information obtain from customer through service
+  key: COLLECT
+  text:
+  - (2) We input into our AI program and analyze personal information obtained directly
+    from customers through our services and information indirectly obtained from companies
+    using our services, third parties to which we entrust certain works or interviewers
+    of mock interviews based on request from customers and interviewers of mock interviews,
+    and then provide the results of the analysis to the customers and the interviewers
+    of mock interviews.
+  - Except for cases set forth in (2), we input into our AI program and analyze personal
+    information obtained directly from customers through our services by companies
+    using our services and customers' information disclosed or provided by companies
+    using our services based on request from the companies using our services, and
+    then provide the results of the analysis to the companies using our services.
+  purposes: {}
+- source: business partner
+  target: statistical datum
+  key: COLLECT
+  text:
+  - Statistical data may be provided to business partners.)
+  purposes: {}
+- source: company concerned customer work for
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for the improvement of working environment, etc.
+    by the companies using our services, the Analysis Results Data will be provided
+    by us only to companies using our services, and will not be provided or shared
+    with other companies.'
+  - And such Analysis Results Data will be provided only as a reference index for
+    improvement of working environment, and the use of such data will be finally determined
+    by the company which the concerned customers are working for.
+  purposes: {}
+- source: company of customer undergo recruitment selection
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for the recruitment selection by the companies using
+    our services, the Analysis Results Data will be provided by us only to companies
+    using our services of which customers has undergone recruitment selection, and
+    will not be provided or shared with other companies.'
+  - And such Analysis Results Data will be provided only as a reference index for
+    recruitment selection, and the results of recruitment selection will be finally
+    determined by the company of which the customer has undergone the recruitment
+    selection.
+  purposes: {}
+- source: company use service
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for the Other Interviews conducted by the companies
+    using our services, the Analysis Results Data will be provided by us only to companies
+    using our services, and will not be provided or shared with other companies.'
+  - '* When our services are used for the improvement of working environment, etc.
+    by the companies using our services, the Analysis Results Data will be provided
+    by us only to companies using our services, and will not be provided or shared
+    with other companies.'
+  - And such Analysis Results Data will be provided only as a reference index for
+    Other Interviews, and the use of such data will be finally determined by the company
+    using our services.
+  purposes: {}
+- source: company use service of customer undergo recruitment selection
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for the recruitment selection by the companies using
+    our services, the Analysis Results Data will be provided by us only to companies
+    using our services of which customers has undergone recruitment selection, and
+    will not be provided or shared with other companies.'
+  purposes: {}
+- source: company use service through service
+  target: personal information
+  key: COLLECT
+  text:
+  - '*Cases where it is necessary to cooperate with a state organ, a local government,
+    or a person commissioned thereby in performing the work prescribed by laws and
+    regulations and where obtaining consent of the person is likely to hinder the
+    performance of the work *Cases where consent from the relevant person is not required
+    under laws and regulations 5. CAUTION (1) When using our services (expect for
+    cases set forth in (2)), customers will provide personal information to us and
+    companies using our services through our services.'
+  purposes: {}
+- source: interviewer
+  target: analysis results data
+  key: COLLECT
+  text:
+  - '* When our services are used for mock interviews, the Analysis Results Data will
+    be provided by us only to the customers and the interviewers of mock interviews,
+    and will not be provided or shared with other third parties (including companies
+    using our services).'
+  purposes: {}
+- source: interviewer of mock interview
+  target: personal information
+  key: COLLECT
+  text:
+  - (2) When using our services for the purpose of conducting mock interviews, customers
+    will provide personal information to us and interviewers of the mock interviews
+    through our services.
+  purposes: {}
+- source: information disclose
+  target: appearance
+  key: SUBSUM
+  text:
+  - '*In order to analyze Other Interview Videos and other information disclosed or
+    provided by companies using our services (including information such as portraits,
+    appearance, behavior and speech, voice, and shooting environment, and if information
+    related to the Other Interview Videos is indirectly obtained from companies using
+    our services, including such information; the same shall apply hereinafter) for
+    the purpose of research and development of AI programs, and to provide and operate
+    our existing services or new services.'
+- source: information disclose
+  target: shooting environment
+  key: SUBSUM
+  text:
+  - '*In order to analyze Other Interview Videos and other information disclosed or
+    provided by companies using our services (including information such as portraits,
+    appearance, behavior and speech, voice, and shooting environment, and if information
+    related to the Other Interview Videos is indirectly obtained from companies using
+    our services, including such information; the same shall apply hereinafter) for
+    the purpose of research and development of AI programs, and to provide and operate
+    our existing services or new services.'
+nodes:
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: company concerned customer work for
+- type: ACTOR
+  id: company of customer undergo recruitment selection
+- type: ACTOR
+  id: company use service
+- type: ACTOR
+  id: company use service of customer undergo recruitment selection
+- type: ACTOR
+  id: company use service through service
+- type: ACTOR
+  id: interviewer
+- type: ACTOR
+  id: interviewer of mock interview
+- type: ACTOR
+  id: we
+- type: DATA
+  id: analysis results data
+- type: DATA
+  id: appearance
+- type: DATA
+  id: information disclose
+- type: DATA
+  id: information obtain from company use service
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information obtain from customer through service
+- type: DATA
+  id: shooting environment
+- type: DATA
+  id: statistical datum

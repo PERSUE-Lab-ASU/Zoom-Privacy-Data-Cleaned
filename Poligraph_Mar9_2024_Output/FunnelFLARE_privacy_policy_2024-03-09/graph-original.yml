@@ -1,0 +1,227 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The Site can only access the information from a cookie sent by the Site.
+  purposes: {}
+- source: we
+  target: basic information on registration page
+  key: COLLECT
+  text:
+  - In such cases, we ask that you register and provide us with basic information
+    on our registration page, or sign in if previously registered.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While visiting any FunnelFLARE hosted webpage, we may ask you to register and/or
+    provide information that personally identifies you ("Personal Information") for
+    purposes of interacting with the FunnelFLARE subscriber.
+  purposes:
+    services:
+    - for purposes of interacting with the FunnelFLARE subscriber
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also use your Personal Information, such as your email address or mailing
+    address, to contact you regarding products and/or services that may be of interest
+    to you, to respond to an inquiry from you regarding the information that we have
+    collected, or respond to your comments and suggestions.
+  - We may provide Personal Information to our affiliated companies in order to improve
+    our marketing and advertising efforts and your experience with our Site.
+  - We use Personal Information about you to improve our advertising and marketing
+    efforts, to statistically analyze Site usage, to improve our content and product
+    offerings and to personalize the Site's content, layout, and services.
+  - When you sign up for a service we offer on the Site, we may be required to share
+    Personal Information with that service provider in order to provide the service.
+  - While visiting any FunnelFLARE hosted webpage, we may ask you to register and/or
+    provide information that personally identifies you ("Personal Information") for
+    purposes of interacting with the FunnelFLARE subscriber.
+  purposes:
+    advertising:
+    - in order to improve our marketing and advertising efforts and your experience
+      with our Site
+    - to contact you regarding products and/or services that may be of interest to
+      you, to respond to an inquiry from you regarding the information that we have
+      collected, or respond to your comments and suggestions
+    - to improve our advertising and marketing efforts, to statistically analyze Site
+      usage, to improve our content and product offerings and to personalize the Site's
+      content, layout, and services
+    analytics:
+    - to contact you regarding products and/or services that may be of interest to
+      you, to respond to an inquiry from you regarding the information that we have
+      collected, or respond to your comments and suggestions
+    - to improve our advertising and marketing efforts, to statistically analyze Site
+      usage, to improve our content and product offerings and to personalize the Site's
+      content, layout, and services
+    services:
+    - for purposes of interacting with the FunnelFLARE subscriber
+    - in order to provide the service
+    - to contact you regarding products and/or services that may be of interest to
+      you, to respond to an inquiry from you regarding the information that we have
+      collected, or respond to your comments and suggestions
+    - to improve our advertising and marketing efforts, to statistically analyze Site
+      usage, to improve our content and product offerings and to personalize the Site's
+      content, layout, and services
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Third-party vendors, including Google, use cookies to serve ads based on someone's
+    past visits to the FunnelFLARE subscribers website.
+  purposes:
+    advertising:
+    - to serve ads based on someone's past visits to the FunnelFLARE subscribers website
+- source: UNSPECIFIED_ACTOR
+  target: person name
+  key: COLLECT
+  text:
+  - In addition, other sites may use the Site's or FunnelFLARE's name.
+  purposes: {}
+- source: credit card processor
+  target: personal information
+  key: COLLECT
+  text:
+  - We have today, and will in the future have, arrangements with third party service
+    providers, such as credit card processors, shipping companies and fulfillment
+    services.
+  - When you sign up for a service we offer on the Site, we may be required to share
+    Personal Information with that service provider in order to provide the service.
+  purposes:
+    services:
+    - in order to provide the service
+- source: fulfillment service
+  target: personal information
+  key: COLLECT
+  text:
+  - We have today, and will in the future have, arrangements with third party service
+    providers, such as credit card processors, shipping companies and fulfillment
+    services.
+  - When you sign up for a service we offer on the Site, we may be required to share
+    Personal Information with that service provider in order to provide the service.
+  purposes:
+    services:
+    - in order to provide the service
+- source: funnelflare
+  target: aggregate user statistic
+  key: COLLECT
+  text:
+  - FunnelFLARE also may disclose aggregated user statistics in order to describe
+    our services to potential advertisers, partners, other third parties, our affiliate
+    companies, and for other lawful purposes.
+  purposes:
+    advertising:
+    - in order to describe our services to potential advertisers, partners, other
+      third parties, our affiliate companies, and for other lawful purposes
+- source: funnelflare
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - FunnelFLARE uses cookies to track usage of the Site and further personalize your
+    experience when you are visiting the Site.
+  purposes:
+    analytics:
+    - to track usage of the Site and further personalize your experience when you
+      are visiting the Site
+    services:
+    - to track usage of the Site and further personalize your experience when you
+      are visiting the Site
+- source: funnelflare
+  target: geolocation
+  key: COLLECT
+  text:
+  - FunnelFLARE logs IP addresses, or the location of your computer on the Internet,
+    for systems administration and troubleshooting purposes and to determine site
+    usage.
+  purposes:
+    analytics:
+    - for systems administration and troubleshooting purposes and to determine site
+      usage
+    services:
+    - for systems administration and troubleshooting purposes and to determine site
+      usage
+- source: funnelflare
+  target: ip address
+  key: COLLECT
+  text:
+  - FunnelFLARE logs IP addresses, or the location of your computer on the Internet,
+    for systems administration and troubleshooting purposes and to determine site
+    usage.
+  purposes:
+    analytics:
+    - for systems administration and troubleshooting purposes and to determine site
+      usage
+    services:
+    - for systems administration and troubleshooting purposes and to determine site
+      usage
+- source: shipping company
+  target: personal information
+  key: COLLECT
+  text:
+  - We have today, and will in the future have, arrangements with third party service
+    providers, such as credit card processors, shipping companies and fulfillment
+    services.
+  - When you sign up for a service we offer on the Site, we may be required to share
+    Personal Information with that service provider in order to provide the service.
+  purposes:
+    services:
+    - in order to provide the service
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - We may also use your Personal Information, such as your email address or mailing
+    address, to contact you regarding products and/or services that may be of interest
+    to you, to respond to an inquiry from you regarding the information that we have
+    collected, or respond to your comments and suggestions.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - We may also use your Personal Information, such as your email address or mailing
+    address, to contact you regarding products and/or services that may be of interest
+    to you, to respond to an inquiry from you regarding the information that we have
+    collected, or respond to your comments and suggestions.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: credit card processor
+- type: ACTOR
+  id: fulfillment service
+- type: ACTOR
+  id: funnelflare
+- type: ACTOR
+  id: shipping company
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate user statistic
+- type: DATA
+  id: basic information on registration page
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address

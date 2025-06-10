@@ -1,0 +1,113 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may disclose your information in the following circumstances:'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to store information about your preferences and to personalize
+    your experience on our website.
+  purposes:
+    analytics:
+    - to store information about your preferences and to personalize your experience
+      on our website
+    services:
+    - to store information about your preferences and to personalize your experience
+      on our website
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - If you choose to contact us through the contact form or email, we may collect
+    your name and email address.
+  - We will use this information solely for the purpose of responding to your inquiry.
+  purposes: {}
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - We collect information that your browser sends whenever you visit our website.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'We may use the information we collect for the following purposes:'
+  purposes:
+    analytics:
+    - To analyze usage trends and gather statistical data
+    legal:
+    - To comply with legal obligations
+    services:
+    - To improve our website and provide a better user experience
+    - To respond to your inquiries or provide customer support
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - If you choose to contact us through the contact form or email, we may collect
+    your name and email address.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how we collect, use, and disclose your personal
+    information when you visit our website.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, we may disclose your information in the following circumstances: To
+    trusted third-party service providers who assist us in operating our website and
+    conducting our business.'
+  purposes: {}
+- source: information we collect
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Contact Information:'
+  - Information We Collect
+- source: information we collect
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Cookies:'
+  - Information We Collect
+- source: information we collect
+  target: log information
+  key: SUBSUM
+  text:
+  - Information We Collect
+  - 'Log Information:'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: log information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information

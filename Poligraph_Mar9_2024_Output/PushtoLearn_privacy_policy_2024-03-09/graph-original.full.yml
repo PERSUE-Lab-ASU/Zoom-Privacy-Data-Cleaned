@@ -1,0 +1,280 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+  - We collect this information for the purpose of providing the Service, identifying
+    and communicating with you, responding to your requests/inquiries, and improving
+    the Service.
+  - When you access the Service by or through a mobile device, we may collect certain
+    information automatically, including, but not limited to, the type of mobile device
+    you use, your mobile device's unique device ID, the IP address of your mobile
+    device, your mobile operating system, the type of mobile Internet browser you
+    use, your location information and other statistics.
+  purposes:
+    services:
+    - for the purpose of providing the Service, identifying and communicating with
+      you, responding to your requests/inquiries, and improving the Service
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We may use and store information about your location depending on the permissions
+    you have set on your device.
+  - We use this information to provide features of our Service, to improve and customize
+    our Service.
+  purposes:
+    services:
+    - to provide features of our Service, to improve and customize our Service
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, we might need to keep your personal data for quality assurance of
+    the service we have provided, or we might need to keep it to defend future legal
+    claims or to comply with a legal obligation.
+  - In this case, we can no longer process your personal data unless we show that
+    there is a compelling legitimate ground for the processing which override your
+    interests, rights, and freedoms or for our establishment, exercise, or defense
+    of legal claims.
+  - We use your Personal Information for providing and improving the Service.
+  - We will keep your personal data only for as long as necessary to fulfill the purposes
+    for which we are processing it unless the law permits or requires longer.
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Policy unless a longer retention period is required
+    or permitted by law.
+  purposes:
+    services:
+    - for quality assurance of the service we have provided
+- source: governmental entity
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - PushtoLearn may share your data with regulatory and other governmental entities
+    as required by applicable law, subpoena, or court order.
+  purposes: {}
+- source: partner who contract with we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - PushtoLearn will share your data with our Partner who has contracted with us to
+    power the platform.
+  purposes: {}
+- source: pushtolearn
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For these third-party applications, PushtoLearn may retain certain data and access
+    tokens to these applications until you unlink your third-party account from PushtoLearn.
+  - PushtoLearn may share your data with regulatory and other governmental entities
+    as required by applicable law, subpoena, or court order.
+  - PushtoLearn will share your data with our Partner who has contracted with us to
+    power the platform.
+  purposes: {}
+- source: pushtolearn
+  target: access token
+  key: COLLECT
+  text:
+  - For these third-party applications, PushtoLearn may retain certain data and access
+    tokens to these applications until you unlink your third-party account from PushtoLearn.
+  purposes: {}
+- source: pushtolearn
+  target: personal information
+  key: COLLECT
+  text:
+  - This notice covers how PushtoLearn collects, uses, discloses, transfers, stores
+    and protects your personal information.
+  purposes: {}
+- source: pushtolearn.com
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - PushtoLearn.com also uses persistent cookies for a number of legitimate interests,
+    such as to be able to track the number of unique visitors to the site.
+  - PushtoLearn.com uses session cookies for its legitimate interest of pursuing technical
+    purposes, such as providing seamless navigation through our site, allow you to
+    carry information across pages of our site and avoid having to re-enter information.
+  purposes:
+    analytics:
+    - for a number of legitimate interests, such as to be able to track the number
+      of unique visitors to the site
+    services:
+    - for its legitimate interest of pursuing technical purposes, such as providing
+      seamless navigation through our site
+- source: aspect of pushtolearn.com
+  target: performance monitoring for website uptime
+  key: SUBSUM
+  text:
+  - 'Tools which are currently in use, or are to be deployed, if necessary, for the
+    security of PushtoLearn.com are to include, but are not limited to, the following:
+    Network Performance: Tools that assist in monitoring all aspects of PushtoLearn.com,
+    such as performance monitoring for website uptime, etc.'
+- source: digital identifier
+  target: username
+  key: SUBSUM
+  text:
+  - 'The types of personal data collected are listed as follows: Digital Identifiers,
+    such as usernames'
+- source: log data
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+- source: log data
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+- source: log data
+  target: date
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+- source: log data
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+- source: log data
+  target: statistic
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+- source: log data
+  target: time
+  key: SUBSUM
+  text:
+  - This Log Data may include information such as your computer's Internet Protocol
+    ("IP") address, browser type, browser version, the pages of our Service that you
+    visit, the time and date of your visit, the time spent on those pages and other
+    statistics.
+  - We collect information that your browser sends whenever you visit our Service
+    ("Log Data").
+- source: personal datum collect
+  target: digital identifier
+  key: SUBSUM
+  text:
+  - 'The types of personal data collected are listed as follows: Digital Identifiers,
+    such as usernames'
+- source: personal datum collect
+  target: person name
+  key: SUBSUM
+  text:
+  - 'The types of personal data collected are listed as follows: Name (First Name,
+    Last Name)'
+- source: personal datum collect
+  target: personal datum require
+  key: SUBSUM
+  text:
+  - 'The types of personal data collected are listed as follows: Personal data required
+    by various form fields, and/or for purposes of searching, retrieving, and downloading
+    data from PushtoLearn.com.'
+- source: sensitive personal information
+  target: personal information specify medical condition
+  key: SUBSUM
+  text:
+  - 'PushtoLearn does not collect sensitive personal information such as: personal
+    information specifying medical or health conditions, racial or ethnic origin,
+    political opinions, religious or philosophical beliefs, trade union membership,
+    or sexual orientation, for any purpose.'
+nodes:
+- type: ACTOR
+  id: aspect of pushtolearn.com
+- type: ACTOR
+  id: governmental entity
+- type: ACTOR
+  id: partner who contract with we
+- type: ACTOR
+  id: performance monitoring for website uptime
+- type: ACTOR
+  id: pushtolearn
+- type: ACTOR
+  id: pushtolearn.com
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access token
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: digital identifier
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log data
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum collect
+- type: DATA
+  id: personal datum require
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information specify medical condition
+- type: DATA
+  id: sensitive personal information
+- type: DATA
+  id: statistic
+- type: DATA
+  id: time
+- type: DATA
+  id: username

@@ -1,0 +1,142 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: file record interaction with application
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: we
+  target: information concern particular service
+  key: COLLECT
+  text:
+  - In addition to the information contained in this privacy policy, this Application
+    may provide the User with additional and contextual information concerning particular
+    Services or the collection and processing of Personal Data upon request.
+  purposes: {}
+- source: we
+  target: personal datum relate to user
+  key: COLLECT
+  text:
+  - 'The Owner may process Personal Data relating to Users if one of the following
+    applies:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  - This Application collects some Personal Data from its Users.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: we
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: file record interaction with application
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: UNSPECIFIED_ACTOR
+  target: system log
+  key: COLLECT
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+  purposes:
+    services:
+    - For operation and maintenance purposes
+- source: iubenda
+  target: personal data strictly necessary
+  key: COLLECT
+  text:
+  - 'Changes to this privacy policy
+
+
+    iubenda hosts this content and only collects the Personal Data strictly necessary
+    for it to be provided.'
+  purposes: {}
+- source: category of recipient of personal datum
+  target: information about personal data
+  key: SUBSUM
+  text:
+  - Further details regarding the categories of Data processed, the purposes of processing,
+    the categories of recipients of the Personal Data, if any, and further information
+    about Personal Data can be found in the section titled "Detailed information on
+    the processing of Personal Data" within this document .
+- source: country
+  target: un
+  key: SUBSUM
+  text:
+  - Users are also entitled to learn about the legal basis for Data transfers abroad
+    including to any international organization governed by public international law
+    or set up by two or more countries, such as the UN, and about the security measures
+    taken by the Owner to safeguard their Data.
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - For operation and maintenance purposes, this Application and any third-party services
+    may collect files that record interaction with this Application (System logs)
+    or use other Personal Data (such as the IP Address) for this purpose.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: country
+- type: ACTOR
+  id: iubenda
+- type: ACTOR
+  id: un
+- type: ACTOR
+  id: we
+- type: DATA
+  id: category of recipient of personal datum
+- type: DATA
+  id: file record interaction with application
+- type: DATA
+  id: information about personal data
+- type: DATA
+  id: information concern particular service
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal data strictly necessary
+- type: DATA
+  id: personal datum relate to user
+- type: DATA
+  id: personal information
+- type: DATA
+  id: system log

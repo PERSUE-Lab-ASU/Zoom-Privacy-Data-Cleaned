@@ -1,0 +1,184 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may store and process information in various locations throughout the globe,
+    including through cloud services.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies on the Websites.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We are also working closely with third parties (including, for example, business
+    partners, sub-contractors in technical, payment and delivery services, advertising
+    networks, analytics providers, search information providers, lead generation agencies)
+    and may receive information about you from them.
+  - We may receive information about you if you use any other websites we operate
+    or the other services we provide, if any.
+  - You may give us information about you, including personal data, when you register
+    and/or use our Websites or by corresponding with us by phone or email.
+  purposes: {}
+- source: we
+  target: information for statistical purpose
+  key: COLLECT
+  text:
+  - 'In addition, we may automatically collect and store the following information
+    for statistical purposes ("Log Data"): technical information, including the Internet
+    protocol (IP) address used to connect your computer to the Internet, your login
+    information, browser type and version, time zone setting, browser plug-in types
+    and versions, operating system and platform; information about your visit, including
+    the full Uniform Resource Locators (URL) clickstream to, through and from our
+    Websites (including date and time); page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs) and methods used to browse away from the Websites'
+  purposes: {}
+- source: we
+  target: information from mobile device
+  key: COLLECT
+  text:
+  - When you visit or use our Website, we may automatically receive and record information
+    from your mobile device and browser, including your cookie information, your country,
+    regional and language settings, device model, operating system, mobile carrier
+    and software and hardware attributes.
+  purposes: {}
+- source: we
+  target: necessary information
+  key: COLLECT
+  text:
+  - If you find the information on your account is not accurate, complete or updated,
+    please provide us with the necessary information in order to correct it.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also share personal data to comply with applicable laws and regulations
+    or to respond to a lawful request for information we receive.
+  - We may retain your Personal Data to the extent necessary to comply with our legal
+    obligations (for example, if we are required to retain your data to comply with
+    applicable laws), resolve disputes, and enforce our legal agreements and process
+    your inquiries, respond to your requests and improve our Websites and/or services
+    we provide.
+  purposes:
+    legal:
+    - to comply with applicable laws and regulations or to respond to a lawful request
+      for information we receive
+- source: recolab
+  target: personal information
+  key: COLLECT
+  text:
+  - Recolabs may retain your Personal Data only for as long as is necessary for the
+    purposes set out in this Privacy Policy.
+  purposes: {}
+- source: information about you
+  target: personal information
+  key: SUBSUM
+  text:
+  - You may give us information about you, including personal data, when you register
+    and/or use our Websites or by corresponding with us by phone or email.
+- source: information for statistical purpose
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'In addition, we may automatically collect and store the following information
+    for statistical purposes ("Log Data"): technical information, including the Internet
+    protocol (IP) address used to connect your computer to the Internet, your login
+    information, browser type and version, time zone setting, browser plug-in types
+    and versions, operating system and platform; information about your visit, including
+    the full Uniform Resource Locators (URL) clickstream to, through and from our
+    Websites (including date and time); page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs) and methods used to browse away from the Websites : Cookies.'
+- source: information for statistical purpose
+  target: information we receive from source
+  key: SUBSUM
+  text:
+  - 'In addition, we may automatically collect and store the following information
+    for statistical purposes ("Log Data"): technical information, including the Internet
+    protocol (IP) address used to connect your computer to the Internet, your login
+    information, browser type and version, time zone setting, browser plug-in types
+    and versions, operating system and platform; information about your visit, including
+    the full Uniform Resource Locators (URL) clickstream to, through and from our
+    Websites (including date and time); page response times, download errors, length
+    of visits to certain pages, page interaction information (such as scrolling, clicks,
+    and mouse-overs) and methods used to browse away from the Websites : Information
+    we receive from other sources.'
+- source: information from mobile device
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - When you visit or use our Website, we may automatically receive and record information
+    from your mobile device and browser, including your cookie information, your country,
+    regional and language settings, device model, operating system, mobile carrier
+    and software and hardware attributes.
+- source: information from mobile device
+  target: country
+  key: SUBSUM
+  text:
+  - When you visit or use our Website, we may automatically receive and record information
+    from your mobile device and browser, including your cookie information, your country,
+    regional and language settings, device model, operating system, mobile carrier
+    and software and hardware attributes.
+- source: information from mobile device
+  target: device model
+  key: SUBSUM
+  text:
+  - When you visit or use our Website, we may automatically receive and record information
+    from your mobile device and browser, including your cookie information, your country,
+    regional and language settings, device model, operating system, mobile carrier
+    and software and hardware attributes.
+- source: information from mobile device
+  target: regional setting
+  key: SUBSUM
+  text:
+  - When you visit or use our Website, we may automatically receive and record information
+    from your mobile device and browser, including your cookie information, your country,
+    regional and language settings, device model, operating system, mobile carrier
+    and software and hardware attributes.
+- source: information from mobile device
+  target: software attribute
+  key: SUBSUM
+  text:
+  - When you visit or use our Website, we may automatically receive and record information
+    from your mobile device and browser, including your cookie information, your country,
+    regional and language settings, device model, operating system, mobile carrier
+    and software and hardware attributes.
+nodes:
+- type: ACTOR
+  id: recolab
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: country
+- type: DATA
+  id: device model
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information for statistical purpose
+- type: DATA
+  id: information from mobile device
+- type: DATA
+  id: information we receive from source
+- type: DATA
+  id: necessary information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: regional setting
+- type: DATA
+  id: software attribute

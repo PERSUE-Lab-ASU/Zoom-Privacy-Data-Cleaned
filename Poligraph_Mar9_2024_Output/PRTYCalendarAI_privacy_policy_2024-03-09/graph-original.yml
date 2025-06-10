@@ -1,0 +1,149 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may collect the following types of information from Users:'
+  purposes: {}
+- source: we
+  target: calendar datum
+  key: COLLECT
+  text:
+  - The App processes this information to understand User preferences, assist in scheduling,
+    and improve overall user experience.
+  - The primary purpose of collecting calendar and event data is to provide Users
+    with an efficient AI booking assistant service.
+  purposes:
+    analytics:
+    - to understand User preferences, assist in scheduling, and improve overall user
+      experience
+    services:
+    - to understand User preferences, assist in scheduling, and improve overall user
+      experience
+- source: we
+  target: calendar list
+  key: COLLECT
+  text:
+  - In order to fulfill this purpose, the App may access and utilize calendar lists
+    and event data from the User's device and/or account provided exclusively from
+    the Google Calendar (provider) secure API (developer interface).
+  purposes: {}
+- source: we
+  target: collect information
+  key: COLLECT
+  text:
+  - WE USE COLLECTED INFORMATION
+  - "We use the collected information for the following purposes:\n  \n    2.1 AI
+    Booking Assistant"
+  purposes: {}
+- source: we
+  target: event datum
+  key: COLLECT
+  text:
+  - In order to fulfill this purpose, the App may access and utilize calendar lists
+    and event data from the User's device and/or account provided exclusively from
+    the Google Calendar (provider) secure API (developer interface).
+  purposes: {}
+- source: we
+  target: generic aggregate demographic information not link to personal identification
+    information regard visitor
+  key: COLLECT
+  text:
+  - We may share generic aggregated demographic information not linked to any personal
+    identification information regarding visitors and users with our business partners,
+    trusted affiliates, and advertisers for the purposes outlined above.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 4. SHARING YOUR PERSONAL INFORMATION
+  - We do not sell, trade, or rent Users' personal identification information to others.
+  purposes: {}
+- source: we
+  target: user command relate to calendar management
+  key: COLLECT
+  text:
+  - To enhance the AI booking assistant's functionality, the App may collect and process
+    User commands related to calendar and event management.
+  purposes:
+    services:
+    - To enhance the AI booking assistant's functionality
+- source: advertiser
+  target: generic aggregate demographic information not link to personal identification
+    information regard visitor
+  key: COLLECT
+  text:
+  - We may share generic aggregated demographic information not linked to any personal
+    identification information regarding visitors and users with our business partners,
+    trusted affiliates, and advertisers for the purposes outlined above.
+  purposes: {}
+- source: business partner
+  target: generic aggregate demographic information not link to personal identification
+    information regard visitor
+  key: COLLECT
+  text:
+  - We may share generic aggregated demographic information not linked to any personal
+    identification information regarding visitors and users with our business partners,
+    trusted affiliates, and advertisers for the purposes outlined above.
+  purposes: {}
+- source: openai
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Some data is shared with OpenAI to generate responses.
+  purposes:
+    analytics:
+    - to generate responses
+    services:
+    - to generate responses
+- source: trusted affiliate
+  target: generic aggregate demographic information not link to personal identification
+    information regard visitor
+  key: COLLECT
+  text:
+  - We may share generic aggregated demographic information not linked to any personal
+    identification information regarding visitors and users with our business partners,
+    trusted affiliates, and advertisers for the purposes outlined above.
+  purposes: {}
+- source: we
+  target: Intel
+  key: SUBSUM
+  text:
+  - "Effective Date: Nov 25, 2023\n    Modified Date: Nov 25, 2023\n\n    This Privacy
+    Policy governs the manner in which Parity Software, Inc (\"we,\" \"us,\" or \"our\")
+    collects, uses, maintains, and discloses information collected from users (each,
+    a \"User\") of the PRTY.sh mobile application (\"App\")."
+nodes:
+- type: ACTOR
+  id: Intel
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: openai
+- type: ACTOR
+  id: trusted affiliate
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: calendar datum
+- type: DATA
+  id: calendar list
+- type: DATA
+  id: collect information
+- type: DATA
+  id: event datum
+- type: DATA
+  id: generic aggregate demographic information not link to personal identification
+    information regard visitor
+- type: DATA
+  id: personal information
+- type: DATA
+  id: user command relate to calendar management

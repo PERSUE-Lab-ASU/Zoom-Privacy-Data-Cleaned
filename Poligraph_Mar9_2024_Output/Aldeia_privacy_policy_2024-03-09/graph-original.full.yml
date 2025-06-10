@@ -1,0 +1,563 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We use different methods to collect data from and about you including through:'
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may also collect, use and share Aggregated Data such as statistical or demographic
+    data for any purpose.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - '12.Marketing
+
+
+    12.2.
+
+
+    We may use your Identity, Contact, Technical, Usage and Profile Data to form a
+    view on what we think you may want or need, or what may be of interest to you.'
+  purposes:
+    advertising:
+    - to form a view on what we think you may want or need, or what may be of interest
+      to you
+- source: we
+  target: different kind
+  key: COLLECT
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.
+
+
+    We may collect, use, store and transfer different kinds of personal data about
+    you which we have grouped together as follows:'
+  purposes: {}
+- source: we
+  target: different method
+  key: COLLECT
+  text:
+  - 'We use different methods to collect data from and about you including through:'
+  purposes: {}
+- source: we
+  target: information about
+  key: COLLECT
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.7.
+
+
+    Usage Data includes information about how you use the Platform.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - '10.1.
+
+
+    We will only use your personal data when the law allows us to.'
+  - '11.Purposes for which we will use your personal data
+
+
+    11.2.
+
+
+    Note that we may process your personal data for more than one lawful ground depending
+    on the specific purpose for which we are using your data.'
+  - '18.1.
+
+
+    We will only retain your personal data for as long as reasonably necessary to
+    fulfil the purposes we collected it for, including for the purposes of satisfying
+    any legal, regulatory, tax, accounting or reporting requirements.'
+  - 'Last updated: 5th June 2021 : 10.How We Use Your Personal Data'
+  - 'Most commonly, we will use your personal data in the following circumstances:
+    a) Where we need to in order to enable you to access the Platform.'
+  - We may receive personal data about you from various third parties and public sources.
+  - We may retain your personal data for a longer period in the event of a complaint
+    or if we reasonably believe there is a prospect of litigation in respect to our
+    relationship with you.
+  - You may give us your personal data through your use of the Platform.
+  purposes:
+    legal:
+    - to fulfil the purposes we collected it for, including for the purposes of satisfying
+      any legal, regulatory, tax, accounting or reporting requirements
+- source: we
+  target: specific information
+  key: COLLECT
+  text:
+  - '19.Your Legal Rights
+
+
+    19.4.
+
+
+    We may need to request specific information from you to help us confirm your identity
+    and ensure your right to access your personal data (or to exercise any of your
+    other rights).'
+  purposes:
+    security:
+    - to help us confirm your identity and ensure your right to access your personal
+      data (or to exercise any of your other rights)
+- source: we
+  target: technical data about equipment
+  key: COLLECT
+  text:
+  - As you interact with our Platform, we may automatically collect Technical Data
+    about your equipment, browsing actions and patterns.
+  - We collect this personal data by using cookies, server logs and other similar
+    technologies.
+  purposes: {}
+- source: we
+  target: technical data about you
+  key: COLLECT
+  text:
+  - We may also receive Technical Data about you if you visit other websites employing
+    our cookies.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: datum about you
+  key: COLLECT
+  text:
+  - Clicking on those links or enabling those connections may allow third parties
+    to collect or share data about you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Inevitably, we use third party suppliers to provide certain services such as the
+    hosting and maintenance of our website and messaging systems and, in some cases,
+    these suppliers may have some access to your personal information.
+  purposes:
+    services:
+    - to provide certain services such as the hosting and maintenance of our website
+      and messaging systems
+- source: aggregate / deidentified / pseudonymized information
+  target: statistical datum
+  key: SUBSUM
+  text:
+  - We may also collect, use and share Aggregated Data such as statistical or demographic
+    data for any purpose.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.2.
+
+
+    Contact Data includes billing address, email address and telephone numbers.'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.2.
+
+
+    Contact Data includes billing address, email address and telephone numbers.'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.2.
+
+
+    Contact Data includes billing address, email address and telephone numbers.'
+- source: financial data
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.3.
+
+
+    Financial Data includes bank account and payment card details.'
+- source: identity data
+  target: date of birth
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.1.
+
+
+    Identity Data includes first name, maiden name, last name, username or similar
+    identifier, title, date of birth and gender.'
+- source: identity data
+  target: gender
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.1.
+
+
+    Identity Data includes first name, maiden name, last name, username or similar
+    identifier, title, date of birth and gender.'
+- source: identity data
+  target: identifier
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.1.
+
+
+    Identity Data includes first name, maiden name, last name, username or similar
+    identifier, title, date of birth and gender.'
+- source: identity data
+  target: person name
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.1.
+
+
+    Identity Data includes first name, maiden name, last name, username or similar
+    identifier, title, date of birth and gender.'
+- source: identity data
+  target: title
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.1.
+
+
+    Identity Data includes first name, maiden name, last name, username or similar
+    identifier, title, date of birth and gender.'
+- source: identity data
+  target: username
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.1.
+
+
+    Identity Data includes first name, maiden name, last name, username or similar
+    identifier, title, date of birth and gender.'
+- source: internet activity
+  target: information about
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.7.
+
+
+    Usage Data includes information about how you use the Platform.'
+- source: marketing data
+  target: communication preference
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.8.
+
+
+    Marketing and Communications Data includes your preferences in receiving marketing
+    from us and our third parties and your communication preferences.'
+- source: marketing data
+  target: preference in
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.8.
+
+
+    Marketing and Communications Data includes your preferences in receiving marketing
+    from us and our third parties and your communication preferences.'
+- source: personal information
+  target: different kind
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.
+
+
+    We may collect, use, store and transfer different kinds of personal data about
+    you which we have grouped together as follows:'
+- source: profile data
+  target: interest
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.6.
+
+
+    Profile Data includes your username and password, purchases or orders made by
+    you, your interests, preferences, feedback and survey responses.'
+- source: profile data
+  target: password
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.6.
+
+
+    Profile Data includes your username and password, purchases or orders made by
+    you, your interests, preferences, feedback and survey responses.'
+- source: profile data
+  target: preference
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.6.
+
+
+    Profile Data includes your username and password, purchases or orders made by
+    you, your interests, preferences, feedback and survey responses.'
+- source: profile data
+  target: survey response
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.6.
+
+
+    Profile Data includes your username and password, purchases or orders made by
+    you, your interests, preferences, feedback and survey responses.'
+- source: profile data
+  target: username
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.6.
+
+
+    Profile Data includes your username and password, purchases or orders made by
+    you, your interests, preferences, feedback and survey responses.'
+- source: technical data
+  target: browser plug in type
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.5.
+
+
+    Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform, and other technology on the devices you use to
+    access the Platform.'
+- source: technical data
+  target: browser type
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.5.
+
+
+    Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform, and other technology on the devices you use to
+    access the Platform.'
+- source: technical data
+  target: geolocation
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.5.
+
+
+    Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform, and other technology on the devices you use to
+    access the Platform.'
+- source: technical data
+  target: ip address
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.5.
+
+
+    Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform, and other technology on the devices you use to
+    access the Platform.'
+- source: technical data
+  target: login datum
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.5.
+
+
+    Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform, and other technology on the devices you use to
+    access the Platform.'
+- source: technical data
+  target: time zone setting
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.5.
+
+
+    Technical Data includes internet protocol (IP) address, your login data, browser
+    type and version, time zone setting and location, browser plug-in types and versions,
+    operating system and platform, and other technology on the devices you use to
+    access the Platform.'
+- source: transaction data
+  target: detail of product you purchase from member through platform
+  key: SUBSUM
+  text:
+  - '7.The Data We Collect About You
+
+
+    7.2.4.
+
+
+    Transaction Data includes details about payments to and from you and other details
+    of products and services you have purchased from other members through the Platform.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser plug in type
+- type: DATA
+  id: browser type
+- type: DATA
+  id: communication preference
+- type: DATA
+  id: contact information
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: detail of product you purchase from member through platform
+- type: DATA
+  id: different kind
+- type: DATA
+  id: different method
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial data
+- type: DATA
+  id: gender
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: identity data
+- type: DATA
+  id: information about
+- type: DATA
+  id: interest
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: login datum
+- type: DATA
+  id: marketing data
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: preference
+- type: DATA
+  id: preference in
+- type: DATA
+  id: profile data
+- type: DATA
+  id: specific information
+- type: DATA
+  id: statistical datum
+- type: DATA
+  id: survey response
+- type: DATA
+  id: technical data
+- type: DATA
+  id: technical data about equipment
+- type: DATA
+  id: technical data about you
+- type: DATA
+  id: time zone setting
+- type: DATA
+  id: title
+- type: DATA
+  id: transaction data
+- type: DATA
+  id: username

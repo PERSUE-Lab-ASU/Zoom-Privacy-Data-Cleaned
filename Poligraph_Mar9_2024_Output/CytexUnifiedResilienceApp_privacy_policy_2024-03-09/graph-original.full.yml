@@ -1,0 +1,125 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If we believe the release of information about you is necessary to respond to
+    legal process, to investigate or remedy potential violations of our policies,
+    or to protect the rights, property, and safety of others, we may share your information
+    as permitted or required by any applicable law, rule, or regulation.
+  - If we reorganize or sell all or a portion of our assets, undergo a merger, or
+    are acquired by another entity, we may transfer your information to the successor
+    entity.
+  - 'The information we may collect via the Application depends on the content and
+    materials you use, and includes:'
+  - This Privacy Policy explains how we collect, use, disclose, and safeguard your
+    information when you visit our mobile application (the "Application").
+  - We may share your information with our business partners to offer you certain
+    products, services or promotions.
+  purposes:
+    advertising:
+    - to offer you certain products, services or promotions
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may collect information about you in a variety of ways.
+  purposes: {}
+- source: we
+  target: information collect about you via application
+  key: COLLECT
+  text:
+  - 'Specifically, we may use information collected about you via the Application
+    to:'
+  purposes: {}
+- source: we
+  target: information we collect about you
+  key: COLLECT
+  text:
+  - We may share information we have collected about you in certain situations.
+  purposes: {}
+- source: business partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share your information with our business partners to offer you certain
+    products, services or promotions.
+  purposes:
+    advertising:
+    - to offer you certain products, services or promotions
+- source: successor entity
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If we reorganize or sell all or a portion of our assets, undergo a merger, or
+    are acquired by another entity, we may transfer your information to the successor
+    entity.
+  purposes: {}
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Demographic and other personally identifiable information (such as your name and
+    email address) that you voluntarily give to us when choosing to participate in
+    various activities related to the Cytex authenticator application.'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Demographic and other personally identifiable information (such as your name and
+    email address) that you voluntarily give to us when choosing to participate in
+    various activities related to the Cytex authenticator application.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - California Civil Code Section 1798.83, also known as the "Shine The Light" law,
+    permits our users who are California residents to request and obtain from us,
+    once a year and free of charge, information about categories of personal information
+    (if any) we disclosed to third parties for direct marketing purposes and the names
+    and addresses of all third parties with which we shared personal information in
+    the immediately preceding calendar year.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - California Civil Code Section 1798.83, also known as the "Shine The Light" law,
+    permits our users who are California residents to request and obtain from us,
+    once a year and free of charge, information about categories of personal information
+    (if any) we disclosed to third parties for direct marketing purposes and the names
+    and addresses of all third parties with which we shared personal information in
+    the immediately preceding calendar year.
+nodes:
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: successor entity
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information collect about you via application
+- type: DATA
+  id: information we collect about you
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address

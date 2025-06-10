@@ -1,0 +1,243 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 1. Your data are being processed by our company Parrot Tech, Inc. a Delaware corporation
+    (" Parrot ", " we ", " us " or " our ").
+  - We process the email address, payment information and other data provided by you
+    voluntarily when you use our Service.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - During our application process we may collect and process the applicant's name,
+    contact details and professional background.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - (A) We use our session-based and also permanent functional cookies which enable
+    the Site to remember your actions and preferences ( e.g. , to remember that you
+    are logged in) so you don't have to keep re-entering them whenever you come back
+    to the Site or browse from one page to another.
+  - (B) As mentioned above, in some cases we also may use cookies provided by third-parties
+    (service providers).
+  - (B) We also use cookies for analytics purposes to personalise your experience
+    and to improve our Services.
+  purposes:
+    analytics:
+    - for analytics purposes
+    services:
+    - to personalise your experience and to improve our Services
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We process the email address, payment information and other data provided by you
+    voluntarily when you use our Service.
+  purposes: {}
+- source: we
+  target: payment information
+  key: COLLECT
+  text:
+  - We process the email address, payment information and other data provided by you
+    voluntarily when you use our Service.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - During our application process we may collect and process the applicant's name,
+    contact details and professional background.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'It is necessary for legal reasons We may share your PII with recipients outside
+    of Parrot if we have a good-faith belief that access to and use of your PII is
+    reasonably necessary to: (i) meet any applicable law, regulation, and/or court
+    order; (ii) detect, prevent, or otherwise address fraud, security or technical
+    issues; and/or (iii) protect the interests, properties or safety of Parrot, our
+    users or the public as far as in accordance with the law.'
+  - 'Through our Services we may collect and process information that can be used
+    to identify or contact you as an individual known as your  PII, including but
+    not limited to: * Names * Email address * Phone number * Mailing address * Video
+    recordings (audio and voice) * Country of residence * Professional experience
+    * And other PII provided by you voluntarily when you use our Services.'
+  - We only share your PII within the organisation of Parrot and the group of companies
+    into which Parrot belongs.
+  - 'We process your PII in order to:'
+  - While using our Services, our users may be providing us with their clients' PII
+    for us to perform Services.
+  purposes:
+    services:
+    - for us to perform Services
+- source: we
+  target: professional background
+  key: COLLECT
+  text:
+  - During our application process we may collect and process the applicant's name,
+    contact details and professional background.
+  purposes: {}
+- source: we
+  target: technical datum
+  key: COLLECT
+  text:
+  - '2.3 We use technical data to:'
+  - We and/or our authorised external service providers may automatically collect
+    technical data when you visit or interact with our Services.
+  purposes:
+    services:
+    - 'to:
+
+
+      * Provide, operate, and maintain our Site'
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 1. Your data are being processed by our company Parrot Tech, Inc. a Delaware corporation
+    (" Parrot ", " we ", " us " or " our ").
+  - These companies collect and use this information under their own privacy policies
+    and are responsible for their practices concerning cookies.
+  purposes: {}
+- source: authorised external service provider
+  target: technical datum
+  key: COLLECT
+  text:
+  - We and/or our authorised external service providers may automatically collect
+    technical data when you visit or interact with our Services.
+  purposes: {}
+- source: parrot
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Parrot stores your PII only if it is legally permitted and necessary for the purposes
+    for which the data were collected, or we are legally obliged to do so.
+  purposes: {}
+- source: we
+  target: client app
+  key: SUBSUM
+  text:
+  - To provide our Services we need to collect some of your data, whether you are
+    using https://www.parrot.us/ ("Site"), are a customer of our transcription services
+    or are using our Apps ("Client App", "Transcribers App" or "Apps") collectively
+    our "Services".
+- source: we
+  target: delaware corporation
+  key: SUBSUM
+  text:
+  - 1. Your data are being processed by our company Parrot Tech, Inc. a Delaware corporation
+    (" Parrot ", " we ", " us " or " our ").
+- source: we
+  target: transcriber app
+  key: SUBSUM
+  text:
+  - To provide our Services we need to collect some of your data, whether you are
+    using https://www.parrot.us/ ("Site"), are a customer of our transcription services
+    or are using our Apps ("Client App", "Transcribers App" or "Apps") collectively
+    our "Services".
+- source: category of recipient of personal datum
+  target: personal information
+  key: SUBSUM
+  text:
+  - This means you can contact us and request from us a confirmation whether or not
+    your PII are being processed and if so, you have the right to request access to
+    your data, which we will provide to you in the form of a so-called "registry"
+    (stating, in particular, purposes, categories of personal data, categories of
+    recipients of personal data, storage periods or criteria for determining storage
+    periods).  Right to erasure - You may also ask us to erase your PII from our systems.
+- source: technical datum
+  target: date
+  key: SUBSUM
+  text:
+  - 'Technical data may include, in particular: * The URL of the site visited before
+    using our Service * The time and date of user visits * IP address * The browser
+    name and type * The type of computer or device accessing our Service * Time spent
+    on the Service  and other similar technical information'
+- source: technical datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Technical data may include, in particular: * The URL of the site visited before
+    using our Service * The time and date of user visits * IP address * The browser
+    name and type * The type of computer or device accessing our Service * Time spent
+    on the Service  and other similar technical information'
+- source: technical datum
+  target: technical information
+  key: SUBSUM
+  text:
+  - 'Technical data may include, in particular: * The URL of the site visited before
+    using our Service * The time and date of user visits * IP address * The browser
+    name and type * The type of computer or device accessing our Service * Time spent
+    on the Service  and other similar technical information'
+- source: technical datum
+  target: time
+  key: SUBSUM
+  text:
+  - 'Technical data may include, in particular: * The URL of the site visited before
+    using our Service * The time and date of user visits * IP address * The browser
+    name and type * The type of computer or device accessing our Service * Time spent
+    on the Service  and other similar technical information'
+- source: technical datum
+  target: url
+  key: SUBSUM
+  text:
+  - 'Technical data may include, in particular: * The URL of the site visited before
+    using our Service * The time and date of user visits * IP address * The browser
+    name and type * The type of computer or device accessing our Service * Time spent
+    on the Service  and other similar technical information'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: authorised external service provider
+- type: ACTOR
+  id: client app
+- type: ACTOR
+  id: delaware corporation
+- type: ACTOR
+  id: parrot
+- type: ACTOR
+  id: transcriber app
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: category of recipient of personal datum
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: payment information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: professional background
+- type: DATA
+  id: technical datum
+- type: DATA
+  id: technical information
+- type: DATA
+  id: time
+- type: DATA
+  id: url

@@ -1,0 +1,371 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In order to provide this service effectively, we collect certain specific information
+    input by users, and we also automatically collect information and data relating
+    to the usage of our services by all our customers.
+  - We will always inform our customers when we need information that personally identifies
+    them or their employees, and we will keep this information in strict confidence.
+  purposes:
+    services:
+    - In order to provide this service effectively
+- source: we
+  target: overall picture of product
+  key: COLLECT
+  text:
+  - We use this information to obtain an overall picture of Epoch's products, services,
+    customer sectors and/or usage patterns, and may disclose this aggregate information
+    to third parties.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Epoch may combine portions of personal information (including information obtained
+    through the services) with other information into an aggregate form, so that the
+    resulting information no longer personally identifies any individual.
+  - We use this information to obtain an overall picture of Epoch's products, services,
+    customer sectors and/or usage patterns, and may disclose this aggregate information
+    to third parties.
+  purposes:
+    analytics:
+    - to obtain an overall picture of Epoch's products, services, customer sectors
+      and/or usage patterns
+- source: we
+  target: specific information input
+  key: COLLECT
+  text:
+  - In order to provide this service effectively, we collect certain specific information
+    input by users, and we also automatically collect information and data relating
+    to the usage of our services by all our customers.
+  purposes:
+    services:
+    - In order to provide this service effectively
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Epoch may combine portions of personal information (including information obtained
+    through the services) with other information into an aggregate form, so that the
+    resulting information no longer personally identifies any individual.
+  - 'We obtain consent
+
+
+    Epoch provides personal information to third parties only for purposes to which
+    the applicable individual has consented (for example, we may ask to provide contact
+    information to a third party so that they can resolve issues directly with the
+    affected individual), and we require such third parties to keep such information
+    confidential.'
+  - We use this information to obtain an overall picture of Epoch's products, services,
+    customer sectors and/or usage patterns, and may disclose this aggregate information
+    to third parties.
+  purposes:
+    analytics:
+    - to obtain an overall picture of Epoch's products, services, customer sectors
+      and/or usage patterns
+- source: epoch
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - This information is kept confidential and stored securely by Epoch and/or its
+    payment provider.
+  - 'We collect information in the following ways:
+
+
+    As part of customers'' use of Epoch''s services, we will require our customers''
+    name, address, telephone number and certain financial account or credit card information,
+    for billing and payment purposes.'
+  purposes:
+    services:
+    - for billing and payment purposes
+- source: epoch
+  target: few specific information of employee
+  key: COLLECT
+  text:
+  - The services also may entail the collection of few, specific information of customers'
+    employees and contractors, as such their work email address, first name, last
+    name, team, office location, and optional profile photo.
+  - This information is kept confidential and stored securely by Epoch; however, customers
+    retain the sole responsibility to obtain such individuals' consent to the disclosure
+    of their personal information to Epoch for use in accordance with the Epoch services
+    used and accessed by the customer, its employees and contractors.
+  purposes: {}
+- source: epoch
+  target: information about individual
+  key: COLLECT
+  text:
+  - Occasionally, Epoch will obtain information about individuals from third parties,
+    such as third party vendor organizations, mailing list providers, third party
+    service providers, ISPs, or third party application or account providers.
+  purposes: {}
+- source: epoch
+  target: personal information
+  key: COLLECT
+  text:
+  - Epoch only uses and discloses personal information if it helps us facilitate the
+    needs of our customers or the individuals to whom the information belongs, improve
+    our products and services, meet legal and regulatory requirements, or -- to the
+    limited extent possible -- manage our internal business operations.
+  - 'For example, Epoch may disclose personal information if we are required to do
+    so by law, or if we believe in good faith that such disclosure is necessary to:'
+  - In a few situations, Epoch may be required to disclose personal information without
+    the applicable individual's prior consent.
+  - 'We obtain consent
+
+
+    Epoch provides personal information to third parties only for purposes to which
+    the applicable individual has consented (for example, we may ask to provide contact
+    information to a third party so that they can resolve issues directly with the
+    affected individual), and we require such third parties to keep such information
+    confidential.'
+  purposes: {}
+- source: payment provider
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - This information is kept confidential and stored securely by Epoch and/or its
+    payment provider.
+  - 'We collect information in the following ways:
+
+
+    As part of customers'' use of Epoch''s services, we will require our customers''
+    name, address, telephone number and certain financial account or credit card information,
+    for billing and payment purposes.'
+  purposes:
+    services:
+    - for billing and payment purposes
+- source: datum use
+  target: age
+  key: SUBSUM
+  text:
+  - Personal information includes any data that can be used to identify someone as
+    an individual, including their name, income, personal opinion, interests, home
+    contact information, identification numbers, user IDs, passwords, ethnic origin,
+    and age.
+- source: datum use
+  target: contact information
+  key: SUBSUM
+  text:
+  - Personal information includes any data that can be used to identify someone as
+    an individual, including their name, income, personal opinion, interests, home
+    contact information, identification numbers, user IDs, passwords, ethnic origin,
+    and age.
+- source: datum use
+  target: ethnic origin
+  key: SUBSUM
+  text:
+  - Personal information includes any data that can be used to identify someone as
+    an individual, including their name, income, personal opinion, interests, home
+    contact information, identification numbers, user IDs, passwords, ethnic origin,
+    and age.
+- source: datum use
+  target: identification number
+  key: SUBSUM
+  text:
+  - Personal information includes any data that can be used to identify someone as
+    an individual, including their name, income, personal opinion, interests, home
+    contact information, identification numbers, user IDs, passwords, ethnic origin,
+    and age.
+- source: datum use
+  target: income
+  key: SUBSUM
+  text:
+  - Personal information includes any data that can be used to identify someone as
+    an individual, including their name, income, personal opinion, interests, home
+    contact information, identification numbers, user IDs, passwords, ethnic origin,
+    and age.
+- source: datum use
+  target: interest
+  key: SUBSUM
+  text:
+  - Personal information includes any data that can be used to identify someone as
+    an individual, including their name, income, personal opinion, interests, home
+    contact information, identification numbers, user IDs, passwords, ethnic origin,
+    and age.
+- source: datum use
+  target: password
+  key: SUBSUM
+  text:
+  - Personal information includes any data that can be used to identify someone as
+    an individual, including their name, income, personal opinion, interests, home
+    contact information, identification numbers, user IDs, passwords, ethnic origin,
+    and age.
+- source: datum use
+  target: person name
+  key: SUBSUM
+  text:
+  - Personal information includes any data that can be used to identify someone as
+    an individual, including their name, income, personal opinion, interests, home
+    contact information, identification numbers, user IDs, passwords, ethnic origin,
+    and age.
+- source: datum use
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - Personal information includes any data that can be used to identify someone as
+    an individual, including their name, income, personal opinion, interests, home
+    contact information, identification numbers, user IDs, passwords, ethnic origin,
+    and age.
+- source: datum use
+  target: personal opinion
+  key: SUBSUM
+  text:
+  - Personal information includes any data that can be used to identify someone as
+    an individual, including their name, income, personal opinion, interests, home
+    contact information, identification numbers, user IDs, passwords, ethnic origin,
+    and age.
+- source: information on website
+  target: opinion
+  key: SUBSUM
+  text:
+  - 'As part of the use of Epoch''s website
+
+
+    Individuals may have the ability to post information on Epoch''s website, such
+    as comments and opinions.'
+- source: personal information
+  target: datum use
+  key: SUBSUM
+  text:
+  - Personal information includes any data that can be used to identify someone as
+    an individual, including their name, income, personal opinion, interests, home
+    contact information, identification numbers, user IDs, passwords, ethnic origin,
+    and age.
+- source: specific information about themselves
+  target: email address
+  key: SUBSUM
+  text:
+  - In order to use the services provided by Epoch, customers may be required to provide
+    specific information about themselves, such as names, office location, and email
+    address.
+- source: specific information about themselves
+  target: geolocation
+  key: SUBSUM
+  text:
+  - In order to use the services provided by Epoch, customers may be required to provide
+    specific information about themselves, such as names, office location, and email
+    address.
+- source: specific information about themselves
+  target: person name
+  key: SUBSUM
+  text:
+  - In order to use the services provided by Epoch, customers may be required to provide
+    specific information about themselves, such as names, office location, and email
+    address.
+- source: technical information
+  target: browser name version
+  key: SUBSUM
+  text:
+  - Additionally, use of Epoch's website and/or software may result in the collection
+    of technical information such as a computer's IP address, operating system, browser
+    name/version, the referring web page, requested page, date/time, and sometimes
+    a "cookie" (which can be disabled using browser preferences); such information
+    is used to help us understand the overall usage pattern of our website and software.
+- source: technical information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - Additionally, use of Epoch's website and/or software may result in the collection
+    of technical information such as a computer's IP address, operating system, browser
+    name/version, the referring web page, requested page, date/time, and sometimes
+    a "cookie" (which can be disabled using browser preferences); such information
+    is used to help us understand the overall usage pattern of our website and software.
+- source: technical information
+  target: date time
+  key: SUBSUM
+  text:
+  - Additionally, use of Epoch's website and/or software may result in the collection
+    of technical information such as a computer's IP address, operating system, browser
+    name/version, the referring web page, requested page, date/time, and sometimes
+    a "cookie" (which can be disabled using browser preferences); such information
+    is used to help us understand the overall usage pattern of our website and software.
+- source: technical information
+  target: ip address
+  key: SUBSUM
+  text:
+  - Additionally, use of Epoch's website and/or software may result in the collection
+    of technical information such as a computer's IP address, operating system, browser
+    name/version, the referring web page, requested page, date/time, and sometimes
+    a "cookie" (which can be disabled using browser preferences); such information
+    is used to help us understand the overall usage pattern of our website and software.
+- source: technical information
+  target: operating system
+  key: SUBSUM
+  text:
+  - Additionally, use of Epoch's website and/or software may result in the collection
+    of technical information such as a computer's IP address, operating system, browser
+    name/version, the referring web page, requested page, date/time, and sometimes
+    a "cookie" (which can be disabled using browser preferences); such information
+    is used to help us understand the overall usage pattern of our website and software.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: epoch
+- type: ACTOR
+  id: payment provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: age
+- type: DATA
+  id: browser name version
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date time
+- type: DATA
+  id: datum use
+- type: DATA
+  id: email address
+- type: DATA
+  id: ethnic origin
+- type: DATA
+  id: few specific information of employee
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identification number
+- type: DATA
+  id: income
+- type: DATA
+  id: information about individual
+- type: DATA
+  id: information on website
+- type: DATA
+  id: interest
+- type: DATA
+  id: ip address
+- type: DATA
+  id: operating system
+- type: DATA
+  id: opinion
+- type: DATA
+  id: overall picture of product
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal opinion
+- type: DATA
+  id: specific information about themselves
+- type: DATA
+  id: specific information input
+- type: DATA
+  id: technical information

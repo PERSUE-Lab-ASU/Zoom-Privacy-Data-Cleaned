@@ -1,0 +1,244 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We also transfer certain data to recipients in third countries (i.e. countries
+    outside the EU/EEA).
+  - 'We process data from applicants for the following purposes, in connection with
+    the performance a contract or to take steps prior to entering into a contract
+    :'
+  - 'We process data from sports providers in connection with the performance of a
+    contract for the following purposes:'
+  - 'We process data from users for the following purposes, in connection with the
+    performance of a contract :'
+  - 'We transfer data from applicants to the following recipients and/or categories
+    of recipient: a) External hosting providers for data storage b) Communication
+    tools for support requests and communication with customers c) Talent pool administration
+    tools (only with explicit consent) d) Companies in the Eversports Group'
+  - 'We transfer data from prospective customers to the following recipients and/or
+    categories of recipient: a) Communication tools for support requests and communication
+    with customers b) External IT providers (cloud services, email services, web hosting)
+    c) Eversports Ambassadors d) Companies in the Eversports Group'
+  - 'We transfer data from sports providers to the following recipients and/or categories
+    of recipient:'
+  - 'We transfer data from visitors to the website to the following recipients and/or
+    categories of recipient:'
+  - 'We transfer data from web shop customers to the following recipients and/or categories
+    of recipient:'
+  purposes: {}
+- source: we
+  target: datum from applicant
+  key: COLLECT
+  text:
+  - 'We process data from applicants based on consent for the following purposes:'
+  purposes: {}
+- source: we
+  target: datum from prospective customer
+  key: COLLECT
+  text:
+  - 'We process data from prospective customers for the following purposes, in order
+    to take steps prior to entering into a contract: a) Correspondence with prospective
+    customers'
+  purposes:
+    services:
+    - 'in order to take steps prior to entering into a contract: a) Correspondence
+      with prospective customers'
+- source: we
+  target: datum from sport provider
+  key: COLLECT
+  text:
+  - 'We also process data from sports providers for the following purposes, as part
+    of our own legitimate interest :'
+  - 'We process data from sports providers based on consent for the following purposes:'
+  purposes: {}
+- source: we
+  target: datum from user
+  key: COLLECT
+  text:
+  - 'We also process data from users for the following purposes, as part of our own
+    legitimate interest :'
+  - 'We process data from users based on consent for the following purposes:'
+  purposes: {}
+- source: we
+  target: datum from visitor to website
+  key: COLLECT
+  text:
+  - 'In connection with our online offerings, we process data from visitors to our
+    website based on our legitimate interests in the analysis, optimisation and commercial
+    operation of our website for the following purposes:'
+  purposes: {}
+- source: we
+  target: datum from web shop customer
+  key: COLLECT
+  text:
+  - 'We process data from web shop customers in connection with the performance of
+    a contract for the following purposes: a) To accept the order; b) To ship the
+    items ordered; c) To create and send out invoice documents; d) To process requests
+    and queries about products and orders.'
+  purposes:
+    services:
+    - 'for the following purposes: a) To accept the order; b) To ship the items ordered;
+      c) To create and send out invoice documents; d) To process requests and queries
+      about products and orders'
+- source: we
+  target: user datum
+  key: COLLECT
+  text:
+  - 'We transfer user data to the following recipients and/or categories of recipient:'
+  purposes: {}
+- source: communication tool
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We transfer data from prospective customers to the following recipients and/or
+    categories of recipient: a) Communication tools for support requests and communication
+    with customers b) External IT providers (cloud services, email services, web hosting)
+    c) Eversports Ambassadors d) Companies in the Eversports Group'
+  purposes: {}
+- source: company in eversports group
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We transfer data from applicants to the following recipients and/or categories
+    of recipient: a) External hosting providers for data storage b) Communication
+    tools for support requests and communication with customers c) Talent pool administration
+    tools (only with explicit consent) d) Companies in the Eversports Group'
+  purposes: {}
+- source: eversport ambassador
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We transfer data from prospective customers to the following recipients and/or
+    categories of recipient: a) Communication tools for support requests and communication
+    with customers b) External IT providers (cloud services, email services, web hosting)
+    c) Eversports Ambassadors d) Companies in the Eversports Group'
+  purposes: {}
+- source: external hosting provider for data storage
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We transfer data from applicants to the following recipients and/or categories
+    of recipient: a) External hosting providers for data storage b) Communication
+    tools for support requests and communication with customers c) Talent pool administration
+    tools (only with explicit consent) d) Companies in the Eversports Group'
+  purposes: {}
+- source: sport provider
+  target: personalised recommendation for
+  key: COLLECT
+  text:
+  - a) To enable the sports provider to administer sports venues, resources, courses,
+    activities, products, trainers etc.; b) To enable the sports provider to check
+    in customers and issue till receipts; c) To enable the sports provider to update
+    their Eversports sports provider profile and settings (the sports provider's cancellation
+    conditions, GTCs and privacy policy); d) To create and send out booking confirmations
+    and invoice documents; e) To enable communication with customers and resolution
+    of support requests; f) To provide sports providers with personalised recommendations
+    for making more efficient use of the Eversports Platform; g) To ensure compliance
+    with licensing conditions.
+  purposes: {}
+- source: eversports platform
+  target: ball sports manager
+  key: SUBSUM
+  text:
+  - If you run a sports venue and use the Eversports platform (e.g. "Ball Sports Manager"
+    or "Studio Manager") for your company, you need to protect not only your customers'
+    data, but also your own.
+- source: eversports platform
+  target: studio manager
+  key: SUBSUM
+  text:
+  - If you run a sports venue and use the Eversports platform (e.g. "Ball Sports Manager"
+    or "Studio Manager") for your company, you need to protect not only your customers'
+    data, but also your own.
+- source: feedback
+  target: person name
+  key: SUBSUM
+  text:
+  - Sports providers may at any time withdraw their consent to their feedback (including
+    their name and photograph) being displayed on the Eversports websites, with future
+    effect, by email to [email protected] .
+- source: feedback
+  target: photograph
+  key: SUBSUM
+  text:
+  - Sports providers may at any time withdraw their consent to their feedback (including
+    their name and photograph) being displayed on the Eversports websites, with future
+    effect, by email to [email protected] .
+- source: hardware for venue
+  target: cash drawer
+  key: SUBSUM
+  text:
+  - If, as a sports provider, you are interested in hardware for your venue - e.g.
+    a receipt printer or cash drawer - you can simply order such hardware via the
+    Eversports web shop ( http://eversports.webshopapp.com/ ) and pay online.
+- source: inactive eversport online profile
+  target: profile datum provide
+  key: SUBSUM
+  text:
+  - Inactive Eversports online profiles, including profile data provided by the user,
+    are erased by default three years after the last login if they no longer have
+    any credit.
+- source: sport provider
+  target: local booking
+  key: SUBSUM
+  text:
+  - Services from sports providers on Eversports can still be used directly from the
+    sports provider (e.g. local bookings), since existing credit balances with the
+    sports providers do not expire as a result.
+nodes:
+- type: ACTOR
+  id: ball sports manager
+- type: ACTOR
+  id: communication tool
+- type: ACTOR
+  id: company in eversports group
+- type: ACTOR
+  id: eversport ambassador
+- type: ACTOR
+  id: eversports platform
+- type: ACTOR
+  id: external hosting provider for data storage
+- type: ACTOR
+  id: local booking
+- type: ACTOR
+  id: sport provider
+- type: ACTOR
+  id: studio manager
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cash drawer
+- type: DATA
+  id: datum from applicant
+- type: DATA
+  id: datum from prospective customer
+- type: DATA
+  id: datum from sport provider
+- type: DATA
+  id: datum from user
+- type: DATA
+  id: datum from visitor to website
+- type: DATA
+  id: datum from web shop customer
+- type: DATA
+  id: feedback
+- type: DATA
+  id: hardware for venue
+- type: DATA
+  id: inactive eversport online profile
+- type: DATA
+  id: person name
+- type: DATA
+  id: personalised recommendation for
+- type: DATA
+  id: photograph
+- type: DATA
+  id: profile datum provide
+- type: DATA
+  id: user datum

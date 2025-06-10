@@ -1,0 +1,497 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, under the following circumstances we will disclose personal information
+    to third parties (to the minimum extent necessary): 4. Where it is necessary to
+    cooperate with national or municipal governments or public organizations or parties
+    entrusted by national or municipal governments or public organizations in performing
+    their legal duties, and where it is feared that obtaining prior consent might
+    obstruct the execution of the said duties.'
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'We share anonymized information with third parties for the following reasons:
+    to provide the Kanamic Cloud Service and deliver customer support thereof; to
+    improve service quality; to facilitate improvements in community public health;
+    to promote the healthy upbringing of children in the community; to make social
+    security less costly; and to facilitate undertakings in Scientific Nursing Care.'
+  purposes:
+    services:
+    - 'for the following reasons: to provide the Kanamic Cloud Service and deliver
+      customer support thereof; to improve service quality; to facilitate improvements
+      in community public health; to promote the healthy upbringing of children in
+      the community; to make social security less costly; and to facilitate undertakings
+      in Scientific Nursing Care'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website uses cookies.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'However, under the following circumstances we will disclose personal information
+    to third parties (to the minimum extent necessary):'
+  - 'We collect the following personal information:'
+  - We retain personal information for 5 years (*in some cases we retain personal
+    information for less than 5 years as stipulated by a separate contract).
+  purposes:
+    security:
+    - in order to improve public health or to promote the healthy upbringing of children
+      but it is difficult to obtain prior consent
+    services:
+    - in order to improve public health or to promote the healthy upbringing of children
+      but it is difficult to obtain prior consent
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'However, under the following circumstances we will disclose personal information
+    to third parties (to the minimum extent necessary): 4. Where it is necessary to
+    cooperate with national or municipal governments or public organizations or parties
+    entrusted by national or municipal governments or public organizations in performing
+    their legal duties, and where it is feared that obtaining prior consent might
+    obstruct the execution of the said duties.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'We share anonymized information with third parties for the following reasons:
+    to provide the Kanamic Cloud Service and deliver customer support thereof; to
+    improve service quality; to facilitate improvements in community public health;
+    to promote the healthy upbringing of children in the community; to make social
+    security less costly; and to facilitate undertakings in Scientific Nursing Care.'
+  purposes:
+    services:
+    - 'for the following reasons: to provide the Kanamic Cloud Service and deliver
+      customer support thereof; to improve service quality; to facilitate improvements
+      in community public health; to promote the healthy upbringing of children in
+      the community; to make social security less costly; and to facilitate undertakings
+      in Scientific Nursing Care'
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'However, under the following circumstances we will disclose personal information
+    to third parties (to the minimum extent necessary):'
+  purposes:
+    security:
+    - in order to improve public health or to promote the healthy upbringing of children
+      but it is difficult to obtain prior consent
+    services:
+    - in order to improve public health or to promote the healthy upbringing of children
+      but it is difficult to obtain prior consent
+- source: many website
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Many websites use cookies to deliver useful features to users.
+  purposes:
+    services:
+    - to deliver useful features to users
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - "[(Personal information collected in relation to inquiries)] \n\nPersonal information
+    (such as place of work, name, home address, phone number, and email address) provided
+    by inquirers upon making inquiries to us"
+- source: personal information
+  target: family information
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - "[(Personal information related to our officers, counsel, and employees)] \n\nCV,
+    job history, family information, pension information, etc."
+- source: personal information
+  target: image datum
+  key: SUBSUM
+  text:
+  - "[(Personal information collected in relation to PR / IR activities)] \n\nPersonal
+    information (such as name, zip code, home address, phone number, and image data)
+    provided by applicable individuals"
+- source: personal information
+  target: job history
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - "[(Personal information related to our officers, counsel, and employees)] \n\nCV,
+    job history, family information, pension information, etc."
+- source: personal information
+  target: pension information
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - "[(Personal information related to our officers, counsel, and employees)] \n\nCV,
+    job history, family information, pension information, etc."
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - "Personal information collected in relation to the Kanamic Cloud Service)] \n\nPersonal
+    information (such as name, zip code, home address, and phone number) provided
+    by applicants to our service Personal information registered by current users
+    of the Kanamic Cloud Service regarding the user's medical care/nursing care/social
+    welfare services, etc."
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - "[(Personal information collected in relation to PR / IR activities)] \n\nPersonal
+    information (such as name, zip code, home address, phone number, and image data)
+    provided by applicable individuals"
+  - "[(Personal information collected in relation to inquiries)] \n\nPersonal information
+    (such as place of work, name, home address, phone number, and email address) provided
+    by inquirers upon making inquiries to us"
+  - "[(Personal information related to shareholders)] \n\nName, home address, shareholder
+    number, etc."
+- source: personal information
+  target: personal information collect in relation to inquiry
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - '[(Personal information collected in relation to inquiries)]'
+- source: personal information
+  target: personal information collect in relation to kanamic cloud service
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - '[(Personal information collected in relation to the Kanamic Cloud Service)]'
+- source: personal information
+  target: personal information collect in relation to pr ir activity
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - '[(Personal information collected in relation to PR / IR activities)]'
+- source: personal information
+  target: personal information provide
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information
+  target: personal information register regard medical care nursing care service
+  key: SUBSUM
+  text:
+  - "Personal information collected in relation to the Kanamic Cloud Service)] \n\nPersonal
+    information (such as name, zip code, home address, and phone number) provided
+    by applicants to our service Personal information registered by current users
+    of the Kanamic Cloud Service regarding the user's medical care/nursing care/social
+    welfare services, etc."
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+- source: personal information
+  target: personal information relate to employment screening
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - '[(Personal information related to employment screening)]'
+- source: personal information
+  target: personal information relate to officer
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - '[(Personal information related to our officers, counsel, and employees)]'
+- source: personal information
+  target: personal information relate to shareholder
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - '[(Personal information related to shareholders)]'
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - "Personal information collected in relation to the Kanamic Cloud Service)] \n\nPersonal
+    information (such as name, zip code, home address, and phone number) provided
+    by applicants to our service Personal information registered by current users
+    of the Kanamic Cloud Service regarding the user's medical care/nursing care/social
+    welfare services, etc."
+  - "[(Personal information collected in relation to PR / IR activities)] \n\nPersonal
+    information (such as name, zip code, home address, phone number, and image data)
+    provided by applicable individuals"
+  - "[(Personal information collected in relation to inquiries)] \n\nPersonal information
+    (such as place of work, name, home address, phone number, and email address) provided
+    by inquirers upon making inquiries to us"
+- source: personal information
+  target: place of work
+  key: SUBSUM
+  text:
+  - "[(Personal information collected in relation to inquiries)] \n\nPersonal information
+    (such as place of work, name, home address, phone number, and email address) provided
+    by inquirers upon making inquiries to us"
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - "Personal information collected in relation to the Kanamic Cloud Service)] \n\nPersonal
+    information (such as name, zip code, home address, and phone number) provided
+    by applicants to our service Personal information registered by current users
+    of the Kanamic Cloud Service regarding the user's medical care/nursing care/social
+    welfare services, etc."
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - "[(Personal information collected in relation to PR / IR activities)] \n\nPersonal
+    information (such as name, zip code, home address, phone number, and image data)
+    provided by applicable individuals"
+  - "[(Personal information collected in relation to inquiries)] \n\nPersonal information
+    (such as place of work, name, home address, phone number, and email address) provided
+    by inquirers upon making inquiries to us"
+  - "[(Personal information related to shareholders)] \n\nName, home address, shareholder
+    number, etc."
+- source: personal information
+  target: shareholder number
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    II Types of personal information'
+  - "[(Personal information related to shareholders)] \n\nName, home address, shareholder
+    number, etc."
+- source: personal information
+  target: zip code
+  key: SUBSUM
+  text:
+  - "Personal information collected in relation to the Kanamic Cloud Service)] \n\nPersonal
+    information (such as name, zip code, home address, and phone number) provided
+    by applicants to our service Personal information registered by current users
+    of the Kanamic Cloud Service regarding the user's medical care/nursing care/social
+    welfare services, etc."
+  - "[(Personal information collected in relation to PR / IR activities)] \n\nPersonal
+    information (such as name, zip code, home address, phone number, and image data)
+    provided by applicable individuals"
+- source: personal information provide
+  target: age
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information provide
+  target: date of birth
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information provide
+  target: email address
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information provide
+  target: expect date of graduation
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information provide
+  target: gender
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information provide
+  target: name of school attend
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information provide
+  target: person name
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information provide
+  target: phone number
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information provide
+  target: postal address
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information provide
+  target: qualification
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information provide
+  target: work history
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: personal information provide
+  target: zip code
+  key: SUBSUM
+  text:
+  - "[(Personal information related to employment screening)] \n\nPersonal information
+    provided by job applicants (such as name, gender, date of birth, age, zip code,
+    home address, phone number, mobile phone number, email address, name of school
+    being attended, year admitted to university, expected date of graduation, qualifications,
+    and work history)"
+- source: use share personal information
+  target: datum user contract
+  key: SUBSUM
+  text:
+  - Alternatively, jointly used (shared) personal information may also include data
+    that "the User" contracted to have migrated into the system when "the User" began
+    using the system.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: many website
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: age
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: datum user contract
+- type: DATA
+  id: email address
+- type: DATA
+  id: expect date of graduation
+- type: DATA
+  id: family information
+- type: DATA
+  id: gender
+- type: DATA
+  id: image datum
+- type: DATA
+  id: job history
+- type: DATA
+  id: name of school attend
+- type: DATA
+  id: pension information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information collect in relation to inquiry
+- type: DATA
+  id: personal information collect in relation to kanamic cloud service
+- type: DATA
+  id: personal information collect in relation to pr ir activity
+- type: DATA
+  id: personal information provide
+- type: DATA
+  id: personal information register regard medical care nursing care service
+- type: DATA
+  id: personal information relate to employment screening
+- type: DATA
+  id: personal information relate to officer
+- type: DATA
+  id: personal information relate to shareholder
+- type: DATA
+  id: phone number
+- type: DATA
+  id: place of work
+- type: DATA
+  id: postal address
+- type: DATA
+  id: qualification
+- type: DATA
+  id: shareholder number
+- type: DATA
+  id: use share personal information
+- type: DATA
+  id: work history
+- type: DATA
+  id: zip code

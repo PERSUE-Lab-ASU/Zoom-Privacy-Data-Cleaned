@@ -1,0 +1,64 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal datum in use electronic format
+  key: COLLECT
+  text:
+  - Upon receipt of a written request, we shall, within ten (10) business days, provide
+    you with such personal data in a commonly used electronic format, unless extenuating
+    circumstances require a longer response time, which shall be communicated to you
+    within the ten (10) business day period.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will collect personal information by lawful and fair means and, where appropriate,
+    with the knowledge or consent of the individual concerned.
+  - We will only retain personal information as long as necessary for the fulfillment
+    of those purposes.
+  purposes: {}
+- source: classbug
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - ClassBug uses Pace Payment Systems, part of i3 Verticals, to gather End Users'
+    data from financial institutions.
+  purposes: {}
+- source: personal datum in use electronic format
+  target: copy
+  key: SUBSUM
+  text:
+  - Pursuant to applicable law, you have the right to request and receive a copy of
+    your personal data that we collect, process, and store in our capacity as a Service
+    Provider.
+  - Upon receipt of a written request, we shall, within ten (10) business days, provide
+    you with such personal data in a commonly used electronic format, unless extenuating
+    circumstances require a longer response time, which shall be communicated to you
+    within the ten (10) business day period.
+- source: personal datum in use electronic format
+  target: personal information
+  key: SUBSUM
+  text:
+  - Pursuant to applicable law, you have the right to request and receive a copy of
+    your personal data that we collect, process, and store in our capacity as a Service
+    Provider.
+  - Upon receipt of a written request, we shall, within ten (10) business days, provide
+    you with such personal data in a commonly used electronic format, unless extenuating
+    circumstances require a longer response time, which shall be communicated to you
+    within the ten (10) business day period.
+nodes:
+- type: ACTOR
+  id: classbug
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: copy
+- type: DATA
+  id: personal datum in use electronic format
+- type: DATA
+  id: personal information

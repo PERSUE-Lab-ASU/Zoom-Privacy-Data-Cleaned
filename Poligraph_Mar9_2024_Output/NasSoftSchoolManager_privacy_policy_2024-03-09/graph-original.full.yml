@@ -1,0 +1,268 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Whenever you provide such information we will only use your information in line
+    with all applicable data protection laws, including the General Data Protection
+    Regulation (GDPR).
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - In some case we use trusted third parties to collect this information for us,
+    which may include recording your use of our Website but they only use the information
+    for the purposes explained.
+  - These cookies are used to collect anonymous information about how you use our
+    Website.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - By continuing to browse or use our Website and services, you agree that we can
+    store and access cookies and other tracking technologies as described herein.
+  - Once you have given your consent to use cookies we will store a cookie on your
+    computer or device to remember this for next time.
+  - We use cookies to understand how our sites are used which helps us to improve
+    your overall online experience.
+  - 'We use the following types of cookies: Persistent cookies: to improve your experience
+    when using the Website.'
+  - 'We use the following types of cookies: Session cookies: to enable your use of
+    our Website and to remember your settings.'
+  - 'We use the following types of cookies: Web analytics cookies: These cookies are
+    used by us or third-party providers to analyze how the Website and our services
+    are used, including the following types: Google Analytics , Web Beacons .'
+  purposes:
+    analytics:
+    - 'to analyze how the Website and our services are used, including the following
+      types: Google Analytics , Web Beacons'
+    - to understand how our sites are used
+    services:
+    - to improve your experience when using the Website
+- source: we
+  target: marketing message about product
+  key: COLLECT
+  text:
+  - Where you tell us that you no longer wish to receive marketing messages about
+    NASSOFT's products and services, we will keep this information about you until
+    you tell us otherwise.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Personal information that we collect includes: names, addresses, email addresses,
+    phone numbers, unique personal identifiers, financial information, subject areas
+    of interest and/or demographic information.'
+  - We may retain your personal information for longer if it may be the subject of
+    a legal claim, or may otherwise be relevant for future litigation.
+  - 'We process your personal information:'
+  purposes:
+    legal:
+    - For compliance with a legal obligation
+- source: we
+  target: personal user information
+  key: COLLECT
+  text:
+  - Also, in the event of a violation of the terms and conditions of use of the Website
+    or a violation of any restrictions on use of materials provided in, or through,
+    the Website, we may disclose personal user information to our affected business
+    partners or legal authorities.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - In some case we use trusted third parties to collect this information for us,
+    which may include recording your use of our Website but they only use the information
+    for the purposes explained.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'We use the following types of cookies: Web analytics cookies: These cookies are
+    used by us or third-party providers to analyze how the Website and our services
+    are used, including the following types: Google Analytics , Web Beacons .'
+  purposes:
+    analytics:
+    - 'to analyze how the Website and our services are used, including the following
+      types: Google Analytics , Web Beacons'
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Any third parties will only process this information to the extent to which and
+    within the limits that NASSOFT itself is permitted to process that data.
+  - NASSOFT will not sell, share, or rent or otherwise make available your personal
+    information to other parties, except that we may disclose the information to third
+    parties who perform services on our behalf and have a need to access the information
+    in connection with those services.
+  purposes: {}
+- source: affected business partner
+  target: personal user information
+  key: COLLECT
+  text:
+  - Also, in the event of a violation of the terms and conditions of use of the Website
+    or a violation of any restrictions on use of materials provided in, or through,
+    the Website, we may disclose personal user information to our affected business
+    partners or legal authorities.
+  purposes: {}
+- source: contractor
+  target: datum provide
+  key: COLLECT
+  text:
+  - Only authorized employees and contractors will have access to any data provided
+    by you, and that access is limited by need.
+  purposes: {}
+- source: legal authority
+  target: personal user information
+  key: COLLECT
+  text:
+  - Also, in the event of a violation of the terms and conditions of use of the Website
+    or a violation of any restrictions on use of materials provided in, or through,
+    the Website, we may disclose personal user information to our affected business
+    partners or legal authorities.
+  purposes: {}
+- source: nassoft
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - NASSOFT collects information from you when you create your account for the Website,
+    subscribe for email newsletters and press releases, seek additional information
+    regarding our services or employment opportunities, databases, or register for
+    conferences and other NASSOFT-sponsored events.
+  purposes: {}
+- source: nassoft
+  target: contact information
+  key: COLLECT
+  text:
+  - In addition, NASSOFT may disclose your contact information in response to inquiries
+    by bona-fide rights owners in connection with allegations of infringement of copyright
+    or other proprietary rights arising from information that you have posted on the
+    Website or otherwise provided to NASSOFT.
+  purposes: {}
+- source: nassoft
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - NASSOFT may use cookies on this Website and in our communications with you to
+    keep track of your visit to our Website and our communications with you.
+  purposes:
+    analytics:
+    - to keep track of your visit to our Website and our communications with you
+    services:
+    - to keep track of your visit to our Website and our communications with you
+- source: nassoft
+  target: personal information
+  key: COLLECT
+  text:
+  - NASSOFT retains your personal information for as long as is necessary to fulfill
+    the purpose for which it was collected.
+  purposes: {}
+- source: personal information
+  target: demographic information
+  key: SUBSUM
+  text:
+  - 'Personal information that we collect includes: names, addresses, email addresses,
+    phone numbers, unique personal identifiers, financial information, subject areas
+    of interest and/or demographic information.'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Personal information that we collect includes: names, addresses, email addresses,
+    phone numbers, unique personal identifiers, financial information, subject areas
+    of interest and/or demographic information.'
+- source: personal information
+  target: financial information
+  key: SUBSUM
+  text:
+  - 'Personal information that we collect includes: names, addresses, email addresses,
+    phone numbers, unique personal identifiers, financial information, subject areas
+    of interest and/or demographic information.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Personal information that we collect includes: names, addresses, email addresses,
+    phone numbers, unique personal identifiers, financial information, subject areas
+    of interest and/or demographic information.'
+- source: personal information
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - 'Personal information that we collect includes: names, addresses, email addresses,
+    phone numbers, unique personal identifiers, financial information, subject areas
+    of interest and/or demographic information.'
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Personal information that we collect includes: names, addresses, email addresses,
+    phone numbers, unique personal identifiers, financial information, subject areas
+    of interest and/or demographic information.'
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Personal information that we collect includes: names, addresses, email addresses,
+    phone numbers, unique personal identifiers, financial information, subject areas
+    of interest and/or demographic information.'
+- source: personal information
+  target: subject area of interest
+  key: SUBSUM
+  text:
+  - 'Personal information that we collect includes: names, addresses, email addresses,
+    phone numbers, unique personal identifiers, financial information, subject areas
+    of interest and/or demographic information.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: affected business partner
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: legal authority
+- type: ACTOR
+  id: nassoft
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum provide
+- type: DATA
+  id: demographic information
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial information
+- type: DATA
+  id: marketing message about product
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal user information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: subject area of interest

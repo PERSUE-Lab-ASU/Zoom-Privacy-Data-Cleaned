@@ -1,0 +1,90 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: behavior
+  key: COLLECT
+  text:
+  - Due to the ever-changing market, we may analyze visitor demographics, interests,
+    and behavior based on personal data to better understand customer behavior and
+    improve our services.
+  purposes:
+    analytics:
+    - to better understand customer behavior and improve our services
+    services:
+    - to better understand customer behavior and improve our services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We utilize "cookies" to retain information about how you utilize our software.
+  purposes:
+    analytics:
+    - to retain information about how you utilize our software
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We may use or disclose any information we have collected to respond to government
+    or statutory authorities if there are any legal obligations.
+  purposes:
+    legal:
+    - to respond to government or statutory authorities
+- source: we
+  target: information we request from you for purpose of
+  key: COLLECT
+  text:
+  - We are dedicated to protecting your personal information, and any other information
+    we request from you for the purpose of processing your account will only be used
+    in accordance with this privacy statement.
+  purposes: {}
+- source: we
+  target: interest
+  key: COLLECT
+  text:
+  - Due to the ever-changing market, we may analyze visitor demographics, interests,
+    and behavior based on personal data to better understand customer behavior and
+    improve our services.
+  purposes:
+    analytics:
+    - to better understand customer behavior and improve our services
+    services:
+    - to better understand customer behavior and improve our services
+- source: we
+  target: visitor demographic
+  key: COLLECT
+  text:
+  - Due to the ever-changing market, we may analyze visitor demographics, interests,
+    and behavior based on personal data to better understand customer behavior and
+    improve our services.
+  purposes:
+    analytics:
+    - to better understand customer behavior and improve our services
+    services:
+    - to better understand customer behavior and improve our services
+- source: use technology
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This widely used technology stores your data.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: use technology
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: behavior
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information we request from you for purpose of
+- type: DATA
+  id: interest
+- type: DATA
+  id: visitor demographic

@@ -1,0 +1,262 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'For business transfers: We may use Your information to evaluate or conduct a
+    merger, divestiture, restructuring, reorganization, dissolution, or other sale
+    or transfer of some or all of Our assets, whether as a going concern or as part
+    of bankruptcy, liquidation, or similar proceeding, in which Personal Data held
+    by Us about our Service users is among the assets transferred.'
+  - 'For other purposes: We may use Your information for other purposes, such as data
+    analysis, identifying usage trends, determining the effectiveness of our promotional
+    campaigns and to evaluate and improve our Service, products, services, marketing
+    and your experience.'
+  - When You access the Service by or through a mobile device, We may collect certain
+    information automatically, including, but not limited to, the type of mobile device
+    You use, Your mobile device unique ID, the IP address of Your mobile device, Your
+    mobile operating system, the type of mobile Internet browser You use, unique device
+    identifiers and other diagnostic data.
+  - 'With Affiliates: We may share Your information with Our affiliates, in which
+    case we will require those affiliates to honor this Privacy Policy.'
+  - 'With business partners: We may share Your information with Our business partners
+    to offer You certain products, services or promotions.'
+  purposes:
+    advertising:
+    - for other purposes, such as data analysis, identifying usage trends, determining
+      the effectiveness of our promotional campaigns
+    - to offer You certain products, services or promotions
+    analytics:
+    - for other purposes, such as data analysis, identifying usage trends, determining
+      the effectiveness of our promotional campaigns
+    legal:
+    - to evaluate or conduct a merger, divestiture, restructuring, reorganization,
+      dissolution, or other sale or transfer of some or all of Our assets, whether
+      as a going concern or as part of bankruptcy, liquidation, or similar proceeding,
+      in which Personal Data held by Us about our Service users is among the assets
+      transferred
+    services:
+    - For business transfers
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using Our Service, We may ask You to provide Us with certain personally
+    identifiable information that can be used to contact or identify You.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Unless you have adjusted Your browser setting so that it will refuse Cookies,
+    our Service may use Cookies.
+  - We use Cookies and similar tracking technologies to track the activity on Our
+    Service and store certain information.
+  - 'We use both Session and Persistent Cookies for the purposes set out below:'
+  purposes:
+    analytics:
+    - to track the activity on Our Service and store certain information
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - We may also collect information that Your browser sends whenever You visit our
+    Service or when You access the Service by or through a mobile device.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - The Company will also retain Usage Data for internal analysis purposes.
+  purposes:
+    analytics:
+    - for internal analysis purposes
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using Our Service, We may ask You to provide Us with certain personally
+    identifiable information that can be used to contact or identify You.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'For business transfers: We may share or transfer Your personal information in
+    connection with, or during negotiations of, any merger, sale of Company assets,
+    financing, or acquisition of all or a portion of Our business to another company.'
+  - 'The Company may disclose Your Personal Data in the good faith belief that such
+    action is necessary to:'
+  - 'The Company may use Personal Data for the following purposes:'
+  - The Company will retain Your Personal Data only for as long as is necessary for
+    the purposes set out in this Privacy Policy.
+  - Under certain circumstances, the Company may be required to disclose Your Personal
+    Data if required to do so by law or in response to valid requests by public authorities
+    (e.g. a court or a government agency).
+  - 'We may share Your personal information in the following situations:'
+  - We may share Your personal information with Service Providers to monitor and analyze
+    the use of our Service,  to contact You.
+  - We use Your Personal data to provide and improve the Service.
+  - We will retain and use Your Personal Data to the extent necessary to comply with
+    our legal obligations (for example, if we are required to retain your data to
+    comply with applicable laws), resolve disputes, and enforce our legal agreements
+    and policies.
+  - 'With Your consent: We may disclose Your personal information for any other purpose
+    with Your consent.'
+  purposes:
+    analytics:
+    - to monitor and analyze the use of our Service
+    services:
+    - For business transfers
+    - to provide and improve the Service
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'With Affiliates: We may share Your information with Our affiliates, in which
+    case we will require those affiliates to honor this Privacy Policy.'
+  purposes: {}
+- source: business partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'With business partners: We may share Your information with Our business partners
+    to offer You certain products, services or promotions.'
+  purposes:
+    advertising:
+    - to offer You certain products, services or promotions
+- source: feature of service
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Certain features of our Service may use local stored objects (or Flash Cookies)
+    to collect and store information about Your preferences or Your activity on our
+    Service.
+  purposes: {}
+- source: feature of service
+  target: information about preference
+  key: COLLECT
+  text:
+  - Certain features of our Service may use local stored objects (or Flash Cookies)
+    to collect and store information about Your preferences or Your activity on our
+    Service.
+  purposes: {}
+- source: feature of service
+  target: local store object
+  key: COLLECT
+  text:
+  - Certain features of our Service may use local stored objects (or Flash Cookies)
+    to collect and store information about Your preferences or Your activity on our
+    Service.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - We may share Your personal information with Service Providers to monitor and analyze
+    the use of our Service,  to contact You.
+  purposes:
+    analytics:
+    - to monitor and analyze the use of our Service
+- source: internet activity
+  target: browser type
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: browser version
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: date
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: device identifier
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: diagnostic datum
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+- source: internet activity
+  target: time
+  key: SUBSUM
+  text:
+  - Usage Data may include information such as Your Device's Internet Protocol address
+    (e.g. IP address), browser type, browser version, the pages of our Service that
+    You visit, the time and date of Your visit, the time spent on those pages, unique
+    device identifiers and other diagnostic data.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: feature of service
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: diagnostic datum
+- type: DATA
+  id: information about preference
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: local store object
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: time

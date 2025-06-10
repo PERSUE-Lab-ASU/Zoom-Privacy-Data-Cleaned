@@ -1,0 +1,285 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'When you access the Site or use the Service, we collect the following: Like many
+    websites, we use "cookies" to collect information.'
+  - You authorize us to share your information with our Customer who owns such data
+    and to any other third party with the prior consent of our customer who owns such
+    data.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share aggregated information, including queries and offers generated as
+    a result of your use of the Service, that includes non-identifying information
+    and Log Data with third parties for industry analysis, demographic profiling,
+    other commercial purposes and to deliver targeted advertising about other products
+    and services.
+  purposes:
+    advertising:
+    - for industry analysis, demographic profiling, other commercial purposes and
+      to deliver targeted advertising about other products and services
+    analytics:
+    - for industry analysis, demographic profiling, other commercial purposes and
+      to deliver targeted advertising about other products and services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We also use "session ID cookies" to enable certain features of the Service, to
+    better understand how you interact with the Service and to monitor web traffic
+    routing on the Site and aggregate usage of the Service; these cookies disappear
+    from your computer when you close your browser software or turn off your computer.
+  - We use "persistent cookies" to save your username and login password for future
+    logins to the Site; these cookies allow the Company to uniquely identify you when
+    you are logged into the Service and remain on your computer after you close your
+    browser or turn off your computer.
+  - 'When you access the Site or use the Service, we collect the following: Like many
+    websites, we use "cookies" to collect information.'
+  purposes:
+    analytics:
+    - to enable certain features of the Service, to better understand how you interact
+      with the Service and to monitor web traffic routing on the Site and aggregate
+      usage of the Service
+    services:
+    - to enable certain features of the Service, to better understand how you interact
+      with the Service and to monitor web traffic routing on the Site and aggregate
+      usage of the Service
+    - to save your username and login password for future logins to the Site
+- source: we
+  target: datum be
+  key: COLLECT
+  text:
+  - We may retain residual information in our backup and/or archival copies and may
+    maintain data that is not personally identifiable information without any time
+    limit.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We will disclose any information about you to government or law enforcement officials
+    or private parties as we believe in good faith is necessary or appropriate to
+    investigate or to respond to claims and legal process (including but not limited
+    to subpoenas), to protect our or a third-party's property and rights, to protect
+    the safety of the public or any person, or to prevent or stop any activity we
+    may consider to be, or to pose a risk of being, illegal, unethical, inappropriate
+    or legally actionable.
+  purposes:
+    legal:
+    - to pose a risk of being, illegal, unethical, inappropriate or legally actionable
+    security:
+    - to pose a risk of being, illegal, unethical, inappropriate or legally actionable
+- source: we
+  target: personal datum we process on behalf of customer
+  key: COLLECT
+  text:
+  - We retain personal data we process on behalf of our customers for as long as needed
+    to provide services to our customers, as necessary to comply with our legal obligations,
+    resolve disputes, and enforce our agreements.
+  purposes:
+    legal:
+    - to provide services to our customers, as necessary to comply with our legal
+      obligations, resolve disputes, and enforce our agreements
+    services:
+    - to provide services to our customers, as necessary to comply with our legal
+      obligations, resolve disputes, and enforce our agreements
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - In the course of using the Service, you or a third party may provide us with certain
+    personally identifiable information that can be used to provide the Service or
+    to contact or identify you ("Personal Information").
+  purposes: {}
+- source: we
+  target: residual information
+  key: COLLECT
+  text:
+  - We may retain residual information in our backup and/or archival copies and may
+    maintain data that is not personally identifiable information without any time
+    limit.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These other sites may place their own cookies or other files on your computer,
+    collect data or solicit personal information from you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share aggregated information, including queries and offers generated as
+    a result of your use of the Service, that includes non-identifying information
+    and Log Data with third parties for industry analysis, demographic profiling,
+    other commercial purposes and to deliver targeted advertising about other products
+    and services.
+  purposes:
+    advertising:
+    - for industry analysis, demographic profiling, other commercial purposes and
+      to deliver targeted advertising about other products and services
+    analytics:
+    - for industry analysis, demographic profiling, other commercial purposes and
+      to deliver targeted advertising about other products and services
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - In the course of using the Service, you or a third party may provide us with certain
+    personally identifiable information that can be used to provide the Service or
+    to contact or identify you ("Personal Information").
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - In the course of using the Service, you or a third party may provide us with certain
+    personally identifiable information that can be used to provide the Service or
+    to contact or identify you ("Personal Information").
+  - These other sites may place their own cookies or other files on your computer,
+    collect data or solicit personal information from you.
+  - These third parties have access to your Personal Information only to perform these
+    tasks on our behalf.
+  purposes:
+    services:
+    - only to perform these tasks on our behalf
+- source: government official
+  target: information about you
+  key: COLLECT
+  text:
+  - We will disclose any information about you to government or law enforcement officials
+    or private parties as we believe in good faith is necessary or appropriate to
+    investigate or to respond to claims and legal process (including but not limited
+    to subpoenas), to protect our or a third-party's property and rights, to protect
+    the safety of the public or any person, or to prevent or stop any activity we
+    may consider to be, or to pose a risk of being, illegal, unethical, inappropriate
+    or legally actionable.
+  purposes:
+    legal:
+    - to pose a risk of being, illegal, unethical, inappropriate or legally actionable
+    security:
+    - to pose a risk of being, illegal, unethical, inappropriate or legally actionable
+- source: private party
+  target: information about you
+  key: COLLECT
+  text:
+  - We will disclose any information about you to government or law enforcement officials
+    or private parties as we believe in good faith is necessary or appropriate to
+    investigate or to respond to claims and legal process (including but not limited
+    to subpoenas), to protect our or a third-party's property and rights, to protect
+    the safety of the public or any person, or to prevent or stop any activity we
+    may consider to be, or to pose a risk of being, illegal, unethical, inappropriate
+    or legally actionable.
+  purposes:
+    legal:
+    - to pose a risk of being, illegal, unethical, inappropriate or legally actionable
+    security:
+    - to pose a risk of being, illegal, unethical, inappropriate or legally actionable
+- source: aggregate / deidentified / pseudonymized information
+  target: log datum
+  key: SUBSUM
+  text:
+  - We may share aggregated information, including queries and offers generated as
+    a result of your use of the Service, that includes non-identifying information
+    and Log Data with third parties for industry analysis, demographic profiling,
+    other commercial purposes and to deliver targeted advertising about other products
+    and services.
+- source: aggregate / deidentified / pseudonymized information
+  target: non - identifying information
+  key: SUBSUM
+  text:
+  - We may share aggregated information, including queries and offers generated as
+    a result of your use of the Service, that includes non-identifying information
+    and Log Data with third parties for industry analysis, demographic profiling,
+    other commercial purposes and to deliver targeted advertising about other products
+    and services.
+- source: service relate to administration of service
+  target: administration
+  key: SUBSUM
+  text:
+  - We use others to provide the Service and perform services related to administration
+    of the Service or the Site (such as cloud or internet-based storage and data processing
+    solutions, database management services, web analytics and administration).
+- source: service relate to administration of service
+  target: analytic provider
+  key: SUBSUM
+  text:
+  - We use others to provide the Service and perform services related to administration
+    of the Service or the Site (such as cloud or internet-based storage and data processing
+    solutions, database management services, web analytics and administration).
+- source: service relate to administration of service
+  target: cloud storage solution
+  key: SUBSUM
+  text:
+  - We use others to provide the Service and perform services related to administration
+    of the Service or the Site (such as cloud or internet-based storage and data processing
+    solutions, database management services, web analytics and administration).
+- source: service relate to administration of service
+  target: database management service
+  key: SUBSUM
+  text:
+  - We use others to provide the Service and perform services related to administration
+    of the Service or the Site (such as cloud or internet-based storage and data processing
+    solutions, database management services, web analytics and administration).
+- source: share
+  target: asset
+  key: SUBSUM
+  text:
+  - In connection with a merger, acquisition, reorganization or sale of all or substantially
+    all of Our shares or assets, or in the event of our bankruptcy, we may transfer
+    some or all of our assets, including among others any Personal Information, subject
+    to our Privacy Policy as in effect immediately prior to such a transfer (except
+    if we notify you otherwise).
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: administration
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: asset
+- type: ACTOR
+  id: cloud storage solution
+- type: ACTOR
+  id: database management service
+- type: ACTOR
+  id: government official
+- type: ACTOR
+  id: private party
+- type: ACTOR
+  id: service relate to administration of service
+- type: ACTOR
+  id: share
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum be
+- type: DATA
+  id: information about you
+- type: DATA
+  id: log datum
+- type: DATA
+  id: non - identifying information
+- type: DATA
+  id: personal datum we process on behalf of customer
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: residual information

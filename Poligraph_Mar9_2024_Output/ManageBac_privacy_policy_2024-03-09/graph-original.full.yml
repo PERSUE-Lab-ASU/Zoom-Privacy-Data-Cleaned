@@ -1,0 +1,107 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information on website
+  key: COLLECT
+  text:
+  - We provide all information on our Website free of any access charge other than
+    our charges to Schools.
+  purposes: {}
+- source: we
+  target: content
+  key: SUBSUM
+  text:
+  - 'Terms of Service
+
+
+    9. General Conditions
+
+
+    9.3 You understand that the technical processing and transmission of the Service,
+    including Content, may occur in an unencrypted form if SSL is not enabled on your
+    computer, and result in transmissions over the Internet, which may be intercepted
+    by others.'
+- source: associated login information
+  target: login email
+  key: SUBSUM
+  text:
+  - '"Membership" means an individual''s licence to access our service and associated
+    login information (such as a login email and password), as authorised.'
+- source: associated login information
+  target: password
+  key: SUBSUM
+  text:
+  - '"Membership" means an individual''s licence to access our service and associated
+    login information (such as a login email and password), as authorised.'
+- source: higher education institutions
+  target: colleges
+  key: SUBSUM
+  text:
+  - Depending upon the preferences of the School and subject to the consent of Parents,
+    students may be encouraged to make educational materials, results and grades available
+    to third parties, such as Higher Education Institutions (i.e. Colleges & Universities)
+    on one or more of the Websites.
+- source: higher education institutions
+  target: universities
+  key: SUBSUM
+  text:
+  - Depending upon the preferences of the School and subject to the consent of Parents,
+    students may be encouraged to make educational materials, results and grades available
+    to third parties, such as Higher Education Institutions (i.e. Colleges & Universities)
+    on one or more of the Websites.
+- source: school information
+  target: academic record
+  key: SUBSUM
+  text:
+  - Generally speaking, our services revolve around providing Members with online
+    access to School information such as curriculum details, assessments & tasks,
+    academic records, assessment submission & deadline dates, and other information,
+    as well as acting as a communications medium to facilitate interaction between
+    Teachers, IB Coordinators, Administrators, and Members.
+- source: school information
+  target: assessment submission date
+  key: SUBSUM
+  text:
+  - Generally speaking, our services revolve around providing Members with online
+    access to School information such as curriculum details, assessments & tasks,
+    academic records, assessment submission & deadline dates, and other information,
+    as well as acting as a communications medium to facilitate interaction between
+    Teachers, IB Coordinators, Administrators, and Members.
+- source: school information
+  target: curriculum detail
+  key: SUBSUM
+  text:
+  - Generally speaking, our services revolve around providing Members with online
+    access to School information such as curriculum details, assessments & tasks,
+    academic records, assessment submission & deadline dates, and other information,
+    as well as acting as a communications medium to facilitate interaction between
+    Teachers, IB Coordinators, Administrators, and Members.
+nodes:
+- type: ACTOR
+  id: colleges
+- type: ACTOR
+  id: content
+- type: ACTOR
+  id: higher education institutions
+- type: ACTOR
+  id: universities
+- type: ACTOR
+  id: we
+- type: DATA
+  id: academic record
+- type: DATA
+  id: assessment submission date
+- type: DATA
+  id: associated login information
+- type: DATA
+  id: curriculum detail
+- type: DATA
+  id: information on website
+- type: DATA
+  id: login email
+- type: DATA
+  id: password
+- type: DATA
+  id: school information

@@ -1,0 +1,169 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Subject to your Privacy Settings, we may also share your data with select third
+    party service providers we engage to enable functionality within the Service and
+    they may also use your data to improve their services.
+  purposes:
+    services:
+    - to enable functionality within the Service
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'Our company uses the collected data in the following ways:'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may also ask you to provide additional information such as your email address
+    if you want to obtain additional services, information, participate in a contest
+    or to resolve complaints or concerns.
+  purposes: {}
+- source: we
+  target: information gather about you
+  key: COLLECT
+  text:
+  - 'In particular, we may use information gathered about you for the following purposes:
+    to monitor interest in our range of products and to assist us to tailor the content
+    of our Sites to your needs by collecting information about your preferences through
+    tracking of patterns page views on our Sites; to create a profile relating to
+    you in order to show you the content that might be of interest to you and to display
+    the content according to your preferences; and, in circumstances where you have
+    indicated that you wish to receive additional information, to send you information
+    about us and promotional material about our products together with details of
+    any offers we may have available from time to time.'
+  purposes:
+    analytics:
+    - 'for the following purposes: to monitor interest in our range of products and
+      to assist us to tailor the content of our Sites to your needs by collecting
+      information about your preferences through tracking of patterns page views on
+      our Sites'
+- source: we
+  target: information on
+  key: COLLECT
+  text:
+  - In addition, we will automatically gather information on how the Service is accessed
+    and utilized.
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - We collect information that you voluntarily provide to us through responses to
+    surveys, search functions, questionnaires, feedback, Tell Your Story forms and
+    the like.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Although you are not required to register to access our Sites, you may be asked
+    to provide us with personal information when you visit certain sections of our
+    Sites.
+  purposes: {}
+- source: Google
+  target: acquire datum
+  key: COLLECT
+  text:
+  - Google may utilize the acquired data to contextualize and customize the advertisements
+    that appear throughout its advertising network.
+  purposes:
+    advertising:
+    - to contextualize and customize the advertisements that appear throughout its
+      advertising network
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Subject to your Privacy Settings, we may also share your data with select third
+    party service providers we engage to enable functionality within the Service and
+    they may also use your data to improve their services.
+  purposes:
+    services:
+    - to enable functionality within the Service
+    - to improve their services
+- source: UNSPECIFIED_ACTOR
+  target: input you provide
+  key: COLLECT
+  text:
+  - You acknowledge that any Input you provide, including any personal data you choose
+    to include within that Input, will be shared with third party service providers
+    we engage to enable functionality within the Service.
+  purposes:
+    services:
+    - to enable functionality within the Service
+- source: UNSPECIFIED_ACTOR
+  target: personal information you share with we
+  key: COLLECT
+  text:
+  - Personal information you share with us is stored on our database servers at Company
+    data centers (in whatever country they may be located), or hosted by third parties
+    who have entered into agreements with us that require them to observe our Privacy
+    Policy.
+  purposes: {}
+- source: sellmethispen
+  target: technology provide
+  key: COLLECT
+  text:
+  - SellMeThisPen uses technology provided by third party service providers to provide
+    some of our AI Products.
+  purposes:
+    services:
+    - to provide some of our AI Products
+- source: service provide
+  target: data it collect
+  key: COLLECT
+  text:
+  - Google tracks and monitors how our Service is used by its users using the data
+    that it collects and stores.
+  - This information is shared with the other services provided by Google.
+  purposes: {}
+- source: input you provide
+  target: personal information
+  key: SUBSUM
+  text:
+  - You acknowledge that any Input you provide, including any personal data you choose
+    to include within that Input, will be shared with third party service providers
+    we engage to enable functionality within the Service.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: sellmethispen
+- type: ACTOR
+  id: service provide
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: acquire datum
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: data it collect
+- type: DATA
+  id: email address
+- type: DATA
+  id: information gather about you
+- type: DATA
+  id: information on
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: input you provide
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information you share with we
+- type: DATA
+  id: technology provide

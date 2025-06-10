@@ -1,0 +1,835 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For instance, we analyze users' behavior on the Website to continuously improve
+    it and we process information for administrative, fraud detection and other legal
+    purposes.
+  - Subject to your right to deletion as required by law, we will retain your information
+    for as long as long as is reasonably necessary to engage with you in relation
+    to the interaction for which we collected your information or as otherwise permitted
+    by applicable law.
+  - We will also retain and use your information as necessary to comply with our legal
+    obligations, resolve disputes, and to enforce our agreements.
+  purposes:
+    legal:
+    - to comply with our legal obligations, resolve disputes, and to enforce our agreements
+    services:
+    - to continuously improve it
+- source: we
+  target: behavior on website
+  key: COLLECT
+  text:
+  - For instance, we analyze users' behavior on the Website to continuously improve
+    it and we process information for administrative, fraud detection and other legal
+    purposes.
+  purposes:
+    services:
+    - to continuously improve it
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For example, we use web beacons (also known as clear gifs, pixel tags or web bugs).
+  purposes: {}
+- source: we
+  target: inference
+  key: COLLECT
+  text:
+  - We also may share this information and other inferences with third parties to
+    allow them to target advertising, personalize content, or analyze behavior.
+  purposes:
+    advertising:
+    - to allow them to target advertising, personalize content, or analyze behavior
+    analytics:
+    - to allow them to target advertising, personalize content, or analyze behavior
+- source: we
+  target: information about use of website on current device
+  key: COLLECT
+  text:
+  - This means that information about your use of websites or applications on your
+    current device may be combined with information from your other devices.
+  - We also may share this information and other inferences with third parties to
+    allow them to target advertising, personalize content, or analyze behavior.
+  purposes:
+    advertising:
+    - to allow them to target advertising, personalize content, or analyze behavior
+    analytics:
+    - to allow them to target advertising, personalize content, or analyze behavior
+- source: we
+  target: information cover month precede request
+  key: COLLECT
+  text:
+  - 'If you are a California resident, you may request that we disclose to you the
+    following information covering the 12 months preceding your request:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'The following are the legal bases under which we process your information in
+    the manners specified above: Consent - where no other legal basis for processing
+    applies, we may process your personal data based on your consent as you will be
+    asked to provide from time to time.'
+  - 'The following are the legal bases under which we process your information in
+    the manners specified above: Legal obligation - we may process your personal information
+    as necessary to comply with the law (not including contractual obligations).'
+  - 'The following are the legal bases under which we process your information in
+    the manners specified above: Legitimate interests - we may use your personal data
+    where we have legitimate interests to do so.'
+  - We will only process your personal information on our own behalf where we have
+    a legal basis to do so.
+  purposes:
+    legal:
+    - as necessary to comply with the law
+- source: we
+  target: pixel
+  key: COLLECT
+  text:
+  - In addition we may use a tracking technology (pixels) in emails to understand
+    how often our emails are opened and clicked on by our customers.
+  purposes:
+    analytics:
+    - to understand how often our emails are opened and clicked on by our customers
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - NICE reasonably believes that you have breached the Terms of Use, or performed
+    any act or omission that NICE reasonably believes to be violating any applicable
+    law, rules, or regulations, NICE may share your information with law enforcement
+    and other competent authorities and with any third party that may consult NICE
+    or assist in in connection with any such breach as may be required to handle any
+    result of your wrongdoing; including without limitation, in order to contain,
+    remediate, prevent, investigate any such breach, and/or establish or exercise
+    any of NICE's legal rights.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cpni
+  key: COLLECT
+  text:
+  - From time to time, those subsidiaries may need or desire to share your Customer
+    Proprietary Network Information ("CPNI") with other NICE affiliates and/or with
+    third parties involved in assisting with the offering of the services described
+    above and also to enhance our ability to offer products and services tailored
+    to you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: customer proprietary network information
+  key: COLLECT
+  text:
+  - From time to time, those subsidiaries may need or desire to share your Customer
+    Proprietary Network Information ("CPNI") with other NICE affiliates and/or with
+    third parties involved in assisting with the offering of the services described
+    above and also to enhance our ability to offer products and services tailored
+    to you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: inference
+  key: COLLECT
+  text:
+  - We also may share this information and other inferences with third parties to
+    allow them to target advertising, personalize content, or analyze behavior.
+  purposes:
+    advertising:
+    - to allow them to target advertising, personalize content, or analyze behavior
+    analytics:
+    - to allow them to target advertising, personalize content, or analyze behavior
+- source: UNSPECIFIED_ACTOR
+  target: information about use of website on current device
+  key: COLLECT
+  text:
+  - This means that information about your use of websites or applications on your
+    current device may be combined with information from your other devices.
+  - We also may share this information and other inferences with third parties to
+    allow them to target advertising, personalize content, or analyze behavior.
+  purposes:
+    advertising:
+    - to allow them to target advertising, personalize content, or analyze behavior
+    analytics:
+    - to allow them to target advertising, personalize content, or analyze behavior
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Further, your personal data may be disclosed: NICE may share personal data with
+    its Affiliates, for the purpose of assisting in the processing activities detailed
+    herein or if such Affiliate is the best suited to handle your enquiry.'
+  purposes:
+    services:
+    - for the purpose of assisting in the processing activities detailed herein or
+      if such Affiliate is the best suited to handle your enquiry
+- source: UNSPECIFIED_ACTOR
+  target: statistical information
+  key: COLLECT
+  text:
+  - To analyze and provide statistical information to third parties.
+  purposes: {}
+- source: advertiser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Third party companies like analytics companies and ad networks generally use cookies
+    to collect user information on an anonymous basis.
+  purposes: {}
+- source: advertiser
+  target: user information
+  key: COLLECT
+  text:
+  - Third party companies like analytics companies and ad networks generally use cookies
+    to collect user information on an anonymous basis.
+  purposes: {}
+- source: analytic provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Third party companies like analytics companies and ad networks generally use cookies
+    to collect user information on an anonymous basis.
+  purposes: {}
+- source: analytic provider
+  target: user information
+  key: COLLECT
+  text:
+  - Third party companies like analytics companies and ad networks generally use cookies
+    to collect user information on an anonymous basis.
+  purposes: {}
+- source: business partner
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These business partners may share and combine information from cookies with identifiers
+    (such as device IDs assigned by Google or Apple) and IP addresses to make connections
+    among related devices.
+  purposes:
+    services:
+    - to make connections among related devices
+- source: competent authority
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - NICE reasonably believes that you have breached the Terms of Use, or performed
+    any act or omission that NICE reasonably believes to be violating any applicable
+    law, rules, or regulations, NICE may share your information with law enforcement
+    and other competent authorities and with any third party that may consult NICE
+    or assist in in connection with any such breach as may be required to handle any
+    result of your wrongdoing; including without limitation, in order to contain,
+    remediate, prevent, investigate any such breach, and/or establish or exercise
+    any of NICE's legal rights.
+  purposes: {}
+- source: feature
+  target: ip address
+  key: COLLECT
+  text:
+  - These features may collect your IP address, which page you are visiting on our
+    site, and may set a cookie to enable the plugin to function properly.
+  purposes: {}
+- source: law enforcement
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - NICE reasonably believes that you have breached the Terms of Use, or performed
+    any act or omission that NICE reasonably believes to be violating any applicable
+    law, rules, or regulations, NICE may share your information with law enforcement
+    and other competent authorities and with any third party that may consult NICE
+    or assist in in connection with any such breach as may be required to handle any
+    result of your wrongdoing; including without limitation, in order to contain,
+    remediate, prevent, investigate any such breach, and/or establish or exercise
+    any of NICE's legal rights.
+  purposes: {}
+- source: nice
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - NICE reasonably believes that you have breached the Terms of Use, or performed
+    any act or omission that NICE reasonably believes to be violating any applicable
+    law, rules, or regulations, NICE may share your information with law enforcement
+    and other competent authorities and with any third party that may consult NICE
+    or assist in in connection with any such breach as may be required to handle any
+    result of your wrongdoing; including without limitation, in order to contain,
+    remediate, prevent, investigate any such breach, and/or establish or exercise
+    any of NICE's legal rights.
+  purposes: {}
+- source: nice
+  target: personal datum collect via website
+  key: COLLECT
+  text:
+  - 'In addition, NICE may process personal data collected via the Website:'
+  purposes:
+    legal:
+    - To ensure compliance with the Terms of Use that apply to us and you
+    - To ensure legal compliance with legal requirements that apply to us and you
+    security:
+    - To prevent, detect and fight fraud, security threats, or other illegal or unauthorized
+      activities
+- source: nice
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Further, your personal data may be disclosed: NICE may share personal data with
+    its Affiliates, for the purpose of assisting in the processing activities detailed
+    herein or if such Affiliate is the best suited to handle your enquiry.'
+  - NICE may share personal data with its service providers for the purpose of helping
+    NICE execute certain tasks outsourced to them, or providing capabilities NICE
+    requires.
+  purposes:
+    services:
+    - for the purpose of assisting in the processing activities detailed herein or
+      if such Affiliate is the best suited to handle your enquiry
+    - for the purpose of helping NICE execute certain tasks outsourced to them, or
+      providing capabilities NICE requires
+- source: nice affiliate
+  target: cpni
+  key: COLLECT
+  text:
+  - From time to time, those subsidiaries may need or desire to share your Customer
+    Proprietary Network Information ("CPNI") with other NICE affiliates and/or with
+    third parties involved in assisting with the offering of the services described
+    above and also to enhance our ability to offer products and services tailored
+    to you.
+  purposes: {}
+- source: nice affiliate
+  target: customer proprietary network information
+  key: COLLECT
+  text:
+  - From time to time, those subsidiaries may need or desire to share your Customer
+    Proprietary Network Information ("CPNI") with other NICE affiliates and/or with
+    third parties involved in assisting with the offering of the services described
+    above and also to enhance our ability to offer products and services tailored
+    to you.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - NICE may share personal data with its service providers for the purpose of helping
+    NICE execute certain tasks outsourced to them, or providing capabilities NICE
+    requires.
+  purposes:
+    services:
+    - for the purpose of helping NICE execute certain tasks outsourced to them, or
+      providing capabilities NICE requires
+- source: we
+  target: nice web property link to privacy notice
+  key: SUBSUM
+  text:
+  - This Privacy Notice explains how NICE Ltd. and its affiliates (collectively "NICE,"
+    "we," "us," and "our") collect, use and disclose personal data that we handle
+    on our own behalf collected via https://www.nice.com and other NICE web properties
+    that link to this Privacy Notice (collectively, the "Website").
+- source: commercial information
+  target: transaction information
+  key: SUBSUM
+  text:
+  - 'NICE Privacy Notice.
+
+
+    PERSONAL DATA THAT NICE COLLECTS AND PURPOSE OF USE
+
+
+    GDPR DISCLOSURE
+
+
+    Commercial information, such as transaction and account information;'
+- source: education information
+  target: date of graduation
+  key: SUBSUM
+  text:
+  - 'NICE Privacy Notice.
+
+
+    PERSONAL DATA THAT NICE COLLECTS AND PURPOSE OF USE
+
+
+    GDPR DISCLOSURE
+
+
+    (10) Education information, such as school and date of graduation;'
+- source: education information
+  target: school
+  key: SUBSUM
+  text:
+  - 'NICE Privacy Notice.
+
+
+    PERSONAL DATA THAT NICE COLLECTS AND PURPOSE OF USE
+
+
+    GDPR DISCLOSURE
+
+
+    (10) Education information, such as school and date of graduation;'
+- source: identifier
+  target: account name
+  key: SUBSUM
+  text:
+  - '* Identifiers such as a real name, alias, postal address, unique personal identifier,
+    online identifier, Internet Protocol address, email address, account name or other
+    similar identifiers (collectively "Identifiers").'
+- source: identifier
+  target: alias
+  key: SUBSUM
+  text:
+  - '* Identifiers such as a real name, alias, postal address, unique personal identifier,
+    online identifier, Internet Protocol address, email address, account name or other
+    similar identifiers (collectively "Identifiers").'
+- source: identifier
+  target: device identifier
+  key: SUBSUM
+  text:
+  - These business partners may share and combine information from cookies with identifiers
+    (such as device IDs assigned by Google or Apple) and IP addresses to make connections
+    among related devices.
+- source: identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - '* Identifiers such as a real name, alias, postal address, unique personal identifier,
+    online identifier, Internet Protocol address, email address, account name or other
+    similar identifiers (collectively "Identifiers").'
+- source: identifier
+  target: government identifier
+  key: SUBSUM
+  text:
+  - 'NICE Privacy Notice.
+
+
+    PERSONAL DATA THAT NICE COLLECTS AND PURPOSE OF USE
+
+
+    GDPR DISCLOSURE
+
+
+    Identifiers, such as name and government identification numbers;'
+- source: identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - '* Identifiers such as a real name, alias, postal address, unique personal identifier,
+    online identifier, Internet Protocol address, email address, account name or other
+    similar identifiers (collectively "Identifiers").'
+- source: identifier
+  target: online identifier
+  key: SUBSUM
+  text:
+  - '* Identifiers such as a real name, alias, postal address, unique personal identifier,
+    online identifier, Internet Protocol address, email address, account name or other
+    similar identifiers (collectively "Identifiers").'
+- source: identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - '* Identifiers such as a real name, alias, postal address, unique personal identifier,
+    online identifier, Internet Protocol address, email address, account name or other
+    similar identifiers (collectively "Identifiers").'
+  - 'NICE Privacy Notice.
+
+
+    PERSONAL DATA THAT NICE COLLECTS AND PURPOSE OF USE
+
+
+    GDPR DISCLOSURE
+
+
+    Identifiers, such as name and government identification numbers;'
+- source: identifier
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - '* Identifiers such as a real name, alias, postal address, unique personal identifier,
+    online identifier, Internet Protocol address, email address, account name or other
+    similar identifiers (collectively "Identifiers").'
+- source: identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - '* Identifiers such as a real name, alias, postal address, unique personal identifier,
+    online identifier, Internet Protocol address, email address, account name or other
+    similar identifiers (collectively "Identifiers").'
+- source: information cover month precede request
+  target: specific piece of personal information we collect about you
+  key: SUBSUM
+  text:
+  - 'If you are a California resident, you may request that we disclose to you the
+    following information covering the 12 months preceding your request:'
+  - 'NICE Privacy Notice.
+
+
+    PERSONAL DATA THAT NICE COLLECTS AND PURPOSE OF USE
+
+
+    GDPR DISCLOSURE
+
+
+    the specific pieces of Personal Information we collected about you.'
+- source: information you read
+  target: scroll depth
+  key: SUBSUM
+  text:
+  - Information that you have read, the web pages you visited, offers and services
+    that were of interest to you, the location of the computer and the Internet Protocol
+    (IP) address through which you had access to the Website, clicks that the users
+    clicked while on the website (e.g., downloads, view of a video, shares to social
+    media, scroll depth, links clicked)
+- source: internet activity
+  target: browsing / search history
+  key: SUBSUM
+  text:
+  - 'NICE Privacy Notice.
+
+
+    PERSONAL DATA THAT NICE COLLECTS AND PURPOSE OF USE
+
+
+    GDPR DISCLOSURE
+
+
+    (6) Internet or network activity information, such as browsing history and interactions
+    with the Website;'
+- source: nice
+  target: nice ltd.
+  key: SUBSUM
+  text:
+  - This Privacy Notice explains how NICE Ltd. and its affiliates (collectively "NICE,"
+    "we," "us," and "our") collect, use and disclose personal data that we handle
+    on our own behalf collected via https://www.nice.com and other NICE web properties
+    that link to this Privacy Notice (collectively, the "Website").
+- source: personal datum concern
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'You may have the rights prescribed below in relation to personal data processed
+    by us if you are a data subject in the European Economic Area or your personal
+    data is otherwise governed by the EU General Data Protection Regulation 2016/679
+    ("GDPR"): The right of access to your personal data processed by us, which includes
+    the right to obtain confirmation as to whether or not personal data concerning
+    you is being processed, and, where that is the case, access to the personal data
+    and the purposes of the processing; categories of personal data concerned; recipients
+    or categories of recipient to whom the personal data have been or will be disclosed;
+    where possible, the envisaged period for which the personal data will be stored;
+    the existence of the right to request rectification or erasure of personal data
+    or restriction of processing of personal data or to object to such processing;
+    the right to lodge a complaint with a supervisory authority; where the personal
+    data are not collected from the data subject, any available information as to
+    their source; the existence of automated decision-making, including profiling;
+    the appropriate safeguards relating to the transfer of your personal data outside
+    the EEA.'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - Personal information, as defined in the California safeguards law, such as contact
+    information and financial information;
+- source: personal information
+  target: financial information
+  key: SUBSUM
+  text:
+  - Personal information, as defined in the California safeguards law, such as contact
+    information and financial information;
+- source: personal information
+  target: sensitive personal information we collect about consumer
+  key: SUBSUM
+  text:
+  - 'The categories of Personal Information including Sensitive Personal Information
+    we have collected about Consumers, for of which we have disclosed for a business
+    purpose, in the preceding 12 months are (please refer to the table at the top
+    of this Privacy Notice for more detail):'
+- source: personal information describe in section of ca civil code
+  target: commercial information
+  key: SUBSUM
+  text:
+  - '* Categories of personal information described in Section 1798.80 of the CA Civil
+    Code * Commercial information * Internet or other electronic network activity
+    information * Professional or employment-related information.'
+- source: personal information describe in section of ca civil code
+  target: internet activity
+  key: SUBSUM
+  text:
+  - '* Categories of personal information described in Section 1798.80 of the CA Civil
+    Code * Commercial information * Internet or other electronic network activity
+    information * Professional or employment-related information.'
+- source: personal information describe in section of ca civil code
+  target: professional information
+  key: SUBSUM
+  text:
+  - '* Categories of personal information described in Section 1798.80 of the CA Civil
+    Code * Commercial information * Internet or other electronic network activity
+    information * Professional or employment-related information.'
+- source: professional information
+  target: prior employer
+  key: SUBSUM
+  text:
+  - 'NICE Privacy Notice.
+
+
+    PERSONAL DATA THAT NICE COLLECTS AND PURPOSE OF USE
+
+
+    GDPR DISCLOSURE
+
+
+    (9) Professional or employment-related information, such as work history and prior
+    employer.'
+- source: professional information
+  target: work history
+  key: SUBSUM
+  text:
+  - 'NICE Privacy Notice.
+
+
+    PERSONAL DATA THAT NICE COLLECTS AND PURPOSE OF USE
+
+
+    GDPR DISCLOSURE
+
+
+    (9) Professional or employment-related information, such as work history and prior
+    employer.'
+- source: protected classification
+  target: gender
+  key: SUBSUM
+  text:
+  - Characteristics of protected classifications under California or federal law,
+    such as sex and marital status;
+- source: protected classification
+  target: marital status
+  key: SUBSUM
+  text:
+  - Characteristics of protected classifications under California or federal law,
+    such as sex and marital status;
+- source: relate service
+  target: local service
+  key: SUBSUM
+  text:
+  - Certain of NICE's subsidiaries offer communications-related services, including
+    local and long distance service, as well as the provisioning of telecommunications
+    equipment.
+- source: relate service
+  target: provisioning of telecommunication equipment
+  key: SUBSUM
+  text:
+  - Certain of NICE's subsidiaries offer communications-related services, including
+    local and long distance service, as well as the provisioning of telecommunications
+    equipment.
+- source: social media
+  target: Facebook
+  key: SUBSUM
+  text:
+  - The Website includes social media plugins, including links to Facebook, LinkedIn
+    and Twitter.
+- source: social media
+  target: Microsoft
+  key: SUBSUM
+  text:
+  - The Website includes social media plugins, including links to Facebook, LinkedIn
+    and Twitter.
+- source: social media
+  target: Twitter
+  key: SUBSUM
+  text:
+  - The Website includes social media plugins, including links to Facebook, LinkedIn
+    and Twitter.
+- source: type of service
+  target: calling pattern
+  key: SUBSUM
+  text:
+  - Examples of CPNI include information typically available from telephone-related
+    details on your monthly bill, technical information, type of service, current
+    telephone charges, long distance and local service billing records, directory
+    assistance charges, usage data, and calling patterns.
+- source: type of service
+  target: current telephone charge
+  key: SUBSUM
+  text:
+  - Examples of CPNI include information typically available from telephone-related
+    details on your monthly bill, technical information, type of service, current
+    telephone charges, long distance and local service billing records, directory
+    assistance charges, usage data, and calling patterns.
+- source: type of service
+  target: directory assistance charge
+  key: SUBSUM
+  text:
+  - Examples of CPNI include information typically available from telephone-related
+    details on your monthly bill, technical information, type of service, current
+    telephone charges, long distance and local service billing records, directory
+    assistance charges, usage data, and calling patterns.
+- source: type of service
+  target: internet activity
+  key: SUBSUM
+  text:
+  - Examples of CPNI include information typically available from telephone-related
+    details on your monthly bill, technical information, type of service, current
+    telephone charges, long distance and local service billing records, directory
+    assistance charges, usage data, and calling patterns.
+- source: type of service
+  target: long distance record
+  key: SUBSUM
+  text:
+  - Examples of CPNI include information typically available from telephone-related
+    details on your monthly bill, technical information, type of service, current
+    telephone charges, long distance and local service billing records, directory
+    assistance charges, usage data, and calling patterns.
+- source: type of service
+  target: relate detail on monthly bill
+  key: SUBSUM
+  text:
+  - Examples of CPNI include information typically available from telephone-related
+    details on your monthly bill, technical information, type of service, current
+    telephone charges, long distance and local service billing records, directory
+    assistance charges, usage data, and calling patterns.
+- source: type of service
+  target: technical information
+  key: SUBSUM
+  text:
+  - Examples of CPNI include information typically available from telephone-related
+    details on your monthly bill, technical information, type of service, current
+    telephone charges, long distance and local service billing records, directory
+    assistance charges, usage data, and calling patterns.
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Microsoft
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: competent authority
+- type: ACTOR
+  id: feature
+- type: ACTOR
+  id: law enforcement
+- type: ACTOR
+  id: local service
+- type: ACTOR
+  id: nice
+- type: ACTOR
+  id: nice affiliate
+- type: ACTOR
+  id: nice ltd.
+- type: ACTOR
+  id: nice web property link to privacy notice
+- type: ACTOR
+  id: provisioning of telecommunication equipment
+- type: ACTOR
+  id: relate service
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account name
+- type: DATA
+  id: alias
+- type: DATA
+  id: behavior on website
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: calling pattern
+- type: DATA
+  id: commercial information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: cpni
+- type: DATA
+  id: current telephone charge
+- type: DATA
+  id: customer proprietary network information
+- type: DATA
+  id: date of graduation
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: directory assistance charge
+- type: DATA
+  id: education information
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial information
+- type: DATA
+  id: gender
+- type: DATA
+  id: government identifier
+- type: DATA
+  id: identifier
+- type: DATA
+  id: inference
+- type: DATA
+  id: information about use of website on current device
+- type: DATA
+  id: information cover month precede request
+- type: DATA
+  id: information you read
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: long distance record
+- type: DATA
+  id: marital status
+- type: DATA
+  id: online identifier
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum collect via website
+- type: DATA
+  id: personal datum concern
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information describe in section of ca civil code
+- type: DATA
+  id: pixel
+- type: DATA
+  id: postal address
+- type: DATA
+  id: prior employer
+- type: DATA
+  id: professional information
+- type: DATA
+  id: protected classification
+- type: DATA
+  id: relate detail on monthly bill
+- type: DATA
+  id: school
+- type: DATA
+  id: scroll depth
+- type: DATA
+  id: sensitive personal information we collect about consumer
+- type: DATA
+  id: specific piece of personal information we collect about you
+- type: DATA
+  id: statistical information
+- type: DATA
+  id: technical information
+- type: DATA
+  id: transaction information
+- type: DATA
+  id: type of service
+- type: DATA
+  id: user information
+- type: DATA
+  id: work history

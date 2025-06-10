@@ -1,0 +1,133 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'We collect the following personal information from users: email, first_name,
+    last_name, and encrypted password.'
+  purposes: {}
+- source: we
+  target: encrypted password
+  key: COLLECT
+  text:
+  - 'We collect the following personal information from users: email, first_name,
+    last_name, and encrypted password.'
+  purposes: {}
+- source: we
+  target: last_name
+  key: COLLECT
+  text:
+  - 'We collect the following personal information from users: email, first_name,
+    last_name, and encrypted password.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We collect the following personal information from users: email, first_name,
+    last_name, and encrypted password.'
+  - We maintain this information securely and do not share it with third parties except
+    as required by law or as necessary to provide our services.
+  - We store this information until the user chooses to delete their account or leaves
+    the service.
+  - We use this information to provide our services and to communicate with users
+    about their accounts.
+  purposes:
+    services:
+    - to provide our services and to communicate with users about their accounts
+- source: xl8
+  target: anonymized statistical datum
+  key: COLLECT
+  text:
+  - On the other hand, XL8 may store anonymized statistical data to improve or optimize
+    the overall service quality such as the total number of requests per language
+    pair to prepare more cloud instances for inference.
+  purposes:
+    services:
+    - to improve or optimize the overall service quality such as the total number
+      of requests per language pair to prepare more cloud instances for inference
+- source: we
+  target: xl8
+  key: SUBSUM
+  text:
+  - We, XL8, will not store the users' data requested for inference purposes.
+- source: we
+  target: xl8 inc.
+  key: SUBSUM
+  text:
+  - These Terms of Service constitute a legally binding agreement made between you,
+    whether personally or on behalf of the user ("User" or "you") and the provider
+    ("Provider", "XL8 Inc.", "us", "our", "we"), concerning your access to and use
+    of the XL8 service via https://xl8.ai (the "Service").
+- source: information reasonably sufficient
+  target: email address
+  key: SUBSUM
+  text:
+  - 'All Notifications should meet the requirements of DMCA 17 U.S.C. SS 512(c)(3)
+    and include the following information: Information reasonably sufficient to permit
+    us to contact the complaining party, such as an address, telephone number, and,
+    if available, and email address at which the complaining party may be contacted;'
+- source: information reasonably sufficient
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'All Notifications should meet the requirements of DMCA 17 U.S.C. SS 512(c)(3)
+    and include the following information: Information reasonably sufficient to permit
+    us to contact the complaining party, such as an address, telephone number, and,
+    if available, and email address at which the complaining party may be contacted;'
+- source: information reasonably sufficient
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'All Notifications should meet the requirements of DMCA 17 U.S.C. SS 512(c)(3)
+    and include the following information: Information reasonably sufficient to permit
+    us to contact the complaining party, such as an address, telephone number, and,
+    if available, and email address at which the complaining party may be contacted;'
+- source: overall service quality
+  target: total number of request per language pair
+  key: SUBSUM
+  text:
+  - On the other hand, XL8 may store anonymized statistical data to improve or optimize
+    the overall service quality such as the total number of requests per language
+    pair to prepare more cloud instances for inference.
+- source: sensitive account information
+  target: user password
+  key: SUBSUM
+  text:
+  - 'As a user of the Service, you agree not to: Mislead, trick, or defraud us and
+    other users, especially in any attempt to learn sensitive account information
+    such as user passwords;'
+nodes:
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: xl8
+- type: ACTOR
+  id: xl8 inc.
+- type: DATA
+  id: anonymized statistical datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: encrypted password
+- type: DATA
+  id: information reasonably sufficient
+- type: DATA
+  id: last_name
+- type: DATA
+  id: overall service quality
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: sensitive account information
+- type: DATA
+  id: total number of request per language pair
+- type: DATA
+  id: user password

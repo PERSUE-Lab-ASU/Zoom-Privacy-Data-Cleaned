@@ -1,0 +1,32 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'We use the collected data for various purposes, including: To provide and maintain
+    the service To notify you about changes to our service To gather analysis or valuable
+    information to improve our service Data Sharing and Disclosure We do not sell,
+    trade, or otherwise transfer your Personal Data to third parties.'
+  purposes:
+    analytics:
+    - To gather analysis or valuable information to improve our service
+    services:
+    - To gather analysis or valuable information to improve our service
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose your Personal Data in the good faith belief that such action
+    is necessary to: Comply with a legal obligation Protect against legal liability
+    Data Security'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: personal information

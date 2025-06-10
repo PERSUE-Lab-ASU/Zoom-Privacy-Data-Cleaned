@@ -1,0 +1,265 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Notwithstanding the foregoing, we may retain information to provide services you
+    have ordered, complete transactions, honor opt-outs, prevent fraud, spam, and
+    other abuse, comply with our legal obligations, cooperate with law enforcement,
+    and to exercise and defend our rights.
+  - We may share your data as explained in this Privacy Policy, such as to enhance
+    your experiences and our services, and those activities will be unaffected by
+    a Nevada do not sell request.
+  purposes:
+    legal:
+    - to provide services you have ordered, complete transactions, honor opt-outs,
+      prevent fraud, spam, and other abuse, comply with our legal obligations, cooperate
+      with law enforcement, and to exercise and defend our rights
+    security:
+    - to provide services you have ordered, complete transactions, honor opt-outs,
+      prevent fraud, spam, and other abuse, comply with our legal obligations, cooperate
+      with law enforcement, and to exercise and defend our rights
+    services:
+    - such as to enhance your experiences and our services
+    - to provide services you have ordered, complete transactions, honor opt-outs,
+      prevent fraud, spam, and other abuse, comply with our legal obligations, cooperate
+      with law enforcement, and to exercise and defend our rights
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We will maintain this information and contact you if our plans change.
+  - You are responsible for updating any change in your email address by the same
+    method and we are not obligated to cross-reference other emails you may have otherwise
+    provided us for other purposes.
+  - You can provide us with your name and email address here.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - You can provide us with your name and email address here.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Under certain circumstances, we may be required to disclose personal information
+    to public authorities, for law enforcement purposes.
+  - We may need to transfer your Personal Data outside of the country from which it
+    was originally provided.
+  - When you use our services, we may share your personal information with advertising
+    partners in a way that may constitute a sale under the CCPA.
+  purposes:
+    legal:
+    - for law enforcement purposes
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - When you use our services, we may share your personal information with advertising
+    partners in a way that may constitute a sale under the CCPA.
+  purposes: {}
+- source: event organizer
+  target: information about processing of personal data
+  key: COLLECT
+  text:
+  - The GDPR requires Whova and event organizers to provide the Whova users with more
+    information about the processing of their Personal Data.
+  purposes: {}
+- source: public authority
+  target: personal information
+  key: COLLECT
+  text:
+  - Under certain circumstances, we may be required to disclose personal information
+    to public authorities, for law enforcement purposes.
+  purposes:
+    legal:
+    - for law enforcement purposes
+- source: whova
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For certain social network websites, Whova will only get and show information
+    if users provided corresponding login credentials.
+  purposes: {}
+- source: whova
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Whova may also use personal data with 3rd parties services and technologies as
+    described below: Cookies, Pixel Tags, Local Shared Objects, Web Storage and other
+    similar technologies.'
+  purposes: {}
+- source: whova
+  target: event report
+  key: COLLECT
+  text:
+  - This includes circumstances where Whova obtains Personal Data as a result of the
+    provision of its core event management services (for example, where Whova authenticates
+    attendees' identity based on the attendee list that organizers uploaded to Whova,
+    facilitates the transmission of emails to attendees at the request of Organizers,
+    or provides event reports and tools to enable Organizers to gain insights into
+    their attendees and the effectiveness of using the Whova products).
+  purposes: {}
+- source: whova
+  target: information about processing of personal data
+  key: COLLECT
+  text:
+  - The GDPR requires Whova and event organizers to provide the Whova users with more
+    information about the processing of their Personal Data.
+  purposes: {}
+- source: whova
+  target: information you provide in
+  key: COLLECT
+  text:
+  - '4. Personal Data Whova Collects : b) Whova collects information that you provide
+    in creating an account at Whova Services.'
+  purposes: {}
+- source: whova
+  target: local share object
+  key: COLLECT
+  text:
+  - 'Whova may also use personal data with 3rd parties services and technologies as
+    described below: Cookies, Pixel Tags, Local Shared Objects, Web Storage and other
+    similar technologies.'
+  purposes: {}
+- source: whova
+  target: personal datum about use of whova services
+  key: COLLECT
+  text:
+  - b) Whova may use Personal Data about your use of Whova Services to improve our
+    services.
+  purposes:
+    services:
+    - to ensure service availability and permanent storage
+    - to improve our services
+- source: whova
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Whova may also use personal data with 3rd parties services and technologies as
+    described below:'
+  - a) Whova may use Personal Data you provide to Whova Services to create and maintain
+    your account, to personalize your experience, and to send email communications
+    relating to Whova Services.
+  purposes:
+    services:
+    - to assist Whova in improving our quality of service
+    - to create and maintain your account, to personalize your experience, and to
+      send email communications relating to Whova Services
+    - to ensure service availability and permanent storage
+- source: whova
+  target: web storage
+  key: COLLECT
+  text:
+  - 'Whova may also use personal data with 3rd parties services and technologies as
+    described below: Cookies, Pixel Tags, Local Shared Objects, Web Storage and other
+    similar technologies.'
+  purposes: {}
+- source: whova services
+  target: internet activity
+  key: COLLECT
+  text:
+  - a) Whova Services collects information about your usages.
+  purposes: {}
+- source: cloud hosting provider
+  target: aws
+  key: SUBSUM
+  text:
+  - '5. Use and Sharing of Personal Data : b) Whova may use Personal Data about your
+    use of Whova Services to improve our services. Whova may also use personal data
+    with 3rd parties services and technologies as described below: Cloud hosting providers,
+    such as AWS, to ensure service availability and permanent storage'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Please note that regardless of opt in/out policy, attendees' contact information
+    (e.g. emails, phone numbers) is not disclosed to other attendees unless users
+    explicitly exchange their contact information via Whova Apps.
+- source: monitor service
+  target: Google
+  key: SUBSUM
+  text:
+  - 'Whova may also use personal data with 3rd parties services and technologies as
+    described below: Monitoring services, such as Google Analytics, to assist Whova
+    in improving our quality of service.'
+- source: whova apps
+  target: whova android app
+  key: SUBSUM
+  text:
+  - It is a user's responsibility to validate and revise his/her own profile information
+    in Whova Apps (including Whova Android App, Whova IOS App and Whova Web App).
+- source: whova apps
+  target: whova ios app
+  key: SUBSUM
+  text:
+  - It is a user's responsibility to validate and revise his/her own profile information
+    in Whova Apps (including Whova Android App, Whova IOS App and Whova Web App).
+- source: whova apps
+  target: whova web app
+  key: SUBSUM
+  text:
+  - It is a user's responsibility to validate and revise his/her own profile information
+    in Whova Apps (including Whova Android App, Whova IOS App and Whova Web App).
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: aws
+- type: ACTOR
+  id: cloud hosting provider
+- type: ACTOR
+  id: event organizer
+- type: ACTOR
+  id: monitor service
+- type: ACTOR
+  id: public authority
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: whova
+- type: ACTOR
+  id: whova android app
+- type: ACTOR
+  id: whova apps
+- type: ACTOR
+  id: whova ios app
+- type: ACTOR
+  id: whova services
+- type: ACTOR
+  id: whova web app
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: event report
+- type: DATA
+  id: information about processing of personal data
+- type: DATA
+  id: information you provide in
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: local share object
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum about use of whova services
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: web storage

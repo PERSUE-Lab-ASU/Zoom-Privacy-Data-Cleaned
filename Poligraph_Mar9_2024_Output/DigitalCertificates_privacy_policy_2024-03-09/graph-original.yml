@@ -1,0 +1,148 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may also share your information in the following circumstances:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Gutenberg Certs works with a variety of third parties and service providers to
+    help provide you with our Services and we may share personal information with
+    them to support these efforts.
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  - We work with a variety of third parties and service providers to help provide
+    you with our Services and we may share personal information with them to support
+    these efforts.
+  purposes:
+    services:
+    - only for the purposes of providing the Services to you and only on documented
+      instructions from you
+    - to help provide you with our Services
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Gutenberg Certs works with a variety of third parties and service providers to
+    help provide you with our Services and we may share personal information with
+    them to support these efforts.
+  - We work with a variety of third parties and service providers to help provide
+    you with our Services and we may share personal information with them to support
+    these efforts.
+  purposes:
+    services:
+    - to help provide you with our Services
+- source: company acquire business
+  target: personal information
+  key: COLLECT
+  text:
+  - 8. Personal information may also be shared with a company that acquires our business,
+    whether through merger, acquisition, bankruptcy, dissolution, reorganization,
+    or other similar transaction or proceeding.
+  purposes: {}
+- source: gutenberg certs
+  target: email address
+  key: COLLECT
+  text:
+  - You acknowledge that Gutenberg Certs will use the email address you provide on
+    opening an Account or as updated by you from time to time as the primary method
+    for communication with you.
+  purposes: {}
+- source: personal information
+  target: current address
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+- source: personal information
+  target: personal datum contain in content upload
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+- source: personal information
+  target: registration datum
+  key: SUBSUM
+  text:
+  - We will process personal data on your behalf only for the purposes of providing
+    the Services to you and only on documented instructions from you, until termination
+    of the Services, including but not limited to your registration data (name, current
+    address, phone number and email address); and any personal data contained in the
+    content uploaded, collected, generated, stored, displayed, distributed, transmitted
+    or exhibited on or in connection with your Gutenberg Certs Account.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: company acquire business
+- type: ACTOR
+  id: gutenberg certs
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: current address
+- type: DATA
+  id: email address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum contain in content upload
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: registration datum

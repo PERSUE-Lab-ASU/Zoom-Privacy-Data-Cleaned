@@ -1,0 +1,315 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect the following types of information from our users.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We collect statistical information about how both unregistered and registered
+    users, collectively, use the Services ("Aggregate Information").
+  - We share Aggregate Information with our partners, service providers, and other
+    persons with whom we conduct business.
+  purposes: {}
+- source: we
+  target: confirmation
+  key: COLLECT
+  text:
+  - We may receive a confirmation when you open an email from us.
+  - We use this confirmation to improve our customer service.
+  purposes:
+    services:
+    - to improve our customer service
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We may use your contact information to send you information about our Services,
+    but only rarely when we feel such information is important.
+  purposes:
+    services:
+    - to send you information about our Services
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - As noted, however, we do use cookies to identify that your web browser has accessed
+    aspects of the Services and may associate that information with your Account if
+    you have one.
+  - We automatically receive and record information from your web browser when you
+    interact with the Services, including your IP address and cookie information.
+  - We use cookies to enable our servers to recognize your web browser and tell us
+    how and when you visit the Site and otherwise use the Services through the Internet.
+  purposes:
+    analytics:
+    - to enable our servers to recognize your web browser and tell us how and when
+      you visit the Site and otherwise use the Services through the Internet
+    - to identify that your web browser has accessed aspects of the Services and may
+      associate that information with your Account if you have one
+    services:
+    - to enable our servers to recognize your web browser and tell us how and when
+      you visit the Site and otherwise use the Services through the Internet
+    - to identify that your web browser has accessed aspects of the Services and may
+      associate that information with your Account if you have one
+- source: we
+  target: financial information
+  key: COLLECT
+  text:
+  - We do not currently collect financial information, such as your payment method
+    (valid credit card number, type, expiration date, or other financial information);
+    that information is collected and stored by our third-party payment processing
+    company (the "Payment Processor"), and use and storage of that information are
+    governed by the Payment Processor's applicable terms of service and privacy policy.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We receive information about you from various sources, including:'
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We automatically receive and record information from your web browser when you
+    interact with the Services, including your IP address and cookie information.
+  - We do at times, however, share this information with our partners, service providers,
+    and other persons with whom we conduct business, and as otherwise specified in
+    this Privacy Policy.
+  - While we collect and store IP address information, that information is not made
+    public.
+  purposes: {}
+- source: we
+  target: non - private information about you
+  key: COLLECT
+  text:
+  - In addition, these third parties may share with us non-private, aggregated, or
+    otherwise non Personal Information about you that they have independently developed
+    or acquired.
+  purposes: {}
+- source: we
+  target: type of statistical datum
+  key: COLLECT
+  text:
+  - We share this type of statistical data so that our partners can understand how
+    and how often people use our Services and their services or websites, which facilitates
+    improving both their services and how our Services interface with them.
+  purposes: {}
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - Generally, the Services automatically collect usage information, such as the number
+    and frequency of visitors to the Site.
+  - We may use this data in aggregate form, that is, as a statistical measure, but
+    not in a manner that would identify you personally.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We share Aggregate Information with our partners, service providers, and other
+    persons with whom we conduct business.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: ip address
+  key: COLLECT
+  text:
+  - We do at times, however, share this information with our partners, service providers,
+    and other persons with whom we conduct business, and as otherwise specified in
+    this Privacy Policy.
+  - While we collect and store IP address information, that information is not made
+    public.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non - private information about you
+  key: COLLECT
+  text:
+  - In addition, these third parties may share with us non-private, aggregated, or
+    otherwise non Personal Information about you that they have independently developed
+    or acquired.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may need to share Personal Information with our Agents in order to provide
+    products or services to you.
+  purposes:
+    services:
+    - in order to provide products or services to you
+- source: browser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Your browser stores cookies in a manner associated with each website you visit.
+  purposes: {}
+- source: payment processor
+  target: financial information
+  key: COLLECT
+  text:
+  - We do not currently collect financial information, such as your payment method
+    (valid credit card number, type, expiration date, or other financial information);
+    that information is collected and stored by our third-party payment processing
+    company (the "Payment Processor"), and use and storage of that information are
+    governed by the Payment Processor's applicable terms of service and privacy policy.
+  purposes: {}
+- source: service provider
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We share Aggregate Information with our partners, service providers, and other
+    persons with whom we conduct business.
+  purposes: {}
+- source: service provider
+  target: ip address
+  key: COLLECT
+  text:
+  - We do at times, however, share this information with our partners, service providers,
+    and other persons with whom we conduct business, and as otherwise specified in
+    this Privacy Policy.
+  - While we collect and store IP address information, that information is not made
+    public.
+  purposes: {}
+- source: we
+  target: willowspace
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes the policies and procedures of WillowSpace ("we",
+    "our" or "us") on the collection, use, and disclosure of your information on www.willowspace.co
+    and www.willowspace.app (the "Site") and the services, features, content or applications
+    we offer (collectively with the Site, the "Services").
+- source: financial information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - We do not currently collect financial information, such as your payment method
+    (valid credit card number, type, expiration date, or other financial information);
+    that information is collected and stored by our third-party payment processing
+    company (the "Payment Processor"), and use and storage of that information are
+    governed by the Payment Processor's applicable terms of service and privacy policy.
+- source: financial information
+  target: expiration date
+  key: SUBSUM
+  text:
+  - We do not currently collect financial information, such as your payment method
+    (valid credit card number, type, expiration date, or other financial information);
+    that information is collected and stored by our third-party payment processing
+    company (the "Payment Processor"), and use and storage of that information are
+    governed by the Payment Processor's applicable terms of service and privacy policy.
+- source: financial information
+  target: payment method
+  key: SUBSUM
+  text:
+  - We do not currently collect financial information, such as your payment method
+    (valid credit card number, type, expiration date, or other financial information);
+    that information is collected and stored by our third-party payment processing
+    company (the "Payment Processor"), and use and storage of that information are
+    governed by the Payment Processor's applicable terms of service and privacy policy.
+- source: information be
+  target: email address
+  key: SUBSUM
+  text:
+  - When you create an Account, you will provide information that could be Personal
+    Information, such as your username, password, and email address.
+- source: information be
+  target: password
+  key: SUBSUM
+  text:
+  - When you create an Account, you will provide information that could be Personal
+    Information, such as your username, password, and email address.
+- source: information be
+  target: username
+  key: SUBSUM
+  text:
+  - When you create an Account, you will provide information that could be Personal
+    Information, such as your username, password, and email address.
+- source: usage information
+  target: frequency
+  key: SUBSUM
+  text:
+  - Generally, the Services automatically collect usage information, such as the number
+    and frequency of visitors to the Site.
+- source: usage information
+  target: number
+  key: SUBSUM
+  text:
+  - Generally, the Services automatically collect usage information, such as the number
+    and frequency of visitors to the Site.
+- source: user profile information
+  target: information you enter
+  key: SUBSUM
+  text:
+  - User profile information including your username and other information you enter
+    may be displayed to other users to facilitate user interaction within the Services.
+- source: user profile information
+  target: username
+  key: SUBSUM
+  text:
+  - User profile information including your username and other information you enter
+    may be displayed to other users to facilitate user interaction within the Services.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: browser
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: willowspace
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: confirmation
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: email address
+- type: DATA
+  id: expiration date
+- type: DATA
+  id: financial information
+- type: DATA
+  id: frequency
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information be
+- type: DATA
+  id: information you enter
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non - private information about you
+- type: DATA
+  id: number
+- type: DATA
+  id: password
+- type: DATA
+  id: payment method
+- type: DATA
+  id: personal information
+- type: DATA
+  id: type of statistical datum
+- type: DATA
+  id: usage information
+- type: DATA
+  id: user profile information
+- type: DATA
+  id: username

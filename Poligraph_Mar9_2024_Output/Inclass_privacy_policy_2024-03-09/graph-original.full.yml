@@ -1,0 +1,289 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The company uses "cookies" that store and retrieve user information from time
+    to time in order to provide personalized and customized services.
+  purposes:
+    services:
+    - in order to provide personalized and customized services
+- source: we
+  target: member information
+  key: COLLECT
+  text:
+  - If it is necessary to preserve it in accordance with the provisions of related
+    laws, such as the Commercial Act, the Consumer Protection Act in e-commerce, etc.,
+    the company retains the member information for a certain period stipulated by
+    the relevant laws.
+  purposes: {}
+- source: we
+  target: minimum personal information
+  key: COLLECT
+  text:
+  - The company collects the minimum personal information by dividing into mandatory
+    and optional items as follows at the time of initial membership registration for
+    membership registration, smooth customer consultation, and provision of various
+    services.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy (English)
+
+
+    5. Sharing and providing personal information
+
+
+    The company provides users'' personal information in "1. The purpose of collecting
+    and using personal information" is used only to the extent notified, and in principle,
+    personal information is not disclosed to the outside without the user''s consent.'
+  - 'The company collects personal information in the following ways :'
+  purposes: {}
+- source: separate db
+  target: information enter for membership registration
+  key: COLLECT
+  text:
+  - 'Privacy Policy (English)
+
+
+    4. Personal information destruction procedure and methoda
+
+
+    Destruction Procedure : The information entered by the user for membership registration,
+    etc., is transferred to a separate DB (separate filing cabinet in the case of
+    paper) after the purpose is achieved, and is scheduled according to the reason
+    for information protection according to internal policies and other related laws
+    (refer to retention and use period)'
+  purposes: {}
+- source: separate filing cabinet in case of paper
+  target: information enter for membership registration
+  key: COLLECT
+  text:
+  - 'Privacy Policy (English)
+
+
+    4. Personal information destruction procedure and methoda
+
+
+    Destruction Procedure : The information entered by the user for membership registration,
+    etc., is transferred to a separate DB (separate filing cabinet in the case of
+    paper) after the purpose is achieved, and is scheduled according to the reason
+    for information protection according to internal policies and other related laws
+    (refer to retention and use period)'
+  purposes: {}
+- source: member management
+  target: membership identification
+  key: SUBSUM
+  text:
+  - 'Privacy Policy (English)
+
+
+    1. Purpose of collection and use of personal information
+
+
+    Member Managment : Personal information is used for member management such as
+    membership identification, personal identification, prevention of illegal use
+    and unauthorized use of bad members, confirmation of intention to join, limit
+    on the number subscriptions, confirmation of consent of a legal representative
+    when collecting personal information of children under the age of 14, confirmation
+    of legal representative''s identity, record retention for dispute resolution and
+    handling inquiries for complaints.'
+- source: member management
+  target: number subscription
+  key: SUBSUM
+  text:
+  - 'Privacy Policy (English)
+
+
+    1. Purpose of collection and use of personal information
+
+
+    Member Managment : Personal information is used for member management such as
+    membership identification, personal identification, prevention of illegal use
+    and unauthorized use of bad members, confirmation of intention to join, limit
+    on the number subscriptions, confirmation of consent of a legal representative
+    when collecting personal information of children under the age of 14, confirmation
+    of legal representative''s identity, record retention for dispute resolution and
+    handling inquiries for complaints.'
+- source: member management
+  target: personal identification
+  key: SUBSUM
+  text:
+  - 'Privacy Policy (English)
+
+
+    1. Purpose of collection and use of personal information
+
+
+    Member Managment : Personal information is used for member management such as
+    membership identification, personal identification, prevention of illegal use
+    and unauthorized use of bad members, confirmation of intention to join, limit
+    on the number subscriptions, confirmation of consent of a legal representative
+    when collecting personal information of children under the age of 14, confirmation
+    of legal representative''s identity, record retention for dispute resolution and
+    handling inquiries for complaints.'
+- source: member management
+  target: personal information of child under age of 14
+  key: SUBSUM
+  text:
+  - 'Privacy Policy (English)
+
+
+    1. Purpose of collection and use of personal information
+
+
+    Member Managment : Personal information is used for member management such as
+    membership identification, personal identification, prevention of illegal use
+    and unauthorized use of bad members, confirmation of intention to join, limit
+    on the number subscriptions, confirmation of consent of a legal representative
+    when collecting personal information of children under the age of 14, confirmation
+    of legal representative''s identity, record retention for dispute resolution and
+    handling inquiries for complaints.'
+- source: payment information
+  target: ars card payment
+  key: SUBSUM
+  text:
+  - 'In the process of using paid services, the following payment information may
+    be collected : ARS card payment: Payment related records such as approval number
+    and payment date'
+- source: payment information
+  target: credit card payment
+  key: SUBSUM
+  text:
+  - 'In the process of using paid services, the following payment information may
+    be collected : Credit card payment: Payment related records such as card company
+    code, authorization number, etc.'
+- source: payment information
+  target: mobile phone payment
+  key: SUBSUM
+  text:
+  - 'In the process of using paid services, the following payment information may
+    be collected : Mobile phone payment: Payment-related records such as authorization
+    number and carrier code'
+- source: payment related record
+  target: approval number
+  key: SUBSUM
+  text:
+  - 'In the process of using paid services, the following payment information may
+    be collected : ARS card payment: Payment related records such as approval number
+    and payment date'
+- source: payment related record
+  target: authorization number
+  key: SUBSUM
+  text:
+  - 'In the process of using paid services, the following payment information may
+    be collected : Credit card payment: Payment related records such as card company
+    code, authorization number, etc.'
+- source: payment related record
+  target: card company code
+  key: SUBSUM
+  text:
+  - 'In the process of using paid services, the following payment information may
+    be collected : Credit card payment: Payment related records such as card company
+    code, authorization number, etc.'
+- source: payment related record
+  target: payment date
+  key: SUBSUM
+  text:
+  - 'In the process of using paid services, the following payment information may
+    be collected : ARS card payment: Payment related records such as approval number
+    and payment date'
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - The company encrypts personal information such as passwords and payment methods
+    according to the standards required by laws and regulations, and protects users'
+    personal information by taking separate security measures such as encrypting files
+    and transmission data for important data.
+- source: personal information
+  target: payment method
+  key: SUBSUM
+  text:
+  - The company encrypts personal information such as passwords and payment methods
+    according to the standards required by laws and regulations, and protects users'
+    personal information by taking separate security measures such as encrypting files
+    and transmission data for important data.
+- source: record related
+  target: virtual account number
+  key: SUBSUM
+  text:
+  - 'In the process of using paid services, the following payment information may
+    be collected : Payment without bankbook: Records related to payment such as virtual
+    account number'
+- source: relate record
+  target: authorization number
+  key: SUBSUM
+  text:
+  - 'In the process of using paid services, the following payment information may
+    be collected : Mobile phone payment: Payment-related records such as authorization
+    number and carrier code'
+- source: relate record
+  target: carrier code
+  key: SUBSUM
+  text:
+  - 'In the process of using paid services, the following payment information may
+    be collected : Mobile phone payment: Payment-related records such as authorization
+    number and carrier code'
+nodes:
+- type: ACTOR
+  id: separate db
+- type: ACTOR
+  id: separate filing cabinet in case of paper
+- type: ACTOR
+  id: we
+- type: DATA
+  id: approval number
+- type: DATA
+  id: ars card payment
+- type: DATA
+  id: authorization number
+- type: DATA
+  id: card company code
+- type: DATA
+  id: carrier code
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit card payment
+- type: DATA
+  id: information enter for membership registration
+- type: DATA
+  id: member information
+- type: DATA
+  id: member management
+- type: DATA
+  id: membership identification
+- type: DATA
+  id: minimum personal information
+- type: DATA
+  id: mobile phone payment
+- type: DATA
+  id: number subscription
+- type: DATA
+  id: password
+- type: DATA
+  id: payment date
+- type: DATA
+  id: payment information
+- type: DATA
+  id: payment method
+- type: DATA
+  id: payment related record
+- type: DATA
+  id: personal identification
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information of child under age of 14
+- type: DATA
+  id: record related
+- type: DATA
+  id: relate record
+- type: DATA
+  id: virtual account number

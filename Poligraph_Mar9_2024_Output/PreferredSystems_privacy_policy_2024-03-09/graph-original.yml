@@ -1,0 +1,56 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We use your IP address to help diagnose problems with our server, and to administer
+    the Site.
+  purposes:
+    services:
+    - to help diagnose problems with our server, and to administer the Site
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For example, if you submit your email address and other information required to
+    subscribe to our newsletter, we will use that Personal Information to send you
+    our newsletter.
+  - For instance, we may retain and use your Personal Data as necessary to comply
+    with our legal obligations, resolve disputes, prevent fraud and abuse and fulfill
+    and enforce our agreements.
+  - Personal Information is used by the Company for the purpose for which it was submitted.
+  - We may retain your Personal Data, which we collect via our company websites or
+    third party sites and applications to fulfill the purposes outlined in this privacy
+    policy for as long as needed, as allowed or as required by law.
+  - We will share your personal information with third parties only in the ways that
+    are described in this privacy policy.
+  purposes:
+    advertising:
+    - to send you our newsletter
+    legal:
+    - to comply with our legal obligations, resolve disputes, prevent fraud and abuse
+      and fulfill and enforce our agreements
+    security:
+    - to comply with our legal obligations, resolve disputes, prevent fraud and abuse
+      and fulfill and enforce our agreements
+    services:
+    - to send you our newsletter
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We will share your personal information with third parties only in the ways that
+    are described in this privacy policy.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal information

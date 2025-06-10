@@ -1,0 +1,49 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We acquire information through diverse conduits.
+  purposes: {}
+- source: we
+  target: information concern you
+  key: COLLECT
+  text:
+  - We automatically record information concerning you and your computing equipment.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - During business negotiations or deals involving the complete or partial sale or
+    transfer of our business or assets, we may share personal information.
+  - Should you permit, we may share personal information with third parties for their
+    independent marketing endeavors, contingent upon their adherence to their own
+    privacy frameworks.
+  purposes:
+    advertising:
+    - for their independent marketing endeavors
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Should you permit, we may share personal information with third parties for their
+    independent marketing endeavors, contingent upon their adherence to their own
+    privacy frameworks.
+  purposes:
+    advertising:
+    - for their independent marketing endeavors
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: information concern you
+- type: DATA
+  id: personal information

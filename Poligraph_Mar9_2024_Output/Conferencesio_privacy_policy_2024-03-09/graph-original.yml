@@ -1,0 +1,665 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: conferences i o
+  key: COLLECT
+  text:
+  - We may use and store information about your location to provide features and to
+    improve and customize the Services, for example, for Conferences i/o's internal
+    analytics and performance monitoring; localization, regional requirements, and
+    policies for the Services; for local content, search results, and recommendations;
+    for mapping services; and (using non-precise location information) marketing.
+  purposes:
+    services:
+    - to provide features and to improve and customize the Services
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - For example, in order to provide a demo we would need your contact information.
+  - In order to sign you as a Customer, we would need your corporate details and invoicing
+    information and the contact information for your account administrators.
+  purposes:
+    services:
+    - In order to sign you as a Customer
+    - in order to provide a demo
+- source: we
+  target: corporate detail
+  key: COLLECT
+  text:
+  - In order to sign you as a Customer, we would need your corporate details and invoicing
+    information and the contact information for your account administrators.
+  purposes:
+    services:
+    - In order to sign you as a Customer
+- source: we
+  target: device specific information
+  key: COLLECT
+  text:
+  - We may also automatically collect device-specific information when you install,
+    access, or use our Services.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - In order to provide the Services to Customer End Users, we collect such Customer
+    End User's name, email address, phone number, and referring Web site, if appropriate.
+  purposes:
+    services:
+    - In order to provide the Services to Customer End Users
+    - to provide the Services to Customer End Users
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We may obtain location information you provide in your profile or your IP address.
+  - We may use and store information about your location to provide features and to
+    improve and customize the Services, for example, for Conferences i/o's internal
+    analytics and performance monitoring; localization, regional requirements, and
+    policies for the Services; for local content, search results, and recommendations;
+    for mapping services; and (using non-precise location information) marketing.
+  - We will only share your geolocation details with third parties (like our mapping,
+    payments, or, to the extent applicable, advertising providers) in order to provide
+    you with the Services.
+  purposes:
+    advertising:
+    - for example, for Conferences i/o's internal analytics and performance monitoring;
+      localization, regional requirements, and policies for the Services; for local
+      content, search results, and recommendations; for mapping services; and (using
+      non-precise location information) marketing.
+    analytics:
+    - for example, for Conferences i/o's internal analytics and performance monitoring;
+      localization, regional requirements, and policies for the Services; for local
+      content, search results, and recommendations; for mapping services; and (using
+      non-precise location information) marketing.
+    services:
+    - for example, for Conferences i/o's internal analytics and performance monitoring;
+      localization, regional requirements, and policies for the Services; for local
+      content, search results, and recommendations; for mapping services; and (using
+      non-precise location information) marketing.
+    - in order to provide you with the Services
+    - to provide features and to improve and customize the Services
+- source: we
+  target: information about use of service for advertising
+  key: COLLECT
+  text:
+  - We may collect information about your use of the Services for advertising, analytics,
+    to serve content and to protect the Services, including your IP address, browser
+    information (including referrers), device information (such as iOS IDFA, IDFV
+    for limited non-advertising purposes, Android AAID, and, when enabled by you,
+    location information provided by your device).
+  purposes: {}
+- source: we
+  target: invoicing information
+  key: COLLECT
+  text:
+  - In order to sign you as a Customer, we would need your corporate details and invoicing
+    information and the contact information for your account administrators.
+  purposes:
+    services:
+    - In order to sign you as a Customer
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We may obtain location information you provide in your profile or your IP address.
+  purposes: {}
+- source: we
+  target: log file
+  key: COLLECT
+  text:
+  - We also retain log files for internal analysis purposes.
+  purposes:
+    analytics:
+    - for internal analysis purposes
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We collect both personally-identifiable information or personal data and non-personally-identifiable
+    information from you.
+  - We may use your non-personally identifiable information to create traffic statistics
+    for our Web site; to create User statistics for our Services; to improve customer
+    service; and to personalize your User experience.
+  purposes:
+    analytics:
+    - to create traffic statistics for our Web site; to create User statistics for
+      our Services; to improve customer service; and to personalize your User experience
+    services:
+    - to create traffic statistics for our Web site; to create User statistics for
+      our Services; to improve customer service; and to personalize your User experience
+- source: we
+  target: notification
+  key: COLLECT
+  text:
+  - In order to improve our Services, we may receive a notification when you open
+    an email from Conferences i/o or click on a link therein.
+  purposes:
+    services:
+    - In order to improve our Services
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - In order to provide the Services to Customer End Users, we collect such Customer
+    End User's name, email address, phone number, and referring Web site, if appropriate.
+  purposes:
+    services:
+    - In order to provide the Services to Customer End Users
+    - to provide the Services to Customer End Users
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We collect both personally-identifiable information or personal data and non-personally-identifiable
+    information from you.
+  - We may use your personally-identifiable information to process transactions; to
+    provide and improve customer service administration; to personalize your User
+    experience; to contact Users via email or telephone; to respond to inquiries,
+    and/or other requests or questions; to send company news, updates and other related
+    info via our mailing list; to facilitate registration for and use of our Services;
+    and to provide technical support.
+  purposes:
+    services:
+    - to process transactions; to provide and improve customer service administration;
+      to personalize your User experience; to contact Users via email or telephone;
+      to respond to inquiries, and/or other requests or questions; to send company
+      news, updates and other related info via our mailing list; to facilitate registration
+      for and use of our Services; and to provide technical support
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In order to register you as a Customer, provide you with support, or participate
+    in a contest, we will collect personal data, which may include your full name;
+    job title; telephone number; email address; mailing address of company; tax payer
+    identification number; name of organization; and referring Web page via a cookie.
+  - We collect both personally-identifiable information or personal data and non-personally-identifiable
+    information from you.
+  purposes:
+    services:
+    - In order to register you as a Customer, provide you with support, or participate
+      in a contest
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - In order to provide the Services to Customer End Users, we collect such Customer
+    End User's name, email address, phone number, and referring Web site, if appropriate.
+  purposes:
+    services:
+    - In order to provide the Services to Customer End Users
+    - to provide the Services to Customer End Users
+- source: we
+  target: sensitive financial information
+  key: COLLECT
+  text:
+  - In addition, you should note that we collect and store sensitive financial information,
+    including your bank account details for those Customers who elect to pay us via
+    wire transfer and credit card number, expiration date, and billing details for
+    those Customers who pay us via credit card.
+  purposes: {}
+- source: TED Conferences
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Conferences i/o will retain your information only for as long as is necessary
+    for the purposes set out in this policy, for as long as your account is active
+    (i.e., for the lifetime of your Conferences i/o account), as described in this
+    policy, or as needed to provide the Services to you.
+  purposes: {}
+- source: TED Conferences
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Conferences i/o website may use "cookies" to help you personalize your online
+    experience.
+  purposes:
+    services:
+    - to help you personalize your online experience
+- source: TED Conferences
+  target: information about computer hardware
+  key: COLLECT
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Conferences i/o.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Sharing Information with Third Parties
+  purposes:
+    analytics:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or arrange for deliveries
+    services:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or arrange for deliveries
+- source: advertiser
+  target: geolocation
+  key: COLLECT
+  text:
+  - We will only share your geolocation details with third parties (like our mapping,
+    payments, or, to the extent applicable, advertising providers) in order to provide
+    you with the Services.
+  purposes:
+    services:
+    - in order to provide you with the Services
+- source: conference
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Conferences i/o will retain and use your information to the extent necessary to
+    comply with our legal obligations (for example, if we are required to retain your
+    information to comply with applicable tax/revenue laws), resolve disputes, enforce
+    our agreements, and as otherwise described in this policy.
+  purposes:
+    legal:
+    - to comply with our legal obligations
+- source: conference
+  target: ssl protocol
+  key: COLLECT
+  text:
+  - 'Conferences i/o uses the following methods for this purpose: SSL Protocol'
+  purposes: {}
+- source: mapping
+  target: geolocation
+  key: COLLECT
+  text:
+  - We will only share your geolocation details with third parties (like our mapping,
+    payments, or, to the extent applicable, advertising providers) in order to provide
+    you with the Services.
+  purposes:
+    services:
+    - in order to provide you with the Services
+- source: payment
+  target: geolocation
+  key: COLLECT
+  text:
+  - We will only share your geolocation details with third parties (like our mapping,
+    payments, or, to the extent applicable, advertising providers) in order to provide
+    you with the Services.
+  purposes:
+    services:
+    - in order to provide you with the Services
+- source: trust partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Conferences i/o may share data with trusted partners to help perform statistical
+    analysis, send you email or postal mail, provide customer support, or arrange
+    for deliveries.
+  purposes:
+    analytics:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or arrange for deliveries
+    services:
+    - to help perform statistical analysis, send you email or postal mail, provide
+      customer support, or arrange for deliveries
+- source: browser information
+  target: referrer
+  key: SUBSUM
+  text:
+  - We may collect information about your use of the Services for advertising, analytics,
+    to serve content and to protect the Services, including your IP address, browser
+    information (including referrers), device information (such as iOS IDFA, IDFV
+    for limited non-advertising purposes, Android AAID, and, when enabled by you,
+    location information provided by your device).
+- source: device information
+  target: advertising id
+  key: SUBSUM
+  text:
+  - We may collect information about your use of the Services for advertising, analytics,
+    to serve content and to protect the Services, including your IP address, browser
+    information (including referrers), device information (such as iOS IDFA, IDFV
+    for limited non-advertising purposes, Android AAID, and, when enabled by you,
+    location information provided by your device).
+- source: device information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We may collect information about your use of the Services for advertising, analytics,
+    to serve content and to protect the Services, including your IP address, browser
+    information (including referrers), device information (such as iOS IDFA, IDFV
+    for limited non-advertising purposes, Android AAID, and, when enabled by you,
+    location information provided by your device).
+- source: device specific information
+  target: app version
+  key: SUBSUM
+  text:
+  - This information may include information such as the hardware model, operating
+    system information, app version, app usage and debugging information, browser
+    information, IP address, and device identifiers.
+  - We may also automatically collect device-specific information when you install,
+    access, or use our Services.
+- source: device specific information
+  target: browser information
+  key: SUBSUM
+  text:
+  - This information may include information such as the hardware model, operating
+    system information, app version, app usage and debugging information, browser
+    information, IP address, and device identifiers.
+  - We may also automatically collect device-specific information when you install,
+    access, or use our Services.
+- source: device specific information
+  target: device identifier
+  key: SUBSUM
+  text:
+  - This information may include information such as the hardware model, operating
+    system information, app version, app usage and debugging information, browser
+    information, IP address, and device identifiers.
+  - We may also automatically collect device-specific information when you install,
+    access, or use our Services.
+- source: device specific information
+  target: hardware model
+  key: SUBSUM
+  text:
+  - This information may include information such as the hardware model, operating
+    system information, app version, app usage and debugging information, browser
+    information, IP address, and device identifiers.
+  - We may also automatically collect device-specific information when you install,
+    access, or use our Services.
+- source: device specific information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - This information may include information such as the hardware model, operating
+    system information, app version, app usage and debugging information, browser
+    information, IP address, and device identifiers.
+  - We may also automatically collect device-specific information when you install,
+    access, or use our Services.
+- source: device specific information
+  target: ip address
+  key: SUBSUM
+  text:
+  - This information may include information such as the hardware model, operating
+    system information, app version, app usage and debugging information, browser
+    information, IP address, and device identifiers.
+  - We may also automatically collect device-specific information when you install,
+    access, or use our Services.
+- source: device specific information
+  target: operating system information
+  key: SUBSUM
+  text:
+  - This information may include information such as the hardware model, operating
+    system information, app version, app usage and debugging information, browser
+    information, IP address, and device identifiers.
+  - We may also automatically collect device-specific information when you install,
+    access, or use our Services.
+- source: information about computer hardware
+  target: access time
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Conferences i/o.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: browser type
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Conferences i/o.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: domain name
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Conferences i/o.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: ip address
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Conferences i/o.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about computer hardware
+  target: refer website address
+  key: SUBSUM
+  text:
+  - Information about your computer hardware and software may be automatically collected
+    by Conferences i/o.
+  - 'This information can include: your IP address, browser type, domain names, access
+    times and referring website addresses.'
+- source: information about use of service for advertising
+  target: browser information
+  key: SUBSUM
+  text:
+  - We may collect information about your use of the Services for advertising, analytics,
+    to serve content and to protect the Services, including your IP address, browser
+    information (including referrers), device information (such as iOS IDFA, IDFV
+    for limited non-advertising purposes, Android AAID, and, when enabled by you,
+    location information provided by your device).
+- source: information about use of service for advertising
+  target: device information
+  key: SUBSUM
+  text:
+  - We may collect information about your use of the Services for advertising, analytics,
+    to serve content and to protect the Services, including your IP address, browser
+    information (including referrers), device information (such as iOS IDFA, IDFV
+    for limited non-advertising purposes, Android AAID, and, when enabled by you,
+    location information provided by your device).
+- source: information about use of service for advertising
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may collect information about your use of the Services for advertising, analytics,
+    to serve content and to protect the Services, including your IP address, browser
+    information (including referrers), device information (such as iOS IDFA, IDFV
+    for limited non-advertising purposes, Android AAID, and, when enabled by you,
+    location information provided by your device).
+- source: personal information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - In order to register you as a Customer, provide you with support, or participate
+    in a contest, we will collect personal data, which may include your full name;
+    job title; telephone number; email address; mailing address of company; tax payer
+    identification number; name of organization; and referring Web page via a cookie.
+- source: personal information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - When personal information (such as a credit card number) is transmitted to other
+    websites, it is protected through the use of encryption, such as the Secure Sockets
+    Layer (SSL) protocol.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - In order to register you as a Customer, provide you with support, or participate
+    in a contest, we will collect personal data, which may include your full name;
+    job title; telephone number; email address; mailing address of company; tax payer
+    identification number; name of organization; and referring Web page via a cookie.
+- source: personal information
+  target: job title
+  key: SUBSUM
+  text:
+  - In order to register you as a Customer, provide you with support, or participate
+    in a contest, we will collect personal data, which may include your full name;
+    job title; telephone number; email address; mailing address of company; tax payer
+    identification number; name of organization; and referring Web page via a cookie.
+- source: personal information
+  target: name of organization
+  key: SUBSUM
+  text:
+  - In order to register you as a Customer, provide you with support, or participate
+    in a contest, we will collect personal data, which may include your full name;
+    job title; telephone number; email address; mailing address of company; tax payer
+    identification number; name of organization; and referring Web page via a cookie.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - In order to register you as a Customer, provide you with support, or participate
+    in a contest, we will collect personal data, which may include your full name;
+    job title; telephone number; email address; mailing address of company; tax payer
+    identification number; name of organization; and referring Web page via a cookie.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - In order to register you as a Customer, provide you with support, or participate
+    in a contest, we will collect personal data, which may include your full name;
+    job title; telephone number; email address; mailing address of company; tax payer
+    identification number; name of organization; and referring Web page via a cookie.
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - In order to register you as a Customer, provide you with support, or participate
+    in a contest, we will collect personal data, which may include your full name;
+    job title; telephone number; email address; mailing address of company; tax payer
+    identification number; name of organization; and referring Web page via a cookie.
+  - This simplifies the process of recording your personal information, such as billing
+    addresses, shipping addresses, and so on.
+- source: personal information
+  target: tax payer identification number
+  key: SUBSUM
+  text:
+  - In order to register you as a Customer, provide you with support, or participate
+    in a contest, we will collect personal data, which may include your full name;
+    job title; telephone number; email address; mailing address of company; tax payer
+    identification number; name of organization; and referring Web page via a cookie.
+- source: sensitive financial information
+  target: bank account detail
+  key: SUBSUM
+  text:
+  - In addition, you should note that we collect and store sensitive financial information,
+    including your bank account details for those Customers who elect to pay us via
+    wire transfer and credit card number, expiration date, and billing details for
+    those Customers who pay us via credit card.
+- source: sensitive financial information
+  target: billing detail
+  key: SUBSUM
+  text:
+  - In addition, you should note that we collect and store sensitive financial information,
+    including your bank account details for those Customers who elect to pay us via
+    wire transfer and credit card number, expiration date, and billing details for
+    those Customers who pay us via credit card.
+- source: sensitive financial information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - In addition, you should note that we collect and store sensitive financial information,
+    including your bank account details for those Customers who elect to pay us via
+    wire transfer and credit card number, expiration date, and billing details for
+    those Customers who pay us via credit card.
+- source: sensitive financial information
+  target: expiration date
+  key: SUBSUM
+  text:
+  - In addition, you should note that we collect and store sensitive financial information,
+    including your bank account details for those Customers who elect to pay us via
+    wire transfer and credit card number, expiration date, and billing details for
+    those Customers who pay us via credit card.
+nodes:
+- type: ACTOR
+  id: TED Conferences
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: conference
+- type: ACTOR
+  id: mapping
+- type: ACTOR
+  id: payment
+- type: ACTOR
+  id: trust partner
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access time
+- type: DATA
+  id: advertising id
+- type: DATA
+  id: app version
+- type: DATA
+  id: bank account detail
+- type: DATA
+  id: billing detail
+- type: DATA
+  id: browser information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: conferences i o
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: corporate detail
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device information
+- type: DATA
+  id: device specific information
+- type: DATA
+  id: domain name
+- type: DATA
+  id: email address
+- type: DATA
+  id: expiration date
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: hardware model
+- type: DATA
+  id: information about computer hardware
+- type: DATA
+  id: information about use of service for advertising
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: invoicing information
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job title
+- type: DATA
+  id: log file
+- type: DATA
+  id: name of organization
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: notification
+- type: DATA
+  id: operating system information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: refer website address
+- type: DATA
+  id: referrer
+- type: DATA
+  id: sensitive financial information
+- type: DATA
+  id: ssl protocol
+- type: DATA
+  id: tax payer identification number

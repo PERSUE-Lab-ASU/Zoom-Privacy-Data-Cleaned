@@ -1,0 +1,91 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Confirmation of intention to sign up for membership, identification/authentication
+    of members by providing membership services, maintenance/management of membership,
+    prevention of illegal use of services, confirmation of consent of legal representatives
+    when processing personal information of children under the age of 14, various
+    notices/notifications, grievance handling We process personal data for this purpose.
+  purposes: {}
+- source: < riv technology
+  target: personal information
+  key: COLLECT
+  text:
+  - 1 <Riv Technology> processes and retains personal information within the period
+    of retention and use of personal information according to the law or the period
+    of use and retention of personal information agreed upon when collecting personal
+    information from the information subject.
+  purposes: {}
+- source: classshare
+  target: personal information
+  key: COLLECT
+  text:
+  - Article 1 (Purpose of Personal Information Processing) <Riv Technology> (' www.classshare.co.kr
+    ' or 'classShare') processes personal information for the following purposes.
+  purposes: {}
+- source: riv technology
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Article 7 (Matters concerning the installation, operation and refusal of automatic
+    personal information collection devices) 1 Riv Technology uses 'cookies' that
+    store and retrieve usage information from time to time to provide personalized
+    services to users.
+  purposes:
+    services:
+    - to provide personalized services to users
+- source: riv technology
+  target: personal information
+  key: COLLECT
+  text:
+  - Article 1 (Purpose of Personal Information Processing) <Riv Technology> (' www.classshare.co.kr
+    ' or 'classShare') processes personal information for the following purposes.
+  purposes: {}
+- source: personal information item
+  target: homepage member registration
+  key: SUBSUM
+  text:
+  - 1 <Riv Technology> handles the following personal information items.
+  - 1< Homepage member registration and management >
+- source: type of visit
+  target: popular search word
+  key: SUBSUM
+  text:
+  - 'Purpose of use of cookies: It is used to provide optimized information to users
+    by identifying the types of visits and usage of each service and website visited
+    by the user, popular search words, security access, etc.'
+- source: type of visit
+  target: security access
+  key: SUBSUM
+  text:
+  - 'Purpose of use of cookies: It is used to provide optimized information to users
+    by identifying the types of visits and usage of each service and website visited
+    by the user, popular search words, security access, etc.'
+nodes:
+- type: ACTOR
+  id: < riv technology
+- type: ACTOR
+  id: classshare
+- type: ACTOR
+  id: riv technology
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: homepage member registration
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information item
+- type: DATA
+  id: popular search word
+- type: DATA
+  id: security access
+- type: DATA
+  id: type of visit

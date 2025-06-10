@@ -1,0 +1,14 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: jump logo
+  target: blog
+  key: SUBSUM
+  text:
+  - "Jump Logo \n\nCompany\n\nBlog"
+nodes:
+- type: ACTOR
+  id: blog
+- type: ACTOR
+  id: jump logo

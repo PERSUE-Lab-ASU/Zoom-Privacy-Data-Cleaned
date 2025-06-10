@@ -1,0 +1,140 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: browser user agent string
+  key: COLLECT
+  text:
+  - 'Personal data collected by this site and the reasons for its collection
+
+
+    Comment
+
+
+    When a visitor leaves a comment on this site, we collect the data displayed on
+    the comment form, as well as the IP address and browser user agent string to help
+    detect spam.'
+  purposes:
+    security:
+    - to help detect spam
+- source: we
+  target: datum display on comment form
+  key: COLLECT
+  text:
+  - 'Personal data collected by this site and the reasons for its collection
+
+
+    Comment
+
+
+    When a visitor leaves a comment on this site, we collect the data displayed on
+    the comment form, as well as the IP address and browser user agent string to help
+    detect spam.'
+  purposes:
+    security:
+    - to help detect spam
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'Personal data collected by this site and the reasons for its collection
+
+
+    Comment
+
+
+    When a visitor leaves a comment on this site, we collect the data displayed on
+    the comment form, as well as the IP address and browser user agent string to help
+    detect spam.'
+  purposes:
+    security:
+    - to help detect spam
+- source: we
+  target: personal information they provide on user profile page
+  key: COLLECT
+  text:
+  - If there are users registered on this site, we will save the personal information
+    they provide on their user profile page.
+  purposes: {}
+- source: Automattic
+  target: email address
+  key: COLLECT
+  text:
+  - 'Personal data collected by this site and the reasons for its collection
+
+
+    Comment
+
+
+    Anonymized (also known as a "hash") string created from your email address may
+    be provided to the Gravatar service to determine if you are using it.'
+  purposes:
+    analytics:
+    - to determine if you are using it
+- source: Automattic
+  target: personal datum collect
+  key: COLLECT
+  text:
+  - 'Personal data collected by this site and the reasons for its collection
+
+
+    Comment
+
+
+    Anonymized (also known as a "hash") string created from your email address may
+    be provided to the Gravatar service to determine if you are using it.'
+  purposes:
+    analytics:
+    - to determine if you are using it
+    security:
+    - to help detect spam
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Personal data collected by this site and the reasons for its collection
+
+
+    Embedded content from other sites
+
+
+    These sites may collect your data, use cookies, embed additional tracking by third
+    parties, and monitor your interaction with embedded content.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Personal data collected by this site and the reasons for its collection
+
+
+    Embedded content from other sites
+
+
+    These sites may collect your data, use cookies, embed additional tracking by third
+    parties, and monitor your interaction with embedded content.'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Automattic
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser user agent string
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum display on comment form
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal datum collect
+- type: DATA
+  id: personal information they provide on user profile page

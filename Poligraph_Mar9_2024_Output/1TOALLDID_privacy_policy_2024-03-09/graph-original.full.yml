@@ -1,0 +1,97 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: to all
+  target: personal datum relate to service preference in consist of racial belief
+  key: COLLECT
+  text:
+  - 2.2 The 1-TO-ALL may collect and use personal data relating to service preference
+    or subscribed service in which consisting of racial, religious or philosophical
+    beliefs, health information, biological information, disabilities, heredity information
+    or other information.
+  purposes: {}
+- source: electronic channel
+  target: appropriate method
+  key: SUBSUM
+  text:
+  - Accordingly, the 1-TO-ALL will inform Data Subject to acknowledge and giving written
+    consent explicitly through written statement or via electronic channel, e.g. email,
+    Short Message Service (SMS) or other appropriate and acceptable methods, unless
+    it is an exception as prescribed by law.
+- source: electronic channel
+  target: short message service
+  key: SUBSUM
+  text:
+  - Accordingly, the 1-TO-ALL will inform Data Subject to acknowledge and giving written
+    consent explicitly through written statement or via electronic channel, e.g. email,
+    Short Message Service (SMS) or other appropriate and acceptable methods, unless
+    it is an exception as prescribed by law.
+- source: electronic channel
+  target: sms
+  key: SUBSUM
+  text:
+  - Accordingly, the 1-TO-ALL will inform Data Subject to acknowledge and giving written
+    consent explicitly through written statement or via electronic channel, e.g. email,
+    Short Message Service (SMS) or other appropriate and acceptable methods, unless
+    it is an exception as prescribed by law.
+- source: personal datum receive from data subject
+  target: financial information be
+  key: SUBSUM
+  text:
+  - 3.2 Any personal data that the 1-TO-ALL received from the Data Subject such as
+    name, residential address, contact number, identification number, financial information
+    which is identifiable, complete and up-to-date.
+- source: personal datum receive from data subject
+  target: identification number
+  key: SUBSUM
+  text:
+  - 3.2 Any personal data that the 1-TO-ALL received from the Data Subject such as
+    name, residential address, contact number, identification number, financial information
+    which is identifiable, complete and up-to-date.
+- source: personal datum receive from data subject
+  target: person name
+  key: SUBSUM
+  text:
+  - 3.2 Any personal data that the 1-TO-ALL received from the Data Subject such as
+    name, residential address, contact number, identification number, financial information
+    which is identifiable, complete and up-to-date.
+- source: personal datum receive from data subject
+  target: phone number
+  key: SUBSUM
+  text:
+  - 3.2 Any personal data that the 1-TO-ALL received from the Data Subject such as
+    name, residential address, contact number, identification number, financial information
+    which is identifiable, complete and up-to-date.
+- source: personal datum receive from data subject
+  target: postal address
+  key: SUBSUM
+  text:
+  - 3.2 Any personal data that the 1-TO-ALL received from the Data Subject such as
+    name, residential address, contact number, identification number, financial information
+    which is identifiable, complete and up-to-date.
+nodes:
+- type: ACTOR
+  id: appropriate method
+- type: ACTOR
+  id: electronic channel
+- type: ACTOR
+  id: short message service
+- type: ACTOR
+  id: sms
+- type: ACTOR
+  id: to all
+- type: DATA
+  id: financial information be
+- type: DATA
+  id: identification number
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum receive from data subject
+- type: DATA
+  id: personal datum relate to service preference in consist of racial belief
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

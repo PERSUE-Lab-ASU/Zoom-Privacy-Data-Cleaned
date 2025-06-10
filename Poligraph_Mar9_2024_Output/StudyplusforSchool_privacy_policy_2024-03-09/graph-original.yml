@@ -1,0 +1,212 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Article 2 (Purpose of Use) In addition to the purposes of use listed in the preceding
+    paragraph, the Company may use the information for the following purposes.'
+  purposes: {}
+- source: we
+  target: information provide
+  key: COLLECT
+  text:
+  - When a user uses this service, if the user gives permission to cooperate with
+    Twitter, Facebook, LINE and other social networking services (hereinafter referred
+    to as "SNS") that are designated by us, we shall receive information provided
+    by the SNS.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Article 3 (Use of Statistical Data) We may use the personal information you provide
+    to create statistical data that does not identify you personally.'
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Policy unless a longer retention period is required
+    or permitted by law.
+  purposes:
+    analytics:
+    - to create statistical data that does not identify you personally
+- source: we
+  target: statistical data not identify you
+  key: COLLECT
+  text:
+  - The Company may use any statistical data that does not identify you personally
+    without any restrictions.
+  purposes: {}
+- source: we
+  target: user attribute
+  key: COLLECT
+  text:
+  - For the purpose of effectively delivering optimized advertisements for users in
+    external media other than us, we provides user attributes (hereinafter referred
+    to as "informative data") determined or inferred from cookies, ad identifiers,
+    and the information accumulated with cookies, ad identifiers, that cannot directly
+    identify a specific individual from among the personal information obtained from
+    users to the companies involved in ad serving (ad serving companies, media companies,
+    advertising companies, advertisers, etc.), and the user agrees above.
+  purposes:
+    advertising:
+    - For the purpose of effectively delivering optimized advertisements for users
+      in external media other than us
+- source: we
+  target: user information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Article 2 (Purpose of Use) The Company may use user information, including personal
+    information of the users of the Service, for the purpose of providing the Service
+    and for other purposes as set forth in this policy.'
+  - 'Privacy Policy
+
+
+    Article 4 (Policy on Acquisition of User Information) The Company shall obtain
+    user information, including personal information, by lawful and fair means, and
+    shall not obtain it by illegal methods against the user''s will.'
+  - 'Privacy Policy
+
+
+    Article 6 (Provision, Publication and Display of User Informatio : Please note
+    that we may provide, publish or post user information to third parties in the
+    following cases'
+  purposes:
+    services:
+    - for the purpose of providing the Service and for other purposes as set forth
+      in this policy
+- source: UNSPECIFIED_ACTOR
+  target: user information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Article 6 (Provision, Publication and Display of User Informatio : Please note
+    that we may provide, publish or post user information to third parties in the
+    following cases'
+  purposes: {}
+- source: educational institution
+  target: personal information
+  key: COLLECT
+  text:
+  - To provide personal information to educational institutions (including schools,
+    prep schools, cram schools, etc.) based on the user's request for information
+    materials and application forms.
+  purposes: {}
+- source: page on website
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Some pages on the Company's website use cookies, a technology that identifies
+    the user's computer from the website.
+  purposes: {}
+- source: smartphone application not use cookie
+  target: advertisement identifier provide
+  key: COLLECT
+  text:
+  - In addition, smartphone applications that do not use cookies use an advertisement
+    identifier provided by the smartphone OS as a unique ID to identify the user.
+  purposes:
+    security:
+    - to identify the user
+    services:
+    - to identify the user
+- source: we
+  target: studyplus inc.
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Studyplus Inc. ("we", "us" or "our") set forth below the Privacy Policy (hereinafter
+    referred to as the "Policy") regarding the handling of the personal information
+    of users (the "User" refers to the entity to which the personal information is
+    attributed) in providing our study management service "Studyplus" and "Studyplus
+    for School" (hereinafter referred to as "the Service") as defined in Article 5
+    of the Studyplus Terms of Service.'
+- source: educational institution
+  target: cram school
+  key: SUBSUM
+  text:
+  - To provide personal information to educational institutions (including schools,
+    prep schools, cram schools, etc.) based on the user's request for information
+    materials and application forms.
+- source: educational institution
+  target: prep school
+  key: SUBSUM
+  text:
+  - To provide personal information to educational institutions (including schools,
+    prep schools, cram schools, etc.) based on the user's request for information
+    materials and application forms.
+- source: educational institution
+  target: school
+  key: SUBSUM
+  text:
+  - To provide personal information to educational institutions (including schools,
+    prep schools, cram schools, etc.) based on the user's request for information
+    materials and application forms.
+- source: user information
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'Privacy Policy
+
+
+    Article 2 (Purpose of Use) The Company may use user information, including personal
+    information of the users of the Service, for the purpose of providing the Service
+    and for other purposes as set forth in this policy.'
+  - 'Privacy Policy
+
+
+    Article 4 (Policy on Acquisition of User Information) The Company shall obtain
+    user information, including personal information, by lawful and fair means, and
+    shall not obtain it by illegal methods against the user''s will.'
+  - The Company shall take necessary and appropriate measures for the safe management
+    of user information and shall strive to strengthen security to a reasonable extent
+    to prevent third parties from coming into undue contact with user information,
+    including users' personal information.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: cram school
+- type: ACTOR
+  id: educational institution
+- type: ACTOR
+  id: page on website
+- type: ACTOR
+  id: prep school
+- type: ACTOR
+  id: school
+- type: ACTOR
+  id: smartphone application not use cookie
+- type: ACTOR
+  id: studyplus inc.
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: advertisement identifier provide
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information provide
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistical data not identify you
+- type: DATA
+  id: user attribute
+- type: DATA
+  id: user information

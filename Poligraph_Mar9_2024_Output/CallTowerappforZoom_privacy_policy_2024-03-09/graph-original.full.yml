@@ -1,0 +1,31 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: comprehensive detail on customer sla
+  target: schedule maintenance window for solution update
+  key: SUBSUM
+  text:
+  - Services Level Agreements (SLA)  Comprehensive details on CallTower's Customer
+    SLA, including scheduled maintenance windows for solution updates.
+- source: ct cloud solutions
+  target: ct sip
+  key: SUBSUM
+  text:
+  - 'CT Cloud Solutions : CT SIP'
+- source: ct cloud solutions
+  target: ct voice
+  key: SUBSUM
+  text:
+  - 'CT Cloud Solutions : CT Voice'
+nodes:
+- type: ACTOR
+  id: ct cloud solutions
+- type: ACTOR
+  id: ct sip
+- type: ACTOR
+  id: ct voice
+- type: DATA
+  id: comprehensive detail on customer sla
+- type: DATA
+  id: schedule maintenance window for solution update

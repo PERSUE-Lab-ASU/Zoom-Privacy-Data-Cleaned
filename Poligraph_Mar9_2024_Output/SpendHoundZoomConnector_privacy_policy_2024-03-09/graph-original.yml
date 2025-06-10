@@ -1,0 +1,234 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - For clarity and without limiting the foregoing, the parties acknowledge and agree
+    that SpendHound may collect and derive from Customer Content aggregated, de-identified
+    and/or anonymized data that does not identify Customer or any natural persons,
+    and SpendHound may, in its sole discretion, use, disclose, and/or sell such data
+    for any lawful purpose, including (but not limited to) improving the Services,
+    research, service and product development, and marketing.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: confidential information of party
+  key: COLLECT
+  text:
+  - Each party may disclose Confidential Information of the other party on a need-to-know
+    basis to its contractors or, in the case of SpendHound, Subcontractors or Subprocessors,
+    who are subject to confidentiality agreements and use the Confidential Information
+    only to facilitate the performance of their services on behalf of the receiving
+    party.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: customer personal data
+  key: COLLECT
+  text:
+  - By submitting Customer Personal Data to SpendHound, Customer agrees that SpendHound
+    and its Affiliates will process, transfer and/or store Customer Personal Data
+    in accordance with the requirements set forth in the
+  purposes: {}
+- source: contractor
+  target: confidential information of party
+  key: COLLECT
+  text:
+  - Each party may disclose Confidential Information of the other party on a need-to-know
+    basis to its contractors or, in the case of SpendHound, Subcontractors or Subprocessors,
+    who are subject to confidentiality agreements and use the Confidential Information
+    only to facilitate the performance of their services on behalf of the receiving
+    party.
+  purposes: {}
+- source: customer
+  target: relevant information regard procurement services
+  key: COLLECT
+  text:
+  - SpendHound shall provide to Customer all relevant information regarding the Procurement
+    Services, including any applicable fees.
+  purposes: {}
+- source: party seek indemnification under section
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - A party seeking indemnification under this section shall (a) promptly notify the
+    other party of the claim, (b) give the other party sole control of the defense
+    and settlement of the claim, and (c) provide, at the other party's expense, assistance,
+    information and authority reasonably requested by the other party in the defense
+    and settlement of the claim.
+  purposes: {}
+- source: party seek indemnification under section
+  target: assistance
+  key: COLLECT
+  text:
+  - A party seeking indemnification under this section shall (a) promptly notify the
+    other party of the claim, (b) give the other party sole control of the defense
+    and settlement of the claim, and (c) provide, at the other party's expense, assistance,
+    information and authority reasonably requested by the other party in the defense
+    and settlement of the claim.
+  purposes: {}
+- source: party seek indemnification under section
+  target: authority
+  key: COLLECT
+  text:
+  - A party seeking indemnification under this section shall (a) promptly notify the
+    other party of the claim, (b) give the other party sole control of the defense
+    and settlement of the claim, and (c) provide, at the other party's expense, assistance,
+    information and authority reasonably requested by the other party in the defense
+    and settlement of the claim.
+  purposes: {}
+- source: performance of agreement
+  target: customer personal data
+  key: COLLECT
+  text:
+  - Customer hereby acknowledges and agrees that SpendHound's performance of this
+    Agreement may also require SpendHound to process, transfer and/or store Customer
+    Personal Data.
+  purposes: {}
+- source: receive party
+  target: confidential information of party
+  key: COLLECT
+  text:
+  - The receiving party may disclose Confidential Information of the other party to
+    the extent such disclosure is required by law, order of a court, or other governmental
+    authority, provided that the receiving party shall use reasonable efforts to notify
+    the other party promptly and prior to such disclosure, so the disclosing party
+    may seek a protective order or otherwise prevent or restrict such disclosure.
+  purposes: {}
+- source: spendhound
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - For clarity and without limiting the foregoing, the parties acknowledge and agree
+    that SpendHound may collect and derive from Customer Content aggregated, de-identified
+    and/or anonymized data that does not identify Customer or any natural persons,
+    and SpendHound may, in its sole discretion, use, disclose, and/or sell such data
+    for any lawful purpose, including (but not limited to) improving the Services,
+    research, service and product development, and marketing.
+  purposes: {}
+- source: spendhound
+  target: customer personal data
+  key: COLLECT
+  text:
+  - By submitting Customer Personal Data to SpendHound, Customer agrees that SpendHound
+    and its Affiliates will process, transfer and/or store Customer Personal Data
+    in accordance with the requirements set forth in the
+  - Customer hereby acknowledges and agrees that SpendHound's performance of this
+    Agreement may also require SpendHound to process, transfer and/or store Customer
+    Personal Data.
+  purposes: {}
+- source: spendhound
+  target: logo
+  key: COLLECT
+  text:
+  - Unless otherwise requested by Customer in writing, SpendHound may use Customer's
+    name, logo and trademarks to indicate that Customer is a SpendHound customer in
+    SpendHound's business development and marketing efforts and materials (both printed
+    and online), including, without limitation, its website.
+  purposes:
+    advertising:
+    - to indicate that Customer is a SpendHound customer in SpendHound's business
+      development and marketing efforts and materials (both printed and online),
+- source: spendhound
+  target: person name
+  key: COLLECT
+  text:
+  - Unless otherwise requested by Customer in writing, SpendHound may use Customer's
+    name, logo and trademarks to indicate that Customer is a SpendHound customer in
+    SpendHound's business development and marketing efforts and materials (both printed
+    and online), including, without limitation, its website.
+  purposes:
+    advertising:
+    - to indicate that Customer is a SpendHound customer in SpendHound's business
+      development and marketing efforts and materials (both printed and online),
+- source: spendhound
+  target: relevant information regard procurement services
+  key: COLLECT
+  text:
+  - SpendHound shall provide to Customer all relevant information regarding the Procurement
+    Services, including any applicable fees.
+  purposes: {}
+- source: spendhound
+  target: trademark
+  key: COLLECT
+  text:
+  - Unless otherwise requested by Customer in writing, SpendHound may use Customer's
+    name, logo and trademarks to indicate that Customer is a SpendHound customer in
+    SpendHound's business development and marketing efforts and materials (both printed
+    and online), including, without limitation, its website.
+  purposes:
+    advertising:
+    - to indicate that Customer is a SpendHound customer in SpendHound's business
+      development and marketing efforts and materials (both printed and online),
+- source: subcontractor
+  target: confidential information of party
+  key: COLLECT
+  text:
+  - Each party may disclose Confidential Information of the other party on a need-to-know
+    basis to its contractors or, in the case of SpendHound, Subcontractors or Subprocessors,
+    who are subject to confidentiality agreements and use the Confidential Information
+    only to facilitate the performance of their services on behalf of the receiving
+    party.
+  purposes: {}
+- source: subprocessor
+  target: confidential information of party
+  key: COLLECT
+  text:
+  - Each party may disclose Confidential Information of the other party on a need-to-know
+    basis to its contractors or, in the case of SpendHound, Subcontractors or Subprocessors,
+    who are subject to confidentiality agreements and use the Confidential Information
+    only to facilitate the performance of their services on behalf of the receiving
+    party.
+  purposes: {}
+- source: subcontractor
+  target: subprocessor
+  key: SUBSUM
+  text:
+  - 'Terms of Service
+
+
+    11. GENERAL PROVISIONS
+
+
+    . Customer consents to SpendHound''s appointment of Subcontractors (including
+    Subprocessors) to perform the Services and Procurement Services.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: customer
+- type: ACTOR
+  id: party seek indemnification under section
+- type: ACTOR
+  id: performance of agreement
+- type: ACTOR
+  id: receive party
+- type: ACTOR
+  id: spendhound
+- type: ACTOR
+  id: subcontractor
+- type: ACTOR
+  id: subprocessor
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: assistance
+- type: DATA
+  id: authority
+- type: DATA
+  id: confidential information of party
+- type: DATA
+  id: customer personal data
+- type: DATA
+  id: logo
+- type: DATA
+  id: person name
+- type: DATA
+  id: relevant information regard procurement services
+- type: DATA
+  id: trademark

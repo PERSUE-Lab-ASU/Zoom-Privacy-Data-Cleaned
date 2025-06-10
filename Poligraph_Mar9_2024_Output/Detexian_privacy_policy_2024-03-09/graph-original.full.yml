@@ -1,0 +1,70 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We collect your Personal Information for the primary purpose of providing our
+    services to you, providing information to our clients and marketing.
+  - We may also use your Personal Information for secondary purposes closely related
+    to the primary purpose, in circumstances where you would reasonably expect such
+    use or disclosure.
+  - Where reasonable and practicable to do so, we will collect your Personal Information
+    only from you.
+  purposes:
+    advertising:
+    - for the primary purpose of providing our services to you, providing information
+      to our clients and marketing
+    analytics:
+    - for the primary purpose of providing our services to you, providing information
+      to our clients and marketing
+    services:
+    - for the primary purpose of providing our services to you, providing information
+      to our clients and marketing
+- source: we
+  target: sensitive information
+  key: COLLECT
+  text:
+  - 'Sensitive information will be used by us only:'
+  purposes: {}
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Examples of Personal Information we collect include: names, addresses, email
+    addresses, phone and facsimile numbers.'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Examples of Personal Information we collect include: names, addresses, email
+    addresses, phone and facsimile numbers.'
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Examples of Personal Information we collect include: names, addresses, email
+    addresses, phone and facsimile numbers.'
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Examples of Personal Information we collect include: names, addresses, email
+    addresses, phone and facsimile numbers.'
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: email address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: sensitive information

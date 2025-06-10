@@ -1,0 +1,51 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If the user requests disclosure of his or her personal information in accordance
+    with the provisions of the Personal Information Protection Law, the Company shall
+    disclose the information to the user without delay after confirming that the request
+    is made by the user himself or herself (if the personal information does not exist,
+    the Company shall notify the user to that effect).
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may collect information about your access to the Service and how you use it.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may ask third parties with whom you communicate through the Service to provide
+    you with information We may ask third parties with whom you communicate through
+    the Service to provide you with information.
+  purposes:
+    analytics:
+    - to provide you with information
+    services:
+    - to provide you with information
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: personal information

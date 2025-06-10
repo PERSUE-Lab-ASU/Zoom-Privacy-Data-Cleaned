@@ -1,0 +1,155 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Depending on how You use Our Software or Services, We may also receive information
+    from external applications that You use to access Our Software, or We may receive
+    information through various web technologies, such as cookies, log files, clear
+    gifs, web beacons or others.
+  - The Company may provide You with certain information as a result of Your use of
+    the Software or Services.
+  - We may also track certain aspects of the passive information received to improve
+    Our marketing and analytics, and for this, We may share your information with
+    trusted third-party service providers who assist us in delivering our services
+    or performing essential business functions.
+  - When You register for an account, You provide Us with a valid email address and
+    may provide Us with additional information, such as Your name, information about
+    Your business or billing information.
+  - When you choose to use Qadense's Zoom integration, we collect and process certain
+    data for the sole purpose of facilitating the automatic registration of event
+    participants within Qadense to the corresponding events on Zoom.
+  purposes:
+    advertising:
+    - to improve Our marketing and analytics
+    analytics:
+    - to improve Our marketing and analytics
+    services:
+    - for the sole purpose of facilitating the automatic registration of event participants
+      within Qadense to the corresponding events on Zoom
+- source: we
+  target: authorization edit meeting within administrator zoom account
+  key: COLLECT
+  text:
+  - Additionally, we request and obtain authorization to edit meetings and webinars
+    within the event's administrator Zoom account.
+  purposes: {}
+- source: we
+  target: business information
+  key: COLLECT
+  text:
+  - When You register for an account, You provide Us with a valid email address and
+    may provide Us with additional information, such as Your name, information about
+    Your business or billing information.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - Finally, we collect the event participants' name and email.
+  - We collect and store the email address associated with the event's administrator
+    Zoom account to enable this integration.
+  - When You register for an account, You provide Us with a valid email address and
+    may provide Us with additional information, such as Your name, information about
+    Your business or billing information.
+  purposes:
+    services:
+    - to enable this integration
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - Through Your Use of the Software and Services, You may provide Us with certain
+    information about You and Your business.
+  purposes: {}
+- source: we
+  target: information gather from you
+  key: COLLECT
+  text:
+  - We use the information gathered from You to ensure Your continued good experience
+    on Our Software, including through email communication.
+  purposes:
+    services:
+    - to ensure Your continued good experience on Our Software, including through
+      email communication
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - Finally, we collect the event participants' name and email.
+  - When You register for an account, You provide Us with a valid email address and
+    may provide Us with additional information, such as Your name, information about
+    Your business or billing information.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We retain your personal information only for as long as it is necessary to fulfill
+    the purpose for which it was collected.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - These service providers are bound by confidentiality agreements and are only authorized
+    to use your information for the specified purposes.
+  - We may also track certain aspects of the passive information received to improve
+    Our marketing and analytics, and for this, We may share your information with
+    trusted third-party service providers who assist us in delivering our services
+    or performing essential business functions.
+  purposes:
+    advertising:
+    - to improve Our marketing and analytics
+    analytics:
+    - to improve Our marketing and analytics
+- source: information about you you provide
+  target: email address
+  key: SUBSUM
+  text:
+  - Please be aware that the Company will still receive information about You that
+    You have provided, such as Your email address.
+- source: information regard good
+  target: image
+  key: SUBSUM
+  text:
+  - The Company undertakes to be as accurate as possible with all information regarding
+    the goods and services, including product descriptions and images.
+- source: information regard good
+  target: product description
+  key: SUBSUM
+  text:
+  - The Company undertakes to be as accurate as possible with all information regarding
+    the goods and services, including product descriptions and images.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: authorization edit meeting within administrator zoom account
+- type: DATA
+  id: business information
+- type: DATA
+  id: email address
+- type: DATA
+  id: image
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information about you you provide
+- type: DATA
+  id: information gather from you
+- type: DATA
+  id: information regard good
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: product description

@@ -1,0 +1,857 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you open an account, we collect the following information from you.
+  - We process information on behalf of our customers who have legitimate interests
+    in operating their businesses.
+  - When a Calendar User comes to Calendar to schedule an event with a Calendar Member,
+    you voluntarily give us certain information.
+  purposes: {}
+- source: we
+  target: account information
+  key: COLLECT
+  text:
+  - Subject to applicable law, we will retain and use your account information only
+    as necessary to comply with our legal obligations, resolve disputes and enforce
+    our agreements.
+  purposes:
+    legal:
+    - to comply with our legal obligations, resolve disputes and enforce our agreements
+- source: we
+  target: basic profile
+  key: COLLECT
+  text:
+  - For example, with your consent, you may link your Calendar account with your Google,
+    Gmail, Microsoft Office 365 account, iCal, Yahoo, AOL or other similar service,
+    which allows us to obtain information from those accounts (like your basic profile
+    or contacts).
+  purposes: {}
+- source: we
+  target: confirmation
+  key: COLLECT
+  text:
+  - To help us make emails more useful and interesting, we often receive a confirmation
+    when you open email from Calendar if your computer supports such capabilities.
+  purposes:
+    services:
+    - To help us make emails more useful and interesting
+- source: we
+  target: contact
+  key: COLLECT
+  text:
+  - For example, with your consent, you may link your Calendar account with your Google,
+    Gmail, Microsoft Office 365 account, iCal, Yahoo, AOL or other similar service,
+    which allows us to obtain information from those accounts (like your basic profile
+    or contacts).
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Depending on how you're accessing our products and subject to your opt-out preferences,
+    we may use "cookies" (a small text file sent by your computer each time you visit
+    our website, unique to your Calendar account or your browser) or similar technologies
+    to record log data.
+  - For example, we may use cookies to keep you logged in to Calendar.
+  - Like many websites, we and our service providers use cookies, web beacons and
+    other technologies to receive and store certain types of information when you
+    interact with us through your computer or mobile device subject to your opt-out
+    preferences (see Your Rights and Choices section below).
+  - We may use both session and persistent cookies.
+  - When we use cookies, we may use "session" cookies (that last until you close your
+    browser) or "persistent" cookies (that last until you or your browser delete them).
+  purposes:
+    analytics:
+    - to receive and store certain types of information when you interact with us
+      through your computer or mobile device subject to your opt-out preferences (see
+      Your Rights and Choices section below)
+    - to record log data
+    services:
+    - to keep you logged in to Calendar
+    - to receive and store certain types of information when you interact with us
+      through your computer or mobile device subject to your opt-out preferences (see
+      Your Rights and Choices section below)
+    - to record log data
+- source: we
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - We store the last four digits of your credit card number, card type and the expiration
+    date.
+  purposes: {}
+- source: we
+  target: date
+  key: COLLECT
+  text:
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    services:
+    - to schedule a meeting
+- source: we
+  target: datum encryption
+  key: COLLECT
+  text:
+  - We also use computer safeguards such as firewalls and data encryption, we enforce
+    physical access controls to our office and files, and we authorize access to personal
+    information only for those employees who require it to fulfill their job responsibilities.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    services:
+    - to schedule a meeting
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We also may collect certain geolocation information.
+  purposes: {}
+- source: we
+  target: information about account transaction
+  key: COLLECT
+  text:
+  - When you are using the Calendar Service, we collect information about your account
+    transactions and trust relationships and we may collect information about your
+    computer or other access device for fraud prevention and other similar purposes.
+  purposes: {}
+- source: we
+  target: information about computer
+  key: COLLECT
+  text:
+  - When you are using the Calendar Service, we collect information about your account
+    transactions and trust relationships and we may collect information about your
+    computer or other access device for fraud prevention and other similar purposes.
+  purposes:
+    security:
+    - for fraud prevention and other similar purposes
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - In doing so, a vendor may share information about you with us, such as your mobile
+    phone number or Calendar username, when you attempt to pay that vendor.
+  - 'We also may obtain information about you: (a) from your mobile device such as
+    your device type, machine or mobile device identification number, geolocation,
+    time zone, language setting, browser type, and IP address, and (b) from third
+    parties for purposes of transaction processing, identity verification, fraud detection
+    or prevention and other similar purposes.'
+  - We may also obtain information about you from third parties such as identity verification,
+    fraud prevention and similar services.
+  - We use this information to confirm to that vendor that you are a Calendar customer
+    and that the vendor should enable Calendar as a form of payment for your purchase.
+  purposes:
+    services:
+    - to confirm to that vendor that you are a Calendar customer and that the vendor
+      should enable Calendar as a form of payment for your purchase
+- source: we
+  target: information browser send
+  key: COLLECT
+  text:
+  - When you use Calendar, our servers automatically record information ("log data"),
+    including information that your browser sends whenever you visit our Website.
+  purposes: {}
+- source: we
+  target: information from
+  key: COLLECT
+  text:
+  - Finally, we may collect additional information from or about you in other ways
+    not specifically described here.
+  purposes: {}
+- source: we
+  target: information relate to contact with customer support team
+  key: COLLECT
+  text:
+  - For example, we may collect information related to your contact with our customer
+    support team or store results when you respond to a survey.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - When you visit the website or use one of our mobile applications, we collect your
+    IP address, and standard web log information, such as your browser type and the
+    pages you accessed on our website.
+  purposes: {}
+- source: we
+  target: log datum
+  key: COLLECT
+  text:
+  - When you use Calendar, our servers automatically record information ("log data"),
+    including information that your browser sends whenever you visit our Website.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    services:
+    - to schedule a meeting
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - How We Protect And Store Personal Information
+  - Throughout this policy, we use the term "personal information" to describe information
+    that can be associated with a specific person and can be used to identify that
+    person.
+  - 'We may collect your personal and/or business information to:'
+  - 'We may share your personal information with: Our parent company, Calendar Inc.
+    and affiliates and subsidiaries it controls, but only for purposes allowed by
+    this document.'
+  - We may use technical information as described in this Policy and use personal
+    information for our marketing purposes consistent with our legitimate interests
+    and any choices that we offer or consents that may be required under applicable
+    law.
+  - We may use your personal information as described in this Policy subject to your
+    consent.
+  - We may use your personal information for our legitimate interests to provide our
+    Platform and services and to improve our services and the content on our Platform.
+  - We store and process your personal information using third party servers located
+    in secure data centers in the United States, This information is protected by
+    physical, electronic and procedural safeguards in compliance with applicable US
+    federal and state regulations.
+  purposes:
+    advertising:
+    - for our marketing purposes consistent with our legitimate interests and any
+      choices that we offer or consents that may be required under applicable law
+    analytics:
+    - to describe information that can be associated with a specific person and can
+      be used to identify that person
+    - 'to:
+
+
+      compare information for accuracy and verify it with third parties'
+    - 'to:
+
+
+      customize, personalize, measure, and improve our services and the content and
+      layout of our website'
+    legal:
+    - perform other duties as required by law
+    security:
+    - 'to:
+
+
+      compare information for accuracy and verify it with third parties'
+    - 'to:
+
+
+      prevent potentially fraudulent, prohibited or illegal activities, and enforce
+      our User Agreement'
+    services:
+    - to provide our Platform and services and to improve our services and the content
+      on our Platform
+    - 'to:
+
+
+      customize, personalize, measure, and improve our services and the content and
+      layout of our website'
+    - 'to:
+
+
+      process calendar requests and send notices about your calendar or your network
+      activity'
+    - 'to:
+
+
+      provide the services and customer support you request'
+    - 'to:
+
+
+      resolve disputes, collect fees, and troubleshoot problems'
+- source: we
+  target: personal information of calendar members
+  key: COLLECT
+  text:
+  - We may need to collect and use your personal information of Calendar Members and
+    Calendar Users, as applicable, to perform our contractual obligations.
+  purposes:
+    legal:
+    - to perform our contractual obligations
+- source: we
+  target: small text file send
+  key: COLLECT
+  text:
+  - Depending on how you're accessing our products and subject to your opt-out preferences,
+    we may use "cookies" (a small text file sent by your computer each time you visit
+    our website, unique to your Calendar account or your browser) or similar technologies
+    to record log data.
+  purposes:
+    analytics:
+    - to record log data
+    services:
+    - to record log data
+- source: we
+  target: standard web log information
+  key: COLLECT
+  text:
+  - When you visit the website or use one of our mobile applications, we collect your
+    IP address, and standard web log information, such as your browser type and the
+    pages you accessed on our website.
+  purposes: {}
+- source: we
+  target: technical information
+  key: COLLECT
+  text:
+  - We may use technical information as described in this Policy and use personal
+    information for our marketing purposes consistent with our legitimate interests
+    and any choices that we offer or consents that may be required under applicable
+    law.
+  purposes: {}
+- source: we
+  target: time
+  key: COLLECT
+  text:
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    services:
+    - to schedule a meeting
+- source: UNSPECIFIED_ACTOR
+  target: contact information
+  key: COLLECT
+  text:
+  - Your contact information, date of sign-up, the number of payments you have received
+    and other verification metrics like social graph activity may be provided to users
+    or companies when you transact with, on, or through Calendar.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: date of sign
+  key: COLLECT
+  text:
+  - Your contact information, date of sign-up, the number of payments you have received
+    and other verification metrics like social graph activity may be provided to users
+    or companies when you transact with, on, or through Calendar.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - In doing so, a vendor may share information about you with us, such as your mobile
+    phone number or Calendar username, when you attempt to pay that vendor.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: number of payment you receive
+  key: COLLECT
+  text:
+  - Your contact information, date of sign-up, the number of payments you have received
+    and other verification metrics like social graph activity may be provided to users
+    or companies when you transact with, on, or through Calendar.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Law enforcement, government officials,
+    or other third parties if Calendar is compelled to do so by a subpoena, court
+    order or similar legal procedure, when it is necessary to do so to comply with
+    law, or where the disclosure of personal information is reasonably necessary to
+    prevent physical harm or financial loss, to report suspected illegal activity,
+    or to investigate violations of the Calendar User Agreement, or as otherwise required
+    by law.'
+  - 'We may share your personal information with: Other third parties with your consent
+    or at your direction to do so.'
+  - 'We may share your personal information with: Our parent company, Calendar Inc.
+    and affiliates and subsidiaries it controls, but only for purposes allowed by
+    this document.'
+  - 'We may share your personal information with: Third party service providers who
+    assist us in providing services to you or who provide fraud detection or similar
+    services on our [or any vendor''s] behalf.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: verification metric
+  key: COLLECT
+  text:
+  - Your contact information, date of sign-up, the number of payments you have received
+    and other verification metrics like social graph activity may be provided to users
+    or companies when you transact with, on, or through Calendar.
+  purposes: {}
+- source: calendar inc.
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Our parent company, Calendar Inc.
+    and affiliates and subsidiaries it controls, but only for purposes allowed by
+    this document.'
+  purposes: {}
+- source: company calendar plan
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Companies that Calendar plans to
+    merge with or be acquired by or, in the event of any bankruptcy, a bankruptcy
+    estate.'
+  purposes: {}
+- source: government official
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Law enforcement, government officials,
+    or other third parties if Calendar is compelled to do so by a subpoena, court
+    order or similar legal procedure, when it is necessary to do so to comply with
+    law, or where the disclosure of personal information is reasonably necessary to
+    prevent physical harm or financial loss, to report suspected illegal activity,
+    or to investigate violations of the Calendar User Agreement, or as otherwise required
+    by law.'
+  purposes: {}
+- source: law enforcement
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Law enforcement, government officials,
+    or other third parties if Calendar is compelled to do so by a subpoena, court
+    order or similar legal procedure, when it is necessary to do so to comply with
+    law, or where the disclosure of personal information is reasonably necessary to
+    prevent physical harm or financial loss, to report suspected illegal activity,
+    or to investigate violations of the Calendar User Agreement, or as otherwise required
+    by law.'
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - ; Our contracts dictate that these service providers only use your information
+    in connection with the services they perform for us and not for their own benefit.
+  purposes: {}
+- source: service provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like many websites, we and our service providers use cookies, web beacons and
+    other technologies to receive and store certain types of information when you
+    interact with us through your computer or mobile device subject to your opt-out
+    preferences (see Your Rights and Choices section below).
+  purposes:
+    analytics:
+    - to receive and store certain types of information when you interact with us
+      through your computer or mobile device subject to your opt-out preferences (see
+      Your Rights and Choices section below)
+    services:
+    - to receive and store certain types of information when you interact with us
+      through your computer or mobile device subject to your opt-out preferences (see
+      Your Rights and Choices section below)
+- source: service provider under contract
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Service providers under contract
+    who help with parts of our business operations (for example, fraud prevention,
+    payment processing, or technology services)'
+  purposes: {}
+- source: social web
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal information with: Your social web, if your Calendar
+    account transactions are designated as "public" or friends-only calendar such
+    that other Calendar users can view your calendar or when you otherwise request
+    Calendar payments be posted to your social web.'
+  purposes: {}
+- source: third party payment processor
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - If you purchase any premium or enterprise version of Calendar, our third-party
+    payment processors will collect and store your billing address and credit card
+    information.
+  purposes: {}
+- source: third party payment processor
+  target: postal address
+  key: COLLECT
+  text:
+  - If you purchase any premium or enterprise version of Calendar, our third-party
+    payment processors will collect and store your billing address and credit card
+    information.
+  purposes: {}
+- source: account information
+  target: contact information
+  key: SUBSUM
+  text:
+  - In order to keep your personal information accurate and complete, you can log
+    in to review and update your account information, including contact and billing
+    information, via your account settings page.
+- source: analytic provider
+  target: visitor calendar
+  key: SUBSUM
+  text:
+  - Subject to your opt-out preferences (see Your Rights and Choices below), we use
+    third party service providers such as Google Analytics to provide certain analytics
+    and user interactions services to Calendar in connection with our operation of
+    our Platform, including the collection and tracking of certain data and information
+    regarding the characteristics and activities of visitors Calendar.
+- source: calendar account
+  target: basic profile
+  key: SUBSUM
+  text:
+  - For example, with your consent, you may link your Calendar account with your Google,
+    Gmail, Microsoft Office 365 account, iCal, Yahoo, AOL or other similar service,
+    which allows us to obtain information from those accounts (like your basic profile
+    or contacts).
+- source: calendar account
+  target: contact
+  key: SUBSUM
+  text:
+  - For example, with your consent, you may link your Calendar account with your Google,
+    Gmail, Microsoft Office 365 account, iCal, Yahoo, AOL or other similar service,
+    which allows us to obtain information from those accounts (like your basic profile
+    or contacts).
+- source: financial information
+  target: bank account information
+  key: SUBSUM
+  text:
+  - When you enter financial information (such as a payment card number or your bank
+    account information) on our Services, we encrypt the transmission of that information
+    using secure socket layer technology (SSL).
+- source: financial information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - When you enter financial information (such as a payment card number or your bank
+    account information) on our Services, we encrypt the transmission of that information
+    using secure socket layer technology (SSL).
+- source: information about you
+  target: calendar username
+  key: SUBSUM
+  text:
+  - In doing so, a vendor may share information about you with us, such as your mobile
+    phone number or Calendar username, when you attempt to pay that vendor.
+- source: information about you
+  target: phone number
+  key: SUBSUM
+  text:
+  - In doing so, a vendor may share information about you with us, such as your mobile
+    phone number or Calendar username, when you attempt to pay that vendor.
+- source: log datum
+  target: browser type
+  key: SUBSUM
+  text:
+  - This log data may include your web address you came from or are going to, your
+    device model, operating system, browser type, unique device identifier, IP address,
+    mobile network carrier, and time zone or location.
+- source: log datum
+  target: device identifier
+  key: SUBSUM
+  text:
+  - This log data may include your web address you came from or are going to, your
+    device model, operating system, browser type, unique device identifier, IP address,
+    mobile network carrier, and time zone or location.
+- source: log datum
+  target: device model
+  key: SUBSUM
+  text:
+  - This log data may include your web address you came from or are going to, your
+    device model, operating system, browser type, unique device identifier, IP address,
+    mobile network carrier, and time zone or location.
+- source: log datum
+  target: geolocation
+  key: SUBSUM
+  text:
+  - This log data may include your web address you came from or are going to, your
+    device model, operating system, browser type, unique device identifier, IP address,
+    mobile network carrier, and time zone or location.
+- source: log datum
+  target: information browser send
+  key: SUBSUM
+  text:
+  - This log data may include your web address you came from or are going to, your
+    device model, operating system, browser type, unique device identifier, IP address,
+    mobile network carrier, and time zone or location.
+  - When you use Calendar, our servers automatically record information ("log data"),
+    including information that your browser sends whenever you visit our Website.
+- source: log datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - This log data may include your web address you came from or are going to, your
+    device model, operating system, browser type, unique device identifier, IP address,
+    mobile network carrier, and time zone or location.
+- source: log datum
+  target: time zone
+  key: SUBSUM
+  text:
+  - This log data may include your web address you came from or are going to, your
+    device model, operating system, browser type, unique device identifier, IP address,
+    mobile network carrier, and time zone or location.
+- source: log datum
+  target: web address
+  key: SUBSUM
+  text:
+  - This log data may include your web address you came from or are going to, your
+    device model, operating system, browser type, unique device identifier, IP address,
+    mobile network carrier, and time zone or location.
+- source: method
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - If you are an individual located in the European Economic Area, the United Kingdom,
+    Canada or another jurisdiction outside of the United States with laws and regulations
+    governing personal data collection, use, and disclosure that differ from United
+    States laws, please be aware that information we collect (including through the
+    use of methods such as cookies and other web technologies) will be processed and
+    stored in the United States or in other countries where we or our third-party
+    services providers have operations.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Some of the cookies we use are associated with your Calendar account (including
+    personal information about you, such as the email address you gave us), and other
+    cookies are not.
+- source: personal information
+  target: non-personal information
+  key: SUBSUM
+  text:
+  - We do not consider personal information to include information that has been anonymized
+    so that it does not identify a specific user.
+- source: social web information
+  target: email address
+  key: SUBSUM
+  text:
+  - Including but not limited to your Google connect credentials (and information
+    that you authorize Google share with us though permissions) and email account
+    information.
+  - 'Privacy Policy
+
+
+    The Information We Collect
+
+
+    Social Web Information'
+- source: social web information
+  target: google connect credential
+  key: SUBSUM
+  text:
+  - Including but not limited to your Google connect credentials (and information
+    that you authorize Google share with us though permissions) and email account
+    information.
+  - 'Privacy Policy
+
+
+    The Information We Collect
+
+
+    Social Web Information'
+- source: social web information
+  target: information you authorize google though
+  key: SUBSUM
+  text:
+  - Including but not limited to your Google connect credentials (and information
+    that you authorize Google share with us though permissions) and email account
+    information.
+  - 'Privacy Policy
+
+
+    The Information We Collect
+
+
+    Social Web Information'
+- source: social web service
+  target: Facebook
+  key: SUBSUM
+  text:
+  - We also allow you to import data from other social web services, including but
+    not limited to Facebook, Microsoft, Twitter, Google+, Linkedin, email lists and
+    email service providers.
+- source: social web service
+  target: Google
+  key: SUBSUM
+  text:
+  - We also allow you to import data from other social web services, including but
+    not limited to Facebook, Microsoft, Twitter, Google+, Linkedin, email lists and
+    email service providers.
+- source: social web service
+  target: Microsoft
+  key: SUBSUM
+  text:
+  - We also allow you to import data from other social web services, including but
+    not limited to Facebook, Microsoft, Twitter, Google+, Linkedin, email lists and
+    email service providers.
+- source: social web service
+  target: Twitter
+  key: SUBSUM
+  text:
+  - We also allow you to import data from other social web services, including but
+    not limited to Facebook, Microsoft, Twitter, Google+, Linkedin, email lists and
+    email service providers.
+- source: social web service
+  target: email list
+  key: SUBSUM
+  text:
+  - We also allow you to import data from other social web services, including but
+    not limited to Facebook, Microsoft, Twitter, Google+, Linkedin, email lists and
+    email service providers.
+- source: social web service
+  target: email service provider
+  key: SUBSUM
+  text:
+  - We also allow you to import data from other social web services, including but
+    not limited to Facebook, Microsoft, Twitter, Google+, Linkedin, email lists and
+    email service providers.
+- source: social web service
+  target: linkedin
+  key: SUBSUM
+  text:
+  - We also allow you to import data from other social web services, including but
+    not limited to Facebook, Microsoft, Twitter, Google+, Linkedin, email lists and
+    email service providers.
+- source: standard web log information
+  target: browser type
+  key: SUBSUM
+  text:
+  - When you visit the website or use one of our mobile applications, we collect your
+    IP address, and standard web log information, such as your browser type and the
+    pages you accessed on our website.
+- source: verification metric
+  target: social graph activity
+  key: SUBSUM
+  text:
+  - Your contact information, date of sign-up, the number of payments you have received
+    and other verification metrics like social graph activity may be provided to users
+    or companies when you transact with, on, or through Calendar.
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Microsoft
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: calendar inc.
+- type: ACTOR
+  id: company calendar plan
+- type: ACTOR
+  id: email list
+- type: ACTOR
+  id: email service provider
+- type: ACTOR
+  id: government official
+- type: ACTOR
+  id: law enforcement
+- type: ACTOR
+  id: linkedin
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: service provider under contract
+- type: ACTOR
+  id: social web
+- type: ACTOR
+  id: social web service
+- type: ACTOR
+  id: third party payment processor
+- type: ACTOR
+  id: visitor calendar
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information
+- type: DATA
+  id: bank account information
+- type: DATA
+  id: basic profile
+- type: DATA
+  id: browser type
+- type: DATA
+  id: calendar account
+- type: DATA
+  id: calendar username
+- type: DATA
+  id: confirmation
+- type: DATA
+  id: contact
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: date of sign
+- type: DATA
+  id: datum encryption
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device model
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial information
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: google connect credential
+- type: DATA
+  id: information about account transaction
+- type: DATA
+  id: information about computer
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information browser send
+- type: DATA
+  id: information from
+- type: DATA
+  id: information relate to contact with customer support team
+- type: DATA
+  id: information you authorize google though
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log datum
+- type: DATA
+  id: method
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: number of payment you receive
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information of calendar members
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: small text file send
+- type: DATA
+  id: social graph activity
+- type: DATA
+  id: social web information
+- type: DATA
+  id: standard web log information
+- type: DATA
+  id: technical information
+- type: DATA
+  id: time
+- type: DATA
+  id: time zone
+- type: DATA
+  id: verification metric
+- type: DATA
+  id: web address

@@ -1,0 +1,171 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - From time-to-time our site requests information via surveys or contests.
+  - We request information from you on our order form.
+  - We will use your information to respond to you, regarding the reason you contacted
+    us.
+  purposes: {}
+- source: we
+  target: aggregate demographic information
+  key: COLLECT
+  text:
+  - We share aggregated demographic information with our partners and advertisers.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - If we have trouble processing an order, we'll use this information to contact
+    you.
+  - To buy from us, you must provide contact information (like name and address) and
+    financial information (like credit card number, expiration date).
+  - When the user signs up for these services, we will share names, or other contact
+    information that is necessary for the third party to provide these services.
+  purposes:
+    services:
+    - to contact you
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use "cookies" on this site.
+  purposes: {}
+- source: we
+  target: information you give we via email
+  key: COLLECT
+  text:
+  - We only have access to/collect information that you voluntarily give us via email
+    or other direct contact from you.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - When the user signs up for these services, we will share names, or other contact
+    information that is necessary for the third party to provide these services.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain your personal information for the period necessary to fulfill the
+    purposes outlined in this Privacy Policy unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: we
+  target: sensitive information
+  key: COLLECT
+  text:
+  - Wherever we collect sensitive information (such as credit card data), that information
+    is encrypted and transmitted to us in a secure way.
+  purposes: {}
+- source: Facebook
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These third party vendors, including Google, use cookies to serve ads based on
+    your prior visits to this website.
+  - Third party vendors like Facebook and Google may be displaying our ads to you
+    on other sites across the internet because you have visited this website.
+  purposes:
+    advertising:
+    - to serve ads based on your prior visits to this website
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These third party vendors, including Google, use cookies to serve ads based on
+    your prior visits to this website.
+  - Third party vendors like Facebook and Google may be displaying our ads to you
+    on other sites across the internet because you have visited this website.
+  purposes:
+    advertising:
+    - to serve ads based on your prior visits to this website
+- source: UNSPECIFIED_ACTOR
+  target: aggregate demographic information
+  key: COLLECT
+  text:
+  - We share aggregated demographic information with our partners and advertisers.
+  purposes: {}
+- source: advertiser
+  target: aggregate demographic information
+  key: COLLECT
+  text:
+  - We share aggregated demographic information with our partners and advertisers.
+  purposes: {}
+- source: protraining
+  target: personal information
+  key: COLLECT
+  text:
+  - ProTrainings may retain personal information about you provided to us by our integration
+    partners.
+  purposes: {}
+- source: protrainings
+  target: personal information
+  key: COLLECT
+  text:
+  - Your personal information is used solely by ProTrainings.
+  purposes: {}
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - Information requested may include contact information (such as name and address),
+    and demographic information (such as postcode, age level, occupation).
+  - To buy from us, you must provide contact information (like name and address) and
+    financial information (like credit card number, expiration date).
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Information requested may include contact information (such as name and address),
+    and demographic information (such as postcode, age level, occupation).
+  - To buy from us, you must provide contact information (like name and address) and
+    financial information (like credit card number, expiration date).
+- source: sensitive information
+  target: credit card datum
+  key: SUBSUM
+  text:
+  - Wherever we collect sensitive information (such as credit card data), that information
+    is encrypted and transmitted to us in a secure way.
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: protraining
+- type: ACTOR
+  id: protrainings
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate demographic information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit card datum
+- type: DATA
+  id: information you give we via email
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: sensitive information

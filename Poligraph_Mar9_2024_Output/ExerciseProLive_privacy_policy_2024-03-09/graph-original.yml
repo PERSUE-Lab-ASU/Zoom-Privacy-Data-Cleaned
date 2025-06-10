@@ -1,0 +1,99 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect information from you when you register on our site or place an order.
+  - We may also release your information when we believe release is appropriate to
+    comply with the law, enforce our site policies, or protect ours or others rights,
+    property, or safety.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to help us remember and process the items in your shopping cart,
+    understand and save your preferences for future visits, keep track of advertisements
+    and compile aggregate data about site traffic and site interaction so that we
+    can offer better site experiences and tools in the future.
+  purposes:
+    advertising:
+    - to help us remember and process the items in your shopping cart, understand
+      and save your preferences for future visits, keep track of advertisements and
+      compile aggregate data about site traffic and site interaction so that we can
+      offer better site experiences and tools in the future
+    analytics:
+    - to help us remember and process the items in your shopping cart, understand
+      and save your preferences for future visits, keep track of advertisements and
+      compile aggregate data about site traffic and site interaction so that we can
+      offer better site experiences and tools in the future
+    services:
+    - to help us remember and process the items in your shopping cart, understand
+      and save your preferences for future visits, keep track of advertisements and
+      compile aggregate data about site traffic and site interaction so that we can
+      offer better site experiences and tools in the future
+- source: we
+  target: item in shopping cart
+  key: COLLECT
+  text:
+  - We use cookies to help us remember and process the items in your shopping cart,
+    understand and save your preferences for future visits, keep track of advertisements
+    and compile aggregate data about site traffic and site interaction so that we
+    can offer better site experiences and tools in the future.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: we
+  target: preference for future visit
+  key: COLLECT
+  text:
+  - We use cookies to help us remember and process the items in your shopping cart,
+    understand and save your preferences for future visits, keep track of advertisements
+    and compile aggregate data about site traffic and site interaction so that we
+    can offer better site experiences and tools in the future.
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Google, as a third party vendor, uses cookies to serve ads on your site.
+  purposes:
+    advertising:
+    - to serve ads on your site
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - However, non-personally identifiable visitor information may be provided to other
+    parties for marketing, advertising, or other uses.
+  purposes:
+    advertising:
+    - for marketing, advertising, or other uses
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: item in shopping cart
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: preference for future visit

@@ -1,0 +1,177 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, we do share your data with trusted service providers who assist us in
+    facilitating the functionality of the service.
+  - We may disclose your information if required to do so by law or in response to
+    valid legal requests from public authorities.
+  purposes: {}
+- source: we
+  target: copy of personal datum in possession
+  key: COLLECT
+  text:
+  - Upon such request, we will provide you with a copy of your personal data in our
+    possession.
+  purposes: {}
+- source: we
+  target: datum use for purpose of service
+  key: COLLECT
+  text:
+  - We will only retain and store data that is actively being used by the user for
+    the purposes of our services.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may use your email address to send you important updates, notifications, and
+    relevant information about the service.
+  purposes:
+    services:
+    - to send you important updates, notifications, and relevant information about
+      the service
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may use usage data to analyze and improve the service's performance, enhance
+    user experience, and optimize the application's features.
+  purposes:
+    analytics:
+    - to analyze and improve the service's performance, enhance user experience, and
+      optimize the application's features
+    services:
+    - to analyze and improve the service's performance, enhance user experience, and
+      optimize the application's features
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may collect non-personal information about your interactions with the service,
+    such as the pages you visit, actions you take, and the duration of your sessions.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We use your personal information to create and maintain your SwiftBa account,
+    provide customer support, and fulfill your requests related to the service.
+  - When you sign up for SwiftBa, we may collect certain personal information, including
+    your name, email address, and other optional profile information.
+  purposes:
+    services:
+    - to create and maintain your SwiftBa account, provide customer support, and fulfill
+      your requests related to the service
+- source: we
+  target: transcript datum
+  key: COLLECT
+  text:
+  - We collect transcript data (including dialogue, speaker information, and timestamps)
+    from Google Meet meetings to enable certain functionality such as suggested questions
+    and post-meeting transcript viewing.
+  purposes:
+    services:
+    - to enable certain functionality such as suggested questions and post-meeting
+      transcript viewing
+- source: swiftba
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - SwiftBa may use cookies or similar technologies to enhance your experience on
+    the web application and Chrome extension.
+  purposes:
+    services:
+    - to enhance your experience on the web application and Chrome extension
+- source: trust service provider who assist we in
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, we do share your data with trusted service providers who assist us in
+    facilitating the functionality of the service.
+  purposes: {}
+- source: we
+  target: swiftba
+  key: SUBSUM
+  text:
+  - This Privacy Policy outlines how SwiftBa ("we," "our," or "us") accessed at swiftba.com
+    and app.swiftba.com collects, uses, stores, and shares your personal information
+    when you use our web application and Google Chrome extension ("the service").
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you sign up for SwiftBa, we may collect certain personal information, including
+    your name, email address, and other optional profile information.
+- source: personal information
+  target: optional profile information
+  key: SUBSUM
+  text:
+  - When you sign up for SwiftBa, we may collect certain personal information, including
+    your name, email address, and other optional profile information.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you sign up for SwiftBa, we may collect certain personal information, including
+    your name, email address, and other optional profile information.
+- source: transcript datum
+  target: dialogue
+  key: SUBSUM
+  text:
+  - We collect transcript data (including dialogue, speaker information, and timestamps)
+    from Google Meet meetings to enable certain functionality such as suggested questions
+    and post-meeting transcript viewing.
+- source: transcript datum
+  target: speaker information
+  key: SUBSUM
+  text:
+  - We collect transcript data (including dialogue, speaker information, and timestamps)
+    from Google Meet meetings to enable certain functionality such as suggested questions
+    and post-meeting transcript viewing.
+- source: transcript datum
+  target: timestamp
+  key: SUBSUM
+  text:
+  - We collect transcript data (including dialogue, speaker information, and timestamps)
+    from Google Meet meetings to enable certain functionality such as suggested questions
+    and post-meeting transcript viewing.
+nodes:
+- type: ACTOR
+  id: swiftba
+- type: ACTOR
+  id: trust service provider who assist we in
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: copy of personal datum in possession
+- type: DATA
+  id: datum use for purpose of service
+- type: DATA
+  id: dialogue
+- type: DATA
+  id: email address
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: optional profile information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: speaker information
+- type: DATA
+  id: timestamp
+- type: DATA
+  id: transcript datum

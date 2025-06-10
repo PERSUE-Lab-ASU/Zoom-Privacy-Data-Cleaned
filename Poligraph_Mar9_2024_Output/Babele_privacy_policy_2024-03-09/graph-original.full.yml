@@ -1,0 +1,731 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Our values, terms, and conditions
+
+
+    In all other cases we will only transmit or disclose data to third parties if
+    mandated by statutory provisions or if the data subject has given his/her consent.'
+  - We shall process your request to access your information and provide this information
+    to you free of charge.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies on our website to give you the most relevant experience by remembering
+    your preferences and repeat visits.
+  purposes:
+    services:
+    - to give you the most relevant experience by remembering your preferences and
+      repeat visits
+- source: we
+  target: datum about you
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you:'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: Information you give
+    us : You may give us information about you by completing enquiry forms on the
+    Website or by corresponding with us by phone, email or otherwise.'
+  purposes: {}
+- source: we
+  target: information we receive
+  key: COLLECT
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  purposes:
+    analytics:
+    - in order to provide general statistics of the usage of the community you are
+      part of to the program administrator to monitor the effectiveness of the program
+- source: we
+  target: information you give we
+  key: COLLECT
+  text:
+  - 'We may collect and process the following data about you: Information you give
+    us : You may give us information about you by completing enquiry forms on the
+    Website or by corresponding with us by phone, email or otherwise.'
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We will retain your IP Address (as through GCP Cloud Logging it's not possible
+    to delete log records using the API) and we will retain your personal data in
+    backups, for a maximum of 10 days (e.g. after 10 days the back-ups are deleted).
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We process personal information if
+    the processing is necessary to fulfill our obligations under any contract we have
+    entered into with you or with the organization of the program you are part of,
+    especially as it pertains to the services which are provided to you via the platform
+    (Article 6(1)(b) GDPR).We process personal information to send you newsletters
+    and email notifications of your activity in the platform, if you have consented
+    to us doing so (Article 6(1)(a) GDPR).'
+  - 'We process personal information for certain legitimate business purposes (according
+    to Article 6 (1) (f) GDPR), which include some or all of the following:'
+  - We will retain your IP Address (as through GCP Cloud Logging it's not possible
+    to delete log records using the API) and we will retain your personal data in
+    backups, for a maximum of 10 days (e.g. after 10 days the back-ups are deleted).
+  purposes:
+    services:
+    - for a maximum of 10 days
+- source: Amplitude
+  target: browser information
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google Analytics store this information on our behalf in
+    a pseudonymized user profile.
+  - This includes a device's IP address (processed during your session and stored
+    in a de-identified form), device screen size, device type (unique device identifiers),
+    browser information, geographic location (country only), and the preferred language
+    used to display our website.
+  purposes: {}
+- source: Amplitude
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: Amplitude
+  target: datum on behavior
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: Google
+  target: browser information
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google Analytics store this information on our behalf in
+    a pseudonymized user profile.
+  - This includes a device's IP address (processed during your session and stored
+    in a de-identified form), device screen size, device type (unique device identifiers),
+    browser information, geographic location (country only), and the preferred language
+    used to display our website.
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: Google
+  target: datum on behavior
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: Hotjar
+  target: browser information
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google Analytics store this information on our behalf in
+    a pseudonymized user profile.
+  - This includes a device's IP address (processed during your session and stored
+    in a de-identified form), device screen size, device type (unique device identifiers),
+    browser information, geographic location (country only), and the preferred language
+    used to display our website.
+  purposes: {}
+- source: Hotjar
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: Hotjar
+  target: datum on behavior
+  key: COLLECT
+  text:
+  - Hotjar, Amplitude, and Google analytics use cookies and other technologies to
+    collect data on users' behavior and their devices.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Our values, terms, and conditions
+
+
+    In all other cases we will only transmit or disclose data to third parties if
+    mandated by statutory provisions or if the data subject has given his/her consent.'
+  purposes: {}
+- source: general statistic of usage of community be
+  target: '# of access'
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: # of accesses'
+- source: general statistic of usage of community be
+  target: country
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: Country'
+- source: general statistic of usage of community be
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: Email address'
+- source: general statistic of usage of community be
+  target: follower
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: # Followers'
+- source: general statistic of usage of community be
+  target: last login date
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: Last Login date'
+- source: general statistic of usage of community be
+  target: like give
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: # Likes given'
+- source: general statistic of usage of community be
+  target: like receive
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: # Likes received'
+- source: general statistic of usage of community be
+  target: list of own project
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: list of owned projects'
+- source: general statistic of usage of community be
+  target: list of project
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: list of followed projects'
+- source: general statistic of usage of community be
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: Name'
+- source: general statistic of usage of community be
+  target: registration date
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: Registration date'
+- source: general statistic of usage of community be
+  target: user
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : We may use the information we receive
+    and/or collect about you, on the basis of legitimate interest according to Article
+    6 (1) (f) GDPR, in order to provide general statistics of the usage of the community
+    you are part of to the program administrator to monitor the effectiveness of the
+    program.'
+  - 'These statistics include: # Followed Users'
+- source: information about interaction with platform
+  target: assign request
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    Activity Data : This refers to information about the users'' interactions with
+    the platform, such as the number of accesses, last login date, followed users,
+    followers, comments, emitted likes, received likes, session notes, assigned requests;'
+- source: information about interaction with platform
+  target: follower
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    Activity Data : This refers to information about the users'' interactions with
+    the platform, such as the number of accesses, last login date, followed users,
+    followers, comments, emitted likes, received likes, session notes, assigned requests;'
+- source: information about interaction with platform
+  target: last login date
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    Activity Data : This refers to information about the users'' interactions with
+    the platform, such as the number of accesses, last login date, followed users,
+    followers, comments, emitted likes, received likes, session notes, assigned requests;'
+- source: information about interaction with platform
+  target: number of access
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    Activity Data : This refers to information about the users'' interactions with
+    the platform, such as the number of accesses, last login date, followed users,
+    followers, comments, emitted likes, received likes, session notes, assigned requests;'
+- source: information about interaction with platform
+  target: session note
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    Activity Data : This refers to information about the users'' interactions with
+    the platform, such as the number of accesses, last login date, followed users,
+    followers, comments, emitted likes, received likes, session notes, assigned requests;'
+- source: information provide
+  target: bio
+  key: SUBSUM
+  text:
+  - 'Profile Information : This includes information provided by users to create their
+    profiles, such as names, country, bio, industry expertise, market expertise, skills
+    and competences;'
+- source: information provide
+  target: competence
+  key: SUBSUM
+  text:
+  - 'Profile Information : This includes information provided by users to create their
+    profiles, such as names, country, bio, industry expertise, market expertise, skills
+    and competences;'
+- source: information provide
+  target: country
+  key: SUBSUM
+  text:
+  - 'Profile Information : This includes information provided by users to create their
+    profiles, such as names, country, bio, industry expertise, market expertise, skills
+    and competences;'
+- source: information provide
+  target: industry expertise
+  key: SUBSUM
+  text:
+  - 'Profile Information : This includes information provided by users to create their
+    profiles, such as names, country, bio, industry expertise, market expertise, skills
+    and competences;'
+- source: information provide
+  target: market expertise
+  key: SUBSUM
+  text:
+  - 'Profile Information : This includes information provided by users to create their
+    profiles, such as names, country, bio, industry expertise, market expertise, skills
+    and competences;'
+- source: information provide
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Profile Information : This includes information provided by users to create their
+    profiles, such as names, country, bio, industry expertise, market expertise, skills
+    and competences;'
+- source: information provide
+  target: skill
+  key: SUBSUM
+  text:
+  - 'Profile Information : This includes information provided by users to create their
+    profiles, such as names, country, bio, industry expertise, market expertise, skills
+    and competences;'
+- source: information relate to program host in platform
+  target: application form
+  key: SUBSUM
+  text:
+  - 'Program Data : This includes information related to the programs hosted in the
+    platform, such as program name, curriculum, application forms, companies description,
+    Session notes , CSAT (5 stars) + comment.'
+- source: information relate to program host in platform
+  target: company description
+  key: SUBSUM
+  text:
+  - 'Program Data : This includes information related to the programs hosted in the
+    platform, such as program name, curriculum, application forms, companies description,
+    Session notes , CSAT (5 stars) + comment.'
+- source: information relate to program host in platform
+  target: csat
+  key: SUBSUM
+  text:
+  - 'Program Data : This includes information related to the programs hosted in the
+    platform, such as program name, curriculum, application forms, companies description,
+    Session notes , CSAT (5 stars) + comment.'
+- source: information relate to program host in platform
+  target: curriculum
+  key: SUBSUM
+  text:
+  - 'Program Data : This includes information related to the programs hosted in the
+    platform, such as program name, curriculum, application forms, companies description,
+    Session notes , CSAT (5 stars) + comment.'
+- source: information relate to program host in platform
+  target: program name
+  key: SUBSUM
+  text:
+  - 'Program Data : This includes information related to the programs hosted in the
+    platform, such as program name, curriculum, application forms, companies description,
+    Session notes , CSAT (5 stars) + comment.'
+- source: information relate to program host in platform
+  target: session note
+  key: SUBSUM
+  text:
+  - 'Program Data : This includes information related to the programs hosted in the
+    platform, such as program name, curriculum, application forms, companies description,
+    Session notes , CSAT (5 stars) + comment.'
+- source: information you give we
+  target: email address
+  key: SUBSUM
+  text:
+  - The information you give us may include your name, email address, address / location,
+    interests, skills.
+- source: information you give we
+  target: geolocation
+  key: SUBSUM
+  text:
+  - The information you give us may include your name, email address, address / location,
+    interests, skills.
+- source: information you give we
+  target: person name
+  key: SUBSUM
+  text:
+  - The information you give us may include your name, email address, address / location,
+    interests, skills.
+- source: it service provider
+  target: hosting provider
+  key: SUBSUM
+  text:
+  - 'Here is a list of data processors: IT service providers (e.g. hosting providers)
+    as data processors who might obtain access to your personal data in the course
+    of their work in case they require the data to render the respective service.'
+- source: project
+  target: get scheme
+  key: SUBSUM
+  text:
+  - We also do not permit advertising by members, and we do not accept projects such
+    as "get-rich-quick" schemes or "payday loans".
+- source: project
+  target: payday loan
+  key: SUBSUM
+  text:
+  - We also do not permit advertising by members, and we do not accept projects such
+    as "get-rich-quick" schemes or "payday loans".
+- source: recovery time
+  target: available backup datum
+  key: SUBSUM
+  text:
+  - The recovery time is 8-16 hours, which includes the identification and resolution
+    of the issue, the recovery of the latest available backup data and the testing
+    of the system before restoring the platform.
+- source: statistic regard project you develop within program
+  target: '# of view'
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : Statistics regarding projects you
+    may have developed within the program include: # of Views'
+- source: statistic regard project you develop within program
+  target: country
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : Statistics regarding projects you
+    may have developed within the program include: Country'
+- source: statistic regard project you develop within program
+  target: creation date
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : Statistics regarding projects you
+    may have developed within the program include: Creation Date'
+- source: statistic regard project you develop within program
+  target: follower
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : Statistics regarding projects you
+    may have developed within the program include: Followers'
+- source: statistic regard project you develop within program
+  target: last update
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : Statistics regarding projects you
+    may have developed within the program include: Last Update'
+- source: statistic regard project you develop within program
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : Statistics regarding projects you
+    may have developed within the program include: Name'
+- source: statistic regard project you develop within program
+  target: sector
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : Statistics regarding projects you
+    may have developed within the program include: Category/sector'
+- source: statistic regard project you develop within program
+  target: team member
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : Statistics regarding projects you
+    may have developed within the program include: Team Members'
+- source: statistic regard project you develop within program
+  target: 'total # update'
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : Statistics regarding projects you
+    may have developed within the program include: Total # Updates'
+- source: statistic regard project you develop within program
+  target: 'total # user'
+  key: SUBSUM
+  text:
+  - 'Our values, terms, and conditions
+
+
+    8.2  Use made of the data and legal basis : Statistics regarding projects you
+    may have developed within the program include: Total # Users'
+nodes:
+- type: ACTOR
+  id: Amplitude
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Hotjar
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: get scheme
+- type: ACTOR
+  id: hosting provider
+- type: ACTOR
+  id: it service provider
+- type: ACTOR
+  id: payday loan
+- type: ACTOR
+  id: project
+- type: ACTOR
+  id: we
+- type: DATA
+  id: '# of access'
+- type: DATA
+  id: '# of view'
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: application form
+- type: DATA
+  id: assign request
+- type: DATA
+  id: available backup datum
+- type: DATA
+  id: bio
+- type: DATA
+  id: browser information
+- type: DATA
+  id: company description
+- type: DATA
+  id: competence
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: country
+- type: DATA
+  id: creation date
+- type: DATA
+  id: csat
+- type: DATA
+  id: curriculum
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: datum on behavior
+- type: DATA
+  id: email address
+- type: DATA
+  id: follower
+- type: DATA
+  id: general statistic of usage of community be
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: industry expertise
+- type: DATA
+  id: information about interaction with platform
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information provide
+- type: DATA
+  id: information relate to program host in platform
+- type: DATA
+  id: information we receive
+- type: DATA
+  id: information you give we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: last login date
+- type: DATA
+  id: last update
+- type: DATA
+  id: like give
+- type: DATA
+  id: like receive
+- type: DATA
+  id: list of own project
+- type: DATA
+  id: list of project
+- type: DATA
+  id: market expertise
+- type: DATA
+  id: number of access
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: program name
+- type: DATA
+  id: recovery time
+- type: DATA
+  id: registration date
+- type: DATA
+  id: sector
+- type: DATA
+  id: session note
+- type: DATA
+  id: skill
+- type: DATA
+  id: statistic regard project you develop within program
+- type: DATA
+  id: team member
+- type: DATA
+  id: 'total # update'
+- type: DATA
+  id: 'total # user'
+- type: DATA
+  id: user

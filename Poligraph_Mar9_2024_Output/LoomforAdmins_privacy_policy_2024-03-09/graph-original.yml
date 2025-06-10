@@ -1,0 +1,981 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - ': If Loom is involved in a merger, acquisition, public offering, asset sale,
+    insolvency, bankruptcy, or similar change in our business structure, we may need
+    to disclose your information to those involved in the transaction, subject to
+    confidentiality requirements.'
+  - To provide our Services, we transmit, process, and store data in the United States
+    and other locations around the world.
+  - We disclose information to our service providers or other third-parties so they
+    can help us provide our Services and run our business.
+  - We may request additional documentation or information solely for the purpose
+    of verifying your identity.
+  - We may request certain information to verify your identity before we can respond
+    to your access and deletion requests.
+  - We receive other information from you when you choose to interact with us in other
+    ways, such as if you sign up for one of our webinars or e-books, participate in
+    a research study, contest, sweepstake, or event, apply for a job, or otherwise
+    communicate with us.
+  - 'We share information outside of Loom only as described below: For Legal Reasons
+    : We may release your information if we believe it is necessary to comply with
+    the law, regulation, valid legal process, an enforceable government request, to
+    prevent fraud or a security breach, enforce our policies or agreements, or protect
+    our or others'' rights, property, or safety.'
+  - 'We share information outside of Loom only as described below: With Your Consent:
+    We''ll otherwise share your information only with your consent.'
+  - 'We use your information in the following ways:'
+  - We'll only disclose the information necessary for these parties to perform their
+    services for us, and they'll be bound by contractual obligations to protect your
+    personal information.
+  purposes:
+    legal:
+    - For Legal Reasons
+    security:
+    - solely for the purpose of verifying your identity
+    - to verify your identity
+    services:
+    - To provide our Services
+- source: we
+  target: access control
+  key: COLLECT
+  text:
+  - We use industry-standard security practices to keep your information secure, such
+    as encryption, access controls, physical security measures, and internal reviews
+    of data collection, use, and storage.
+  purposes:
+    security:
+    - to keep your information secure, such as encryption, access controls, physical
+      security measures, and internal reviews of data collection, use, and storage
+- source: we
+  target: account information
+  key: COLLECT
+  text:
+  - For example, if you choose to enable a third-party integration, we may share account
+    information and/or content from your account, but only as authorized by you when
+    you enable or use the integration.
+  purposes: {}
+- source: we
+  target: authentication information provide to we
+  key: COLLECT
+  text:
+  - Additionally, if you sign up or login to our Services using one of our single-sign-on
+    providers (e.g., Google, Apple, etc.), we collect authentication information provided
+    to us by the provider to allow you to log in.
+  purposes:
+    services:
+    - to allow you to log in
+- source: we
+  target: basic account information with employer
+  key: COLLECT
+  text:
+  - Also, if you sign up for Loom with an email domain that is owned or managed by
+    your employer or organization, we may share the fact that you have an account
+    with us and some basic account information with your employer or organization.
+  purposes: {}
+- source: we
+  target: billing detail
+  key: COLLECT
+  text:
+  - If you sign up for a paid subscription, we (or our payment processors) may need
+    your billing details such as credit card information, banking information, and
+    billing address.
+  purposes: {}
+- source: we
+  target: commercial information
+  key: COLLECT
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Commercial information (such as transaction data for a paid account);'
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Commercial information'
+  purposes: {}
+- source: we
+  target: compliance certification
+  key: COLLECT
+  text:
+  - We've also obtained various compliance certifications and undergo ongoing audits
+    to ensure continued security and compliance best practices.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: we
+  target: content
+  key: COLLECT
+  text:
+  - For example, if you choose to enable a third-party integration, we may share account
+    information and/or content from your account, but only as authorized by you when
+    you enable or use the integration.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies or similar technologies (including third-party cookies) to remember
+    your preferences, understand how you interact with our Services or emails that
+    we send you, maintain the security of our Services, and administer, improve and
+    promote our Services.
+  purposes:
+    analytics:
+    - to remember your preferences, understand how you interact with our Services
+      or emails that we send you, maintain the security of our Services, and administer,
+      improve and promote our Services
+    security:
+    - to remember your preferences, understand how you interact with our Services
+      or emails that we send you, maintain the security of our Services, and administer,
+      improve and promote our Services
+    services:
+    - to remember your preferences, understand how you interact with our Services
+      or emails that we send you, maintain the security of our Services, and administer,
+      improve and promote our Services
+- source: we
+  target: customer data
+  key: COLLECT
+  text:
+  - ': In using our Services, our customers submit or upload video recordings, seek
+    user support, or provide other Customer Data (defined in our Terms of Service)
+    to us.'
+  - This means that we process Customer Data only according to our customers' instructions
+    in accordance with our Terms of Service.
+  - We use Customer Data according to our customers' instructions and our Terms of
+    Service.
+  purposes: {}
+- source: we
+  target: documentation
+  key: COLLECT
+  text:
+  - We may request additional documentation or information solely for the purpose
+    of verifying your identity.
+  purposes:
+    security:
+    - solely for the purpose of verifying your identity
+- source: we
+  target: financial datum
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Location information (e.g., the general location where you use your device when
+    interacting with the Site, Software, and/or Services);'
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Geolocation data'
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: we
+  target: identifier
+  key: COLLECT
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Identifiers (such as name, email address, and profile data);'
+  purposes: {}
+- source: we
+  target: inference base on
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: we
+  target: inference draw from
+  key: COLLECT
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Inferences drawn from any of the above information categories; and'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - If you choose to enable an integration, the third-party may share some information
+    about you with us to make your experience more seamless, such as your name, email,
+    or other content or information needed to facilitate the integration.
+  purposes:
+    services:
+    - to make your experience more seamless
+- source: we
+  target: information for account
+  key: COLLECT
+  text:
+  - To create an account for the Services or to enable certain features, we require
+    that you provide us with information for your account such as name, email, password,
+    and authentication credentials.
+  purposes:
+    services:
+    - To create an account for the Services or to enable certain features
+- source: we
+  target: information we receive
+  key: COLLECT
+  text:
+  - For any other information we may receive or collect from you, we'll retain that
+    information for only as long as is necessary for the purposes described in this
+    Privacy Policy.
+  purposes:
+    analytics:
+    - For any other information we may receive or collect from you
+- source: we
+  target: information you store on service
+  key: COLLECT
+  text:
+  - We'll retain information you store on our Services for as long as your account
+    exists or as long as we need it to provide you Services.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Internet or other network or device activity (such as IP address and usage information);'
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Internet or other electronic
+    network activity information'
+  - We automatically collect usage data about how you interact with our Services when
+    you use them.
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: we
+  target: marketing information about you
+  key: COLLECT
+  text:
+  - We may receive marketing or demographic information about you from third parties
+    or partners, for example, data about your organization or industry or other public
+    information from sources like social media or online professional profiles.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Other information that identifies or can be reasonably associated with you.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will otherwise only transfer personal data pursuant to a legally valid personal
+    data transfer mechanism, including to a country that the European Commission or
+    UK authorities have determined provides an adequate level of protection for personal
+    data.
+  - 'Where Loom acts as a controller of personal data, our lawful bases for processing
+    include: As needed to comply with our contractual obligations (for example, if
+    you sign up for a contest or promotion, we''ll process your personal data as needed
+    for us to perform our obligations under the contest or promotion terms).'
+  purposes:
+    advertising:
+    - for us to perform our obligations under the contest or promotion terms
+    legal:
+    - for us to perform our obligations under the contest or promotion terms
+- source: we
+  target: protected classification
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Characteristics of protected
+    classifications under California or federal law'
+  purposes: {}
+- source: we
+  target: public information
+  key: COLLECT
+  text:
+  - We may receive marketing or demographic information about you from third parties
+    or partners, for example, data about your organization or industry or other public
+    information from sources like social media or online professional profiles.
+  purposes: {}
+- source: we
+  target: sensory information
+  key: COLLECT
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Sensory information (such as video recordings if you record a video with our service);'
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: we
+  target: time
+  key: COLLECT
+  text:
+  - We will confirm receipt of your request within 10 business days and will respond
+    to your request within 45 calendar days, after proper verification, unless we
+    need additional time, in which case we will let you know.
+  purposes: {}
+- source: we
+  target: type of datum
+  key: COLLECT
+  text:
+  - Our servers automatically log certain types of data when you visit or use our
+    Services, for example, when you navigate through our website.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We disclose information to our service providers or other third-parties so they
+    can help us provide our Services and run our business.
+  - 'We share information outside of Loom only as described below: Third-party networks
+    and websites : With third-party social media networks, advertising networks and
+    websites, so that Loom can market and advertise on third-party platforms and websites.'
+  purposes:
+    legal:
+    - For Legal Reasons
+- source: UNSPECIFIED_ACTOR
+  target: commercial information
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Commercial information'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Geolocation data'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - If you choose to enable an integration, the third-party may share some information
+    about you with us to make your experience more seamless, such as your name, email,
+    or other content or information needed to facilitate the integration.
+  purposes:
+    services:
+    - to make your experience more seamless
+- source: UNSPECIFIED_ACTOR
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Internet or other electronic
+    network activity information'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: protected classification
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Characteristics of protected
+    classifications under California or federal law'
+  purposes: {}
+- source: loom
+  target: choice
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how Loom collects, uses, and shares your personal
+    information, as well as your choices and rights with respect to your personal
+    information.
+  purposes: {}
+- source: loom
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how Loom collects, uses, and shares your personal
+    information, as well as your choices and rights with respect to your personal
+    information.
+  purposes: {}
+- source: payment processor
+  target: billing detail
+  key: COLLECT
+  text:
+  - If you sign up for a paid subscription, we (or our payment processors) may need
+    your billing details such as credit card information, banking information, and
+    billing address.
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We disclose information to our service providers or other third-parties so they
+    can help us provide our Services and run our business.
+  purposes: {}
+- source: service provider support service
+  target: contact information
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: service provider support service
+  target: financial datum
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: service provider support service
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: service provider support service
+  target: inference base on
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: service provider support service
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: service provider support service
+  target: sensory information
+  key: COLLECT
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+  purposes:
+    analytics:
+    - for the purposes described in "How We Use Your Information"
+- source: billing detail
+  target: banking information
+  key: SUBSUM
+  text:
+  - If you sign up for a paid subscription, we (or our payment processors) may need
+    your billing details such as credit card information, banking information, and
+    billing address.
+- source: billing detail
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - If you sign up for a paid subscription, we (or our payment processors) may need
+    your billing details such as credit card information, banking information, and
+    billing address.
+- source: billing detail
+  target: postal address
+  key: SUBSUM
+  text:
+  - If you sign up for a paid subscription, we (or our payment processors) may need
+    your billing details such as credit card information, banking information, and
+    billing address.
+- source: commercial information
+  target: transaction datum for pay account
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Commercial information (such as transaction data for a paid account);'
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+- source: contact information
+  target: profile datum
+  key: SUBSUM
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+- source: financial datum
+  target: payment information for pay account
+  key: SUBSUM
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+- source: identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Identifiers (such as name, email address, and profile data);'
+- source: identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Identifiers (such as name, email address, and profile data);'
+- source: identifier
+  target: profile datum
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Identifiers (such as name, email address, and profile data);'
+- source: information about you
+  target: email address
+  key: SUBSUM
+  text:
+  - If you choose to enable an integration, the third-party may share some information
+    about you with us to make your experience more seamless, such as your name, email,
+    or other content or information needed to facilitate the integration.
+- source: information about you
+  target: person name
+  key: SUBSUM
+  text:
+  - If you choose to enable an integration, the third-party may share some information
+    about you with us to make your experience more seamless, such as your name, email,
+    or other content or information needed to facilitate the integration.
+- source: information for account
+  target: authentication credential
+  key: SUBSUM
+  text:
+  - To create an account for the Services or to enable certain features, we require
+    that you provide us with information for your account such as name, email, password,
+    and authentication credentials.
+- source: information for account
+  target: email address
+  key: SUBSUM
+  text:
+  - To create an account for the Services or to enable certain features, we require
+    that you provide us with information for your account such as name, email, password,
+    and authentication credentials.
+- source: information for account
+  target: password
+  key: SUBSUM
+  text:
+  - To create an account for the Services or to enable certain features, we require
+    that you provide us with information for your account such as name, email, password,
+    and authentication credentials.
+- source: information for account
+  target: person name
+  key: SUBSUM
+  text:
+  - To create an account for the Services or to enable certain features, we require
+    that you provide us with information for your account such as name, email, password,
+    and authentication credentials.
+- source: information provide to you in readily useable format
+  target: specific piece
+  key: SUBSUM
+  text:
+  - You have the right to request, up to two times each year, access to categories
+    and specific pieces of personal information about you that we collect, use, disclose,
+    sell, and share, such information to be provided to you in a readily useable format.
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Internet or other network or device activity (such as IP address and usage information);'
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+- source: internet activity
+  target: usage information
+  key: SUBSUM
+  text:
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+- source: personal information
+  target: commercial information
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Commercial information (such as transaction data for a paid account);'
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Commercial information'
+- source: personal information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Location information (e.g., the general location where you use your device when
+    interacting with the Site, Software, and/or Services);'
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Geolocation data'
+- source: personal information
+  target: identifier
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Identifiers (such as name, email address, and profile data);'
+- source: personal information
+  target: inference draw from
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Inferences drawn from any of the above information categories; and'
+- source: personal information
+  target: information provide to you in readily useable format
+  key: SUBSUM
+  text:
+  - You have the right to request, up to two times each year, access to categories
+    and specific pieces of personal information about you that we collect, use, disclose,
+    sell, and share, such information to be provided to you in a readily useable format.
+- source: personal information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Internet or other network or device activity (such as IP address and usage information);'
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Internet or other electronic
+    network activity information'
+- source: personal information
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Other information that identifies or can be reasonably associated with you.'
+- source: personal information
+  target: protected classification
+  key: SUBSUM
+  text:
+  - 'In the last 12 months, we sold or shared the following categories of personal
+    information to vendors of services related to advertising (such as ad platforms
+    or networks), marketing, analytics, and measurement for commercial purposes such
+    as the marketing and advertising of our Services: Characteristics of protected
+    classifications under California or federal law'
+- source: personal information
+  target: sensory information
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Sensory information (such as video recordings if you record a video with our service);'
+- source: sensory information
+  target: video recording
+  key: SUBSUM
+  text:
+  - 'In addition to the information provided above in the "Information We Collect"
+    section, we collect the following categories of personal information from you,
+    your employer, data analytics providers, data brokers, and third-party services:
+    Sensory information (such as video recordings if you record a video with our service);'
+  - 'In the last 12 months, we have disclosed the following categories of personal
+    information for the purposes described in "How We Use Your Information" to our
+    service providers that support our services: Identifiers/contact information (such
+    as name, email address, and profile data), financial data (such as payment information
+    for a paid account), internet or other network or device activity (such as IP
+    address and usage information), location information (e.g., the general location
+    where you use your device when interacting with the Site, Software, and/or Services),
+    sensory information (such as video recordings if you record a video with our service),
+    and inferences based on these categories.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: loom
+- type: ACTOR
+  id: payment processor
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: service provider support service
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access control
+- type: DATA
+  id: account information
+- type: DATA
+  id: authentication credential
+- type: DATA
+  id: authentication information provide to we
+- type: DATA
+  id: banking information
+- type: DATA
+  id: basic account information with employer
+- type: DATA
+  id: billing detail
+- type: DATA
+  id: choice
+- type: DATA
+  id: commercial information
+- type: DATA
+  id: compliance certification
+- type: DATA
+  id: contact information
+- type: DATA
+  id: content
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: customer data
+- type: DATA
+  id: documentation
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial datum
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identifier
+- type: DATA
+  id: inference base on
+- type: DATA
+  id: inference draw from
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information for account
+- type: DATA
+  id: information provide to you in readily useable format
+- type: DATA
+  id: information we receive
+- type: DATA
+  id: information you store on service
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: marketing information about you
+- type: DATA
+  id: password
+- type: DATA
+  id: payment information for pay account
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address
+- type: DATA
+  id: profile datum
+- type: DATA
+  id: protected classification
+- type: DATA
+  id: public information
+- type: DATA
+  id: sensory information
+- type: DATA
+  id: specific piece
+- type: DATA
+  id: time
+- type: DATA
+  id: transaction datum for pay account
+- type: DATA
+  id: type of datum
+- type: DATA
+  id: usage information
+- type: DATA
+  id: video recording

@@ -1,0 +1,173 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'The information we collect from you may be used to: Provide Access to Services
+    : We will use your information to allow you access to your Alleo account, see
+    your organization''s data, manage your account and complete any other actions
+    you may take in our software.'
+  - 'To provide our full range of services and to help us administer and improve our
+    product and website, we may collect the following types of information: IP Addresses'
+  - When a Alleo User creates an account or is invited to an existing account, certain
+    information is voluntarily given to us.
+  purposes:
+    services:
+    - To provide our full range of services and to help us administer and improve
+      our product and website
+    - to allow you access to your Alleo account, see your organization's data, manage
+      your account and complete any other actions you may take in our software
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - But in order to comply with your preferences, we'll have to use just one tiny
+    cookie so that you're not asked to make this choice again.
+  - This website stores cookies on your computer.
+  - We will use both session and persistent cookies to help with things like keeping
+    you logged into your Alleo account.
+  purposes:
+    legal:
+    - in order to comply with your preferences
+    services:
+    - in order to comply with your preferences
+    - to help with things like keeping you logged into your Alleo account
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'To provide our full range of services and to help us administer and improve our
+    product and website, we may collect the following types of information: IP Addresses'
+  purposes:
+    services:
+    - To provide our full range of services and to help us administer and improve
+      our product and website
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We require our Service Providers to keep any personal information secure, and
+    we do not allow them to disclose your personal information, with the exception
+    of when they are providing their services.
+  purposes:
+    security:
+    - to keep any personal information secure
+- source: we
+  target: system information
+  key: COLLECT
+  text:
+  - System information that we collect as part of 'traffic data' includes time, the
+    type of web browser being used, the operating system/platform and CPU speed.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Information may be shared with other companies ("Service Providers") to assist
+    us in communicating with or providing our services to you.
+  purposes:
+    services:
+    - to assist us in communicating with or providing our services to you
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - No personal information will be shared with advertisers or partners without your
+    permission.
+  purposes: {}
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - No personal information will be shared with advertisers or partners without your
+    permission.
+  purposes: {}
+- source: service providers
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Information may be shared with other companies ("Service Providers") to assist
+    us in communicating with or providing our services to you.
+  - These Service Providers may have access to your data in order to provide their
+    required services.
+  purposes:
+    services:
+    - in order to provide their required services
+    - to assist us in communicating with or providing our services to you
+- source: service providers
+  target: personal information
+  key: COLLECT
+  text:
+  - We require our Service Providers to keep any personal information secure, and
+    we do not allow them to disclose your personal information, with the exception
+    of when they are providing their services.
+  purposes:
+    security:
+    - to keep any personal information secure
+- source: system
+  target: datum relevant
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Application Data : The system stores data relevant to your companys and teams.'
+  purposes: {}
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Some cookies may contain personal information you provided us, for example, your
+    email address, and others may not.
+- source: system information
+  target: type of web browser use
+  key: SUBSUM
+  text:
+  - System information that we collect as part of 'traffic data' includes time, the
+    type of web browser being used, the operating system/platform and CPU speed.
+- source: type of web browser use
+  target: cpu speed
+  key: SUBSUM
+  text:
+  - System information that we collect as part of 'traffic data' includes time, the
+    type of web browser being used, the operating system/platform and CPU speed.
+- source: type of web browser use
+  target: time
+  key: SUBSUM
+  text:
+  - System information that we collect as part of 'traffic data' includes time, the
+    type of web browser being used, the operating system/platform and CPU speed.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: service providers
+- type: ACTOR
+  id: system
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: cpu speed
+- type: DATA
+  id: datum relevant
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal information
+- type: DATA
+  id: system information
+- type: DATA
+  id: time
+- type: DATA
+  id: type of web browser use

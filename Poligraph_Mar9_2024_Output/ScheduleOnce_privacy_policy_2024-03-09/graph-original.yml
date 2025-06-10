@@ -1,0 +1,184 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We only share your data with third-party service providers, known as subprocessors,
+    for the purposes set out in this notice.
+  purposes: {}
+- source: we
+  target: application data
+  key: COLLECT
+  text:
+  - Customers may submit Application Data to our services in accordance with our Acceptable
+    Use Policy, the extent of which is determined and controlled by our customers
+    in their sole discretion.
+  purposes: {}
+- source: we
+  target: customer data
+  key: COLLECT
+  text:
+  - We collect and process Customer Data in various ways and for a variety of purposes.
+  purposes: {}
+- source: we
+  target: detail of
+  key: COLLECT
+  text:
+  - If you wish to object to us processing your data for any other reason then you
+    should contact us and give us details of what it is you object to and why you
+    want us to stop processing your personal data.
+  purposes: {}
+- source: we
+  target: information we hold on you in electronic format
+  key: COLLECT
+  text:
+  - You can ask us to supply you with the information that we hold on you in an electronic
+    format.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - However, we will only collect personal information from you where either;
+  - This personal data is process by us as a processor, in order to perform the services
+    that we provide you with pursuant to the Master Services Agreement, the Data Protection
+    Addendum, our Acceptable Use Policy, and as further instructed by you in the use
+    of our services.
+  - We process personal data that you or your end users enter into our services through
+    your use of our products.
+  purposes:
+    services:
+    - in order to perform the services that we provide you with pursuant to the Master
+      Services Agreement, the Data Protection Addendum, our Acceptable Use Policy,
+      and as further instructed by you in the use of our services
+- source: we
+  target: training
+  key: COLLECT
+  text:
+  - 'How we process Customer Data
+
+
+    Purposes for which we use the information : To help us improve our services and
+    provide training to our team members.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Notice
+
+
+    How we share information
+
+
+    We do not sell, rent, exchange or allow your data to be used by third parties
+    for their own marketing purposes.'
+  - We only share your data with third-party service providers, known as subprocessors,
+    for the purposes set out in this notice.
+  purposes:
+    advertising:
+    - for their own marketing purposes
+- source: customer
+  target: application data
+  key: COLLECT
+  text:
+  - Customers may submit Application Data to our services in accordance with our Acceptable
+    Use Policy, the extent of which is determined and controlled by our customers
+    in their sole discretion.
+  purposes: {}
+- source: oncehub
+  target: personal data enter into saas product
+  key: COLLECT
+  text:
+  - 'OnceHub processes two broad categories of personal data: Personal data that is
+    entered into our SaaS products by our customers and their end users (" Application
+    Data ") for which we act as a processor.'
+  purposes: {}
+- source: oncehub
+  target: personal information
+  key: COLLECT
+  text:
+  - 'OnceHub processes two broad categories of personal data: Personal data of our
+    customers, account holders, and visitors to our web site as well as technical
+    data regarding our customers interaction with our services (" Customer Data "),
+    for which we act as a controller; and'
+  purposes: {}
+- source: oncehub
+  target: technical datum
+  key: COLLECT
+  text:
+  - 'OnceHub processes two broad categories of personal data: Personal data of our
+    customers, account holders, and visitors to our web site as well as technical
+    data regarding our customers interaction with our services (" Customer Data "),
+    for which we act as a controller; and'
+  purposes: {}
+- source: personal information
+  target: account holder
+  key: SUBSUM
+  text:
+  - 'OnceHub processes two broad categories of personal data: Personal data of our
+    customers, account holders, and visitors to our web site as well as technical
+    data regarding our customers interaction with our services (" Customer Data "),
+    for which we act as a controller; and'
+- source: personal information
+  target: application data
+  key: SUBSUM
+  text:
+  - 'OnceHub processes two broad categories of personal data: Personal data that is
+    entered into our SaaS products by our customers and their end users (" Application
+    Data ") for which we act as a processor.'
+- source: personal information
+  target: customer data
+  key: SUBSUM
+  text:
+  - 'OnceHub processes two broad categories of personal data: Personal data of our
+    customers, account holders, and visitors to our web site as well as technical
+    data regarding our customers interaction with our services (" Customer Data "),
+    for which we act as a controller; and'
+- source: personal information
+  target: personal data enter into saas product
+  key: SUBSUM
+  text:
+  - 'OnceHub processes two broad categories of personal data: Personal data that is
+    entered into our SaaS products by our customers and their end users (" Application
+    Data ") for which we act as a processor.'
+- source: personal information
+  target: technical datum
+  key: SUBSUM
+  text:
+  - 'OnceHub processes two broad categories of personal data: Personal data of our
+    customers, account holders, and visitors to our web site as well as technical
+    data regarding our customers interaction with our services (" Customer Data "),
+    for which we act as a controller; and'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: customer
+- type: ACTOR
+  id: oncehub
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account holder
+- type: DATA
+  id: application data
+- type: DATA
+  id: customer data
+- type: DATA
+  id: detail of
+- type: DATA
+  id: information we hold on you in electronic format
+- type: DATA
+  id: personal data enter into saas product
+- type: DATA
+  id: personal information
+- type: DATA
+  id: technical datum
+- type: DATA
+  id: training

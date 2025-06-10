@@ -1,0 +1,90 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - All data stays on your machine, we do not have access to it, however during your
+    use of ManicTime Server we may get some data.
+  - All tracked data stays on your machine and it is not shared with us, however during
+    your use of ManicTime we may get some data.
+  - Data access and storage - While using the ManicTime Cloud, we may access your
+    data to provide support, troubleshoot issues, or maintain the service.
+  - During your use of our services, we may collect some information.
+  - We will only access your data with your explicit permission.
+  purposes:
+    services:
+    - to provide support, troubleshoot issues, or maintain the service
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'When you are using our website, we store: if you signup for newsletter, we store
+    your email address'
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We use the information we collect to make services better, develop new features
+    and to help with problems arising from the use of our products.
+  purposes:
+    services:
+    - to make services better, develop new features and to help with problems arising
+      from the use of our products
+- source: we
+  target: information you provide in feedback
+  key: COLLECT
+  text:
+  - 'When you are using our website, we store: if you send us a feedback, we store
+    all information you provide in the feedback.'
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - By default ManicTime Server checks for a new version every day, at that time we
+    can get your IP, Windows version and which .Net versions you have installed.
+  purposes: {}
+- source: we
+  target: name address email
+  key: COLLECT
+  text:
+  - 'When you are using our website, we store: if you buy a license we store your
+    personal data (name, address, email...).'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'When you are using our website, we store: if you buy a license we store your
+    personal data (name, address, email...).'
+  purposes: {}
+- source: we
+  target: windows version
+  key: COLLECT
+  text:
+  - By default ManicTime Server checks for a new version every day, at that time we
+    can get your IP, Windows version and which .Net versions you have installed.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: email address
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you provide in feedback
+- type: DATA
+  id: ip address
+- type: DATA
+  id: name address email
+- type: DATA
+  id: personal information
+- type: DATA
+  id: windows version

@@ -1,0 +1,153 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: booking information
+  key: COLLECT
+  text:
+  - 'We collect information that you voluntarily provide to us when using the Service,
+    including but not limited to: Booking Information: Information pertinent to the
+    bookings you either make or receive through the Service, encompassing booking
+    specifics, schedules, and financial transaction details.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'We may also collect certain information automatically when you use the Service,
+    including: Cookies: The utilization of cookies and similar tracking technologies
+    is employed for the analysis of usage patterns, content personalization, and the
+    enhancement of the user experience.'
+  purposes:
+    analytics:
+    - for the analysis of usage patterns, content personalization, and the enhancement
+      of the user experience
+    services:
+    - for the analysis of usage patterns, content personalization, and the enhancement
+      of the user experience
+- source: we
+  target: information pertinent
+  key: COLLECT
+  text:
+  - 'We collect information that you voluntarily provide to us when using the Service,
+    including but not limited to: Booking Information: Information pertinent to the
+    bookings you either make or receive through the Service, encompassing booking
+    specifics, schedules, and financial transaction details.'
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - 'We collect information that you voluntarily provide to us when using the Service,
+    including but not limited to:'
+  purposes: {}
+- source: we
+  target: log datum
+  key: COLLECT
+  text:
+  - 'We may also collect certain information automatically when you use the Service,
+    including: Log Data: Data concerning your use of the Service, which may include
+    your IP address, browser type, operating system, and device-related details.'
+  purposes:
+    analytics:
+    - for the analysis of usage patterns, content personalization, and the enhancement
+      of the user experience
+    services:
+    - for the analysis of usage patterns, content personalization, and the enhancement
+      of the user experience
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We collect information that you voluntarily provide to us when using the Service,
+    including but not limited to: Personal Information'
+  purposes: {}
+- source: we
+  target: user content
+  key: COLLECT
+  text:
+  - 'We collect information that you voluntarily provide to us when using the Service,
+    including but not limited to: User Content: Content generated or posted on BookMe,
+    such as profile data, availability, and visual media.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'BookMe may share your information with third parties in the following scenarios:'
+  - These providers may have access to your information for the purpose of conducting
+    tasks on our behalf.
+  - Third-party service providers may be engaged to assist with the operation and
+    maintenance of the Service.
+  purposes:
+    services:
+    - for the purpose of conducting tasks on our behalf
+    - to facilitate booking transactions
+- source: bookme
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'BookMe may share your information with third parties in the following scenarios:'
+  purposes:
+    services:
+    - to facilitate booking transactions
+- source: log datum
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'We may also collect certain information automatically when you use the Service,
+    including: Log Data: Data concerning your use of the Service, which may include
+    your IP address, browser type, operating system, and device-related details.'
+- source: log datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'We may also collect certain information automatically when you use the Service,
+    including: Log Data: Data concerning your use of the Service, which may include
+    your IP address, browser type, operating system, and device-related details.'
+- source: log datum
+  target: operating system
+  key: SUBSUM
+  text:
+  - 'We may also collect certain information automatically when you use the Service,
+    including: Log Data: Data concerning your use of the Service, which may include
+    your IP address, browser type, operating system, and device-related details.'
+- source: log datum
+  target: relate detail
+  key: SUBSUM
+  text:
+  - 'We may also collect certain information automatically when you use the Service,
+    including: Log Data: Data concerning your use of the Service, which may include
+    your IP address, browser type, operating system, and device-related details.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: bookme
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: booking information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information pertinent
+- type: DATA
+  id: information you provide to we
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log datum
+- type: DATA
+  id: operating system
+- type: DATA
+  id: personal information
+- type: DATA
+  id: relate detail
+- type: DATA
+  id: user content

@@ -1,0 +1,23 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: tool
+  target: ms teams
+  key: SUBSUM
+  text:
+  - By integrating with tools like Zoom and MS Teams, we seamlessly fit into your
+    team's workflow, assessing real-time virtual interactions.
+- source: tool
+  target: zoom
+  key: SUBSUM
+  text:
+  - By integrating with tools like Zoom and MS Teams, we seamlessly fit into your
+    team's workflow, assessing real-time virtual interactions.
+nodes:
+- type: ACTOR
+  id: ms teams
+- type: ACTOR
+  id: tool
+- type: ACTOR
+  id: zoom

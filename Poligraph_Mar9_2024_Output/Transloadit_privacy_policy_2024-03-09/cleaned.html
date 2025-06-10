@@ -1,0 +1,443 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ORIGINAL_PAGE_PATH:./collections/_legal/privacy.md -->
+
+    <title>Privacy policy | Transloadit</title>
+    
+    
+
+    <!--
+      Include Intercom in head, so we can add `Intercom('trackEvent', 'created-template');` js to views
+    -->
+    
+
+
+    
+
+    
+    
+    
+
+    
+
+    <!-- extra_prefetches -->
+    
+
+    <meta name="description" content="Any data we capture and store is only used for internal processing, and never sold or otherwise given away. Read more about this in our privacy policy.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="Any data we capture and store is only used for internal processing, and never sold or otherwise given away. Read more about this in our privacy policy.">
+    <meta name="twitter:site" content="@transloadit">
+    <meta name="twitter:creator" content="@kvz">
+    <meta name="twitter:title" content="Privacy policy | Transloadit">
+    <meta name="twitter:image" content="https://assets.transloadit.com/assets/images/ogimage.png">
+    <meta name="twitter:url" content="https://transloadit.com/legal/privacy/">
+
+    <meta property="og:description" content="Any data we capture and store is only used for internal processing, and never sold or otherwise given away. Read more about this in our privacy policy.">
+    <meta property="og:url" content="https://transloadit.com/legal/privacy/">
+
+    <meta property="og:image" content="https://assets.transloadit.com/assets/images/ogimage.png">
+
+    <meta property="og:site_name" content="Transloadit">
+    <meta property="og:title" content="Privacy policy | Transloadit">
+    <meta property="og:type" content="website">
+    
+
+    <meta name="google-site-verification" content="4DMJIdXtzA711JLZMTpcIwk2PYhw-U0raz-EnTy053A">
+
+    <!-- Set by default.ctp, ignored by Eleventy: -->
+    
+  </head>
+
+  <body class="layout-legal  c-Legal wide-bg no-sidebar" data-target=".sidebar">
+    <div class="wrapper">
+      <!--
+        This include only works because the CRM has "renderedsnippet" handling for this. Don't assume other includes
+      -->
+      <!-- will work without the same approach -->
+
+      
+        
+
+<!-- Inline script so we can have a menu that instantly opens, -->
+<!-- instead of navigating you away since the page/asset load didn't finish -->
+<!-- yet and so we did not hijack the href handler yet -->
+
+
+      
+
+      <!-- !!!It is crucial for CRM replacement that this stays on one line!!! -->
+      <!--
+        !!!Neglecting to be careful around this line will make content appear twice in the CRM!!!
+      -->
+      <section class="main">
+
+<div class="Legal">
+  <div class="container container--narrow">
+    
+
+    <div class="MarkdownContent">
+      <p class="lead">In order to provide this service, we capture and store information about you and about users
+uploading material to the service:</p>
+<p class="lead">As of 25 May 2018, the European General Data Protection Regulation (GDPR) has come into force. We
+wrote this post to outline what Transloadit - and our customers - can do to make sure the new rules
+are being followed.</p>
+<h2 id="who-is-responsible-for-data-protection">Who is responsible for data protection?</h2>
+<p>Since we are a small company, we do not have an external data officer. Responsible for data
+protection are our founders Tim Koschützki and Kevin van Zonneveld. You can reach them at
+<a href="mailto:founders@transloadit.com">founders@transloadit.com</a>.</p>
+<h2 id="what-data-is-collected">What data is collected?</h2>
+<p>Transloadit collects and shares information about its customers. Since Transloadit is a B2B service,
+this concerns data on businesses. We also receive a limited amount of data on our customers'
+customers. These are the individuals or 'data subjects' that the GDPR specifically aims to protect,
+and they come in contact with Transloadit when we handle their uploads or when they request the
+status of encoding progress of their files.</p>
+<p>As far as these cases are concerned, Transloadit receives the following <strong>data</strong> on end-users:</p>
+<h3 id="from-the-website">From the website</h3>
+<ol>
+<li>IP addresses</li>
+<li>Request headers</li>
+<li>Data entered on our website</li>
+<li>The browser session (identified through a cookie)</li>
+<li>Information used to analyze usage of our platform via self-hosted, GDPR compliant, anonymized
+analytics</li>
+</ol>
+<h3 id="from-the-api">From the API</h3>
+<ol>
+<li>IP addresses</li>
+<li>Request headers</li>
+<li>Your user agent (browser, device, etc.)</li>
+<li>Data submitted to our API (media files, uploads)</li>
+</ol>
+<p>All data stored by us is only used for internal processing, and never sold or otherwise given away.</p>
+<p>Since Transloadit does not store data on data subjects, migration or deletion tools are not
+applicable.</p>
+<h3 id="what-data-is-stored-exactly">What data is stored exactly?</h3>
+<p>Transloadit only stores links to uploaded media files in the status JSON of an <dfn>Assembly</dfn>.
+We do not store any other data coming from data subjects.</p>
+<h2 id="storing-media-files">Storing media files</h2>
+<p>Transloadit only stores temporary files, and we do
+<a href="/docs/faq/temporary-purge-sooner/">so for <strong>24 hours</strong></a>. Files are hashed and
+anonymized.</p>
+<p>Transloadit employees only look at your files to troubleshoot problems. This rarely happens, and
+when it does, we do so with the understanding that anything we see is to be kept strictly
+confidential.</p>
+<p>Any Transloadit employee or subcontractor with access to these systems will have signed an NDA,
+which among other things, includes enforcing two-factor authentication for critical services,
+encrypted drives, and password managers.</p>
+<p>If it is important to you that the media files of your end-users, kept during the 24-hour window,
+temporarily resides in a particular region, Transloadit currently operates in the regions:</p>
+<ul>
+<li><code>us-east-1</code> (Virginia, USA)</li>
+<li><code>eu-west-1</code> (Ireland)</li>
+<li><code>ap-southeast-1</code> (Singapore)</li>
+</ul>
+<p>By default, the endpoint <code>https://api2.transloadit.com/</code> is used, Transloadit will serve your users
+from the region closest to them, but you can also opt to exclusively address one region, by using an
+endpoint like <code>https://api2-eu-west-1.transloadit.com/</code>. In this case, no data for the request
+leaves this region.</p>
+<h2 id="storing-assemblies">Storing Assemblies</h2>
+<p><dfn>Assemblies</dfn> contain links to the media files that have been uploaded by data subjects. If
+the links point to files temporarily hosted by us, then these links will expire after 24 hours (at
+the point when the associated files are discarded). Links to files that were exported to your own
+storage system (Amazon S3, FTP server, Rackspace container, etc.) will expire based on the expiry
+policy you set forth on these containers.</p>
+<p><dfn>Assemblies</dfn> will be archived after three months following their creation. Any
+<dfn>Assembly Status</dfn> JSON will cease to be available through
+https://api2.transloadit.com/assemblies/[[assembly_id]] after three months, along with all links to
+media files uploaded for this <dfn>Assembly</dfn>. Assembly IDs are secure: only the data subject,
+you as our customer and Transloadit staff know these Assembly IDs.</p>
+<h2 id="third-party-services">Third-party services</h2>
+<p>We use the following third-party services which also store data about you. Third party customer data
+counts as personal data about you.</p>
+<!-- [html-validate-disable-block no-inline-style] -->
+<table class="table Post-table table-responsive">
+<thead>
+<tr>
+<th style="text-align:left">Supplier</th>
+<th style="text-align:left">Subject</th>
+<th style="text-align:left">Data</th>
+<th style="text-align:center">Encryption</th>
+<th style="text-align:center">Anonymized</th>
+<th style="text-align:center">Discarded</th>
+<th style="text-align:center">Archived</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Transloadit</td>
+<td style="text-align:left">End user (data subject)</td>
+<td style="text-align:left">Browser identifiers except IP</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">Instantly</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">AWS S3</td>
+<td style="text-align:left">End user (data subject)</td>
+<td style="text-align:left">Media files</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center">&gt;24h</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">AWS RDS</td>
+<td style="text-align:left">Customer (business)</td>
+<td style="text-align:left">Address, email</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">&gt;30d</td>
+</tr>
+<tr>
+<td style="text-align:left">AWS RDS</td>
+<td style="text-align:left">Customer (business)</td>
+<td style="text-align:left">Assembly metadata</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">&gt;30d</td>
+</tr>
+<tr>
+<td style="text-align:left">AWS RDS</td>
+<td style="text-align:left">Customer (business)</td>
+<td style="text-align:left">Credentials for writing to cloud storage</td>
+<td style="text-align:center">aes256</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">AWS RDS</td>
+<td style="text-align:left">Customer (business)</td>
+<td style="text-align:left">Transloadit password</td>
+<td style="text-align:center">bcrypt</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">Discourse</td>
+<td style="text-align:left">Customer (business)</td>
+<td style="text-align:left">Public support tickets</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">n/a</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">Intercom</td>
+<td style="text-align:left">Customer (business)</td>
+<td style="text-align:left">Browser identifiers</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">Intercom</td>
+<td style="text-align:left">Customer (business)</td>
+<td style="text-align:left">Support tickets</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">Sentry</td>
+<td style="text-align:left">Customer (business)</td>
+<td style="text-align:left">Browser errors</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center">✅</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">Papertrail</td>
+<td style="text-align:left">Customer (business)</td>
+<td style="text-align:left">Logs</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">&gt;7d</td>
+</tr>
+<tr>
+<td style="text-align:left">Stripe</td>
+<td style="text-align:left">Customer (business)</td>
+<td style="text-align:left">Credit card data</td>
+<td style="text-align:center">PCI compliant</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:left">Zoom</td>
+<td style="text-align:left">Customer (business)</td>
+<td style="text-align:left">Temporary file download to local server for transcoding</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">Instantly</td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Encryption</strong>: At rest. All connections in transit are
+<a href="/blog/2016/07/ssl-upgraded/">protected by tls</a></li>
+<li><strong>Anonymized</strong>: Any data that can be used to identify the 'data subject' is scrubbed</li>
+<li><strong>Discarded</strong>: Data is destroyed</li>
+<li><strong>Archived</strong>: Data is accessible only by founders</li>
+</ul>
+<p>Transloadit's API can optionally use YouTube API Services when exporting files to the YouTube
+platform if you so instruct in your <dfn>Template</dfn>. If you use this feature, Googles Privacy
+Policy applies additionally to all data that is sent to YouTube. A copy of this policy can be found
+here: <a href="https://www.google.com/policies/privacy">https://www.google.com/policies/privacy</a>.</p>
+<p>For reference, we do not process, save or share any user data when exporting videos to YouTube using
+<a href="/services/file-exporting/youtube-store/">🤖/youtube/store</a>. Nevertheless, you can manage Transloadit's
+access to your Google account at any time in the
+<a href="https://security.google.com/settings/security/permissions">Google security settings</a>.</p>
+<h2 id="breach-notifications">Breach notifications</h2>
+<p>In the event that your private data or API-uploaded temporary files are disclosed to unauthorized
+people (such as hackers), Transloadit will send out email notifications to all possibly affected
+parties. We will also update our blog at https://transloadit.com/blog, our Twitter account at
+https://twitter.com/transloadit and our status page at https://transloaditstatus.com.</p>
+<h2 id="your-information-and-your-rights">Your information and your rights</h2>
+<p>If you are based within the EEA (European Economic Area) or within another jurisdiction that has
+similar data protection laws, under certain circumstances, you have the following rights:</p>
+<ol>
+<li>the right to be told how we use your information and obtain access to your information;</li>
+<li>the right to have your information rectified or erased, or to place restrictions on processing
+your information;</li>
+<li>the right to object to the processing of your information e.g. for direct marketing purposes or
+where the processing is based on our legitimate interests;</li>
+<li>the right to have any information you provided to us on an automated basis returned to you in a
+structured, commonly-used and machine-readable format, or sent directly to another company, where
+technically feasible (“data portability”);</li>
+<li>where the processing of your information is based on your consent, the right to withdraw that
+consent subject to legal or contractual restrictions;</li>
+<li>the right to object to any decisions based on the automated processing of your personal data,
+including profiling; and</li>
+<li>the right to lodge a complaint with the supervisory authority responsible for data protection
+matters (e.g. in the UK, the Information Commissioner’s Office).</li>
+</ol>
+<p>If you request a copy of your information, you may be required to pay a statutory fee.</p>
+<p>If we hold any information about you which is incorrect or if there are any changes to your details,
+please let us know so that we can keep our records accurate and up to date.</p>
+<p>If you withdraw your consent to the use of your personal information for purposes set out in our
+Privacy Policy, we may not be able to provide you with access to (parts of) our website,
+applications, and services.</p>
+<p>We will retain your personal information for the duration of our business relationship and
+afterwards for as long as is necessary and relevant for our legitimate business purposes, or as
+otherwise permitted by applicable laws and regulations. When we no longer need your personal
+information, we will dispose of it in a secure manner (without further notice to you).</p>
+<h2 id="changes-to-our-privacy-policy">Changes to our privacy policy</h2>
+<p>We may change this privacy policy from time to time. Nevertheless, we will not reduce your rights
+under this privacy policy. We will always update the privacy policy on our website, so please try to
+read it when you visit the website (the ‘last updated’ reference tells you when we last updated this
+privacy policy).</p>
+<h2 id="cookies-analytics-and-traffic-data">Cookies, analytics and traffic data</h2>
+<p>Cookies are small text files that are transferred from our website and stored on your device. We use
+cookies to help us provide you with a personalized service, and to help make our website and service
+better for you.</p>
+<p>Our cookies may be session cookies (temporary cookies that identify and track users within our
+websites) which are deleted when you close your browser or persistent cookies (cookies that enable
+our website to “remember” who you are and to remember your preferences within our website) which
+will stay on your computer or device after you close your browser).</p>
+<p>We only use strictly necessary cookies. For analytics, we use a self-hosted service that is GDPR
+compliant and anonymizes data on impact. We also don't share any remaining data. The cookies that
+remain are required for our website to work, meaning that under EU law, we are not required to show
+any cookie banners.</p>
+<h2 id="data-processing-addendum-dpa">Data Processing Addendum (DPA)</h2>
+<p>If you require a countersigned copy of our DPA, please
+<a class="js-intercomify" href="mailto:hello@transloadit.com?subject=I’d%20like%20to%20request%20a%20countersigned%20copy%20of%20your%20DPA">reach
+out to support</a>.</p>
+<h2 id="last-updated">Last Updated</h2>
+<p>This privacy policy was last updated on December 13, 2023.</p>
+
+    </div>
+  </div>
+</div>
+</section>
+        
+      
+    </div>
+
+    
+    
+
+
+    
+      
+    <div id="intercom-root">
+  <button aria-live="polite" class="intercom-lightweight-app-launcher" data-component="intercom-facade" tabindex="0" type="button" aria-label="Open Intercom Messenger">
+    <span class="intercom-lightweight-app-launcher-icon intercom-lightweight-app-launcher-icon-open">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 32">
+        <path fill="#fff" d="M28 32s-4.714-1.855-8.527-3.34H3.437C1.54 28.66 0 27.026 0 25.013V3.644C0 1.633 1.54 0 3.437 0h21.125c1.898 0 3.437 1.632 3.437 3.645v18.404H28V32zm-4.139-11.982a.88.88 0 00-1.292-.105c-.03.026-3.015 2.681-8.57 2.681-5.486 0-8.517-2.636-8.571-2.684a.88.88 0 00-1.29.107 1.01 1.01 0 00-.219.708.992.992 0 00.318.664c.142.128 3.537 3.15 9.762 3.15 6.226 0 9.621-3.022 9.763-3.15a.992.992 0 00.317-.664 1.01 1.01 0 00-.218-.707z"></path>
+      </svg>
+    </span>
+  </button>
+</div>
+
+
+    <!-- Set by default.ctp, ignored by Eleventy: -->
+    <!-- This may contain javascript that depends on jQuery being available, so -->
+    <!-- this goes last: -->
+    
+
+    <div class="floating-bar floating-bar--uppy js-coupon" id="js-coupon--uppy">
+  <div class="floating-bar__inner">
+    <img class="floating-bar__img" src="https://assets.transloadit.com/assets/images/floating-bar-icons/uppy.svg" alt="Uppy" width="45" height="45">
+    <div class="floating-bar__content">
+      <div class="floating-bar__title">20% off any plan for the Uppy community</div>
+      <div class="floating-bar__details">
+        Use the <code class="floating-bar__code">UPPY20</code> code when upgrading.
+      </div>
+    </div>
+
+    <div class="floating-bar__actions">
+      <a class="floating-bar__action floating-bar__action--uppy" href="/c/signup">Sign up</a>
+      <button class="floating-bar__action js-close" type="button">No thanks</button>
+    </div>
+  </div>
+</div>
+
+<div class="floating-bar floating-bar--tus js-coupon" id="js-coupon--tus">
+  <div class="floating-bar__inner">
+    <img class="floating-bar__img" src="https://assets.transloadit.com/assets/images/floating-bar-icons/tus.svg" alt="tus" width="24" height="40">
+    <div class="floating-bar__content">
+      <div class="floating-bar__title">20% off any plan for the tus community</div>
+      <div class="floating-bar__details">
+        Use the <code class="floating-bar__code">TUS20</code> code when upgrading.
+      </div>
+    </div>
+
+    <div class="floating-bar__actions">
+      <a class="floating-bar__action floating-bar__action--tus" href="/c/signup">Sign up</a>
+      <button class="floating-bar__action js-close" type="button">No thanks</button>
+    </div>
+  </div>
+</div>
+
+<div class="floating-bar floating-bar--producthunt js-coupon" id="js-coupon--producthunt">
+  <div class="floating-bar__inner">
+    <img class="floating-bar__img" src="https://assets.transloadit.com/assets/images/floating-bar-icons/producthunt.svg" alt="Product Hunt" width="40" height="40">
+    <div class="floating-bar__content">
+      <div class="floating-bar__title">20% off any plan for Product Hunters</div>
+      <div class="floating-bar__details">
+        Use the <code class="floating-bar__code">PRH20</code> code when upgrading.
+      </div>
+    </div>
+
+    <div class="floating-bar__actions">
+      <a class="floating-bar__action floating-bar__action--producthunt" href="/c/signup">Sign up</a>
+      <button class="floating-bar__action js-close" type="button">No thanks</button>
+    </div>
+  </div>
+</div>
+
+  
+
+</body></html>

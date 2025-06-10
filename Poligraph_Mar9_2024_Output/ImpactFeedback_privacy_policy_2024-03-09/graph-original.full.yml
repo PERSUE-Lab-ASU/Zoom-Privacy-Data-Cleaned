@@ -1,0 +1,238 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also release information when it's release is appropriate to comply with
+    the law, enforce our site policies, or protect ours or others' rights, property
+    or safety.
+  - We may disclose a Service user's information where we believe that we are required
+    to do so in order to comply with an applicable statute, regulation, rule or law,
+    a subpoena, or other valid legal processes.
+  purposes: {}
+- source: we
+  target: access to website
+  key: COLLECT
+  text:
+  - Our Service may contain links to other websites not owned or operated by FIRST
+    LIGHT, and may provide Service users with access to other websites and services.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may also provide aggregate, anonymous or de-identified information about users
+    and the Service for marketing and research purposes.
+  purposes:
+    advertising:
+    - for marketing and research purposes
+    analytics:
+    - for marketing and research purposes
+- source: we
+  target: browsing datum
+  key: COLLECT
+  text:
+  - We may also collect browsing data from individuals who visit the First Light information
+    website.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We also use cookies to help us compile aggregate data about site traffic and site
+    interaction so that we can offer better site experiences and tools in the future.
+  - We honor 'Do Not Track' signals and Do Not Track, store cookies, or use advertising
+    when a Do Not Track (DNT) browser mechanism is in place.
+  purposes:
+    analytics:
+    - to help us compile aggregate data about site traffic and site interaction so
+      that we can offer better site experiences and tools in the future
+- source: we
+  target: copy of information
+  key: COLLECT
+  text:
+  - You should understand that in some cases, we may retain copies of such information
+    in our systems or databases where required or permitted by law.
+  purposes: {}
+- source: we
+  target: information about service user
+  key: COLLECT
+  text:
+  - We may disclose information about the Service users to our associated
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also disclose personal information where we believe it is necessary to
+    identify, contact or bring legal action against someone who may be violating the
+    Terms of Service for our Service, to detect fraud, for assistance with a delinquent
+    account, as evidence in litigation in which we are involved, or protect ours or
+    others' rights, property or safety.
+  purposes: {}
+- source: client
+  target: client data
+  key: COLLECT
+  text:
+  - Each Client, in its capacity as a data governor, may process Client Data in other
+    ways.
+  purposes: {}
+- source: first light
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - First Light acts as a data manager with respect to Client Data and processes this
+    data as instructed by clients, who are the data governors.
+  purposes: {}
+- source: first light
+  target: client data
+  key: COLLECT
+  text:
+  - First Light processes Client Data on behalf of Clients in a manner consistent
+    with this Privacy Statement.
+  purposes: {}
+- source: first light
+  target: contact information
+  key: COLLECT
+  text:
+  - In the course of normal business operations, First Light collects data such as
+    contact information (e.g. name, address, phone number, email address, and employer)
+    and payment details for clients.
+  purposes: {}
+- source: first light
+  target: information it collect via service
+  key: COLLECT
+  text:
+  - This Policy describes how FIRST LIGHT collects, uses and discloses the information
+    it collects via the Service.
+  purposes: {}
+- source: first light
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'FIRST LIGHT generally uses the information we collect as follows:'
+  purposes:
+    advertising:
+    - To inform you of other products or services offered by us
+    - To tailor the survey content and information that we may send or display to
+      you, to offer personalized help and instructions
+    analytics:
+    - To develop aggregated reports and related analysis regarding user activities
+    - To tailor the survey content and information that we may send or display to
+      you, to offer personalized help and instructions
+    legal:
+    - To comply with applicable legal requirements, such as tax and other government
+      regulations and industry standards, contracts and law enforcement requests
+    - To ensure enforcement of our Terms of Services, EULA, and other legal terms
+      and policies with you
+    security:
+    - To ensure enforcement of our Terms of Services, EULA, and other legal terms
+      and policies with you
+    - To ensure the security and integrity of our Services and Software
+    services:
+    - To improve our website, Services, and Software in order to better serve you
+    - To inform you of other products or services offered by us
+    - To tailor the survey content and information that we may send or display to
+      you, to offer personalized help and instructions
+    - To troubleshoot any technical issues you might experience while using our Service
+- source: first light
+  target: payment detail for client
+  key: COLLECT
+  text:
+  - In the course of normal business operations, First Light collects data such as
+    contact information (e.g. name, address, phone number, email address, and employer)
+    and payment details for clients.
+  purposes: {}
+- source: we
+  target: first light software
+  key: SUBSUM
+  text:
+  - This Policy applies to all FIRST LIGHT software, services, and website (collectively
+    the " Service ").
+- source: client data
+  target: datum collect from case
+  key: SUBSUM
+  text:
+  - Client Data includes data collected from cases ("Cases").
+- source: client data
+  target: personal information
+  key: SUBSUM
+  text:
+  - Depending on how the Client chooses to use the software, Client Data may include
+    personal data or personal information.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - In the course of normal business operations, First Light collects data such as
+    contact information (e.g. name, address, phone number, email address, and employer)
+    and payment details for clients.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - In the course of normal business operations, First Light collects data such as
+    contact information (e.g. name, address, phone number, email address, and employer)
+    and payment details for clients.
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - In the course of normal business operations, First Light collects data such as
+    contact information (e.g. name, address, phone number, email address, and employer)
+    and payment details for clients.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - In the course of normal business operations, First Light collects data such as
+    contact information (e.g. name, address, phone number, email address, and employer)
+    and payment details for clients.
+nodes:
+- type: ACTOR
+  id: client
+- type: ACTOR
+  id: first light
+- type: ACTOR
+  id: first light software
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access to website
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browsing datum
+- type: DATA
+  id: client data
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: copy of information
+- type: DATA
+  id: datum collect from case
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about service user
+- type: DATA
+  id: information it collect via service
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: payment detail for client
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

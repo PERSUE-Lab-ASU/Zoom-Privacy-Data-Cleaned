@@ -1,0 +1,212 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Please note that in the course of providing the Services, we collect and maintain
+    aggregated, anonymized or de-personalized information which we may retain indefinitely.
+  purposes: {}
+- source: we
+  target: complete payment information
+  key: COLLECT
+  text:
+  - We transmit your End Users' complete payment information when they initially provide
+    or update it only so that we can pass it along to the eCommerce Payment Processors
+    you agree to use.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We also use cookies and similar technologies for this purpose, such as remembering
+    which of Your Sites you most recently edited.
+  - We use our own cookies to recognize you when you visit our website or use our
+    apps.
+  purposes:
+    services:
+    - to recognize you when you visit our website or use our apps
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, we need your email address so you can sign in to your SimpleUpdates
+    account.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - For example, we use your location information to determine your language preferences
+    or display accurate date and time information.
+  purposes:
+    services:
+    - to determine your language preferences or display accurate date and time information
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We also retain personal information for as long as necessary to achieve the purposes
+    described in this Privacy Policy, for example, to comply with our legal obligations,
+    to protect us in the event of disputes and to enforce our agreements and to protect
+    our and others' interests.
+  - We need your personal information to provide you with services and products requested
+    by you, or to respond to your inquiries.
+  - We obtain personal information from various sources.
+  - 'We process your personal information for the above purposes when:'
+  purposes:
+    legal:
+    - to achieve the purposes described in this Privacy Policy, for example, to comply
+      with our legal obligations, to protect us in the event of disputes and to enforce
+      our agreements and to protect our and others' interests
+    security:
+    - to achieve the purposes described in this Privacy Policy, for example, to comply
+      with our legal obligations, to protect us in the event of disputes and to enforce
+      our agreements and to protect our and others' interests
+    services:
+    - to provide you with services and products requested by you, or to respond to
+      your inquiries
+- source: we
+  target: personal information regard you
+  key: COLLECT
+  text:
+  - We collect various personal information regarding you or your device.
+  - We retain personal information regarding you or your use of the Services for as
+    long as your Account is active or for as long as needed to provide you or our
+    Users with the Services.
+  purposes: {}
+- source: we
+  target: personal information we obtain about you
+  key: COLLECT
+  text:
+  - 'We use the personal information we obtain about you to:'
+  purposes: {}
+- source: we
+  target: user content
+  key: COLLECT
+  text:
+  - We also host and process User Content for our Users.
+  purposes: {}
+- source: we
+  target: portfolio
+  key: SUBSUM
+  text:
+  - 'Websites : Portfolio'
+- source: we
+  target: theme
+  key: SUBSUM
+  text:
+  - 'Websites : Themes'
+- source: information about
+  target: browsing time
+  key: SUBSUM
+  text:
+  - 'This includes: IP addresses, information about how you interact with the Services
+    and our Users'' sites (such as timestamps, clicks, scrolling, browsing times,
+    searches, transactions, referral pages, load times, and problems you may encounter,
+    such as loading errors).'
+- source: information about
+  target: information relate to end user
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes what we do with personal information that we collect
+    and use for our own purposes (i.e., where we are a controller), such as your account
+    information and information about how you use and interact with our Services,
+    including information you submit to our customer support as well as certain information
+    relating to your End Users.
+- source: information about
+  target: information you submit to customer support
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes what we do with personal information that we collect
+    and use for our own purposes (i.e., where we are a controller), such as your account
+    information and information about how you use and interact with our Services,
+    including information you submit to our customer support as well as certain information
+    relating to your End Users.
+- source: information about
+  target: load time
+  key: SUBSUM
+  text:
+  - 'This includes: IP addresses, information about how you interact with the Services
+    and our Users'' sites (such as timestamps, clicks, scrolling, browsing times,
+    searches, transactions, referral pages, load times, and problems you may encounter,
+    such as loading errors).'
+- source: information about
+  target: timestamp
+  key: SUBSUM
+  text:
+  - 'This includes: IP addresses, information about how you interact with the Services
+    and our Users'' sites (such as timestamps, clicks, scrolling, browsing times,
+    searches, transactions, referral pages, load times, and problems you may encounter,
+    such as loading errors).'
+- source: information we get from partner
+  target: detail about
+  key: SUBSUM
+  text:
+  - Information we get from our partners to support our marketing initiatives, improve
+    our Services and better monitor, manage and measure our ad campaigns, such as
+    details about when our partner shows you one of our ads on or via its advertising
+    platform.
+- source: personal information
+  target: account information
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes what we do with personal information that we collect
+    and use for our own purposes (i.e., where we are a controller), such as your account
+    information and information about how you use and interact with our Services,
+    including information you submit to our customer support as well as certain information
+    relating to your End Users.
+- source: personal information
+  target: information about
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes what we do with personal information that we collect
+    and use for our own purposes (i.e., where we are a controller), such as your account
+    information and information about how you use and interact with our Services,
+    including information you submit to our customer support as well as certain information
+    relating to your End Users.
+nodes:
+- type: ACTOR
+  id: portfolio
+- type: ACTOR
+  id: theme
+- type: ACTOR
+  id: we
+- type: DATA
+  id: account information
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browsing time
+- type: DATA
+  id: complete payment information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: detail about
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about
+- type: DATA
+  id: information relate to end user
+- type: DATA
+  id: information we get from partner
+- type: DATA
+  id: information you submit to customer support
+- type: DATA
+  id: load time
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information regard you
+- type: DATA
+  id: personal information we obtain about you
+- type: DATA
+  id: timestamp
+- type: DATA
+  id: user content

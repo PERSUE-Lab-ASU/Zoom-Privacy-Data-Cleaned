@@ -1,0 +1,515 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: acquire user information
+  key: COLLECT
+  text:
+  - 'Article 4 (Purpose of Use of User Information)
+
+
+    We use acquired User Information for the following purposes.'
+  purposes:
+    advertising:
+    - To announce information regarding the Services and respond to inquiries
+    services:
+    - To announce information regarding the Services and respond to inquiries
+- source: we
+  target: information process
+  key: COLLECT
+  text:
+  - 'Article 15 (Information Usage for Service Improvement)
+
+
+    In order for function development and quality improvement of the Service, we may
+    use the following information that has been statistically processed or anonymized
+    in order to prevent identification of individual User.'
+  purposes:
+    security:
+    - in order to prevent identification of individual User
+    - to prevent identification of individual User
+- source: we
+  target: personal date
+  key: COLLECT
+  text:
+  - We shall keep Personal Data accurate and up-to-date to the extent necessary to
+    achieve the purpose of use and when the retention period prescribed by law has
+    expired, or when Personal Date is no longer required to be used for achieving
+    the purpose of use stipulated in Article 4, we will strive to delete Personal
+    Data without delay.
+  purposes:
+    security:
+    - to delete Personal Data without delay
+- source: we
+  target: personal datum among acquire use information
+  key: COLLECT
+  text:
+  - 'Article 5 (Provision of Information to a Third Party)
+
+
+    1) We may provide Personal Data among the acquired Use Information to a third
+    party in the following cases:'
+  purposes:
+    analytics:
+    - in order to provide services in response to customers' requests, such as payment
+      processing, data analysis, and customer service
+    services:
+    - in order to provide services in response to customers' requests, such as payment
+      processing, data analysis, and customer service
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Article 6 (Joint Use of Acquired Personal Data)
+
+
+    If we need a business partner who works with us to provide the Services to you,
+    we may use your Personal Data jointly with our business partner.'
+  - We shall keep Personal Data accurate and up-to-date to the extent necessary to
+    achieve the purpose of use and when the retention period prescribed by law has
+    expired, or when Personal Date is no longer required to be used for achieving
+    the purpose of use stipulated in Article 4, we will strive to delete Personal
+    Data without delay.
+  purposes:
+    security:
+    - to delete Personal Data without delay
+- source: we
+  target: user information
+  key: COLLECT
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    We may obtain the following User Information from the Users.'
+  - 'Article 9 (Deletion of User Information)
+
+
+    We may retain User Information during and after expiration of our contractual
+    relationships with us, but we will not keep it unnecessarily.'
+  - If you permit us to obtain the User Information through a service operated by
+    a third party, we may obtain the User Information.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal datum among acquire use information
+  key: COLLECT
+  text:
+  - 'Article 5 (Provision of Information to a Third Party)
+
+
+    1) We may provide Personal Data among the acquired Use Information to a third
+    party in the following cases:'
+  purposes:
+    analytics:
+    - in order to provide services in response to customers' requests, such as payment
+      processing, data analysis, and customer service
+    services:
+    - in order to provide services in response to customers' requests, such as payment
+      processing, data analysis, and customer service
+- source: UNSPECIFIED_ACTOR
+  target: user information
+  key: COLLECT
+  text:
+  - 'Article 16 (Link)
+
+
+    On websites provided by companies other than ours linked from the Services, such
+    companies may acquire User Information, but this does not apply to this Privacy
+    Policy, and we do not assume any obligations or responsibilities for the business
+    to acquire customer information.'
+  purposes: {}
+- source: advertiser
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Article 14 (Cookie)
+
+
+    Advertising Provider may use Cookie, access data, our identifiers, and customer
+    attributes to distribute advertisements that match your hobbies and preferences.'
+  - 'Article 14 (Cookie)
+
+
+    If the Cookie is set to be acceptable to the User, the Advertising Provider may
+    obtain Cookie information such as the browsing history of the User who uses the
+    services and distribute our advertisements on the Advertising provider media.'
+  purposes:
+    advertising:
+    - to distribute advertisements that match your hobbies and preferences
+- source: advertiser
+  target: customer attribute
+  key: COLLECT
+  text:
+  - 'Article 14 (Cookie)
+
+
+    Advertising Provider may use Cookie, access data, our identifiers, and customer
+    attributes to distribute advertisements that match your hobbies and preferences.'
+  purposes:
+    advertising:
+    - to distribute advertisements that match your hobbies and preferences
+- source: advertiser
+  target: identifier
+  key: COLLECT
+  text:
+  - 'Article 14 (Cookie)
+
+
+    Advertising Provider may use Cookie, access data, our identifiers, and customer
+    attributes to distribute advertisements that match your hobbies and preferences.'
+  purposes:
+    advertising:
+    - to distribute advertisements that match your hobbies and preferences
+- source: advertiser
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'Article 14 (Cookie)
+
+
+    Advertising Provider may use Cookie, access data, our identifiers, and customer
+    attributes to distribute advertisements that match your hobbies and preferences.'
+  purposes:
+    advertising:
+    - to distribute advertisements that match your hobbies and preferences
+- source: chatwork
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Chatwork uses Cookies to provide its services.
+  purposes:
+    services:
+    - to provide its services
+- source: cookie / pixel tag
+  target: browsing / search history
+  key: SUBSUM
+  text:
+  - 'Article 14 (Cookie)
+
+
+    If the Cookie is set to be acceptable to the User, the Advertising Provider may
+    obtain Cookie information such as the browsing history of the User who uses the
+    services and distribute our advertisements on the Advertising provider media.'
+- source: device application
+  target: browser
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : The type of device applications and browsers used to view the Services and the
+    pages viewed (including the websites of third party services used by the Users
+    prior to using the Services)'
+- source: device application
+  target: page view
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : The type of device applications and browsers used to view the Services and the
+    pages viewed (including the websites of third party services used by the Users
+    prior to using the Services)'
+- source: information acquire through use of service by user
+  target: advertising id
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : Information regarding devices used to access the Services, hardware models,
+    device IP addresses, MAC addresses and other unique identifiers, OS and its versions,
+    selected languages, advertising identifiers, serial numbers, device operating
+    information, and mobile network information'
+- source: information acquire through use of service by user
+  target: date
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : Date and time of accessing the Services'
+- source: information acquire through use of service by user
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : Location information'
+- source: information acquire through use of service by user
+  target: hardware identifier
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : Information regarding devices used to access the Services, hardware models,
+    device IP addresses, MAC addresses and other unique identifiers, OS and its versions,
+    selected languages, advertising identifiers, serial numbers, device operating
+    information, and mobile network information'
+- source: information acquire through use of service by user
+  target: information on service usage
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : Information on service usage (e.g., information on operating settings, number
+    of files uploaded, direction of the device when a crash occurs, etc.)'
+- source: information acquire through use of service by user
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : Information regarding devices used to access the Services, hardware models,
+    device IP addresses, MAC addresses and other unique identifiers, OS and its versions,
+    selected languages, advertising identifiers, serial numbers, device operating
+    information, and mobile network information'
+- source: information acquire through use of service by user
+  target: mac address
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : Information regarding devices used to access the Services, hardware models,
+    device IP addresses, MAC addresses and other unique identifiers, OS and its versions,
+    selected languages, advertising identifiers, serial numbers, device operating
+    information, and mobile network information'
+- source: information on service usage
+  target: direction of device
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : Information on service usage (e.g., information on operating settings, number
+    of files uploaded, direction of the device when a crash occurs, etc.)'
+- source: information on service usage
+  target: information on operating setting
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : Information on service usage (e.g., information on operating settings, number
+    of files uploaded, direction of the device when a crash occurs, etc.)'
+- source: information on service usage
+  target: number of file upload
+  key: SUBSUM
+  text:
+  - 'Article 3 (Information We Obtain through the Services)
+
+
+    2) Information automatically acquired through the use of the Services by the Users
+    : Information on service usage (e.g., information on operating settings, number
+    of files uploaded, direction of the device when a crash occurs, etc.)'
+- source: information process
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'Article 15 (Information Usage for Service Improvement)
+
+
+    In order for function development and quality improvement of the Service, we may
+    use the following information that has been statistically processed or anonymized
+    in order to prevent identification of individual User.'
+  - Information about Usage Plan
+- source: personal identifier
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - '"Personal Data" refers to information related to an identified or identifiable
+    natural person, such as name, email address, organization name, location, telephone
+    number, social network service account, IP address, cookie identifier, etc., among
+    the User Information.'
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - '"Personal Data" refers to information related to an identified or identifiable
+    natural person, such as name, email address, organization name, location, telephone
+    number, social network service account, IP address, cookie identifier, etc., among
+    the User Information.'
+- source: personal identifier
+  target: geolocation
+  key: SUBSUM
+  text:
+  - '"Personal Data" refers to information related to an identified or identifiable
+    natural person, such as name, email address, organization name, location, telephone
+    number, social network service account, IP address, cookie identifier, etc., among
+    the User Information.'
+- source: personal identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - '"Personal Data" refers to information related to an identified or identifiable
+    natural person, such as name, email address, organization name, location, telephone
+    number, social network service account, IP address, cookie identifier, etc., among
+    the User Information.'
+- source: personal identifier
+  target: organization name
+  key: SUBSUM
+  text:
+  - '"Personal Data" refers to information related to an identified or identifiable
+    natural person, such as name, email address, organization name, location, telephone
+    number, social network service account, IP address, cookie identifier, etc., among
+    the User Information.'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - '"Personal Data" refers to information related to an identified or identifiable
+    natural person, such as name, email address, organization name, location, telephone
+    number, social network service account, IP address, cookie identifier, etc., among
+    the User Information.'
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - '"Personal Data" refers to information related to an identified or identifiable
+    natural person, such as name, email address, organization name, location, telephone
+    number, social network service account, IP address, cookie identifier, etc., among
+    the User Information.'
+- source: personal identifier
+  target: social network service account
+  key: SUBSUM
+  text:
+  - '"Personal Data" refers to information related to an identified or identifiable
+    natural person, such as name, email address, organization name, location, telephone
+    number, social network service account, IP address, cookie identifier, etc., among
+    the User Information.'
+- source: personal identifier
+  target: user information
+  key: SUBSUM
+  text:
+  - '"Personal Data" refers to information related to an identified or identifiable
+    natural person, such as name, email address, organization name, location, telephone
+    number, social network service account, IP address, cookie identifier, etc., among
+    the User Information.'
+- source: service in response to request
+  target: customer service
+  key: SUBSUM
+  text:
+  - 'Article 5 (Provision of Information to a Third Party)
+
+
+    1) We may provide Personal Data among the acquired Use Information to a third
+    party in the following cases: Provision of Personal Data to business partners
+    in order to provide services in response to customers'' requests, such as payment
+    processing, data analysis, and customer service'
+- source: service in response to request
+  target: data analysis
+  key: SUBSUM
+  text:
+  - 'Article 5 (Provision of Information to a Third Party)
+
+
+    1) We may provide Personal Data among the acquired Use Information to a third
+    party in the following cases: Provision of Personal Data to business partners
+    in order to provide services in response to customers'' requests, such as payment
+    processing, data analysis, and customer service'
+- source: service in response to request
+  target: payment processing
+  key: SUBSUM
+  text:
+  - 'Article 5 (Provision of Information to a Third Party)
+
+
+    1) We may provide Personal Data among the acquired Use Information to a third
+    party in the following cases: Provision of Personal Data to business partners
+    in order to provide services in response to customers'' requests, such as payment
+    processing, data analysis, and customer service'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: browser
+- type: ACTOR
+  id: chatwork
+- type: ACTOR
+  id: customer service
+- type: ACTOR
+  id: data analysis
+- type: ACTOR
+  id: device application
+- type: ACTOR
+  id: page view
+- type: ACTOR
+  id: payment processing
+- type: ACTOR
+  id: service in response to request
+- type: ACTOR
+  id: we
+- type: DATA
+  id: acquire user information
+- type: DATA
+  id: advertising id
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer attribute
+- type: DATA
+  id: date
+- type: DATA
+  id: direction of device
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: hardware identifier
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information acquire through use of service by user
+- type: DATA
+  id: information on operating setting
+- type: DATA
+  id: information on service usage
+- type: DATA
+  id: information process
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: mac address
+- type: DATA
+  id: number of file upload
+- type: DATA
+  id: organization name
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal date
+- type: DATA
+  id: personal datum among acquire use information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: social network service account
+- type: DATA
+  id: user information

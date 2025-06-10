@@ -1,0 +1,125 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will keep your information as long as is necessary to continue to meet your
+    needs as a customer and any legal requirements we may have.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We may use the provided contact details to communicate important appointment-related
+    information, updates, and reminders.
+  purposes:
+    services:
+    - to communicate important appointment-related information, updates, and reminders
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use cookies or similar tracking technologies to enhance the User experience
+    and collect usage data.
+  - We may use essential cookies to authenticate users and prevent fraudulent use
+    of user accounts.
+  - We use both session and persistent cookies on the Service and we use different
+    types of cookies to run the Service
+  - 'We use cookies for the following purposes: to enable certain functions of the
+    Service, to provide analytics, to store your preferences, to enable advertisements
+    delivery, including behavioral advertising.'
+  purposes:
+    advertising:
+    - 'for the following purposes: to enable certain functions of the Service, to
+      provide analytics, to store your preferences, to enable advertisements delivery,
+      including behavioral advertising'
+    analytics:
+    - 'for the following purposes: to enable certain functions of the Service, to
+      provide analytics, to store your preferences, to enable advertisements delivery,
+      including behavioral advertising'
+    - to enhance the User experience and collect usage data
+    security:
+    - to authenticate users and prevent fraudulent use of user accounts
+    services:
+    - 'for the following purposes: to enable certain functions of the Service, to
+      provide analytics, to store your preferences, to enable advertisements delivery,
+      including behavioral advertising'
+    - to enhance the User experience and collect usage data
+    - to run the Service
+- source: we
+  target: information apply to software
+  key: COLLECT
+  text:
+  - This page will explain how we collect, use, and protect information that applies
+    to our software, services, and your choice about collection and use of your information.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may use cookies or similar tracking technologies to enhance the User experience
+    and collect usage data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We collect certain personal information from Users to facilitate the appointment
+    scheduling process.
+  purposes:
+    services:
+    - to facilitate the appointment scheduling process
+- source: we
+  target: user information
+  key: COLLECT
+  text:
+  - We retain User information only for as long as necessary to fulfill the purposes
+    outlined in this Agreement and comply with legal obligations.
+  purposes:
+    legal:
+    - to fulfill the purposes outlined in this Agreement and comply with legal obligations
+- source: dayschedule
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - DaySchedule may share your data if we believe disclosure is reasonable and necessary
+    to comply with laws, regulations, legal requests, judicial requests, or governmental
+    requests, and to enforce or investigate possible violations of our Terms of Use
+    or this Privacy Policy, or otherwise address security or technical issues that
+    may lead to possible violations.
+  purposes: {}
+- source: we
+  target: datum storage
+  key: SUBSUM
+  text:
+  - However, we may engage trusted third-party service providers who assist us in
+    delivering our services (e.g., cloud hosting, data storage etc).
+- source: we
+  target: dayschedule
+  key: SUBSUM
+  text:
+  - DaySchedule (DaySchedule, "we", "us" or "our") respects your privacy.
+nodes:
+- type: ACTOR
+  id: datum storage
+- type: ACTOR
+  id: dayschedule
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information apply to software
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: personal information
+- type: DATA
+  id: user information

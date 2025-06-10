@@ -1,0 +1,218 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate client personal datum
+  key: COLLECT
+  text:
+  - The Company may share the Professional's personal data, which is already available
+    to the public via the Company's website and Services, as well as aggregated and
+    anonymized Client personal data with partners to promote their services or the
+    Professional's services.
+  purposes:
+    advertising:
+    - to promote their services or the Professional's services
+    services:
+    - to promote their services or the Professional's services
+- source: we
+  target: aggregate personal datum of professional
+  key: COLLECT
+  text:
+  - To assist in the development and improvement of its services, and for research
+    and analysis purposes, the Company may share aggregated and anonymized personal
+    data of its Professionals and their Clients with third parties.
+  purposes:
+    analytics:
+    - To assist in the development and improvement of its services, and for research
+      and analysis purposes
+    services:
+    - To assist in the development and improvement of its services, and for research
+      and analysis purposes
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website may use cookies and similar technologies so that you will be recognized
+    when you visit other websites where our third-party ad management providers may
+    show you interest-based advertisements from us based on your visit to our website.
+  - The Company also uses cookies or similar technologies for the purpose of measuring
+    the audience of the website by means of a calculation of statistics on the pages
+    consulted by the Professional and the Clients to determine the most used Services.
+  purposes:
+    analytics:
+    - for the purpose of measuring the audience of the website by means of a calculation
+      of statistics on the pages consulted by the Professional and the Clients to
+      determine the most used Services
+- source: we
+  target: personal datum provide
+  key: COLLECT
+  text:
+  - The Company processes and stores the personal data provided by the Professionals
+    and their Clients only for the strict execution and use of the Services it offers.
+  purposes:
+    services:
+    - only for the strict execution and use of the Services it offers
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - The Company collects personal data directly from the Professionals and their Clients
+    via the Services offered via its website, applications, or other means.
+  - The Company may also disclose personal data without the consent of and with or
+    without notification to the Professional or the Client, if we receive a subpoena
+    or other legal requirement, issued by a court or other person with jurisdiction
+    to compel disclosure, or if the personal data is urgently required to prevent
+    serious bodily injury or serious damage to personal property.
+  - The Company may share the Professional's personal data, which is already available
+    to the public via the Company's website and Services, as well as aggregated and
+    anonymized Client personal data with partners to promote their services or the
+    Professional's services.
+  - The Company may transfer personal data, without consent of the person, in connection
+    with a merger, reorganization, or sale, involving all or part of our business,
+    including transfers made as part of insolvency or bankruptcy proceedings.
+  - The Company, in order to provide the Services to our Professionals and their Clients,
+    may share their personal data with our service providers.
+  - Upon request by the Professional, the Company may also share personal data with
+    third-party applications used by the Professionals to perform their duties.
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Notice unless a longer retention period is required
+    by law.
+  purposes:
+    advertising:
+    - to promote their services or the Professional's services
+    services:
+    - in order to provide the Services to our Professionals and their Clients
+    - to promote their services or the Professional's services
+- source: UNSPECIFIED_ACTOR
+  target: aggregate client personal datum
+  key: COLLECT
+  text:
+  - The Company may share the Professional's personal data, which is already available
+    to the public via the Company's website and Services, as well as aggregated and
+    anonymized Client personal data with partners to promote their services or the
+    Professional's services.
+  purposes:
+    advertising:
+    - to promote their services or the Professional's services
+    services:
+    - to promote their services or the Professional's services
+- source: UNSPECIFIED_ACTOR
+  target: aggregate personal datum of professional
+  key: COLLECT
+  text:
+  - To assist in the development and improvement of its services, and for research
+    and analysis purposes, the Company may share aggregated and anonymized personal
+    data of its Professionals and their Clients with third parties.
+  purposes:
+    analytics:
+    - To assist in the development and improvement of its services, and for research
+      and analysis purposes
+    services:
+    - To assist in the development and improvement of its services, and for research
+      and analysis purposes
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - The Company may share the Professional's personal data, which is already available
+    to the public via the Company's website and Services, as well as aggregated and
+    anonymized Client personal data with partners to promote their services or the
+    Professional's services.
+  - Upon request by the Professional, the Company may also share personal data with
+    third-party applications used by the Professionals to perform their duties.
+  purposes:
+    advertising:
+    - to promote their services or the Professional's services
+    services:
+    - to promote their services or the Professional's services
+- source: professional
+  target: personal information
+  key: COLLECT
+  text:
+  - The Professional may also collect personal data directly from their Client during
+    the appointments or over the phone.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - The Company, in order to provide the Services to our Professionals and their Clients,
+    may share their personal data with our service providers.
+  purposes:
+    services:
+    - in order to provide the Services to our Professionals and their Clients
+- source: personal information
+  target: date of birth
+  key: SUBSUM
+  text:
+  - To book an appointment with a listed Professional, the Client must visit the GOrendezvous
+    website or interact with a provided web interface ("Booking Widget") hosted on
+    a third-party website and communicate certain personal data, including their name,
+    email address, phone number, date of birth and other personal data the Professional
+    may need to perform their duties.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - To book an appointment with a listed Professional, the Client must visit the GOrendezvous
+    website or interact with a provided web interface ("Booking Widget") hosted on
+    a third-party website and communicate certain personal data, including their name,
+    email address, phone number, date of birth and other personal data the Professional
+    may need to perform their duties.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - To book an appointment with a listed Professional, the Client must visit the GOrendezvous
+    website or interact with a provided web interface ("Booking Widget") hosted on
+    a third-party website and communicate certain personal data, including their name,
+    email address, phone number, date of birth and other personal data the Professional
+    may need to perform their duties.
+- source: personal information
+  target: personal datum professional need
+  key: SUBSUM
+  text:
+  - To book an appointment with a listed Professional, the Client must visit the GOrendezvous
+    website or interact with a provided web interface ("Booking Widget") hosted on
+    a third-party website and communicate certain personal data, including their name,
+    email address, phone number, date of birth and other personal data the Professional
+    may need to perform their duties.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - To book an appointment with a listed Professional, the Client must visit the GOrendezvous
+    website or interact with a provided web interface ("Booking Widget") hosted on
+    a third-party website and communicate certain personal data, including their name,
+    email address, phone number, date of birth and other personal data the Professional
+    may need to perform their duties.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: professional
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: aggregate client personal datum
+- type: DATA
+  id: aggregate personal datum of professional
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: email address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum professional need
+- type: DATA
+  id: personal datum provide
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number

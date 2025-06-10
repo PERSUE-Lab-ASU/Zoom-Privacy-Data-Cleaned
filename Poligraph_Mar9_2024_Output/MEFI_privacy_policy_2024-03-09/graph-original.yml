@@ -1,0 +1,136 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy for MEFI
+
+
+    Information We Collect
+
+
+    Sharing of Information : We may share information with our CRM system to create
+    associated tasks.'
+  purposes:
+    services:
+    - to create associated tasks
+- source: we
+  target: datum necessary
+  key: COLLECT
+  text:
+  - We collect data necessary to schedule your Zoom meetings, including chosen dates,
+    times, and participant information.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how LIKE WEB SRL ("we", "us", or "our") collects,
+    uses, and shares information about you when you use our MEFI application (the
+    "App") integrated with the Zoom service.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - When you use the App, we may collect personal information you provide us, such
+    as your name, email address, and Zoom meeting details.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how LIKE WEB SRL ("we", "us", or "our") collects,
+    uses, and shares information about you when you use our MEFI application (the
+    "App") integrated with the Zoom service.
+  purposes: {}
+- source: crm system
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Privacy Policy for MEFI
+
+
+    Information We Collect
+
+
+    Sharing of Information : We may share information with our CRM system to create
+    associated tasks.'
+  purposes:
+    services:
+    - to create associated tasks
+- source: we
+  target: like web srl
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how LIKE WEB SRL ("we", "us", or "our") collects,
+    uses, and shares information about you when you use our MEFI application (the
+    "App") integrated with the Zoom service.
+- source: datum necessary
+  target: choose date
+  key: SUBSUM
+  text:
+  - We collect data necessary to schedule your Zoom meetings, including chosen dates,
+    times, and participant information.
+- source: datum necessary
+  target: participant information
+  key: SUBSUM
+  text:
+  - We collect data necessary to schedule your Zoom meetings, including chosen dates,
+    times, and participant information.
+- source: datum necessary
+  target: time
+  key: SUBSUM
+  text:
+  - We collect data necessary to schedule your Zoom meetings, including chosen dates,
+    times, and participant information.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - When you use the App, we may collect personal information you provide us, such
+    as your name, email address, and Zoom meeting details.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you use the App, we may collect personal information you provide us, such
+    as your name, email address, and Zoom meeting details.
+- source: personal information
+  target: zoom meeting detail
+  key: SUBSUM
+  text:
+  - When you use the App, we may collect personal information you provide us, such
+    as your name, email address, and Zoom meeting details.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: crm system
+- type: ACTOR
+  id: like web srl
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: choose date
+- type: DATA
+  id: datum necessary
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: participant information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: time
+- type: DATA
+  id: zoom meeting detail

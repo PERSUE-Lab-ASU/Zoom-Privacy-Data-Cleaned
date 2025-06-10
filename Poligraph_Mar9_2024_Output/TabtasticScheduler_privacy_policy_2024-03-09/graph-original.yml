@@ -1,0 +1,122 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We collect and process data when you:'
+  - When you visit our websites, we may collect information from you automatically
+    through cookies or similar technology.
+  purposes: {}
+- source: we
+  target: billing information
+  key: COLLECT
+  text:
+  - 'When you use the Tabtastic service, either via the Tabtastic website or by interacting
+    with the Tabtastic Discord bot, we collect and process the following data: Billing
+    information (Billing Address)'
+  purposes: {}
+- source: we
+  target: connect account on platform
+  key: COLLECT
+  text:
+  - 'When you use the Tabtastic service, either via the Tabtastic website or by interacting
+    with the Tabtastic Discord bot, we collect and process the following data: Connected
+    accounts on other platforms (Discord & Zoom account identifiers)'
+  purposes: {}
+- source: we
+  target: personal identification information
+  key: COLLECT
+  text:
+  - 'When you use the Tabtastic service, either via the Tabtastic website or by interacting
+    with the Tabtastic Discord bot, we collect and process the following data: Personal
+    identification information (Name, Email Address)'
+  purposes: {}
+- source: we
+  target: usage information
+  key: COLLECT
+  text:
+  - 'When you use the Tabtastic service, either via the Tabtastic website or by interacting
+    with the Tabtastic Discord bot, we collect and process the following data: Usage
+    information (Participation records at tournaments on Tabtastic)'
+  purposes: {}
+- source: partner company
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you agree, Tabtastic will share your data with partner companies so that they
+    may offer you their products and services.
+  purposes: {}
+- source: tabtastic
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you agree, Tabtastic will share your data with partner companies so that they
+    may offer you their products and services.
+  - 'Tabtastic collects your data so that we can:'
+  - 'Tabtastic may also receive your data indirectly from the following sources:'
+  - Tabtastic securely stores your data on servers provided by Hetzner Online GmbH,
+    located in Nuremberg, Germany.
+  purposes: {}
+- source: tabtastic
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Tabtastic uses cookies in a range of ways to improve your experience on our website,
+    including:'
+  purposes:
+    services:
+    - to improve your experience on our website
+- source: tabtastic
+  target: number
+  key: COLLECT
+  text:
+  - Functionality - Tabtastic uses these cookies so that we recognize you on our website
+    and remember your previously selected preferences.
+  - 'There are a number of different types of cookies, however, our website uses:'
+  purposes: {}
+- source: tabtastic
+  target: participation record at tournament
+  key: COLLECT
+  text:
+  - Tabtastic will retain participation records at tournaments for as long as the
+    tournament remains on the Tabtastic platform, but personal information can be
+    removed from participation records at any time.
+  purposes: {}
+- source: tabtastic
+  target: personal information
+  key: COLLECT
+  text:
+  - Tabtastic will keep your personal data for as long as you retain your account
+    with us.
+  - Tabtastic will retain participation records at tournaments for as long as the
+    tournament remains on the Tabtastic platform, but personal information can be
+    removed from participation records at any time.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: partner company
+- type: ACTOR
+  id: tabtastic
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: billing information
+- type: DATA
+  id: connect account on platform
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: number
+- type: DATA
+  id: participation record at tournament
+- type: DATA
+  id: personal identification information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: usage information

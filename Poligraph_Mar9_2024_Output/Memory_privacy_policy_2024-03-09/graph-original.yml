@@ -1,0 +1,268 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information about interaction with service
+  key: COLLECT
+  text:
+  - If you choose to use or connect to third-party integrations (e.g. Google Calendar,
+    Trello etc.) through the Service, or if you are required or permitted to do so
+    by a Customer, such third parties may allow us to have access to and store additional
+    information about your interaction with those services as it relates to your use
+    of the Service.
+  purposes: {}
+- source: we
+  target: information about you require
+  key: COLLECT
+  text:
+  - If you initiate these connections, you also understand that we will share information
+    about you that is required to enable your use of the third-party integration through
+    the Service.
+  purposes: {}
+- source: we
+  target: information provide through connection
+  key: COLLECT
+  text:
+  - By enabling these connections, you authorise us to connect and access the information
+    provided through these connections, and you understand that the privacy policies
+    of these third parties govern such connections.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The Provider will process information as referenced in section 5 and 6 (collectively,
+    "Data") for the purposes of
+  purposes:
+    legal:
+    - exercising and enforcing Provider's rights according to the Terms of Service
+    - performing Provider's obligations towards the Data Subject
+    security:
+    - exercising and enforcing Provider's rights according to the Terms of Service
+    services:
+    - customising the content and/or layout of the Service for the particular Data
+      Subject
+    - improving or otherwise modifying the Service and notifying Data Subjects thereof
+    - performing Provider's obligations towards the Data Subject
+    - providing the Service
+    - replying to the Data Subjects' communications and contacting them
+- source: UNSPECIFIED_ACTOR
+  target: information about user
+  key: COLLECT
+  text:
+  - This privacy policy covers how Memory AS, Karvesvingen 5, 0579 Oslo ("Provider"),
+    collects and treats information about its users.
+  purposes: {}
+- source: karvesvingen
+  target: information about user
+  key: COLLECT
+  text:
+  - This privacy policy covers how Memory AS, Karvesvingen 5, 0579 Oslo ("Provider"),
+    collects and treats information about its users.
+  purposes: {}
+- source: memory
+  target: personal datum necessary
+  key: COLLECT
+  text:
+  - Memory only processes personal data necessary for the performance of Memory's
+    contractual obligations to the user according to the Terms of Service, or in order
+    to take steps at the request of the user prior to entering into the Terms of Service.
+  purposes:
+    services:
+    - in order to take steps at the request of the user prior to entering into the
+      Terms of Service
+- source: memory
+  target: personal information
+  key: COLLECT
+  text:
+  - If a Data Subject participates in Memory's mailing or similar program, Memory
+    may use their personal data to send them information about products, services,
+    promotions, and events that Memory believes may be of interest to them.
+  - In such cases, Memory will only transfer personal data subject to appropriate
+    safeguards provided by sub-suppliers, such as a legally binding and enforceable
+    instrument between public authorities or bodies, or standard data protection clauses
+    adopted by the EU Commission.
+  - 'Memory may collect information (including personal data) about Data Subjects:'
+  - Memory will keep personal data for as long as necessary to fulfil their contractual
+    obligations towards the Data Subject, as specified in the Terms of Service.
+  purposes:
+    advertising:
+    - to send them information about products, services, promotions, and events that
+      Memory believes may be of interest to them
+    legal:
+    - to fulfil their contractual obligations towards the Data Subject
+- source: memory
+  target: special category
+  key: COLLECT
+  text:
+  - Memory will only process special categories of personal data as specified above
+    at the request of the User ("Data Subject"), i.e. when the user submits such data
+    to Memory at their own will.
+  purposes: {}
+- source: memory
+  target: special category of personal datum
+  key: COLLECT
+  text:
+  - Memory will only process such special categories of personal data following the
+    informed, expressly and freely given consent of the Data Subject.
+  purposes: {}
+- source: memory as
+  target: information about user
+  key: COLLECT
+  text:
+  - This privacy policy covers how Memory AS, Karvesvingen 5, 0579 Oslo ("Provider"),
+    collects and treats information about its users.
+  purposes: {}
+- source: memory as
+  target: personal information
+  key: COLLECT
+  text:
+  - Memory AS may use sub-suppliers and transfer personal data to these sub-suppliers,
+    including sub-suppliers in countries not considered to provide adequate protection
+    for personal data.
+  purposes: {}
+- source: memory as
+  target: sub
+  key: COLLECT
+  text:
+  - Memory AS may use sub-suppliers and transfer personal data to these sub-suppliers,
+    including sub-suppliers in countries not considered to provide adequate protection
+    for personal data.
+  purposes: {}
+- source: supplier in country not consider
+  target: personal information
+  key: COLLECT
+  text:
+  - Memory AS may use sub-suppliers and transfer personal data to these sub-suppliers,
+    including sub-suppliers in countries not considered to provide adequate protection
+    for personal data.
+  purposes: {}
+- source: personal information
+  target: biometric information
+  key: SUBSUM
+  text:
+  - Memory does not intend to process special categories of personal data, such as
+    data on racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person's sex life or sexual orientation.
+- source: personal information
+  target: datum concern health
+  key: SUBSUM
+  text:
+  - Memory does not intend to process special categories of personal data, such as
+    data on racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person's sex life or sexual orientation.
+- source: personal information
+  target: datum concern sex life
+  key: SUBSUM
+  text:
+  - Memory does not intend to process special categories of personal data, such as
+    data on racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person's sex life or sexual orientation.
+- source: personal information
+  target: genetic datum
+  key: SUBSUM
+  text:
+  - Memory does not intend to process special categories of personal data, such as
+    data on racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person's sex life or sexual orientation.
+- source: personal information
+  target: political opinion
+  key: SUBSUM
+  text:
+  - Memory does not intend to process special categories of personal data, such as
+    data on racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person's sex life or sexual orientation.
+- source: personal information
+  target: racial origin
+  key: SUBSUM
+  text:
+  - Memory does not intend to process special categories of personal data, such as
+    data on racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person's sex life or sexual orientation.
+- source: personal information
+  target: religious belief
+  key: SUBSUM
+  text:
+  - Memory does not intend to process special categories of personal data, such as
+    data on racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person's sex life or sexual orientation.
+- source: personal information
+  target: special category
+  key: SUBSUM
+  text:
+  - Memory will only process special categories of personal data as specified above
+    at the request of the User ("Data Subject"), i.e. when the user submits such data
+    to Memory at their own will.
+- source: personal information
+  target: trade union membership
+  key: SUBSUM
+  text:
+  - Memory does not intend to process special categories of personal data, such as
+    data on racial or ethnic origin, political opinions, religious or philosophical
+    beliefs, trade union membership, genetic data, biometric data for the purpose
+    of uniquely identifying a natural person, data concerning health or data concerning
+    a natural person's sex life or sexual orientation.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: karvesvingen
+- type: ACTOR
+  id: memory
+- type: ACTOR
+  id: memory as
+- type: ACTOR
+  id: supplier in country not consider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: biometric information
+- type: DATA
+  id: datum concern health
+- type: DATA
+  id: datum concern sex life
+- type: DATA
+  id: genetic datum
+- type: DATA
+  id: information about interaction with service
+- type: DATA
+  id: information about user
+- type: DATA
+  id: information about you require
+- type: DATA
+  id: information provide through connection
+- type: DATA
+  id: personal datum necessary
+- type: DATA
+  id: personal information
+- type: DATA
+  id: political opinion
+- type: DATA
+  id: racial origin
+- type: DATA
+  id: religious belief
+- type: DATA
+  id: special category
+- type: DATA
+  id: special category of personal datum
+- type: DATA
+  id: sub
+- type: DATA
+  id: trade union membership

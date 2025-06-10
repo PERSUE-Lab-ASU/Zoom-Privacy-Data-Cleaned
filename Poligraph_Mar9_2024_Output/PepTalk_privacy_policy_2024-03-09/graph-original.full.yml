@@ -1,0 +1,180 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - and how and why we collect, store, use and share your personal information.
+  purposes: {}
+- source: Google
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - data analytics tools or services such as Google Analytics, automatically collect
+    information
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '7.3 Sharing data with necessary trusted third parties:'
+  purposes: {}
+- source: analytic provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - data analytics tools or services such as Google Analytics, automatically collect
+    information
+  purposes: {}
+- source: browser
+  target: device identifier
+  key: COLLECT
+  text:
+  - device, transfer a unique identifier for your device to a browser or otherwise
+    use means to
+  purposes: {}
+- source: peptalk
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Even if you are just browsing the Site, PepTalk may receive certain information
+    from you, for
+  - 'PepTalk may share your data with:'
+  - means that PepTalk would need to secure and retain the data for your benefit but
+    not
+  - provide the Services, and to improve the Site's offering, Peptalk collects information
+    from you.
+  - shares your details with PepTalk when doing so;
+  purposes:
+    services:
+    - to improve the Site's offering
+- source: peptalk
+  target: contact information
+  key: COLLECT
+  text:
+  - provided PepTalk with your contact details in the course of business (for example,
+    you have signed up
+  purposes: {}
+- source: peptalk
+  target: personal information
+  key: COLLECT
+  text:
+  - (i) PepTalk might use your Personal Data for electronic marketing purposes (with
+    your
+  - 3. What Personal Data PepTalk might collect on you.
+  - '5.1 PepTalk may collect your Personal Data in the following:'
+  - '6.1 PepTalk might store and use your Personal Data on the following legal grounds:'
+  - In order to make certain services available to you, PepTalk may need to share
+    your Personal Data with
+  - PepTalk may also collect Personal Data from third
+  - PepTalk will store and process your Personal Data insofar as it is necessary to
+    aid, manage and
+  purposes:
+    advertising:
+    - for electronic marketing purposes
+    services:
+    - In order to make certain services available to you
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - '(iii) Your contact details, including: postal address, telephone numbers and
+    email address;'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - '(iii) Your contact details, including: postal address, telephone numbers and
+    email address;'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - '(iii) Your contact details, including: postal address, telephone numbers and
+    email address;'
+- source: information about visit to site
+  target: full uniform resource locators
+  key: SUBSUM
+  text:
+  - (i) information about your visit to the Site, including the full Uniform Resource
+    Locators
+  - (xii) Information about your visit to the Site, including the full Uniform Resource
+    Locators
+- source: page page interaction information
+  target: mouse over
+  key: SUBSUM
+  text:
+  - pages, page interaction information (such as scrolling, clicks, and mouse-overs),
+    methods
+- source: platform
+  target: Facebook
+  key: SUBSUM
+  text:
+  - platform (such as a Twitter feed, public Facebook page or a company website);
+- source: platform
+  target: Twitter
+  key: SUBSUM
+  text:
+  - platform (such as a Twitter feed, public Facebook page or a company website);
+- source: platform
+  target: company website
+  key: SUBSUM
+  text:
+  - platform (such as a Twitter feed, public Facebook page or a company website);
+- source: technical information
+  target: ip address
+  key: SUBSUM
+  text:
+  - (ii) Technical information, including the Internet protocol (IP) address used
+    to connect your
+  - (xiii) Technical information, including the Internet protocol (IP) address used
+    to connect your
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: browser
+- type: ACTOR
+  id: company website
+- type: ACTOR
+  id: peptalk
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: email address
+- type: DATA
+  id: full uniform resource locators
+- type: DATA
+  id: information about visit to site
+- type: DATA
+  id: ip address
+- type: DATA
+  id: mouse over
+- type: DATA
+  id: page page interaction information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: technical information

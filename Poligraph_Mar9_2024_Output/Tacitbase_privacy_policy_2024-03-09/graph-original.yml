@@ -1,0 +1,283 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also collect similar information from emails sent to you which then help
+    us track which emails are opened and which links are clicked by recipients.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'To improve your overall experience with the Services, we may use cookies, device
+    identifiers, and similar technologies such as pixels, web beacons, and local storage
+    for the following purposes: to improve the functionality of the Services, to remember
+    your online preferences within the Services, and to help us better understand
+    how you interact with the Services.'
+  purposes:
+    analytics:
+    - 'for the following purposes: to improve the functionality of the Services, to
+      remember your online preferences within the Services, and to help us better
+      understand how you interact with the Services'
+    services:
+    - To improve your overall experience with the Services
+    - 'for the following purposes: to improve the functionality of the Services, to
+      remember your online preferences within the Services, and to help us better
+      understand how you interact with the Services'
+- source: we
+  target: device identifier
+  key: COLLECT
+  text:
+  - 'To improve your overall experience with the Services, we may use cookies, device
+    identifiers, and similar technologies such as pixels, web beacons, and local storage
+    for the following purposes: to improve the functionality of the Services, to remember
+    your online preferences within the Services, and to help us better understand
+    how you interact with the Services.'
+  purposes:
+    analytics:
+    - 'for the following purposes: to improve the functionality of the Services, to
+      remember your online preferences within the Services, and to help us better
+      understand how you interact with the Services'
+    services:
+    - To improve your overall experience with the Services
+    - 'for the following purposes: to improve the functionality of the Services, to
+      remember your online preferences within the Services, and to help us better
+      understand how you interact with the Services'
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'To support your use of the Services, we may request you provide certain types
+    of Personal Information, specifically, to use our SaaS platform, we may request
+    you provide us the following Personal Information: Name, Telephone number, and
+    Email Address'
+  purposes:
+    services:
+    - To support your use of the Services
+- source: we
+  target: information on
+  key: COLLECT
+  text:
+  - We provide information on how to do that below.
+  purposes: {}
+- source: we
+  target: log file information
+  key: COLLECT
+  text:
+  - When you use the Services, our servers and systems automatically record information,
+    including your Internet Protocol address ( "IP Address" ), browser type, referring
+    URLs (e.g., the site you visited before coming to the Services), domain names
+    associated with your internet service provider, information on your interaction
+    with the Services, and other such information (collectively, "Log File Information"
+    ).
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'To support your use of the Services, we may request you provide certain types
+    of Personal Information, specifically, to use our SaaS platform, we may request
+    you provide us the following Personal Information: Name, Telephone number, and
+    Email Address'
+  purposes:
+    services:
+    - To support your use of the Services
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Remember, though, that even if you request deletion of your Personal Information,
+    we may keep certain Personal Information for a time after your deletion request
+    to comply with legal or recordkeeping requirements.
+  - 'To support your use of the Services, we may request you provide certain types
+    of Personal Information, specifically, to use our SaaS platform, we may request
+    you provide us the following Personal Information: Name, Telephone number, and
+    Email Address'
+  - We may disclose Personal Information at the request of law enforcement or government
+    agencies; in response to subpoenas, court orders, or other legal processes; to
+    establish, protect, or exercise our rights; to defend against a legal claim; to
+    protect the rights, property, or safety of any other person; or as otherwise required
+    by law.
+  - 'We may share your Personal Information in the following circumstances: Service
+    Providers.'
+  - We retain Personal Information for as long as useful or permitted to further the
+    purposes of collection.
+  purposes:
+    legal:
+    - to comply with legal or recordkeeping requirements
+    services:
+    - To support your use of the Services
+- source: we
+  target: personal information we use
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    ONLINE PRIVACY NOTICE
+
+
+    3. How We Use Personal Information We use or in the future may potentially use
+    Personal Information for the following purposes: Offering the Services to you;
+    Administering and improving the Services; Sending you marketing, advertisement,
+    and promotional materials; Crafting and sending you email newsletters related
+    to recruiting; Connecting you with similar subscribers; Sending you recruiting
+    content that aligns with your interests; Protecting our property and legal rights;
+    Meeting legal obligations; and For other purposes related to the reasons for which
+    you provide Personal Information.'
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - 'To support your use of the Services, we may request you provide certain types
+    of Personal Information, specifically, to use our SaaS platform, we may request
+    you provide us the following Personal Information: Name, Telephone number, and
+    Email Address'
+  purposes:
+    services:
+    - To support your use of the Services
+- source: system
+  target: log file information
+  key: COLLECT
+  text:
+  - When you use the Services, our servers and systems automatically record information,
+    including your Internet Protocol address ( "IP Address" ), browser type, referring
+    URLs (e.g., the site you visited before coming to the Services), domain names
+    associated with your internet service provider, information on your interaction
+    with the Services, and other such information (collectively, "Log File Information"
+    ).
+  purposes: {}
+- source: we
+  target: domain
+  key: SUBSUM
+  text:
+  - Company has developed this comprehensive privacy policy ( "Policy" ) to describe
+    the processing of Personal Information that is provided, collected, or shared
+    on our websites (including https://tacitbase.com/ or any other website referencing
+    this Policy), domain, products, including our premium software as a service platform,
+    or any additional online service we provide for your use (collectively, "Services"
+    ), and your choices about the collection, sharing, and use of your Personal Information.
+- source: we
+  target: premium software as service platform
+  key: SUBSUM
+  text:
+  - Company has developed this comprehensive privacy policy ( "Policy" ) to describe
+    the processing of Personal Information that is provided, collected, or shared
+    on our websites (including https://tacitbase.com/ or any other website referencing
+    this Policy), domain, products, including our premium software as a service platform,
+    or any additional online service we provide for your use (collectively, "Services"
+    ), and your choices about the collection, sharing, and use of your Personal Information.
+- source: we
+  target: website reference policy
+  key: SUBSUM
+  text:
+  - Company has developed this comprehensive privacy policy ( "Policy" ) to describe
+    the processing of Personal Information that is provided, collected, or shared
+    on our websites (including https://tacitbase.com/ or any other website referencing
+    this Policy), domain, products, including our premium software as a service platform,
+    or any additional online service we provide for your use (collectively, "Services"
+    ), and your choices about the collection, sharing, and use of your Personal Information.
+- source: log file information
+  target: browser type
+  key: SUBSUM
+  text:
+  - When you use the Services, our servers and systems automatically record information,
+    including your Internet Protocol address ( "IP Address" ), browser type, referring
+    URLs (e.g., the site you visited before coming to the Services), domain names
+    associated with your internet service provider, information on your interaction
+    with the Services, and other such information (collectively, "Log File Information"
+    ).
+- source: log file information
+  target: domain name associate with internet service provider
+  key: SUBSUM
+  text:
+  - When you use the Services, our servers and systems automatically record information,
+    including your Internet Protocol address ( "IP Address" ), browser type, referring
+    URLs (e.g., the site you visited before coming to the Services), domain names
+    associated with your internet service provider, information on your interaction
+    with the Services, and other such information (collectively, "Log File Information"
+    ).
+- source: log file information
+  target: ip address
+  key: SUBSUM
+  text:
+  - When you use the Services, our servers and systems automatically record information,
+    including your Internet Protocol address ( "IP Address" ), browser type, referring
+    URLs (e.g., the site you visited before coming to the Services), domain names
+    associated with your internet service provider, information on your interaction
+    with the Services, and other such information (collectively, "Log File Information"
+    ).
+- source: log file information
+  target: refer url
+  key: SUBSUM
+  text:
+  - When you use the Services, our servers and systems automatically record information,
+    including your Internet Protocol address ( "IP Address" ), browser type, referring
+    URLs (e.g., the site you visited before coming to the Services), domain names
+    associated with your internet service provider, information on your interaction
+    with the Services, and other such information (collectively, "Log File Information"
+    ).
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Examples of Personal Information include, among others, name, email address, and
+    online identifier.
+- source: personal information
+  target: online identifier
+  key: SUBSUM
+  text:
+  - Examples of Personal Information include, among others, name, email address, and
+    online identifier.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - Examples of Personal Information include, among others, name, email address, and
+    online identifier.
+nodes:
+- type: ACTOR
+  id: domain
+- type: ACTOR
+  id: premium software as service platform
+- type: ACTOR
+  id: system
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: website reference policy
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: domain name associate with internet service provider
+- type: DATA
+  id: email address
+- type: DATA
+  id: information on
+- type: DATA
+  id: ip address
+- type: DATA
+  id: log file information
+- type: DATA
+  id: online identifier
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information we use
+- type: DATA
+  id: phone number
+- type: DATA
+  id: refer url

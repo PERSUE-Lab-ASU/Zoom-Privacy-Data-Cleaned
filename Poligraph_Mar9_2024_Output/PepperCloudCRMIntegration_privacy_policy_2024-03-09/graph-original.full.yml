@@ -1,0 +1,239 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Pepper Cloud's privacy policy statement is designed to help users (hereinafter
+    "you" or "customer" or "individual") understand how we collect, use and protect
+    your information when you visit our website and when you generally request information
+    on our products and services - whether in person, visiting card, via email, online
+    ads, trade booth, post, telephone, fax or other communication channels
+  - We may release information when Pepper Cloud believes, in good faith, that such
+    release is legitimately necessary to
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'Protection and Disclosure of Information
+
+
+    We may disclose information about you'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Duration of Data Retention
+
+
+    We retain personal data no longer than'
+  - However, we will store personal data for a longer period where
+  - In this event, we will retain your personal data until the end of the relevant
+    retention period or until the claims in question have been settled.
+  - The personal information that we typically collect includes your name, company
+    name and email address, telephone numbers, and any other relevant information
+    that is required and collected via requests, registrations or through surveys.
+  purposes:
+    legal:
+    - 'where : we are required by law to retain your personal data or'
+    - 'where : your personal data is required for Pepper Cloud to assert or defend
+      against legal claims'
+    security:
+    - 'where : we are required by law to retain your personal data or'
+    - 'where : your personal data is required for Pepper Cloud to assert or defend
+      against legal claims'
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - 'Protection and Disclosure of Information
+
+
+    We may disclose information about you : to companies and departments within Pepper
+    Cloud Group, subject to the terms of this Privacy Policy Statement; and'
+  purposes: {}
+- source: client customer
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Information collected by our customers
+
+
+    Pepper Cloud''s clients/customers may collect and manage personal data when using
+    our products and services.'
+  purposes: {}
+- source: department
+  target: information about you
+  key: COLLECT
+  text:
+  - 'Protection and Disclosure of Information
+
+
+    We may disclose information about you : to companies and departments within Pepper
+    Cloud Group, subject to the terms of this Privacy Policy Statement; and'
+  purposes: {}
+- source: pepper cloud
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Pepper Cloud collects and uses your data for the following purposes:'
+  purposes:
+    advertising:
+    - To inform you of winning a competition, sending a prize, etc.
+    - To provide information about Pepper Cloud's products and services, seminars,
+      etc. and to inform you about other information on Pepper Cloud
+    - To send letters of thanks for purchasing our products and services
+    analytics:
+    - To provide basic data to enable us to enhance and improve Pepper Cloud products
+      and services
+    - To provide information about Pepper Cloud's products and services, seminars,
+      etc. and to inform you about other information on Pepper Cloud
+    - To provide you with the information you have requested
+    services:
+    - To identify and contact you when necessary, etc.
+    - To inform you of winning a competition, sending a prize, etc.
+    - To provide and support your use of products and services of Pepper Cloud
+    - To provide basic data to enable us to enhance and improve Pepper Cloud products
+      and services
+    - To provide information about Pepper Cloud's products and services, seminars,
+      etc. and to inform you about other information on Pepper Cloud
+    - To provide you with the information you have requested
+    - To respond to your enquiries
+    - To send letters of thanks for purchasing our products and services
+- source: pepper cloud
+  target: information on
+  key: COLLECT
+  text:
+  - Upon request, Pepper Cloud can also provide information on how the individual's
+    personal data has been used or disclosed in the past year.
+  purposes: {}
+- source: pepper cloud
+  target: personal information
+  key: COLLECT
+  text:
+  - Pepper Cloud may also be obliged to disclose your personal information to meet
+    any legal or regulatory requirements or obligations in accordance with applicable
+    law.
+  purposes:
+    legal:
+    - to meet any legal or regulatory requirements or obligations in accordance with
+      applicable law
+- source: communication from we
+  target: online ad
+  key: SUBSUM
+  text:
+  - The collection and use of this information are typically done when you place an
+    order, and subsequently, use Pepper Cloud's products and services, make customer
+    enquiries, register and request product information, submit a job application
+    or respond to communications from us (such as questionnaires or surveys or online
+    ads).
+- source: communication from we
+  target: survey
+  key: SUBSUM
+  text:
+  - The collection and use of this information are typically done when you place an
+    order, and subsequently, use Pepper Cloud's products and services, make customer
+    enquiries, register and request product information, submit a job application
+    or respond to communications from us (such as questionnaires or surveys or online
+    ads).
+- source: different method as
+  target: contact form
+  key: SUBSUM
+  text:
+  - 'The consent will be requested through different methods such as: Consent checkbox
+    in web forms and contact forms.'
+- source: different method as
+  target: web form
+  key: SUBSUM
+  text:
+  - 'The consent will be requested through different methods such as: Consent checkbox
+    in web forms and contact forms.'
+- source: pepper cloud
+  target: pepper cloud pte ltd.
+  key: SUBSUM
+  text:
+  - Pepper Cloud Pte. Ltd. (hereinafter "Pepper Cloud" or "us" or "we") is committed
+    to respecting your privacy and is compliant with all data protection and privacy
+    laws governing Singapore.
+- source: personal information
+  target: company name
+  key: SUBSUM
+  text:
+  - The personal information that we typically collect includes your name, company
+    name and email address, telephone numbers, and any other relevant information
+    that is required and collected via requests, registrations or through surveys.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - The personal information that we typically collect includes your name, company
+    name and email address, telephone numbers, and any other relevant information
+    that is required and collected via requests, registrations or through surveys.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - The personal information that we typically collect includes your name, company
+    name and email address, telephone numbers, and any other relevant information
+    that is required and collected via requests, registrations or through surveys.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - The personal information that we typically collect includes your name, company
+    name and email address, telephone numbers, and any other relevant information
+    that is required and collected via requests, registrations or through surveys.
+- source: personal information
+  target: relevant information require
+  key: SUBSUM
+  text:
+  - The personal information that we typically collect includes your name, company
+    name and email address, telephone numbers, and any other relevant information
+    that is required and collected via requests, registrations or through surveys.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: client customer
+- type: ACTOR
+  id: communication from we
+- type: ACTOR
+  id: contact form
+- type: ACTOR
+  id: department
+- type: ACTOR
+  id: different method as
+- type: ACTOR
+  id: online ad
+- type: ACTOR
+  id: pepper cloud
+- type: ACTOR
+  id: pepper cloud pte ltd.
+- type: ACTOR
+  id: survey
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web form
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: company name
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information on
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: relevant information require

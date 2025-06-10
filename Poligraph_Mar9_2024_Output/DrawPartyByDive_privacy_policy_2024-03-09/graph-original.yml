@@ -1,0 +1,243 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect information and material (user generated content) provided to us voluntarily
+    by our users or the viewers to publish and process on our platform.
+  - We process your data in accordance with the applicable laws and regulations following
+    industry best practices.
+  purposes: {}
+- source: we
+  target: account
+  key: COLLECT
+  text:
+  - When you connect your existing calendar such as Google Calendar, Outlook Calendar
+    or connect your Slack we access your account on your behalf to get information
+    about your events and in the case of Slack it is the workspace informations.
+  purposes: {}
+- source: we
+  target: different category of datum
+  key: COLLECT
+  text:
+  - This means that we retain different categories of data for different periods of
+    time depending on the type of data, the category of user to whom the data relates
+    to, and the purposes for which we collected the data.
+  purposes: {}
+- source: we
+  target: different datum from
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We may collect different data from or about you depending on how you use the Sites.'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may access, preserve, and disclose information about you to third parties,
+    including the content of messages if we believe disclosure is in accordance with
+    or required by, applicable law, regulation, legal process, or audits.
+  - We may also disclose information about you if we believe that your actions are
+    inconsistent with our Terms of Service or related guidelines and policies, or
+    if necessary to protect the rights, property, or safety of, or prevent fraud or
+    abuse of, Company or others.
+  purposes: {}
+- source: we
+  target: information collect from you
+  key: COLLECT
+  text:
+  - We retain certain information collected from you while you are a member on the
+    Site, and in certain cases where you have deleted your account, for the following
+    reasons:So that you can use our Sites;To ensure that we do not communicate with
+    you if you have asked us not to;To provide you with a refund, if entitled;To better
+    understand the traffic to our Sites so that we can provide all members with the
+    best possible experience;To detect and prevent abuse of our Sites, illegal activities
+    and breaches of our Terms of Service; andTo comply with applicable legal, tax
+    or accounting requirements.
+  purposes: {}
+- source: we
+  target: information relate to viewer
+  key: COLLECT
+  text:
+  - While providing our Services on behalf of our registered users, we collect information
+    related to Viewers.
+  purposes: {}
+- source: we
+  target: material
+  key: COLLECT
+  text:
+  - We collect information and material (user generated content) provided to us voluntarily
+    by our users or the viewers to publish and process on our platform.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - When you create an account or login into your account, we collect personal information
+    such as first name, last name, email address and password.
+  purposes: {}
+- source: we
+  target: personal personal information about you
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We may collect personal and sensitive personal information about you and store
+    this information in connection with the provision and fulfilment of our services
+    to you.'
+  purposes: {}
+- source: we
+  target: user datum
+  key: COLLECT
+  text:
+  - We retain user data for as long as necessary for the purposes described above.
+  purposes: {}
+- source: Google
+  target: datum concern site visitor
+  key: COLLECT
+  text:
+  - Google Analytics provides data concerning site visitors and activity at the website
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information about you
+  key: COLLECT
+  text:
+  - We may access, preserve, and disclose information about you to third parties,
+    including the content of messages if we believe disclosure is in accordance with
+    or required by, applicable law, regulation, legal process, or audits.
+  purposes: {}
+- source: dive
+  target: order detail
+  key: COLLECT
+  text:
+  - On the basis of types of services requested, Dive also collects information such
+    as type of service that has been requested order details for such a request payment
+    & transaction information (such as merchant's name, payment method, chargeable
+    amount for the service date and time the service was provided
+  purposes:
+    advertising:
+    - For the purpose of promotion codes
+- source: dive
+  target: personal information
+  key: COLLECT
+  text:
+  - Dive collects and stores this personal information on behalf of its Users.
+  - Dive is not responsible for the privacy practices of its Users, and only processes
+    this information in accordance with the applicable agreement it has with each
+    User.
+  purposes: {}
+- source: dive
+  target: type of service request
+  key: COLLECT
+  text:
+  - On the basis of types of services requested, Dive also collects information such
+    as type of service that has been requested order details for such a request payment
+    & transaction information (such as merchant's name, payment method, chargeable
+    amount for the service date and time the service was provided
+  purposes:
+    advertising:
+    - For the purpose of promotion codes
+- source: service provider
+  target: information about you
+  key: COLLECT
+  text:
+  - We may use service providers & third parties for operating and improving the Sites,
+    to assist with certain functions, such as payment processing, email transmission,
+    conducting surveys or contests, data hosting, managing our ads, third-party solutions
+    for marketing and analytics, and some aspects of our technical and customer support.
+  - We take measures to ensure that these service providers access, process, and store
+    information about you only for the purposes we authorize, through the execution
+    of Data Processing Agreements or Addenda.
+  purposes: {}
+- source: content
+  target: file
+  key: SUBSUM
+  text:
+  - Dive is a web-based SaaS model which helps users who have created Dive accounts
+    ("Users") to share their content such as information, files and folders ("Content")
+    and analyse their pre-existing customers, prospective customers and third parties
+    ("Viewers") on the basis of the content viewed by them.
+- source: personal information
+  target: content
+  key: SUBSUM
+  text:
+  - Dive collects and stores this personal information on behalf of its Users.
+  - When you request to view a pre-existing User's content the user may ask for personal
+    information such as email address in order to open a Dive link.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Dive collects and stores this personal information on behalf of its Users.
+  - When you create an account or login into your account, we collect personal information
+    such as first name, last name, email address and password.
+  - When you request to view a pre-existing User's content the user may ask for personal
+    information such as email address in order to open a Dive link.
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - When you create an account or login into your account, we collect personal information
+    such as first name, last name, email address and password.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - When you create an account or login into your account, we collect personal information
+    such as first name, last name, email address and password.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: dive
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account
+- type: DATA
+  id: content
+- type: DATA
+  id: datum concern site visitor
+- type: DATA
+  id: different category of datum
+- type: DATA
+  id: different datum from
+- type: DATA
+  id: email address
+- type: DATA
+  id: file
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information collect from you
+- type: DATA
+  id: information relate to viewer
+- type: DATA
+  id: material
+- type: DATA
+  id: order detail
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal personal information about you
+- type: DATA
+  id: type of service request
+- type: DATA
+  id: user datum

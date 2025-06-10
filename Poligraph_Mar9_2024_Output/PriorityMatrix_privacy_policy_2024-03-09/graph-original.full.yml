@@ -1,0 +1,377 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: account property
+  key: COLLECT
+  text:
+  - 'Below are the specific ways in which we use this information: To communicate
+    with our users about our services: With your given consent to the processing of
+    data in our system, when we have something useful to tell our users, we use their
+    email address, account properties, and communication preferences to determine
+    who can receive our messages.'
+  purposes:
+    analytics:
+    - to determine who can receive our messages
+    services:
+    - To communicate with our users about our services
+    - to determine who can receive our messages
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We collect aggregate data such as favorite color choices, geographic locations,
+    or usage data, both for features like Cloud Sync and for the AI-enhanced services
+    we offer.
+  purposes:
+    services:
+    - both for features like Cloud Sync and for the AI-enhanced services we offer
+- source: we
+  target: communication preference
+  key: COLLECT
+  text:
+  - 'Below are the specific ways in which we use this information: To communicate
+    with our users about our services: With your given consent to the processing of
+    data in our system, when we have something useful to tell our users, we use their
+    email address, account properties, and communication preferences to determine
+    who can receive our messages.'
+  - 'To market and promote our products: With your given consent to the processing
+    of data in our system, we use your email address, metadata and communications
+    preferences to send you messages regarding existing or future products that we
+    determine might be of your interest.'
+  purposes:
+    advertising:
+    - To market and promote our products
+    - to send you messages regarding existing or future products that we determine
+      might be of your interest
+    analytics:
+    - to determine who can receive our messages
+    services:
+    - To communicate with our users about our services
+    - to determine who can receive our messages
+    - to send you messages regarding existing or future products that we determine
+      might be of your interest
+- source: we
+  target: datum you provide
+  key: COLLECT
+  text:
+  - 'For AI-Enhanced Services: We use data you provide to run AI processes that can
+    generate projects, expand tasks, and offer suggestions tailored to specific job
+    titles and industries.'
+  purposes:
+    services:
+    - to run AI processes that can generate projects, expand tasks, and offer suggestions
+      tailored to specific job titles and industries
+- source: we
+  target: datum you upload to system
+  key: COLLECT
+  text:
+  - We use data you explicitly or implicitly upload to our system in order to provide
+    our task, project and priority management solution to you and your organization.
+  purposes:
+    services:
+    - in order to provide our task, project and priority management solution to you
+      and your organization
+- source: we
+  target: domain associate with it
+  key: COLLECT
+  text:
+  - We may use your email address and the domain associated with it to infer your
+    affiliation with a particular organization or industry, in order to personalize
+    your experience with logos, avatars and preconfigured experiences based on imported
+    metadata from third party platforms.
+  purposes:
+    advertising:
+    - to infer your affiliation with a particular organization or industry, in order
+      to personalize your experience with logos, avatars and preconfigured experiences
+      based on imported metadata from third party platforms
+    analytics:
+    - to infer your affiliation with a particular organization or industry, in order
+      to personalize your experience with logos, avatars and preconfigured experiences
+      based on imported metadata from third party platforms
+    services:
+    - in order to personalize your experience with logos, avatars and preconfigured
+      experiences based on imported metadata from third party platforms
+    - to infer your affiliation with a particular organization or industry, in order
+      to personalize your experience with logos, avatars and preconfigured experiences
+      based on imported metadata from third party platforms
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'Below are the specific ways in which we use this information: To communicate
+    with our users about our services: With your given consent to the processing of
+    data in our system, when we have something useful to tell our users, we use their
+    email address, account properties, and communication preferences to determine
+    who can receive our messages.'
+  - 'To market and promote our products: With your given consent to the processing
+    of data in our system, we use your email address, metadata and communications
+    preferences to send you messages regarding existing or future products that we
+    determine might be of your interest.'
+  - 'To offer our services: In order to carry on the performance of our contract with
+    our users, we use your email as the unique ID that tells you apart from any other
+    users in our system, determining the data elements every user is able to access.'
+  - We may use your email address and the domain associated with it to infer your
+    affiliation with a particular organization or industry, in order to personalize
+    your experience with logos, avatars and preconfigured experiences based on imported
+    metadata from third party platforms.
+  purposes:
+    advertising:
+    - To market and promote our products
+    - to infer your affiliation with a particular organization or industry, in order
+      to personalize your experience with logos, avatars and preconfigured experiences
+      based on imported metadata from third party platforms
+    - to send you messages regarding existing or future products that we determine
+      might be of your interest
+    analytics:
+    - to determine who can receive our messages
+    - to infer your affiliation with a particular organization or industry, in order
+      to personalize your experience with logos, avatars and preconfigured experiences
+      based on imported metadata from third party platforms
+    legal:
+    - In order to carry on the performance of our contract with our users
+    services:
+    - In order to carry on the performance of our contract with our users
+    - To communicate with our users about our services
+    - To offer our services
+    - in order to personalize your experience with logos, avatars and preconfigured
+      experiences based on imported metadata from third party platforms
+    - to determine who can receive our messages
+    - to infer your affiliation with a particular organization or industry, in order
+      to personalize your experience with logos, avatars and preconfigured experiences
+      based on imported metadata from third party platforms
+    - to send you messages regarding existing or future products that we determine
+      might be of your interest
+- source: we
+  target: enthusiasm
+  key: COLLECT
+  text:
+  - By emailing us, you allow us to share any positive reviews, comments, and enthusiasm
+    to others.
+  purposes: {}
+- source: we
+  target: explicit relationship with user in system
+  key: COLLECT
+  text:
+  - We also use your explicit and implicit relationships with other users in our system
+    to send real time notifications, allow task delegations, etc.
+  purposes:
+    services:
+    - to send real time notifications, allow task delegations, etc.
+- source: we
+  target: metadata
+  key: COLLECT
+  text:
+  - 'To market and promote our products: With your given consent to the processing
+    of data in our system, we use your email address, metadata and communications
+    preferences to send you messages regarding existing or future products that we
+    determine might be of your interest.'
+  purposes:
+    advertising:
+    - To market and promote our products
+    - to send you messages regarding existing or future products that we determine
+      might be of your interest
+    services:
+    - to send you messages regarding existing or future products that we determine
+      might be of your interest
+- source: we
+  target: metadata we collect during normal use of application
+  key: COLLECT
+  text:
+  - 'Below are the specific ways in which we use this information: For research and
+    development: We use metadata that we collect during normal use of our applications
+    for the successful performance of our contract with users, in order to learn how
+    to improve the experience of our users, determine usage patterns to allocate resources,
+    and to identify trends that inform our future product development.'
+  purposes:
+    analytics:
+    - For research and development
+    - in order to learn how to improve the experience of our users, determine usage
+      patterns to allocate resources, and to identify trends that inform our future
+      product development
+    services:
+    - for the successful performance of our contract with users
+    - in order to learn how to improve the experience of our users, determine usage
+      patterns to allocate resources, and to identify trends that inform our future
+      product development
+- source: we
+  target: user datum
+  key: COLLECT
+  text:
+  - We store user data in data centers provided and managed by Amazon Web Services
+    and Microsoft Azure.
+  purposes: {}
+- source: appfluence
+  target: device identifier
+  key: COLLECT
+  text:
+  - 'Appfluence collects the following types of information, some of which is considered
+    personal: Device ID, IP and email address , for the purpose of differentiating
+    user accounts.'
+  purposes:
+    services:
+    - for the purpose of differentiating user accounts
+- source: appfluence
+  target: email address
+  key: COLLECT
+  text:
+  - 'Appfluence collects the following types of information, some of which is considered
+    personal: Device ID, IP and email address , for the purpose of differentiating
+    user accounts.'
+  - 'Appfluence collects the following types of information, some of which is considered
+    personal: Email address , in order to message our users about task assignments,
+    deadlines and other important notifications from the system, system invoices,
+    and if the user has enabled the option, training sessions and other information
+    about our products.'
+  purposes:
+    services:
+    - for the purpose of differentiating user accounts
+- source: appfluence
+  target: information about product
+  key: COLLECT
+  text:
+  - 'Appfluence collects the following types of information, some of which is considered
+    personal: Email address , in order to message our users about task assignments,
+    deadlines and other important notifications from the system, system invoices,
+    and if the user has enabled the option, training sessions and other information
+    about our products.'
+  purposes: {}
+- source: appfluence
+  target: ip address
+  key: COLLECT
+  text:
+  - 'Appfluence collects the following types of information, some of which is considered
+    personal: Device ID, IP and email address , for the purpose of differentiating
+    user accounts.'
+  purposes:
+    services:
+    - for the purpose of differentiating user accounts
+- source: appfluence
+  target: project information synchronize to server store
+  key: COLLECT
+  text:
+  - 'Appfluence collects the following types of information, some of which is considered
+    personal: Project information that is synchronized to our servers, where it is
+    stored to provide backup and sync services for a given user account.'
+  purposes:
+    services:
+    - for the purpose of differentiating user accounts
+- source: appfluence
+  target: user datum
+  key: COLLECT
+  text:
+  - Appfluence retains user data for the duration of an account's active lifetime.
+  purposes: {}
+- source: aggregate / deidentified / pseudonymized information
+  target: favorite color choice
+  key: SUBSUM
+  text:
+  - We collect aggregate data such as favorite color choices, geographic locations,
+    or usage data, both for features like Cloud Sync and for the AI-enhanced services
+    we offer.
+- source: aggregate / deidentified / pseudonymized information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We collect aggregate data such as favorite color choices, geographic locations,
+    or usage data, both for features like Cloud Sync and for the AI-enhanced services
+    we offer.
+- source: aggregate / deidentified / pseudonymized information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - We collect aggregate data such as favorite color choices, geographic locations,
+    or usage data, both for features like Cloud Sync and for the AI-enhanced services
+    we offer.
+- source: feature
+  target: cloud sync
+  key: SUBSUM
+  text:
+  - We collect aggregate data such as favorite color choices, geographic locations,
+    or usage data, both for features like Cloud Sync and for the AI-enhanced services
+    we offer.
+- source: multiple factor
+  target: type of involvement with system
+  key: SUBSUM
+  text:
+  - How we use the information we collect depends on multiple factors, such as the
+    type of involvement with our system, the hardware and software platforms you utilize,
+    your subscription level and your communication preferences.
+- source: tool
+  target: ai processing
+  key: SUBSUM
+  text:
+  - As technology advances and our services evolve, we incorporate tools, like AI
+    processing, to enhance user experience while preserving your privacy.
+- source: type of involvement with system
+  target: communication preference
+  key: SUBSUM
+  text:
+  - How we use the information we collect depends on multiple factors, such as the
+    type of involvement with our system, the hardware and software platforms you utilize,
+    your subscription level and your communication preferences.
+- source: type of involvement with system
+  target: subscription level
+  key: SUBSUM
+  text:
+  - How we use the information we collect depends on multiple factors, such as the
+    type of involvement with our system, the hardware and software platforms you utilize,
+    your subscription level and your communication preferences.
+nodes:
+- type: ACTOR
+  id: ai processing
+- type: ACTOR
+  id: appfluence
+- type: ACTOR
+  id: cloud sync
+- type: ACTOR
+  id: feature
+- type: ACTOR
+  id: tool
+- type: ACTOR
+  id: we
+- type: DATA
+  id: account property
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: communication preference
+- type: DATA
+  id: datum you provide
+- type: DATA
+  id: datum you upload to system
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: domain associate with it
+- type: DATA
+  id: email address
+- type: DATA
+  id: enthusiasm
+- type: DATA
+  id: explicit relationship with user in system
+- type: DATA
+  id: favorite color choice
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about product
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: metadata
+- type: DATA
+  id: metadata we collect during normal use of application
+- type: DATA
+  id: multiple factor
+- type: DATA
+  id: project information synchronize to server store
+- type: DATA
+  id: subscription level
+- type: DATA
+  id: type of involvement with system
+- type: DATA
+  id: user datum

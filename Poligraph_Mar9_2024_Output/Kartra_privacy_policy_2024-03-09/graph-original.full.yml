@@ -1,0 +1,840 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: accurate information
+  key: COLLECT
+  text:
+  - If Client is using a pseudonym, nickname, assumed name or the like (where permitted),
+    Client agrees that you will nonetheless provide accurate information to our processing
+    company where required (e.g., your real name in connection with a credit card
+    account) so that Client can be billed for one-time or recurring fees.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: client data
+  key: COLLECT
+  text:
+  - Client Data may be disclosed to third parties in accordance with the Privacy Policy,
+    including but not limited to instances where disclosure is legally required.
+  - GENESIS DIGITAL may share Client Data, including but not limited to Aggregated
+    Data, with any third party in accordance with the Privacy Policy.
+  purposes: {}
+- source: client
+  target: geolocation
+  key: COLLECT
+  text:
+  - During the term of Client's GENESIS DIGITAL Agreement (and for one year after
+    the expiration of the Term), Client shall maintain complete, accurate and detailed
+    records regarding usage, the number, location, and identity of all users, servers,
+    and installations of GENESIS DIGITAL Products.
+  purposes: {}
+- source: client
+  target: login credential
+  key: COLLECT
+  text:
+  - In most cases, Client must provide login credentials to gain access.
+  purposes:
+    security:
+    - to gain access
+    services:
+    - to gain access
+- source: client
+  target: true information
+  key: COLLECT
+  text:
+  - When enrolling in, subscribing to, or purchasing any GENESIS DIGITAL Products,
+    Client must provide only true and accurate information, which client agrees to
+    keep current, complete, and functional.
+  purposes: {}
+- source: client
+  target: user content
+  key: COLLECT
+  text:
+  - Client retains all right, title, and interest in and to Client's Data, including
+    User Content.
+  purposes: {}
+- source: genesis digital
+  target: client data
+  key: COLLECT
+  text:
+  - Client hereby represents and warrants that Client has provided all necessary and
+    appropriate notices and opt-outs, and has obtained all necessary and appropriate
+    consents, approvals and rights to collect, process, use, store, enhance and disclose
+    the Client Data and allows GENESIS DIGITAL to use, store, disclose and otherwise
+    process such Client Data as contemplated by these Terms, including to and from
+    End Users wherever required under applicable law.
+  - GENESIS DIGITAL may share Client Data, including but not limited to Aggregated
+    Data, with any third party in accordance with the Privacy Policy.
+  purposes: {}
+- source: genesis digital
+  target: dynamic marketplace pricing
+  key: COLLECT
+  text:
+  - Client understands and agrees that GENESIS DIGITAL uses dynamic marketplace pricing.
+  purposes: {}
+- source: genesis digital
+  target: input
+  key: COLLECT
+  text:
+  - Client may also provide feedback or input to GENESIS DIGITAL directly in certain
+    areas of the Sites, such as where comments are permitted.
+  purposes: {}
+- source: genesis digital
+  target: logo
+  key: COLLECT
+  text:
+  - GENESIS DIGITAL may disclose Client as a customer of GENESIS DIGITAL and may use
+    Client's company's name and logo on the GENESIS DIGITAL's websites and in GENESIS
+    DIGITAL's promotional content in accordance with Client's brand guidelines or
+    related documentation if provided by Client.
+  purposes: {}
+- source: genesis digital
+  target: ownership
+  key: COLLECT
+  text:
+  - Specifically, regarding all GENESIS DIGITAL Software, GENESIS DIGITAL retains
+    all ownership including all right, title, and interest in and to the Software,
+    the underlying code, and any copies thereof.
+  purposes: {}
+- source: genesis digital
+  target: payment
+  key: COLLECT
+  text:
+  - Payment must be received by GENESIS DIGITAL before any billable product or service
+    is provided/activated.
+  purposes: {}
+- source: genesis digital
+  target: person name
+  key: COLLECT
+  text:
+  - GENESIS DIGITAL may disclose Client as a customer of GENESIS DIGITAL and may use
+    Client's company's name and logo on the GENESIS DIGITAL's websites and in GENESIS
+    DIGITAL's promotional content in accordance with Client's brand guidelines or
+    related documentation if provided by Client.
+  purposes: {}
+- source: quiz
+  target: customer feedback
+  key: COLLECT
+  text:
+  - Surveys & Quizzes Collect customer feedback
+  purposes: {}
+- source: survey
+  target: customer feedback
+  key: COLLECT
+  text:
+  - Surveys & Quizzes Collect customer feedback
+  purposes: {}
+- source: automate system
+  target: robot
+  key: SUBSUM
+  text:
+  - '14. Non-Solicitation
+
+
+    (iii) Kartra may not be used in connection with any user content that involves,
+    to any degree, any of the following: Use, initiation, or implementation of any
+    automated system, including without limitation, "robots," "spiders," or "offline
+    readers," on, through, or with the our software in a manner that utilizes more
+    resources from (a) the software, (b) any Genesis Digital server or site, or (c)
+    any third party server or site, in a given period of time than a human can reasonably
+    produce in the same period by using a conventional on-line web browser;'
+- source: automate system
+  target: spider
+  key: SUBSUM
+  text:
+  - '14. Non-Solicitation
+
+
+    (iii) Kartra may not be used in connection with any user content that involves,
+    to any degree, any of the following: Use, initiation, or implementation of any
+    automated system, including without limitation, "robots," "spiders," or "offline
+    readers," on, through, or with the our software in a manner that utilizes more
+    resources from (a) the software, (b) any Genesis Digital server or site, or (c)
+    any third party server or site, in a given period of time than a human can reasonably
+    produce in the same period by using a conventional on-line web browser;'
+- source: client data
+  target: aggregate / deidentified / pseudonymized information
+  key: SUBSUM
+  text:
+  - GENESIS DIGITAL may share Client Data, including but not limited to Aggregated
+    Data, with any third party in accordance with the Privacy Policy.
+- source: content include
+  target: advertiser
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Email advertisements for multiple companies all to the same list (sometimes known
+    as "dedicated email ads" or "solo email ads"),'
+- source: content include
+  target: automate financial trading software
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Automated financial trading software, Forex robots, stock picks or trading signals,
+    or any other hands-free trading instrument,'
+- source: content include
+  target: business opportunity
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Products or business opportunities promising unsubstantiated income claims or
+    guaranteed profits,'
+- source: content include
+  target: cannabis
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Cannabis, marijuana and any related products or services,'
+- source: content include
+  target: email violate can spam law
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Emails that violate CAN-SPAM Laws,'
+- source: content include
+  target: escort service
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Escort and dating services or products,'
+- source: content include
+  target: gambling service
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Gambling or sport betting services or products,'
+- source: content include
+  target: guarantee profit
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Products or business opportunities promising unsubstantiated income claims or
+    guaranteed profits,'
+- source: content include
+  target: hand free trading instrument
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Automated financial trading software, Forex robots, stock picks or trading signals,
+    or any other hands-free trading instrument,'
+- source: content include
+  target: marijuana
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Cannabis, marijuana and any related products or services,'
+- source: content include
+  target: pharmaceutical product
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Pharmaceutical products,'
+- source: content include
+  target: product involve unsubstantiated medical claim
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Products involving unsubstantiated medical claims,'
+- source: content include
+  target: related product
+  key: SUBSUM
+  text:
+  - 'For this reason, Kartra cannot service content including, but not limited to:
+    Cannabis, marijuana and any related products or services,'
+- source: function
+  target: distribution
+  key: SUBSUM
+  text:
+  - However, solely for the purpose of enabling the Products to perform their functions
+    , including, the distribution, reception, or sharing of such User Content with
+    recipients of Client's User Content, as well as to cover nominal and/or inadvertent
+    uses of Client's User Content by GENESIS DIGITAL (or our successors and/or affiliates)
+    in the process of promoting any Products in any media formats and through any
+    media channels, by using such content in connection with the Products or in creating
+    User Content, Client hereby grants GENESIS DIGITAL a worldwide, non-exclusive,
+    royalty-free, non-revocable, perpetual, sub-licensable, and fully transferable
+    license to use, reproduce, distribute, practice, make derivative works of, display,
+    broadcast, and/or perform Client's User Content.
+- source: genesis digital indemnified parties
+  target: affiliates
+  key: SUBSUM
+  text:
+  - '19. Indemnification
+
+
+    Client shall fully indemnify, hold harmless and defend GENESIS DIGITAL and its
+    directors, officers, employees, agents, stock holders, subsidiaries, and Affiliates
+    (collectively "GENESIS DIGITAL Indemnified Parties") from and against all claims
+    demands, actions, suits, damages, liabilities, losses, settlements, judgments,
+    costs and expenses (including but not limited to reasonable attorney''s fees and
+    costs), whether or not involving a third party claim, which arise out of or relate
+    to (1) Client''s use of GENESIS DIGITAL''S Products, (2) any breach of any representation
+    or warranty of Client contained in these Terms, (3) any breach or violation of
+    any covenant or other obligation or duty of Client under these Terms or under
+    applicable law, (4) any claim that User Content Client offered, created, copied
+    distributed or promoted directly or indirectly using GENESIS DIGITAL Products
+    caused damage to a third-party; (5) Client''s violation of any third-party right,
+    including without limitation any copyright or other property right, or privacy
+    right, including under the GDPR; (6) Any claim that GENESIS DIGITAL violated provisions
+    of the GDPR based on processing data (a) in accordance with instructions that
+    Client provided to GENESIS DIGITAL; or (b) expressly or impliedly on Client''s
+    behalf to provide agreed upon services to Client.'
+- source: genesis digital indemnified parties
+  target: director
+  key: SUBSUM
+  text:
+  - '19. Indemnification
+
+
+    Client shall fully indemnify, hold harmless and defend GENESIS DIGITAL and its
+    directors, officers, employees, agents, stock holders, subsidiaries, and Affiliates
+    (collectively "GENESIS DIGITAL Indemnified Parties") from and against all claims
+    demands, actions, suits, damages, liabilities, losses, settlements, judgments,
+    costs and expenses (including but not limited to reasonable attorney''s fees and
+    costs), whether or not involving a third party claim, which arise out of or relate
+    to (1) Client''s use of GENESIS DIGITAL''S Products, (2) any breach of any representation
+    or warranty of Client contained in these Terms, (3) any breach or violation of
+    any covenant or other obligation or duty of Client under these Terms or under
+    applicable law, (4) any claim that User Content Client offered, created, copied
+    distributed or promoted directly or indirectly using GENESIS DIGITAL Products
+    caused damage to a third-party; (5) Client''s violation of any third-party right,
+    including without limitation any copyright or other property right, or privacy
+    right, including under the GDPR; (6) Any claim that GENESIS DIGITAL violated provisions
+    of the GDPR based on processing data (a) in accordance with instructions that
+    Client provided to GENESIS DIGITAL; or (b) expressly or impliedly on Client''s
+    behalf to provide agreed upon services to Client.'
+- source: genesis digital indemnified parties
+  target: employee
+  key: SUBSUM
+  text:
+  - '19. Indemnification
+
+
+    Client shall fully indemnify, hold harmless and defend GENESIS DIGITAL and its
+    directors, officers, employees, agents, stock holders, subsidiaries, and Affiliates
+    (collectively "GENESIS DIGITAL Indemnified Parties") from and against all claims
+    demands, actions, suits, damages, liabilities, losses, settlements, judgments,
+    costs and expenses (including but not limited to reasonable attorney''s fees and
+    costs), whether or not involving a third party claim, which arise out of or relate
+    to (1) Client''s use of GENESIS DIGITAL''S Products, (2) any breach of any representation
+    or warranty of Client contained in these Terms, (3) any breach or violation of
+    any covenant or other obligation or duty of Client under these Terms or under
+    applicable law, (4) any claim that User Content Client offered, created, copied
+    distributed or promoted directly or indirectly using GENESIS DIGITAL Products
+    caused damage to a third-party; (5) Client''s violation of any third-party right,
+    including without limitation any copyright or other property right, or privacy
+    right, including under the GDPR; (6) Any claim that GENESIS DIGITAL violated provisions
+    of the GDPR based on processing data (a) in accordance with instructions that
+    Client provided to GENESIS DIGITAL; or (b) expressly or impliedly on Client''s
+    behalf to provide agreed upon services to Client.'
+- source: genesis digital indemnified parties
+  target: genesis digital
+  key: SUBSUM
+  text:
+  - '19. Indemnification
+
+
+    Client shall fully indemnify, hold harmless and defend GENESIS DIGITAL and its
+    directors, officers, employees, agents, stock holders, subsidiaries, and Affiliates
+    (collectively "GENESIS DIGITAL Indemnified Parties") from and against all claims
+    demands, actions, suits, damages, liabilities, losses, settlements, judgments,
+    costs and expenses (including but not limited to reasonable attorney''s fees and
+    costs), whether or not involving a third party claim, which arise out of or relate
+    to (1) Client''s use of GENESIS DIGITAL''S Products, (2) any breach of any representation
+    or warranty of Client contained in these Terms, (3) any breach or violation of
+    any covenant or other obligation or duty of Client under these Terms or under
+    applicable law, (4) any claim that User Content Client offered, created, copied
+    distributed or promoted directly or indirectly using GENESIS DIGITAL Products
+    caused damage to a third-party; (5) Client''s violation of any third-party right,
+    including without limitation any copyright or other property right, or privacy
+    right, including under the GDPR; (6) Any claim that GENESIS DIGITAL violated provisions
+    of the GDPR based on processing data (a) in accordance with instructions that
+    Client provided to GENESIS DIGITAL; or (b) expressly or impliedly on Client''s
+    behalf to provide agreed upon services to Client.'
+- source: genesis digital indemnified parties
+  target: officer
+  key: SUBSUM
+  text:
+  - '19. Indemnification
+
+
+    Client shall fully indemnify, hold harmless and defend GENESIS DIGITAL and its
+    directors, officers, employees, agents, stock holders, subsidiaries, and Affiliates
+    (collectively "GENESIS DIGITAL Indemnified Parties") from and against all claims
+    demands, actions, suits, damages, liabilities, losses, settlements, judgments,
+    costs and expenses (including but not limited to reasonable attorney''s fees and
+    costs), whether or not involving a third party claim, which arise out of or relate
+    to (1) Client''s use of GENESIS DIGITAL''S Products, (2) any breach of any representation
+    or warranty of Client contained in these Terms, (3) any breach or violation of
+    any covenant or other obligation or duty of Client under these Terms or under
+    applicable law, (4) any claim that User Content Client offered, created, copied
+    distributed or promoted directly or indirectly using GENESIS DIGITAL Products
+    caused damage to a third-party; (5) Client''s violation of any third-party right,
+    including without limitation any copyright or other property right, or privacy
+    right, including under the GDPR; (6) Any claim that GENESIS DIGITAL violated provisions
+    of the GDPR based on processing data (a) in accordance with instructions that
+    Client provided to GENESIS DIGITAL; or (b) expressly or impliedly on Client''s
+    behalf to provide agreed upon services to Client.'
+- source: genesis digital indemnified parties
+  target: stock holder
+  key: SUBSUM
+  text:
+  - '19. Indemnification
+
+
+    Client shall fully indemnify, hold harmless and defend GENESIS DIGITAL and its
+    directors, officers, employees, agents, stock holders, subsidiaries, and Affiliates
+    (collectively "GENESIS DIGITAL Indemnified Parties") from and against all claims
+    demands, actions, suits, damages, liabilities, losses, settlements, judgments,
+    costs and expenses (including but not limited to reasonable attorney''s fees and
+    costs), whether or not involving a third party claim, which arise out of or relate
+    to (1) Client''s use of GENESIS DIGITAL''S Products, (2) any breach of any representation
+    or warranty of Client contained in these Terms, (3) any breach or violation of
+    any covenant or other obligation or duty of Client under these Terms or under
+    applicable law, (4) any claim that User Content Client offered, created, copied
+    distributed or promoted directly or indirectly using GENESIS DIGITAL Products
+    caused damage to a third-party; (5) Client''s violation of any third-party right,
+    including without limitation any copyright or other property right, or privacy
+    right, including under the GDPR; (6) Any claim that GENESIS DIGITAL violated provisions
+    of the GDPR based on processing data (a) in accordance with instructions that
+    Client provided to GENESIS DIGITAL; or (b) expressly or impliedly on Client''s
+    behalf to provide agreed upon services to Client.'
+- source: genesis digital software
+  target: base application
+  key: SUBSUM
+  text:
+  - '"Software" means any GENESIS DIGITAL software including any web- or cloud-based
+    application, mobile app, server-based application, client, desktop or standalone
+    software application, plugin, or add-on, including but not limited to Kartra,
+    EverWebinar, and WebinarJam.'
+- source: genesis digital software
+  target: client
+  key: SUBSUM
+  text:
+  - '"Software" means any GENESIS DIGITAL software including any web- or cloud-based
+    application, mobile app, server-based application, client, desktop or standalone
+    software application, plugin, or add-on, including but not limited to Kartra,
+    EverWebinar, and WebinarJam.'
+- source: genesis digital software
+  target: desktop software application
+  key: SUBSUM
+  text:
+  - '"Software" means any GENESIS DIGITAL software including any web- or cloud-based
+    application, mobile app, server-based application, client, desktop or standalone
+    software application, plugin, or add-on, including but not limited to Kartra,
+    EverWebinar, and WebinarJam.'
+- source: genesis digital software
+  target: everwebinar
+  key: SUBSUM
+  text:
+  - '"Software" means any GENESIS DIGITAL software including any web- or cloud-based
+    application, mobile app, server-based application, client, desktop or standalone
+    software application, plugin, or add-on, including but not limited to Kartra,
+    EverWebinar, and WebinarJam.'
+- source: genesis digital software
+  target: kartra
+  key: SUBSUM
+  text:
+  - '"Software" means any GENESIS DIGITAL software including any web- or cloud-based
+    application, mobile app, server-based application, client, desktop or standalone
+    software application, plugin, or add-on, including but not limited to Kartra,
+    EverWebinar, and WebinarJam.'
+- source: genesis digital software
+  target: mobile app
+  key: SUBSUM
+  text:
+  - '"Software" means any GENESIS DIGITAL software including any web- or cloud-based
+    application, mobile app, server-based application, client, desktop or standalone
+    software application, plugin, or add-on, including but not limited to Kartra,
+    EverWebinar, and WebinarJam.'
+- source: genesis digital software
+  target: plugin
+  key: SUBSUM
+  text:
+  - '"Software" means any GENESIS DIGITAL software including any web- or cloud-based
+    application, mobile app, server-based application, client, desktop or standalone
+    software application, plugin, or add-on, including but not limited to Kartra,
+    EverWebinar, and WebinarJam.'
+- source: genesis digital software
+  target: web-
+  key: SUBSUM
+  text:
+  - '"Software" means any GENESIS DIGITAL software including any web- or cloud-based
+    application, mobile app, server-based application, client, desktop or standalone
+    software application, plugin, or add-on, including but not limited to Kartra,
+    EverWebinar, and WebinarJam.'
+- source: genesis digital software
+  target: webinarjam
+  key: SUBSUM
+  text:
+  - '"Software" means any GENESIS DIGITAL software including any web- or cloud-based
+    application, mobile app, server-based application, client, desktop or standalone
+    software application, plugin, or add-on, including but not limited to Kartra,
+    EverWebinar, and WebinarJam.'
+- source: ownership
+  target: underlie code
+  key: SUBSUM
+  text:
+  - Specifically, regarding all GENESIS DIGITAL Software, GENESIS DIGITAL retains
+    all ownership including all right, title, and interest in and to the Software,
+    the underlying code, and any copies thereof.
+- source: post
+  target: personal information
+  key: SUBSUM
+  text:
+  - As this license relates to use of any GENESIS DIGITAL Sites, Client understands
+    that the Sites or portions of the Sites are publicly available and that if you
+    post on a public site or via social media, your post (including any personal information
+    therein) may be publicly accessible via search engines and other means on the
+    public internet.
+- source: regard genesis digital sites content
+  target: arrangement
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: artwork
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: branding
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: coordination
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: graphic
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: individual design element
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: music
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: photograph
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: sound
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: sound track
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: structure
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: user interface
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: video
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: video script
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: regard genesis digital sites content
+  target: visual component
+  key: SUBSUM
+  text:
+  - Regarding GENESIS DIGITAL Sites, all Content (including e.g. text, graphics, video,
+    video scripts, music, artwork, sounds and sound tracks, visual components, photographs,
+    and computer code, as well as branding, logos, and such), including but not limited
+    to the individual design elements, selection, layout, coordination, structure,
+    expression, and sequencing, user interfaces, "look and feel," and arrangement
+    on the Sites, or in the Software, products, or services offered through the Sites
+    is owned or controlled by, or under license to GENESIS DIGITAL and is protected
+    by US and international copyright, trademark, trade dress, and various other applicable
+    intellectual property rights, including unfair competition laws.
+- source: type of transaction
+  target: geolocation
+  key: SUBSUM
+  text:
+  - For example, a third-party may refuse to process certain types of transactions,
+    or transactions from certain locations, or transactions for certain goods or services.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: affiliates
+- type: ACTOR
+  id: arrangement
+- type: ACTOR
+  id: artwork
+- type: ACTOR
+  id: automate financial trading software
+- type: ACTOR
+  id: automate system
+- type: ACTOR
+  id: base application
+- type: ACTOR
+  id: branding
+- type: ACTOR
+  id: business opportunity
+- type: ACTOR
+  id: cannabis
+- type: ACTOR
+  id: client
+- type: ACTOR
+  id: content include
+- type: ACTOR
+  id: coordination
+- type: ACTOR
+  id: desktop software application
+- type: ACTOR
+  id: director
+- type: ACTOR
+  id: distribution
+- type: ACTOR
+  id: email violate can spam law
+- type: ACTOR
+  id: employee
+- type: ACTOR
+  id: escort service
+- type: ACTOR
+  id: everwebinar
+- type: ACTOR
+  id: function
+- type: ACTOR
+  id: gambling service
+- type: ACTOR
+  id: genesis digital
+- type: ACTOR
+  id: genesis digital indemnified parties
+- type: ACTOR
+  id: genesis digital software
+- type: ACTOR
+  id: graphic
+- type: ACTOR
+  id: guarantee profit
+- type: ACTOR
+  id: hand free trading instrument
+- type: ACTOR
+  id: individual design element
+- type: ACTOR
+  id: kartra
+- type: ACTOR
+  id: marijuana
+- type: ACTOR
+  id: mobile app
+- type: ACTOR
+  id: music
+- type: ACTOR
+  id: officer
+- type: ACTOR
+  id: pharmaceutical product
+- type: ACTOR
+  id: photograph
+- type: ACTOR
+  id: plugin
+- type: ACTOR
+  id: product involve unsubstantiated medical claim
+- type: ACTOR
+  id: quiz
+- type: ACTOR
+  id: regard genesis digital sites content
+- type: ACTOR
+  id: related product
+- type: ACTOR
+  id: robot
+- type: ACTOR
+  id: sound
+- type: ACTOR
+  id: sound track
+- type: ACTOR
+  id: spider
+- type: ACTOR
+  id: stock holder
+- type: ACTOR
+  id: structure
+- type: ACTOR
+  id: survey
+- type: ACTOR
+  id: user interface
+- type: ACTOR
+  id: video
+- type: ACTOR
+  id: video script
+- type: ACTOR
+  id: visual component
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web-
+- type: ACTOR
+  id: webinarjam
+- type: DATA
+  id: accurate information
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: client data
+- type: DATA
+  id: customer feedback
+- type: DATA
+  id: dynamic marketplace pricing
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: input
+- type: DATA
+  id: login credential
+- type: DATA
+  id: logo
+- type: DATA
+  id: ownership
+- type: DATA
+  id: payment
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: post
+- type: DATA
+  id: true information
+- type: DATA
+  id: type of transaction
+- type: DATA
+  id: underlie code
+- type: DATA
+  id: user content

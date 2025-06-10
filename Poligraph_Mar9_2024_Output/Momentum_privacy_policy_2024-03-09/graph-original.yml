@@ -1,0 +1,417 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may collect this information using cookies and other similar technologies.
+  purposes: {}
+- source: we
+  target: aggregated statistic
+  key: COLLECT
+  text:
+  - We may also create aggregated, anonymized, or other de-identified statistics,
+    which we may use for lawful business purposes, including for analytics, forecasting,
+    and strategic planning.
+  - We may use this anonymous data and share it with third parties for our lawful
+    business purposes, including to analyze and improve our services and promote our
+    business.
+  purposes: {}
+- source: we
+  target: information about user
+  key: COLLECT
+  text:
+  - We may also share information about our users with these companies to facilitate
+    advertising for our services to them or similar users on other online platforms.
+  purposes:
+    advertising:
+    - to facilitate advertising for our services to them or similar users on other
+      online platforms
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We and our service providers may automatically log information about you, your
+    computer or mobile device, and your interaction over time with our services, such
+    as:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - . We may disclose personal information to third-party advertising companies, including
+    for the interest-based advertising purposes described above.
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers and insurers, where necessary in the course of the professional services
+    that they render to us.
+  - We may disclose personal information to acquirers and other relevant participants
+    in business transactions (or negotiations for such transactions) involving a corporate
+    divestiture, merger, consolidation, acquisition, reorganization, sale or other
+    disposition of all or any portion of the business or assets of, or equity interests
+    in, Momentum or our affiliates (including, in connection with a bankruptcy or
+    similar proceedings).
+  - We may disclose personal information to business and channel partners, resellers,
+    and distributers for these partners to use for their own marketing and business
+    purposes.
+  - We may disclose personal information to law enforcement, government authorities,
+    and private parties, as we believe in good faith to be necessary or appropriate.
+  - We may disclose personal information to our corporate parent, subsidiaries, and
+    affiliates, for purposes consistent with this Privacy Policy.
+  - 'We may disclose personal information to:'
+  - We may obtain your personal information from other third parties, such as marketing
+    partners, data providers, and publicly available sources.
+  - We may use personal information to analyze and improve the services, identify
+    trends, and operate and expand our business activities.
+  - 'We use personal information for the following purposes:'
+  purposes:
+    advertising:
+    - for these partners to use for their own marketing and business purposes
+    analytics:
+    - to analyze and improve the services, identify trends, and operate and expand
+      our business activities
+    services:
+    - to analyze and improve the services, identify trends, and operate and expand
+      our business activities
+- source: we
+  target: personal information about end user we process on behalf of customer
+  key: COLLECT
+  text:
+  - This Privacy Policy does not apply to personal information about our customers'
+    end users or authorized users that we process on behalf of our customers.
+  - We process this information as instructed by our customers, in our capacity as
+    a service provider/data processor, in accordance with the terms of our customer
+    agreements.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+  - We may disclose personal information to our corporate parent, subsidiaries, and
+    affiliates, for purposes consistent with this Privacy Policy.
+  purposes: {}
+- source: acquirer
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to acquirers and other relevant participants
+    in business transactions (or negotiations for such transactions) involving a corporate
+    divestiture, merger, consolidation, acquisition, reorganization, sale or other
+    disposition of all or any portion of the business or assets of, or equity interests
+    in, Momentum or our affiliates (including, in connection with a bankruptcy or
+    similar proceedings).
+  purposes: {}
+- source: advertiser
+  target: information about user
+  key: COLLECT
+  text:
+  - We may also share information about our users with these companies to facilitate
+    advertising for our services to them or similar users on other online platforms.
+  - We may engage third-party advertising companies to display our ads on their online
+    services.
+  purposes:
+    advertising:
+    - to facilitate advertising for our services to them or similar users on other
+      online platforms
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - . We may disclose personal information to third-party advertising companies, including
+    for the interest-based advertising purposes described above.
+  purposes: {}
+- source: business partner
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to business and channel partners, resellers,
+    and distributers for these partners to use for their own marketing and business
+    purposes.
+  purposes:
+    advertising:
+    - for these partners to use for their own marketing and business purposes
+- source: distributer
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to business and channel partners, resellers,
+    and distributers for these partners to use for their own marketing and business
+    purposes.
+  purposes:
+    advertising:
+    - for these partners to use for their own marketing and business purposes
+- source: government authority
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to law enforcement, government authorities,
+    and private parties, as we believe in good faith to be necessary or appropriate.
+  purposes: {}
+- source: individual
+  target: personal information
+  key: COLLECT
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+  purposes: {}
+- source: law enforcement
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to law enforcement, government authorities,
+    and private parties, as we believe in good faith to be necessary or appropriate.
+  purposes: {}
+- source: private party
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to law enforcement, government authorities,
+    and private parties, as we believe in good faith to be necessary or appropriate.
+  purposes: {}
+- source: professional advisor
+  target: personal information
+  key: COLLECT
+  text:
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers and insurers, where necessary in the course of the professional services
+    that they render to us.
+  purposes: {}
+- source: relevant participant
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to acquirers and other relevant participants
+    in business transactions (or negotiations for such transactions) involving a corporate
+    divestiture, merger, consolidation, acquisition, reorganization, sale or other
+    disposition of all or any portion of the business or assets of, or equity interests
+    in, Momentum or our affiliates (including, in connection with a bankruptcy or
+    similar proceedings).
+  purposes: {}
+- source: reseller
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose personal information to business and channel partners, resellers,
+    and distributers for these partners to use for their own marketing and business
+    purposes.
+  purposes:
+    advertising:
+    - for these partners to use for their own marketing and business purposes
+- source: service provider
+  target: information about you
+  key: COLLECT
+  text:
+  - 'We and our service providers may automatically log information about you, your
+    computer or mobile device, and your interaction over time with our services, such
+    as:'
+  purposes: {}
+- source: we
+  target: Momentum
+  key: SUBSUM
+  text:
+  - Momentum Labs, Inc. ("Momentum", "we", "us", "our") helps revenue teams work deals
+    efficiently using automation, AI and a deep integration with Salesforce and Slack.
+- source: individual
+  target: billing processing service
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: communication
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: customer relation management system
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: data service
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: email service provider
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: fraud detection
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: host service
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: investigation service
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: individual
+  target: web analytic
+  key: SUBSUM
+  text:
+  - We disclose personal information to companies and individuals that provide services
+    on our behalf or help us operate our services or our business (such as hosting
+    services, communications, data and cyber security services, billing and payment
+    processing services, fraud detection, investigation and prevention services, web
+    and mobile analytics, email and communication distribution and monitoring services,
+    and customer relation management systems).
+- source: professional advisor
+  target: auditor
+  key: SUBSUM
+  text:
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers and insurers, where necessary in the course of the professional services
+    that they render to us.
+- source: professional advisor
+  target: banker
+  key: SUBSUM
+  text:
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers and insurers, where necessary in the course of the professional services
+    that they render to us.
+- source: professional advisor
+  target: insurer
+  key: SUBSUM
+  text:
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers and insurers, where necessary in the course of the professional services
+    that they render to us.
+- source: professional advisor
+  target: lawyer
+  key: SUBSUM
+  text:
+  - We disclose personal information to professional advisors, such as lawyers, auditors,
+    bankers and insurers, where necessary in the course of the professional services
+    that they render to us.
+nodes:
+- type: ACTOR
+  id: Momentum
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: acquirer
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: auditor
+- type: ACTOR
+  id: banker
+- type: ACTOR
+  id: billing processing service
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: communication
+- type: ACTOR
+  id: customer relation management system
+- type: ACTOR
+  id: data service
+- type: ACTOR
+  id: distributer
+- type: ACTOR
+  id: email service provider
+- type: ACTOR
+  id: fraud detection
+- type: ACTOR
+  id: government authority
+- type: ACTOR
+  id: host service
+- type: ACTOR
+  id: individual
+- type: ACTOR
+  id: insurer
+- type: ACTOR
+  id: investigation service
+- type: ACTOR
+  id: law enforcement
+- type: ACTOR
+  id: lawyer
+- type: ACTOR
+  id: private party
+- type: ACTOR
+  id: professional advisor
+- type: ACTOR
+  id: relevant participant
+- type: ACTOR
+  id: reseller
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web analytic
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregated statistic
+- type: DATA
+  id: information about user
+- type: DATA
+  id: information about you
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information about end user we process on behalf of customer

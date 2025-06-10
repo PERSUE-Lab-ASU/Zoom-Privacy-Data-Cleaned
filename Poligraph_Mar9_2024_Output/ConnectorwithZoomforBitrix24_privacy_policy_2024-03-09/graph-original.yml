@@ -1,0 +1,43 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Privacy Policy for Personal Information
+
+
+    2. The Company uses cookies to personalize visits (including for the purpose of
+    providing personalized services to the User) and to register User''s activities.'
+  purposes:
+    services:
+    - to personalize visits (including for the purpose of providing personalized services
+      to the User) and to register User's activities
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In order to use some of the Company's services, programs and products (hereinafter
+    referred to as Company Products), you may need to go through the registration
+    procedure or provide personal information to the Company.
+  purposes:
+    services:
+    - In order to use some of the Company's services, programs and products (hereinafter
+      referred to as Company Products)
+- source: we
+  target: company < < solo group limited
+  key: SUBSUM
+  text:
+  - Company <<Solo Group Limited>> (hereinafter - the Company) respects the right
+    of every person to privacy.
+nodes:
+- type: ACTOR
+  id: company < < solo group limited
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: personal information

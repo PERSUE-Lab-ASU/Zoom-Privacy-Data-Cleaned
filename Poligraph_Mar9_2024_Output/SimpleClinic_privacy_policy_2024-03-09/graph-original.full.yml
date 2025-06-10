@@ -1,0 +1,223 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Disclosure of Personal Information and Sensitive Information
+
+
+    The Personal Information you store within SimpleClinic may be disclosed in a number
+    of circumstances including the following: In certain circumstances we may also
+    be required by law to disclose the Personal Information you have provided to us.'
+  - Personal Information and Sensitive Information stored within SimpleClinic is collected
+    from you as a registered user of SimpleClinic on behalf of your patients, or provided
+    directly to us by the patient when they access public elements of our platform
+    such as online booking, form submission, or invoice payment.
+  purposes: {}
+- source: we
+  target: personal information about patient
+  key: COLLECT
+  text:
+  - We also obtain personal information about your patient when the patient accesses
+    public pages and provides personal information to us as part of an online booking,
+    form submission, or invoice payment.
+  purposes: {}
+- source: we
+  target: sensitive information
+  key: COLLECT
+  text:
+  - Personal Information and Sensitive Information stored within SimpleClinic is collected
+    from you as a registered user of SimpleClinic on behalf of your patients, or provided
+    directly to us by the patient when they access public elements of our platform
+    such as online booking, form submission, or invoice payment.
+  purposes: {}
+- source: we
+  target: sensitive information about patient
+  key: COLLECT
+  text:
+  - We may also obtain Sensitive Information about your patient when the patient accesses
+    public pages and provides sensitive information to us as part of an online booking,
+    form submission, or invoice payment.
+  purposes: {}
+- source: contractor
+  target: personal information
+  key: COLLECT
+  text:
+  - 'The Personal Information you store within SimpleClinic may be disclosed in a
+    number of circumstances including the following: With your consent Personal Information
+    and Sensitive Information you provide may be accessed by our support staff and
+    contractors to assist in providing technical support and user support to you.'
+  purposes:
+    services:
+    - to assist in providing technical support and user support to you
+- source: contractor
+  target: sensitive information
+  key: COLLECT
+  text:
+  - 'The Personal Information you store within SimpleClinic may be disclosed in a
+    number of circumstances including the following: With your consent Personal Information
+    and Sensitive Information you provide may be accessed by our support staff and
+    contractors to assist in providing technical support and user support to you.'
+  purposes:
+    services:
+    - to assist in providing technical support and user support to you
+- source: support staff
+  target: personal information
+  key: COLLECT
+  text:
+  - 'The Personal Information you store within SimpleClinic may be disclosed in a
+    number of circumstances including the following: With your consent Personal Information
+    and Sensitive Information you provide may be accessed by our support staff and
+    contractors to assist in providing technical support and user support to you.'
+  purposes:
+    services:
+    - to assist in providing technical support and user support to you
+- source: support staff
+  target: sensitive information
+  key: COLLECT
+  text:
+  - 'The Personal Information you store within SimpleClinic may be disclosed in a
+    number of circumstances including the following: With your consent Personal Information
+    and Sensitive Information you provide may be accessed by our support staff and
+    contractors to assist in providing technical support and user support to you.'
+  purposes:
+    services:
+    - to assist in providing technical support and user support to you
+- source: number of safeguard protect personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'We utilise a number of safeguards to protect Personal Information including:
+    Firewall and IP traffic monitoring for suspicious or malicious traffic.'
+- source: number of safeguard protect personal information
+  target: username access to simpleclinic platform
+  key: SUBSUM
+  text:
+  - 'We utilise a number of safeguards to protect Personal Information including:
+    Username and password access to the SimpleClinic platform.'
+- source: patient detail
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Examples of Personal Information you may provide us while using SimpleClinic
+    include: patient details including: name, address, email address, phone numbers.'
+- source: patient detail
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Examples of Personal Information you may provide us while using SimpleClinic
+    include: patient details including: name, address, email address, phone numbers.'
+- source: patient detail
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Examples of Personal Information you may provide us while using SimpleClinic
+    include: patient details including: name, address, email address, phone numbers.'
+- source: patient detail
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Examples of Personal Information you may provide us while using SimpleClinic
+    include: patient details including: name, address, email address, phone numbers.'
+- source: personal information
+  target: patient detail
+  key: SUBSUM
+  text:
+  - 'Examples of Personal Information you may provide us while using SimpleClinic
+    include: patient details including: name, address, email address, phone numbers.'
+- source: sensitive information
+  target: observation
+  key: SUBSUM
+  text:
+  - 'Sensitive Information
+
+
+    Sensitive Information you may provide us with while using the SimpleClinic platform
+    include: your opinions, observations, and treatment programs for patients.'
+- source: sensitive information
+  target: opinion
+  key: SUBSUM
+  text:
+  - 'Sensitive Information
+
+
+    Sensitive Information you may provide us with while using the SimpleClinic platform
+    include: your opinions, observations, and treatment programs for patients.'
+- source: sensitive information
+  target: patient health history information
+  key: SUBSUM
+  text:
+  - 'Sensitive Information
+
+
+    Sensitive Information you may provide us with while using the SimpleClinic platform
+    include: patient health history information.'
+- source: sensitive information you provide we with
+  target: observation
+  key: SUBSUM
+  text:
+  - 'Sensitive Information
+
+
+    Sensitive Information you may provide us with while using the SimpleClinic platform
+    include: your opinions, observations, and treatment programs for patients.'
+- source: sensitive information you provide we with
+  target: opinion
+  key: SUBSUM
+  text:
+  - 'Sensitive Information
+
+
+    Sensitive Information you may provide us with while using the SimpleClinic platform
+    include: your opinions, observations, and treatment programs for patients.'
+- source: sensitive information you provide we with
+  target: patient health history information
+  key: SUBSUM
+  text:
+  - 'Sensitive Information
+
+
+    Sensitive Information you may provide us with while using the SimpleClinic platform
+    include: patient health history information.'
+nodes:
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: support staff
+- type: ACTOR
+  id: we
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: number of safeguard protect personal information
+- type: DATA
+  id: observation
+- type: DATA
+  id: opinion
+- type: DATA
+  id: patient detail
+- type: DATA
+  id: patient health history information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information about patient
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: sensitive information
+- type: DATA
+  id: sensitive information about patient
+- type: DATA
+  id: sensitive information you provide we with
+- type: DATA
+  id: username access to simpleclinic platform

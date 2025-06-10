@@ -1,0 +1,487 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, inquiries into a particular product or service, we will use your
+    data to provide you with the requested information or service.
+  purposes:
+    services:
+    - to provide you with the requested information or service
+- source: we
+  target: appropriate record of personal datum breach
+  key: COLLECT
+  text:
+  - We maintain appropriate records of all personal data breaches, including the facts
+    surrounding the breach, its effects, and the remedial actions taken, as required
+    by the DPA and applicable regulations.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'The website collects the following information automatically: Information collected
+    through cookies and similar technology as described in Blue Sky eLearn''s Cookie
+    Policy'
+  - This site uses cookies to store information on your computer.
+  purposes:
+    services:
+    - to store information on your computer
+- source: we
+  target: datum concern use of website
+  key: COLLECT
+  text:
+  - We also may collect data concerning your use of this website, such as where you
+    visited from, pages visited, or links clicked.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'The website collects the following information automatically: IP (internet protocol)
+    address of the device which accesses the Platform'
+  purposes: {}
+- source: we
+  target: necessary information in concise format
+  key: COLLECT
+  text:
+  - Upon receipt of a request, we will provide users with the necessary information
+    in a concise, transparent, and easily understandable format.
+  purposes: {}
+- source: we
+  target: ongoing training
+  key: COLLECT
+  text:
+  - Additionally, we provide ongoing training to our personnel to guarantee awareness
+    of, and compliance with, our stringent data security measures.
+  purposes:
+    security:
+    - to guarantee awareness of, and compliance with, our stringent data security
+      measures
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We process personal data based on our legitimate business interests, ensuring
+    that these interests do not infringe upon the rights and freedoms of the individual,
+    as set forth in the DPA.
+  - We process personal data when it is necessary to fulfill our contractual obligations
+    with our customers or end users, as outlined in the DPA.
+  - We process personal data when required by applicable laws and regulations, or
+    in response to lawful requests from public authorities, as stated in the DPA.
+  - We retain personal data only for the specific purposes for which it was collected
+    or subsequently authorized by the individual.
+  purposes: {}
+- source: we
+  target: secure backup of personal datum
+  key: COLLECT
+  text:
+  - We maintain secure backups of personal data to prevent data loss due to system
+    failures, human error, or security breaches.
+  purposes:
+    security:
+    - to prevent data loss due to system failures, human error, or security breaches
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These third-party sources may collect user data, use cookies, embed additional
+    tracking technology, or monitor user interactions with the embedded content, including
+    tracking user behavior across different websites and services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Blue Sky may provide personal data to Third Parties that act as agents, consultants,
+    and contractors to perform tasks on behalf of and under our instructions.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: user datum
+  key: COLLECT
+  text:
+  - These third-party sources may collect user data, use cookies, embed additional
+    tracking technology, or monitor user interactions with the embedded content, including
+    tracking user behavior across different websites and services.
+  purposes: {}
+- source: area of site
+  target: contact information
+  key: COLLECT
+  text:
+  - Some areas of the site may collect contact information, such as your name, email
+    address or information related to the organization for which you work.
+  purposes: {}
+- source: backup
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - As such, backups retain the data as is from the time of the backup until they
+    are eventually removed in accordance with our retention policies.
+  purposes: {}
+- source: blue sky
+  target: personal information
+  key: COLLECT
+  text:
+  - Blue Sky may provide personal data to Third Parties that act as agents, consultants,
+    and contractors to perform tasks on behalf of and under our instructions.
+  purposes: {}
+- source: blue sky elearn
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Blue Sky eLearn either collects data from our customers or it is voluntarily submitted
+    by end users.
+  purposes: {}
+- source: blue sky elearn
+  target: datum receive from customer
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Individuals Who Use Our Applications (Customer Data)
+
+
+    Customer Data Use
+
+
+    Blue Sky eLearn uses data received from customers and collected from customers
+    in connection with eLearning services for:'
+  purposes:
+    analytics:
+    - Determination of personalization of training curricula
+    security:
+    - 'Identification verification for: Training received'
+    services:
+    - Determination of personalization of training curricula
+    - 'Identification verification for: Training received'
+    - Interaction with email messages
+- source: blue sky elearn
+  target: minimal business information
+  key: COLLECT
+  text:
+  - 'Blue Sky eLearn receives minimal business information from our customers or voluntarily
+    from end users for business use only:'
+  purposes:
+    services:
+    - To operate and maintain each Blue Sky eLearn account
+    - To provide access to, and use of, the Blue Sky eLearn platform
+- source: blue sky elearn
+  target: personal information
+  key: COLLECT
+  text:
+  - Blue Sky eLearn may disclose personal information in response to lawful requests
+    by public authorities, including to meet national security or law enforcement
+    requirements, or when required by applicable laws, court orders, or government
+    regulations.
+  - Blue Sky eLearn may disclose personal information in response to lawful requests
+    by public authorities, including to meet national security or law enforcement
+    requirements.
+  - Blue Sky eLearn processes personal data in compliance with applicable data protection
+    laws and regulations, as outlined in the Data Protection Agreement (DPA) between
+    the data controller and the data processor.
+  - Blue Sky eLearn uses your personal information for the purposes for which you
+    voluntarily provided it to us.
+  - Blue Sky eLearn will retain your personal information only for as long as it is
+    reasonably necessary to fulfill the business or commercial purpose for which it
+    was collected.
+  purposes: {}
+- source: blue sky elearn website
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - The Blue Sky eLearn websites can also use some non-essential cookies.
+  purposes: {}
+- source: platform
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'The Platform collects the following information automatically: Information collected
+    through cookies and similar technology as described in Blue Sky eLearn''s Cookie
+    Policy'
+  purposes: {}
+- source: platform
+  target: ip address
+  key: COLLECT
+  text:
+  - 'The Platform collects the following information automatically: IP (internet protocol)
+    address of the device which accesses the Platform'
+  purposes: {}
+- source: we
+  target: main webpage
+  key: SUBSUM
+  text:
+  - This Privacy Policy provides information about our use of cookies across our websites
+    including our main webpage (www.blueskyelearn.com) and our main product's webpage
+    (www.pathlms.com/showroom).
+- source: we
+  target: main website
+  key: SUBSUM
+  text:
+  - 'Blue Sky eLearn employs two different cookie banners on our main websites to
+    ensure transparency and obtain user consent for the use of cookies:'
+  - On this website, our cookie banner provides notice and acknowledgement of our
+    use of cookies.
+- source: we
+  target: path lms product website
+  key: SUBSUM
+  text:
+  - 'Blue Sky eLearn employs two different cookie banners on our main websites to
+    ensure transparency and obtain user consent for the use of cookies: Path LMS Product
+    Website (www.pathlms.com):'
+  - On this website, our cookie banner provides notice and acknowledgement of our
+    use of cookies.
+- source: we
+  target: webpage
+  key: SUBSUM
+  text:
+  - This Privacy Policy provides information about our use of cookies across our websites
+    including our main webpage (www.blueskyelearn.com) and our main product's webpage
+    (www.pathlms.com/showroom).
+- source: aggregate / deidentified / pseudonymized information
+  target: error message you encounter
+  key: SUBSUM
+  text:
+  - These cookies gather anonymous data on how you use our websites, including the
+    pages you visit most often and any error messages you may encounter.
+- source: choice you make
+  target: language
+  key: SUBSUM
+  text:
+  - These cookies remember choices you make, like your username, language, and region,
+    offering enhanced, more personalized features.
+- source: choice you make
+  target: region
+  key: SUBSUM
+  text:
+  - These cookies remember choices you make, like your username, language, and region,
+    offering enhanced, more personalized features.
+- source: choice you make
+  target: username
+  key: SUBSUM
+  text:
+  - These cookies remember choices you make, like your username, language, and region,
+    offering enhanced, more personalized features.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - Some areas of the site may collect contact information, such as your name, email
+    address or information related to the organization for which you work.
+- source: contact information
+  target: information relate to organization for you work
+  key: SUBSUM
+  text:
+  - Some areas of the site may collect contact information, such as your name, email
+    address or information related to the organization for which you work.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - Some areas of the site may collect contact information, such as your name, email
+    address or information related to the organization for which you work.
+- source: cookie / pixel tag
+  target: choice you make
+  key: SUBSUM
+  text:
+  - These cookies remember choices you make, like your username, language, and region,
+    offering enhanced, more personalized features.
+  - 'Types of Cookies
+
+
+    Types of Cookies We Utilize:'
+- source: cookie / pixel tag
+  target: enhance personalized feature
+  key: SUBSUM
+  text:
+  - These cookies remember choices you make, like your username, language, and region,
+    offering enhanced, more personalized features.
+  - 'Types of Cookies
+
+
+    Types of Cookies We Utilize:'
+- source: embed content
+  target: article
+  key: SUBSUM
+  text:
+  - Our website and applications may also feature embedded content, such as videos,
+    images, articles, or widgets from third-party sources.
+- source: embed content
+  target: widget
+  key: SUBSUM
+  text:
+  - Our website and applications may also feature embedded content, such as videos,
+    images, articles, or widgets from third-party sources.
+- source: option
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Cookie Preferences:'
+  - 'The following options are available to users:'
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - Personally identifiable information includes Name, Email Address, Phone, and other
+    pertinent information used for training assignments.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Personally identifiable information includes Name, Email Address, Phone, and other
+    pertinent information used for training assignments.
+- source: personal identifier
+  target: pertinent information use for training assignment
+  key: SUBSUM
+  text:
+  - Personally identifiable information includes Name, Email Address, Phone, and other
+    pertinent information used for training assignments.
+- source: personal identifier
+  target: phone
+  key: SUBSUM
+  text:
+  - Personally identifiable information includes Name, Email Address, Phone, and other
+    pertinent information used for training assignments.
+- source: personal information
+  target: category of data subject involve
+  key: SUBSUM
+  text:
+  - 'Key elements of our GDPR-compliant Data Processing Addendum include: Details
+    of Processing: The DPA provides an in-depth description of the data processing
+    activities we undertake, including the purpose, nature, and duration of processing,
+    as well as the types of personal data and categories of data subjects involved.'
+- source: sensitive personal information
+  target: specific category
+  key: SUBSUM
+  text:
+  - As part of our expanded notification requirements, we want to inform you about
+    the data retention practices and the collection of specific categories of sensitive
+    personal information (SPI).
+- source: social media
+  target: Facebook
+  key: SUBSUM
+  text:
+  - We publish sites on social media services, such as LinkedIn, Facebook, Instagram,
+    Google MyBusiness and Twitter.
+- source: social media
+  target: Google
+  key: SUBSUM
+  text:
+  - We publish sites on social media services, such as LinkedIn, Facebook, Instagram,
+    Google MyBusiness and Twitter.
+- source: social media
+  target: Microsoft
+  key: SUBSUM
+  text:
+  - We publish sites on social media services, such as LinkedIn, Facebook, Instagram,
+    Google MyBusiness and Twitter.
+- source: social media
+  target: Twitter
+  key: SUBSUM
+  text:
+  - We publish sites on social media services, such as LinkedIn, Facebook, Instagram,
+    Google MyBusiness and Twitter.
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Microsoft
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: area of site
+- type: ACTOR
+  id: article
+- type: ACTOR
+  id: backup
+- type: ACTOR
+  id: blue sky
+- type: ACTOR
+  id: blue sky elearn
+- type: ACTOR
+  id: blue sky elearn website
+- type: ACTOR
+  id: embed content
+- type: ACTOR
+  id: main webpage
+- type: ACTOR
+  id: main website
+- type: ACTOR
+  id: path lms product website
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: webpage
+- type: ACTOR
+  id: widget
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: appropriate record of personal datum breach
+- type: DATA
+  id: category of data subject involve
+- type: DATA
+  id: choice you make
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum concern use of website
+- type: DATA
+  id: datum receive from customer
+- type: DATA
+  id: email address
+- type: DATA
+  id: enhance personalized feature
+- type: DATA
+  id: error message you encounter
+- type: DATA
+  id: information relate to organization for you work
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language
+- type: DATA
+  id: minimal business information
+- type: DATA
+  id: necessary information in concise format
+- type: DATA
+  id: ongoing training
+- type: DATA
+  id: option
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: pertinent information use for training assignment
+- type: DATA
+  id: phone
+- type: DATA
+  id: region
+- type: DATA
+  id: secure backup of personal datum
+- type: DATA
+  id: sensitive personal information
+- type: DATA
+  id: specific category
+- type: DATA
+  id: user datum
+- type: DATA
+  id: username

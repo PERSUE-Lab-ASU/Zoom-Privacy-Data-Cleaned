@@ -1,0 +1,416 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: calendar event datum
+  key: COLLECT
+  text:
+  - When you connect your Google account to a developer's app through Pyas, we may
+    share your calendar events data with that developer.
+  - When you connect your Microsoft account to a developer's app through Pyas, we
+    may share your calendar events data with that developer.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Cookies are used by us to authorize and authenticate Users.
+  - We use cookies to compile aggregate data about site traffic and site interaction
+    so that we can offer better site experiences and tools in the future.
+  purposes:
+    analytics:
+    - to compile aggregate data about site traffic and site interaction so that we
+      can offer better site experiences and tools in the future
+    security:
+    - to authorize and authenticate Users
+    services:
+    - to authorize and authenticate Users
+    - to compile aggregate data about site traffic and site interaction so that we
+      can offer better site experiences and tools in the future
+- source: we
+  target: datum of request come from website to pyas
+  key: COLLECT
+  text:
+  - We store data of requests (that are coming from your website or app to Pyas).
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'End User Privacy Policy
+
+
+    Pyas Collects and stores the following Microsoft user data: Email: We store your
+    (the "user''s") email in order to access your Microsoft Outlook Calendar.'
+  - 'Pyas Collects and stores the following Google user data: Email: We store your
+    (the "user''s") email in order to access your Google Calendar.'
+  - 'Pyas Collects and stores the following Zoom user data: Email: We store your (the
+    "user''s") email in order to access your Zoom account.'
+  purposes:
+    services:
+    - in order to access your Google Calendar
+    - in order to access your Microsoft Outlook Calendar
+    - in order to access your Zoom account
+- source: we
+  target: encrypt oauth security token
+  key: COLLECT
+  text:
+  - 'End User Privacy Policy
+
+
+    Pyas Collects and stores the following Google user data: OAuth Tokens: We store
+    encrypted oauth/security tokens in order to authenticate each API request to your
+    (the "user''s") Google Calendar.'
+  - 'Pyas Collects and stores the following Microsoft user data: OAuth Tokens: We
+    store encrypted oauth/security tokens in order to authenticate each API request
+    to your (the "user''s") Microsoft Outlook account.'
+  - 'Pyas Collects and stores the following Zoom user data: OAuth Tokens: We store
+    encrypted oauth/security tokens in order to authenticate each API request to your
+    (the "user''s") Zoom account.'
+  purposes:
+    security:
+    - in order to authenticate each API request to your (the "user's") Google Calendar
+    - in order to authenticate each API request to your (the "user's") Microsoft Outlook
+      account
+    - in order to authenticate each API request to your (the "user's") Zoom account
+    services:
+    - in order to authenticate each API request to your (the "user's") Google Calendar
+    - in order to authenticate each API request to your (the "user's") Microsoft Outlook
+      account
+    - in order to authenticate each API request to your (the "user's") Zoom account
+- source: we
+  target: meeting datum
+  key: COLLECT
+  text:
+  - When you connect your Zoom account to a developer's app through Pyas, we may share
+    your meetings data with that developer.
+  purposes: {}
+- source: we
+  target: payment confirmation
+  key: COLLECT
+  text:
+  - However, we do store payment confirmations.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'Pyas Collects and stores the following Google user data: Name: We store your
+    (the "user''s") name in order to properly associate your Google account with Pyas.'
+  - 'Pyas Collects and stores the following Microsoft user data: Name: We store your
+    (the "user''s") name in order to properly associate your Microsoft account with
+    Pyas.'
+  - 'Pyas Collects and stores the following Zoom user data: Name: We store your (the
+    "user''s") name in order to properly associate your Zoom account with Pyas.'
+  purposes:
+    services:
+    - in order to properly associate your Google account with Pyas
+    - in order to properly associate your Microsoft account with Pyas
+    - in order to properly associate your Zoom account with Pyas
+- source: we
+  target: security token
+  key: COLLECT
+  text:
+  - 'When you use Pyas, like when you connect your Google, Microsoft, or Zoom accounts
+    to a developer''s app through Pyas, we may collect the following data from you:
+    Security Tokens'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: end user data
+  key: COLLECT
+  text:
+  - 'You agree not to, and agree not to assist or otherwise enable any third party
+    to: sell or rent End User Data to marketers or any other third party;'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: payment information
+  key: COLLECT
+  text:
+  - We redirect you to their platform, and you provide your payment information to
+    them.
+  - We rely on third parties to process payments.
+  purposes: {}
+- source: developer
+  target: calendar event datum
+  key: COLLECT
+  text:
+  - When you connect your Google account to a developer's app through Pyas, we may
+    share your calendar events data with that developer.
+  - When you connect your Microsoft account to a developer's app through Pyas, we
+    may share your calendar events data with that developer.
+  purposes: {}
+- source: developer
+  target: meeting datum
+  key: COLLECT
+  text:
+  - When you connect your Zoom account to a developer's app through Pyas, we may share
+    your meetings data with that developer.
+  purposes: {}
+- source: marketer
+  target: end user data
+  key: COLLECT
+  text:
+  - 'You agree not to, and agree not to assist or otherwise enable any third party
+    to: sell or rent End User Data to marketers or any other third party;'
+  purposes: {}
+- source: pyas
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Pyas may, from time to time, share data with trusted partners to help perform
+    statistical analysis, send you email, or provide customer support.
+  - This End User Privacy Policy is meant to help you (the "end user") understand
+    how Pyas collect, use, and/or share your data when you use applications ("apps")
+    that are powered by Pyas.
+  purposes:
+    analytics:
+    - to help perform statistical analysis
+- source: pyas
+  target: google user datum
+  key: COLLECT
+  text:
+  - 'Pyas Collects and stores the following Google user data:'
+  purposes:
+    security:
+    - in order to authenticate each API request to your (the "user's") Google Calendar
+    services:
+    - in order to access your Google Calendar
+    - in order to authenticate each API request to your (the "user's") Google Calendar
+    - in order to properly associate your Google account with Pyas
+- source: pyas
+  target: microsoft user datum
+  key: COLLECT
+  text:
+  - 'Pyas Collects and stores the following Microsoft user data:'
+  purposes:
+    security:
+    - in order to authenticate each API request to your (the "user's") Microsoft Outlook
+      account
+    services:
+    - in order to access your Microsoft Outlook Calendar
+    - in order to authenticate each API request to your (the "user's") Microsoft Outlook
+      account
+    - in order to properly associate your Microsoft account with Pyas
+- source: pyas
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'In order to better provide you with products and services offered, Pyas may collect
+    personally identifiable information, such as your:'
+  - 'Pyas may also use your personally identifiable information to inform you of other
+    products or services available from Pyas and its affiliates or to:'
+  purposes:
+    legal:
+    - 'to: Comply with applicable laws and regulations'
+    security:
+    - 'to: Protect Pyas''s rights and property'
+    services:
+    - In order to better provide you with products and services offered
+    - 'to: Respond to user requests'
+- source: pyas
+  target: personal information
+  key: COLLECT
+  text:
+  - Pyas collects and uses your personal information to operate and deliver the services
+    you have requested.
+  purposes:
+    services:
+    - to operate and deliver the services you have requested
+- source: pyas
+  target: zoom user datum
+  key: COLLECT
+  text:
+  - 'Pyas Collects and stores the following Zoom user data:'
+  purposes:
+    security:
+    - in order to authenticate each API request to your (the "user's") Zoom account
+    services:
+    - in order to access your Zoom account
+    - in order to authenticate each API request to your (the "user's") Zoom account
+    - in order to properly associate your Zoom account with Pyas
+- source: staff
+  target: communication with we
+  key: COLLECT
+  text:
+  - Your communications with us, such as support requests, bug reports, or feature
+    requests may be saved by our staff.
+  purposes: {}
+- source: trusted partner
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Pyas may, from time to time, share data with trusted partners to help perform
+    statistical analysis, send you email, or provide customer support.
+  purposes:
+    analytics:
+    - to help perform statistical analysis
+- source: communication with we
+  target: bug report
+  key: SUBSUM
+  text:
+  - Your communications with us, such as support requests, bug reports, or feature
+    requests may be saved by our staff.
+- source: communication with we
+  target: feature request
+  key: SUBSUM
+  text:
+  - Your communications with us, such as support requests, bug reports, or feature
+    requests may be saved by our staff.
+- source: communication with we
+  target: support request
+  key: SUBSUM
+  text:
+  - Your communications with us, such as support requests, bug reports, or feature
+    requests may be saved by our staff.
+- source: google user datum
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Pyas Collects and stores the following Google user data: Email: We store your
+    (the "user''s") email in order to access your Google Calendar.'
+- source: google user datum
+  target: oauth token
+  key: SUBSUM
+  text:
+  - 'End User Privacy Policy
+
+
+    Pyas Collects and stores the following Google user data: OAuth Tokens: We store
+    encrypted oauth/security tokens in order to authenticate each API request to your
+    (the "user''s") Google Calendar.'
+- source: google user datum
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Pyas Collects and stores the following Google user data: Name: We store your
+    (the "user''s") name in order to properly associate your Google account with Pyas.'
+- source: microsoft user datum
+  target: email address
+  key: SUBSUM
+  text:
+  - 'End User Privacy Policy
+
+
+    Pyas Collects and stores the following Microsoft user data: Email: We store your
+    (the "user''s") email in order to access your Microsoft Outlook Calendar.'
+- source: microsoft user datum
+  target: oauth token
+  key: SUBSUM
+  text:
+  - 'Pyas Collects and stores the following Microsoft user data: OAuth Tokens: We
+    store encrypted oauth/security tokens in order to authenticate each API request
+    to your (the "user''s") Microsoft Outlook account.'
+- source: microsoft user datum
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Pyas Collects and stores the following Microsoft user data: Name: We store your
+    (the "user''s") name in order to properly associate your Microsoft account with
+    Pyas.'
+- source: personal identifier
+  target: company organization name
+  key: SUBSUM
+  text:
+  - 'In order to better provide you with products and services offered, Pyas may collect
+    personally identifiable information, such as your: Company/Organization Name'
+- source: personal identifier
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'In order to better provide you with products and services offered, Pyas may collect
+    personally identifiable information, such as your: Contact information'
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'In order to better provide you with products and services offered, Pyas may collect
+    personally identifiable information, such as your: Email address'
+- source: personal identifier
+  target: payment information
+  key: SUBSUM
+  text:
+  - 'In order to better provide you with products and services offered, Pyas may collect
+    personally identifiable information, such as your: Payment information'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'In order to better provide you with products and services offered, Pyas may collect
+    personally identifiable information, such as your: Name'
+- source: zoom user datum
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Pyas Collects and stores the following Zoom user data: Email: We store your (the
+    "user''s") email in order to access your Zoom account.'
+- source: zoom user datum
+  target: oauth token
+  key: SUBSUM
+  text:
+  - 'Pyas Collects and stores the following Zoom user data: OAuth Tokens: We store
+    encrypted oauth/security tokens in order to authenticate each API request to your
+    (the "user''s") Zoom account.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: developer
+- type: ACTOR
+  id: marketer
+- type: ACTOR
+  id: pyas
+- type: ACTOR
+  id: staff
+- type: ACTOR
+  id: trusted partner
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: bug report
+- type: DATA
+  id: calendar event datum
+- type: DATA
+  id: communication with we
+- type: DATA
+  id: company organization name
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum of request come from website to pyas
+- type: DATA
+  id: email address
+- type: DATA
+  id: encrypt oauth security token
+- type: DATA
+  id: end user data
+- type: DATA
+  id: feature request
+- type: DATA
+  id: google user datum
+- type: DATA
+  id: meeting datum
+- type: DATA
+  id: microsoft user datum
+- type: DATA
+  id: oauth token
+- type: DATA
+  id: payment confirmation
+- type: DATA
+  id: payment information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: security token
+- type: DATA
+  id: support request
+- type: DATA
+  id: zoom user datum

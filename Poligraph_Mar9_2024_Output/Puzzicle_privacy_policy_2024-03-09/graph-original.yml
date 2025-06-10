@@ -1,0 +1,25 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: answer to quiz
+  key: COLLECT
+  text:
+  - We collect the answers to quizzes only during the Zoom session.
+  purposes: {}
+- source: we
+  target: information you provide to we
+  key: COLLECT
+  text:
+  - This Privacy Policy ("Policy") is designed to help you understand how we collect,
+    use, and safeguard the information you provide to us and to assist you in making
+    informed decisions when using our website and services.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: answer to quiz
+- type: DATA
+  id: information you provide to we

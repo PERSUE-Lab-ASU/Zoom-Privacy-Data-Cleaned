@@ -1,0 +1,176 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We want to inform you that whenever you use our Service, in a case of an error
+    in the app we collect data and information (through third party products) on your
+    phone called Log Data.
+  purposes: {}
+- source: we
+  target: authentication information use
+  key: COLLECT
+  text:
+  - We store authentication information used to authenticate users to their zoom accounts.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies on our website to give you the most relevant experience by remembering
+    your preferences and repeat visits.
+  purposes:
+    services:
+    - to give you the most relevant experience by remembering your preferences and
+      repeat visits
+- source: we
+  target: information we request
+  key: COLLECT
+  text:
+  - The information that we request will be retained by us and used as described in
+    this privacy policy.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to name, email, phone, google contact, google calendars, google events, outlook
+    contacts, outlook calendars, outlook events.
+  purposes:
+    services:
+    - For a better experience
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In the case we discover that a child under 13 has provided us with personal information,
+    we immediately delete this from our servers.
+  purposes: {}
+- source: we
+  target: third party code
+  key: COLLECT
+  text:
+  - However, the app may use third party code and libraries that use "cookies" to
+    collect information and improve their services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We want to inform users of this Service that these third parties have access to
+    your Personal Information.
+  purposes: {}
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to name, email, phone, google contact, google calendars, google events, outlook
+    contacts, outlook calendars, outlook events.
+- source: personal identifier
+  target: google calendar
+  key: SUBSUM
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to name, email, phone, google contact, google calendars, google events, outlook
+    contacts, outlook calendars, outlook events.
+- source: personal identifier
+  target: google contact
+  key: SUBSUM
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to name, email, phone, google contact, google calendars, google events, outlook
+    contacts, outlook calendars, outlook events.
+- source: personal identifier
+  target: google event
+  key: SUBSUM
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to name, email, phone, google contact, google calendars, google events, outlook
+    contacts, outlook calendars, outlook events.
+- source: personal identifier
+  target: outlook calendar
+  key: SUBSUM
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to name, email, phone, google contact, google calendars, google events, outlook
+    contacts, outlook calendars, outlook events.
+- source: personal identifier
+  target: outlook contact
+  key: SUBSUM
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to name, email, phone, google contact, google calendars, google events, outlook
+    contacts, outlook calendars, outlook events.
+- source: personal identifier
+  target: outlook event
+  key: SUBSUM
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to name, email, phone, google contact, google calendars, google events, outlook
+    contacts, outlook calendars, outlook events.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to name, email, phone, google contact, google calendars, google events, outlook
+    contacts, outlook calendars, outlook events.
+- source: personal identifier
+  target: phone
+  key: SUBSUM
+  text:
+  - For a better experience, while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to name, email, phone, google contact, google calendars, google events, outlook
+    contacts, outlook calendars, outlook events.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: authentication information use
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: google calendar
+- type: DATA
+  id: google contact
+- type: DATA
+  id: google event
+- type: DATA
+  id: information we request
+- type: DATA
+  id: outlook calendar
+- type: DATA
+  id: outlook contact
+- type: DATA
+  id: outlook event
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone
+- type: DATA
+  id: third party code

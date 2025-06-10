@@ -1,0 +1,315 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The data is stored in the USA by default, but we may need to process your personal
+    data in another country.
+  - We also share some data with our service providers in Ukraine.
+  - 'We can share your data on the following grounds: consent, compliance with the
+    law, and performance of a contract.'
+  - We may also, although we do not necessarily do so, receive data from third parties
+    .
+  - We may share data with certain companies, consultants and contractors hired to
+    provide certain services to us or on our behalf.
+  - We may transfer your data to our contractors and partners for contractual purposes.
+  - We receive data when you visit our Website and interact with it, depending on
+    your actions on the Website.
+  - 'We share your data with the service providers (please, request Annex A. List
+    of the processors to look through the list of service providers) and contractors
+    to the extent necessary to provide services, technical and customer support, who,
+    for example, help us:'
+  - When you use our Website as a Visitor, we collect some data automatically.
+  purposes:
+    legal:
+    - for contractual purposes
+- source: we
+  target: alarm system
+  key: COLLECT
+  text:
+  - To be more specific, to protect your personal data, we use HTTPS and encryption,
+    divided group and individual access (where appropriate), an alarm system, corporate
+    VPN, and written approved internal policies (like password policy and physical
+    access policy).
+  purposes:
+    security:
+    - to protect your personal data
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - By using cookies, we receive automatically collected data.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies that are needed for the Website's operation.
+  purposes: {}
+- source: we
+  target: corporate vpn
+  key: COLLECT
+  text:
+  - To be more specific, to protect your personal data, we use HTTPS and encryption,
+    divided group and individual access (where appropriate), an alarm system, corporate
+    VPN, and written approved internal policies (like password policy and physical
+    access policy).
+  purposes:
+    security:
+    - to protect your personal data
+- source: we
+  target: different messenger
+  key: COLLECT
+  text:
+  - We use different messengers to communicate with you in ways that are convenient
+    for you.
+  purposes:
+    services:
+    - to communicate with you in ways that are convenient for you
+- source: we
+  target: divide group access
+  key: COLLECT
+  text:
+  - To be more specific, to protect your personal data, we use HTTPS and encryption,
+    divided group and individual access (where appropriate), an alarm system, corporate
+    VPN, and written approved internal policies (like password policy and physical
+    access policy).
+  purposes:
+    security:
+    - to protect your personal data
+- source: we
+  target: feedback
+  key: COLLECT
+  text:
+  - You provided feedback directly to us.
+  purposes: {}
+- source: we
+  target: personal datum in feedback
+  key: COLLECT
+  text:
+  - When you submit your feedback about our products to us directly or via third-party
+    platforms, we process personal data in your feedback, which may include your first
+    and last name, username, the text of the feedback and/or any other information
+    such as the feedback submission date, the rating which you assigned to our products,
+    etc., contained in or related to the feedback.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Details
+
+
+    Compliance with the law . We may disclose your personal data to third parties
+    to the extent that it is necessary:'
+  - 'Details
+
+
+    Consent . We may transfer your personal data based on your explicit consent.'
+  - The data is stored in the USA by default, but we may need to process your personal
+    data in another country.
+  - We collect your personal data according to this Privacy Notice when you use the
+    Website.
+  - We may receive some personal data from third parties.
+  - We may transfer your personal data to third parties based on a data processing
+    agreement, subject to the application of technical and organizational measures
+    to protect your personal data.
+  - We use your personal data on the basis of the performance of the contract to provide
+    services and communicate with the Users.
+  purposes:
+    security:
+    - to prevent unlawful use of our Website or policies
+    - to protect against claims of third parties
+    services:
+    - to provide services and communicate with the Users
+- source: we
+  target: technical datum
+  key: COLLECT
+  text:
+  - We need technical data to operate, support, and improve the Website's functionality.
+  purposes:
+    services:
+    - to operate, support, and improve the Website's functionality
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share data with certain companies, consultants and contractors hired to
+    provide certain services to us or on our behalf.
+  - We may transfer your data to our contractors and partners for contractual purposes.
+  purposes:
+    legal:
+    - for contractual purposes
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Details
+
+
+    Compliance with the law . We may disclose your personal data to third parties
+    to the extent that it is necessary:'
+  - We may transfer your personal data to third parties based on a data processing
+    agreement, subject to the application of technical and organizational measures
+    to protect your personal data.
+  purposes:
+    security:
+    - to prevent unlawful use of our Website or policies
+    - to protect against claims of third parties
+- source: consultant
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share data with certain companies, consultants and contractors hired to
+    provide certain services to us or on our behalf.
+  purposes: {}
+- source: contractor
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may share data with certain companies, consultants and contractors hired to
+    provide certain services to us or on our behalf.
+  - We may transfer your data to our contractors and partners for contractual purposes.
+  - 'We share your data with the service providers (please, request Annex A. List
+    of the processors to look through the list of service providers) and contractors
+    to the extent necessary to provide services, technical and customer support, who,
+    for example, help us:'
+  purposes:
+    legal:
+    - for contractual purposes
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We share your data with the service providers (please, request Annex A. List
+    of the processors to look through the list of service providers) and contractors
+    to the extent necessary to provide services, technical and customer support, who,
+    for example, help us:'
+  purposes: {}
+- source: service provider in ukraine
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We also share some data with our service providers in Ukraine.
+  purposes: {}
+- source: we
+  target: Scanner Master
+  key: SUBSUM
+  text:
+  - 'Products : Scanner Pro'
+- source: we
+  target: fluix
+  key: SUBSUM
+  text:
+  - 'Products : Fluix'
+- source: we
+  target: pdf expert
+  key: SUBSUM
+  text:
+  - 'Products : PDF Expert'
+- source: we
+  target: spark
+  key: SUBSUM
+  text:
+  - 'Products : Spark'
+- source: personal datum in feedback
+  target: feedback submission date
+  key: SUBSUM
+  text:
+  - When you submit your feedback about our products to us directly or via third-party
+    platforms, we process personal data in your feedback, which may include your first
+    and last name, username, the text of the feedback and/or any other information
+    such as the feedback submission date, the rating which you assigned to our products,
+    etc., contained in or related to the feedback.
+- source: personal datum in feedback
+  target: person name
+  key: SUBSUM
+  text:
+  - When you submit your feedback about our products to us directly or via third-party
+    platforms, we process personal data in your feedback, which may include your first
+    and last name, username, the text of the feedback and/or any other information
+    such as the feedback submission date, the rating which you assigned to our products,
+    etc., contained in or related to the feedback.
+- source: personal datum in feedback
+  target: rating
+  key: SUBSUM
+  text:
+  - When you submit your feedback about our products to us directly or via third-party
+    platforms, we process personal data in your feedback, which may include your first
+    and last name, username, the text of the feedback and/or any other information
+    such as the feedback submission date, the rating which you assigned to our products,
+    etc., contained in or related to the feedback.
+- source: personal datum in feedback
+  target: text of feedback
+  key: SUBSUM
+  text:
+  - When you submit your feedback about our products to us directly or via third-party
+    platforms, we process personal data in your feedback, which may include your first
+    and last name, username, the text of the feedback and/or any other information
+    such as the feedback submission date, the rating which you assigned to our products,
+    etc., contained in or related to the feedback.
+- source: personal datum in feedback
+  target: username
+  key: SUBSUM
+  text:
+  - When you submit your feedback about our products to us directly or via third-party
+    platforms, we process personal data in your feedback, which may include your first
+    and last name, username, the text of the feedback and/or any other information
+    such as the feedback submission date, the rating which you assigned to our products,
+    etc., contained in or related to the feedback.
+nodes:
+- type: ACTOR
+  id: Scanner Master
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: consultant
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: fluix
+- type: ACTOR
+  id: pdf expert
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: service provider in ukraine
+- type: ACTOR
+  id: spark
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: alarm system
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: corporate vpn
+- type: DATA
+  id: different messenger
+- type: DATA
+  id: divide group access
+- type: DATA
+  id: feedback
+- type: DATA
+  id: feedback submission date
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum in feedback
+- type: DATA
+  id: personal information
+- type: DATA
+  id: rating
+- type: DATA
+  id: technical datum
+- type: DATA
+  id: text of feedback
+- type: DATA
+  id: username

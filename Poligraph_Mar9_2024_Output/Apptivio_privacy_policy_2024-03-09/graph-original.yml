@@ -1,0 +1,140 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - This website uses cookies to ensure you get the best experience on our website.
+  purposes:
+    services:
+    - to ensure you get the best experience on our website
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, we ask visitors who sign up for an account at Apptivio websites to
+    provide an email address.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As described in our Privacy Policy, we collect personal information from your
+    interactions with us and our website, including through cookies and similar technologies.
+  - We may also share this personal information with third parties, including advertising
+    partners.
+  purposes: {}
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - As described in our Privacy Policy, we collect personal information from your
+    interactions with us and our website, including through cookies and similar technologies.
+  - We may also share this personal information with third parties, including advertising
+    partners.
+  purposes: {}
+- source: apptivio
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Apptivio uses cookies to help Apptivio identify and track visitors, their usage
+    of Apptivio websites, and their website access preferences.
+  purposes:
+    analytics:
+    - to help Apptivio identify and track visitors, their usage of Apptivio websites,
+      and their website access preferences
+- source: apptivio
+  target: non-personal information
+  key: COLLECT
+  text:
+  - From time to time, Apptivio may release non-personally-identifying information
+    in the aggregate, e.g., by publishing a report on trends in the usage of its website.
+  - Like most website operators, Apptivio collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+  purposes: {}
+- source: apptivio
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Apptivio discloses potentially personally-identifying and personally-identifying
+    information only to those of its employees, contractors and affiliated organizations
+    that
+  - Other than to its employees, contractors and affiliated organizations, as described
+    above, Apptivio discloses potentially personally-identifying and personally-identifying
+    information in response to a subpoena, court order or other governmental request,
+    or when Apptivio believes in good faith that disclosure is reasonably necessary
+    to protect the property or rights of Apptivio, third parties or the public at
+    large.
+  purposes: {}
+- source: apptivio
+  target: personal information require
+  key: COLLECT
+  text:
+  - In each case, Apptivio collects such information only insofar as is necessary
+    or appropriate to fulfill the purpose of the visitor's interaction with Apptivio.
+  - Those who engage in transactions with Apptivio - by purchasing access to the premium
+    services, for example - are asked to provide additional information, including
+    as necessary the personal and financial information required to process those
+    transactions.
+  purposes: {}
+- source: apptivio
+  target: statistic about behavior of visitor to website
+  key: COLLECT
+  text:
+  - Apptivio may also collect statistics about the behavior of visitors to its websites.
+  purposes: {}
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - Like most website operators, Apptivio collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+- source: non-personal information
+  target: date
+  key: SUBSUM
+  text:
+  - Like most website operators, Apptivio collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+- source: non-personal information
+  target: language preference
+  key: SUBSUM
+  text:
+  - Like most website operators, Apptivio collects non-personally-identifying information
+    of the sort that web browsers and servers typically make available, such as the
+    browser type, language preference, referring site, and the date and time of each
+    visitor request.
+nodes:
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: apptivio
+- type: ACTOR
+  id: we
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: email address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information require
+- type: DATA
+  id: statistic about behavior of visitor to website

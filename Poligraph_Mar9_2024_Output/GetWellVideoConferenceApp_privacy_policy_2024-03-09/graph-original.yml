@@ -1,0 +1,83 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When you use a Get Well software product, we may collect information from you
+    automatically through first-party cookies or similar technology.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We collect personal data for certain business purposes, including to:'
+  purposes:
+    analytics:
+    - ': Better understand how users interact and engage with our products and services'
+    - 'to: Compile aggregate information on our user population to gather insights
+      in making business and operational decisions'
+    security:
+    - 'to: Enhance the security of our networks and information systems'
+    services:
+    - ': Service our healthcare provider clients'
+    - 'to: Debug websites and products, support and address product issues'
+- source: get well
+  target: most personal datum collect
+  key: COLLECT
+  text:
+  - Most personal data collected by Get Well is provided to Get Well directly by you
+    and/or your healthcare provider.
+  purposes: {}
+- source: get well
+  target: personal datum collect from software product user
+  key: COLLECT
+  text:
+  - Get Well securely stores personal data collected from its software product users
+    for as long as it is necessary to achieve the purpose for which it was collected,
+    used, or disclosed, or as long as may be required by relevant law.
+  purposes: {}
+- source: get well
+  target: personal information
+  key: COLLECT
+  text:
+  - Get Well may also collect personal data indirectly from you via tools such as
+    Google Analytics, or via Get Well-managed first party cookies.
+  purposes: {}
+- source: healthcare provider
+  target: most personal datum collect
+  key: COLLECT
+  text:
+  - Most personal data collected by Get Well is provided to Get Well directly by you
+    and/or your healthcare provider.
+  purposes: {}
+- source: inpatient application
+  target: zoom meeting api
+  key: COLLECT
+  text:
+  - Get Well's Inpatient application is using Zoom meeting and room apis to complete
+    the end-to-end video conferencing flow.
+  purposes:
+    services:
+    - to complete the end-to-end video conferencing flow
+nodes:
+- type: ACTOR
+  id: get well
+- type: ACTOR
+  id: healthcare provider
+- type: ACTOR
+  id: inpatient application
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: most personal datum collect
+- type: DATA
+  id: personal datum collect from software product user
+- type: DATA
+  id: personal information
+- type: DATA
+  id: zoom meeting api

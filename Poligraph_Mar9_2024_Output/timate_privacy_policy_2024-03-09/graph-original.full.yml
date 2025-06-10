@@ -1,0 +1,146 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If we carry out analyses, we shall store Your Data until the analysis has been
+    concluded.
+  - We shall only retain Your Data for as long as is legally necessary or in accordance
+    with the purpose for which they were Processed.
+  - We use the data for internal analytical purposes to improve the product for you.
+  purposes:
+    analytics:
+    - for internal analytical purposes
+    services:
+    - to improve the product for you
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - When you use Timate, the service can store cookies on your computer.
+  purposes: {}
+- source: we
+  target: date
+  key: COLLECT
+  text:
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    services:
+    - to schedule a meeting
+- source: we
+  target: datum about you
+  key: COLLECT
+  text:
+  - We collect data about you directly from you and automatically through your use
+    of Timate.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    services:
+    - to schedule a meeting
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    services:
+    - to schedule a meeting
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We neither rent nor sell your Personal Information to anyone.
+  - We shall only process your Personal Data in accordance with principles of data
+    protection and if there is a legal basis to do so.
+  purposes: {}
+- source: we
+  target: time
+  key: COLLECT
+  text:
+  - For example, to schedule a meeting you may only need to provide us with a name,
+    email address, date and time.
+  purposes:
+    services:
+    - to schedule a meeting
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Timate may share personal information with other companies or individuals only
+    in the following limited circumstances:'
+  purposes: {}
+- source: individual
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Timate may share personal information with other companies or individuals only
+    in the following limited circumstances:'
+  purposes: {}
+- source: timate
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Timate needs to access or share the data to protect Timate's rights and property
+    or to enforce the Terms of Service.
+  - Timate needs to access or share the data to protect the security of the service
+    or of others users' data;
+  purposes:
+    security:
+    - to protect Timate's rights and property or to enforce the Terms of Service
+    - to protect the security of the service or of others users' data
+- source: timate
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Timate uses cookies to track usage, to improve ease-of-use and the overall user
+    experience.
+  purposes:
+    analytics:
+    - to track usage, to improve ease-of-use and the overall user experience
+    services:
+    - to track usage, to improve ease-of-use and the overall user experience
+- source: timate
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Timate may share personal information with other companies or individuals only
+    in the following limited circumstances:'
+  - Timate uses personal information according to the Terms of Service and this Privacy
+    Policy.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: individual
+- type: ACTOR
+  id: timate
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: email address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: time

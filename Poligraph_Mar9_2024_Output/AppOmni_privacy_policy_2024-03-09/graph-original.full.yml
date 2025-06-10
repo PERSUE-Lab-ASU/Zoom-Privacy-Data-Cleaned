@@ -1,0 +1,174 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may collect information using "cookies".
+  - We use this information to help operate our Site more efficiently, to gather broad
+    demographic information and to monitor the level of activity on our Site.
+  purposes:
+    analytics:
+    - to help operate our Site more efficiently, to gather broad demographic information
+      and to monitor the level of activity on our Site
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We also collect, use and share "Aggregated Data" such as statistical or demographic
+    data for any purpose.
+  purposes: {}
+- source: we
+  target: broad demographic information
+  key: COLLECT
+  text:
+  - We use this information to help operate our Site more efficiently, to gather broad
+    demographic information and to monitor the level of activity on our Site.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use both session cookies (which expire once you close your web browser)
+    and persistent cookies (which stay on your computer or mobile device until you
+    delete them) to provide you with a more personal and interactive experience on
+    our Site.
+  - 'We use two broad categories of cookies: first party cookies, served directly
+    by us to your computer or mobile device; and'
+  - 'We use two broad categories of cookies: third party cookies, which are served
+    by our partners or service providers on our Site.'
+  purposes:
+    services:
+    - to provide you with a more personal and interactive experience on our Site
+- source: we
+  target: customer data
+  key: COLLECT
+  text:
+  - We will retain Customer Data in accordance with a Customer's instructions, including
+    any applicable terms in the Customer Agreement and as required by applicable law.
+  purposes: {}
+- source: we
+  target: information pertain to you
+  key: COLLECT
+  text:
+  - We will retain Other Information pertaining to you for as long as necessary for
+    the purposes described in this Privacy Policy.
+  purposes: {}
+- source: we
+  target: personal data in structured use machine readable format
+  key: COLLECT
+  text:
+  - We will provide to you, or a third party you have chosen, your Personal Data in
+    a structured, commonly used, machine-readable format.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'AppOmni Inc Privacy Policy
+
+
+    How long we store your Personal Data'
+  - 'AppOmni Inc Privacy Policy
+
+
+    What Personal Data we collect'
+  - 'AppOmni Inc Privacy Policy
+
+
+    Who we share your Personal Data with'
+  - The table below describes who we share your Personal Data with, what we share
+    and why we share it.
+  - We endeavor to ensure that people to whom we provide Personal Data hold it subject
+    to appropriate safeguards and controls.
+  - We share your Personal Data within the members of the AppOmni group of companies
+    (i.e. Our Affiliates).
+  - We will only use your Personal Data for the purposes for which we collected it
+    as listed below, unless we reasonably consider that we need to use it for another
+    reason and that reason is compatible with the original purpose.
+  - 'Whenever we transfer your Personal Data out of the Europe, we ensure a similar
+    degree of protection is afforded to it by ensuring at least one of the following
+    safeguards is implemented : We may transfer your Personal Data to countries that
+    have been deemed to provide an adequate level of protection for Personal Data
+    by the European Commission.'
+  - 'With that in mind, this Privacy Policy is designed to describe: What Personal
+    Data We Collect'
+  purposes: {}
+- source: we
+  target: specific information
+  key: COLLECT
+  text:
+  - We may need to request specific information from you to help us confirm your identity
+    and ensure your right to access your Personal Data (or to exercise any of your
+    other rights).
+  purposes:
+    security:
+    - to help us confirm your identity and ensure your right to access your Personal
+      Data (or to exercise any of your other rights)
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Google Analytics uses its own cookies.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal data in structured use machine readable format
+  key: COLLECT
+  text:
+  - We will provide to you, or a third party you have chosen, your Personal Data in
+    a structured, commonly used, machine-readable format.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Clicking on those links or enabling those connections may allow third parties
+    to collect or share your Personal Data.
+  purposes: {}
+- source: aggregate / deidentified / pseudonymized information
+  target: statistical datum
+  key: SUBSUM
+  text:
+  - We also collect, use and share "Aggregated Data" such as statistical or demographic
+    data for any purpose.
+- source: social media
+  target: Facebook
+  key: SUBSUM
+  text:
+  - These cookies are used when you share information using a social media sharing
+    button or "like" button on our Site or you link your account or engage with our
+    content on or through, or whilst simultaneously logged into, a social networking
+    website such as Facebook.
+nodes:
+- type: ACTOR
+  id: Facebook
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: broad demographic information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer data
+- type: DATA
+  id: information pertain to you
+- type: DATA
+  id: personal data in structured use machine readable format
+- type: DATA
+  id: personal information
+- type: DATA
+  id: specific information
+- type: DATA
+  id: statistical datum

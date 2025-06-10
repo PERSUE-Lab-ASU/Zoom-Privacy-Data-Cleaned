@@ -1,0 +1,97 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - An essential part of this commitment involves transparently sharing how we collect,
+    use, store, and protect your data.
+  - We will retain and use your information to the extent necessary to comply with
+    our legal obligations, resolve disputes, and enforce our policies.
+  purposes: {}
+- source: advertiser
+  target: ip address
+  key: COLLECT
+  text:
+  - They automatically receive your IP address when this occurs.
+  - Third-party ad servers or ad networks uses technologies like cookies, JavaScript,
+    or Web Beacons that are used in their respective advertisements and links that
+    appear on useorbit.io, which are sent directly to users' browser.
+  purposes: {}
+- source: useorbit.io
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like any other website, useorbit.io uses 'cookies'.
+  purposes: {}
+- source: information collect
+  target: browser type
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: date
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: ip address
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: number of click
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: information collect
+  target: time stamp
+  key: SUBSUM
+  text:
+  - The information collected by log files include internet protocol (IP) addresses,
+    browser type, Internet Service Provider (ISP), date and time stamp, referring/exit
+    pages, and possibly the number of clicks.
+- source: technology
+  target: javascript
+  key: SUBSUM
+  text:
+  - Third-party ad servers or ad networks uses technologies like cookies, JavaScript,
+    or Web Beacons that are used in their respective advertisements and links that
+    appear on useorbit.io, which are sent directly to users' browser.
+nodes:
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: javascript
+- type: ACTOR
+  id: technology
+- type: ACTOR
+  id: useorbit.io
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: information collect
+- type: DATA
+  id: ip address
+- type: DATA
+  id: number of click
+- type: DATA
+  id: time stamp

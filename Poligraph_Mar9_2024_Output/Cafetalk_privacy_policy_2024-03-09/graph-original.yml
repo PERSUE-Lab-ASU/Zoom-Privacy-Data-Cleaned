@@ -1,0 +1,201 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 2) In the case that we must acquire personal information directly from the user,
+    we will specify the necessary item and intended usage of this information to the
+    user and acquire the information after gaining permission.
+  purposes: {}
+- source: we
+  target: access log
+  key: COLLECT
+  text:
+  - 1) As we take countermeasures against unauthorized access to personal information
+    stored within the system, we keep an access log and keep surveillance.
+  purposes: {}
+- source: we
+  target: automate method
+  key: COLLECT
+  text:
+  - We use automated methods where reasonably possible.
+  purposes: {}
+- source: we
+  target: communication on cafetalk platform
+  key: COLLECT
+  text:
+  - We may review, scan, or analyze your communications on the Cafetalk Platform for
+    reasons outlined in this policy, including fraud prevention, risk assessment,
+    regulatory compliance, investigation, product development, research, analytics,
+    enforcing our Terms of Service, and customer support purposes.
+  purposes:
+    analytics:
+    - for reasons outlined in this policy, including fraud prevention, risk assessment,
+      regulatory compliance, investigation, product development, research, analytics,
+      enforcing our Terms of Service, and customer support purposes
+    legal:
+    - for reasons outlined in this policy, including fraud prevention, risk assessment,
+      regulatory compliance, investigation, product development, research, analytics,
+      enforcing our Terms of Service, and customer support purposes
+    security:
+    - for reasons outlined in this policy, including fraud prevention, risk assessment,
+      regulatory compliance, investigation, product development, research, analytics,
+      enforcing our Terms of Service, and customer support purposes
+    services:
+    - for reasons outlined in this policy, including fraud prevention, risk assessment,
+      regulatory compliance, investigation, product development, research, analytics,
+      enforcing our Terms of Service, and customer support purposes
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 4) We receive information based on the students' and teachers' cookies (a standard
+    technology, in which a web server discerns information from a user's browser).
+  purposes: {}
+- source: we
+  target: information list
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    16. Inquiries Concerning Personal Information
+
+
+    1) If you have any questions or complaints about our management of personal information,
+    please use the information listed below to contact us and we will get back to
+    you as quickly as possible.'
+  purposes: {}
+- source: we
+  target: message
+  key: COLLECT
+  text:
+  - For example, as part of our fraud prevention efforts, we scan and analyze messages
+    to mask contact information and references to other sites.
+  - In some cases, we may also scan, review, or analyze messages to debug, improve,
+    and expand product offerings.
+  purposes:
+    security:
+    - to mask contact information and references to other sites
+    services:
+    - to debug, improve, and expand product offerings
+- source: we
+  target: necessary training
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    14. Supervision of Workers and Trustees
+
+
+    1) In order to manage personal information in a reasonable manner, we provide
+    necessary training to those who work with personal information and supervise them
+    properly.'
+  purposes:
+    security:
+    - In order to manage personal information in a reasonable manner
+    services:
+    - In order to manage personal information in a reasonable manner
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Please note that if you request the erasure of your personal information: We
+    may retain and use your personal information to the extent necessary to comply
+    with our legal obligations.'
+  - We use personal information in an appropriate manner and in order to provide complete
+    protection of that information, we regularly inspect our management system and
+    are constantly making improvements to it.
+  purposes: {}
+- source: we
+  target: surveillance
+  key: COLLECT
+  text:
+  - 1) As we take countermeasures against unauthorized access to personal information
+    stored within the system, we keep an access log and keep surveillance.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - If you have cookies enabled on your browser, websites can obtain cookies from
+    your browser.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - If by any chance a user inadvertently lets a third party use his ID or password,
+    that user's personal information may be accessed by the third party.
+  - In the case that we obtain the personal information through a third party, we
+    will confirm that the third party obtained this information from the user through
+    reasonable means, and make a notice on our website of the necessary item and intended
+    use of this personal information.
+  purposes: {}
+- source: cafetalk
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, Cafetalk and Cafetalk Payments may keep information for tax, legal
+    reporting and auditing obligations.
+  purposes:
+    legal:
+    - for tax, legal reporting and auditing obligations
+- source: cafetalk payments
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, Cafetalk and Cafetalk Payments may keep information for tax, legal
+    reporting and auditing obligations.
+  purposes:
+    legal:
+    - for tax, legal reporting and auditing obligations
+- source: personal information
+  target: identifier
+  key: SUBSUM
+  text:
+  - If by any chance a user inadvertently lets a third party use his ID or password,
+    that user's personal information may be accessed by the third party.
+- source: personal information
+  target: password
+  key: SUBSUM
+  text:
+  - If by any chance a user inadvertently lets a third party use his ID or password,
+    that user's personal information may be accessed by the third party.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: cafetalk
+- type: ACTOR
+  id: cafetalk payments
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access log
+- type: DATA
+  id: automate method
+- type: DATA
+  id: communication on cafetalk platform
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information list
+- type: DATA
+  id: message
+- type: DATA
+  id: necessary training
+- type: DATA
+  id: password
+- type: DATA
+  id: personal information
+- type: DATA
+  id: surveillance

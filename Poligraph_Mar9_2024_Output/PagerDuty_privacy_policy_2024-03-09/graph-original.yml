@@ -1,0 +1,553 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we need certain information in order to provide our services to you.
+  - How We Source, Use, and Disclose Information for Business Purposes
+  - If you provide us with feedback or contact us via email (e.g., in response to
+    an employment opportunity posted on our Website), we will collect your name and
+    email address, as well as any other content or information included in or attached
+    to your email, in order to send you a reply.
+  - 'Privacy
+
+
+    What Data We Collect'
+  - We will otherwise retain your information for as long as your account is active,
+    as needed to provide you with the Online Services you have requested, or as necessary
+    to comply with our legal obligations, resolve disputes, and enforce our agreements.
+  - When you download and use our Apps, we automatically collect information on the
+    type of mobile device you use and operating system version.
+  purposes:
+    legal:
+    - as necessary to comply with our legal obligations, resolve disputes, and enforce
+      our agreements
+    services:
+    - in order to provide our services to you
+    - in order to send you a reply
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - In such instances, we use aggregate data that cannot be used to reasonably identify
+    any individual and which contains no PII.
+  purposes: {}
+- source: we
+  target: analytic datum
+  key: COLLECT
+  text:
+  - We collect and use this analytics information in aggregate form such that it cannot
+    reasonably be used to identify any particular individual user.
+  - We may also directly collect analytics data, or use third-party analytics tools,
+    to help us measure traffic and usage trends in connection with the Online Services.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use both session cookies (which expire once you close your web browser)
+    and persistent cookies (which stay on your computer until you delete them) to
+    provide you with a more personal and interactive experience on our Online Services.
+  - 'We use cookies for the following purposes, specifically: Functional Cookies:'
+  - 'We use cookies for the following purposes, specifically: Performance Cookies:'
+  - 'We use cookies for the following purposes, specifically: Strictly Necessary Cookies:'
+  - 'We use cookies for the following purposes, specifically: Targeting Cookies:'
+  purposes:
+    services:
+    - to provide you with a more personal and interactive experience on our Online
+      Services
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - If you provide us with feedback or contact us via email (e.g., in response to
+    an employment opportunity posted on our Website), we will collect your name and
+    email address, as well as any other content or information included in or attached
+    to your email, in order to send you a reply.
+  purposes:
+    services:
+    - in order to send you a reply
+- source: we
+  target: financial information
+  key: COLLECT
+  text:
+  - If you purchase services or products from us, we will also collect payment account
+    and other financial information.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - We do not ask for, access or track any specific location information from your
+    mobile device at any time while downloading or using Apps, but we may infer your
+    general geographic location based on your IP address.
+  purposes: {}
+- source: we
+  target: information regard
+  key: COLLECT
+  text:
+  - If you are a California resident, California law requires us to provide you with
+    some additional information regarding how we collect, use, and share your "personal
+    information" (as defined in the California Consumer Privacy Act ("CCPA")).
+  purposes: {}
+- source: we
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - We may combine the information we collect directly from you with information we
+    obtain from public sources, partners, and other third parties and use such combined
+    information in accordance with this Privacy Policy.
+  purposes: {}
+- source: we
+  target: payment account
+  key: COLLECT
+  text:
+  - If you purchase services or products from us, we will also collect payment account
+    and other financial information.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - If you provide us with feedback or contact us via email (e.g., in response to
+    an employment opportunity posted on our Website), we will collect your name and
+    email address, as well as any other content or information included in or attached
+    to your email, in order to send you a reply.
+  purposes:
+    services:
+    - in order to send you a reply
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - In summary, we use your PII to respond to your requests, provide, secure and enhance
+    the Online Services, and comply with our legal obligations.
+  - PagerDuty will be liable for the processing of such PII by a third party service
+    provider unless we can prove that we are not responsible for the event giving
+    rise to the damages.
+  - 'To the extent permitted by applicable law, PagerDuty may disclose your PII in
+    the following circumstances: We may also disclose your PII with your prior informed
+    consent.'
+  - 'To the extent permitted by applicable law, PagerDuty may disclose your PII in
+    the following circumstances: We may transfer PII (including personal data about
+    residents of the EEA and Switzerland) to our vendors, consultants and other service
+    providers who need access to such PII to carry out work on our behalf.'
+  - We may also be required to disclose such PII in response to lawful requests by
+    public authorities, including to meet national security or law enforcement requirements.
+  - We may also disclose your PII if we determine disclosure is reasonably necessary
+    to enforce our terms and conditions or protect our operations or users.
+  - We may share your PII if PagerDuty engages in a merger, acquisition, bankruptcy,
+    dissolution, reorganization, sale of some or all of PagerDuty's assets, financing
+    acquisition of all or a portion of our business, a similar transaction or proceeding,
+    or steps in contemplation of such activities (e.g. due diligence).
+  purposes:
+    legal:
+    - to respond to your requests, provide, secure and enhance the Online Services,
+      and comply with our legal obligations
+    security:
+    - to respond to your requests, provide, secure and enhance the Online Services,
+      and comply with our legal obligations
+    services:
+    - to respond to your requests, provide, secure and enhance the Online Services,
+      and comply with our legal obligations
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If you have a right to object and you exercise this right, your personal data
+    will no longer be processed for such purposes by us.
+  purposes: {}
+- source: we
+  target: report base on use of technology by company on individual basis
+  key: COLLECT
+  text:
+  - We may receive reports based on the use of certain technologies by these companies
+    on an individual and aggregated basis.
+  purposes: {}
+- source: we
+  target: request
+  key: COLLECT
+  text:
+  - Once verified, we will maintain your request in the event our practices change.
+  purposes: {}
+- source: we
+  target: technical datum about device
+  key: COLLECT
+  text:
+  - Our servers, which may be hosted by a third-party service provider, may collect
+    certain technical data about your device and software, including your browser
+    type, operating system, IP address (a number that is automatically assigned to
+    your computer when you use the Internet, which may vary from session to session),
+    domain name, and/or a time stamp of your visit.
+  - We automatically gather this data and store it in log files each time you visit
+    our website or access your account on our network.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our partners, affiliates and other service providers may use cookies and other
+    technologies to improve the quality of your experience when you interact with
+    our Online Services and to deliver or target advertising.
+  purposes:
+    advertising:
+    - to improve the quality of your experience when you interact with our Online
+      Services and to deliver or target advertising
+    services:
+    - to improve the quality of your experience when you interact with our Online
+      Services and to deliver or target advertising
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - During this process, a third party may collect data, including PII, from you.
+  - 'To the extent permitted by applicable law, PagerDuty may disclose your PII in
+    the following circumstances: We may transfer PII (including personal data about
+    residents of the EEA and Switzerland) to our vendors, consultants and other service
+    providers who need access to such PII to carry out work on our behalf.'
+  purposes: {}
+- source: consultant
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'To the extent permitted by applicable law, PagerDuty may disclose your PII in
+    the following circumstances: We may transfer PII (including personal data about
+    residents of the EEA and Switzerland) to our vendors, consultants and other service
+    providers who need access to such PII to carry out work on our behalf.'
+  purposes: {}
+- source: data subject in european economic area
+  target: information about data processing practice
+  key: COLLECT
+  text:
+  - ', requires PagerDuty to provide additional and different information about its
+    data processing practices to data subjects in the European Economic Area (" EEA
+    ").'
+  purposes: {}
+- source: pagerduty
+  target: 3 job title
+  key: COLLECT
+  text:
+  - 'If you decide to sign up for information from us, schedule a demo, attend a virtual
+    event, or create an account to use the Service, PagerDuty may collect the following
+    PII from you: (1) first and last name, (2) organization name, (3) job title, (4)
+    email address, (5) phone number, (6) location information including state/province
+    and country, and (7) where applicable, a user-generated password for your account.'
+  purposes: {}
+- source: pagerduty
+  target: email address
+  key: COLLECT
+  text:
+  - 'If you decide to sign up for information from us, schedule a demo, attend a virtual
+    event, or create an account to use the Service, PagerDuty may collect the following
+    PII from you: (1) first and last name, (2) organization name, (3) job title, (4)
+    email address, (5) phone number, (6) location information including state/province
+    and country, and (7) where applicable, a user-generated password for your account.'
+  - PagerDuty will provide notification of the material changes to this Privacy Statement
+    through our Website and, where appropriate, by email to any email address of yours
+    we may have on file, at least thirty (30) days prior to the change taking effect.
+  purposes: {}
+- source: pagerduty
+  target: generate password for account
+  key: COLLECT
+  text:
+  - 'If you decide to sign up for information from us, schedule a demo, attend a virtual
+    event, or create an account to use the Service, PagerDuty may collect the following
+    PII from you: (1) first and last name, (2) organization name, (3) job title, (4)
+    email address, (5) phone number, (6) location information including state/province
+    and country, and (7) where applicable, a user-generated password for your account.'
+  purposes: {}
+- source: pagerduty
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'If you decide to sign up for information from us, schedule a demo, attend a virtual
+    event, or create an account to use the Service, PagerDuty may collect the following
+    PII from you: (1) first and last name, (2) organization name, (3) job title, (4)
+    email address, (5) phone number, (6) location information including state/province
+    and country, and (7) where applicable, a user-generated password for your account.'
+  purposes: {}
+- source: pagerduty
+  target: information about data processing practice
+  key: COLLECT
+  text:
+  - ', requires PagerDuty to provide additional and different information about its
+    data processing practices to data subjects in the European Economic Area (" EEA
+    ").'
+  purposes: {}
+- source: pagerduty
+  target: organization name
+  key: COLLECT
+  text:
+  - 'If you decide to sign up for information from us, schedule a demo, attend a virtual
+    event, or create an account to use the Service, PagerDuty may collect the following
+    PII from you: (1) first and last name, (2) organization name, (3) job title, (4)
+    email address, (5) phone number, (6) location information including state/province
+    and country, and (7) where applicable, a user-generated password for your account.'
+  purposes: {}
+- source: pagerduty
+  target: person name
+  key: COLLECT
+  text:
+  - 'If you decide to sign up for information from us, schedule a demo, attend a virtual
+    event, or create an account to use the Service, PagerDuty may collect the following
+    PII from you: (1) first and last name, (2) organization name, (3) job title, (4)
+    email address, (5) phone number, (6) location information including state/province
+    and country, and (7) where applicable, a user-generated password for your account.'
+  purposes: {}
+- source: pagerduty
+  target: personal identifier
+  key: COLLECT
+  text:
+  - If an organization has registered for the Services (a " Customer ") and your PII
+    has been collected by PagerDuty as a result of such organization's use of the
+    Services, PagerDuty collects and processes any such PII of yours under the directions
+    of the relevant Customer.
+  - 'If you decide to sign up for information from us, schedule a demo, attend a virtual
+    event, or create an account to use the Service, PagerDuty may collect the following
+    PII from you: (1) first and last name, (2) organization name, (3) job title, (4)
+    email address, (5) phone number, (6) location information including state/province
+    and country, and (7) where applicable, a user-generated password for your account.'
+  - 'In particular, PagerDuty uses your PII for the following purposes as necessary
+    and as permitted by applicable law:'
+  - 'To the extent permitted by applicable law, PagerDuty may disclose your PII in
+    the following circumstances:'
+  purposes:
+    security:
+    - Facilitate the creation of and secure your account on our Online Services
+    services:
+    - Facilitate the creation of and secure your account on our Online Services
+- source: pagerduty
+  target: personal information
+  key: COLLECT
+  text:
+  - PagerDuty keeps personal data as long as required to provide the Online Services
+    you have requested or registered for and comply with applicable laws.
+  - Please also note that if your personal information has been collected by PagerDuty
+    as a result of a Customer's (as defined above) use of our services, PagerDuty
+    collects and maintains your personal information under the directions of the relevant
+    Customer.
+  - When you access, use or register for our Online Services, you form a contract
+    with us based on the applicable terms of use or terms of service, and PagerDuty
+    needs to process your personal data to provide the requested Online Services.
+  purposes:
+    services:
+    - to provide the requested Online Services
+- source: pagerduty
+  target: phone number
+  key: COLLECT
+  text:
+  - 'If you decide to sign up for information from us, schedule a demo, attend a virtual
+    event, or create an account to use the Service, PagerDuty may collect the following
+    PII from you: (1) first and last name, (2) organization name, (3) job title, (4)
+    email address, (5) phone number, (6) location information including state/province
+    and country, and (7) where applicable, a user-generated password for your account.'
+  purposes: {}
+- source: service provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our partners, affiliates and other service providers may use cookies and other
+    technologies to improve the quality of your experience when you interact with
+    our Online Services and to deliver or target advertising.
+  purposes:
+    advertising:
+    - to improve the quality of your experience when you interact with our Online
+      Services and to deliver or target advertising
+    services:
+    - to improve the quality of your experience when you interact with our Online
+      Services and to deliver or target advertising
+- source: service provider
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'To the extent permitted by applicable law, PagerDuty may disclose your PII in
+    the following circumstances: We may transfer PII (including personal data about
+    residents of the EEA and Switzerland) to our vendors, consultants and other service
+    providers who need access to such PII to carry out work on our behalf.'
+  purposes: {}
+- source: financial information
+  target: payment account information
+  key: SUBSUM
+  text:
+  - 'Privacy
+
+
+    Financial and transactional information (e.g., payment account information and
+    purchase history)'
+- source: financial information
+  target: purchase history
+  key: SUBSUM
+  text:
+  - 'Privacy
+
+
+    Financial and transactional information (e.g., payment account information and
+    purchase history)'
+- source: personal identifier
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'PagerDuty collects the following types of PII: Cookies, web beacons and other
+    tracking technologies.'
+  - 'We use cookies for the following purposes, specifically: Functional Cookies:'
+  - 'We use cookies for the following purposes, specifically: Performance Cookies:'
+  - 'We use cookies for the following purposes, specifically: Strictly Necessary Cookies:'
+  - 'We use cookies for the following purposes, specifically: Targeting Cookies:'
+- source: personal identifier
+  target: information gather from mobile device
+  key: SUBSUM
+  text:
+  - 'PagerDuty collects the following types of PII: Information Gathered From Your
+    Mobile Device.'
+- source: personal identifier
+  target: information provide
+  key: SUBSUM
+  text:
+  - 'PagerDuty collects the following types of PII: Information Provided by Website
+    Visitors .'
+- source: personal identifier
+  target: information we collect via technological mean
+  key: SUBSUM
+  text:
+  - 'PagerDuty collects the following types of PII: Information We May Collect via
+    Technological Means.'
+- source: personal identifier
+  target: personal information
+  key: SUBSUM
+  text:
+  - 'To the extent permitted by applicable law, PagerDuty may disclose your PII in
+    the following circumstances: We may transfer PII (including personal data about
+    residents of the EEA and Switzerland) to our vendors, consultants and other service
+    providers who need access to such PII to carry out work on our behalf.'
+- source: personal information
+  target: source
+  key: SUBSUM
+  text:
+  - The following chart details the categories of personal information we collect,
+    the sources of such personal information, and how we use and share such information
+    for business purposes.
+- source: technical datum about device
+  target: browser type
+  key: SUBSUM
+  text:
+  - Our servers, which may be hosted by a third-party service provider, may collect
+    certain technical data about your device and software, including your browser
+    type, operating system, IP address (a number that is automatically assigned to
+    your computer when you use the Internet, which may vary from session to session),
+    domain name, and/or a time stamp of your visit.
+- source: technical datum about device
+  target: domain name
+  key: SUBSUM
+  text:
+  - Our servers, which may be hosted by a third-party service provider, may collect
+    certain technical data about your device and software, including your browser
+    type, operating system, IP address (a number that is automatically assigned to
+    your computer when you use the Internet, which may vary from session to session),
+    domain name, and/or a time stamp of your visit.
+- source: technical datum about device
+  target: ip address
+  key: SUBSUM
+  text:
+  - Our servers, which may be hosted by a third-party service provider, may collect
+    certain technical data about your device and software, including your browser
+    type, operating system, IP address (a number that is automatically assigned to
+    your computer when you use the Internet, which may vary from session to session),
+    domain name, and/or a time stamp of your visit.
+- source: technical datum about device
+  target: number assign to computer
+  key: SUBSUM
+  text:
+  - Our servers, which may be hosted by a third-party service provider, may collect
+    certain technical data about your device and software, including your browser
+    type, operating system, IP address (a number that is automatically assigned to
+    your computer when you use the Internet, which may vary from session to session),
+    domain name, and/or a time stamp of your visit.
+- source: technical datum about device
+  target: time stamp of visit
+  key: SUBSUM
+  text:
+  - Our servers, which may be hosted by a third-party service provider, may collect
+    certain technical data about your device and software, including your browser
+    type, operating system, IP address (a number that is automatically assigned to
+    your computer when you use the Internet, which may vary from session to session),
+    domain name, and/or a time stamp of your visit.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: consultant
+- type: ACTOR
+  id: data subject in european economic area
+- type: ACTOR
+  id: pagerduty
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: 3 job title
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: analytic datum
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: domain name
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial information
+- type: DATA
+  id: generate password for account
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about data processing practice
+- type: DATA
+  id: information gather from mobile device
+- type: DATA
+  id: information provide
+- type: DATA
+  id: information regard
+- type: DATA
+  id: information we collect from you
+- type: DATA
+  id: information we collect via technological mean
+- type: DATA
+  id: ip address
+- type: DATA
+  id: number assign to computer
+- type: DATA
+  id: organization name
+- type: DATA
+  id: payment account
+- type: DATA
+  id: payment account information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: purchase history
+- type: DATA
+  id: report base on use of technology by company on individual basis
+- type: DATA
+  id: request
+- type: DATA
+  id: source
+- type: DATA
+  id: technical datum about device
+- type: DATA
+  id: time stamp of visit

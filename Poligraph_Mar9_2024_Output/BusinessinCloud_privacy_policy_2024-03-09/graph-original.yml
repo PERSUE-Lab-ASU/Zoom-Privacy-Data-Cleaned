@@ -1,0 +1,78 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: data controller
+  target: personal information
+  key: COLLECT
+  text:
+  - In light of this principle, your Personal Data will be processed by the Data Controller
+    limited to what is necessary for the pursuit of the purpose referred to in this
+    Notice.
+  - 'pursuant to articles 13 and 14 UE Regulation 2016/679
+
+
+    F. PLACES OF TREATMENT
+
+
+    Your Personal Data will be processed by the Data Controller within the territory
+    of the European Union.'
+  purposes: {}
+- source: judicial authority
+  target: personal information
+  key: COLLECT
+  text:
+  - Where required by law or to prevent or suppress the commission of a crime, your
+    Personal Data may be disclosed to public bodies or judicial authorities without
+    these being defined as Recipients.
+  purposes: {}
+- source: public body
+  target: personal information
+  key: COLLECT
+  text:
+  - Where required by law or to prevent or suppress the commission of a crime, your
+    Personal Data may be disclosed to public bodies or judicial authorities without
+    these being defined as Recipients.
+  purposes: {}
+- source: personal information
+  target: personal datum relate to health
+  key: SUBSUM
+  text:
+  - 'pursuant to articles 13 and 14 UE Regulation 2016/679
+
+
+    B. PURPOSE AND LEGAL BASIS OF THE PROCESSING
+
+
+    No Personal Data relating to your health and, in general, special categories of
+    personal data referred to in art. 9 of the Regulations.'
+- source: personal information
+  target: set of personal datum
+  key: SUBSUM
+  text:
+  - 'pursuant to articles 13 and 14 UE Regulation 2016/679
+
+
+    The Regulation provides that, before proceeding with the processing of Personal
+    Data - this term must be understood, according to the relevant definition contained
+    in art. 4.2 of the Regulation "any operation or set of operations, carried out
+    with or without the aid of automated processes and applied to personal data or
+    sets of personal data, such as the collection, registration, organization, structuring,
+    storage, adaptation or modification, extraction, consultation, use, communication
+    by transmission, dissemination or any other form of making available, comparison
+    or interconnection, limitation, cancellation or destruction" (below, the " Treatment
+    ") - it is necessary that the person to whom such Personal Data belongs is informed
+    about the reasons for which such data are requested and how they will be used.'
+nodes:
+- type: ACTOR
+  id: data controller
+- type: ACTOR
+  id: judicial authority
+- type: ACTOR
+  id: public body
+- type: DATA
+  id: personal datum relate to health
+- type: DATA
+  id: personal information
+- type: DATA
+  id: set of personal datum

@@ -1,0 +1,103 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: behavior
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Privacy & Cookies
+
+
+    California Consumer Privacy Act
+
+
+    Inferences. Insights that we use to build a profile about you; includes profiles,
+    preferences, and behaviors drawn from collection and analytics of any of the other
+    categories of personal information collected.'
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - You agree that we may collect, use, and share information about you in any manner
+    permitted by the Privacy Policy posted on this Website.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We collect certain categories of personal information when you visit our site,
+    and we use that information for business and commercial purposes.
+  purposes: {}
+- source: we
+  target: preference
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Privacy & Cookies
+
+
+    California Consumer Privacy Act
+
+
+    Inferences. Insights that we use to build a profile about you; includes profiles,
+    preferences, and behaviors drawn from collection and analytics of any of the other
+    categories of personal information collected.'
+  purposes: {}
+- source: we
+  target: profile
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Privacy & Cookies
+
+
+    California Consumer Privacy Act
+
+
+    Inferences. Insights that we use to build a profile about you; includes profiles,
+    preferences, and behaviors drawn from collection and analytics of any of the other
+    categories of personal information collected.'
+  purposes: {}
+- source: financial institution
+  target: personal information necessary
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Privacy & Cookies
+
+
+    California Consumer Privacy Act
+
+
+    Financial institutions collect personal information necessary to offer and provide
+    financial products and services, as well as permitted by federal, state, and local
+    law.'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: financial institution
+- type: ACTOR
+  id: we
+- type: DATA
+  id: behavior
+- type: DATA
+  id: information about you
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information necessary
+- type: DATA
+  id: preference
+- type: DATA
+  id: profile

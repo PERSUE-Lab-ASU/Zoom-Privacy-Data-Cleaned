@@ -1,0 +1,71 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also release your information when we believe release is appropriate to
+    comply with law, enforce our site policies, or protect ours or others rights,
+    property or safety.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Policy unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: envise
+  target: information you provide to envise
+  key: COLLECT
+  text:
+  - This privacy policy sets out how Envise will use and protect any information that
+    you provide to Envise when you register for this site.
+  purposes: {}
+- source: envise
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Envise collects certain personally identifiable information, such as name, email
+    address, mailing address, when you complete the registration form, on this Website.
+  purposes: {}
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - Envise collects certain personally identifiable information, such as name, email
+    address, mailing address, when you complete the registration form, on this Website.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Envise collects certain personally identifiable information, such as name, email
+    address, mailing address, when you complete the registration form, on this Website.
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - Envise collects certain personally identifiable information, such as name, email
+    address, mailing address, when you complete the registration form, on this Website.
+nodes:
+- type: ACTOR
+  id: envise
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: email address
+- type: DATA
+  id: information you provide to envise
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: postal address

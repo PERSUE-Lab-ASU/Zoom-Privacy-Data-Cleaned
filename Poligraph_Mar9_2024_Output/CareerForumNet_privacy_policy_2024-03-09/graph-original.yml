@@ -1,0 +1,270 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    10. Handling of Cookie Information
+
+
+    The Company may acquire Cookie information from the Website operated by the Company
+    and tools provided by business operators, etc.'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - The Company may provide user's hashed email address, name, mailing address, phone
+    number, and other personal information to third-party advertisers for the purpose
+    of delivering advertisements that are relevant to the user and user's interest
+    and to measure the effectiveness of advertising campaigns.
+  purposes:
+    advertising:
+    - for the purpose of delivering advertisements that are relevant to the user and
+      user's interest and to measure the effectiveness of advertising campaigns
+    - to measure the effectiveness of advertising campaigns
+    analytics:
+    - to measure the effectiveness of advertising campaigns
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - The Company may provide user's hashed email address, name, mailing address, phone
+    number, and other personal information to third-party advertisers for the purpose
+    of delivering advertisements that are relevant to the user and user's interest
+    and to measure the effectiveness of advertising campaigns.
+  purposes:
+    advertising:
+    - for the purpose of delivering advertisements that are relevant to the user and
+      user's interest and to measure the effectiveness of advertising campaigns
+    - to measure the effectiveness of advertising campaigns
+    analytics:
+    - to measure the effectiveness of advertising campaigns
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In the following cases, the Company provides personal data to third parties in
+    countries overseas (countries and regions other than Japan).
+  - Personal information learned by the Company associated with consignment work The
+    Company acquires personal information by consigned recruitment operations, etc.
+    of various customers, etc.
+  - The Company may provide user's hashed email address, name, mailing address, phone
+    number, and other personal information to third-party advertisers for the purpose
+    of delivering advertisements that are relevant to the user and user's interest
+    and to measure the effectiveness of advertising campaigns.
+  - When persons seeking employment apply to companies and organizations, etc. in
+    countries overseas for employment or to attend seminars through use of Careerforum.net,
+    and various other global services operated by the Company, their personal data
+    is provided to the companies and organizations, etc. in the countries overseas.
+  purposes:
+    advertising:
+    - for the purpose of delivering advertisements that are relevant to the user and
+      user's interest and to measure the effectiveness of advertising campaigns
+    - to measure the effectiveness of advertising campaigns
+    analytics:
+    - to measure the effectiveness of advertising campaigns
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - The Company may provide user's hashed email address, name, mailing address, phone
+    number, and other personal information to third-party advertisers for the purpose
+    of delivering advertisements that are relevant to the user and user's interest
+    and to measure the effectiveness of advertising campaigns.
+  purposes:
+    advertising:
+    - for the purpose of delivering advertisements that are relevant to the user and
+      user's interest and to measure the effectiveness of advertising campaigns
+    - to measure the effectiveness of advertising campaigns
+    analytics:
+    - to measure the effectiveness of advertising campaigns
+- source: we
+  target: postal address
+  key: COLLECT
+  text:
+  - The Company may provide user's hashed email address, name, mailing address, phone
+    number, and other personal information to third-party advertisers for the purpose
+    of delivering advertisements that are relevant to the user and user's interest
+    and to measure the effectiveness of advertising campaigns.
+  purposes:
+    advertising:
+    - for the purpose of delivering advertisements that are relevant to the user and
+      user's interest and to measure the effectiveness of advertising campaigns
+    - to measure the effectiveness of advertising campaigns
+    analytics:
+    - to measure the effectiveness of advertising campaigns
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - In the following cases, the Company provides personal data to third parties in
+    countries overseas (countries and regions other than Japan).
+  - When persons seeking employment apply to companies and organizations, etc. in
+    countries overseas for employment or to attend seminars through use of Careerforum.net,
+    and various other global services operated by the Company, their personal data
+    is provided to the companies and organizations, etc. in the countries overseas.
+  purposes: {}
+- source: advertiser
+  target: email address
+  key: COLLECT
+  text:
+  - The Company may provide user's hashed email address, name, mailing address, phone
+    number, and other personal information to third-party advertisers for the purpose
+    of delivering advertisements that are relevant to the user and user's interest
+    and to measure the effectiveness of advertising campaigns.
+  purposes:
+    advertising:
+    - for the purpose of delivering advertisements that are relevant to the user and
+      user's interest and to measure the effectiveness of advertising campaigns
+    - to measure the effectiveness of advertising campaigns
+    analytics:
+    - to measure the effectiveness of advertising campaigns
+- source: advertiser
+  target: person name
+  key: COLLECT
+  text:
+  - The Company may provide user's hashed email address, name, mailing address, phone
+    number, and other personal information to third-party advertisers for the purpose
+    of delivering advertisements that are relevant to the user and user's interest
+    and to measure the effectiveness of advertising campaigns.
+  purposes:
+    advertising:
+    - for the purpose of delivering advertisements that are relevant to the user and
+      user's interest and to measure the effectiveness of advertising campaigns
+    - to measure the effectiveness of advertising campaigns
+    analytics:
+    - to measure the effectiveness of advertising campaigns
+- source: advertiser
+  target: personal information
+  key: COLLECT
+  text:
+  - The Company may provide user's hashed email address, name, mailing address, phone
+    number, and other personal information to third-party advertisers for the purpose
+    of delivering advertisements that are relevant to the user and user's interest
+    and to measure the effectiveness of advertising campaigns.
+  purposes:
+    advertising:
+    - for the purpose of delivering advertisements that are relevant to the user and
+      user's interest and to measure the effectiveness of advertising campaigns
+    - to measure the effectiveness of advertising campaigns
+    analytics:
+    - to measure the effectiveness of advertising campaigns
+- source: advertiser
+  target: phone number
+  key: COLLECT
+  text:
+  - The Company may provide user's hashed email address, name, mailing address, phone
+    number, and other personal information to third-party advertisers for the purpose
+    of delivering advertisements that are relevant to the user and user's interest
+    and to measure the effectiveness of advertising campaigns.
+  purposes:
+    advertising:
+    - for the purpose of delivering advertisements that are relevant to the user and
+      user's interest and to measure the effectiveness of advertising campaigns
+    - to measure the effectiveness of advertising campaigns
+    analytics:
+    - to measure the effectiveness of advertising campaigns
+- source: advertiser
+  target: postal address
+  key: COLLECT
+  text:
+  - The Company may provide user's hashed email address, name, mailing address, phone
+    number, and other personal information to third-party advertisers for the purpose
+    of delivering advertisements that are relevant to the user and user's interest
+    and to measure the effectiveness of advertising campaigns.
+  purposes:
+    advertising:
+    - for the purpose of delivering advertisements that are relevant to the user and
+      user's interest and to measure the effectiveness of advertising campaigns
+    - to measure the effectiveness of advertising campaigns
+    analytics:
+    - to measure the effectiveness of advertising campaigns
+- source: personal information
+  target: correspondence
+  key: SUBSUM
+  text:
+  - 'Types of personal information acquired directly in writing from the individual
+    by the Company : Personal information acquired through inquiries, etc. made to
+    the Company : Replies and correspondence regarding inquiries, complaints, and
+    consultations'
+- source: personal information
+  target: personal information acquire through inquiry make to company
+  key: SUBSUM
+  text:
+  - 'Types of personal information acquired directly in writing from the individual
+    by the Company : Personal information acquired through inquiries, etc. made to
+    the Company'
+- source: personal information
+  target: personal information of applicant
+  key: SUBSUM
+  text:
+  - 'Types of personal information acquired directly in writing from the individual
+    by the Company : Personal information of applicants, etc. in relation to the "e-apply"
+    service'
+- source: personal information
+  target: personal information of customer
+  key: SUBSUM
+  text:
+  - 'Types of personal information acquired directly in writing from the individual
+    by the Company : Personal information of customers, etc.'
+- source: personal information
+  target: personal information of employee
+  key: SUBSUM
+  text:
+  - 'Types of personal information acquired directly in writing from the individual
+    by the Company : Personal information of employees, etc.'
+- source: personal information
+  target: personal information of shareholder
+  key: SUBSUM
+  text:
+  - 'Types of personal information acquired directly in writing from the individual
+    by the Company : Personal information of the Company''s shareholders'
+- source: personal information
+  target: personal information of student acquire through service list under global
+    recruitment services be
+  key: SUBSUM
+  text:
+  - 'Types of personal information acquired directly in writing from the individual
+    by the Company : Personal information of students and adult members of society
+    acquired through the services listed under "Global Recruitment Services" that
+    is one of the Services categories.'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: advertiser
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: correspondence
+- type: DATA
+  id: email address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information acquire through inquiry make to company
+- type: DATA
+  id: personal information of applicant
+- type: DATA
+  id: personal information of customer
+- type: DATA
+  id: personal information of employee
+- type: DATA
+  id: personal information of shareholder
+- type: DATA
+  id: personal information of student acquire through service list under global recruitment
+    services be
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

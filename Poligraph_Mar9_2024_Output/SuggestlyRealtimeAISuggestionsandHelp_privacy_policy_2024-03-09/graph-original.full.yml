@@ -1,0 +1,156 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, we may share your information with third-party service providers who
+    perform services on our behalf.
+  - 'Our App collects information in a few different ways:'
+  - Please note that we may disclose your information to our affiliates and in the
+    event of an acquisition, sale, or asset sale, your Personal Data may be transferred.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to personalize your experience on Suggestly, remember your preferences,
+    and understand usage patterns.
+  purposes:
+    analytics:
+    - to personalize your experience on Suggestly, remember your preferences, and
+      understand usage patterns
+    services:
+    - to personalize your experience on Suggestly, remember your preferences, and
+      understand usage patterns
+- source: we
+  target: information about device you use
+  key: COLLECT
+  text:
+  - We may collect information about the device you're using to access Suggestly,
+    including the type of device, operating system, and browser.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We collect your IP address to ensure a secure and stable connection to Suggestly.
+  purposes:
+    security:
+    - to ensure a secure and stable connection to Suggestly
+    services:
+    - to ensure a secure and stable connection to Suggestly
+- source: we
+  target: personal info you make
+  key: COLLECT
+  text:
+  - This includes any personal info you've made publicly available on your Google
+    profile.
+  - We use this information to customize user experience.
+  purposes:
+    services:
+    - to customize user experience
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In certain circumstances, we may be required to disclose your Personal Data if
+    required to do so by law or in response to valid requests by public authorities
+    (e.g., a court or a government agency).
+  - Please note that we may disclose your information to our affiliates and in the
+    event of an acquisition, sale, or asset sale, your Personal Data may be transferred.
+  - We retain your Personal Data only for as long as is necessary for the purposes
+    set out in this Privacy Policy.
+  - We will retain and use your Personal Data to the extent necessary to comply with
+    our legal obligations, resolve disputes, and enforce our legal agreements and
+    policies.
+  purposes: {}
+- source: we
+  target: standard application use datum
+  key: COLLECT
+  text:
+  - As part of the regular operation of Suggestly, we collect standard application
+    use data to improve your experience, secure your interactions, and streamline
+    our service.
+  purposes:
+    security:
+    - to improve your experience, secure your interactions, and streamline our service
+    services:
+    - to improve your experience, secure your interactions, and streamline our service
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, we may share your information with third-party service providers who
+    perform services on our behalf.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties have access to your Personal Data only to perform these tasks
+    on our behalf and are obligated not to disclose or use it for any other purpose.
+  purposes:
+    services:
+    - only to perform these tasks on our behalf
+- source: detail about interaction with app
+  target: amount of time spend on app
+  key: SUBSUM
+  text:
+  - Session data includes details about your interaction with the App, such as the
+    date and time of your access, pages viewed, and the amount of time spent on the
+    App.
+- source: detail about interaction with app
+  target: date
+  key: SUBSUM
+  text:
+  - Session data includes details about your interaction with the App, such as the
+    date and time of your access, pages viewed, and the amount of time spent on the
+    App.
+- source: personal information
+  target: specific piece
+  key: SUBSUM
+  text:
+  - You have the right to request information about the specific pieces of personal
+    data we have collected about you, the categories of personal data we have collected,
+    the categories of sources from which the personal data was collected, the purpose
+    of collecting the personal data, and the categories of third parties with whom
+    we have shared your personal data.
+- source: session data
+  target: detail about interaction with app
+  key: SUBSUM
+  text:
+  - Session data includes details about your interaction with the App, such as the
+    date and time of your access, pages viewed, and the amount of time spent on the
+    App.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: amount of time spend on app
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: detail about interaction with app
+- type: DATA
+  id: information about device you use
+- type: DATA
+  id: ip address
+- type: DATA
+  id: personal info you make
+- type: DATA
+  id: personal information
+- type: DATA
+  id: session data
+- type: DATA
+  id: specific piece
+- type: DATA
+  id: standard application use datum

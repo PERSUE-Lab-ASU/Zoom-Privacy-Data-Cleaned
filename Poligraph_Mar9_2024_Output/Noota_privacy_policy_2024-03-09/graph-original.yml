@@ -1,0 +1,93 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use data only to provide or improve user-facing features and don't allow transfers
+    unless for security purposes.
+  purposes:
+    services:
+    - only to provide or improve user-facing features
+- source: we
+  target: personal datum to
+  key: COLLECT
+  text:
+  - We only collect Personal Data to what is necessary for the proper performance
+    of our activity and to provide the support service to the customers registered
+    on the platform.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may disclose your personal information to any of our employees, officers,
+    insurers, agents, suppliers or subcontractors to the extent reasonably necessary
+    for the purposes set out in this policy, and: * To the extent where we are required
+    to do so by law; * In connection with any pending or future legal proceedings;
+    * To establish, exercise or defend our legal rights (including providing information
+    to others for fraud prevention and credit risk reduction purposes); * To the purchaser
+    (or potential purchaser) of any business or assets in our possession that we wish
+    to (or are considering) selling;  And to any person whom we reasonably believe
+    to be an integral part of a court or other competent authority for the disclosure
+    of such personal information if, in our opinion, such a court or authority would
+    be likely to require disclosure of such personal information.'
+  - 'We may use your personal information to: * Administer our website and our business
+    ; * Customize our website for you; * Enable your use of the services offered on
+    our website; * Provide you with services purchased on our website; * Send you
+    statements, invoices and payment reminders, and collect your payments; * Send
+    you non-marketing communications; * Send you email notifications that you have
+    received from us.'
+  - We will store all personal information you provide to us on secure servers (password
+    and firewall protected).
+  purposes:
+    services:
+    - 'to: * Administer our website and our business ; * Customize our website for
+      you; * Enable your use of the services offered on our website; * Provide you
+      with services purchased on our website;'
+- source: we
+  target: personal information we hold about you
+  key: COLLECT
+  text:
+  - You may ask us to provide you with any personal information we hold about you.
+  purposes: {}
+- source: we
+  target: record
+  key: COLLECT
+  text:
+  - 'Not withstanding the other provisions of this Section, we will retain records
+    (including electronic records) containing personal data: To the extent we are
+    required to do so by law ;  If we believe the documents may be relevant to any
+    current or potential legal proceedings (e.g., invoice, notification of failed
+    payment, conversation between you and our support); And to establish, exercise
+    or defend our legal rights (including providing information to others for fraud
+    prevention and credit risk reduction purposes).'
+  purposes: {}
+- source: record
+  target: electronic record
+  key: SUBSUM
+  text:
+  - 'Not withstanding the other provisions of this Section, we will retain records
+    (including electronic records) containing personal data: To the extent we are
+    required to do so by law ;  If we believe the documents may be relevant to any
+    current or potential legal proceedings (e.g., invoice, notification of failed
+    payment, conversation between you and our support); And to establish, exercise
+    or defend our legal rights (including providing information to others for fraud
+    prevention and credit risk reduction purposes).'
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: electronic record
+- type: DATA
+  id: personal datum to
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information we hold about you
+- type: DATA
+  id: record

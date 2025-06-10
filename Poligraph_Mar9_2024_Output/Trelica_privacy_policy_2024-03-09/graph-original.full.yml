@@ -1,0 +1,311 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We use your data to provide and improve the Website, Services & Documentation.
+  purposes:
+    services:
+    - to provide and improve the Website, Services & Documentation
+- source: we
+  target: collect datum
+  key: COLLECT
+  text:
+  - 'We use the collected data for various purposes:'
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use Preference Cookies to remember your preferences and various settings
+  - We use Security Cookies for security purposes.
+  - We use Session Cookies to operate our Service
+  - We use cookies and similar tracking technologies to track activity.
+  purposes:
+    analytics:
+    - to track activity
+    security:
+    - for security purposes
+    services:
+    - to operate our Service
+    - to remember your preferences and various settings
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - By authorising us to connect with an Integrated Service, you authorise us to access
+    and store your name, email address(es), profile picture URL, and other information
+    that the Integrated Service makes available to us, and to use and disclose it
+    in accordance with this Policy.
+  purposes: {}
+- source: we
+  target: information integrated service make
+  key: COLLECT
+  text:
+  - By authorising us to connect with an Integrated Service, you authorise us to access
+    and store your name, email address(es), profile picture URL, and other information
+    that the Integrated Service makes available to us, and to use and disclose it
+    in accordance with this Policy.
+  purposes: {}
+- source: we
+  target: information on
+  key: COLLECT
+  text:
+  - We may also collect information on how the Website, Services or Documentation
+    is accessed and used ("Usage Data").
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may also collect information on how the Website, Services or Documentation
+    is accessed and used ("Usage Data").
+  - We will also retain Usage Data for internal analysis purposes.
+  purposes:
+    analytics:
+    - for internal analysis purposes
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - By authorising us to connect with an Integrated Service, you authorise us to access
+    and store your name, email address(es), profile picture URL, and other information
+    that the Integrated Service makes available to us, and to use and disclose it
+    in accordance with this Policy.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your Personal Data if required to do so by law or in response
+    to valid requests by public authorities (e.g. a court or a government agency).
+  - 'We may disclose your Personal Data in the good faith belief that such action
+    is necessary to:'
+  - We may obtain information, including Personal Data, from third parties and sources
+    other than the Service, such as our Integrated Services.
+  - We may use your Personal Data to contact you with newsletters, marketing or promotional
+    materials and other information that may be of interest to you.
+  - We will retain and use your Personal Data to the extent necessary to comply with
+    our legal obligations (for example, if we are required to retain your data to
+    comply with applicable laws), resolve disputes and enforce our legal agreements
+    and policies.
+  - We will retain your Personal Data only for as long as is necessary for the purposes
+    set out in this Privacy Policy.
+  - While using our Service, we may ask you to provide us with certain personally
+    identifiable information that can be used to contact or identify you ("Personal
+    Data").
+  purposes:
+    advertising:
+    - to contact you with newsletters, marketing or promotional materials and other
+      information that may be of interest to you
+- source: we
+  target: profile picture url
+  key: COLLECT
+  text:
+  - By authorising us to connect with an Integrated Service, you authorise us to access
+    and store your name, email address(es), profile picture URL, and other information
+    that the Integrated Service makes available to us, and to use and disclose it
+    in accordance with this Policy.
+  purposes: {}
+- source: we
+  target: several different type
+  key: COLLECT
+  text:
+  - We collect several different types of information for various purposes to provide
+    and improve our Service to you.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties have access to your Personal Data only to perform these tasks
+    on our behalf and are obligated not to disclose or use it for any other purpose.
+  purposes:
+    services:
+    - only to perform these tasks on our behalf
+- source: trelica limited
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Trelica Limited may process your Personal Data because:'
+  purposes: {}
+- source: associate attribute
+  target: line manager
+  key: SUBSUM
+  text:
+  - The Services will only use access to read a list of domains managed by Google
+    Workspace,  read data about the number of Google Workspace licenses allocated,
+    read organisational unit structures, read user email addresses and associated
+    attributes such as line manager, read access tokens and audit log data to process
+    which applications a user has accessed, view and manage group membership, view
+    and manage groups in your Google Workspace, enable you to manage user provisioning
+    and deprovisioning processes in your Google Workspace, including but not limited
+    to data transfer between user accounts.
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with a small amount of data which may include an anonymous unique
+    identifier.
+- source: internet activity
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Website, Services or Documentation
+    is accessed and used ("Usage Data").
+- source: internet activity
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Website, Services or Documentation
+    is accessed and used ("Usage Data").
+- source: internet activity
+  target: date
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Website, Services or Documentation
+    is accessed and used ("Usage Data").
+- source: internet activity
+  target: device identifier
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Website, Services or Documentation
+    is accessed and used ("Usage Data").
+- source: internet activity
+  target: diagnostic datum
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Website, Services or Documentation
+    is accessed and used ("Usage Data").
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Website, Services or Documentation
+    is accessed and used ("Usage Data").
+- source: internet activity
+  target: time
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of our Service
+    that you visit, the time and date of your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Website, Services or Documentation
+    is accessed and used ("Usage Data").
+- source: public authority
+  target: government agency
+  key: SUBSUM
+  text:
+  - We may disclose your Personal Data if required to do so by law or in response
+    to valid requests by public authorities (e.g. a court or a government agency).
+- source: source
+  target: integrated services
+  key: SUBSUM
+  text:
+  - We may obtain information, including Personal Data, from third parties and sources
+    other than the Service, such as our Integrated Services.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: government agency
+- type: ACTOR
+  id: integrated services
+- type: ACTOR
+  id: public authority
+- type: ACTOR
+  id: source
+- type: ACTOR
+  id: trelica limited
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: associate attribute
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: collect datum
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: diagnostic datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: information integrated service make
+- type: DATA
+  id: information on
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: line manager
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: profile picture url
+- type: DATA
+  id: several different type
+- type: DATA
+  id: time

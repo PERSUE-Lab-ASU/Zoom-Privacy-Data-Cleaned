@@ -1,0 +1,354 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may also provide your personal information to companies that help us process
+    information, deliver products to you, manage and enhance user data, provide user
+    service, assess your interest in our products and Services, or conduct user research
+    or satisfaction surveys.
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - In cases where you use a mobile device to access the Website and use the Services,
+    we may receive information about the location of your device.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - Digital ReLab, LLC ("Digital ReLab") cares about online privacy and wants you
+    to know how we collect, use, share, and protect information about you and the
+    choices you have regarding our use of your information.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - We use the information that we collect to develop, deliver, and improve our Website,
+    Services, and other offerings.
+  purposes:
+    services:
+    - to develop, deliver, and improve our Website, Services, and other offerings
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also provide your personal information to companies that help us process
+    information, deliver products to you, manage and enhance user data, provide user
+    service, assess your interest in our products and Services, or conduct user research
+    or satisfaction surveys.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also provide your personal information to companies that help us process
+    information, deliver products to you, manage and enhance user data, provide user
+    service, assess your interest in our products and Services, or conduct user research
+    or satisfaction surveys.
+  purposes: {}
+- source: digital relab
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Digital ReLab uses that information to authenticate users and to send notifications
+    to users relating to the Website, Services, or related materials or opportunities.
+  - When users sign up for an account or submit information via the Website or the
+    Services, Digital ReLab may collect user-submitted information such as name, profile
+    photograph, social media account information, mailing address, telephone number,
+    and email address.
+  purposes:
+    services:
+    - to authenticate users and to send notifications to users relating to the Website,
+      Services, or related materials or opportunities
+- source: digital relab
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'Digital ReLab uses cookies to store users'' preferences and to record session
+    information for purposes including: (i) to customize our Website or Services content
+    based on browser type and user profile information; (ii) to help track usage to
+    help us understand which parts of the Website or Services are most popular, where
+    our visitors are going, and how much time visitors spend in those parts; (iii)
+    to make our Website and Services even more rewarding for users; (iv) to study
+    the effectiveness of our user communications; and (v) to customize each user''s
+    experience and provide greater convenience in navigating the Website or Services.'
+  - In addition, Digital ReLab uses technological measures, such as pixel tags - tiny
+    graphic images - to tell us what parts of the Website or Services have been visited
+    or to measure the effectiveness of searches users perform.
+  purposes:
+    analytics:
+    - 'to store users'' preferences and to record session information for purposes
+      including: (i) to customize our Website or Services content based on browser
+      type and user profile information; (ii) to help track usage to help us understand
+      which parts of the Website or Services are most popular, where our visitors
+      are going, and how much time visitors spend in those parts; (iii) to make our
+      Website and Services even more rewarding for users; (iv) to study the effectiveness
+      of our user communications; and (v) to customize each user''s experience and
+      provide greater convenience in navigating the Website or Services'
+    - to tell us what parts of the Website or Services have been visited or to measure
+      the effectiveness of searches users perform
+    services:
+    - 'to store users'' preferences and to record session information for purposes
+      including: (i) to customize our Website or Services content based on browser
+      type and user profile information; (ii) to help track usage to help us understand
+      which parts of the Website or Services are most popular, where our visitors
+      are going, and how much time visitors spend in those parts; (iii) to make our
+      Website and Services even more rewarding for users; (iv) to study the effectiveness
+      of our user communications; and (v) to customize each user''s experience and
+      provide greater convenience in navigating the Website or Services'
+- source: digital relab
+  target: email address
+  key: COLLECT
+  text:
+  - Digital ReLab may also use a user's email address to send updates, newsletters,
+    or news regarding the Services.
+  purposes:
+    services:
+    - to send updates, newsletters, or news regarding the Services
+- source: digital relab
+  target: information regard zip code
+  key: COLLECT
+  text:
+  - Digital ReLab may receive information regarding your zip code and country as part
+    of the payment transaction, which Digital ReLab may use to comply with tax and
+    other government regulations.
+  purposes: {}
+- source: digital relab
+  target: non-personal information
+  key: COLLECT
+  text:
+  - As is standard practice, Digital ReLab may also log non-personally identifying
+    information, including IP address, profile information, aggregate user data, browser
+    type, and device type from the Website and through the Services.
+  purposes: {}
+- source: digital relab
+  target: submit information
+  key: COLLECT
+  text:
+  - When users sign up for an account or submit information via the Website or the
+    Services, Digital ReLab may collect user-submitted information such as name, profile
+    photograph, social media account information, mailing address, telephone number,
+    and email address.
+  purposes: {}
+- source: digital relab
+  target: tiny graphic image
+  key: COLLECT
+  text:
+  - In addition, Digital ReLab uses technological measures, such as pixel tags - tiny
+    graphic images - to tell us what parts of the Website or Services have been visited
+    or to measure the effectiveness of searches users perform.
+  purposes:
+    analytics:
+    - to tell us what parts of the Website or Services have been visited or to measure
+      the effectiveness of searches users perform
+- source: datum you submit to we
+  target: email address
+  key: SUBSUM
+  text:
+  - These cookies may reflect de-identified demographic or other data linked to data
+    you voluntarily submitted to us, such as your email address.
+- source: information we collect from you
+  target: non-personal information
+  key: SUBSUM
+  text:
+  - It relates to information we collect from you, including personally identifying
+    information (also referred to as "PII") and information that does not identify
+    you personally.
+- source: information we collect from you
+  target: personal identifier
+  key: SUBSUM
+  text:
+  - It relates to information we collect from you, including personally identifying
+    information (also referred to as "PII") and information that does not identify
+    you personally.
+- source: non-personal information
+  target: aggregate user datum
+  key: SUBSUM
+  text:
+  - As is standard practice, Digital ReLab may also log non-personally identifying
+    information, including IP address, profile information, aggregate user data, browser
+    type, and device type from the Website and through the Services.
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - As is standard practice, Digital ReLab may also log non-personally identifying
+    information, including IP address, profile information, aggregate user data, browser
+    type, and device type from the Website and through the Services.
+- source: non-personal information
+  target: device type
+  key: SUBSUM
+  text:
+  - As is standard practice, Digital ReLab may also log non-personally identifying
+    information, including IP address, profile information, aggregate user data, browser
+    type, and device type from the Website and through the Services.
+- source: non-personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - As is standard practice, Digital ReLab may also log non-personally identifying
+    information, including IP address, profile information, aggregate user data, browser
+    type, and device type from the Website and through the Services.
+- source: non-personal information
+  target: profile information
+  key: SUBSUM
+  text:
+  - As is standard practice, Digital ReLab may also log non-personally identifying
+    information, including IP address, profile information, aggregate user data, browser
+    type, and device type from the Website and through the Services.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - 'PII may include, for example, some or all of the following: your name, mailing
+    address, email address, telephone number, mobile phone number, user name, and
+    password.'
+- source: personal identifier
+  target: password
+  key: SUBSUM
+  text:
+  - 'PII may include, for example, some or all of the following: your name, mailing
+    address, email address, telephone number, mobile phone number, user name, and
+    password.'
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - 'PII may include, for example, some or all of the following: your name, mailing
+    address, email address, telephone number, mobile phone number, user name, and
+    password.'
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'PII may include, for example, some or all of the following: your name, mailing
+    address, email address, telephone number, mobile phone number, user name, and
+    password.'
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'PII may include, for example, some or all of the following: your name, mailing
+    address, email address, telephone number, mobile phone number, user name, and
+    password.'
+- source: personal identifier
+  target: user name
+  key: SUBSUM
+  text:
+  - 'PII may include, for example, some or all of the following: your name, mailing
+    address, email address, telephone number, mobile phone number, user name, and
+    password.'
+- source: submit information
+  target: email address
+  key: SUBSUM
+  text:
+  - When users sign up for an account or submit information via the Website or the
+    Services, Digital ReLab may collect user-submitted information such as name, profile
+    photograph, social media account information, mailing address, telephone number,
+    and email address.
+- source: submit information
+  target: person name
+  key: SUBSUM
+  text:
+  - When users sign up for an account or submit information via the Website or the
+    Services, Digital ReLab may collect user-submitted information such as name, profile
+    photograph, social media account information, mailing address, telephone number,
+    and email address.
+- source: submit information
+  target: phone number
+  key: SUBSUM
+  text:
+  - When users sign up for an account or submit information via the Website or the
+    Services, Digital ReLab may collect user-submitted information such as name, profile
+    photograph, social media account information, mailing address, telephone number,
+    and email address.
+- source: submit information
+  target: postal address
+  key: SUBSUM
+  text:
+  - When users sign up for an account or submit information via the Website or the
+    Services, Digital ReLab may collect user-submitted information such as name, profile
+    photograph, social media account information, mailing address, telephone number,
+    and email address.
+- source: submit information
+  target: profile photograph
+  key: SUBSUM
+  text:
+  - When users sign up for an account or submit information via the Website or the
+    Services, Digital ReLab may collect user-submitted information such as name, profile
+    photograph, social media account information, mailing address, telephone number,
+    and email address.
+- source: submit information
+  target: social medium account information
+  key: SUBSUM
+  text:
+  - When users sign up for an account or submit information via the Website or the
+    Services, Digital ReLab may collect user-submitted information such as name, profile
+    photograph, social media account information, mailing address, telephone number,
+    and email address.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: digital relab
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate user datum
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum you submit to we
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information regard zip code
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information we collect from you
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: profile information
+- type: DATA
+  id: profile photograph
+- type: DATA
+  id: social medium account information
+- type: DATA
+  id: submit information
+- type: DATA
+  id: tiny graphic image
+- type: DATA
+  id: user name

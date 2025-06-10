@@ -1,0 +1,149 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'This information may be gathered by us in connection with the following:'
+  - This means that, if you have provided personal data to us directly, we are using
+    it with your consent or for the performance of a contract, and that data is processed
+    using automated means, you can ask us for a copy of that personal data to re-use
+    with another service or business in many cases.
+  purposes: {}
+- source: we
+  target: call
+  key: COLLECT
+  text:
+  - 'In the event that you submit your personal details by telephone, please note
+    that the Company may monitor or record your call for one or more of the following
+    purposes:'
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - As a Company customer, we may also use your contact information to inform you
+    of other products or services we think might interest you.
+  purposes:
+    advertising:
+    - to inform you of other products or services we think might interest you
+    services:
+    - to inform you of other products or services we think might interest you
+- source: we
+  target: feedback
+  key: COLLECT
+  text:
+  - 'You may provide us with your feedback, ask us questions about this policy, view
+    the information collected from you to date, or obtain a printed copy of our policy
+    statement and/or the name of the individual in charge of our privacy policy by
+    writing to or emailing us at the addresses above (see: How you can contact us)'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - All personal data you submit will be controlled and stored securely by the Company.
+  - The Company may also transfer personal data to the Company-affiliated companies
+    in other countries.
+  - The Company will only process personal data in accordance with the applicable
+    rules and this privacy policy.
+  - This means that, if you have provided personal data to us directly, we are using
+    it with your consent or for the performance of a contract, and that data is processed
+    using automated means, you can ask us for a copy of that personal data to re-use
+    with another service or business in many cases.
+  - We collect personal data from you for the purpose of processing your order or
+    enquiry.
+  - We may use your personal data to supply products and services to you that you
+    have requested, carry out any agreement with you or take any steps that you have
+    requested.
+  - We respect the privacy of everyone who visits this website (www.appointedd.com)
+    ("this website" or "our site") and will only collect and use personal data in
+    ways that are described here, and in a way that is consistent with our obligations
+    and your rights under the law.
+  - We want you to know how we will collect, use and disclose the personal data you
+    provide to us.
+  - We will only retain your personal data for as long as necessary to fulfil the
+    purposes we collected it for, including for the purposes of satisfying any legal,
+    accounting, or reporting requirements.
+  - We will only transfer your personal data to countries that have been deemed to
+    provide an adequate level of protection for personal data by the European Commission.
+  - 'Where you have given us appropriate permission or where we are permitted  by
+    law, we may use your personal data for the following purposes and direct marketing
+    (''Additional Purposes''):'
+  - With your permission and/or where permitted by law, we may also use your personal
+    data for marketing purposes, which may include contacting you by email and text
+    message with information, news, and offers on our services.
+  purposes:
+    advertising:
+    - for marketing purposes, which may include contacting you by email and text message
+      with information, news, and offers on our services
+    - for the following purposes and direct marketing ('Additional Purposes'
+    legal:
+    - to fulfil the purposes we collected it for, including for the purposes of satisfying
+      any legal, accounting, or reporting requirements
+    services:
+    - for the purpose of processing your order or enquiry
+    - to supply products and services to you that you have requested, carry out any
+      agreement with you or take any steps that you have requested
+- source: affiliate company in country
+  target: personal information
+  key: COLLECT
+  text:
+  - The Company may also transfer personal data to the Company-affiliated companies
+    in other countries.
+  purposes: {}
+- source: country deem
+  target: personal information
+  key: COLLECT
+  text:
+  - We will only transfer your personal data to countries that have been deemed to
+    provide an adequate level of protection for personal data by the European Commission.
+  purposes: {}
+- source: employee
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition, we limit access to your personal data to those employees, agents,
+    contractors and other third parties who have a business need to know.
+  - They will only process your personal data on our instructions and they are subject
+    to a duty of confidentiality.
+  purposes: {}
+- source: select partner
+  target: personal information
+  key: COLLECT
+  text:
+  - Our carefully selected partners and service providers may process personal information
+    about you on our behalf as described below.
+  purposes: {}
+- source: service provider
+  target: personal information
+  key: COLLECT
+  text:
+  - Our carefully selected partners and service providers may process personal information
+    about you on our behalf as described below.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: affiliate company in country
+- type: ACTOR
+  id: country deem
+- type: ACTOR
+  id: employee
+- type: ACTOR
+  id: select partner
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: call
+- type: DATA
+  id: contact information
+- type: DATA
+  id: feedback
+- type: DATA
+  id: personal information

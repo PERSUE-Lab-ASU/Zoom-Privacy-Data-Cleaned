@@ -1,0 +1,231 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect information from you when you register on our site, subscribe to a
+    newsletter, respond to a survey, fill out a form or enter information on our site.
+  - We may also release information when it's release is appropriate to comply with
+    the law, enforce our site policies, or protect ours or others' rights, property,
+    or safety.
+  purposes: {}
+- source: we
+  target: action object
+  key: COLLECT
+  text:
+  - 'We store the following application data: Encrypted user application keys and
+    tokens Commands and action objects executed by the user and application message
+    responses'
+  purposes: {}
+- source: we
+  target: application datum
+  key: COLLECT
+  text:
+  - 'We store the following application data: Encrypted user application keys and
+    tokens Commands and action objects executed by the user and application message
+    responses'
+  purposes: {}
+- source: we
+  target: application message response
+  key: COLLECT
+  text:
+  - 'We store the following application data: Encrypted user application keys and
+    tokens Commands and action objects executed by the user and application message
+    responses'
+  purposes: {}
+- source: we
+  target: channel i
+  key: COLLECT
+  text:
+  - We store the channel Id, Slack Team ID and the encrypted webhook URL.
+  purposes: {}
+- source: we
+  target: channel id
+  key: COLLECT
+  text:
+  - We store the channel Id,the encrypted token.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For instance, we use cookies to help us remember and process the items in your
+    shopping cart.
+  - We also use cookies to help us compile aggregate data about site traffic and site
+    interaction so that we can offer better site experiences and tools in the future.
+  - 'We use cookies to:'
+  purposes:
+    analytics:
+    - to help us compile aggregate data about site traffic and site interaction so
+      that we can offer better site experiences and tools in the future
+    - 'to:
+
+
+      Understand and save user''s preferences for future visits'
+    services:
+    - to help us remember and process the items in your shopping cart
+    - 'to:
+
+
+      Understand and save user''s preferences for future visits'
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We store the Zoom email address, and the encrypted access token.
+  purposes: {}
+- source: we
+  target: encrypt access token
+  key: COLLECT
+  text:
+  - We store the Zoom email address, and the encrypted access token.
+  purposes: {}
+- source: we
+  target: encrypt application key
+  key: COLLECT
+  text:
+  - 'We store the following data from your apps:
+
+
+    Encrypted Application keys'
+  purposes: {}
+- source: we
+  target: encrypt token
+  key: COLLECT
+  text:
+  - We store the channel Id,the encrypted token.
+  purposes: {}
+- source: we
+  target: encrypt user application key command
+  key: COLLECT
+  text:
+  - 'We store the following application data: Encrypted user application keys and
+    tokens Commands and action objects executed by the user and application message
+    responses'
+  purposes: {}
+- source: we
+  target: encrypt webhook url
+  key: COLLECT
+  text:
+  - We store the channel Id, Slack Team ID and the encrypted webhook URL.
+  purposes: {}
+- source: we
+  target: encrypted bot token
+  key: COLLECT
+  text:
+  - We store the user Slack ID, Slack Team ID and the encrypted bot token.
+  purposes: {}
+- source: we
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - 'We may use the information we collect from you when you register, make a purchase,
+    sign up for our newsletter, respond to a survey or marketing communication, surf
+    the website, or use certain other site features in the following ways: To personalize
+    user''s experience and to allow us to deliver the type of content and product
+    offerings in which you are most interested.'
+  purposes: {}
+- source: we
+  target: item in shopping cart
+  key: COLLECT
+  text:
+  - For instance, we use cookies to help us remember and process the items in your
+    shopping cart.
+  purposes: {}
+- source: we
+  target: output of incoming webhook
+  key: COLLECT
+  text:
+  - 'We store the following data from your apps:
+
+
+    Output of incoming webhooks'
+  purposes: {}
+- source: we
+  target: permission
+  key: COLLECT
+  text:
+  - For using the Zenduty bot as a contact method, we use the bot and user:read permissions.
+  purposes: {}
+- source: we
+  target: slack team id
+  key: COLLECT
+  text:
+  - We store the channel Id, Slack Team ID and the encrypted webhook URL.
+  - We store the user Slack ID, Slack Team ID and the encrypted bot token.
+  purposes: {}
+- source: we
+  target: user slack id
+  key: COLLECT
+  text:
+  - We store the user Slack ID, Slack Team ID and the encrypted bot token.
+  purposes: {}
+- source: we
+  target: zoom credential
+  key: COLLECT
+  text:
+  - We will retain your Zoom credentials for the period necessary to fulfill the purposes
+    outlined in this Privacy Notice or until the Zoom integration is deleted by the
+    Zenduty Account owners, Account admins or Team admins.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - However, non-personally identifiable visitor information may be provided to other
+    parties for marketing, advertising, or other uses.
+  purposes:
+    advertising:
+    - for marketing, advertising, or other uses
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: action object
+- type: DATA
+  id: application datum
+- type: DATA
+  id: application message response
+- type: DATA
+  id: channel i
+- type: DATA
+  id: channel id
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: encrypt access token
+- type: DATA
+  id: encrypt application key
+- type: DATA
+  id: encrypt token
+- type: DATA
+  id: encrypt user application key command
+- type: DATA
+  id: encrypt webhook url
+- type: DATA
+  id: encrypted bot token
+- type: DATA
+  id: information we collect from you
+- type: DATA
+  id: item in shopping cart
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: output of incoming webhook
+- type: DATA
+  id: permission
+- type: DATA
+  id: slack team id
+- type: DATA
+  id: user slack id
+- type: DATA
+  id: zoom credential

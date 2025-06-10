@@ -1,0 +1,381 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you interact with any social media or other third-party plug-in or platform
+    in the Services, we may receive information from those respective platforms.
+  - We may also use web beacons via the Services to collect information.
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - This research may be compiled and analyzed on an aggregate basis, and we may share
+    this aggregate data with our affiliates, agents and business partners.
+  purposes: {}
+- source: we
+  target: aggregate user statistic
+  key: COLLECT
+  text:
+  - We may also disclose aggregated user statistics in order to describe our services
+    to current and prospective business partners, and to other third parties for other
+    lawful purposes.
+  purposes:
+    advertising:
+    - in order to describe our services to current and prospective business partners,
+      and to other third parties for other lawful purposes
+    services:
+    - in order to describe our services to current and prospective business partners,
+      and to other third parties for other lawful purposes
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - In order to collect or use the data described herein, we may use temporary cookies
+    that remain on your device's cookies file for a limited period of time.
+  - We may also use persistent cookies that remain on your device's cookies file until
+    the cookies are removed via your browser's settings in order to manage and maintain
+    the Services and record your use of the Services and to understand the usage trends
+    and preferences of our users.
+  - We may also use web beacons via the Services to collect information.
+  - We use web beacons to deliver cookies, count visits and to tell if an email has
+    been opened and acted upon.
+  purposes:
+    analytics:
+    - In order to collect or use the data described herein
+    - in order to manage and maintain the Services and record your use of the Services
+      and to understand the usage trends and preferences of our users
+    - to deliver cookies, count visits and to tell if an email has been opened and
+      acted upon
+    services:
+    - in order to manage and maintain the Services and record your use of the Services
+      and to understand the usage trends and preferences of our users
+    - to deliver cookies, count visits and to tell if an email has been opened and
+      acted upon
+- source: we
+  target: credential
+  key: COLLECT
+  text:
+  - However we may first ask you to provide us certain credentials to permit us to
+    identify your PII.
+  purposes:
+    security:
+    - to permit us to identify your PII
+    services:
+    - to permit us to identify your PII
+- source: we
+  target: information from browser
+  key: COLLECT
+  text:
+  - When you use the Services, we may automatically receive and record information
+    from your browser, including without limitation information and statistics about
+    your online or offline status, your IP address, internet service provider, search
+    history, cookie information, type of browser, your regional and language settings
+    and software and hardware attributes.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - By submitting your PII through the Services, you consent, acknowledge, and agree
+    that we may collect, use, transfer, and disclose your PII as described in this
+    Privacy Policy.
+  - For some of the features of the Services we ask you to provide PII, including
+    full name and email address.
+  - 'In order to provide, operate, maintain and improve our Services, to understand
+    usage trends and user preferences in order to adjust and personalize your use
+    of the Services, for marketing and customer relations purposes, to offer and operate
+    webinars and demos related to our Services, and for recruitment and placement
+    purposes, to participate in our public forums, in order to protect our Services
+    from threatening activities, for compliance with applicable laws and regulations,
+    or for enforcement of the relevant agreement or other legal rights, we may collect
+    and process PII, including the following types of information:'
+  - We retain your PII only for as long as reasonably necessary for the purposes for
+    which it was collected or to comply with any applicable legal or ethical reporting
+    or document retention requirements.
+  purposes:
+    advertising:
+    - In order to provide, operate, maintain and improve our Services, to understand
+      usage trends and user preferences in order to adjust and personalize your use
+      of the Services, for marketing and customer relations purposes, to offer and
+      operate webinars and demos related to our Services, and for recruitment and
+      placement purposes, to participate in our public forums
+    - in order to adjust and personalize your use of the Services, for marketing and
+      customer relations purposes, to offer and operate webinars and demos related
+      to our Services, and for recruitment and placement purposes, to participate
+      in our public forums
+    analytics:
+    - In order to provide, operate, maintain and improve our Services, to understand
+      usage trends and user preferences in order to adjust and personalize your use
+      of the Services, for marketing and customer relations purposes, to offer and
+      operate webinars and demos related to our Services, and for recruitment and
+      placement purposes, to participate in our public forums
+    legal:
+    - in order to protect our Services from threatening activities, for compliance
+      with applicable laws and regulations, or for enforcement of the relevant agreement
+      or other legal rights
+    security:
+    - in order to protect our Services from threatening activities, for compliance
+      with applicable laws and regulations, or for enforcement of the relevant agreement
+      or other legal rights
+    services:
+    - In order to provide, operate, maintain and improve our Services, to understand
+      usage trends and user preferences in order to adjust and personalize your use
+      of the Services, for marketing and customer relations purposes, to offer and
+      operate webinars and demos related to our Services, and for recruitment and
+      placement purposes, to participate in our public forums
+    - in order to adjust and personalize your use of the Services, for marketing and
+      customer relations purposes, to offer and operate webinars and demos related
+      to our Services, and for recruitment and placement purposes, to participate
+      in our public forums
+- source: we
+  target: technical information regard method of use of services
+  key: COLLECT
+  text:
+  - Our systems may automatically record and store technical information regarding
+    the method and nature of your use of the Services, including without limitation
+    which pages of the Services you viewed, exit and entrance pages and your use time
+    of the Services.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - This research may be compiled and analyzed on an aggregate basis, and we may share
+    this aggregate data with our affiliates, agents and business partners.
+  purposes: {}
+- source: blink
+  target: link
+  key: COLLECT
+  text:
+  - Links to third party services, sites, content, features and applications may be
+    provided by Blink as a convenience to our users.
+  purposes: {}
+- source: blink
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'Blink may share PII in the following circumstances: (a) when we process PII on
+    behalf of our business customers, we share that information with them, in which
+    event except for de-identified and aggregate information, which we control, we
+    are merely the processors of your PII on behalf of our business customers who
+    collect and process your PII.'
+  - Blink processes PII only for the purposes for which it was collected or used and
+    in accordance with this Privacy Policy or any applicable service agreements.
+  purposes:
+    analytics:
+    - only for the purposes for which it was collected or used and in accordance with
+      this Privacy Policy or any applicable service agreements
+- source: business partner
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - This research may be compiled and analyzed on an aggregate basis, and we may share
+    this aggregate data with our affiliates, agents and business partners.
+  purposes: {}
+- source: aggregate / deidentified / pseudonymized information
+  target: customer demographic
+  key: SUBSUM
+  text:
+  - In an ongoing effort to better understand and serve the customers of the Services,
+    we often conduct research on our customer demographics, interests and behavior
+    based on the PII and other information provided to us.
+  - This research may be compiled and analyzed on an aggregate basis, and we may share
+    this aggregate data with our affiliates, agents and business partners.
+- source: appropriate regulatory authority
+  target: local data protection authority
+  key: SUBSUM
+  text:
+  - We will cooperate with the appropriate regulatory authorities, including local
+    data protection authorities, to resolve any complaints regarding the transfer
+    of PII that cannot be resolved between Blink and an individual.
+- source: identifier
+  target: geolocation
+  key: SUBSUM
+  text:
+  - WE DEFINE "PII" TO MEAN ANY INFORMATION RELATING TO AN IDENTIFIED OR IDENTIFIABLE
+    NATURAL PERSON; AN IDENTIFIABLE NATURAL PERSON IS ONE WHO CAN BE IDENTIFIED, DIRECTLY
+    OR INDIRECTLY, IN PARTICULAR BY REFERENCE TO AN IDENTIFIER SUCH AS A NAME, AN
+    IDENTIFICATION NUMBER, LOCATION DATA, AN ONLINE IDENTIFIER OR TO ONE OR MORE FACTORS
+    SPECIFIC TO THE PHYSICAL, PHYSIOLOGICAL, GENETIC,MENTAL, ECONOMIC, CULTURAL OR
+    SOCIAL IDENTITY OF THAT NATURAL PERSON.
+- source: identifier
+  target: identification number
+  key: SUBSUM
+  text:
+  - WE DEFINE "PII" TO MEAN ANY INFORMATION RELATING TO AN IDENTIFIED OR IDENTIFIABLE
+    NATURAL PERSON; AN IDENTIFIABLE NATURAL PERSON IS ONE WHO CAN BE IDENTIFIED, DIRECTLY
+    OR INDIRECTLY, IN PARTICULAR BY REFERENCE TO AN IDENTIFIER SUCH AS A NAME, AN
+    IDENTIFICATION NUMBER, LOCATION DATA, AN ONLINE IDENTIFIER OR TO ONE OR MORE FACTORS
+    SPECIFIC TO THE PHYSICAL, PHYSIOLOGICAL, GENETIC,MENTAL, ECONOMIC, CULTURAL OR
+    SOCIAL IDENTITY OF THAT NATURAL PERSON.
+- source: identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - WE DEFINE "PII" TO MEAN ANY INFORMATION RELATING TO AN IDENTIFIED OR IDENTIFIABLE
+    NATURAL PERSON; AN IDENTIFIABLE NATURAL PERSON IS ONE WHO CAN BE IDENTIFIED, DIRECTLY
+    OR INDIRECTLY, IN PARTICULAR BY REFERENCE TO AN IDENTIFIER SUCH AS A NAME, AN
+    IDENTIFICATION NUMBER, LOCATION DATA, AN ONLINE IDENTIFIER OR TO ONE OR MORE FACTORS
+    SPECIFIC TO THE PHYSICAL, PHYSIOLOGICAL, GENETIC,MENTAL, ECONOMIC, CULTURAL OR
+    SOCIAL IDENTITY OF THAT NATURAL PERSON.
+- source: information from browser
+  target: statistic
+  key: SUBSUM
+  text:
+  - When you use the Services, we may automatically receive and record information
+    from your browser, including without limitation information and statistics about
+    your online or offline status, your IP address, internet service provider, search
+    history, cookie information, type of browser, your regional and language settings
+    and software and hardware attributes.
+- source: information from browser
+  target: type of browser
+  key: SUBSUM
+  text:
+  - When you use the Services, we may automatically receive and record information
+    from your browser, including without limitation information and statistics about
+    your online or offline status, your IP address, internet service provider, search
+    history, cookie information, type of browser, your regional and language settings
+    and software and hardware attributes.
+- source: personal identifier
+  target: aggregate datum
+  key: SUBSUM
+  text:
+  - 'In order to provide, operate, maintain and improve our Services, to understand
+    usage trends and user preferences in order to adjust and personalize your use
+    of the Services, for marketing and customer relations purposes, to offer and operate
+    webinars and demos related to our Services, and for recruitment and placement
+    purposes, to participate in our public forums, in order to protect our Services
+    from threatening activities, for compliance with applicable laws and regulations,
+    or for enforcement of the relevant agreement or other legal rights, we may collect
+    and process PII, including the following types of information: Aggregate and Analytical
+    Data.'
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - For some of the features of the Services we ask you to provide PII, including
+    full name and email address.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - For some of the features of the Services we ask you to provide PII, including
+    full name and email address.
+- source: type of browser
+  target: browsing / search history
+  key: SUBSUM
+  text:
+  - When you use the Services, we may automatically receive and record information
+    from your browser, including without limitation information and statistics about
+    your online or offline status, your IP address, internet service provider, search
+    history, cookie information, type of browser, your regional and language settings
+    and software and hardware attributes.
+- source: type of browser
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - When you use the Services, we may automatically receive and record information
+    from your browser, including without limitation information and statistics about
+    your online or offline status, your IP address, internet service provider, search
+    history, cookie information, type of browser, your regional and language settings
+    and software and hardware attributes.
+- source: type of browser
+  target: ip address
+  key: SUBSUM
+  text:
+  - When you use the Services, we may automatically receive and record information
+    from your browser, including without limitation information and statistics about
+    your online or offline status, your IP address, internet service provider, search
+    history, cookie information, type of browser, your regional and language settings
+    and software and hardware attributes.
+- source: type of browser
+  target: online status
+  key: SUBSUM
+  text:
+  - When you use the Services, we may automatically receive and record information
+    from your browser, including without limitation information and statistics about
+    your online or offline status, your IP address, internet service provider, search
+    history, cookie information, type of browser, your regional and language settings
+    and software and hardware attributes.
+- source: type of browser
+  target: regional setting
+  key: SUBSUM
+  text:
+  - When you use the Services, we may automatically receive and record information
+    from your browser, including without limitation information and statistics about
+    your online or offline status, your IP address, internet service provider, search
+    history, cookie information, type of browser, your regional and language settings
+    and software and hardware attributes.
+- source: type of browser
+  target: software attribute
+  key: SUBSUM
+  text:
+  - When you use the Services, we may automatically receive and record information
+    from your browser, including without limitation information and statistics about
+    your online or offline status, your IP address, internet service provider, search
+    history, cookie information, type of browser, your regional and language settings
+    and software and hardware attributes.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: appropriate regulatory authority
+- type: ACTOR
+  id: blink
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: local data protection authority
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: aggregate datum
+- type: DATA
+  id: aggregate user statistic
+- type: DATA
+  id: browsing / search history
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credential
+- type: DATA
+  id: customer demographic
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identification number
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information from browser
+- type: DATA
+  id: ip address
+- type: DATA
+  id: link
+- type: DATA
+  id: online status
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: regional setting
+- type: DATA
+  id: software attribute
+- type: DATA
+  id: statistic
+- type: DATA
+  id: technical information regard method of use of services
+- type: DATA
+  id: type of browser

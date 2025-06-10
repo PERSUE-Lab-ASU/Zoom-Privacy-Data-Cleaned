@@ -1,0 +1,205 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We use your information for various purposes:'
+  purposes:
+    advertising:
+    - 'Marketing: To send you promotional messages and information about services
+      we think will interest you'
+    analytics:
+    - 'Research and Development: To develop new tools, products, or services and to
+      enhance our existing offerings'
+    legal:
+    - Compliance and Protection
+    - For legal reasons, including enforcing our Terms of Service, and protecting
+      our rights and the rights of others
+    security:
+    - Compliance and Protection
+    - For legal reasons, including enforcing our Terms of Service, and protecting
+      our rights and the rights of others
+    services:
+    - 'Communication: To communicate with you, including responding to your requests
+      and providing customer service'
+    - 'Research and Development: To develop new tools, products, or services and to
+      enhance our existing offerings'
+    - 'Service Provisioning: To provide, maintain, and improve our services'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies, web beacons, and other technologies to collect data about your
+    use of our Platform and services.
+  purposes: {}
+- source: we
+  target: datum about use of platform
+  key: COLLECT
+  text:
+  - We use cookies, web beacons, and other technologies to collect data about your
+    use of our Platform and services.
+  purposes: {}
+- source: we
+  target: information relate to integration
+  key: COLLECT
+  text:
+  - If you integrate third-party services with our Platform, we may receive information
+    related to those integrations.
+  purposes: {}
+- source: we
+  target: service provisioning
+  key: COLLECT
+  text:
+  - 'We use your information for various purposes: Service Provisioning: To provide,
+    maintain, and improve our services.'
+  purposes: {}
+- source: we
+  target: analytic provider
+  key: SUBSUM
+  text:
+  - We engage third-party companies to assist in providing our services, such as data
+    analytics and hosting services.
+- source: we
+  target: hosting service
+  key: SUBSUM
+  text:
+  - We engage third-party companies to assist in providing our services, such as data
+    analytics and hosting services.
+- source: detail of interaction with service
+  target: communication datum
+  key: SUBSUM
+  text:
+  - 'Usage Information: Details of your interactions with our services, including
+    traffic data, location data, logs, and other communication data.'
+- source: detail of interaction with service
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Usage Information: Details of your interactions with our services, including
+    traffic data, location data, logs, and other communication data.'
+- source: detail of interaction with service
+  target: log
+  key: SUBSUM
+  text:
+  - 'Usage Information: Details of your interactions with our services, including
+    traffic data, location data, logs, and other communication data.'
+- source: detail of interaction with service
+  target: traffic datum
+  key: SUBSUM
+  text:
+  - 'Usage Information: Details of your interactions with our services, including
+    traffic data, location data, logs, and other communication data.'
+- source: information you provide
+  target: email address
+  key: SUBSUM
+  text:
+  - '1. Information You Provide
+
+
+    Account and Profile Information: Includes your name, email address, password,
+    and any other information you choose to provide.'
+  - 'Infinity AI Privacy Policy
+
+
+    Information Collection
+
+
+    1. Information You Provide'
+- source: information you provide
+  target: information you choose
+  key: SUBSUM
+  text:
+  - '1. Information You Provide
+
+
+    Account and Profile Information: Includes your name, email address, password,
+    and any other information you choose to provide.'
+  - 'Infinity AI Privacy Policy
+
+
+    Information Collection
+
+
+    1. Information You Provide'
+- source: information you provide
+  target: password
+  key: SUBSUM
+  text:
+  - '1. Information You Provide
+
+
+    Account and Profile Information: Includes your name, email address, password,
+    and any other information you choose to provide.'
+  - 'Infinity AI Privacy Policy
+
+
+    Information Collection
+
+
+    1. Information You Provide'
+- source: information you provide
+  target: person name
+  key: SUBSUM
+  text:
+  - '1. Information You Provide
+
+
+    Account and Profile Information: Includes your name, email address, password,
+    and any other information you choose to provide.'
+  - 'Infinity AI Privacy Policy
+
+
+    Information Collection
+
+
+    1. Information You Provide'
+- source: platform
+  target: related service
+  key: SUBSUM
+  text:
+  - This Privacy Policy governs your use of our website getinfinityai.com , our application
+    app.getinfinityai.com , and any related services (collectively, the "Platform").
+nodes:
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: hosting service
+- type: ACTOR
+  id: platform
+- type: ACTOR
+  id: related service
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: communication datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about use of platform
+- type: DATA
+  id: detail of interaction with service
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information relate to integration
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: information you provide
+- type: DATA
+  id: log
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: service provisioning
+- type: DATA
+  id: traffic datum

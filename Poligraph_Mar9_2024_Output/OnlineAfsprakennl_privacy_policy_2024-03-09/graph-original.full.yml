@@ -1,0 +1,188 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If wished we can draw up a processing agreement between your and our organisation,
+    in which we capture how we process and protect the data.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For the benefit of our own website www.OnlineAfspraken.nl, we make use of cookies
+    for the purpose of Google Analytics.
+  - OA meets the cookie legislation and we only make use of functional cookies, and
+    not of third party cookies, in order to make an appointment by the Customer through
+    the website of the Service Provider.
+  purposes:
+    analytics:
+    - For the benefit of our own website www.OnlineAfspraken.nl
+    services:
+    - in order to make an appointment by the Customer through the website of the Service
+      Provider
+- source: oa
+  target: personal datum of customer
+  key: COLLECT
+  text:
+  - 'Privacy
+
+
+    2. Purposes Personal Data Processing
+
+
+    2.1. OA collects and processes personal data of the Customer for the benefit of
+    the service provider with the following purposes: (i) to allow the service provider
+    to contact the Consumer in relation to an appointment made by the Customer and
+    (ii) to send the Customer a confirmation and later a reminder of the appointment,
+    two days before the appointment takes place.'
+  purposes:
+    services:
+    - for the benefit of the service provider
+- source: we
+  target: customer management
+  key: SUBSUM
+  text:
+  - 'Products : Customer management'
+- source: we
+  target: management app
+  key: SUBSUM
+  text:
+  - 'Products : Management app'
+- source: we
+  target: marketing
+  key: SUBSUM
+  text:
+  - 'Products : Marketing'
+- source: we
+  target: online booking system
+  key: SUBSUM
+  text:
+  - 'Products : Online booking system'
+- source: we
+  target: online payment
+  key: SUBSUM
+  text:
+  - 'Products : Online payments and POS system'
+- source: we
+  target: own app
+  key: SUBSUM
+  text:
+  - 'Products : Your own app'
+- source: functionality as service provider
+  target: Google
+  key: SUBSUM
+  text:
+  - 2.2. Data retention by third parties only occurs when activating an additional
+    functionality as Service provider (e.g. a synchronization with Google/Outlook,
+    an integration with Mailchimp or Zoom or a SMS service).
+- source: functionality as service provider
+  target: integration
+  key: SUBSUM
+  text:
+  - 2.2. Data retention by third parties only occurs when activating an additional
+    functionality as Service provider (e.g. a synchronization with Google/Outlook,
+    an integration with Mailchimp or Zoom or a SMS service).
+- source: functionality as service provider
+  target: mailchimp
+  key: SUBSUM
+  text:
+  - 2.2. Data retention by third parties only occurs when activating an additional
+    functionality as Service provider (e.g. a synchronization with Google/Outlook,
+    an integration with Mailchimp or Zoom or a SMS service).
+- source: functionality as service provider
+  target: sms service
+  key: SUBSUM
+  text:
+  - 2.2. Data retention by third parties only occurs when activating an additional
+    functionality as Service provider (e.g. a synchronization with Google/Outlook,
+    an integration with Mailchimp or Zoom or a SMS service).
+- source: functionality as service provider
+  target: zoom
+  key: SUBSUM
+  text:
+  - 2.2. Data retention by third parties only occurs when activating an additional
+    functionality as Service provider (e.g. a synchronization with Google/Outlook,
+    an integration with Mailchimp or Zoom or a SMS service).
+- source: placeholder
+  target: appointment overview
+  key: SUBSUM
+  text:
+  - 'Placeholder : Management information : Appointment Overview'
+- source: placeholder
+  target: customer card
+  key: SUBSUM
+  text:
+  - 'Placeholder : Customer management : Customer Card'
+- source: placeholder
+  target: financial reports
+  key: SUBSUM
+  text:
+  - 'Placeholder : Management information : Financial Reports'
+- source: placeholder
+  target: management information
+  key: SUBSUM
+  text:
+  - 'Placeholder : Management information'
+- source: placeholder
+  target: user account
+  key: SUBSUM
+  text:
+  - 'Placeholder : Customer management : User Account'
+- source: placeholder
+  target: white label
+  key: SUBSUM
+  text:
+  - 'Placeholder 2 : Cooperation & partners : White label'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: customer management
+- type: ACTOR
+  id: functionality as service provider
+- type: ACTOR
+  id: integration
+- type: ACTOR
+  id: mailchimp
+- type: ACTOR
+  id: management app
+- type: ACTOR
+  id: marketing
+- type: ACTOR
+  id: oa
+- type: ACTOR
+  id: online booking system
+- type: ACTOR
+  id: online payment
+- type: ACTOR
+  id: own app
+- type: ACTOR
+  id: sms service
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: appointment overview
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer card
+- type: DATA
+  id: financial reports
+- type: DATA
+  id: management information
+- type: DATA
+  id: personal datum of customer
+- type: DATA
+  id: placeholder
+- type: DATA
+  id: user account
+- type: DATA
+  id: white label

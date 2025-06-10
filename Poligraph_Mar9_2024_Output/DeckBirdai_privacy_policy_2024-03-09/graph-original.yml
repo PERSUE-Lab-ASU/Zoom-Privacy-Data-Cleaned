@@ -1,0 +1,140 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+  purposes: {}
+- source: we
+  target: information receive from google api
+  key: COLLECT
+  text:
+  - DeckBird's Google App (the App) uses and transfers information received from Google
+    APIs to any other app, adhering to Google API Services User Data Policy , including
+    the Limited Use requirements.
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - 'We use the information we collect in various ways, including to:'
+  purposes: {}
+- source: Google
+  target: information receive from google api
+  key: COLLECT
+  text:
+  - DeckBird's Google App (the App) uses and transfers information received from Google
+    APIs to any other app, adhering to Google API Services User Data Policy , including
+    the Limited Use requirements.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information receive from google api
+  key: COLLECT
+  text:
+  - DeckBird's Google App (the App) uses and transfers information received from Google
+    APIs to any other app, adhering to Google API Services User Data Policy , including
+    the Limited Use requirements.
+  purposes: {}
+- source: business collect personal datum
+  target: specific piece
+  key: COLLECT
+  text:
+  - Request that a business that collects a consumer's personal data disclose the
+    categories and specific pieces of personal data that a business has collected
+    about consumers.
+  purposes: {}
+- source: deckbird
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like any other website, DeckBird uses 'cookies'.
+  purposes: {}
+- source: information about you
+  target: attachment
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: content
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: email address
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: information you choose
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: message
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: person name
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+- source: information about you
+  target: phone number
+  key: SUBSUM
+  text:
+  - If you contact us directly, we may receive additional information about you such
+    as your name, email address, phone number, the contents of the message and/or
+    attachments you may send us, and any other information you may choose to provide.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: business collect personal datum
+- type: ACTOR
+  id: deckbird
+- type: ACTOR
+  id: we
+- type: DATA
+  id: attachment
+- type: DATA
+  id: content
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information receive from google api
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: information you choose
+- type: DATA
+  id: message
+- type: DATA
+  id: person name
+- type: DATA
+  id: phone number
+- type: DATA
+  id: specific piece

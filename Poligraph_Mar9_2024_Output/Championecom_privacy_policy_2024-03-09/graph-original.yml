@@ -1,0 +1,97 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our website uses these "cookies" to collection information and to improve our
+    Service.
+  - We use cookies to enhance your browsing experience, serve personalized ads or
+    content, and analyze our traffic.
+  - We use cookies to help you navigate efficiently and perform certain functions.
+  purposes:
+    advertising:
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    analytics:
+    - collection information and to improve our Service
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    services:
+    - collection information and to improve our Service
+    - to enhance your browsing experience, serve personalized ads or content, and
+      analyze our traffic
+    - to help you navigate efficiently and perform certain functions
+- source: we
+  target: information browser send to we
+  key: COLLECT
+  text:
+  - We want to inform you that whenever you visit our Service, we collect information
+    that your browser sends to us that is called Log Data.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - For a better experience while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to your name, phone number, and postal address.
+  purposes:
+    services:
+    - For a better experience while using our Service
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In the case we discover that a child under 13 has provided us with personal information,
+    we immediately delete this from our servers.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We want to inform our Service users that these third parties have access to your
+    Personal Information.
+  purposes: {}
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - For a better experience while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to your name, phone number, and postal address.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - For a better experience while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to your name, phone number, and postal address.
+- source: personal identifier
+  target: postal address
+  key: SUBSUM
+  text:
+  - For a better experience while using our Service, we may require you to provide
+    us with certain personally identifiable information, including but not limited
+    to your name, phone number, and postal address.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: information browser send to we
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

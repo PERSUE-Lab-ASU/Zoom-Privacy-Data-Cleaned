@@ -1,0 +1,208 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - To provide you with the Services, we store, process, and transmit information
+    in the United States.
+  - We collect and associate with your account, the information you provide to us
+    when you do things such as sign up for your account, upgrade to a paid plan (like
+    your username, email address, profile picture, password, payment info, including
+    your name, credit or debit card information, billing address, and details of your
+    transaction history).
+  - 'We collect and use the following information to provide, improve, and protect
+    our Services:'
+  - We keep your information secure and continue to work on features to keep your
+    information safe in addition to things like access control list, encryption of
+    data at rest.
+  - 'We may disclose your information to third parties if we determine that such disclosure
+    is reasonably necessary to: (a) comply with any applicable law, regulation, legal
+    process, or appropriate government request; (b) prevent fraud or abuse of RaeNotes
+    or our users; (c) protect RaeNotes''s rights, property, safety, or interest; or
+    (d) perform a task carried out in the public interest.'
+  - 'With Whom we share data with:
+
+
+    We may share information as discussed below, but we won''t sell it to advertisers
+    or other third parties.'
+  purposes:
+    services:
+    - To provide you with the Services
+- source: we
+  target: content
+  key: COLLECT
+  text:
+  - To make that possible, we store, process, and transmit Your Content as well as
+    information related to it.
+  purposes:
+    services:
+    - To make that possible
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to provide, improve, and protect our Services.
+  purposes:
+    security:
+    - to provide, improve, and protect our Services
+    services:
+    - to provide, improve, and protect our Services
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - Your devices (depending on their settings) may also transmit location information
+    to the Services.
+  purposes: {}
+- source: we
+  target: information from
+  key: COLLECT
+  text:
+  - We also collect information from and about the devices you use to access the Services.
+  purposes: {}
+- source: we
+  target: information relate to
+  key: COLLECT
+  text:
+  - We collect information related to how you use the Services, including actions
+    you take in your account (like sharing, editing, viewing, and filter files or
+    folders).
+  - We use this information to improve our Services, develop new services and features,
+    and protect RaeNotes users.
+  purposes:
+    security:
+    - to improve our Services, develop new services and features, and protect RaeNotes
+      users
+    services:
+    - to improve our Services, develop new services and features, and protect RaeNotes
+      users
+- source: we
+  target: information relate to it
+  key: COLLECT
+  text:
+  - To make that possible, we store, process, and transmit Your Content as well as
+    information related to it.
+  purposes:
+    services:
+    - To make that possible
+- source: we
+  target: information you store on service
+  key: COLLECT
+  text:
+  - 'But please note: (1) there might be some latency in deleting this information
+    from our servers and back-up storage; and (2) we may retain this information if
+    necessary to comply with our legal obligations, resolve disputes, or enforce our
+    agreements.'
+  - When you sign up for an account with us, we'll retain information you store on
+    our Services for as long as your account is in existence or as long as we need
+    it to provide you the Services.
+  purposes:
+    legal:
+    - to comply with our legal obligations, resolve disputes, or enforce our agreements
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Here we describe how we collect, use, and handle your personal information when
+    you use our website, platform, and services ("Services") .
+  - We also collect and use personal data for our legitimate business needs.
+  purposes: {}
+- source: Stripe
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Stripe Inc. stores this data in the USA.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - RaeNotes uses certain trusted third parties to help us provide, improve, protect,
+    and promote our Services.
+  - These third parties will access your information only to perform tasks on our
+    behalf in compliance with this Privacy Policy, and we'll remain responsible for
+    their handling of your information per our instructions.
+  - 'We may disclose your information to third parties if we determine that such disclosure
+    is reasonably necessary to: (a) comply with any applicable law, regulation, legal
+    process, or appropriate government request; (b) prevent fraud or abuse of RaeNotes
+    or our users; (c) protect RaeNotes''s rights, property, safety, or interest; or
+    (d) perform a task carried out in the public interest.'
+  - 'Where
+
+
+    RaeNotes''s third-party providers store data in the USA.'
+  purposes:
+    services:
+    - only to perform tasks on our behalf in compliance with this Privacy Policy
+- source: office
+  target: personal information
+  key: COLLECT
+  text:
+  - If you provide Personal Data, you acknowledge and agree that such Personal Data
+    may be transferred from your current location to the offices and servers of RaeNotes
+    and the authorized third parties referred to herein located in the United States.
+  purposes: {}
+- source: raenotes
+  target: acl
+  key: COLLECT
+  text:
+  - RaeNotes uses an access-control list (ACL) to specify which users are granted
+    access to files, as well as what operations are allowed on given files.
+  purposes:
+    services:
+    - to specify which users are granted access to files, as well as what operations
+      are allowed on given files
+- source: raenotes
+  target: content
+  key: COLLECT
+  text:
+  - 'Where
+
+
+    RaeNotes stores Your Content in data centers owned and operated by Amazon Web
+    Services.'
+  purposes: {}
+- source: server
+  target: personal information
+  key: COLLECT
+  text:
+  - If you provide Personal Data, you acknowledge and agree that such Personal Data
+    may be transferred from your current location to the offices and servers of RaeNotes
+    and the authorized third parties referred to herein located in the United States.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: Stripe
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: office
+- type: ACTOR
+  id: raenotes
+- type: ACTOR
+  id: server
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: acl
+- type: DATA
+  id: content
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information from
+- type: DATA
+  id: information relate to
+- type: DATA
+  id: information relate to it
+- type: DATA
+  id: information you store on service
+- type: DATA
+  id: personal information

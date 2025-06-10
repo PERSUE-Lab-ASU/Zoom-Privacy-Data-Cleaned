@@ -1,0 +1,308 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: datum collect through zoom integration
+  key: COLLECT
+  text:
+  - We attest that we will retain data collected through our Zoom integration only
+    for as long as necessary to perform our Zoom integration's functions or other
+    purposes we have disclosed.
+  purposes:
+    analytics:
+    - to perform our Zoom integration's functions or other purposes we have disclosed
+    services:
+    - to perform our Zoom integration's functions or other purposes we have disclosed
+- source: Google
+  target: user datum on google
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Article 9 (Google API Services User Data Policy)
+
+
+    Aitemasu uses some user data on Google through the Google API.'
+  purposes: {}
+- source: aitemasu
+  target: datum from zoom
+  key: COLLECT
+  text:
+  - (11) Aitemasu will retain data from Zoom until the user disconnect zoom account
+    from our app or the user delete their account.
+  purposes: {}
+- source: aitemasu
+  target: historical information
+  key: COLLECT
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+  purposes: {}
+- source: aitemasu
+  target: personal information
+  key: COLLECT
+  text:
+  - Aitemasu will disclose personal information to the person in question without
+    delay when requested to do so by the person in question.
+  - aitemasu may ask you to provide personal information such as your name, email
+    address, and credit card number when you register to use the site.
+  - aitemasu will retain users' personal information for as long as is necessary to
+    accomplish the purposes set forth in this policy.
+  purposes: {}
+- source: aitemasu
+  target: token expire_in for
+  key: COLLECT
+  text:
+  - (13) Aitemasu will get Zoom OAuth Tokens for generating zoom meeting url, Zoom
+    ID for generating zoom meeting url, Zoom account ID for just in case and Token
+    expire_in for refreshing access token through Zoom API.
+  purposes: {}
+- source: aitemasu
+  target: user datum on google
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Article 9 (Google API Services User Data Policy)
+
+
+    Aitemasu uses some user data on Google through the Google API.'
+  purposes: {}
+- source: aitemasu
+  target: user datum on zoom through zoom api
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    Article 10 (Zoom API Services User Data Policy)
+
+
+    Aitemasu uses some user data on Zoom through the Zoom API.'
+  purposes: {}
+- source: aitemasu
+  target: zoom account id for in case
+  key: COLLECT
+  text:
+  - (13) Aitemasu will get Zoom OAuth Tokens for generating zoom meeting url, Zoom
+    ID for generating zoom meeting url, Zoom account ID for just in case and Token
+    expire_in for refreshing access token through Zoom API.
+  purposes: {}
+- source: aitemasu
+  target: zoom id for
+  key: COLLECT
+  text:
+  - (13) Aitemasu will get Zoom OAuth Tokens for generating zoom meeting url, Zoom
+    ID for generating zoom meeting url, Zoom account ID for just in case and Token
+    expire_in for refreshing access token through Zoom API.
+  purposes: {}
+- source: aitemasu
+  target: zoom oauth tokens for
+  key: COLLECT
+  text:
+  - (13) Aitemasu will get Zoom OAuth Tokens for generating zoom meeting url, Zoom
+    ID for generating zoom meeting url, Zoom account ID for just in case and Token
+    expire_in for refreshing access token through Zoom API.
+  purposes: {}
+- source: historical information
+  target: advertisement history
+  key: SUBSUM
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+- source: historical information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+- source: historical information
+  target: date
+  key: SUBSUM
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+- source: historical information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+- source: historical information
+  target: individual identification information of handset user use service of aitemasu
+  key: SUBSUM
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+- source: historical information
+  target: ip address
+  key: SUBSUM
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+- source: historical information
+  target: search keyword search
+  key: SUBSUM
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+- source: historical information
+  target: usage environment
+  key: SUBSUM
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+- source: historical information
+  target: usage method
+  key: SUBSUM
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+- source: personal information
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - aitemasu may ask you to provide personal information such as your name, email
+    address, and credit card number when you register to use the site.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - aitemasu may ask you to provide personal information such as your name, email
+    address, and credit card number when you register to use the site.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - aitemasu may ask you to provide personal information such as your name, email
+    address, and credit card number when you register to use the site.
+- source: usage environment
+  target: communication status of handset
+  key: SUBSUM
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+- source: usage environment
+  target: setting information for use
+  key: SUBSUM
+  text:
+  - aitemasu collects historical and characteristic information such as services and
+    software used, products purchased, pages viewed and advertisement history, search
+    keywords searched, date and time of use, usage method, usage environment (including
+    the communication status of the handset if used through a mobile device and various
+    setting information for use), IP address, cookie information, location information,
+    and individual identification information of the handset when users use the services
+    of aitemasu or its partners or view pages.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: aitemasu
+- type: ACTOR
+  id: we
+- type: DATA
+  id: advertisement history
+- type: DATA
+  id: communication status of handset
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: date
+- type: DATA
+  id: datum collect through zoom integration
+- type: DATA
+  id: datum from zoom
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: historical information
+- type: DATA
+  id: individual identification information of handset user use service of aitemasu
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: search keyword search
+- type: DATA
+  id: setting information for use
+- type: DATA
+  id: token expire_in for
+- type: DATA
+  id: usage environment
+- type: DATA
+  id: usage method
+- type: DATA
+  id: user datum on google
+- type: DATA
+  id: user datum on zoom through zoom api
+- type: DATA
+  id: zoom account id for in case
+- type: DATA
+  id: zoom id for
+- type: DATA
+  id: zoom oauth tokens for

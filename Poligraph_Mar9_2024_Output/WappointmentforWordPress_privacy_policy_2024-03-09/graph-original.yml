@@ -1,0 +1,158 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '3. Who we share your data with Third Party Providers :
+
+
+    We may share your information with third party providers that provide services
+    on our behalf HotJar, Google Analytics, Stripe.'
+  - 4. How long we retain your data
+  purposes: {}
+- source: we
+  target: basic profile information
+  key: COLLECT
+  text:
+  - For example, if you create or log in to your Wappointment.com account through
+    another service (like Google, Zoom, Facebook, etc...) , we'll receive information
+    from that service (e.g., your username, basic profile information) via the authorization
+    procedures for that service.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to collect navigation data and improve our website.
+  purposes: {}
+- source: we
+  target: datum show in contact form
+  key: COLLECT
+  text:
+  - When visitors contact us through our contact form on the site we collect the data
+    shown in the contact form, you can manually pick whether or not you want to send
+    that data.
+  purposes: {}
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may also get information about you from other sources.
+  purposes: {}
+- source: we
+  target: information you authorize
+  key: COLLECT
+  text:
+  - We use the information that you authorize when you first connect or give permission
+    from your account screen, for instance if you allow it we may read information
+    from your personal calendar to provide you with a 2-way sync of your appointments.
+  purposes:
+    services:
+    - to provide you with a 2-way sync of your appointments
+- source: we
+  target: navigation datum
+  key: COLLECT
+  text:
+  - We use cookies to collect navigation data and improve our website.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 2. What personal data we collect and why we collect it
+  purposes: {}
+- source: we
+  target: username
+  key: COLLECT
+  text:
+  - For example, if you create or log in to your Wappointment.com account through
+    another service (like Google, Zoom, Facebook, etc...) , we'll receive information
+    from that service (e.g., your username, basic profile information) via the authorization
+    procedures for that service.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '3. Who we share your data with Third Party Providers :
+
+
+    We may share your information with third party providers that provide services
+    on our behalf HotJar, Google Analytics, Stripe.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These websites may collect data about you, use cookies, embed additional third-party
+    tracking, and monitor your interaction with that embedded content, including tracking
+    your interaction with the embedded content if you have an account and are logged
+    in to that website.
+  - d/Embedded content from other websites
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: datum about you
+  key: COLLECT
+  text:
+  - These websites may collect data about you, use cookies, embed additional third-party
+    tracking, and monitor your interaction with that embedded content, including tracking
+    your interaction with the embedded content if you have an account and are logged
+    in to that website.
+  - d/Embedded content from other websites
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: information help
+  key: COLLECT
+  text:
+  - Both services gather information that helps us understand how visitors interact
+    with our website, which allow us to create a better experience for our visitors.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Third party providers may only process personal information in compliance with
+    Privacy Policy and other applicable regulations.
+  purposes: {}
+- source: hotjar
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - '3. Who we share your data with Third Party Providers :
+
+
+    We may share your information with third party providers that provide services
+    on our behalf HotJar, Google Analytics, Stripe.'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: hotjar
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: basic profile information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about you
+- type: DATA
+  id: datum show in contact form
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information help
+- type: DATA
+  id: information you authorize
+- type: DATA
+  id: navigation datum
+- type: DATA
+  id: personal information
+- type: DATA
+  id: username

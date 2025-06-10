@@ -1,0 +1,341 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Company automatically collects data when User visits, interacts with, or uses
+    the Site and/or the Platform, including but not limited to: 2.2.1. identifiers
+    and information contained in cookies; 2.2.2. User''s settings preferences, backup
+    information; 2.2.3. Uniform Resource Locators (URL) clickstream to, through, and
+    from the Site and/or the Platform; 2.2.4. content User viewed or searched for,
+    page response times, and page interaction information (such as scrolling, clicks,
+    and mouse-overs); 2.2.5. network and connection information, such as the Internet
+    protocol (IP) address and information about User''s Internet service provider;
+    2.2.6. computer and device information, such as browser type and version, operating
+    system, or time zone setting; the location of device.'
+  purposes: {}
+- source: we
+  target: communication send
+  key: COLLECT
+  text:
+  - 'In the following cases Company may disclose, without notification, Personal Data,
+    any communications sent or received by each User, and any other information that
+    Company has collected and/or was provided with: 5.1.1. If required to do so by
+    law according to its understanding of such law (including, but not limited to,
+    in cases of court orders or subpoenas); 5.1.2. To verify the information obtained
+    by Company; 5.1.3. To prevent or investigate suspected fraud, or any activity
+    that Company believes may be illegal or may expose Company to legal liability;
+    5.1.4. Events involving potential threats to the physical safety of any person
+    or property if Company believes that User''s information in any way relates to
+    that threat; 5.1.5.'
+  purposes:
+    security:
+    - To prevent or investigate suspected fraud, or any activity that Company believes
+      may be illegal or may expose Company to legal liability;
+    - To verify the information obtained by Company
+- source: we
+  target: computer information
+  key: COLLECT
+  text:
+  - 'Company automatically collects data when User visits, interacts with, or uses
+    the Site and/or the Platform, including but not limited to: 2.2.1. identifiers
+    and information contained in cookies; 2.2.2. User''s settings preferences, backup
+    information; 2.2.3. Uniform Resource Locators (URL) clickstream to, through, and
+    from the Site and/or the Platform; 2.2.4. content User viewed or searched for,
+    page response times, and page interaction information (such as scrolling, clicks,
+    and mouse-overs); 2.2.5. network and connection information, such as the Internet
+    protocol (IP) address and information about User''s Internet service provider;
+    2.2.6. computer and device information, such as browser type and version, operating
+    system, or time zone setting; the location of device.'
+  purposes: {}
+- source: we
+  target: datum user provide company with via site
+  key: COLLECT
+  text:
+  - 'Company collects any data User provides Company with via the Site and/or the
+    Platform, including but not limited to: 2.1.1. User''s contact details (e.g. name,
+    surname email address, phone number); 2.1.2. User''s IP address; 2.1.3. User''s
+    LinkedIn profile URL;'
+  purposes: {}
+- source: we
+  target: geolocation
+  key: COLLECT
+  text:
+  - 'Company automatically collects data when User visits, interacts with, or uses
+    the Site and/or the Platform, including but not limited to: 2.2.1. identifiers
+    and information contained in cookies; 2.2.2. User''s settings preferences, backup
+    information; 2.2.3. Uniform Resource Locators (URL) clickstream to, through, and
+    from the Site and/or the Platform; 2.2.4. content User viewed or searched for,
+    page response times, and page interaction information (such as scrolling, clicks,
+    and mouse-overs); 2.2.5. network and connection information, such as the Internet
+    protocol (IP) address and information about User''s Internet service provider;
+    2.2.6. computer and device information, such as browser type and version, operating
+    system, or time zone setting; the location of device.'
+  purposes: {}
+- source: we
+  target: information company collect
+  key: COLLECT
+  text:
+  - 'In the following cases Company may disclose, without notification, Personal Data,
+    any communications sent or received by each User, and any other information that
+    Company has collected and/or was provided with: 5.1.1. If required to do so by
+    law according to its understanding of such law (including, but not limited to,
+    in cases of court orders or subpoenas); 5.1.2. To verify the information obtained
+    by Company; 5.1.3. To prevent or investigate suspected fraud, or any activity
+    that Company believes may be illegal or may expose Company to legal liability;
+    5.1.4. Events involving potential threats to the physical safety of any person
+    or property if Company believes that User''s information in any way relates to
+    that threat; 5.1.5.'
+  purposes:
+    security:
+    - To prevent or investigate suspected fraud, or any activity that Company believes
+      may be illegal or may expose Company to legal liability;
+    - To verify the information obtained by Company
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'Company collects any data User provides Company with via the Site and/or the
+    Platform, including but not limited to: 2.1.1. User''s contact details (e.g. name,
+    surname email address, phone number); 2.1.2. User''s IP address; 2.1.3. User''s
+    LinkedIn profile URL;'
+  purposes: {}
+- source: we
+  target: linkedin profile url
+  key: COLLECT
+  text:
+  - 'Company collects any data User provides Company with via the Site and/or the
+    Platform, including but not limited to: 2.1.1. User''s contact details (e.g. name,
+    surname email address, phone number); 2.1.2. User''s IP address; 2.1.3. User''s
+    LinkedIn profile URL;'
+  purposes: {}
+- source: we
+  target: network information
+  key: COLLECT
+  text:
+  - 'Company automatically collects data when User visits, interacts with, or uses
+    the Site and/or the Platform, including but not limited to: 2.2.1. identifiers
+    and information contained in cookies; 2.2.2. User''s settings preferences, backup
+    information; 2.2.3. Uniform Resource Locators (URL) clickstream to, through, and
+    from the Site and/or the Platform; 2.2.4. content User viewed or searched for,
+    page response times, and page interaction information (such as scrolling, clicks,
+    and mouse-overs); 2.2.5. network and connection information, such as the Internet
+    protocol (IP) address and information about User''s Internet service provider;
+    2.2.6. computer and device information, such as browser type and version, operating
+    system, or time zone setting; the location of device.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - Company will at all times comply with all Applicable Data Protection Laws (including
+    the CCPA) to the extent applicable, and only process Personal Data on User's behalf.
+  - Company will retain Users Personal Data for a period of time consistent with the
+    purpose of collection and in accordance with Applicable Data Protection Law. 9.2.
+    Without derogating from the generality of the foregoing, Company will cease the
+    retention and delete any retained Personal Data of User upon the earlier of (i)
+    any termination or expiration of the Terms between User and Company, or (ii) User's
+    deletion request, as set forth below.
+  - In addition, Company may be required to disclose Personal Data to relevant national,
+    state and local law enforcement authorities, whom may further disclose the Personal
+    Data.
+  - In some cases, Company may need User to provide Company with additional information,
+    which may include Personal Data, if necessary to verify User's identity and the
+    nature of User's request.
+  - 'In the following cases Company may disclose, without notification, Personal Data,
+    any communications sent or received by each User, and any other information that
+    Company has collected and/or was provided with: 5.1.1. If required to do so by
+    law according to its understanding of such law (including, but not limited to,
+    in cases of court orders or subpoenas); 5.1.2. To verify the information obtained
+    by Company; 5.1.3. To prevent or investigate suspected fraud, or any activity
+    that Company believes may be illegal or may expose Company to legal liability;
+    5.1.4. Events involving potential threats to the physical safety of any person
+    or property if Company believes that User''s information in any way relates to
+    that threat; 5.1.5.'
+  - 'The Company processes User''s Personal Data to operate, provide, and improve
+    the Site and/or the Platform, including but not limited to: 4.1.1. creating and
+    managing User profiles; 4.1.2. providing the security analysis reports, the Site
+    and the Platform; 4.1.3. contacting User by the Company and communicating with
+    User with respect to the Site and/or the Platform, e.g. by phone call, sms, email,
+    chat; responding to inquiries from User; 4.1.4. providing assistance and support;
+    4.1.5. fulfilling User requests; meeting contractual or legal obligations; 4.1.6.
+    informing User about updates or offers; 4.1.7. marketing and promoting the Site
+    and/or the Platform; 4.1.8. protecting Users security, e.g. preventing and detecting
+    fraud; 4.1.9. internal purposes, e.g. trouble shooting, data analysis, testing
+    and statistical purposes.'
+  - User may ask whether Company holds Personal Data about User and request copies
+    of such Personal Data and information about how it is processed; 10.2.1.2.
+  purposes:
+    security:
+    - To prevent or investigate suspected fraud, or any activity that Company believes
+      may be illegal or may expose Company to legal liability;
+    - To verify the information obtained by Company
+    - to verify User's identity and the nature of User's request
+    services:
+    - to operate, provide, and improve the Site and/or the Platform
+- source: we
+  target: user datum
+  key: COLLECT
+  text:
+  - Company currently stores User data in Company's data centers located in the USA.
+  purposes: {}
+- source: Hotjar
+  target: browser information
+  key: COLLECT
+  text:
+  - Hotjar stores this information on Company's behalf in a pseudonymized user profile.
+  - This includes a device's IP address (processed during User session and stored
+    in a de-identified form), device screen size, device type (unique device identifiers),
+    browser information, geographic location (country only), and the preferred language
+    used to display the Company Site or Platform.
+  purposes: {}
+- source: Hotjar
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Hotjar uses cookies and other technologies to collect data on Company's Users'
+    behavior and their devices.
+  purposes: {}
+- source: Hotjar
+  target: datum on behavior
+  key: COLLECT
+  text:
+  - Hotjar uses cookies and other technologies to collect data on Company's Users'
+    behavior and their devices.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 3.2. By clicking on a link to a third-party website or service, a third party
+    may transmit cookies to User.
+  purposes: {}
+- source: relevant national law enforcement authority
+  target: personal information
+  key: COLLECT
+  text:
+  - In addition, Company may be required to disclose Personal Data to relevant national,
+    state and local law enforcement authorities, whom may further disclose the Personal
+    Data.
+  purposes: {}
+- source: user
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 3.2. By clicking on a link to a third-party website or service, a third party
+    may transmit cookies to User.
+  purposes: {}
+- source: user
+  target: personal information
+  key: COLLECT
+  text:
+  - In some cases, Company may need User to provide Company with additional information,
+    which may include Personal Data, if necessary to verify User's identity and the
+    nature of User's request.
+  purposes:
+    security:
+    - to verify User's identity and the nature of User's request
+- source: computer information
+  target: browser type
+  key: SUBSUM
+  text:
+  - 'Company automatically collects data when User visits, interacts with, or uses
+    the Site and/or the Platform, including but not limited to: 2.2.1. identifiers
+    and information contained in cookies; 2.2.2. User''s settings preferences, backup
+    information; 2.2.3. Uniform Resource Locators (URL) clickstream to, through, and
+    from the Site and/or the Platform; 2.2.4. content User viewed or searched for,
+    page response times, and page interaction information (such as scrolling, clicks,
+    and mouse-overs); 2.2.5. network and connection information, such as the Internet
+    protocol (IP) address and information about User''s Internet service provider;
+    2.2.6. computer and device information, such as browser type and version, operating
+    system, or time zone setting; the location of device.'
+- source: computer information
+  target: time zone setting
+  key: SUBSUM
+  text:
+  - 'Company automatically collects data when User visits, interacts with, or uses
+    the Site and/or the Platform, including but not limited to: 2.2.1. identifiers
+    and information contained in cookies; 2.2.2. User''s settings preferences, backup
+    information; 2.2.3. Uniform Resource Locators (URL) clickstream to, through, and
+    from the Site and/or the Platform; 2.2.4. content User viewed or searched for,
+    page response times, and page interaction information (such as scrolling, clicks,
+    and mouse-overs); 2.2.5. network and connection information, such as the Internet
+    protocol (IP) address and information about User''s Internet service provider;
+    2.2.6. computer and device information, such as browser type and version, operating
+    system, or time zone setting; the location of device.'
+- source: network information
+  target: information about internet service provider
+  key: SUBSUM
+  text:
+  - 'Company automatically collects data when User visits, interacts with, or uses
+    the Site and/or the Platform, including but not limited to: 2.2.1. identifiers
+    and information contained in cookies; 2.2.2. User''s settings preferences, backup
+    information; 2.2.3. Uniform Resource Locators (URL) clickstream to, through, and
+    from the Site and/or the Platform; 2.2.4. content User viewed or searched for,
+    page response times, and page interaction information (such as scrolling, clicks,
+    and mouse-overs); 2.2.5. network and connection information, such as the Internet
+    protocol (IP) address and information about User''s Internet service provider;
+    2.2.6. computer and device information, such as browser type and version, operating
+    system, or time zone setting; the location of device.'
+- source: network information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Company automatically collects data when User visits, interacts with, or uses
+    the Site and/or the Platform, including but not limited to: 2.2.1. identifiers
+    and information contained in cookies; 2.2.2. User''s settings preferences, backup
+    information; 2.2.3. Uniform Resource Locators (URL) clickstream to, through, and
+    from the Site and/or the Platform; 2.2.4. content User viewed or searched for,
+    page response times, and page interaction information (such as scrolling, clicks,
+    and mouse-overs); 2.2.5. network and connection information, such as the Internet
+    protocol (IP) address and information about User''s Internet service provider;
+    2.2.6. computer and device information, such as browser type and version, operating
+    system, or time zone setting; the location of device.'
+nodes:
+- type: ACTOR
+  id: Hotjar
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: relevant national law enforcement authority
+- type: ACTOR
+  id: user
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: communication send
+- type: DATA
+  id: computer information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum on behavior
+- type: DATA
+  id: datum user provide company with via site
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information about internet service provider
+- type: DATA
+  id: information company collect
+- type: DATA
+  id: ip address
+- type: DATA
+  id: linkedin profile url
+- type: DATA
+  id: network information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: time zone setting
+- type: DATA
+  id: user datum

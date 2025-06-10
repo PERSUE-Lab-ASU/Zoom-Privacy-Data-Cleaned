@@ -1,0 +1,335 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - When you register as a Customer and use the Services we will collect the following
+    information as listed below.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We retain web cookies for up to two weeks whenever the user logs out of Services.
+  - We use session cookies to retain login status and state in a particular session
+    when using Airgram via a web browser.
+  purposes:
+    services:
+    - to retain login status and state in a particular session when using Airgram
+      via a web browser
+- source: we
+  target: copy of recording
+  key: COLLECT
+  text:
+  - We store a copy of the recording, the associated transcript, speaker ID, key phrases,
+    and other related metadata until it is deleted by the user.
+  purposes: {}
+- source: we
+  target: customer datum
+  key: COLLECT
+  text:
+  - We may also share Personal Information or Customer Data as necessary to comply
+    with legal or regulatory requirements and to respond to lawful requests, court
+    orders, and legal processes, as well as, to protect and defend the rights, property,
+    or safety of us or third parties, including enforcing contracts or policies, or
+    in connection with investigating and preventing fraud.
+  purposes:
+    legal:
+    - to comply with legal or regulatory requirements and to respond to lawful requests,
+      court orders, and legal processes, as well as, to protect and defend the rights,
+      property, or safety of us or third parties, including enforcing contracts or
+      policies, or in connection with investigating and preventing fraud
+    security:
+    - to comply with legal or regulatory requirements and to respond to lawful requests,
+      court orders, and legal processes, as well as, to protect and defend the rights,
+      property, or safety of us or third parties, including enforcing contracts or
+      policies, or in connection with investigating and preventing fraud
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We keep your email address until you delete your account by sending an email to
+    support@airgram.io .
+  purposes: {}
+- source: we
+  target: information we collect
+  key: COLLECT
+  text:
+  - With Whom We May Share Information We Collect
+  purposes: {}
+- source: we
+  target: instruction on
+  key: COLLECT
+  text:
+  - Customer provides us with instructions on what to do with Customer Data.
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We will retain no record of any personal data, usage data, or other information.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may also share Personal Information or Customer Data as necessary to comply
+    with legal or regulatory requirements and to respond to lawful requests, court
+    orders, and legal processes, as well as, to protect and defend the rights, property,
+    or safety of us or third parties, including enforcing contracts or policies, or
+    in connection with investigating and preventing fraud.
+  purposes:
+    legal:
+    - to comply with legal or regulatory requirements and to respond to lawful requests,
+      court orders, and legal processes, as well as, to protect and defend the rights,
+      property, or safety of us or third parties, including enforcing contracts or
+      policies, or in connection with investigating and preventing fraud
+    security:
+    - to comply with legal or regulatory requirements and to respond to lawful requests,
+      court orders, and legal processes, as well as, to protect and defend the rights,
+      property, or safety of us or third parties, including enforcing contracts or
+      policies, or in connection with investigating and preventing fraud
+- source: we
+  target: record conversation from third party source
+  key: COLLECT
+  text:
+  - We process all recorded conversations from third-party sources the same way we
+    process recordings directly captured via the Services, but we will not use any
+    data in aggregate for Automatic Speech Recognition (ASR).
+  purposes: {}
+- source: we
+  target: resultant transcript
+  key: COLLECT
+  text:
+  - We process the resultant transcript to create an AI summary, provide information,
+    and answer questions through an AI chatbot interface (Airgram Chat).
+  - We process the resultant transcript to derive key phrases and other summary data
+    and assign a speaker ID if the speaker is enrolled by the user.
+  purposes:
+    analytics:
+    - to create an AI summary, provide information, and answer questions through an
+      AI chatbot interface (Airgram Chat)
+    - to derive key phrases and other summary data
+    services:
+    - to create an AI summary, provide information, and answer questions through an
+      AI chatbot interface (Airgram Chat)
+- source: we
+  target: service provide
+  key: COLLECT
+  text:
+  - We use services provided by a number of third parties to process usage and certain
+    device data for business intelligence and troubleshooting purposes.
+  purposes:
+    analytics:
+    - to process usage and certain device data for business intelligence and troubleshooting
+      purposes
+- source: we
+  target: store credential
+  key: COLLECT
+  text:
+  - We may use stored credentials including API keys, to access these services.
+  purposes:
+    services:
+    - to access these services
+- source: we
+  target: transcript
+  key: COLLECT
+  text:
+  - We may also share transcripts with AI (such as GPT or Claude) to create AI-generated
+    content (including AI summary, AI chatbot, and other AI features).
+  purposes:
+    services:
+    - to create AI-generated content (including AI summary, AI chatbot, and other
+      AI features)
+- source: we
+  target: zoom information
+  key: COLLECT
+  text:
+  - We keep your Zoom information until you disconnect Zoom or delete your account.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - These third parties may use cookies, web beacons, or other unique identifiers
+    to track your use of the Services.
+  purposes:
+    analytics:
+    - to track your use of the Services
+- source: UNSPECIFIED_ACTOR
+  target: identifier
+  key: COLLECT
+  text:
+  - These third parties may use cookies, web beacons, or other unique identifiers
+    to track your use of the Services.
+  purposes:
+    analytics:
+    - to track your use of the Services
+- source: ai
+  target: transcript
+  key: COLLECT
+  text:
+  - We may also share transcripts with AI (such as GPT or Claude) to create AI-generated
+    content (including AI summary, AI chatbot, and other AI features).
+  purposes:
+    services:
+    - to create AI-generated content (including AI summary, AI chatbot, and other
+      AI features)
+- source: airgram
+  target: authorization status
+  key: COLLECT
+  text:
+  - If you successfully authorized Zoom, Airgram will collect your Zoom meeting information,
+    Zoom UID, and authorization status.
+  purposes: {}
+- source: airgram
+  target: zoom meeting information
+  key: COLLECT
+  text:
+  - If you successfully authorized Zoom, Airgram will collect your Zoom meeting information,
+    Zoom UID, and authorization status.
+  purposes: {}
+- source: airgram
+  target: zoom uid
+  key: COLLECT
+  text:
+  - If you successfully authorized Zoom, Airgram will collect your Zoom meeting information,
+    Zoom UID, and authorization status.
+  purposes: {}
+- source: customer
+  target: instruction on
+  key: COLLECT
+  text:
+  - Customer provides us with instructions on what to do with Customer Data.
+  purposes: {}
+- source: ai
+  target: claude
+  key: SUBSUM
+  text:
+  - We may also share transcripts with AI (such as GPT or Claude) to create AI-generated
+    content (including AI summary, AI chatbot, and other AI features).
+- source: ai
+  target: gpt
+  key: SUBSUM
+  text:
+  - We may also share transcripts with AI (such as GPT or Claude) to create AI-generated
+    content (including AI summary, AI chatbot, and other AI features).
+- source: datum of user
+  target: agenda
+  key: SUBSUM
+  text:
+  - Third-party service (except AI) will not collect or restore any data of our users,
+    such as audio, transcriptions, agendas, notes, messages, and other information
+    in Airgram.
+- source: datum of user
+  target: audio
+  key: SUBSUM
+  text:
+  - Third-party service (except AI) will not collect or restore any data of our users,
+    such as audio, transcriptions, agendas, notes, messages, and other information
+    in Airgram.
+- source: datum of user
+  target: message
+  key: SUBSUM
+  text:
+  - Third-party service (except AI) will not collect or restore any data of our users,
+    such as audio, transcriptions, agendas, notes, messages, and other information
+    in Airgram.
+- source: datum of user
+  target: note
+  key: SUBSUM
+  text:
+  - Third-party service (except AI) will not collect or restore any data of our users,
+    such as audio, transcriptions, agendas, notes, messages, and other information
+    in Airgram.
+- source: generate content
+  target: ai feature
+  key: SUBSUM
+  text:
+  - We may also share transcripts with AI (such as GPT or Claude) to create AI-generated
+    content (including AI summary, AI chatbot, and other AI features).
+- source: store credential
+  target: api key
+  key: SUBSUM
+  text:
+  - We may use stored credentials including API keys, to access these services.
+- source: type of local datum storage
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - In addition, the browser you use may provide you with the ability to control cookies
+    or other types of local data storage.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: ai
+- type: ACTOR
+  id: ai feature
+- type: ACTOR
+  id: airgram
+- type: ACTOR
+  id: claude
+- type: ACTOR
+  id: customer
+- type: ACTOR
+  id: generate content
+- type: ACTOR
+  id: gpt
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: agenda
+- type: DATA
+  id: api key
+- type: DATA
+  id: audio
+- type: DATA
+  id: authorization status
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: copy of recording
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: datum of user
+- type: DATA
+  id: email address
+- type: DATA
+  id: identifier
+- type: DATA
+  id: information we collect
+- type: DATA
+  id: instruction on
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: message
+- type: DATA
+  id: note
+- type: DATA
+  id: personal information
+- type: DATA
+  id: record conversation from third party source
+- type: DATA
+  id: resultant transcript
+- type: DATA
+  id: service provide
+- type: DATA
+  id: store credential
+- type: DATA
+  id: transcript
+- type: DATA
+  id: type of local datum storage
+- type: DATA
+  id: zoom information
+- type: DATA
+  id: zoom meeting information
+- type: DATA
+  id: zoom uid

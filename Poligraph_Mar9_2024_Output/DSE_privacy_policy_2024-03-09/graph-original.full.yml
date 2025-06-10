@@ -1,0 +1,268 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We  share your data with external third parties, as detailed below in Part 10,
+    that are based outside of the EEA.
+  - We  share your data within the group of companies of which we are  OR  I am a
+    part.
+  - What Data We Use
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - First-party Cookies are those placed directly by  us  and are used only by  us  .  We  use
+    Cookies to facilitate and improve your experience of  Our  Site and to provide
+    and improve  Our  products  AND/OR  services.
+  - Our  Site may place and access certain first-party Cookies on your computer or
+    device.
+  purposes:
+    services:
+    - to facilitate and improve your experience of
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - In some circumstances, where permitted or required by law, we may process your
+    personal data without your knowledge or consent.
+  - In some limited circumstances, we may be legally required to share certain personal
+    data, which might include yours, if we are involved in legal proceedings or complying
+    with legal obligations, a court order, or the instructions of a government authority.
+  - We  may share your personal data with other companies in  Our  group if they are
+    required to deliver our service, but we will inform you of this if we plan to
+    do so. This includes subsidiaries  AND/OR Our  holding company and its subsidiaries.
+  - We respect and value the privacy of everyone who visits this website, sheqnetwork  .com
+    ("Our Site") and will only collect and use personal data in ways that are described
+    here, and in a way that is consistent with Our obligations and your rights under
+    the law.
+  - We will only use your personal data for the purposes for which it was originally
+    collected unless We reasonably believe that another purpose is compatible with
+    that or those original purposes and need to use your personal data for that purpose.
+  - where  permitted by law, we may also use your personal data for marketing purposes,
+    which may include contacting you by email AND/OR telephone AND/OR text message
+    AND/OR post with information, news, and offers on Our products AND/OR services.
+  purposes:
+    advertising:
+    - for marketing purposes, which may include contacting you by email AND/OR telephone
+      AND/OR text message AND/OR post with information, news, and offers on Our products
+      AND/OR services
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We  share your data with external third parties, as detailed below in Part 10,
+    that are based outside of the EEA.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - If We sell, transfer, or merge parts of Our business or assets, your personal
+    data may be transferred to a third party.
+  - If we sell, transfer, or merge parts of Our business or assets, your personal
+    data may be transferred to a third party.
+  purposes: {}
+- source: company in
+  target: personal information
+  key: COLLECT
+  text:
+  - We  may share your personal data with other companies in  Our  group if they are
+    required to deliver our service, but we will inform you of this if we plan to
+    do so. This includes subsidiaries  AND/OR Our  holding company and its subsidiaries.
+  purposes: {}
+- source: third country deem
+  target: personal information
+  key: COLLECT
+  text:
+  - We  will only transfer your personal data to third countries whose levels of data
+    protection are deemed 'adequate' by the European Commission.
+  purposes: {}
+- source: third party content appear on site
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Third Parties whose content appears on Our Site may use third-party Cookies, as
+    detailed below in Part 14.
+  purposes: {}
+- source: business information
+  target: business name
+  key: SUBSUM
+  text:
+  - Business information including business name, job title, profession, company name
+- source: business information
+  target: company name
+  key: SUBSUM
+  text:
+  - Business information including business name, job title, profession, company name
+- source: business information
+  target: job title
+  key: SUBSUM
+  text:
+  - Business information including business name, job title, profession, company name
+- source: business information
+  target: profession
+  key: SUBSUM
+  text:
+  - Business information including business name, job title, profession, company name
+- source: complete response
+  target: copy of personal datum within time
+  key: SUBSUM
+  text:
+  - Normally,  We  aim to provide a complete response, including a copy of your personal
+    data within that time.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - Contact information including email address.
+- source: identity information
+  target: person name
+  key: SUBSUM
+  text:
+  - Identity Information including name,
+- source: less obvious information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - Personal data covers obvious information such as your name and contact details,
+    but it also covers less obvious information such as identification numbers, electronic
+    location data, and other online identifiers.
+- source: less obvious information
+  target: identification number
+  key: SUBSUM
+  text:
+  - Personal data covers obvious information such as your name and contact details,
+    but it also covers less obvious information such as identification numbers, electronic
+    location data, and other online identifiers.
+- source: less obvious information
+  target: online identifier
+  key: SUBSUM
+  text:
+  - Personal data covers obvious information such as your name and contact details,
+    but it also covers less obvious information such as identification numbers, electronic
+    location data, and other online identifiers.
+- source: obvious information
+  target: contact information
+  key: SUBSUM
+  text:
+  - Personal data covers obvious information such as your name and contact details,
+    but it also covers less obvious information such as identification numbers, electronic
+    location data, and other online identifiers.
+- source: obvious information
+  target: person name
+  key: SUBSUM
+  text:
+  - Personal data covers obvious information such as your name and contact details,
+    but it also covers less obvious information such as identification numbers, electronic
+    location data, and other online identifiers.
+- source: profile information
+  target: password
+  key: SUBSUM
+  text:
+  - Profile information including username and password, purchase history.
+- source: profile information
+  target: purchase history
+  key: SUBSUM
+  text:
+  - Profile information including username and password, purchase history.
+- source: profile information
+  target: username
+  key: SUBSUM
+  text:
+  - Profile information including username and password, purchase history.
+- source: technical information
+  target: browser type
+  key: SUBSUM
+  text:
+  - "Privacy Policy\n\n8. How Long Will You Keep My Personal Data?  \n\nTechnical
+    information including IP address, browser type and version, operating system"
+- source: technical information
+  target: ip address
+  key: SUBSUM
+  text:
+  - "Privacy Policy\n\n8. How Long Will You Keep My Personal Data?  \n\nTechnical
+    information including IP address, browser type and version, operating system"
+- source: technical information
+  target: operating system
+  key: SUBSUM
+  text:
+  - "Privacy Policy\n\n8. How Long Will You Keep My Personal Data?  \n\nTechnical
+    information including IP address, browser type and version, operating system"
+- source: technical information
+  target: version
+  key: SUBSUM
+  text:
+  - "Privacy Policy\n\n8. How Long Will You Keep My Personal Data?  \n\nTechnical
+    information including IP address, browser type and version, operating system"
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: company in
+- type: ACTOR
+  id: complete response
+- type: ACTOR
+  id: copy of personal datum within time
+- type: ACTOR
+  id: third country deem
+- type: ACTOR
+  id: third party content appear on site
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: business information
+- type: DATA
+  id: business name
+- type: DATA
+  id: company name
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identification number
+- type: DATA
+  id: identity information
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job title
+- type: DATA
+  id: less obvious information
+- type: DATA
+  id: obvious information
+- type: DATA
+  id: online identifier
+- type: DATA
+  id: operating system
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: profession
+- type: DATA
+  id: profile information
+- type: DATA
+  id: purchase history
+- type: DATA
+  id: technical information
+- type: DATA
+  id: username
+- type: DATA
+  id: version

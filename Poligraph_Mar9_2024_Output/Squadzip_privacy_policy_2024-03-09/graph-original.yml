@@ -1,0 +1,65 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies to record current session information, but do not use permanent
+    cookies.
+  purposes:
+    analytics:
+    - to record current session information
+    services:
+    - to record current session information
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'Use of Information we collect
+
+
+    Digital Space Explorer, Inc. through our Squadzip platform and as a result of
+    a subscription agreement with our enterprise customers, collects your full name
+    along with your corporate contact information - your corporate email, designation
+    and corporate contact number.'
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may disclose personally identifiable information under special circumstances,
+    such as to comply with subpoenas or when your actions violate the Terms of Service.
+  purposes: {}
+- source: squadzip
+  target: personal information
+  key: COLLECT
+  text:
+  - This privacy policy describes how Squadzip collects and uses the personal and
+    corporate information you provide us and it also describes the choices available
+    to you regarding our use of your personal information and how you can access and
+    update this information.
+  purposes: {}
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - A cookie is a small amount of data, which often includes an anonymous unique identifier,
+    that is sent to your browser from a web site's computers and stored on your computer's
+    hard drive.
+nodes:
+- type: ACTOR
+  id: squadzip
+- type: ACTOR
+  id: we
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information

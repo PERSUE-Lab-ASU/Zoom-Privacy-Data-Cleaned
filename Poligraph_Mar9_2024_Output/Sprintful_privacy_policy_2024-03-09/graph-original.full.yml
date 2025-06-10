@@ -1,0 +1,197 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: browser information
+  key: COLLECT
+  text:
+  - 'Data Collected Automatically : this includes IP address, browser information,
+    and operating system information.'
+  - We use this data to customize content for you and present you with Services in
+    the best way possible, and educate our internal metrics on traffic sources and
+    content popularity.
+  - Whenever you interact with our Services, we receive and store this information
+    in our own systems or in 3rd-party systems, and install a unique identifier (commonly
+    known as "cookie") to recognize you in future interactions.
+  purposes:
+    analytics:
+    - to customize content for you and present you with Services in the best way possible,
+      and educate our internal metrics on traffic sources and content popularity
+    services:
+    - to customize content for you and present you with Services in the best way possible,
+      and educate our internal metrics on traffic sources and content popularity
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - They may also use web logs or web beacons and may set and access cookies on your
+    computer or other device.
+  - When a user browses or uses the Services, these third party analytics services
+    may collect the user's IP address, browser type, and approximate location (based
+    on the IP address).
+  purposes: {}
+- source: we
+  target: datum we require
+  key: COLLECT
+  text:
+  - We store exactly and only the data that we require for Sprintful to function as
+    expected.
+  purposes: {}
+- source: we
+  target: direct information collect from usage
+  key: COLLECT
+  text:
+  - 'Data Collected from Usage : by authorizing and integrating Sprintful with your
+    extenral accounts, we store direct information collected from your usage.'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - In order to refine our understanding of user engagement, we provide these services
+    with a user's name and email address (which we collected as part of the user's
+    account registration process).
+  purposes:
+    analytics:
+    - In order to refine our understanding of user engagement
+- source: we
+  target: information about meeting create
+  key: COLLECT
+  text:
+  - In addition to your profile (name, email address, ip, browser), we also store
+    information about meetings created using Sprintful, such as the name of the meeting,
+    the times, the attendees, etc.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - In order to refine our understanding of user engagement, we provide these services
+    with a user's name and email address (which we collected as part of the user's
+    account registration process).
+  purposes:
+    analytics:
+    - In order to refine our understanding of user engagement
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We retain your personal information for the period necessary to fulfill the purposes
+    outlined in this Privacy Policy, unless a longer retention period is required
+    or allowed by law or to otherwise fulfill a legal obligation.
+  purposes: {}
+- source: we
+  target: web log
+  key: COLLECT
+  text:
+  - They may also use web logs or web beacons and may set and access cookies on your
+    computer or other device.
+  - When a user browses or uses the Services, these third party analytics services
+    may collect the user's IP address, browser type, and approximate location (based
+    on the IP address).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: email address
+  key: COLLECT
+  text:
+  - In order to refine our understanding of user engagement, we provide these services
+    with a user's name and email address (which we collected as part of the user's
+    account registration process).
+  purposes:
+    analytics:
+    - In order to refine our understanding of user engagement
+- source: UNSPECIFIED_ACTOR
+  target: person name
+  key: COLLECT
+  text:
+  - In order to refine our understanding of user engagement, we provide these services
+    with a user's name and email address (which we collected as part of the user's
+    account registration process).
+  purposes:
+    analytics:
+    - In order to refine our understanding of user engagement
+- source: analytic provider
+  target: browser type
+  key: COLLECT
+  text:
+  - 'Data Collected by Third Party : we use third party analytics services in order
+    to better understand user engagement with the Services.'
+  - When a user browses or uses the Services, these third party analytics services
+    may collect the user's IP address, browser type, and approximate location (based
+    on the IP address).
+  purposes: {}
+- source: analytic provider
+  target: coarse geolocation
+  key: COLLECT
+  text:
+  - 'Data Collected by Third Party : we use third party analytics services in order
+    to better understand user engagement with the Services.'
+  - When a user browses or uses the Services, these third party analytics services
+    may collect the user's IP address, browser type, and approximate location (based
+    on the IP address).
+  purposes: {}
+- source: analytic provider
+  target: ip address
+  key: COLLECT
+  text:
+  - 'Data Collected by Third Party : we use third party analytics services in order
+    to better understand user engagement with the Services.'
+  - When a user browses or uses the Services, these third party analytics services
+    may collect the user's IP address, browser type, and approximate location (based
+    on the IP address).
+  purposes: {}
+- source: sprintful
+  target: minimum access permission
+  key: COLLECT
+  text:
+  - If you choose to integrate Sprintful with your other services (such as calendars,
+    video conferencing tools, chat systems, etc), then Sprintful will need the minimum
+    access permissions in order to integrate with these services.
+  purposes:
+    services:
+    - in order to integrate with these services
+- source: information about meeting create
+  target: name of meeting
+  key: SUBSUM
+  text:
+  - In addition to your profile (name, email address, ip, browser), we also store
+    information about meetings created using Sprintful, such as the name of the meeting,
+    the times, the attendees, etc.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: sprintful
+- type: ACTOR
+  id: we
+- type: DATA
+  id: browser information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: coarse geolocation
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum we require
+- type: DATA
+  id: direct information collect from usage
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about meeting create
+- type: DATA
+  id: ip address
+- type: DATA
+  id: minimum access permission
+- type: DATA
+  id: name of meeting
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: web log

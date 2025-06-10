@@ -1,0 +1,147 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: credential
+  key: COLLECT
+  text:
+  - When exercising your rights, we may request credentials for verification and seek
+    additional information to comprehend the nature and scope of your request.
+  purposes: {}
+- source: we
+  target: information provide for legal purpose
+  key: COLLECT
+  text:
+  - We retain additional information provided for legal purposes.
+  purposes: {}
+- source: we
+  target: password
+  key: COLLECT
+  text:
+  - We don't receive or store passwords for these third-party services but may require
+    API keys for integration.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Privacy policy
+
+
+    2. Data Uses:
+
+
+    Specifically, we utilize personal data for the following purposes (and relying
+    on the noted legal bases for processing, as appropriate):'
+  - 'Privacy policy
+
+
+    2. Data Uses:
+
+
+    We utilize personal data as follows:'
+  - We may disclose personal data in response to legal obligations, such as subpoenas
+    or court orders, or to protect against illegal activity, fraud, or to safeguard
+    our business interests.
+  - We, along with our authorized Service Providers (as defined below), manage, store,
+    and process personal data in various locations, including the United States of
+    America, Europe, Australia, and others.
+  purposes:
+    advertising:
+    - To support our legitimate interests in maintaining and improving our Services,
+      understanding usage patterns, evaluating campaign performance, gaining insights
+      for resource allocation, marketing, advertising, selling, providing customer
+      service and technical support, and ensuring the protection and security of our
+      Customers, Users, Prospects, ourselves, and our Services ("Legitimate Interests")
+    analytics:
+    - To support our legitimate interests in maintaining and improving our Services,
+      understanding usage patterns, evaluating campaign performance, gaining insights
+      for resource allocation, marketing, advertising, selling, providing customer
+      service and technical support, and ensuring the protection and security of our
+      Customers, Users, Prospects, ourselves, and our Services ("Legitimate Interests")
+    legal:
+    - To comply with legal and contractual obligations ("Legal Obligation")
+    security:
+    - To support our legitimate interests in maintaining and improving our Services,
+      understanding usage patterns, evaluating campaign performance, gaining insights
+      for resource allocation, marketing, advertising, selling, providing customer
+      service and technical support, and ensuring the protection and security of our
+      Customers, Users, Prospects, ourselves, and our Services ("Legitimate Interests")
+    services:
+    - For the performance of our Services ("Performance of Contract")
+    - To support our legitimate interests in maintaining and improving our Services,
+      understanding usage patterns, evaluating campaign performance, gaining insights
+      for resource allocation, marketing, advertising, selling, providing customer
+      service and technical support, and ensuring the protection and security of our
+      Customers, Users, Prospects, ourselves, and our Services ("Legitimate Interests")
+- source: we
+  target: portion include in customer data
+  key: COLLECT
+  text:
+  - We process User Data for our purposes and, for portions included in Customer Data,
+    as a processor on our Customer's behalf.
+  purposes: {}
+- source: we
+  target: user data
+  key: COLLECT
+  text:
+  - We process User Data for our purposes and, for portions included in Customer Data,
+    as a processor on our Customer's behalf.
+  purposes:
+    services:
+    - for our purposes and, for portions included in Customer Data, as a processor
+      on our Customer's behalf
+- source: UNSPECIFIED_ACTOR
+  target: contact information
+  key: COLLECT
+  text:
+  - Relevant contact, business, and usage details may be shared with partners for
+    this purpose.
+  purposes: {}
+- source: nativevideo
+  target: customer datum
+  key: COLLECT
+  text:
+  - Nativevideo processes Customer Data in line with Customer instructions and agreements.
+  purposes: {}
+- source: nativevideo
+  target: personal information
+  key: COLLECT
+  text:
+  - For clarity, Nativevideo may share personal data with explicit approval, legal
+    obligations, or if the data has been rendered non-personal, non-identifiable,
+    and anonymous.
+  purposes: {}
+- source: service providers
+  target: personal information
+  key: COLLECT
+  text:
+  - These Service Providers may access personal information as per their specific
+    roles and our agreements.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: nativevideo
+- type: ACTOR
+  id: service providers
+- type: ACTOR
+  id: we
+- type: DATA
+  id: contact information
+- type: DATA
+  id: credential
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: information provide for legal purpose
+- type: DATA
+  id: password
+- type: DATA
+  id: personal information
+- type: DATA
+  id: portion include in customer data
+- type: DATA
+  id: user data

@@ -1,0 +1,451 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - However, we may retain certain information to comply with our legal obligations,
+    resolve disputes, or enforce our agreements, and there may be some delay in deleting
+    certain data from our servers and back-up storage.
+  - We use Your data to provide and improve the Platform.
+  - We use cookies and similar tracking technologies to track the activity on Our
+    Platform and We hold certain information.
+  purposes:
+    analytics:
+    - to track the activity on Our Platform
+    legal:
+    - to comply with our legal obligations, resolve disputes, or enforce our agreements
+    services:
+    - to provide and improve the Platform
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and similar tracking technologies to track the activity on Our
+    Platform and We hold certain information.
+  purposes:
+    analytics:
+    - to track the activity on Our Platform
+- source: we
+  target: data collect from
+  key: COLLECT
+  text:
+  - Because Five to Nine and its servers are located in the United States, we necessarily
+    transfer any data that is collected from outside the United States to the United
+    States for processing and storage.
+  purposes:
+    services:
+    - for processing and storage
+- source: we
+  target: identifying information
+  key: COLLECT
+  text:
+  - We may request additional identifying information as a security precaution, such
+    as a national identifier (e.g., a Social Security number).
+  purposes: {}
+- source: we
+  target: information on
+  key: COLLECT
+  text:
+  - We may also collect information on how the Platform is accessed and used ("Usage
+    Data").
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We may also collect information on how the Platform is accessed and used ("Usage
+    Data").
+  purposes: {}
+- source: we
+  target: personal datum about current client
+  key: COLLECT
+  text:
+  - We collect and process personal data about our current clients, for the sole purpose
+    of providing software services to our clients.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how we protect and use the personal data we collect
+    about you through our website and in connection with the services we offer ("Service").
+  - We also may retain your Personal Data as necessary to comply with our legal obligations,
+    to establish proof of a right or a contract, resolve disputes, enforce our agreements,
+    in accordance with the law.
+  - We collect personal data from individuals only as permitted by the EU-U.S. DPF
+    Program and/or Swiss-U.S. DPF Program.
+  - We may also retain your Personal Data during the time you have an account to use
+    our platform, website, and services.
+  - We may use Your Personal Data to contact You with information that We deem may
+    be of interest to You.
+  - While using Our Platform, We may ask You to provide Us with certain Personal Data.
+  purposes:
+    advertising:
+    - to contact You with information that We deem may be of interest to You
+    analytics:
+    - to contact You with information that We deem may be of interest to You
+    legal:
+    - to comply with our legal obligations, to establish proof of a right or a contract,
+      resolve disputes, enforce our agreements, in accordance with the law
+- source: we
+  target: session cookies
+  key: COLLECT
+  text:
+  - We use Session Cookies to operate Our Platform
+  purposes:
+    services:
+    - to operate Our Platform
+- source: UNSPECIFIED_ACTOR
+  target: insight
+  key: COLLECT
+  text:
+  - 'Five to Nine uses the collected data for various purposes: To provide insight
+    to employers, vendors and manufacturers about the aggregated data of the services
+    provided on the Platform'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These third parties may have access to Your Personal Data only to perform these
+    tasks on Our behalf and are obligated not to disclose or use it for any other
+    purpose.
+  purposes:
+    services:
+    - only to perform these tasks on Our behalf
+- source: employer
+  target: insight
+  key: COLLECT
+  text:
+  - 'Five to Nine uses the collected data for various purposes: To provide insight
+    to employers, vendors and manufacturers about the aggregated data of the services
+    provided on the Platform'
+  purposes: {}
+- source: five to nine
+  target: personal information
+  key: COLLECT
+  text:
+  - Five to Nine generally retains your Personal Data for a period of time consistent
+    with the original purpose of collection.
+  purposes: {}
+- source: manufacturer
+  target: insight
+  key: COLLECT
+  text:
+  - 'Five to Nine uses the collected data for various purposes: To provide insight
+    to employers, vendors and manufacturers about the aggregated data of the services
+    provided on the Platform'
+  purposes: {}
+- source: payment processor govern
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - That information is provided directly to Our Payment Processors whose use of personal
+    information is governed by their privacy policy.
+  - We will not store or collect Your or Your employees' payment card details.
+  purposes: {}
+- source: brand
+  target: american express
+  key: SUBSUM
+  text:
+  - These Payment Processors adhere to the standards set by PCI-DSS as managed by
+    the PCI Security Standards Council, which is a joint effort of brands like Visa,
+    MasterCard, American Express and Discover.
+- source: brand
+  target: discover
+  key: SUBSUM
+  text:
+  - These Payment Processors adhere to the standards set by PCI-DSS as managed by
+    the PCI Security Standards Council, which is a joint effort of brands like Visa,
+    MasterCard, American Express and Discover.
+- source: brand
+  target: mastercard
+  key: SUBSUM
+  text:
+  - These Payment Processors adhere to the standards set by PCI-DSS as managed by
+    the PCI Security Standards Council, which is a joint effort of brands like Visa,
+    MasterCard, American Express and Discover.
+- source: brand
+  target: visa
+  key: SUBSUM
+  text:
+  - These Payment Processors adhere to the standards set by PCI-DSS as managed by
+    the PCI Security Standards Council, which is a joint effort of brands like Visa,
+    MasterCard, American Express and Discover.
+- source: cookie / pixel tag
+  target: anonymous identifier
+  key: SUBSUM
+  text:
+  - Cookies are files with a small amount of data which may include an anonymous unique
+    identifier.
+- source: identifying information
+  target: national identifier
+  key: SUBSUM
+  text:
+  - We may request additional identifying information as a security precaution, such
+    as a national identifier (e.g., a Social Security number).
+- source: internet activity
+  target: browser type
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as Your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of Our Platform
+    that You visit, the time and date of Your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Platform is accessed and used ("Usage
+    Data").
+- source: internet activity
+  target: browser version
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as Your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of Our Platform
+    that You visit, the time and date of Your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Platform is accessed and used ("Usage
+    Data").
+- source: internet activity
+  target: date
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as Your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of Our Platform
+    that You visit, the time and date of Your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Platform is accessed and used ("Usage
+    Data").
+- source: internet activity
+  target: device identifier
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as Your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of Our Platform
+    that You visit, the time and date of Your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Platform is accessed and used ("Usage
+    Data").
+- source: internet activity
+  target: diagnostic datum
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as Your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of Our Platform
+    that You visit, the time and date of Your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Platform is accessed and used ("Usage
+    Data").
+- source: internet activity
+  target: ip address
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as Your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of Our Platform
+    that You visit, the time and date of Your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Platform is accessed and used ("Usage
+    Data").
+- source: internet activity
+  target: time
+  key: SUBSUM
+  text:
+  - This Usage Data may include information such as Your computer's Internet Protocol
+    address (e.g. IP address), browser type, browser version, the pages of Our Platform
+    that You visit, the time and date of Your visit, the time spent on those pages,
+    unique device identifiers and other diagnostic data.
+  - We may also collect information on how the Platform is accessed and used ("Usage
+    Data").
+- source: national identifier
+  target: ssn
+  key: SUBSUM
+  text:
+  - We may request additional identifying information as a security precaution, such
+    as a national identifier (e.g., a Social Security number).
+- source: personal information
+  target: choice
+  key: SUBSUM
+  text:
+  - This statement outlines our general policy and practices for implementing the
+    EU-U.S. DPF Program (refers collectively to the EU-U.S. DPF and the Swiss-U.S.
+    DPF), including the types of personal data that Five to Nine gathers; how we use
+    it; and the choices that affected individuals have regarding our use of, and their
+    ability to correct, the personal data relating to them.
+- source: personal information
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - 'Personal Data may include, but is not limited to: Cookies and Usage Data'
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Personal Data may include, but is not limited to: Email address'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Personal Data may include, but is not limited to: First name and last name'
+- source: personal information
+  target: personal datum relate to they
+  key: SUBSUM
+  text:
+  - This statement outlines our general policy and practices for implementing the
+    EU-U.S. DPF Program (refers collectively to the EU-U.S. DPF and the Swiss-U.S.
+    DPF), including the types of personal data that Five to Nine gathers; how we use
+    it; and the choices that affected individuals have regarding our use of, and their
+    ability to correct, the personal data relating to them.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Personal Data may include, but is not limited to: Phone number'
+- source: personal information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Personal Data may include, but is not limited to: Address, State, Province, ZIP/Postal
+    Code, City'
+- source: personal information
+  target: transaction information
+  key: SUBSUM
+  text:
+  - 'Personal Data may include, but is not limited to: Transaction information'
+- source: relevant information
+  target: contact information
+  key: SUBSUM
+  text:
+  - When writing to Us, you must include any relevant information (like Your name,
+    contact information, any Member number or unique site identifier associated with
+    You) in order to assist in Your request.
+- source: relevant information
+  target: member number
+  key: SUBSUM
+  text:
+  - When writing to Us, you must include any relevant information (like Your name,
+    contact information, any Member number or unique site identifier associated with
+    You) in order to assist in Your request.
+- source: relevant information
+  target: person name
+  key: SUBSUM
+  text:
+  - When writing to Us, you must include any relevant information (like Your name,
+    contact information, any Member number or unique site identifier associated with
+    You) in order to assist in Your request.
+- source: relevant information
+  target: unique site identifier associate with you
+  key: SUBSUM
+  text:
+  - When writing to Us, you must include any relevant information (like Your name,
+    contact information, any Member number or unique site identifier associated with
+    You) in order to assist in Your request.
+- source: sufficient identifying information
+  target: date of birth
+  key: SUBSUM
+  text:
+  - The individual will need to provide sufficient identifying information, such as
+    name, address, and birth date.
+- source: sufficient identifying information
+  target: person name
+  key: SUBSUM
+  text:
+  - The individual will need to provide sufficient identifying information, such as
+    name, address, and birth date.
+- source: sufficient identifying information
+  target: postal address
+  key: SUBSUM
+  text:
+  - The individual will need to provide sufficient identifying information, such as
+    name, address, and birth date.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: american express
+- type: ACTOR
+  id: brand
+- type: ACTOR
+  id: discover
+- type: ACTOR
+  id: employer
+- type: ACTOR
+  id: five to nine
+- type: ACTOR
+  id: manufacturer
+- type: ACTOR
+  id: mastercard
+- type: ACTOR
+  id: payment processor govern
+- type: ACTOR
+  id: visa
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: anonymous identifier
+- type: DATA
+  id: browser type
+- type: DATA
+  id: browser version
+- type: DATA
+  id: choice
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: data collect from
+- type: DATA
+  id: date
+- type: DATA
+  id: date of birth
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: diagnostic datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: identifying information
+- type: DATA
+  id: information on
+- type: DATA
+  id: insight
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: member number
+- type: DATA
+  id: national identifier
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal datum about current client
+- type: DATA
+  id: personal datum relate to they
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: relevant information
+- type: DATA
+  id: session cookies
+- type: DATA
+  id: ssn
+- type: DATA
+  id: sufficient identifying information
+- type: DATA
+  id: time
+- type: DATA
+  id: transaction information
+- type: DATA
+  id: unique site identifier associate with you

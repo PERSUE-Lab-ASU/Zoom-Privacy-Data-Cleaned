@@ -1,0 +1,147 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may retain your personal information for longer if it turns out to be the subject
+    of a legal claim, or may otherwise be relevant for future litigation.
+  purposes: {}
+- source: aule group
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Aule Group uses cookies to help Aule Group identify and track visitors, their
+    usage of Aule Group website, and their website access preferences.
+  purposes:
+    analytics:
+    - to help Aule Group identify and track visitors, their usage of Aule Group website,
+      and their website access preferences
+- source: aule group
+  target: identifying information
+  key: COLLECT
+  text:
+  - Credit cards, addresses, and other such identifying information is never collected.
+  - In each case, Aule Group collects such information only insofar as is necessary
+    or appropriate to fulfill the purpose of the visitor's interaction with Aule Group.
+  purposes: {}
+- source: aule group
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Additionally, like most website operators, Aule Group collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+  - From time to time, Aule Group may release non-personally-identifying information
+    in the aggregate, e.g., by publishing a report on trends in the usage of its website,
+    or by making it available to teachers or school administrators.
+  purposes: {}
+- source: aule group
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Aule Group also collects potentially personally-identifying information like Internet
+    Protocol (IP) addresses.
+  - Aule Group discloses potentially personally-identifying and personally-identifying
+    information only to those of its employees, contractors and affiliated organizations
+    that (i) need to know that information in order to process it on Aule Group's
+    behalf or to provide services available at Aule Group's websites, and (ii) that
+    have agreed not to disclose it to others.
+  - Other than to its employees, contractors and affiliated organizations, as described
+    above, Aule Group discloses potentially personally-identifying and personally-identifying
+    information only when required to do so by law, or when Aule Group believes in
+    good faith that disclosure is reasonably necessary to protect the property or
+    rights of Aule Group, third parties or the public at large.
+  purposes: {}
+- source: aule group
+  target: personal information
+  key: COLLECT
+  text:
+  - Aule Group retains your personal information for as long as it is necessary in
+    order to fulfill the purpose for which it was collected.
+  purposes: {}
+- source: aule group
+  target: statistic about behavior of visitor to website
+  key: COLLECT
+  text:
+  - Aule Group may collect statistics about the behavior of visitors to its websites.
+  purposes: {}
+- source: server
+  target: personal identifier
+  key: COLLECT
+  text:
+  - Aule Group's servers also collects potentially personally-identifying information
+    like Internet Protocol (IP) addresses.
+  purposes: {}
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - Additionally, like most website operators, Aule Group collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: non-personal information
+  target: date
+  key: SUBSUM
+  text:
+  - Additionally, like most website operators, Aule Group collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: non-personal information
+  target: language preference
+  key: SUBSUM
+  text:
+  - Additionally, like most website operators, Aule Group collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: non-personal information
+  target: time
+  key: SUBSUM
+  text:
+  - Additionally, like most website operators, Aule Group collects non-personally-identifying
+    information of the sort that web browsers and servers typically make available,
+    such as the browser type, language preference, referring site, and the date and
+    time of each visitor request.
+- source: personal identifier
+  target: ip address
+  key: SUBSUM
+  text:
+  - Aule Group also collects potentially personally-identifying information like Internet
+    Protocol (IP) addresses.
+  - Aule Group's servers also collects potentially personally-identifying information
+    like Internet Protocol (IP) addresses.
+nodes:
+- type: ACTOR
+  id: aule group
+- type: ACTOR
+  id: server
+- type: ACTOR
+  id: we
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: identifying information
+- type: DATA
+  id: ip address
+- type: DATA
+  id: language preference
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistic about behavior of visitor to website
+- type: DATA
+  id: time

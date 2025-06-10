@@ -1,0 +1,404 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'To influence our App''s direction and features
+
+
+    We may use data in aggregate to understand how our Users as a group use the services
+    and resources provided on our App.'
+  - We collect data for the sole purpose of providing an App that lets Users manage
+    the data in question.
+  purposes:
+    analytics:
+    - to understand how our Users as a group use the services and resources provided
+      on our App
+    services:
+    - To influence our App's direction and features
+    - for the sole purpose of providing an App that lets Users manage the data in
+      question
+- source: we
+  target: account information
+  key: COLLECT
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Account information , such as email address, password or third-party
+    login token;'
+  purposes: {}
+- source: we
+  target: address book contact
+  key: COLLECT
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Data imported from Users external channels , such as emails, address
+    book contacts, calendar events, SMS and other messaging data stored in services
+    like Gmail, Office 365, IMAP, Twilio, Facebook, Asana, Pipedrive and Todoist;'
+  purposes: {}
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - 'For Users only browsing our website (missiveapp.com), we collect the following
+    anonymous information:'
+  purposes: {}
+- source: we
+  target: billing datum
+  key: COLLECT
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Billing data , such as credit card number (stored by our payment service
+    provider) and billing address;'
+  purposes: {}
+- source: we
+  target: calendar event
+  key: COLLECT
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Data imported from Users external channels , such as emails, address
+    book contacts, calendar events, SMS and other messaging data stored in services
+    like Gmail, Office 365, IMAP, Twilio, Facebook, Asana, Pipedrive and Todoist;'
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Contact data , such as name, mailing address and phone number;'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our App uses cookies and similar technologies to keep Users logged in, remember
+    their preferences and identify connected devices for security purposes.
+  purposes:
+    security:
+    - to keep Users logged in, remember their preferences and identify connected devices
+      for security purposes
+    services:
+    - to keep Users logged in, remember their preferences and identify connected devices
+      for security purposes
+- source: we
+  target: datum create from
+  key: COLLECT
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Data created by Users from within Missive , such as chat comments, uploaded
+    files and messages sent to external channels.'
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'How We Use Personal Data
+
+
+    To send periodic emails
+
+
+    We may use email addresses to send Users data and updates pertaining to their
+    usage of the App.'
+  - 'In addition, we collect the following information from Users who register to
+    the App: Data imported from Users external channels , such as emails, address
+    book contacts, calendar events, SMS and other messaging data stored in services
+    like Gmail, Office 365, IMAP, Twilio, Facebook, Asana, Pipedrive and Todoist;'
+  purposes:
+    analytics:
+    - to send Users data and updates pertaining to their usage of the App
+    services:
+    - To send periodic emails
+    - to send Users data and updates pertaining to their usage of the App
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Internet Protocol (IP) address .'
+  purposes: {}
+- source: we
+  target: messaging datum
+  key: COLLECT
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Data imported from Users external channels , such as emails, address
+    book contacts, calendar events, SMS and other messaging data stored in services
+    like Gmail, Office 365, IMAP, Twilio, Facebook, Asana, Pipedrive and Todoist;'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - How We Store And Protect Personal Data
+  - 'In addition to providing our App''s main functionality, we may use Users personal
+    data for the following purposes:'
+  - We collect personal data from Users only if they voluntarily submit such data
+    to us.
+  purposes: {}
+- source: we
+  target: sms
+  key: COLLECT
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Data imported from Users external channels , such as emails, address
+    book contacts, calendar events, SMS and other messaging data stored in services
+    like Gmail, Office 365, IMAP, Twilio, Facebook, Asana, Pipedrive and Todoist;'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: credit / debit card number
+  key: COLLECT
+  text:
+  - This provider stores Users credit card and billing information as necessary to
+    process recurring payments and generate related invoices, receipts and credit
+    notes.
+  - We delegate the processing of credit card payments to a certified third-party
+    provider.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: email address
+  key: COLLECT
+  text:
+  - As part of this process, Users email address and name are shared with the third-party
+    platform.
+  - As part of this, Users email addresses and limited personal data, such as name
+    and company name, are shared with these email service providers.
+  - The email address of affected Users is shared with the provider so our engineers
+    can associate bugs to Users and provide a fast and appropriate response.
+  - We use third-party providers to send Users emails related to their usage of Missive,
+    such as invites, password resets and new feature announcements.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: person name
+  key: COLLECT
+  text:
+  - As part of this process, Users email address and name are shared with the third-party
+    platform.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - As part of this, Users email addresses and limited personal data, such as name
+    and company name, are shared with these email service providers.
+  - 'We may use third-party service providers to help us operate our business and
+    the App or administer activities on our behalf; these companies are authorized
+    to use Users personal data only as necessary to provide these services to us:'
+  - We use third-party providers to send Users emails related to their usage of Missive,
+    such as invites, password resets and new feature announcements.
+  purposes:
+    security:
+    - Error reporting
+    services:
+    - Cloud computing infrastructure
+    - Community management
+    - Email communications
+    - Error reporting
+    - Payment processing
+- source: missive
+  target: datum collect from user of missive application
+  key: COLLECT
+  text:
+  - This Privacy Policy describes how Missive, owned and operated by Heliom inc. (collectively,
+    "Missive", "Heliom", "we", "us", or "our") , collects, uses, secures and shares
+    data collected from users ("Users") of the Missive application ("App").
+  purposes: {}
+- source: account information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Account information , such as email address, password or third-party
+    login token;'
+- source: account information
+  target: password
+  key: SUBSUM
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Account information , such as email address, password or third-party
+    login token;'
+- source: account information
+  target: third party login token
+  key: SUBSUM
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Account information , such as email address, password or third-party
+    login token;'
+- source: aggregate / deidentified / pseudonymized information
+  target: browser datum
+  key: SUBSUM
+  text:
+  - 'For Users only browsing our website (missiveapp.com), we collect the following
+    anonymous information: Browser and device data , such as operating system and
+    browser name, screen dimensions, device manufacturer.'
+- source: aggregate / deidentified / pseudonymized information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - 'For Users only browsing our website (missiveapp.com), we collect the following
+    anonymous information: Usage data , such as time spent on our website, pages visited,
+    and the pages that led or referred Users to our website.'
+- source: billing datum
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Billing data , such as credit card number (stored by our payment service
+    provider) and billing address;'
+- source: billing datum
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Billing data , such as credit card number (stored by our payment service
+    provider) and billing address;'
+- source: browser datum
+  target: device manufacturer
+  key: SUBSUM
+  text:
+  - 'For Users only browsing our website (missiveapp.com), we collect the following
+    anonymous information: Browser and device data , such as operating system and
+    browser name, screen dimensions, device manufacturer.'
+- source: browser datum
+  target: operating system name
+  key: SUBSUM
+  text:
+  - 'For Users only browsing our website (missiveapp.com), we collect the following
+    anonymous information: Browser and device data , such as operating system and
+    browser name, screen dimensions, device manufacturer.'
+- source: browser datum
+  target: screen dimension
+  key: SUBSUM
+  text:
+  - 'For Users only browsing our website (missiveapp.com), we collect the following
+    anonymous information: Browser and device data , such as operating system and
+    browser name, screen dimensions, device manufacturer.'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Contact data , such as name, mailing address and phone number;'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Contact data , such as name, mailing address and phone number;'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Contact data , such as name, mailing address and phone number;'
+- source: datum create from
+  target: chat comment
+  key: SUBSUM
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Data created by Users from within Missive , such as chat comments, uploaded
+    files and messages sent to external channels.'
+- source: datum create from
+  target: message send to external channel
+  key: SUBSUM
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Data created by Users from within Missive , such as chat comments, uploaded
+    files and messages sent to external channels.'
+- source: datum create from
+  target: upload file
+  key: SUBSUM
+  text:
+  - 'In addition, we collect the following information from Users who register to
+    the App: Data created by Users from within Missive , such as chat comments, uploaded
+    files and messages sent to external channels.'
+- source: missive
+  target: heliom
+  key: SUBSUM
+  text:
+  - This Privacy Policy describes how Missive, owned and operated by Heliom inc. (collectively,
+    "Missive", "Heliom", "we", "us", or "our") , collects, uses, secures and shares
+    data collected from users ("Users") of the Missive application ("App").
+- source: personal information
+  target: company name
+  key: SUBSUM
+  text:
+  - As part of this, Users email addresses and limited personal data, such as name
+    and company name, are shared with these email service providers.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - As part of this, Users email addresses and limited personal data, such as name
+    and company name, are shared with these email service providers.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: heliom
+- type: ACTOR
+  id: missive
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account information
+- type: DATA
+  id: address book contact
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: billing datum
+- type: DATA
+  id: browser datum
+- type: DATA
+  id: calendar event
+- type: DATA
+  id: chat comment
+- type: DATA
+  id: company name
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: datum collect from user of missive application
+- type: DATA
+  id: datum create from
+- type: DATA
+  id: device manufacturer
+- type: DATA
+  id: email address
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: message send to external channel
+- type: DATA
+  id: messaging datum
+- type: DATA
+  id: operating system name
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: screen dimension
+- type: DATA
+  id: sms
+- type: DATA
+  id: third party login token
+- type: DATA
+  id: upload file

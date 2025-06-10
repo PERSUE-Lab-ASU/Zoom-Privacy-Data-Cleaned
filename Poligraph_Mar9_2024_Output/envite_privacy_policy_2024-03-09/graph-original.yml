@@ -1,0 +1,659 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we may share your information with Elastic Email, for the purpose
+    of sending emails.
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - We then use the information to compile reports and to help us improve our site.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes:
+    analytics:
+    - to compile reports and to help us improve our site
+    services:
+    - for the purpose of sending emails
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Non-personally identifiable or aggregate information may be used by us for any
+    purposes permitted by law and may be shared with any number of parties, provided
+    that such information shall not specifically identify you.
+  purposes: {}
+- source: we
+  target: amount of time spend on page
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes: {}
+- source: we
+  target: associate information
+  key: COLLECT
+  text:
+  - If you login to the Websites and/or Service through your Facebook account, connect
+    to a third party service such as Facebook or Twitter through an icon or link on
+    the Service or otherwise link your envite.us account with a third party service,
+    we may share the contents of your post and associated information (such as your
+    user name, the fact that your connection originated from the Service, and other
+    relevant usage and diagnostic information) with such third party.
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes: {}
+- source: we
+  target: content of post
+  key: COLLECT
+  text:
+  - If you login to the Websites and/or Service through your Facebook account, connect
+    to a third party service such as Facebook or Twitter through an icon or link on
+    the Service or otherwise link your envite.us account with a third party service,
+    we may share the contents of your post and associated information (such as your
+    user name, the fact that your connection originated from the Service, and other
+    relevant usage and diagnostic information) with such third party.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For example, we use cookies on our site for Google Analytics (the "Analytics Service").
+  - We may also use and place cookies (and similar items) on your computer from our
+    third party service providers in connection with the Service, such as an analytics
+    provider that helps us manage and analyze Service usage, as described more fully
+    below.
+  - We may use cookies (and similar items such as clear gifs, web beacons, tags, etc.)
+    on our Service to customize your visit and for other purposes to make your visit
+    more convenient or to enable us to enhance our Service.
+  purposes:
+    analytics:
+    - for Google Analytics (the "Analytics Service"
+    services:
+    - to customize your visit and for other purposes to make your visit more convenient
+      or to enable us to enhance our Service
+- source: we
+  target: date
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes: {}
+- source: we
+  target: device identifier
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes: {}
+- source: we
+  target: device type
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes: {}
+- source: we
+  target: information about computer
+  key: COLLECT
+  text:
+  - We may collect information about your computer, including your IP address, operating
+    system and browser type, for system administration and in order to create reports.
+  purposes:
+    analytics:
+    - for system administration and in order to create reports
+    services:
+    - for system administration and in order to create reports
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes: {}
+- source: we
+  target: item
+  key: COLLECT
+  text:
+  - We may also use and place cookies (and similar items) on your computer from our
+    third party service providers in connection with the Service, such as an analytics
+    provider that helps us manage and analyze Service usage, as described more fully
+    below.
+  - We may use cookies (and similar items such as clear gifs, web beacons, tags, etc.)
+    on our Service to customize your visit and for other purposes to make your visit
+    more convenient or to enable us to enhance our Service.
+  purposes:
+    services:
+    - to customize your visit and for other purposes to make your visit more convenient
+      or to enable us to enhance our Service
+- source: we
+  target: language
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes: {}
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - Non-personally identifiable or aggregate information may be used by us for any
+    purposes permitted by law and may be shared with any number of parties, provided
+    that such information shall not specifically identify you.
+  - We may also aggregate information collected offline in connection with the Service,
+    obtain non-personally identifiable information from third party sources and develop
+    aggregate information by anonymizing previously collected personally identifiable
+    information.
+  - When you access our Service, we may automatically collect non-personally identifiable
+    information from you, such as IP host address, web pages viewed, browser type,
+    operating system, referring service, search information, device type, page views,
+    usage and browsing habits on the Service and similar data.
+  purposes: {}
+- source: we
+  target: number of click
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - We may share your personally identifiable information with third parties (collectively,
+    the "Third
+  - 'We will only use your personally identifiable information as described below,
+    unless you have specifically consented to another type of use, either at the time
+    the personally identifiable information is collected from you or through some
+    other form of consent from you or notification to you: We may disclose personally
+    identifiable information as required by law or legal process.'
+  - 'We will only use your personally identifiable information as described below,
+    unless you have specifically consented to another type of use, either at the time
+    the personally identifiable information is collected from you or through some
+    other form of consent from you or notification to you: We may disclose personally
+    identifiable information to investigate suspected fraud, harassment or other violations
+    of any law, rule or regulation, or the terms or policies for our services or our
+    sponsors.'
+  - 'We will only use your personally identifiable information as described below,
+    unless you have specifically consented to another type of use, either at the time
+    the personally identifiable information is collected from you or through some
+    other form of consent from you or notification to you: We may share your personally
+    identifiable information collected in connection with providing the Service.'
+  - 'We will only use your personally identifiable information as described below,
+    unless you have specifically consented to another type of use, either at the time
+    the personally identifiable information is collected from you or through some
+    other form of consent from you or notification to you: We may share your personally
+    identifiable information with an affiliate of [Name of Site] who is in the same
+    corporate family as us as long as their privacy practices are substantially similar
+    to ours.'
+  - 'We will only use your personally identifiable information as described below,
+    unless you have specifically consented to another type of use, either at the time
+    the personally identifiable information is collected from you or through some
+    other form of consent from you or notification to you: We may transfer your personally
+    identifiable information in connection with the sale or merger'
+  - 'We will only use your personally identifiable information as described below,
+    unless you have specifically consented to another type of use, either at the time
+    the personally identifiable information is collected from you or through some
+    other form of consent from you or notification to you: We may use your personally
+    identifiable information to respond to your inquires or requests.'
+  - 'We will only use your personally identifiable information as described below,
+    unless you have specifically consented to another type of use, either at the time
+    the personally identifiable information is collected from you or through some
+    other form of consent from you or notification to you: We may use your personally
+    identifiable information to send you emails from time to time about our services,
+    but we will not provide your personally identifiable information to third parties
+    for them to contact you directly unless otherwise permitted by this Privacy Policy
+    or you provide your consent.'
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes:
+    security:
+    - to investigate suspected fraud, harassment or other violations of any law, rule
+      or regulation, or the terms or policies for our services or our sponsors
+    services:
+    - to respond to your inquires or requests
+    - to send you emails from time to time about our services
+- source: we
+  target: platform type
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes: {}
+- source: we
+  target: request
+  key: COLLECT
+  text:
+  - We will process your request within a reasonable time after receipt.
+  purposes: {}
+- source: we
+  target: service usage
+  key: COLLECT
+  text:
+  - We may also use and place cookies (and similar items) on your computer from our
+    third party service providers in connection with the Service, such as an analytics
+    provider that helps us manage and analyze Service usage, as described more fully
+    below.
+  purposes: {}
+- source: we
+  target: system type
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes: {}
+- source: we
+  target: version of software instal
+  key: COLLECT
+  text:
+  - This "automatically collected" information may include Internet Protocol address
+    ("IP Address"), a unique user ID, device type, device identifiers, browser types
+    and language, referring and exit pages, platform type, version of software installed,
+    system type, the content and pages that you access on the Service, the number
+    of clicks, the amount of time spent on pages, the dates and times that you visit
+    the Service, and other similar information.
+  - When you access the Service or open one of our HTML emails, we may automatically
+    record certain information from your system by using cookies and other types of
+    tracking technologies.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: associate information
+  key: COLLECT
+  text:
+  - If you login to the Websites and/or Service through your Facebook account, connect
+    to a third party service such as Facebook or Twitter through an icon or link on
+    the Service or otherwise link your envite.us account with a third party service,
+    we may share the contents of your post and associated information (such as your
+    user name, the fact that your connection originated from the Service, and other
+    relevant usage and diagnostic information) with such third party.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: content of post
+  key: COLLECT
+  text:
+  - If you login to the Websites and/or Service through your Facebook account, connect
+    to a third party service such as Facebook or Twitter through an icon or link on
+    the Service or otherwise link your envite.us account with a third party service,
+    we may share the contents of your post and associated information (such as your
+    user name, the fact that your connection originated from the Service, and other
+    relevant usage and diagnostic information) with such third party.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may share your personally identifiable information with third parties (collectively,
+    the "Third
+  purposes: {}
+- source: affiliate of name of site ] be
+  target: personal identifier
+  key: COLLECT
+  text:
+  - 'We will only use your personally identifiable information as described below,
+    unless you have specifically consented to another type of use, either at the time
+    the personally identifiable information is collected from you or through some
+    other form of consent from you or notification to you: We may share your personally
+    identifiable information with an affiliate of [Name of Site] who is in the same
+    corporate family as us as long as their privacy practices are substantially similar
+    to ours.'
+  purposes: {}
+- source: analytic provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - The Analytics Service collects information anonymously.
+  purposes: {}
+- source: analytic provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like many services, the Analytics Service uses first-party cookies to track visitor
+    interactions as in our case, where they are used to collect information about
+    how visitors use our site.
+  purposes:
+    analytics:
+    - to track visitor interactions as in our case, where they are used to collect
+      information about how visitors use our site
+- source: analytic provider
+  target: ip address
+  key: COLLECT
+  text:
+  - The information generated by these services about your use of the Service (including
+    your IP address or a truncated version of your IP address) is transmitted to and
+    stored by analytics service providers on their servers.
+  purposes:
+    analytics:
+    - for the purpose of evaluating your, and other users', use of the Service, compiling
+      reports for us on website activity and providing other services relating to
+      website activity and Internet usage
+- source: elastic email
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - For example, we may share your information with Elastic Email, for the purpose
+    of sending emails.
+  purposes:
+    services:
+    - for the purpose of sending emails
+- source: many service
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Many services use cookies for these purposes.
+  purposes: {}
+- source: we
+  target: envite inc.
+  key: SUBSUM
+  text:
+  - We, the envite Inc. understands the importance of your personal privacy.
+- source: we
+  target: information collection website locate at envite.us
+  key: SUBSUM
+  text:
+  - The Privacy Policy below discloses our practices regarding information collection
+    and usage website located at envite.us, the related mobile website, and the mobile
+    application (collectively, the "Websites") and the service provided thereon (the
+    "Service").
+- source: we
+  target: mobile application
+  key: SUBSUM
+  text:
+  - The Privacy Policy below discloses our practices regarding information collection
+    and usage website located at envite.us, the related mobile website, and the mobile
+    application (collectively, the "Websites") and the service provided thereon (the
+    "Service").
+- source: we
+  target: related mobile website
+  key: SUBSUM
+  text:
+  - The Privacy Policy below discloses our practices regarding information collection
+    and usage website located at envite.us, the related mobile website, and the mobile
+    application (collectively, the "Websites") and the service provided thereon (the
+    "Service").
+- source: we
+  target: service provide
+  key: SUBSUM
+  text:
+  - The Privacy Policy below discloses our practices regarding information collection
+    and usage website located at envite.us, the related mobile website, and the mobile
+    application (collectively, the "Websites") and the service provided thereon (the
+    "Service").
+- source: associate information
+  target: relevant usage
+  key: SUBSUM
+  text:
+  - If you login to the Websites and/or Service through your Facebook account, connect
+    to a third party service such as Facebook or Twitter through an icon or link on
+    the Service or otherwise link your envite.us account with a third party service,
+    we may share the contents of your post and associated information (such as your
+    user name, the fact that your connection originated from the Service, and other
+    relevant usage and diagnostic information) with such third party.
+- source: associate information
+  target: user name
+  key: SUBSUM
+  text:
+  - If you login to the Websites and/or Service through your Facebook account, connect
+    to a third party service such as Facebook or Twitter through an icon or link on
+    the Service or otherwise link your envite.us account with a third party service,
+    we may share the contents of your post and associated information (such as your
+    user name, the fact that your connection originated from the Service, and other
+    relevant usage and diagnostic information) with such third party.
+- source: information about computer
+  target: browser type
+  key: SUBSUM
+  text:
+  - We may collect information about your computer, including your IP address, operating
+    system and browser type, for system administration and in order to create reports.
+- source: information about computer
+  target: ip address
+  key: SUBSUM
+  text:
+  - We may collect information about your computer, including your IP address, operating
+    system and browser type, for system administration and in order to create reports.
+- source: information about computer
+  target: operating system
+  key: SUBSUM
+  text:
+  - We may collect information about your computer, including your IP address, operating
+    system and browser type, for system administration and in order to create reports.
+- source: item
+  target: cookie / pixel tag
+  key: SUBSUM
+  text:
+  - We may use cookies (and similar items such as clear gifs, web beacons, tags, etc.)
+    on our Service to customize your visit and for other purposes to make your visit
+    more convenient or to enable us to enhance our Service.
+- source: item
+  target: tag
+  key: SUBSUM
+  text:
+  - We may use cookies (and similar items such as clear gifs, web beacons, tags, etc.)
+    on our Service to customize your visit and for other purposes to make your visit
+    more convenient or to enable us to enhance our Service.
+- source: non-personal information
+  target: browser type
+  key: SUBSUM
+  text:
+  - When you access our Service, we may automatically collect non-personally identifiable
+    information from you, such as IP host address, web pages viewed, browser type,
+    operating system, referring service, search information, device type, page views,
+    usage and browsing habits on the Service and similar data.
+- source: non-personal information
+  target: device type
+  key: SUBSUM
+  text:
+  - When you access our Service, we may automatically collect non-personally identifiable
+    information from you, such as IP host address, web pages viewed, browser type,
+    operating system, referring service, search information, device type, page views,
+    usage and browsing habits on the Service and similar data.
+- source: non-personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - When you access our Service, we may automatically collect non-personally identifiable
+    information from you, such as IP host address, web pages viewed, browser type,
+    operating system, referring service, search information, device type, page views,
+    usage and browsing habits on the Service and similar data.
+- source: non-personal information
+  target: operating system
+  key: SUBSUM
+  text:
+  - When you access our Service, we may automatically collect non-personally identifiable
+    information from you, such as IP host address, web pages viewed, browser type,
+    operating system, referring service, search information, device type, page views,
+    usage and browsing habits on the Service and similar data.
+- source: non-personal information
+  target: page view
+  key: SUBSUM
+  text:
+  - When you access our Service, we may automatically collect non-personally identifiable
+    information from you, such as IP host address, web pages viewed, browser type,
+    operating system, referring service, search information, device type, page views,
+    usage and browsing habits on the Service and similar data.
+- source: non-personal information
+  target: search information
+  key: SUBSUM
+  text:
+  - When you access our Service, we may automatically collect non-personally identifiable
+    information from you, such as IP host address, web pages viewed, browser type,
+    operating system, referring service, search information, device type, page views,
+    usage and browsing habits on the Service and similar data.
+- source: non-personal information
+  target: usage
+  key: SUBSUM
+  text:
+  - When you access our Service, we may automatically collect non-personally identifiable
+    information from you, such as IP host address, web pages viewed, browser type,
+    operating system, referring service, search information, device type, page views,
+    usage and browsing habits on the Service and similar data.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: affiliate of name of site ] be
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: elastic email
+- type: ACTOR
+  id: envite inc.
+- type: ACTOR
+  id: information collection website locate at envite.us
+- type: ACTOR
+  id: many service
+- type: ACTOR
+  id: mobile application
+- type: ACTOR
+  id: related mobile website
+- type: ACTOR
+  id: service provide
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: amount of time spend on page
+- type: DATA
+  id: associate information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: content of post
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: date
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device type
+- type: DATA
+  id: information about computer
+- type: DATA
+  id: ip address
+- type: DATA
+  id: item
+- type: DATA
+  id: language
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: number of click
+- type: DATA
+  id: operating system
+- type: DATA
+  id: page view
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: platform type
+- type: DATA
+  id: relevant usage
+- type: DATA
+  id: request
+- type: DATA
+  id: search information
+- type: DATA
+  id: service usage
+- type: DATA
+  id: system type
+- type: DATA
+  id: tag
+- type: DATA
+  id: usage
+- type: DATA
+  id: user name
+- type: DATA
+  id: version of software instal

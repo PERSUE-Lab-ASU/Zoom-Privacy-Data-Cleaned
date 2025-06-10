@@ -1,0 +1,33 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: enhancement
+  key: SUBSUM
+  text:
+  - The Services, including any updates and enhancements, are subject to the terms.
+- source: we
+  target: update
+  key: SUBSUM
+  text:
+  - The Services, including any updates and enhancements, are subject to the terms.
+- source: confidential information of hiretalent
+  target: confidential information
+  key: SUBSUM
+  text:
+  - You may obtain direct access via Portal to certain confidential information of
+    HireTalent and its suppliers, including without limitation technical, contractual,
+    product, program, pricing, marketing, and other valuable information that should
+    reasonably be understood as confidential ("Confidential Information").
+nodes:
+- type: ACTOR
+  id: enhancement
+- type: ACTOR
+  id: update
+- type: ACTOR
+  id: we
+- type: DATA
+  id: confidential information
+- type: DATA
+  id: confidential information of hiretalent

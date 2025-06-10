@@ -1,0 +1,67 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'With your permission, we can collect and process the following data: name and
+    surname, email address, phone number, company, job title.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookie files for the correct display of the website's content and for the
+    convenience of browsing www.lanes.ai.
+  purposes:
+    services:
+    - for the correct display of the website's content and for the convenience of
+      browsing www.lanes.ai
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'With your permission, we can collect and process the following data: name and
+    surname, email address, phone number, company, job title.'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We collect and process your personal data only with your willing consent.
+  purposes: {}
+- source: service within organization
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Data collected by these services may be provided to other services within those
+    organizations.
+  - They can use the data for advertising personalization of their own advertising
+    network.
+  purposes:
+    advertising:
+    - for advertising personalization of their own advertising network
+- source: service within organization
+  target: datum collect
+  key: COLLECT
+  text:
+  - Data collected by these services may be provided to other services within those
+    organizations.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: service within organization
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum collect
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information

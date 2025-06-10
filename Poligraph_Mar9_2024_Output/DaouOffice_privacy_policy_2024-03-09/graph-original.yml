@@ -1,0 +1,152 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Personal information items to be collected : 2. Besides of information directly
+    provided by the users, the Company may collect information in the course that
+    the users use the service provided by the Company.'
+  purposes: {}
+- source: we
+  target: collective information
+  key: COLLECT
+  text:
+  - The Company may collect collective and impersonal information through 'cookies'.
+  purposes: {}
+- source: we
+  target: information store
+  key: COLLECT
+  text:
+  - In this case, the Company uses the information stored only for the purpose of
+    storage and preserves it for the period of preservation according to the grounds
+    specified in the preservation basis.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - The Company provides personal information to third parties in the course of entrusting
+    some parts of the affairs required for service provision.
+  - The Company uses the user's personal information within the scope notified in
+    Article 2 (Purpose of Collection and Use of Personal Information), and does not
+    use it beyond the same scope or provide or share it to other persons or other
+    institutions without prior consent from the users.
+  - The company provides personal information to third parties in the course of entrusting
+    some parts of the affairs required for service provision.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - The Company provides personal information to third parties in the course of entrusting
+    some parts of the affairs required for service provision.
+  - The company provides personal information to third parties in the course of entrusting
+    some parts of the affairs required for service provision.
+  purposes: {}
+- source: daou . inc
+  target: personal information
+  key: COLLECT
+  text:
+  - DAOU Tech., INC. (hereinafter "the Company") uses and provides the user's personal
+    information based on the user's consent, and actively guarantees the user's right
+    (the right to control one's own personal information).
+  purposes: {}
+- source: personal information
+  target: creed
+  key: SUBSUM
+  text:
+  - The Company does not require personal information (such as race and ethnicity,
+    ideology and creed, origin and place of origin, political orientation and criminal
+    record, health status and sex life) that may violate basic human rights.
+- source: personal information
+  target: criminal record
+  key: SUBSUM
+  text:
+  - The Company does not require personal information (such as race and ethnicity,
+    ideology and creed, origin and place of origin, political orientation and criminal
+    record, health status and sex life) that may violate basic human rights.
+- source: personal information
+  target: health status
+  key: SUBSUM
+  text:
+  - The Company does not require personal information (such as race and ethnicity,
+    ideology and creed, origin and place of origin, political orientation and criminal
+    record, health status and sex life) that may violate basic human rights.
+- source: personal information
+  target: ideology
+  key: SUBSUM
+  text:
+  - The Company does not require personal information (such as race and ethnicity,
+    ideology and creed, origin and place of origin, political orientation and criminal
+    record, health status and sex life) that may violate basic human rights.
+- source: personal information
+  target: origin
+  key: SUBSUM
+  text:
+  - The Company does not require personal information (such as race and ethnicity,
+    ideology and creed, origin and place of origin, political orientation and criminal
+    record, health status and sex life) that may violate basic human rights.
+- source: personal information
+  target: place
+  key: SUBSUM
+  text:
+  - The Company does not require personal information (such as race and ethnicity,
+    ideology and creed, origin and place of origin, political orientation and criminal
+    record, health status and sex life) that may violate basic human rights.
+- source: personal information
+  target: political orientation
+  key: SUBSUM
+  text:
+  - The Company does not require personal information (such as race and ethnicity,
+    ideology and creed, origin and place of origin, political orientation and criminal
+    record, health status and sex life) that may violate basic human rights.
+- source: personal information
+  target: race / ethnicity
+  key: SUBSUM
+  text:
+  - The Company does not require personal information (such as race and ethnicity,
+    ideology and creed, origin and place of origin, political orientation and criminal
+    record, health status and sex life) that may violate basic human rights.
+- source: personal information
+  target: sex life
+  key: SUBSUM
+  text:
+  - The Company does not require personal information (such as race and ethnicity,
+    ideology and creed, origin and place of origin, political orientation and criminal
+    record, health status and sex life) that may violate basic human rights.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: daou . inc
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: collective information
+- type: DATA
+  id: creed
+- type: DATA
+  id: criminal record
+- type: DATA
+  id: health status
+- type: DATA
+  id: ideology
+- type: DATA
+  id: information store
+- type: DATA
+  id: origin
+- type: DATA
+  id: personal information
+- type: DATA
+  id: place
+- type: DATA
+  id: political orientation
+- type: DATA
+  id: race / ethnicity
+- type: DATA
+  id: sex life

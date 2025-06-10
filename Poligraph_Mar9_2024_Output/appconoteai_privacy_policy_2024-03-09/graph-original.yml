@@ -1,0 +1,205 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 2. What information we collect
+  - 'Privacy Policy
+
+
+    We collect and use your information:'
+  - 'Privacy Policy
+
+
+    We log certain information ( "Technical Information" ) about your access and use
+    of our Services.'
+  - This Privacy Policy pertains to services provided by CoNote, Inc. (" we ", " us
+    ", or " Company ") and our website, product pages, and applications, and explains
+    what data we collect from users of our Services (a " user ", " you ", or " your
+    "), including information that may be used to personally identify you (" Personal
+    Information ") and how we utilize it.
+  - You and the Site agree that we may access, store, process, and use any information
+    and personal data that you provide following the terms of the Privacy Policy and
+    your choices (including settings).
+  purposes:
+    analytics:
+    - to analyze how you use the Services with tools such as Google Analytics and
+      other tools
+    - to improve our Services through research and development
+    security:
+    - to maintain the security of the Services
+    - to prevent and address technical problems
+    - to protect our users, other individual lives, and/or the rights or property
+      of Company
+    services:
+    - for internal record keeping
+    - to contact and communicate with you
+    - to enable you to access and use our Services
+    - to improve our Services through research and development
+    - to otherwise deliver and improve the Service and your overall user experience
+    - to prevent and address technical problems
+    - to provide you with support services if requested
+- source: we
+  target: advanced datum filtration at api level
+  key: COLLECT
+  text:
+  - We maintain data encryption at rest, advanced data filtration at the API level,
+    and all of our APIs require token-based security.
+  purposes: {}
+- source: we
+  target: datum encryption at rest
+  key: COLLECT
+  text:
+  - We maintain data encryption at rest, advanced data filtration at the API level,
+    and all of our APIs require token-based security.
+  purposes: {}
+- source: we
+  target: datum you transmit to site
+  key: COLLECT
+  text:
+  - We will maintain certain data that you transmit to the Site for the purpose of
+    managing the performance of the Site, as well as data relating to your use of
+    the Site.
+  purposes:
+    services:
+    - for the purpose of managing the performance of the Site
+- source: we
+  target: feedback
+  key: COLLECT
+  text:
+  - By submitting suggestions or other feedback regarding the Site, you agree that
+    we can use and share such feedback for any purpose without compensation to you.
+  purposes: {}
+- source: we
+  target: general information
+  key: COLLECT
+  text:
+  - While we don't like to expose too much detail around our practices (as it can
+    empower the very people we are protecting ourselves against), we have provided
+    some general information below to give you confidence in how we secure the data
+    entrusted to us.
+  purposes:
+    security:
+    - to give you confidence in how we secure the data entrusted to us
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - You and the Site agree that we may access, store, process, and use any information
+    and personal data that you provide following the terms of the Privacy Policy and
+    your choices (including settings).
+  purposes: {}
+- source: we
+  target: technical information
+  key: COLLECT
+  text:
+  - 'Privacy Policy
+
+
+    We log certain information ( "Technical Information" ) about your access and use
+    of our Services.'
+  purposes: {}
+- source: we at security@conote.ai
+  target: report
+  key: COLLECT
+  text:
+  - Instead, please submit a report to us at security@CoNote.ai .
+  purposes: {}
+- source: we
+  target: https://app.conote.ai web application
+  key: SUBSUM
+  text:
+  - These Terms of Use constitute a legally binding agreement made between you, whether
+    personally or on behalf of an entity ("you") and CoNote, Inc. ("Company", "we",
+    "us", or "our"), concerning your access to and use of the https://www.conote.ai
+    website, the https://app.conote.ai web application, as well as any other media
+    form, media channel, mobile website or mobile application related, linked, or
+    otherwise connected thereto (collectively, the "Site").
+- source: we
+  target: https://www.conote.ai website
+  key: SUBSUM
+  text:
+  - These Terms of Use constitute a legally binding agreement made between you, whether
+    personally or on behalf of an entity ("you") and CoNote, Inc. ("Company", "we",
+    "us", or "our"), concerning your access to and use of the https://www.conote.ai
+    website, the https://app.conote.ai web application, as well as any other media
+    form, media channel, mobile website or mobile application related, linked, or
+    otherwise connected thereto (collectively, the "Site").
+- source: we
+  target: medium channel
+  key: SUBSUM
+  text:
+  - These Terms of Use constitute a legally binding agreement made between you, whether
+    personally or on behalf of an entity ("you") and CoNote, Inc. ("Company", "we",
+    "us", or "our"), concerning your access to and use of the https://www.conote.ai
+    website, the https://app.conote.ai web application, as well as any other media
+    form, media channel, mobile website or mobile application related, linked, or
+    otherwise connected thereto (collectively, the "Site").
+- source: we
+  target: medium form
+  key: SUBSUM
+  text:
+  - These Terms of Use constitute a legally binding agreement made between you, whether
+    personally or on behalf of an entity ("you") and CoNote, Inc. ("Company", "we",
+    "us", or "our"), concerning your access to and use of the https://www.conote.ai
+    website, the https://app.conote.ai web application, as well as any other media
+    form, media channel, mobile website or mobile application related, linked, or
+    otherwise connected thereto (collectively, the "Site").
+- source: we
+  target: mobile application relate
+  key: SUBSUM
+  text:
+  - These Terms of Use constitute a legally binding agreement made between you, whether
+    personally or on behalf of an entity ("you") and CoNote, Inc. ("Company", "we",
+    "us", or "our"), concerning your access to and use of the https://www.conote.ai
+    website, the https://app.conote.ai web application, as well as any other media
+    form, media channel, mobile website or mobile application related, linked, or
+    otherwise connected thereto (collectively, the "Site").
+- source: we
+  target: mobile website
+  key: SUBSUM
+  text:
+  - These Terms of Use constitute a legally binding agreement made between you, whether
+    personally or on behalf of an entity ("you") and CoNote, Inc. ("Company", "we",
+    "us", or "our"), concerning your access to and use of the https://www.conote.ai
+    website, the https://app.conote.ai web application, as well as any other media
+    form, media channel, mobile website or mobile application related, linked, or
+    otherwise connected thereto (collectively, the "Site").
+nodes:
+- type: ACTOR
+  id: https://app.conote.ai web application
+- type: ACTOR
+  id: https://www.conote.ai website
+- type: ACTOR
+  id: medium channel
+- type: ACTOR
+  id: medium form
+- type: ACTOR
+  id: mobile application relate
+- type: ACTOR
+  id: mobile website
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: we at security@conote.ai
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: advanced datum filtration at api level
+- type: DATA
+  id: datum encryption at rest
+- type: DATA
+  id: datum you transmit to site
+- type: DATA
+  id: feedback
+- type: DATA
+  id: general information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: report
+- type: DATA
+  id: technical information

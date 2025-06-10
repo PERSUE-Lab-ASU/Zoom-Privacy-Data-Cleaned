@@ -1,0 +1,113 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - If you enter into a licensing agreement with UiPath, we will process your business
+    contact details for contract performance.
+  - We will process this data in accordance with the GDPR and in order to meet our
+    contractual and legal requirements.
+  purposes:
+    legal:
+    - for contract performance
+    services:
+    - for contract performance
+- source: uipath
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'UiPath processes two categories of data when using UiPath Cloud Platform: (1)
+    customer data and (2) system-generated logs.'
+  - When you use the UiPath Cloud Platform, UiPath may have access to user data and
+    data available in Orchestrator - a core component of the UiPath Cloud Platform
+    that allows customers to manage their fleet of robots from a central control panel.
+  purposes: {}
+- source: uipath
+  target: contact information
+  key: COLLECT
+  text:
+  - UiPath processes your contact details in order to send you the latest updates,
+    releases and news about our products and events or to ask for your feedback using
+    UiPath products, as a based on your contractual relation with UiPath or with your
+    consent.
+  purposes:
+    services:
+    - in order to send you the latest updates, releases and news about our products
+      and events or to ask for your feedback using UiPath products, as a based on
+      your contractual relation with UiPath or with your consent
+- source: uipath
+  target: customer datum
+  key: COLLECT
+  text:
+  - 'UiPath processes two categories of data when using UiPath Cloud Platform: (1)
+    customer data and (2) system-generated logs.'
+  purposes: {}
+- source: uipath
+  target: generate log
+  key: COLLECT
+  text:
+  - 'UiPath processes two categories of data when using UiPath Cloud Platform: (1)
+    customer data and (2) system-generated logs.'
+  purposes: {}
+- source: uipath
+  target: strict control over
+  key: COLLECT
+  text:
+  - UiPath maintains strict control over who has access to production environment
+    and customer data.
+  purposes: {}
+- source: uipath
+  target: user datum
+  key: COLLECT
+  text:
+  - When you use the UiPath Cloud Platform, UiPath may have access to user data and
+    data available in Orchestrator - a core component of the UiPath Cloud Platform
+    that allows customers to manage their fleet of robots from a central control panel.
+  purposes: {}
+- source: uipath cloud product
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - If you use personal data with UiPath cloud products, they will be processing data
+    on your behalf and UiPath will be considered a data processor under the GDPR.
+  purposes: {}
+- source: customer data
+  target: user identifiable transactional datum we need
+  key: SUBSUM
+  text:
+  - Customer data includes user-identifiable transactional and interactional data
+    that we need to operate the service and manage your contract with UiPath.
+- source: generate log
+  target: internet activity
+  key: SUBSUM
+  text:
+  - System-generated logs include service usage data that may be aggregated and contain
+    pieces of customer data.
+nodes:
+- type: ACTOR
+  id: uipath
+- type: ACTOR
+  id: uipath cloud product
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: contact information
+- type: DATA
+  id: customer data
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: generate log
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: strict control over
+- type: DATA
+  id: user datum
+- type: DATA
+  id: user identifiable transactional datum we need

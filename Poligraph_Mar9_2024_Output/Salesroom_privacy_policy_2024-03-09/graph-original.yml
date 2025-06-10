@@ -1,0 +1,125 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By clicking on an "Accept" button or accessing or using our platform, you agree
+    to the terms of this beta evaluation agreement ("agreement") and you agree that
+    we can collect and use your information as long as we comply with our privacy
+    policy, which is part of this agreement.
+  - 'In this policy, we layout: what data we collect and why; how your data is handled;
+    and your rights to your data.'
+  - 'Privacy policy
+
+
+    When we access or share your information'
+  purposes: {}
+- source: we
+  target: access to account
+  key: COLLECT
+  text:
+  - We keep this login data for as long as your product account is active.
+  - We log all access to all accounts by full IP address so that we can always verify
+    no unauthorized access has happened.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We do use persistent first-party cookies to store certain preferences, make it
+    easier for you to use our applications, and support analytics.
+  purposes:
+    analytics:
+    - to store certain preferences, make it easier for you to use our applications,
+      and support analytics
+    services:
+    - to store certain preferences, make it easier for you to use our applications,
+      and support analytics
+- source: we
+  target: information you volunteer
+  key: COLLECT
+  text:
+  - We also store any information you volunteer like surveys.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We also log full IP addresses used to sign up for a product account.
+  purposes: {}
+- source: we
+  target: opt choice
+  key: COLLECT
+  text:
+  - If this practice should change in the future, we will update this policy accordingly
+    and provide individuals with opt-out or opt-in choices as appropriate.
+  purposes: {}
+- source: we
+  target: option trash datum
+  key: COLLECT
+  text:
+  - In many of our applications, we give you the option to trash data.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'For clarity, pursuant to the Data Privacy Framework, the following principles
+    apply to all EU, and UK data that has been transferred into the United States:
+    We may be required to release personal data in response to lawful requests from
+    public authorities, including to meet national security and law enforcement requirements.'
+  purposes: {}
+- source: we
+  target: voluntary correspondence
+  key: COLLECT
+  text:
+  - Voluntary correspondence
+  - When you write Salesroom with a question or to ask for help, we keep that correspondence,
+    including the email address, so that we have a history of past correspondences
+    to reference if you reach out in the future.
+  purposes: {}
+- source: browser
+  target: information as
+  key: COLLECT
+  text:
+  - When you browse our applications, your browser automatically shares certain information
+    such as which operating system and browser version you are using.
+  purposes: {}
+- source: voluntary correspondence
+  target: email address
+  key: SUBSUM
+  text:
+  - Voluntary correspondence
+  - When you write Salesroom with a question or to ask for help, we keep that correspondence,
+    including the email address, so that we have a history of past correspondences
+    to reference if you reach out in the future.
+nodes:
+- type: ACTOR
+  id: browser
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access to account
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information as
+- type: DATA
+  id: information you volunteer
+- type: DATA
+  id: ip address
+- type: DATA
+  id: opt choice
+- type: DATA
+  id: option trash datum
+- type: DATA
+  id: personal information
+- type: DATA
+  id: voluntary correspondence

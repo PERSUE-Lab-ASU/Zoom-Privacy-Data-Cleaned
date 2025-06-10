@@ -1,0 +1,79 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: agent carry permit business function
+  target: personal information
+  key: COLLECT
+  text:
+  - Only authorized Excelicare employees or agents carrying out permitted business
+    functions are permitted to access Personal Information.
+  purposes: {}
+- source: authorized excelicare employee
+  target: personal information
+  key: COLLECT
+  text:
+  - Only authorized Excelicare employees or agents carrying out permitted business
+    functions are permitted to access Personal Information.
+  purposes: {}
+- source: excelicare
+  target: personal information
+  key: COLLECT
+  text:
+  - Excelicare may receive Personal Information from registered users of our solutions
+    as part of our provision of services to and on behalf of users.
+  - Such information may only be used by Excelicare as is reasonably necessary to
+    perform obligations as contracted by users.
+  purposes: {}
+- source: excelicare
+  target: personal information provide about patient
+  key: COLLECT
+  text:
+  - This document details how Excelicare stores, uses, and collects Personal Information
+    provided by registered users about patients.
+  purposes: {}
+- source: patient detail
+  target: email address
+  key: SUBSUM
+  text:
+  - This includes patient details such as name, address, email address, and phone
+    numbers.
+- source: patient detail
+  target: person name
+  key: SUBSUM
+  text:
+  - This includes patient details such as name, address, email address, and phone
+    numbers.
+- source: patient detail
+  target: phone number
+  key: SUBSUM
+  text:
+  - This includes patient details such as name, address, email address, and phone
+    numbers.
+- source: patient detail
+  target: postal address
+  key: SUBSUM
+  text:
+  - This includes patient details such as name, address, email address, and phone
+    numbers.
+nodes:
+- type: ACTOR
+  id: agent carry permit business function
+- type: ACTOR
+  id: authorized excelicare employee
+- type: ACTOR
+  id: excelicare
+- type: DATA
+  id: email address
+- type: DATA
+  id: patient detail
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information provide about patient
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address

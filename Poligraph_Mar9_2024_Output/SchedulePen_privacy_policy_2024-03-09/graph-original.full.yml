@@ -1,0 +1,119 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We process data under the contractual lawful basis, with a contract between us
+    and the user.
+  purposes: {}
+- source: we
+  target: backup
+  key: COLLECT
+  text:
+  - We take daily backups of our databases using two seperate backup providers and
+    store the backups on different servers to the ones we use to serve our software.
+  purposes: {}
+- source: we
+  target: information about browser
+  key: COLLECT
+  text:
+  - We may also store information about your browser and how you use the system.
+  purposes: {}
+- source: contractor
+  target: account
+  key: COLLECT
+  text:
+  - Our employees and contractors are prohibited from using this access to view your
+    data unless absolutely required.
+  - They will only access your account and view your data when you raise a support
+    ticket, or for training.
+  purposes: {}
+- source: datum user add within system
+  target: accuracy
+  key: SUBSUM
+  text:
+  - We are not responsible for the data that users add within the system, including
+    its accuracy.
+- source: plain text
+  target: email address
+  key: SUBSUM
+  text:
+  - This means no sensitive data is stored in our database as plain text, including
+    names, email addresses, user editable fields and passwords.
+- source: plain text
+  target: password
+  key: SUBSUM
+  text:
+  - This means no sensitive data is stored in our database as plain text, including
+    names, email addresses, user editable fields and passwords.
+- source: plain text
+  target: person name
+  key: SUBSUM
+  text:
+  - This means no sensitive data is stored in our database as plain text, including
+    names, email addresses, user editable fields and passwords.
+- source: plain text
+  target: user editable field
+  key: SUBSUM
+  text:
+  - This means no sensitive data is stored in our database as plain text, including
+    names, email addresses, user editable fields and passwords.
+- source: transactional email
+  target: account warning
+  key: SUBSUM
+  text:
+  - We will send you transactional emails (e.g. invoices, legal document changes and
+    account warning), and if you have opted-in to marketing emails, you may receive
+    occasional marketing emails.
+- source: transactional email
+  target: invoice
+  key: SUBSUM
+  text:
+  - We will send you transactional emails (e.g. invoices, legal document changes and
+    account warning), and if you have opted-in to marketing emails, you may receive
+    occasional marketing emails.
+- source: transactional email
+  target: legal document change
+  key: SUBSUM
+  text:
+  - We will send you transactional emails (e.g. invoices, legal document changes and
+    account warning), and if you have opted-in to marketing emails, you may receive
+    occasional marketing emails.
+nodes:
+- type: ACTOR
+  id: contractor
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: account
+- type: DATA
+  id: account warning
+- type: DATA
+  id: accuracy
+- type: DATA
+  id: backup
+- type: DATA
+  id: datum user add within system
+- type: DATA
+  id: email address
+- type: DATA
+  id: information about browser
+- type: DATA
+  id: invoice
+- type: DATA
+  id: legal document change
+- type: DATA
+  id: password
+- type: DATA
+  id: person name
+- type: DATA
+  id: plain text
+- type: DATA
+  id: transactional email
+- type: DATA
+  id: user editable field

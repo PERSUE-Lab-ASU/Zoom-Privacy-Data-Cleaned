@@ -1,0 +1,95 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: amount of datum on customer
+  key: COLLECT
+  text:
+  - We also receive a limited amount of data on our customers' customers.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We only use strictly necessary cookies.
+  - We use cookies to help us provide you with a personalized service, and to help
+    make our website and service better for you.
+  purposes:
+    services:
+    - to help us provide you with a personalized service, and to help make our website
+      and service better for you
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - 'In order to provide this service, we capture and store information about you
+    and about users uploading material to the service:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We will retain your personal information for the duration of our business relationship
+    and afterwards for as long as is necessary and relevant for our legitimate business
+    purposes, or as otherwise permitted by applicable laws and regulations.
+  purposes: {}
+- source: we
+  target: temporary file
+  key: COLLECT
+  text:
+  - 'Storing media files
+
+
+    Transloadit only stores temporary files, and we do so for 24 hours .'
+  purposes: {}
+- source: transloadit
+  target: datum on end user
+  key: COLLECT
+  text:
+  - 'As far as these cases are concerned, Transloadit receives the following data
+    on end-users:'
+  purposes: {}
+- source: transloadit
+  target: information about customer
+  key: COLLECT
+  text:
+  - Transloadit collects and shares information about its customers.
+  purposes: {}
+- source: transloadit
+  target: link to upload medium file
+  key: COLLECT
+  text:
+  - Transloadit only stores links to uploaded media files in the status JSON of an
+    Assembly .
+  purposes: {}
+- source: transloadit
+  target: temporary file
+  key: COLLECT
+  text:
+  - 'Storing media files
+
+
+    Transloadit only stores temporary files, and we do so for 24 hours .'
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: transloadit
+- type: ACTOR
+  id: we
+- type: DATA
+  id: amount of datum on customer
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum on end user
+- type: DATA
+  id: information about customer
+- type: DATA
+  id: information about you
+- type: DATA
+  id: link to upload medium file
+- type: DATA
+  id: personal information
+- type: DATA
+  id: temporary file

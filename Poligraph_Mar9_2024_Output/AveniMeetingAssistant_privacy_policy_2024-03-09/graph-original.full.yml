@@ -1,0 +1,183 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: category of personal datum
+  key: COLLECT
+  text:
+  - Due to the nature of our business and data processing activities we would collect
+    and process various categories of personal data from various data subjects.
+  purposes: {}
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Contact information'
+  purposes: {}
+- source: we
+  target: job detail
+  key: COLLECT
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Job details (company and job function)'
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Names'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - As a data processor we process personal data in line with the lawful basis determined
+    by the data controller.
+  - We collect personal data through several means.
+  - 'We may use personal data for various activities which can include the following
+    activities:'
+  - Where we have an agreement in place with a customer who is asking you to use our
+    Services (for example your employer), we obtain and process your Personal Information
+    on behalf of and at the instructions of that customer.
+  purposes:
+    advertising:
+    - Sending marketing communications and other company updates
+    analytics:
+    - Communicate with relevant data controllers any communications received from
+      a data subject including (but not limited to) data subject right requests
+    security:
+    - Handle an enquiry or complaint you have made
+    services:
+    - Action any data subject right requests
+    - Communicate with relevant data controllers any communications received from
+      a data subject including (but not limited to) data subject right requests
+    - Handle an enquiry or complaint you have made
+    - Notify you of changes to our services
+    - Process an order for a product or other service
+    - Seek your views or comments on the services we provide
+    - To contract with you as a new client or supplier
+    - To manage our relationship with you as a client, supplier or professional contact
+    - To manage queries relating to services we have provided to you historically
+    - To process job applications
+    - To provide services to you and carry out your instructions in connection with
+      our services
+- source: we
+  target: recruitment datum
+  key: COLLECT
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Recruitment data (CVs and cover letters)'
+  purposes: {}
+- source: we
+  target: technical datum
+  key: COLLECT
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Technical data (e.g. IP Addresses)'
+  purposes: {}
+- source: personal information
+  target: audio call recording
+  key: SUBSUM
+  text:
+  - 'As a data processor, we may process and store the following categories of personal
+    data, which can include (but is not limited to): Audio call recordings'
+- source: personal information
+  target: company function
+  key: SUBSUM
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Job details (company and job function)'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Contact information'
+- source: personal information
+  target: cover letter
+  key: SUBSUM
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Recruitment data (CVs and cover letters)'
+- source: personal information
+  target: cv
+  key: SUBSUM
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Recruitment data (CVs and cover letters)'
+- source: personal information
+  target: job detail
+  key: SUBSUM
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Job details (company and job function)'
+- source: personal information
+  target: meta datum of call recording
+  key: SUBSUM
+  text:
+  - 'As a data processor, we may process and store the following categories of personal
+    data, which can include (but is not limited to): Meta data of call recordings'
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Names'
+- source: personal information
+  target: quality review
+  key: SUBSUM
+  text:
+  - 'As a data processor, we may process and store the following categories of personal
+    data, which can include (but is not limited to): Quality reviews'
+- source: personal information
+  target: recruitment datum
+  key: SUBSUM
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Recruitment data (CVs and cover letters)'
+- source: personal information
+  target: technical datum
+  key: SUBSUM
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Technical data (e.g. IP Addresses)'
+- source: technical datum
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'As a data controller we would normally collect the following categories of personal
+    data: Technical data (e.g. IP Addresses)'
+nodes:
+- type: ACTOR
+  id: we
+- type: DATA
+  id: audio call recording
+- type: DATA
+  id: category of personal datum
+- type: DATA
+  id: company function
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cover letter
+- type: DATA
+  id: cv
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job detail
+- type: DATA
+  id: meta datum of call recording
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: quality review
+- type: DATA
+  id: recruitment datum
+- type: DATA
+  id: technical datum

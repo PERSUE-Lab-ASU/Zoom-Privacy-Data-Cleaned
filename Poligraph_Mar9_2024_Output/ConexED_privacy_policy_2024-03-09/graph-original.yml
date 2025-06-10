@@ -1,0 +1,459 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: access time
+  key: COLLECT
+  text:
+  - 'We may automatically collect the following information about your use of our
+    Site or Services through cookies, web beacons, and other technologies: your domain
+    name; your browser type and operating system; web pages you view; links you click;
+    your IP address; the length of time you visit our Site and or use our Services;
+    and the referring URL, or the webpage that led you to our Site, and the following:
+    access time, browser type, domain name, IP address, page views and referring URL.'
+  purposes: {}
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - 'We may automatically collect the following information about your use of our
+    Site or Services through cookies, web beacons, and other technologies: your domain
+    name; your browser type and operating system; web pages you view; links you click;
+    your IP address; the length of time you visit our Site and or use our Services;
+    and the referring URL, or the webpage that led you to our Site, and the following:
+    access time, browser type, domain name, IP address, page views and referring URL.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - 'We may automatically collect the following information about your use of our
+    Site or Services through cookies, web beacons, and other technologies: your domain
+    name; your browser type and operating system; web pages you view; links you click;
+    your IP address; the length of time you visit our Site and or use our Services;
+    and the referring URL, or the webpage that led you to our Site, and the following:
+    access time, browser type, domain name, IP address, page views and referring URL.'
+  purposes: {}
+- source: we
+  target: domain name
+  key: COLLECT
+  text:
+  - 'We may automatically collect the following information about your use of our
+    Site or Services through cookies, web beacons, and other technologies: your domain
+    name; your browser type and operating system; web pages you view; links you click;
+    your IP address; the length of time you visit our Site and or use our Services;
+    and the referring URL, or the webpage that led you to our Site, and the following:
+    access time, browser type, domain name, IP address, page views and referring URL.'
+  purposes: {}
+- source: we
+  target: identify information
+  key: COLLECT
+  text:
+  - 'Your personal identifying information may also be used for the following purposes:
+    We may use your identifying information to help diagnose problems with ConexED''s
+    server and to administer the ConexED website.'
+  purposes:
+    services:
+    - to help diagnose problems with ConexED's server and to administer the ConexED
+      website
+- source: we
+  target: information about you
+  key: COLLECT
+  text:
+  - We may collect information about you directly from you and from third parties,
+    as well as automatically through your use of our Site or Services.
+  purposes: {}
+- source: we
+  target: information we receive from facebook
+  key: COLLECT
+  text:
+  - We store the information that we receive from Facebook, LinkedIn, Google or your
+    institution's Learning Management System (LMS) with other information that we
+    collect from you or receive about you.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'We may automatically collect the following information about your use of our
+    Site or Services through cookies, web beacons, and other technologies: your domain
+    name; your browser type and operating system; web pages you view; links you click;
+    your IP address; the length of time you visit our Site and or use our Services;
+    and the referring URL, or the webpage that led you to our Site, and the following:
+    access time, browser type, domain name, IP address, page views and referring URL.'
+  purposes: {}
+- source: we
+  target: optional information
+  key: COLLECT
+  text:
+  - We also may collect additional optional information from you, including your name,
+    location, and phone number; however, you are not required to provide us with this
+    information.
+  purposes:
+    analytics:
+    - to provide us with this information
+- source: we
+  target: refer url
+  key: COLLECT
+  text:
+  - 'We may automatically collect the following information about your use of our
+    Site or Services through cookies, web beacons, and other technologies: your domain
+    name; your browser type and operating system; web pages you view; links you click;
+    your IP address; the length of time you visit our Site and or use our Services;
+    and the referring URL, or the webpage that led you to our Site, and the following:
+    access time, browser type, domain name, IP address, page views and referring URL.'
+  purposes: {}
+- source: we
+  target: start time of zoom meeting create as result of appointment schedule through
+    conexed
+  key: COLLECT
+  text:
+  - ConexED's Zoom integration will automatically collect the start and end time of
+    any Zoom meetings which were created as the result of an appointment scheduled
+    through ConexED.
+  - Similarly, when everyone has disconnected and the meeting has ended, our system
+    will automatically record this time as the "actual end time" of the meeting.
+  - When you first join the Zoom meeting, our system will automatically record this
+    time as the "actual start time" of the meeting.
+  purposes: {}
+- source: we
+  target: unique id
+  key: COLLECT
+  text:
+  - When using ConexED's Zoom integration, we collect a unique ID from Zoom which
+    uniquely links your ConexED and Zoom accounts so that we may create and update
+    meetings.
+  purposes: {}
+- source: we
+  target: unique set of credential know as oauth token you revoke at time through
+    conexed application
+  key: COLLECT
+  text:
+  - We also collect a unique and temporary set of credentials known as OAuth tokens
+    which you may revoke at any time through the ConexED application or your Zoom
+    account settings.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: access
+  key: COLLECT
+  text:
+  - Data residing on the ConexED server is password protected, and access is provided
+    only to the account holder who created the password, anyone to whom that account
+    holder entrusted the password, authorized staff of the Institution, and those
+    employees of ConexED who require such access to administer and maintain the ConexED
+    system or to provide requested customer support to users of ConexED.
+  purposes: {}
+- source: authorized staff of institution
+  target: access
+  key: COLLECT
+  text:
+  - Data residing on the ConexED server is password protected, and access is provided
+    only to the account holder who created the password, anyone to whom that account
+    holder entrusted the password, authorized staff of the Institution, and those
+    employees of ConexED who require such access to administer and maintain the ConexED
+    system or to provide requested customer support to users of ConexED.
+  purposes: {}
+- source: browser
+  target: ip address
+  key: COLLECT
+  text:
+  - When you log on to ConexED, your browser will automatically transmit to ConexED's
+    server the IP address of your computer and type of browser you are using.
+  purposes: {}
+- source: browser
+  target: type of browser you use
+  key: COLLECT
+  text:
+  - When you log on to ConexED, your browser will automatically transmit to ConexED's
+    server the IP address of your computer and type of browser you are using.
+  purposes: {}
+- source: college
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Summary data representing a compilation of aggregate data representing ConexED
+    users may be collected by ConexED and provided to various entities including colleges
+    and other educational institutions represented on ConexED.
+  purposes: {}
+- source: college
+  target: personal identify information
+  key: COLLECT
+  text:
+  - Summary data representing a compilation of aggregate data representing ConexED
+    users may be collected by ConexED and provided to various entities including colleges
+    and other educational institutions represented on ConexED.
+  - 'Your personal identifying information may also be used for the following purposes:'
+  purposes:
+    analytics:
+    - 'Your personal identifying information may also be used for the following purposes:
+      We may use your identifying information to help diagnose problems with ConexED''s
+      server and to administer the ConexED website.'
+    security:
+    - 'Your personal identifying information may also be used for the following purposes:
+      We may use your identifying information to help diagnose problems with ConexED''s
+      server and to administer the ConexED website.'
+    services:
+    - 'Your personal identifying information may also be used for the following purposes:
+      We may use your identifying information to help diagnose problems with ConexED''s
+      server and to administer the ConexED website.'
+    - to help diagnose problems with ConexED's server and to administer the ConexED
+      website
+- source: conexed
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'ConexED will use your personal identifying information to complete the following
+    forms, to obtain information for you and to effect transactions on your behalf,
+    in each case only upon your instructions to do so:'
+  purposes:
+    services:
+    - Communication with counseling staff
+- source: conexed
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Summary data representing a compilation of aggregate data representing ConexED
+    users may be collected by ConexED and provided to various entities including colleges
+    and other educational institutions represented on ConexED.
+  purposes: {}
+- source: conexed
+  target: bit secure socket layer encryption support
+  key: COLLECT
+  text:
+  - ConexED uses 128-bit, Secure Socket Layer encryption supported by all common browsers.
+  purposes: {}
+- source: conexed
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - ConexED uses cookies to remember you and keep track of your session when you are
+    logged on to ConexED.
+  purposes:
+    services:
+    - to remember you and keep track of your session when you are logged on to ConexED
+- source: conexed
+  target: information contain in conexed account
+  key: COLLECT
+  text:
+  - When required by law to comply with any valid legal process such as a search warrant,
+    subpoena, statute, regulation or court order, ConexED will supply such information
+    contained in your ConexED account as ConexED reasonably determines, based on the
+    advice of counsel, it is legally required to supply.
+  purposes: {}
+- source: conexed
+  target: personal identify information
+  key: COLLECT
+  text:
+  - Summary data representing a compilation of aggregate data representing ConexED
+    users may be collected by ConexED and provided to various entities including colleges
+    and other educational institutions represented on ConexED.
+  - 'Your personal identifying information may also be used for the following purposes:'
+  purposes:
+    analytics:
+    - 'Your personal identifying information may also be used for the following purposes:
+      We may use your identifying information to help diagnose problems with ConexED''s
+      server and to administer the ConexED website.'
+    security:
+    - 'Your personal identifying information may also be used for the following purposes:
+      We may use your identifying information to help diagnose problems with ConexED''s
+      server and to administer the ConexED website.'
+    services:
+    - 'Your personal identifying information may also be used for the following purposes:
+      We may use your identifying information to help diagnose problems with ConexED''s
+      server and to administer the ConexED website.'
+    - to help diagnose problems with ConexED's server and to administer the ConexED
+      website
+- source: conexed
+  target: personal identifying information
+  key: COLLECT
+  text:
+  - 'ConexED will use your personal identifying information to complete the following
+    forms, to obtain information for you and to effect transactions on your behalf,
+    in each case only upon your instructions to do so:'
+  purposes:
+    services:
+    - Communication with counseling staff
+    - to complete the following forms, to obtain information for you and to effect
+      transactions on your behalf, in each case only upon your instructions to do
+      so
+- source: conexed
+  target: personal information
+  key: COLLECT
+  text:
+  - ConexED collects personal information from you primarily for three reasons.
+  purposes: {}
+- source: conexed
+  target: specific information
+  key: COLLECT
+  text:
+  - In addition, ConexED may release specific information relevant to special cases,
+    such as a physical threat to you or others or an attempted breach of security
+    on the ConexED site.
+  purposes: {}
+- source: educational institution
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - Summary data representing a compilation of aggregate data representing ConexED
+    users may be collected by ConexED and provided to various entities including colleges
+    and other educational institutions represented on ConexED.
+  purposes: {}
+- source: educational institution
+  target: personal identify information
+  key: COLLECT
+  text:
+  - Summary data representing a compilation of aggregate data representing ConexED
+    users may be collected by ConexED and provided to various entities including colleges
+    and other educational institutions represented on ConexED.
+  - 'Your personal identifying information may also be used for the following purposes:'
+  purposes:
+    analytics:
+    - 'Your personal identifying information may also be used for the following purposes:
+      We may use your identifying information to help diagnose problems with ConexED''s
+      server and to administer the ConexED website.'
+    security:
+    - 'Your personal identifying information may also be used for the following purposes:
+      We may use your identifying information to help diagnose problems with ConexED''s
+      server and to administer the ConexED website.'
+    services:
+    - 'Your personal identifying information may also be used for the following purposes:
+      We may use your identifying information to help diagnose problems with ConexED''s
+      server and to administer the ConexED website.'
+    - to help diagnose problems with ConexED's server and to administer the ConexED
+      website
+- source: employee of conexed
+  target: access
+  key: COLLECT
+  text:
+  - Data residing on the ConexED server is password protected, and access is provided
+    only to the account holder who created the password, anyone to whom that account
+    holder entrusted the password, authorized staff of the Institution, and those
+    employees of ConexED who require such access to administer and maintain the ConexED
+    system or to provide requested customer support to users of ConexED.
+  purposes: {}
+- source: server
+  target: ip address
+  key: COLLECT
+  text:
+  - When you log on to ConexED, your browser will automatically transmit to ConexED's
+    server the IP address of your computer and type of browser you are using.
+  purposes: {}
+- source: server
+  target: type of browser you use
+  key: COLLECT
+  text:
+  - When you log on to ConexED, your browser will automatically transmit to ConexED's
+    server the IP address of your computer and type of browser you are using.
+  purposes: {}
+- source: zoom integration
+  target: start time of zoom meeting create as result of appointment schedule through
+    conexed
+  key: COLLECT
+  text:
+  - ConexED's Zoom integration will automatically collect the start and end time of
+    any Zoom meetings which were created as the result of an appointment scheduled
+    through ConexED.
+  purposes: {}
+- source: optional information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - We also may collect additional optional information from you, including your name,
+    location, and phone number; however, you are not required to provide us with this
+    information.
+- source: optional information
+  target: person name
+  key: SUBSUM
+  text:
+  - We also may collect additional optional information from you, including your name,
+    location, and phone number; however, you are not required to provide us with this
+    information.
+- source: optional information
+  target: phone number
+  key: SUBSUM
+  text:
+  - We also may collect additional optional information from you, including your name,
+    location, and phone number; however, you are not required to provide us with this
+    information.
+- source: type of browser you use
+  target: ip address
+  key: SUBSUM
+  text:
+  - When you log on to ConexED, your browser will automatically transmit to ConexED's
+    server the IP address of your computer and type of browser you are using.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: authorized staff of institution
+- type: ACTOR
+  id: browser
+- type: ACTOR
+  id: college
+- type: ACTOR
+  id: conexed
+- type: ACTOR
+  id: educational institution
+- type: ACTOR
+  id: employee of conexed
+- type: ACTOR
+  id: server
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: zoom integration
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access
+- type: DATA
+  id: access time
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: bit secure socket layer encryption support
+- type: DATA
+  id: browser type
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: domain name
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: identify information
+- type: DATA
+  id: information about you
+- type: DATA
+  id: information contain in conexed account
+- type: DATA
+  id: information we receive from facebook
+- type: DATA
+  id: ip address
+- type: DATA
+  id: optional information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identify information
+- type: DATA
+  id: personal identifying information
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: refer url
+- type: DATA
+  id: specific information
+- type: DATA
+  id: start time of zoom meeting create as result of appointment schedule through
+    conexed
+- type: DATA
+  id: type of browser you use
+- type: DATA
+  id: unique id
+- type: DATA
+  id: unique set of credential know as oauth token you revoke at time through conexed
+    application

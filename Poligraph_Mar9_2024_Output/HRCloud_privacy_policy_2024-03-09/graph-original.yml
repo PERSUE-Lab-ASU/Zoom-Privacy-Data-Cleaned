@@ -1,0 +1,342 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will retain and use your information as necessary to comply with our legal
+    obligations, resolve disputes, and enforce our agreements.
+  - We will retain your information for as long as your account is active or as needed
+    to provide you with services.
+  purposes:
+    legal:
+    - to comply with our legal obligations, resolve disputes, and enforce our agreements
+- source: we
+  target: browser type
+  key: COLLECT
+  text:
+  - As is true of most Web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, the files viewed on our site (e.g.,
+    HTML pages, graphics, etc.), operating system, date/time stamp, and/or clickstream
+    data.
+  purposes: {}
+- source: we
+  target: clickstream datum
+  key: COLLECT
+  text:
+  - As is true of most Web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, the files viewed on our site (e.g.,
+    HTML pages, graphics, etc.), operating system, date/time stamp, and/or clickstream
+    data.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - For example, we use cookies to remember your chosen preferences and session progress.
+  - We use cookies (small bits of saved browser data) to improve your HR Cloud experience.
+  - We use cookies to remember users' settings (e.g. language preference) for authentication.
+  purposes:
+    security:
+    - to remember users' settings (e.g. language preference) for authentication
+    services:
+    - to improve your HR Cloud experience
+    - to remember users' settings (e.g. language preference) for authentication
+    - to remember your chosen preferences and session progress
+- source: we
+  target: date time stamp
+  key: COLLECT
+  text:
+  - As is true of most Web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, the files viewed on our site (e.g.,
+    HTML pages, graphics, etc.), operating system, date/time stamp, and/or clickstream
+    data.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - When you register for an account, we will use your name and email address to send
+    periodic emails to you transactional in nature.
+  purposes:
+    services:
+    - to send periodic emails to you transactional in nature
+- source: we
+  target: file view on site
+  key: COLLECT
+  text:
+  - As is true of most Web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, the files viewed on our site (e.g.,
+    HTML pages, graphics, etc.), operating system, date/time stamp, and/or clickstream
+    data.
+  purposes: {}
+- source: we
+  target: individual opt choice
+  key: COLLECT
+  text:
+  - We will provide an individual opt-out choice, or opt-in for sensitive data, before
+    we share your data with third parties other than our agents.
+  purposes: {}
+- source: we
+  target: information browser attach to web request
+  key: COLLECT
+  text:
+  - This information includes your web browser, your internet protocol address, any
+    information your browser attaches to the web request, and the navigation actions
+    you take on the Company's Web sites.
+  - When browsing HRCloud.com the Company may also collect information through the
+    use of data-gathering tools, such as cookies and Web beacons.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - As is true of most Web sites, we gather certain information automatically and
+    store it in log files.
+  - This information includes your web browser, your internet protocol address, any
+    information your browser attaches to the web request, and the navigation actions
+    you take on the Company's Web sites.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, the files viewed on our site (e.g.,
+    HTML pages, graphics, etc.), operating system, date/time stamp, and/or clickstream
+    data.
+  - When browsing HRCloud.com the Company may also collect information through the
+    use of data-gathering tools, such as cookies and Web beacons.
+  purposes: {}
+- source: we
+  target: operating system
+  key: COLLECT
+  text:
+  - As is true of most Web sites, we gather certain information automatically and
+    store it in log files.
+  - This information may include internet protocol (IP) addresses, browser type, internet
+    service provider (ISP), referring/exit pages, the files viewed on our site (e.g.,
+    HTML pages, graphics, etc.), operating system, date/time stamp, and/or clickstream
+    data.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - When you register for an account, we will use your name and email address to send
+    periodic emails to you transactional in nature.
+  purposes:
+    services:
+    - to send periodic emails to you transactional in nature
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may transfer personal information to companies that help us provide our service.
+  - When you visit our Website and make a request for information or register on HRCloud.com's
+    Web site, the Company will collect the following personal information from you.
+  purposes: {}
+- source: we
+  target: report base on use of technology by company on individual basis
+  key: COLLECT
+  text:
+  - We may receive reports based on the use of these technologies by these companies
+    on an individual as well as aggregated basis.
+  purposes: {}
+- source: we
+  target: small bit of save browser datum
+  key: COLLECT
+  text:
+  - We use cookies (small bits of saved browser data) to improve your HR Cloud experience.
+  purposes:
+    services:
+    - to improve your HR Cloud experience
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our third-party partner may use technologies such as cookies to gather information
+    about your activities on this site and other sites in order to provide you advertising
+    based upon your browsing activities and interests.
+  purposes:
+    advertising:
+    - in order to provide you advertising based upon your browsing activities and
+      interests
+- source: UNSPECIFIED_ACTOR
+  target: customer information
+  key: COLLECT
+  text:
+  - HRCloud.com may share customer information with other companies, including affiliates
+    and business partners.
+  purposes: {}
+- source: business partner
+  target: customer information
+  key: COLLECT
+  text:
+  - HRCloud.com may share customer information with other companies, including affiliates
+    and business partners.
+  purposes: {}
+- source: company help
+  target: personal information
+  key: COLLECT
+  text:
+  - We may transfer personal information to companies that help us provide our service.
+  purposes: {}
+- source: contract service provider
+  target: collect personal information
+  key: COLLECT
+  text:
+  - 'Privacy Statement
+
+
+    HRCloud.com may share collected personal information with contracted service providers
+    in order to complete services these services are:'
+  purposes: {}
+- source: hrcloud.com
+  target: customer information
+  key: COLLECT
+  text:
+  - HRCloud.com may share customer information with other companies, including affiliates
+    and business partners.
+  purposes: {}
+- source: hrcloud.com
+  target: personal information
+  key: COLLECT
+  text:
+  - HRCloud.com may disclose your personal information as required by law, such as
+    to comply with a subpoena, or similar legal process or when we believe in good
+    faith that disclosure is necessary to protect our rights, protect your safety
+    or the safety of others, investigate fraud, or respond to a government request.
+  - In certain situations, HRCloud.com may be required to disclose personal data in
+    response to lawful requests by public authorities, including to meet national
+    security or law enforcement requirements.
+  purposes:
+    legal:
+    - such as to comply with a subpoena, or similar legal process or when we believe
+      in good faith that disclosure is necessary
+- source: hrcloud.com
+  target: personal information we process on behalf of client
+  key: COLLECT
+  text:
+  - HRCloud.com will retain personal information we process on behalf of our Clients
+    for as long as needed to provide services to our Clients.
+  - HRCloud.com will retain this personal information as necessary to comply with
+    our legal obligations, resolve disputes, and enforce our agreements.
+  purposes: {}
+- source: social media
+  target: ip address
+  key: COLLECT
+  text:
+  - HRCloud.com includes Social Media Features, such as the Facebook Like button and
+    Twitter Follow button or interactive mini-programs that run on HRCloud.com.
+  - These Features may collect your IP address, which page you are visiting on HRCloud.com,
+    and may set a cookie to enable the Feature to function properly.
+  purposes: {}
+- source: social media
+  target: Google
+  key: SUBSUM
+  text:
+  - 'Privacy Statement
+
+
+    Information other company employees can use to contact you via social media such
+    as yourFacebook, LinkedIn, Twitter, Google Hangouts, Skype, or Yammer ID''s.'
+- source: social media
+  target: Microsoft
+  key: SUBSUM
+  text:
+  - 'Privacy Statement
+
+
+    Information other company employees can use to contact you via social media such
+    as yourFacebook, LinkedIn, Twitter, Google Hangouts, Skype, or Yammer ID''s.'
+- source: social media
+  target: Twitter
+  key: SUBSUM
+  text:
+  - 'Privacy Statement
+
+
+    Information other company employees can use to contact you via social media such
+    as yourFacebook, LinkedIn, Twitter, Google Hangouts, Skype, or Yammer ID''s.'
+- source: social media
+  target: program run on hrcloud.com
+  key: SUBSUM
+  text:
+  - HRCloud.com includes Social Media Features, such as the Facebook Like button and
+    Twitter Follow button or interactive mini-programs that run on HRCloud.com.
+- source: social media
+  target: yourfacebook
+  key: SUBSUM
+  text:
+  - 'Privacy Statement
+
+
+    Information other company employees can use to contact you via social media such
+    as yourFacebook, LinkedIn, Twitter, Google Hangouts, Skype, or Yammer ID''s.'
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: Microsoft
+- type: ACTOR
+  id: Twitter
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: business partner
+- type: ACTOR
+  id: company help
+- type: ACTOR
+  id: contract service provider
+- type: ACTOR
+  id: hrcloud.com
+- type: ACTOR
+  id: program run on hrcloud.com
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: yourfacebook
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: browser type
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: collect personal information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer information
+- type: DATA
+  id: date time stamp
+- type: DATA
+  id: email address
+- type: DATA
+  id: file view on site
+- type: DATA
+  id: individual opt choice
+- type: DATA
+  id: information browser attach to web request
+- type: DATA
+  id: ip address
+- type: DATA
+  id: operating system
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information we process on behalf of client
+- type: DATA
+  id: report base on use of technology by company on individual basis
+- type: DATA
+  id: small bit of save browser datum

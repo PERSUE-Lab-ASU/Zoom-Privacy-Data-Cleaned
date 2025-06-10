@@ -1,0 +1,74 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - While using our App, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: datum provide
+  key: COLLECT
+  text:
+  - We use data provided by our application for Slack(tm) only to address functionality
+    necessary to share calendar data, namely your Slack(tm) identifying info (Workspace
+    and User IDs) such that Free Blocks can tie it to Google Calendar data.
+  purposes:
+    services:
+    - only to address functionality necessary to share calendar data, namely your
+      Slack(tm) identifying info (Workspace and User IDs) such that Free Blocks can
+      tie it to Google Calendar data
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - While using our App, we may ask you to provide us with certain personally identifiable
+    information that can be used to contact or identify you.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may use your Personal Information to contact you with newsletters, marketing
+    or promotional materials and other information.
+  - We use your Personal Information only for providing and improving the App.
+  purposes:
+    advertising:
+    - to contact you with newsletters, marketing or promotional materials and other
+      information
+- source: we
+  target: free blocks llc
+  key: SUBSUM
+  text:
+  - Free Blocks LLC ("us", "we", or "our") operates applications (collectively, the
+    "App").
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - Personally identifiable information may include, but is not limited to your name
+    ("Personal Information").
+- source: personal identifier
+  target: personal information
+  key: SUBSUM
+  text:
+  - Personally identifiable information may include, but is not limited to your name
+    ("Personal Information").
+nodes:
+- type: ACTOR
+  id: free blocks llc
+- type: ACTOR
+  id: we
+- type: DATA
+  id: contact information
+- type: DATA
+  id: datum provide
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information

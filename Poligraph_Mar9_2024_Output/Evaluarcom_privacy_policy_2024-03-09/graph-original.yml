@@ -1,0 +1,72 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Your personal data will be used for the purpose of applying the evaluations required
+    by you either as part of the selection processes, evaluation of the company that
+    has invited you and / or as part of a purchase that you made on our site to evaluate
+    yourself, as well as we also use your data to inform about changes or new products
+    or services that are related to the contract acquired by you.
+  purposes:
+    analytics:
+    - for the purpose of applying the evaluations required by you either as part of
+      the selection processes, evaluation of the company that has invited you and
+      / or as part of a purchase that you made on our site to evaluate yourself
+    - to inform about changes or new products or services that are related to the
+      contract acquired by you
+    services:
+    - for the purpose of applying the evaluations required by you either as part of
+      the selection processes, evaluation of the company that has invited you and
+      / or as part of a purchase that you made on our site to evaluate yourself
+    - to inform about changes or new products or services that are related to the
+      contract acquired by you
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - For the purposes indicated in this privacy notice, we may collect your personal
+    data in different ways, whether you provide it to us directly, by participating
+    in our or a client of eval.com evaluations, selection processes and / or promotions
+    of self-assessments, competence development programs or related courses when using
+    our web portal, when making use of online services, in general when making use
+    of any of our advertising and marketing means, and from other sources permitted
+    by the Mexican laws and their subjective laws in other countries where evaluate.com
+    has a presence with similar policies, and particularly in those where our platform
+    operates.
+  - Your personal data will be used for the purpose of applying the evaluations required
+    by you either as part of the selection processes, evaluation of the company that
+    has invited you and / or as part of a purchase that you made on our site to evaluate
+    yourself, as well as we also use your data to inform about changes or new products
+    or services that are related to the contract acquired by you.
+  purposes:
+    analytics:
+    - for the purpose of applying the evaluations required by you either as part of
+      the selection processes, evaluation of the company that has invited you and
+      / or as part of a purchase that you made on our site to evaluate yourself
+    services:
+    - for the purpose of applying the evaluations required by you either as part of
+      the selection processes, evaluation of the company that has invited you and
+      / or as part of a purchase that you made on our site to evaluate yourself
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Your personal data may be transferred and processed within and outside the country
+    by people other than this company, in this sense your information may be shared
+    with subsidiaries, affiliates, third parties, who legally represent our rights
+    and interests, and in general with any other natural and / or legal persons, with
+    the exclusive purpose of complying with the obligations contracted with you.
+  purposes: {}
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: personal information

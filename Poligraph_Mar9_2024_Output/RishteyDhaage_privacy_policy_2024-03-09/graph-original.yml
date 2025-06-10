@@ -1,0 +1,286 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect information from you when you register to our app.
+  - What Way we Use Information ?
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - We may, however, use your mobile phone number (or email address, if provided)
+    without further consent for non-marketing or administrative purposes.
+  purposes:
+    advertising:
+    - for non-marketing or administrative purposes
+    services:
+    - for non-marketing or administrative purposes
+- source: we
+  target: information we collect from you
+  key: COLLECT
+  text:
+  - 'What personal information do we collect from the people that download our app?
+
+
+    We may use the information we collect from you when you register, make a purchase
+    in the following ways:'
+  purposes: {}
+- source: we
+  target: log file information
+  key: COLLECT
+  text:
+  - 'We may use log file information to:'
+  purposes:
+    analytics:
+    - 'to: and track your entries, submissions, views and such'
+    services:
+    - 'to: Provide custom, personalized content and information'
+    - 'to: Remember information so that you will not have to re-enter it during your
+      visit or the next time you use our app'
+- source: we
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may collect and release Personally Identifiable Information and/or non-personally-identifiable
+    information if required to do so by law, or in the good-faith belief that such
+    action is necessary to comply with state and federal laws (such as Copyright Law),
+    international law or respond to a court order, subpoena, or search warrant or
+    equivalent, or where in our reasonable belief, an individual's physical safety
+    may be at risk or threatened.
+  - We may share non-personally-identifiable information (such as anonymous User usage
+    data, referring / exit pages and URLs, platform types, asset views, number of
+    clicks, etc.) with interested third-parties to assist them in understanding the
+    usage patterns for certain content, services, advertisements, promotions, and/or
+    functionality on our app.
+  - We may use both your Personally Identifiable Information and certain non-personally-identifiable
+    information (such as anonymous user usage data, clickstream data, analytics statistics
+    etc.) to improve the quality and design of our app and to create new features,
+    promotions, functionality, and services by storing, tracking, and analyzing user
+    preferences and trends.
+  purposes:
+    advertising:
+    - to assist them in understanding the usage patterns for certain content, services,
+      advertisements, promotions, and/or functionality on our app
+    - to improve the quality and design of our app and to create new features, promotions,
+      functionality, and services by storing, tracking, and analyzing user preferences
+      and trends
+    analytics:
+    - to assist them in understanding the usage patterns for certain content, services,
+      advertisements, promotions, and/or functionality on our app
+    - to improve the quality and design of our app and to create new features, promotions,
+      functionality, and services by storing, tracking, and analyzing user preferences
+      and trends
+    services:
+    - to improve the quality and design of our app and to create new features, promotions,
+      functionality, and services by storing, tracking, and analyzing user preferences
+      and trends
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may collect and release Personally Identifiable Information and/or non-personally-identifiable
+    information if required to do so by law, or in the good-faith belief that such
+    action is necessary to comply with state and federal laws (such as Copyright Law),
+    international law or respond to a court order, subpoena, or search warrant or
+    equivalent, or where in our reasonable belief, an individual's physical safety
+    may be at risk or threatened.
+  - 'We may obtain the following types of information from or concerning you or your
+    mobile phone device, which may include information that can be used to identify
+    you as specified below (''Personally Identifying Information'') :'
+  - We may share your Personally Identifiable Information with third party service
+    providers to the extent that it is reasonably necessary to perform, improve or
+    maintain our app.
+  - We may use both your Personally Identifiable Information and certain non-personally-identifiable
+    information (such as anonymous user usage data, clickstream data, analytics statistics
+    etc.) to improve the quality and design of our app and to create new features,
+    promotions, functionality, and services by storing, tracking, and analyzing user
+    preferences and trends.
+  - We may use your mobile phone number or other Personally Identifiable Information
+    to send commercial or marketing messages without your consent or except as part
+    of a specific program or feature for which you will have the ability to opt-in
+    or opt-out.
+  purposes:
+    advertising:
+    - to improve the quality and design of our app and to create new features, promotions,
+      functionality, and services by storing, tracking, and analyzing user preferences
+      and trends
+    - to send commercial or marketing messages without your consent or except as part
+      of a specific program or feature for which you will have the ability to opt-in
+      or opt-out
+    analytics:
+    - to improve the quality and design of our app and to create new features, promotions,
+      functionality, and services by storing, tracking, and analyzing user preferences
+      and trends
+    services:
+    - to improve the quality and design of our app and to create new features, promotions,
+      functionality, and services by storing, tracking, and analyzing user preferences
+      and trends
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - If you submit Personally Identifiable Information to us through our app, then
+    we use your personal information to operate, maintain, and provide to you the
+    features and functionality of our app.
+  purposes:
+    services:
+    - to operate, maintain, and provide to you the features and functionality of our
+      app
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - We may use your mobile phone number or other Personally Identifiable Information
+    to send commercial or marketing messages without your consent or except as part
+    of a specific program or feature for which you will have the ability to opt-in
+    or opt-out.
+  - We may, however, use your mobile phone number (or email address, if provided)
+    without further consent for non-marketing or administrative purposes.
+  purposes:
+    advertising:
+    - for non-marketing or administrative purposes
+    - to send commercial or marketing messages without your consent or except as part
+      of a specific program or feature for which you will have the ability to opt-in
+      or opt-out
+    services:
+    - for non-marketing or administrative purposes
+- source: UNSPECIFIED_ACTOR
+  target: non-personal information
+  key: COLLECT
+  text:
+  - We may share non-personally-identifiable information (such as anonymous User usage
+    data, referring / exit pages and URLs, platform types, asset views, number of
+    clicks, etc.) with interested third-parties to assist them in understanding the
+    usage patterns for certain content, services, advertisements, promotions, and/or
+    functionality on our app.
+  purposes:
+    advertising:
+    - to assist them in understanding the usage patterns for certain content, services,
+      advertisements, promotions, and/or functionality on our app
+    analytics:
+    - to assist them in understanding the usage patterns for certain content, services,
+      advertisements, promotions, and/or functionality on our app
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - We may share your Personally Identifiable Information with third party service
+    providers to the extent that it is reasonably necessary to perform, improve or
+    maintain our app.
+  purposes: {}
+- source: non-personal information
+  target: analytic statistic
+  key: SUBSUM
+  text:
+  - We may use both your Personally Identifiable Information and certain non-personally-identifiable
+    information (such as anonymous user usage data, clickstream data, analytics statistics
+    etc.) to improve the quality and design of our app and to create new features,
+    promotions, functionality, and services by storing, tracking, and analyzing user
+    preferences and trends.
+- source: non-personal information
+  target: asset view
+  key: SUBSUM
+  text:
+  - We may share non-personally-identifiable information (such as anonymous User usage
+    data, referring / exit pages and URLs, platform types, asset views, number of
+    clicks, etc.) with interested third-parties to assist them in understanding the
+    usage patterns for certain content, services, advertisements, promotions, and/or
+    functionality on our app.
+- source: non-personal information
+  target: clickstream datum
+  key: SUBSUM
+  text:
+  - We may use both your Personally Identifiable Information and certain non-personally-identifiable
+    information (such as anonymous user usage data, clickstream data, analytics statistics
+    etc.) to improve the quality and design of our app and to create new features,
+    promotions, functionality, and services by storing, tracking, and analyzing user
+    preferences and trends.
+- source: non-personal information
+  target: internet activity
+  key: SUBSUM
+  text:
+  - We may share non-personally-identifiable information (such as anonymous User usage
+    data, referring / exit pages and URLs, platform types, asset views, number of
+    clicks, etc.) with interested third-parties to assist them in understanding the
+    usage patterns for certain content, services, advertisements, promotions, and/or
+    functionality on our app.
+  - We may use both your Personally Identifiable Information and certain non-personally-identifiable
+    information (such as anonymous user usage data, clickstream data, analytics statistics
+    etc.) to improve the quality and design of our app and to create new features,
+    promotions, functionality, and services by storing, tracking, and analyzing user
+    preferences and trends.
+- source: non-personal information
+  target: number of click
+  key: SUBSUM
+  text:
+  - We may share non-personally-identifiable information (such as anonymous User usage
+    data, referring / exit pages and URLs, platform types, asset views, number of
+    clicks, etc.) with interested third-parties to assist them in understanding the
+    usage patterns for certain content, services, advertisements, promotions, and/or
+    functionality on our app.
+- source: non-personal information
+  target: platform type
+  key: SUBSUM
+  text:
+  - We may share non-personally-identifiable information (such as anonymous User usage
+    data, referring / exit pages and URLs, platform types, asset views, number of
+    clicks, etc.) with interested third-parties to assist them in understanding the
+    usage patterns for certain content, services, advertisements, promotions, and/or
+    functionality on our app.
+- source: non-personal information
+  target: url
+  key: SUBSUM
+  text:
+  - We may share non-personally-identifiable information (such as anonymous User usage
+    data, referring / exit pages and URLs, platform types, asset views, number of
+    clicks, etc.) with interested third-parties to assist them in understanding the
+    usage patterns for certain content, services, advertisements, promotions, and/or
+    functionality on our app.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - We do not sell or share your Personally Identifiable Information (such as mobile
+    phone number) with other third-party companies for their commercial or marketing
+    use without your consent or except as part of a specific program or feature for
+    which you will have the ability to opt-in or opt-out.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: analytic statistic
+- type: DATA
+  id: asset view
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: email address
+- type: DATA
+  id: information we collect from you
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: log file information
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: number of click
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: platform type
+- type: DATA
+  id: url

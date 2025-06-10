@@ -1,0 +1,778 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Please note that we may still retain and use your information as necessary to
+    comply with our legal obligations, resolve disputes, and enforce our agreements.
+  - We may also share information as required by law, to maintain the security of
+    our products and services, and to protect the rights and property of Proofpoint
+    and/or its customers.
+  - We will retain your information for as long as your account is active or as needed
+    to provide you the Proofpoint Service.
+  purposes:
+    security:
+    - to maintain the security of our products and services, and to protect the rights
+      and property of Proofpoint and/or its customers
+- source: we
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share Aggregated Information (after removing information that would personally
+    identify you) and Log Data with third parties for industry analysis, demographic
+    profiling, and other purposes.
+  purposes:
+    analytics:
+    - for industry analysis, demographic profiling, and other purposes
+- source: we
+  target: contact information
+  key: COLLECT
+  text:
+  - We may also use your Contact Information to contact you with certain marketing
+    or promotional materials, as well as other information that may be of interest
+    to you.
+  - 'We will use the Contact Information provided to us directly by you to: (i) carry
+    out our obligations arising from any contracts between you and Proofpoint; (ii)
+    provide you with the services, products, and/or information which you have requested
+    from us; (iii) notify you about changes to our services or products; and (iv)
+    ensure that content from our Site is presented in the most effective manner for
+    you and your device.'
+  - Where you have consented, we may from time to time share your Contact Information
+    (name, email address, phone number) with our authorized channel partners so that
+    they can provide you with information on goods or services that may be of interest
+    to you.
+  - 'You may directly give us your contact information in the following ways: (i)
+    if you sign up for a free trial via www.proofpoint.com, (ii) sign up for offers
+    on the Site, (iii) sign up for newsletters, (iv) download white papers from the
+    Site, (v) respond to a promotion offered by a Proofpoint partner, or (vi) send
+    us an email.'
+  purposes:
+    advertising:
+    - to contact you with certain marketing or promotional materials, as well as other
+      information that may be of interest to you
+    legal:
+    - 'to: (i) carry out our obligations arising from any contracts between you and
+      Proofpoint; (ii) provide you with the services, products, and/or information
+      which you have requested from us; (iii) notify you about changes to our services
+      or products; and (iv) ensure that content from our Site is presented in the
+      most effective manner for you and your device'
+    services:
+    - 'to: (i) carry out our obligations arising from any contracts between you and
+      Proofpoint; (ii) provide you with the services, products, and/or information
+      which you have requested from us; (iii) notify you about changes to our services
+      or products; and (iv) ensure that content from our Site is presented in the
+      most effective manner for you and your device'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and similar technologies for storing your preferences and settings,
+    enabling user sign in, to pre-fill a contact form should a user engage with Proofpoint
+    marketing collateral, analyzing trends, authentication, administering the site,
+    analyzing how our products perform, and fulfilling other legitimate purposes.
+  purposes: {}
+- source: we
+  target: customize information about
+  key: COLLECT
+  text:
+  - We may also collect information about your mailbox size, which will allow us to
+    classify your company by size and provide customized information about implementing
+    the Proofpoint Service within your organization.
+  purposes: {}
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+  purposes: {}
+- source: we
+  target: information about mailbox size
+  key: COLLECT
+  text:
+  - We may also collect information about your mailbox size, which will allow us to
+    classify your company by size and provide customized information about implementing
+    the Proofpoint Service within your organization.
+  purposes: {}
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+  - We also collect your public IP address when you visit the Site.
+  - We may use your public IP address in order to determine whether certain requests
+    are fraudulent or frivolous and we may automatically cross-
+  purposes:
+    security:
+    - in order to determine whether certain requests are fraudulent or frivolous
+- source: we
+  target: log data
+  key: COLLECT
+  text:
+  - 'We may also use your Log Data and Personal Network Information to: (i) administer
+    our Site and for internal operations, including troubleshooting, data analysis,
+    testing, research, statistical, and survey purposes; (ii) improve our Site to
+    ensure that content is presented in the most effective manner for you and for
+    your device; (iii) allow you to participate in interactive features of our service,
+    when you choose to do so; and/or (iv) as part of our efforts to keep our Site
+    safe and secure.'
+  - We will use Log Data for any purpose.
+  purposes:
+    analytics:
+    - 'to: (i) administer our Site and for internal operations, including troubleshooting,
+      data analysis, testing, research, statistical, and survey purposes; (ii) improve
+      our Site to ensure that content is presented in the most effective manner for
+      you and for your device; (iii) allow you to participate in interactive features
+      of our service, when you choose to do so; and/or (iv) as part of our efforts
+      to keep our Site safe and secure'
+    services:
+    - 'to: (i) administer our Site and for internal operations, including troubleshooting,
+      data analysis, testing, research, statistical, and survey purposes; (ii) improve
+      our Site to ensure that content is presented in the most effective manner for
+      you and for your device; (iii) allow you to participate in interactive features
+      of our service, when you choose to do so; and/or (iv) as part of our efforts
+      to keep our Site safe and secure'
+- source: we
+  target: message content
+  key: COLLECT
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - Where you have consented, we may from time to time share your Contact Information
+    (name, email address, phone number) with our authorized channel partners so that
+    they can provide you with information on goods or services that may be of interest
+    to you.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - By proceeding to use the Site and/or the Proofpoint Service, you consent that
+    we may process the personal data that we collect from you in accordance with this
+    Privacy Statement.
+  - We may disclose your personal data to government or law enforcement officials
+    or private parties in response to lawful requests if we are under a duty to disclose
+    or share your personal data in order to comply with any legal obligation (such
+    as to meet national security or law enforcement requirements) to enforce or apply
+    our terms and conditions or respond to claims and legal process, to protect the
+    property and rights of Proofpoint or a third party, to protect the safety of the
+    public or any person, or to prevent or stop any illegal, unethical or legally
+    actionable activity (including for the purposes of fraud protection and credit
+    risk reduction).
+  - When we have no ongoing legitimate business need to process your personal information,
+    we will either delete or anonymize it, or, if this is not possible (for example,
+    because your personal information has been stored in backup archives), then we
+    will securely store your personal information and isolate it from any further
+    processing until deletion is possible.
+  purposes: {}
+- source: we
+  target: personal network information
+  key: COLLECT
+  text:
+  - 'We may also use your Log Data and Personal Network Information to: (i) administer
+    our Site and for internal operations, including troubleshooting, data analysis,
+    testing, research, statistical, and survey purposes; (ii) improve our Site to
+    ensure that content is presented in the most effective manner for you and for
+    your device; (iii) allow you to participate in interactive features of our service,
+    when you choose to do so; and/or (iv) as part of our efforts to keep our Site
+    safe and secure.'
+  purposes:
+    analytics:
+    - 'to: (i) administer our Site and for internal operations, including troubleshooting,
+      data analysis, testing, research, statistical, and survey purposes; (ii) improve
+      our Site to ensure that content is presented in the most effective manner for
+      you and for your device; (iii) allow you to participate in interactive features
+      of our service, when you choose to do so; and/or (iv) as part of our efforts
+      to keep our Site safe and secure'
+    services:
+    - 'to: (i) administer our Site and for internal operations, including troubleshooting,
+      data analysis, testing, research, statistical, and survey purposes; (ii) improve
+      our Site to ensure that content is presented in the most effective manner for
+      you and for your device; (iii) allow you to participate in interactive features
+      of our service, when you choose to do so; and/or (iv) as part of our efforts
+      to keep our Site safe and secure'
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+  purposes: {}
+- source: we
+  target: report
+  key: COLLECT
+  text:
+  - We may receive reports based on the use of these technologies by our analytics
+    or service providers on an anonymous individual as well as aggregated basis.
+  purposes: {}
+- source: we
+  target: social medium account login credential
+  key: COLLECT
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+  purposes: {}
+- source: we
+  target: technical datum about visit
+  key: COLLECT
+  text:
+  - When you visit the Site, we automatically collect technical and statistical data
+    about your visit, such as your browser type, internet service provider (ISP),
+    referring/exit pages, operating system, date/time stamp, and/or clickstream data,
+    the pages you visit and any search terms you use (" Log Data ").
+  purposes: {}
+- source: we
+  target: user information
+  key: COLLECT
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+  purposes: {}
+- source: we
+  target: user name
+  key: COLLECT
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+  purposes: {}
+- source: Proofpoint
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Proofpoint and our partners, affiliates, analytics, or service providers use cookies
+    and other similar technologies.
+  purposes: {}
+- source: Proofpoint
+  target: data we collect
+  key: COLLECT
+  text:
+  - Proofpoint uses the data we collect through manual and automated methods to protect
+    you and your organization against advanced email threats.
+  purposes:
+    security:
+    - to protect you and your organization against advanced email threats
+- source: Proofpoint
+  target: information about
+  key: COLLECT
+  text:
+  - Upon request, Proofpoint will provide you with information about whether we hold
+    any of your personal information.
+  purposes: {}
+- source: Proofpoint
+  target: personal information
+  key: COLLECT
+  text:
+  - If you are located outside of the United States and provide personal data to us,
+    Proofpoint may transfer your personal data to the United States and use it there
+    in accordance with this Privacy Statement.
+  - In certain situations, Proofpoint, Inc. may be required to disclose personal data
+    in response to lawful requests by public authorities, including to meet national
+    security or law enforcement requirements.
+  - Proofpoint may share your personal data with your consent, or to provide the products
+    and services requested by your organization.
+  - You may also provide personal information to Proofpoint through use of the Site,
+    blogs, marketing requests, and use of the Proofpoint Service.
+  purposes: {}
+- source: Proofpoint
+  target: personal information it collect from you we have ongoing legitimate business
+    need do
+  key: COLLECT
+  text:
+  - Proofpoint retains the personal information it collects from you where we have
+    an ongoing legitimate business need to do so (for example, to provide you with
+    a service you have requested or to comply with applicable legal, tax, or accounting
+    requirements).
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Our third-party partner may use technologies such as cookies to gather information
+    about your activities on this Site and other sites to provide you advertising
+    based upon your browsing activities and interests.
+  - These other websites may place their own cookies or other files on your computer,
+    collect data or solicit personally identifiable information from you.
+  - We do not exercise control over third-party websites.
+  purposes:
+    advertising:
+    - to provide you advertising based upon your browsing activities and interests
+- source: UNSPECIFIED_ACTOR
+  target: aggregate / deidentified / pseudonymized information
+  key: COLLECT
+  text:
+  - We may share Aggregated Information (after removing information that would personally
+    identify you) and Log Data with third parties for industry analysis, demographic
+    profiling, and other purposes.
+  purposes:
+    analytics:
+    - for industry analysis, demographic profiling, and other purposes
+- source: UNSPECIFIED_ACTOR
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our third-party partner may use technologies such as cookies to gather information
+    about your activities on this Site and other sites to provide you advertising
+    based upon your browsing activities and interests.
+  - Proofpoint and our partners, affiliates, analytics, or service providers use cookies
+    and other similar technologies.
+  purposes:
+    advertising:
+    - to gather information about your activities on this Site and other sites to
+      provide you advertising based upon your browsing activities and interests
+    analytics:
+    - to gather information about your activities on this Site and other sites to
+      provide you advertising based upon your browsing activities and interests
+- source: UNSPECIFIED_ACTOR
+  target: personal identifier
+  key: COLLECT
+  text:
+  - These other websites may place their own cookies or other files on your computer,
+    collect data or solicit personally identifiable information from you.
+  - We do not exercise control over third-party websites.
+  purposes: {}
+- source: analytic provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Proofpoint and our partners, affiliates, analytics, or service providers use cookies
+    and other similar technologies.
+  purposes: {}
+- source: authorized channel partner
+  target: contact information
+  key: COLLECT
+  text:
+  - Where you have consented, we may from time to time share your Contact Information
+    (name, email address, phone number) with our authorized channel partners so that
+    they can provide you with information on goods or services that may be of interest
+    to you.
+  purposes: {}
+- source: authorized channel partner
+  target: person name
+  key: COLLECT
+  text:
+  - Where you have consented, we may from time to time share your Contact Information
+    (name, email address, phone number) with our authorized channel partners so that
+    they can provide you with information on goods or services that may be of interest
+    to you.
+  purposes: {}
+- source: government official
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your personal data to government or law enforcement officials
+    or private parties in response to lawful requests if we are under a duty to disclose
+    or share your personal data in order to comply with any legal obligation (such
+    as to meet national security or law enforcement requirements) to enforce or apply
+    our terms and conditions or respond to claims and legal process, to protect the
+    property and rights of Proofpoint or a third party, to protect the safety of the
+    public or any person, or to prevent or stop any illegal, unethical or legally
+    actionable activity (including for the purposes of fraud protection and credit
+    risk reduction).
+  purposes: {}
+- source: private party
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your personal data to government or law enforcement officials
+    or private parties in response to lawful requests if we are under a duty to disclose
+    or share your personal data in order to comply with any legal obligation (such
+    as to meet national security or law enforcement requirements) to enforce or apply
+    our terms and conditions or respond to claims and legal process, to protect the
+    property and rights of Proofpoint or a third party, to protect the safety of the
+    public or any person, or to prevent or stop any illegal, unethical or legally
+    actionable activity (including for the purposes of fraud protection and credit
+    risk reduction).
+  purposes: {}
+- source: service provider
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Proofpoint and our partners, affiliates, analytics, or service providers use cookies
+    and other similar technologies.
+  purposes: {}
+- source: service providers
+  target: personal information
+  key: COLLECT
+  text:
+  - These Service Providers have access to your personal data only to perform these
+    tasks on our behalf and are obligated not to disclose or use it for any other
+    purpose.
+  - This may include, but not be limited to, website hosting, maintenance services,
+    database management, Web analytics, and improvement of the Site's features ("
+    Service Providers ").
+  purposes:
+    services:
+    - only to perform these tasks on our behalf
+- source: social media
+  target: ip address
+  key: COLLECT
+  text:
+  - Our Web site includes Social Media Features, such as the Facebook Like button
+    and Widgets, such as the Share this button or interactive mini-programs that run
+    on our site.
+  - These Features may collect your IP address, which page you are visiting on our
+    site, and may set a cookie to enable the Feature to function properly.
+  purposes: {}
+- source: aggregate / deidentified / pseudonymized information
+  target: information we collect from proofpoint user
+  key: SUBSUM
+  text:
+  - After removing any information that would personally identify you from within
+    the set of Contact Information, Personal Network Information, and Log Data we
+    collect from you, we may combine that information with information we collect
+    from other Proofpoint users and customers (collectively, the " Aggregated Information
+    ") to improve the quality and value of Proofpoint Services and to analyze and
+    understand how our Site is used.
+- source: contact information
+  target: company name
+  key: SUBSUM
+  text:
+  - Such contact information includes first and last name, title, company name, industry
+    type, mailing address, telephone number, fax number, email address and company
+    size (" Contact Information ").
+  - 'You may directly give us your contact information in the following ways: (i)
+    if you sign up for a free trial via www.proofpoint.com, (ii) sign up for offers
+    on the Site, (iii) sign up for newsletters, (iv) download white papers from the
+    Site, (v) respond to a promotion offered by a Proofpoint partner, or (vi) send
+    us an email.'
+- source: contact information
+  target: company size
+  key: SUBSUM
+  text:
+  - Such contact information includes first and last name, title, company name, industry
+    type, mailing address, telephone number, fax number, email address and company
+    size (" Contact Information ").
+  - 'You may directly give us your contact information in the following ways: (i)
+    if you sign up for a free trial via www.proofpoint.com, (ii) sign up for offers
+    on the Site, (iii) sign up for newsletters, (iv) download white papers from the
+    Site, (v) respond to a promotion offered by a Proofpoint partner, or (vi) send
+    us an email.'
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - Such contact information includes first and last name, title, company name, industry
+    type, mailing address, telephone number, fax number, email address and company
+    size (" Contact Information ").
+  - 'You may directly give us your contact information in the following ways: (i)
+    if you sign up for a free trial via www.proofpoint.com, (ii) sign up for offers
+    on the Site, (iii) sign up for newsletters, (iv) download white papers from the
+    Site, (v) respond to a promotion offered by a Proofpoint partner, or (vi) send
+    us an email.'
+- source: contact information
+  target: industry type
+  key: SUBSUM
+  text:
+  - Such contact information includes first and last name, title, company name, industry
+    type, mailing address, telephone number, fax number, email address and company
+    size (" Contact Information ").
+  - 'You may directly give us your contact information in the following ways: (i)
+    if you sign up for a free trial via www.proofpoint.com, (ii) sign up for offers
+    on the Site, (iii) sign up for newsletters, (iv) download white papers from the
+    Site, (v) respond to a promotion offered by a Proofpoint partner, or (vi) send
+    us an email.'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - Such contact information includes first and last name, title, company name, industry
+    type, mailing address, telephone number, fax number, email address and company
+    size (" Contact Information ").
+  - 'You may directly give us your contact information in the following ways: (i)
+    if you sign up for a free trial via www.proofpoint.com, (ii) sign up for offers
+    on the Site, (iii) sign up for newsletters, (iv) download white papers from the
+    Site, (v) respond to a promotion offered by a Proofpoint partner, or (vi) send
+    us an email.'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - Such contact information includes first and last name, title, company name, industry
+    type, mailing address, telephone number, fax number, email address and company
+    size (" Contact Information ").
+  - 'You may directly give us your contact information in the following ways: (i)
+    if you sign up for a free trial via www.proofpoint.com, (ii) sign up for offers
+    on the Site, (iii) sign up for newsletters, (iv) download white papers from the
+    Site, (v) respond to a promotion offered by a Proofpoint partner, or (vi) send
+    us an email.'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - Such contact information includes first and last name, title, company name, industry
+    type, mailing address, telephone number, fax number, email address and company
+    size (" Contact Information ").
+  - 'You may directly give us your contact information in the following ways: (i)
+    if you sign up for a free trial via www.proofpoint.com, (ii) sign up for offers
+    on the Site, (iii) sign up for newsletters, (iv) download white papers from the
+    Site, (v) respond to a promotion offered by a Proofpoint partner, or (vi) send
+    us an email.'
+- source: contact information
+  target: title
+  key: SUBSUM
+  text:
+  - Such contact information includes first and last name, title, company name, industry
+    type, mailing address, telephone number, fax number, email address and company
+    size (" Contact Information ").
+  - 'You may directly give us your contact information in the following ways: (i)
+    if you sign up for a free trial via www.proofpoint.com, (ii) sign up for offers
+    on the Site, (iii) sign up for newsletters, (iv) download white papers from the
+    Site, (v) respond to a promotion offered by a Proofpoint partner, or (vi) send
+    us an email.'
+- source: organization with affiliate
+  target: employer
+  key: SUBSUM
+  text:
+  - Access to the Proofpoint Service is provided to you through an organization with
+    which you are affiliated, such as an employer or school.
+- source: organization with affiliate
+  target: school
+  key: SUBSUM
+  text:
+  - Access to the Proofpoint Service is provided to you through an organization with
+    which you are affiliated, such as an employer or school.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+- source: personal information
+  target: message content
+  key: SUBSUM
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+- source: personal information
+  target: message report as spam
+  key: SUBSUM
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+- source: personal information
+  target: social medium account login credential
+  key: SUBSUM
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+- source: personal information
+  target: user information
+  key: SUBSUM
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+- source: personal information
+  target: user name
+  key: SUBSUM
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+- source: technical datum about visit
+  target: browser type
+  key: SUBSUM
+  text:
+  - When you visit the Site, we automatically collect technical and statistical data
+    about your visit, such as your browser type, internet service provider (ISP),
+    referring/exit pages, operating system, date/time stamp, and/or clickstream data,
+    the pages you visit and any search terms you use (" Log Data ").
+- source: technical datum about visit
+  target: clickstream datum
+  key: SUBSUM
+  text:
+  - When you visit the Site, we automatically collect technical and statistical data
+    about your visit, such as your browser type, internet service provider (ISP),
+    referring/exit pages, operating system, date/time stamp, and/or clickstream data,
+    the pages you visit and any search terms you use (" Log Data ").
+- source: technical datum about visit
+  target: date time stamp
+  key: SUBSUM
+  text:
+  - When you visit the Site, we automatically collect technical and statistical data
+    about your visit, such as your browser type, internet service provider (ISP),
+    referring/exit pages, operating system, date/time stamp, and/or clickstream data,
+    the pages you visit and any search terms you use (" Log Data ").
+- source: technical datum about visit
+  target: log datum
+  key: SUBSUM
+  text:
+  - When you visit the Site, we automatically collect technical and statistical data
+    about your visit, such as your browser type, internet service provider (ISP),
+    referring/exit pages, operating system, date/time stamp, and/or clickstream data,
+    the pages you visit and any search terms you use (" Log Data ").
+- source: user information
+  target: department
+  key: SUBSUM
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+- source: user information
+  target: geolocation
+  key: SUBSUM
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+- source: user information
+  target: job position
+  key: SUBSUM
+  text:
+  - 'Depending on the Proofpoint Service, we may process the following types of personal
+    data: user names, email addresses, IP addresses, phone numbers, message content
+    of an SMS, MMS, or RCS message reported by you as spam, social media account login
+    credentials, and user information such as department, job position and location.'
+nodes:
+- type: ACTOR
+  id: Proofpoint
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: authorized channel partner
+- type: ACTOR
+  id: employer
+- type: ACTOR
+  id: government official
+- type: ACTOR
+  id: organization with affiliate
+- type: ACTOR
+  id: private party
+- type: ACTOR
+  id: school
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: service providers
+- type: ACTOR
+  id: social media
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate / deidentified / pseudonymized information
+- type: DATA
+  id: browser type
+- type: DATA
+  id: clickstream datum
+- type: DATA
+  id: company name
+- type: DATA
+  id: company size
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customize information about
+- type: DATA
+  id: data we collect
+- type: DATA
+  id: date time stamp
+- type: DATA
+  id: department
+- type: DATA
+  id: email address
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: industry type
+- type: DATA
+  id: information about
+- type: DATA
+  id: information about mailbox size
+- type: DATA
+  id: information we collect from proofpoint user
+- type: DATA
+  id: ip address
+- type: DATA
+  id: job position
+- type: DATA
+  id: log data
+- type: DATA
+  id: log datum
+- type: DATA
+  id: message content
+- type: DATA
+  id: message report as spam
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information it collect from you we have ongoing legitimate business
+    need do
+- type: DATA
+  id: personal network information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: report
+- type: DATA
+  id: social medium account login credential
+- type: DATA
+  id: technical datum about visit
+- type: DATA
+  id: title
+- type: DATA
+  id: user information
+- type: DATA
+  id: user name

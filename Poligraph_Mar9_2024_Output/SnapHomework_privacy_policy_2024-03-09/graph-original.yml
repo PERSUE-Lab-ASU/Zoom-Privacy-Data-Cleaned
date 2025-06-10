@@ -1,0 +1,283 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: email address
+  key: COLLECT
+  text:
+  - Pursuant to COPPA, we may collect an underage user's name, email address and/or
+    telephone number in order to operate and provide the Services, and we may collect
+    the underage user's parent's (or legal guardian's) email address in order to provide
+    notice to parents that we may contact their underage user for the purpose of providing
+    the Services.
+  purposes:
+    services:
+    - in order to operate and provide the Services
+    - in order to provide notice to parents that we may contact their underage user
+      for the purpose of providing the Services
+- source: we
+  target: information we receive
+  key: COLLECT
+  text:
+  - 'We use the information we receive to provide you with the Services and also for
+    purposes such as:'
+  purposes:
+    analytics:
+    - Improving the Services by testing and analyzing usage
+    security:
+    - Authenticating your identity and protecting our users
+    services:
+    - Improving the Services by testing and analyzing usage
+    - Personalizing the features that we make available to you
+    - Responding to your requests and communicating with you about new capabilities
+- source: we
+  target: information you enter on services
+  key: COLLECT
+  text:
+  - We receive and store any information you knowingly enter on the Services, whether
+    via computer, mobile phone, other wireless device, or that you provide to us in
+    any other way.
+  purposes: {}
+- source: we
+  target: person name
+  key: COLLECT
+  text:
+  - Pursuant to COPPA, we may collect an underage user's name, email address and/or
+    telephone number in order to operate and provide the Services, and we may collect
+    the underage user's parent's (or legal guardian's) email address in order to provide
+    notice to parents that we may contact their underage user for the purpose of providing
+    the Services.
+  purposes:
+    services:
+    - in order to operate and provide the Services
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - However, we may share your Personal Information as described below.
+  - We may release Personal Information when we believe in good faith that release
+    is necessary to comply with the law, such as complying with a subpoena or other
+    legal process; enforce or apply our Terms of Service and other agreements; or
+    protect the rights, property, or safety of SnapWorks, our employees, our users,
+    or others.
+  purposes: {}
+- source: we
+  target: phone number
+  key: COLLECT
+  text:
+  - Pursuant to COPPA, we may collect an underage user's name, email address and/or
+    telephone number in order to operate and provide the Services, and we may collect
+    the underage user's parent's (or legal guardian's) email address in order to provide
+    notice to parents that we may contact their underage user for the purpose of providing
+    the Services.
+  purposes:
+    services:
+    - in order to operate and provide the Services
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We may employ other companies and people to perform tasks on our behalf and may
+    need to share your information with them in order to provide aspects of our Services
+    to you.
+  purposes:
+    services:
+    - in order to provide aspects of our Services to you
+    - to perform tasks on our behalf
+- source: UNSPECIFIED_ACTOR
+  target: information it collect
+  key: COLLECT
+  text:
+  - This software may share information it collects with other third parties as part
+    of providing the analytics services and to comply with applicable laws.
+  purposes: {}
+- source: analytic provider
+  target: information as you use application
+  key: COLLECT
+  text:
+  - This software may collect, store and use information such as how often you use
+    the application, the events that occur within the application, usage, performance
+    data, and where the application was downloaded from.
+  - We use mobile analytics software to allow us to better understand the functionality
+    and performance of our mobile software on your phone.
+  purposes: {}
+- source: analytic provider
+  target: information it collect
+  key: COLLECT
+  text:
+  - This software may share information it collects with other third parties as part
+    of providing the analytics services and to comply with applicable laws.
+  - We use mobile analytics software to allow us to better understand the functionality
+    and performance of our mobile software on your phone.
+  purposes: {}
+- source: snapworks
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Please note that certain information may remain in our records, server logs and
+    archives after deletion of your account.
+  - SnapWorks retains this information for purposes such as diagnosing problems with
+    the service and for auditing legal investigations but reserves the right to delete
+    this information in accordance with its standard business practices in effect
+    from time to time.
+  - This Privacy Policy explains how SnapWorks collects and uses information from
+    you and other users who access or use the Services.
+  purposes:
+    analytics:
+    - for purposes such as diagnosing problems with the service and for auditing legal
+      investigations
+    legal:
+    - for purposes such as diagnosing problems with the service and for auditing legal
+      investigations
+    security:
+    - for purposes such as diagnosing problems with the service and for auditing legal
+      investigations
+    services:
+    - for purposes such as diagnosing problems with the service and for auditing legal
+      investigations
+- source: snapworks
+  target: personal information
+  key: COLLECT
+  text:
+  - SnapWorks neither rents nor sells your Personal Information to anyone.
+  purposes: {}
+- source: we
+  target: snapworks
+  key: SUBSUM
+  text:
+  - At SnapWorks ("SnapWorks," "we," "us," "our"), we know you care about how your
+    personal information is used and shared, and we take your privacy seriously.
+- source: information you enter on services
+  target: device identifier
+  key: SUBSUM
+  text:
+  - This information may include device ID, device type and OS, Personal Information
+    such as your name, phone number, email address, photograph, and, in certain circumstances,
+    your school, or to provide you with notifications via the Services from a teacher
+    or school ("Notifications"), or any other information necessary for us to provide
+    our services.
+  - We receive and store any information you knowingly enter on the Services, whether
+    via computer, mobile phone, other wireless device, or that you provide to us in
+    any other way.
+- source: information you enter on services
+  target: device type
+  key: SUBSUM
+  text:
+  - This information may include device ID, device type and OS, Personal Information
+    such as your name, phone number, email address, photograph, and, in certain circumstances,
+    your school, or to provide you with notifications via the Services from a teacher
+    or school ("Notifications"), or any other information necessary for us to provide
+    our services.
+  - We receive and store any information you knowingly enter on the Services, whether
+    via computer, mobile phone, other wireless device, or that you provide to us in
+    any other way.
+- source: information you enter on services
+  target: information necessary
+  key: SUBSUM
+  text:
+  - This information may include device ID, device type and OS, Personal Information
+    such as your name, phone number, email address, photograph, and, in certain circumstances,
+    your school, or to provide you with notifications via the Services from a teacher
+    or school ("Notifications"), or any other information necessary for us to provide
+    our services.
+  - We receive and store any information you knowingly enter on the Services, whether
+    via computer, mobile phone, other wireless device, or that you provide to us in
+    any other way.
+- source: information you enter on services
+  target: notification
+  key: SUBSUM
+  text:
+  - This information may include device ID, device type and OS, Personal Information
+    such as your name, phone number, email address, photograph, and, in certain circumstances,
+    your school, or to provide you with notifications via the Services from a teacher
+    or school ("Notifications"), or any other information necessary for us to provide
+    our services.
+  - We receive and store any information you knowingly enter on the Services, whether
+    via computer, mobile phone, other wireless device, or that you provide to us in
+    any other way.
+- source: information you enter on services
+  target: personal information
+  key: SUBSUM
+  text:
+  - This information may include device ID, device type and OS, Personal Information
+    such as your name, phone number, email address, photograph, and, in certain circumstances,
+    your school, or to provide you with notifications via the Services from a teacher
+    or school ("Notifications"), or any other information necessary for us to provide
+    our services.
+  - We receive and store any information you knowingly enter on the Services, whether
+    via computer, mobile phone, other wireless device, or that you provide to us in
+    any other way.
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - This information may include device ID, device type and OS, Personal Information
+    such as your name, phone number, email address, photograph, and, in certain circumstances,
+    your school, or to provide you with notifications via the Services from a teacher
+    or school ("Notifications"), or any other information necessary for us to provide
+    our services.
+- source: personal information
+  target: person name
+  key: SUBSUM
+  text:
+  - This information may include device ID, device type and OS, Personal Information
+    such as your name, phone number, email address, photograph, and, in certain circumstances,
+    your school, or to provide you with notifications via the Services from a teacher
+    or school ("Notifications"), or any other information necessary for us to provide
+    our services.
+- source: personal information
+  target: phone number
+  key: SUBSUM
+  text:
+  - This information may include device ID, device type and OS, Personal Information
+    such as your name, phone number, email address, photograph, and, in certain circumstances,
+    your school, or to provide you with notifications via the Services from a teacher
+    or school ("Notifications"), or any other information necessary for us to provide
+    our services.
+- source: personal information
+  target: photograph
+  key: SUBSUM
+  text:
+  - This information may include device ID, device type and OS, Personal Information
+    such as your name, phone number, email address, photograph, and, in certain circumstances,
+    your school, or to provide you with notifications via the Services from a teacher
+    or school ("Notifications"), or any other information necessary for us to provide
+    our services.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: analytic provider
+- type: ACTOR
+  id: snapworks
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: device identifier
+- type: DATA
+  id: device type
+- type: DATA
+  id: email address
+- type: DATA
+  id: information as you use application
+- type: DATA
+  id: information it collect
+- type: DATA
+  id: information necessary
+- type: DATA
+  id: information we receive
+- type: DATA
+  id: information you enter on services
+- type: DATA
+  id: notification
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: photograph

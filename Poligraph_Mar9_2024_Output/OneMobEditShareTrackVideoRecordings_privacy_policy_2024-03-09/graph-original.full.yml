@@ -1,0 +1,87 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We acquire information through diverse conduits.
+  purposes: {}
+- source: we
+  target: information concern you
+  key: COLLECT
+  text:
+  - We automatically record information concerning you and your computing equipment.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - During business negotiations or deals involving the complete or partial sale or
+    transfer of our business or assets, we may share personal information.
+  - Should you permit, we may share personal information with third parties for their
+    independent marketing endeavors, contingent upon their adherence to their own
+    privacy frameworks.
+  purposes:
+    advertising:
+    - for their independent marketing endeavors
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - Should you permit, we may share personal information with third parties for their
+    independent marketing endeavors, contingent upon their adherence to their own
+    privacy frameworks.
+  purposes:
+    advertising:
+    - for their independent marketing endeavors
+- source: demographic detail
+  target: gender
+  key: SUBSUM
+  text:
+  - We compile data including but not limited to your name, postal address, email
+    address, phone number, fax number, username, password, demographic details (e.g.,
+    gender and profession), as well as supplementary information that you willingly
+    disclose on our Site.
+- source: demographic detail
+  target: profession
+  key: SUBSUM
+  text:
+  - We compile data including but not limited to your name, postal address, email
+    address, phone number, fax number, username, password, demographic details (e.g.,
+    gender and profession), as well as supplementary information that you willingly
+    disclose on our Site.
+- source: personal information belong to professional user of digital asset
+  target: onemob email plugin
+  key: SUBSUM
+  text:
+  - 'OneMob, Inc. Privacy Policy
+
+
+    OneMob Email plugin and add-in'
+  - 'This Privacy Policy ("Policy") elucidates the methodologies employed by OneMob,
+    Inc. and its affiliated entities ("Company") to collect, employ, and disseminate
+    personal information belonging to professional users of the following digital
+    assets:'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: demographic detail
+- type: DATA
+  id: gender
+- type: DATA
+  id: information concern you
+- type: DATA
+  id: onemob email plugin
+- type: DATA
+  id: personal information
+- type: DATA
+  id: personal information belong to professional user of digital asset
+- type: DATA
+  id: profession

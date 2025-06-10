@@ -1,0 +1,293 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We will retain and use your information as necessary to comply with our legal
+    obligations, resolve disputes, and enforce our agreements.
+  - We will retain your information for as long as your account is active or as needed
+    to provide you services.
+  purposes: {}
+- source: we
+  target: activity
+  key: COLLECT
+  text:
+  - SaaS Console may observe your activities, preferences, and transactional data
+    relating to your use of this web site and our services.
+  - 'We may use this collected or logged information to: (a) determine our user''s
+    interests and usage patterns to further enhance our service; (b) diagnose web
+    site technical problems.'
+  purposes:
+    analytics:
+    - 'to: (a) determine our user''s interests and usage patterns to further enhance
+      our service; (b) diagnose web site technical problems'
+    services:
+    - 'to: (a) determine our user''s interests and usage patterns to further enhance
+      our service; (b) diagnose web site technical problems'
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may also use web beacons, or transparent GIF files, provided by our service
+    provider to report activity on our site, help manage our online advertising (placed
+    on other websites) and measure its effectiveness.
+  purposes:
+    advertising:
+    - to report activity on our site, help manage our online advertising (placed on
+      other websites) and measure its effectiveness
+    analytics:
+    - to report activity on our site, help manage our online advertising (placed on
+      other websites) and measure its effectiveness
+- source: we
+  target: preference
+  key: COLLECT
+  text:
+  - SaaS Console may observe your activities, preferences, and transactional data
+    relating to your use of this web site and our services.
+  - 'We may use this collected or logged information to: (a) determine our user''s
+    interests and usage patterns to further enhance our service; (b) diagnose web
+    site technical problems.'
+  purposes:
+    analytics:
+    - 'to: (a) determine our user''s interests and usage patterns to further enhance
+      our service; (b) diagnose web site technical problems'
+    services:
+    - 'to: (a) determine our user''s interests and usage patterns to further enhance
+      our service; (b) diagnose web site technical problems'
+- source: we
+  target: transactional datum
+  key: COLLECT
+  text:
+  - SaaS Console may observe your activities, preferences, and transactional data
+    relating to your use of this web site and our services.
+  - 'We may use this collected or logged information to: (a) determine our user''s
+    interests and usage patterns to further enhance our service; (b) diagnose web
+    site technical problems.'
+  purposes:
+    analytics:
+    - 'to: (a) determine our user''s interests and usage patterns to further enhance
+      our service; (b) diagnose web site technical problems'
+    services:
+    - 'to: (a) determine our user''s interests and usage patterns to further enhance
+      our service; (b) diagnose web site technical problems'
+- source: we
+  target: web traffic
+  key: COLLECT
+  text:
+  - We use cookie technology to authenticate your access to various areas of our web
+    site, tailor its content to your preferences, help us analyze web traffic in general
+    and to track when site visitors' complete surveys.
+  purposes: {}
+- source: authorized service provider
+  target: activity
+  key: COLLECT
+  text:
+  - SaaS Console may observe your activities, preferences, and transactional data
+    relating to your use of this web site and our services.
+  - SaaS Console or our authorized service provider may use this information to track
+    aggregate traffic patterns throughout this web site.
+  purposes:
+    analytics:
+    - to track aggregate traffic patterns throughout this web site
+- source: authorized service provider
+  target: preference
+  key: COLLECT
+  text:
+  - SaaS Console may observe your activities, preferences, and transactional data
+    relating to your use of this web site and our services.
+  - SaaS Console or our authorized service provider may use this information to track
+    aggregate traffic patterns throughout this web site.
+  purposes:
+    analytics:
+    - to track aggregate traffic patterns throughout this web site
+- source: authorized service provider
+  target: transactional datum
+  key: COLLECT
+  text:
+  - SaaS Console may observe your activities, preferences, and transactional data
+    relating to your use of this web site and our services.
+  - SaaS Console or our authorized service provider may use this information to track
+    aggregate traffic patterns throughout this web site.
+  purposes:
+    analytics:
+    - to track aggregate traffic patterns throughout this web site
+- source: party act on behalf
+  target: personal information
+  key: COLLECT
+  text:
+  - Any personal data collected about visitors outside of the United States, via this
+    web site, will be processed in the United States by SaaS Console or a party acting
+    on its behalf.
+  purposes: {}
+- source: saas console
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'SaaS Console may disclose information in special cases when we have a good faith
+    belief that such action is necessary to: (a) conform to legal requirements or
+    comply with legal process; (b) protect and defend our rights or property; (c)
+    enforce the Web site Terms and Conditions of Use; or (d) act to protect the interests
+    of our users or others.'
+  purposes: {}
+- source: saas console
+  target: activity
+  key: COLLECT
+  text:
+  - SaaS Console may observe your activities, preferences, and transactional data
+    relating to your use of this web site and our services.
+  - SaaS Console or our authorized service provider may use this information to track
+    aggregate traffic patterns throughout this web site.
+  purposes:
+    analytics:
+    - to track aggregate traffic patterns throughout this web site
+- source: saas console
+  target: contact information
+  key: COLLECT
+  text:
+  - SaaS Console collects and retains contact information for you as a visitor only
+    if you voluntarily supply us with this information.
+  purposes: {}
+- source: saas console
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - If you have submitted contact information via forms on the site, SaaS Console
+    may use information from cookies and web beacons to provide you with information
+    about the Company and the Service.
+  purposes:
+    services:
+    - to provide you with information about the Company and the Service
+- source: saas console
+  target: personal information
+  key: COLLECT
+  text:
+  - Any personal data collected about visitors outside of the United States, via this
+    web site, will be processed in the United States by SaaS Console or a party acting
+    on its behalf.
+  purposes: {}
+- source: saas console
+  target: preference
+  key: COLLECT
+  text:
+  - SaaS Console may observe your activities, preferences, and transactional data
+    relating to your use of this web site and our services.
+  - SaaS Console or our authorized service provider may use this information to track
+    aggregate traffic patterns throughout this web site.
+  purposes:
+    analytics:
+    - to track aggregate traffic patterns throughout this web site
+- source: saas console
+  target: transactional datum
+  key: COLLECT
+  text:
+  - SaaS Console may observe your activities, preferences, and transactional data
+    relating to your use of this web site and our services.
+  - SaaS Console or our authorized service provider may use this information to track
+    aggregate traffic patterns throughout this web site.
+  purposes:
+    analytics:
+    - to track aggregate traffic patterns throughout this web site
+- source: saasconsole
+  target: customer datum store in saasconsole in function account
+  key: COLLECT
+  text:
+  - If a paid subscription ends or is terminated, SaaSConsole retains customer data
+    stored in SaaSConsole in a limited-function account for 90 days to enable the
+    subscriber to extract the data.
+  purposes:
+    analytics:
+    - to enable the subscriber to extract the data
+    services:
+    - to enable the subscriber to extract the data
+- source: we
+  target: saas console
+  key: SUBSUM
+  text:
+  - Please be aware that we, SaaS Console, are not responsible for the privacy practices
+    of such other sites.
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - SaaS Console collects and retains contact information for you as a visitor only
+    if you voluntarily supply us with this information.
+  - You may choose to provide us with this information, including your name, email
+    address, street address, telephone number or other information to access protected
+    information on our Web site or we can follow up with you after your visit.
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - SaaS Console collects and retains contact information for you as a visitor only
+    if you voluntarily supply us with this information.
+  - You may choose to provide us with this information, including your name, email
+    address, street address, telephone number or other information to access protected
+    information on our Web site or we can follow up with you after your visit.
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - SaaS Console collects and retains contact information for you as a visitor only
+    if you voluntarily supply us with this information.
+  - You may choose to provide us with this information, including your name, email
+    address, street address, telephone number or other information to access protected
+    information on our Web site or we can follow up with you after your visit.
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - SaaS Console collects and retains contact information for you as a visitor only
+    if you voluntarily supply us with this information.
+  - You may choose to provide us with this information, including your name, email
+    address, street address, telephone number or other information to access protected
+    information on our Web site or we can follow up with you after your visit.
+- source: personal information
+  target: ip address
+  key: SUBSUM
+  text:
+  - While we may collect or log this information, we do not identify you or match
+    this information with your other personal information (such as your IP address)
+    unless you have chosen to identify yourself by completing a contact form on the
+    Web site.
+nodes:
+- type: ACTOR
+  id: authorized service provider
+- type: ACTOR
+  id: party act on behalf
+- type: ACTOR
+  id: saas console
+- type: ACTOR
+  id: saasconsole
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: activity
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: customer datum store in saasconsole in function account
+- type: DATA
+  id: email address
+- type: DATA
+  id: ip address
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: preference
+- type: DATA
+  id: transactional datum
+- type: DATA
+  id: web traffic

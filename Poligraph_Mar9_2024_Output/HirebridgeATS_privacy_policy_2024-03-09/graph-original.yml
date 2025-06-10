@@ -1,0 +1,134 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We gather and handle this information to offer our services to customers, to simplify
+    their hiring processes, and as directed by our Customers.
+  purposes:
+    services:
+    - to offer our services to customers, to simplify their hiring processes, and
+      as directed by our Customers
+- source: we
+  target: certification
+  key: COLLECT
+  text:
+  - Despite the EU-U.S. Privacy Shield Framework no longer being a valid mechanism
+    for GDPR-compliant data transfers, and similar ruling in Switzerland, we maintain
+    our certification and adhere to its principles.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - It explains that we may have gathered, used, and shared your personal information
+    over the last 12 months, as detailed in our general Privacy Notice.
+  - We may process personal data, in order for us to provide the services and meet
+    our contractual obligations towards our Customers.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Under the following circumstances, Hirebridge may share your data with third
+    parties:'
+  purposes:
+    advertising:
+    - to facilitate their recruitment processes based on their needs
+    services:
+    - to facilitate their recruitment processes based on their needs
+- source: hirebridge
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Under the following circumstances, Hirebridge may share your data with third
+    parties:'
+  purposes:
+    advertising:
+    - to facilitate their recruitment processes based on their needs
+    services:
+    - to facilitate their recruitment processes based on their needs
+- source: hirebridge
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Hirebridge uses cookies to store session tokens, which do not contain any personally
+    identifiable information and expire after 1 day.
+  purposes:
+    security:
+    - to store session tokens, which do not contain any personally identifiable information
+      and expire after 1 day
+    services:
+    - to store session tokens, which do not contain any personally identifiable information
+      and expire after 1 day
+- source: hirebridge
+  target: correspondence
+  key: COLLECT
+  text:
+  - From a Customer standpoint, Hirebridge collects notes, interview evaluations and
+    email communication and correspondence in relation to their candidate evaluation.
+  purposes: {}
+- source: hirebridge
+  target: email communication
+  key: COLLECT
+  text:
+  - From a Customer standpoint, Hirebridge collects notes, interview evaluations and
+    email communication and correspondence in relation to their candidate evaluation.
+  purposes: {}
+- source: hirebridge
+  target: note
+  key: COLLECT
+  text:
+  - From a Customer standpoint, Hirebridge collects notes, interview evaluations and
+    email communication and correspondence in relation to their candidate evaluation.
+  purposes: {}
+- source: hirebridge
+  target: personal information
+  key: COLLECT
+  text:
+  - Hirebridge collects and handles personal data about you when you apply for a role
+    with one of our Customers, submit an application via a third party job platform
+    or job board, or when your details are submitted by a Customer or their users.
+  - Hirebridge retains your personal data on behalf of our Customers for as long as
+    they instruct us, or as required to fulfill the purposes outlined in this privacy
+    policy, comply with our legal obligations, resolve disputes, or enforce our agreements.
+  - Hirebridge shall process personal information as a data processor on behalf of
+    its Customers, who use the service to assist with their recruitment.
+  purposes: {}
+- source: service provider
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'Under the following circumstances, Hirebridge may share your data with third
+    parties: With service providers: who carry out services on our behalf.'
+  purposes:
+    advertising:
+    - to facilitate their recruitment processes based on their needs
+    services:
+    - to facilitate their recruitment processes based on their needs
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: hirebridge
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: certification
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: correspondence
+- type: DATA
+  id: email communication
+- type: DATA
+  id: note
+- type: DATA
+  id: personal information

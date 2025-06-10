@@ -1,0 +1,273 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: aggregate statistic about sale
+  key: COLLECT
+  text:
+  - 'Your privacy is important to us
+
+
+    Sharing
+
+
+    bookitLive will not, without your consent, divulge your personal information to
+    a third party except in the following circumstances: We may provide aggregate
+    statistics about our sales, clients, traffic patterns and other site information
+    to third parties, but these statistics will not include any information that could
+    personally identify you'
+  purposes: {}
+- source: we
+  target: internet activity
+  key: COLLECT
+  text:
+  - We log IP addresses for security reasons and log file/system activity to administer
+    the system.
+  purposes:
+    security:
+    - for security reasons
+    services:
+    - to administer the system
+- source: we
+  target: ip address
+  key: COLLECT
+  text:
+  - We log IP addresses for security reasons and log file/system activity to administer
+    the system.
+  purposes:
+    security:
+    - for security reasons
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'This privacy policy sets out how we collect, use and handle Personal Information
+    that we collect from: Visitors, people who visit or browse our website, Service
+    Provider, business who establish an account with us, Clients, people who access
+    our services to make a booking or product purchase or otherwise access our services.'
+  - We will retain your Personal Information for the period necessary to fulfill the
+    purposes outlined in this Privacy Policy unless a longer retention period is required
+    or permitted by law.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: aggregate statistic about sale
+  key: COLLECT
+  text:
+  - 'Your privacy is important to us
+
+
+    Sharing
+
+
+    bookitLive will not, without your consent, divulge your personal information to
+    a third party except in the following circumstances: We may provide aggregate
+    statistics about our sales, clients, traffic patterns and other site information
+    to third parties, but these statistics will not include any information that could
+    personally identify you'
+  purposes: {}
+- source: bookitlive
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - bookitLive collects information from users at various points during the booking
+    process.
+  purposes: {}
+- source: bookitlive
+  target: customer datum
+  key: COLLECT
+  text:
+  - 'Customer data
+
+
+    bookitLive uses customer data only in connection with providing the booking services
+    - we do not monitor, sell or use customer data for any other purposes.'
+  purposes: {}
+- source: bookitlive
+  target: non-personal information
+  key: COLLECT
+  text:
+  - 'Log Files
+
+
+    bookitLive uses log files comprising of non-personally identifiable information
+    to analyse trends, administer the website and web application, track movements
+    throughout the website and web application'
+  purposes:
+    analytics:
+    - to analyse trends, administer the website and web application, track movements
+      throughout the website and web application
+- source: establish service provider
+  target: information on upgrade available
+  key: COLLECT
+  text:
+  - Established service providers will occasionally receive information on upgrades
+    and modifications available.
+  purposes: {}
+- source: secure payment service provider
+  target: credit card payment for service
+  key: COLLECT
+  text:
+  - Credit card payment for our services is processed by our secure payment service
+    provider.
+  purposes: {}
+- source: service provider
+  target: information particular
+  key: COLLECT
+  text:
+  - Each service provider only receives the information particular to your bookings
+    with them.
+  purposes: {}
+- source: privacy
+  target: browser type
+  key: SUBSUM
+  text:
+  - This information may include your IP address or other proxy servers you use to
+    connect to the Internet, device and application identification numbers, your browser
+    type, your Internet service provider (or mobile carrier), your operating system
+    and system settings, and the location and time zone associated with your usage.
+  - Your privacy is important to us
+- source: privacy
+  target: device identification number
+  key: SUBSUM
+  text:
+  - This information may include your IP address or other proxy servers you use to
+    connect to the Internet, device and application identification numbers, your browser
+    type, your Internet service provider (or mobile carrier), your operating system
+    and system settings, and the location and time zone associated with your usage.
+  - Your privacy is important to us
+- source: privacy
+  target: geolocation
+  key: SUBSUM
+  text:
+  - This information may include your IP address or other proxy servers you use to
+    connect to the Internet, device and application identification numbers, your browser
+    type, your Internet service provider (or mobile carrier), your operating system
+    and system settings, and the location and time zone associated with your usage.
+  - Your privacy is important to us
+- source: privacy
+  target: ip address
+  key: SUBSUM
+  text:
+  - This information may include your IP address or other proxy servers you use to
+    connect to the Internet, device and application identification numbers, your browser
+    type, your Internet service provider (or mobile carrier), your operating system
+    and system settings, and the location and time zone associated with your usage.
+  - Your privacy is important to us
+- source: privacy
+  target: operate system
+  key: SUBSUM
+  text:
+  - This information may include your IP address or other proxy servers you use to
+    connect to the Internet, device and application identification numbers, your browser
+    type, your Internet service provider (or mobile carrier), your operating system
+    and system settings, and the location and time zone associated with your usage.
+  - Your privacy is important to us
+- source: privacy
+  target: time zone
+  key: SUBSUM
+  text:
+  - This information may include your IP address or other proxy servers you use to
+    connect to the Internet, device and application identification numbers, your browser
+    type, your Internet service provider (or mobile carrier), your operating system
+    and system settings, and the location and time zone associated with your usage.
+  - Your privacy is important to us
+- source: tier-1 australian carrier
+  target: Telstra
+  key: SUBSUM
+  text:
+  - MessageMedia only use Tier-1 Australian carriers such as Telstra and Optus to
+    ensure all our clients' phone numbers and message content is not passed to unreliable
+    or potentially fraudulent third-parties.
+- source: tier-1 australian carrier
+  target: optus
+  key: SUBSUM
+  text:
+  - MessageMedia only use Tier-1 Australian carriers such as Telstra and Optus to
+    ensure all our clients' phone numbers and message content is not passed to unreliable
+    or potentially fraudulent third-parties.
+- source: web browser
+  target: Microsoft
+  key: SUBSUM
+  text:
+  - While on a secured page the lock icon will appear on Web browsers such as Chrome,
+    Safari, Firefox and Microsoft Internet Explorer.
+- source: web browser
+  target: chrome
+  key: SUBSUM
+  text:
+  - While on a secured page the lock icon will appear on Web browsers such as Chrome,
+    Safari, Firefox and Microsoft Internet Explorer.
+- source: web browser
+  target: firefox
+  key: SUBSUM
+  text:
+  - While on a secured page the lock icon will appear on Web browsers such as Chrome,
+    Safari, Firefox and Microsoft Internet Explorer.
+- source: web browser
+  target: safari
+  key: SUBSUM
+  text:
+  - While on a secured page the lock icon will appear on Web browsers such as Chrome,
+    Safari, Firefox and Microsoft Internet Explorer.
+nodes:
+- type: ACTOR
+  id: Microsoft
+- type: ACTOR
+  id: Telstra
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: bookitlive
+- type: ACTOR
+  id: chrome
+- type: ACTOR
+  id: establish service provider
+- type: ACTOR
+  id: firefox
+- type: ACTOR
+  id: optus
+- type: ACTOR
+  id: safari
+- type: ACTOR
+  id: secure payment service provider
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: tier-1 australian carrier
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: web browser
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: aggregate statistic about sale
+- type: DATA
+  id: browser type
+- type: DATA
+  id: credit card payment for service
+- type: DATA
+  id: customer datum
+- type: DATA
+  id: device identification number
+- type: DATA
+  id: geolocation
+- type: DATA
+  id: information on upgrade available
+- type: DATA
+  id: information particular
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: ip address
+- type: DATA
+  id: non-personal information
+- type: DATA
+  id: operate system
+- type: DATA
+  id: personal information
+- type: DATA
+  id: privacy
+- type: DATA
+  id: time zone

@@ -1,0 +1,159 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: connection datum
+  key: COLLECT
+  text:
+  - 'We gather, process and store your personal data for the following purposes: As
+    part of the improvement of our Application, we may also gather your connection
+    data in order to draw conclusions from it and improve the user experience and
+    the overall ergonomics of our Application.'
+  - When you access the Application, we gather your connection data, i.e. information
+    that is automatically recorded by our servers when you access the Application
+    or when you use it, whether or not you are registered as a member of the Application.
+  purposes:
+    analytics:
+    - in order to draw conclusions from it and improve the user experience and the
+      overall ergonomics of our Application
+    - to draw conclusions from it and improve the user experience and the overall
+      ergonomics of our Application
+    services:
+    - in order to draw conclusions from it and improve the user experience and the
+      overall ergonomics of our Application
+    - to draw conclusions from it and improve the user experience and the overall
+      ergonomics of our Application
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our Application uses cookies that enable us for instance to obtain information
+    concerning your use of and access to our Application.
+  - The Application uses mainly cookies provided by Google Analytics, a web analysis
+    service provided by Google Inc., which uses proprietary cookies designed to analyze
+    the logs of user interactions with the Application.
+  - 'The Application''s use of cookies : Advertising cookies: finally, our Application
+    uses cookies to serve you personalized advertisements within our Application.'
+  - 'The Application''s use of cookies : Audience measurement cookies: we also use
+    cookies in order to measure the audience of our Application.'
+  purposes:
+    advertising:
+    - to serve you personalized advertisements within our Application
+    analytics:
+    - to measure the audience of our Application
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We gather, process and store your personal data for the following purposes: As
+    previously indicated, we also process your personal data linked to your organisation
+    and/or participation in the events published via our Application by the enterprise
+    or body that gave you permission to use our Application on behalf of that entity.'
+  - 'We gather, process and store your personal data for the following purposes: For
+    the purposes of appropriate administration of the Application, we may also gather
+    your personal data in order to send you email concerning your registration on
+    the Application, newsletters, technical notifications, updates, security alerts.'
+  - 'We gather, process and store your personal data for the following purposes: Your
+    personal data may also be used for marketing and/or advertising purposes.'
+  - 'We may moreover have to share your personal data in the following situations:
+    Your personal data may be transmitted to our hosting company in Europe if you
+    access our Application from the European Union, or in the United States if you
+    access our Application from the United States.'
+  purposes:
+    advertising:
+    - for marketing and/or advertising purposes
+    analytics:
+    - in order to draw conclusions from it and improve the user experience and the
+      overall ergonomics of our Application
+    - to draw conclusions from it and improve the user experience and the overall
+      ergonomics of our Application
+    security:
+    - to share your personal data in the following situations
+    services:
+    - For the purposes of appropriate administration of the Application
+    - When you use the Application and create a user account, your personal data will
+      be processed and stored in order to enable the creation of your user account
+      and in order to enable you to use the Application
+    - in order to draw conclusions from it and improve the user experience and the
+      overall ergonomics of our Application
+    - in order to send you email concerning your registration on the Application,
+      newsletters, technical notifications, updates, security alerts
+    - to draw conclusions from it and improve the user experience and the overall
+      ergonomics of our Application
+    - to share your personal data in the following situations
+- source: body give you permission use application
+  target: personal information
+  key: COLLECT
+  text:
+  - As pointed out previously, the enterprise and/or the body that gave you permission
+    to use the Application will also have access to your personal data.
+  purposes: {}
+- source: enterprise
+  target: personal information
+  key: COLLECT
+  text:
+  - As pointed out previously, the enterprise and/or the body that gave you permission
+    to use the Application will also have access to your personal data.
+  - This enterprise can thus gather your personal data via the Application, for its
+    own purposes, in its capacity as data controller.
+  purposes: {}
+- source: police
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may moreover have to share your personal data in the following situations:
+    Your personal data may also be disclosed where need be to the police (pursuant
+    to a court warrant) or to any person who is legally empowered to receive this
+    information (pursuant to a court order).'
+  purposes: {}
+- source: statistic concern use of application
+  target: number of page view
+  key: SUBSUM
+  text:
+  - Using certain cookies and other trackers that you expressly authorise when you
+    access the Application, your connection data is also used to gather and to analyse
+    statistics concerning your use of our Application, such as the number of visits,
+    the number of unique visitors, the number of page views, or to produce other general
+    statistics about the activity of the Application.
+- source: statistic concern use of application
+  target: number of unique visitor
+  key: SUBSUM
+  text:
+  - Using certain cookies and other trackers that you expressly authorise when you
+    access the Application, your connection data is also used to gather and to analyse
+    statistics concerning your use of our Application, such as the number of visits,
+    the number of unique visitors, the number of page views, or to produce other general
+    statistics about the activity of the Application.
+- source: statistic concern use of application
+  target: number of visit
+  key: SUBSUM
+  text:
+  - Using certain cookies and other trackers that you expressly authorise when you
+    access the Application, your connection data is also used to gather and to analyse
+    statistics concerning your use of our Application, such as the number of visits,
+    the number of unique visitors, the number of page views, or to produce other general
+    statistics about the activity of the Application.
+nodes:
+- type: ACTOR
+  id: body give you permission use application
+- type: ACTOR
+  id: enterprise
+- type: ACTOR
+  id: police
+- type: ACTOR
+  id: we
+- type: DATA
+  id: connection datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: number of page view
+- type: DATA
+  id: number of unique visitor
+- type: DATA
+  id: number of visit
+- type: DATA
+  id: personal information
+- type: DATA
+  id: statistic concern use of application

@@ -1,0 +1,172 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This Privacy Policy outlines what information we collect, how we use it, your
+    rights, and our practices around that information.
+  purposes: {}
+- source: we
+  target: coaching datum
+  key: COLLECT
+  text:
+  - 'We capture and store coaching data, as entered by coaches and the people they
+    coach, for the purpose of making it accessible to authorized users, including
+    but not limited to:'
+  purposes:
+    analytics:
+    - Data delivered by email to other parties as initiated by user action (e.g. a
+      progress report set to send weekly to a designated email recipient)
+    - Data that can be accessed in-app by other users who should see it (e.g. Action
+      items set up by a coach for a client, or Session Notes for a client that were
+      NOT marked private
+    - Data that can be accessed in-app by the user who entered it
+    services:
+    - Data delivered by email to other parties as initiated by user action (e.g. a
+      progress report set to send weekly to a designated email recipient)
+    - Data that can be accessed in-app by other users who should see it (e.g. Action
+      items set up by a coach for a client, or Session Notes for a client that were
+      NOT marked private
+    - Data that can be accessed in-app by the user who entered it
+    - for the purpose of making it accessible to authorized users, including but not
+      limited to
+- source: we
+  target: garble version of password
+  key: COLLECT
+  text:
+  - (Well actually we only store a garbled-up version of passwords through the groovy
+    mathematical trick of one-way hashing--we have no idea what your real password
+    is, but when you log in, we sure can compute whether or not you do!)
+  purposes: {}
+- source: cl staff
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - This information is used exclusively by CL staff and exclusively for the purposes
+    of aiding in support, troubleshooting, debugging, and performance tuning.
+  purposes: {}
+- source: coaching loft
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Coaching Loft, like any other web application uses cookies.
+  purposes: {}
+- source: few company
+  target: personal information
+  key: COLLECT
+  text:
+  - 'These companies are authorized to use your personal information only as necessary
+    to provide these services to us, which these services may include:'
+  - While we are the primary custodian and caretaker for your data as entered into
+    Coaching Loft, there are a few companies who will be handling certain parts of
+    your data as a matter of course for us to provide the service.
+  purposes:
+    advertising:
+    - Sending email & SMS communications
+    services:
+    - Providing customer service
+    - Sending email & SMS communications
+    - to provide these services to us, which these services may include
+- source: datum access in app
+  target: session note for client not mark
+  key: SUBSUM
+  text:
+  - 'We capture and store coaching data, as entered by coaches and the people they
+    coach, for the purpose of making it accessible to authorized users, including
+    but not limited to: Data that can be accessed in-app by other users who should
+    see it (e.g. Action items set up by a coach for a client, or Session Notes for
+    a client that were NOT marked private).'
+- source: email address
+  target: generate notification
+  key: SUBSUM
+  text:
+  - 'Specifically, this includes: Sending emails (including system-generated notifications,
+    messages to and from system users, and messages from CL staff to system users).'
+- source: email address
+  target: message
+  key: SUBSUM
+  text:
+  - 'Specifically, this includes: Sending emails (including system-generated notifications,
+    messages to and from system users, and messages from CL staff to system users).'
+- source: email address
+  target: message from cl staff to system user
+  key: SUBSUM
+  text:
+  - 'Specifically, this includes: Sending emails (including system-generated notifications,
+    messages to and from system users, and messages from CL staff to system users).'
+- source: user account information enter
+  target: avatar image
+  key: SUBSUM
+  text:
+  - 'Additional user account information that CAN be optionally entered and stored
+    includes: Avatar image'
+- source: user account information enter
+  target: gender
+  key: SUBSUM
+  text:
+  - 'Additional user account information that CAN be optionally entered and stored
+    includes: Gender'
+- source: user account information enter
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Additional user account information that CAN be optionally entered and stored
+    includes: Telephone numbers'
+- source: user account information enter
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Additional user account information that CAN be optionally entered and stored
+    includes: Address'
+- source: user account information enter
+  target: time zone
+  key: SUBSUM
+  text:
+  - 'Additional user account information that CAN be optionally entered and stored
+    includes: Time zone'
+nodes:
+- type: ACTOR
+  id: cl staff
+- type: ACTOR
+  id: coaching loft
+- type: ACTOR
+  id: few company
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: avatar image
+- type: DATA
+  id: coaching datum
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum access in app
+- type: DATA
+  id: email address
+- type: DATA
+  id: garble version of password
+- type: DATA
+  id: gender
+- type: DATA
+  id: generate notification
+- type: DATA
+  id: message
+- type: DATA
+  id: message from cl staff to system user
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: session note for client not mark
+- type: DATA
+  id: time zone
+- type: DATA
+  id: user account information enter

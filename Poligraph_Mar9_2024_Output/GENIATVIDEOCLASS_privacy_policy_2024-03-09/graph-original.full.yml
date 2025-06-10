@@ -1,0 +1,27 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: geniat
+  target: av pablo neruda
+  key: SUBSUM
+  text:
+  - Personal data collected through this website will be incorporated into a file
+    that is managed and processed by Geniat, SA de CV, a mexican company with business
+    address Av. Pablo Neruda 4341 Local D10 y D11 Villa Universitaria CP 45110,Zapopan,
+    Jalisco Mexico, hereinafter, GENIAT.
+- source: geniat
+  target: d11 villa universitaria cp
+  key: SUBSUM
+  text:
+  - Personal data collected through this website will be incorporated into a file
+    that is managed and processed by Geniat, SA de CV, a mexican company with business
+    address Av. Pablo Neruda 4341 Local D10 y D11 Villa Universitaria CP 45110,Zapopan,
+    Jalisco Mexico, hereinafter, GENIAT.
+nodes:
+- type: ACTOR
+  id: av pablo neruda
+- type: ACTOR
+  id: d11 villa universitaria cp
+- type: ACTOR
+  id: geniat

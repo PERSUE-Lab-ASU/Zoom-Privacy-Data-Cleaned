@@ -1,0 +1,93 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: information on website
+  key: COLLECT
+  text:
+  - We provide all information on our Website free of any access charge other than
+    our charges to Schools.
+  purposes: {}
+- source: we
+  target: content
+  key: SUBSUM
+  text:
+  - You understand that the technical processing and transmission of the Service,
+    including Content, may occur in an unencrypted form if SSL is not enabled on your
+    computer, and result in transmissions over the Internet, which may be intercepted
+    by others.
+- source: we
+  target: operator of website
+  key: SUBSUM
+  text:
+  - '"we," "us," or "our," the operators of the Website.'
+- source: associated login information
+  target: login email
+  key: SUBSUM
+  text:
+  - '"Membership" means an individual''s licence to access our service and associated
+    login information (such as a login email and password), as authorised.'
+  - 'Terms of Service
+
+
+    1. Preliminary
+
+
+    "Member" means an individual''s licence to access our service and associated login
+    information (such as a login email and password), as authorised.'
+- source: associated login information
+  target: password
+  key: SUBSUM
+  text:
+  - '"Membership" means an individual''s licence to access our service and associated
+    login information (such as a login email and password), as authorised.'
+  - 'Terms of Service
+
+
+    1. Preliminary
+
+
+    "Member" means an individual''s licence to access our service and associated login
+    information (such as a login email and password), as authorised.'
+- source: school information
+  target: deadline date
+  key: SUBSUM
+  text:
+  - Generally speaking, our services revolve around providing Members with an online
+    system to facilitate and streamline the admissions, enrolment and re-enrolment
+    process by providing access to School information such as admissions procedures,
+    forms, deadline dates, and other information relevant to the admissions & enrolment
+    process, as well as acting as a communications medium to facilitate the admissions,
+    enrolment and re-enrolment process between Admissions Directors, Staff and Members.
+- source: school information
+  target: information relevant
+  key: SUBSUM
+  text:
+  - Generally speaking, our services revolve around providing Members with an online
+    system to facilitate and streamline the admissions, enrolment and re-enrolment
+    process by providing access to School information such as admissions procedures,
+    forms, deadline dates, and other information relevant to the admissions & enrolment
+    process, as well as acting as a communications medium to facilitate the admissions,
+    enrolment and re-enrolment process between Admissions Directors, Staff and Members.
+nodes:
+- type: ACTOR
+  id: content
+- type: ACTOR
+  id: operator of website
+- type: ACTOR
+  id: we
+- type: DATA
+  id: associated login information
+- type: DATA
+  id: deadline date
+- type: DATA
+  id: information on website
+- type: DATA
+  id: information relevant
+- type: DATA
+  id: login email
+- type: DATA
+  id: password
+- type: DATA
+  id: school information

@@ -1,0 +1,85 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'The types and categories of information we collect about you include:'
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose the personal information that we collect to companies that perform
+    administrative functions for us such as sending The AEP ALERT , the NAEPC Journal
+    of Tax & Estate Planning, and annual statements for At-Large dues and AEP and
+    EPLS Annual Dues & Recertification forms.
+  purposes: {}
+- source: company perform administrative function for we as
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose the personal information that we collect to companies that perform
+    administrative functions for us such as sending The AEP ALERT , the NAEPC Journal
+    of Tax & Estate Planning, and annual statements for At-Large dues and AEP and
+    EPLS Annual Dues & Recertification forms.
+  purposes: {}
+- source: foundation
+  target: council membership information
+  key: COLLECT
+  text:
+  - NAEPC and the Foundation may use council membership information to periodically
+    broadcast newsletters, including national conference announcements.
+  purposes:
+    advertising:
+    - to periodically broadcast newsletters, including national conference announcements
+    services:
+    - to periodically broadcast newsletters, including national conference announcements
+- source: naepc
+  target: council membership information
+  key: COLLECT
+  text:
+  - NAEPC and the Foundation may use council membership information to periodically
+    broadcast newsletters, including national conference announcements.
+  purposes:
+    advertising:
+    - to periodically broadcast newsletters, including national conference announcements
+    services:
+    - to periodically broadcast newsletters, including national conference announcements
+- source: information about transaction with we
+  target: conference registration
+  key: SUBSUM
+  text:
+  - 'The types and categories of information we collect about you include: Information
+    about your transactions with us such as conference registrations.'
+- source: newsletter
+  target: national conference announcement
+  key: SUBSUM
+  text:
+  - NAEPC and the Foundation may use council membership information to periodically
+    broadcast newsletters, including national conference announcements.
+nodes:
+- type: ACTOR
+  id: company perform administrative function for we as
+- type: ACTOR
+  id: foundation
+- type: ACTOR
+  id: naepc
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: conference registration
+- type: DATA
+  id: council membership information
+- type: DATA
+  id: information about transaction with we
+- type: DATA
+  id: national conference announcement
+- type: DATA
+  id: newsletter
+- type: DATA
+  id: personal information

@@ -1,0 +1,183 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We store information in access controlled premises and in electronic databases
+    requiring logins and passwords.
+  purposes: {}
+- source: we
+  target: access to personal information
+  key: COLLECT
+  text:
+  - Where your request for access is accepted, we will provide you with access to
+    your personal information in a manner, as requested by you, providing it is reasonable
+    and practicable to do so.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your personal information to necessary third parties, who assist
+    us to provide, manage and administer our services and products.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - We may disclose your personal information to necessary third parties, who assist
+    us to provide, manage and administer our services and products.
+  purposes: {}
+- source: mitimes
+  target: contact information
+  key: COLLECT
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: contact
+    information such as name, address, email address and telephone numbers;'
+  purposes: {}
+- source: mitimes
+  target: financial detail
+  key: COLLECT
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: financial
+    details, including bank account details and credit card details;'
+  purposes: {}
+- source: mitimes
+  target: information provide include through website
+  key: COLLECT
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: any
+    other information voluntarily provided by you, including through our website.'
+  purposes: {}
+- source: mitimes
+  target: information supply through website enquiry form
+  key: COLLECT
+  text:
+  - Mitimes collects the information voluntarily supplied by you through our website
+    enquiry forms and when we provide our services to you.
+  purposes: {}
+- source: mitimes
+  target: personal information
+  key: COLLECT
+  text:
+  - 'Mitimes Privacy Policy
+
+
+    Personal information is collected, held, used and disclosed by Mitimes for the
+    following purposes:'
+  - Mitimes holds all personal information in electronic and physical form.
+  - Mitimes will only use your personal information for the purposes for which it
+    was collected (" primary purposes ") or a purpose related to the primary purpose,
+    if this use would be reasonably expected by you, or otherwise, with your consent.
+  purposes: {}
+- source: mitimes
+  target: place of employment
+  key: COLLECT
+  text:
+  - 'Mitimes Privacy Policy
+
+
+    Mitimes collects and/or holds the following kinds of personal information: place
+    of employment (as applicable); and'
+  purposes: {}
+- source: contact information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: contact
+    information such as name, address, email address and telephone numbers;'
+- source: contact information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: contact
+    information such as name, address, email address and telephone numbers;'
+- source: contact information
+  target: phone number
+  key: SUBSUM
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: contact
+    information such as name, address, email address and telephone numbers;'
+- source: contact information
+  target: postal address
+  key: SUBSUM
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: contact
+    information such as name, address, email address and telephone numbers;'
+- source: financial detail
+  target: bank account detail
+  key: SUBSUM
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: financial
+    details, including bank account details and credit card details;'
+- source: financial detail
+  target: credit / debit card number
+  key: SUBSUM
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: financial
+    details, including bank account details and credit card details;'
+- source: personal information
+  target: contact information
+  key: SUBSUM
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: contact
+    information such as name, address, email address and telephone numbers;'
+- source: personal information
+  target: financial detail
+  key: SUBSUM
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: financial
+    details, including bank account details and credit card details;'
+- source: personal information
+  target: information provide include through website
+  key: SUBSUM
+  text:
+  - 'Mitimes collects and/or holds the following kinds of personal information: any
+    other information voluntarily provided by you, including through our website.'
+- source: personal information
+  target: place of employment
+  key: SUBSUM
+  text:
+  - 'Mitimes Privacy Policy
+
+
+    Mitimes collects and/or holds the following kinds of personal information: place
+    of employment (as applicable); and'
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: mitimes
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: access to personal information
+- type: DATA
+  id: bank account detail
+- type: DATA
+  id: contact information
+- type: DATA
+  id: credit / debit card number
+- type: DATA
+  id: email address
+- type: DATA
+  id: financial detail
+- type: DATA
+  id: information provide include through website
+- type: DATA
+  id: information supply through website enquiry form
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: place of employment
+- type: DATA
+  id: postal address

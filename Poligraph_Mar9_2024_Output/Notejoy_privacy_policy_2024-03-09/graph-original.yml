@@ -1,0 +1,275 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We collect your data in order to:'
+  purposes:
+    advertising:
+    - 'to: Provide, test, promote, and improve Notejoy Services'
+    analytics:
+    - 'to: Gather usage statistics of Notejoy Services'
+    - 'to: Provide, test, promote, and improve Notejoy Services'
+    security:
+    - 'to: Fight spam, fraud, and other abuse of Notejoy Services'
+    services:
+    - 'to: Provide a customized product experience'
+    - 'to: Provide, test, promote, and improve Notejoy Services'
+- source: we
+  target: cache copy of datum about you
+  key: COLLECT
+  text:
+  - To protect data from accidental or malicious destruction, we may also retain cached
+    or archived copies of data about you for a certain period of time.
+  purposes:
+    security:
+    - To protect data from accidental or malicious destruction
+- source: we
+  target: contact list
+  key: COLLECT
+  text:
+  - In addition to this, when you create your Notejoy account, and authenticate via
+    a third-party service, we may collect, store, and periodically update the contact
+    lists associated with that third-party account, so you can connect with existing
+    contacts from that service who are on Notejoy.
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We use cookies and similar technologies such as pixels and local storage to recognize
+    you when you return to Notejoy Services.
+  purposes:
+    services:
+    - to recognize you when you return to Notejoy Services
+- source: we
+  target: encryption
+  key: COLLECT
+  text:
+  - We use encryption (HTTPS/TLS) to protect data transmitted to and from our site.
+  purposes:
+    security:
+    - to protect data transmitted to and from our site
+- source: we
+  target: event log
+  key: COLLECT
+  text:
+  - 'We maintain two types of logs: server logs and event logs.'
+  purposes: {}
+- source: we
+  target: minimal datum
+  key: COLLECT
+  text:
+  - We share minimal data with our service providers.
+  purposes: {}
+- source: we
+  target: minimal personal datum
+  key: COLLECT
+  text:
+  - We share minimal personal data with third-party processors in order to provide
+    Notejoy Services.
+  purposes:
+    services:
+    - in order to provide Notejoy Services
+- source: we
+  target: personal datum we process on behalf of customer
+  key: COLLECT
+  text:
+  - We will retain personal data we process on behalf of our customers as directed
+    by paying customers.
+  purposes: {}
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - We collect and store personal data about you in order to provide our collaborative
+    notes service.
+  - 'We may collect the following personal data about you:'
+  - 'We may share your personal data with third parties in limited circumstances,
+    including: (1) with your consent; (2) to a vendor or partner who meets our data
+    protection standards; or (3) when we have a good faith belief it is required by
+    law, such as pursuant to a subpoena or other legal process.'
+  purposes:
+    services:
+    - in order to provide our collaborative notes service
+    - to provide our collaborative notes service
+- source: we
+  target: server log
+  key: COLLECT
+  text:
+  - 'We maintain two types of logs: server logs and event logs.'
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We don't control what data third parties collect in cases like this, or what they
+    will do with it.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: minimal personal datum
+  key: COLLECT
+  text:
+  - We share minimal personal data with third-party processors in order to provide
+    Notejoy Services.
+  purposes:
+    services:
+    - in order to provide Notejoy Services
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may share your personal data with third parties in limited circumstances,
+    including: (1) with your consent; (2) to a vendor or partner who meets our data
+    protection standards; or (3) when we have a good faith belief it is required by
+    law, such as pursuant to a subpoena or other legal process.'
+  purposes: {}
+- source: company act as payment processor
+  target: business datum
+  key: COLLECT
+  text:
+  - Companies acting as our payment processors may collect and store personal data
+    related to your billing information and history in order to provide their services,
+    and may collect and store personal data and business data to prevent fraud and
+    other abuse.
+  purposes:
+    security:
+    - to prevent fraud and other abuse
+- source: company act as payment processor
+  target: personal datum relate to billing information
+  key: COLLECT
+  text:
+  - Companies acting as our payment processors may collect and store personal data
+    related to your billing information and history in order to provide their services,
+    and may collect and store personal data and business data to prevent fraud and
+    other abuse.
+  purposes:
+    services:
+    - in order to provide their services
+- source: company act as payment processor
+  target: personal information
+  key: COLLECT
+  text:
+  - Companies acting as our payment processors may collect and store personal data
+    related to your billing information and history in order to provide their services,
+    and may collect and store personal data and business data to prevent fraud and
+    other abuse.
+  purposes:
+    security:
+    - to prevent fraud and other abuse
+- source: embed
+  target: personal information
+  key: COLLECT
+  text:
+  - Some embeds may request your personal data, such as an email address, through
+    a form.
+  purposes: {}
+- source: notejoy
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - By using Notejoy Services, you authorize Notejoy to transfer, store, and use your
+    data in the United States and any other country where we operate.
+  - By using Notejoy Services, you authorize Notejoy to transfer, store, and use your
+    information in the United States and any other country where we operate.
+  purposes: {}
+- source: notejoy
+  target: personal datum associate with account
+  key: COLLECT
+  text:
+  - Notejoy retains personal data associated with your account for the lifetime of
+    your account.
+  purposes:
+    services:
+    - for the lifetime of your account
+- source: notejoy
+  target: personal datum we process on behalf of customer
+  key: COLLECT
+  text:
+  - Notejoy will retain this personal data as necessary to comply with legal obligations,
+    resolve disputes, and enforce agreements.
+  - We will retain personal data we process on behalf of our customers as directed
+    by paying customers.
+  purposes:
+    legal:
+    - to comply with legal obligations, resolve disputes, and enforce agreements
+- source: notejoy
+  target: personal information
+  key: COLLECT
+  text:
+  - In order to provide Notejoy Services, Notejoy collects and stores personal data
+    about its users on the legal basis of consent given when you create an account
+    and agree to the Privacy Policy.
+  purposes:
+    services:
+    - In order to provide Notejoy Services
+- source: service provider
+  target: minimal datum
+  key: COLLECT
+  text:
+  - We share minimal data with our service providers.
+  purposes: {}
+- source: youtube
+  target: datum about activity
+  key: COLLECT
+  text:
+  - These files send data to the hosted site just as if you were visiting that site
+    directly (for example, when you load a Notejoy page with a YouTube video embedded
+    in it, YouTube receives data about your activity).
+  purposes: {}
+- source: personal information
+  target: email address
+  key: SUBSUM
+  text:
+  - Some embeds may request your personal data, such as an email address, through
+    a form.
+nodes:
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: company act as payment processor
+- type: ACTOR
+  id: embed
+- type: ACTOR
+  id: notejoy
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: we
+- type: ACTOR
+  id: youtube
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: business datum
+- type: DATA
+  id: cache copy of datum about you
+- type: DATA
+  id: contact list
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: datum about activity
+- type: DATA
+  id: email address
+- type: DATA
+  id: encryption
+- type: DATA
+  id: event log
+- type: DATA
+  id: minimal datum
+- type: DATA
+  id: minimal personal datum
+- type: DATA
+  id: personal datum associate with account
+- type: DATA
+  id: personal datum relate to billing information
+- type: DATA
+  id: personal datum we process on behalf of customer
+- type: DATA
+  id: personal information
+- type: DATA
+  id: server log

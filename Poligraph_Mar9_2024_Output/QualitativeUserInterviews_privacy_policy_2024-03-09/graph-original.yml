@@ -1,0 +1,382 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - We collect information about your use of our Site, such as the pages you view
+    and other interactions you have.
+  - We collect, process, and retain information from you and any devices you may use
+    when you use or interact with our Site and Services, and in other ways described
+    below.
+  - We receive and store any information clients enter on the Site, through the Services,
+    or provide to us in any other way.
+  - We use your information to help us personalize and continually improve your experience
+    on the Site, including fulfilling requests for information, analyzing and compiling
+    trends and statistics, and communicating with you.
+  purposes:
+    analytics:
+    - to help us personalize and continually improve your experience on the Site,
+      including fulfilling requests for information, analyzing and compiling trends
+      and statistics, and communicating with you
+    services:
+    - to help us personalize and continually improve your experience on the Site,
+      including fulfilling requests for information, analyzing and compiling trends
+      and statistics, and communicating with you
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Our Site uses "cookies," tagging and other tracking technologies to help enable
+    us to enhance or personalize your online browsing experience.
+  purposes:
+    services:
+    - to help enable us to enhance or personalize your online browsing experience
+- source: we
+  target: information about client
+  key: COLLECT
+  text:
+  - To improve our Services, we may receive information about clients from other sources
+    and add it to our account information.
+  purposes:
+    services:
+    - To improve our Services
+- source: we
+  target: information about participant
+  key: COLLECT
+  text:
+  - We collect information about Participants at our clients' direction.
+  purposes: {}
+- source: we
+  target: information about use
+  key: COLLECT
+  text:
+  - We may automatically collect information about your use, navigation of, and interactions
+    with our clients' applications, websites, or other online services when our client
+    has installed our technology on its properties.
+  purposes: {}
+- source: we
+  target: information you enter on site
+  key: COLLECT
+  text:
+  - We receive and store information you enter on our Site or give us in any other
+    way, including your name, mailing address, phone number, email address, and payment
+    information, as well as company name, and colleagues' names and email addresses.
+  purposes: {}
+- source: we
+  target: participant information collect from client be
+  key: COLLECT
+  text:
+  - We may share Participant information collected from our clients that is related
+    to such transactions with those affiliated businesses.
+  purposes: {}
+- source: we
+  target: personal identifier
+  key: COLLECT
+  text:
+  - The PII we collect may include name, phone number, or email address, which you
+    may have provided to our client.
+  - We also may be required to disclose an individual's PII in response to a lawful
+    request by public authorities, including to meet national security or law enforcement
+    requirements.
+  - We may release PII when we in our sole discretion believe in good faith that release
+    is necessary or appropriate to comply with the law, enforce or apply our conditions
+    of use and other agreements, or protect the rights, property, or safety of Qualitative.io,
+    our employees, our clients, or others.
+  purposes: {}
+- source: we
+  target: record
+  key: COLLECT
+  text:
+  - If clients contact us via email, we may retain a record of their contact information
+    and any information they provide us in their messages to respond to them.
+  purposes: {}
+- source: we
+  target: report on activity
+  key: COLLECT
+  text:
+  - Google Analytics uses cookies or other tracking technologies to help us analyze
+    how users interact with and use the Site, compile reports on the Site's activity,
+    and provide other services related to Site activity and usage.
+  purposes: {}
+- source: we
+  target: tagging
+  key: COLLECT
+  text:
+  - Our Site uses "cookies," tagging and other tracking technologies to help enable
+    us to enhance or personalize your online browsing experience.
+  purposes:
+    services:
+    - to help enable us to enhance or personalize your online browsing experience
+- source: we
+  target: type of information
+  key: COLLECT
+  text:
+  - We receive and store certain types of information whenever you interact with our
+    Site.
+  purposes: {}
+- source: Google
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Google Analytics uses cookies or other tracking technologies to help us analyze
+    how users interact with and use the Site, compile reports on the Site's activity,
+    and provide other services related to Site activity and usage.
+  purposes:
+    analytics:
+    - to help us analyze how users interact with and use the Site, compile reports
+      on the Site's activity, and provide other services related to Site activity
+      and usage
+- source: Google
+  target: information generate
+  key: COLLECT
+  text:
+  - The information generated by Google Analytics will be transmitted to and stored
+    by Google and will be subject to Google's privacy policies.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: client information
+  key: COLLECT
+  text:
+  - We employ other companies and people to perform tasks on our behalf and need to
+    share client and Participant information with them to provide products and services.
+  purposes:
+    services:
+    - to perform tasks on our behalf
+    - to provide products and services
+- source: UNSPECIFIED_ACTOR
+  target: participant information
+  key: COLLECT
+  text:
+  - Participant information may be transferred to another entity, its affiliates,
+    or service providers in connection with the transaction.
+  purposes: {}
+- source: UNSPECIFIED_ACTOR
+  target: personal information
+  key: COLLECT
+  text:
+  - These entities may have access to personal information if needed to perform their
+    functions for Qualitative.io.
+  purposes: {}
+- source: affiliated business
+  target: participant information collect from client be
+  key: COLLECT
+  text:
+  - Qualitative.io may provide services or sell products jointly with affiliated businesses.
+  - We may share Participant information collected from our clients that is related
+    to such transactions with those affiliated businesses.
+  purposes: {}
+- source: qualitative.io
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - Like most internet sites, Qualitative.io uses cookies to enhance our users' experience
+    on the internet.
+  purposes:
+    services:
+    - to enhance our users' experience on the internet
+- source: qualitative.io
+  target: personal identifier
+  key: COLLECT
+  text:
+  - In the course of providing Services to our clients, Qualitative.io collects personally
+    identifiable information ("PII") about Participants of our clients.
+  - Qualitative.io uses this information to provide our Services to our clients.
+  purposes:
+    services:
+    - to provide our Services to our clients
+- source: qualitative.io
+  target: personal information
+  key: COLLECT
+  text:
+  - Qualitative.io will use personal information only in ways that are compatible
+    with the purposes for which it was collected or subsequently authorized by the
+    individual.
+  purposes: {}
+- source: qualitative.io
+  target: standard web log datum
+  key: COLLECT
+  text:
+  - Qualitative.io retains standard web log data 5 years after you visit a client's
+    website, and aggregations and reports for up to 10 years after you visit a client's
+    website.
+  purposes: {}
+- source: service provider
+  target: participant information
+  key: COLLECT
+  text:
+  - Participant information may be transferred to another entity, its affiliates,
+    or service providers in connection with the transaction.
+  purposes: {}
+- source: technology use
+  target: ip address
+  key: COLLECT
+  text:
+  - The technologies used by Google may collect information such as your IP address,
+    time of visit, whether you are a return visitor, and any referring website.
+  purposes: {}
+- source: technology use
+  target: time of visit
+  key: COLLECT
+  text:
+  - The technologies used by Google may collect information such as your IP address,
+    time of visit, whether you are a return visitor, and any referring website.
+  purposes: {}
+- source: we
+  target: qualitative
+  key: SUBSUM
+  text:
+  - This privacy policy describes the information Qualitative, LLC d/b/a Qualitative.io
+    ("we" or "us") collect from Participants ("you") of our website (the "Site") and
+    the information we collect on behalf of our clients who employ our technology
+    to use our participant recruitment, research scheduling, and other services (the
+    "Services").
+- source: information you enter on site
+  target: company name
+  key: SUBSUM
+  text:
+  - We receive and store information you enter on our Site or give us in any other
+    way, including your name, mailing address, phone number, email address, and payment
+    information, as well as company name, and colleagues' names and email addresses.
+- source: information you enter on site
+  target: email address
+  key: SUBSUM
+  text:
+  - We receive and store information you enter on our Site or give us in any other
+    way, including your name, mailing address, phone number, email address, and payment
+    information, as well as company name, and colleagues' names and email addresses.
+- source: information you enter on site
+  target: payment information
+  key: SUBSUM
+  text:
+  - We receive and store information you enter on our Site or give us in any other
+    way, including your name, mailing address, phone number, email address, and payment
+    information, as well as company name, and colleagues' names and email addresses.
+- source: information you enter on site
+  target: person name
+  key: SUBSUM
+  text:
+  - We receive and store information you enter on our Site or give us in any other
+    way, including your name, mailing address, phone number, email address, and payment
+    information, as well as company name, and colleagues' names and email addresses.
+- source: information you enter on site
+  target: phone number
+  key: SUBSUM
+  text:
+  - We receive and store information you enter on our Site or give us in any other
+    way, including your name, mailing address, phone number, email address, and payment
+    information, as well as company name, and colleagues' names and email addresses.
+- source: information you enter on site
+  target: postal address
+  key: SUBSUM
+  text:
+  - We receive and store information you enter on our Site or give us in any other
+    way, including your name, mailing address, phone number, email address, and payment
+    information, as well as company name, and colleagues' names and email addresses.
+- source: personal identifier
+  target: email address
+  key: SUBSUM
+  text:
+  - The PII we collect may include name, phone number, or email address, which you
+    may have provided to our client.
+- source: personal identifier
+  target: person name
+  key: SUBSUM
+  text:
+  - The PII we collect may include name, phone number, or email address, which you
+    may have provided to our client.
+- source: personal identifier
+  target: phone number
+  key: SUBSUM
+  text:
+  - The PII we collect may include name, phone number, or email address, which you
+    may have provided to our client.
+- source: personal information
+  target: ideological view
+  key: SUBSUM
+  text:
+  - For the purposes of data received from Switzerland under the Swiss-U.S. Data Privacy
+    Framework, personal information also includes ideological views or activities,
+    information on social security measures or administrative or criminal proceedings
+    and sanctions.
+- source: personal information
+  target: information on social security measure
+  key: SUBSUM
+  text:
+  - For the purposes of data received from Switzerland under the Swiss-U.S. Data Privacy
+    Framework, personal information also includes ideological views or activities,
+    information on social security measures or administrative or criminal proceedings
+    and sanctions.
+nodes:
+- type: ACTOR
+  id: Google
+- type: ACTOR
+  id: UNSPECIFIED_ACTOR
+- type: ACTOR
+  id: affiliated business
+- type: ACTOR
+  id: qualitative
+- type: ACTOR
+  id: qualitative.io
+- type: ACTOR
+  id: service provider
+- type: ACTOR
+  id: technology use
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: client information
+- type: DATA
+  id: company name
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: ideological view
+- type: DATA
+  id: information about client
+- type: DATA
+  id: information about participant
+- type: DATA
+  id: information about use
+- type: DATA
+  id: information generate
+- type: DATA
+  id: information on social security measure
+- type: DATA
+  id: information you enter on site
+- type: DATA
+  id: ip address
+- type: DATA
+  id: participant information
+- type: DATA
+  id: participant information collect from client be
+- type: DATA
+  id: payment information
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal identifier
+- type: DATA
+  id: personal information
+- type: DATA
+  id: phone number
+- type: DATA
+  id: postal address
+- type: DATA
+  id: record
+- type: DATA
+  id: report on activity
+- type: DATA
+  id: standard web log datum
+- type: DATA
+  id: tagging
+- type: DATA
+  id: time of visit
+- type: DATA
+  id: type of information

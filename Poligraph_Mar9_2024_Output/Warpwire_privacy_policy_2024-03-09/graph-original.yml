@@ -1,0 +1,170 @@
+directed: true
+multigraph: true
+graph: {}
+links:
+- source: we
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'The types of information we collect include, but are not limited to:'
+  purposes: {}
+- source: we
+  target: authorized user information
+  key: COLLECT
+  text:
+  - 'The types of information we collect include, but are not limited to: We collect
+    authorized User information including first and last name, username, institution
+    ID, and email address when you login to the Application.'
+  purposes: {}
+- source: we
+  target: cookie / pixel tag
+  key: COLLECT
+  text:
+  - We may use both session cookies (which expire once you close your web browser)
+    and persistent cookies (which stay on your computer until you delete them) when
+    you interact with Warpwire through our Website, any emails we send you, any of
+    our social media accounts, or through interaction with our Application.
+  - We use cookies to provide you with a more personal and interactive experience
+    on our Website and/or Application.
+  purposes:
+    services:
+    - to provide you with a more personal and interactive experience on our Website
+      and/or Application
+- source: we
+  target: personal information
+  key: COLLECT
+  text:
+  - 'We may use your personal information from the Website or Application in the following
+    ways:'
+  - 'We only share your Personal Information in the following ways:'
+  purposes:
+    analytics:
+    - For other business purposes, including data analysis, usage statistics, and
+      improving Warpwire services
+    services:
+    - For other business purposes, including data analysis, usage statistics, and
+      improving Warpwire services
+    - to perform needed services
+- source: we
+  target: user behavior information
+  key: COLLECT
+  text:
+  - 'The types of information we collect include, but are not limited to: We collect
+    User behavior information in audit logs to provide Clients with analytical data
+    related to use, performance, and security of the Application.'
+  purposes:
+    analytics:
+    - to provide Clients with analytical data related to use, performance, and security
+      of the Application
+    security:
+    - to provide Clients with analytical data related to use, performance, and security
+      of the Application
+- source: client
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - 'We may use your personal information from the Website or Application in the following
+    ways: To provide usage data, billing notices, or other information to Clients.'
+  purposes: {}
+- source: client
+  target: information upload
+  key: COLLECT
+  text:
+  - All information uploaded and stored on each instance of our Application is maintained
+    by our Clients.
+  purposes: {}
+- source: client
+  target: internet activity
+  key: COLLECT
+  text:
+  - 'We may use your personal information from the Website or Application in the following
+    ways: To provide usage data, billing notices, or other information to Clients.'
+  purposes: {}
+- source: warpwire
+  target: UNSPECIFIED_DATA
+  key: COLLECT
+  text:
+  - Additionally, Warpwire collects information during API interactions with our Application.
+  purposes: {}
+- source: warpwire
+  target: contact information
+  key: COLLECT
+  text:
+  - 'The types of information we collect include, but are not limited to: Warpwire
+    maintains the contact and billing information of the Client institution for business
+    transaction purposes.'
+  purposes:
+    services:
+    - for business transaction purposes
+- source: warpwire
+  target: personal information
+  key: COLLECT
+  text:
+  - Warpwire also collects personal information with Clients or individual Users contact
+    our support team to request assistance.
+  - Warpwire may collect your personal information when you visit our website, social
+    media accounts, or communicate with us via email, contact forms, or social media
+    posts.
+  - Warpwire may collect your personal information when you visit, login, or use our
+    Application, whether it is through a Client instance and authentication system,
+    or through a test environment or pilot instance.
+  purposes: {}
+- source: authorized user information
+  target: email address
+  key: SUBSUM
+  text:
+  - 'The types of information we collect include, but are not limited to: We collect
+    authorized User information including first and last name, username, institution
+    ID, and email address when you login to the Application.'
+- source: authorized user information
+  target: institution id
+  key: SUBSUM
+  text:
+  - 'The types of information we collect include, but are not limited to: We collect
+    authorized User information including first and last name, username, institution
+    ID, and email address when you login to the Application.'
+- source: authorized user information
+  target: person name
+  key: SUBSUM
+  text:
+  - 'The types of information we collect include, but are not limited to: We collect
+    authorized User information including first and last name, username, institution
+    ID, and email address when you login to the Application.'
+- source: authorized user information
+  target: username
+  key: SUBSUM
+  text:
+  - 'The types of information we collect include, but are not limited to: We collect
+    authorized User information including first and last name, username, institution
+    ID, and email address when you login to the Application.'
+nodes:
+- type: ACTOR
+  id: client
+- type: ACTOR
+  id: warpwire
+- type: ACTOR
+  id: we
+- type: DATA
+  id: UNSPECIFIED_DATA
+- type: DATA
+  id: authorized user information
+- type: DATA
+  id: contact information
+- type: DATA
+  id: cookie / pixel tag
+- type: DATA
+  id: email address
+- type: DATA
+  id: information upload
+- type: DATA
+  id: institution id
+- type: DATA
+  id: internet activity
+- type: DATA
+  id: person name
+- type: DATA
+  id: personal information
+- type: DATA
+  id: user behavior information
+- type: DATA
+  id: username
